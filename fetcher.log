@@ -5044,3 +5044,186 @@ AssertionError: tmp/verify4py-test-0.1.7.tar.gz does not exist
 [2023-07-20 12:12:31] INFO root fetch - processPackages [bokeh]: Remove: archive file [/home/abi/fetcher/tmp/bokeh-3.3.0.dev1.tar.gz]
 [2023-07-20 12:12:31] INFO root fetch - main [MainThread]: End processing [bokeh]: success
 [2023-07-20 12:12:31] INFO root fetch - main [MainThread]: Store serial: [18964929]
+[2023-07-20 12:17:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18964929]
+[2023-07-20 12:17:40] INFO root fetch - main [MainThread]: Found 26 changed packages
+[2023-07-20 12:17:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pollination-annual-daylight.viz
+[2023-07-20 12:17:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: zq-tools
+[2023-07-20 12:17:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: apkg
+[2023-07-20 12:17:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: atomicshop
+[2023-07-20 12:17:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo14-addon-ssi-source-document-mixin
+[2023-07-20 12:17:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo14-addon-test-ssi-sequence-mixin
+[2023-07-20 12:17:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo14-addon-test-ssi-policy-mixin
+[2023-07-20 12:17:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo14-addon-test-ssi-product-line-mixin
+[2023-07-20 12:17:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo14-addon-ssi-salesperson-mixin
+[2023-07-20 12:17:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo14-addon-ssi-related-attachment-mixin
+[2023-07-20 12:17:41] WARNING root fetch - processPackages [odoo14-addon-test-ssi-product-line-mixin]: Skipping, unable to determine old version
+[2023-07-20 12:17:41] INFO root fetch - processPackages [odoo14-addon-test-ssi-product-line-mixin]: Start processing: voicemeeter-api
+[2023-07-20 12:17:41] INFO root fetch - main [MainThread]: End processing [odoo14-addon-test-ssi-product-line-mixin] error
+[2023-07-20 12:17:41] INFO root fetch - processPackages [pollination-annual-daylight.viz]: New version: [0.10.9] Old Version: [0.10.8]
+[2023-07-20 12:17:41] WARNING root fetch - processPackages [odoo14-addon-ssi-related-attachment-mixin]: Skipping, unable to determine old version
+[2023-07-20 12:17:41] INFO root fetch - processPackages [odoo14-addon-ssi-related-attachment-mixin]: Start processing: quickBayes
+[2023-07-20 12:17:41] INFO root fetch - main [MainThread]: End processing [odoo14-addon-ssi-related-attachment-mixin] error
+[2023-07-20 12:17:41] INFO root fetch - processPackages [atomicshop]: New version: [1.9.0] Old Version: [1.8.9]
+[2023-07-20 12:17:41] WARNING root fetch - processPackages [odoo14-addon-test-ssi-policy-mixin]: Skipping, unable to determine old version
+[2023-07-20 12:17:41] INFO root fetch - processPackages [odoo14-addon-test-ssi-policy-mixin]: Start processing: odoo14-addon-test-ssi-multiple-approval-mixin
+[2023-07-20 12:17:41] INFO root fetch - main [MainThread]: End processing [odoo14-addon-test-ssi-policy-mixin] error
+[2023-07-20 12:17:41] INFO root fetch - processPackages [zq-tools]: New version: [1.0.0] Old Version: [0.9.9]
+[2023-07-20 12:17:41] WARNING root fetch - processPackages [odoo14-addon-test-ssi-sequence-mixin]: Skipping, unable to determine old version
+[2023-07-20 12:17:41] WARNING root fetch - processPackages [odoo14-addon-ssi-salesperson-mixin]: Skipping, unable to determine old version
+[2023-07-20 12:17:41] INFO root fetch - processPackages [odoo14-addon-test-ssi-sequence-mixin]: Start processing: iitkgp-erp-login
+[2023-07-20 12:17:41] INFO root fetch - main [MainThread]: End processing [odoo14-addon-test-ssi-sequence-mixin] error
+[2023-07-20 12:17:41] INFO root fetch - processPackages [odoo14-addon-ssi-salesperson-mixin]: Start processing: odoo14-addon-ssi-state-change-constrain-mixin
+[2023-07-20 12:17:41] INFO root fetch - main [MainThread]: End processing [odoo14-addon-ssi-salesperson-mixin] error
+[2023-07-20 12:17:41] INFO root fetch - processPackages [apkg]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-07-20 12:17:41] WARNING root fetch - processPackages [odoo14-addon-ssi-source-document-mixin]: Skipping, unable to determine old version
+[2023-07-20 12:17:41] INFO root fetch - processPackages [odoo14-addon-ssi-source-document-mixin]: Start processing: quao
+[2023-07-20 12:17:41] INFO root fetch - main [MainThread]: End processing [odoo14-addon-ssi-source-document-mixin] error
+[2023-07-20 12:17:41] INFO root fetch - processPackages [iitkgp-erp-login]: New version: [2.0.1] Old Version: [2.0.0]
+[2023-07-20 12:17:41] INFO root fetch - processPackages [voicemeeter-api]: New version: [2.3.4] Old Version: [2.3.3]
+[2023-07-20 12:17:41] WARNING root fetch - processPackages [odoo14-addon-test-ssi-multiple-approval-mixin]: Skipping, unable to determine old version
+[2023-07-20 12:17:41] INFO root fetch - processPackages [odoo14-addon-test-ssi-multiple-approval-mixin]: Start processing: logger-local
+[2023-07-20 12:17:41] INFO root fetch - main [MainThread]: End processing [odoo14-addon-test-ssi-multiple-approval-mixin] error
+[2023-07-20 12:17:41] INFO root fetch - processPackages [quickBayes]: New version: [1.0.0b9] Old Version: [1.0.0b8]
+[2023-07-20 12:17:41] WARNING root fetch - processPackages [odoo14-addon-ssi-state-change-constrain-mixin]: Skipping, unable to determine old version
+[2023-07-20 12:17:41] INFO root fetch - processPackages [odoo14-addon-ssi-state-change-constrain-mixin]: Start processing: rtx-deep
+[2023-07-20 12:17:41] INFO root fetch - main [MainThread]: End processing [odoo14-addon-ssi-state-change-constrain-mixin] error
+[2023-07-20 12:17:41] INFO root fetch - processPackages [quao]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-20 12:17:41] INFO root fetch - processPackages [logger-local]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-20 12:17:41] INFO root fetch - processPackages [rtx-deep]: New version: [1.4.2] Old Version: [1.4.1]
+[2023-07-20 12:17:41] INFO root fetch - processPackages [atomicshop]: Downloading https://files.pythonhosted.org/packages/b4/1e/7daccece47bd79e92be68fbc03a572afb20d5e10a88d5c4e9fb13c5b6632/atomicshop-1.8.9-py3-none-any.whl
+[2023-07-20 12:17:41] INFO root fetch - processPackages [logger-local]: Downloading https://files.pythonhosted.org/packages/21/e1/7a45a748162f16f488c16187a0b07c25201df5531bf12da29ff61c6d7db5/logger-local-0.0.8.tar.gz
+[2023-07-20 12:17:41] INFO root fetch - processPackages [quao]: Downloading https://files.pythonhosted.org/packages/53/04/d819ae61d912cd518f07ed4fe988afc31cb80ed329759b5ef911477d9307/quao-0.3.8.tar.gz
+[2023-07-20 12:17:41] INFO root fetch - processPackages [pollination-annual-daylight.viz]: Downloading https://files.pythonhosted.org/packages/9b/07/8ae5b1660da808ce1aec5c1b439db899fe2ca9f83369077cb6c685c1bc2b/pollination-annual-daylight.viz-0.10.8.tar.gz
+[2023-07-20 12:17:41] INFO root fetch - processPackages [zq-tools]: Downloading https://files.pythonhosted.org/packages/94/24/a0bddc3415bf3f4d29efdf22f2f44e0c8bd17837def4b5c8fac423fdd655/zq-tools-0.9.9.tar.gz
+[2023-07-20 12:17:41] INFO root fetch - processPackages [iitkgp-erp-login]: Downloading https://files.pythonhosted.org/packages/f8/61/b5ec338d5e88f1cad2f02993ff302ae8600d293abee65d92033411eded15/iitkgp_erp_login-2.0.0.tar.gz
+[2023-07-20 12:17:41] INFO root fetch - processPackages [apkg]: Downloading https://files.pythonhosted.org/packages/c9/65/6fe21c930913b30304c73b394f0400fd37ee2314937c4b8e1ceab5967db4/apkg-0.4.0.tar.gz
+[2023-07-20 12:17:41] INFO root fetch - processPackages [voicemeeter-api]: Downloading https://files.pythonhosted.org/packages/b8/ad/7b6e5b9721e937bc21be7eec0871738203d50f1feee004b5ecc9c9f72e70/voicemeeter_api-2.3.3.tar.gz
+[2023-07-20 12:17:41] INFO root fetch - processPackages [quickBayes]: Downloading https://files.pythonhosted.org/packages/8b/eb/c50405c59fb78eb821b0d3f2b6b32b33666e3008d84329a5475e7ce714ea/quickBayes-1.0.0b8-cp38-cp38-win_amd64.whl
+[2023-07-20 12:17:41] INFO root fetch - processPackages [rtx-deep]: Downloading https://files.pythonhosted.org/packages/52/b3/353fc7ac9353346e962971319b4b35233118d0555b45f6413aec9b176796/rtx_deep-1.4.1-py39-none-any.whl
+[2023-07-20 12:17:41] INFO root fetch - processPackages [quao]: Downloading https://files.pythonhosted.org/packages/53/9f/0abd8df4984f2e14eb4aeabf0982e954c9b6858c1b06dd12cf64a30fa1e6/quao-0.3.9.tar.gz
+[2023-07-20 12:17:41] INFO root fetch - processPackages [logger-local]: Downloading https://files.pythonhosted.org/packages/2d/a9/d7815ae572e09b03370b309ad1bf127cf7c8f4c91b3ddd26fd0043a2e559/logger-local-0.0.9.tar.gz
+[2023-07-20 12:17:42] INFO root fetch - processPackages [atomicshop]: Downloading https://files.pythonhosted.org/packages/51/1d/590af4a7ef5b186ee8f92edab5ec2a02b44d46f130bfa6794dbcf9a53b7d/atomicshop-1.9.0-py3-none-any.whl
+[2023-07-20 12:17:42] INFO root fetch - processPackages [pollination-annual-daylight.viz]: Downloading https://files.pythonhosted.org/packages/24/ea/f2cf4a141804c514c92fa609a73e2d7f861cef874899130476ccc6b08f0a/pollination-annual-daylight.viz-0.10.9.tar.gz
+[2023-07-20 12:17:42] INFO root fetch - processPackages [quao]: executing diffoscope
+[2023-07-20 12:17:42] INFO root fetch - processPackages [quao]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quao-0.3.8.tar.gz tmp/quao-0.3.9.tar.gz --markdown 20230720/q/quao/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-20 12:17:42] INFO root fetch - processPackages [zq-tools]: Downloading https://files.pythonhosted.org/packages/c9/21/8da34521a9a4d8d118bee02c293ce8b7348b8ea7f63db2ac1a3cdab1c2d6/zq-tools-1.0.0.tar.gz
+[2023-07-20 12:17:42] INFO root fetch - processPackages [iitkgp-erp-login]: Downloading https://files.pythonhosted.org/packages/dc/c2/961d990f0a5e2dcf5283bcc443d82b2d201ed237cf0a1dbc6c8e85ac1b67/iitkgp_erp_login-2.0.1.tar.gz
+[2023-07-20 12:17:42] INFO root fetch - processPackages [rtx-deep]: Downloading https://files.pythonhosted.org/packages/cb/30/ea8408be5bcdbf2e56083ff72bef319ea01338b76e2f3b564764bd890a80/rtx_deep-1.4.2-py39-none-any.whl
+[2023-07-20 12:17:42] INFO root fetch - processPackages [voicemeeter-api]: Downloading https://files.pythonhosted.org/packages/59/25/831dcb120f255a317bb7a8ef42c4748141edbc5ef10956deda7be55def92/voicemeeter_api-2.3.4.tar.gz
+[2023-07-20 12:17:42] INFO root fetch - processPackages [pollination-annual-daylight.viz]: executing diffoscope
+[2023-07-20 12:17:42] INFO root fetch - processPackages [pollination-annual-daylight.viz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pollination-annual-daylight.viz-0.10.8.tar.gz tmp/pollination-annual-daylight.viz-0.10.9.tar.gz --markdown 20230720/p/pollination-annual-daylight.viz/0.10.8-0.10.9/diff.md --exclude *.pyd
+[2023-07-20 12:17:42] INFO root fetch - processPackages [apkg]: Downloading https://files.pythonhosted.org/packages/7e/83/7b900f4c68ea2ea641720bc4177691a7fdf1f5d87e1623d0cc8000462a6f/apkg-0.4.1.tar.gz
+[2023-07-20 12:17:42] INFO root fetch - processPackages [atomicshop]: executing diffoscope
+[2023-07-20 12:17:42] INFO root fetch - processPackages [atomicshop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atomicshop-1.8.9-py3-none-any.whl.zip tmp/atomicshop-1.9.0-py3-none-any.whl.zip --markdown 20230720/a/atomicshop/1.8.9-1.9.0/diff.md --exclude *.pyd
+[2023-07-20 12:17:42] INFO root fetch - processPackages [logger-local]: executing diffoscope
+[2023-07-20 12:17:42] INFO root fetch - processPackages [logger-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/logger-local-0.0.8.tar.gz tmp/logger-local-0.0.9.tar.gz --markdown 20230720/l/logger-local/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-20 12:17:42] INFO root fetch - processPackages [quickBayes]: Downloading https://files.pythonhosted.org/packages/b0/7f/767cc2672c5569efbacfc1a4316892fc588f9699eac7c412ae5602bb5d5f/quickBayes-1.0.0b9-cp39-cp39-win_amd64.whl
+[2023-07-20 12:17:42] INFO root fetch - processPackages [zq-tools]: executing diffoscope
+[2023-07-20 12:17:42] INFO root fetch - processPackages [zq-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zq-tools-0.9.9.tar.gz tmp/zq-tools-1.0.0.tar.gz --markdown 20230720/z/zq-tools/0.9.9-1.0.0/diff.md --exclude *.pyd
+[2023-07-20 12:17:42] INFO root fetch - processPackages [iitkgp-erp-login]: executing diffoscope
+[2023-07-20 12:17:42] INFO root fetch - processPackages [iitkgp-erp-login]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iitkgp_erp_login-2.0.0.tar.gz tmp/iitkgp_erp_login-2.0.1.tar.gz --markdown 20230720/i/iitkgp-erp-login/2.0.0-2.0.1/diff.md --exclude *.pyd
+[2023-07-20 12:17:42] INFO root fetch - processPackages [rtx-deep]: executing diffoscope
+[2023-07-20 12:17:42] INFO root fetch - processPackages [rtx-deep]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rtx_deep-1.4.1-py39-none-any.whl.zip tmp/rtx_deep-1.4.2-py39-none-any.whl.zip --markdown 20230720/r/rtx-deep/1.4.1-1.4.2/diff.md --exclude *.pyd
+[2023-07-20 12:17:42] INFO root fetch - processPackages [voicemeeter-api]: executing diffoscope
+[2023-07-20 12:17:42] INFO root fetch - processPackages [voicemeeter-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/voicemeeter_api-2.3.3.tar.gz tmp/voicemeeter_api-2.3.4.tar.gz --markdown 20230720/v/voicemeeter-api/2.3.3-2.3.4/diff.md --exclude *.pyd
+[2023-07-20 12:17:42] INFO root fetch - processPackages [apkg]: executing diffoscope
+[2023-07-20 12:17:42] INFO root fetch - processPackages [apkg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apkg-0.4.0.tar.gz tmp/apkg-0.4.1.tar.gz --markdown 20230720/a/apkg/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-07-20 12:17:42] INFO root fetch - processPackages [quickBayes]: executing diffoscope
+[2023-07-20 12:17:42] INFO root fetch - processPackages [quickBayes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quickBayes-1.0.0b8-cp38-cp38-win_amd64.whl.zip tmp/quickBayes-1.0.0b9-cp39-cp39-win_amd64.whl.zip --markdown 20230720/q/quickBayes/1.0.0b8-1.0.0b9/diff.md --exclude *.pyd
+[2023-07-20 12:17:43] INFO root fetch - processPackages [quao]: Remove: archive file [/home/abi/fetcher/tmp/quao-0.3.8.tar.gz]
+[2023-07-20 12:17:43] INFO root fetch - processPackages [quao]: Remove: archive file [/home/abi/fetcher/tmp/quao-0.3.9.tar.gz]
+[2023-07-20 12:17:43] INFO root fetch - processPackages [quao]: Start processing: ninjakiwi-api
+[2023-07-20 12:17:43] INFO root fetch - main [MainThread]: End processing [quao]: success
+[2023-07-20 12:17:43] INFO root fetch - processPackages [logger-local]: Remove: archive file [/home/abi/fetcher/tmp/logger-local-0.0.8.tar.gz]
+[2023-07-20 12:17:43] INFO root fetch - processPackages [logger-local]: Remove: archive file [/home/abi/fetcher/tmp/logger-local-0.0.9.tar.gz]
+[2023-07-20 12:17:43] INFO root fetch - processPackages [logger-local]: Start processing: pulp-deb
+[2023-07-20 12:17:43] INFO root fetch - main [MainThread]: End processing [logger-local]: success
+[2023-07-20 12:17:43] INFO root fetch - processPackages [pollination-annual-daylight.viz]: Remove: archive file [/home/abi/fetcher/tmp/pollination-annual-daylight.viz-0.10.8.tar.gz]
+[2023-07-20 12:17:43] INFO root fetch - processPackages [pollination-annual-daylight.viz]: Remove: archive file [/home/abi/fetcher/tmp/pollination-annual-daylight.viz-0.10.9.tar.gz]
+[2023-07-20 12:17:43] INFO root fetch - processPackages [pollination-annual-daylight.viz]: Start processing: python-Testing-Utilities
+[2023-07-20 12:17:43] INFO root fetch - main [MainThread]: End processing [pollination-annual-daylight.viz]: success
+[2023-07-20 12:17:43] INFO root fetch - processPackages [pulp-deb]: New version: [2.9.3] Old Version: [2.9.2]
+[2023-07-20 12:17:43] WARNING root fetch - processPackages [ninjakiwi-api]: Skipping, unable to determine old version
+[2023-07-20 12:17:43] INFO root fetch - processPackages [ninjakiwi-api]: Start processing: pulp-deb-client
+[2023-07-20 12:17:43] INFO root fetch - main [MainThread]: End processing [ninjakiwi-api] error
+[2023-07-20 12:17:43] INFO root fetch - processPackages [iitkgp-erp-login]: Remove: archive file [/home/abi/fetcher/tmp/iitkgp_erp_login-2.0.0.tar.gz]
+[2023-07-20 12:17:43] INFO root fetch - processPackages [iitkgp-erp-login]: Remove: archive file [/home/abi/fetcher/tmp/iitkgp_erp_login-2.0.1.tar.gz]
+[2023-07-20 12:17:43] INFO root fetch - processPackages [iitkgp-erp-login]: Start processing: biliarchiver
+[2023-07-20 12:17:43] INFO root fetch - main [MainThread]: End processing [iitkgp-erp-login]: success
+[2023-07-20 12:17:43] INFO root fetch - processPackages [python-Testing-Utilities]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-20 12:17:43] INFO root fetch - processPackages [pulp-deb-client]: New version: [2.9.3] Old Version: [2.9.2]
+[2023-07-20 12:17:43] INFO root fetch - processPackages [pulp-deb]: Downloading https://files.pythonhosted.org/packages/25/65/3aa0fbd56f82b310866a75aea8cb321de4bf9a50a9de61eea17c3971bbe6/pulp-deb-2.9.2.tar.gz
+[2023-07-20 12:17:43] INFO root fetch - processPackages [biliarchiver]: New version: [0.0.9] Old Version: [0.0.21]
+[2023-07-20 12:17:44] INFO root fetch - processPackages [pulp-deb-client]: Downloading https://files.pythonhosted.org/packages/d3/18/51521b4b083fc5d1d0cbe7de05557d1e623452818d35f0c3da9f2646d5d0/pulp_deb-client-2.9.2.tar.gz
+[2023-07-20 12:17:44] INFO root fetch - processPackages [zq-tools]: Remove: archive file [/home/abi/fetcher/tmp/zq-tools-0.9.9.tar.gz]
+[2023-07-20 12:17:44] INFO root fetch - processPackages [zq-tools]: Remove: archive file [/home/abi/fetcher/tmp/zq-tools-1.0.0.tar.gz]
+[2023-07-20 12:17:44] INFO root fetch - processPackages [zq-tools]: Start processing: openassetio
+[2023-07-20 12:17:44] INFO root fetch - main [MainThread]: End processing [zq-tools]: success
+[2023-07-20 12:17:44] INFO root fetch - processPackages [voicemeeter-api]: Remove: archive file [/home/abi/fetcher/tmp/voicemeeter_api-2.3.3.tar.gz]
+[2023-07-20 12:17:44] INFO root fetch - processPackages [voicemeeter-api]: Remove: archive file [/home/abi/fetcher/tmp/voicemeeter_api-2.3.4.tar.gz]
+[2023-07-20 12:17:44] INFO root fetch - processPackages [voicemeeter-api]: Start processing: EllucianEthosPythonClient
+[2023-07-20 12:17:44] INFO root fetch - main [MainThread]: End processing [voicemeeter-api]: success
+[2023-07-20 12:17:44] INFO root fetch - processPackages [apkg]: Remove: archive file [/home/abi/fetcher/tmp/apkg-0.4.0.tar.gz]
+[2023-07-20 12:17:44] INFO root fetch - processPackages [python-Testing-Utilities]: Downloading https://files.pythonhosted.org/packages/d0/d2/d236f74a4dbcf092649e35d8806675272b165c5547b3535a77e720b79d33/python_Testing_Utilities-0.1.8.tar.gz
+[2023-07-20 12:17:44] INFO root fetch - processPackages [apkg]: Remove: archive file [/home/abi/fetcher/tmp/apkg-0.4.1.tar.gz]
+[2023-07-20 12:17:44] INFO root fetch - processPackages [apkg]: Start processing: cellmap
+[2023-07-20 12:17:44] INFO root fetch - main [MainThread]: End processing [apkg]: success
+[2023-07-20 12:17:44] INFO root fetch - processPackages [biliarchiver]: Downloading https://files.pythonhosted.org/packages/c6/3c/444a08482e5ed4fce4f328543c933472a8dae0bb1d113fa27832d5de35cb/biliarchiver-0.0.21.tar.gz
+[2023-07-20 12:17:44] INFO root fetch - processPackages [openassetio]: New version: [1.0.0a9] Old Version: [1.0.0a8]
+[2023-07-20 12:17:44] INFO root fetch - processPackages [EllucianEthosPythonClient]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-20 12:17:44] INFO root fetch - processPackages [quickBayes]: Remove: archive file [/home/abi/fetcher/tmp/quickBayes-1.0.0b8-cp38-cp38-win_amd64.whl.zip]
+[2023-07-20 12:17:44] INFO root fetch - processPackages [quickBayes]: Remove: archive file [/home/abi/fetcher/tmp/quickBayes-1.0.0b9-cp39-cp39-win_amd64.whl.zip]
+[2023-07-20 12:17:44] INFO root fetch - main [MainThread]: End processing [quickBayes]: success
+[2023-07-20 12:17:44] INFO root fetch - processPackages [rtx-deep]: Remove: archive file [/home/abi/fetcher/tmp/rtx_deep-1.4.1-py39-none-any.whl.zip]
+[2023-07-20 12:17:44] INFO root fetch - processPackages [rtx-deep]: Remove: archive file [/home/abi/fetcher/tmp/rtx_deep-1.4.2-py39-none-any.whl.zip]
+[2023-07-20 12:17:44] INFO root fetch - main [MainThread]: End processing [rtx-deep]: success
+[2023-07-20 12:17:44] INFO root fetch - processPackages [pulp-deb-client]: Downloading https://files.pythonhosted.org/packages/ad/ed/6e172bf550298d96b308c78fe5b9dc39110917a3f7fd551a5f1eb8051fd5/pulp_deb-client-2.9.3.tar.gz
+[2023-07-20 12:17:44] INFO root fetch - processPackages [cellmap]: New version: [1.0.1.dev202307201017] Old Version: [1.0.1.dev202307180908]
+[2023-07-20 12:17:44] INFO root fetch - processPackages [EllucianEthosPythonClient]: Downloading https://files.pythonhosted.org/packages/06/ef/178af4ebf1b05cb1e0124cc460a242e9bf988f50342c8179357be852f736/EllucianEthosPythonClient-0.2.8.tar.gz
+[2023-07-20 12:17:44] INFO root fetch - processPackages [openassetio]: Downloading https://files.pythonhosted.org/packages/8d/0e/f1d63b267285d7aaa36801df023cf5ac0893b48a166ade6690d89b407b3d/openassetio-1.0.0a8-cp39-cp39-win_amd64.whl
+[2023-07-20 12:17:44] INFO root fetch - processPackages [pulp-deb]: Downloading https://files.pythonhosted.org/packages/df/02/7ba76068c474e9569dc7fad55ac03e8cb1698bf450192154db825b48d3ba/pulp-deb-2.9.3.tar.gz
+[2023-07-20 12:17:44] INFO root fetch - processPackages [atomicshop]: Remove: archive file [/home/abi/fetcher/tmp/atomicshop-1.8.9-py3-none-any.whl.zip]
+[2023-07-20 12:17:44] INFO root fetch - processPackages [atomicshop]: Remove: archive file [/home/abi/fetcher/tmp/atomicshop-1.9.0-py3-none-any.whl.zip]
+[2023-07-20 12:17:44] INFO root fetch - main [MainThread]: End processing [atomicshop]: success
+[2023-07-20 12:17:44] INFO root fetch - processPackages [biliarchiver]: Downloading https://files.pythonhosted.org/packages/75/6f/a07bee6d23ed240047e737c1e393aadca816e9e1cc7c1aaa81457a4885da/biliarchiver-0.0.9.tar.gz
+[2023-07-20 12:17:44] INFO root fetch - processPackages [pulp-deb-client]: executing diffoscope
+[2023-07-20 12:17:44] INFO root fetch - processPackages [pulp-deb-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulp_deb-client-2.9.2.tar.gz tmp/pulp_deb-client-2.9.3.tar.gz --markdown 20230720/p/pulp-deb-client/2.9.2-2.9.3/diff.md --exclude *.pyd
+[2023-07-20 12:17:44] INFO root fetch - processPackages [cellmap]: Downloading https://files.pythonhosted.org/packages/f6/35/0fdf29d98788c8038c9392eb5ea2485ec4a6b32a80712b3774b72225daeb/cellmap-1.0.1.dev202307180908-py3-none-any.whl
+[2023-07-20 12:17:44] INFO root fetch - processPackages [python-Testing-Utilities]: Downloading https://files.pythonhosted.org/packages/f5/5c/75979f65d169dc6117972a816f79f35d75bb0b318dbce0efc542fff7ee76/python_Testing_Utilities-0.1.9.tar.gz
+[2023-07-20 12:17:44] INFO root fetch - processPackages [pulp-deb]: executing diffoscope
+[2023-07-20 12:17:44] INFO root fetch - processPackages [pulp-deb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulp-deb-2.9.2.tar.gz tmp/pulp-deb-2.9.3.tar.gz --markdown 20230720/p/pulp-deb/2.9.2-2.9.3/diff.md --exclude *.pyd
+[2023-07-20 12:17:44] INFO root fetch - processPackages [python-Testing-Utilities]: executing diffoscope
+[2023-07-20 12:17:44] INFO root fetch - processPackages [python-Testing-Utilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_Testing_Utilities-0.1.8.tar.gz tmp/python_Testing_Utilities-0.1.9.tar.gz --markdown 20230720/p/python-Testing-Utilities/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-20 12:17:44] INFO root fetch - processPackages [EllucianEthosPythonClient]: Downloading https://files.pythonhosted.org/packages/65/35/951f1fb0fb5d4dbbca2d9a93bdfaaaa59ed44610e76fe197020732f5b1cd/EllucianEthosPythonClient-0.2.9.tar.gz
+[2023-07-20 12:17:45] INFO root fetch - processPackages [openassetio]: Downloading https://files.pythonhosted.org/packages/b8/4b/92308ea70581209ecff9d93a4aa7f15c7d2f8db1ea35d66345c7970aae78/openassetio-1.0.0a9-cp39-cp39-win_amd64.whl
+[2023-07-20 12:17:45] INFO root fetch - processPackages [cellmap]: Downloading https://files.pythonhosted.org/packages/61/18/90ddf1dd8fa5074c49a67c8a7c8172934eec6dd38cf9a6ed822aac82985e/cellmap-1.0.1.dev202307201017-py3-none-any.whl
+[2023-07-20 12:17:45] INFO root fetch - processPackages [EllucianEthosPythonClient]: executing diffoscope
+[2023-07-20 12:17:45] INFO root fetch - processPackages [EllucianEthosPythonClient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/EllucianEthosPythonClient-0.2.8.tar.gz tmp/EllucianEthosPythonClient-0.2.9.tar.gz --markdown 20230720/E/EllucianEthosPythonClient/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-20 12:17:45] INFO root fetch - processPackages [biliarchiver]: executing diffoscope
+[2023-07-20 12:17:45] INFO root fetch - processPackages [biliarchiver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/biliarchiver-0.0.21.tar.gz tmp/biliarchiver-0.0.9.tar.gz --markdown 20230720/b/biliarchiver/0.0.21-0.0.9/diff.md --exclude *.pyd
+[2023-07-20 12:17:45] INFO root fetch - processPackages [openassetio]: executing diffoscope
+[2023-07-20 12:17:45] INFO root fetch - processPackages [openassetio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openassetio-1.0.0a8-cp39-cp39-win_amd64.whl.zip tmp/openassetio-1.0.0a9-cp39-cp39-win_amd64.whl.zip --markdown 20230720/o/openassetio/1.0.0a8-1.0.0a9/diff.md --exclude *.pyd
+[2023-07-20 12:17:45] INFO root fetch - processPackages [cellmap]: executing diffoscope
+[2023-07-20 12:17:45] INFO root fetch - processPackages [cellmap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cellmap-1.0.1.dev202307180908-py3-none-any.whl.zip tmp/cellmap-1.0.1.dev202307201017-py3-none-any.whl.zip --markdown 20230720/c/cellmap/1.0.1.dev202307180908-1.0.1.dev202307201017/diff.md --exclude *.pyd
+[2023-07-20 12:17:45] INFO root fetch - processPackages [python-Testing-Utilities]: Remove: archive file [/home/abi/fetcher/tmp/python_Testing_Utilities-0.1.8.tar.gz]
+[2023-07-20 12:17:45] INFO root fetch - processPackages [python-Testing-Utilities]: Remove: archive file [/home/abi/fetcher/tmp/python_Testing_Utilities-0.1.9.tar.gz]
+[2023-07-20 12:17:45] INFO root fetch - main [MainThread]: End processing [python-Testing-Utilities]: success
+[2023-07-20 12:17:46] INFO root fetch - processPackages [pulp-deb]: Remove: archive file [/home/abi/fetcher/tmp/pulp-deb-2.9.2.tar.gz]
+[2023-07-20 12:17:46] INFO root fetch - processPackages [pulp-deb]: Remove: archive file [/home/abi/fetcher/tmp/pulp-deb-2.9.3.tar.gz]
+[2023-07-20 12:17:46] INFO root fetch - main [MainThread]: End processing [pulp-deb]: success
+[2023-07-20 12:17:46] INFO root fetch - processPackages [biliarchiver]: Remove: archive file [/home/abi/fetcher/tmp/biliarchiver-0.0.21.tar.gz]
+[2023-07-20 12:17:46] INFO root fetch - processPackages [biliarchiver]: Remove: archive file [/home/abi/fetcher/tmp/biliarchiver-0.0.9.tar.gz]
+[2023-07-20 12:17:46] INFO root fetch - main [MainThread]: End processing [biliarchiver]: success
+[2023-07-20 12:17:46] INFO root fetch - processPackages [cellmap]: Remove: archive file [/home/abi/fetcher/tmp/cellmap-1.0.1.dev202307180908-py3-none-any.whl.zip]
+[2023-07-20 12:17:46] INFO root fetch - processPackages [cellmap]: Remove: archive file [/home/abi/fetcher/tmp/cellmap-1.0.1.dev202307201017-py3-none-any.whl.zip]
+[2023-07-20 12:17:46] INFO root fetch - main [MainThread]: End processing [cellmap]: success
+[2023-07-20 12:17:46] INFO root fetch - processPackages [EllucianEthosPythonClient]: Remove: archive file [/home/abi/fetcher/tmp/EllucianEthosPythonClient-0.2.8.tar.gz]
+[2023-07-20 12:17:46] INFO root fetch - processPackages [EllucianEthosPythonClient]: Remove: archive file [/home/abi/fetcher/tmp/EllucianEthosPythonClient-0.2.9.tar.gz]
+[2023-07-20 12:17:46] INFO root fetch - main [MainThread]: End processing [EllucianEthosPythonClient]: success
+[2023-07-20 12:17:46] INFO root fetch - processPackages [openassetio]: Remove: archive file [/home/abi/fetcher/tmp/openassetio-1.0.0a8-cp39-cp39-win_amd64.whl.zip]
+[2023-07-20 12:17:46] INFO root fetch - processPackages [openassetio]: Remove: archive file [/home/abi/fetcher/tmp/openassetio-1.0.0a9-cp39-cp39-win_amd64.whl.zip]
+[2023-07-20 12:17:46] INFO root fetch - main [MainThread]: End processing [openassetio]: success
+[2023-07-20 12:17:46] INFO root fetch - processPackages [pulp-deb-client]: Remove: archive file [/home/abi/fetcher/tmp/pulp_deb-client-2.9.2.tar.gz]
+[2023-07-20 12:17:46] INFO root fetch - processPackages [pulp-deb-client]: Remove: archive file [/home/abi/fetcher/tmp/pulp_deb-client-2.9.3.tar.gz]
+[2023-07-20 12:17:46] INFO root fetch - main [MainThread]: End processing [pulp-deb-client]: success
+[2023-07-20 12:17:46] INFO root fetch - main [MainThread]: Store serial: [18965040]
