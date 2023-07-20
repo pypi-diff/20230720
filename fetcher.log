@@ -20072,3 +20072,240 @@ AssertionError: tmp/threemystic_cloud_data_client-0.1.17.tar.gz does not exist
 [2023-07-20 20:51:07] INFO root fetch - processPackages [openram]: Remove: archive file [/home/abi/fetcher/tmp/openram-1.2.9.tar.gz]
 [2023-07-20 20:51:07] INFO root fetch - main [MainThread]: End processing [openram]: success
 [2023-07-20 20:51:07] INFO root fetch - main [MainThread]: Store serial: [18971195]
+[2023-07-20 20:56:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18971195]
+[2023-07-20 20:56:15] INFO root fetch - main [MainThread]: Found 28 changed packages
+[2023-07-20 20:56:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: assemblyline-service-server
+[2023-07-20 20:56:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: indicam_client
+[2023-07-20 20:56:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: assemblyline-ui
+[2023-07-20 20:56:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: assemblyline-v4-service
+[2023-07-20 20:56:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: assemblyline
+[2023-07-20 20:56:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: assemblyline-core
+[2023-07-20 20:56:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ez-constructs
+[2023-07-20 20:56:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: starfyre
+[2023-07-20 20:56:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: aleksis-app-chronos
+[2023-07-20 20:56:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ctransformers
+[2023-07-20 20:56:16] INFO root fetch - processPackages [assemblyline]: New version: [4.4.1.dev99] Old Version: [4.4.1.dev98]
+[2023-07-20 20:56:16] WARNING root fetch - processPackages [indicam_client]: Skipping, unable to determine old version
+[2023-07-20 20:56:16] INFO root fetch - processPackages [indicam_client]: Start processing: dmtoolkit
+[2023-07-20 20:56:16] INFO root fetch - main [MainThread]: End processing [indicam_client] error
+[2023-07-20 20:56:16] INFO root fetch - processPackages [starfyre]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-07-20 20:56:16] INFO root fetch - processPackages [aleksis-app-chronos]: New version: [3.0b0] Old Version: [3.0.dev1]
+[2023-07-20 20:56:16] INFO root fetch - processPackages [ctransformers]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-20 20:56:16] INFO root fetch - processPackages [ez-constructs]: New version: [0.0.24] Old Version: [0.0.23]
+[2023-07-20 20:56:16] INFO root fetch - processPackages [assemblyline-service-server]: New version: [4.4.1.dev99] Old Version: [4.4.1.dev98]
+[2023-07-20 20:56:16] INFO root fetch - processPackages [dmtoolkit]: New version: [0.0.9] Old Version: [0.0.7]
+[2023-07-20 20:56:16] INFO root fetch - processPackages [assemblyline-ui]: New version: [4.4.1.dev99] Old Version: [4.4.1.dev98]
+[2023-07-20 20:56:16] INFO root fetch - processPackages [assemblyline-core]: New version: [4.4.1.dev99] Old Version: [4.4.1.dev98]
+[2023-07-20 20:56:16] INFO root fetch - processPackages [assemblyline-v4-service]: New version: [4.4.1.dev99] Old Version: [4.4.1.dev98]
+[2023-07-20 20:56:16] INFO root fetch - processPackages [assemblyline-service-server]: Downloading https://files.pythonhosted.org/packages/d0/9d/73a653591c81e927ff88321d05e4273374e7a6b83130aa29fe2ca8a8f3c8/assemblyline_service_server-4.4.1.dev98-py3-none-any.whl
+[2023-07-20 20:56:16] INFO root fetch - processPackages [ez-constructs]: Downloading https://files.pythonhosted.org/packages/ff/39/ad6906527be8eb3293c61ca6cc7fb2e6125630dc492662be3cf6fb430314/ez-constructs-0.0.23.tar.gz
+[2023-07-20 20:56:16] INFO root fetch - processPackages [ctransformers]: Downloading https://files.pythonhosted.org/packages/f8/b5/b244e28dbaa3006d70a3ce502e7ba862384f95cbd5df6718038b58d30bc9/ctransformers-0.2.8.tar.gz
+[2023-07-20 20:56:16] INFO root fetch - processPackages [assemblyline]: Downloading https://files.pythonhosted.org/packages/fb/ca/10ec337efc2ea70b32ead6e4b7d46e1e23f2d1a7638e8bfd6b51a182d2af/assemblyline-4.4.1.dev98.tar.gz
+[2023-07-20 20:56:16] INFO root fetch - processPackages [dmtoolkit]: Downloading https://files.pythonhosted.org/packages/f5/7b/a4107e2152d55530e82bd2e3918ec72c459020fd740962354efb6a5473c0/dmtoolkit-0.0.7.tar.gz
+[2023-07-20 20:56:16] INFO root fetch - processPackages [aleksis-app-chronos]: Downloading https://files.pythonhosted.org/packages/cc/a0/0e984e4d94cbf07e08b9fc4f7615fb39488524c3d4305b53da6a5a834428/aleksis_app_chronos-3.0.dev1.tar.gz
+[2023-07-20 20:56:16] INFO root fetch - processPackages [assemblyline-ui]: Downloading https://files.pythonhosted.org/packages/88/f0/1e1ea5a38c6644090daf7b8e756373614f960038fc4187021d034bab3f59/assemblyline_ui-4.4.1.dev98-py3-none-any.whl
+[2023-07-20 20:56:16] INFO root fetch - processPackages [assemblyline-core]: Downloading https://files.pythonhosted.org/packages/c6/b0/1bb0cc8f270604c12a6c573e663a56b4479a805585b2f0dec5745c366b75/assemblyline-core-4.4.1.dev98.tar.gz
+[2023-07-20 20:56:16] INFO root fetch - processPackages [assemblyline-service-server]: Downloading https://files.pythonhosted.org/packages/2c/65/290b479a07ea2714c26e302d7ee822da3dcfd3a50ecbfcf4091efd378829/assemblyline_service_server-4.4.1.dev99-py3-none-any.whl
+[2023-07-20 20:56:16] INFO root fetch - processPackages [starfyre]: executing diffoscope
+[2023-07-20 20:56:16] INFO root fetch - processPackages [starfyre]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/starfyre-0.8.1.tar.gz tmp/starfyre-0.9.0.tar.gz --markdown 20230720/s/starfyre/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-07-20 20:56:16] INFO root fetch - processPackages [assemblyline-v4-service]: Downloading https://files.pythonhosted.org/packages/0d/18/25fd38ec83bbb1da504d3063623af0139b964cc4957ee52dab43c8a48eec/assemblyline_v4_service-4.4.1.dev98-py3-none-any.whl
+[2023-07-20 20:56:16] INFO root fetch - processPackages [dmtoolkit]: Downloading https://files.pythonhosted.org/packages/23/57/1cc3538d79e0a693a753eebf158956609c707872a413ddeb5a6a20d021d1/dmtoolkit-0.0.9.tar.gz
+[2023-07-20 20:56:16] INFO root fetch - processPackages [assemblyline-service-server]: executing diffoscope
+[2023-07-20 20:56:16] INFO root fetch - processPackages [assemblyline-service-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline_service_server-4.4.1.dev98-py3-none-any.whl.zip tmp/assemblyline_service_server-4.4.1.dev99-py3-none-any.whl.zip --markdown 20230720/a/assemblyline-service-server/4.4.1.dev98-4.4.1.dev99/diff.md --exclude *.pyd
+[2023-07-20 20:56:17] INFO root fetch - processPackages [assemblyline]: Downloading https://files.pythonhosted.org/packages/bd/bc/8573bd972e279862ab5c57e5a99e53f5087cd49a2741a054d2753ef654a7/assemblyline-4.4.1.dev99.tar.gz
+[2023-07-20 20:56:17] INFO root fetch - processPackages [assemblyline-ui]: Downloading https://files.pythonhosted.org/packages/e3/c6/dfade12e5e90540956305d36f873c5aed23370282783a34e66dc3b21a383/assemblyline_ui-4.4.1.dev99-py3-none-any.whl
+[2023-07-20 20:56:17] INFO root fetch - processPackages [dmtoolkit]: executing diffoscope
+[2023-07-20 20:56:17] INFO root fetch - processPackages [dmtoolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dmtoolkit-0.0.7.tar.gz tmp/dmtoolkit-0.0.9.tar.gz --markdown 20230720/d/dmtoolkit/0.0.7-0.0.9/diff.md --exclude *.pyd
+[2023-07-20 20:56:17] INFO root fetch - processPackages [ez-constructs]: Downloading https://files.pythonhosted.org/packages/8d/32/98fb70b9c1c96fffb8f64669916dcf57eec8a4cb6b8925a813be72835231/ez-constructs-0.0.24.tar.gz
+[2023-07-20 20:56:17] INFO root fetch - processPackages [assemblyline-core]: Downloading https://files.pythonhosted.org/packages/63/40/1e762930effd688f4bca07aca72276ca6ebee782934f06a6006ea66b2f16/assemblyline-core-4.4.1.dev99.tar.gz
+[2023-07-20 20:56:17] INFO root fetch - processPackages [ctransformers]: Downloading https://files.pythonhosted.org/packages/6c/6a/51fe0e5f1a8aa79becd03dc0b6c195896d7c8eddfae48dd1190c1c0b7710/ctransformers-0.2.9.tar.gz
+[2023-07-20 20:56:17] INFO root fetch - processPackages [aleksis-app-chronos]: Downloading https://files.pythonhosted.org/packages/88/9c/8775bd9b84da8a91d955d955a4ac928ff3dc6e9c27958f3030e3ba20df5a/aleksis_app_chronos-3.0b0.tar.gz
+[2023-07-20 20:56:17] INFO root fetch - processPackages [assemblyline-ui]: executing diffoscope
+[2023-07-20 20:56:17] INFO root fetch - processPackages [assemblyline-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline_ui-4.4.1.dev98-py3-none-any.whl.zip tmp/assemblyline_ui-4.4.1.dev99-py3-none-any.whl.zip --markdown 20230720/a/assemblyline-ui/4.4.1.dev98-4.4.1.dev99/diff.md --exclude *.pyd
+[2023-07-20 20:56:17] INFO root fetch - processPackages [assemblyline-core]: executing diffoscope
+[2023-07-20 20:56:17] INFO root fetch - processPackages [assemblyline-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline-core-4.4.1.dev98.tar.gz tmp/assemblyline-core-4.4.1.dev99.tar.gz --markdown 20230720/a/assemblyline-core/4.4.1.dev98-4.4.1.dev99/diff.md --exclude *.pyd
+[2023-07-20 20:56:17] INFO root fetch - processPackages [assemblyline]: executing diffoscope
+[2023-07-20 20:56:17] INFO root fetch - processPackages [assemblyline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline-4.4.1.dev98.tar.gz tmp/assemblyline-4.4.1.dev99.tar.gz --markdown 20230720/a/assemblyline/4.4.1.dev98-4.4.1.dev99/diff.md --exclude *.pyd
+[2023-07-20 20:56:17] INFO root fetch - processPackages [assemblyline-v4-service]: Downloading https://files.pythonhosted.org/packages/47/8f/28c4f84deeaf6ecece9518c5613a84646d9a0b9e24b8c8791e4612f1738c/assemblyline_v4_service-4.4.1.dev99-py3-none-any.whl
+[2023-07-20 20:56:17] INFO root fetch - processPackages [ctransformers]: executing diffoscope
+[2023-07-20 20:56:17] INFO root fetch - processPackages [ctransformers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ctransformers-0.2.8.tar.gz tmp/ctransformers-0.2.9.tar.gz --markdown 20230720/c/ctransformers/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-20 20:56:17] INFO root fetch - processPackages [assemblyline-v4-service]: executing diffoscope
+[2023-07-20 20:56:17] INFO root fetch - processPackages [assemblyline-v4-service]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline_v4_service-4.4.1.dev98-py3-none-any.whl.zip tmp/assemblyline_v4_service-4.4.1.dev99-py3-none-any.whl.zip --markdown 20230720/a/assemblyline-v4-service/4.4.1.dev98-4.4.1.dev99/diff.md --exclude *.pyd
+[2023-07-20 20:56:17] INFO root fetch - processPackages [ez-constructs]: executing diffoscope
+[2023-07-20 20:56:17] INFO root fetch - processPackages [ez-constructs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ez-constructs-0.0.23.tar.gz tmp/ez-constructs-0.0.24.tar.gz --markdown 20230720/e/ez-constructs/0.0.23-0.0.24/diff.md --exclude *.pyd
+[2023-07-20 20:56:17] INFO root fetch - processPackages [aleksis-app-chronos]: executing diffoscope
+[2023-07-20 20:56:17] INFO root fetch - processPackages [aleksis-app-chronos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aleksis_app_chronos-3.0.dev1.tar.gz tmp/aleksis_app_chronos-3.0b0.tar.gz --markdown 20230720/a/aleksis-app-chronos/3.0.dev1-3.0b0/diff.md --exclude *.pyd
+[2023-07-20 20:56:17] INFO root fetch - processPackages [starfyre]: Remove: archive file [/home/abi/fetcher/tmp/starfyre-0.8.1.tar.gz]
+[2023-07-20 20:56:17] INFO root fetch - processPackages [starfyre]: Remove: archive file [/home/abi/fetcher/tmp/starfyre-0.9.0.tar.gz]
+[2023-07-20 20:56:17] INFO root fetch - processPackages [starfyre]: Start processing: pylance
+[2023-07-20 20:56:17] INFO root fetch - main [MainThread]: End processing [starfyre]: success
+[2023-07-20 20:56:17] INFO root fetch - processPackages [pylance]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-07-20 20:56:18] INFO root fetch - processPackages [pylance]: Downloading https://files.pythonhosted.org/packages/03/3b/aa58b1fe18d41de3fb9a70b64f91294443396a526499acb5961bf7e69fbd/pylance-0.5.8-cp38-abi3-win_amd64.whl
+[2023-07-20 20:56:18] WARNING root fetch - processPackages [pylance]: Skipping package: exceeds size limit 17755944>=10485760
+[2023-07-20 20:56:18] INFO root fetch - processPackages [pylance]: Start processing: policyengine-us
+[2023-07-20 20:56:18] INFO root fetch - main [MainThread]: End processing [pylance] error
+[2023-07-20 20:56:18] INFO root fetch - processPackages [assemblyline-service-server]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_service_server-4.4.1.dev98-py3-none-any.whl.zip]
+[2023-07-20 20:56:18] INFO root fetch - processPackages [assemblyline-service-server]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_service_server-4.4.1.dev99-py3-none-any.whl.zip]
+[2023-07-20 20:56:18] INFO root fetch - processPackages [assemblyline-service-server]: Start processing: hyperx
+[2023-07-20 20:56:18] INFO root fetch - main [MainThread]: End processing [assemblyline-service-server]: success
+[2023-07-20 20:56:18] INFO root fetch - processPackages [policyengine-us]: New version: [0.374.0] Old Version: [0.373.0]
+[2023-07-20 20:56:18] INFO root fetch - processPackages [hyperx]: New version: [0.1.6] Old Version: [0.1.2]
+[2023-07-20 20:56:18] INFO root fetch - processPackages [dmtoolkit]: Remove: archive file [/home/abi/fetcher/tmp/dmtoolkit-0.0.7.tar.gz]
+[2023-07-20 20:56:18] INFO root fetch - processPackages [dmtoolkit]: Remove: archive file [/home/abi/fetcher/tmp/dmtoolkit-0.0.9.tar.gz]
+[2023-07-20 20:56:18] INFO root fetch - processPackages [dmtoolkit]: Start processing: scikit-sparse
+[2023-07-20 20:56:18] INFO root fetch - main [MainThread]: End processing [dmtoolkit]: success
+[2023-07-20 20:56:18] INFO root fetch - processPackages [scikit-sparse]: New version: [0.4.8] Old Version: [0.4.7]
+[2023-07-20 20:56:18] INFO root fetch - processPackages [policyengine-us]: Downloading https://files.pythonhosted.org/packages/ec/b0/fbda63921874c82f0298fc16e999229eabd08ce4c08cd03e9949ad584d1c/policyengine-us-0.373.0.tar.gz
+[2023-07-20 20:56:18] INFO root fetch - processPackages [hyperx]: Downloading https://files.pythonhosted.org/packages/15/c4/5806ac836a4acaba211edb8b6342f4bad5d026d84d3ea9f5923afdb3c8d1/hyperx-0.1.2.tar.gz
+[2023-07-20 20:56:18] INFO root fetch - processPackages [scikit-sparse]: Downloading https://files.pythonhosted.org/packages/b9/80/2b5629fec3a56bb5597f36642c6a95918105bb8c98044d458a9a91d9d439/scikit-sparse-0.4.7.tar.gz
+[2023-07-20 20:56:18] INFO root fetch - processPackages [policyengine-us]: Downloading https://files.pythonhosted.org/packages/59/53/19b192b9b9a7e44f4f9e0efcbd41e0e5c32e578270bd49ce5075fd8967c3/policyengine-us-0.374.0.tar.gz
+[2023-07-20 20:56:18] INFO root fetch - processPackages [assemblyline-ui]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_ui-4.4.1.dev98-py3-none-any.whl.zip]
+[2023-07-20 20:56:18] INFO root fetch - processPackages [assemblyline-ui]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_ui-4.4.1.dev99-py3-none-any.whl.zip]
+[2023-07-20 20:56:18] INFO root fetch - processPackages [assemblyline-ui]: Start processing: sailboat-gym
+[2023-07-20 20:56:18] INFO root fetch - main [MainThread]: End processing [assemblyline-ui]: success
+[2023-07-20 20:56:19] INFO root fetch - processPackages [sailboat-gym]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-20 20:56:19] INFO root fetch - processPackages [ez-constructs]: Remove: archive file [/home/abi/fetcher/tmp/ez-constructs-0.0.23.tar.gz]
+[2023-07-20 20:56:19] INFO root fetch - processPackages [ez-constructs]: Remove: archive file [/home/abi/fetcher/tmp/ez-constructs-0.0.24.tar.gz]
+[2023-07-20 20:56:19] INFO root fetch - processPackages [ez-constructs]: Start processing: streamlit-clickable-card
+[2023-07-20 20:56:19] INFO root fetch - main [MainThread]: End processing [ez-constructs]: success
+[2023-07-20 20:56:19] INFO root fetch - processPackages [sailboat-gym]: Downloading https://files.pythonhosted.org/packages/b7/3c/68b3c3b554a8064f9930cafb5a5539a7c4af299d665852189cffe56dd7f2/sailboat-gym-1.0.8.tar.gz
+[2023-07-20 20:56:19] INFO root fetch - processPackages [hyperx]: Downloading https://files.pythonhosted.org/packages/06/a2/d02fca231fc678fdb5a60a4ae218eb49ba47f173b76ac60a063e3c145e8d/hyperx-0.1.6.tar.gz
+[2023-07-20 20:56:19] INFO root fetch - processPackages [streamlit-clickable-card]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-20 20:56:19] INFO root fetch - processPackages [assemblyline-core]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline-core-4.4.1.dev98.tar.gz]
+[2023-07-20 20:56:19] INFO root fetch - processPackages [assemblyline-core]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline-core-4.4.1.dev99.tar.gz]
+[2023-07-20 20:56:19] INFO root fetch - processPackages [assemblyline-core]: Start processing: roblox-pyc
+[2023-07-20 20:56:19] INFO root fetch - main [MainThread]: End processing [assemblyline-core]: success
+[2023-07-20 20:56:19] INFO root fetch - processPackages [roblox-pyc]: New version: [1.6.6.5a0] Old Version: [1.6.6.5.4]
+[2023-07-20 20:56:19] INFO root fetch - processPackages [policyengine-us]: executing diffoscope
+[2023-07-20 20:56:19] INFO root fetch - processPackages [policyengine-us]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/policyengine-us-0.373.0.tar.gz tmp/policyengine-us-0.374.0.tar.gz --markdown 20230720/p/policyengine-us/0.373.0-0.374.0/diff.md --exclude *.pyd
+[2023-07-20 20:56:19] INFO root fetch - processPackages [sailboat-gym]: Downloading https://files.pythonhosted.org/packages/33/e2/289abaad82bb0c682bc89e04cb25378d184e076a7953af8d3da8c48d12a2/sailboat-gym-1.0.9.tar.gz
+[2023-07-20 20:56:19] INFO root fetch - processPackages [roblox-pyc]: Downloading https://files.pythonhosted.org/packages/44/ab/2c1167a2d328570fcff41305068766f10c181301f2cd7a1f64f72287fa27/roblox-pyc-1.6.6.5.4.tar.gz
+[2023-07-20 20:56:19] INFO root fetch - processPackages [hyperx]: executing diffoscope
+[2023-07-20 20:56:19] INFO root fetch - processPackages [hyperx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyperx-0.1.2.tar.gz tmp/hyperx-0.1.6.tar.gz --markdown 20230720/h/hyperx/0.1.2-0.1.6/diff.md --exclude *.pyd
+[2023-07-20 20:56:19] INFO root fetch - processPackages [scikit-sparse]: Downloading https://files.pythonhosted.org/packages/b9/e8/1fe87f92779a1c0392eea70ddcd9f50bea9255b9b6dabc206467a2a15925/scikit-sparse-0.4.8.tar.gz
+[2023-07-20 20:56:19] INFO root fetch - processPackages [ctransformers]: Remove: archive file [/home/abi/fetcher/tmp/ctransformers-0.2.8.tar.gz]
+[2023-07-20 20:56:19] INFO root fetch - processPackages [ctransformers]: Remove: archive file [/home/abi/fetcher/tmp/ctransformers-0.2.9.tar.gz]
+[2023-07-20 20:56:19] INFO root fetch - processPackages [ctransformers]: Start processing: molgenis-emx2-pyclient
+[2023-07-20 20:56:19] INFO root fetch - main [MainThread]: End processing [ctransformers]: success
+[2023-07-20 20:56:19] INFO root fetch - processPackages [streamlit-clickable-card]: Downloading https://files.pythonhosted.org/packages/70/3a/12307f7a0e2fb7694ed918b8c2eaae4fae67b8d1dde7fc28133d1f700f9d/streamlit_clickable_card-0.0.2.tar.gz
+[2023-07-20 20:56:19] INFO root fetch - processPackages [sailboat-gym]: executing diffoscope
+[2023-07-20 20:56:19] INFO root fetch - processPackages [sailboat-gym]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sailboat-gym-1.0.8.tar.gz tmp/sailboat-gym-1.0.9.tar.gz --markdown 20230720/s/sailboat-gym/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-20 20:56:19] INFO root fetch - processPackages [molgenis-emx2-pyclient]: New version: [8.208.0] Old Version: [8.207.2]
+[2023-07-20 20:56:19] INFO root fetch - processPackages [scikit-sparse]: executing diffoscope
+[2023-07-20 20:56:19] INFO root fetch - processPackages [scikit-sparse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scikit-sparse-0.4.7.tar.gz tmp/scikit-sparse-0.4.8.tar.gz --markdown 20230720/s/scikit-sparse/0.4.7-0.4.8/diff.md --exclude *.pyd
+[2023-07-20 20:56:19] INFO root fetch - processPackages [molgenis-emx2-pyclient]: Downloading https://files.pythonhosted.org/packages/1c/0f/490e7b045ecb34dd5da2bec3003820be3fcc0ed19f5b9d7490ca5508f496/molgenis_emx2_pyclient-8.207.2.tar.gz
+[2023-07-20 20:56:19] INFO root fetch - processPackages [roblox-pyc]: Downloading https://files.pythonhosted.org/packages/59/75/7884ffaab86bf051065880fd8aefdfc8e3f2c34e7c9d4a8d352321ec57f8/roblox-pyc-1.6.6.5a0.tar.gz
+[2023-07-20 20:56:19] INFO root fetch - processPackages [assemblyline]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline-4.4.1.dev98.tar.gz]
+[2023-07-20 20:56:19] INFO root fetch - processPackages [assemblyline]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline-4.4.1.dev99.tar.gz]
+[2023-07-20 20:56:19] INFO root fetch - processPackages [assemblyline]: Start processing: windmill-api
+[2023-07-20 20:56:19] INFO root fetch - main [MainThread]: End processing [assemblyline]: success
+[2023-07-20 20:56:19] INFO root fetch - processPackages [roblox-pyc]: executing diffoscope
+[2023-07-20 20:56:19] INFO root fetch - processPackages [roblox-pyc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/roblox-pyc-1.6.6.5.4.tar.gz tmp/roblox-pyc-1.6.6.5a0.tar.gz --markdown 20230720/r/roblox-pyc/1.6.6.5.4-1.6.6.5a0/diff.md --exclude *.pyd
+[2023-07-20 20:56:19] INFO root fetch - processPackages [windmill-api]: New version: [1.99.0] Old Version: [1.98.0]
+[2023-07-20 20:56:19] INFO root fetch - processPackages [aleksis-app-chronos]: Remove: archive file [/home/abi/fetcher/tmp/aleksis_app_chronos-3.0.dev1.tar.gz]
+[2023-07-20 20:56:19] INFO root fetch - processPackages [aleksis-app-chronos]: Remove: archive file [/home/abi/fetcher/tmp/aleksis_app_chronos-3.0b0.tar.gz]
+[2023-07-20 20:56:19] INFO root fetch - processPackages [aleksis-app-chronos]: Start processing: wmill
+[2023-07-20 20:56:19] INFO root fetch - main [MainThread]: End processing [aleksis-app-chronos]: success
+[2023-07-20 20:56:19] INFO root fetch - processPackages [wmill]: New version: [1.99.0] Old Version: [1.98.0]
+[2023-07-20 20:56:19] INFO root fetch - processPackages [molgenis-emx2-pyclient]: Downloading https://files.pythonhosted.org/packages/5e/42/d246602878d5d1d00d7e4f8f6cc81b6d87c5c9b3d1efbcab3fb111ca1853/molgenis_emx2_pyclient-8.208.0.tar.gz
+[2023-07-20 20:56:20] INFO root fetch - processPackages [streamlit-clickable-card]: Downloading https://files.pythonhosted.org/packages/c4/6f/4e107a7b022f23a7ec6f8397f7c1bb5b1820cddfaa1af5c346c73de88d75/streamlit_clickable_card-0.0.3.tar.gz
+[2023-07-20 20:56:20] INFO root fetch - processPackages [molgenis-emx2-pyclient]: executing diffoscope
+[2023-07-20 20:56:20] INFO root fetch - processPackages [molgenis-emx2-pyclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/molgenis_emx2_pyclient-8.207.2.tar.gz tmp/molgenis_emx2_pyclient-8.208.0.tar.gz --markdown 20230720/m/molgenis-emx2-pyclient/8.207.2-8.208.0/diff.md --exclude *.pyd
+[2023-07-20 20:56:20] INFO root fetch - processPackages [streamlit-clickable-card]: executing diffoscope
+[2023-07-20 20:56:20] INFO root fetch - processPackages [streamlit-clickable-card]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit_clickable_card-0.0.2.tar.gz tmp/streamlit_clickable_card-0.0.3.tar.gz --markdown 20230720/s/streamlit-clickable-card/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-20 20:56:20] INFO root fetch - processPackages [windmill-api]: executing diffoscope
+[2023-07-20 20:56:20] INFO root fetch - processPackages [windmill-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/windmill_api-1.98.0.tar.gz tmp/windmill_api-1.99.0.tar.gz --markdown 20230720/w/windmill-api/1.98.0-1.99.0/diff.md --exclude *.pyd
+[2023-07-20 20:56:20] INFO root fetch - processPackages [wmill]: executing diffoscope
+[2023-07-20 20:56:20] INFO root fetch - processPackages [wmill]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wmill-1.98.0.tar.gz tmp/wmill-1.99.0.tar.gz --markdown 20230720/w/wmill/1.98.0-1.99.0/diff.md --exclude *.pyd
+[2023-07-20 20:56:20] INFO root fetch - processPackages [assemblyline-v4-service]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_v4_service-4.4.1.dev98-py3-none-any.whl.zip]
+[2023-07-20 20:56:20] INFO root fetch - processPackages [assemblyline-v4-service]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_v4_service-4.4.1.dev99-py3-none-any.whl.zip]
+[2023-07-20 20:56:20] INFO root fetch - processPackages [assemblyline-v4-service]: Start processing: pydal2sql
+[2023-07-20 20:56:20] INFO root fetch - main [MainThread]: End processing [assemblyline-v4-service]: success
+[2023-07-20 20:56:20] INFO root fetch - processPackages [hyperx]: Remove: archive file [/home/abi/fetcher/tmp/hyperx-0.1.2.tar.gz]
+[2023-07-20 20:56:20] INFO root fetch - processPackages [hyperx]: Remove: archive file [/home/abi/fetcher/tmp/hyperx-0.1.6.tar.gz]
+[2023-07-20 20:56:20] INFO root fetch - processPackages [hyperx]: Start processing: wmill-pg
+[2023-07-20 20:56:20] INFO root fetch - main [MainThread]: End processing [hyperx]: success
+[2023-07-20 20:56:20] INFO root fetch - processPackages [pydal2sql]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-07-20 20:56:20] INFO root fetch - processPackages [wmill-pg]: New version: [1.99.0] Old Version: [1.98.0]
+[2023-07-20 20:56:20] INFO root fetch - processPackages [sailboat-gym]: Remove: archive file [/home/abi/fetcher/tmp/sailboat-gym-1.0.8.tar.gz]
+[2023-07-20 20:56:20] INFO root fetch - processPackages [sailboat-gym]: Remove: archive file [/home/abi/fetcher/tmp/sailboat-gym-1.0.9.tar.gz]
+[2023-07-20 20:56:20] INFO root fetch - processPackages [sailboat-gym]: Start processing: cybrid-api-id-python
+[2023-07-20 20:56:20] INFO root fetch - main [MainThread]: End processing [sailboat-gym]: success
+[2023-07-20 20:56:21] INFO root fetch - processPackages [pydal2sql]: Downloading https://files.pythonhosted.org/packages/65/ee/8c552c3fb3c3ad061e06a332c25d1573540ec486b4c80598647900af1750/pydal2sql-0.3.0.tar.gz
+[2023-07-20 20:56:21] INFO root fetch - processPackages [cybrid-api-id-python]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-20 20:56:21] INFO root fetch - processPackages [cybrid-api-id-python]: Downloading https://files.pythonhosted.org/packages/50/b7/b977148f4fc829a75a0b07e5a1a330568bf4060c71cf5e0e0a6449ffed87/cybrid-api-id-python-0.9.8.tar.gz
+[2023-07-20 20:56:21] INFO root fetch - processPackages [scikit-sparse]: Remove: archive file [/home/abi/fetcher/tmp/scikit-sparse-0.4.7.tar.gz]
+[2023-07-20 20:56:21] INFO root fetch - processPackages [scikit-sparse]: Remove: archive file [/home/abi/fetcher/tmp/scikit-sparse-0.4.8.tar.gz]
+[2023-07-20 20:56:21] INFO root fetch - processPackages [scikit-sparse]: Start processing: cybrid-api-organization-python
+[2023-07-20 20:56:21] INFO root fetch - main [MainThread]: End processing [scikit-sparse]: success
+[2023-07-20 20:56:21] INFO root fetch - processPackages [roblox-pyc]: Remove: archive file [/home/abi/fetcher/tmp/roblox-pyc-1.6.6.5.4.tar.gz]
+[2023-07-20 20:56:21] INFO root fetch - processPackages [roblox-pyc]: Remove: archive file [/home/abi/fetcher/tmp/roblox-pyc-1.6.6.5a0.tar.gz]
+[2023-07-20 20:56:21] INFO root fetch - processPackages [roblox-pyc]: Start processing: compel
+[2023-07-20 20:56:21] INFO root fetch - main [MainThread]: End processing [roblox-pyc]: success
+[2023-07-20 20:56:21] INFO root fetch - processPackages [cybrid-api-organization-python]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-20 20:56:21] INFO root fetch - processPackages [compel]: New version: [2.0.1rc1] Old Version: [2.0.0rc2]
+[2023-07-20 20:56:21] INFO root fetch - processPackages [pydal2sql]: Downloading https://files.pythonhosted.org/packages/17/f2/ebe00211d05f98763a870ae8ca39ae5385bfd28d6c68c8a16b1684026995/pydal2sql-0.3.1.tar.gz
+[2023-07-20 20:56:21] INFO root fetch - processPackages [cybrid-api-id-python]: Downloading https://files.pythonhosted.org/packages/df/0b/f41ef37cacb50f16ff72d759b9fe9a5fd7fe8bde214833a5c722ba07e136/cybrid-api-id-python-0.9.9.tar.gz
+[2023-07-20 20:56:21] INFO root fetch - processPackages [wmill-pg]: executing diffoscope
+[2023-07-20 20:56:21] INFO root fetch - processPackages [wmill-pg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wmill_pg-1.98.0.tar.gz tmp/wmill_pg-1.99.0.tar.gz --markdown 20230720/w/wmill-pg/1.98.0-1.99.0/diff.md --exclude *.pyd
+[2023-07-20 20:56:21] INFO root fetch - processPackages [cybrid-api-organization-python]: Downloading https://files.pythonhosted.org/packages/8c/f9/11b3397de980d7217c6b56728b693a302080844e78e135a12319c23d1e09/cybrid-api-organization-python-0.9.8.tar.gz
+[2023-07-20 20:56:21] INFO root fetch - processPackages [windmill-api]: Remove: archive file [/home/abi/fetcher/tmp/windmill_api-1.98.0.tar.gz]
+[2023-07-20 20:56:21] INFO root fetch - processPackages [windmill-api]: Remove: archive file [/home/abi/fetcher/tmp/windmill_api-1.99.0.tar.gz]
+[2023-07-20 20:56:21] INFO root fetch - processPackages [windmill-api]: Start processing: nttblink
+[2023-07-20 20:56:21] INFO root fetch - main [MainThread]: End processing [windmill-api]: success
+[2023-07-20 20:56:21] INFO root fetch - processPackages [pydal2sql]: executing diffoscope
+[2023-07-20 20:56:21] INFO root fetch - processPackages [pydal2sql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydal2sql-0.3.0.tar.gz tmp/pydal2sql-0.3.1.tar.gz --markdown 20230720/p/pydal2sql/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-07-20 20:56:21] INFO root fetch - processPackages [nttblink]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-20 20:56:21] INFO root fetch - processPackages [cybrid-api-id-python]: executing diffoscope
+[2023-07-20 20:56:21] INFO root fetch - processPackages [cybrid-api-id-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-id-python-0.9.8.tar.gz tmp/cybrid-api-id-python-0.9.9.tar.gz --markdown 20230720/c/cybrid-api-id-python/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-20 20:56:21] INFO root fetch - processPackages [compel]: Downloading https://files.pythonhosted.org/packages/83/05/6f7b4eb20729fe0e95d4c614e1bd8a307ff7090b5f3751bdf10e6b698291/compel-2.0.0rc2.tar.gz
+[2023-07-20 20:56:21] INFO root fetch - processPackages [molgenis-emx2-pyclient]: Remove: archive file [/home/abi/fetcher/tmp/molgenis_emx2_pyclient-8.207.2.tar.gz]
+[2023-07-20 20:56:21] INFO root fetch - processPackages [molgenis-emx2-pyclient]: Remove: archive file [/home/abi/fetcher/tmp/molgenis_emx2_pyclient-8.208.0.tar.gz]
+[2023-07-20 20:56:21] INFO root fetch - processPackages [molgenis-emx2-pyclient]: Start processing: cybrid-api-bank-python
+[2023-07-20 20:56:21] INFO root fetch - main [MainThread]: End processing [molgenis-emx2-pyclient]: success
+[2023-07-20 20:56:21] INFO root fetch - processPackages [cybrid-api-organization-python]: Downloading https://files.pythonhosted.org/packages/6e/9a/cba8516138af9b31af978d1cb5ac08501052b56ac24c59f876cc7432e4cd/cybrid-api-organization-python-0.9.9.tar.gz
+[2023-07-20 20:56:21] INFO root fetch - processPackages [nttblink]: Downloading https://files.pythonhosted.org/packages/1c/25/d7149dae507d352fd4d85ecb2d17f036d6118fd4e7adbc824413df570ce2/nttblink-0.1.0.tar.gz
+[2023-07-20 20:56:21] INFO root fetch - processPackages [cybrid-api-bank-python]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-20 20:56:21] INFO root fetch - processPackages [wmill]: Remove: archive file [/home/abi/fetcher/tmp/wmill-1.98.0.tar.gz]
+[2023-07-20 20:56:21] INFO root fetch - processPackages [wmill]: Remove: archive file [/home/abi/fetcher/tmp/wmill-1.99.0.tar.gz]
+[2023-07-20 20:56:21] INFO root fetch - main [MainThread]: End processing [wmill]: success
+[2023-07-20 20:56:21] INFO root fetch - processPackages [cybrid-api-organization-python]: executing diffoscope
+[2023-07-20 20:56:21] INFO root fetch - processPackages [cybrid-api-organization-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-organization-python-0.9.8.tar.gz tmp/cybrid-api-organization-python-0.9.9.tar.gz --markdown 20230720/c/cybrid-api-organization-python/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-20 20:56:21] INFO root fetch - processPackages [cybrid-api-bank-python]: Downloading https://files.pythonhosted.org/packages/20/58/83595c25956605935aa08227f1f01b1c02743825aca19e267bc95d1b4928/cybrid-api-bank-python-0.9.8.tar.gz
+[2023-07-20 20:56:22] INFO root fetch - processPackages [compel]: Downloading https://files.pythonhosted.org/packages/9e/5b/6fd9f4e0b73b59bcc71fd8d54c80974cb439f2c7686d3f5c0591ecef18db/compel-2.0.1rc1.tar.gz
+[2023-07-20 20:56:22] INFO root fetch - processPackages [nttblink]: Downloading https://files.pythonhosted.org/packages/fc/48/b5847158a810be11164655bbfa29268948fb91ad309492692ab45208c79f/nttblink-0.1.1.tar.gz
+[2023-07-20 20:56:22] INFO root fetch - processPackages [cybrid-api-bank-python]: Downloading https://files.pythonhosted.org/packages/89/0b/5831e52f1895b5ffe4c5b8862788216f9cf6c8554dfffa92e8805799baaf/cybrid-api-bank-python-0.9.9.tar.gz
+[2023-07-20 20:56:22] INFO root fetch - processPackages [compel]: executing diffoscope
+[2023-07-20 20:56:22] INFO root fetch - processPackages [compel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/compel-2.0.0rc2.tar.gz tmp/compel-2.0.1rc1.tar.gz --markdown 20230720/c/compel/2.0.0rc2-2.0.1rc1/diff.md --exclude *.pyd
+[2023-07-20 20:56:22] INFO root fetch - processPackages [cybrid-api-bank-python]: executing diffoscope
+[2023-07-20 20:56:22] INFO root fetch - processPackages [cybrid-api-bank-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-bank-python-0.9.8.tar.gz tmp/cybrid-api-bank-python-0.9.9.tar.gz --markdown 20230720/c/cybrid-api-bank-python/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-20 20:56:22] INFO root fetch - processPackages [nttblink]: executing diffoscope
+[2023-07-20 20:56:22] INFO root fetch - processPackages [nttblink]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nttblink-0.1.0.tar.gz tmp/nttblink-0.1.1.tar.gz --markdown 20230720/n/nttblink/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-20 20:56:22] INFO root fetch - processPackages [wmill-pg]: Remove: archive file [/home/abi/fetcher/tmp/wmill_pg-1.98.0.tar.gz]
+[2023-07-20 20:56:22] INFO root fetch - processPackages [wmill-pg]: Remove: archive file [/home/abi/fetcher/tmp/wmill_pg-1.99.0.tar.gz]
+[2023-07-20 20:56:22] INFO root fetch - main [MainThread]: End processing [wmill-pg]: success
+[2023-07-20 20:56:23] INFO root fetch - processPackages [pydal2sql]: Remove: archive file [/home/abi/fetcher/tmp/pydal2sql-0.3.0.tar.gz]
+[2023-07-20 20:56:23] INFO root fetch - processPackages [pydal2sql]: Remove: archive file [/home/abi/fetcher/tmp/pydal2sql-0.3.1.tar.gz]
+[2023-07-20 20:56:23] INFO root fetch - main [MainThread]: End processing [pydal2sql]: success
+[2023-07-20 20:56:23] INFO root fetch - processPackages [cybrid-api-organization-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-organization-python-0.9.8.tar.gz]
+[2023-07-20 20:56:23] INFO root fetch - processPackages [cybrid-api-organization-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-organization-python-0.9.9.tar.gz]
+[2023-07-20 20:56:23] INFO root fetch - main [MainThread]: End processing [cybrid-api-organization-python]: success
+[2023-07-20 20:56:23] INFO root fetch - processPackages [cybrid-api-id-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-id-python-0.9.8.tar.gz]
+[2023-07-20 20:56:23] INFO root fetch - processPackages [cybrid-api-id-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-id-python-0.9.9.tar.gz]
+[2023-07-20 20:56:23] INFO root fetch - main [MainThread]: End processing [cybrid-api-id-python]: success
+[2023-07-20 20:56:23] INFO root fetch - processPackages [nttblink]: Remove: archive file [/home/abi/fetcher/tmp/nttblink-0.1.0.tar.gz]
+[2023-07-20 20:56:23] INFO root fetch - processPackages [nttblink]: Remove: archive file [/home/abi/fetcher/tmp/nttblink-0.1.1.tar.gz]
+[2023-07-20 20:56:23] INFO root fetch - main [MainThread]: End processing [nttblink]: success
+[2023-07-20 20:56:23] INFO root fetch - processPackages [compel]: Remove: archive file [/home/abi/fetcher/tmp/compel-2.0.0rc2.tar.gz]
+[2023-07-20 20:56:23] INFO root fetch - processPackages [compel]: Remove: archive file [/home/abi/fetcher/tmp/compel-2.0.1rc1.tar.gz]
+[2023-07-20 20:56:23] INFO root fetch - main [MainThread]: End processing [compel]: success
+[2023-07-20 20:56:24] INFO root fetch - processPackages [cybrid-api-bank-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-bank-python-0.9.8.tar.gz]
+[2023-07-20 20:56:24] INFO root fetch - processPackages [cybrid-api-bank-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-bank-python-0.9.9.tar.gz]
+[2023-07-20 20:56:24] INFO root fetch - main [MainThread]: End processing [cybrid-api-bank-python]: success
+[2023-07-20 20:56:34] INFO root fetch - processPackages [streamlit-clickable-card]: Remove: archive file [/home/abi/fetcher/tmp/streamlit_clickable_card-0.0.2.tar.gz]
+[2023-07-20 20:56:34] INFO root fetch - processPackages [streamlit-clickable-card]: Remove: archive file [/home/abi/fetcher/tmp/streamlit_clickable_card-0.0.3.tar.gz]
+[2023-07-20 20:56:34] INFO root fetch - main [MainThread]: End processing [streamlit-clickable-card]: success
+[2023-07-20 20:56:49] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.373.0.tar.gz]
+[2023-07-20 20:56:49] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.374.0.tar.gz]
+[2023-07-20 20:56:49] INFO root fetch - main [MainThread]: End processing [policyengine-us]: success
+[2023-07-20 20:56:49] INFO root fetch - main [MainThread]: Store serial: [18971275]
