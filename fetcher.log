@@ -249,3 +249,189 @@
 [2023-07-20 10:09:39] INFO root fetch - processPackages [bitsmiths-fura]: Remove: archive file [/home/abi/fetcher/tmp/bitsmiths-fura-2.2.3.tar.gz]
 [2023-07-20 10:09:39] INFO root fetch - main [MainThread]: End processing [bitsmiths-fura]: success
 [2023-07-20 10:09:39] INFO root fetch - main [MainThread]: Store serial: [18963055]
+[2023-07-20 10:14:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18963055]
+[2023-07-20 10:14:48] INFO root fetch - main [MainThread]: Found 22 changed packages
+[2023-07-20 10:14:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: crypto-screening
+[2023-07-20 10:14:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-imgwidget
+[2023-07-20 10:14:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cg
+[2023-07-20 10:14:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: oeahr-package
+[2023-07-20 10:14:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aws-fsx-lifecycle-status-monitor
+[2023-07-20 10:14:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hyutils-hyutil-hoyun-lab
+[2023-07-20 10:14:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: django-imgwidget
+[2023-07-20 10:14:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nucleus-driver
+[2023-07-20 10:14:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: shioaji
+[2023-07-20 10:14:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: caldav
+[2023-07-20 10:14:48] INFO root fetch - processPackages [crypto-screening]: New version: [7.1.0] Old Version: [7.0.0]
+[2023-07-20 10:14:48] WARNING root fetch - processPackages [oeahr-package]: Skipping, unable to determine old version
+[2023-07-20 10:14:48] INFO root fetch - processPackages [oeahr-package]: Start processing: pycompall
+[2023-07-20 10:14:48] INFO root fetch - main [MainThread]: End processing [oeahr-package] error
+[2023-07-20 10:14:48] INFO root fetch - processPackages [hyutils-hyutil-hoyun-lab]: New version: [0.0.7.5] Old Version: [0.0.7.4]
+[2023-07-20 10:14:48] INFO root fetch - processPackages [aws-fsx-lifecycle-status-monitor]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-20 10:14:48] INFO root fetch - processPackages [caldav]: New version: [1.3.6] Old Version: [1.3.5]
+[2023-07-20 10:14:48] INFO root fetch - processPackages [nucleus-driver]: New version: [1.5.5] Old Version: [1.5.4]
+[2023-07-20 10:14:48] INFO root fetch - processPackages [django-imgwidget]: New version: [0.0.3.1] Old Version: [0.0.3]
+[2023-07-20 10:14:48] INFO root fetch - processPackages [django-imgwidget]: New version: [0.0.3.1] Old Version: [0.0.3]
+[2023-07-20 10:14:48] INFO root fetch - processPackages [cg]: New version: [39.0.0] Old Version: [38.3.5]
+[2023-07-20 10:14:48] INFO root fetch - processPackages [shioaji]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-07-20 10:14:48] INFO root fetch - processPackages [pycompall]: New version: [0.2.0] Old Version: [0.1.9]
+[2023-07-20 10:14:48] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/dd/71/20e21dc1782e23c6c9f51f9f93e61c35e5075876fc0b816f03ee5ec03a2d/cg-38.3.5.tar.gz
+[2023-07-20 10:14:48] INFO root fetch - processPackages [hyutils-hyutil-hoyun-lab]: Downloading https://files.pythonhosted.org/packages/6e/7a/62090eaf4977e8dec887c5dc5898eab6d6595ddbf2c53de999991d6549f3/hyutils-hyutil-hoyun-lab-0.0.7.4.tar.gz
+[2023-07-20 10:14:48] INFO root fetch - processPackages [aws-fsx-lifecycle-status-monitor]: Downloading https://files.pythonhosted.org/packages/91/99/ba414c7989561bff44c26e6aa438cb7f3aa88974aa39f73ac397ccec9877/aws-fsx-lifecycle-status-monitor-0.0.5.tar.gz
+[2023-07-20 10:14:48] INFO root fetch - processPackages [django-imgwidget]: Downloading https://files.pythonhosted.org/packages/ea/9c/efb7f97f4f448c83a0f4eefe84eec34d2d9de8689c1c0a57b6e11070f1ed/django-imgwidget-0.0.3.tar.gz
+[2023-07-20 10:14:48] INFO root fetch - processPackages [django-imgwidget]: Downloading https://files.pythonhosted.org/packages/ea/9c/efb7f97f4f448c83a0f4eefe84eec34d2d9de8689c1c0a57b6e11070f1ed/django-imgwidget-0.0.3.tar.gz
+[2023-07-20 10:14:48] INFO root fetch - processPackages [caldav]: Downloading https://files.pythonhosted.org/packages/37/1d/79c2d3f1ada52eb6937e84eb29e5d6a35f7de30f5603c27bce4b4f7d487e/caldav-1.3.6.tar.gz
+[2023-07-20 10:14:48] INFO root fetch - processPackages [nucleus-driver]: Downloading https://files.pythonhosted.org/packages/74/ce/289c7d3878882a6d862f2924e8801653eaeee81400e3f8e854e798354f12/nucleus_driver-1.5.4.tar.gz
+[2023-07-20 10:14:48] INFO root fetch - processPackages [pycompall]: Downloading https://files.pythonhosted.org/packages/50/40/92c1a0ecab4ac6e924b7073264247bf95385f88b923b563a9483bf2f7e0c/pycompall-0.1.9.tar.gz
+[2023-07-20 10:14:48] INFO root fetch - processPackages [shioaji]: Downloading https://files.pythonhosted.org/packages/53/bc/ce59eedf72a6ce9e5e6e738f96de504b80b60ef87b3a0de3df60cd42da5d/shioaji-1.1.8-cp39-cp39-win_amd64.whl
+[2023-07-20 10:14:48] INFO root fetch - processPackages [crypto-screening]: Downloading https://files.pythonhosted.org/packages/29/d7/f95777fcc86536ebfcd939353d70cf5d263ec892c4db6301f2b8019e05eb/crypto-screening-7.1.0.tar.gz
+[2023-07-20 10:14:49] INFO root fetch - processPackages [caldav]: executing diffoscope
+[2023-07-20 10:14:49] INFO root fetch - processPackages [caldav]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/caldav-1.3.5.tar.gz tmp/caldav-1.3.6.tar.gz --markdown 20230720/c/caldav/1.3.5-1.3.6/diff.md --exclude *.pyd
+[2023-07-20 10:14:49] INFO root fetch - processPackages [crypto-screening]: executing diffoscope
+[2023-07-20 10:14:49] INFO root fetch - processPackages [crypto-screening]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crypto-screening-7.0.0.tar.gz tmp/crypto-screening-7.1.0.tar.gz --markdown 20230720/c/crypto-screening/7.0.0-7.1.0/diff.md --exclude *.pyd
+[2023-07-20 10:14:49] INFO root fetch - processPackages [hyutils-hyutil-hoyun-lab]: Downloading https://files.pythonhosted.org/packages/ca/2a/52d3e834c9d0010dfbff63c6c478e6c751a637eebe7ce5201b95c0552ddf/hyutils-hyutil-hoyun-lab-0.0.7.5.tar.gz
+[2023-07-20 10:14:49] INFO root fetch - processPackages [aws-fsx-lifecycle-status-monitor]: Downloading https://files.pythonhosted.org/packages/d6/56/860b3d39f25032fb1aad5fc7a4700e4b07cdbf2f5faa60bb96d0b5f6effe/aws-fsx-lifecycle-status-monitor-0.0.6.tar.gz
+[2023-07-20 10:14:49] INFO root fetch - processPackages [django-imgwidget]: Downloading https://files.pythonhosted.org/packages/d9/90/1639fe4f497889eb3ebea64d3839642ce1f4331a9a9efd8908bd595054f8/django-imgwidget-0.0.3.1.tar.gz
+[2023-07-20 10:14:49] INFO root fetch - processPackages [hyutils-hyutil-hoyun-lab]: executing diffoscope
+[2023-07-20 10:14:49] INFO root fetch - processPackages [hyutils-hyutil-hoyun-lab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyutils-hyutil-hoyun-lab-0.0.7.4.tar.gz tmp/hyutils-hyutil-hoyun-lab-0.0.7.5.tar.gz --markdown 20230720/h/hyutils-hyutil-hoyun-lab/0.0.7.4-0.0.7.5/diff.md --exclude *.pyd
+[2023-07-20 10:14:49] INFO root fetch - processPackages [django-imgwidget]: Downloading https://files.pythonhosted.org/packages/d9/90/1639fe4f497889eb3ebea64d3839642ce1f4331a9a9efd8908bd595054f8/django-imgwidget-0.0.3.1.tar.gz
+[2023-07-20 10:14:49] INFO root fetch - processPackages [aws-fsx-lifecycle-status-monitor]: executing diffoscope
+[2023-07-20 10:14:49] INFO root fetch - processPackages [aws-fsx-lifecycle-status-monitor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws-fsx-lifecycle-status-monitor-0.0.5.tar.gz tmp/aws-fsx-lifecycle-status-monitor-0.0.6.tar.gz --markdown 20230720/a/aws-fsx-lifecycle-status-monitor/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-20 10:14:49] INFO root fetch - processPackages [shioaji]: Downloading https://files.pythonhosted.org/packages/25/d1/c8de47c254d1a037a4e6946d619b99975eb1dcbc433ced107e013850ebb4/shioaji-1.1.9-cp39-cp39-win_amd64.whl
+[2023-07-20 10:14:49] INFO root fetch - processPackages [pycompall]: Downloading https://files.pythonhosted.org/packages/a1/17/8c512e752573d5131911b69e48528501b1ff05df89eb870960d142b716ac/pycompall-0.2.0.tar.gz
+[2023-07-20 10:14:49] INFO root fetch - processPackages [nucleus-driver]: Downloading https://files.pythonhosted.org/packages/c4/47/d05a5cdd9c6e6c0247bc8945a60b9bceb58807df10a8592a3e7a9e7b9dc3/nucleus_driver-1.5.5.tar.gz
+[2023-07-20 10:14:49] INFO root fetch - processPackages [django-imgwidget]: executing diffoscope
+[2023-07-20 10:14:49] INFO root fetch - processPackages [django-imgwidget]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-imgwidget-0.0.3.tar.gz tmp/django-imgwidget-0.0.3.1.tar.gz --markdown 20230720/d/django-imgwidget/0.0.3-0.0.3.1/diff.md --exclude *.pyd
+[2023-07-20 10:14:49] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/e9/d2/ace82f6858276177cd9286d5e030504359b5a385583c823d8bc18b4e6368/cg-39.0.0.tar.gz
+[2023-07-20 10:14:49] INFO root fetch - processPackages [django-imgwidget]: executing diffoscope
+[2023-07-20 10:14:49] INFO root fetch - processPackages [django-imgwidget]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-imgwidget-0.0.3.tar.gz tmp/django-imgwidget-0.0.3.1.tar.gz --markdown 20230720/d/django-imgwidget/0.0.3-0.0.3.1/diff.md --exclude *.pyd
+[2023-07-20 10:14:49] INFO root fetch - processPackages [nucleus-driver]: executing diffoscope
+[2023-07-20 10:14:49] INFO root fetch - processPackages [nucleus-driver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucleus_driver-1.5.4.tar.gz tmp/nucleus_driver-1.5.5.tar.gz --markdown 20230720/n/nucleus-driver/1.5.4-1.5.5/diff.md --exclude *.pyd
+[2023-07-20 10:14:49] INFO root fetch - processPackages [pycompall]: executing diffoscope
+[2023-07-20 10:14:49] INFO root fetch - processPackages [pycompall]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycompall-0.1.9.tar.gz tmp/pycompall-0.2.0.tar.gz --markdown 20230720/p/pycompall/0.1.9-0.2.0/diff.md --exclude *.pyd
+[2023-07-20 10:14:49] INFO root fetch - processPackages [shioaji]: executing diffoscope
+[2023-07-20 10:14:49] INFO root fetch - processPackages [shioaji]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shioaji-1.1.8-cp39-cp39-win_amd64.whl.zip tmp/shioaji-1.1.9-cp39-cp39-win_amd64.whl.zip --markdown 20230720/s/shioaji/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-07-20 10:14:49] INFO root fetch - processPackages [cg]: executing diffoscope
+[2023-07-20 10:14:49] INFO root fetch - processPackages [cg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg-38.3.5.tar.gz tmp/cg-39.0.0.tar.gz --markdown 20230720/c/cg/38.3.5-39.0.0/diff.md --exclude *.pyd
+[2023-07-20 10:14:50] INFO root fetch - processPackages [caldav]: Remove: archive file [/home/abi/fetcher/tmp/caldav-1.3.5.tar.gz]
+[2023-07-20 10:14:50] INFO root fetch - processPackages [caldav]: Remove: archive file [/home/abi/fetcher/tmp/caldav-1.3.6.tar.gz]
+[2023-07-20 10:14:50] INFO root fetch - processPackages [caldav]: Start processing: zuicorn
+[2023-07-20 10:14:50] INFO root fetch - main [MainThread]: End processing [caldav]: success
+[2023-07-20 10:14:50] INFO root fetch - processPackages [crypto-screening]: Remove: archive file [/home/abi/fetcher/tmp/crypto-screening-7.0.0.tar.gz]
+[2023-07-20 10:14:50] INFO root fetch - processPackages [crypto-screening]: Remove: archive file [/home/abi/fetcher/tmp/crypto-screening-7.1.0.tar.gz]
+[2023-07-20 10:14:50] INFO root fetch - processPackages [crypto-screening]: Start processing: molgenis-emx2-pyclient
+[2023-07-20 10:14:50] INFO root fetch - main [MainThread]: End processing [crypto-screening]: success
+[2023-07-20 10:14:50] INFO root fetch - processPackages [zuicorn]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-07-20 10:14:50] INFO root fetch - processPackages [molgenis-emx2-pyclient]: New version: [8.207.2] Old Version: [8.207.1]
+[2023-07-20 10:14:50] INFO root fetch - processPackages [molgenis-emx2-pyclient]: Downloading https://files.pythonhosted.org/packages/6e/e2/040396b0252fec87e035b7655d63427bf0843704866887bbeff2dcce8ff4/molgenis_emx2_pyclient-8.207.1.tar.gz
+[2023-07-20 10:14:50] INFO root fetch - processPackages [hyutils-hyutil-hoyun-lab]: Remove: archive file [/home/abi/fetcher/tmp/hyutils-hyutil-hoyun-lab-0.0.7.4.tar.gz]
+[2023-07-20 10:14:50] INFO root fetch - processPackages [hyutils-hyutil-hoyun-lab]: Remove: archive file [/home/abi/fetcher/tmp/hyutils-hyutil-hoyun-lab-0.0.7.5.tar.gz]
+[2023-07-20 10:14:50] INFO root fetch - processPackages [hyutils-hyutil-hoyun-lab]: Start processing: smartpyml
+[2023-07-20 10:14:50] INFO root fetch - main [MainThread]: End processing [hyutils-hyutil-hoyun-lab]: success
+[2023-07-20 10:14:50] INFO root fetch - processPackages [aws-fsx-lifecycle-status-monitor]: Remove: archive file [/home/abi/fetcher/tmp/aws-fsx-lifecycle-status-monitor-0.0.5.tar.gz]
+[2023-07-20 10:14:50] INFO root fetch - processPackages [aws-fsx-lifecycle-status-monitor]: Remove: archive file [/home/abi/fetcher/tmp/aws-fsx-lifecycle-status-monitor-0.0.6.tar.gz]
+[2023-07-20 10:14:50] INFO root fetch - processPackages [aws-fsx-lifecycle-status-monitor]: Start processing: fastapi-serve
+[2023-07-20 10:14:50] INFO root fetch - main [MainThread]: End processing [aws-fsx-lifecycle-status-monitor]: success
+[2023-07-20 10:14:50] INFO root fetch - processPackages [zuicorn]: Downloading https://files.pythonhosted.org/packages/6a/62/1b9b98cdefa3792aaa6d91116f3a2baca63220bd27f4620851e396029592/zuicorn-1.0.5.tar.gz
+[2023-07-20 10:14:50] INFO root fetch - processPackages [smartpyml]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-20 10:14:50] INFO root fetch - processPackages [fastapi-serve]: New version: [0.0.5.dev4] Old Version: [0.0.5.dev3]
+[2023-07-20 10:14:50] INFO root fetch - processPackages [pycompall]: Remove: archive file [/home/abi/fetcher/tmp/pycompall-0.1.9.tar.gz]
+[2023-07-20 10:14:50] INFO root fetch - processPackages [pycompall]: Remove: archive file [/home/abi/fetcher/tmp/pycompall-0.2.0.tar.gz]
+[2023-07-20 10:14:50] INFO root fetch - processPackages [pycompall]: Start processing: junifer
+[2023-07-20 10:14:50] INFO root fetch - main [MainThread]: End processing [pycompall]: success
+[2023-07-20 10:14:50] INFO root fetch - processPackages [zuicorn]: executing diffoscope
+[2023-07-20 10:14:50] INFO root fetch - processPackages [zuicorn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zuicorn-1.0.4.tar.gz tmp/zuicorn-1.0.5.tar.gz --markdown 20230720/z/zuicorn/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-07-20 10:14:51] INFO root fetch - processPackages [junifer]: New version: [0.0.3.dev89] Old Version: [0.0.3.dev75]
+[2023-07-20 10:14:51] INFO root fetch - processPackages [smartpyml]: Downloading https://files.pythonhosted.org/packages/20/34/62535a8e3c25973c87e4d71b5108549db1f8091bbb1fe3508617aa2a24f9/smartpyml-0.1.0.tar.gz
+[2023-07-20 10:14:51] INFO root fetch - processPackages [nucleus-driver]: Remove: archive file [/home/abi/fetcher/tmp/nucleus_driver-1.5.4.tar.gz]
+[2023-07-20 10:14:51] INFO root fetch - processPackages [nucleus-driver]: Remove: archive file [/home/abi/fetcher/tmp/nucleus_driver-1.5.5.tar.gz]
+[2023-07-20 10:14:51] INFO root fetch - processPackages [nucleus-driver]: Start processing: collective.contact.core
+[2023-07-20 10:14:51] INFO root fetch - main [MainThread]: End processing [nucleus-driver]: success
+[2023-07-20 10:14:51] INFO root fetch - processPackages [fastapi-serve]: Downloading https://files.pythonhosted.org/packages/72/f1/ae99f13a19f66135c7fcf654bf612eb9694e6195d30aacc857ec4e43e2a4/fastapi-serve-0.0.5.dev3.tar.gz
+[2023-07-20 10:14:51] INFO root fetch - processPackages [molgenis-emx2-pyclient]: Downloading https://files.pythonhosted.org/packages/1c/0f/490e7b045ecb34dd5da2bec3003820be3fcc0ed19f5b9d7490ca5508f496/molgenis_emx2_pyclient-8.207.2.tar.gz
+[2023-07-20 10:14:51] INFO root fetch - processPackages [collective.contact.core]: New version: [1.9] Old Version: [1.8]
+[2023-07-20 10:14:51] INFO root fetch - processPackages [django-imgwidget]: Remove: archive file [/home/abi/fetcher/tmp/django-imgwidget-0.0.3.tar.gz]
+[2023-07-20 10:14:51] INFO root fetch - processPackages [django-imgwidget]: Remove: archive file [/home/abi/fetcher/tmp/django-imgwidget-0.0.3.1.tar.gz]
+[2023-07-20 10:14:51] INFO root fetch - processPackages [django-imgwidget]: Start processing: openxlab-test
+[2023-07-20 10:14:51] INFO root fetch - main [MainThread]: End processing [django-imgwidget]: success
+[2023-07-20 10:14:51] INFO root fetch - processPackages [junifer]: Downloading https://files.pythonhosted.org/packages/d6/47/d74516e31bf550bd413557bf2fe84012ad1c21b2a4e390624ea24404d47d/junifer-0.0.3.dev75.tar.gz
+[2023-07-20 10:14:51] INFO root fetch - processPackages [molgenis-emx2-pyclient]: executing diffoscope
+[2023-07-20 10:14:51] INFO root fetch - processPackages [molgenis-emx2-pyclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/molgenis_emx2_pyclient-8.207.1.tar.gz tmp/molgenis_emx2_pyclient-8.207.2.tar.gz --markdown 20230720/m/molgenis-emx2-pyclient/8.207.1-8.207.2/diff.md --exclude *.pyd
+[2023-07-20 10:14:51] INFO root fetch - processPackages [openxlab-test]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-20 10:14:51] INFO root fetch - processPackages [shioaji]: Remove: archive file [/home/abi/fetcher/tmp/shioaji-1.1.8-cp39-cp39-win_amd64.whl.zip]
+[2023-07-20 10:14:51] INFO root fetch - processPackages [shioaji]: Remove: archive file [/home/abi/fetcher/tmp/shioaji-1.1.9-cp39-cp39-win_amd64.whl.zip]
+[2023-07-20 10:14:51] INFO root fetch - processPackages [shioaji]: Start processing: spdx-tools
+[2023-07-20 10:14:51] INFO root fetch - main [MainThread]: End processing [shioaji]: success
+[2023-07-20 10:14:51] INFO root fetch - processPackages [smartpyml]: Downloading https://files.pythonhosted.org/packages/a4/ea/d97dd515ae694d9b16f028020c5a40cd0b35912afec8677228fe915a2241/smartpyml-0.1.1.tar.gz
+[2023-07-20 10:14:51] INFO root fetch - processPackages [spdx-tools]: New version: [0.8.0rc3] Old Version: [0.8.0rc2]
+[2023-07-20 10:14:51] INFO root fetch - processPackages [collective.contact.core]: Downloading https://files.pythonhosted.org/packages/46/f9/8dc8b90d8aeeb2ca8f2d91eead7783ba22ea4cee83cd6c428e054724ba8a/collective.contact.core-1.8.tar.gz
+[2023-07-20 10:14:51] INFO root fetch - processPackages [openxlab-test]: Downloading https://files.pythonhosted.org/packages/34/ad/3b9db6db055aebbabba24344390af619b51825de2395be661e017a2b0296/openxlab_test-0.0.8.tar.gz
+[2023-07-20 10:14:51] INFO root fetch - processPackages [smartpyml]: executing diffoscope
+[2023-07-20 10:14:51] INFO root fetch - processPackages [smartpyml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smartpyml-0.1.0.tar.gz tmp/smartpyml-0.1.1.tar.gz --markdown 20230720/s/smartpyml/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-20 10:14:51] WARNING root fetch - processPackages [openxlab-test]: Skipping package: exceeds size limit 22336348>=10485760
+[2023-07-20 10:14:51] INFO root fetch - processPackages [openxlab-test]: Start processing: frogmouth
+[2023-07-20 10:14:51] INFO root fetch - main [MainThread]: End processing [openxlab-test] error
+[2023-07-20 10:14:51] INFO root fetch - processPackages [fastapi-serve]: Downloading https://files.pythonhosted.org/packages/89/01/3a2932bd457359ba2419f1b81a7ec9c174cf24cb4f1deaf91e0e056e21cd/fastapi-serve-0.0.5.dev4.tar.gz
+[2023-07-20 10:14:51] INFO root fetch - processPackages [django-imgwidget]: Start processing: pwforecast
+[2023-07-20 10:14:51] INFO root fetch - main [MainThread]: End processing [django-imgwidget]: success
+[2023-07-20 10:14:51] INFO root fetch - processPackages [frogmouth]: New version: [0.8.0] Old Version: [0.7.0]
+[2023-07-20 10:14:51] INFO root fetch - processPackages [pwforecast]: New version: [1.1.4] Old Version: [1.1.3]
+[2023-07-20 10:14:51] INFO root fetch - processPackages [spdx-tools]: Downloading https://files.pythonhosted.org/packages/59/f0/b2abbb05e8a9242ec57a89c58e8fe1f169bc5bf94a0096390eb123322f5a/spdx-tools-0.8.0rc2.tar.gz
+[2023-07-20 10:14:51] INFO root fetch - processPackages [fastapi-serve]: executing diffoscope
+[2023-07-20 10:14:51] INFO root fetch - processPackages [fastapi-serve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi-serve-0.0.5.dev3.tar.gz tmp/fastapi-serve-0.0.5.dev4.tar.gz --markdown 20230720/f/fastapi-serve/0.0.5.dev3-0.0.5.dev4/diff.md --exclude *.pyd
+[2023-07-20 10:14:51] INFO root fetch - processPackages [frogmouth]: Downloading https://files.pythonhosted.org/packages/5f/10/317435b0286fbd65c71f076bffd0e3cdc16c1ce45e9454e1c8620e5a3154/frogmouth-0.7.0.tar.gz
+[2023-07-20 10:14:51] INFO root fetch - processPackages [pwforecast]: Downloading https://files.pythonhosted.org/packages/94/11/33fafc34e3134ec2350a9fee84ea4f60a97e0d1f6aacaf821229f9bfed35/pwforecast-1.1.3.tar.gz
+[2023-07-20 10:14:51] INFO root fetch - processPackages [collective.contact.core]: Downloading https://files.pythonhosted.org/packages/e6/99/41eee00e71e75e94f387a9d92bffaa15e7227efaede4ba545d1500c37f7e/collective.contact.core-1.9.tar.gz
+[2023-07-20 10:14:52] INFO root fetch - processPackages [zuicorn]: Remove: archive file [/home/abi/fetcher/tmp/zuicorn-1.0.4.tar.gz]
+[2023-07-20 10:14:52] INFO root fetch - processPackages [zuicorn]: Remove: archive file [/home/abi/fetcher/tmp/zuicorn-1.0.5.tar.gz]
+[2023-07-20 10:14:52] INFO root fetch - processPackages [zuicorn]: Start processing: scoamp
+[2023-07-20 10:14:52] INFO root fetch - main [MainThread]: End processing [zuicorn]: success
+[2023-07-20 10:14:52] INFO root fetch - processPackages [spdx-tools]: Downloading https://files.pythonhosted.org/packages/9e/af/d4f82ee92c54ac72d7c18019c6641536898aad53ecc8081f3df04c43aff7/spdx-tools-0.8.0rc3.tar.gz
+[2023-07-20 10:14:52] INFO root fetch - processPackages [collective.contact.core]: executing diffoscope
+[2023-07-20 10:14:52] INFO root fetch - processPackages [collective.contact.core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/collective.contact.core-1.8.tar.gz tmp/collective.contact.core-1.9.tar.gz --markdown 20230720/c/collective.contact.core/1.8-1.9/diff.md --exclude *.pyd
+[2023-07-20 10:14:52] INFO root fetch - processPackages [scoamp]: New version: [0.4.0a1] Old Version: [0.4.0a0]
+[2023-07-20 10:14:52] INFO root fetch - processPackages [junifer]: Downloading https://files.pythonhosted.org/packages/c5/06/255ca570d014f3a3b61dbfd6930918954915fcbb78b788d99fd027969a15/junifer-0.0.3.dev89.tar.gz
+[2023-07-20 10:14:52] INFO root fetch - processPackages [frogmouth]: Downloading https://files.pythonhosted.org/packages/9e/eb/9700a9b558246c6ed57d3ce5c23a98538b6c0e82ce9325b4e1b86cca0fea/frogmouth-0.8.0.tar.gz
+[2023-07-20 10:14:52] INFO root fetch - processPackages [pwforecast]: Downloading https://files.pythonhosted.org/packages/b4/be/fb2f7401e808fce9fb02b691b9cc330094f90a3b895a0aa57274cb2e0ae2/pwforecast-1.1.4.tar.gz
+[2023-07-20 10:14:52] INFO root fetch - processPackages [spdx-tools]: executing diffoscope
+[2023-07-20 10:14:52] INFO root fetch - processPackages [spdx-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spdx-tools-0.8.0rc2.tar.gz tmp/spdx-tools-0.8.0rc3.tar.gz --markdown 20230720/s/spdx-tools/0.8.0rc2-0.8.0rc3/diff.md --exclude *.pyd
+[2023-07-20 10:14:52] INFO root fetch - processPackages [molgenis-emx2-pyclient]: Remove: archive file [/home/abi/fetcher/tmp/molgenis_emx2_pyclient-8.207.1.tar.gz]
+[2023-07-20 10:14:52] INFO root fetch - processPackages [molgenis-emx2-pyclient]: Remove: archive file [/home/abi/fetcher/tmp/molgenis_emx2_pyclient-8.207.2.tar.gz]
+[2023-07-20 10:14:52] INFO root fetch - main [MainThread]: End processing [molgenis-emx2-pyclient]: success
+[2023-07-20 10:14:52] INFO root fetch - processPackages [frogmouth]: executing diffoscope
+[2023-07-20 10:14:52] INFO root fetch - processPackages [frogmouth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/frogmouth-0.7.0.tar.gz tmp/frogmouth-0.8.0.tar.gz --markdown 20230720/f/frogmouth/0.7.0-0.8.0/diff.md --exclude *.pyd
+[2023-07-20 10:14:52] INFO root fetch - processPackages [junifer]: executing diffoscope
+[2023-07-20 10:14:52] INFO root fetch - processPackages [junifer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/junifer-0.0.3.dev75.tar.gz tmp/junifer-0.0.3.dev89.tar.gz --markdown 20230720/j/junifer/0.0.3.dev75-0.0.3.dev89/diff.md --exclude *.pyd
+[2023-07-20 10:14:52] INFO root fetch - processPackages [scoamp]: Downloading https://files.pythonhosted.org/packages/08/cc/617d8b4793cfa44e2104fe2b8319013ede0cd7f99f1d0981f9010be22e20/scoamp-0.4.0a0-py3-none-any.whl
+[2023-07-20 10:14:52] INFO root fetch - processPackages [pwforecast]: executing diffoscope
+[2023-07-20 10:14:52] INFO root fetch - processPackages [pwforecast]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pwforecast-1.1.3.tar.gz tmp/pwforecast-1.1.4.tar.gz --markdown 20230720/p/pwforecast/1.1.3-1.1.4/diff.md --exclude *.pyd
+[2023-07-20 10:14:52] INFO root fetch - processPackages [smartpyml]: Remove: archive file [/home/abi/fetcher/tmp/smartpyml-0.1.0.tar.gz]
+[2023-07-20 10:14:52] INFO root fetch - processPackages [smartpyml]: Remove: archive file [/home/abi/fetcher/tmp/smartpyml-0.1.1.tar.gz]
+[2023-07-20 10:14:52] INFO root fetch - main [MainThread]: End processing [smartpyml]: success
+[2023-07-20 10:14:52] INFO root fetch - processPackages [scoamp]: Downloading https://files.pythonhosted.org/packages/e2/7f/0fec07703675e02ac0116268648dc6215f40f6414c8ffb88140417ce42fc/scoamp-0.4.0a1-py3-none-any.whl
+[2023-07-20 10:14:53] INFO root fetch - processPackages [fastapi-serve]: Remove: archive file [/home/abi/fetcher/tmp/fastapi-serve-0.0.5.dev3.tar.gz]
+[2023-07-20 10:14:53] INFO root fetch - processPackages [fastapi-serve]: Remove: archive file [/home/abi/fetcher/tmp/fastapi-serve-0.0.5.dev4.tar.gz]
+[2023-07-20 10:14:53] INFO root fetch - main [MainThread]: End processing [fastapi-serve]: success
+[2023-07-20 10:14:53] INFO root fetch - processPackages [scoamp]: executing diffoscope
+[2023-07-20 10:14:53] INFO root fetch - processPackages [scoamp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scoamp-0.4.0a0-py3-none-any.whl.zip tmp/scoamp-0.4.0a1-py3-none-any.whl.zip --markdown 20230720/s/scoamp/0.4.0a0-0.4.0a1/diff.md --exclude *.pyd
+[2023-07-20 10:14:53] INFO root fetch - processPackages [frogmouth]: Remove: archive file [/home/abi/fetcher/tmp/frogmouth-0.7.0.tar.gz]
+[2023-07-20 10:14:53] INFO root fetch - processPackages [frogmouth]: Remove: archive file [/home/abi/fetcher/tmp/frogmouth-0.8.0.tar.gz]
+[2023-07-20 10:14:53] INFO root fetch - main [MainThread]: End processing [frogmouth]: success
+[2023-07-20 10:14:53] INFO root fetch - processPackages [pwforecast]: Remove: archive file [/home/abi/fetcher/tmp/pwforecast-1.1.3.tar.gz]
+[2023-07-20 10:14:53] INFO root fetch - processPackages [pwforecast]: Remove: archive file [/home/abi/fetcher/tmp/pwforecast-1.1.4.tar.gz]
+[2023-07-20 10:14:53] INFO root fetch - main [MainThread]: End processing [pwforecast]: success
+[2023-07-20 10:14:54] INFO root fetch - processPackages [collective.contact.core]: Remove: archive file [/home/abi/fetcher/tmp/collective.contact.core-1.8.tar.gz]
+[2023-07-20 10:14:54] INFO root fetch - processPackages [collective.contact.core]: Remove: archive file [/home/abi/fetcher/tmp/collective.contact.core-1.9.tar.gz]
+[2023-07-20 10:14:54] INFO root fetch - main [MainThread]: End processing [collective.contact.core]: success
+[2023-07-20 10:14:54] INFO root fetch - processPackages [scoamp]: Remove: archive file [/home/abi/fetcher/tmp/scoamp-0.4.0a0-py3-none-any.whl.zip]
+[2023-07-20 10:14:54] INFO root fetch - processPackages [scoamp]: Remove: archive file [/home/abi/fetcher/tmp/scoamp-0.4.0a1-py3-none-any.whl.zip]
+[2023-07-20 10:14:54] INFO root fetch - main [MainThread]: End processing [scoamp]: success
+[2023-07-20 10:14:55] INFO root fetch - processPackages [junifer]: Remove: archive file [/home/abi/fetcher/tmp/junifer-0.0.3.dev75.tar.gz]
+[2023-07-20 10:14:55] INFO root fetch - processPackages [junifer]: Remove: archive file [/home/abi/fetcher/tmp/junifer-0.0.3.dev89.tar.gz]
+[2023-07-20 10:14:55] INFO root fetch - main [MainThread]: End processing [junifer]: success
+[2023-07-20 10:14:55] INFO root fetch - processPackages [spdx-tools]: Remove: archive file [/home/abi/fetcher/tmp/spdx-tools-0.8.0rc2.tar.gz]
+[2023-07-20 10:14:55] INFO root fetch - processPackages [spdx-tools]: Remove: archive file [/home/abi/fetcher/tmp/spdx-tools-0.8.0rc3.tar.gz]
+[2023-07-20 10:14:55] INFO root fetch - main [MainThread]: End processing [spdx-tools]: success
+[2023-07-20 10:14:57] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-38.3.5.tar.gz]
+[2023-07-20 10:14:57] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-39.0.0.tar.gz]
+[2023-07-20 10:14:57] INFO root fetch - main [MainThread]: End processing [cg]: success
+[2023-07-20 10:14:57] INFO root fetch - main [MainThread]: Store serial: [18963139]
