@@ -10605,3 +10605,140 @@ AssertionError: tmp/verify4py-test-0.1.7.tar.gz does not exist
 [2023-07-20 15:51:54] INFO root fetch - processPackages [drf-yasg]: Remove: archive file [/home/abi/fetcher/tmp/drf-yasg-1.9.2.tar.gz]
 [2023-07-20 15:51:54] INFO root fetch - main [MainThread]: End processing [drf-yasg]: success
 [2023-07-20 15:51:54] INFO root fetch - main [MainThread]: Store serial: [18967336]
+[2023-07-20 15:56:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18967336]
+[2023-07-20 15:57:02] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-07-20 15:57:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: translate-shell
+[2023-07-20 15:57:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: litestar
+[2023-07-20 15:57:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: autosrt
+[2023-07-20 15:57:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: executor-engine
+[2023-07-20 15:57:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: madcat
+[2023-07-20 15:57:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: meerk40t
+[2023-07-20 15:57:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: argparse-pydantic
+[2023-07-20 15:57:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: python-jmap
+[2023-07-20 15:57:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: moto
+[2023-07-20 15:57:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cognite-sdk
+[2023-07-20 15:57:03] INFO root fetch - processPackages [autosrt]: New version: [1.4.8] Old Version: [1.4.7]
+[2023-07-20 15:57:03] INFO root fetch - processPackages [executor-engine]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-07-20 15:57:03] INFO root fetch - processPackages [translate-shell]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-20 15:57:03] INFO root fetch - processPackages [python-jmap]: New version: [0.0.1] Old Version: [0.0.0]
+[2023-07-20 15:57:03] WARNING root fetch - processPackages [argparse-pydantic]: Skipping, unable to determine old version
+[2023-07-20 15:57:03] INFO root fetch - processPackages [argparse-pydantic]: Start processing: tensordict-nightly
+[2023-07-20 15:57:03] INFO root fetch - main [MainThread]: End processing [argparse-pydantic] error
+[2023-07-20 15:57:03] INFO root fetch - processPackages [litestar]: New version: [2.0.0b3] Old Version: [2.0.0b2]
+[2023-07-20 15:57:03] INFO root fetch - processPackages [madcat]: New version: [7.2] Old Version: [7.1]
+[2023-07-20 15:57:03] INFO root fetch - processPackages [moto]: New version: [4.1.9.dev9] Old Version: [4.1.9.dev8]
+[2023-07-20 15:57:03] INFO root fetch - processPackages [meerk40t]: New version: [0.8.6000] Old Version: [0.8.5000]
+[2023-07-20 15:57:03] INFO root fetch - processPackages [cognite-sdk]: New version: [6.9.0] Old Version: [6.8.7]
+[2023-07-20 15:57:03] INFO root fetch - processPackages [moto]: Downloading https://files.pythonhosted.org/packages/2c/d4/8e03b33a9179ac2880d9ee7985f188927368b16081e05a142152e556685c/moto-4.1.9.dev8.tar.gz
+[2023-07-20 15:57:03] INFO root fetch - processPackages [cognite-sdk]: Downloading https://files.pythonhosted.org/packages/78/2a/28d91cf6eb642a8d6c362100bf353e9fe16ae3c12d44d7bf02683979e066/cognite_sdk-6.8.7.tar.gz
+[2023-07-20 15:57:03] INFO root fetch - processPackages [madcat]: Downloading https://files.pythonhosted.org/packages/88/54/ff34feed305a288037a99907191574a4599c528eb6cf13fec3a82fc1ee18/madcat-7.1.tar.gz
+[2023-07-20 15:57:03] INFO root fetch - processPackages [executor-engine]: Downloading https://files.pythonhosted.org/packages/4d/42/82bf482cddedb8d67d5eca405c247bbd5e387b0fdafb9ee7bd0e42802589/executor-engine-0.2.0.tar.gz
+[2023-07-20 15:57:03] INFO root fetch - processPackages [translate-shell]: Downloading https://files.pythonhosted.org/packages/aa/ed/e25a7c89f8e66c89b4f998bd2f4280d8a427b319670e155b018f04adf8d8/translate-shell-0.0.8.tar.gz
+[2023-07-20 15:57:03] INFO root fetch - processPackages [litestar]: Downloading https://files.pythonhosted.org/packages/d0/d7/f6baf96a62229f7e18b2ecfac937a16fe01a321136ab01c1965b36dc389e/litestar-2.0.0b2.tar.gz
+[2023-07-20 15:57:03] INFO root fetch - processPackages [python-jmap]: Downloading https://files.pythonhosted.org/packages/40/86/a9e3d2d4b1b1212cd4e4306b84798d8d5decebaa1588e7bef51fdf6fc3c9/python_jmap-0.0.0.tar.gz
+[2023-07-20 15:57:03] INFO root fetch - processPackages [tensordict-nightly]: New version: [2023.7.9] Old Version: [2023.7.8]
+[2023-07-20 15:57:03] INFO root fetch - processPackages [autosrt]: Downloading https://files.pythonhosted.org/packages/cb/bb/570ba70635ce68fa0d30f93105dd858f8b397085f511e0fe0e7b337cddc3/autosrt-1.4.7.tar.gz
+[2023-07-20 15:57:03] INFO root fetch - processPackages [meerk40t]: Downloading https://files.pythonhosted.org/packages/70/75/f5cff1bb5ed54d41cf5a980a43925969095bb49149f4f41fcee9ec4ef3f1/meerk40t-0.8.5000.tar.gz
+[2023-07-20 15:57:03] INFO root fetch - processPackages [cognite-sdk]: Downloading https://files.pythonhosted.org/packages/ee/0f/6b014b445f08f43cc544922b182c361674f897642deae49079706e127ce0/cognite_sdk-6.9.0.tar.gz
+[2023-07-20 15:57:03] INFO root fetch - processPackages [tensordict-nightly]: Downloading https://files.pythonhosted.org/packages/e7/5f/a8e12c8c9db4733b807edf690c79f8ee7fb4897c1bec72f6bfafdf1cf1c6/tensordict_nightly-2023.7.8-cp39-cp39-win_amd64.whl
+[2023-07-20 15:57:04] INFO root fetch - processPackages [madcat]: Downloading https://files.pythonhosted.org/packages/d6/cf/5c400a468b3c48afbd13dcb8774548295ce1af79f94917bef5290a268445/madcat-7.2.tar.gz
+[2023-07-20 15:57:04] INFO root fetch - processPackages [translate-shell]: Downloading https://files.pythonhosted.org/packages/10/53/d1b2622fd5860f8b6f36dbdd934c30d2e357cd577f74de20d18e020079f4/translate-shell-0.0.9.tar.gz
+[2023-07-20 15:57:04] INFO root fetch - processPackages [autosrt]: Downloading https://files.pythonhosted.org/packages/67/47/a3ecefa59f34287adcd4edfa57f253bbb9ec610a7d6f084170d8fc7c93dc/autosrt-1.4.8.tar.gz
+[2023-07-20 15:57:04] INFO root fetch - processPackages [litestar]: Downloading https://files.pythonhosted.org/packages/a2/3d/d0c25f668908e27a59ddc96f8140c1fada7cd15d6a49f249ab405e8eca10/litestar-2.0.0b3.tar.gz
+[2023-07-20 15:57:04] INFO root fetch - processPackages [executor-engine]: Downloading https://files.pythonhosted.org/packages/05/35/e7eae7f2625bdc7fb2b160904a4cc5d485d93bf1e21e869f694e477b2fb0/executor-engine-0.2.1.tar.gz
+[2023-07-20 15:57:04] INFO root fetch - processPackages [moto]: Downloading https://files.pythonhosted.org/packages/4b/79/8731bdd68db60192dd81a418b0552fc817d87bba0726d6c4ff2dbd93f913/moto-4.1.9.dev9.tar.gz
+[2023-07-20 15:57:04] INFO root fetch - processPackages [python-jmap]: Downloading https://files.pythonhosted.org/packages/d7/90/c213a8b5c27674bd7ff1eb8f7fd2d614b0445c53ac97393ec5fada6307d0/python_jmap-0.0.1.tar.gz
+[2023-07-20 15:57:04] INFO root fetch - processPackages [cognite-sdk]: executing diffoscope
+[2023-07-20 15:57:04] INFO root fetch - processPackages [cognite-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cognite_sdk-6.8.7.tar.gz tmp/cognite_sdk-6.9.0.tar.gz --markdown 20230720/c/cognite-sdk/6.8.7-6.9.0/diff.md --exclude *.pyd
+[2023-07-20 15:57:04] INFO root fetch - processPackages [meerk40t]: Downloading https://files.pythonhosted.org/packages/9e/ad/836450c4a896b82eb2e57dc0269865c0e1a4d389bec967b7bb5a33c8400f/meerk40t-0.8.6000.tar.gz
+[2023-07-20 15:57:04] INFO root fetch - processPackages [madcat]: executing diffoscope
+[2023-07-20 15:57:04] INFO root fetch - processPackages [madcat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/madcat-7.1.tar.gz tmp/madcat-7.2.tar.gz --markdown 20230720/m/madcat/7.1-7.2/diff.md --exclude *.pyd
+[2023-07-20 15:57:04] INFO root fetch - processPackages [autosrt]: executing diffoscope
+[2023-07-20 15:57:04] INFO root fetch - processPackages [autosrt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autosrt-1.4.7.tar.gz tmp/autosrt-1.4.8.tar.gz --markdown 20230720/a/autosrt/1.4.7-1.4.8/diff.md --exclude *.pyd
+[2023-07-20 15:57:04] INFO root fetch - processPackages [executor-engine]: executing diffoscope
+[2023-07-20 15:57:04] INFO root fetch - processPackages [executor-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/executor-engine-0.2.0.tar.gz tmp/executor-engine-0.2.1.tar.gz --markdown 20230720/e/executor-engine/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-07-20 15:57:04] INFO root fetch - processPackages [python-jmap]: executing diffoscope
+[2023-07-20 15:57:04] INFO root fetch - processPackages [python-jmap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_jmap-0.0.0.tar.gz tmp/python_jmap-0.0.1.tar.gz --markdown 20230720/p/python-jmap/0.0.0-0.0.1/diff.md --exclude *.pyd
+[2023-07-20 15:57:04] INFO root fetch - processPackages [translate-shell]: executing diffoscope
+[2023-07-20 15:57:04] INFO root fetch - processPackages [translate-shell]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/translate-shell-0.0.8.tar.gz tmp/translate-shell-0.0.9.tar.gz --markdown 20230720/t/translate-shell/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-20 15:57:04] INFO root fetch - processPackages [litestar]: executing diffoscope
+[2023-07-20 15:57:04] INFO root fetch - processPackages [litestar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/litestar-2.0.0b2.tar.gz tmp/litestar-2.0.0b3.tar.gz --markdown 20230720/l/litestar/2.0.0b2-2.0.0b3/diff.md --exclude *.pyd
+[2023-07-20 15:57:04] INFO root fetch - processPackages [tensordict-nightly]: Downloading https://files.pythonhosted.org/packages/20/92/5489eefecb62a3da531fb19097d65b32ec71c60f929be10b1407a03894e5/tensordict_nightly-2023.7.9-cp39-cp39-win_amd64.whl
+[2023-07-20 15:57:04] INFO root fetch - processPackages [meerk40t]: executing diffoscope
+[2023-07-20 15:57:04] INFO root fetch - processPackages [meerk40t]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meerk40t-0.8.5000.tar.gz tmp/meerk40t-0.8.6000.tar.gz --markdown 20230720/m/meerk40t/0.8.5000-0.8.6000/diff.md --exclude *.pyd
+[2023-07-20 15:57:04] INFO root fetch - processPackages [moto]: executing diffoscope
+[2023-07-20 15:57:04] INFO root fetch - processPackages [moto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moto-4.1.9.dev8.tar.gz tmp/moto-4.1.9.dev9.tar.gz --markdown 20230720/m/moto/4.1.9.dev8-4.1.9.dev9/diff.md --exclude *.pyd
+[2023-07-20 15:57:04] INFO root fetch - processPackages [tensordict-nightly]: executing diffoscope
+[2023-07-20 15:57:04] INFO root fetch - processPackages [tensordict-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensordict_nightly-2023.7.8-cp39-cp39-win_amd64.whl.zip tmp/tensordict_nightly-2023.7.9-cp39-cp39-win_amd64.whl.zip --markdown 20230720/t/tensordict-nightly/2023.7.8-2023.7.9/diff.md --exclude *.pyd
+[2023-07-20 15:57:05] INFO root fetch - processPackages [python-jmap]: Remove: archive file [/home/abi/fetcher/tmp/python_jmap-0.0.0.tar.gz]
+[2023-07-20 15:57:05] INFO root fetch - processPackages [python-jmap]: Remove: archive file [/home/abi/fetcher/tmp/python_jmap-0.0.1.tar.gz]
+[2023-07-20 15:57:05] INFO root fetch - processPackages [python-jmap]: Start processing: whisper-autosrt
+[2023-07-20 15:57:05] INFO root fetch - main [MainThread]: End processing [python-jmap]: success
+[2023-07-20 15:57:05] INFO root fetch - processPackages [whisper-autosrt]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-20 15:57:06] INFO root fetch - processPackages [executor-engine]: Remove: archive file [/home/abi/fetcher/tmp/executor-engine-0.2.0.tar.gz]
+[2023-07-20 15:57:06] INFO root fetch - processPackages [executor-engine]: Remove: archive file [/home/abi/fetcher/tmp/executor-engine-0.2.1.tar.gz]
+[2023-07-20 15:57:06] INFO root fetch - processPackages [executor-engine]: Start processing: querysource
+[2023-07-20 15:57:06] INFO root fetch - main [MainThread]: End processing [executor-engine]: success
+[2023-07-20 15:57:06] INFO root fetch - processPackages [autosrt]: Remove: archive file [/home/abi/fetcher/tmp/autosrt-1.4.7.tar.gz]
+[2023-07-20 15:57:06] INFO root fetch - processPackages [autosrt]: Remove: archive file [/home/abi/fetcher/tmp/autosrt-1.4.8.tar.gz]
+[2023-07-20 15:57:06] INFO root fetch - processPackages [autosrt]: Start processing: siat
+[2023-07-20 15:57:06] INFO root fetch - main [MainThread]: End processing [autosrt]: success
+[2023-07-20 15:57:06] INFO root fetch - processPackages [querysource]: New version: [3.6.9] Old Version: [3.6.8]
+[2023-07-20 15:57:06] INFO root fetch - processPackages [siat]: New version: [2.4.4] Old Version: [2.4.3]
+[2023-07-20 15:57:06] INFO root fetch - processPackages [whisper-autosrt]: Downloading https://files.pythonhosted.org/packages/f1/6e/e7e8097bd77890d8e5ee457044a99688c31339d565a13dd7b9fa7b510637/whisper_autosrt-0.1.8.tar.gz
+[2023-07-20 15:57:06] INFO root fetch - processPackages [siat]: Downloading https://files.pythonhosted.org/packages/e9/b1/46004334063bcac12be20aa7803dde799bfba7c9999ea43b76b8177a7cfa/siat-2.4.3-py3-none-any.whl
+[2023-07-20 15:57:06] INFO root fetch - processPackages [madcat]: Remove: archive file [/home/abi/fetcher/tmp/madcat-7.1.tar.gz]
+[2023-07-20 15:57:06] INFO root fetch - processPackages [madcat]: Remove: archive file [/home/abi/fetcher/tmp/madcat-7.2.tar.gz]
+[2023-07-20 15:57:06] INFO root fetch - processPackages [madcat]: Start processing: vosk-autosrt
+[2023-07-20 15:57:06] INFO root fetch - main [MainThread]: End processing [madcat]: success
+[2023-07-20 15:57:06] INFO root fetch - processPackages [querysource]: Downloading https://files.pythonhosted.org/packages/70/4b/8c539f343afcdd37564e5a6c74c47423c9bf31268e67037958cf41e0fefb/querysource-3.6.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-20 15:57:06] INFO root fetch - processPackages [vosk-autosrt]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-07-20 15:57:06] INFO root fetch - processPackages [tensordict-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensordict_nightly-2023.7.8-cp39-cp39-win_amd64.whl.zip]
+[2023-07-20 15:57:06] INFO root fetch - processPackages [tensordict-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensordict_nightly-2023.7.9-cp39-cp39-win_amd64.whl.zip]
+[2023-07-20 15:57:06] INFO root fetch - processPackages [tensordict-nightly]: Start processing: secrets-vault
+[2023-07-20 15:57:06] INFO root fetch - main [MainThread]: End processing [tensordict-nightly]: success
+[2023-07-20 15:57:06] INFO root fetch - processPackages [translate-shell]: Remove: archive file [/home/abi/fetcher/tmp/translate-shell-0.0.8.tar.gz]
+[2023-07-20 15:57:06] INFO root fetch - processPackages [translate-shell]: Remove: archive file [/home/abi/fetcher/tmp/translate-shell-0.0.9.tar.gz]
+[2023-07-20 15:57:06] INFO root fetch - main [MainThread]: End processing [translate-shell]: success
+[2023-07-20 15:57:06] INFO root fetch - processPackages [cognite-sdk]: Remove: archive file [/home/abi/fetcher/tmp/cognite_sdk-6.8.7.tar.gz]
+[2023-07-20 15:57:06] INFO root fetch - processPackages [cognite-sdk]: Remove: archive file [/home/abi/fetcher/tmp/cognite_sdk-6.9.0.tar.gz]
+[2023-07-20 15:57:06] INFO root fetch - main [MainThread]: End processing [cognite-sdk]: success
+[2023-07-20 15:57:06] INFO root fetch - processPackages [whisper-autosrt]: Downloading https://files.pythonhosted.org/packages/a5/15/c1b752668cd35743a87e4dc1cbc004fb134a8a83aa08c9ec90d310de3a8f/whisper_autosrt-0.1.9.tar.gz
+[2023-07-20 15:57:06] INFO root fetch - processPackages [siat]: Downloading https://files.pythonhosted.org/packages/c5/9c/67d77225919523927bad05edab34058355a43a550f502877515e9b5ddfc6/siat-2.4.4-py3-none-any.whl
+[2023-07-20 15:57:06] INFO root fetch - processPackages [whisper-autosrt]: executing diffoscope
+[2023-07-20 15:57:06] INFO root fetch - processPackages [whisper-autosrt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/whisper_autosrt-0.1.8.tar.gz tmp/whisper_autosrt-0.1.9.tar.gz --markdown 20230720/w/whisper-autosrt/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-20 15:57:06] INFO root fetch - processPackages [secrets-vault]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-20 15:57:06] INFO root fetch - processPackages [vosk-autosrt]: Downloading https://files.pythonhosted.org/packages/40/af/6cc916a47b6750e980096504ffacdf4bf46c15f94908202862a913d5c243/vosk_autosrt-0.1.5.tar.gz
+[2023-07-20 15:57:06] WARNING root fetch - processPackages [vosk-autosrt]: Skipping package: exceeds size limit 21466461>=10485760
+[2023-07-20 15:57:06] INFO root fetch - main [MainThread]: End processing [vosk-autosrt] error
+[2023-07-20 15:57:07] INFO root fetch - processPackages [secrets-vault]: Downloading https://files.pythonhosted.org/packages/99/a5/550bb31fa47cd9503b3a7961eee2f20fabdf7e83d9f978af94c07896d649/secrets-vault-0.1.0.tar.gz
+[2023-07-20 15:57:07] INFO root fetch - processPackages [querysource]: Downloading https://files.pythonhosted.org/packages/ab/50/018cb101f002f53a882706970a666f7fabfdaef68902e2363149b998910b/querysource-3.6.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-20 15:57:07] INFO root fetch - processPackages [siat]: executing diffoscope
+[2023-07-20 15:57:07] INFO root fetch - processPackages [siat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/siat-2.4.3-py3-none-any.whl.zip tmp/siat-2.4.4-py3-none-any.whl.zip --markdown 20230720/s/siat/2.4.3-2.4.4/diff.md --exclude *.pyd
+[2023-07-20 15:57:07] INFO root fetch - processPackages [secrets-vault]: Downloading https://files.pythonhosted.org/packages/33/bc/844db1ba640d96d7ebc7a76b6639a284d9c92b28a3427795ab44fb73f302/secrets-vault-0.1.1.tar.gz
+[2023-07-20 15:57:07] INFO root fetch - processPackages [querysource]: executing diffoscope
+[2023-07-20 15:57:07] INFO root fetch - processPackages [querysource]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/querysource-3.6.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/querysource-3.6.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230720/q/querysource/3.6.8-3.6.9/diff.md --exclude *.pyd
+[2023-07-20 15:57:07] INFO root fetch - processPackages [secrets-vault]: executing diffoscope
+[2023-07-20 15:57:07] INFO root fetch - processPackages [secrets-vault]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/secrets-vault-0.1.0.tar.gz tmp/secrets-vault-0.1.1.tar.gz --markdown 20230720/s/secrets-vault/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-20 15:57:07] INFO root fetch - processPackages [whisper-autosrt]: Remove: archive file [/home/abi/fetcher/tmp/whisper_autosrt-0.1.8.tar.gz]
+[2023-07-20 15:57:07] INFO root fetch - processPackages [whisper-autosrt]: Remove: archive file [/home/abi/fetcher/tmp/whisper_autosrt-0.1.9.tar.gz]
+[2023-07-20 15:57:07] INFO root fetch - main [MainThread]: End processing [whisper-autosrt]: success
+[2023-07-20 15:57:08] INFO root fetch - processPackages [litestar]: Remove: archive file [/home/abi/fetcher/tmp/litestar-2.0.0b2.tar.gz]
+[2023-07-20 15:57:08] INFO root fetch - processPackages [litestar]: Remove: archive file [/home/abi/fetcher/tmp/litestar-2.0.0b3.tar.gz]
+[2023-07-20 15:57:08] INFO root fetch - main [MainThread]: End processing [litestar]: success
+[2023-07-20 15:57:08] INFO root fetch - processPackages [secrets-vault]: Remove: archive file [/home/abi/fetcher/tmp/secrets-vault-0.1.0.tar.gz]
+[2023-07-20 15:57:08] INFO root fetch - processPackages [secrets-vault]: Remove: archive file [/home/abi/fetcher/tmp/secrets-vault-0.1.1.tar.gz]
+[2023-07-20 15:57:08] INFO root fetch - main [MainThread]: End processing [secrets-vault]: success
+[2023-07-20 15:57:09] INFO root fetch - processPackages [siat]: Remove: archive file [/home/abi/fetcher/tmp/siat-2.4.3-py3-none-any.whl.zip]
+[2023-07-20 15:57:09] INFO root fetch - processPackages [siat]: Remove: archive file [/home/abi/fetcher/tmp/siat-2.4.4-py3-none-any.whl.zip]
+[2023-07-20 15:57:09] INFO root fetch - main [MainThread]: End processing [siat]: success
+[2023-07-20 15:57:09] INFO root fetch - processPackages [querysource]: Remove: archive file [/home/abi/fetcher/tmp/querysource-3.6.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-20 15:57:09] INFO root fetch - processPackages [querysource]: Remove: archive file [/home/abi/fetcher/tmp/querysource-3.6.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-20 15:57:09] INFO root fetch - main [MainThread]: End processing [querysource]: success
+[2023-07-20 15:57:09] INFO root fetch - processPackages [meerk40t]: Remove: archive file [/home/abi/fetcher/tmp/meerk40t-0.8.5000.tar.gz]
+[2023-07-20 15:57:09] INFO root fetch - processPackages [meerk40t]: Remove: archive file [/home/abi/fetcher/tmp/meerk40t-0.8.6000.tar.gz]
+[2023-07-20 15:57:09] INFO root fetch - main [MainThread]: End processing [meerk40t]: success
+[2023-07-20 15:57:20] INFO root fetch - processPackages [moto]: Remove: archive file [/home/abi/fetcher/tmp/moto-4.1.9.dev8.tar.gz]
+[2023-07-20 15:57:20] INFO root fetch - processPackages [moto]: Remove: archive file [/home/abi/fetcher/tmp/moto-4.1.9.dev9.tar.gz]
+[2023-07-20 15:57:20] INFO root fetch - main [MainThread]: End processing [moto]: success
+[2023-07-20 15:57:20] INFO root fetch - main [MainThread]: Store serial: [18967387]
