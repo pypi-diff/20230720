@@ -7011,3 +7011,123 @@ AssertionError: tmp/verify4py-test-0.1.7.tar.gz does not exist
 [2023-07-20 13:42:37] INFO root fetch - processPackages [pygwalker]: Remove: archive file [/home/abi/fetcher/tmp/pygwalker-0.2.0a4.tar.gz]
 [2023-07-20 13:42:37] INFO root fetch - main [MainThread]: End processing [pygwalker]: success
 [2023-07-20 13:42:37] INFO root fetch - main [MainThread]: Store serial: [18965896]
+[2023-07-20 13:47:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18965896]
+[2023-07-20 13:47:46] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-07-20 13:47:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kevlar-system-inspector
+[2023-07-20 13:47:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyalgotrading
+[2023-07-20 13:47:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyDetektia
+[2023-07-20 13:47:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: wiliot-deployment-tools
+[2023-07-20 13:47:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: better-web3
+[2023-07-20 13:47:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: certora-cli-alpha-martin-z3-lemmas-test
+[2023-07-20 13:47:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: embykeeper
+[2023-07-20 13:47:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: laboneq
+[2023-07-20 13:47:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: indiredis
+[2023-07-20 13:47:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: meringue
+[2023-07-20 13:47:47] WARNING root fetch - processPackages [pyDetektia]: Skipping, unable to determine old version
+[2023-07-20 13:47:47] INFO root fetch - processPackages [pyDetektia]: Start processing: certora-cli-alpha-antti-z3-lemmas-test
+[2023-07-20 13:47:47] INFO root fetch - main [MainThread]: End processing [pyDetektia] error
+[2023-07-20 13:47:47] INFO root fetch - processPackages [laboneq]: New version: [2.9.0] Old Version: [2.8.0]
+[2023-07-20 13:47:47] INFO root fetch - processPackages [embykeeper]: New version: [2.3.0] Old Version: [2.2.9]
+[2023-07-20 13:47:47] INFO root fetch - processPackages [indiredis]: New version: [0.7.2] Old Version: [0.7.1]
+[2023-07-20 13:47:47] INFO root fetch - processPackages [pyalgotrading]: New version: [2023.7.1] Old Version: [2023.6.2]
+[2023-07-20 13:47:47] INFO root fetch - processPackages [wiliot-deployment-tools]: New version: [4.1.0] Old Version: [4.0.8]
+[2023-07-20 13:47:47] INFO root fetch - processPackages [meringue]: New version: [1.1.0.dev3] Old Version: [1.1.0.dev2]
+[2023-07-20 13:47:47] INFO root fetch - processPackages [better-web3]: New version: [1.4.0] Old Version: [1.3.1]
+[2023-07-20 13:47:47] INFO root fetch - processPackages [kevlar-system-inspector]: New version: [1.1.0a3] Old Version: [1.1.0a2]
+[2023-07-20 13:47:47] INFO root fetch - processPackages [certora-cli-alpha-martin-z3-lemmas-test]: New version: [20230720.11.44.433451] Old Version: [20230719.13.25.958275]
+[2023-07-20 13:47:47] INFO root fetch - processPackages [certora-cli-alpha-antti-z3-lemmas-test]: New version: [20230720.11.46.704438] Old Version: [20230719.9.59.374544]
+[2023-07-20 13:47:47] INFO root fetch - processPackages [wiliot-deployment-tools]: Downloading https://files.pythonhosted.org/packages/c1/d8/ac9ca94ecddd03059c1fc825f3afd9097f77d7810f76c2d615ba559b0c3c/wiliot-deployment-tools-4.0.8.tar.gz
+[2023-07-20 13:47:47] INFO root fetch - processPackages [meringue]: Downloading https://files.pythonhosted.org/packages/f8/8e/0d077fa2f34021b18ff9561653b03d0bbc84fab1966c95785c1980ec6c9c/meringue-1.1.0.dev2.tar.gz
+[2023-07-20 13:47:47] INFO root fetch - processPackages [laboneq]: Downloading https://files.pythonhosted.org/packages/8c/66/9cbe789d55155adc9d577d42d38f36e55fb8aa8c0800768033c4bbb069be/laboneq-2.8.0-py3-none-any.whl
+[2023-07-20 13:47:47] INFO root fetch - processPackages [pyalgotrading]: Downloading https://files.pythonhosted.org/packages/f0/ce/38c674965feedf5a9074a529713c64402c44f1ebf9bd39f34e6a24f801f2/pyalgotrading-2023.6.2-py3-none-any.whl
+[2023-07-20 13:47:47] INFO root fetch - processPackages [indiredis]: Downloading https://files.pythonhosted.org/packages/90/e4/eff9f1d8bb9346adf71c6c7ad27a1747a7dab610f8d52cd4a9aa471d2303/indiredis-0.7.1.tar.gz
+[2023-07-20 13:47:47] INFO root fetch - processPackages [embykeeper]: Downloading https://files.pythonhosted.org/packages/aa/16/2179b87888646548433ff20e89b82e6c44f64a1f4a29ccfc82b499fa01ad/embykeeper-2.2.9.tar.gz
+[2023-07-20 13:47:47] INFO root fetch - processPackages [certora-cli-alpha-martin-z3-lemmas-test]: Downloading https://files.pythonhosted.org/packages/6b/57/6adfcfcd2fc6f707ae6c809bb3f82a0720363147a5d15e3502ad78b17def/certora-cli-alpha-martin-z3-lemmas-test-20230719.13.25.958275.tar.gz
+[2023-07-20 13:47:47] INFO root fetch - processPackages [kevlar-system-inspector]: Downloading https://files.pythonhosted.org/packages/09/8c/13b39a07d7ea307b616c0fac45678a9c464f47b83ffb0adb843b31663d44/kevlar-system-inspector-1.1.0a2.tar.gz
+[2023-07-20 13:47:47] INFO root fetch - processPackages [certora-cli-alpha-antti-z3-lemmas-test]: Downloading https://files.pythonhosted.org/packages/bc/d6/5b8628b26ad32a837f62f42b74f62b97445a47258039ec5c2052efc22056/certora-cli-alpha-antti-z3-lemmas-test-20230719.9.59.374544.tar.gz
+[2023-07-20 13:47:47] INFO root fetch - processPackages [better-web3]: Downloading https://files.pythonhosted.org/packages/18/01/307e88bdbc052d25f0d97a7e5dc293ccd82ec9c2b24df54a0bca768a13ce/better_web3-1.3.1.tar.gz
+[2023-07-20 13:47:47] WARNING root fetch - processPackages [certora-cli-alpha-martin-z3-lemmas-test]: Skipping package: exceeds size limit 38805455>=10485760
+[2023-07-20 13:47:47] INFO root fetch - processPackages [certora-cli-alpha-martin-z3-lemmas-test]: Start processing: spaces
+[2023-07-20 13:47:47] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-martin-z3-lemmas-test] error
+[2023-07-20 13:47:47] WARNING root fetch - processPackages [certora-cli-alpha-antti-z3-lemmas-test]: Skipping package: exceeds size limit 38785559>=10485760
+[2023-07-20 13:47:47] INFO root fetch - processPackages [certora-cli-alpha-antti-z3-lemmas-test]: Start processing: anicli-api
+[2023-07-20 13:47:47] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-antti-z3-lemmas-test] error
+[2023-07-20 13:47:47] INFO root fetch - processPackages [spaces]: New version: [0.9b3] Old Version: [0.9b2]
+[2023-07-20 13:47:47] INFO root fetch - processPackages [anicli-api]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-07-20 13:47:47] INFO root fetch - processPackages [meringue]: Downloading https://files.pythonhosted.org/packages/f1/1c/5c08a5d996f0bb4578f5181c7065d03202e8ec873edb2449f97a72ce869a/meringue-1.1.0.dev3.tar.gz
+[2023-07-20 13:47:48] INFO root fetch - processPackages [wiliot-deployment-tools]: Downloading https://files.pythonhosted.org/packages/4b/28/3fb9b1596c95e32235edc2a99984c24497e0d4255ff3c834d788ab7d4bc6/wiliot-deployment-tools-4.1.0.tar.gz
+[2023-07-20 13:47:48] INFO root fetch - processPackages [spaces]: Downloading https://files.pythonhosted.org/packages/97/20/6104cd0bd4c12ccb3af8b026d3fe0110bea1c762e3f1dc3381c6fe248cf7/spaces-0.9b2.tar.gz
+[2023-07-20 13:47:48] INFO root fetch - processPackages [pyalgotrading]: Downloading https://files.pythonhosted.org/packages/4b/8a/a052d83b659a83d1aeaab743d3b67445a3f9aee3a611fc5e5ff8140ede9c/pyalgotrading-2023.7.1-py3-none-any.whl
+[2023-07-20 13:47:48] INFO root fetch - processPackages [indiredis]: Downloading https://files.pythonhosted.org/packages/d0/e8/9e31f74d16ff7b6d4e1dca4d84dd8d39c875533daafdbbc915529b2562d9/indiredis-0.7.2.tar.gz
+[2023-07-20 13:47:48] INFO root fetch - processPackages [wiliot-deployment-tools]: executing diffoscope
+[2023-07-20 13:47:48] INFO root fetch - processPackages [wiliot-deployment-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wiliot-deployment-tools-4.0.8.tar.gz tmp/wiliot-deployment-tools-4.1.0.tar.gz --markdown 20230720/w/wiliot-deployment-tools/4.0.8-4.1.0/diff.md --exclude *.pyd
+[2023-07-20 13:47:48] INFO root fetch - processPackages [meringue]: executing diffoscope
+[2023-07-20 13:47:48] INFO root fetch - processPackages [meringue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meringue-1.1.0.dev2.tar.gz tmp/meringue-1.1.0.dev3.tar.gz --markdown 20230720/m/meringue/1.1.0.dev2-1.1.0.dev3/diff.md --exclude *.pyd
+[2023-07-20 13:47:48] INFO root fetch - processPackages [embykeeper]: Downloading https://files.pythonhosted.org/packages/15/7d/c885b7046a186b3f386cfa44127c8721ef113f8cb39bad9c82cfea028248/embykeeper-2.3.0.tar.gz
+[2023-07-20 13:47:48] INFO root fetch - processPackages [laboneq]: Downloading https://files.pythonhosted.org/packages/3a/a1/716f6b29a1371e0e662d6a06e60a314276283acae5e30b79bec567dbae0a/laboneq-2.9.0-py3-none-any.whl
+[2023-07-20 13:47:48] INFO root fetch - processPackages [anicli-api]: Downloading https://files.pythonhosted.org/packages/dd/be/80813e50c4db9d59a298205c03596c79b0715a83b11c5976cbe88ea96ee4/anicli_api-0.4.8.tar.gz
+[2023-07-20 13:47:48] INFO root fetch - processPackages [pyalgotrading]: executing diffoscope
+[2023-07-20 13:47:48] INFO root fetch - processPackages [pyalgotrading]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyalgotrading-2023.6.2-py3-none-any.whl.zip tmp/pyalgotrading-2023.7.1-py3-none-any.whl.zip --markdown 20230720/p/pyalgotrading/2023.6.2-2023.7.1/diff.md --exclude *.pyd
+[2023-07-20 13:47:48] INFO root fetch - processPackages [kevlar-system-inspector]: Downloading https://files.pythonhosted.org/packages/ff/ea/6f195d191ab84ebf7aaaaf7f88dacefb4a46053a03e2fe729ae4df315d58/kevlar-system-inspector-1.1.0a3.tar.gz
+[2023-07-20 13:47:48] INFO root fetch - processPackages [better-web3]: Downloading https://files.pythonhosted.org/packages/7c/d7/5376d8941ca62f3d9aea0d78562d474b3c26f42ab4678fb0673d172a5ac9/better_web3-1.4.0.tar.gz
+[2023-07-20 13:47:48] INFO root fetch - processPackages [indiredis]: executing diffoscope
+[2023-07-20 13:47:48] INFO root fetch - processPackages [indiredis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/indiredis-0.7.1.tar.gz tmp/indiredis-0.7.2.tar.gz --markdown 20230720/i/indiredis/0.7.1-0.7.2/diff.md --exclude *.pyd
+[2023-07-20 13:47:48] INFO root fetch - processPackages [spaces]: Downloading https://files.pythonhosted.org/packages/83/79/aa4f627e9e8f99f07d6b32f22ce1aa9f4788cebf4ae57072deae30fbbcb0/spaces-0.9b3.tar.gz
+[2023-07-20 13:47:48] INFO root fetch - processPackages [embykeeper]: executing diffoscope
+[2023-07-20 13:47:48] INFO root fetch - processPackages [embykeeper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/embykeeper-2.2.9.tar.gz tmp/embykeeper-2.3.0.tar.gz --markdown 20230720/e/embykeeper/2.2.9-2.3.0/diff.md --exclude *.pyd
+[2023-07-20 13:47:48] INFO root fetch - processPackages [kevlar-system-inspector]: executing diffoscope
+[2023-07-20 13:47:48] INFO root fetch - processPackages [kevlar-system-inspector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kevlar-system-inspector-1.1.0a2.tar.gz tmp/kevlar-system-inspector-1.1.0a3.tar.gz --markdown 20230720/k/kevlar-system-inspector/1.1.0a2-1.1.0a3/diff.md --exclude *.pyd
+[2023-07-20 13:47:48] INFO root fetch - processPackages [better-web3]: executing diffoscope
+[2023-07-20 13:47:48] INFO root fetch - processPackages [better-web3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/better_web3-1.3.1.tar.gz tmp/better_web3-1.4.0.tar.gz --markdown 20230720/b/better-web3/1.3.1-1.4.0/diff.md --exclude *.pyd
+[2023-07-20 13:47:48] INFO root fetch - processPackages [spaces]: executing diffoscope
+[2023-07-20 13:47:48] INFO root fetch - processPackages [spaces]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spaces-0.9b2.tar.gz tmp/spaces-0.9b3.tar.gz --markdown 20230720/s/spaces/0.9b2-0.9b3/diff.md --exclude *.pyd
+[2023-07-20 13:47:48] INFO root fetch - processPackages [laboneq]: executing diffoscope
+[2023-07-20 13:47:48] INFO root fetch - processPackages [laboneq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/laboneq-2.8.0-py3-none-any.whl.zip tmp/laboneq-2.9.0-py3-none-any.whl.zip --markdown 20230720/l/laboneq/2.8.0-2.9.0/diff.md --exclude *.pyd
+[2023-07-20 13:47:48] INFO root fetch - processPackages [anicli-api]: Downloading https://files.pythonhosted.org/packages/e7/af/46b2edff48409740ebbbca64b1d50279bcfba155af173c0e65b44a4f3aac/anicli_api-0.4.9.tar.gz
+[2023-07-20 13:47:48] INFO root fetch - processPackages [anicli-api]: executing diffoscope
+[2023-07-20 13:47:48] INFO root fetch - processPackages [anicli-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anicli_api-0.4.8.tar.gz tmp/anicli_api-0.4.9.tar.gz --markdown 20230720/a/anicli-api/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-07-20 13:47:49] INFO root fetch - processPackages [meringue]: Remove: archive file [/home/abi/fetcher/tmp/meringue-1.1.0.dev2.tar.gz]
+[2023-07-20 13:47:49] INFO root fetch - processPackages [meringue]: Remove: archive file [/home/abi/fetcher/tmp/meringue-1.1.0.dev3.tar.gz]
+[2023-07-20 13:47:49] INFO root fetch - processPackages [meringue]: Start processing: octavia
+[2023-07-20 13:47:49] INFO root fetch - main [MainThread]: End processing [meringue]: success
+[2023-07-20 13:47:49] INFO root fetch - processPackages [octavia]: New version: [9.1.0] Old Version: [9.0.1]
+[2023-07-20 13:47:49] INFO root fetch - processPackages [pyalgotrading]: Remove: archive file [/home/abi/fetcher/tmp/pyalgotrading-2023.6.2-py3-none-any.whl.zip]
+[2023-07-20 13:47:49] INFO root fetch - processPackages [pyalgotrading]: Remove: archive file [/home/abi/fetcher/tmp/pyalgotrading-2023.7.1-py3-none-any.whl.zip]
+[2023-07-20 13:47:49] INFO root fetch - processPackages [pyalgotrading]: Start processing: pymagewell
+[2023-07-20 13:47:49] INFO root fetch - main [MainThread]: End processing [pyalgotrading]: success
+[2023-07-20 13:47:49] INFO root fetch - processPackages [octavia]: Downloading https://files.pythonhosted.org/packages/64/3f/98e77591c6e4db1d7b7fc30698a13e5394f4f6564cdd87e9702a7f95a7fb/octavia-9.0.1.tar.gz
+[2023-07-20 13:47:50] INFO root fetch - processPackages [pymagewell]: New version: [0.2.0] Old Version: [0.1.5]
+[2023-07-20 13:47:50] INFO root fetch - processPackages [wiliot-deployment-tools]: Remove: archive file [/home/abi/fetcher/tmp/wiliot-deployment-tools-4.0.8.tar.gz]
+[2023-07-20 13:47:50] INFO root fetch - processPackages [wiliot-deployment-tools]: Remove: archive file [/home/abi/fetcher/tmp/wiliot-deployment-tools-4.1.0.tar.gz]
+[2023-07-20 13:47:50] INFO root fetch - main [MainThread]: End processing [wiliot-deployment-tools]: success
+[2023-07-20 13:47:50] INFO root fetch - processPackages [better-web3]: Remove: archive file [/home/abi/fetcher/tmp/better_web3-1.3.1.tar.gz]
+[2023-07-20 13:47:50] INFO root fetch - processPackages [better-web3]: Remove: archive file [/home/abi/fetcher/tmp/better_web3-1.4.0.tar.gz]
+[2023-07-20 13:47:50] INFO root fetch - main [MainThread]: End processing [better-web3]: success
+[2023-07-20 13:47:50] INFO root fetch - processPackages [kevlar-system-inspector]: Remove: archive file [/home/abi/fetcher/tmp/kevlar-system-inspector-1.1.0a2.tar.gz]
+[2023-07-20 13:47:50] INFO root fetch - processPackages [kevlar-system-inspector]: Remove: archive file [/home/abi/fetcher/tmp/kevlar-system-inspector-1.1.0a3.tar.gz]
+[2023-07-20 13:47:50] INFO root fetch - main [MainThread]: End processing [kevlar-system-inspector]: success
+[2023-07-20 13:47:50] INFO root fetch - processPackages [octavia]: Downloading https://files.pythonhosted.org/packages/60/b9/b4d81efdcabf1fcc911b03f3922edbe7391a3f1f038d4c9f7b5ed4f8e40b/octavia-9.1.0.tar.gz
+[2023-07-20 13:47:50] INFO root fetch - processPackages [spaces]: Remove: archive file [/home/abi/fetcher/tmp/spaces-0.9b2.tar.gz]
+[2023-07-20 13:47:50] INFO root fetch - processPackages [spaces]: Remove: archive file [/home/abi/fetcher/tmp/spaces-0.9b3.tar.gz]
+[2023-07-20 13:47:50] INFO root fetch - main [MainThread]: End processing [spaces]: success
+[2023-07-20 13:47:50] INFO root fetch - processPackages [pymagewell]: Downloading https://files.pythonhosted.org/packages/eb/25/1c4eeb1fba5381b6c9dd87ea2194fdfa3c569f901af6a7d14ede9deb96b7/pymagewell-0.1.5.tar.gz
+[2023-07-20 13:47:50] INFO root fetch - processPackages [embykeeper]: Remove: archive file [/home/abi/fetcher/tmp/embykeeper-2.2.9.tar.gz]
+[2023-07-20 13:47:50] INFO root fetch - processPackages [embykeeper]: Remove: archive file [/home/abi/fetcher/tmp/embykeeper-2.3.0.tar.gz]
+[2023-07-20 13:47:50] INFO root fetch - main [MainThread]: End processing [embykeeper]: success
+[2023-07-20 13:47:50] INFO root fetch - processPackages [anicli-api]: Remove: archive file [/home/abi/fetcher/tmp/anicli_api-0.4.8.tar.gz]
+[2023-07-20 13:47:50] INFO root fetch - processPackages [anicli-api]: Remove: archive file [/home/abi/fetcher/tmp/anicli_api-0.4.9.tar.gz]
+[2023-07-20 13:47:50] INFO root fetch - main [MainThread]: End processing [anicli-api]: success
+[2023-07-20 13:47:50] WARNING root fetch - processPackages [pymagewell]: Skipping package: exceeds size limit 28027377>=10485760
+[2023-07-20 13:47:50] INFO root fetch - main [MainThread]: End processing [pymagewell] error
+[2023-07-20 13:47:50] INFO root fetch - processPackages [octavia]: executing diffoscope
+[2023-07-20 13:47:50] INFO root fetch - processPackages [octavia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/octavia-9.0.1.tar.gz tmp/octavia-9.1.0.tar.gz --markdown 20230720/o/octavia/9.0.1-9.1.0/diff.md --exclude *.pyd
+[2023-07-20 13:47:51] INFO root fetch - processPackages [laboneq]: Remove: archive file [/home/abi/fetcher/tmp/laboneq-2.8.0-py3-none-any.whl.zip]
+[2023-07-20 13:47:51] INFO root fetch - processPackages [laboneq]: Remove: archive file [/home/abi/fetcher/tmp/laboneq-2.9.0-py3-none-any.whl.zip]
+[2023-07-20 13:47:51] INFO root fetch - main [MainThread]: End processing [laboneq]: success
+[2023-07-20 13:47:53] INFO root fetch - processPackages [indiredis]: Remove: archive file [/home/abi/fetcher/tmp/indiredis-0.7.1.tar.gz]
+[2023-07-20 13:47:53] INFO root fetch - processPackages [indiredis]: Remove: archive file [/home/abi/fetcher/tmp/indiredis-0.7.2.tar.gz]
+[2023-07-20 13:47:53] INFO root fetch - main [MainThread]: End processing [indiredis]: success
+[2023-07-20 13:47:59] INFO root fetch - processPackages [octavia]: Remove: archive file [/home/abi/fetcher/tmp/octavia-9.0.1.tar.gz]
+[2023-07-20 13:47:59] INFO root fetch - processPackages [octavia]: Remove: archive file [/home/abi/fetcher/tmp/octavia-9.1.0.tar.gz]
+[2023-07-20 13:47:59] INFO root fetch - main [MainThread]: End processing [octavia]: success
+[2023-07-20 13:47:59] INFO root fetch - main [MainThread]: Store serial: [18965940]
