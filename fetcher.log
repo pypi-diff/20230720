@@ -21682,3 +21682,129 @@ AssertionError: tmp/threemystic_cloud_data_client-0.1.17.tar.gz does not exist
 [2023-07-20 21:41:17] INFO root fetch - processPackages [domolibrary]: Remove: archive file [/home/abi/fetcher/tmp/domolibrary-0.1.99.tar.gz]
 [2023-07-20 21:41:17] INFO root fetch - main [MainThread]: End processing [domolibrary]: success
 [2023-07-20 21:41:17] INFO root fetch - main [MainThread]: Store serial: [18972001]
+[2023-07-20 21:46:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18972001]
+[2023-07-20 21:46:26] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-07-20 21:46:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: chainforge
+[2023-07-20 21:46:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tilpTodeuUui
+[2023-07-20 21:46:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: coiled
+[2023-07-20 21:46:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: starmoth
+[2023-07-20 21:46:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: atriumdb
+[2023-07-20 21:46:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: imgopt
+[2023-07-20 21:46:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: delvewheel
+[2023-07-20 21:46:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: aws-network-firewall
+[2023-07-20 21:46:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: HBcXuyPPHrNk
+[2023-07-20 21:46:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: aiomisc
+[2023-07-20 21:46:27] INFO root fetch - processPackages [starmoth]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-07-20 21:46:27] INFO root fetch - processPackages [imgopt]: New version: [0.3] Old Version: [0.2]
+[2023-07-20 21:46:27] WARNING root fetch - processPackages [tilpTodeuUui]: Skipping, unable to determine old version
+[2023-07-20 21:46:27] INFO root fetch - processPackages [tilpTodeuUui]: Start processing: numbers-parser
+[2023-07-20 21:46:27] INFO root fetch - main [MainThread]: End processing [tilpTodeuUui] error
+[2023-07-20 21:46:27] INFO root fetch - processPackages [chainforge]: New version: [0.2.1.4] Old Version: [0.2.1.3]
+[2023-07-20 21:46:27] WARNING root fetch - processPackages [aws-network-firewall]: Skipping, unable to determine old version
+[2023-07-20 21:46:27] INFO root fetch - processPackages [aws-network-firewall]: Start processing: pusteblume
+[2023-07-20 21:46:27] INFO root fetch - main [MainThread]: End processing [aws-network-firewall] error
+[2023-07-20 21:46:27] WARNING root fetch - processPackages [HBcXuyPPHrNk]: Skipping, unable to determine old version
+[2023-07-20 21:46:27] INFO root fetch - processPackages [HBcXuyPPHrNk]: Start processing: cfstack
+[2023-07-20 21:46:27] INFO root fetch - main [MainThread]: End processing [HBcXuyPPHrNk] error
+[2023-07-20 21:46:27] INFO root fetch - processPackages [delvewheel]: New version: [1.4.0] Old Version: [1.3.8]
+[2023-07-20 21:46:27] INFO root fetch - processPackages [coiled]: New version: [0.8.9.dev9] Old Version: [0.8.9.dev6]
+[2023-07-20 21:46:27] INFO root fetch - processPackages [aiomisc]: New version: [9.8.4] Old Version: [9.8.1]
+[2023-07-20 21:46:27] WARNING root fetch - processPackages [atriumdb]: Skipping, unable to determine old version
+[2023-07-20 21:46:27] INFO root fetch - processPackages [atriumdb]: Start processing: dask-cuda
+[2023-07-20 21:46:27] INFO root fetch - main [MainThread]: End processing [atriumdb] error
+[2023-07-20 21:46:27] WARNING root fetch - processPackages [pusteblume]: Skipping, unable to determine old version
+[2023-07-20 21:46:27] INFO root fetch - processPackages [pusteblume]: Start processing: mccoygroup-psience
+[2023-07-20 21:46:27] INFO root fetch - main [MainThread]: End processing [pusteblume] error
+[2023-07-20 21:46:27] INFO root fetch - processPackages [numbers-parser]: New version: [4.1.2] Old Version: [4.1.1]
+[2023-07-20 21:46:27] INFO root fetch - processPackages [chainforge]: Downloading https://files.pythonhosted.org/packages/fc/d8/b57d52bdc05a99f5803ed574309b45cf00854103b8c3f0a7d8618fa3d4c3/chainforge-0.2.1.3.tar.gz
+[2023-07-20 21:46:27] INFO root fetch - processPackages [imgopt]: Downloading https://files.pythonhosted.org/packages/d2/7c/051d6acb8543f6803341d91213a3775cae6ed1e5c3a85b962887544c3c2d/imgopt-0.2.tar.gz
+[2023-07-20 21:46:27] INFO root fetch - processPackages [mccoygroup-psience]: New version: [0.0.9.2] Old Version: [0.0.9.1]
+[2023-07-20 21:46:27] INFO root fetch - processPackages [cfstack]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-07-20 21:46:27] INFO root fetch - processPackages [starmoth]: Downloading https://files.pythonhosted.org/packages/17/ad/518b98c4dc4612e0a2f4b7c049f4b0c17b7936b093378b841657f829ff7f/starmoth-0.5.0.tar.gz
+[2023-07-20 21:46:27] INFO root fetch - processPackages [dask-cuda]: New version: [23.8.0a230720] Old Version: [23.8.0a230719]
+[2023-07-20 21:46:27] INFO root fetch - processPackages [aiomisc]: Downloading https://files.pythonhosted.org/packages/c2/5e/0147260c1e4e86e57f3580d773391c45e0148592e1be737a164b6956c434/aiomisc-9.8.1.tar.gz
+[2023-07-20 21:46:27] INFO root fetch - processPackages [delvewheel]: Downloading https://files.pythonhosted.org/packages/5d/63/b2f307f2aa3c5b13796fd27fc36b64292f9923108b550f7fff9d55eb3ace/delvewheel-1.3.8.tar.gz
+[2023-07-20 21:46:27] INFO root fetch - processPackages [cfstack]: Downloading https://files.pythonhosted.org/packages/2d/37/f32a2fe045189b6e61e099153cfdf627367b1497d292f8262ece378551bf/cfstack-1.1.0.tar.gz
+[2023-07-20 21:46:27] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/01/4b/38ee625e022b9045458352636265942fc0dd2c5373d6b88ca4415a39b230/coiled-0.8.9.dev6.tar.gz
+[2023-07-20 21:46:27] INFO root fetch - processPackages [numbers-parser]: Downloading https://files.pythonhosted.org/packages/4e/26/7866ed0958f56e1d482da66c18b267ae1f26a37fae33fa8e1a656ce1d847/numbers_parser-4.1.1.tar.gz
+[2023-07-20 21:46:27] INFO root fetch - processPackages [mccoygroup-psience]: Downloading https://files.pythonhosted.org/packages/e2/8c/524ade66b9a4c4654ef77145480d92214baa22930150583665f606fcf591/mccoygroup-psience-0.0.9.1.tar.gz
+[2023-07-20 21:46:27] INFO root fetch - processPackages [dask-cuda]: Downloading https://files.pythonhosted.org/packages/80/37/e5320b8f5f6196a3669ec562ab0ca5ac0533e89c29ea0210c300efc9fe1b/dask-cuda-23.8.0a230719.tar.gz
+[2023-07-20 21:46:27] INFO root fetch - processPackages [imgopt]: Downloading https://files.pythonhosted.org/packages/dc/06/a1ef62d36bfa5bb757f0f28c398d54dc0b7bda45a755adac4703dea52653/imgopt-0.3.tar.gz
+[2023-07-20 21:46:27] INFO root fetch - processPackages [starmoth]: Downloading https://files.pythonhosted.org/packages/65/a9/e2ec123f0e55921d68aaeb68ca51bb7147bdcd67bc8e4cdbde1bc1d1e6b7/starmoth-0.5.1.tar.gz
+[2023-07-20 21:46:28] INFO root fetch - processPackages [cfstack]: Downloading https://files.pythonhosted.org/packages/ec/c3/66de688160119e3dfdab6babc3a64bab6ace0e4ddf97478fd8de6470fd3d/cfstack-1.1.1.tar.gz
+[2023-07-20 21:46:28] INFO root fetch - processPackages [aiomisc]: Downloading https://files.pythonhosted.org/packages/93/ba/bd5f5955a4619763392f62584654683f73fc061715a99f405c324f3b51f9/aiomisc-9.8.4.tar.gz
+[2023-07-20 21:46:28] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/26/80/9e4bfeccf312016e825026ef4ffbc2321b3117d2572b720eaa72b12d9673/coiled-0.8.9.dev9.tar.gz
+[2023-07-20 21:46:28] INFO root fetch - processPackages [delvewheel]: Downloading https://files.pythonhosted.org/packages/e3/ad/e6333406dce671e9e23b69a4ebebe706b75b2ad6cfa18ae26ee8f67ceca4/delvewheel-1.4.0.tar.gz
+[2023-07-20 21:46:28] INFO root fetch - processPackages [imgopt]: executing diffoscope
+[2023-07-20 21:46:28] INFO root fetch - processPackages [imgopt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imgopt-0.2.tar.gz tmp/imgopt-0.3.tar.gz --markdown 20230720/i/imgopt/0.2-0.3/diff.md --exclude *.pyd
+[2023-07-20 21:46:28] INFO root fetch - processPackages [chainforge]: Downloading https://files.pythonhosted.org/packages/47/15/774a2b0ef58632f9ce11bec2626987ea4d563f3959fd262e253825d81f31/chainforge-0.2.1.4.tar.gz
+[2023-07-20 21:46:28] INFO root fetch - processPackages [mccoygroup-psience]: Downloading https://files.pythonhosted.org/packages/a3/08/b4748bc684660b671d114b9077509a3de4705518e21a3315379d563b5eb0/mccoygroup-psience-0.0.9.2.tar.gz
+[2023-07-20 21:46:28] INFO root fetch - processPackages [starmoth]: executing diffoscope
+[2023-07-20 21:46:28] INFO root fetch - processPackages [starmoth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/starmoth-0.5.0.tar.gz tmp/starmoth-0.5.1.tar.gz --markdown 20230720/s/starmoth/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-07-20 21:46:28] INFO root fetch - processPackages [cfstack]: executing diffoscope
+[2023-07-20 21:46:28] INFO root fetch - processPackages [cfstack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cfstack-1.1.0.tar.gz tmp/cfstack-1.1.1.tar.gz --markdown 20230720/c/cfstack/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-07-20 21:46:28] INFO root fetch - processPackages [coiled]: executing diffoscope
+[2023-07-20 21:46:28] INFO root fetch - processPackages [coiled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coiled-0.8.9.dev6.tar.gz tmp/coiled-0.8.9.dev9.tar.gz --markdown 20230720/c/coiled/0.8.9.dev6-0.8.9.dev9/diff.md --exclude *.pyd
+[2023-07-20 21:46:28] INFO root fetch - processPackages [delvewheel]: executing diffoscope
+[2023-07-20 21:46:28] INFO root fetch - processPackages [delvewheel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/delvewheel-1.3.8.tar.gz tmp/delvewheel-1.4.0.tar.gz --markdown 20230720/d/delvewheel/1.3.8-1.4.0/diff.md --exclude *.pyd
+[2023-07-20 21:46:28] INFO root fetch - processPackages [numbers-parser]: Downloading https://files.pythonhosted.org/packages/74/4b/e7134bc677811f8d87fa40ee41ec774dcc333777dc47d6b0cde09eb2e60c/numbers_parser-4.1.2.tar.gz
+[2023-07-20 21:46:28] INFO root fetch - processPackages [aiomisc]: executing diffoscope
+[2023-07-20 21:46:28] INFO root fetch - processPackages [aiomisc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiomisc-9.8.1.tar.gz tmp/aiomisc-9.8.4.tar.gz --markdown 20230720/a/aiomisc/9.8.1-9.8.4/diff.md --exclude *.pyd
+[2023-07-20 21:46:28] INFO root fetch - processPackages [dask-cuda]: Downloading https://files.pythonhosted.org/packages/6e/5f/468c1114853169e8e5a4d273e056e0d17494aac437444bf83d3212a00f80/dask-cuda-23.8.0a230720.tar.gz
+[2023-07-20 21:46:28] INFO root fetch - processPackages [mccoygroup-psience]: executing diffoscope
+[2023-07-20 21:46:28] INFO root fetch - processPackages [mccoygroup-psience]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mccoygroup-psience-0.0.9.1.tar.gz tmp/mccoygroup-psience-0.0.9.2.tar.gz --markdown 20230720/m/mccoygroup-psience/0.0.9.1-0.0.9.2/diff.md --exclude *.pyd
+[2023-07-20 21:46:28] INFO root fetch - processPackages [numbers-parser]: executing diffoscope
+[2023-07-20 21:46:28] INFO root fetch - processPackages [numbers-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/numbers_parser-4.1.1.tar.gz tmp/numbers_parser-4.1.2.tar.gz --markdown 20230720/n/numbers-parser/4.1.1-4.1.2/diff.md --exclude *.pyd
+[2023-07-20 21:46:28] INFO root fetch - processPackages [dask-cuda]: executing diffoscope
+[2023-07-20 21:46:28] INFO root fetch - processPackages [dask-cuda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dask-cuda-23.8.0a230719.tar.gz tmp/dask-cuda-23.8.0a230720.tar.gz --markdown 20230720/d/dask-cuda/23.8.0a230719-23.8.0a230720/diff.md --exclude *.pyd
+[2023-07-20 21:46:28] INFO root fetch - processPackages [chainforge]: executing diffoscope
+[2023-07-20 21:46:28] INFO root fetch - processPackages [chainforge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chainforge-0.2.1.3.tar.gz tmp/chainforge-0.2.1.4.tar.gz --markdown 20230720/c/chainforge/0.2.1.3-0.2.1.4/diff.md --exclude *.pyd
+[2023-07-20 21:46:29] INFO root fetch - processPackages [imgopt]: Remove: archive file [/home/abi/fetcher/tmp/imgopt-0.2.tar.gz]
+[2023-07-20 21:46:29] INFO root fetch - processPackages [imgopt]: Remove: archive file [/home/abi/fetcher/tmp/imgopt-0.3.tar.gz]
+[2023-07-20 21:46:29] INFO root fetch - processPackages [imgopt]: Start processing: kfsd
+[2023-07-20 21:46:29] INFO root fetch - main [MainThread]: End processing [imgopt]: success
+[2023-07-20 21:46:29] INFO root fetch - processPackages [kfsd]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-20 21:46:29] INFO root fetch - processPackages [starmoth]: Remove: archive file [/home/abi/fetcher/tmp/starmoth-0.5.0.tar.gz]
+[2023-07-20 21:46:29] INFO root fetch - processPackages [starmoth]: Remove: archive file [/home/abi/fetcher/tmp/starmoth-0.5.1.tar.gz]
+[2023-07-20 21:46:29] INFO root fetch - processPackages [starmoth]: Start processing: scrunch
+[2023-07-20 21:46:29] INFO root fetch - main [MainThread]: End processing [starmoth]: success
+[2023-07-20 21:46:29] INFO root fetch - processPackages [kfsd]: Downloading https://files.pythonhosted.org/packages/bc/a3/f3db8d87a39f5eb8a59d2664840211b257e17b2838d141754bf65b5b99d4/kfsd-0.0.8.tar.gz
+[2023-07-20 21:46:29] INFO root fetch - processPackages [scrunch]: New version: [6.5.2000.post1689876621] Old Version: [6.5.1999.post1689868377]
+[2023-07-20 21:46:29] INFO root fetch - processPackages [cfstack]: Remove: archive file [/home/abi/fetcher/tmp/cfstack-1.1.0.tar.gz]
+[2023-07-20 21:46:29] INFO root fetch - processPackages [cfstack]: Remove: archive file [/home/abi/fetcher/tmp/cfstack-1.1.1.tar.gz]
+[2023-07-20 21:46:29] INFO root fetch - main [MainThread]: End processing [cfstack]: success
+[2023-07-20 21:46:29] INFO root fetch - processPackages [delvewheel]: Remove: archive file [/home/abi/fetcher/tmp/delvewheel-1.3.8.tar.gz]
+[2023-07-20 21:46:29] INFO root fetch - processPackages [delvewheel]: Remove: archive file [/home/abi/fetcher/tmp/delvewheel-1.4.0.tar.gz]
+[2023-07-20 21:46:29] INFO root fetch - main [MainThread]: End processing [delvewheel]: success
+[2023-07-20 21:46:29] INFO root fetch - processPackages [scrunch]: Downloading https://files.pythonhosted.org/packages/12/8c/3387b374899dad890b90e0805add2eea4050deaa79b95d129d03eea5b171/scrunch-6.5.1999.post1689868377.tar.gz
+[2023-07-20 21:46:30] INFO root fetch - processPackages [aiomisc]: Remove: archive file [/home/abi/fetcher/tmp/aiomisc-9.8.1.tar.gz]
+[2023-07-20 21:46:30] INFO root fetch - processPackages [aiomisc]: Remove: archive file [/home/abi/fetcher/tmp/aiomisc-9.8.4.tar.gz]
+[2023-07-20 21:46:30] INFO root fetch - main [MainThread]: End processing [aiomisc]: success
+[2023-07-20 21:46:30] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-0.8.9.dev6.tar.gz]
+[2023-07-20 21:46:30] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-0.8.9.dev9.tar.gz]
+[2023-07-20 21:46:30] INFO root fetch - main [MainThread]: End processing [coiled]: success
+[2023-07-20 21:46:30] INFO root fetch - processPackages [scrunch]: Downloading https://files.pythonhosted.org/packages/a8/bf/3b8cbd6d46811a3f5c201d909e6cf8dbd8ceaf373cce1fec4ce9e015d53e/scrunch-6.5.2000.post1689876621.tar.gz
+[2023-07-20 21:46:30] INFO root fetch - processPackages [kfsd]: Downloading https://files.pythonhosted.org/packages/cc/18/f96c1914d54bd725df13ee5bf82870ca513b9a3c82d89aa30a7d271fa26a/kfsd-0.0.9.tar.gz
+[2023-07-20 21:46:30] INFO root fetch - processPackages [kfsd]: executing diffoscope
+[2023-07-20 21:46:30] INFO root fetch - processPackages [kfsd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfsd-0.0.8.tar.gz tmp/kfsd-0.0.9.tar.gz --markdown 20230720/k/kfsd/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-20 21:46:30] INFO root fetch - processPackages [numbers-parser]: Remove: archive file [/home/abi/fetcher/tmp/numbers_parser-4.1.1.tar.gz]
+[2023-07-20 21:46:30] INFO root fetch - processPackages [numbers-parser]: Remove: archive file [/home/abi/fetcher/tmp/numbers_parser-4.1.2.tar.gz]
+[2023-07-20 21:46:30] INFO root fetch - main [MainThread]: End processing [numbers-parser]: success
+[2023-07-20 21:46:30] INFO root fetch - processPackages [scrunch]: executing diffoscope
+[2023-07-20 21:46:30] INFO root fetch - processPackages [scrunch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scrunch-6.5.1999.post1689868377.tar.gz tmp/scrunch-6.5.2000.post1689876621.tar.gz --markdown 20230720/s/scrunch/6.5.1999.post1689868377-6.5.2000.post1689876621/diff.md --exclude *.pyd
+[2023-07-20 21:46:30] INFO root fetch - processPackages [mccoygroup-psience]: Remove: archive file [/home/abi/fetcher/tmp/mccoygroup-psience-0.0.9.1.tar.gz]
+[2023-07-20 21:46:30] INFO root fetch - processPackages [mccoygroup-psience]: Remove: archive file [/home/abi/fetcher/tmp/mccoygroup-psience-0.0.9.2.tar.gz]
+[2023-07-20 21:46:30] INFO root fetch - main [MainThread]: End processing [mccoygroup-psience]: success
+[2023-07-20 21:46:30] INFO root fetch - processPackages [dask-cuda]: Remove: archive file [/home/abi/fetcher/tmp/dask-cuda-23.8.0a230719.tar.gz]
+[2023-07-20 21:46:30] INFO root fetch - processPackages [dask-cuda]: Remove: archive file [/home/abi/fetcher/tmp/dask-cuda-23.8.0a230720.tar.gz]
+[2023-07-20 21:46:30] INFO root fetch - main [MainThread]: End processing [dask-cuda]: success
+[2023-07-20 21:46:31] INFO root fetch - processPackages [kfsd]: Remove: archive file [/home/abi/fetcher/tmp/kfsd-0.0.8.tar.gz]
+[2023-07-20 21:46:31] INFO root fetch - processPackages [kfsd]: Remove: archive file [/home/abi/fetcher/tmp/kfsd-0.0.9.tar.gz]
+[2023-07-20 21:46:31] INFO root fetch - main [MainThread]: End processing [kfsd]: success
+[2023-07-20 21:46:31] INFO root fetch - processPackages [scrunch]: Remove: archive file [/home/abi/fetcher/tmp/scrunch-6.5.1999.post1689868377.tar.gz]
+[2023-07-20 21:46:31] INFO root fetch - processPackages [scrunch]: Remove: archive file [/home/abi/fetcher/tmp/scrunch-6.5.2000.post1689876621.tar.gz]
+[2023-07-20 21:46:31] INFO root fetch - main [MainThread]: End processing [scrunch]: success
+[2023-07-20 21:47:32] INFO root fetch - processPackages [chainforge]: Remove: archive file [/home/abi/fetcher/tmp/chainforge-0.2.1.3.tar.gz]
+[2023-07-20 21:47:32] INFO root fetch - processPackages [chainforge]: Remove: archive file [/home/abi/fetcher/tmp/chainforge-0.2.1.4.tar.gz]
+[2023-07-20 21:47:32] INFO root fetch - main [MainThread]: End processing [chainforge]: success
+[2023-07-20 21:47:32] INFO root fetch - main [MainThread]: Store serial: [18972059]
