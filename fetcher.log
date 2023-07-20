@@ -5842,3 +5842,147 @@ AssertionError: tmp/verify4py-test-0.1.7.tar.gz does not exist
 [2023-07-20 12:49:22] INFO root fetch - processPackages [bo4e]: Remove: archive file [/home/abi/fetcher/tmp/bo4e-0.5.2.tar.gz]
 [2023-07-20 12:49:22] INFO root fetch - main [MainThread]: End processing [bo4e]: success
 [2023-07-20 12:49:22] INFO root fetch - main [MainThread]: Store serial: [18965283]
+[2023-07-20 12:54:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18965283]
+[2023-07-20 12:54:31] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-07-20 12:54:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cysimdjson
+[2023-07-20 12:54:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: navigation-utilities
+[2023-07-20 12:54:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyerrors
+[2023-07-20 12:54:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aad-fastapi
+[2023-07-20 12:54:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: smartlogger
+[2023-07-20 12:54:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: basaran
+[2023-07-20 12:54:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lazysdk
+[2023-07-20 12:54:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: fontmake
+[2023-07-20 12:54:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: llfn
+[2023-07-20 12:54:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: oarepo-cli
+[2023-07-20 12:54:31] INFO root fetch - processPackages [navigation-utilities]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-07-20 12:54:31] INFO root fetch - processPackages [pyerrors]: New version: [2.9.0] Old Version: [2.8.2]
+[2023-07-20 12:54:31] INFO root fetch - processPackages [lazysdk]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-20 12:54:31] INFO root fetch - processPackages [aad-fastapi]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-07-20 12:54:31] INFO root fetch - processPackages [basaran]: New version: [0.20.0] Old Version: [0.19.0]
+[2023-07-20 12:54:31] INFO root fetch - processPackages [llfn]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-20 12:54:31] INFO root fetch - processPackages [cysimdjson]: New version: [23.7] Old Version: [21.11b2]
+[2023-07-20 12:54:31] INFO root fetch - processPackages [smartlogger]: New version: [0.0.1.dev9] Old Version: [0.0.1.dev8]
+[2023-07-20 12:54:31] INFO root fetch - processPackages [oarepo-cli]: New version: [11.1.9] Old Version: [11.1.8]
+[2023-07-20 12:54:31] INFO root fetch - processPackages [fontmake]: New version: [3.6.1] Old Version: [3.6.0]
+[2023-07-20 12:54:31] INFO root fetch - processPackages [llfn]: Downloading https://files.pythonhosted.org/packages/e0/ac/a4ab1101eff01931b37d870665a5f7b1a31567af31483b766d5100ea1655/llfn-0.1.0.tar.gz
+[2023-07-20 12:54:31] INFO root fetch - processPackages [aad-fastapi]: Downloading https://files.pythonhosted.org/packages/82/fd/fd04ffa7991ebf6b811a3391d1beeab9084a86918675d42ce2425c90e697/aad_fastapi-1.1.1.tar.gz
+[2023-07-20 12:54:31] INFO root fetch - processPackages [oarepo-cli]: Downloading https://files.pythonhosted.org/packages/af/a7/2733a476ea08d89fb2f474b4da4c3e1bcd0256c07baebfab128540be8be1/oarepo-cli-11.1.8.tar.gz
+[2023-07-20 12:54:31] INFO root fetch - processPackages [lazysdk]: Downloading https://files.pythonhosted.org/packages/38/6e/873c1f710606f91c4d8dd01b66a600b8f53828c838a79ba123c316f77c05/lazysdk-0.1.8.tar.gz
+[2023-07-20 12:54:31] INFO root fetch - processPackages [pyerrors]: Downloading https://files.pythonhosted.org/packages/59/6a/845251394bc1b55e0281d1d8cc79e2b4e6b07fbc24d955ea0026a4c2fb3b/pyerrors-2.8.2.tar.gz
+[2023-07-20 12:54:31] INFO root fetch - processPackages [navigation-utilities]: Downloading https://files.pythonhosted.org/packages/4c/03/c65735adf4b98941841e6f419ab27ef9dd39056e3c11fb80a8c8ed2153a3/navigation-utilities-0.2.1.tar.gz
+[2023-07-20 12:54:31] INFO root fetch - processPackages [basaran]: Downloading https://files.pythonhosted.org/packages/50/79/fbb536a01feac49605ff0c8ff1cbe1b6fa72e7534d4ba6e541091962699a/basaran-0.19.0.tar.gz
+[2023-07-20 12:54:31] INFO root fetch - processPackages [fontmake]: Downloading https://files.pythonhosted.org/packages/59/f3/67aee1618e137def013c30b42bb6c30062abfd0362146b1e7b78ab179d99/fontmake-3.6.0.zip
+[2023-07-20 12:54:31] INFO root fetch - processPackages [smartlogger]: Downloading https://files.pythonhosted.org/packages/07/b8/31385a77f735932242ebdac2e0b292facd7603ca7d4babcd2dce7d86d19b/smartlogger-0.0.1.dev8.tar.gz
+[2023-07-20 12:54:31] INFO root fetch - processPackages [cysimdjson]: Downloading https://files.pythonhosted.org/packages/90/6f/7673679c1ed438a18068e3ccdc1a8874fdb3084ff7403006faac92163542/cysimdjson-21.11b2.tar.gz
+[2023-07-20 12:54:32] INFO root fetch - processPackages [llfn]: Downloading https://files.pythonhosted.org/packages/94/db/4a30ada50d1d542403c15fb4b31deb17902b0b511298fc369e3a1b771bcf/llfn-0.1.1.tar.gz
+[2023-07-20 12:54:32] INFO root fetch - processPackages [aad-fastapi]: Downloading https://files.pythonhosted.org/packages/c3/96/3cf2621ae04b8a890c449985303813525c8bda12866b69da4dfc7bfdd58f/aad_fastapi-1.1.2.tar.gz
+[2023-07-20 12:54:32] INFO root fetch - processPackages [basaran]: Downloading https://files.pythonhosted.org/packages/83/17/9b2c89b51a039492bd4dd9a213a6a93f04cd74809f2c4abd3cd56d5ac9a3/basaran-0.20.0.tar.gz
+[2023-07-20 12:54:32] INFO root fetch - processPackages [lazysdk]: Downloading https://files.pythonhosted.org/packages/56/f7/82feafe86145b2d6d28587748503b8e9a4aaab1142447bc3345f6b0683e6/lazysdk-0.1.9.tar.gz
+[2023-07-20 12:54:32] INFO root fetch - processPackages [navigation-utilities]: Downloading https://files.pythonhosted.org/packages/c3/bb/0877ead0fc9d2b906cb7ffcb4283da9cc450b9655c264eb2321ce4975768/navigation-utilities-0.2.2.tar.gz
+[2023-07-20 12:54:32] INFO root fetch - processPackages [oarepo-cli]: Downloading https://files.pythonhosted.org/packages/c1/07/390f9767ed13e63ef97918ed09945b5501685e21d178f8f10dfc1cd2a54c/oarepo-cli-11.1.9.tar.gz
+[2023-07-20 12:54:32] INFO root fetch - processPackages [aad-fastapi]: executing diffoscope
+[2023-07-20 12:54:32] INFO root fetch - processPackages [aad-fastapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aad_fastapi-1.1.1.tar.gz tmp/aad_fastapi-1.1.2.tar.gz --markdown 20230720/a/aad-fastapi/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-07-20 12:54:32] INFO root fetch - processPackages [smartlogger]: Downloading https://files.pythonhosted.org/packages/0d/4d/825ae0420080d5bc86f3de11c6856e3359e0abb561254bc8ca291c70cf40/smartlogger-0.0.1.dev9.tar.gz
+[2023-07-20 12:54:32] INFO root fetch - processPackages [llfn]: executing diffoscope
+[2023-07-20 12:54:32] INFO root fetch - processPackages [llfn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llfn-0.1.0.tar.gz tmp/llfn-0.1.1.tar.gz --markdown 20230720/l/llfn/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-20 12:54:32] INFO root fetch - processPackages [cysimdjson]: Downloading https://files.pythonhosted.org/packages/72/c5/a997f119ab359df8cd695438ee39a98390e34cdd228fea291062d0c45c79/cysimdjson-23.7.tar.gz
+[2023-07-20 12:54:32] INFO root fetch - processPackages [fontmake]: Downloading https://files.pythonhosted.org/packages/09/fb/fdc647068bdf47894851c04c5d0436571b976d1d2059dc57dfa14db0cb93/fontmake-3.6.1.zip
+[2023-07-20 12:54:32] INFO root fetch - processPackages [basaran]: executing diffoscope
+[2023-07-20 12:54:32] INFO root fetch - processPackages [lazysdk]: executing diffoscope
+[2023-07-20 12:54:32] INFO root fetch - processPackages [basaran]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/basaran-0.19.0.tar.gz tmp/basaran-0.20.0.tar.gz --markdown 20230720/b/basaran/0.19.0-0.20.0/diff.md --exclude *.pyd
+[2023-07-20 12:54:32] INFO root fetch - processPackages [lazysdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lazysdk-0.1.8.tar.gz tmp/lazysdk-0.1.9.tar.gz --markdown 20230720/l/lazysdk/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-20 12:54:32] INFO root fetch - processPackages [navigation-utilities]: executing diffoscope
+[2023-07-20 12:54:32] INFO root fetch - processPackages [navigation-utilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/navigation-utilities-0.2.1.tar.gz tmp/navigation-utilities-0.2.2.tar.gz --markdown 20230720/n/navigation-utilities/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-07-20 12:54:32] INFO root fetch - processPackages [pyerrors]: Downloading https://files.pythonhosted.org/packages/d7/08/1706d4eba18bf924c05a16108b0da494151e30dcf78eb658e7eab64faa6e/pyerrors-2.9.0.tar.gz
+[2023-07-20 12:54:32] INFO root fetch - processPackages [smartlogger]: executing diffoscope
+[2023-07-20 12:54:32] INFO root fetch - processPackages [smartlogger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smartlogger-0.0.1.dev8.tar.gz tmp/smartlogger-0.0.1.dev9.tar.gz --markdown 20230720/s/smartlogger/0.0.1.dev8-0.0.1.dev9/diff.md --exclude *.pyd
+[2023-07-20 12:54:32] INFO root fetch - processPackages [fontmake]: executing diffoscope
+[2023-07-20 12:54:32] INFO root fetch - processPackages [fontmake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fontmake-3.6.0.zip tmp/fontmake-3.6.1.zip --markdown 20230720/f/fontmake/3.6.0-3.6.1/diff.md --exclude *.pyd
+[2023-07-20 12:54:32] INFO root fetch - processPackages [oarepo-cli]: executing diffoscope
+[2023-07-20 12:54:32] INFO root fetch - processPackages [oarepo-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oarepo-cli-11.1.8.tar.gz tmp/oarepo-cli-11.1.9.tar.gz --markdown 20230720/o/oarepo-cli/11.1.8-11.1.9/diff.md --exclude *.pyd
+[2023-07-20 12:54:32] INFO root fetch - processPackages [cysimdjson]: executing diffoscope
+[2023-07-20 12:54:32] INFO root fetch - processPackages [cysimdjson]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cysimdjson-21.11b2.tar.gz tmp/cysimdjson-23.7.tar.gz --markdown 20230720/c/cysimdjson/21.11b2-23.7/diff.md --exclude *.pyd
+[2023-07-20 12:54:32] INFO root fetch - processPackages [pyerrors]: executing diffoscope
+[2023-07-20 12:54:32] INFO root fetch - processPackages [pyerrors]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyerrors-2.8.2.tar.gz tmp/pyerrors-2.9.0.tar.gz --markdown 20230720/p/pyerrors/2.8.2-2.9.0/diff.md --exclude *.pyd
+[2023-07-20 12:54:33] INFO root fetch - processPackages [llfn]: Remove: archive file [/home/abi/fetcher/tmp/llfn-0.1.0.tar.gz]
+[2023-07-20 12:54:33] INFO root fetch - processPackages [llfn]: Remove: archive file [/home/abi/fetcher/tmp/llfn-0.1.1.tar.gz]
+[2023-07-20 12:54:33] INFO root fetch - processPackages [llfn]: Start processing: anyforce
+[2023-07-20 12:54:33] INFO root fetch - main [MainThread]: End processing [llfn]: success
+[2023-07-20 12:54:33] INFO root fetch - processPackages [anyforce]: New version: [0.9.0] Old Version: [0.8.2]
+[2023-07-20 12:54:34] INFO root fetch - processPackages [anyforce]: Downloading https://files.pythonhosted.org/packages/75/22/a60c6e897bc29038e83b0aaba8bd40f9465d8ba0f62d101cda65ef7d9d3a/anyforce-0.8.2.tar.gz
+[2023-07-20 12:54:34] INFO root fetch - processPackages [lazysdk]: Remove: archive file [/home/abi/fetcher/tmp/lazysdk-0.1.8.tar.gz]
+[2023-07-20 12:54:34] INFO root fetch - processPackages [lazysdk]: Remove: archive file [/home/abi/fetcher/tmp/lazysdk-0.1.9.tar.gz]
+[2023-07-20 12:54:34] INFO root fetch - processPackages [lazysdk]: Start processing: yxspkg
+[2023-07-20 12:54:34] INFO root fetch - main [MainThread]: End processing [lazysdk]: success
+[2023-07-20 12:54:34] INFO root fetch - processPackages [aad-fastapi]: Remove: archive file [/home/abi/fetcher/tmp/aad_fastapi-1.1.1.tar.gz]
+[2023-07-20 12:54:34] INFO root fetch - processPackages [aad-fastapi]: Remove: archive file [/home/abi/fetcher/tmp/aad_fastapi-1.1.2.tar.gz]
+[2023-07-20 12:54:34] INFO root fetch - processPackages [aad-fastapi]: Start processing: certora-cli-alpha-master
+[2023-07-20 12:54:34] INFO root fetch - main [MainThread]: End processing [aad-fastapi]: success
+[2023-07-20 12:54:34] INFO root fetch - processPackages [yxspkg]: New version: [6.9.8] Old Version: [6.9.7]
+[2023-07-20 12:54:34] INFO root fetch - processPackages [navigation-utilities]: Remove: archive file [/home/abi/fetcher/tmp/navigation-utilities-0.2.1.tar.gz]
+[2023-07-20 12:54:34] INFO root fetch - processPackages [navigation-utilities]: Remove: archive file [/home/abi/fetcher/tmp/navigation-utilities-0.2.2.tar.gz]
+[2023-07-20 12:54:34] INFO root fetch - processPackages [navigation-utilities]: Start processing: bagbag
+[2023-07-20 12:54:34] INFO root fetch - main [MainThread]: End processing [navigation-utilities]: success
+[2023-07-20 12:54:34] INFO root fetch - processPackages [basaran]: Remove: archive file [/home/abi/fetcher/tmp/basaran-0.19.0.tar.gz]
+[2023-07-20 12:54:34] INFO root fetch - processPackages [basaran]: Remove: archive file [/home/abi/fetcher/tmp/basaran-0.20.0.tar.gz]
+[2023-07-20 12:54:34] INFO root fetch - processPackages [basaran]: Start processing: luminesce-sdk-preview
+[2023-07-20 12:54:34] INFO root fetch - main [MainThread]: End processing [basaran]: success
+[2023-07-20 12:54:34] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20230720.9.35.373421] Old Version: [20230720.8.17.453767]
+[2023-07-20 12:54:34] INFO root fetch - processPackages [bagbag]: New version: [0.61.3] Old Version: [0.61.2]
+[2023-07-20 12:54:34] INFO root fetch - processPackages [luminesce-sdk-preview]: New version: [1.9.92] Old Version: [1.9.88]
+[2023-07-20 12:54:34] INFO root fetch - processPackages [anyforce]: Downloading https://files.pythonhosted.org/packages/9b/ab/c662247bed8dd85fa8c1d2517b08f7688328858eb44bfe36bed0b0aed718/anyforce-0.9.0.tar.gz
+[2023-07-20 12:54:34] INFO root fetch - processPackages [smartlogger]: Remove: archive file [/home/abi/fetcher/tmp/smartlogger-0.0.1.dev8.tar.gz]
+[2023-07-20 12:54:34] INFO root fetch - processPackages [smartlogger]: Remove: archive file [/home/abi/fetcher/tmp/smartlogger-0.0.1.dev9.tar.gz]
+[2023-07-20 12:54:34] INFO root fetch - processPackages [smartlogger]: Start processing: koheron
+[2023-07-20 12:54:34] INFO root fetch - main [MainThread]: End processing [smartlogger]: success
+[2023-07-20 12:54:34] INFO root fetch - processPackages [yxspkg]: Downloading https://files.pythonhosted.org/packages/e9/00/1c979a6338313aa1384817dcfb17d78f225f07292739c9ace51701b7cc62/yxspkg-6.9.7-py3-none-any.whl
+[2023-07-20 12:54:34] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/99/a4/130c25bf2e5418b45b19466d35f40d4adc16a20f574847f4c6df359b1970/certora-cli-alpha-master-20230720.8.17.453767.tar.gz
+[2023-07-20 12:54:34] INFO root fetch - processPackages [bagbag]: Downloading https://files.pythonhosted.org/packages/38/2d/45ca799366e40235118a2db4e1a1a902e54f6b97f7dde0d7c00c8067c192/bagbag-0.61.2.tar.gz
+[2023-07-20 12:54:34] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 37530787>=10485760
+[2023-07-20 12:54:34] INFO root fetch - processPackages [certora-cli-alpha-master]: Start processing: pyGUS-bio
+[2023-07-20 12:54:34] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2023-07-20 12:54:34] INFO root fetch - processPackages [koheron]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-07-20 12:54:34] INFO root fetch - processPackages [luminesce-sdk-preview]: executing diffoscope
+[2023-07-20 12:54:34] INFO root fetch - processPackages [luminesce-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/luminesce-sdk-preview-1.9.88.tar.gz tmp/luminesce-sdk-preview-1.9.92.tar.gz --markdown 20230720/l/luminesce-sdk-preview/1.9.88-1.9.92/diff.md --exclude *.pyd
+[2023-07-20 12:54:34] INFO root fetch - processPackages [anyforce]: executing diffoscope
+[2023-07-20 12:54:34] INFO root fetch - processPackages [anyforce]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anyforce-0.8.2.tar.gz tmp/anyforce-0.9.0.tar.gz --markdown 20230720/a/anyforce/0.8.2-0.9.0/diff.md --exclude *.pyd
+[2023-07-20 12:54:34] WARNING root fetch - processPackages [pyGUS-bio]: Skipping, unable to determine old version
+[2023-07-20 12:54:34] INFO root fetch - main [MainThread]: End processing [pyGUS-bio] error
+[2023-07-20 12:54:34] INFO root fetch - processPackages [cysimdjson]: Remove: archive file [/home/abi/fetcher/tmp/cysimdjson-21.11b2.tar.gz]
+[2023-07-20 12:54:34] INFO root fetch - processPackages [cysimdjson]: Remove: archive file [/home/abi/fetcher/tmp/cysimdjson-23.7.tar.gz]
+[2023-07-20 12:54:34] INFO root fetch - main [MainThread]: End processing [cysimdjson]: success
+[2023-07-20 12:54:34] INFO root fetch - processPackages [koheron]: Downloading https://files.pythonhosted.org/packages/48/4e/0971534e337d6bb5d0f21560b8f8e41cc70c742861d988f6691b7ffbb7c2/koheron-0.9.4.tar.gz
+[2023-07-20 12:54:34] INFO root fetch - processPackages [bagbag]: Downloading https://files.pythonhosted.org/packages/df/2c/54416e2c9a28a3d2187c3e9177b1234c04d7ebde884322002084aa4c8506/bagbag-0.61.3.tar.gz
+[2023-07-20 12:54:35] INFO root fetch - processPackages [yxspkg]: Downloading https://files.pythonhosted.org/packages/7e/bf/a221195649dec2f4c5919f5d972d01beb568006bb8958fd387c423f1aaac/yxspkg-6.9.8-py3-none-any.whl
+[2023-07-20 12:54:35] INFO root fetch - processPackages [pyerrors]: Remove: archive file [/home/abi/fetcher/tmp/pyerrors-2.8.2.tar.gz]
+[2023-07-20 12:54:35] INFO root fetch - processPackages [pyerrors]: Remove: archive file [/home/abi/fetcher/tmp/pyerrors-2.9.0.tar.gz]
+[2023-07-20 12:54:35] INFO root fetch - main [MainThread]: End processing [pyerrors]: success
+[2023-07-20 12:54:35] INFO root fetch - processPackages [yxspkg]: executing diffoscope
+[2023-07-20 12:54:35] INFO root fetch - processPackages [yxspkg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yxspkg-6.9.7-py3-none-any.whl.zip tmp/yxspkg-6.9.8-py3-none-any.whl.zip --markdown 20230720/y/yxspkg/6.9.7-6.9.8/diff.md --exclude *.pyd
+[2023-07-20 12:54:35] INFO root fetch - processPackages [bagbag]: executing diffoscope
+[2023-07-20 12:54:35] INFO root fetch - processPackages [bagbag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bagbag-0.61.2.tar.gz tmp/bagbag-0.61.3.tar.gz --markdown 20230720/b/bagbag/0.61.2-0.61.3/diff.md --exclude *.pyd
+[2023-07-20 12:54:35] INFO root fetch - processPackages [koheron]: Downloading https://files.pythonhosted.org/packages/5c/f8/f3af319ef45740c8ceb84ffce1a346e2d21eab304dae3358a87aebdd3954/koheron-0.9.5.tar.gz
+[2023-07-20 12:54:35] INFO root fetch - processPackages [luminesce-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/luminesce-sdk-preview-1.9.88.tar.gz]
+[2023-07-20 12:54:35] INFO root fetch - processPackages [luminesce-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/luminesce-sdk-preview-1.9.92.tar.gz]
+[2023-07-20 12:54:35] INFO root fetch - main [MainThread]: End processing [luminesce-sdk-preview]: success
+[2023-07-20 12:54:35] INFO root fetch - processPackages [anyforce]: Remove: archive file [/home/abi/fetcher/tmp/anyforce-0.8.2.tar.gz]
+[2023-07-20 12:54:35] INFO root fetch - processPackages [anyforce]: Remove: archive file [/home/abi/fetcher/tmp/anyforce-0.9.0.tar.gz]
+[2023-07-20 12:54:35] INFO root fetch - main [MainThread]: End processing [anyforce]: success
+[2023-07-20 12:54:35] INFO root fetch - processPackages [koheron]: executing diffoscope
+[2023-07-20 12:54:35] INFO root fetch - processPackages [koheron]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/koheron-0.9.4.tar.gz tmp/koheron-0.9.5.tar.gz --markdown 20230720/k/koheron/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-07-20 12:54:36] INFO root fetch - processPackages [yxspkg]: Remove: archive file [/home/abi/fetcher/tmp/yxspkg-6.9.7-py3-none-any.whl.zip]
+[2023-07-20 12:54:36] INFO root fetch - processPackages [yxspkg]: Remove: archive file [/home/abi/fetcher/tmp/yxspkg-6.9.8-py3-none-any.whl.zip]
+[2023-07-20 12:54:36] INFO root fetch - main [MainThread]: End processing [yxspkg]: success
+[2023-07-20 12:54:36] INFO root fetch - processPackages [oarepo-cli]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-cli-11.1.8.tar.gz]
+[2023-07-20 12:54:36] INFO root fetch - processPackages [oarepo-cli]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-cli-11.1.9.tar.gz]
+[2023-07-20 12:54:36] INFO root fetch - main [MainThread]: End processing [oarepo-cli]: success
+[2023-07-20 12:54:36] INFO root fetch - processPackages [koheron]: Remove: archive file [/home/abi/fetcher/tmp/koheron-0.9.4.tar.gz]
+[2023-07-20 12:54:36] INFO root fetch - processPackages [koheron]: Remove: archive file [/home/abi/fetcher/tmp/koheron-0.9.5.tar.gz]
+[2023-07-20 12:54:36] INFO root fetch - main [MainThread]: End processing [koheron]: success
+[2023-07-20 12:54:37] INFO root fetch - processPackages [bagbag]: Remove: archive file [/home/abi/fetcher/tmp/bagbag-0.61.2.tar.gz]
+[2023-07-20 12:54:37] INFO root fetch - processPackages [bagbag]: Remove: archive file [/home/abi/fetcher/tmp/bagbag-0.61.3.tar.gz]
+[2023-07-20 12:54:37] INFO root fetch - main [MainThread]: End processing [bagbag]: success
+[2023-07-20 12:54:37] INFO root fetch - processPackages [fontmake]: Remove: archive file [/home/abi/fetcher/tmp/fontmake-3.6.0.zip]
+[2023-07-20 12:54:37] INFO root fetch - processPackages [fontmake]: Remove: archive file [/home/abi/fetcher/tmp/fontmake-3.6.1.zip]
+[2023-07-20 12:54:37] INFO root fetch - main [MainThread]: End processing [fontmake]: success
+[2023-07-20 12:54:37] INFO root fetch - main [MainThread]: Store serial: [18965345]
