@@ -17129,3 +17129,71 @@ AssertionError: tmp/verify4py-test-0.1.7.tar.gz does not exist
 [2023-07-20 19:13:30] INFO root fetch - processPackages [nevergrad]: Remove: archive file [/home/abi/fetcher/tmp/nevergrad-0.8.0.tar.gz]
 [2023-07-20 19:13:30] INFO root fetch - main [MainThread]: End processing [nevergrad]: success
 [2023-07-20 19:13:30] INFO root fetch - main [MainThread]: Store serial: [18970021]
+[2023-07-20 19:18:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18970021]
+[2023-07-20 19:18:40] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-20 19:18:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gammarer.aws-ec2-instance-connect-custom-resource
+[2023-07-20 19:18:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: llamaapi
+[2023-07-20 19:18:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: chainlit
+[2023-07-20 19:18:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: calitp-data-infra
+[2023-07-20 19:18:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: EnvisionRiskRaaS
+[2023-07-20 19:18:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: var-print
+[2023-07-20 19:18:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: fping-wrapper
+[2023-07-20 19:18:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: jdDesktopEntryEdit
+[2023-07-20 19:18:40] INFO root fetch - processPackages [llamaapi]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-20 19:18:40] INFO root fetch - processPackages [var-print]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-20 19:18:40] INFO root fetch - processPackages [calitp-data-infra]: New version: [2023.7.20.1] Old Version: [2023.7.20]
+[2023-07-20 19:18:40] INFO root fetch - processPackages [chainlit]: New version: [0.6.0] Old Version: [0.5.2]
+[2023-07-20 19:18:40] INFO root fetch - processPackages [jdDesktopEntryEdit]: New version: [1.2] Old Version: [1.1]
+[2023-07-20 19:18:40] WARNING root fetch - processPackages [fping-wrapper]: Skipping, unable to determine old version
+[2023-07-20 19:18:40] INFO root fetch - main [MainThread]: End processing [fping-wrapper] error
+[2023-07-20 19:18:40] INFO root fetch - processPackages [EnvisionRiskRaaS]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-07-20 19:18:40] INFO root fetch - processPackages [gammarer.aws-ec2-instance-connect-custom-resource]: New version: [0.4.3] Old Version: [0.4.2]
+[2023-07-20 19:18:40] INFO root fetch - processPackages [EnvisionRiskRaaS]: Downloading https://files.pythonhosted.org/packages/00/8c/38643952a5d68541a5b07d9c9d8bd2a1f21717b28300a5499c8a2b8a41e4/envisionriskraas-1.0.4.tar.gz
+[2023-07-20 19:18:40] INFO root fetch - processPackages [calitp-data-infra]: Downloading https://files.pythonhosted.org/packages/1d/48/0d3111ce2c9127061505c343900c59cd92d623731121e1d85fc1334784c6/calitp_data_infra-2023.7.20.tar.gz
+[2023-07-20 19:18:40] INFO root fetch - processPackages [llamaapi]: Downloading https://files.pythonhosted.org/packages/5c/9e/4ec9dfec121795318118d85b25299c1835dc8de151706f278ba58ab759e3/llamaapi-0.1.1.tar.gz
+[2023-07-20 19:18:40] INFO root fetch - processPackages [var-print]: Downloading https://files.pythonhosted.org/packages/11/46/3228853f7a24af6ac70c721b8423676f617f7a3e02afec7f1e28e217c3b5/var_print-0.0.5.tar.gz
+[2023-07-20 19:18:40] INFO root fetch - processPackages [jdDesktopEntryEdit]: Downloading https://files.pythonhosted.org/packages/7c/1b/11100eaeffcc8bffd585080cfd5801705e5ffdfa9f9b986044810f51d125/jdDesktopEntryEdit-1.1.tar.gz
+[2023-07-20 19:18:40] INFO root fetch - processPackages [chainlit]: Downloading https://files.pythonhosted.org/packages/11/9a/f674fb03e0e4f19341394d1ba559e568aa7898f4f1bf7e487933fd30f371/chainlit-0.5.2.tar.gz
+[2023-07-20 19:18:40] INFO root fetch - processPackages [gammarer.aws-ec2-instance-connect-custom-resource]: Downloading https://files.pythonhosted.org/packages/06/00/59fbfc1f2bf6e816c3939597e710adfa0dbb02c08f5d5bcb1945a63dfa79/gammarer.aws-ec2-instance-connect-custom-resource-0.4.3.tar.gz
+[2023-07-20 19:18:40] INFO root fetch - processPackages [EnvisionRiskRaaS]: Downloading https://files.pythonhosted.org/packages/1e/f8/8bd521e546c03a3da8553619ebb6d19789c4c33b8dc6fcd80a905ec31591/envisionriskraas-1.0.5.tar.gz
+[2023-07-20 19:18:40] INFO root fetch - processPackages [calitp-data-infra]: Downloading https://files.pythonhosted.org/packages/cb/9a/b870edd2ab13ea840e3d71e78ea811ff9ea9b13d5b530a45d3a0f7618816/calitp_data_infra-2023.7.20.1.tar.gz
+[2023-07-20 19:18:40] INFO root fetch - processPackages [llamaapi]: Downloading https://files.pythonhosted.org/packages/09/a4/d62cc98ac2ba7b5a83e88a1593b35e89b5a7537ed82b67f775ab351bb910/llamaapi-0.1.2.tar.gz
+[2023-07-20 19:18:40] INFO root fetch - processPackages [gammarer.aws-ec2-instance-connect-custom-resource]: executing diffoscope
+[2023-07-20 19:18:40] INFO root fetch - processPackages [gammarer.aws-ec2-instance-connect-custom-resource]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gammarer.aws-ec2-instance-connect-custom-resource-0.4.2.tar.gz tmp/gammarer.aws-ec2-instance-connect-custom-resource-0.4.3.tar.gz --markdown 20230720/g/gammarer.aws-ec2-instance-connect-custom-resource/0.4.2-0.4.3/diff.md --exclude *.pyd
+[2023-07-20 19:18:40] INFO root fetch - processPackages [EnvisionRiskRaaS]: executing diffoscope
+[2023-07-20 19:18:40] INFO root fetch - processPackages [EnvisionRiskRaaS]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/envisionriskraas-1.0.4.tar.gz tmp/envisionriskraas-1.0.5.tar.gz --markdown 20230720/E/EnvisionRiskRaaS/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-07-20 19:18:40] INFO root fetch - processPackages [calitp-data-infra]: executing diffoscope
+[2023-07-20 19:18:40] INFO root fetch - processPackages [calitp-data-infra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/calitp_data_infra-2023.7.20.tar.gz tmp/calitp_data_infra-2023.7.20.1.tar.gz --markdown 20230720/c/calitp-data-infra/2023.7.20-2023.7.20.1/diff.md --exclude *.pyd
+[2023-07-20 19:18:41] INFO root fetch - processPackages [llamaapi]: executing diffoscope
+[2023-07-20 19:18:41] INFO root fetch - processPackages [llamaapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llamaapi-0.1.1.tar.gz tmp/llamaapi-0.1.2.tar.gz --markdown 20230720/l/llamaapi/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-20 19:18:41] INFO root fetch - processPackages [var-print]: Downloading https://files.pythonhosted.org/packages/0c/1a/77333e5865c061c5270efa38a4c9e44deef1b94094d103cbd9e8da84dc55/var_print-0.0.6.tar.gz
+[2023-07-20 19:18:41] INFO root fetch - processPackages [jdDesktopEntryEdit]: Downloading https://files.pythonhosted.org/packages/bd/cb/8e32ef5c855e8f7f069fc1c85ca74fbe74ac8e814238c842b740e52a2fd6/jdDesktopEntryEdit-1.2.tar.gz
+[2023-07-20 19:18:41] INFO root fetch - processPackages [chainlit]: Downloading https://files.pythonhosted.org/packages/c6/b2/c0cc93c676ea86caaeb3108fb76b553d91b49545b8dace401afbf84fbf7e/chainlit-0.6.0.tar.gz
+[2023-07-20 19:18:41] INFO root fetch - processPackages [var-print]: executing diffoscope
+[2023-07-20 19:18:41] INFO root fetch - processPackages [var-print]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/var_print-0.0.5.tar.gz tmp/var_print-0.0.6.tar.gz --markdown 20230720/v/var-print/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-20 19:18:41] INFO root fetch - processPackages [jdDesktopEntryEdit]: executing diffoscope
+[2023-07-20 19:18:41] INFO root fetch - processPackages [jdDesktopEntryEdit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jdDesktopEntryEdit-1.1.tar.gz tmp/jdDesktopEntryEdit-1.2.tar.gz --markdown 20230720/j/jdDesktopEntryEdit/1.1-1.2/diff.md --exclude *.pyd
+[2023-07-20 19:18:41] INFO root fetch - processPackages [chainlit]: executing diffoscope
+[2023-07-20 19:18:41] INFO root fetch - processPackages [chainlit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chainlit-0.5.2.tar.gz tmp/chainlit-0.6.0.tar.gz --markdown 20230720/c/chainlit/0.5.2-0.6.0/diff.md --exclude *.pyd
+[2023-07-20 19:18:42] INFO root fetch - processPackages [gammarer.aws-ec2-instance-connect-custom-resource]: Remove: archive file [/home/abi/fetcher/tmp/gammarer.aws-ec2-instance-connect-custom-resource-0.4.2.tar.gz]
+[2023-07-20 19:18:42] INFO root fetch - processPackages [gammarer.aws-ec2-instance-connect-custom-resource]: Remove: archive file [/home/abi/fetcher/tmp/gammarer.aws-ec2-instance-connect-custom-resource-0.4.3.tar.gz]
+[2023-07-20 19:18:42] INFO root fetch - main [MainThread]: End processing [gammarer.aws-ec2-instance-connect-custom-resource]: success
+[2023-07-20 19:18:42] INFO root fetch - processPackages [calitp-data-infra]: Remove: archive file [/home/abi/fetcher/tmp/calitp_data_infra-2023.7.20.tar.gz]
+[2023-07-20 19:18:42] INFO root fetch - processPackages [calitp-data-infra]: Remove: archive file [/home/abi/fetcher/tmp/calitp_data_infra-2023.7.20.1.tar.gz]
+[2023-07-20 19:18:42] INFO root fetch - main [MainThread]: End processing [calitp-data-infra]: success
+[2023-07-20 19:18:42] INFO root fetch - processPackages [EnvisionRiskRaaS]: Remove: archive file [/home/abi/fetcher/tmp/envisionriskraas-1.0.4.tar.gz]
+[2023-07-20 19:18:42] INFO root fetch - processPackages [EnvisionRiskRaaS]: Remove: archive file [/home/abi/fetcher/tmp/envisionriskraas-1.0.5.tar.gz]
+[2023-07-20 19:18:42] INFO root fetch - main [MainThread]: End processing [EnvisionRiskRaaS]: success
+[2023-07-20 19:18:42] INFO root fetch - processPackages [llamaapi]: Remove: archive file [/home/abi/fetcher/tmp/llamaapi-0.1.1.tar.gz]
+[2023-07-20 19:18:42] INFO root fetch - processPackages [llamaapi]: Remove: archive file [/home/abi/fetcher/tmp/llamaapi-0.1.2.tar.gz]
+[2023-07-20 19:18:42] INFO root fetch - main [MainThread]: End processing [llamaapi]: success
+[2023-07-20 19:18:42] INFO root fetch - processPackages [var-print]: Remove: archive file [/home/abi/fetcher/tmp/var_print-0.0.5.tar.gz]
+[2023-07-20 19:18:42] INFO root fetch - processPackages [var-print]: Remove: archive file [/home/abi/fetcher/tmp/var_print-0.0.6.tar.gz]
+[2023-07-20 19:18:42] INFO root fetch - main [MainThread]: End processing [var-print]: success
+[2023-07-20 19:18:42] INFO root fetch - processPackages [jdDesktopEntryEdit]: Remove: archive file [/home/abi/fetcher/tmp/jdDesktopEntryEdit-1.1.tar.gz]
+[2023-07-20 19:18:42] INFO root fetch - processPackages [jdDesktopEntryEdit]: Remove: archive file [/home/abi/fetcher/tmp/jdDesktopEntryEdit-1.2.tar.gz]
+[2023-07-20 19:18:42] INFO root fetch - main [MainThread]: End processing [jdDesktopEntryEdit]: success
+[2023-07-20 19:18:55] INFO root fetch - processPackages [chainlit]: Remove: archive file [/home/abi/fetcher/tmp/chainlit-0.5.2.tar.gz]
+[2023-07-20 19:18:55] INFO root fetch - processPackages [chainlit]: Remove: archive file [/home/abi/fetcher/tmp/chainlit-0.6.0.tar.gz]
+[2023-07-20 19:18:55] INFO root fetch - main [MainThread]: End processing [chainlit]: success
+[2023-07-20 19:18:55] INFO root fetch - main [MainThread]: Store serial: [18970050]
