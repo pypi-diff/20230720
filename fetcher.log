@@ -23763,3 +23763,86 @@ AssertionError: tmp/threemystic_cloud_data_client-0.1.17.tar.gz does not exist
 [2023-07-20 22:47:57] INFO root fetch - processPackages [indico-plugin-piwik]: Remove: archive file [/home/abi/fetcher/tmp/indico_plugin_piwik-3.2.1-py3-none-any.whl.zip]
 [2023-07-20 22:47:57] INFO root fetch - main [MainThread]: End processing [indico-plugin-piwik]: success
 [2023-07-20 22:47:57] INFO root fetch - main [MainThread]: Store serial: [18972800]
+[2023-07-20 22:53:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18972800]
+[2023-07-20 22:53:09] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-20 22:53:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nautobot-api-sandbox
+[2023-07-20 22:53:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mec
+[2023-07-20 22:53:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: imagecolab01
+[2023-07-20 22:53:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: brickblock
+[2023-07-20 22:53:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: datamorph-airflow
+[2023-07-20 22:53:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: apillama
+[2023-07-20 22:53:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: rickled
+[2023-07-20 22:53:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: deepcellpredictor
+[2023-07-20 22:53:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: veetility
+[2023-07-20 22:53:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: prefect
+[2023-07-20 22:53:09] WARNING root fetch - processPackages [deepcellpredictor]: Skipping, unable to determine old version
+[2023-07-20 22:53:09] INFO root fetch - processPackages [deepcellpredictor]: Start processing: lightweight-charts
+[2023-07-20 22:53:09] INFO root fetch - main [MainThread]: End processing [deepcellpredictor] error
+[2023-07-20 22:53:09] INFO root fetch - processPackages [rickled]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-07-20 22:53:09] WARNING root fetch - processPackages [imagecolab01]: Skipping, unable to determine old version
+[2023-07-20 22:53:09] INFO root fetch - main [MainThread]: End processing [imagecolab01] error
+[2023-07-20 22:53:09] INFO root fetch - processPackages [datamorph-airflow]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-20 22:53:09] INFO root fetch - processPackages [nautobot-api-sandbox]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-20 22:53:09] INFO root fetch - processPackages [mec]: New version: [0.0.1.1] Old Version: [0.0.1]
+[2023-07-20 22:53:09] WARNING root fetch - processPackages [apillama]: Skipping, unable to determine old version
+[2023-07-20 22:53:09] INFO root fetch - main [MainThread]: End processing [apillama] error
+[2023-07-20 22:53:09] INFO root fetch - processPackages [brickblock]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-07-20 22:53:09] INFO root fetch - processPackages [veetility]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-07-20 22:53:09] INFO root fetch - processPackages [lightweight-charts]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-20 22:53:09] INFO root fetch - processPackages [prefect]: New version: [2.9.0] Old Version: [2.82]
+[2023-07-20 22:53:09] INFO root fetch - processPackages [nautobot-api-sandbox]: Downloading https://files.pythonhosted.org/packages/fb/d7/3c63eecc44489615c7b3848957158a6c2294526746a2bd0965a7a1517cd0/nautobot_api_sandbox-0.1.1.tar.gz
+[2023-07-20 22:53:09] INFO root fetch - processPackages [veetility]: Downloading https://files.pythonhosted.org/packages/b4/6c/d6775912e1f4b22333ed3a4fee91721e0069b8797ba5c31097f91a3135d6/veetility-0.1.98.tar.gz
+[2023-07-20 22:53:09] INFO root fetch - processPackages [rickled]: Downloading https://files.pythonhosted.org/packages/60/8e/b6a25843dc70ce50bcb90dd1dfcf011a2b982f4fad854a95f8f11daf771f/rickled-0.3.2.tar.gz
+[2023-07-20 22:53:09] INFO root fetch - processPackages [datamorph-airflow]: Downloading https://files.pythonhosted.org/packages/59/4d/c3dced18864c4aedf5ad119c9bad76da645fb5cae9f9b05d9a754d72a223/datamorph-airflow-0.0.8.tar.gz
+[2023-07-20 22:53:10] INFO root fetch - processPackages [mec]: Downloading https://files.pythonhosted.org/packages/17/49/a0ede4c76fb90505add8c1bb2157a89ec0c6bed641ef55f971436299836a/mec-0.0.1.tar.gz
+[2023-07-20 22:53:10] INFO root fetch - processPackages [lightweight-charts]: Downloading https://files.pythonhosted.org/packages/89/47/c4ba1db5b863a175467d66e743b117aff7b293975b8c1494abdafb760b45/lightweight_charts-1.0.8.tar.gz
+[2023-07-20 22:53:10] INFO root fetch - processPackages [prefect]: Downloading https://files.pythonhosted.org/packages/20/bd/9580e89a911969805904dd984258f2250f96726fbb91373970a41c36aab3/prefect-2.82.tar.gz
+[2023-07-20 22:53:10] INFO root fetch - processPackages [brickblock]: Downloading https://files.pythonhosted.org/packages/5c/b1/9259d1230f05e4f981da3f789afcade302eaeaba5b89217a1f03691ca8a0/brickblock-0.1.5.tar.gz
+[2023-07-20 22:53:10] INFO root fetch - processPackages [veetility]: Downloading https://files.pythonhosted.org/packages/a0/4f/eb1359196e4e216d1ccfde231e462db3887b8a191ac90d104f3b45fa4169/veetility-0.1.99.tar.gz
+[2023-07-20 22:53:10] INFO root fetch - processPackages [brickblock]: executing diffoscope
+[2023-07-20 22:53:10] INFO root fetch - processPackages [brickblock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/brickblock-0.1.4.tar.gz tmp/brickblock-0.1.5.tar.gz --markdown 20230720/b/brickblock/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-07-20 22:53:10] INFO root fetch - processPackages [nautobot-api-sandbox]: Downloading https://files.pythonhosted.org/packages/05/40/0a65a61a60db0cc61e3bd3b7766a5b5d31bc3ffc187128eec382bcf0e0b5/nautobot_api_sandbox-0.1.2.tar.gz
+[2023-07-20 22:53:10] INFO root fetch - processPackages [veetility]: executing diffoscope
+[2023-07-20 22:53:10] INFO root fetch - processPackages [veetility]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/veetility-0.1.98.tar.gz tmp/veetility-0.1.99.tar.gz --markdown 20230720/v/veetility/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-07-20 22:53:10] INFO root fetch - processPackages [nautobot-api-sandbox]: executing diffoscope
+[2023-07-20 22:53:10] INFO root fetch - processPackages [nautobot-api-sandbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nautobot_api_sandbox-0.1.1.tar.gz tmp/nautobot_api_sandbox-0.1.2.tar.gz --markdown 20230720/n/nautobot-api-sandbox/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-20 22:53:10] INFO root fetch - processPackages [rickled]: Downloading https://files.pythonhosted.org/packages/c8/07/0a3621d783650b173a4d54d42e1e2d6b981435e14c9880b473ceffd8ddbe/rickled-0.3.3.tar.gz
+[2023-07-20 22:53:10] INFO root fetch - processPackages [mec]: Downloading https://files.pythonhosted.org/packages/d7/d5/62da07f807dbb1329bfe538c783900b47a4a5e7db023e38dafd1c8963f5e/mec-0.0.1.1.tar.gz
+[2023-07-20 22:53:10] INFO root fetch - processPackages [rickled]: executing diffoscope
+[2023-07-20 22:53:10] INFO root fetch - processPackages [rickled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rickled-0.3.2.tar.gz tmp/rickled-0.3.3.tar.gz --markdown 20230720/r/rickled/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-07-20 22:53:10] INFO root fetch - processPackages [lightweight-charts]: Downloading https://files.pythonhosted.org/packages/cf/d4/9663fbc09e849ab1b6fd51555de471f4d107dde6cb568043398b7376aeee/lightweight_charts-1.0.9.tar.gz
+[2023-07-20 22:53:10] INFO root fetch - processPackages [mec]: executing diffoscope
+[2023-07-20 22:53:10] INFO root fetch - processPackages [mec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mec-0.0.1.tar.gz tmp/mec-0.0.1.1.tar.gz --markdown 20230720/m/mec/0.0.1-0.0.1.1/diff.md --exclude *.pyd
+[2023-07-20 22:53:10] INFO root fetch - processPackages [datamorph-airflow]: Downloading https://files.pythonhosted.org/packages/d6/cc/1166b410c837b95fb511c395addcef726790ddba91c635d807935681f0c5/datamorph-airflow-0.0.9.tar.gz
+[2023-07-20 22:53:10] INFO root fetch - processPackages [lightweight-charts]: executing diffoscope
+[2023-07-20 22:53:10] INFO root fetch - processPackages [lightweight-charts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lightweight_charts-1.0.8.tar.gz tmp/lightweight_charts-1.0.9.tar.gz --markdown 20230720/l/lightweight-charts/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-20 22:53:11] INFO root fetch - processPackages [prefect]: Downloading https://files.pythonhosted.org/packages/52/49/e4a42ea984b987b634f492725a5484b96da5a97fda925a3d37ff0821ecae/prefect-2.9.0.tar.gz
+[2023-07-20 22:53:11] INFO root fetch - processPackages [datamorph-airflow]: executing diffoscope
+[2023-07-20 22:53:11] INFO root fetch - processPackages [datamorph-airflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datamorph-airflow-0.0.8.tar.gz tmp/datamorph-airflow-0.0.9.tar.gz --markdown 20230720/d/datamorph-airflow/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-20 22:53:11] INFO root fetch - processPackages [brickblock]: Remove: archive file [/home/abi/fetcher/tmp/brickblock-0.1.4.tar.gz]
+[2023-07-20 22:53:11] INFO root fetch - processPackages [brickblock]: Remove: archive file [/home/abi/fetcher/tmp/brickblock-0.1.5.tar.gz]
+[2023-07-20 22:53:11] INFO root fetch - main [MainThread]: End processing [brickblock]: success
+[2023-07-20 22:53:11] INFO root fetch - processPackages [nautobot-api-sandbox]: Remove: archive file [/home/abi/fetcher/tmp/nautobot_api_sandbox-0.1.1.tar.gz]
+[2023-07-20 22:53:11] INFO root fetch - processPackages [nautobot-api-sandbox]: Remove: archive file [/home/abi/fetcher/tmp/nautobot_api_sandbox-0.1.2.tar.gz]
+[2023-07-20 22:53:11] INFO root fetch - main [MainThread]: End processing [nautobot-api-sandbox]: success
+[2023-07-20 22:53:11] INFO root fetch - processPackages [veetility]: Remove: archive file [/home/abi/fetcher/tmp/veetility-0.1.98.tar.gz]
+[2023-07-20 22:53:11] INFO root fetch - processPackages [veetility]: Remove: archive file [/home/abi/fetcher/tmp/veetility-0.1.99.tar.gz]
+[2023-07-20 22:53:11] INFO root fetch - main [MainThread]: End processing [veetility]: success
+[2023-07-20 22:53:11] INFO root fetch - processPackages [mec]: Remove: archive file [/home/abi/fetcher/tmp/mec-0.0.1.tar.gz]
+[2023-07-20 22:53:11] INFO root fetch - processPackages [mec]: Remove: archive file [/home/abi/fetcher/tmp/mec-0.0.1.1.tar.gz]
+[2023-07-20 22:53:11] INFO root fetch - main [MainThread]: End processing [mec]: success
+[2023-07-20 22:53:11] INFO root fetch - processPackages [rickled]: Remove: archive file [/home/abi/fetcher/tmp/rickled-0.3.2.tar.gz]
+[2023-07-20 22:53:11] INFO root fetch - processPackages [rickled]: Remove: archive file [/home/abi/fetcher/tmp/rickled-0.3.3.tar.gz]
+[2023-07-20 22:53:11] INFO root fetch - main [MainThread]: End processing [rickled]: success
+[2023-07-20 22:53:11] INFO root fetch - processPackages [lightweight-charts]: Remove: archive file [/home/abi/fetcher/tmp/lightweight_charts-1.0.8.tar.gz]
+[2023-07-20 22:53:11] INFO root fetch - processPackages [lightweight-charts]: Remove: archive file [/home/abi/fetcher/tmp/lightweight_charts-1.0.9.tar.gz]
+[2023-07-20 22:53:11] INFO root fetch - main [MainThread]: End processing [lightweight-charts]: success
+[2023-07-20 22:53:12] INFO root fetch - processPackages [prefect]: executing diffoscope
+[2023-07-20 22:53:12] INFO root fetch - processPackages [prefect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prefect-2.82.tar.gz tmp/prefect-2.9.0.tar.gz --markdown 20230720/p/prefect/2.82-2.9.0/diff.md --exclude *.pyd
+[2023-07-20 22:53:12] INFO root fetch - processPackages [datamorph-airflow]: Remove: archive file [/home/abi/fetcher/tmp/datamorph-airflow-0.0.8.tar.gz]
+[2023-07-20 22:53:12] INFO root fetch - processPackages [datamorph-airflow]: Remove: archive file [/home/abi/fetcher/tmp/datamorph-airflow-0.0.9.tar.gz]
+[2023-07-20 22:53:12] INFO root fetch - main [MainThread]: End processing [datamorph-airflow]: success
+[2023-07-20 22:53:19] INFO root fetch - processPackages [prefect]: Remove: archive file [/home/abi/fetcher/tmp/prefect-2.82.tar.gz]
+[2023-07-20 22:53:19] INFO root fetch - processPackages [prefect]: Remove: archive file [/home/abi/fetcher/tmp/prefect-2.9.0.tar.gz]
+[2023-07-20 22:53:19] INFO root fetch - main [MainThread]: End processing [prefect]: success
+[2023-07-20 22:53:19] INFO root fetch - main [MainThread]: Store serial: [18972848]
