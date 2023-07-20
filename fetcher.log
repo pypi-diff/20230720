@@ -22106,3 +22106,239 @@ AssertionError: tmp/threemystic_cloud_data_client-0.1.17.tar.gz does not exist
 [2023-07-20 21:52:58] INFO root fetch - processPackages [assemblyline-v4-service]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_v4_service-4.4.1.dev99-py3-none-any.whl.zip]
 [2023-07-20 21:52:58] INFO root fetch - main [MainThread]: End processing [assemblyline-v4-service]: success
 [2023-07-20 21:52:58] INFO root fetch - main [MainThread]: Store serial: [18972151]
+[2023-07-20 21:58:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18972151]
+[2023-07-20 21:58:07] INFO root fetch - main [MainThread]: Found 27 changed packages
+[2023-07-20 21:58:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: seqpro
+[2023-07-20 21:58:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: caikit
+[2023-07-20 21:58:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mypy-boto3-connectcases
+[2023-07-20 21:58:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mypy-boto3-s3
+[2023-07-20 21:58:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: imcsdk-ecoen66
+[2023-07-20 21:58:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: investos
+[2023-07-20 21:58:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: syncticketstoclickup
+[2023-07-20 21:58:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyft
+[2023-07-20 21:58:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: coderedcms
+[2023-07-20 21:58:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cfstack
+[2023-07-20 21:58:07] INFO root fetch - processPackages [syncticketstoclickup]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-07-20 21:58:07] INFO root fetch - processPackages [coderedcms]: New version: [2.1.4] Old Version: [2.1.3]
+[2023-07-20 21:58:07] INFO root fetch - processPackages [caikit]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-07-20 21:58:07] INFO root fetch - processPackages [mypy-boto3-connectcases]: New version: [1.28.8] Old Version: [1.28.0]
+[2023-07-20 21:58:07] INFO root fetch - processPackages [pyft]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-20 21:58:07] INFO root fetch - processPackages [seqpro]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-20 21:58:07] INFO root fetch - processPackages [cfstack]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-07-20 21:58:07] INFO root fetch - processPackages [investos]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-07-20 21:58:07] INFO root fetch - processPackages [imcsdk-ecoen66]: New version: [0.9.20] Old Version: [0.9.19]
+[2023-07-20 21:58:07] INFO root fetch - processPackages [mypy-boto3-s3]: New version: [1.28.8] Old Version: [1.28.3.post2]
+[2023-07-20 21:58:07] INFO root fetch - processPackages [pyft]: Downloading https://files.pythonhosted.org/packages/cb/27/9e42da52a20d9b691ef37a8828764cd904af507b9107a386d55614566304/pyft-0.1.1-cp310-cp310-macosx_10_7_x86_64.whl
+[2023-07-20 21:58:07] INFO root fetch - processPackages [investos]: Downloading https://files.pythonhosted.org/packages/10/3f/039407d48dc2a0301da3e897cd8ff7293d1add4c4fd988cfa5908df7dbab/investos-0.1.4.tar.gz
+[2023-07-20 21:58:07] INFO root fetch - processPackages [cfstack]: Downloading https://files.pythonhosted.org/packages/ec/c3/66de688160119e3dfdab6babc3a64bab6ace0e4ddf97478fd8de6470fd3d/cfstack-1.1.1.tar.gz
+[2023-07-20 21:58:07] INFO root fetch - processPackages [caikit]: Downloading https://files.pythonhosted.org/packages/e2/64/eb5a4e4c43b7c18533482debb3623aa0d86cc59d03ae98e99c75208feaa4/caikit-0.9.3.tar.gz
+[2023-07-20 21:58:07] INFO root fetch - processPackages [coderedcms]: Downloading https://files.pythonhosted.org/packages/93/8a/0f392078c50e59498c18450642535347a0c7be7fab163cade3499e5c99c6/coderedcms-2.1.3.tar.gz
+[2023-07-20 21:58:07] INFO root fetch - processPackages [syncticketstoclickup]: Downloading https://files.pythonhosted.org/packages/1e/61/21f13eab0361b58e82b780a8eebf57897cd2e2a72e045209439a44da1c99/syncticketstoclickup-1.0.2.tar.gz
+[2023-07-20 21:58:07] INFO root fetch - processPackages [mypy-boto3-s3]: Downloading https://files.pythonhosted.org/packages/8f/f6/f13931886901b628fa85f3472ce67449a92bf5e3d30f5f4e22e5e58d2ed9/mypy-boto3-s3-1.28.3.post2.tar.gz
+[2023-07-20 21:58:07] INFO root fetch - processPackages [seqpro]: Downloading https://files.pythonhosted.org/packages/dc/23/85462aa48760f51d4791b2c24e79aed043fe686b7b5a7534bd5739ec7c04/seqpro-0.1.2.tar.gz
+[2023-07-20 21:58:07] INFO root fetch - processPackages [imcsdk-ecoen66]: Downloading https://files.pythonhosted.org/packages/21/a5/babb8e2421e62c520f86728eb80a9d79b4a889b496fb8125cebc84e3423a/imcsdk_ecoen66-0.9.19.tar.gz
+[2023-07-20 21:58:07] INFO root fetch - processPackages [mypy-boto3-connectcases]: Downloading https://files.pythonhosted.org/packages/e1/08/6100e030647ffe0de69bbc35e2b2f3cf3a684a95cf8ffe372f859cfd79f2/mypy-boto3-connectcases-1.28.0.tar.gz
+[2023-07-20 21:58:08] INFO root fetch - processPackages [investos]: Downloading https://files.pythonhosted.org/packages/da/f2/588f3f03f8f2d7f38d92f32d4041c70e0fa9fd494b47ab0a946b0c9715a3/investos-0.1.5.tar.gz
+[2023-07-20 21:58:08] INFO root fetch - processPackages [cfstack]: Downloading https://files.pythonhosted.org/packages/01/4f/6f1b59ca22e530e9a69e7cb09c828d1dc9e2c3101c51ef923d7bed5a36c4/cfstack-1.1.2.tar.gz
+[2023-07-20 21:58:08] INFO root fetch - processPackages [seqpro]: Downloading https://files.pythonhosted.org/packages/f8/b3/183e5264a4b76674b51b364c2195f7cf1cd59cd616c28c788fd72268f29f/seqpro-0.1.3.tar.gz
+[2023-07-20 21:58:08] INFO root fetch - processPackages [pyft]: Downloading https://files.pythonhosted.org/packages/0a/0b/139d65d937bc185b68d3eff484ce5c3ca5e3bfc3150b2020d0b604b64d66/pyft-0.1.2.tar.gz
+[2023-07-20 21:58:08] INFO root fetch - processPackages [syncticketstoclickup]: Downloading https://files.pythonhosted.org/packages/78/46/eb4305f30a1bb7660145ca801c32055135dff8dd6991879910b611a4f39c/syncticketstoclickup-1.0.3.tar.gz
+[2023-07-20 21:58:08] INFO root fetch - processPackages [mypy-boto3-s3]: Downloading https://files.pythonhosted.org/packages/dc/49/96ee9487b67d265eae32f21910416bc65d0827cd24831eb64812596202ca/mypy-boto3-s3-1.28.8.tar.gz
+[2023-07-20 21:58:08] INFO root fetch - processPackages [investos]: executing diffoscope
+[2023-07-20 21:58:08] INFO root fetch - processPackages [investos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/investos-0.1.4.tar.gz tmp/investos-0.1.5.tar.gz --markdown 20230720/i/investos/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-07-20 21:58:08] INFO root fetch - processPackages [imcsdk-ecoen66]: Downloading https://files.pythonhosted.org/packages/a7/3c/7f0470736a75418c465bd87545acf4d9ece2deb6e2c816ddde8ed622f1dc/imcsdk_ecoen66-0.9.20.tar.gz
+[2023-07-20 21:58:08] INFO root fetch - processPackages [caikit]: Downloading https://files.pythonhosted.org/packages/1d/9c/5ee666bbd25d2499e43903b58fd64c37feba1404ab96c754cb4d50439bee/caikit-0.9.4.tar.gz
+[2023-07-20 21:58:08] INFO root fetch - processPackages [cfstack]: executing diffoscope
+[2023-07-20 21:58:08] INFO root fetch - processPackages [cfstack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cfstack-1.1.1.tar.gz tmp/cfstack-1.1.2.tar.gz --markdown 20230720/c/cfstack/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-07-20 21:58:08] INFO root fetch - processPackages [seqpro]: executing diffoscope
+[2023-07-20 21:58:08] INFO root fetch - processPackages [seqpro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seqpro-0.1.2.tar.gz tmp/seqpro-0.1.3.tar.gz --markdown 20230720/s/seqpro/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-20 21:58:08] INFO root fetch - processPackages [mypy-boto3-connectcases]: Downloading https://files.pythonhosted.org/packages/fb/c3/66f82fb5b6241595864d6d573fd83f845af73b324447fb50a6eb62969161/mypy-boto3-connectcases-1.28.8.tar.gz
+[2023-07-20 21:58:08] INFO root fetch - processPackages [coderedcms]: Downloading https://files.pythonhosted.org/packages/bd/d1/bff39e3c8ba90b934b21e0c02f40e0bad2b2ef2c700e53a2d4c60ef473a8/coderedcms-2.1.4.tar.gz
+[2023-07-20 21:58:08] INFO root fetch - processPackages [syncticketstoclickup]: executing diffoscope
+[2023-07-20 21:58:08] INFO root fetch - processPackages [syncticketstoclickup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syncticketstoclickup-1.0.2.tar.gz tmp/syncticketstoclickup-1.0.3.tar.gz --markdown 20230720/s/syncticketstoclickup/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-07-20 21:58:08] INFO root fetch - processPackages [mypy-boto3-s3]: executing diffoscope
+[2023-07-20 21:58:08] INFO root fetch - processPackages [mypy-boto3-s3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mypy-boto3-s3-1.28.3.post2.tar.gz tmp/mypy-boto3-s3-1.28.8.tar.gz --markdown 20230720/m/mypy-boto3-s3/1.28.3.post2-1.28.8/diff.md --exclude *.pyd
+[2023-07-20 21:58:08] INFO root fetch - processPackages [caikit]: executing diffoscope
+[2023-07-20 21:58:08] INFO root fetch - processPackages [caikit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/caikit-0.9.3.tar.gz tmp/caikit-0.9.4.tar.gz --markdown 20230720/c/caikit/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-07-20 21:58:08] INFO root fetch - processPackages [imcsdk-ecoen66]: executing diffoscope
+[2023-07-20 21:58:08] INFO root fetch - processPackages [imcsdk-ecoen66]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imcsdk_ecoen66-0.9.19.tar.gz tmp/imcsdk_ecoen66-0.9.20.tar.gz --markdown 20230720/i/imcsdk-ecoen66/0.9.19-0.9.20/diff.md --exclude *.pyd
+[2023-07-20 21:58:08] INFO root fetch - processPackages [mypy-boto3-connectcases]: executing diffoscope
+[2023-07-20 21:58:08] INFO root fetch - processPackages [mypy-boto3-connectcases]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mypy-boto3-connectcases-1.28.0.tar.gz tmp/mypy-boto3-connectcases-1.28.8.tar.gz --markdown 20230720/m/mypy-boto3-connectcases/1.28.0-1.28.8/diff.md --exclude *.pyd
+[2023-07-20 21:58:08] INFO root fetch - processPackages [coderedcms]: executing diffoscope
+[2023-07-20 21:58:08] INFO root fetch - processPackages [coderedcms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coderedcms-2.1.3.tar.gz tmp/coderedcms-2.1.4.tar.gz --markdown 20230720/c/coderedcms/2.1.3-2.1.4/diff.md --exclude *.pyd
+[2023-07-20 21:58:08] INFO root fetch - processPackages [pyft]: executing diffoscope
+[2023-07-20 21:58:08] INFO root fetch - processPackages [pyft]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyft-0.1.1-cp310-cp310-macosx_10_7_x86_64.whl.zip tmp/pyft-0.1.2.tar.gz --markdown 20230720/p/pyft/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-20 21:58:10] INFO root fetch - processPackages [cfstack]: Remove: archive file [/home/abi/fetcher/tmp/cfstack-1.1.1.tar.gz]
+[2023-07-20 21:58:10] INFO root fetch - processPackages [cfstack]: Remove: archive file [/home/abi/fetcher/tmp/cfstack-1.1.2.tar.gz]
+[2023-07-20 21:58:10] INFO root fetch - processPackages [cfstack]: Start processing: adsbcot
+[2023-07-20 21:58:10] INFO root fetch - main [MainThread]: End processing [cfstack]: success
+[2023-07-20 21:58:10] INFO root fetch - processPackages [adsbcot]: New version: [6.1.0] Old Version: [6.0.0]
+[2023-07-20 21:58:10] INFO root fetch - processPackages [seqpro]: Remove: archive file [/home/abi/fetcher/tmp/seqpro-0.1.2.tar.gz]
+[2023-07-20 21:58:10] INFO root fetch - processPackages [seqpro]: Remove: archive file [/home/abi/fetcher/tmp/seqpro-0.1.3.tar.gz]
+[2023-07-20 21:58:10] INFO root fetch - processPackages [seqpro]: Start processing: motifdata
+[2023-07-20 21:58:10] INFO root fetch - main [MainThread]: End processing [seqpro]: success
+[2023-07-20 21:58:10] INFO root fetch - processPackages [motifdata]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-20 21:58:10] INFO root fetch - processPackages [syncticketstoclickup]: Remove: archive file [/home/abi/fetcher/tmp/syncticketstoclickup-1.0.2.tar.gz]
+[2023-07-20 21:58:10] INFO root fetch - processPackages [syncticketstoclickup]: Remove: archive file [/home/abi/fetcher/tmp/syncticketstoclickup-1.0.3.tar.gz]
+[2023-07-20 21:58:10] INFO root fetch - processPackages [syncticketstoclickup]: Start processing: cMahQPjxLQKD
+[2023-07-20 21:58:10] INFO root fetch - main [MainThread]: End processing [syncticketstoclickup]: success
+[2023-07-20 21:58:10] INFO root fetch - processPackages [investos]: Remove: archive file [/home/abi/fetcher/tmp/investos-0.1.4.tar.gz]
+[2023-07-20 21:58:10] INFO root fetch - processPackages [investos]: Remove: archive file [/home/abi/fetcher/tmp/investos-0.1.5.tar.gz]
+[2023-07-20 21:58:10] INFO root fetch - processPackages [investos]: Start processing: roblox-pyc
+[2023-07-20 21:58:10] INFO root fetch - main [MainThread]: End processing [investos]: success
+[2023-07-20 21:58:10] INFO root fetch - processPackages [motifdata]: Downloading https://files.pythonhosted.org/packages/d3/d7/bb90ee12fb593c10f41933cd2e0b1824a2938317165242116e7b0c1724bc/motifdata-0.1.1.tar.gz
+[2023-07-20 21:58:10] INFO root fetch - processPackages [adsbcot]: Downloading https://files.pythonhosted.org/packages/55/0f/ee65c7d804045577524ea7b9958a156aeca1b9bb84fb3f11336cbce016b4/adsbcot-6.0.0.tar.gz
+[2023-07-20 21:58:10] INFO root fetch - processPackages [roblox-pyc]: New version: [1.6.6.5a0] Old Version: [1.6.6.5.4]
+[2023-07-20 21:58:10] WARNING root fetch - processPackages [cMahQPjxLQKD]: Skipping, unable to determine old version
+[2023-07-20 21:58:10] INFO root fetch - processPackages [cMahQPjxLQKD]: Start processing: openpolicedata
+[2023-07-20 21:58:10] INFO root fetch - main [MainThread]: End processing [cMahQPjxLQKD] error
+[2023-07-20 21:58:10] INFO root fetch - processPackages [openpolicedata]: New version: [0.5.6] Old Version: [0.5.5]
+[2023-07-20 21:58:10] INFO root fetch - processPackages [roblox-pyc]: Downloading https://files.pythonhosted.org/packages/44/ab/2c1167a2d328570fcff41305068766f10c181301f2cd7a1f64f72287fa27/roblox-pyc-1.6.6.5.4.tar.gz
+[2023-07-20 21:58:10] INFO root fetch - processPackages [mypy-boto3-connectcases]: Remove: archive file [/home/abi/fetcher/tmp/mypy-boto3-connectcases-1.28.0.tar.gz]
+[2023-07-20 21:58:10] INFO root fetch - processPackages [mypy-boto3-connectcases]: Remove: archive file [/home/abi/fetcher/tmp/mypy-boto3-connectcases-1.28.8.tar.gz]
+[2023-07-20 21:58:10] INFO root fetch - processPackages [mypy-boto3-connectcases]: Start processing: hassfeld
+[2023-07-20 21:58:10] INFO root fetch - main [MainThread]: End processing [mypy-boto3-connectcases]: success
+[2023-07-20 21:58:10] INFO root fetch - processPackages [hassfeld]: New version: [0.3.9a1] Old Version: [0.3.8a1]
+[2023-07-20 21:58:10] INFO root fetch - processPackages [openpolicedata]: Downloading https://files.pythonhosted.org/packages/5c/94/4f84ed5d4efb0bc6fcc74a5404b403e2a8a42d863292974fb307e84e76c2/openpolicedata-0.5.5.tar.gz
+[2023-07-20 21:58:10] INFO root fetch - processPackages [adsbcot]: Downloading https://files.pythonhosted.org/packages/fb/41/03db73a95e14cc755e4748e4cec4518f5a6c57fb14fcb4a9078dd89bdd67/adsbcot-6.1.0.tar.gz
+[2023-07-20 21:58:10] INFO root fetch - processPackages [mypy-boto3-s3]: Remove: archive file [/home/abi/fetcher/tmp/mypy-boto3-s3-1.28.3.post2.tar.gz]
+[2023-07-20 21:58:10] INFO root fetch - processPackages [motifdata]: Downloading https://files.pythonhosted.org/packages/45/d7/2e4c2e5dcd4d65591083532fee2edde654ed8f8caf1b68411c69f2fb590b/motifdata-0.1.2.tar.gz
+[2023-07-20 21:58:10] INFO root fetch - processPackages [mypy-boto3-s3]: Remove: archive file [/home/abi/fetcher/tmp/mypy-boto3-s3-1.28.8.tar.gz]
+[2023-07-20 21:58:10] INFO root fetch - processPackages [mypy-boto3-s3]: Start processing: oking
+[2023-07-20 21:58:10] INFO root fetch - main [MainThread]: End processing [mypy-boto3-s3]: success
+[2023-07-20 21:58:10] INFO root fetch - processPackages [roblox-pyc]: Downloading https://files.pythonhosted.org/packages/59/75/7884ffaab86bf051065880fd8aefdfc8e3f2c34e7c9d4a8d352321ec57f8/roblox-pyc-1.6.6.5a0.tar.gz
+[2023-07-20 21:58:10] INFO root fetch - processPackages [oking]: New version: [4.1.211] Old Version: [4.1.210]
+[2023-07-20 21:58:10] INFO root fetch - processPackages [hassfeld]: Downloading https://files.pythonhosted.org/packages/66/fd/fbd8e0a077b19f27446b9f404ee0630e10e9622df598b6027f7349fa4625/hassfeld-0.3.8a1.tar.gz
+[2023-07-20 21:58:10] INFO root fetch - processPackages [adsbcot]: executing diffoscope
+[2023-07-20 21:58:10] INFO root fetch - processPackages [adsbcot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adsbcot-6.0.0.tar.gz tmp/adsbcot-6.1.0.tar.gz --markdown 20230720/a/adsbcot/6.0.0-6.1.0/diff.md --exclude *.pyd
+[2023-07-20 21:58:11] INFO root fetch - processPackages [roblox-pyc]: executing diffoscope
+[2023-07-20 21:58:11] INFO root fetch - processPackages [roblox-pyc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/roblox-pyc-1.6.6.5.4.tar.gz tmp/roblox-pyc-1.6.6.5a0.tar.gz --markdown 20230720/r/roblox-pyc/1.6.6.5.4-1.6.6.5a0/diff.md --exclude *.pyd
+[2023-07-20 21:58:11] INFO root fetch - processPackages [motifdata]: executing diffoscope
+[2023-07-20 21:58:11] INFO root fetch - processPackages [motifdata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/motifdata-0.1.1.tar.gz tmp/motifdata-0.1.2.tar.gz --markdown 20230720/m/motifdata/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-20 21:58:11] INFO root fetch - processPackages [oking]: Downloading https://files.pythonhosted.org/packages/1b/60/9e341c06e10c577b991abfe49ce1e9a66357fde2f51dfc70f9e3d2da6768/oking-4.1.210.tar.gz
+[2023-07-20 21:58:11] WARNING root fetch - processPackages [oking]: Skipping package: exceeds size limit 82503073>=10485760
+[2023-07-20 21:58:11] INFO root fetch - processPackages [oking]: Start processing: xiaomi-ble
+[2023-07-20 21:58:11] INFO root fetch - main [MainThread]: End processing [oking] error
+[2023-07-20 21:58:11] INFO root fetch - processPackages [openpolicedata]: Downloading https://files.pythonhosted.org/packages/77/c8/57e94120315c04d9ad83a0f3d7fac6bb823142a0495b5039413aea3d9c70/openpolicedata-0.5.6.tar.gz
+[2023-07-20 21:58:11] INFO root fetch - processPackages [xiaomi-ble]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-07-20 21:58:11] INFO root fetch - processPackages [xiaomi-ble]: Downloading https://files.pythonhosted.org/packages/88/f2/12299e377e2573298346c8b5aafba862a8dc6ee519042614a545dd7681ec/xiaomi-ble-0.9.2.tar.gz
+[2023-07-20 21:58:11] INFO root fetch - processPackages [openpolicedata]: executing diffoscope
+[2023-07-20 21:58:11] INFO root fetch - processPackages [openpolicedata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openpolicedata-0.5.5.tar.gz tmp/openpolicedata-0.5.6.tar.gz --markdown 20230720/o/openpolicedata/0.5.5-0.5.6/diff.md --exclude *.pyd
+[2023-07-20 21:58:11] INFO root fetch - processPackages [hassfeld]: Downloading https://files.pythonhosted.org/packages/f1/0a/45cd6e93141b1803bbf3553160db58082b92c9732f824e8f4dedaf59654c/hassfeld-0.3.9a1.tar.gz
+[2023-07-20 21:58:11] INFO root fetch - processPackages [xiaomi-ble]: Downloading https://files.pythonhosted.org/packages/f6/49/a91b790de545fe1a61c57fb016733518e3c312802b3ec64610f44c81ee11/xiaomi-ble-0.9.3.tar.gz
+[2023-07-20 21:58:11] INFO root fetch - processPackages [hassfeld]: executing diffoscope
+[2023-07-20 21:58:11] INFO root fetch - processPackages [hassfeld]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hassfeld-0.3.8a1.tar.gz tmp/hassfeld-0.3.9a1.tar.gz --markdown 20230720/h/hassfeld/0.3.8a1-0.3.9a1/diff.md --exclude *.pyd
+[2023-07-20 21:58:11] INFO root fetch - processPackages [xiaomi-ble]: executing diffoscope
+[2023-07-20 21:58:11] INFO root fetch - processPackages [xiaomi-ble]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xiaomi-ble-0.9.2.tar.gz tmp/xiaomi-ble-0.9.3.tar.gz --markdown 20230720/x/xiaomi-ble/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-07-20 21:58:12] INFO root fetch - processPackages [adsbcot]: Remove: archive file [/home/abi/fetcher/tmp/adsbcot-6.0.0.tar.gz]
+[2023-07-20 21:58:12] INFO root fetch - processPackages [adsbcot]: Remove: archive file [/home/abi/fetcher/tmp/adsbcot-6.1.0.tar.gz]
+[2023-07-20 21:58:12] INFO root fetch - processPackages [adsbcot]: Start processing: sparsify-nightly
+[2023-07-20 21:58:12] INFO root fetch - main [MainThread]: End processing [adsbcot]: success
+[2023-07-20 21:58:12] INFO root fetch - processPackages [caikit]: Remove: archive file [/home/abi/fetcher/tmp/caikit-0.9.3.tar.gz]
+[2023-07-20 21:58:12] INFO root fetch - processPackages [caikit]: Remove: archive file [/home/abi/fetcher/tmp/caikit-0.9.4.tar.gz]
+[2023-07-20 21:58:12] INFO root fetch - processPackages [caikit]: Start processing: django-seeker
+[2023-07-20 21:58:12] INFO root fetch - main [MainThread]: End processing [caikit]: success
+[2023-07-20 21:58:12] INFO root fetch - processPackages [roblox-pyc]: Remove: archive file [/home/abi/fetcher/tmp/roblox-pyc-1.6.6.5.4.tar.gz]
+[2023-07-20 21:58:12] INFO root fetch - processPackages [roblox-pyc]: Remove: archive file [/home/abi/fetcher/tmp/roblox-pyc-1.6.6.5a0.tar.gz]
+[2023-07-20 21:58:12] INFO root fetch - processPackages [roblox-pyc]: Start processing: seqdata
+[2023-07-20 21:58:12] INFO root fetch - main [MainThread]: End processing [roblox-pyc]: success
+[2023-07-20 21:58:12] INFO root fetch - processPackages [sparsify-nightly]: New version: [1.6.0.20230720] Old Version: [1.6.0.20230616]
+[2023-07-20 21:58:12] INFO root fetch - processPackages [django-seeker]: New version: [7.4.0] Old Version: [7.3.1]
+[2023-07-20 21:58:12] INFO root fetch - processPackages [sparsify-nightly]: Downloading https://files.pythonhosted.org/packages/58/04/8f7dfacf40e7fff11ff3f79d0184eda5b48354e913a243a268c7b7906360/sparsify-nightly-1.6.0.20230616.tar.gz
+[2023-07-20 21:58:12] INFO root fetch - processPackages [seqdata]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-20 21:58:12] INFO root fetch - processPackages [motifdata]: Remove: archive file [/home/abi/fetcher/tmp/motifdata-0.1.1.tar.gz]
+[2023-07-20 21:58:12] INFO root fetch - processPackages [motifdata]: Remove: archive file [/home/abi/fetcher/tmp/motifdata-0.1.2.tar.gz]
+[2023-07-20 21:58:12] INFO root fetch - processPackages [motifdata]: Start processing: configuretron
+[2023-07-20 21:58:12] INFO root fetch - main [MainThread]: End processing [motifdata]: success
+[2023-07-20 21:58:12] INFO root fetch - processPackages [django-seeker]: Downloading https://files.pythonhosted.org/packages/01/8e/79108e64d9bfa0328cde550d7deaef8d0902d70a52f566f2cfcb98c4cdb2/django-seeker-7.3.1.tar.gz
+[2023-07-20 21:58:12] INFO root fetch - processPackages [seqdata]: Downloading https://files.pythonhosted.org/packages/4c/81/a9689801a1c518b7e38884bb0ad2f65d4522d75a59cc0fe00b0ab5262fa5/seqdata-0.1.1.tar.gz
+[2023-07-20 21:58:12] INFO root fetch - processPackages [openpolicedata]: Remove: archive file [/home/abi/fetcher/tmp/openpolicedata-0.5.5.tar.gz]
+[2023-07-20 21:58:12] INFO root fetch - processPackages [openpolicedata]: Remove: archive file [/home/abi/fetcher/tmp/openpolicedata-0.5.6.tar.gz]
+[2023-07-20 21:58:12] INFO root fetch - processPackages [openpolicedata]: Start processing: ccy
+[2023-07-20 21:58:12] INFO root fetch - main [MainThread]: End processing [openpolicedata]: success
+[2023-07-20 21:58:12] INFO root fetch - processPackages [configuretron]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-07-20 21:58:12] INFO root fetch - processPackages [hassfeld]: Remove: archive file [/home/abi/fetcher/tmp/hassfeld-0.3.8a1.tar.gz]
+[2023-07-20 21:58:12] INFO root fetch - processPackages [hassfeld]: Remove: archive file [/home/abi/fetcher/tmp/hassfeld-0.3.9a1.tar.gz]
+[2023-07-20 21:58:12] INFO root fetch - processPackages [hassfeld]: Start processing: Flask-pyoidc
+[2023-07-20 21:58:12] INFO root fetch - main [MainThread]: End processing [hassfeld]: success
+[2023-07-20 21:58:12] INFO root fetch - processPackages [ccy]: New version: [1.3.1] Old Version: [1.3.0]
+[2023-07-20 21:58:12] INFO root fetch - processPackages [Flask-pyoidc]: New version: [3.9.0] Old Version: [3.8.0]
+[2023-07-20 21:58:13] INFO root fetch - processPackages [sparsify-nightly]: Downloading https://files.pythonhosted.org/packages/d8/63/aed2727c66c4d2f4d414da5cc30da424a0ab5486fe6b8bb12a310c0cd66b/sparsify-nightly-1.6.0.20230720.tar.gz
+[2023-07-20 21:58:13] INFO root fetch - processPackages [Flask-pyoidc]: Downloading https://files.pythonhosted.org/packages/19/3c/ec31cb850d202785e73f0dbf4aef064fbb5364652046d8912255c1371bbf/Flask_pyoidc-3.8.0-py3-none-any.whl
+[2023-07-20 21:58:13] INFO root fetch - processPackages [xiaomi-ble]: Remove: archive file [/home/abi/fetcher/tmp/xiaomi-ble-0.9.2.tar.gz]
+[2023-07-20 21:58:13] INFO root fetch - processPackages [xiaomi-ble]: Remove: archive file [/home/abi/fetcher/tmp/xiaomi-ble-0.9.3.tar.gz]
+[2023-07-20 21:58:13] INFO root fetch - processPackages [xiaomi-ble]: Start processing: domolibrary
+[2023-07-20 21:58:13] INFO root fetch - main [MainThread]: End processing [xiaomi-ble]: success
+[2023-07-20 21:58:13] INFO root fetch - processPackages [django-seeker]: Downloading https://files.pythonhosted.org/packages/27/de/693c0b5df0967258a6e9a90f9357ed097eaf7e64a144b7a31714f962a13e/django-seeker-7.4.0.tar.gz
+[2023-07-20 21:58:13] INFO root fetch - processPackages [configuretron]: Downloading https://files.pythonhosted.org/packages/84/a4/e504d1c3af4a95bacc20cc53a41ab6981cb0fad4fd8c2fa7b2875e9ceea2/configuretron-0.2.0.tar.gz
+[2023-07-20 21:58:13] INFO root fetch - processPackages [domolibrary]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-07-20 21:58:13] INFO root fetch - processPackages [seqdata]: Downloading https://files.pythonhosted.org/packages/69/99/a06b3f486bf780853e16a980e1c177cbaa19511edee83b89f61bc0493243/seqdata-0.1.2.tar.gz
+[2023-07-20 21:58:13] INFO root fetch - processPackages [sparsify-nightly]: executing diffoscope
+[2023-07-20 21:58:13] INFO root fetch - processPackages [sparsify-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sparsify-nightly-1.6.0.20230616.tar.gz tmp/sparsify-nightly-1.6.0.20230720.tar.gz --markdown 20230720/s/sparsify-nightly/1.6.0.20230616-1.6.0.20230720/diff.md --exclude *.pyd
+[2023-07-20 21:58:13] INFO root fetch - processPackages [ccy]: Downloading https://files.pythonhosted.org/packages/d6/7b/aeb192057cbbf88b2b83881190a557cac3607906c03dc4fc4ce65938bfbe/ccy-1.3.0.tar.gz
+[2023-07-20 21:58:13] INFO root fetch - processPackages [domolibrary]: Downloading https://files.pythonhosted.org/packages/84/f8/ca22b28a893290f3f077d48d12f9bbfa0b351b8a23052c67d9d2df56c886/domolibrary-0.1.98.tar.gz
+[2023-07-20 21:58:13] INFO root fetch - processPackages [django-seeker]: executing diffoscope
+[2023-07-20 21:58:13] INFO root fetch - processPackages [django-seeker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-seeker-7.3.1.tar.gz tmp/django-seeker-7.4.0.tar.gz --markdown 20230720/d/django-seeker/7.3.1-7.4.0/diff.md --exclude *.pyd
+[2023-07-20 21:58:13] INFO root fetch - processPackages [seqdata]: executing diffoscope
+[2023-07-20 21:58:13] INFO root fetch - processPackages [seqdata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seqdata-0.1.1.tar.gz tmp/seqdata-0.1.2.tar.gz --markdown 20230720/s/seqdata/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-20 21:58:13] INFO root fetch - processPackages [Flask-pyoidc]: Downloading https://files.pythonhosted.org/packages/12/99/cdcfc4169591a1af7a317f057e430e971bc33e268f4a7772eaff5a977283/Flask_pyoidc-3.9.0-py3-none-any.whl
+[2023-07-20 21:58:13] INFO root fetch - processPackages [Flask-pyoidc]: executing diffoscope
+[2023-07-20 21:58:13] INFO root fetch - processPackages [Flask-pyoidc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Flask_pyoidc-3.8.0-py3-none-any.whl.zip tmp/Flask_pyoidc-3.9.0-py3-none-any.whl.zip --markdown 20230720/F/Flask-pyoidc/3.8.0-3.9.0/diff.md --exclude *.pyd
+[2023-07-20 21:58:13] INFO root fetch - processPackages [configuretron]: Downloading https://files.pythonhosted.org/packages/41/0c/d54e74c55c95b71b67a998156458e9caa6723c323ca1ec2c780a021ad73c/configuretron-0.2.1.tar.gz
+[2023-07-20 21:58:13] INFO root fetch - processPackages [ccy]: Downloading https://files.pythonhosted.org/packages/8a/cb/d6e653953bdf1d29682d4e185cfc0a31f4c905ab598ee73aed16db581d1d/ccy-1.3.1.tar.gz
+[2023-07-20 21:58:13] INFO root fetch - processPackages [domolibrary]: Downloading https://files.pythonhosted.org/packages/ef/ec/fc9564bd79a2ddb4e26b61efd0fc792975bd04a769102587a579e3693e90/domolibrary-0.1.99.tar.gz
+[2023-07-20 21:58:13] INFO root fetch - processPackages [configuretron]: executing diffoscope
+[2023-07-20 21:58:13] INFO root fetch - processPackages [configuretron]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/configuretron-0.2.0.tar.gz tmp/configuretron-0.2.1.tar.gz --markdown 20230720/c/configuretron/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-07-20 21:58:13] INFO root fetch - processPackages [ccy]: executing diffoscope
+[2023-07-20 21:58:13] INFO root fetch - processPackages [ccy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccy-1.3.0.tar.gz tmp/ccy-1.3.1.tar.gz --markdown 20230720/c/ccy/1.3.0-1.3.1/diff.md --exclude *.pyd
+[2023-07-20 21:58:13] INFO root fetch - processPackages [domolibrary]: executing diffoscope
+[2023-07-20 21:58:13] INFO root fetch - processPackages [domolibrary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/domolibrary-0.1.98.tar.gz tmp/domolibrary-0.1.99.tar.gz --markdown 20230720/d/domolibrary/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-07-20 21:58:14] INFO root fetch - processPackages [coderedcms]: Remove: archive file [/home/abi/fetcher/tmp/coderedcms-2.1.3.tar.gz]
+[2023-07-20 21:58:14] INFO root fetch - processPackages [coderedcms]: Remove: archive file [/home/abi/fetcher/tmp/coderedcms-2.1.4.tar.gz]
+[2023-07-20 21:58:14] INFO root fetch - processPackages [coderedcms]: Start processing: djgentelella
+[2023-07-20 21:58:14] INFO root fetch - main [MainThread]: End processing [coderedcms]: success
+[2023-07-20 21:58:14] INFO root fetch - processPackages [djgentelella]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-20 21:58:14] INFO root fetch - processPackages [djgentelella]: Downloading https://files.pythonhosted.org/packages/78/23/cd69bdc751c84c852bedb27a96954a637b3e392467582c5a2be8cf72f4d0/djgentelella-0.3.8.tar.gz
+[2023-07-20 21:58:14] INFO root fetch - processPackages [seqdata]: Remove: archive file [/home/abi/fetcher/tmp/seqdata-0.1.1.tar.gz]
+[2023-07-20 21:58:14] INFO root fetch - processPackages [seqdata]: Remove: archive file [/home/abi/fetcher/tmp/seqdata-0.1.2.tar.gz]
+[2023-07-20 21:58:14] INFO root fetch - processPackages [seqdata]: Start processing: fpingwrppr
+[2023-07-20 21:58:14] INFO root fetch - main [MainThread]: End processing [seqdata]: success
+[2023-07-20 21:58:14] INFO root fetch - processPackages [fpingwrppr]: New version: [0.4] Old Version: [0.3]
+[2023-07-20 21:58:14] INFO root fetch - processPackages [Flask-pyoidc]: Remove: archive file [/home/abi/fetcher/tmp/Flask_pyoidc-3.8.0-py3-none-any.whl.zip]
+[2023-07-20 21:58:14] INFO root fetch - processPackages [Flask-pyoidc]: Remove: archive file [/home/abi/fetcher/tmp/Flask_pyoidc-3.9.0-py3-none-any.whl.zip]
+[2023-07-20 21:58:14] INFO root fetch - main [MainThread]: End processing [Flask-pyoidc]: success
+[2023-07-20 21:58:14] INFO root fetch - processPackages [fpingwrppr]: Downloading https://files.pythonhosted.org/packages/ab/96/ce88f237cfc0f608ac64f1b9ee764600b38201e42aa60ba64a12e4704dd5/fpingwrppr-0.3.tar.gz
+[2023-07-20 21:58:15] INFO root fetch - processPackages [django-seeker]: Remove: archive file [/home/abi/fetcher/tmp/django-seeker-7.3.1.tar.gz]
+[2023-07-20 21:58:15] INFO root fetch - processPackages [django-seeker]: Remove: archive file [/home/abi/fetcher/tmp/django-seeker-7.4.0.tar.gz]
+[2023-07-20 21:58:15] INFO root fetch - main [MainThread]: End processing [django-seeker]: success
+[2023-07-20 21:58:15] INFO root fetch - processPackages [sparsify-nightly]: Remove: archive file [/home/abi/fetcher/tmp/sparsify-nightly-1.6.0.20230616.tar.gz]
+[2023-07-20 21:58:15] INFO root fetch - processPackages [sparsify-nightly]: Remove: archive file [/home/abi/fetcher/tmp/sparsify-nightly-1.6.0.20230720.tar.gz]
+[2023-07-20 21:58:15] INFO root fetch - main [MainThread]: End processing [sparsify-nightly]: success
+[2023-07-20 21:58:15] INFO root fetch - processPackages [fpingwrppr]: Downloading https://files.pythonhosted.org/packages/1e/98/e036cdf724911456e74e42ea392c818dce6712464f2bfb168debc69852ca/fpingwrppr-0.4.tar.gz
+[2023-07-20 21:58:15] INFO root fetch - processPackages [configuretron]: Remove: archive file [/home/abi/fetcher/tmp/configuretron-0.2.0.tar.gz]
+[2023-07-20 21:58:15] INFO root fetch - processPackages [configuretron]: Remove: archive file [/home/abi/fetcher/tmp/configuretron-0.2.1.tar.gz]
+[2023-07-20 21:58:15] INFO root fetch - main [MainThread]: End processing [configuretron]: success
+[2023-07-20 21:58:15] INFO root fetch - processPackages [ccy]: Remove: archive file [/home/abi/fetcher/tmp/ccy-1.3.0.tar.gz]
+[2023-07-20 21:58:15] INFO root fetch - processPackages [ccy]: Remove: archive file [/home/abi/fetcher/tmp/ccy-1.3.1.tar.gz]
+[2023-07-20 21:58:15] INFO root fetch - main [MainThread]: End processing [ccy]: success
+[2023-07-20 21:58:15] INFO root fetch - processPackages [fpingwrppr]: executing diffoscope
+[2023-07-20 21:58:15] INFO root fetch - processPackages [fpingwrppr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fpingwrppr-0.3.tar.gz tmp/fpingwrppr-0.4.tar.gz --markdown 20230720/f/fpingwrppr/0.3-0.4/diff.md --exclude *.pyd
+[2023-07-20 21:58:15] INFO root fetch - processPackages [imcsdk-ecoen66]: Remove: archive file [/home/abi/fetcher/tmp/imcsdk_ecoen66-0.9.19.tar.gz]
+[2023-07-20 21:58:15] INFO root fetch - processPackages [imcsdk-ecoen66]: Remove: archive file [/home/abi/fetcher/tmp/imcsdk_ecoen66-0.9.20.tar.gz]
+[2023-07-20 21:58:15] INFO root fetch - main [MainThread]: End processing [imcsdk-ecoen66]: success
+[2023-07-20 21:58:15] INFO root fetch - processPackages [domolibrary]: Remove: archive file [/home/abi/fetcher/tmp/domolibrary-0.1.98.tar.gz]
+[2023-07-20 21:58:15] INFO root fetch - processPackages [domolibrary]: Remove: archive file [/home/abi/fetcher/tmp/domolibrary-0.1.99.tar.gz]
+[2023-07-20 21:58:15] INFO root fetch - main [MainThread]: End processing [domolibrary]: success
+[2023-07-20 21:58:15] INFO root fetch - processPackages [pyft]: Remove: archive file [/home/abi/fetcher/tmp/pyft-0.1.1-cp310-cp310-macosx_10_7_x86_64.whl.zip]
+[2023-07-20 21:58:15] INFO root fetch - processPackages [pyft]: Remove: archive file [/home/abi/fetcher/tmp/pyft-0.1.2.tar.gz]
+[2023-07-20 21:58:15] INFO root fetch - main [MainThread]: End processing [pyft]: success
+[2023-07-20 21:58:15] INFO root fetch - processPackages [fpingwrppr]: Remove: archive file [/home/abi/fetcher/tmp/fpingwrppr-0.3.tar.gz]
+[2023-07-20 21:58:15] INFO root fetch - processPackages [fpingwrppr]: Remove: archive file [/home/abi/fetcher/tmp/fpingwrppr-0.4.tar.gz]
+[2023-07-20 21:58:15] INFO root fetch - main [MainThread]: End processing [fpingwrppr]: success
+[2023-07-20 21:58:16] INFO root fetch - processPackages [djgentelella]: Downloading https://files.pythonhosted.org/packages/cd/46/48a51d1b5c178a3a4eb29ebff1b94c3ec4b1903fbb7ea2f63343ec0686b3/djgentelella-0.3.9.tar.gz
+[2023-07-20 21:58:18] INFO root fetch - processPackages [djgentelella]: executing diffoscope
+[2023-07-20 21:58:18] INFO root fetch - processPackages [djgentelella]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djgentelella-0.3.8.tar.gz tmp/djgentelella-0.3.9.tar.gz --markdown 20230720/d/djgentelella/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-20 21:58:25] INFO root fetch - processPackages [djgentelella]: Remove: archive file [/home/abi/fetcher/tmp/djgentelella-0.3.8.tar.gz]
+[2023-07-20 21:58:25] INFO root fetch - processPackages [djgentelella]: Remove: archive file [/home/abi/fetcher/tmp/djgentelella-0.3.9.tar.gz]
+[2023-07-20 21:58:25] INFO root fetch - main [MainThread]: End processing [djgentelella]: success
+[2023-07-20 21:58:25] INFO root fetch - main [MainThread]: Store serial: [18972236]
