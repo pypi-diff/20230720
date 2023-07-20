@@ -5227,3 +5227,116 @@ AssertionError: tmp/verify4py-test-0.1.7.tar.gz does not exist
 [2023-07-20 12:17:46] INFO root fetch - processPackages [pulp-deb-client]: Remove: archive file [/home/abi/fetcher/tmp/pulp_deb-client-2.9.3.tar.gz]
 [2023-07-20 12:17:46] INFO root fetch - main [MainThread]: End processing [pulp-deb-client]: success
 [2023-07-20 12:17:46] INFO root fetch - main [MainThread]: Store serial: [18965040]
+[2023-07-20 12:22:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18965040]
+[2023-07-20 12:22:55] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-07-20 12:22:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tap-exact
+[2023-07-20 12:22:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: alibabacloud-sas20181203-py2
+[2023-07-20 12:22:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ninjakiwi-api
+[2023-07-20 12:22:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: alibabacloud-sas20181203
+[2023-07-20 12:22:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: galvoplotter
+[2023-07-20 12:22:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cellmap
+[2023-07-20 12:22:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dash-template-rendering
+[2023-07-20 12:22:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: lusid-drive-sdk-preview
+[2023-07-20 12:22:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: lusid-drive-sdk
+[2023-07-20 12:22:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: finbourne-access-sdk
+[2023-07-20 12:22:55] INFO root fetch - processPackages [dash-template-rendering]: New version: [0.0.1b2] Old Version: [0.0.1b1]
+[2023-07-20 12:22:55] INFO root fetch - processPackages [ninjakiwi-api]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-20 12:22:55] INFO root fetch - processPackages [alibabacloud-sas20181203]: New version: [2.1.9] Old Version: [2.1.8]
+[2023-07-20 12:22:55] INFO root fetch - processPackages [galvoplotter]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-20 12:22:55] INFO root fetch - processPackages [tap-exact]: New version: [0.6.1] Old Version: [0.6.0]
+[2023-07-20 12:22:55] INFO root fetch - processPackages [alibabacloud-sas20181203-py2]: New version: [2.1.9] Old Version: [2.1.8]
+[2023-07-20 12:22:55] INFO root fetch - processPackages [cellmap]: New version: [1.0.1.dev202307201018] Old Version: [1.0.1.dev202307201017]
+[2023-07-20 12:22:55] INFO root fetch - processPackages [lusid-drive-sdk-preview]: New version: [0.1.96] Old Version: [0.1.95]
+[2023-07-20 12:22:55] INFO root fetch - processPackages [finbourne-access-sdk]: New version: [0.0.815] Old Version: [0.0.616]
+[2023-07-20 12:22:55] INFO root fetch - processPackages [lusid-drive-sdk]: New version: [0.1.96] Old Version: [0.1.95]
+[2023-07-20 12:22:55] INFO root fetch - processPackages [finbourne-access-sdk]: Downloading https://files.pythonhosted.org/packages/22/58/ee379caa00eba72b01ce5884996e3957e85f9db086b5f74209b445963467/finbourne-access-sdk-0.0.616.tar.gz
+[2023-07-20 12:22:55] INFO root fetch - processPackages [galvoplotter]: Downloading https://files.pythonhosted.org/packages/74/63/7a1a141a1ad662a83a8f70866d7009c4a3b2b2185a947383d6ba0aac0652/galvoplotter-0.1.1.tar.gz
+[2023-07-20 12:22:55] INFO root fetch - processPackages [ninjakiwi-api]: Downloading https://files.pythonhosted.org/packages/2d/be/9a28619b2ab2d4a111a7db9ab28be8249baa1f4c3db97d4c996274c67f71/ninjakiwi_api-0.0.1.tar.gz
+[2023-07-20 12:22:55] INFO root fetch - processPackages [alibabacloud-sas20181203]: Downloading https://files.pythonhosted.org/packages/8b/dd/679405e518a0f35d1ed56a486a50a0123ab3789ec313d66f51afc0af74f9/alibabacloud_sas20181203-2.1.8.tar.gz
+[2023-07-20 12:22:55] INFO root fetch - processPackages [tap-exact]: Downloading https://files.pythonhosted.org/packages/18/bc/3a34ae63551a04dc7067fb3a35884261834067a869ceafdd793ba89c21c1/tap_exact-0.6.0.tar.gz
+[2023-07-20 12:22:56] INFO root fetch - processPackages [cellmap]: Downloading https://files.pythonhosted.org/packages/61/18/90ddf1dd8fa5074c49a67c8a7c8172934eec6dd38cf9a6ed822aac82985e/cellmap-1.0.1.dev202307201017-py3-none-any.whl
+[2023-07-20 12:22:56] INFO root fetch - processPackages [lusid-drive-sdk-preview]: Downloading https://files.pythonhosted.org/packages/3c/36/7ba764c059e4db444f6cf2e73cd8a04b8f90fa2ed8bc8e663f775912d783/lusid-drive-sdk-preview-0.1.95.tar.gz
+[2023-07-20 12:22:56] INFO root fetch - processPackages [alibabacloud-sas20181203-py2]: Downloading https://files.pythonhosted.org/packages/4a/8e/4329fc2256005ff3de0fa5f1b162bf9af31d2b4352d626658cfbaa1dfa9f/alibabacloud_sas20181203_py2-2.1.8.tar.gz
+[2023-07-20 12:22:56] INFO root fetch - processPackages [dash-template-rendering]: Downloading https://files.pythonhosted.org/packages/5b/35/cd7c756b94756f9bad0422e1bed1e40c23ecec0ea5280ded74b3f93db145/dash-template-rendering-0.0.1b2.tar.gz
+[2023-07-20 12:22:56] INFO root fetch - processPackages [lusid-drive-sdk]: Downloading https://files.pythonhosted.org/packages/de/c4/d650d6220b8a796e210b789647cfcab1357ab3bd9085ea87d503604999f7/lusid-drive-sdk-0.1.95.tar.gz
+[2023-07-20 12:22:56] INFO root fetch - processPackages [finbourne-access-sdk]: Downloading https://files.pythonhosted.org/packages/f5/48/d40801e505892153d9eb9fea2de2f415455702ca8818dd23f14a3f88d813/finbourne-access-sdk-0.0.815.tar.gz
+[2023-07-20 12:22:56] INFO root fetch - processPackages [dash-template-rendering]: executing diffoscope
+[2023-07-20 12:22:56] INFO root fetch - processPackages [dash-template-rendering]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dash-template-rendering-0.0.1b1.tar.gz tmp/dash-template-rendering-0.0.1b2.tar.gz --markdown 20230720/d/dash-template-rendering/0.0.1b1-0.0.1b2/diff.md --exclude *.pyd
+[2023-07-20 12:22:56] INFO root fetch - processPackages [galvoplotter]: Downloading https://files.pythonhosted.org/packages/01/85/6c5c08fd90dd6fd08c13a9c9a3ae71fb9c1bb099891fdafc126ae73facb6/galvoplotter-0.1.2.tar.gz
+[2023-07-20 12:22:56] INFO root fetch - processPackages [ninjakiwi-api]: Downloading https://files.pythonhosted.org/packages/e0/54/66d28454b5236a487bb0d2681bc31f04e15961a40558fb184812aabaae50/ninjakiwi_api-0.0.2.tar.gz
+[2023-07-20 12:22:56] INFO root fetch - processPackages [tap-exact]: Downloading https://files.pythonhosted.org/packages/2b/3e/74e1cfec3b7a9d2cec2784c8b9d1003cdf89a917122bbae748a8c7c08c7e/tap_exact-0.6.1.tar.gz
+[2023-07-20 12:22:56] INFO root fetch - processPackages [cellmap]: Downloading https://files.pythonhosted.org/packages/c8/01/a2336661f7c546d4704cc21e478001b6b6025a44f549adb50886b787b446/cellmap-1.0.1.dev202307201018-py3-none-any.whl
+[2023-07-20 12:22:56] INFO root fetch - processPackages [finbourne-access-sdk]: executing diffoscope
+[2023-07-20 12:22:56] INFO root fetch - processPackages [finbourne-access-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finbourne-access-sdk-0.0.616.tar.gz tmp/finbourne-access-sdk-0.0.815.tar.gz --markdown 20230720/f/finbourne-access-sdk/0.0.616-0.0.815/diff.md --exclude *.pyd
+[2023-07-20 12:22:56] INFO root fetch - processPackages [alibabacloud-sas20181203]: Downloading https://files.pythonhosted.org/packages/76/42/85aefcacd07d83e12f4766fd05c79d2f2dcbb0253bd11ab87c3f95af893e/alibabacloud_sas20181203-2.1.9.tar.gz
+[2023-07-20 12:22:56] INFO root fetch - processPackages [galvoplotter]: executing diffoscope
+[2023-07-20 12:22:56] INFO root fetch - processPackages [galvoplotter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/galvoplotter-0.1.1.tar.gz tmp/galvoplotter-0.1.2.tar.gz --markdown 20230720/g/galvoplotter/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-20 12:22:56] INFO root fetch - processPackages [alibabacloud-sas20181203-py2]: Downloading https://files.pythonhosted.org/packages/a2/af/e35dc3c7ad2c037680875bdf7a95c03c03e4dec02982125fb0bdcdf0cb36/alibabacloud_sas20181203_py2-2.1.9.tar.gz
+[2023-07-20 12:22:56] INFO root fetch - processPackages [tap-exact]: executing diffoscope
+[2023-07-20 12:22:56] INFO root fetch - processPackages [tap-exact]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tap_exact-0.6.0.tar.gz tmp/tap_exact-0.6.1.tar.gz --markdown 20230720/t/tap-exact/0.6.0-0.6.1/diff.md --exclude *.pyd
+[2023-07-20 12:22:56] INFO root fetch - processPackages [ninjakiwi-api]: executing diffoscope
+[2023-07-20 12:22:56] INFO root fetch - processPackages [ninjakiwi-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ninjakiwi_api-0.0.1.tar.gz tmp/ninjakiwi_api-0.0.2.tar.gz --markdown 20230720/n/ninjakiwi-api/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-20 12:22:56] INFO root fetch - processPackages [lusid-drive-sdk-preview]: Downloading https://files.pythonhosted.org/packages/61/f8/d24acce70923cfb6b98f767d1ae2f0c298d30f53032363ce65751be8b091/lusid-drive-sdk-preview-0.1.96.tar.gz
+[2023-07-20 12:22:56] INFO root fetch - processPackages [cellmap]: executing diffoscope
+[2023-07-20 12:22:56] INFO root fetch - processPackages [cellmap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cellmap-1.0.1.dev202307201017-py3-none-any.whl.zip tmp/cellmap-1.0.1.dev202307201018-py3-none-any.whl.zip --markdown 20230720/c/cellmap/1.0.1.dev202307201017-1.0.1.dev202307201018/diff.md --exclude *.pyd
+[2023-07-20 12:22:56] INFO root fetch - processPackages [lusid-drive-sdk]: Downloading https://files.pythonhosted.org/packages/df/40/34d8137d43f70f7a96037ba54cbbab838b9ae0bc84531d2be22cb7d3a967/lusid-drive-sdk-0.1.96.tar.gz
+[2023-07-20 12:22:56] INFO root fetch - processPackages [alibabacloud-sas20181203]: executing diffoscope
+[2023-07-20 12:22:56] INFO root fetch - processPackages [alibabacloud-sas20181203]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_sas20181203-2.1.8.tar.gz tmp/alibabacloud_sas20181203-2.1.9.tar.gz --markdown 20230720/a/alibabacloud-sas20181203/2.1.8-2.1.9/diff.md --exclude *.pyd
+[2023-07-20 12:22:56] INFO root fetch - processPackages [lusid-drive-sdk-preview]: executing diffoscope
+[2023-07-20 12:22:56] INFO root fetch - processPackages [lusid-drive-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid-drive-sdk-preview-0.1.95.tar.gz tmp/lusid-drive-sdk-preview-0.1.96.tar.gz --markdown 20230720/l/lusid-drive-sdk-preview/0.1.95-0.1.96/diff.md --exclude *.pyd
+[2023-07-20 12:22:56] INFO root fetch - processPackages [alibabacloud-sas20181203-py2]: executing diffoscope
+[2023-07-20 12:22:56] INFO root fetch - processPackages [alibabacloud-sas20181203-py2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_sas20181203_py2-2.1.8.tar.gz tmp/alibabacloud_sas20181203_py2-2.1.9.tar.gz --markdown 20230720/a/alibabacloud-sas20181203-py2/2.1.8-2.1.9/diff.md --exclude *.pyd
+[2023-07-20 12:22:57] INFO root fetch - processPackages [lusid-drive-sdk]: executing diffoscope
+[2023-07-20 12:22:57] INFO root fetch - processPackages [lusid-drive-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid-drive-sdk-0.1.95.tar.gz tmp/lusid-drive-sdk-0.1.96.tar.gz --markdown 20230720/l/lusid-drive-sdk/0.1.95-0.1.96/diff.md --exclude *.pyd
+[2023-07-20 12:22:57] INFO root fetch - processPackages [dash-template-rendering]: Remove: archive file [/home/abi/fetcher/tmp/dash-template-rendering-0.0.1b1.tar.gz]
+[2023-07-20 12:22:57] INFO root fetch - processPackages [dash-template-rendering]: Remove: archive file [/home/abi/fetcher/tmp/dash-template-rendering-0.0.1b2.tar.gz]
+[2023-07-20 12:22:57] INFO root fetch - processPackages [dash-template-rendering]: Start processing: port-ocean
+[2023-07-20 12:22:57] INFO root fetch - main [MainThread]: End processing [dash-template-rendering]: success
+[2023-07-20 12:22:57] INFO root fetch - processPackages [port-ocean]: New version: [0.1.0rc4] Old Version: [0.1.0rc3]
+[2023-07-20 12:22:57] INFO root fetch - processPackages [port-ocean]: Downloading https://files.pythonhosted.org/packages/b6/9b/941a22e543e7ea397a833235417f48fcf029d4d5f7208eb6d0a8865f6ad1/port_ocean-0.1.0rc3.tar.gz
+[2023-07-20 12:22:58] INFO root fetch - processPackages [port-ocean]: Downloading https://files.pythonhosted.org/packages/ed/2c/19b28d339bcbf2937c9abe49c8d0c3d9038995639223d504509ce417e008/port_ocean-0.1.0rc4.tar.gz
+[2023-07-20 12:22:58] INFO root fetch - processPackages [ninjakiwi-api]: Remove: archive file [/home/abi/fetcher/tmp/ninjakiwi_api-0.0.1.tar.gz]
+[2023-07-20 12:22:58] INFO root fetch - processPackages [ninjakiwi-api]: Remove: archive file [/home/abi/fetcher/tmp/ninjakiwi_api-0.0.2.tar.gz]
+[2023-07-20 12:22:58] INFO root fetch - processPackages [ninjakiwi-api]: Start processing: charge-power
+[2023-07-20 12:22:58] INFO root fetch - main [MainThread]: End processing [ninjakiwi-api]: success
+[2023-07-20 12:22:58] INFO root fetch - processPackages [cellmap]: Remove: archive file [/home/abi/fetcher/tmp/cellmap-1.0.1.dev202307201017-py3-none-any.whl.zip]
+[2023-07-20 12:22:58] WARNING root fetch - processPackages [charge-power]: Skipping, unable to determine old version
+[2023-07-20 12:22:58] INFO root fetch - processPackages [cellmap]: Remove: archive file [/home/abi/fetcher/tmp/cellmap-1.0.1.dev202307201018-py3-none-any.whl.zip]
+[2023-07-20 12:22:58] INFO root fetch - processPackages [charge-power]: Start processing: coderfastapi
+[2023-07-20 12:22:58] INFO root fetch - main [MainThread]: End processing [charge-power] error
+[2023-07-20 12:22:58] INFO root fetch - main [MainThread]: End processing [cellmap]: success
+[2023-07-20 12:22:58] INFO root fetch - processPackages [galvoplotter]: Remove: archive file [/home/abi/fetcher/tmp/galvoplotter-0.1.1.tar.gz]
+[2023-07-20 12:22:58] INFO root fetch - processPackages [galvoplotter]: Remove: archive file [/home/abi/fetcher/tmp/galvoplotter-0.1.2.tar.gz]
+[2023-07-20 12:22:58] INFO root fetch - main [MainThread]: End processing [galvoplotter]: success
+[2023-07-20 12:22:58] INFO root fetch - processPackages [coderfastapi]: New version: [2.2.0] Old Version: [2.1.0]
+[2023-07-20 12:22:58] INFO root fetch - processPackages [port-ocean]: executing diffoscope
+[2023-07-20 12:22:58] INFO root fetch - processPackages [port-ocean]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/port_ocean-0.1.0rc3.tar.gz tmp/port_ocean-0.1.0rc4.tar.gz --markdown 20230720/p/port-ocean/0.1.0rc3-0.1.0rc4/diff.md --exclude *.pyd
+[2023-07-20 12:22:58] INFO root fetch - processPackages [tap-exact]: Remove: archive file [/home/abi/fetcher/tmp/tap_exact-0.6.0.tar.gz]
+[2023-07-20 12:22:58] INFO root fetch - processPackages [tap-exact]: Remove: archive file [/home/abi/fetcher/tmp/tap_exact-0.6.1.tar.gz]
+[2023-07-20 12:22:58] INFO root fetch - main [MainThread]: End processing [tap-exact]: success
+[2023-07-20 12:22:58] INFO root fetch - processPackages [coderfastapi]: Downloading https://files.pythonhosted.org/packages/8a/21/67b0bcb12f2e188631d3029bf444b454f0e23616165d27eb74d77967aea6/coderfastapi-2.1.0.tar.gz
+[2023-07-20 12:22:58] INFO root fetch - processPackages [lusid-drive-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid-drive-sdk-0.1.95.tar.gz]
+[2023-07-20 12:22:58] INFO root fetch - processPackages [lusid-drive-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid-drive-sdk-0.1.96.tar.gz]
+[2023-07-20 12:22:58] INFO root fetch - main [MainThread]: End processing [lusid-drive-sdk]: success
+[2023-07-20 12:22:58] INFO root fetch - processPackages [lusid-drive-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-drive-sdk-preview-0.1.95.tar.gz]
+[2023-07-20 12:22:58] INFO root fetch - processPackages [lusid-drive-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-drive-sdk-preview-0.1.96.tar.gz]
+[2023-07-20 12:22:58] INFO root fetch - main [MainThread]: End processing [lusid-drive-sdk-preview]: success
+[2023-07-20 12:22:58] INFO root fetch - processPackages [coderfastapi]: Downloading https://files.pythonhosted.org/packages/ae/24/9fd9e649821d55eade1a159a269b69eee390cc7b368e00d92cbd6c258dc3/coderfastapi-2.2.0.tar.gz
+[2023-07-20 12:22:59] INFO root fetch - processPackages [finbourne-access-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne-access-sdk-0.0.616.tar.gz]
+[2023-07-20 12:22:59] INFO root fetch - processPackages [finbourne-access-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne-access-sdk-0.0.815.tar.gz]
+[2023-07-20 12:22:59] INFO root fetch - main [MainThread]: End processing [finbourne-access-sdk]: success
+[2023-07-20 12:22:59] INFO root fetch - processPackages [coderfastapi]: executing diffoscope
+[2023-07-20 12:22:59] INFO root fetch - processPackages [coderfastapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coderfastapi-2.1.0.tar.gz tmp/coderfastapi-2.2.0.tar.gz --markdown 20230720/c/coderfastapi/2.1.0-2.2.0/diff.md --exclude *.pyd
+[2023-07-20 12:22:59] INFO root fetch - processPackages [port-ocean]: Remove: archive file [/home/abi/fetcher/tmp/port_ocean-0.1.0rc3.tar.gz]
+[2023-07-20 12:22:59] INFO root fetch - processPackages [port-ocean]: Remove: archive file [/home/abi/fetcher/tmp/port_ocean-0.1.0rc4.tar.gz]
+[2023-07-20 12:22:59] INFO root fetch - main [MainThread]: End processing [port-ocean]: success
+[2023-07-20 12:22:59] INFO root fetch - processPackages [coderfastapi]: Remove: archive file [/home/abi/fetcher/tmp/coderfastapi-2.1.0.tar.gz]
+[2023-07-20 12:22:59] INFO root fetch - processPackages [coderfastapi]: Remove: archive file [/home/abi/fetcher/tmp/coderfastapi-2.2.0.tar.gz]
+[2023-07-20 12:22:59] INFO root fetch - main [MainThread]: End processing [coderfastapi]: success
+[2023-07-20 12:23:00] INFO root fetch - processPackages [alibabacloud-sas20181203-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_sas20181203_py2-2.1.8.tar.gz]
+[2023-07-20 12:23:00] INFO root fetch - processPackages [alibabacloud-sas20181203-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_sas20181203_py2-2.1.9.tar.gz]
+[2023-07-20 12:23:00] INFO root fetch - main [MainThread]: End processing [alibabacloud-sas20181203-py2]: success
+[2023-07-20 12:23:00] INFO root fetch - processPackages [alibabacloud-sas20181203]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_sas20181203-2.1.8.tar.gz]
+[2023-07-20 12:23:00] INFO root fetch - processPackages [alibabacloud-sas20181203]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_sas20181203-2.1.9.tar.gz]
+[2023-07-20 12:23:00] INFO root fetch - main [MainThread]: End processing [alibabacloud-sas20181203]: success
+[2023-07-20 12:23:00] INFO root fetch - main [MainThread]: Store serial: [18965081]
