@@ -17889,3 +17889,119 @@ AssertionError: tmp/verify4py-test-0.1.7.tar.gz does not exist
 [2023-07-20 19:45:10] INFO root fetch - processPackages [slingshot-ai]: Remove: archive file [/home/abi/fetcher/tmp/slingshot_ai-0.0.17.tar.gz]
 [2023-07-20 19:45:10] INFO root fetch - main [MainThread]: End processing [slingshot-ai]: success
 [2023-07-20 19:45:10] INFO root fetch - main [MainThread]: Store serial: [18970340]
+[2023-07-20 19:50:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18970340]
+[2023-07-20 19:50:19] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-07-20 19:50:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cs-models
+[2023-07-20 19:50:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: roblox-pyc
+[2023-07-20 19:50:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: threemystic-cloud-data-client
+[2023-07-20 19:50:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tap-shopify
+[2023-07-20 19:50:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: airbyte-api
+[2023-07-20 19:50:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: assemblyline-service-client
+[2023-07-20 19:50:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: assemblyline-service-server
+[2023-07-20 19:50:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: assemblyline-ui
+[2023-07-20 19:50:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: runestone
+[2023-07-20 19:50:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: assemblyline-v4-service
+[2023-07-20 19:50:19] INFO root fetch - processPackages [airbyte-api]: New version: [0.7.0] Old Version: [0.6.0]
+[2023-07-20 19:50:19] INFO root fetch - processPackages [threemystic-cloud-data-client]: New version: [0.1.16] Old Version: [0.1.15]
+[2023-07-20 19:50:19] INFO root fetch - processPackages [roblox-pyc]: New version: [1.6.6.5a0] Old Version: [1.6.6.5.4]
+[2023-07-20 19:50:19] INFO root fetch - processPackages [tap-shopify]: New version: [1.7.6] Old Version: [1.7.5]
+[2023-07-20 19:50:19] INFO root fetch - processPackages [assemblyline-service-server]: New version: [4.4.1.dev99] Old Version: [4.4.1.dev98]
+[2023-07-20 19:50:19] INFO root fetch - processPackages [assemblyline-v4-service]: New version: [4.4.1.dev99] Old Version: [4.4.1.dev98]
+[2023-07-20 19:50:19] INFO root fetch - processPackages [assemblyline-ui]: New version: [4.4.1.dev99] Old Version: [4.4.1.dev98]
+[2023-07-20 19:50:19] INFO root fetch - processPackages [runestone]: New version: [7.0.7] Old Version: [7.0.6]
+[2023-07-20 19:50:19] INFO root fetch - processPackages [cs-models]: New version: [0.0.99.dev4] Old Version: [0.0.99.dev3]
+[2023-07-20 19:50:19] INFO root fetch - processPackages [roblox-pyc]: Downloading https://files.pythonhosted.org/packages/44/ab/2c1167a2d328570fcff41305068766f10c181301f2cd7a1f64f72287fa27/roblox-pyc-1.6.6.5.4.tar.gz
+[2023-07-20 19:50:19] INFO root fetch - processPackages [assemblyline-service-client]: New version: [4.4.1.dev99] Old Version: [4.4.1.dev98]
+[2023-07-20 19:50:19] INFO root fetch - processPackages [assemblyline-v4-service]: Downloading https://files.pythonhosted.org/packages/0d/18/25fd38ec83bbb1da504d3063623af0139b964cc4957ee52dab43c8a48eec/assemblyline_v4_service-4.4.1.dev98-py3-none-any.whl
+[2023-07-20 19:50:19] INFO root fetch - processPackages [threemystic-cloud-data-client]: Downloading https://files.pythonhosted.org/packages/e8/90/692b69673f24464f81efb57b18b2c07d18a618a48bfdf5a634dd6cdf69d7/threemystic_cloud_data_client-0.1.15.tar.gz
+[2023-07-20 19:50:19] INFO root fetch - processPackages [assemblyline-service-server]: Downloading https://files.pythonhosted.org/packages/d0/9d/73a653591c81e927ff88321d05e4273374e7a6b83130aa29fe2ca8a8f3c8/assemblyline_service_server-4.4.1.dev98-py3-none-any.whl
+[2023-07-20 19:50:19] INFO root fetch - processPackages [airbyte-api]: Downloading https://files.pythonhosted.org/packages/d4/66/f87aba87ada17376fee9e34bc8e371f044987bb411d9d01db6d321356f3a/airbyte-api-0.6.0.tar.gz
+[2023-07-20 19:50:19] INFO root fetch - processPackages [assemblyline-service-client]: Downloading https://files.pythonhosted.org/packages/a4/73/2640c3bfcb2613b0f095aa242df946dd9c81ed47f2dd21c43c0eca553226/assemblyline_service_client-4.4.1.dev98-py3-none-any.whl
+[2023-07-20 19:50:19] INFO root fetch - processPackages [assemblyline-ui]: Downloading https://files.pythonhosted.org/packages/88/f0/1e1ea5a38c6644090daf7b8e756373614f960038fc4187021d034bab3f59/assemblyline_ui-4.4.1.dev98-py3-none-any.whl
+[2023-07-20 19:50:19] INFO root fetch - processPackages [runestone]: Downloading https://files.pythonhosted.org/packages/84/fd/fa54d1e5c23b784a24b1712bfa98735fdb1eb2eef78683a70be16d71e11c/runestone-7.0.6.tar.gz
+[2023-07-20 19:50:19] INFO root fetch - processPackages [tap-shopify]: Downloading https://files.pythonhosted.org/packages/b9/60/4a09e77be78632c7bcc20f3fa4014d9c195fef6a83843563085c67c38aaf/tap-shopify-1.7.5.tar.gz
+[2023-07-20 19:50:19] INFO root fetch - processPackages [cs-models]: Downloading https://files.pythonhosted.org/packages/0e/4f/33efc921aa3ee23f877dda213d1b962dac83a38135b32d2850eb48c2c6a8/cs-models-0.0.99.dev3.tar.gz
+[2023-07-20 19:50:19] WARNING root fetch - processPackages [runestone]: Skipping package: exceeds size limit 29019480>=10485760
+[2023-07-20 19:50:19] INFO root fetch - processPackages [runestone]: Start processing: assemblyline
+[2023-07-20 19:50:19] INFO root fetch - main [MainThread]: End processing [runestone] error
+[2023-07-20 19:50:19] INFO root fetch - processPackages [roblox-pyc]: Downloading https://files.pythonhosted.org/packages/59/75/7884ffaab86bf051065880fd8aefdfc8e3f2c34e7c9d4a8d352321ec57f8/roblox-pyc-1.6.6.5a0.tar.gz
+[2023-07-20 19:50:20] INFO root fetch - processPackages [assemblyline]: New version: [4.4.1.dev99] Old Version: [4.4.1.dev98]
+[2023-07-20 19:50:20] INFO root fetch - processPackages [assemblyline-service-server]: Downloading https://files.pythonhosted.org/packages/2c/65/290b479a07ea2714c26e302d7ee822da3dcfd3a50ecbfcf4091efd378829/assemblyline_service_server-4.4.1.dev99-py3-none-any.whl
+[2023-07-20 19:50:20] INFO root fetch - processPackages [assemblyline-v4-service]: Downloading https://files.pythonhosted.org/packages/47/8f/28c4f84deeaf6ecece9518c5613a84646d9a0b9e24b8c8791e4612f1738c/assemblyline_v4_service-4.4.1.dev99-py3-none-any.whl
+[2023-07-20 19:50:20] INFO root fetch - processPackages [assemblyline-service-client]: Downloading https://files.pythonhosted.org/packages/bd/c6/6e355350483536185a855a768a59edd86f3a9b152d83c0e328adfb3c5158/assemblyline_service_client-4.4.1.dev99-py3-none-any.whl
+[2023-07-20 19:50:20] INFO root fetch - processPackages [threemystic-cloud-data-client]: Downloading https://files.pythonhosted.org/packages/83/9f/78a04409efafd1d8893c35674699ceb16b365392b1dc7f32a280f15dfc43/threemystic_cloud_data_client-0.1.16.tar.gz
+[2023-07-20 19:50:20] INFO root fetch - processPackages [roblox-pyc]: executing diffoscope
+[2023-07-20 19:50:20] INFO root fetch - processPackages [roblox-pyc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/roblox-pyc-1.6.6.5.4.tar.gz tmp/roblox-pyc-1.6.6.5a0.tar.gz --markdown 20230720/r/roblox-pyc/1.6.6.5.4-1.6.6.5a0/diff.md --exclude *.pyd
+[2023-07-20 19:50:20] INFO root fetch - processPackages [assemblyline]: Downloading https://files.pythonhosted.org/packages/fb/ca/10ec337efc2ea70b32ead6e4b7d46e1e23f2d1a7638e8bfd6b51a182d2af/assemblyline-4.4.1.dev98.tar.gz
+[2023-07-20 19:50:20] INFO root fetch - processPackages [assemblyline-ui]: Downloading https://files.pythonhosted.org/packages/e3/c6/dfade12e5e90540956305d36f873c5aed23370282783a34e66dc3b21a383/assemblyline_ui-4.4.1.dev99-py3-none-any.whl
+[2023-07-20 19:50:20] INFO root fetch - processPackages [assemblyline-service-client]: executing diffoscope
+[2023-07-20 19:50:20] INFO root fetch - processPackages [assemblyline-service-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline_service_client-4.4.1.dev98-py3-none-any.whl.zip tmp/assemblyline_service_client-4.4.1.dev99-py3-none-any.whl.zip --markdown 20230720/a/assemblyline-service-client/4.4.1.dev98-4.4.1.dev99/diff.md --exclude *.pyd
+[2023-07-20 19:50:20] INFO root fetch - processPackages [threemystic-cloud-data-client]: executing diffoscope
+[2023-07-20 19:50:20] INFO root fetch - processPackages [threemystic-cloud-data-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/threemystic_cloud_data_client-0.1.15.tar.gz tmp/threemystic_cloud_data_client-0.1.16.tar.gz --markdown 20230720/t/threemystic-cloud-data-client/0.1.15-0.1.16/diff.md --exclude *.pyd
+[2023-07-20 19:50:20] INFO root fetch - processPackages [assemblyline-service-server]: executing diffoscope
+[2023-07-20 19:50:20] INFO root fetch - processPackages [assemblyline-service-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline_service_server-4.4.1.dev98-py3-none-any.whl.zip tmp/assemblyline_service_server-4.4.1.dev99-py3-none-any.whl.zip --markdown 20230720/a/assemblyline-service-server/4.4.1.dev98-4.4.1.dev99/diff.md --exclude *.pyd
+[2023-07-20 19:50:20] INFO root fetch - processPackages [tap-shopify]: Downloading https://files.pythonhosted.org/packages/a5/54/7674b4fa0918dcaa1668e88aff920e9fd5c672fe1588eba61393cfacea08/tap-shopify-1.7.6.tar.gz
+[2023-07-20 19:50:20] INFO root fetch - processPackages [cs-models]: Downloading https://files.pythonhosted.org/packages/8c/4c/e48ab48e00c2dd2f9799da4f76632085fd545ef18606abde256a640ffa7a/cs-models-0.0.99.dev4.tar.gz
+[2023-07-20 19:50:20] INFO root fetch - processPackages [assemblyline-v4-service]: executing diffoscope
+[2023-07-20 19:50:20] INFO root fetch - processPackages [assemblyline-v4-service]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline_v4_service-4.4.1.dev98-py3-none-any.whl.zip tmp/assemblyline_v4_service-4.4.1.dev99-py3-none-any.whl.zip --markdown 20230720/a/assemblyline-v4-service/4.4.1.dev98-4.4.1.dev99/diff.md --exclude *.pyd
+[2023-07-20 19:50:20] INFO root fetch - processPackages [assemblyline-ui]: executing diffoscope
+[2023-07-20 19:50:20] INFO root fetch - processPackages [assemblyline-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline_ui-4.4.1.dev98-py3-none-any.whl.zip tmp/assemblyline_ui-4.4.1.dev99-py3-none-any.whl.zip --markdown 20230720/a/assemblyline-ui/4.4.1.dev98-4.4.1.dev99/diff.md --exclude *.pyd
+[2023-07-20 19:50:20] INFO root fetch - processPackages [tap-shopify]: executing diffoscope
+[2023-07-20 19:50:20] INFO root fetch - processPackages [tap-shopify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tap-shopify-1.7.5.tar.gz tmp/tap-shopify-1.7.6.tar.gz --markdown 20230720/t/tap-shopify/1.7.5-1.7.6/diff.md --exclude *.pyd
+[2023-07-20 19:50:20] INFO root fetch - processPackages [airbyte-api]: Downloading https://files.pythonhosted.org/packages/c8/ff/cb73f3116051fd1759305c40178b654a37b22e1085a441b4ba720c8525d8/airbyte-api-0.7.0.tar.gz
+[2023-07-20 19:50:20] INFO root fetch - processPackages [assemblyline]: Downloading https://files.pythonhosted.org/packages/bd/bc/8573bd972e279862ab5c57e5a99e53f5087cd49a2741a054d2753ef654a7/assemblyline-4.4.1.dev99.tar.gz
+[2023-07-20 19:50:20] INFO root fetch - processPackages [airbyte-api]: executing diffoscope
+[2023-07-20 19:50:20] INFO root fetch - processPackages [airbyte-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airbyte-api-0.6.0.tar.gz tmp/airbyte-api-0.7.0.tar.gz --markdown 20230720/a/airbyte-api/0.6.0-0.7.0/diff.md --exclude *.pyd
+[2023-07-20 19:50:20] INFO root fetch - processPackages [cs-models]: executing diffoscope
+[2023-07-20 19:50:20] INFO root fetch - processPackages [cs-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cs-models-0.0.99.dev3.tar.gz tmp/cs-models-0.0.99.dev4.tar.gz --markdown 20230720/c/cs-models/0.0.99.dev3-0.0.99.dev4/diff.md --exclude *.pyd
+[2023-07-20 19:50:20] INFO root fetch - processPackages [assemblyline]: executing diffoscope
+[2023-07-20 19:50:20] INFO root fetch - processPackages [assemblyline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline-4.4.1.dev98.tar.gz tmp/assemblyline-4.4.1.dev99.tar.gz --markdown 20230720/a/assemblyline/4.4.1.dev98-4.4.1.dev99/diff.md --exclude *.pyd
+[2023-07-20 19:50:21] INFO root fetch - processPackages [assemblyline-service-client]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_service_client-4.4.1.dev98-py3-none-any.whl.zip]
+[2023-07-20 19:50:21] INFO root fetch - processPackages [assemblyline-service-client]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_service_client-4.4.1.dev99-py3-none-any.whl.zip]
+[2023-07-20 19:50:21] INFO root fetch - processPackages [assemblyline-service-client]: Start processing: assemblyline-core
+[2023-07-20 19:50:21] INFO root fetch - main [MainThread]: End processing [assemblyline-service-client]: success
+[2023-07-20 19:50:21] INFO root fetch - processPackages [assemblyline-core]: New version: [4.4.1.dev99] Old Version: [4.4.1.dev98]
+[2023-07-20 19:50:21] INFO root fetch - processPackages [roblox-pyc]: Remove: archive file [/home/abi/fetcher/tmp/roblox-pyc-1.6.6.5.4.tar.gz]
+[2023-07-20 19:50:21] INFO root fetch - processPackages [roblox-pyc]: Remove: archive file [/home/abi/fetcher/tmp/roblox-pyc-1.6.6.5a0.tar.gz]
+[2023-07-20 19:50:21] INFO root fetch - processPackages [roblox-pyc]: Start processing: rime-sdk
+[2023-07-20 19:50:21] INFO root fetch - main [MainThread]: End processing [roblox-pyc]: success
+[2023-07-20 19:50:21] INFO root fetch - processPackages [assemblyline-core]: Downloading https://files.pythonhosted.org/packages/c6/b0/1bb0cc8f270604c12a6c573e663a56b4479a805585b2f0dec5745c366b75/assemblyline-core-4.4.1.dev98.tar.gz
+[2023-07-20 19:50:21] INFO root fetch - processPackages [rime-sdk]: New version: [2.2.0rc3] Old Version: [2.2.0rc2]
+[2023-07-20 19:50:21] INFO root fetch - processPackages [threemystic-cloud-data-client]: Remove: archive file [/home/abi/fetcher/tmp/threemystic_cloud_data_client-0.1.15.tar.gz]
+[2023-07-20 19:50:21] INFO root fetch - processPackages [threemystic-cloud-data-client]: Remove: archive file [/home/abi/fetcher/tmp/threemystic_cloud_data_client-0.1.16.tar.gz]
+[2023-07-20 19:50:21] INFO root fetch - main [MainThread]: End processing [threemystic-cloud-data-client]: success
+[2023-07-20 19:50:21] INFO root fetch - processPackages [assemblyline-service-server]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_service_server-4.4.1.dev98-py3-none-any.whl.zip]
+[2023-07-20 19:50:21] INFO root fetch - processPackages [assemblyline-service-server]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_service_server-4.4.1.dev99-py3-none-any.whl.zip]
+[2023-07-20 19:50:21] INFO root fetch - main [MainThread]: End processing [assemblyline-service-server]: success
+[2023-07-20 19:50:22] INFO root fetch - processPackages [rime-sdk]: Downloading https://files.pythonhosted.org/packages/f9/50/f9067dc2544e3f262a34dc5f6f9b67f43921bc598d9fe3f4122ec1b876c3/rime_sdk-2.2.0rc2.tar.gz
+[2023-07-20 19:50:22] INFO root fetch - processPackages [assemblyline-core]: Downloading https://files.pythonhosted.org/packages/63/40/1e762930effd688f4bca07aca72276ca6ebee782934f06a6006ea66b2f16/assemblyline-core-4.4.1.dev99.tar.gz
+[2023-07-20 19:50:22] INFO root fetch - processPackages [tap-shopify]: Remove: archive file [/home/abi/fetcher/tmp/tap-shopify-1.7.5.tar.gz]
+[2023-07-20 19:50:22] INFO root fetch - processPackages [tap-shopify]: Remove: archive file [/home/abi/fetcher/tmp/tap-shopify-1.7.6.tar.gz]
+[2023-07-20 19:50:22] INFO root fetch - main [MainThread]: End processing [tap-shopify]: success
+[2023-07-20 19:50:22] INFO root fetch - processPackages [assemblyline-core]: executing diffoscope
+[2023-07-20 19:50:22] INFO root fetch - processPackages [assemblyline-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline-core-4.4.1.dev98.tar.gz tmp/assemblyline-core-4.4.1.dev99.tar.gz --markdown 20230720/a/assemblyline-core/4.4.1.dev98-4.4.1.dev99/diff.md --exclude *.pyd
+[2023-07-20 19:50:22] INFO root fetch - processPackages [assemblyline-ui]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_ui-4.4.1.dev98-py3-none-any.whl.zip]
+[2023-07-20 19:50:22] INFO root fetch - processPackages [assemblyline-ui]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_ui-4.4.1.dev99-py3-none-any.whl.zip]
+[2023-07-20 19:50:22] INFO root fetch - main [MainThread]: End processing [assemblyline-ui]: success
+[2023-07-20 19:50:22] INFO root fetch - processPackages [rime-sdk]: Downloading https://files.pythonhosted.org/packages/1c/43/541e31187ab2bcd354a873649f94e2559e707fe49beade9175beb1618a6a/rime_sdk-2.2.0rc3.tar.gz
+[2023-07-20 19:50:22] INFO root fetch - processPackages [rime-sdk]: executing diffoscope
+[2023-07-20 19:50:22] INFO root fetch - processPackages [rime-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rime_sdk-2.2.0rc2.tar.gz tmp/rime_sdk-2.2.0rc3.tar.gz --markdown 20230720/r/rime-sdk/2.2.0rc2-2.2.0rc3/diff.md --exclude *.pyd
+[2023-07-20 19:50:23] INFO root fetch - processPackages [cs-models]: Remove: archive file [/home/abi/fetcher/tmp/cs-models-0.0.99.dev3.tar.gz]
+[2023-07-20 19:50:23] INFO root fetch - processPackages [cs-models]: Remove: archive file [/home/abi/fetcher/tmp/cs-models-0.0.99.dev4.tar.gz]
+[2023-07-20 19:50:23] INFO root fetch - main [MainThread]: End processing [cs-models]: success
+[2023-07-20 19:50:23] INFO root fetch - processPackages [assemblyline]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline-4.4.1.dev98.tar.gz]
+[2023-07-20 19:50:23] INFO root fetch - processPackages [assemblyline]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline-4.4.1.dev99.tar.gz]
+[2023-07-20 19:50:23] INFO root fetch - main [MainThread]: End processing [assemblyline]: success
+[2023-07-20 19:50:23] INFO root fetch - processPackages [assemblyline-v4-service]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_v4_service-4.4.1.dev98-py3-none-any.whl.zip]
+[2023-07-20 19:50:23] INFO root fetch - processPackages [assemblyline-v4-service]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_v4_service-4.4.1.dev99-py3-none-any.whl.zip]
+[2023-07-20 19:50:23] INFO root fetch - main [MainThread]: End processing [assemblyline-v4-service]: success
+[2023-07-20 19:50:23] INFO root fetch - processPackages [airbyte-api]: Remove: archive file [/home/abi/fetcher/tmp/airbyte-api-0.6.0.tar.gz]
+[2023-07-20 19:50:23] INFO root fetch - processPackages [airbyte-api]: Remove: archive file [/home/abi/fetcher/tmp/airbyte-api-0.7.0.tar.gz]
+[2023-07-20 19:50:23] INFO root fetch - main [MainThread]: End processing [airbyte-api]: success
+[2023-07-20 19:50:23] INFO root fetch - processPackages [assemblyline-core]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline-core-4.4.1.dev98.tar.gz]
+[2023-07-20 19:50:23] INFO root fetch - processPackages [assemblyline-core]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline-core-4.4.1.dev99.tar.gz]
+[2023-07-20 19:50:23] INFO root fetch - main [MainThread]: End processing [assemblyline-core]: success
+[2023-07-20 19:50:25] INFO root fetch - processPackages [rime-sdk]: Remove: archive file [/home/abi/fetcher/tmp/rime_sdk-2.2.0rc2.tar.gz]
+[2023-07-20 19:50:25] INFO root fetch - processPackages [rime-sdk]: Remove: archive file [/home/abi/fetcher/tmp/rime_sdk-2.2.0rc3.tar.gz]
+[2023-07-20 19:50:25] INFO root fetch - main [MainThread]: End processing [rime-sdk]: success
+[2023-07-20 19:50:25] INFO root fetch - main [MainThread]: Store serial: [18970374]
