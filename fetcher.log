@@ -12566,3 +12566,168 @@ AssertionError: tmp/verify4py-test-0.1.7.tar.gz does not exist
 [2023-07-20 16:45:26] INFO root fetch - processPackages [whitelabelmachinename]: Remove: archive file [/home/abi/fetcher/tmp/whitelabelmachinename-4.0.1.tar.gz]
 [2023-07-20 16:45:26] INFO root fetch - main [MainThread]: End processing [whitelabelmachinename]: success
 [2023-07-20 16:45:26] INFO root fetch - main [MainThread]: Store serial: [18968155]
+[2023-07-20 16:50:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18968155]
+[2023-07-20 16:50:35] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-07-20 16:50:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: whoisdomain
+[2023-07-20 16:50:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: OpenFisca-Survey-Manager
+[2023-07-20 16:50:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: abst
+[2023-07-20 16:50:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kuki
+[2023-07-20 16:50:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ms-deisotope
+[2023-07-20 16:50:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: collective.immediatecreate
+[2023-07-20 16:50:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sflkit
+[2023-07-20 16:50:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dwiqc
+[2023-07-20 16:50:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pymazda
+[2023-07-20 16:50:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: tablate
+[2023-07-20 16:50:35] INFO root fetch - processPackages [sflkit]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-07-20 16:50:35] INFO root fetch - processPackages [pymazda]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-20 16:50:35] INFO root fetch - processPackages [collective.immediatecreate]: New version: [2.0.1] Old Version: [2.0.0]
+[2023-07-20 16:50:35] INFO root fetch - processPackages [tablate]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-20 16:50:35] INFO root fetch - processPackages [whoisdomain]: New version: [1.20230720.2] Old Version: [1.20230718.3]
+[2023-07-20 16:50:35] INFO root fetch - processPackages [kuki]: New version: [0.9.0] Old Version: [0.3.0]
+[2023-07-20 16:50:35] INFO root fetch - processPackages [OpenFisca-Survey-Manager]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-07-20 16:50:35] INFO root fetch - processPackages [dwiqc]: New version: [0.7.2] Old Version: [0.7.1]
+[2023-07-20 16:50:35] INFO root fetch - processPackages [abst]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-07-20 16:50:35] INFO root fetch - processPackages [ms-deisotope]: New version: [0.0.9] Old Version: [0.0.50]
+[2023-07-20 16:50:35] INFO root fetch - processPackages [tablate]: Downloading https://files.pythonhosted.org/packages/22/90/0c81c61a73bf2f822d9a356eb6abf91eab31e6e47485b068da0fe73b1930/tablate-0.0.2.tar.gz
+[2023-07-20 16:50:36] INFO root fetch - processPackages [sflkit]: Downloading https://files.pythonhosted.org/packages/8c/81/b213b4640c3fcaee492722fc6c690a7a3c288aaa54b2e1a1ad3295b5bf89/sflkit-0.2.5.tar.gz
+[2023-07-20 16:50:36] INFO root fetch - processPackages [pymazda]: Downloading https://files.pythonhosted.org/packages/25/68/5461308e5154a61c8864bdd9c7d00437ffc92200dbb8880aaa39831853af/pymazda-0.3.8.tar.gz
+[2023-07-20 16:50:36] INFO root fetch - processPackages [whoisdomain]: Downloading https://files.pythonhosted.org/packages/c3/fc/da1df3e70ac64905912c2725cd63444677e0845f08f1b56e735c2b0c8658/whoisdomain-1.20230718.3.tar.gz
+[2023-07-20 16:50:36] INFO root fetch - processPackages [ms-deisotope]: Downloading https://files.pythonhosted.org/packages/33/20/067f455f26938ef2e65869c78e4fdcf1b206dfd1e108ded69cab95f168bc/ms_deisotope-0.0.50.tar.gz
+[2023-07-20 16:50:36] INFO root fetch - processPackages [kuki]: Downloading https://files.pythonhosted.org/packages/4a/b2/bd33f6502340c877ab59eb6910c0766e703df09aa0827c670681088a5842/kuki-0.3.0.tar.gz
+[2023-07-20 16:50:36] INFO root fetch - processPackages [collective.immediatecreate]: Downloading https://files.pythonhosted.org/packages/28/be/a87a8f823a7187ec3857825dbfa59898eb741e2706c604a6ce00d2f91f7a/collective.immediatecreate-2.0.0.tar.gz
+[2023-07-20 16:50:36] INFO root fetch - processPackages [dwiqc]: Downloading https://files.pythonhosted.org/packages/f2/17/d641e5d73244d0c719b14fdde9da57a1823a36e69d82c56e21f8cd5e3f94/dwiqc-0.7.1-py2.py3-none-any.whl
+[2023-07-20 16:50:36] INFO root fetch - processPackages [OpenFisca-Survey-Manager]: Downloading https://files.pythonhosted.org/packages/a6/dc/aab15d873a8150ca4bb68f11bda966cde602afc6839233c9170c920de74c/OpenFisca-Survey-Manager-1.1.1.tar.gz
+[2023-07-20 16:50:36] INFO root fetch - processPackages [abst]: Downloading https://files.pythonhosted.org/packages/38/24/a09dde489fc32cdc7e4ae685e7827b1e6d7927657fcfd899130aec52ad43/abst-1.9.8.tar.gz
+[2023-07-20 16:50:36] INFO root fetch - processPackages [tablate]: Downloading https://files.pythonhosted.org/packages/d4/92/c66074552a198619438991f49236a0db251b4f3aabf5da938254c5dadcc5/tablate-0.0.3.tar.gz
+[2023-07-20 16:50:36] INFO root fetch - processPackages [sflkit]: Downloading https://files.pythonhosted.org/packages/77/2d/9c443506b34714b9055f69f713ac8c2e0654afb20ce72d4f86086646f283/sflkit-0.2.6.tar.gz
+[2023-07-20 16:50:36] INFO root fetch - processPackages [tablate]: executing diffoscope
+[2023-07-20 16:50:36] INFO root fetch - processPackages [tablate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tablate-0.0.2.tar.gz tmp/tablate-0.0.3.tar.gz --markdown 20230720/t/tablate/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-20 16:50:36] INFO root fetch - processPackages [whoisdomain]: Downloading https://files.pythonhosted.org/packages/bb/3f/b12afd79c2fd142a8fbfe7e632a2b97f044f4aff4c2376b0a369360e0414/whoisdomain-1.20230720.2.tar.gz
+[2023-07-20 16:50:36] INFO root fetch - processPackages [dwiqc]: Downloading https://files.pythonhosted.org/packages/3c/10/901355ec84e55de5929f5bea2602cc3602b77cf65b5b365cc1b0ea3d5125/dwiqc-0.7.2-py2.py3-none-any.whl
+[2023-07-20 16:50:36] INFO root fetch - processPackages [pymazda]: Downloading https://files.pythonhosted.org/packages/2a/18/03e458743b691451c69f9e600be9a01d2b0546971f3355aedd497d58305b/pymazda-0.3.9.tar.gz
+[2023-07-20 16:50:36] INFO root fetch - processPackages [abst]: Downloading https://files.pythonhosted.org/packages/8c/2a/04111ff01dc65f02e53d84e09b191794ff50b37995285e7c6966e30bc232/abst-1.9.9.tar.gz
+[2023-07-20 16:50:36] INFO root fetch - processPackages [OpenFisca-Survey-Manager]: Downloading https://files.pythonhosted.org/packages/47/30/7f6fb3d7f86b2784e4b5ec702cef2949849c102c48702f46434798014ea3/OpenFisca-Survey-Manager-1.1.2.tar.gz
+[2023-07-20 16:50:36] INFO root fetch - processPackages [kuki]: Downloading https://files.pythonhosted.org/packages/51/db/120aa5bb3947fcf83150a739ae6f651770137a0a5069b832d1c9f02bbbc0/kuki-0.9.0.tar.gz
+[2023-07-20 16:50:36] INFO root fetch - processPackages [collective.immediatecreate]: Downloading https://files.pythonhosted.org/packages/2e/f4/975ce510ea387b18fefdda3e52c81a4e9b761348156b427bc3c624aad72b/collective.immediatecreate-2.0.1.tar.gz
+[2023-07-20 16:50:36] INFO root fetch - processPackages [dwiqc]: executing diffoscope
+[2023-07-20 16:50:36] INFO root fetch - processPackages [dwiqc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dwiqc-0.7.1-py2.py3-none-any.whl.zip tmp/dwiqc-0.7.2-py2.py3-none-any.whl.zip --markdown 20230720/d/dwiqc/0.7.1-0.7.2/diff.md --exclude *.pyd
+[2023-07-20 16:50:36] INFO root fetch - processPackages [whoisdomain]: executing diffoscope
+[2023-07-20 16:50:36] INFO root fetch - processPackages [whoisdomain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/whoisdomain-1.20230718.3.tar.gz tmp/whoisdomain-1.20230720.2.tar.gz --markdown 20230720/w/whoisdomain/1.20230718.3-1.20230720.2/diff.md --exclude *.pyd
+[2023-07-20 16:50:36] INFO root fetch - processPackages [pymazda]: executing diffoscope
+[2023-07-20 16:50:36] INFO root fetch - processPackages [pymazda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymazda-0.3.8.tar.gz tmp/pymazda-0.3.9.tar.gz --markdown 20230720/p/pymazda/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-20 16:50:36] INFO root fetch - processPackages [sflkit]: executing diffoscope
+[2023-07-20 16:50:36] INFO root fetch - processPackages [sflkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sflkit-0.2.5.tar.gz tmp/sflkit-0.2.6.tar.gz --markdown 20230720/s/sflkit/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-07-20 16:50:36] INFO root fetch - processPackages [OpenFisca-Survey-Manager]: executing diffoscope
+[2023-07-20 16:50:36] INFO root fetch - processPackages [OpenFisca-Survey-Manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OpenFisca-Survey-Manager-1.1.1.tar.gz tmp/OpenFisca-Survey-Manager-1.1.2.tar.gz --markdown 20230720/O/OpenFisca-Survey-Manager/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-07-20 16:50:36] INFO root fetch - processPackages [kuki]: executing diffoscope
+[2023-07-20 16:50:36] INFO root fetch - processPackages [kuki]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kuki-0.3.0.tar.gz tmp/kuki-0.9.0.tar.gz --markdown 20230720/k/kuki/0.3.0-0.9.0/diff.md --exclude *.pyd
+[2023-07-20 16:50:37] INFO root fetch - processPackages [abst]: executing diffoscope
+[2023-07-20 16:50:37] INFO root fetch - processPackages [abst]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abst-1.9.8.tar.gz tmp/abst-1.9.9.tar.gz --markdown 20230720/a/abst/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-07-20 16:50:37] INFO root fetch - processPackages [collective.immediatecreate]: executing diffoscope
+[2023-07-20 16:50:37] INFO root fetch - processPackages [collective.immediatecreate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/collective.immediatecreate-2.0.0.tar.gz tmp/collective.immediatecreate-2.0.1.tar.gz --markdown 20230720/c/collective.immediatecreate/2.0.0-2.0.1/diff.md --exclude *.pyd
+[2023-07-20 16:50:37] INFO root fetch - processPackages [ms-deisotope]: Downloading https://files.pythonhosted.org/packages/d0/ab/1e1aed9c2f0d137be5ed884f3fdcff9744df1b613aeb56108104c28d4b36/ms_deisotope-0.0.9.tar.gz
+[2023-07-20 16:50:38] INFO root fetch - processPackages [tablate]: Remove: archive file [/home/abi/fetcher/tmp/tablate-0.0.2.tar.gz]
+[2023-07-20 16:50:38] INFO root fetch - processPackages [tablate]: Remove: archive file [/home/abi/fetcher/tmp/tablate-0.0.3.tar.gz]
+[2023-07-20 16:50:38] INFO root fetch - processPackages [tablate]: Start processing: vna
+[2023-07-20 16:50:38] INFO root fetch - main [MainThread]: End processing [tablate]: success
+[2023-07-20 16:50:38] INFO root fetch - processPackages [vna]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-20 16:50:38] INFO root fetch - processPackages [ms-deisotope]: executing diffoscope
+[2023-07-20 16:50:38] INFO root fetch - processPackages [ms-deisotope]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ms_deisotope-0.0.50.tar.gz tmp/ms_deisotope-0.0.9.tar.gz --markdown 20230720/m/ms-deisotope/0.0.50-0.0.9/diff.md --exclude *.pyd
+[2023-07-20 16:50:38] INFO root fetch - processPackages [dwiqc]: Remove: archive file [/home/abi/fetcher/tmp/dwiqc-0.7.1-py2.py3-none-any.whl.zip]
+[2023-07-20 16:50:38] INFO root fetch - processPackages [dwiqc]: Remove: archive file [/home/abi/fetcher/tmp/dwiqc-0.7.2-py2.py3-none-any.whl.zip]
+[2023-07-20 16:50:38] INFO root fetch - processPackages [dwiqc]: Start processing: solo-epd-loader
+[2023-07-20 16:50:38] INFO root fetch - main [MainThread]: End processing [dwiqc]: success
+[2023-07-20 16:50:38] INFO root fetch - processPackages [vna]: Downloading https://files.pythonhosted.org/packages/e1/00/a7e0f4b445715d7c208f7808cfacc880101c8a77306e6b3015c1cb8000a4/vna-0.0.1.tar.gz
+[2023-07-20 16:50:38] INFO root fetch - processPackages [solo-epd-loader]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-07-20 16:50:38] WARNING root fetch - processPackages [vna]: Skipping package: exceeds size limit 18550392>=10485760
+[2023-07-20 16:50:38] INFO root fetch - processPackages [vna]: Start processing: docassemble.ALToolbox
+[2023-07-20 16:50:38] INFO root fetch - main [MainThread]: End processing [vna] error
+[2023-07-20 16:50:38] INFO root fetch - processPackages [pymazda]: Remove: archive file [/home/abi/fetcher/tmp/pymazda-0.3.8.tar.gz]
+[2023-07-20 16:50:38] INFO root fetch - processPackages [pymazda]: Remove: archive file [/home/abi/fetcher/tmp/pymazda-0.3.9.tar.gz]
+[2023-07-20 16:50:38] INFO root fetch - processPackages [pymazda]: Start processing: geovisio
+[2023-07-20 16:50:38] INFO root fetch - main [MainThread]: End processing [pymazda]: success
+[2023-07-20 16:50:38] INFO root fetch - processPackages [docassemble.ALToolbox]: New version: [0.8.2] Old Version: [0.8.1]
+[2023-07-20 16:50:38] WARNING root fetch - processPackages [geovisio]: Skipping, unable to determine old version
+[2023-07-20 16:50:38] INFO root fetch - processPackages [geovisio]: Start processing: ninjakiwi-api
+[2023-07-20 16:50:38] INFO root fetch - main [MainThread]: End processing [geovisio] error
+[2023-07-20 16:50:38] INFO root fetch - processPackages [ninjakiwi-api]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-07-20 16:50:38] INFO root fetch - processPackages [sflkit]: Remove: archive file [/home/abi/fetcher/tmp/sflkit-0.2.5.tar.gz]
+[2023-07-20 16:50:38] INFO root fetch - processPackages [sflkit]: Remove: archive file [/home/abi/fetcher/tmp/sflkit-0.2.6.tar.gz]
+[2023-07-20 16:50:38] INFO root fetch - processPackages [sflkit]: Start processing: auth-satvadev
+[2023-07-20 16:50:38] INFO root fetch - main [MainThread]: End processing [sflkit]: success
+[2023-07-20 16:50:38] INFO root fetch - processPackages [whoisdomain]: Remove: archive file [/home/abi/fetcher/tmp/whoisdomain-1.20230718.3.tar.gz]
+[2023-07-20 16:50:38] INFO root fetch - processPackages [whoisdomain]: Remove: archive file [/home/abi/fetcher/tmp/whoisdomain-1.20230720.2.tar.gz]
+[2023-07-20 16:50:38] INFO root fetch - processPackages [whoisdomain]: Start processing: auth-satvadev
+[2023-07-20 16:50:38] INFO root fetch - main [MainThread]: End processing [whoisdomain]: success
+[2023-07-20 16:50:38] INFO root fetch - processPackages [abst]: Remove: archive file [/home/abi/fetcher/tmp/abst-1.9.8.tar.gz]
+[2023-07-20 16:50:38] INFO root fetch - processPackages [abst]: Remove: archive file [/home/abi/fetcher/tmp/abst-1.9.9.tar.gz]
+[2023-07-20 16:50:38] INFO root fetch - processPackages [abst]: Start processing: steroid
+[2023-07-20 16:50:38] INFO root fetch - main [MainThread]: End processing [abst]: success
+[2023-07-20 16:50:38] INFO root fetch - processPackages [ninjakiwi-api]: Downloading https://files.pythonhosted.org/packages/7f/cd/2a93d0bc86bee2776a7541da9cfdb1bc8ba139eafa3f0b2c50e31f169930/ninjakiwi_api-0.0.6.tar.gz
+[2023-07-20 16:50:38] INFO root fetch - processPackages [solo-epd-loader]: Downloading https://files.pythonhosted.org/packages/65/85/befdd7cd5544d5c8ee1cf28c82563273b8902b9da67c911229ced2e4d8dd/solo_epd_loader-0.3.0.tar.gz
+[2023-07-20 16:50:38] INFO root fetch - processPackages [OpenFisca-Survey-Manager]: Remove: archive file [/home/abi/fetcher/tmp/OpenFisca-Survey-Manager-1.1.1.tar.gz]
+[2023-07-20 16:50:38] INFO root fetch - processPackages [OpenFisca-Survey-Manager]: Remove: archive file [/home/abi/fetcher/tmp/OpenFisca-Survey-Manager-1.1.2.tar.gz]
+[2023-07-20 16:50:38] INFO root fetch - processPackages [OpenFisca-Survey-Manager]: Start processing: atomicshop
+[2023-07-20 16:50:38] INFO root fetch - main [MainThread]: End processing [OpenFisca-Survey-Manager]: success
+[2023-07-20 16:50:38] INFO root fetch - processPackages [docassemble.ALToolbox]: Downloading https://files.pythonhosted.org/packages/55/55/9906cf90684556df421322081e1f28183a8cf343fabf36c036d4cc7c18b6/docassemble.ALToolbox-0.8.1.tar.gz
+[2023-07-20 16:50:38] INFO root fetch - processPackages [collective.immediatecreate]: Remove: archive file [/home/abi/fetcher/tmp/collective.immediatecreate-2.0.0.tar.gz]
+[2023-07-20 16:50:38] INFO root fetch - processPackages [collective.immediatecreate]: Remove: archive file [/home/abi/fetcher/tmp/collective.immediatecreate-2.0.1.tar.gz]
+[2023-07-20 16:50:38] INFO root fetch - processPackages [collective.immediatecreate]: Start processing: helptasker-common
+[2023-07-20 16:50:38] INFO root fetch - main [MainThread]: End processing [collective.immediatecreate]: success
+[2023-07-20 16:50:38] INFO root fetch - processPackages [auth-satvadev]: New version: [1.0.2a0] Old Version: [1.0.2]
+[2023-07-20 16:50:38] INFO root fetch - processPackages [auth-satvadev]: New version: [1.0.2a0] Old Version: [1.0.2]
+[2023-07-20 16:50:38] INFO root fetch - processPackages [atomicshop]: New version: [1.9.0] Old Version: [1.8.9]
+[2023-07-20 16:50:38] WARNING root fetch - processPackages [helptasker-common]: Skipping, unable to determine old version
+[2023-07-20 16:50:38] INFO root fetch - main [MainThread]: End processing [helptasker-common] error
+[2023-07-20 16:50:38] INFO root fetch - processPackages [kuki]: Remove: archive file [/home/abi/fetcher/tmp/kuki-0.3.0.tar.gz]
+[2023-07-20 16:50:38] INFO root fetch - processPackages [kuki]: Remove: archive file [/home/abi/fetcher/tmp/kuki-0.9.0.tar.gz]
+[2023-07-20 16:50:38] INFO root fetch - main [MainThread]: End processing [kuki]: success
+[2023-07-20 16:50:38] INFO root fetch - processPackages [steroid]: New version: [0.5b0] Old Version: [0.4b0]
+[2023-07-20 16:50:38] INFO root fetch - processPackages [atomicshop]: Downloading https://files.pythonhosted.org/packages/b4/1e/7daccece47bd79e92be68fbc03a572afb20d5e10a88d5c4e9fb13c5b6632/atomicshop-1.8.9-py3-none-any.whl
+[2023-07-20 16:50:39] INFO root fetch - processPackages [auth-satvadev]: Downloading https://files.pythonhosted.org/packages/74/16/a6a4d775018b0470e12380c247caa8d29816e1198813d7e83042579c85e2/auth_satvadev-1.0.2.tar.gz
+[2023-07-20 16:50:39] INFO root fetch - processPackages [auth-satvadev]: Downloading https://files.pythonhosted.org/packages/74/16/a6a4d775018b0470e12380c247caa8d29816e1198813d7e83042579c85e2/auth_satvadev-1.0.2.tar.gz
+[2023-07-20 16:50:39] INFO root fetch - processPackages [steroid]: Downloading https://files.pythonhosted.org/packages/03/4e/0f58b9ccf50194ea9a64863d91abf4dc2493eb0b47330a7d2c6229947034/steroid-0.4b0.tar.gz
+[2023-07-20 16:50:39] INFO root fetch - processPackages [ninjakiwi-api]: Downloading https://files.pythonhosted.org/packages/9f/fa/ba847ccfb710418c634d83ec0bce8b109ee10dc0175eedeefca7c8ba9efd/ninjakiwi_api-0.0.7.tar.gz
+[2023-07-20 16:50:39] INFO root fetch - processPackages [docassemble.ALToolbox]: Downloading https://files.pythonhosted.org/packages/a5/93/65c04840a74409c5a3f70a15260846ab2dbfc60b2bfe81e2cd512c7a8187/docassemble.ALToolbox-0.8.2.tar.gz
+[2023-07-20 16:50:39] INFO root fetch - processPackages [atomicshop]: Downloading https://files.pythonhosted.org/packages/51/1d/590af4a7ef5b186ee8f92edab5ec2a02b44d46f130bfa6794dbcf9a53b7d/atomicshop-1.9.0-py3-none-any.whl
+[2023-07-20 16:50:39] INFO root fetch - processPackages [solo-epd-loader]: Downloading https://files.pythonhosted.org/packages/e5/88/beba0f65f0f5598b2350b5dd6133b7600e9a4e4d22e05e8215345a452936/solo_epd_loader-0.3.1.tar.gz
+[2023-07-20 16:50:39] INFO root fetch - processPackages [ninjakiwi-api]: executing diffoscope
+[2023-07-20 16:50:39] INFO root fetch - processPackages [ninjakiwi-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ninjakiwi_api-0.0.6.tar.gz tmp/ninjakiwi_api-0.0.7.tar.gz --markdown 20230720/n/ninjakiwi-api/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-07-20 16:50:39] INFO root fetch - processPackages [atomicshop]: executing diffoscope
+[2023-07-20 16:50:39] INFO root fetch - processPackages [atomicshop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atomicshop-1.8.9-py3-none-any.whl.zip tmp/atomicshop-1.9.0-py3-none-any.whl.zip --markdown 20230720/a/atomicshop/1.8.9-1.9.0/diff.md --exclude *.pyd
+[2023-07-20 16:50:39] INFO root fetch - processPackages [docassemble.ALToolbox]: executing diffoscope
+[2023-07-20 16:50:39] INFO root fetch - processPackages [docassemble.ALToolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docassemble.ALToolbox-0.8.1.tar.gz tmp/docassemble.ALToolbox-0.8.2.tar.gz --markdown 20230720/d/docassemble.ALToolbox/0.8.1-0.8.2/diff.md --exclude *.pyd
+[2023-07-20 16:50:39] INFO root fetch - processPackages [steroid]: Downloading https://files.pythonhosted.org/packages/f8/28/52c17a649c259552a3c905d405351bc79284fe9d563f29528d67ef761ab2/steroid-0.5b0.tar.gz
+[2023-07-20 16:50:39] INFO root fetch - processPackages [auth-satvadev]: Downloading https://files.pythonhosted.org/packages/5e/92/ddf9b04e091b3fe8d304fc2048439c2d569beb029ca503765c1fdd2af4c4/auth_satvadev-1.0.2a0.tar.gz
+[2023-07-20 16:50:39] INFO root fetch - processPackages [auth-satvadev]: Downloading https://files.pythonhosted.org/packages/5e/92/ddf9b04e091b3fe8d304fc2048439c2d569beb029ca503765c1fdd2af4c4/auth_satvadev-1.0.2a0.tar.gz
+[2023-07-20 16:50:39] INFO root fetch - processPackages [steroid]: executing diffoscope
+[2023-07-20 16:50:39] INFO root fetch - processPackages [steroid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/steroid-0.4b0.tar.gz tmp/steroid-0.5b0.tar.gz --markdown 20230720/s/steroid/0.4b0-0.5b0/diff.md --exclude *.pyd
+[2023-07-20 16:50:39] INFO root fetch - processPackages [solo-epd-loader]: executing diffoscope
+[2023-07-20 16:50:39] INFO root fetch - processPackages [solo-epd-loader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/solo_epd_loader-0.3.0.tar.gz tmp/solo_epd_loader-0.3.1.tar.gz --markdown 20230720/s/solo-epd-loader/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-07-20 16:50:39] INFO root fetch - processPackages [auth-satvadev]: executing diffoscope
+[2023-07-20 16:50:39] INFO root fetch - processPackages [auth-satvadev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auth_satvadev-1.0.2.tar.gz tmp/auth_satvadev-1.0.2a0.tar.gz --markdown 20230720/a/auth-satvadev/1.0.2-1.0.2a0/diff.md --exclude *.pyd
+[2023-07-20 16:50:39] INFO root fetch - processPackages [auth-satvadev]: executing diffoscope
+[2023-07-20 16:50:39] INFO root fetch - processPackages [auth-satvadev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auth_satvadev-1.0.2.tar.gz tmp/auth_satvadev-1.0.2a0.tar.gz --markdown 20230720/a/auth-satvadev/1.0.2-1.0.2a0/diff.md --exclude *.pyd
+[2023-07-20 16:50:40] INFO root fetch - processPackages [ninjakiwi-api]: Remove: archive file [/home/abi/fetcher/tmp/ninjakiwi_api-0.0.6.tar.gz]
+[2023-07-20 16:50:40] INFO root fetch - processPackages [ninjakiwi-api]: Remove: archive file [/home/abi/fetcher/tmp/ninjakiwi_api-0.0.7.tar.gz]
+[2023-07-20 16:50:40] INFO root fetch - main [MainThread]: End processing [ninjakiwi-api]: success
+[2023-07-20 16:50:41] INFO root fetch - processPackages [auth-satvadev]: Remove: archive file [/home/abi/fetcher/tmp/auth_satvadev-1.0.2.tar.gz]
+[2023-07-20 16:50:41] INFO root fetch - processPackages [auth-satvadev]: Remove: archive file [/home/abi/fetcher/tmp/auth_satvadev-1.0.2a0.tar.gz]
+[2023-07-20 16:50:41] INFO root fetch - main [MainThread]: End processing [auth-satvadev]: success
+[2023-07-20 16:50:41] INFO root fetch - processPackages [steroid]: Remove: archive file [/home/abi/fetcher/tmp/steroid-0.4b0.tar.gz]
+[2023-07-20 16:50:41] INFO root fetch - processPackages [steroid]: Remove: archive file [/home/abi/fetcher/tmp/steroid-0.5b0.tar.gz]
+[2023-07-20 16:50:41] INFO root fetch - main [MainThread]: End processing [steroid]: success
+[2023-07-20 16:50:41] INFO root fetch - main [MainThread]: End processing [auth-satvadev]: success
+[2023-07-20 16:50:41] INFO root fetch - processPackages [docassemble.ALToolbox]: Remove: archive file [/home/abi/fetcher/tmp/docassemble.ALToolbox-0.8.1.tar.gz]
+[2023-07-20 16:50:41] INFO root fetch - processPackages [docassemble.ALToolbox]: Remove: archive file [/home/abi/fetcher/tmp/docassemble.ALToolbox-0.8.2.tar.gz]
+[2023-07-20 16:50:41] INFO root fetch - main [MainThread]: End processing [docassemble.ALToolbox]: success
+[2023-07-20 16:50:41] INFO root fetch - processPackages [solo-epd-loader]: Remove: archive file [/home/abi/fetcher/tmp/solo_epd_loader-0.3.0.tar.gz]
+[2023-07-20 16:50:41] INFO root fetch - processPackages [solo-epd-loader]: Remove: archive file [/home/abi/fetcher/tmp/solo_epd_loader-0.3.1.tar.gz]
+[2023-07-20 16:50:41] INFO root fetch - main [MainThread]: End processing [solo-epd-loader]: success
+[2023-07-20 16:50:41] INFO root fetch - processPackages [atomicshop]: Remove: archive file [/home/abi/fetcher/tmp/atomicshop-1.8.9-py3-none-any.whl.zip]
+[2023-07-20 16:50:41] INFO root fetch - processPackages [atomicshop]: Remove: archive file [/home/abi/fetcher/tmp/atomicshop-1.9.0-py3-none-any.whl.zip]
+[2023-07-20 16:50:41] INFO root fetch - main [MainThread]: End processing [atomicshop]: success
+[2023-07-20 16:50:44] INFO root fetch - processPackages [ms-deisotope]: Remove: archive file [/home/abi/fetcher/tmp/ms_deisotope-0.0.50.tar.gz]
+[2023-07-20 16:50:44] INFO root fetch - processPackages [ms-deisotope]: Remove: archive file [/home/abi/fetcher/tmp/ms_deisotope-0.0.9.tar.gz]
+[2023-07-20 16:50:44] INFO root fetch - main [MainThread]: End processing [ms-deisotope]: success
+[2023-07-20 16:50:44] INFO root fetch - main [MainThread]: Store serial: [18968221]
