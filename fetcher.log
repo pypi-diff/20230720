@@ -16825,3 +16825,99 @@ AssertionError: tmp/verify4py-test-0.1.7.tar.gz does not exist
 [2023-07-20 18:57:15] INFO root fetch - processPackages [seaplane]: Remove: archive file [/home/abi/fetcher/tmp/seaplane-0.3.9.tar.gz]
 [2023-07-20 18:57:15] INFO root fetch - main [MainThread]: End processing [seaplane]: success
 [2023-07-20 18:57:15] INFO root fetch - main [MainThread]: Store serial: [18969905]
+[2023-07-20 19:02:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18969905]
+[2023-07-20 19:02:25] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-20 19:02:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Faker
+[2023-07-20 19:02:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: DependiPy
+[2023-07-20 19:02:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: veetility
+[2023-07-20 19:02:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: datadog-api-client
+[2023-07-20 19:02:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: yalexs-ble
+[2023-07-20 19:02:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: llamaapi
+[2023-07-20 19:02:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: kcli
+[2023-07-20 19:02:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: stlib
+[2023-07-20 19:02:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: up-nextflap
+[2023-07-20 19:02:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo-addon-base-revision
+[2023-07-20 19:02:25] INFO root fetch - processPackages [datadog-api-client]: New version: [2.9.0] Old Version: [2.8.0]
+[2023-07-20 19:02:25] WARNING root fetch - processPackages [llamaapi]: Skipping, unable to determine old version
+[2023-07-20 19:02:25] INFO root fetch - processPackages [llamaapi]: Start processing: EnvisionRiskRaaS
+[2023-07-20 19:02:25] INFO root fetch - main [MainThread]: End processing [llamaapi] error
+[2023-07-20 19:02:25] INFO root fetch - processPackages [DependiPy]: New version: [1.0.8] Old Version: [1.0.2]
+[2023-07-20 19:02:25] INFO root fetch - processPackages [odoo-addon-base-revision]: New version: [16.0.1.0.1] Old Version: [16.0.1.0.0.3]
+[2023-07-20 19:02:25] INFO root fetch - processPackages [EnvisionRiskRaaS]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-20 19:02:25] INFO root fetch - processPackages [up-nextflap]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-20 19:02:25] INFO root fetch - processPackages [stlib]: New version: [2.0] Old Version: [1.3.1]
+[2023-07-20 19:02:25] INFO root fetch - processPackages [veetility]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-07-20 19:02:25] INFO root fetch - processPackages [yalexs-ble]: New version: [2.2.3] Old Version: [2.2.2]
+[2023-07-20 19:02:25] INFO root fetch - processPackages [Faker]: New version: [9.9.1] Old Version: [9.9.0]
+[2023-07-20 19:02:25] INFO root fetch - processPackages [odoo-addon-base-revision]: Downloading https://files.pythonhosted.org/packages/09/d9/9ff2fd581678a39b2ef6d9378589cfa3f5e8dc1e9bc23d3da309b4d853c6/odoo_addon_base_revision-16.0.1.0.0.3-py3-none-any.whl
+[2023-07-20 19:02:25] INFO root fetch - processPackages [kcli]: New version: [99.0.202307201700] Old Version: [99.0.202307201328]
+[2023-07-20 19:02:25] INFO root fetch - processPackages [EnvisionRiskRaaS]: Downloading https://files.pythonhosted.org/packages/05/bd/ca211f5e126a823b736d251179e93e48c9c9511f2061e6faac5526db92c2/envisionriskraas-1.0.1.tar.gz
+[2023-07-20 19:02:25] INFO root fetch - processPackages [veetility]: Downloading https://files.pythonhosted.org/packages/b4/6c/d6775912e1f4b22333ed3a4fee91721e0069b8797ba5c31097f91a3135d6/veetility-0.1.98.tar.gz
+[2023-07-20 19:02:25] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/7b/42/ed326c39853a415480991e72d3e7c4778663914b8c4fb9f649ef817541bc/kcli-99.0.202307201328-py3-none-any.whl
+[2023-07-20 19:02:25] INFO root fetch - processPackages [datadog-api-client]: Downloading https://files.pythonhosted.org/packages/86/2e/14d9ffd8e2df1929107d24c1420d88e95559f32f77e7ddf9f3b6d12d33b5/datadog-api-client-2.8.0.tar.gz
+[2023-07-20 19:02:25] INFO root fetch - processPackages [up-nextflap]: Downloading https://files.pythonhosted.org/packages/4a/f8/82247fe33258ab6fec4bfe70190aa849ca498056dbc5dc3d1aefbdd85837/up_nextflap-0.0.4.tar.gz
+[2023-07-20 19:02:25] INFO root fetch - processPackages [stlib]: Downloading https://files.pythonhosted.org/packages/48/22/ea94ad6cf4fad998943384c4ee0143b4e25814278a66242b22156bd186af/stlib-1.3.1.tar.gz
+[2023-07-20 19:02:25] INFO root fetch - processPackages [DependiPy]: Downloading https://files.pythonhosted.org/packages/bf/99/6b9631de947ac673046f0e468fde35325f078d8d3de4199a8d2c33fe3607/DependiPy-1.0.2.tar.gz
+[2023-07-20 19:02:25] INFO root fetch - processPackages [yalexs-ble]: Downloading https://files.pythonhosted.org/packages/42/75/2c44e2b48f4bec45a3d00d9506a10776e8e2a631e9acfbe9d06a4e637006/yalexs_ble-2.2.2.tar.gz
+[2023-07-20 19:02:25] INFO root fetch - processPackages [Faker]: Downloading https://files.pythonhosted.org/packages/97/28/7a088e10e6654835d2423f12aec34aae16fe24c392106823dbe4c25ca7b8/Faker-9.9.0.tar.gz
+[2023-07-20 19:02:25] INFO root fetch - processPackages [veetility]: Downloading https://files.pythonhosted.org/packages/a0/4f/eb1359196e4e216d1ccfde231e462db3887b8a191ac90d104f3b45fa4169/veetility-0.1.99.tar.gz
+[2023-07-20 19:02:26] INFO root fetch - processPackages [EnvisionRiskRaaS]: Downloading https://files.pythonhosted.org/packages/e6/4e/6341be6fddb3fc6371f2376c970791077579acfc97384ed035a5e7550a00/envisionriskraas-1.0.2.tar.gz
+[2023-07-20 19:02:26] INFO root fetch - processPackages [odoo-addon-base-revision]: Downloading https://files.pythonhosted.org/packages/8c/d5/7c767f4b37fb16770fa4f9b53971fb3e27d3e85285fb101bd6e8148fc5b2/odoo_addon_base_revision-16.0.1.0.1-py3-none-any.whl
+[2023-07-20 19:02:26] INFO root fetch - processPackages [veetility]: executing diffoscope
+[2023-07-20 19:02:26] INFO root fetch - processPackages [veetility]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/veetility-0.1.98.tar.gz tmp/veetility-0.1.99.tar.gz --markdown 20230720/v/veetility/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-07-20 19:02:26] INFO root fetch - processPackages [EnvisionRiskRaaS]: executing diffoscope
+[2023-07-20 19:02:26] INFO root fetch - processPackages [EnvisionRiskRaaS]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/envisionriskraas-1.0.1.tar.gz tmp/envisionriskraas-1.0.2.tar.gz --markdown 20230720/E/EnvisionRiskRaaS/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-20 19:02:26] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/f4/8f/861b8caedbed0c21dde2eb72299bdbe8b90300c82f052c511b904a438b0c/kcli-99.0.202307201700-py3-none-any.whl
+[2023-07-20 19:02:26] INFO root fetch - processPackages [up-nextflap]: Downloading https://files.pythonhosted.org/packages/b1/54/66b58e224b505c8e8b52c43147dc19fe727e0aed0e9c89ec2af4df9bdcef/up_nextflap-0.0.5.tar.gz
+[2023-07-20 19:02:26] INFO root fetch - processPackages [yalexs-ble]: Downloading https://files.pythonhosted.org/packages/88/60/3f1d563f47b0605e70feb79060092da2ccc4d9b8fb2a357dd81a90bae88c/yalexs_ble-2.2.3.tar.gz
+[2023-07-20 19:02:26] INFO root fetch - processPackages [odoo-addon-base-revision]: executing diffoscope
+[2023-07-20 19:02:26] INFO root fetch - processPackages [odoo-addon-base-revision]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_base_revision-16.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_base_revision-16.0.1.0.1-py3-none-any.whl.zip --markdown 20230720/o/odoo-addon-base-revision/16.0.1.0.0.3-16.0.1.0.1/diff.md --exclude *.pyd
+[2023-07-20 19:02:26] INFO root fetch - processPackages [stlib]: Downloading https://files.pythonhosted.org/packages/82/92/e8162617f26d976bdd8ff25bee42358c0f275736db4b387806173cd28377/stlib-2.0.tar.gz
+[2023-07-20 19:02:26] INFO root fetch - processPackages [DependiPy]: Downloading https://files.pythonhosted.org/packages/4a/ca/7d3dc6fb5248778c079172b1a42a0708f73e1eb5e35655e8f1dbd1a46d39/DependiPy-1.0.8.tar.gz
+[2023-07-20 19:02:26] INFO root fetch - processPackages [yalexs-ble]: executing diffoscope
+[2023-07-20 19:02:26] INFO root fetch - processPackages [yalexs-ble]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yalexs_ble-2.2.2.tar.gz tmp/yalexs_ble-2.2.3.tar.gz --markdown 20230720/y/yalexs-ble/2.2.2-2.2.3/diff.md --exclude *.pyd
+[2023-07-20 19:02:26] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2023-07-20 19:02:26] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202307201328-py3-none-any.whl.zip tmp/kcli-99.0.202307201700-py3-none-any.whl.zip --markdown 20230720/k/kcli/99.0.202307201328-99.0.202307201700/diff.md --exclude *.pyd
+[2023-07-20 19:02:26] INFO root fetch - processPackages [stlib]: executing diffoscope
+[2023-07-20 19:02:26] INFO root fetch - processPackages [stlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stlib-1.3.1.tar.gz tmp/stlib-2.0.tar.gz --markdown 20230720/s/stlib/1.3.1-2.0/diff.md --exclude *.pyd
+[2023-07-20 19:02:26] INFO root fetch - processPackages [up-nextflap]: executing diffoscope
+[2023-07-20 19:02:26] INFO root fetch - processPackages [up-nextflap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/up_nextflap-0.0.4.tar.gz tmp/up_nextflap-0.0.5.tar.gz --markdown 20230720/u/up-nextflap/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-20 19:02:26] INFO root fetch - processPackages [DependiPy]: executing diffoscope
+[2023-07-20 19:02:26] INFO root fetch - processPackages [DependiPy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DependiPy-1.0.2.tar.gz tmp/DependiPy-1.0.8.tar.gz --markdown 20230720/D/DependiPy/1.0.2-1.0.8/diff.md --exclude *.pyd
+[2023-07-20 19:02:26] INFO root fetch - processPackages [Faker]: Downloading https://files.pythonhosted.org/packages/51/99/edb47acf0025b63c69fc6c8845b121267322a1e1bfbf5868dba5b601cc93/Faker-9.9.1.tar.gz
+[2023-07-20 19:02:26] INFO root fetch - processPackages [Faker]: executing diffoscope
+[2023-07-20 19:02:26] INFO root fetch - processPackages [Faker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Faker-9.9.0.tar.gz tmp/Faker-9.9.1.tar.gz --markdown 20230720/F/Faker/9.9.0-9.9.1/diff.md --exclude *.pyd
+[2023-07-20 19:02:26] INFO root fetch - processPackages [datadog-api-client]: Downloading https://files.pythonhosted.org/packages/e9/60/cf6fcb7773d3a0f80cc39cbca4c58fadba180f77adb24d296e86a330d6f4/datadog-api-client-2.9.0.tar.gz
+[2023-07-20 19:02:27] INFO root fetch - processPackages [EnvisionRiskRaaS]: Remove: archive file [/home/abi/fetcher/tmp/envisionriskraas-1.0.1.tar.gz]
+[2023-07-20 19:02:27] INFO root fetch - processPackages [EnvisionRiskRaaS]: Remove: archive file [/home/abi/fetcher/tmp/envisionriskraas-1.0.2.tar.gz]
+[2023-07-20 19:02:27] INFO root fetch - main [MainThread]: End processing [EnvisionRiskRaaS]: success
+[2023-07-20 19:02:27] INFO root fetch - processPackages [yalexs-ble]: Remove: archive file [/home/abi/fetcher/tmp/yalexs_ble-2.2.2.tar.gz]
+[2023-07-20 19:02:27] INFO root fetch - processPackages [yalexs-ble]: Remove: archive file [/home/abi/fetcher/tmp/yalexs_ble-2.2.3.tar.gz]
+[2023-07-20 19:02:27] INFO root fetch - main [MainThread]: End processing [yalexs-ble]: success
+[2023-07-20 19:02:27] INFO root fetch - processPackages [datadog-api-client]: executing diffoscope
+[2023-07-20 19:02:27] INFO root fetch - processPackages [datadog-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datadog-api-client-2.8.0.tar.gz tmp/datadog-api-client-2.9.0.tar.gz --markdown 20230720/d/datadog-api-client/2.8.0-2.9.0/diff.md --exclude *.pyd
+[2023-07-20 19:02:27] INFO root fetch - processPackages [odoo-addon-base-revision]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_revision-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2023-07-20 19:02:27] INFO root fetch - processPackages [odoo-addon-base-revision]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_revision-16.0.1.0.1-py3-none-any.whl.zip]
+[2023-07-20 19:02:27] INFO root fetch - main [MainThread]: End processing [odoo-addon-base-revision]: success
+[2023-07-20 19:02:27] INFO root fetch - processPackages [DependiPy]: Remove: archive file [/home/abi/fetcher/tmp/DependiPy-1.0.2.tar.gz]
+[2023-07-20 19:02:27] INFO root fetch - processPackages [DependiPy]: Remove: archive file [/home/abi/fetcher/tmp/DependiPy-1.0.8.tar.gz]
+[2023-07-20 19:02:27] INFO root fetch - main [MainThread]: End processing [DependiPy]: success
+[2023-07-20 19:02:27] INFO root fetch - processPackages [veetility]: Remove: archive file [/home/abi/fetcher/tmp/veetility-0.1.98.tar.gz]
+[2023-07-20 19:02:27] INFO root fetch - processPackages [veetility]: Remove: archive file [/home/abi/fetcher/tmp/veetility-0.1.99.tar.gz]
+[2023-07-20 19:02:27] INFO root fetch - main [MainThread]: End processing [veetility]: success
+[2023-07-20 19:02:28] INFO root fetch - processPackages [stlib]: Remove: archive file [/home/abi/fetcher/tmp/stlib-1.3.1.tar.gz]
+[2023-07-20 19:02:28] INFO root fetch - processPackages [stlib]: Remove: archive file [/home/abi/fetcher/tmp/stlib-2.0.tar.gz]
+[2023-07-20 19:02:28] INFO root fetch - main [MainThread]: End processing [stlib]: success
+[2023-07-20 19:02:28] INFO root fetch - processPackages [up-nextflap]: Remove: archive file [/home/abi/fetcher/tmp/up_nextflap-0.0.4.tar.gz]
+[2023-07-20 19:02:28] INFO root fetch - processPackages [up-nextflap]: Remove: archive file [/home/abi/fetcher/tmp/up_nextflap-0.0.5.tar.gz]
+[2023-07-20 19:02:28] INFO root fetch - main [MainThread]: End processing [up-nextflap]: success
+[2023-07-20 19:02:30] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202307201328-py3-none-any.whl.zip]
+[2023-07-20 19:02:30] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202307201700-py3-none-any.whl.zip]
+[2023-07-20 19:02:30] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2023-07-20 19:02:30] INFO root fetch - processPackages [Faker]: Remove: archive file [/home/abi/fetcher/tmp/Faker-9.9.0.tar.gz]
+[2023-07-20 19:02:30] INFO root fetch - processPackages [Faker]: Remove: archive file [/home/abi/fetcher/tmp/Faker-9.9.1.tar.gz]
+[2023-07-20 19:02:30] INFO root fetch - main [MainThread]: End processing [Faker]: success
+[2023-07-20 19:03:00] INFO root fetch - processPackages [datadog-api-client]: Remove: archive file [/home/abi/fetcher/tmp/datadog-api-client-2.8.0.tar.gz]
+[2023-07-20 19:03:00] INFO root fetch - processPackages [datadog-api-client]: Remove: archive file [/home/abi/fetcher/tmp/datadog-api-client-2.9.0.tar.gz]
+[2023-07-20 19:03:00] INFO root fetch - main [MainThread]: End processing [datadog-api-client]: success
+[2023-07-20 19:03:00] INFO root fetch - main [MainThread]: Store serial: [18969945]
