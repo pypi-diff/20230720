@@ -17452,3 +17452,122 @@ AssertionError: tmp/verify4py-test-0.1.7.tar.gz does not exist
 [2023-07-20 19:29:26] INFO root fetch - processPackages [aleksis-core]: Remove: archive file [/home/abi/fetcher/tmp/aleksis_core-3.1.4.tar.gz]
 [2023-07-20 19:29:26] INFO root fetch - main [MainThread]: End processing [aleksis-core]: success
 [2023-07-20 19:29:26] INFO root fetch - main [MainThread]: Store serial: [18970176]
+[2023-07-20 19:34:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18970176]
+[2023-07-20 19:34:35] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-07-20 19:34:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: qiskit-ibm-experiment
+[2023-07-20 19:34:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: unitsnet-py
+[2023-07-20 19:34:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hugging-py-face
+[2023-07-20 19:34:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: robit
+[2023-07-20 19:34:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: veetility
+[2023-07-20 19:34:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: arm-segmentation
+[2023-07-20 19:34:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gptfunctionutil
+[2023-07-20 19:34:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: llama-index
+[2023-07-20 19:34:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: scale-llm-engine
+[2023-07-20 19:34:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: gpt-index
+[2023-07-20 19:34:35] INFO root fetch - processPackages [qiskit-ibm-experiment]: New version: [0.3.4] Old Version: [0.3.3]
+[2023-07-20 19:34:35] INFO root fetch - processPackages [arm-segmentation]: New version: [0.0.7] Old Version: [0.0.1]
+[2023-07-20 19:34:35] INFO root fetch - processPackages [unitsnet-py]: New version: [0.1.47] Old Version: [0.1.46]
+[2023-07-20 19:34:35] INFO root fetch - processPackages [gptfunctionutil]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-07-20 19:34:35] INFO root fetch - processPackages [robit]: New version: [0.3.2] Old Version: [0.3.0.1]
+[2023-07-20 19:34:35] INFO root fetch - processPackages [hugging-py-face]: New version: [0.5.2] Old Version: [0.4.2]
+[2023-07-20 19:34:35] INFO root fetch - processPackages [scale-llm-engine]: New version: [0.0.0b4] Old Version: [0.0.0b3]
+[2023-07-20 19:34:35] INFO root fetch - processPackages [veetility]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-07-20 19:34:35] INFO root fetch - processPackages [llama-index]: New version: [0.7.9] Old Version: [0.7.8]
+[2023-07-20 19:34:35] INFO root fetch - processPackages [gpt-index]: New version: [0.7.9] Old Version: [0.7.8]
+[2023-07-20 19:34:35] INFO root fetch - processPackages [llama-index]: Downloading https://files.pythonhosted.org/packages/2f/e7/26c0a77d20d762a2e856738f0f1e38342069be88566479653d9d9118e33a/llama_index-0.7.8.tar.gz
+[2023-07-20 19:34:35] INFO root fetch - processPackages [veetility]: Downloading https://files.pythonhosted.org/packages/b4/6c/d6775912e1f4b22333ed3a4fee91721e0069b8797ba5c31097f91a3135d6/veetility-0.1.98.tar.gz
+[2023-07-20 19:34:35] INFO root fetch - processPackages [unitsnet-py]: Downloading https://files.pythonhosted.org/packages/95/25/fb2fbfe0ff47c98312152a8005aea91e68464abb201f7307f3e6432f9fd0/unitsnet-py-0.1.46.tar.gz
+[2023-07-20 19:34:35] INFO root fetch - processPackages [arm-segmentation]: Downloading https://files.pythonhosted.org/packages/b0/c8/34c5288516d4e98d43ee1244c917212fc20169dc936c2f7fa808cb67ba6c/arm_segmentation-0.0.1.tar.gz
+[2023-07-20 19:34:35] INFO root fetch - processPackages [qiskit-ibm-experiment]: Downloading https://files.pythonhosted.org/packages/f4/e1/0a04da21b6aad70b50149e83c287a19fb2326e435f3b6bb14bceae45f8fc/qiskit-ibm-experiment-0.3.3.tar.gz
+[2023-07-20 19:34:35] INFO root fetch - processPackages [scale-llm-engine]: Downloading https://files.pythonhosted.org/packages/d1/2a/5ffac2512356af545317a259f02c44086eae96fae3b06240996a98b1e56a/scale_llm_engine-0.0.0b3.tar.gz
+[2023-07-20 19:34:35] INFO root fetch - processPackages [robit]: Downloading https://files.pythonhosted.org/packages/fd/67/347721752d859c12a5b8c11cd9d226a40403a8021877a5271f155e122056/robit-0.3.0.1.tar.gz
+[2023-07-20 19:34:35] INFO root fetch - processPackages [hugging-py-face]: Downloading https://files.pythonhosted.org/packages/51/5b/db2370ff35075a43ca6bc0b6a74ff9b802874eff9096144afdec831fc465/hugging_py_face-0.4.2.tar.gz
+[2023-07-20 19:34:35] INFO root fetch - processPackages [gpt-index]: Downloading https://files.pythonhosted.org/packages/a9/fc/759318b247b4f445b1da56bb0d8b711a7de1adda75a92c3fd92176d9984c/gpt_index-0.7.8.tar.gz
+[2023-07-20 19:34:35] INFO root fetch - processPackages [gptfunctionutil]: Downloading https://files.pythonhosted.org/packages/33/cf/d5e71f5a347552c4443c1a6680ceeb8cf5ed5e264cf6941dc35524b653d3/gptfunctionutil-0.2.1.tar.gz
+[2023-07-20 19:34:36] INFO root fetch - processPackages [veetility]: Downloading https://files.pythonhosted.org/packages/a0/4f/eb1359196e4e216d1ccfde231e462db3887b8a191ac90d104f3b45fa4169/veetility-0.1.99.tar.gz
+[2023-07-20 19:34:36] INFO root fetch - processPackages [gptfunctionutil]: executing diffoscope
+[2023-07-20 19:34:36] INFO root fetch - processPackages [gptfunctionutil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gptfunctionutil-0.2.0.tar.gz tmp/gptfunctionutil-0.2.1.tar.gz --markdown 20230720/g/gptfunctionutil/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-07-20 19:34:36] INFO root fetch - processPackages [arm-segmentation]: Downloading https://files.pythonhosted.org/packages/86/66/3dc0b3a6c0f4dcdf39bdb83bcc34a493e48385b77ae8c1795dba9f0491de/arm_segmentation-0.0.7.tar.gz
+[2023-07-20 19:34:36] INFO root fetch - processPackages [scale-llm-engine]: Downloading https://files.pythonhosted.org/packages/d1/c9/62d07ec00d146b8438ada1f2893171b6227fd888e5e8567a36bc22e855c5/scale_llm_engine-0.0.0b4.tar.gz
+[2023-07-20 19:34:36] INFO root fetch - processPackages [veetility]: executing diffoscope
+[2023-07-20 19:34:36] INFO root fetch - processPackages [veetility]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/veetility-0.1.98.tar.gz tmp/veetility-0.1.99.tar.gz --markdown 20230720/v/veetility/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-07-20 19:34:36] INFO root fetch - processPackages [llama-index]: Downloading https://files.pythonhosted.org/packages/1a/7c/9e8aceb37943ab1d15e27d69ed3e650c7692b3669e2d293bd325e988437f/llama_index-0.7.9.tar.gz
+[2023-07-20 19:34:36] INFO root fetch - processPackages [unitsnet-py]: Downloading https://files.pythonhosted.org/packages/4f/dd/9a71165a683936eee9bad48d6cf6fdb54ce17f04fdf1afed9eae0bbb9406/unitsnet-py-0.1.47.tar.gz
+[2023-07-20 19:34:36] INFO root fetch - processPackages [qiskit-ibm-experiment]: Downloading https://files.pythonhosted.org/packages/83/7f/ae41c75d7c29ed47e0d0d052f2efaa8cd73e70034ec88e23cdddb07afa3b/qiskit-ibm-experiment-0.3.4.tar.gz
+[2023-07-20 19:34:36] INFO root fetch - processPackages [gpt-index]: Downloading https://files.pythonhosted.org/packages/fb/cd/b6cf67186f1ef0f3078acd211131fce74e74d15332fa85c6bdcdc2812534/gpt_index-0.7.9.tar.gz
+[2023-07-20 19:34:36] INFO root fetch - processPackages [arm-segmentation]: executing diffoscope
+[2023-07-20 19:34:36] INFO root fetch - processPackages [arm-segmentation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arm_segmentation-0.0.1.tar.gz tmp/arm_segmentation-0.0.7.tar.gz --markdown 20230720/a/arm-segmentation/0.0.1-0.0.7/diff.md --exclude *.pyd
+[2023-07-20 19:34:36] INFO root fetch - processPackages [hugging-py-face]: Downloading https://files.pythonhosted.org/packages/3a/63/b251e36ef3babe6deb6e5dce0a736f94d070f75512b17911998d877f87c5/hugging_py_face-0.5.2.tar.gz
+[2023-07-20 19:34:36] INFO root fetch - processPackages [robit]: Downloading https://files.pythonhosted.org/packages/a8/df/930ab26cdf0b084b95faf048cbb81a1f5feacdb06df67e70c194b60fe047/robit-0.3.2.tar.gz
+[2023-07-20 19:34:36] INFO root fetch - processPackages [scale-llm-engine]: executing diffoscope
+[2023-07-20 19:34:36] INFO root fetch - processPackages [scale-llm-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scale_llm_engine-0.0.0b3.tar.gz tmp/scale_llm_engine-0.0.0b4.tar.gz --markdown 20230720/s/scale-llm-engine/0.0.0b3-0.0.0b4/diff.md --exclude *.pyd
+[2023-07-20 19:34:36] INFO root fetch - processPackages [qiskit-ibm-experiment]: executing diffoscope
+[2023-07-20 19:34:36] INFO root fetch - processPackages [qiskit-ibm-experiment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qiskit-ibm-experiment-0.3.3.tar.gz tmp/qiskit-ibm-experiment-0.3.4.tar.gz --markdown 20230720/q/qiskit-ibm-experiment/0.3.3-0.3.4/diff.md --exclude *.pyd
+[2023-07-20 19:34:36] INFO root fetch - processPackages [unitsnet-py]: executing diffoscope
+[2023-07-20 19:34:36] INFO root fetch - processPackages [unitsnet-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unitsnet-py-0.1.46.tar.gz tmp/unitsnet-py-0.1.47.tar.gz --markdown 20230720/u/unitsnet-py/0.1.46-0.1.47/diff.md --exclude *.pyd
+[2023-07-20 19:34:36] INFO root fetch - processPackages [robit]: executing diffoscope
+[2023-07-20 19:34:36] INFO root fetch - processPackages [robit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robit-0.3.0.1.tar.gz tmp/robit-0.3.2.tar.gz --markdown 20230720/r/robit/0.3.0.1-0.3.2/diff.md --exclude *.pyd
+[2023-07-20 19:34:36] INFO root fetch - processPackages [gpt-index]: executing diffoscope
+[2023-07-20 19:34:36] INFO root fetch - processPackages [gpt-index]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt_index-0.7.8.tar.gz tmp/gpt_index-0.7.9.tar.gz --markdown 20230720/g/gpt-index/0.7.8-0.7.9/diff.md --exclude *.pyd
+[2023-07-20 19:34:36] INFO root fetch - processPackages [llama-index]: executing diffoscope
+[2023-07-20 19:34:36] INFO root fetch - processPackages [llama-index]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llama_index-0.7.8.tar.gz tmp/llama_index-0.7.9.tar.gz --markdown 20230720/l/llama-index/0.7.8-0.7.9/diff.md --exclude *.pyd
+[2023-07-20 19:34:36] INFO root fetch - processPackages [hugging-py-face]: executing diffoscope
+[2023-07-20 19:34:36] INFO root fetch - processPackages [hugging-py-face]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hugging_py_face-0.4.2.tar.gz tmp/hugging_py_face-0.5.2.tar.gz --markdown 20230720/h/hugging-py-face/0.4.2-0.5.2/diff.md --exclude *.pyd
+[2023-07-20 19:34:37] INFO root fetch - processPackages [gptfunctionutil]: Remove: archive file [/home/abi/fetcher/tmp/gptfunctionutil-0.2.0.tar.gz]
+[2023-07-20 19:34:37] INFO root fetch - processPackages [gptfunctionutil]: Remove: archive file [/home/abi/fetcher/tmp/gptfunctionutil-0.2.1.tar.gz]
+[2023-07-20 19:34:37] INFO root fetch - processPackages [gptfunctionutil]: Start processing: EnvisionRiskRaaS
+[2023-07-20 19:34:37] INFO root fetch - main [MainThread]: End processing [gptfunctionutil]: success
+[2023-07-20 19:34:37] INFO root fetch - processPackages [EnvisionRiskRaaS]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-07-20 19:34:37] INFO root fetch - processPackages [veetility]: Remove: archive file [/home/abi/fetcher/tmp/veetility-0.1.98.tar.gz]
+[2023-07-20 19:34:37] INFO root fetch - processPackages [veetility]: Remove: archive file [/home/abi/fetcher/tmp/veetility-0.1.99.tar.gz]
+[2023-07-20 19:34:37] INFO root fetch - processPackages [veetility]: Start processing: lollms
+[2023-07-20 19:34:37] INFO root fetch - main [MainThread]: End processing [veetility]: success
+[2023-07-20 19:34:37] INFO root fetch - processPackages [lollms]: New version: [2.1.9] Old Version: [2.1.8]
+[2023-07-20 19:34:37] INFO root fetch - processPackages [EnvisionRiskRaaS]: Downloading https://files.pythonhosted.org/packages/1e/f8/8bd521e546c03a3da8553619ebb6d19789c4c33b8dc6fcd80a905ec31591/envisionriskraas-1.0.5.tar.gz
+[2023-07-20 19:34:37] INFO root fetch - processPackages [lollms]: executing diffoscope
+[2023-07-20 19:34:37] INFO root fetch - processPackages [lollms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lollms-2.1.8.tar.gz tmp/lollms-2.1.9.tar.gz --markdown 20230720/l/lollms/2.1.8-2.1.9/diff.md --exclude *.pyd
+[2023-07-20 19:34:38] INFO root fetch - processPackages [arm-segmentation]: Remove: archive file [/home/abi/fetcher/tmp/arm_segmentation-0.0.1.tar.gz]
+[2023-07-20 19:34:38] INFO root fetch - processPackages [arm-segmentation]: Remove: archive file [/home/abi/fetcher/tmp/arm_segmentation-0.0.7.tar.gz]
+[2023-07-20 19:34:38] INFO root fetch - processPackages [arm-segmentation]: Start processing: openssm-dev
+[2023-07-20 19:34:38] INFO root fetch - main [MainThread]: End processing [arm-segmentation]: success
+[2023-07-20 19:34:38] INFO root fetch - processPackages [scale-llm-engine]: Remove: archive file [/home/abi/fetcher/tmp/scale_llm_engine-0.0.0b3.tar.gz]
+[2023-07-20 19:34:38] INFO root fetch - processPackages [scale-llm-engine]: Remove: archive file [/home/abi/fetcher/tmp/scale_llm_engine-0.0.0b4.tar.gz]
+[2023-07-20 19:34:38] INFO root fetch - processPackages [scale-llm-engine]: Start processing: pyblm
+[2023-07-20 19:34:38] INFO root fetch - main [MainThread]: End processing [scale-llm-engine]: success
+[2023-07-20 19:34:38] INFO root fetch - processPackages [openssm-dev]: New version: [0.1.6.dev0] Old Version: [0.1.6.4]
+[2023-07-20 19:34:38] INFO root fetch - processPackages [EnvisionRiskRaaS]: Downloading https://files.pythonhosted.org/packages/4e/11/d36a90eb4d82e83e2fe9d9d5248931a6d833db1986673af098d3225839c2/envisionriskraas-1.0.6.tar.gz
+[2023-07-20 19:34:38] WARNING root fetch - processPackages [pyblm]: Skipping, unable to determine old version
+[2023-07-20 19:34:38] INFO root fetch - main [MainThread]: End processing [pyblm] error
+[2023-07-20 19:34:38] INFO root fetch - processPackages [openssm-dev]: Downloading https://files.pythonhosted.org/packages/fd/1a/6c37c660c5fee7813c5091a44b7864d66be72c9ee32140ea91b8af3c0c56/openssm_dev-0.1.6.4.tar.gz
+[2023-07-20 19:34:38] INFO root fetch - processPackages [EnvisionRiskRaaS]: executing diffoscope
+[2023-07-20 19:34:38] INFO root fetch - processPackages [EnvisionRiskRaaS]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/envisionriskraas-1.0.5.tar.gz tmp/envisionriskraas-1.0.6.tar.gz --markdown 20230720/E/EnvisionRiskRaaS/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-07-20 19:34:38] INFO root fetch - processPackages [robit]: Remove: archive file [/home/abi/fetcher/tmp/robit-0.3.0.1.tar.gz]
+[2023-07-20 19:34:38] INFO root fetch - processPackages [robit]: Remove: archive file [/home/abi/fetcher/tmp/robit-0.3.2.tar.gz]
+[2023-07-20 19:34:38] INFO root fetch - main [MainThread]: End processing [robit]: success
+[2023-07-20 19:34:38] INFO root fetch - processPackages [hugging-py-face]: Remove: archive file [/home/abi/fetcher/tmp/hugging_py_face-0.4.2.tar.gz]
+[2023-07-20 19:34:38] INFO root fetch - processPackages [hugging-py-face]: Remove: archive file [/home/abi/fetcher/tmp/hugging_py_face-0.5.2.tar.gz]
+[2023-07-20 19:34:38] INFO root fetch - main [MainThread]: End processing [hugging-py-face]: success
+[2023-07-20 19:34:38] INFO root fetch - processPackages [qiskit-ibm-experiment]: Remove: archive file [/home/abi/fetcher/tmp/qiskit-ibm-experiment-0.3.3.tar.gz]
+[2023-07-20 19:34:38] INFO root fetch - processPackages [qiskit-ibm-experiment]: Remove: archive file [/home/abi/fetcher/tmp/qiskit-ibm-experiment-0.3.4.tar.gz]
+[2023-07-20 19:34:38] INFO root fetch - main [MainThread]: End processing [qiskit-ibm-experiment]: success
+[2023-07-20 19:34:38] INFO root fetch - processPackages [openssm-dev]: executing diffoscope
+[2023-07-20 19:34:38] INFO root fetch - processPackages [openssm-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openssm_dev-0.1.6.4.tar.gz tmp/openssm_dev-0.1.6.dev0.tar.gz --markdown 20230720/o/openssm-dev/0.1.6.4-0.1.6.dev0/diff.md --exclude *.pyd
+[2023-07-20 19:34:38] INFO root fetch - processPackages [lollms]: Remove: archive file [/home/abi/fetcher/tmp/lollms-2.1.8.tar.gz]
+[2023-07-20 19:34:38] INFO root fetch - processPackages [lollms]: Remove: archive file [/home/abi/fetcher/tmp/lollms-2.1.9.tar.gz]
+[2023-07-20 19:34:38] INFO root fetch - main [MainThread]: End processing [lollms]: success
+[2023-07-20 19:34:39] INFO root fetch - processPackages [unitsnet-py]: Remove: archive file [/home/abi/fetcher/tmp/unitsnet-py-0.1.46.tar.gz]
+[2023-07-20 19:34:39] INFO root fetch - processPackages [unitsnet-py]: Remove: archive file [/home/abi/fetcher/tmp/unitsnet-py-0.1.47.tar.gz]
+[2023-07-20 19:34:39] INFO root fetch - main [MainThread]: End processing [unitsnet-py]: success
+[2023-07-20 19:34:39] INFO root fetch - processPackages [EnvisionRiskRaaS]: Remove: archive file [/home/abi/fetcher/tmp/envisionriskraas-1.0.5.tar.gz]
+[2023-07-20 19:34:39] INFO root fetch - processPackages [EnvisionRiskRaaS]: Remove: archive file [/home/abi/fetcher/tmp/envisionriskraas-1.0.6.tar.gz]
+[2023-07-20 19:34:39] INFO root fetch - main [MainThread]: End processing [EnvisionRiskRaaS]: success
+[2023-07-20 19:34:39] INFO root fetch - processPackages [openssm-dev]: Remove: archive file [/home/abi/fetcher/tmp/openssm_dev-0.1.6.4.tar.gz]
+[2023-07-20 19:34:39] INFO root fetch - processPackages [openssm-dev]: Remove: archive file [/home/abi/fetcher/tmp/openssm_dev-0.1.6.dev0.tar.gz]
+[2023-07-20 19:34:39] INFO root fetch - main [MainThread]: End processing [openssm-dev]: success
+[2023-07-20 19:34:40] INFO root fetch - processPackages [llama-index]: Remove: archive file [/home/abi/fetcher/tmp/llama_index-0.7.8.tar.gz]
+[2023-07-20 19:34:40] INFO root fetch - processPackages [llama-index]: Remove: archive file [/home/abi/fetcher/tmp/llama_index-0.7.9.tar.gz]
+[2023-07-20 19:34:40] INFO root fetch - main [MainThread]: End processing [llama-index]: success
+[2023-07-20 19:34:40] INFO root fetch - processPackages [gpt-index]: Remove: archive file [/home/abi/fetcher/tmp/gpt_index-0.7.8.tar.gz]
+[2023-07-20 19:34:40] INFO root fetch - processPackages [gpt-index]: Remove: archive file [/home/abi/fetcher/tmp/gpt_index-0.7.9.tar.gz]
+[2023-07-20 19:34:40] INFO root fetch - main [MainThread]: End processing [gpt-index]: success
+[2023-07-20 19:34:40] INFO root fetch - main [MainThread]: Store serial: [18970215]
