@@ -1476,3 +1476,111 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-07-20 10:51:38] INFO root fetch - processPackages [finbourne-insights-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/finbourne-insights-sdk-preview-0.0.718.tar.gz]
 [2023-07-20 10:51:38] INFO root fetch - main [MainThread]: End processing [finbourne-insights-sdk-preview]: success
 [2023-07-20 10:51:38] INFO root fetch - main [MainThread]: Store serial: [18963505]
+[2023-07-20 10:56:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18963505]
+[2023-07-20 10:56:47] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-07-20 10:56:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: finbourne-insights-sdk-preview
+[2023-07-20 10:56:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: awscli-local
+[2023-07-20 10:56:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: overhave
+[2023-07-20 10:56:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: coba
+[2023-07-20 10:56:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ewah
+[2023-07-20 10:56:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: microlearn-llm-factory
+[2023-07-20 10:56:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: latticegeometrylib
+[2023-07-20 10:56:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: smartpyml
+[2023-07-20 10:56:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dao-scripts
+[2023-07-20 10:56:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: aliyun-python-sdk-imm
+[2023-07-20 10:56:47] INFO root fetch - processPackages [latticegeometrylib]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-20 10:56:47] INFO root fetch - processPackages [dao-scripts]: New version: [1.1.9.post3.dev5] Old Version: [1.1.9.post3.dev4]
+[2023-07-20 10:56:47] INFO root fetch - processPackages [awscli-local]: New version: [0.9] Old Version: [0.8]
+[2023-07-20 10:56:47] INFO root fetch - processPackages [finbourne-insights-sdk-preview]: New version: [0.0.718] Old Version: [0.0.717]
+[2023-07-20 10:56:47] INFO root fetch - processPackages [microlearn-llm-factory]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-20 10:56:47] INFO root fetch - processPackages [aliyun-python-sdk-imm]: New version: [2.1.17] Old Version: [2.1.16]
+[2023-07-20 10:56:47] INFO root fetch - processPackages [overhave]: New version: [4.1.1] Old Version: [4.1.0]
+[2023-07-20 10:56:47] INFO root fetch - processPackages [smartpyml]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-20 10:56:47] INFO root fetch - processPackages [coba]: New version: [7.0.1] Old Version: [7.0.0]
+[2023-07-20 10:56:47] INFO root fetch - processPackages [ewah]: New version: [0.8.9] Old Version: [0.8.85]
+[2023-07-20 10:56:47] INFO root fetch - processPackages [latticegeometrylib]: Downloading https://files.pythonhosted.org/packages/9c/1e/749af3edb988534ba5ac1aa5ab02a659ca465a5eba8040a7476091a8c358/latticegeometrylib-0.0.8.tar.gz
+[2023-07-20 10:56:47] INFO root fetch - processPackages [dao-scripts]: Downloading https://files.pythonhosted.org/packages/3f/71/418934cb7f68b4288380db631fed537ca7b5ca07af0499c9dd3d0e0cc1a2/dao-scripts-1.1.9.post3.dev4.tar.gz
+[2023-07-20 10:56:47] INFO root fetch - processPackages [awscli-local]: Downloading https://files.pythonhosted.org/packages/9f/0c/e02b1457cd2524d545904c15e6638f3fc177e5a6bb263c47f5abadb61988/awscli-local-0.8.tar.gz
+[2023-07-20 10:56:47] INFO root fetch - processPackages [finbourne-insights-sdk-preview]: Downloading https://files.pythonhosted.org/packages/73/22/86727607f81adf89029fe7235bb78c083e37dd9884f3e065d056ce441c4f/finbourne-insights-sdk-preview-0.0.717.tar.gz
+[2023-07-20 10:56:47] INFO root fetch - processPackages [coba]: Downloading https://files.pythonhosted.org/packages/1c/4c/9b38deeb5a2de08d3c5c781e778189231fc08629ece21127ac92ecb8d4df/coba-7.0.0.tar.gz
+[2023-07-20 10:56:47] INFO root fetch - processPackages [microlearn-llm-factory]: Downloading https://files.pythonhosted.org/packages/25/ea/759c4351ebf7137412cd835620284b01497dc971f36deb6f766688b5f1b6/microlearn_llm_factory-0.0.2.tar.gz
+[2023-07-20 10:56:47] INFO root fetch - processPackages [aliyun-python-sdk-imm]: Downloading https://files.pythonhosted.org/packages/88/9f/6406b7f7a3c5dedfb846f58de3851b920da0b5ceb5b26cb7505b66911aee/aliyun-python-sdk-imm-2.1.16.tar.gz
+[2023-07-20 10:56:47] INFO root fetch - processPackages [overhave]: Downloading https://files.pythonhosted.org/packages/95/ef/96508f4366ebb89dd96836d35ac9ac60ce21cb2de66015f8f6b90a07c4ba/overhave-4.1.0.tar.gz
+[2023-07-20 10:56:48] INFO root fetch - processPackages [smartpyml]: Downloading https://files.pythonhosted.org/packages/a4/ea/d97dd515ae694d9b16f028020c5a40cd0b35912afec8677228fe915a2241/smartpyml-0.1.1.tar.gz
+[2023-07-20 10:56:48] INFO root fetch - processPackages [ewah]: Downloading https://files.pythonhosted.org/packages/00/5b/1f248653127768854c644a208aba88f9746184f78d4a3533a273306b1cd2/ewah-0.8.85.tar.gz
+[2023-07-20 10:56:48] INFO root fetch - processPackages [dao-scripts]: Downloading https://files.pythonhosted.org/packages/ac/91/16d6264c14fbbbd6e620eb5d2ad885fe7c2fbf6a302453c8a4ed41eb54d0/dao-scripts-1.1.9.post3.dev5.tar.gz
+[2023-07-20 10:56:48] INFO root fetch - processPackages [latticegeometrylib]: Downloading https://files.pythonhosted.org/packages/30/c4/c49601f2acbfbf8ad146cc15b5c9375edb7430f6965c24dda0d121580a69/latticegeometrylib-0.0.9.tar.gz
+[2023-07-20 10:56:48] INFO root fetch - processPackages [dao-scripts]: executing diffoscope
+[2023-07-20 10:56:48] INFO root fetch - processPackages [dao-scripts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dao-scripts-1.1.9.post3.dev4.tar.gz tmp/dao-scripts-1.1.9.post3.dev5.tar.gz --markdown 20230720/d/dao-scripts/1.1.9.post3.dev4-1.1.9.post3.dev5/diff.md --exclude *.pyd
+[2023-07-20 10:56:48] INFO root fetch - processPackages [latticegeometrylib]: executing diffoscope
+[2023-07-20 10:56:48] INFO root fetch - processPackages [latticegeometrylib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/latticegeometrylib-0.0.8.tar.gz tmp/latticegeometrylib-0.0.9.tar.gz --markdown 20230720/l/latticegeometrylib/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-20 10:56:48] INFO root fetch - processPackages [microlearn-llm-factory]: Downloading https://files.pythonhosted.org/packages/9e/53/1a07c0c2044978197c0ff60ea074b3ae7c666a1eeee9e459c66ac72e1d9e/microlearn_llm_factory-0.0.3.tar.gz
+[2023-07-20 10:56:48] INFO root fetch - processPackages [coba]: Downloading https://files.pythonhosted.org/packages/15/55/d5e7566b4a5a7d8d1e97bc81ae02527250306527a9b3ca93bbcf1589bb0b/coba-7.0.1.tar.gz
+[2023-07-20 10:56:48] INFO root fetch - processPackages [awscli-local]: Downloading https://files.pythonhosted.org/packages/81/db/6e36db64fa89bc4f476915617c4907c86fa21a2b46e55f48e57b937856f2/awscli-local-0.9.tar.gz
+[2023-07-20 10:56:48] INFO root fetch - processPackages [aliyun-python-sdk-imm]: Downloading https://files.pythonhosted.org/packages/86/ba/d2b92fc7b1adbb5c9bc4d67bfae598ab3c03e8645f6fc44c35ad80df3993/aliyun-python-sdk-imm-2.1.17.tar.gz
+[2023-07-20 10:56:48] INFO root fetch - processPackages [finbourne-insights-sdk-preview]: Downloading https://files.pythonhosted.org/packages/5f/85/0532af72934a4aa24754a2e3f5d129cdb37e0b19fd45ab6e97e505b4fca2/finbourne-insights-sdk-preview-0.0.718.tar.gz
+[2023-07-20 10:56:48] INFO root fetch - processPackages [smartpyml]: Downloading https://files.pythonhosted.org/packages/52/d9/76077c2f89303bc5370da9c8caaf1fb39db0a08bebc5a02bf4676daacde2/smartpyml-0.1.2.tar.gz
+[2023-07-20 10:56:48] INFO root fetch - processPackages [overhave]: Downloading https://files.pythonhosted.org/packages/a1/17/49e0084d2f4513c048d96e2bfd6ece70b2669aca0147a598d7bf5bc8cb91/overhave-4.1.1.tar.gz
+[2023-07-20 10:56:48] INFO root fetch - processPackages [microlearn-llm-factory]: executing diffoscope
+[2023-07-20 10:56:48] INFO root fetch - processPackages [microlearn-llm-factory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/microlearn_llm_factory-0.0.2.tar.gz tmp/microlearn_llm_factory-0.0.3.tar.gz --markdown 20230720/m/microlearn-llm-factory/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-20 10:56:48] INFO root fetch - processPackages [ewah]: Downloading https://files.pythonhosted.org/packages/d0/88/16c75881fe6562c22e0840c01ed24d61bf84884f3fdb38c92e4ee3d41176/ewah-0.8.9.tar.gz
+[2023-07-20 10:56:48] INFO root fetch - processPackages [coba]: executing diffoscope
+[2023-07-20 10:56:48] INFO root fetch - processPackages [coba]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coba-7.0.0.tar.gz tmp/coba-7.0.1.tar.gz --markdown 20230720/c/coba/7.0.0-7.0.1/diff.md --exclude *.pyd
+[2023-07-20 10:56:48] INFO root fetch - processPackages [aliyun-python-sdk-imm]: executing diffoscope
+[2023-07-20 10:56:48] INFO root fetch - processPackages [aliyun-python-sdk-imm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aliyun-python-sdk-imm-2.1.16.tar.gz tmp/aliyun-python-sdk-imm-2.1.17.tar.gz --markdown 20230720/a/aliyun-python-sdk-imm/2.1.16-2.1.17/diff.md --exclude *.pyd
+[2023-07-20 10:56:48] INFO root fetch - processPackages [smartpyml]: executing diffoscope
+[2023-07-20 10:56:48] INFO root fetch - processPackages [smartpyml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smartpyml-0.1.1.tar.gz tmp/smartpyml-0.1.2.tar.gz --markdown 20230720/s/smartpyml/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-20 10:56:48] INFO root fetch - processPackages [awscli-local]: executing diffoscope
+[2023-07-20 10:56:48] INFO root fetch - processPackages [awscli-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/awscli-local-0.8.tar.gz tmp/awscli-local-0.9.tar.gz --markdown 20230720/a/awscli-local/0.8-0.9/diff.md --exclude *.pyd
+[2023-07-20 10:56:48] INFO root fetch - processPackages [finbourne-insights-sdk-preview]: executing diffoscope
+[2023-07-20 10:56:48] INFO root fetch - processPackages [overhave]: executing diffoscope
+[2023-07-20 10:56:48] INFO root fetch - processPackages [overhave]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/overhave-4.1.0.tar.gz tmp/overhave-4.1.1.tar.gz --markdown 20230720/o/overhave/4.1.0-4.1.1/diff.md --exclude *.pyd
+[2023-07-20 10:56:48] INFO root fetch - processPackages [finbourne-insights-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finbourne-insights-sdk-preview-0.0.717.tar.gz tmp/finbourne-insights-sdk-preview-0.0.718.tar.gz --markdown 20230720/f/finbourne-insights-sdk-preview/0.0.717-0.0.718/diff.md --exclude *.pyd
+[2023-07-20 10:56:48] INFO root fetch - processPackages [ewah]: executing diffoscope
+[2023-07-20 10:56:48] INFO root fetch - processPackages [ewah]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ewah-0.8.85.tar.gz tmp/ewah-0.8.9.tar.gz --markdown 20230720/e/ewah/0.8.85-0.8.9/diff.md --exclude *.pyd
+[2023-07-20 10:56:49] INFO root fetch - processPackages [latticegeometrylib]: Remove: archive file [/home/abi/fetcher/tmp/latticegeometrylib-0.0.8.tar.gz]
+[2023-07-20 10:56:49] INFO root fetch - processPackages [latticegeometrylib]: Remove: archive file [/home/abi/fetcher/tmp/latticegeometrylib-0.0.9.tar.gz]
+[2023-07-20 10:56:49] INFO root fetch - processPackages [latticegeometrylib]: Start processing: pesic
+[2023-07-20 10:56:49] INFO root fetch - main [MainThread]: End processing [latticegeometrylib]: success
+[2023-07-20 10:56:50] INFO root fetch - processPackages [dao-scripts]: Remove: archive file [/home/abi/fetcher/tmp/dao-scripts-1.1.9.post3.dev4.tar.gz]
+[2023-07-20 10:56:50] INFO root fetch - processPackages [dao-scripts]: Remove: archive file [/home/abi/fetcher/tmp/dao-scripts-1.1.9.post3.dev5.tar.gz]
+[2023-07-20 10:56:50] INFO root fetch - processPackages [dao-scripts]: Start processing: adbench
+[2023-07-20 10:56:50] INFO root fetch - main [MainThread]: End processing [dao-scripts]: success
+[2023-07-20 10:56:50] WARNING root fetch - processPackages [pesic]: Skipping, unable to determine old version
+[2023-07-20 10:56:50] INFO root fetch - processPackages [pesic]: Start processing: ablaevent
+[2023-07-20 10:56:50] INFO root fetch - main [MainThread]: End processing [pesic] error
+[2023-07-20 10:56:50] INFO root fetch - processPackages [adbench]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-07-20 10:56:50] WARNING root fetch - processPackages [ablaevent]: Skipping, unable to determine old version
+[2023-07-20 10:56:50] INFO root fetch - main [MainThread]: End processing [ablaevent] error
+[2023-07-20 10:56:50] INFO root fetch - processPackages [microlearn-llm-factory]: Remove: archive file [/home/abi/fetcher/tmp/microlearn_llm_factory-0.0.2.tar.gz]
+[2023-07-20 10:56:50] INFO root fetch - processPackages [microlearn-llm-factory]: Remove: archive file [/home/abi/fetcher/tmp/microlearn_llm_factory-0.0.3.tar.gz]
+[2023-07-20 10:56:50] INFO root fetch - main [MainThread]: End processing [microlearn-llm-factory]: success
+[2023-07-20 10:56:50] INFO root fetch - processPackages [smartpyml]: Remove: archive file [/home/abi/fetcher/tmp/smartpyml-0.1.1.tar.gz]
+[2023-07-20 10:56:50] INFO root fetch - processPackages [smartpyml]: Remove: archive file [/home/abi/fetcher/tmp/smartpyml-0.1.2.tar.gz]
+[2023-07-20 10:56:50] INFO root fetch - main [MainThread]: End processing [smartpyml]: success
+[2023-07-20 10:56:50] INFO root fetch - processPackages [awscli-local]: Remove: archive file [/home/abi/fetcher/tmp/awscli-local-0.8.tar.gz]
+[2023-07-20 10:56:50] INFO root fetch - processPackages [awscli-local]: Remove: archive file [/home/abi/fetcher/tmp/awscli-local-0.9.tar.gz]
+[2023-07-20 10:56:50] INFO root fetch - main [MainThread]: End processing [awscli-local]: success
+[2023-07-20 10:56:50] INFO root fetch - processPackages [adbench]: Downloading https://files.pythonhosted.org/packages/be/09/eaffd132ccb4227e8258b7b7342832c12427e2446c76bb4bb93568c3cdd2/adbench-0.1.3.tar.gz
+[2023-07-20 10:56:50] INFO root fetch - processPackages [aliyun-python-sdk-imm]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-imm-2.1.16.tar.gz]
+[2023-07-20 10:56:50] INFO root fetch - processPackages [aliyun-python-sdk-imm]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-imm-2.1.17.tar.gz]
+[2023-07-20 10:56:50] INFO root fetch - main [MainThread]: End processing [aliyun-python-sdk-imm]: success
+[2023-07-20 10:56:50] INFO root fetch - processPackages [adbench]: Downloading https://files.pythonhosted.org/packages/b3/db/10f1d3d5028bfe1ba23a7da4b823c78de261fac91a2eeb9959b79ec4588a/adbench-0.1.4.tar.gz
+[2023-07-20 10:56:50] INFO root fetch - processPackages [coba]: Remove: archive file [/home/abi/fetcher/tmp/coba-7.0.0.tar.gz]
+[2023-07-20 10:56:50] INFO root fetch - processPackages [coba]: Remove: archive file [/home/abi/fetcher/tmp/coba-7.0.1.tar.gz]
+[2023-07-20 10:56:50] INFO root fetch - main [MainThread]: End processing [coba]: success
+[2023-07-20 10:56:50] INFO root fetch - processPackages [finbourne-insights-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/finbourne-insights-sdk-preview-0.0.717.tar.gz]
+[2023-07-20 10:56:50] INFO root fetch - processPackages [finbourne-insights-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/finbourne-insights-sdk-preview-0.0.718.tar.gz]
+[2023-07-20 10:56:50] INFO root fetch - main [MainThread]: End processing [finbourne-insights-sdk-preview]: success
+[2023-07-20 10:56:50] INFO root fetch - processPackages [adbench]: executing diffoscope
+[2023-07-20 10:56:50] INFO root fetch - processPackages [adbench]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adbench-0.1.3.tar.gz tmp/adbench-0.1.4.tar.gz --markdown 20230720/a/adbench/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-07-20 10:56:51] INFO root fetch - processPackages [ewah]: Remove: archive file [/home/abi/fetcher/tmp/ewah-0.8.85.tar.gz]
+[2023-07-20 10:56:51] INFO root fetch - processPackages [ewah]: Remove: archive file [/home/abi/fetcher/tmp/ewah-0.8.9.tar.gz]
+[2023-07-20 10:56:51] INFO root fetch - main [MainThread]: End processing [ewah]: success
+[2023-07-20 10:56:51] INFO root fetch - processPackages [overhave]: Remove: archive file [/home/abi/fetcher/tmp/overhave-4.1.0.tar.gz]
+[2023-07-20 10:56:51] INFO root fetch - processPackages [overhave]: Remove: archive file [/home/abi/fetcher/tmp/overhave-4.1.1.tar.gz]
+[2023-07-20 10:56:51] INFO root fetch - main [MainThread]: End processing [overhave]: success
+[2023-07-20 10:56:51] INFO root fetch - processPackages [adbench]: Remove: archive file [/home/abi/fetcher/tmp/adbench-0.1.3.tar.gz]
+[2023-07-20 10:56:51] INFO root fetch - processPackages [adbench]: Remove: archive file [/home/abi/fetcher/tmp/adbench-0.1.4.tar.gz]
+[2023-07-20 10:56:51] INFO root fetch - main [MainThread]: End processing [adbench]: success
+[2023-07-20 10:56:51] INFO root fetch - main [MainThread]: Store serial: [18963549]
