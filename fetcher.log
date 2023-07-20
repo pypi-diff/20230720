@@ -12002,3 +12002,239 @@ AssertionError: tmp/verify4py-test-0.1.7.tar.gz does not exist
 [2023-07-20 16:29:18] INFO root fetch - processPackages [taskcluster-taskgraph]: Remove: archive file [/home/abi/fetcher/tmp/taskcluster-taskgraph-5.7.0.tar.gz]
 [2023-07-20 16:29:18] INFO root fetch - main [MainThread]: End processing [taskcluster-taskgraph]: success
 [2023-07-20 16:29:18] INFO root fetch - main [MainThread]: Store serial: [18967935]
+[2023-07-20 16:34:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18967935]
+[2023-07-20 16:34:26] INFO root fetch - main [MainThread]: Found 26 changed packages
+[2023-07-20 16:34:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mmk-updater
+[2023-07-20 16:34:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: prefect-aws
+[2023-07-20 16:34:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: prefect-docker
+[2023-07-20 16:34:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: audiolm-pytorch
+[2023-07-20 16:34:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: prefect-gcp
+[2023-07-20 16:34:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: prefect-kubernetes
+[2023-07-20 16:34:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: faasmctl
+[2023-07-20 16:34:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: prefect-azure
+[2023-07-20 16:34:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: striprtf
+[2023-07-20 16:34:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: figaro
+[2023-07-20 16:34:27] INFO root fetch - processPackages [mmk-updater]: New version: [0.14.1] Old Version: [0.14]
+[2023-07-20 16:34:27] INFO root fetch - processPackages [striprtf]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-20 16:34:27] INFO root fetch - processPackages [figaro]: New version: [1.2.0] Old Version: [1.1.2]
+[2023-07-20 16:34:27] INFO root fetch - processPackages [prefect-docker]: New version: [0.3.11] Old Version: [0.3.1]
+[2023-07-20 16:34:27] INFO root fetch - processPackages [prefect-kubernetes]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-20 16:34:27] INFO root fetch - processPackages [prefect-aws]: New version: [0.3.6] Old Version: [0.3.5]
+[2023-07-20 16:34:27] INFO root fetch - processPackages [prefect-gcp]: New version: [0.4.5] Old Version: [0.4.4]
+[2023-07-20 16:34:27] INFO root fetch - processPackages [prefect-azure]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-20 16:34:27] INFO root fetch - processPackages [faasmctl]: New version: [0.8.1] Old Version: [0.8.0]
+[2023-07-20 16:34:27] INFO root fetch - processPackages [audiolm-pytorch]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-07-20 16:34:27] INFO root fetch - processPackages [faasmctl]: Downloading https://files.pythonhosted.org/packages/4e/ce/ce6eb4bddd9379cb0138596da279111ddb69336df60ecc6acaa72d3fe361/faasmctl-0.8.0.tar.gz
+[2023-07-20 16:34:27] INFO root fetch - processPackages [figaro]: Downloading https://files.pythonhosted.org/packages/e4/4f/0028caa1902a024ca4f351ef4562324a9831848748c77c539bd3b43adc80/figaro-1.1.2.tar.gz
+[2023-07-20 16:34:27] INFO root fetch - processPackages [prefect-gcp]: Downloading https://files.pythonhosted.org/packages/ff/3e/31a35a2184348d5f07e24cbd2ee64084ed7b7cf5b804d9eaabf14960dc75/prefect-gcp-0.4.4.tar.gz
+[2023-07-20 16:34:27] INFO root fetch - processPackages [mmk-updater]: Downloading https://files.pythonhosted.org/packages/88/c1/913d1022714dbd8f0a3745062f23f3fc4b05f8247a456aacb2155f05d89b/mmk_updater-0.14.tar.gz
+[2023-07-20 16:34:27] INFO root fetch - processPackages [striprtf]: Downloading https://files.pythonhosted.org/packages/53/44/0d8161a4e2073f0e27fc5614c5437a706fb2e25425cb4f99ee4035a028dc/striprtf-0.0.8.tar.gz
+[2023-07-20 16:34:27] INFO root fetch - processPackages [prefect-docker]: Downloading https://files.pythonhosted.org/packages/b2/95/ee1c5c2e3fd240de749764e491bf7f3598d261272805239b96544585067c/prefect-docker-0.3.1.tar.gz
+[2023-07-20 16:34:27] INFO root fetch - processPackages [prefect-aws]: Downloading https://files.pythonhosted.org/packages/98/95/b8d9ac23483f238bf7cbffd39c65d998b5ccc963f439ac8489aa73a6c4a9/prefect-aws-0.3.5.tar.gz
+[2023-07-20 16:34:27] INFO root fetch - processPackages [prefect-kubernetes]: Downloading https://files.pythonhosted.org/packages/1a/40/8784a507b8b940b7c02238f5ee1e0038d6f22d37cb48c6aa8d5d02a5332c/prefect-kubernetes-0.2.8.tar.gz
+[2023-07-20 16:34:27] INFO root fetch - processPackages [audiolm-pytorch]: Downloading https://files.pythonhosted.org/packages/e7/7a/099483a69be236c95087d6ab7c3187d1e3b4bcc56c496e93bcf118c25d0c/audiolm-pytorch-1.2.8.tar.gz
+[2023-07-20 16:34:27] INFO root fetch - processPackages [prefect-azure]: Downloading https://files.pythonhosted.org/packages/09/37/204e90c1c0e51e3956dbcb87360dae045e4b7de082c5b3492e1ce0061696/prefect-azure-0.2.8.tar.gz
+[2023-07-20 16:34:27] INFO root fetch - processPackages [mmk-updater]: Downloading https://files.pythonhosted.org/packages/37/72/1ebef054d347fd1f9e761461833f06af0bc6c5111f3855dab31eb1628f99/mmk_updater-0.14.1-py3-none-any.whl
+[2023-07-20 16:34:27] INFO root fetch - processPackages [prefect-docker]: Downloading https://files.pythonhosted.org/packages/d4/02/478fd03b3589ca1a793d47424b41370932ae47907ecff049dea004f83c73/prefect-docker-0.3.11.tar.gz
+[2023-07-20 16:34:27] INFO root fetch - processPackages [prefect-gcp]: Downloading https://files.pythonhosted.org/packages/00/93/b46ae4e587187f34d6e5fe0052967e207529f93dbc1a05d808a814d9fbe4/prefect-gcp-0.4.5.tar.gz
+[2023-07-20 16:34:27] INFO root fetch - processPackages [figaro]: Downloading https://files.pythonhosted.org/packages/6c/d3/66f03ebf23de4f82c6dc4b8d5f640dc1b16bfb35ea5aef23751f541502ae/figaro-1.2.0.tar.gz
+[2023-07-20 16:34:28] INFO root fetch - processPackages [audiolm-pytorch]: Downloading https://files.pythonhosted.org/packages/f2/58/b6da97e4b0948f7fad067b640521a0417a88e4ba73189aef8be50bd0148a/audiolm-pytorch-1.2.9.tar.gz
+[2023-07-20 16:34:28] INFO root fetch - processPackages [faasmctl]: Downloading https://files.pythonhosted.org/packages/6a/da/3a7b9c884f2c45c7a535384f234ac958c1f988ee05fd346850de35651311/faasmctl-0.8.1.tar.gz
+[2023-07-20 16:34:28] INFO root fetch - processPackages [mmk-updater]: executing diffoscope
+[2023-07-20 16:34:28] INFO root fetch - processPackages [mmk-updater]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mmk_updater-0.14.tar.gz tmp/mmk_updater-0.14.1-py3-none-any.whl.zip --markdown 20230720/m/mmk-updater/0.14-0.14.1/diff.md --exclude *.pyd
+[2023-07-20 16:34:28] INFO root fetch - processPackages [striprtf]: Downloading https://files.pythonhosted.org/packages/3a/0e/b1ee494c9bea3938d56478e2b32c650802e0e73fafa03b4077908922882d/striprtf-0.0.9.tar.gz
+[2023-07-20 16:34:28] INFO root fetch - processPackages [prefect-kubernetes]: Downloading https://files.pythonhosted.org/packages/8f/8f/43595eb34b07913cfe0ec2bccabf9e083bec2888273aa652cc94f424b98b/prefect-kubernetes-0.2.9.tar.gz
+[2023-07-20 16:34:28] INFO root fetch - processPackages [prefect-aws]: Downloading https://files.pythonhosted.org/packages/6a/fc/2250843542baa61751513400b99ca50d608a09b6542115bfc9ded9c0f248/prefect-aws-0.3.6.tar.gz
+[2023-07-20 16:34:28] INFO root fetch - processPackages [prefect-docker]: executing diffoscope
+[2023-07-20 16:34:28] INFO root fetch - processPackages [prefect-docker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prefect-docker-0.3.1.tar.gz tmp/prefect-docker-0.3.11.tar.gz --markdown 20230720/p/prefect-docker/0.3.1-0.3.11/diff.md --exclude *.pyd
+[2023-07-20 16:34:28] INFO root fetch - processPackages [prefect-azure]: Downloading https://files.pythonhosted.org/packages/6a/fe/d5b35ad9ca211ac87d71ea1ef85c7cbd1c2f3cf39e802948526231b793b1/prefect-azure-0.2.9.tar.gz
+[2023-07-20 16:34:28] INFO root fetch - processPackages [prefect-gcp]: executing diffoscope
+[2023-07-20 16:34:28] INFO root fetch - processPackages [prefect-gcp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prefect-gcp-0.4.4.tar.gz tmp/prefect-gcp-0.4.5.tar.gz --markdown 20230720/p/prefect-gcp/0.4.4-0.4.5/diff.md --exclude *.pyd
+[2023-07-20 16:34:28] INFO root fetch - processPackages [figaro]: executing diffoscope
+[2023-07-20 16:34:28] INFO root fetch - processPackages [figaro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/figaro-1.1.2.tar.gz tmp/figaro-1.2.0.tar.gz --markdown 20230720/f/figaro/1.1.2-1.2.0/diff.md --exclude *.pyd
+[2023-07-20 16:34:28] INFO root fetch - processPackages [audiolm-pytorch]: executing diffoscope
+[2023-07-20 16:34:28] INFO root fetch - processPackages [audiolm-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/audiolm-pytorch-1.2.8.tar.gz tmp/audiolm-pytorch-1.2.9.tar.gz --markdown 20230720/a/audiolm-pytorch/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-07-20 16:34:28] INFO root fetch - processPackages [faasmctl]: executing diffoscope
+[2023-07-20 16:34:28] INFO root fetch - processPackages [faasmctl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/faasmctl-0.8.0.tar.gz tmp/faasmctl-0.8.1.tar.gz --markdown 20230720/f/faasmctl/0.8.0-0.8.1/diff.md --exclude *.pyd
+[2023-07-20 16:34:28] INFO root fetch - processPackages [prefect-aws]: executing diffoscope
+[2023-07-20 16:34:28] INFO root fetch - processPackages [prefect-aws]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prefect-aws-0.3.5.tar.gz tmp/prefect-aws-0.3.6.tar.gz --markdown 20230720/p/prefect-aws/0.3.5-0.3.6/diff.md --exclude *.pyd
+[2023-07-20 16:34:28] INFO root fetch - processPackages [striprtf]: executing diffoscope
+[2023-07-20 16:34:28] INFO root fetch - processPackages [striprtf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/striprtf-0.0.8.tar.gz tmp/striprtf-0.0.9.tar.gz --markdown 20230720/s/striprtf/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-20 16:34:28] INFO root fetch - processPackages [prefect-kubernetes]: executing diffoscope
+[2023-07-20 16:34:28] INFO root fetch - processPackages [prefect-kubernetes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prefect-kubernetes-0.2.8.tar.gz tmp/prefect-kubernetes-0.2.9.tar.gz --markdown 20230720/p/prefect-kubernetes/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-20 16:34:28] INFO root fetch - processPackages [prefect-azure]: executing diffoscope
+[2023-07-20 16:34:28] INFO root fetch - processPackages [prefect-azure]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prefect-azure-0.2.8.tar.gz tmp/prefect-azure-0.2.9.tar.gz --markdown 20230720/p/prefect-azure/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-20 16:34:29] INFO root fetch - processPackages [mmk-updater]: Remove: archive file [/home/abi/fetcher/tmp/mmk_updater-0.14.tar.gz]
+[2023-07-20 16:34:29] INFO root fetch - processPackages [mmk-updater]: Remove: archive file [/home/abi/fetcher/tmp/mmk_updater-0.14.1-py3-none-any.whl.zip]
+[2023-07-20 16:34:29] INFO root fetch - processPackages [mmk-updater]: Start processing: pymodaq
+[2023-07-20 16:34:29] INFO root fetch - main [MainThread]: End processing [mmk-updater]: success
+[2023-07-20 16:34:29] INFO root fetch - processPackages [pymodaq]: New version: [4.0.6] Old Version: [4.0.5]
+[2023-07-20 16:34:29] INFO root fetch - processPackages [pymodaq]: Downloading https://files.pythonhosted.org/packages/90/4f/43a5f972a3b96497caf059441837730fc1c4b0e9b1f8ca121271f540d9d9/pymodaq-4.0.6.tar.gz
+[2023-07-20 16:34:29] INFO root fetch - processPackages [audiolm-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/audiolm-pytorch-1.2.8.tar.gz]
+[2023-07-20 16:34:29] INFO root fetch - processPackages [audiolm-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/audiolm-pytorch-1.2.9.tar.gz]
+[2023-07-20 16:34:29] INFO root fetch - processPackages [audiolm-pytorch]: Start processing: clearml-session
+[2023-07-20 16:34:29] INFO root fetch - main [MainThread]: End processing [audiolm-pytorch]: success
+[2023-07-20 16:34:29] INFO root fetch - processPackages [prefect-docker]: Remove: archive file [/home/abi/fetcher/tmp/prefect-docker-0.3.1.tar.gz]
+[2023-07-20 16:34:29] INFO root fetch - processPackages [prefect-docker]: Remove: archive file [/home/abi/fetcher/tmp/prefect-docker-0.3.11.tar.gz]
+[2023-07-20 16:34:29] INFO root fetch - processPackages [prefect-docker]: Start processing: cg
+[2023-07-20 16:34:29] INFO root fetch - main [MainThread]: End processing [prefect-docker]: success
+[2023-07-20 16:34:29] INFO root fetch - processPackages [clearml-session]: New version: [0.7.0] Old Version: [0.6.0]
+[2023-07-20 16:34:29] INFO root fetch - processPackages [faasmctl]: Remove: archive file [/home/abi/fetcher/tmp/faasmctl-0.8.0.tar.gz]
+[2023-07-20 16:34:29] INFO root fetch - processPackages [faasmctl]: Remove: archive file [/home/abi/fetcher/tmp/faasmctl-0.8.1.tar.gz]
+[2023-07-20 16:34:29] INFO root fetch - processPackages [faasmctl]: Start processing: MediaLib
+[2023-07-20 16:34:29] INFO root fetch - main [MainThread]: End processing [faasmctl]: success
+[2023-07-20 16:34:29] INFO root fetch - processPackages [cg]: New version: [40.0.1] Old Version: [40.0.0]
+[2023-07-20 16:34:29] INFO root fetch - processPackages [striprtf]: Remove: archive file [/home/abi/fetcher/tmp/striprtf-0.0.8.tar.gz]
+[2023-07-20 16:34:29] INFO root fetch - processPackages [striprtf]: Remove: archive file [/home/abi/fetcher/tmp/striprtf-0.0.9.tar.gz]
+[2023-07-20 16:34:29] INFO root fetch - processPackages [striprtf]: Start processing: work-time-log
+[2023-07-20 16:34:29] INFO root fetch - main [MainThread]: End processing [striprtf]: success
+[2023-07-20 16:34:30] INFO root fetch - processPackages [MediaLib]: New version: [3.0.1.9] Old Version: [3.0.1.8]
+[2023-07-20 16:34:30] INFO root fetch - processPackages [work-time-log]: New version: [0.99.2.post1] Old Version: [0.99.2]
+[2023-07-20 16:34:30] INFO root fetch - processPackages [pymodaq]: executing diffoscope
+[2023-07-20 16:34:30] INFO root fetch - processPackages [pymodaq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymodaq-4.0.5.tar.gz tmp/pymodaq-4.0.6.tar.gz --markdown 20230720/p/pymodaq/4.0.5-4.0.6/diff.md --exclude *.pyd
+[2023-07-20 16:34:30] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/c8/17/02eef759df1a4db9cfd36ee810059b0202da76dde3ca0f7032c8e473ab19/cg-40.0.0.tar.gz
+[2023-07-20 16:34:30] INFO root fetch - processPackages [prefect-gcp]: Remove: archive file [/home/abi/fetcher/tmp/prefect-gcp-0.4.4.tar.gz]
+[2023-07-20 16:34:30] INFO root fetch - processPackages [prefect-gcp]: Remove: archive file [/home/abi/fetcher/tmp/prefect-gcp-0.4.5.tar.gz]
+[2023-07-20 16:34:30] INFO root fetch - processPackages [prefect-gcp]: Start processing: udata-hydra-csvapi
+[2023-07-20 16:34:30] INFO root fetch - main [MainThread]: End processing [prefect-gcp]: success
+[2023-07-20 16:34:30] INFO root fetch - processPackages [MediaLib]: Downloading https://files.pythonhosted.org/packages/fd/04/4b2d7353f557ea762b7adb669c1f06bdda2de327d3601b93ec539ba300c9/MediaLib-3.0.1.8.tar.gz
+[2023-07-20 16:34:30] INFO root fetch - processPackages [prefect-aws]: Remove: archive file [/home/abi/fetcher/tmp/prefect-aws-0.3.5.tar.gz]
+[2023-07-20 16:34:30] INFO root fetch - processPackages [prefect-aws]: Remove: archive file [/home/abi/fetcher/tmp/prefect-aws-0.3.6.tar.gz]
+[2023-07-20 16:34:30] INFO root fetch - processPackages [prefect-aws]: Start processing: code-loader
+[2023-07-20 16:34:30] INFO root fetch - main [MainThread]: End processing [prefect-aws]: success
+[2023-07-20 16:34:30] INFO root fetch - processPackages [clearml-session]: Downloading https://files.pythonhosted.org/packages/17/8d/83d3f777bb06a4ec431ab98aa0ce4d8282cf163bae4c306f5058d4b10c35/clearml_session-0.6.0-py3-none-any.whl
+[2023-07-20 16:34:30] INFO root fetch - processPackages [udata-hydra-csvapi]: New version: [0.1.0.dev9] Old Version: [0.1.0.dev4]
+[2023-07-20 16:34:30] INFO root fetch - processPackages [prefect-azure]: Remove: archive file [/home/abi/fetcher/tmp/prefect-azure-0.2.8.tar.gz]
+[2023-07-20 16:34:30] INFO root fetch - processPackages [work-time-log]: Downloading https://files.pythonhosted.org/packages/56/a9/ca4f7096fc717096b0c72e3551ede102278c4db17eca388c3b28180bcb52/work-time-log-0.99.2.tar.gz
+[2023-07-20 16:34:30] INFO root fetch - processPackages [prefect-azure]: Remove: archive file [/home/abi/fetcher/tmp/prefect-azure-0.2.9.tar.gz]
+[2023-07-20 16:34:30] INFO root fetch - processPackages [prefect-azure]: Start processing: metabolights-utils
+[2023-07-20 16:34:30] INFO root fetch - main [MainThread]: End processing [prefect-azure]: success
+[2023-07-20 16:34:30] INFO root fetch - processPackages [figaro]: Remove: archive file [/home/abi/fetcher/tmp/figaro-1.1.2.tar.gz]
+[2023-07-20 16:34:30] INFO root fetch - processPackages [figaro]: Remove: archive file [/home/abi/fetcher/tmp/figaro-1.2.0.tar.gz]
+[2023-07-20 16:34:30] INFO root fetch - processPackages [figaro]: Start processing: glmtuner
+[2023-07-20 16:34:30] INFO root fetch - main [MainThread]: End processing [figaro]: success
+[2023-07-20 16:34:30] INFO root fetch - processPackages [code-loader]: New version: [0.2.9] Old Version: [0.2.84.dev2]
+[2023-07-20 16:34:30] INFO root fetch - processPackages [metabolights-utils]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-07-20 16:34:30] INFO root fetch - processPackages [prefect-kubernetes]: Remove: archive file [/home/abi/fetcher/tmp/prefect-kubernetes-0.2.8.tar.gz]
+[2023-07-20 16:34:30] INFO root fetch - processPackages [prefect-kubernetes]: Remove: archive file [/home/abi/fetcher/tmp/prefect-kubernetes-0.2.9.tar.gz]
+[2023-07-20 16:34:30] INFO root fetch - processPackages [prefect-kubernetes]: Start processing: fastervit
+[2023-07-20 16:34:30] INFO root fetch - main [MainThread]: End processing [prefect-kubernetes]: success
+[2023-07-20 16:34:30] INFO root fetch - processPackages [metabolights-utils]: Downloading https://files.pythonhosted.org/packages/7e/15/70e5f12c07cfc22817df62b3f75df7eab5b2503967d1d32a07d9d384bb0f/metabolights_utils-0.9.5.tar.gz
+[2023-07-20 16:34:30] INFO root fetch - processPackages [glmtuner]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-07-20 16:34:30] INFO root fetch - processPackages [work-time-log]: Downloading https://files.pythonhosted.org/packages/f2/3c/8252c8e10fe5ea561b3c93e1ec358e52afeeb8ed245d47e8a066d43a7629/work-time-log-0.99.2.post1.tar.gz
+[2023-07-20 16:34:30] INFO root fetch - processPackages [code-loader]: Downloading https://files.pythonhosted.org/packages/19/30/03452f5bdb0c2608c7f03456d6663eef727b6a396de294e02b05e29aadab/code_loader-0.2.84.dev2.tar.gz
+[2023-07-20 16:34:30] INFO root fetch - processPackages [udata-hydra-csvapi]: Downloading https://files.pythonhosted.org/packages/e9/b0/cc88136b45823ceb7e446c42fae7c9102c7190aad8ace621402a345c5e1f/udata_hydra_csvapi-0.1.0.dev4.tar.gz
+[2023-07-20 16:34:30] INFO root fetch - processPackages [clearml-session]: Downloading https://files.pythonhosted.org/packages/a5/b3/dfe2aa6e695284cf9e4a40bfac2afd84c29b306bfce5f0801edd7c67d141/clearml_session-0.7.0-py3-none-any.whl
+[2023-07-20 16:34:30] INFO root fetch - processPackages [MediaLib]: Downloading https://files.pythonhosted.org/packages/b3/2d/a1a4b8599aa4ab26d5f35a1c94a7b18d9b978758af74d2bd68c7df8da372/MediaLib-3.0.1.9.tar.gz
+[2023-07-20 16:34:30] INFO root fetch - processPackages [fastervit]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-07-20 16:34:30] INFO root fetch - processPackages [work-time-log]: executing diffoscope
+[2023-07-20 16:34:30] INFO root fetch - processPackages [work-time-log]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/work-time-log-0.99.2.tar.gz tmp/work-time-log-0.99.2.post1.tar.gz --markdown 20230720/w/work-time-log/0.99.2-0.99.2.post1/diff.md --exclude *.pyd
+[2023-07-20 16:34:30] INFO root fetch - processPackages [glmtuner]: Downloading https://files.pythonhosted.org/packages/ec/cb/49c59df0ef564280fb90bb7a3eacdebfd88ce6ed835db472321624074aa0/glmtuner-0.1.3.tar.gz
+[2023-07-20 16:34:30] INFO root fetch - processPackages [clearml-session]: executing diffoscope
+[2023-07-20 16:34:30] INFO root fetch - processPackages [clearml-session]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clearml_session-0.6.0-py3-none-any.whl.zip tmp/clearml_session-0.7.0-py3-none-any.whl.zip --markdown 20230720/c/clearml-session/0.6.0-0.7.0/diff.md --exclude *.pyd
+[2023-07-20 16:34:30] INFO root fetch - processPackages [MediaLib]: executing diffoscope
+[2023-07-20 16:34:30] INFO root fetch - processPackages [MediaLib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MediaLib-3.0.1.8.tar.gz tmp/MediaLib-3.0.1.9.tar.gz --markdown 20230720/M/MediaLib/3.0.1.8-3.0.1.9/diff.md --exclude *.pyd
+[2023-07-20 16:34:30] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/04/01/c2deba20d120eb1ce43ad12030a5f1698984c5297982318274b1facbc410/cg-40.0.1.tar.gz
+[2023-07-20 16:34:30] INFO root fetch - processPackages [code-loader]: Downloading https://files.pythonhosted.org/packages/23/3d/c50351675c5df1eec25c494b3e7b9f9b516c43bd5d3db8cc4447604a8f74/code-loader-0.2.9.tar.gz
+[2023-07-20 16:34:30] INFO root fetch - processPackages [metabolights-utils]: Downloading https://files.pythonhosted.org/packages/f8/63/e0f450092331be39cda4a31bec6a54aaafeea18073fbc76547a2bd8d96ad/metabolights_utils-0.9.6.tar.gz
+[2023-07-20 16:34:30] INFO root fetch - processPackages [fastervit]: Downloading https://files.pythonhosted.org/packages/01/8e/157777f8a321f74108d2d898e6265570e0b5d3153465f8d3a3897100ea0b/fastervit-0.9.2.tar.gz
+[2023-07-20 16:34:30] INFO root fetch - processPackages [udata-hydra-csvapi]: Downloading https://files.pythonhosted.org/packages/ef/6a/b48808d0dd13ed4d6dfb188e68b311ea645fbff6a3312d5ffd0e45f27e2e/udata_hydra_csvapi-0.1.0.dev9.tar.gz
+[2023-07-20 16:34:31] INFO root fetch - processPackages [code-loader]: executing diffoscope
+[2023-07-20 16:34:31] INFO root fetch - processPackages [code-loader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/code_loader-0.2.84.dev2.tar.gz tmp/code-loader-0.2.9.tar.gz --markdown 20230720/c/code-loader/0.2.84.dev2-0.2.9/diff.md --exclude *.pyd
+[2023-07-20 16:34:31] INFO root fetch - processPackages [glmtuner]: Downloading https://files.pythonhosted.org/packages/ff/b7/2a0f7b1163751f9f86386cadde81e74b75ebb151f22bc3b03fa80500fc92/glmtuner-0.1.4.tar.gz
+[2023-07-20 16:34:31] INFO root fetch - processPackages [metabolights-utils]: executing diffoscope
+[2023-07-20 16:34:31] INFO root fetch - processPackages [metabolights-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metabolights_utils-0.9.5.tar.gz tmp/metabolights_utils-0.9.6.tar.gz --markdown 20230720/m/metabolights-utils/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-07-20 16:34:31] INFO root fetch - processPackages [udata-hydra-csvapi]: executing diffoscope
+[2023-07-20 16:34:31] INFO root fetch - processPackages [udata-hydra-csvapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/udata_hydra_csvapi-0.1.0.dev4.tar.gz tmp/udata_hydra_csvapi-0.1.0.dev9.tar.gz --markdown 20230720/u/udata-hydra-csvapi/0.1.0.dev4-0.1.0.dev9/diff.md --exclude *.pyd
+[2023-07-20 16:34:31] INFO root fetch - processPackages [glmtuner]: executing diffoscope
+[2023-07-20 16:34:31] INFO root fetch - processPackages [glmtuner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/glmtuner-0.1.3.tar.gz tmp/glmtuner-0.1.4.tar.gz --markdown 20230720/g/glmtuner/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-07-20 16:34:31] INFO root fetch - processPackages [cg]: executing diffoscope
+[2023-07-20 16:34:31] INFO root fetch - processPackages [cg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg-40.0.0.tar.gz tmp/cg-40.0.1.tar.gz --markdown 20230720/c/cg/40.0.0-40.0.1/diff.md --exclude *.pyd
+[2023-07-20 16:34:31] INFO root fetch - processPackages [fastervit]: Downloading https://files.pythonhosted.org/packages/85/76/9c241a2813058b11946788fdd7cccec90dd06b1b526a3a521c22dd3e67d9/fastervit-0.9.3.tar.gz
+[2023-07-20 16:34:31] INFO root fetch - processPackages [fastervit]: executing diffoscope
+[2023-07-20 16:34:31] INFO root fetch - processPackages [fastervit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastervit-0.9.2.tar.gz tmp/fastervit-0.9.3.tar.gz --markdown 20230720/f/fastervit/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-07-20 16:34:31] INFO root fetch - processPackages [MediaLib]: Remove: archive file [/home/abi/fetcher/tmp/MediaLib-3.0.1.8.tar.gz]
+[2023-07-20 16:34:31] INFO root fetch - processPackages [MediaLib]: Remove: archive file [/home/abi/fetcher/tmp/MediaLib-3.0.1.9.tar.gz]
+[2023-07-20 16:34:31] INFO root fetch - processPackages [MediaLib]: Start processing: pykx
+[2023-07-20 16:34:31] INFO root fetch - main [MainThread]: End processing [MediaLib]: success
+[2023-07-20 16:34:31] INFO root fetch - processPackages [pymodaq]: Remove: archive file [/home/abi/fetcher/tmp/pymodaq-4.0.5.tar.gz]
+[2023-07-20 16:34:31] INFO root fetch - processPackages [pymodaq]: Remove: archive file [/home/abi/fetcher/tmp/pymodaq-4.0.6.tar.gz]
+[2023-07-20 16:34:31] INFO root fetch - processPackages [pymodaq]: Start processing: optim-esm-tools
+[2023-07-20 16:34:31] INFO root fetch - main [MainThread]: End processing [pymodaq]: success
+[2023-07-20 16:34:32] INFO root fetch - processPackages [work-time-log]: Remove: archive file [/home/abi/fetcher/tmp/work-time-log-0.99.2.tar.gz]
+[2023-07-20 16:34:32] INFO root fetch - processPackages [work-time-log]: Remove: archive file [/home/abi/fetcher/tmp/work-time-log-0.99.2.post1.tar.gz]
+[2023-07-20 16:34:32] INFO root fetch - processPackages [work-time-log]: Start processing: llmtuner
+[2023-07-20 16:34:32] INFO root fetch - main [MainThread]: End processing [work-time-log]: success
+[2023-07-20 16:34:32] INFO root fetch - processPackages [pykx]: New version: [1.6.1] Old Version: [1.6.0]
+[2023-07-20 16:34:32] INFO root fetch - processPackages [optim-esm-tools]: New version: [1.0.2] Old Version: [1.0.0]
+[2023-07-20 16:34:32] INFO root fetch - processPackages [llmtuner]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-20 16:34:32] INFO root fetch - processPackages [clearml-session]: Remove: archive file [/home/abi/fetcher/tmp/clearml_session-0.6.0-py3-none-any.whl.zip]
+[2023-07-20 16:34:32] INFO root fetch - processPackages [clearml-session]: Remove: archive file [/home/abi/fetcher/tmp/clearml_session-0.7.0-py3-none-any.whl.zip]
+[2023-07-20 16:34:32] INFO root fetch - processPackages [clearml-session]: Start processing: krakatoa
+[2023-07-20 16:34:32] INFO root fetch - main [MainThread]: End processing [clearml-session]: success
+[2023-07-20 16:34:32] INFO root fetch - processPackages [pykx]: Downloading https://files.pythonhosted.org/packages/38/7c/bc28eba3d3f98bbd899951e1410dc684ca80c6cf53b6b530f61f8bea4f33/pykx-1.6.0-cp39-cp39-win_amd64.whl
+[2023-07-20 16:34:32] INFO root fetch - processPackages [optim-esm-tools]: Downloading https://files.pythonhosted.org/packages/2a/f2/feb1e0215c1df35f5a81704209cce387290c595c63f2a065acb3a88ca07b/optim_esm_tools-1.0.0.tar.gz
+[2023-07-20 16:34:32] INFO root fetch - processPackages [krakatoa]: New version: [0.0.6.post5] Old Version: [0.0.6.post4]
+[2023-07-20 16:34:32] INFO root fetch - processPackages [llmtuner]: Downloading https://files.pythonhosted.org/packages/cf/c9/2820446abeaf12704ae79d944f6b7102688045d3dba983b8f0736751610b/llmtuner-0.1.1.tar.gz
+[2023-07-20 16:34:32] INFO root fetch - processPackages [code-loader]: Remove: archive file [/home/abi/fetcher/tmp/code_loader-0.2.84.dev2.tar.gz]
+[2023-07-20 16:34:32] INFO root fetch - processPackages [code-loader]: Remove: archive file [/home/abi/fetcher/tmp/code-loader-0.2.9.tar.gz]
+[2023-07-20 16:34:32] INFO root fetch - processPackages [code-loader]: Start processing: emark
+[2023-07-20 16:34:32] INFO root fetch - main [MainThread]: End processing [code-loader]: success
+[2023-07-20 16:34:32] INFO root fetch - processPackages [udata-hydra-csvapi]: Remove: archive file [/home/abi/fetcher/tmp/udata_hydra_csvapi-0.1.0.dev4.tar.gz]
+[2023-07-20 16:34:32] INFO root fetch - processPackages [udata-hydra-csvapi]: Remove: archive file [/home/abi/fetcher/tmp/udata_hydra_csvapi-0.1.0.dev9.tar.gz]
+[2023-07-20 16:34:32] INFO root fetch - processPackages [udata-hydra-csvapi]: Start processing: langflow
+[2023-07-20 16:34:32] INFO root fetch - main [MainThread]: End processing [udata-hydra-csvapi]: success
+[2023-07-20 16:34:32] INFO root fetch - processPackages [metabolights-utils]: Remove: archive file [/home/abi/fetcher/tmp/metabolights_utils-0.9.5.tar.gz]
+[2023-07-20 16:34:32] INFO root fetch - processPackages [metabolights-utils]: Remove: archive file [/home/abi/fetcher/tmp/metabolights_utils-0.9.6.tar.gz]
+[2023-07-20 16:34:32] INFO root fetch - main [MainThread]: End processing [metabolights-utils]: success
+[2023-07-20 16:34:32] INFO root fetch - processPackages [krakatoa]: Downloading https://files.pythonhosted.org/packages/55/8f/d15717d4761ba926ee57caadc3439d1273cc279f0921c79fd79a0511b8d9/krakatoa-0.0.6.post4.tar.gz
+[2023-07-20 16:34:32] INFO root fetch - processPackages [emark]: New version: [1.1rc1] Old Version: [1.0rc6]
+[2023-07-20 16:34:32] INFO root fetch - processPackages [langflow]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-07-20 16:34:32] INFO root fetch - processPackages [optim-esm-tools]: Downloading https://files.pythonhosted.org/packages/5f/e7/b99d18e2644b75e6e4c839330fce84c7c57ab95f7a55b2ab89715fa57462/optim_esm_tools-1.0.2.tar.gz
+[2023-07-20 16:34:32] INFO root fetch - processPackages [llmtuner]: Downloading https://files.pythonhosted.org/packages/46/a0/1340f6e494bd53d40734cf907d4ea2927e7cee1a7c24bbe52327945839a5/llmtuner-0.1.2.tar.gz
+[2023-07-20 16:34:32] INFO root fetch - processPackages [optim-esm-tools]: executing diffoscope
+[2023-07-20 16:34:32] INFO root fetch - processPackages [optim-esm-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/optim_esm_tools-1.0.0.tar.gz tmp/optim_esm_tools-1.0.2.tar.gz --markdown 20230720/o/optim-esm-tools/1.0.0-1.0.2/diff.md --exclude *.pyd
+[2023-07-20 16:34:32] INFO root fetch - processPackages [emark]: Downloading https://files.pythonhosted.org/packages/73/f3/9416caf08613763b634947e4ed0a05b9a4f67ac86f48c82d54ec660953fb/emark-1.0rc6.tar.gz
+[2023-07-20 16:34:32] INFO root fetch - processPackages [llmtuner]: executing diffoscope
+[2023-07-20 16:34:32] INFO root fetch - processPackages [llmtuner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llmtuner-0.1.1.tar.gz tmp/llmtuner-0.1.2.tar.gz --markdown 20230720/l/llmtuner/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-20 16:34:32] INFO root fetch - processPackages [fastervit]: Remove: archive file [/home/abi/fetcher/tmp/fastervit-0.9.2.tar.gz]
+[2023-07-20 16:34:32] INFO root fetch - processPackages [langflow]: Downloading https://files.pythonhosted.org/packages/46/e8/f0266efa7d84b6a2aad6b833b1b08d2abe230b7f279c0bfff975ee6b9b63/langflow-0.3.1.tar.gz
+[2023-07-20 16:34:32] INFO root fetch - processPackages [fastervit]: Remove: archive file [/home/abi/fetcher/tmp/fastervit-0.9.3.tar.gz]
+[2023-07-20 16:34:32] INFO root fetch - main [MainThread]: End processing [fastervit]: success
+[2023-07-20 16:34:33] INFO root fetch - processPackages [glmtuner]: Remove: archive file [/home/abi/fetcher/tmp/glmtuner-0.1.3.tar.gz]
+[2023-07-20 16:34:33] INFO root fetch - processPackages [glmtuner]: Remove: archive file [/home/abi/fetcher/tmp/glmtuner-0.1.4.tar.gz]
+[2023-07-20 16:34:33] INFO root fetch - main [MainThread]: End processing [glmtuner]: success
+[2023-07-20 16:34:33] INFO root fetch - processPackages [krakatoa]: Downloading https://files.pythonhosted.org/packages/e3/88/e01c6ba546719226450e06a37694c4e7d18fa7485215edb1a2046377b13d/krakatoa-0.0.6.post5.tar.gz
+[2023-07-20 16:34:33] INFO root fetch - processPackages [krakatoa]: executing diffoscope
+[2023-07-20 16:34:33] INFO root fetch - processPackages [krakatoa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/krakatoa-0.0.6.post4.tar.gz tmp/krakatoa-0.0.6.post5.tar.gz --markdown 20230720/k/krakatoa/0.0.6.post4-0.0.6.post5/diff.md --exclude *.pyd
+[2023-07-20 16:34:33] INFO root fetch - processPackages [emark]: Downloading https://files.pythonhosted.org/packages/2f/6e/42782014442300192c3afdb6f1e93e63fd418bc66adcd3f75f94ec45dc6c/emark-1.1rc1.tar.gz
+[2023-07-20 16:34:33] INFO root fetch - processPackages [pykx]: Downloading https://files.pythonhosted.org/packages/ae/48/46b401860a62b93add893064df408bdb925ff5f30f6172e4a5e6e4195d08/pykx-1.6.1-cp39-cp39-win_amd64.whl
+[2023-07-20 16:34:33] INFO root fetch - processPackages [langflow]: Downloading https://files.pythonhosted.org/packages/b9/7b/d3443e7628656e804c4e3e284dc478b7990f7874f92ac052bfc7559b7e80/langflow-0.3.2.tar.gz
+[2023-07-20 16:34:33] INFO root fetch - processPackages [emark]: executing diffoscope
+[2023-07-20 16:34:33] INFO root fetch - processPackages [emark]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/emark-1.0rc6.tar.gz tmp/emark-1.1rc1.tar.gz --markdown 20230720/e/emark/1.0rc6-1.1rc1/diff.md --exclude *.pyd
+[2023-07-20 16:34:33] INFO root fetch - processPackages [langflow]: executing diffoscope
+[2023-07-20 16:34:33] INFO root fetch - processPackages [langflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langflow-0.3.1.tar.gz tmp/langflow-0.3.2.tar.gz --markdown 20230720/l/langflow/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-07-20 16:34:34] INFO root fetch - processPackages [optim-esm-tools]: Remove: archive file [/home/abi/fetcher/tmp/optim_esm_tools-1.0.0.tar.gz]
+[2023-07-20 16:34:34] INFO root fetch - processPackages [optim-esm-tools]: Remove: archive file [/home/abi/fetcher/tmp/optim_esm_tools-1.0.2.tar.gz]
+[2023-07-20 16:34:34] INFO root fetch - main [MainThread]: End processing [optim-esm-tools]: success
+[2023-07-20 16:34:34] INFO root fetch - processPackages [krakatoa]: Remove: archive file [/home/abi/fetcher/tmp/krakatoa-0.0.6.post4.tar.gz]
+[2023-07-20 16:34:34] INFO root fetch - processPackages [krakatoa]: Remove: archive file [/home/abi/fetcher/tmp/krakatoa-0.0.6.post5.tar.gz]
+[2023-07-20 16:34:34] INFO root fetch - main [MainThread]: End processing [krakatoa]: success
+[2023-07-20 16:34:34] INFO root fetch - processPackages [pykx]: executing diffoscope
+[2023-07-20 16:34:34] INFO root fetch - processPackages [pykx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pykx-1.6.0-cp39-cp39-win_amd64.whl.zip tmp/pykx-1.6.1-cp39-cp39-win_amd64.whl.zip --markdown 20230720/p/pykx/1.6.0-1.6.1/diff.md --exclude *.pyd
+[2023-07-20 16:34:34] INFO root fetch - processPackages [llmtuner]: Remove: archive file [/home/abi/fetcher/tmp/llmtuner-0.1.1.tar.gz]
+[2023-07-20 16:34:34] INFO root fetch - processPackages [llmtuner]: Remove: archive file [/home/abi/fetcher/tmp/llmtuner-0.1.2.tar.gz]
+[2023-07-20 16:34:34] INFO root fetch - main [MainThread]: End processing [llmtuner]: success
+[2023-07-20 16:34:34] INFO root fetch - processPackages [emark]: Remove: archive file [/home/abi/fetcher/tmp/emark-1.0rc6.tar.gz]
+[2023-07-20 16:34:34] INFO root fetch - processPackages [emark]: Remove: archive file [/home/abi/fetcher/tmp/emark-1.1rc1.tar.gz]
+[2023-07-20 16:34:34] INFO root fetch - main [MainThread]: End processing [emark]: success
+[2023-07-20 16:34:35] INFO root fetch - processPackages [langflow]: Remove: archive file [/home/abi/fetcher/tmp/langflow-0.3.1.tar.gz]
+[2023-07-20 16:34:35] INFO root fetch - processPackages [langflow]: Remove: archive file [/home/abi/fetcher/tmp/langflow-0.3.2.tar.gz]
+[2023-07-20 16:34:35] INFO root fetch - main [MainThread]: End processing [langflow]: success
+[2023-07-20 16:34:37] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-40.0.0.tar.gz]
+[2023-07-20 16:34:37] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-40.0.1.tar.gz]
+[2023-07-20 16:34:37] INFO root fetch - main [MainThread]: End processing [cg]: success
+[2023-07-20 16:34:46] INFO root fetch - processPackages [pykx]: Remove: archive file [/home/abi/fetcher/tmp/pykx-1.6.0-cp39-cp39-win_amd64.whl.zip]
+[2023-07-20 16:34:46] INFO root fetch - processPackages [pykx]: Remove: archive file [/home/abi/fetcher/tmp/pykx-1.6.1-cp39-cp39-win_amd64.whl.zip]
+[2023-07-20 16:34:46] INFO root fetch - main [MainThread]: End processing [pykx]: success
+[2023-07-20 16:34:46] INFO root fetch - main [MainThread]: Store serial: [18968037]
