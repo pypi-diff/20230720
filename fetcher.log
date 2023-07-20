@@ -13002,3 +13002,159 @@ AssertionError: tmp/verify4py-test-0.1.7.tar.gz does not exist
 [2023-07-20 17:01:23] INFO root fetch - processPackages [domolibrary]: Remove: archive file [/home/abi/fetcher/tmp/domolibrary-0.1.99.tar.gz]
 [2023-07-20 17:01:23] INFO root fetch - main [MainThread]: End processing [domolibrary]: success
 [2023-07-20 17:01:23] INFO root fetch - main [MainThread]: Store serial: [18968420]
+[2023-07-20 17:06:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18968420]
+[2023-07-20 17:06:32] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2023-07-20 17:06:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: steroid
+[2023-07-20 17:06:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: open-autonomy
+[2023-07-20 17:06:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: domain-admin
+[2023-07-20 17:06:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: open-aea-test-autonomy
+[2023-07-20 17:06:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: alpaka-job-coverage
+[2023-07-20 17:06:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: oda-wd-client
+[2023-07-20 17:06:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: astrotitles
+[2023-07-20 17:06:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: fastapi-serve
+[2023-07-20 17:06:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: spelunker
+[2023-07-20 17:06:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: webio-api
+[2023-07-20 17:06:32] INFO root fetch - processPackages [steroid]: New version: [0.6b0] Old Version: [0.5b0]
+[2023-07-20 17:06:32] INFO root fetch - processPackages [astrotitles]: New version: [0.1.1] Old Version: [0.1]
+[2023-07-20 17:06:32] INFO root fetch - processPackages [open-autonomy]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-07-20 17:06:32] WARNING root fetch - processPackages [webio-api]: Skipping, unable to determine old version
+[2023-07-20 17:06:32] INFO root fetch - processPackages [webio-api]: Start processing: ldeep
+[2023-07-20 17:06:32] INFO root fetch - main [MainThread]: End processing [webio-api] error
+[2023-07-20 17:06:32] INFO root fetch - processPackages [spelunker]: New version: [0.5.5] Old Version: [0.5.4]
+[2023-07-20 17:06:32] INFO root fetch - processPackages [domain-admin]: New version: [1.5.3] Old Version: [1.5.2]
+[2023-07-20 17:06:32] WARNING root fetch - processPackages [oda-wd-client]: Skipping, unable to determine old version
+[2023-07-20 17:06:32] INFO root fetch - processPackages [oda-wd-client]: Start processing: aliyun-python-sdk-rds
+[2023-07-20 17:06:32] INFO root fetch - main [MainThread]: End processing [oda-wd-client] error
+[2023-07-20 17:06:32] INFO root fetch - processPackages [open-aea-test-autonomy]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-07-20 17:06:32] INFO root fetch - processPackages [fastapi-serve]: New version: [0.0.6.dev5] Old Version: [0.0.6.dev4]
+[2023-07-20 17:06:32] INFO root fetch - processPackages [alpaka-job-coverage]: New version: [1.3.5] Old Version: [1.3.4]
+[2023-07-20 17:06:32] INFO root fetch - processPackages [ldeep]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-20 17:06:32] INFO root fetch - processPackages [aliyun-python-sdk-rds]: New version: [2.7.9] Old Version: [2.7.8]
+[2023-07-20 17:06:32] INFO root fetch - processPackages [steroid]: Downloading https://files.pythonhosted.org/packages/f8/28/52c17a649c259552a3c905d405351bc79284fe9d563f29528d67ef761ab2/steroid-0.5b0.tar.gz
+[2023-07-20 17:06:32] INFO root fetch - processPackages [astrotitles]: Downloading https://files.pythonhosted.org/packages/59/2f/93be226f04cfd5b98a13d36b64e1a7393e9f8c3e018927ed0ba7bddb7f80/astrotitles-0.1.tar.gz
+[2023-07-20 17:06:32] INFO root fetch - processPackages [fastapi-serve]: Downloading https://files.pythonhosted.org/packages/ad/c6/a805f00fd08230e5a0d9b2f4f1a5df5e5d6e812c5d7edc72996487602b5a/fastapi-serve-0.0.6.dev4.tar.gz
+[2023-07-20 17:06:32] INFO root fetch - processPackages [aliyun-python-sdk-rds]: Downloading https://files.pythonhosted.org/packages/86/16/e429481b48c8e39fd99916cf0d5537d596ff8a08c15cde79f3fa9f8b822b/aliyun-python-sdk-rds-2.7.8.tar.gz
+[2023-07-20 17:06:32] INFO root fetch - processPackages [spelunker]: Downloading https://files.pythonhosted.org/packages/e5/43/26336a42b3afe2b988951d45ce9665e9c42b11c6ee9099115fa98c86ad29/spelunker-0.5.4.tar.gz
+[2023-07-20 17:06:32] INFO root fetch - processPackages [open-autonomy]: Downloading https://files.pythonhosted.org/packages/26/db/68ff36c112427aa8da36a891a4d5aabb3a68713130bb62425cb8bbdb402e/open-autonomy-0.9.0.tar.gz
+[2023-07-20 17:06:32] INFO root fetch - processPackages [domain-admin]: Downloading https://files.pythonhosted.org/packages/59/9f/f6b645abbe6b0943d097620cdaa2298ccccc5d871f59baaf5e7587a1249a/domain-admin-1.5.2.tar.gz
+[2023-07-20 17:06:32] INFO root fetch - processPackages [alpaka-job-coverage]: Downloading https://files.pythonhosted.org/packages/33/ab/783ce70dbd7706638640640a0acfdadd1e45f42464e600008517934d2aa5/alpaka-job-coverage-1.3.4.tar.gz
+[2023-07-20 17:06:32] INFO root fetch - processPackages [open-aea-test-autonomy]: Downloading https://files.pythonhosted.org/packages/a0/6e/9c4d67ce36ee527c11b4a9025747f46b827bb71545592e7f3c4e627c3088/open-aea-test-autonomy-0.9.0.tar.gz
+[2023-07-20 17:06:32] INFO root fetch - processPackages [ldeep]: Downloading https://files.pythonhosted.org/packages/24/e2/09c2ff64528ba7e556d1f75dec902fee07b80fdde1f9ffcf6dd1e182bfcf/ldeep-1.0.8.tar.gz
+[2023-07-20 17:06:33] INFO root fetch - processPackages [fastapi-serve]: Downloading https://files.pythonhosted.org/packages/f6/60/03591e7387dc07e9b959f6d8a12e14a845f995c218a976af168a97aaf8fa/fastapi-serve-0.0.6.dev5.tar.gz
+[2023-07-20 17:06:33] INFO root fetch - processPackages [steroid]: Downloading https://files.pythonhosted.org/packages/f6/73/504836df561f0a0d6c2f6da357fda2eeea622bfbaf04c85e515f6d8fa9a5/steroid-0.6b0.tar.gz
+[2023-07-20 17:06:33] INFO root fetch - processPackages [aliyun-python-sdk-rds]: Downloading https://files.pythonhosted.org/packages/49/c8/97bd9925e2aab8e2fb90f2bd5952e96c8793dbb73634161c2b81b93690bb/aliyun-python-sdk-rds-2.7.9.tar.gz
+[2023-07-20 17:06:33] INFO root fetch - processPackages [astrotitles]: Downloading https://files.pythonhosted.org/packages/64/ae/02983727ba6e88109db5ba50091ad4dbc8e09cb40d123b5fa2a9c5065e15/astrotitles-0.1.1.tar.gz
+[2023-07-20 17:06:33] INFO root fetch - processPackages [steroid]: executing diffoscope
+[2023-07-20 17:06:33] INFO root fetch - processPackages [steroid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/steroid-0.5b0.tar.gz tmp/steroid-0.6b0.tar.gz --markdown 20230720/s/steroid/0.5b0-0.6b0/diff.md --exclude *.pyd
+[2023-07-20 17:06:33] INFO root fetch - processPackages [spelunker]: Downloading https://files.pythonhosted.org/packages/05/6e/5968eb0c921a5419f3e0800b09ceeb941fdad41bf85060551e76327fe658/spelunker-0.5.5.tar.gz
+[2023-07-20 17:06:33] INFO root fetch - processPackages [aliyun-python-sdk-rds]: executing diffoscope
+[2023-07-20 17:06:33] INFO root fetch - processPackages [aliyun-python-sdk-rds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aliyun-python-sdk-rds-2.7.8.tar.gz tmp/aliyun-python-sdk-rds-2.7.9.tar.gz --markdown 20230720/a/aliyun-python-sdk-rds/2.7.8-2.7.9/diff.md --exclude *.pyd
+[2023-07-20 17:06:33] INFO root fetch - processPackages [fastapi-serve]: executing diffoscope
+[2023-07-20 17:06:33] INFO root fetch - processPackages [fastapi-serve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi-serve-0.0.6.dev4.tar.gz tmp/fastapi-serve-0.0.6.dev5.tar.gz --markdown 20230720/f/fastapi-serve/0.0.6.dev4-0.0.6.dev5/diff.md --exclude *.pyd
+[2023-07-20 17:06:33] INFO root fetch - processPackages [alpaka-job-coverage]: Downloading https://files.pythonhosted.org/packages/33/99/77858585df13f4fdcbaada587f2e255806caf616326edf12c3f20eca7cef/alpaka-job-coverage-1.3.5.tar.gz
+[2023-07-20 17:06:33] INFO root fetch - processPackages [ldeep]: Downloading https://files.pythonhosted.org/packages/e2/b0/645c2fce50d34f47b9f5b8fb9be8a6c2e716ddb3573e379f4221970560bc/ldeep-1.0.9.tar.gz
+[2023-07-20 17:06:33] INFO root fetch - processPackages [spelunker]: executing diffoscope
+[2023-07-20 17:06:33] INFO root fetch - processPackages [spelunker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spelunker-0.5.4.tar.gz tmp/spelunker-0.5.5.tar.gz --markdown 20230720/s/spelunker/0.5.4-0.5.5/diff.md --exclude *.pyd
+[2023-07-20 17:06:33] INFO root fetch - processPackages [astrotitles]: executing diffoscope
+[2023-07-20 17:06:33] INFO root fetch - processPackages [astrotitles]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/astrotitles-0.1.tar.gz tmp/astrotitles-0.1.1.tar.gz --markdown 20230720/a/astrotitles/0.1-0.1.1/diff.md --exclude *.pyd
+[2023-07-20 17:06:33] INFO root fetch - processPackages [open-aea-test-autonomy]: Downloading https://files.pythonhosted.org/packages/16/ed/042bfa918bbe47dbe3fb43f396481d4f74ef1a90ac067516913c9fc8c2b7/open-aea-test-autonomy-0.9.1.tar.gz
+[2023-07-20 17:06:33] INFO root fetch - processPackages [alpaka-job-coverage]: executing diffoscope
+[2023-07-20 17:06:33] INFO root fetch - processPackages [alpaka-job-coverage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alpaka-job-coverage-1.3.4.tar.gz tmp/alpaka-job-coverage-1.3.5.tar.gz --markdown 20230720/a/alpaka-job-coverage/1.3.4-1.3.5/diff.md --exclude *.pyd
+[2023-07-20 17:06:33] INFO root fetch - processPackages [domain-admin]: Downloading https://files.pythonhosted.org/packages/77/3e/84513fa7f778e3bfb7abbfc8120561c570ddaf040c14e8d83f25ac11bde5/domain-admin-1.5.3.tar.gz
+[2023-07-20 17:06:33] INFO root fetch - processPackages [ldeep]: executing diffoscope
+[2023-07-20 17:06:33] INFO root fetch - processPackages [ldeep]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ldeep-1.0.8.tar.gz tmp/ldeep-1.0.9.tar.gz --markdown 20230720/l/ldeep/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-20 17:06:33] INFO root fetch - processPackages [open-aea-test-autonomy]: executing diffoscope
+[2023-07-20 17:06:33] INFO root fetch - processPackages [open-aea-test-autonomy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/open-aea-test-autonomy-0.9.0.tar.gz tmp/open-aea-test-autonomy-0.9.1.tar.gz --markdown 20230720/o/open-aea-test-autonomy/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-07-20 17:06:33] INFO root fetch - processPackages [domain-admin]: executing diffoscope
+[2023-07-20 17:06:33] INFO root fetch - processPackages [domain-admin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/domain-admin-1.5.2.tar.gz tmp/domain-admin-1.5.3.tar.gz --markdown 20230720/d/domain-admin/1.5.2-1.5.3/diff.md --exclude *.pyd
+[2023-07-20 17:06:34] INFO root fetch - processPackages [open-autonomy]: Downloading https://files.pythonhosted.org/packages/d2/14/e7bb8dec5be3ae2caf12a3a77abe5eb849912ee6ab113bbb753fb27c75bf/open-autonomy-0.9.1.tar.gz
+[2023-07-20 17:06:34] INFO root fetch - processPackages [steroid]: Remove: archive file [/home/abi/fetcher/tmp/steroid-0.5b0.tar.gz]
+[2023-07-20 17:06:34] INFO root fetch - processPackages [steroid]: Remove: archive file [/home/abi/fetcher/tmp/steroid-0.6b0.tar.gz]
+[2023-07-20 17:06:34] INFO root fetch - processPackages [steroid]: Start processing: simpleutil
+[2023-07-20 17:06:34] INFO root fetch - main [MainThread]: End processing [steroid]: success
+[2023-07-20 17:06:34] WARNING root fetch - processPackages [simpleutil]: Skipping, unable to determine old version
+[2023-07-20 17:06:34] INFO root fetch - processPackages [simpleutil]: Start processing: corcli
+[2023-07-20 17:06:34] INFO root fetch - main [MainThread]: End processing [simpleutil] error
+[2023-07-20 17:06:34] WARNING root fetch - processPackages [corcli]: Skipping, unable to determine old version
+[2023-07-20 17:06:34] INFO root fetch - processPackages [corcli]: Start processing: rpi-networking
+[2023-07-20 17:06:34] INFO root fetch - main [MainThread]: End processing [corcli] error
+[2023-07-20 17:06:34] INFO root fetch - processPackages [fastapi-serve]: Remove: archive file [/home/abi/fetcher/tmp/fastapi-serve-0.0.6.dev4.tar.gz]
+[2023-07-20 17:06:34] INFO root fetch - processPackages [fastapi-serve]: Remove: archive file [/home/abi/fetcher/tmp/fastapi-serve-0.0.6.dev5.tar.gz]
+[2023-07-20 17:06:34] INFO root fetch - processPackages [fastapi-serve]: Start processing: fastapi_amis_admin
+[2023-07-20 17:06:34] INFO root fetch - main [MainThread]: End processing [fastapi-serve]: success
+[2023-07-20 17:06:34] WARNING root fetch - processPackages [rpi-networking]: Skipping, unable to determine old version
+[2023-07-20 17:06:34] INFO root fetch - processPackages [rpi-networking]: Start processing: magnipore
+[2023-07-20 17:06:34] INFO root fetch - main [MainThread]: End processing [rpi-networking] error
+[2023-07-20 17:06:34] INFO root fetch - processPackages [fastapi_amis_admin]: New version: [0.6.1] Old Version: [0.6.0a3]
+[2023-07-20 17:06:34] WARNING root fetch - processPackages [magnipore]: Skipping, unable to determine old version
+[2023-07-20 17:06:34] INFO root fetch - processPackages [open-autonomy]: executing diffoscope
+[2023-07-20 17:06:34] INFO root fetch - processPackages [magnipore]: Start processing: muke
+[2023-07-20 17:06:34] INFO root fetch - main [MainThread]: End processing [magnipore] error
+[2023-07-20 17:06:34] INFO root fetch - processPackages [open-autonomy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/open-autonomy-0.9.0.tar.gz tmp/open-autonomy-0.9.1.tar.gz --markdown 20230720/o/open-autonomy/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-07-20 17:06:34] INFO root fetch - processPackages [spelunker]: Remove: archive file [/home/abi/fetcher/tmp/spelunker-0.5.4.tar.gz]
+[2023-07-20 17:06:34] INFO root fetch - processPackages [spelunker]: Remove: archive file [/home/abi/fetcher/tmp/spelunker-0.5.5.tar.gz]
+[2023-07-20 17:06:34] INFO root fetch - processPackages [spelunker]: Start processing: astrotitles
+[2023-07-20 17:06:34] INFO root fetch - main [MainThread]: End processing [spelunker]: success
+[2023-07-20 17:06:34] INFO root fetch - processPackages [muke]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-07-20 17:06:34] INFO root fetch - processPackages [astrotitles]: Remove: archive file [/home/abi/fetcher/tmp/astrotitles-0.1.tar.gz]
+[2023-07-20 17:06:34] INFO root fetch - processPackages [astrotitles]: Remove: archive file [/home/abi/fetcher/tmp/astrotitles-0.1.1.tar.gz]
+[2023-07-20 17:06:34] INFO root fetch - processPackages [astrotitles]: Start processing: PCCanalyser
+[2023-07-20 17:06:35] INFO root fetch - main [MainThread]: End processing [astrotitles]: success
+[2023-07-20 17:06:35] INFO root fetch - processPackages [astrotitles]: New version: [0.1.1] Old Version: [0.1]
+[2023-07-20 17:06:35] INFO root fetch - processPackages [PCCanalyser]: New version: [0.5.2] Old Version: [0.5.1]
+[2023-07-20 17:06:35] INFO root fetch - processPackages [muke]: Downloading https://files.pythonhosted.org/packages/97/57/6d307ce94936388040f899bad80f78b2ea05f852b38dda2ebe28ac56eb52/muke-0.2.3-py3-none-any.whl
+[2023-07-20 17:06:35] INFO root fetch - processPackages [ldeep]: Remove: archive file [/home/abi/fetcher/tmp/ldeep-1.0.8.tar.gz]
+[2023-07-20 17:06:35] INFO root fetch - processPackages [ldeep]: Remove: archive file [/home/abi/fetcher/tmp/ldeep-1.0.9.tar.gz]
+[2023-07-20 17:06:35] INFO root fetch - processPackages [ldeep]: Start processing: imagen-pytorch
+[2023-07-20 17:06:35] INFO root fetch - main [MainThread]: End processing [ldeep]: success
+[2023-07-20 17:06:35] INFO root fetch - processPackages [astrotitles]: Downloading https://files.pythonhosted.org/packages/59/2f/93be226f04cfd5b98a13d36b64e1a7393e9f8c3e018927ed0ba7bddb7f80/astrotitles-0.1.tar.gz
+[2023-07-20 17:06:35] INFO root fetch - processPackages [fastapi_amis_admin]: Downloading https://files.pythonhosted.org/packages/2d/ff/d415f8b1f2c05fd10b64ba73bde3cf508368222a41ce5dfb3f16fa47a5e8/fastapi_amis_admin-0.6.0a3.tar.gz
+[2023-07-20 17:06:35] INFO root fetch - processPackages [imagen-pytorch]: New version: [1.9.7] Old Version: [1.9.6]
+[2023-07-20 17:06:35] INFO root fetch - processPackages [open-aea-test-autonomy]: Remove: archive file [/home/abi/fetcher/tmp/open-aea-test-autonomy-0.9.0.tar.gz]
+[2023-07-20 17:06:35] INFO root fetch - processPackages [open-aea-test-autonomy]: Remove: archive file [/home/abi/fetcher/tmp/open-aea-test-autonomy-0.9.1.tar.gz]
+[2023-07-20 17:06:35] INFO root fetch - main [MainThread]: End processing [open-aea-test-autonomy]: success
+[2023-07-20 17:06:35] INFO root fetch - processPackages [alpaka-job-coverage]: Remove: archive file [/home/abi/fetcher/tmp/alpaka-job-coverage-1.3.4.tar.gz]
+[2023-07-20 17:06:35] INFO root fetch - processPackages [alpaka-job-coverage]: Remove: archive file [/home/abi/fetcher/tmp/alpaka-job-coverage-1.3.5.tar.gz]
+[2023-07-20 17:06:35] INFO root fetch - main [MainThread]: End processing [alpaka-job-coverage]: success
+[2023-07-20 17:06:35] INFO root fetch - processPackages [PCCanalyser]: Downloading https://files.pythonhosted.org/packages/45/3c/98c5d402409d459f3d23f800d067c0a417b1d657ab211ec52a1347b96988/PCCanalyser-0.5.1.tar.gz
+[2023-07-20 17:06:35] INFO root fetch - processPackages [astrotitles]: Downloading https://files.pythonhosted.org/packages/64/ae/02983727ba6e88109db5ba50091ad4dbc8e09cb40d123b5fa2a9c5065e15/astrotitles-0.1.1.tar.gz
+[2023-07-20 17:06:35] INFO root fetch - processPackages [muke]: Downloading https://files.pythonhosted.org/packages/c9/25/9915856d34917f629ae6e7c093eba0955c5e6ef177cc59406ab89d41a0d8/muke-0.2.4-py3-none-any.whl
+[2023-07-20 17:06:35] INFO root fetch - processPackages [imagen-pytorch]: Downloading https://files.pythonhosted.org/packages/95/5a/938ac965e87b49870e957284b455d2436327c8540007bf10e3accc2c5e02/imagen-pytorch-1.9.6.tar.gz
+[2023-07-20 17:06:35] INFO root fetch - processPackages [astrotitles]: executing diffoscope
+[2023-07-20 17:06:35] INFO root fetch - processPackages [astrotitles]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/astrotitles-0.1.tar.gz tmp/astrotitles-0.1.1.tar.gz --markdown 20230720/a/astrotitles/0.1-0.1.1/diff.md --exclude *.pyd
+[2023-07-20 17:06:35] INFO root fetch - processPackages [fastapi_amis_admin]: Downloading https://files.pythonhosted.org/packages/27/03/fe58508bb9b9ce46edc89df87e8e23edb5610a48cf0ead3eb7fc3490938e/fastapi_amis_admin-0.6.1.tar.gz
+[2023-07-20 17:06:35] INFO root fetch - processPackages [PCCanalyser]: Downloading https://files.pythonhosted.org/packages/b9/79/4e8cdeb00181f6523bc96e110c04107038b634247badaacf1eea4c02fa19/PCCanalyser-0.5.2.tar.gz
+[2023-07-20 17:06:35] INFO root fetch - processPackages [muke]: executing diffoscope
+[2023-07-20 17:06:35] INFO root fetch - processPackages [muke]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/muke-0.2.3-py3-none-any.whl.zip tmp/muke-0.2.4-py3-none-any.whl.zip --markdown 20230720/m/muke/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-07-20 17:06:35] INFO root fetch - processPackages [fastapi_amis_admin]: executing diffoscope
+[2023-07-20 17:06:35] INFO root fetch - processPackages [fastapi_amis_admin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi_amis_admin-0.6.0a3.tar.gz tmp/fastapi_amis_admin-0.6.1.tar.gz --markdown 20230720/f/fastapi_amis_admin/0.6.0a3-0.6.1/diff.md --exclude *.pyd
+[2023-07-20 17:06:35] INFO root fetch - processPackages [PCCanalyser]: executing diffoscope
+[2023-07-20 17:06:35] INFO root fetch - processPackages [PCCanalyser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PCCanalyser-0.5.1.tar.gz tmp/PCCanalyser-0.5.2.tar.gz --markdown 20230720/P/PCCanalyser/0.5.1-0.5.2/diff.md --exclude *.pyd
+[2023-07-20 17:06:35] INFO root fetch - processPackages [imagen-pytorch]: Downloading https://files.pythonhosted.org/packages/7e/6d/250293a0593cd824ef8578a96061c59bb36cb69a54a697b41469b4f6aa46/imagen-pytorch-1.9.7.tar.gz
+[2023-07-20 17:06:36] INFO root fetch - processPackages [imagen-pytorch]: executing diffoscope
+[2023-07-20 17:06:36] INFO root fetch - processPackages [imagen-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imagen-pytorch-1.9.6.tar.gz tmp/imagen-pytorch-1.9.7.tar.gz --markdown 20230720/i/imagen-pytorch/1.9.6-1.9.7/diff.md --exclude *.pyd
+[2023-07-20 17:06:36] INFO root fetch - processPackages [aliyun-python-sdk-rds]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-rds-2.7.8.tar.gz]
+[2023-07-20 17:06:36] INFO root fetch - processPackages [aliyun-python-sdk-rds]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-rds-2.7.9.tar.gz]
+[2023-07-20 17:06:36] INFO root fetch - main [MainThread]: End processing [aliyun-python-sdk-rds]: success
+[2023-07-20 17:06:36] INFO root fetch - processPackages [astrotitles]: Remove: archive file [/home/abi/fetcher/tmp/astrotitles-0.1.tar.gz]
+[2023-07-20 17:06:36] INFO root fetch - processPackages [astrotitles]: Remove: archive file [/home/abi/fetcher/tmp/astrotitles-0.1.1.tar.gz]
+[2023-07-20 17:06:36] INFO root fetch - main [MainThread]: End processing [astrotitles]: success
+[2023-07-20 17:06:36] INFO root fetch - processPackages [muke]: Remove: archive file [/home/abi/fetcher/tmp/muke-0.2.3-py3-none-any.whl.zip]
+[2023-07-20 17:06:36] INFO root fetch - processPackages [muke]: Remove: archive file [/home/abi/fetcher/tmp/muke-0.2.4-py3-none-any.whl.zip]
+[2023-07-20 17:06:36] INFO root fetch - main [MainThread]: End processing [muke]: success
+[2023-07-20 17:06:37] INFO root fetch - processPackages [PCCanalyser]: Remove: archive file [/home/abi/fetcher/tmp/PCCanalyser-0.5.1.tar.gz]
+[2023-07-20 17:06:37] INFO root fetch - processPackages [PCCanalyser]: Remove: archive file [/home/abi/fetcher/tmp/PCCanalyser-0.5.2.tar.gz]
+[2023-07-20 17:06:37] INFO root fetch - main [MainThread]: End processing [PCCanalyser]: success
+[2023-07-20 17:06:37] INFO root fetch - processPackages [imagen-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/imagen-pytorch-1.9.6.tar.gz]
+[2023-07-20 17:06:37] INFO root fetch - processPackages [imagen-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/imagen-pytorch-1.9.7.tar.gz]
+[2023-07-20 17:06:37] INFO root fetch - main [MainThread]: End processing [imagen-pytorch]: success
+[2023-07-20 17:06:37] INFO root fetch - processPackages [fastapi_amis_admin]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_amis_admin-0.6.0a3.tar.gz]
+[2023-07-20 17:06:37] INFO root fetch - processPackages [fastapi_amis_admin]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_amis_admin-0.6.1.tar.gz]
+[2023-07-20 17:06:37] INFO root fetch - main [MainThread]: End processing [fastapi_amis_admin]: success
+[2023-07-20 17:06:42] INFO root fetch - processPackages [open-autonomy]: Remove: archive file [/home/abi/fetcher/tmp/open-autonomy-0.9.0.tar.gz]
+[2023-07-20 17:06:42] INFO root fetch - processPackages [open-autonomy]: Remove: archive file [/home/abi/fetcher/tmp/open-autonomy-0.9.1.tar.gz]
+[2023-07-20 17:06:42] INFO root fetch - main [MainThread]: End processing [open-autonomy]: success
+[2023-07-20 17:06:48] INFO root fetch - processPackages [domain-admin]: Remove: archive file [/home/abi/fetcher/tmp/domain-admin-1.5.2.tar.gz]
+[2023-07-20 17:06:48] INFO root fetch - processPackages [domain-admin]: Remove: archive file [/home/abi/fetcher/tmp/domain-admin-1.5.3.tar.gz]
+[2023-07-20 17:06:48] INFO root fetch - main [MainThread]: End processing [domain-admin]: success
+[2023-07-20 17:06:48] INFO root fetch - main [MainThread]: Store serial: [18968497]
