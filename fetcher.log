@@ -5722,3 +5722,123 @@ AssertionError: tmp/verify4py-test-0.1.7.tar.gz does not exist
 [2023-07-20 12:44:03] INFO root fetch - processPackages [mujoco-dev]: Remove: archive file [/home/abi/fetcher/tmp/mujoco_dev-2.3.8.dev549580971-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2023-07-20 12:44:03] INFO root fetch - main [MainThread]: End processing [mujoco-dev]: success
 [2023-07-20 12:44:03] INFO root fetch - main [MainThread]: Store serial: [18965229]
+[2023-07-20 12:49:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18965229]
+[2023-07-20 12:49:16] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-07-20 12:49:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bitnob
+[2023-07-20 12:49:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mecord-cli
+[2023-07-20 12:49:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cenas
+[2023-07-20 12:49:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: python-lemming
+[2023-07-20 12:49:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: matflow-new
+[2023-07-20 12:49:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nonebot-plugin-stable-diffusion-diao
+[2023-07-20 12:49:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ninjakiwi-api
+[2023-07-20 12:49:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: titiler.pgstac
+[2023-07-20 12:49:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: BuoyanText
+[2023-07-20 12:49:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: orchd-sdk
+[2023-07-20 12:49:16] INFO root fetch - processPackages [python-lemming]: New version: [0.6.1] Old Version: [0.6.0]
+[2023-07-20 12:49:16] INFO root fetch - processPackages [mecord-cli]: New version: [0.1.9] Old Version: [0.1.84]
+[2023-07-20 12:49:16] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: New version: [0.3.9.5.3] Old Version: [0.3.9.5.2]
+[2023-07-20 12:49:16] INFO root fetch - processPackages [titiler.pgstac]: New version: [0.5.0] Old Version: [0.4.1]
+[2023-07-20 12:49:16] INFO root fetch - processPackages [bitnob]: New version: [1.2.8] Old Version: [1.2.7]
+[2023-07-20 12:49:16] INFO root fetch - processPackages [matflow-new]: New version: [0.3.0a9] Old Version: [0.3.0a8]
+[2023-07-20 12:49:16] INFO root fetch - processPackages [cenas]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-07-20 12:49:16] INFO root fetch - processPackages [BuoyanText]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-20 12:49:16] INFO root fetch - processPackages [ninjakiwi-api]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-20 12:49:16] INFO root fetch - processPackages [orchd-sdk]: New version: [0.1a5] Old Version: [0.1a4]
+[2023-07-20 12:49:16] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: Downloading https://files.pythonhosted.org/packages/5f/05/ab4113b8c3ceb80675cc68e0a85f291d04bb50e762a4af20411b2f63f7c4/nonebot_plugin_stable_diffusion_diao-0.3.9.5.2.tar.gz
+[2023-07-20 12:49:16] INFO root fetch - processPackages [ninjakiwi-api]: Downloading https://files.pythonhosted.org/packages/e0/54/66d28454b5236a487bb0d2681bc31f04e15961a40558fb184812aabaae50/ninjakiwi_api-0.0.2.tar.gz
+[2023-07-20 12:49:16] INFO root fetch - processPackages [matflow-new]: Downloading https://files.pythonhosted.org/packages/33/06/64bf36c9f9b85be9b3b28a1d21d5a2698384823379079834bc89f2af1e7e/matflow_new-0.3.0a8.tar.gz
+[2023-07-20 12:49:16] INFO root fetch - processPackages [cenas]: Downloading https://files.pythonhosted.org/packages/ad/ad/8e6ac29153c6369e5cbdf21108e60070080d9d4978e3a1a5f20be7b9492b/cenas-1.1.8.tar.gz
+[2023-07-20 12:49:16] INFO root fetch - processPackages [mecord-cli]: Downloading https://files.pythonhosted.org/packages/27/8c/595d5c39b8c89f53797136d99e4a819f3c86f627eac61e2aeeaf1c07e086/mecord-cli-0.1.84.tar.gz
+[2023-07-20 12:49:16] INFO root fetch - processPackages [python-lemming]: Downloading https://files.pythonhosted.org/packages/18/8c/d062f107eaca42a68e6bd13c15ca386c5c6827da60a7482def97c6f13f78/python-lemming-0.6.0.tar.gz
+[2023-07-20 12:49:17] INFO root fetch - processPackages [titiler.pgstac]: Downloading https://files.pythonhosted.org/packages/20/5a/259058b568d8148a8183a4e06ee5f7a452d1a639f3749036cbc034e874d2/titiler.pgstac-0.4.1.tar.gz
+[2023-07-20 12:49:17] INFO root fetch - processPackages [bitnob]: Downloading https://files.pythonhosted.org/packages/fb/c6/26ad3584c6975a6f3557c2b085a9d6a742d79f8b053394dcec32e5c74fb1/bitnob-1.2.7.tar.gz
+[2023-07-20 12:49:17] INFO root fetch - processPackages [orchd-sdk]: Downloading https://files.pythonhosted.org/packages/c4/74/9f506b589e064538083ba377c9faf3f697e36c479bbc3b2299cc277bb385/orchd-sdk-0.1a4.tar.gz
+[2023-07-20 12:49:17] INFO root fetch - processPackages [BuoyanText]: Downloading https://files.pythonhosted.org/packages/02/da/ab3b91674dc8457c2253dc70774d57c1171c5bbc64295d601a6c035b4f79/BuoyanText-0.0.4.tar.gz
+[2023-07-20 12:49:17] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: Downloading https://files.pythonhosted.org/packages/f5/fd/cbdfaee85097748fb34c346fe0a1aabb1a84c007f6ef6116536fc6ba8269/nonebot_plugin_stable_diffusion_diao-0.3.9.5.3.tar.gz
+[2023-07-20 12:49:17] INFO root fetch - processPackages [mecord-cli]: Downloading https://files.pythonhosted.org/packages/2b/9f/dbf00e6cfb2e166744734b7095dec6d81a7ee7213a1ef56c5c29e85783a1/mecord-cli-0.1.9.tar.gz
+[2023-07-20 12:49:17] INFO root fetch - processPackages [ninjakiwi-api]: Downloading https://files.pythonhosted.org/packages/d0/5a/d3849f58464e195f21e8d800d6f3037e7333d7cc81d803c8d181d2d7f125/ninjakiwi_api-0.0.3.tar.gz
+[2023-07-20 12:49:17] INFO root fetch - processPackages [matflow-new]: Downloading https://files.pythonhosted.org/packages/68/c9/418420420155f18aa38d7861e0cfcd92e65ff36933188ec860c52817fd64/matflow_new-0.3.0a9.tar.gz
+[2023-07-20 12:49:17] INFO root fetch - processPackages [titiler.pgstac]: Downloading https://files.pythonhosted.org/packages/b8/a7/afd5ccd5788f36449e372fe81403b62b52bfc3fc9496c4e57117a2cd1621/titiler.pgstac-0.5.0.tar.gz
+[2023-07-20 12:49:17] INFO root fetch - processPackages [cenas]: Downloading https://files.pythonhosted.org/packages/37/ba/9662c92e6a20bfb5bcfc4f81bef895566ee63c5d4018c2cae825c1c94e21/cenas-1.1.9.tar.gz
+[2023-07-20 12:49:17] INFO root fetch - processPackages [mecord-cli]: executing diffoscope
+[2023-07-20 12:49:17] INFO root fetch - processPackages [mecord-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mecord-cli-0.1.84.tar.gz tmp/mecord-cli-0.1.9.tar.gz --markdown 20230720/m/mecord-cli/0.1.84-0.1.9/diff.md --exclude *.pyd
+[2023-07-20 12:49:17] INFO root fetch - processPackages [ninjakiwi-api]: executing diffoscope
+[2023-07-20 12:49:17] INFO root fetch - processPackages [ninjakiwi-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ninjakiwi_api-0.0.2.tar.gz tmp/ninjakiwi_api-0.0.3.tar.gz --markdown 20230720/n/ninjakiwi-api/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-20 12:49:17] INFO root fetch - processPackages [BuoyanText]: Downloading https://files.pythonhosted.org/packages/6b/f3/df1542cf858913e74314b508ae4272984e8c98456e521d5d57fa52fa871d/BuoyanText-0.0.5.tar.gz
+[2023-07-20 12:49:17] INFO root fetch - processPackages [python-lemming]: Downloading https://files.pythonhosted.org/packages/d1/dd/38680cffc56e3439747c3c9f549b2af780b533991e26729dc348783b503f/python-lemming-0.6.1.tar.gz
+[2023-07-20 12:49:17] INFO root fetch - processPackages [orchd-sdk]: Downloading https://files.pythonhosted.org/packages/00/8a/574863561c11848faa683d12cc2e3b13ba2a6c2cf6b0537e0077b46ebdb6/orchd-sdk-0.1a5.tar.gz
+[2023-07-20 12:49:17] INFO root fetch - processPackages [bitnob]: Downloading https://files.pythonhosted.org/packages/0f/71/d8652ecf0507fe615b1c8f89b2bca451f71e30526639081458a1647591d1/bitnob-1.2.8.tar.gz
+[2023-07-20 12:49:17] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: executing diffoscope
+[2023-07-20 12:49:17] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_stable_diffusion_diao-0.3.9.5.2.tar.gz tmp/nonebot_plugin_stable_diffusion_diao-0.3.9.5.3.tar.gz --markdown 20230720/n/nonebot-plugin-stable-diffusion-diao/0.3.9.5.2-0.3.9.5.3/diff.md --exclude *.pyd
+[2023-07-20 12:49:17] INFO root fetch - processPackages [titiler.pgstac]: executing diffoscope
+[2023-07-20 12:49:17] INFO root fetch - processPackages [titiler.pgstac]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/titiler.pgstac-0.4.1.tar.gz tmp/titiler.pgstac-0.5.0.tar.gz --markdown 20230720/t/titiler.pgstac/0.4.1-0.5.0/diff.md --exclude *.pyd
+[2023-07-20 12:49:17] INFO root fetch - processPackages [cenas]: executing diffoscope
+[2023-07-20 12:49:17] INFO root fetch - processPackages [cenas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cenas-1.1.8.tar.gz tmp/cenas-1.1.9.tar.gz --markdown 20230720/c/cenas/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-07-20 12:49:17] INFO root fetch - processPackages [matflow-new]: executing diffoscope
+[2023-07-20 12:49:17] INFO root fetch - processPackages [matflow-new]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/matflow_new-0.3.0a8.tar.gz tmp/matflow_new-0.3.0a9.tar.gz --markdown 20230720/m/matflow-new/0.3.0a8-0.3.0a9/diff.md --exclude *.pyd
+[2023-07-20 12:49:17] INFO root fetch - processPackages [orchd-sdk]: executing diffoscope
+[2023-07-20 12:49:17] INFO root fetch - processPackages [orchd-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/orchd-sdk-0.1a4.tar.gz tmp/orchd-sdk-0.1a5.tar.gz --markdown 20230720/o/orchd-sdk/0.1a4-0.1a5/diff.md --exclude *.pyd
+[2023-07-20 12:49:17] INFO root fetch - processPackages [python-lemming]: executing diffoscope
+[2023-07-20 12:49:17] INFO root fetch - processPackages [python-lemming]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-lemming-0.6.0.tar.gz tmp/python-lemming-0.6.1.tar.gz --markdown 20230720/p/python-lemming/0.6.0-0.6.1/diff.md --exclude *.pyd
+[2023-07-20 12:49:17] INFO root fetch - processPackages [bitnob]: executing diffoscope
+[2023-07-20 12:49:17] INFO root fetch - processPackages [bitnob]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bitnob-1.2.7.tar.gz tmp/bitnob-1.2.8.tar.gz --markdown 20230720/b/bitnob/1.2.7-1.2.8/diff.md --exclude *.pyd
+[2023-07-20 12:49:17] INFO root fetch - processPackages [BuoyanText]: executing diffoscope
+[2023-07-20 12:49:17] INFO root fetch - processPackages [BuoyanText]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BuoyanText-0.0.4.tar.gz tmp/BuoyanText-0.0.5.tar.gz --markdown 20230720/B/BuoyanText/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-20 12:49:19] INFO root fetch - processPackages [ninjakiwi-api]: Remove: archive file [/home/abi/fetcher/tmp/ninjakiwi_api-0.0.2.tar.gz]
+[2023-07-20 12:49:19] INFO root fetch - processPackages [ninjakiwi-api]: Remove: archive file [/home/abi/fetcher/tmp/ninjakiwi_api-0.0.3.tar.gz]
+[2023-07-20 12:49:19] INFO root fetch - processPackages [ninjakiwi-api]: Start processing: bo4e
+[2023-07-20 12:49:19] INFO root fetch - main [MainThread]: End processing [ninjakiwi-api]: success
+[2023-07-20 12:49:19] INFO root fetch - processPackages [bo4e]: New version: [0.5.2] Old Version: [0.5.1]
+[2023-07-20 12:49:19] INFO root fetch - processPackages [cenas]: Remove: archive file [/home/abi/fetcher/tmp/cenas-1.1.8.tar.gz]
+[2023-07-20 12:49:19] INFO root fetch - processPackages [cenas]: Remove: archive file [/home/abi/fetcher/tmp/cenas-1.1.9.tar.gz]
+[2023-07-20 12:49:19] INFO root fetch - processPackages [cenas]: Start processing: biliarchiver
+[2023-07-20 12:49:19] INFO root fetch - main [MainThread]: End processing [cenas]: success
+[2023-07-20 12:49:19] INFO root fetch - processPackages [matflow-new]: Remove: archive file [/home/abi/fetcher/tmp/matflow_new-0.3.0a8.tar.gz]
+[2023-07-20 12:49:19] INFO root fetch - processPackages [matflow-new]: Remove: archive file [/home/abi/fetcher/tmp/matflow_new-0.3.0a9.tar.gz]
+[2023-07-20 12:49:19] INFO root fetch - processPackages [matflow-new]: Start processing: cysimdjson
+[2023-07-20 12:49:19] INFO root fetch - main [MainThread]: End processing [matflow-new]: success
+[2023-07-20 12:49:19] INFO root fetch - processPackages [biliarchiver]: New version: [0.0.9] Old Version: [0.0.21]
+[2023-07-20 12:49:19] INFO root fetch - processPackages [titiler.pgstac]: Remove: archive file [/home/abi/fetcher/tmp/titiler.pgstac-0.4.1.tar.gz]
+[2023-07-20 12:49:19] INFO root fetch - processPackages [titiler.pgstac]: Remove: archive file [/home/abi/fetcher/tmp/titiler.pgstac-0.5.0.tar.gz]
+[2023-07-20 12:49:19] INFO root fetch - main [MainThread]: End processing [titiler.pgstac]: success
+[2023-07-20 12:49:19] INFO root fetch - processPackages [mecord-cli]: Remove: archive file [/home/abi/fetcher/tmp/mecord-cli-0.1.84.tar.gz]
+[2023-07-20 12:49:19] INFO root fetch - processPackages [mecord-cli]: Remove: archive file [/home/abi/fetcher/tmp/mecord-cli-0.1.9.tar.gz]
+[2023-07-20 12:49:19] INFO root fetch - main [MainThread]: End processing [mecord-cli]: success
+[2023-07-20 12:49:19] INFO root fetch - processPackages [cysimdjson]: New version: [21.11b2] Old Version: [21.11]
+[2023-07-20 12:49:19] INFO root fetch - processPackages [biliarchiver]: Downloading https://files.pythonhosted.org/packages/c6/3c/444a08482e5ed4fce4f328543c933472a8dae0bb1d113fa27832d5de35cb/biliarchiver-0.0.21.tar.gz
+[2023-07-20 12:49:19] INFO root fetch - processPackages [bo4e]: Downloading https://files.pythonhosted.org/packages/63/66/4b68d60d69492ce3c7915d9ccc3e228da8a4042d0065424cb988de04b14b/bo4e-0.5.1.tar.gz
+[2023-07-20 12:49:19] INFO root fetch - processPackages [orchd-sdk]: Remove: archive file [/home/abi/fetcher/tmp/orchd-sdk-0.1a4.tar.gz]
+[2023-07-20 12:49:19] INFO root fetch - processPackages [orchd-sdk]: Remove: archive file [/home/abi/fetcher/tmp/orchd-sdk-0.1a5.tar.gz]
+[2023-07-20 12:49:19] INFO root fetch - main [MainThread]: End processing [orchd-sdk]: success
+[2023-07-20 12:49:19] INFO root fetch - processPackages [python-lemming]: Remove: archive file [/home/abi/fetcher/tmp/python-lemming-0.6.0.tar.gz]
+[2023-07-20 12:49:19] INFO root fetch - processPackages [python-lemming]: Remove: archive file [/home/abi/fetcher/tmp/python-lemming-0.6.1.tar.gz]
+[2023-07-20 12:49:19] INFO root fetch - main [MainThread]: End processing [python-lemming]: success
+[2023-07-20 12:49:19] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_stable_diffusion_diao-0.3.9.5.2.tar.gz]
+[2023-07-20 12:49:19] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_stable_diffusion_diao-0.3.9.5.3.tar.gz]
+[2023-07-20 12:49:19] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-stable-diffusion-diao]: success
+[2023-07-20 12:49:19] INFO root fetch - processPackages [BuoyanText]: Remove: archive file [/home/abi/fetcher/tmp/BuoyanText-0.0.4.tar.gz]
+[2023-07-20 12:49:19] INFO root fetch - processPackages [BuoyanText]: Remove: archive file [/home/abi/fetcher/tmp/BuoyanText-0.0.5.tar.gz]
+[2023-07-20 12:49:19] INFO root fetch - main [MainThread]: End processing [BuoyanText]: success
+[2023-07-20 12:49:19] INFO root fetch - processPackages [bitnob]: Remove: archive file [/home/abi/fetcher/tmp/bitnob-1.2.7.tar.gz]
+[2023-07-20 12:49:19] INFO root fetch - processPackages [bitnob]: Remove: archive file [/home/abi/fetcher/tmp/bitnob-1.2.8.tar.gz]
+[2023-07-20 12:49:19] INFO root fetch - main [MainThread]: End processing [bitnob]: success
+[2023-07-20 12:49:19] INFO root fetch - processPackages [cysimdjson]: Downloading https://files.pythonhosted.org/packages/1b/8a/d5fe9c899366ff3b3cf5465a4d6240643630890eb0e0758ea67fe748f0d1/cysimdjson-21.11.tar.gz
+[2023-07-20 12:49:19] INFO root fetch - processPackages [biliarchiver]: Downloading https://files.pythonhosted.org/packages/75/6f/a07bee6d23ed240047e737c1e393aadca816e9e1cc7c1aaa81457a4885da/biliarchiver-0.0.9.tar.gz
+[2023-07-20 12:49:19] INFO root fetch - processPackages [biliarchiver]: executing diffoscope
+[2023-07-20 12:49:19] INFO root fetch - processPackages [biliarchiver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/biliarchiver-0.0.21.tar.gz tmp/biliarchiver-0.0.9.tar.gz --markdown 20230720/b/biliarchiver/0.0.21-0.0.9/diff.md --exclude *.pyd
+[2023-07-20 12:49:20] INFO root fetch - processPackages [cysimdjson]: Downloading https://files.pythonhosted.org/packages/90/6f/7673679c1ed438a18068e3ccdc1a8874fdb3084ff7403006faac92163542/cysimdjson-21.11b2.tar.gz
+[2023-07-20 12:49:20] INFO root fetch - processPackages [bo4e]: Downloading https://files.pythonhosted.org/packages/70/8d/914d306415a6bcebf8f180a0a9045d43023a8274a63055a1a5c7d163111c/bo4e-0.5.2.tar.gz
+[2023-07-20 12:49:20] INFO root fetch - processPackages [cysimdjson]: executing diffoscope
+[2023-07-20 12:49:20] INFO root fetch - processPackages [cysimdjson]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cysimdjson-21.11.tar.gz tmp/cysimdjson-21.11b2.tar.gz --markdown 20230720/c/cysimdjson/21.11-21.11b2/diff.md --exclude *.pyd
+[2023-07-20 12:49:20] INFO root fetch - processPackages [bo4e]: executing diffoscope
+[2023-07-20 12:49:20] INFO root fetch - processPackages [bo4e]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bo4e-0.5.1.tar.gz tmp/bo4e-0.5.2.tar.gz --markdown 20230720/b/bo4e/0.5.1-0.5.2/diff.md --exclude *.pyd
+[2023-07-20 12:49:20] INFO root fetch - processPackages [biliarchiver]: Remove: archive file [/home/abi/fetcher/tmp/biliarchiver-0.0.21.tar.gz]
+[2023-07-20 12:49:20] INFO root fetch - processPackages [biliarchiver]: Remove: archive file [/home/abi/fetcher/tmp/biliarchiver-0.0.9.tar.gz]
+[2023-07-20 12:49:20] INFO root fetch - main [MainThread]: End processing [biliarchiver]: success
+[2023-07-20 12:49:21] INFO root fetch - processPackages [cysimdjson]: Remove: archive file [/home/abi/fetcher/tmp/cysimdjson-21.11.tar.gz]
+[2023-07-20 12:49:21] INFO root fetch - processPackages [cysimdjson]: Remove: archive file [/home/abi/fetcher/tmp/cysimdjson-21.11b2.tar.gz]
+[2023-07-20 12:49:21] INFO root fetch - main [MainThread]: End processing [cysimdjson]: success
+[2023-07-20 12:49:22] INFO root fetch - processPackages [bo4e]: Remove: archive file [/home/abi/fetcher/tmp/bo4e-0.5.1.tar.gz]
+[2023-07-20 12:49:22] INFO root fetch - processPackages [bo4e]: Remove: archive file [/home/abi/fetcher/tmp/bo4e-0.5.2.tar.gz]
+[2023-07-20 12:49:22] INFO root fetch - main [MainThread]: End processing [bo4e]: success
+[2023-07-20 12:49:22] INFO root fetch - main [MainThread]: Store serial: [18965283]
