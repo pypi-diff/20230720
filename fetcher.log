@@ -21591,3 +21591,94 @@ AssertionError: tmp/threemystic_cloud_data_client-0.1.17.tar.gz does not exist
 [2023-07-20 21:36:05] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.377.1.tar.gz]
 [2023-07-20 21:36:05] INFO root fetch - main [MainThread]: End processing [policyengine-us]: success
 [2023-07-20 21:36:05] INFO root fetch - main [MainThread]: Store serial: [18971961]
+[2023-07-20 21:41:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18971961]
+[2023-07-20 21:41:14] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-20 21:41:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pydeezer-asy
+[2023-07-20 21:41:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: IngeoDash
+[2023-07-20 21:41:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: robotframework-databaselibrary
+[2023-07-20 21:41:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: domolibrary
+[2023-07-20 21:41:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ezsmdeploydev
+[2023-07-20 21:41:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ImmuneBuilder
+[2023-07-20 21:41:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: phoenixtools
+[2023-07-20 21:41:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ninjakiwi-api
+[2023-07-20 21:41:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ANibEjFlGR
+[2023-07-20 21:41:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: investos
+[2023-07-20 21:41:14] INFO root fetch - processPackages [pydeezer-asy]: New version: [1.2.2] Old Version: [1.2.1]
+[2023-07-20 21:41:14] INFO root fetch - processPackages [IngeoDash]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-20 21:41:14] WARNING root fetch - processPackages [ANibEjFlGR]: Skipping, unable to determine old version
+[2023-07-20 21:41:14] INFO root fetch - processPackages [ANibEjFlGR]: Start processing: planet
+[2023-07-20 21:41:14] INFO root fetch - main [MainThread]: End processing [ANibEjFlGR] error
+[2023-07-20 21:41:15] INFO root fetch - processPackages [investos]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-07-20 21:41:15] INFO root fetch - processPackages [ninjakiwi-api]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-07-20 21:41:15] INFO root fetch - processPackages [phoenixtools]: New version: [1.1] Old Version: [1.0]
+[2023-07-20 21:41:15] INFO root fetch - processPackages [robotframework-databaselibrary]: New version: [1.3.1] Old Version: [1.3.0]
+[2023-07-20 21:41:15] INFO root fetch - processPackages [ImmuneBuilder]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-20 21:41:15] INFO root fetch - processPackages [ezsmdeploydev]: New version: [1.98.dev0] Old Version: [1.97.dev0]
+[2023-07-20 21:41:15] INFO root fetch - processPackages [planet]: New version: [2.1b1] Old Version: [2.1.1]
+[2023-07-20 21:41:15] INFO root fetch - processPackages [domolibrary]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-07-20 21:41:15] INFO root fetch - processPackages [ninjakiwi-api]: Downloading https://files.pythonhosted.org/packages/7f/cd/2a93d0bc86bee2776a7541da9cfdb1bc8ba139eafa3f0b2c50e31f169930/ninjakiwi_api-0.0.6.tar.gz
+[2023-07-20 21:41:15] INFO root fetch - processPackages [IngeoDash]: Downloading https://files.pythonhosted.org/packages/a4/6d/06f56c80d4638caf40484114d325a6f9e2f9d21a30efabf435f587f08c5e/IngeoDash-0.1.0.tar.gz
+[2023-07-20 21:41:15] INFO root fetch - processPackages [investos]: Downloading https://files.pythonhosted.org/packages/7b/aa/ab4326f61fd8ac7a0411cdc926ee380da00a3ff9ede10a2cfc4878ac7cc7/investos-0.1.3.tar.gz
+[2023-07-20 21:41:15] INFO root fetch - processPackages [domolibrary]: Downloading https://files.pythonhosted.org/packages/84/f8/ca22b28a893290f3f077d48d12f9bbfa0b351b8a23052c67d9d2df56c886/domolibrary-0.1.98.tar.gz
+[2023-07-20 21:41:15] INFO root fetch - processPackages [pydeezer-asy]: Downloading https://files.pythonhosted.org/packages/7f/df/bd9ab5ebc266c100fd77e62832325ff6dc1feedc7737b3990933623396ec/pydeezer_asy-1.2.1.tar.gz
+[2023-07-20 21:41:15] INFO root fetch - processPackages [ezsmdeploydev]: Downloading https://files.pythonhosted.org/packages/29/6b/ea94c1be03fb07d6c79e3bf10b1d59c8f396f4f670f8fb0c408c0591a66f/ezsmdeploydev-1.97.dev0.tar.gz
+[2023-07-20 21:41:15] INFO root fetch - processPackages [robotframework-databaselibrary]: Downloading https://files.pythonhosted.org/packages/a6/b4/fbfe78ee5c5a4c7eaa51b2f04113559ca7c954aded8d3ad968e052ff33e8/robotframework-databaselibrary-1.3.0.tar.gz
+[2023-07-20 21:41:15] INFO root fetch - processPackages [planet]: Downloading https://files.pythonhosted.org/packages/73/8b/7b72578a80ff9384f0ffab31f26185f833a0db4cb226c303a30e7ff86c5f/planet-2.1.1.tar.gz
+[2023-07-20 21:41:15] INFO root fetch - processPackages [ImmuneBuilder]: Downloading https://files.pythonhosted.org/packages/46/eb/9dd56f05303ae1d929d9811a9dff396e9b30cb8ca16d38f7be39666a1ee7/ImmuneBuilder-1.0.0.tar.gz
+[2023-07-20 21:41:15] INFO root fetch - processPackages [ninjakiwi-api]: Downloading https://files.pythonhosted.org/packages/9f/fa/ba847ccfb710418c634d83ec0bce8b109ee10dc0175eedeefca7c8ba9efd/ninjakiwi_api-0.0.7.tar.gz
+[2023-07-20 21:41:15] INFO root fetch - processPackages [IngeoDash]: Downloading https://files.pythonhosted.org/packages/47/27/efce4f72127ebb13605439efa3f3d85ffec59ee1aea67993579e4e00760b/IngeoDash-0.1.1.tar.gz
+[2023-07-20 21:41:15] INFO root fetch - processPackages [ninjakiwi-api]: executing diffoscope
+[2023-07-20 21:41:15] INFO root fetch - processPackages [ninjakiwi-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ninjakiwi_api-0.0.6.tar.gz tmp/ninjakiwi_api-0.0.7.tar.gz --markdown 20230720/n/ninjakiwi-api/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-07-20 21:41:15] INFO root fetch - processPackages [domolibrary]: Downloading https://files.pythonhosted.org/packages/ef/ec/fc9564bd79a2ddb4e26b61efd0fc792975bd04a769102587a579e3693e90/domolibrary-0.1.99.tar.gz
+[2023-07-20 21:41:15] INFO root fetch - processPackages [phoenixtools]: Downloading https://files.pythonhosted.org/packages/0d/26/61822bfe0b6c02ec07a07830043e340af97f0a0c09da7656ae90fad56d18/phoenixtools-1.1.tar.gz
+[2023-07-20 21:41:15] INFO root fetch - processPackages [pydeezer-asy]: Downloading https://files.pythonhosted.org/packages/2a/e3/a53022bec54a839acab5fb416c2b4b838c23020d2e14be014fc7d9e3ea5d/pydeezer_asy-1.2.2.tar.gz
+[2023-07-20 21:41:15] INFO root fetch - processPackages [investos]: Downloading https://files.pythonhosted.org/packages/10/3f/039407d48dc2a0301da3e897cd8ff7293d1add4c4fd988cfa5908df7dbab/investos-0.1.4.tar.gz
+[2023-07-20 21:41:15] WARNING root fetch - processPackages [ImmuneBuilder]: Skipping package: exceeds size limit 32485719>=10485760
+[2023-07-20 21:41:15] INFO root fetch - main [MainThread]: End processing [ImmuneBuilder] error
+[2023-07-20 21:41:15] INFO root fetch - processPackages [domolibrary]: executing diffoscope
+[2023-07-20 21:41:15] INFO root fetch - processPackages [domolibrary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/domolibrary-0.1.98.tar.gz tmp/domolibrary-0.1.99.tar.gz --markdown 20230720/d/domolibrary/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-07-20 21:41:15] INFO root fetch - processPackages [IngeoDash]: executing diffoscope
+[2023-07-20 21:41:15] INFO root fetch - processPackages [IngeoDash]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/IngeoDash-0.1.0.tar.gz tmp/IngeoDash-0.1.1.tar.gz --markdown 20230720/I/IngeoDash/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-20 21:41:15] INFO root fetch - processPackages [robotframework-databaselibrary]: Downloading https://files.pythonhosted.org/packages/f5/44/e34865aa0eaaf3085e3e9c1ed46fd0f3b5deb80af2fc5cd4f4146016513e/robotframework-databaselibrary-1.3.1.tar.gz
+[2023-07-20 21:41:15] INFO root fetch - processPackages [ezsmdeploydev]: Downloading https://files.pythonhosted.org/packages/5b/a0/ee12278b32ef959dfae943f9f37dcecc568c28da64b4b626d8abb67012a7/ezsmdeploydev-1.98.dev0.tar.gz
+[2023-07-20 21:41:15] INFO root fetch - processPackages [phoenixtools]: executing diffoscope
+[2023-07-20 21:41:15] INFO root fetch - processPackages [phoenixtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phoenixtools-1.0.tar.gz tmp/phoenixtools-1.1.tar.gz --markdown 20230720/p/phoenixtools/1.0-1.1/diff.md --exclude *.pyd
+[2023-07-20 21:41:16] INFO root fetch - processPackages [pydeezer-asy]: executing diffoscope
+[2023-07-20 21:41:16] INFO root fetch - processPackages [pydeezer-asy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydeezer_asy-1.2.1.tar.gz tmp/pydeezer_asy-1.2.2.tar.gz --markdown 20230720/p/pydeezer-asy/1.2.1-1.2.2/diff.md --exclude *.pyd
+[2023-07-20 21:41:16] INFO root fetch - processPackages [investos]: executing diffoscope
+[2023-07-20 21:41:16] INFO root fetch - processPackages [investos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/investos-0.1.3.tar.gz tmp/investos-0.1.4.tar.gz --markdown 20230720/i/investos/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-07-20 21:41:16] INFO root fetch - processPackages [planet]: Downloading https://files.pythonhosted.org/packages/35/71/970168ae5f90ccf7e20294f55cca0e19e98980e981d2f1ba30dd26055eb0/planet-2.1b1.tar.gz
+[2023-07-20 21:41:16] INFO root fetch - processPackages [robotframework-databaselibrary]: executing diffoscope
+[2023-07-20 21:41:16] INFO root fetch - processPackages [robotframework-databaselibrary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotframework-databaselibrary-1.3.0.tar.gz tmp/robotframework-databaselibrary-1.3.1.tar.gz --markdown 20230720/r/robotframework-databaselibrary/1.3.0-1.3.1/diff.md --exclude *.pyd
+[2023-07-20 21:41:16] INFO root fetch - processPackages [ezsmdeploydev]: executing diffoscope
+[2023-07-20 21:41:16] INFO root fetch - processPackages [ezsmdeploydev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ezsmdeploydev-1.97.dev0.tar.gz tmp/ezsmdeploydev-1.98.dev0.tar.gz --markdown 20230720/e/ezsmdeploydev/1.97.dev0-1.98.dev0/diff.md --exclude *.pyd
+[2023-07-20 21:41:16] INFO root fetch - processPackages [planet]: executing diffoscope
+[2023-07-20 21:41:16] INFO root fetch - processPackages [planet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/planet-2.1.1.tar.gz tmp/planet-2.1b1.tar.gz --markdown 20230720/p/planet/2.1.1-2.1b1/diff.md --exclude *.pyd
+[2023-07-20 21:41:16] INFO root fetch - processPackages [ninjakiwi-api]: Remove: archive file [/home/abi/fetcher/tmp/ninjakiwi_api-0.0.6.tar.gz]
+[2023-07-20 21:41:16] INFO root fetch - processPackages [ninjakiwi-api]: Remove: archive file [/home/abi/fetcher/tmp/ninjakiwi_api-0.0.7.tar.gz]
+[2023-07-20 21:41:16] INFO root fetch - main [MainThread]: End processing [ninjakiwi-api]: success
+[2023-07-20 21:41:17] INFO root fetch - processPackages [phoenixtools]: Remove: archive file [/home/abi/fetcher/tmp/phoenixtools-1.0.tar.gz]
+[2023-07-20 21:41:17] INFO root fetch - processPackages [phoenixtools]: Remove: archive file [/home/abi/fetcher/tmp/phoenixtools-1.1.tar.gz]
+[2023-07-20 21:41:17] INFO root fetch - main [MainThread]: End processing [phoenixtools]: success
+[2023-07-20 21:41:17] INFO root fetch - processPackages [ezsmdeploydev]: Remove: archive file [/home/abi/fetcher/tmp/ezsmdeploydev-1.97.dev0.tar.gz]
+[2023-07-20 21:41:17] INFO root fetch - processPackages [ezsmdeploydev]: Remove: archive file [/home/abi/fetcher/tmp/ezsmdeploydev-1.98.dev0.tar.gz]
+[2023-07-20 21:41:17] INFO root fetch - main [MainThread]: End processing [ezsmdeploydev]: success
+[2023-07-20 21:41:17] INFO root fetch - processPackages [pydeezer-asy]: Remove: archive file [/home/abi/fetcher/tmp/pydeezer_asy-1.2.1.tar.gz]
+[2023-07-20 21:41:17] INFO root fetch - processPackages [pydeezer-asy]: Remove: archive file [/home/abi/fetcher/tmp/pydeezer_asy-1.2.2.tar.gz]
+[2023-07-20 21:41:17] INFO root fetch - main [MainThread]: End processing [pydeezer-asy]: success
+[2023-07-20 21:41:17] INFO root fetch - processPackages [IngeoDash]: Remove: archive file [/home/abi/fetcher/tmp/IngeoDash-0.1.0.tar.gz]
+[2023-07-20 21:41:17] INFO root fetch - processPackages [IngeoDash]: Remove: archive file [/home/abi/fetcher/tmp/IngeoDash-0.1.1.tar.gz]
+[2023-07-20 21:41:17] INFO root fetch - main [MainThread]: End processing [IngeoDash]: success
+[2023-07-20 21:41:17] INFO root fetch - processPackages [investos]: Remove: archive file [/home/abi/fetcher/tmp/investos-0.1.3.tar.gz]
+[2023-07-20 21:41:17] INFO root fetch - processPackages [investos]: Remove: archive file [/home/abi/fetcher/tmp/investos-0.1.4.tar.gz]
+[2023-07-20 21:41:17] INFO root fetch - main [MainThread]: End processing [investos]: success
+[2023-07-20 21:41:17] INFO root fetch - processPackages [robotframework-databaselibrary]: Remove: archive file [/home/abi/fetcher/tmp/robotframework-databaselibrary-1.3.0.tar.gz]
+[2023-07-20 21:41:17] INFO root fetch - processPackages [robotframework-databaselibrary]: Remove: archive file [/home/abi/fetcher/tmp/robotframework-databaselibrary-1.3.1.tar.gz]
+[2023-07-20 21:41:17] INFO root fetch - main [MainThread]: End processing [robotframework-databaselibrary]: success
+[2023-07-20 21:41:17] INFO root fetch - processPackages [planet]: Remove: archive file [/home/abi/fetcher/tmp/planet-2.1.1.tar.gz]
+[2023-07-20 21:41:17] INFO root fetch - processPackages [planet]: Remove: archive file [/home/abi/fetcher/tmp/planet-2.1b1.tar.gz]
+[2023-07-20 21:41:17] INFO root fetch - main [MainThread]: End processing [planet]: success
+[2023-07-20 21:41:17] INFO root fetch - processPackages [domolibrary]: Remove: archive file [/home/abi/fetcher/tmp/domolibrary-0.1.98.tar.gz]
+[2023-07-20 21:41:17] INFO root fetch - processPackages [domolibrary]: Remove: archive file [/home/abi/fetcher/tmp/domolibrary-0.1.99.tar.gz]
+[2023-07-20 21:41:17] INFO root fetch - main [MainThread]: End processing [domolibrary]: success
+[2023-07-20 21:41:17] INFO root fetch - main [MainThread]: Store serial: [18972001]
