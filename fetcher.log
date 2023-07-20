@@ -15355,3 +15355,79 @@ AssertionError: tmp/verify4py-test-0.1.7.tar.gz does not exist
 [2023-07-20 17:57:45] INFO root fetch - processPackages [cryton-core]: Remove: archive file [/home/abi/fetcher/tmp/cryton_core-2023.1.2.tar.gz]
 [2023-07-20 17:57:45] INFO root fetch - main [MainThread]: End processing [cryton-core]: success
 [2023-07-20 17:57:45] INFO root fetch - main [MainThread]: Store serial: [18969343]
+[2023-07-20 18:02:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18969343]
+[2023-07-20 18:02:53] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-20 18:02:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: strongdm
+[2023-07-20 18:02:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: secrets-vault
+[2023-07-20 18:02:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ethoscopy
+[2023-07-20 18:02:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: karton-core
+[2023-07-20 18:02:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: chichitk
+[2023-07-20 18:02:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: simsopt
+[2023-07-20 18:02:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ldimbenchmark
+[2023-07-20 18:02:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: torch-grammar
+[2023-07-20 18:02:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: entsoe-py
+[2023-07-20 18:02:54] INFO root fetch - processPackages [secrets-vault]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-07-20 18:02:54] INFO root fetch - processPackages [strongdm]: New version: [4.1.0] Old Version: [4.0.0]
+[2023-07-20 18:02:54] INFO root fetch - processPackages [chichitk]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-20 18:02:54] INFO root fetch - processPackages [simsopt]: New version: [0.9.4] Old Version: [0.9.2]
+[2023-07-20 18:02:54] INFO root fetch - processPackages [karton-core]: New version: [5.2.0] Old Version: [5.1.0]
+[2023-07-20 18:02:54] INFO root fetch - processPackages [entsoe-py]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-07-20 18:02:54] INFO root fetch - processPackages [torch-grammar]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-07-20 18:02:54] INFO root fetch - processPackages [ethoscopy]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-07-20 18:02:54] INFO root fetch - processPackages [ldimbenchmark]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-20 18:02:54] INFO root fetch - processPackages [strongdm]: Downloading https://files.pythonhosted.org/packages/c5/dd/d566824c4faa704428e026171d272407ac9eda423ee86c69aa94c3cdedb5/strongdm-4.0.0.zip
+[2023-07-20 18:02:54] INFO root fetch - processPackages [secrets-vault]: Downloading https://files.pythonhosted.org/packages/4d/89/51a87a23146ecc89264ec82cd10c348f9cce11ee11ff43519dd3f5e3dccc/secrets-vault-0.1.3.tar.gz
+[2023-07-20 18:02:54] INFO root fetch - processPackages [ldimbenchmark]: Downloading https://files.pythonhosted.org/packages/40/ad/2f487f62a551984a54e0a4dc768ff692f22874530d9695d257d30b206c65/ldimbenchmark-0.2.8.tar.gz
+[2023-07-20 18:02:54] INFO root fetch - processPackages [karton-core]: Downloading https://files.pythonhosted.org/packages/31/d5/982065bc2b3b5de4e04f0a46953796e1a5aa8c48974e316ce0353c3ba7e0/karton_core-5.1.0-py3-none-any.whl
+[2023-07-20 18:02:54] INFO root fetch - processPackages [simsopt]: Downloading https://files.pythonhosted.org/packages/95/7b/6c611a204e5830f53556a4d39344658f3f9b1cad1d01cc1af66111cb3f7f/simsopt-0.9.2.tar.gz
+[2023-07-20 18:02:54] INFO root fetch - processPackages [torch-grammar]: Downloading https://files.pythonhosted.org/packages/a4/2c/241abed8b348962311d018b3f605f307d9c9d4c327f524c58b2c4f400ccc/torch_grammar-0.3.2.tar.gz
+[2023-07-20 18:02:54] INFO root fetch - processPackages [chichitk]: Downloading https://files.pythonhosted.org/packages/04/65/3ba7bd8da7f29bf032880af26fcae2b0eda92da914f796bca8340144c410/chichitk-0.0.3.tar.gz
+[2023-07-20 18:02:54] INFO root fetch - processPackages [entsoe-py]: Downloading https://files.pythonhosted.org/packages/12/a5/481c5d17105412ee1f2201b9ffd4371da756f5e0f0e2d8efa27273b2ccee/entsoe-py-0.5.8.tar.gz
+[2023-07-20 18:02:54] INFO root fetch - processPackages [ethoscopy]: Downloading https://files.pythonhosted.org/packages/8d/ec/d288e809a8195ca8ebeae40e90cb22dfb979d62ac9fd0e5867fa8520ecfa/ethoscopy-1.2.8.tar.gz
+[2023-07-20 18:02:54] INFO root fetch - processPackages [strongdm]: Downloading https://files.pythonhosted.org/packages/b8/9e/c51ff9526e95a9bc620ad7fb511a32092cb467fc475c45f76dce96bff3ab/strongdm-4.1.0.zip
+[2023-07-20 18:02:54] WARNING root fetch - processPackages [ethoscopy]: Skipping package: exceeds size limit 13474154>=10485760
+[2023-07-20 18:02:54] INFO root fetch - main [MainThread]: End processing [ethoscopy] error
+[2023-07-20 18:02:54] INFO root fetch - processPackages [ldimbenchmark]: Downloading https://files.pythonhosted.org/packages/1c/0e/d7ff04c87c7e7e468653d7cd9cbde0ab35f48885a880c1e2229267475009/ldimbenchmark-0.2.9.tar.gz
+[2023-07-20 18:02:54] INFO root fetch - processPackages [secrets-vault]: Downloading https://files.pythonhosted.org/packages/54/ee/814dc1f377b465fbb98e67796fb73e1555957c0565729ea21613b25d5ecb/secrets-vault-0.1.4.tar.gz
+[2023-07-20 18:02:54] INFO root fetch - processPackages [karton-core]: Downloading https://files.pythonhosted.org/packages/cd/d1/2fc48536f2256d81da2d819847ead46775167756a0bb8ee6ae762cb47a90/karton_core-5.2.0-py3-none-any.whl
+[2023-07-20 18:02:54] INFO root fetch - processPackages [secrets-vault]: executing diffoscope
+[2023-07-20 18:02:54] INFO root fetch - processPackages [secrets-vault]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/secrets-vault-0.1.3.tar.gz tmp/secrets-vault-0.1.4.tar.gz --markdown 20230720/s/secrets-vault/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-07-20 18:02:54] INFO root fetch - processPackages [ldimbenchmark]: executing diffoscope
+[2023-07-20 18:02:54] INFO root fetch - processPackages [ldimbenchmark]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ldimbenchmark-0.2.8.tar.gz tmp/ldimbenchmark-0.2.9.tar.gz --markdown 20230720/l/ldimbenchmark/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-20 18:02:54] INFO root fetch - processPackages [strongdm]: executing diffoscope
+[2023-07-20 18:02:54] INFO root fetch - processPackages [strongdm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/strongdm-4.0.0.zip tmp/strongdm-4.1.0.zip --markdown 20230720/s/strongdm/4.0.0-4.1.0/diff.md --exclude *.pyd
+[2023-07-20 18:02:54] INFO root fetch - processPackages [torch-grammar]: Downloading https://files.pythonhosted.org/packages/cf/d5/6cf14ea60bf678ba224c375cf469a44b21ca933ead8315e5a88bd908302e/torch_grammar-0.3.3.tar.gz
+[2023-07-20 18:02:54] INFO root fetch - processPackages [karton-core]: executing diffoscope
+[2023-07-20 18:02:54] INFO root fetch - processPackages [karton-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/karton_core-5.1.0-py3-none-any.whl.zip tmp/karton_core-5.2.0-py3-none-any.whl.zip --markdown 20230720/k/karton-core/5.1.0-5.2.0/diff.md --exclude *.pyd
+[2023-07-20 18:02:54] INFO root fetch - processPackages [chichitk]: Downloading https://files.pythonhosted.org/packages/31/cc/0a8a1d34d6fc1accf56ecdd97937a3b0b648d98826b5dc6ce79df0488f05/chichitk-0.0.4.tar.gz
+[2023-07-20 18:02:55] INFO root fetch - processPackages [torch-grammar]: executing diffoscope
+[2023-07-20 18:02:55] INFO root fetch - processPackages [torch-grammar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_grammar-0.3.2.tar.gz tmp/torch_grammar-0.3.3.tar.gz --markdown 20230720/t/torch-grammar/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-07-20 18:02:55] INFO root fetch - processPackages [chichitk]: executing diffoscope
+[2023-07-20 18:02:55] INFO root fetch - processPackages [chichitk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chichitk-0.0.3.tar.gz tmp/chichitk-0.0.4.tar.gz --markdown 20230720/c/chichitk/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-20 18:02:55] INFO root fetch - processPackages [entsoe-py]: Downloading https://files.pythonhosted.org/packages/59/47/f9a3a36017a9b02eebc5b104801cf9ab9143e8777a16276b5a140f0d3948/entsoe-py-0.5.9.tar.gz
+[2023-07-20 18:02:55] INFO root fetch - processPackages [entsoe-py]: executing diffoscope
+[2023-07-20 18:02:55] INFO root fetch - processPackages [entsoe-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/entsoe-py-0.5.8.tar.gz tmp/entsoe-py-0.5.9.tar.gz --markdown 20230720/e/entsoe-py/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-07-20 18:02:55] WARNING root fetch - processPackages [simsopt]: Skipping package: exceeds size limit 29878827>=10485760
+[2023-07-20 18:02:55] INFO root fetch - main [MainThread]: End processing [simsopt] error
+[2023-07-20 18:02:56] INFO root fetch - processPackages [secrets-vault]: Remove: archive file [/home/abi/fetcher/tmp/secrets-vault-0.1.3.tar.gz]
+[2023-07-20 18:02:56] INFO root fetch - processPackages [secrets-vault]: Remove: archive file [/home/abi/fetcher/tmp/secrets-vault-0.1.4.tar.gz]
+[2023-07-20 18:02:56] INFO root fetch - main [MainThread]: End processing [secrets-vault]: success
+[2023-07-20 18:02:56] INFO root fetch - processPackages [torch-grammar]: Remove: archive file [/home/abi/fetcher/tmp/torch_grammar-0.3.2.tar.gz]
+[2023-07-20 18:02:56] INFO root fetch - processPackages [torch-grammar]: Remove: archive file [/home/abi/fetcher/tmp/torch_grammar-0.3.3.tar.gz]
+[2023-07-20 18:02:56] INFO root fetch - main [MainThread]: End processing [torch-grammar]: success
+[2023-07-20 18:02:56] INFO root fetch - processPackages [ldimbenchmark]: Remove: archive file [/home/abi/fetcher/tmp/ldimbenchmark-0.2.8.tar.gz]
+[2023-07-20 18:02:56] INFO root fetch - processPackages [ldimbenchmark]: Remove: archive file [/home/abi/fetcher/tmp/ldimbenchmark-0.2.9.tar.gz]
+[2023-07-20 18:02:56] INFO root fetch - main [MainThread]: End processing [ldimbenchmark]: success
+[2023-07-20 18:02:56] INFO root fetch - processPackages [karton-core]: Remove: archive file [/home/abi/fetcher/tmp/karton_core-5.1.0-py3-none-any.whl.zip]
+[2023-07-20 18:02:56] INFO root fetch - processPackages [karton-core]: Remove: archive file [/home/abi/fetcher/tmp/karton_core-5.2.0-py3-none-any.whl.zip]
+[2023-07-20 18:02:56] INFO root fetch - main [MainThread]: End processing [karton-core]: success
+[2023-07-20 18:02:56] INFO root fetch - processPackages [chichitk]: Remove: archive file [/home/abi/fetcher/tmp/chichitk-0.0.3.tar.gz]
+[2023-07-20 18:02:56] INFO root fetch - processPackages [chichitk]: Remove: archive file [/home/abi/fetcher/tmp/chichitk-0.0.4.tar.gz]
+[2023-07-20 18:02:56] INFO root fetch - main [MainThread]: End processing [chichitk]: success
+[2023-07-20 18:02:56] INFO root fetch - processPackages [strongdm]: Remove: archive file [/home/abi/fetcher/tmp/strongdm-4.0.0.zip]
+[2023-07-20 18:02:56] INFO root fetch - processPackages [strongdm]: Remove: archive file [/home/abi/fetcher/tmp/strongdm-4.1.0.zip]
+[2023-07-20 18:02:56] INFO root fetch - main [MainThread]: End processing [strongdm]: success
+[2023-07-20 18:02:57] INFO root fetch - processPackages [entsoe-py]: Remove: archive file [/home/abi/fetcher/tmp/entsoe-py-0.5.8.tar.gz]
+[2023-07-20 18:02:57] INFO root fetch - processPackages [entsoe-py]: Remove: archive file [/home/abi/fetcher/tmp/entsoe-py-0.5.9.tar.gz]
+[2023-07-20 18:02:57] INFO root fetch - main [MainThread]: End processing [entsoe-py]: success
+[2023-07-20 18:02:57] INFO root fetch - main [MainThread]: Store serial: [18969384]
