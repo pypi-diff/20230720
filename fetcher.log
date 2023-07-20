@@ -7645,3 +7645,170 @@ AssertionError: tmp/verify4py-test-0.1.7.tar.gz does not exist
 [2023-07-20 14:09:09] INFO root fetch - processPackages [phc-ingestion]: Remove: archive file [/home/abi/fetcher/tmp/phc-ingestion-0.3.43.tar.gz]
 [2023-07-20 14:09:09] INFO root fetch - main [MainThread]: End processing [phc-ingestion]: success
 [2023-07-20 14:09:09] INFO root fetch - main [MainThread]: Store serial: [18966141]
+[2023-07-20 14:14:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18966141]
+[2023-07-20 14:14:17] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2023-07-20 14:14:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: phc-ingestion
+[2023-07-20 14:14:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: leadguru-data
+[2023-07-20 14:14:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: leadguru-common
+[2023-07-20 14:14:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cybrid-api-id-python
+[2023-07-20 14:14:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cybrid-api-bank-python
+[2023-07-20 14:14:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: chift
+[2023-07-20 14:14:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cybrid-api-organization-python
+[2023-07-20 14:14:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: roj-agrirouter-sdk-python
+[2023-07-20 14:14:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: supervisely
+[2023-07-20 14:14:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: openmetadata-managed-apis
+[2023-07-20 14:14:17] INFO root fetch - processPackages [phc-ingestion]: New version: [0.3.43] Old Version: [0.3.42]
+[2023-07-20 14:14:17] WARNING root fetch - processPackages [chift]: Skipping, unable to determine old version
+[2023-07-20 14:14:17] INFO root fetch - processPackages [chift]: Start processing: openmetadata-ingestion
+[2023-07-20 14:14:17] INFO root fetch - main [MainThread]: End processing [chift] error
+[2023-07-20 14:14:17] INFO root fetch - processPackages [leadguru-common]: New version: [0.99.0] Old Version: [0.98.0]
+[2023-07-20 14:14:17] INFO root fetch - processPackages [roj-agrirouter-sdk-python]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-07-20 14:14:17] INFO root fetch - processPackages [openmetadata-managed-apis]: New version: [1.1.0.4] Old Version: [1.1.0.3]
+[2023-07-20 14:14:17] INFO root fetch - processPackages [cybrid-api-id-python]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-20 14:14:17] INFO root fetch - processPackages [supervisely]: New version: [6.9.2] Old Version: [6.9.1]
+[2023-07-20 14:14:17] INFO root fetch - processPackages [openmetadata-ingestion]: New version: [1.1.0.4] Old Version: [1.1.0.3.dev2]
+[2023-07-20 14:14:18] INFO root fetch - processPackages [cybrid-api-organization-python]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-20 14:14:18] INFO root fetch - processPackages [cybrid-api-bank-python]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-20 14:14:18] INFO root fetch - processPackages [phc-ingestion]: Downloading https://files.pythonhosted.org/packages/80/7f/144ef8c95a96536c2b795c8603509a93e8f2877981c3a1bd6c1a218566c5/phc-ingestion-0.3.42.tar.gz
+[2023-07-20 14:14:18] INFO root fetch - processPackages [leadguru-data]: New version: [0.99.0] Old Version: [0.98.0]
+[2023-07-20 14:14:18] INFO root fetch - processPackages [leadguru-common]: Downloading https://files.pythonhosted.org/packages/fc/35/ca8dc82028975cbcb02faead26153071461e5c78a03fb67e0f27256aee8d/leadguru_common-0.98.0.tar.gz
+[2023-07-20 14:14:18] INFO root fetch - processPackages [supervisely]: Downloading https://files.pythonhosted.org/packages/bf/5a/d1c5e1830d747d899ac781f368bbd65eb9c02eaf0faf98d318a7dd8cce53/supervisely-6.9.1.tar.gz
+[2023-07-20 14:14:18] INFO root fetch - processPackages [roj-agrirouter-sdk-python]: Downloading https://files.pythonhosted.org/packages/88/e5/6782c0eba0ab24962b3bbdc3fcd60cdb75f68d3ed21f3b68afb18c6f115b/roj-agrirouter-sdk-python-1.0.4.tar.gz
+[2023-07-20 14:14:18] INFO root fetch - processPackages [cybrid-api-id-python]: executing diffoscope
+[2023-07-20 14:14:18] INFO root fetch - processPackages [cybrid-api-id-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-id-python-0.9.8.tar.gz tmp/cybrid-api-id-python-0.9.9.tar.gz --markdown 20230720/c/cybrid-api-id-python/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-20 14:14:18] INFO root fetch - processPackages [openmetadata-managed-apis]: Downloading https://files.pythonhosted.org/packages/40/bf/7a556c994f52038e7707351a737cac5f1f8890fed2aee3514e0c7c4291c4/openmetadata_managed_apis-1.1.0.3.tar.gz
+[2023-07-20 14:14:18] INFO root fetch - processPackages [openmetadata-ingestion]: Downloading https://files.pythonhosted.org/packages/94/6b/669ef73bb98a9aa9b6cf57cac4fc9db7ccc01abb0d551d8b56dc9eaa8e99/openmetadata-ingestion-1.1.0.3.dev2.tar.gz
+[2023-07-20 14:14:18] INFO root fetch - processPackages [cybrid-api-organization-python]: executing diffoscope
+[2023-07-20 14:14:18] INFO root fetch - processPackages [cybrid-api-organization-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-organization-python-0.9.8.tar.gz tmp/cybrid-api-organization-python-0.9.9.tar.gz --markdown 20230720/c/cybrid-api-organization-python/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-20 14:14:18] INFO root fetch - processPackages [cybrid-api-bank-python]: executing diffoscope
+[2023-07-20 14:14:18] INFO root fetch - processPackages [cybrid-api-bank-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-bank-python-0.9.8.tar.gz tmp/cybrid-api-bank-python-0.9.9.tar.gz --markdown 20230720/c/cybrid-api-bank-python/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-20 14:14:18] INFO root fetch - processPackages [leadguru-data]: Downloading https://files.pythonhosted.org/packages/81/bf/f4c758210f3132ad36cea5286e4857350dc02f38ded759934614da96bd78/leadguru_data-0.98.0.tar.gz
+[2023-07-20 14:14:18] INFO root fetch - processPackages [phc-ingestion]: Downloading https://files.pythonhosted.org/packages/0c/a4/9982f73f3ea4bbdd6247fdc7ad3363a6b9cea5a488921e903502d700d5f8/phc-ingestion-0.3.43.tar.gz
+[2023-07-20 14:14:18] INFO root fetch - processPackages [supervisely]: Downloading https://files.pythonhosted.org/packages/bf/56/78987e56220fcb935013105de97143fb9371ba9732a7dcdcb9451350a28f/supervisely-6.9.2.tar.gz
+[2023-07-20 14:14:18] INFO root fetch - processPackages [leadguru-common]: Downloading https://files.pythonhosted.org/packages/4e/4f/236c71729e1b70c3c5c202003cf9aa48c1c9b9d202620f8c5e94a7aacdc9/leadguru_common-0.99.0.tar.gz
+[2023-07-20 14:14:18] INFO root fetch - processPackages [roj-agrirouter-sdk-python]: Downloading https://files.pythonhosted.org/packages/79/ca/0e448707184a73c993d2bf1c0af67c7a4c97d36ad94c6ffeb837246f4c9f/roj-agrirouter-sdk-python-1.0.5.tar.gz
+[2023-07-20 14:14:18] INFO root fetch - processPackages [openmetadata-managed-apis]: Downloading https://files.pythonhosted.org/packages/dd/e8/18611cd8efdd1a46732533651c883ad0c93eb46ca878fde018bd11bfd3a4/openmetadata_managed_apis-1.1.0.4.tar.gz
+[2023-07-20 14:14:18] INFO root fetch - processPackages [leadguru-common]: executing diffoscope
+[2023-07-20 14:14:18] INFO root fetch - processPackages [leadguru-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leadguru_common-0.98.0.tar.gz tmp/leadguru_common-0.99.0.tar.gz --markdown 20230720/l/leadguru-common/0.98.0-0.99.0/diff.md --exclude *.pyd
+[2023-07-20 14:14:18] INFO root fetch - processPackages [phc-ingestion]: executing diffoscope
+[2023-07-20 14:14:18] INFO root fetch - processPackages [phc-ingestion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phc-ingestion-0.3.42.tar.gz tmp/phc-ingestion-0.3.43.tar.gz --markdown 20230720/p/phc-ingestion/0.3.42-0.3.43/diff.md --exclude *.pyd
+[2023-07-20 14:14:18] INFO root fetch - processPackages [supervisely]: executing diffoscope
+[2023-07-20 14:14:18] INFO root fetch - processPackages [supervisely]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/supervisely-6.9.1.tar.gz tmp/supervisely-6.9.2.tar.gz --markdown 20230720/s/supervisely/6.9.1-6.9.2/diff.md --exclude *.pyd
+[2023-07-20 14:14:18] INFO root fetch - processPackages [roj-agrirouter-sdk-python]: executing diffoscope
+[2023-07-20 14:14:18] INFO root fetch - processPackages [roj-agrirouter-sdk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/roj-agrirouter-sdk-python-1.0.4.tar.gz tmp/roj-agrirouter-sdk-python-1.0.5.tar.gz --markdown 20230720/r/roj-agrirouter-sdk-python/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-07-20 14:14:18] INFO root fetch - processPackages [openmetadata-ingestion]: Downloading https://files.pythonhosted.org/packages/20/e4/f1f8257a444ac74c0b2973099a29f4726ff6c8e2097fd5ec2d0b6849784b/openmetadata-ingestion-1.1.0.4.tar.gz
+[2023-07-20 14:14:19] INFO root fetch - processPackages [leadguru-data]: Downloading https://files.pythonhosted.org/packages/16/1c/017bcd8f49a9ceed0d36796e84f43cefd77b1a273b4b9807a222b85cb578/leadguru_data-0.99.0.tar.gz
+[2023-07-20 14:14:19] INFO root fetch - processPackages [cybrid-api-id-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-id-python-0.9.8.tar.gz]
+[2023-07-20 14:14:19] INFO root fetch - processPackages [cybrid-api-id-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-id-python-0.9.9.tar.gz]
+[2023-07-20 14:14:19] INFO root fetch - processPackages [cybrid-api-id-python]: Start processing: ninjakiwi-api
+[2023-07-20 14:14:19] INFO root fetch - main [MainThread]: End processing [cybrid-api-id-python]: success
+[2023-07-20 14:14:19] INFO root fetch - processPackages [openmetadata-managed-apis]: executing diffoscope
+[2023-07-20 14:14:19] INFO root fetch - processPackages [openmetadata-managed-apis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openmetadata_managed_apis-1.1.0.3.tar.gz tmp/openmetadata_managed_apis-1.1.0.4.tar.gz --markdown 20230720/o/openmetadata-managed-apis/1.1.0.3-1.1.0.4/diff.md --exclude *.pyd
+[2023-07-20 14:14:19] INFO root fetch - processPackages [ninjakiwi-api]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-20 14:14:19] INFO root fetch - processPackages [leadguru-data]: executing diffoscope
+[2023-07-20 14:14:19] INFO root fetch - processPackages [leadguru-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leadguru_data-0.98.0.tar.gz tmp/leadguru_data-0.99.0.tar.gz --markdown 20230720/l/leadguru-data/0.98.0-0.99.0/diff.md --exclude *.pyd
+[2023-07-20 14:14:19] INFO root fetch - processPackages [ninjakiwi-api]: Downloading https://files.pythonhosted.org/packages/97/e6/0127cb5041dadb4f7855da23f3183e702705ff4e9e235e33f138b311ff0f/ninjakiwi_api-0.0.4.tar.gz
+[2023-07-20 14:14:19] INFO root fetch - processPackages [openmetadata-ingestion]: executing diffoscope
+[2023-07-20 14:14:19] INFO root fetch - processPackages [openmetadata-ingestion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openmetadata-ingestion-1.1.0.3.dev2.tar.gz tmp/openmetadata-ingestion-1.1.0.4.tar.gz --markdown 20230720/o/openmetadata-ingestion/1.1.0.3.dev2-1.1.0.4/diff.md --exclude *.pyd
+[2023-07-20 14:14:19] INFO root fetch - processPackages [cybrid-api-bank-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-bank-python-0.9.8.tar.gz]
+[2023-07-20 14:14:19] INFO root fetch - processPackages [cybrid-api-bank-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-bank-python-0.9.9.tar.gz]
+[2023-07-20 14:14:19] INFO root fetch - processPackages [cybrid-api-bank-python]: Start processing: mrseql
+[2023-07-20 14:14:19] INFO root fetch - main [MainThread]: End processing [cybrid-api-bank-python]: success
+[2023-07-20 14:14:19] INFO root fetch - processPackages [cybrid-api-organization-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-organization-python-0.9.8.tar.gz]
+[2023-07-20 14:14:19] INFO root fetch - processPackages [cybrid-api-organization-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-organization-python-0.9.9.tar.gz]
+[2023-07-20 14:14:19] INFO root fetch - processPackages [cybrid-api-organization-python]: Start processing: dblite
+[2023-07-20 14:14:19] INFO root fetch - main [MainThread]: End processing [cybrid-api-organization-python]: success
+[2023-07-20 14:14:19] WARNING root fetch - processPackages [mrseql]: Skipping, unable to determine old version
+[2023-07-20 14:14:19] INFO root fetch - processPackages [mrseql]: Start processing: xxccode
+[2023-07-20 14:14:19] INFO root fetch - main [MainThread]: End processing [mrseql] error
+[2023-07-20 14:14:19] INFO root fetch - processPackages [dblite]: New version: [1.3.3] Old Version: [1.3.2]
+[2023-07-20 14:14:19] INFO root fetch - processPackages [xxccode]: New version: [0.3.2] Old Version: [0.3]
+[2023-07-20 14:14:19] INFO root fetch - processPackages [ninjakiwi-api]: Downloading https://files.pythonhosted.org/packages/13/40/7936e77c4e556a666f125c8a7992a72df3ec2eb781895b2e5c5e558aa11b/ninjakiwi_api-0.0.5.tar.gz
+[2023-07-20 14:14:19] INFO root fetch - processPackages [xxccode]: Downloading https://files.pythonhosted.org/packages/de/be/60441800a640de8fbde1895ae66c576e09566ab4429371e5274902e2feef/xxccode-0.3.tar.gz
+[2023-07-20 14:14:19] INFO root fetch - processPackages [ninjakiwi-api]: executing diffoscope
+[2023-07-20 14:14:19] INFO root fetch - processPackages [ninjakiwi-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ninjakiwi_api-0.0.4.tar.gz tmp/ninjakiwi_api-0.0.5.tar.gz --markdown 20230720/n/ninjakiwi-api/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-20 14:14:19] INFO root fetch - processPackages [dblite]: Downloading https://files.pythonhosted.org/packages/ea/e0/7fe580e61cc11398c96336dab756ab510a1c40a176a5eb9a198b7be74551/dblite-1.3.2.tar.gz
+[2023-07-20 14:14:20] INFO root fetch - processPackages [xxccode]: Downloading https://files.pythonhosted.org/packages/73/1f/3a19a837e33e7e29465136cb2da97f2427778a743e9bc1c07c7fb7995341/xxccode-0.3.2.tar.gz
+[2023-07-20 14:14:20] INFO root fetch - processPackages [leadguru-common]: Remove: archive file [/home/abi/fetcher/tmp/leadguru_common-0.98.0.tar.gz]
+[2023-07-20 14:14:20] INFO root fetch - processPackages [leadguru-common]: Remove: archive file [/home/abi/fetcher/tmp/leadguru_common-0.99.0.tar.gz]
+[2023-07-20 14:14:20] INFO root fetch - processPackages [leadguru-common]: Start processing: nowcasting-datamodel
+[2023-07-20 14:14:20] INFO root fetch - main [MainThread]: End processing [leadguru-common]: success
+[2023-07-20 14:14:20] INFO root fetch - processPackages [dblite]: Downloading https://files.pythonhosted.org/packages/23/71/c609cc93ddde7e42768b5c164578940c9dcc7563c0a4c5cb1cecb7ad6593/dblite-1.3.3-py2.py3-none-any.whl
+[2023-07-20 14:14:20] INFO root fetch - processPackages [xxccode]: executing diffoscope
+[2023-07-20 14:14:20] INFO root fetch - processPackages [xxccode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xxccode-0.3.tar.gz tmp/xxccode-0.3.2.tar.gz --markdown 20230720/x/xxccode/0.3-0.3.2/diff.md --exclude *.pyd
+[2023-07-20 14:14:20] INFO root fetch - processPackages [nowcasting-datamodel]: New version: [1.5.1] Old Version: [1.5.0]
+[2023-07-20 14:14:20] INFO root fetch - processPackages [leadguru-data]: Remove: archive file [/home/abi/fetcher/tmp/leadguru_data-0.98.0.tar.gz]
+[2023-07-20 14:14:20] INFO root fetch - processPackages [leadguru-data]: Remove: archive file [/home/abi/fetcher/tmp/leadguru_data-0.99.0.tar.gz]
+[2023-07-20 14:14:20] INFO root fetch - processPackages [leadguru-data]: Start processing: meo
+[2023-07-20 14:14:20] INFO root fetch - main [MainThread]: End processing [leadguru-data]: success
+[2023-07-20 14:14:20] INFO root fetch - processPackages [meo]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-20 14:14:20] INFO root fetch - processPackages [dblite]: executing diffoscope
+[2023-07-20 14:14:20] INFO root fetch - processPackages [dblite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dblite-1.3.2.tar.gz tmp/dblite-1.3.3-py2.py3-none-any.whl.zip --markdown 20230720/d/dblite/1.3.2-1.3.3/diff.md --exclude *.pyd
+[2023-07-20 14:14:20] INFO root fetch - processPackages [nowcasting-datamodel]: Downloading https://files.pythonhosted.org/packages/b2/a5/dc57edf1b91acfd511b6573fc89a4373ad4910833f69aca3c9867b0ff7c7/nowcasting_datamodel-1.5.0.tar.gz
+[2023-07-20 14:14:20] INFO root fetch - processPackages [phc-ingestion]: Remove: archive file [/home/abi/fetcher/tmp/phc-ingestion-0.3.42.tar.gz]
+[2023-07-20 14:14:20] INFO root fetch - processPackages [phc-ingestion]: Remove: archive file [/home/abi/fetcher/tmp/phc-ingestion-0.3.43.tar.gz]
+[2023-07-20 14:14:20] INFO root fetch - processPackages [phc-ingestion]: Start processing: binswap
+[2023-07-20 14:14:20] INFO root fetch - main [MainThread]: End processing [phc-ingestion]: success
+[2023-07-20 14:14:20] WARNING root fetch - processPackages [binswap]: Skipping, unable to determine old version
+[2023-07-20 14:14:20] INFO root fetch - processPackages [binswap]: Start processing: test-setup-test
+[2023-07-20 14:14:20] INFO root fetch - main [MainThread]: End processing [binswap] error
+[2023-07-20 14:14:20] INFO root fetch - processPackages [meo]: Downloading https://files.pythonhosted.org/packages/cc/70/c81881033061d8284526abf624f552f755b3555b20fa27e2fd8c32d850a6/meo-0.1.8.tar.gz
+[2023-07-20 14:14:20] INFO root fetch - processPackages [test-setup-test]: New version: [1.0.8] Old Version: [1.0.6]
+[2023-07-20 14:14:20] INFO root fetch - processPackages [openmetadata-managed-apis]: Remove: archive file [/home/abi/fetcher/tmp/openmetadata_managed_apis-1.1.0.3.tar.gz]
+[2023-07-20 14:14:20] INFO root fetch - processPackages [openmetadata-managed-apis]: Remove: archive file [/home/abi/fetcher/tmp/openmetadata_managed_apis-1.1.0.4.tar.gz]
+[2023-07-20 14:14:20] INFO root fetch - processPackages [openmetadata-managed-apis]: Start processing: th2-grpc-check1
+[2023-07-20 14:14:20] INFO root fetch - main [MainThread]: End processing [openmetadata-managed-apis]: success
+[2023-07-20 14:14:20] INFO root fetch - processPackages [roj-agrirouter-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/roj-agrirouter-sdk-python-1.0.4.tar.gz]
+[2023-07-20 14:14:20] INFO root fetch - processPackages [roj-agrirouter-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/roj-agrirouter-sdk-python-1.0.5.tar.gz]
+[2023-07-20 14:14:20] INFO root fetch - processPackages [roj-agrirouter-sdk-python]: Start processing: seagoat
+[2023-07-20 14:14:20] INFO root fetch - main [MainThread]: End processing [roj-agrirouter-sdk-python]: success
+[2023-07-20 14:14:20] INFO root fetch - processPackages [th2-grpc-check1]: New version: [4.2.0.dev5545193731] Old Version: [4.2.0.dev5378806706]
+[2023-07-20 14:14:20] INFO root fetch - processPackages [test-setup-test]: Downloading https://files.pythonhosted.org/packages/7e/a5/a1842c9ad3f3d8ed18980204a83b62a485fdff3acb1f5ffd8f0392ac8c1e/test_setup_test-1.0.6.tar.gz
+[2023-07-20 14:14:20] INFO root fetch - processPackages [seagoat]: New version: [0.5.4] Old Version: [0.2.1]
+[2023-07-20 14:14:21] INFO root fetch - processPackages [nowcasting-datamodel]: Downloading https://files.pythonhosted.org/packages/aa/94/f2bc308a122ab1fe5be89f5917a40468b089b7d6f55e1f8e15567a197915/nowcasting_datamodel-1.5.1.tar.gz
+[2023-07-20 14:14:21] INFO root fetch - processPackages [th2-grpc-check1]: Downloading https://files.pythonhosted.org/packages/30/fb/7730171a61fca92d93f081610e5232e18619ba03ff653f3a02e8cffc1cc3/th2_grpc_check1-4.2.0.dev5378806706.tar.gz
+[2023-07-20 14:14:21] INFO root fetch - processPackages [test-setup-test]: Downloading https://files.pythonhosted.org/packages/bc/ea/c4d47a90cdb1cf5374be3c13076264c14a7248d180c34427d1cb4fb2bd77/test_setup_test-1.0.8.tar.gz
+[2023-07-20 14:14:21] INFO root fetch - processPackages [ninjakiwi-api]: Remove: archive file [/home/abi/fetcher/tmp/ninjakiwi_api-0.0.4.tar.gz]
+[2023-07-20 14:14:21] INFO root fetch - processPackages [ninjakiwi-api]: Remove: archive file [/home/abi/fetcher/tmp/ninjakiwi_api-0.0.5.tar.gz]
+[2023-07-20 14:14:21] INFO root fetch - processPackages [nowcasting-datamodel]: executing diffoscope
+[2023-07-20 14:14:21] INFO root fetch - main [MainThread]: End processing [ninjakiwi-api]: success
+[2023-07-20 14:14:21] INFO root fetch - processPackages [nowcasting-datamodel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nowcasting_datamodel-1.5.0.tar.gz tmp/nowcasting_datamodel-1.5.1.tar.gz --markdown 20230720/n/nowcasting-datamodel/1.5.0-1.5.1/diff.md --exclude *.pyd
+[2023-07-20 14:14:21] INFO root fetch - processPackages [meo]: Downloading https://files.pythonhosted.org/packages/e3/3b/6040a4652c1d79259a41eb56789148c2eb2d06731f3d6363503a95eeddad/meo-0.1.9.tar.gz
+[2023-07-20 14:14:21] INFO root fetch - processPackages [test-setup-test]: executing diffoscope
+[2023-07-20 14:14:21] INFO root fetch - processPackages [test-setup-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/test_setup_test-1.0.6.tar.gz tmp/test_setup_test-1.0.8.tar.gz --markdown 20230720/t/test-setup-test/1.0.6-1.0.8/diff.md --exclude *.pyd
+[2023-07-20 14:14:21] INFO root fetch - processPackages [seagoat]: Downloading https://files.pythonhosted.org/packages/c9/ea/22c3e16fe0eae798c8268bd6f4dc5fc30afb9f94ad548f9a22c4e88d142a/seagoat-0.5.4.tar.gz
+[2023-07-20 14:14:21] INFO root fetch - processPackages [xxccode]: Remove: archive file [/home/abi/fetcher/tmp/xxccode-0.3.tar.gz]
+[2023-07-20 14:14:21] INFO root fetch - processPackages [xxccode]: Remove: archive file [/home/abi/fetcher/tmp/xxccode-0.3.2.tar.gz]
+[2023-07-20 14:14:21] INFO root fetch - main [MainThread]: End processing [xxccode]: success
+[2023-07-20 14:14:21] INFO root fetch - processPackages [meo]: executing diffoscope
+[2023-07-20 14:14:21] INFO root fetch - processPackages [meo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meo-0.1.8.tar.gz tmp/meo-0.1.9.tar.gz --markdown 20230720/m/meo/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-20 14:14:21] INFO root fetch - processPackages [dblite]: Remove: archive file [/home/abi/fetcher/tmp/dblite-1.3.2.tar.gz]
+[2023-07-20 14:14:21] INFO root fetch - processPackages [dblite]: Remove: archive file [/home/abi/fetcher/tmp/dblite-1.3.3-py2.py3-none-any.whl.zip]
+[2023-07-20 14:14:21] INFO root fetch - main [MainThread]: End processing [dblite]: success
+[2023-07-20 14:14:21] INFO root fetch - processPackages [th2-grpc-check1]: Downloading https://files.pythonhosted.org/packages/42/45/520aa7adb3d1153e4793c21421291375ae7ad319911700ce907a84808203/th2_grpc_check1-4.2.0.dev5545193731.tar.gz
+[2023-07-20 14:14:21] INFO root fetch - processPackages [seagoat]: executing diffoscope
+[2023-07-20 14:14:21] INFO root fetch - processPackages [seagoat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seagoat-0.2.1.tar.gz tmp/seagoat-0.5.4.tar.gz --markdown 20230720/s/seagoat/0.2.1-0.5.4/diff.md --exclude *.pyd
+[2023-07-20 14:14:21] INFO root fetch - processPackages [th2-grpc-check1]: executing diffoscope
+[2023-07-20 14:14:21] INFO root fetch - processPackages [th2-grpc-check1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/th2_grpc_check1-4.2.0.dev5378806706.tar.gz tmp/th2_grpc_check1-4.2.0.dev5545193731.tar.gz --markdown 20230720/t/th2-grpc-check1/4.2.0.dev5378806706-4.2.0.dev5545193731/diff.md --exclude *.pyd
+[2023-07-20 14:14:21] INFO root fetch - processPackages [supervisely]: Remove: archive file [/home/abi/fetcher/tmp/supervisely-6.9.1.tar.gz]
+[2023-07-20 14:14:21] INFO root fetch - processPackages [supervisely]: Remove: archive file [/home/abi/fetcher/tmp/supervisely-6.9.2.tar.gz]
+[2023-07-20 14:14:21] INFO root fetch - main [MainThread]: End processing [supervisely]: success
+[2023-07-20 14:14:22] INFO root fetch - processPackages [nowcasting-datamodel]: Remove: archive file [/home/abi/fetcher/tmp/nowcasting_datamodel-1.5.0.tar.gz]
+[2023-07-20 14:14:22] INFO root fetch - processPackages [nowcasting-datamodel]: Remove: archive file [/home/abi/fetcher/tmp/nowcasting_datamodel-1.5.1.tar.gz]
+[2023-07-20 14:14:22] INFO root fetch - main [MainThread]: End processing [nowcasting-datamodel]: success
+[2023-07-20 14:14:22] INFO root fetch - processPackages [meo]: Remove: archive file [/home/abi/fetcher/tmp/meo-0.1.8.tar.gz]
+[2023-07-20 14:14:22] INFO root fetch - processPackages [meo]: Remove: archive file [/home/abi/fetcher/tmp/meo-0.1.9.tar.gz]
+[2023-07-20 14:14:22] INFO root fetch - main [MainThread]: End processing [meo]: success
+[2023-07-20 14:14:22] INFO root fetch - processPackages [test-setup-test]: Remove: archive file [/home/abi/fetcher/tmp/test_setup_test-1.0.6.tar.gz]
+[2023-07-20 14:14:22] INFO root fetch - processPackages [test-setup-test]: Remove: archive file [/home/abi/fetcher/tmp/test_setup_test-1.0.8.tar.gz]
+[2023-07-20 14:14:22] INFO root fetch - main [MainThread]: End processing [test-setup-test]: success
+[2023-07-20 14:14:22] INFO root fetch - processPackages [seagoat]: Remove: archive file [/home/abi/fetcher/tmp/seagoat-0.2.1.tar.gz]
+[2023-07-20 14:14:22] INFO root fetch - processPackages [seagoat]: Remove: archive file [/home/abi/fetcher/tmp/seagoat-0.5.4.tar.gz]
+[2023-07-20 14:14:22] INFO root fetch - main [MainThread]: End processing [seagoat]: success
+[2023-07-20 14:14:22] INFO root fetch - processPackages [th2-grpc-check1]: Remove: archive file [/home/abi/fetcher/tmp/th2_grpc_check1-4.2.0.dev5378806706.tar.gz]
+[2023-07-20 14:14:22] INFO root fetch - processPackages [th2-grpc-check1]: Remove: archive file [/home/abi/fetcher/tmp/th2_grpc_check1-4.2.0.dev5545193731.tar.gz]
+[2023-07-20 14:14:22] INFO root fetch - main [MainThread]: End processing [th2-grpc-check1]: success
+[2023-07-20 14:14:28] INFO root fetch - processPackages [openmetadata-ingestion]: Remove: archive file [/home/abi/fetcher/tmp/openmetadata-ingestion-1.1.0.3.dev2.tar.gz]
+[2023-07-20 14:14:28] INFO root fetch - processPackages [openmetadata-ingestion]: Remove: archive file [/home/abi/fetcher/tmp/openmetadata-ingestion-1.1.0.4.tar.gz]
+[2023-07-20 14:14:28] INFO root fetch - main [MainThread]: End processing [openmetadata-ingestion]: success
+[2023-07-20 14:14:28] INFO root fetch - main [MainThread]: Store serial: [18966234]
