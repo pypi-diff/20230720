@@ -4712,3 +4712,183 @@ AssertionError: tmp/verify4py-test-0.1.7.tar.gz does not exist
 [2023-07-20 12:01:10] INFO root fetch - processPackages [ViennaRNA]: Remove: archive file [/home/abi/fetcher/tmp/ViennaRNA-2.6.3.tar.gz]
 [2023-07-20 12:01:10] INFO root fetch - main [MainThread]: End processing [ViennaRNA]: success
 [2023-07-20 12:01:10] INFO root fetch - main [MainThread]: Store serial: [18964773]
+[2023-07-20 12:06:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18964773]
+[2023-07-20 12:06:20] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2023-07-20 12:06:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ms-marathon-api
+[2023-07-20 12:06:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: busrt-worker
+[2023-07-20 12:06:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sensai
+[2023-07-20 12:06:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: micrOSDevToolKit
+[2023-07-20 12:06:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pollination-alias
+[2023-07-20 12:06:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: CxAdmin
+[2023-07-20 12:06:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: syntaxlight
+[2023-07-20 12:06:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: raga-testing-platform
+[2023-07-20 12:06:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: singlefactortest
+[2023-07-20 12:06:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pnap-bmc-api
+[2023-07-20 12:06:20] INFO root fetch - processPackages [sensai]: New version: [0.2.0] Old Version: [0.1.9]
+[2023-07-20 12:06:20] INFO root fetch - processPackages [raga-testing-platform]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-20 12:06:20] INFO root fetch - processPackages [pnap-bmc-api]: New version: [1.5.0] Old Version: [1.4.0]
+[2023-07-20 12:06:20] INFO root fetch - processPackages [singlefactortest]: New version: [1.1] Old Version: [1.0]
+[2023-07-20 12:06:20] INFO root fetch - processPackages [micrOSDevToolKit]: New version: [1.20.6] Old Version: [1.20.5]
+[2023-07-20 12:06:20] INFO root fetch - processPackages [ms-marathon-api]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-07-20 12:06:20] INFO root fetch - processPackages [CxAdmin]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-20 12:06:20] INFO root fetch - processPackages [syntaxlight]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-20 12:06:20] INFO root fetch - processPackages [pollination-alias]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-20 12:06:20] INFO root fetch - processPackages [busrt-worker]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-20 12:06:20] INFO root fetch - processPackages [raga-testing-platform]: Downloading https://files.pythonhosted.org/packages/cb/2b/5872c9c0e75b4ef4393e95963e7fa22ccf8c70b12d66a64c83dfec600b32/raga-testing-platform-1.0.8.tar.gz
+[2023-07-20 12:06:20] INFO root fetch - processPackages [CxAdmin]: Downloading https://files.pythonhosted.org/packages/72/2d/39137a2e73be34674809bf9eabf234a558344f4c60f8d348d9c9666872ce/CxAdmin-1.0.8.tar.gz
+[2023-07-20 12:06:20] INFO root fetch - processPackages [micrOSDevToolKit]: Downloading https://files.pythonhosted.org/packages/ed/be/ca0cf6182523479436e96044a9b2b598f6fa113b794fb25ed4c2c25cada5/micrOSDevToolKit-1.20.5.tar.gz
+[2023-07-20 12:06:20] INFO root fetch - processPackages [sensai]: Downloading https://files.pythonhosted.org/packages/7d/a0/464f6927916f172e2a7f8fca338d1d737cf036086ba71664d7ccd6eb4924/sensai-0.1.9.tar.gz
+[2023-07-20 12:06:20] INFO root fetch - processPackages [pnap-bmc-api]: Downloading https://files.pythonhosted.org/packages/1c/7c/f78043a8f718f33156ab724cab2ed60825754f8fb921478d9a65c282c1b1/pnap-bmc-api-1.4.0.tar.gz
+[2023-07-20 12:06:20] INFO root fetch - processPackages [singlefactortest]: Downloading https://files.pythonhosted.org/packages/ec/20/d5e6d56812fa1f242b6f720d4653f860b370db95d0e6ba6f94c0dc61a83a/singlefactortest-1.0-py3-none-any.whl
+[2023-07-20 12:06:20] INFO root fetch - processPackages [ms-marathon-api]: Downloading https://files.pythonhosted.org/packages/c6/47/7c87ad660d2a8c37e16af522e4a20a2e9ace8ad4942f2ec217d71d197763/ms_marathon_api-0.1.0.tar.gz
+[2023-07-20 12:06:21] INFO root fetch - processPackages [busrt-worker]: Downloading https://files.pythonhosted.org/packages/f4/9a/0b99123c21b5b67d92f898fffbffc3e6deaebac49bf682e0459288850673/busrt_worker-0.1.0.tar.gz
+[2023-07-20 12:06:21] INFO root fetch - processPackages [pollination-alias]: Downloading https://files.pythonhosted.org/packages/e0/43/7e967ed5fa20814ba93b34dc03ad2c5adbcae0d6be295dfc7f8cd7d66333/pollination-alias-0.9.8.tar.gz
+[2023-07-20 12:06:21] INFO root fetch - processPackages [syntaxlight]: Downloading https://files.pythonhosted.org/packages/d4/5f/56f226ac35c9d67419123960f4b4a9965c6296b56c05d9d494ee3dec252b/syntaxlight-0.0.2.tar.gz
+[2023-07-20 12:06:21] INFO root fetch - processPackages [CxAdmin]: Downloading https://files.pythonhosted.org/packages/12/69/d90f882fe41226c22716f3133aa3d1fd7abd744d25527cd17a8e33f7487f/CxAdmin-1.0.9.tar.gz
+[2023-07-20 12:06:21] INFO root fetch - processPackages [raga-testing-platform]: Downloading https://files.pythonhosted.org/packages/23/a1/3de642a69a0d1253446d4f7bd1dd9d074e3fe635e84f3d430d001424a072/raga-testing-platform-1.0.9.tar.gz
+[2023-07-20 12:06:21] INFO root fetch - processPackages [CxAdmin]: executing diffoscope
+[2023-07-20 12:06:21] INFO root fetch - processPackages [CxAdmin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CxAdmin-1.0.8.tar.gz tmp/CxAdmin-1.0.9.tar.gz --markdown 20230720/C/CxAdmin/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-20 12:06:21] INFO root fetch - processPackages [singlefactortest]: Downloading https://files.pythonhosted.org/packages/c2/a8/23ba13f2ef4aae73f910eb8f1b85bc6dae64f15a3da3f3bc84964183e709/singlefactortest-1.1-py3-none-any.whl
+[2023-07-20 12:06:21] INFO root fetch - processPackages [raga-testing-platform]: executing diffoscope
+[2023-07-20 12:06:21] INFO root fetch - processPackages [raga-testing-platform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/raga-testing-platform-1.0.8.tar.gz tmp/raga-testing-platform-1.0.9.tar.gz --markdown 20230720/r/raga-testing-platform/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-20 12:06:21] INFO root fetch - processPackages [ms-marathon-api]: Downloading https://files.pythonhosted.org/packages/c4/4a/4ff3e2d80da9ce1072937ffc7d53764001289e786b5a681c4dbc6452fe42/ms_marathon_api-0.2.0.tar.gz
+[2023-07-20 12:06:21] INFO root fetch - processPackages [busrt-worker]: Downloading https://files.pythonhosted.org/packages/fa/6a/e899afcfeacab61fc7df9c92294804587608a3e6a25091e055a004a98541/busrt_worker-0.1.1.tar.gz
+[2023-07-20 12:06:21] INFO root fetch - processPackages [pnap-bmc-api]: Downloading https://files.pythonhosted.org/packages/75/38/27e461da958cf7915d73263d4267e1bc71c4369c0c30af4c7e60909b41a8/pnap-bmc-api-1.5.0.tar.gz
+[2023-07-20 12:06:21] INFO root fetch - processPackages [sensai]: Downloading https://files.pythonhosted.org/packages/cd/58/7d51a317ba7464785f12497917f29d66cfdb714322ddbd247a7544ec290a/sensai-0.2.0.tar.gz
+[2023-07-20 12:06:21] INFO root fetch - processPackages [syntaxlight]: Downloading https://files.pythonhosted.org/packages/bb/af/1b96bd502fdcd10f610c68f5aafefcdc3de8e76cfe1b9b1bf71cf40744c0/syntaxlight-0.0.3.tar.gz
+[2023-07-20 12:06:21] INFO root fetch - processPackages [busrt-worker]: executing diffoscope
+[2023-07-20 12:06:21] INFO root fetch - processPackages [busrt-worker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/busrt_worker-0.1.0.tar.gz tmp/busrt_worker-0.1.1.tar.gz --markdown 20230720/b/busrt-worker/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-20 12:06:21] INFO root fetch - processPackages [ms-marathon-api]: executing diffoscope
+[2023-07-20 12:06:21] INFO root fetch - processPackages [ms-marathon-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ms_marathon_api-0.1.0.tar.gz tmp/ms_marathon_api-0.2.0.tar.gz --markdown 20230720/m/ms-marathon-api/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-07-20 12:06:21] INFO root fetch - processPackages [pollination-alias]: Downloading https://files.pythonhosted.org/packages/1d/e2/b81cc22068d7b79882752bc3491ceed359780e56450fb6cb418bcf52817c/pollination-alias-0.9.9.tar.gz
+[2023-07-20 12:06:21] INFO root fetch - processPackages [singlefactortest]: executing diffoscope
+[2023-07-20 12:06:21] INFO root fetch - processPackages [singlefactortest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/singlefactortest-1.0-py3-none-any.whl.zip tmp/singlefactortest-1.1-py3-none-any.whl.zip --markdown 20230720/s/singlefactortest/1.0-1.1/diff.md --exclude *.pyd
+[2023-07-20 12:06:21] INFO root fetch - processPackages [pnap-bmc-api]: executing diffoscope
+[2023-07-20 12:06:21] INFO root fetch - processPackages [pnap-bmc-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pnap-bmc-api-1.4.0.tar.gz tmp/pnap-bmc-api-1.5.0.tar.gz --markdown 20230720/p/pnap-bmc-api/1.4.0-1.5.0/diff.md --exclude *.pyd
+[2023-07-20 12:06:21] INFO root fetch - processPackages [sensai]: executing diffoscope
+[2023-07-20 12:06:21] INFO root fetch - processPackages [sensai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sensai-0.1.9.tar.gz tmp/sensai-0.2.0.tar.gz --markdown 20230720/s/sensai/0.1.9-0.2.0/diff.md --exclude *.pyd
+[2023-07-20 12:06:21] INFO root fetch - processPackages [syntaxlight]: executing diffoscope
+[2023-07-20 12:06:21] INFO root fetch - processPackages [syntaxlight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syntaxlight-0.0.2.tar.gz tmp/syntaxlight-0.0.3.tar.gz --markdown 20230720/s/syntaxlight/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-20 12:06:21] INFO root fetch - processPackages [pollination-alias]: executing diffoscope
+[2023-07-20 12:06:21] INFO root fetch - processPackages [pollination-alias]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pollination-alias-0.9.8.tar.gz tmp/pollination-alias-0.9.9.tar.gz --markdown 20230720/p/pollination-alias/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-20 12:06:22] INFO root fetch - processPackages [micrOSDevToolKit]: Downloading https://files.pythonhosted.org/packages/a4/d1/d6769f9d29ddbca9bd2d48041b7e45b2c30c06c02d4091603dd001fd006e/micrOSDevToolKit-1.20.6.tar.gz
+[2023-07-20 12:06:22] INFO root fetch - processPackages [micrOSDevToolKit]: executing diffoscope
+[2023-07-20 12:06:22] INFO root fetch - processPackages [micrOSDevToolKit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/micrOSDevToolKit-1.20.5.tar.gz tmp/micrOSDevToolKit-1.20.6.tar.gz --markdown 20230720/m/micrOSDevToolKit/1.20.5-1.20.6/diff.md --exclude *.pyd
+[2023-07-20 12:06:22] INFO root fetch - processPackages [CxAdmin]: Remove: archive file [/home/abi/fetcher/tmp/CxAdmin-1.0.8.tar.gz]
+[2023-07-20 12:06:22] INFO root fetch - processPackages [CxAdmin]: Remove: archive file [/home/abi/fetcher/tmp/CxAdmin-1.0.9.tar.gz]
+[2023-07-20 12:06:22] INFO root fetch - processPackages [CxAdmin]: Start processing: basic-type-operations
+[2023-07-20 12:06:22] INFO root fetch - main [MainThread]: End processing [CxAdmin]: success
+[2023-07-20 12:06:22] WARNING root fetch - processPackages [basic-type-operations]: Skipping, unable to determine old version
+[2023-07-20 12:06:22] INFO root fetch - processPackages [basic-type-operations]: Start processing: pnap-rancher-solution-api
+[2023-07-20 12:06:22] INFO root fetch - main [MainThread]: End processing [basic-type-operations] error
+[2023-07-20 12:06:22] INFO root fetch - processPackages [pnap-rancher-solution-api]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-07-20 12:06:23] INFO root fetch - processPackages [pnap-rancher-solution-api]: Downloading https://files.pythonhosted.org/packages/e7/59/0c551733d6dd377d36f05fd2d3017bb75255a5255bf066591aadb02f0f48/pnap-rancher-solution-api-1.0.5.tar.gz
+[2023-07-20 12:06:23] INFO root fetch - processPackages [singlefactortest]: Remove: archive file [/home/abi/fetcher/tmp/singlefactortest-1.0-py3-none-any.whl.zip]
+[2023-07-20 12:06:23] INFO root fetch - processPackages [singlefactortest]: Remove: archive file [/home/abi/fetcher/tmp/singlefactortest-1.1-py3-none-any.whl.zip]
+[2023-07-20 12:06:23] INFO root fetch - processPackages [singlefactortest]: Start processing: pnap-location-api
+[2023-07-20 12:06:23] INFO root fetch - main [MainThread]: End processing [singlefactortest]: success
+[2023-07-20 12:06:23] INFO root fetch - processPackages [raga-testing-platform]: Remove: archive file [/home/abi/fetcher/tmp/raga-testing-platform-1.0.8.tar.gz]
+[2023-07-20 12:06:23] INFO root fetch - processPackages [raga-testing-platform]: Remove: archive file [/home/abi/fetcher/tmp/raga-testing-platform-1.0.9.tar.gz]
+[2023-07-20 12:06:23] INFO root fetch - processPackages [raga-testing-platform]: Start processing: pnap-ip-api
+[2023-07-20 12:06:23] INFO root fetch - main [MainThread]: End processing [raga-testing-platform]: success
+[2023-07-20 12:06:23] WARNING root fetch - processPackages [pnap-location-api]: Skipping, unable to determine old version
+[2023-07-20 12:06:23] INFO root fetch - processPackages [pnap-location-api]: Start processing: pnap-network-api
+[2023-07-20 12:06:23] INFO root fetch - main [MainThread]: End processing [pnap-location-api] error
+[2023-07-20 12:06:23] INFO root fetch - processPackages [pnap-ip-api]: New version: [1.1.5] Old Version: [1.1.4]
+[2023-07-20 12:06:23] INFO root fetch - processPackages [ms-marathon-api]: Remove: archive file [/home/abi/fetcher/tmp/ms_marathon_api-0.1.0.tar.gz]
+[2023-07-20 12:06:23] INFO root fetch - processPackages [ms-marathon-api]: Remove: archive file [/home/abi/fetcher/tmp/ms_marathon_api-0.2.0.tar.gz]
+[2023-07-20 12:06:23] INFO root fetch - processPackages [ms-marathon-api]: Start processing: pnap-audit-api
+[2023-07-20 12:06:23] INFO root fetch - main [MainThread]: End processing [ms-marathon-api]: success
+[2023-07-20 12:06:23] INFO root fetch - processPackages [pnap-network-api]: New version: [1.4.1] Old Version: [1.4.0]
+[2023-07-20 12:06:23] INFO root fetch - processPackages [busrt-worker]: Remove: archive file [/home/abi/fetcher/tmp/busrt_worker-0.1.0.tar.gz]
+[2023-07-20 12:06:23] INFO root fetch - processPackages [busrt-worker]: Remove: archive file [/home/abi/fetcher/tmp/busrt_worker-0.1.1.tar.gz]
+[2023-07-20 12:06:23] INFO root fetch - processPackages [busrt-worker]: Start processing: pnap-network-storage-api
+[2023-07-20 12:06:23] INFO root fetch - main [MainThread]: End processing [busrt-worker]: success
+[2023-07-20 12:06:23] INFO root fetch - processPackages [pnap-audit-api]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-07-20 12:06:23] INFO root fetch - processPackages [pnap-network-storage-api]: New version: [1.4.0] Old Version: [1.3.0]
+[2023-07-20 12:06:23] INFO root fetch - processPackages [pollination-alias]: Remove: archive file [/home/abi/fetcher/tmp/pollination-alias-0.9.8.tar.gz]
+[2023-07-20 12:06:23] INFO root fetch - processPackages [pollination-alias]: Remove: archive file [/home/abi/fetcher/tmp/pollination-alias-0.9.9.tar.gz]
+[2023-07-20 12:06:23] INFO root fetch - processPackages [pollination-alias]: Start processing: chatting-with-pdfs
+[2023-07-20 12:06:23] INFO root fetch - main [MainThread]: End processing [pollination-alias]: success
+[2023-07-20 12:06:23] INFO root fetch - processPackages [pnap-ip-api]: Downloading https://files.pythonhosted.org/packages/de/59/571141fbd37bdf6edefdc7d2863ff17f4a348d88a3e3eab2aaffbb0abb46/pnap-ip-api-1.1.4.tar.gz
+[2023-07-20 12:06:23] INFO root fetch - processPackages [chatting-with-pdfs]: New version: [0.0.12] Old Version: [0.0.11]
+[2023-07-20 12:06:23] INFO root fetch - processPackages [syntaxlight]: Remove: archive file [/home/abi/fetcher/tmp/syntaxlight-0.0.2.tar.gz]
+[2023-07-20 12:06:23] INFO root fetch - processPackages [syntaxlight]: Remove: archive file [/home/abi/fetcher/tmp/syntaxlight-0.0.3.tar.gz]
+[2023-07-20 12:06:23] INFO root fetch - processPackages [syntaxlight]: Start processing: pnap-tag-api
+[2023-07-20 12:06:23] INFO root fetch - main [MainThread]: End processing [syntaxlight]: success
+[2023-07-20 12:06:23] INFO root fetch - processPackages [pnap-rancher-solution-api]: Downloading https://files.pythonhosted.org/packages/29/ff/493e310d7e7638d5f5cbb0abf7462cbe8f2f327ee9929701f4088eed7235/pnap-rancher-solution-api-1.0.6.tar.gz
+[2023-07-20 12:06:23] INFO root fetch - processPackages [pnap-network-api]: Downloading https://files.pythonhosted.org/packages/5e/ac/120c3120d02b64bcb657d14d56eff5ed22ab61903ea643d51df033d11c3a/pnap-network-api-1.4.0.tar.gz
+[2023-07-20 12:06:23] INFO root fetch - processPackages [pnap-audit-api]: Downloading https://files.pythonhosted.org/packages/f3/0b/815160ee0d317e1ec521f39a5a5593faa1ade0af3a65622b9a9c488cfdc1/pnap-audit-api-1.0.5.tar.gz
+[2023-07-20 12:06:23] INFO root fetch - processPackages [pnap-bmc-api]: Remove: archive file [/home/abi/fetcher/tmp/pnap-bmc-api-1.4.0.tar.gz]
+[2023-07-20 12:06:23] INFO root fetch - processPackages [pnap-bmc-api]: Remove: archive file [/home/abi/fetcher/tmp/pnap-bmc-api-1.5.0.tar.gz]
+[2023-07-20 12:06:23] INFO root fetch - processPackages [pnap-bmc-api]: Start processing: PythonAPIClientBase
+[2023-07-20 12:06:23] INFO root fetch - main [MainThread]: End processing [pnap-bmc-api]: success
+[2023-07-20 12:06:23] INFO root fetch - processPackages [pnap-tag-api]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-07-20 12:06:23] INFO root fetch - processPackages [pnap-network-storage-api]: Downloading https://files.pythonhosted.org/packages/cf/dd/929538a4603944d623372e654b15c23a030b92ce9383a4ad503d32aa6fb5/pnap-network-storage-api-1.3.0.tar.gz
+[2023-07-20 12:06:23] INFO root fetch - processPackages [pnap-rancher-solution-api]: executing diffoscope
+[2023-07-20 12:06:23] INFO root fetch - processPackages [pnap-rancher-solution-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pnap-rancher-solution-api-1.0.5.tar.gz tmp/pnap-rancher-solution-api-1.0.6.tar.gz --markdown 20230720/p/pnap-rancher-solution-api/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-07-20 12:06:23] INFO root fetch - processPackages [chatting-with-pdfs]: Downloading https://files.pythonhosted.org/packages/cb/77/5d94eba78fefadebb90cf03a46cc438da94fa23ed255e456467ba8e2d9fd/chatting_with_pdfs-0.0.11.tar.gz
+[2023-07-20 12:06:23] INFO root fetch - processPackages [PythonAPIClientBase]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-20 12:06:23] INFO root fetch - processPackages [pnap-tag-api]: Downloading https://files.pythonhosted.org/packages/f5/de/641d1cca2cfa95bb721612a387ffa30946affee22190692fb0698c47a5f5/pnap-tag-api-1.0.5.tar.gz
+[2023-07-20 12:06:23] INFO root fetch - processPackages [pnap-ip-api]: Downloading https://files.pythonhosted.org/packages/5f/09/cb1ce5ebc6b7c2c80533eb9beb288031264dde59dde33a7e15ff3bb1bac1/pnap-ip-api-1.1.5.tar.gz
+[2023-07-20 12:06:23] INFO root fetch - processPackages [sensai]: Remove: archive file [/home/abi/fetcher/tmp/sensai-0.1.9.tar.gz]
+[2023-07-20 12:06:23] INFO root fetch - processPackages [sensai]: Remove: archive file [/home/abi/fetcher/tmp/sensai-0.2.0.tar.gz]
+[2023-07-20 12:06:23] INFO root fetch - processPackages [sensai]: Start processing: pharindoko.cdk-internal-gateway
+[2023-07-20 12:06:23] INFO root fetch - main [MainThread]: End processing [sensai]: success
+[2023-07-20 12:06:23] INFO root fetch - processPackages [pnap-audit-api]: Downloading https://files.pythonhosted.org/packages/d9/27/3bd793dd16ed6fad68f7098b53309d07a2fcc6ce233b9683c4da14e39a13/pnap-audit-api-1.0.6.tar.gz
+[2023-07-20 12:06:24] INFO root fetch - processPackages [PythonAPIClientBase]: Downloading https://files.pythonhosted.org/packages/ef/ba/6617cfb04964b90f5793051a09b1d279017192746314213bdd59f3bb4936/PythonAPIClientBase-0.0.8.tar.gz
+[2023-07-20 12:06:24] INFO root fetch - processPackages [pnap-network-api]: Downloading https://files.pythonhosted.org/packages/de/08/ac5e96d201af844bc41db02ef4e4f046f5f769685bdb158a2928f6635489/pnap-network-api-1.4.1.tar.gz
+[2023-07-20 12:06:24] INFO root fetch - processPackages [pnap-network-storage-api]: Downloading https://files.pythonhosted.org/packages/fc/af/eb94a7e97235e161993ecb69295e7ef45eb40cfb480054bedf4d4d1cc4da/pnap-network-storage-api-1.4.0.tar.gz
+[2023-07-20 12:06:24] INFO root fetch - processPackages [pharindoko.cdk-internal-gateway]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-07-20 12:06:24] INFO root fetch - processPackages [pnap-audit-api]: executing diffoscope
+[2023-07-20 12:06:24] INFO root fetch - processPackages [pnap-audit-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pnap-audit-api-1.0.5.tar.gz tmp/pnap-audit-api-1.0.6.tar.gz --markdown 20230720/p/pnap-audit-api/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-07-20 12:06:24] INFO root fetch - processPackages [pnap-ip-api]: executing diffoscope
+[2023-07-20 12:06:24] INFO root fetch - processPackages [pnap-ip-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pnap-ip-api-1.1.4.tar.gz tmp/pnap-ip-api-1.1.5.tar.gz --markdown 20230720/p/pnap-ip-api/1.1.4-1.1.5/diff.md --exclude *.pyd
+[2023-07-20 12:06:24] INFO root fetch - processPackages [chatting-with-pdfs]: Downloading https://files.pythonhosted.org/packages/db/b2/906f68501d4ea471df439eec3d2584bcc358aa872e6bb9a5ffc5e8dea4c6/chatting-with-pdfs-0.0.12.tar.gz
+[2023-07-20 12:06:24] INFO root fetch - processPackages [pnap-network-api]: executing diffoscope
+[2023-07-20 12:06:24] INFO root fetch - processPackages [pnap-network-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pnap-network-api-1.4.0.tar.gz tmp/pnap-network-api-1.4.1.tar.gz --markdown 20230720/p/pnap-network-api/1.4.0-1.4.1/diff.md --exclude *.pyd
+[2023-07-20 12:06:24] INFO root fetch - processPackages [chatting-with-pdfs]: executing diffoscope
+[2023-07-20 12:06:24] INFO root fetch - processPackages [chatting-with-pdfs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chatting_with_pdfs-0.0.11.tar.gz tmp/chatting-with-pdfs-0.0.12.tar.gz --markdown 20230720/c/chatting-with-pdfs/0.0.11-0.0.12/diff.md --exclude *.pyd
+[2023-07-20 12:06:24] INFO root fetch - processPackages [pnap-network-storage-api]: executing diffoscope
+[2023-07-20 12:06:24] INFO root fetch - processPackages [pnap-network-storage-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pnap-network-storage-api-1.3.0.tar.gz tmp/pnap-network-storage-api-1.4.0.tar.gz --markdown 20230720/p/pnap-network-storage-api/1.3.0-1.4.0/diff.md --exclude *.pyd
+[2023-07-20 12:06:24] INFO root fetch - processPackages [pnap-tag-api]: Downloading https://files.pythonhosted.org/packages/29/b2/4c7fcf69beeba1db718dfeb1642dc007c9f771946dbf6d6404e7d6e2ea92/pnap-tag-api-1.0.6.tar.gz
+[2023-07-20 12:06:24] INFO root fetch - processPackages [pharindoko.cdk-internal-gateway]: Downloading https://files.pythonhosted.org/packages/44/af/776f05e5bae33847701876c6f3d922ef73f5b4e86e14be753dd36b2b2688/pharindoko.cdk-internal-gateway-1.1.8.tar.gz
+[2023-07-20 12:06:24] INFO root fetch - processPackages [PythonAPIClientBase]: Downloading https://files.pythonhosted.org/packages/26/4e/327588612f35e1f814d8f17712c6e4fe2b78cfb61cd48a6295539a5086d8/PythonAPIClientBase-0.0.9.tar.gz
+[2023-07-20 12:06:24] INFO root fetch - processPackages [pnap-tag-api]: executing diffoscope
+[2023-07-20 12:06:24] INFO root fetch - processPackages [pnap-tag-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pnap-tag-api-1.0.5.tar.gz tmp/pnap-tag-api-1.0.6.tar.gz --markdown 20230720/p/pnap-tag-api/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-07-20 12:06:24] INFO root fetch - processPackages [PythonAPIClientBase]: executing diffoscope
+[2023-07-20 12:06:24] INFO root fetch - processPackages [PythonAPIClientBase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PythonAPIClientBase-0.0.8.tar.gz tmp/PythonAPIClientBase-0.0.9.tar.gz --markdown 20230720/P/PythonAPIClientBase/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-20 12:06:24] INFO root fetch - processPackages [pharindoko.cdk-internal-gateway]: Downloading https://files.pythonhosted.org/packages/00/8c/415bb9054570c25a0cea31fd3d3aa5661d2c81cc5dd2816784d542246f9b/pharindoko.cdk-internal-gateway-1.1.9.tar.gz
+[2023-07-20 12:06:25] INFO root fetch - processPackages [pharindoko.cdk-internal-gateway]: executing diffoscope
+[2023-07-20 12:06:25] INFO root fetch - processPackages [pharindoko.cdk-internal-gateway]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pharindoko.cdk-internal-gateway-1.1.8.tar.gz tmp/pharindoko.cdk-internal-gateway-1.1.9.tar.gz --markdown 20230720/p/pharindoko.cdk-internal-gateway/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-07-20 12:06:25] INFO root fetch - processPackages [pnap-rancher-solution-api]: Remove: archive file [/home/abi/fetcher/tmp/pnap-rancher-solution-api-1.0.5.tar.gz]
+[2023-07-20 12:06:25] INFO root fetch - processPackages [pnap-rancher-solution-api]: Remove: archive file [/home/abi/fetcher/tmp/pnap-rancher-solution-api-1.0.6.tar.gz]
+[2023-07-20 12:06:25] INFO root fetch - main [MainThread]: End processing [pnap-rancher-solution-api]: success
+[2023-07-20 12:06:25] INFO root fetch - processPackages [pnap-audit-api]: Remove: archive file [/home/abi/fetcher/tmp/pnap-audit-api-1.0.5.tar.gz]
+[2023-07-20 12:06:25] INFO root fetch - processPackages [pnap-audit-api]: Remove: archive file [/home/abi/fetcher/tmp/pnap-audit-api-1.0.6.tar.gz]
+[2023-07-20 12:06:25] INFO root fetch - main [MainThread]: End processing [pnap-audit-api]: success
+[2023-07-20 12:06:25] INFO root fetch - processPackages [pnap-ip-api]: Remove: archive file [/home/abi/fetcher/tmp/pnap-ip-api-1.1.4.tar.gz]
+[2023-07-20 12:06:25] INFO root fetch - processPackages [pnap-ip-api]: Remove: archive file [/home/abi/fetcher/tmp/pnap-ip-api-1.1.5.tar.gz]
+[2023-07-20 12:06:25] INFO root fetch - main [MainThread]: End processing [pnap-ip-api]: success
+[2023-07-20 12:06:25] INFO root fetch - processPackages [chatting-with-pdfs]: Remove: archive file [/home/abi/fetcher/tmp/chatting_with_pdfs-0.0.11.tar.gz]
+[2023-07-20 12:06:25] INFO root fetch - processPackages [chatting-with-pdfs]: Remove: archive file [/home/abi/fetcher/tmp/chatting-with-pdfs-0.0.12.tar.gz]
+[2023-07-20 12:06:25] INFO root fetch - main [MainThread]: End processing [chatting-with-pdfs]: success
+[2023-07-20 12:06:25] INFO root fetch - processPackages [PythonAPIClientBase]: Remove: archive file [/home/abi/fetcher/tmp/PythonAPIClientBase-0.0.8.tar.gz]
+[2023-07-20 12:06:25] INFO root fetch - processPackages [PythonAPIClientBase]: Remove: archive file [/home/abi/fetcher/tmp/PythonAPIClientBase-0.0.9.tar.gz]
+[2023-07-20 12:06:25] INFO root fetch - main [MainThread]: End processing [PythonAPIClientBase]: success
+[2023-07-20 12:06:25] INFO root fetch - processPackages [pnap-network-api]: Remove: archive file [/home/abi/fetcher/tmp/pnap-network-api-1.4.0.tar.gz]
+[2023-07-20 12:06:25] INFO root fetch - processPackages [pnap-network-api]: Remove: archive file [/home/abi/fetcher/tmp/pnap-network-api-1.4.1.tar.gz]
+[2023-07-20 12:06:25] INFO root fetch - main [MainThread]: End processing [pnap-network-api]: success
+[2023-07-20 12:06:26] INFO root fetch - processPackages [pnap-network-storage-api]: Remove: archive file [/home/abi/fetcher/tmp/pnap-network-storage-api-1.3.0.tar.gz]
+[2023-07-20 12:06:26] INFO root fetch - processPackages [pnap-network-storage-api]: Remove: archive file [/home/abi/fetcher/tmp/pnap-network-storage-api-1.4.0.tar.gz]
+[2023-07-20 12:06:26] INFO root fetch - main [MainThread]: End processing [pnap-network-storage-api]: success
+[2023-07-20 12:06:26] INFO root fetch - processPackages [micrOSDevToolKit]: Remove: archive file [/home/abi/fetcher/tmp/micrOSDevToolKit-1.20.5.tar.gz]
+[2023-07-20 12:06:26] INFO root fetch - processPackages [micrOSDevToolKit]: Remove: archive file [/home/abi/fetcher/tmp/micrOSDevToolKit-1.20.6.tar.gz]
+[2023-07-20 12:06:26] INFO root fetch - main [MainThread]: End processing [micrOSDevToolKit]: success
+[2023-07-20 12:06:26] INFO root fetch - processPackages [pharindoko.cdk-internal-gateway]: Remove: archive file [/home/abi/fetcher/tmp/pharindoko.cdk-internal-gateway-1.1.8.tar.gz]
+[2023-07-20 12:06:26] INFO root fetch - processPackages [pharindoko.cdk-internal-gateway]: Remove: archive file [/home/abi/fetcher/tmp/pharindoko.cdk-internal-gateway-1.1.9.tar.gz]
+[2023-07-20 12:06:26] INFO root fetch - main [MainThread]: End processing [pharindoko.cdk-internal-gateway]: success
+[2023-07-20 12:06:26] INFO root fetch - processPackages [pnap-tag-api]: Remove: archive file [/home/abi/fetcher/tmp/pnap-tag-api-1.0.5.tar.gz]
+[2023-07-20 12:06:26] INFO root fetch - processPackages [pnap-tag-api]: Remove: archive file [/home/abi/fetcher/tmp/pnap-tag-api-1.0.6.tar.gz]
+[2023-07-20 12:06:26] INFO root fetch - main [MainThread]: End processing [pnap-tag-api]: success
+[2023-07-20 12:06:26] INFO root fetch - main [MainThread]: Store serial: [18964873]
