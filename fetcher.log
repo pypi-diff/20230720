@@ -21808,3 +21808,301 @@ AssertionError: tmp/threemystic_cloud_data_client-0.1.17.tar.gz does not exist
 [2023-07-20 21:47:32] INFO root fetch - processPackages [chainforge]: Remove: archive file [/home/abi/fetcher/tmp/chainforge-0.2.1.4.tar.gz]
 [2023-07-20 21:47:32] INFO root fetch - main [MainThread]: End processing [chainforge]: success
 [2023-07-20 21:47:32] INFO root fetch - main [MainThread]: Store serial: [18972059]
+[2023-07-20 21:52:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18972059]
+[2023-07-20 21:52:48] INFO root fetch - main [MainThread]: Found 34 changed packages
+[2023-07-20 21:52:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: scrunch
+[2023-07-20 21:52:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyft
+[2023-07-20 21:52:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pygame-ui-controls
+[2023-07-20 21:52:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: phoenixtools
+[2023-07-20 21:52:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: maisaedu-utilities-prefect
+[2023-07-20 21:52:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: maisaedu-poormans-dms
+[2023-07-20 21:52:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ursactl
+[2023-07-20 21:52:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: roblox-pyc
+[2023-07-20 21:52:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mypy-boto3-sagemaker-featurestore-runtime
+[2023-07-20 21:52:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: mypy-boto3-codecatalyst
+[2023-07-20 21:52:49] INFO root fetch - processPackages [maisaedu-poormans-dms]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-20 21:52:49] INFO root fetch - processPackages [pygame-ui-controls]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-07-20 21:52:49] INFO root fetch - processPackages [maisaedu-utilities-prefect]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-20 21:52:49] INFO root fetch - processPackages [phoenixtools]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-07-20 21:52:49] INFO root fetch - processPackages [scrunch]: New version: [6.5.2001.post1689882320] Old Version: [6.5.2000.post1689876621]
+[2023-07-20 21:52:49] INFO root fetch - processPackages [pyft]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-20 21:52:49] INFO root fetch - processPackages [ursactl]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-07-20 21:52:49] INFO root fetch - processPackages [mypy-boto3-codecatalyst]: New version: [1.28.8] Old Version: [1.28.0]
+[2023-07-20 21:52:49] INFO root fetch - processPackages [roblox-pyc]: New version: [1.6.6.5a0] Old Version: [1.6.6.5.4]
+[2023-07-20 21:52:49] INFO root fetch - processPackages [mypy-boto3-sagemaker-featurestore-runtime]: New version: [1.28.8] Old Version: [1.28.0]
+[2023-07-20 21:52:49] INFO root fetch - processPackages [scrunch]: Downloading https://files.pythonhosted.org/packages/a8/bf/3b8cbd6d46811a3f5c201d909e6cf8dbd8ceaf373cce1fec4ce9e015d53e/scrunch-6.5.2000.post1689876621.tar.gz
+[2023-07-20 21:52:49] INFO root fetch - processPackages [mypy-boto3-codecatalyst]: Downloading https://files.pythonhosted.org/packages/49/4c/f36526bdcdb2ca1ee76775421f4c846d90ee10322ec2d5e7c925c6f71254/mypy-boto3-codecatalyst-1.28.0.tar.gz
+[2023-07-20 21:52:49] INFO root fetch - processPackages [phoenixtools]: Downloading https://files.pythonhosted.org/packages/dc/83/61ed9154eb95fad07c5ea1b52ae4dbfde5095a6b7f500e53607a7e940ca5/phoenixtools-1.2.0.tar.gz
+[2023-07-20 21:52:49] INFO root fetch - processPackages [pyft]: Downloading https://files.pythonhosted.org/packages/c5/b3/4729bed033d7a353ec71381fa9e1ade1bf7a186a837ed3627b31265ddede/pyft-0.1.0.tar.gz
+[2023-07-20 21:52:49] INFO root fetch - processPackages [roblox-pyc]: Downloading https://files.pythonhosted.org/packages/44/ab/2c1167a2d328570fcff41305068766f10c181301f2cd7a1f64f72287fa27/roblox-pyc-1.6.6.5.4.tar.gz
+[2023-07-20 21:52:49] INFO root fetch - processPackages [ursactl]: Downloading https://files.pythonhosted.org/packages/64/7a/51df69d9d8576126fd7e3d511bdb519c804285c65bd735c573b522cf7fed/ursactl-0.5.0.tar.gz
+[2023-07-20 21:52:49] INFO root fetch - processPackages [maisaedu-utilities-prefect]: executing diffoscope
+[2023-07-20 21:52:49] INFO root fetch - processPackages [maisaedu-utilities-prefect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maisaedu-utilities-prefect-1.0.8.tar.gz tmp/maisaedu-utilities-prefect-1.0.9.tar.gz --markdown 20230720/m/maisaedu-utilities-prefect/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-20 21:52:49] INFO root fetch - processPackages [maisaedu-poormans-dms]: executing diffoscope
+[2023-07-20 21:52:49] INFO root fetch - processPackages [maisaedu-poormans-dms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maisaedu-poormans-dms-1.0.8.tar.gz tmp/maisaedu-poormans-dms-1.0.9.tar.gz --markdown 20230720/m/maisaedu-poormans-dms/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-20 21:52:49] INFO root fetch - processPackages [mypy-boto3-sagemaker-featurestore-runtime]: Downloading https://files.pythonhosted.org/packages/28/e9/aeda3ec99b440936b32fe444561720a5a06e6d329673d15ab6669b032471/mypy-boto3-sagemaker-featurestore-runtime-1.28.0.tar.gz
+[2023-07-20 21:52:49] INFO root fetch - processPackages [pygame-ui-controls]: Downloading https://files.pythonhosted.org/packages/28/66/451e22d212909bda21ba56376c33766b846af4abbed365d25ea05f646c93/pygame_ui_controls-1.1.2-py3-none-any.whl
+[2023-07-20 21:52:49] INFO root fetch - processPackages [scrunch]: Downloading https://files.pythonhosted.org/packages/6f/66/8b8a7ba921292299cd3d9591af375653955948a32a7d345565109200a48b/scrunch-6.5.2001.post1689882320.tar.gz
+[2023-07-20 21:52:49] INFO root fetch - processPackages [phoenixtools]: Downloading https://files.pythonhosted.org/packages/9f/8b/7a432621a641b8be8440ba964d3f4d9e6382bdd18cadecae05bcfe46c8ad/phoenixtools-1.2.1.tar.gz
+[2023-07-20 21:52:49] INFO root fetch - processPackages [mypy-boto3-codecatalyst]: Downloading https://files.pythonhosted.org/packages/46/ca/71987146a4bdf85498e310fd50ff07a80d22c67a44de1fdd018d474a22fe/mypy-boto3-codecatalyst-1.28.8.tar.gz
+[2023-07-20 21:52:49] INFO root fetch - processPackages [roblox-pyc]: Downloading https://files.pythonhosted.org/packages/59/75/7884ffaab86bf051065880fd8aefdfc8e3f2c34e7c9d4a8d352321ec57f8/roblox-pyc-1.6.6.5a0.tar.gz
+[2023-07-20 21:52:49] INFO root fetch - processPackages [pygame-ui-controls]: executing diffoscope
+[2023-07-20 21:52:49] INFO root fetch - processPackages [pygame-ui-controls]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygame_ui_controls-1.1.1-py3-none-any.whl.zip tmp/pygame_ui_controls-1.1.2-py3-none-any.whl.zip --markdown 20230720/p/pygame-ui-controls/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-07-20 21:52:49] INFO root fetch - processPackages [scrunch]: executing diffoscope
+[2023-07-20 21:52:49] INFO root fetch - processPackages [scrunch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scrunch-6.5.2000.post1689876621.tar.gz tmp/scrunch-6.5.2001.post1689882320.tar.gz --markdown 20230720/s/scrunch/6.5.2000.post1689876621-6.5.2001.post1689882320/diff.md --exclude *.pyd
+[2023-07-20 21:52:49] INFO root fetch - processPackages [ursactl]: Downloading https://files.pythonhosted.org/packages/08/b5/eed9c0e28246eb21a8a1869534f9c789084e957e6378218885764275dee3/ursactl-0.5.1.tar.gz
+[2023-07-20 21:52:49] INFO root fetch - processPackages [mypy-boto3-sagemaker-featurestore-runtime]: Downloading https://files.pythonhosted.org/packages/ae/c4/69db5d31d0da81040f4419bc6b6534026f297e241471e8431689309c74db/mypy-boto3-sagemaker-featurestore-runtime-1.28.8.tar.gz
+[2023-07-20 21:52:50] INFO root fetch - processPackages [roblox-pyc]: executing diffoscope
+[2023-07-20 21:52:50] INFO root fetch - processPackages [roblox-pyc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/roblox-pyc-1.6.6.5.4.tar.gz tmp/roblox-pyc-1.6.6.5a0.tar.gz --markdown 20230720/r/roblox-pyc/1.6.6.5.4-1.6.6.5a0/diff.md --exclude *.pyd
+[2023-07-20 21:52:50] INFO root fetch - processPackages [mypy-boto3-codecatalyst]: executing diffoscope
+[2023-07-20 21:52:50] INFO root fetch - processPackages [mypy-boto3-codecatalyst]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mypy-boto3-codecatalyst-1.28.0.tar.gz tmp/mypy-boto3-codecatalyst-1.28.8.tar.gz --markdown 20230720/m/mypy-boto3-codecatalyst/1.28.0-1.28.8/diff.md --exclude *.pyd
+[2023-07-20 21:52:50] INFO root fetch - processPackages [ursactl]: executing diffoscope
+[2023-07-20 21:52:50] INFO root fetch - processPackages [ursactl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ursactl-0.5.0.tar.gz tmp/ursactl-0.5.1.tar.gz --markdown 20230720/u/ursactl/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-07-20 21:52:50] INFO root fetch - processPackages [mypy-boto3-sagemaker-featurestore-runtime]: executing diffoscope
+[2023-07-20 21:52:50] INFO root fetch - processPackages [mypy-boto3-sagemaker-featurestore-runtime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mypy-boto3-sagemaker-featurestore-runtime-1.28.0.tar.gz tmp/mypy-boto3-sagemaker-featurestore-runtime-1.28.8.tar.gz --markdown 20230720/m/mypy-boto3-sagemaker-featurestore-runtime/1.28.0-1.28.8/diff.md --exclude *.pyd
+[2023-07-20 21:52:50] INFO root fetch - processPackages [phoenixtools]: executing diffoscope
+[2023-07-20 21:52:50] INFO root fetch - processPackages [phoenixtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phoenixtools-1.2.0.tar.gz tmp/phoenixtools-1.2.1.tar.gz --markdown 20230720/p/phoenixtools/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-07-20 21:52:50] INFO root fetch - processPackages [maisaedu-poormans-dms]: Remove: archive file [/home/abi/fetcher/tmp/maisaedu-poormans-dms-1.0.8.tar.gz]
+[2023-07-20 21:52:50] INFO root fetch - processPackages [maisaedu-poormans-dms]: Remove: archive file [/home/abi/fetcher/tmp/maisaedu-poormans-dms-1.0.9.tar.gz]
+[2023-07-20 21:52:50] INFO root fetch - processPackages [maisaedu-poormans-dms]: Start processing: mypy-boto3-sagemaker
+[2023-07-20 21:52:50] INFO root fetch - main [MainThread]: End processing [maisaedu-poormans-dms]: success
+[2023-07-20 21:52:50] INFO root fetch - processPackages [maisaedu-utilities-prefect]: Remove: archive file [/home/abi/fetcher/tmp/maisaedu-utilities-prefect-1.0.8.tar.gz]
+[2023-07-20 21:52:50] INFO root fetch - processPackages [maisaedu-utilities-prefect]: Remove: archive file [/home/abi/fetcher/tmp/maisaedu-utilities-prefect-1.0.9.tar.gz]
+[2023-07-20 21:52:50] INFO root fetch - processPackages [maisaedu-utilities-prefect]: Start processing: mypy-boto3-lexv2-models
+[2023-07-20 21:52:50] INFO root fetch - main [MainThread]: End processing [maisaedu-utilities-prefect]: success
+[2023-07-20 21:52:50] INFO root fetch - processPackages [mypy-boto3-sagemaker]: New version: [1.28.8] Old Version: [1.28.3.post2]
+[2023-07-20 21:52:50] INFO root fetch - processPackages [mypy-boto3-lexv2-models]: New version: [1.28.8] Old Version: [1.28.5]
+[2023-07-20 21:52:50] INFO root fetch - processPackages [mypy-boto3-sagemaker]: Downloading https://files.pythonhosted.org/packages/49/59/8b2e31300d53137f3295dfc9cf6fdf26b551aafa42093dedbf9aa178c721/mypy-boto3-sagemaker-1.28.3.post2.tar.gz
+[2023-07-20 21:52:50] INFO root fetch - processPackages [mypy-boto3-lexv2-models]: Downloading https://files.pythonhosted.org/packages/8a/b1/62cd9a5b6d2bb338ec5240812eae7b62b1525a900a6e1f0252fe74398b98/mypy-boto3-lexv2-models-1.28.5.tar.gz
+[2023-07-20 21:52:50] INFO root fetch - processPackages [pygame-ui-controls]: Remove: archive file [/home/abi/fetcher/tmp/pygame_ui_controls-1.1.1-py3-none-any.whl.zip]
+[2023-07-20 21:52:50] INFO root fetch - processPackages [pygame-ui-controls]: Remove: archive file [/home/abi/fetcher/tmp/pygame_ui_controls-1.1.2-py3-none-any.whl.zip]
+[2023-07-20 21:52:50] INFO root fetch - processPackages [pygame-ui-controls]: Start processing: mypy-boto3-securitylake
+[2023-07-20 21:52:50] INFO root fetch - main [MainThread]: End processing [pygame-ui-controls]: success
+[2023-07-20 21:52:51] INFO root fetch - processPackages [pyft]: Downloading https://files.pythonhosted.org/packages/cb/27/9e42da52a20d9b691ef37a8828764cd904af507b9107a386d55614566304/pyft-0.1.1-cp310-cp310-macosx_10_7_x86_64.whl
+[2023-07-20 21:52:51] INFO root fetch - processPackages [mypy-boto3-securitylake]: New version: [1.28.8] Old Version: [1.28.0]
+[2023-07-20 21:52:51] INFO root fetch - processPackages [mypy-boto3-lexv2-models]: Downloading https://files.pythonhosted.org/packages/bb/ee/6edde20ebec2f06acba5466ca9316064d89e1dad2c5bfdfa1f2ea70ff37c/mypy-boto3-lexv2-models-1.28.8.tar.gz
+[2023-07-20 21:52:51] INFO root fetch - processPackages [mypy-boto3-sagemaker]: Downloading https://files.pythonhosted.org/packages/3b/20/9c7ea38f3445b411663166eb569b81764e9eb6609de9b10fbd540c6bee64/mypy-boto3-sagemaker-1.28.8.tar.gz
+[2023-07-20 21:52:51] INFO root fetch - processPackages [mypy-boto3-securitylake]: Downloading https://files.pythonhosted.org/packages/51/b4/5de12611f8ba825f414cdd891210bd7729a229ec8b07a678e3b613fc5358/mypy-boto3-securitylake-1.28.0.tar.gz
+[2023-07-20 21:52:51] INFO root fetch - processPackages [roblox-pyc]: Remove: archive file [/home/abi/fetcher/tmp/roblox-pyc-1.6.6.5.4.tar.gz]
+[2023-07-20 21:52:51] INFO root fetch - processPackages [roblox-pyc]: Remove: archive file [/home/abi/fetcher/tmp/roblox-pyc-1.6.6.5a0.tar.gz]
+[2023-07-20 21:52:51] INFO root fetch - processPackages [roblox-pyc]: Start processing: seqexplainer
+[2023-07-20 21:52:51] INFO root fetch - main [MainThread]: End processing [roblox-pyc]: success
+[2023-07-20 21:52:51] INFO root fetch - processPackages [seqexplainer]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-20 21:52:51] INFO root fetch - processPackages [mypy-boto3-lexv2-models]: executing diffoscope
+[2023-07-20 21:52:51] INFO root fetch - processPackages [mypy-boto3-lexv2-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mypy-boto3-lexv2-models-1.28.5.tar.gz tmp/mypy-boto3-lexv2-models-1.28.8.tar.gz --markdown 20230720/m/mypy-boto3-lexv2-models/1.28.5-1.28.8/diff.md --exclude *.pyd
+[2023-07-20 21:52:51] INFO root fetch - processPackages [mypy-boto3-sagemaker]: executing diffoscope
+[2023-07-20 21:52:51] INFO root fetch - processPackages [mypy-boto3-sagemaker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mypy-boto3-sagemaker-1.28.3.post2.tar.gz tmp/mypy-boto3-sagemaker-1.28.8.tar.gz --markdown 20230720/m/mypy-boto3-sagemaker/1.28.3.post2-1.28.8/diff.md --exclude *.pyd
+[2023-07-20 21:52:51] INFO root fetch - processPackages [scrunch]: Remove: archive file [/home/abi/fetcher/tmp/scrunch-6.5.2000.post1689876621.tar.gz]
+[2023-07-20 21:52:51] INFO root fetch - processPackages [scrunch]: Remove: archive file [/home/abi/fetcher/tmp/scrunch-6.5.2001.post1689882320.tar.gz]
+[2023-07-20 21:52:51] INFO root fetch - processPackages [scrunch]: Start processing: epure
+[2023-07-20 21:52:51] INFO root fetch - main [MainThread]: End processing [scrunch]: success
+[2023-07-20 21:52:51] INFO root fetch - processPackages [epure]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-20 21:52:51] INFO root fetch - processPackages [phoenixtools]: Remove: archive file [/home/abi/fetcher/tmp/phoenixtools-1.2.0.tar.gz]
+[2023-07-20 21:52:51] INFO root fetch - processPackages [phoenixtools]: Remove: archive file [/home/abi/fetcher/tmp/phoenixtools-1.2.1.tar.gz]
+[2023-07-20 21:52:51] INFO root fetch - processPackages [phoenixtools]: Start processing: ninjakiwi-api
+[2023-07-20 21:52:51] INFO root fetch - main [MainThread]: End processing [phoenixtools]: success
+[2023-07-20 21:52:51] INFO root fetch - processPackages [pyft]: executing diffoscope
+[2023-07-20 21:52:51] INFO root fetch - processPackages [pyft]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyft-0.1.0.tar.gz tmp/pyft-0.1.1-cp310-cp310-macosx_10_7_x86_64.whl.zip --markdown 20230720/p/pyft/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-20 21:52:51] INFO root fetch - processPackages [ninjakiwi-api]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-07-20 21:52:51] INFO root fetch - processPackages [ursactl]: Remove: archive file [/home/abi/fetcher/tmp/ursactl-0.5.0.tar.gz]
+[2023-07-20 21:52:51] INFO root fetch - processPackages [ursactl]: Remove: archive file [/home/abi/fetcher/tmp/ursactl-0.5.1.tar.gz]
+[2023-07-20 21:52:51] INFO root fetch - processPackages [ursactl]: Start processing: pusteblume
+[2023-07-20 21:52:51] INFO root fetch - main [MainThread]: End processing [ursactl]: success
+[2023-07-20 21:52:51] INFO root fetch - processPackages [seqexplainer]: Downloading https://files.pythonhosted.org/packages/22/5d/1d4d38a7893be7aefeb91d3c15fbdde97ff0515b64b1529084862f9e57fd/seqexplainer-0.1.0.tar.gz
+[2023-07-20 21:52:51] INFO root fetch - processPackages [mypy-boto3-securitylake]: Downloading https://files.pythonhosted.org/packages/4d/18/3505f93e8a0390d08784645209f86fdc104d5218af3066d2bee55464cb7d/mypy-boto3-securitylake-1.28.8.tar.gz
+[2023-07-20 21:52:51] INFO root fetch - processPackages [pusteblume]: New version: [1.1] Old Version: [1.0]
+[2023-07-20 21:52:51] INFO root fetch - processPackages [mypy-boto3-sagemaker-featurestore-runtime]: Remove: archive file [/home/abi/fetcher/tmp/mypy-boto3-sagemaker-featurestore-runtime-1.28.0.tar.gz]
+[2023-07-20 21:52:51] INFO root fetch - processPackages [mypy-boto3-sagemaker-featurestore-runtime]: Remove: archive file [/home/abi/fetcher/tmp/mypy-boto3-sagemaker-featurestore-runtime-1.28.8.tar.gz]
+[2023-07-20 21:52:51] INFO root fetch - processPackages [mypy-boto3-sagemaker-featurestore-runtime]: Start processing: phoenixtools
+[2023-07-20 21:52:51] INFO root fetch - main [MainThread]: End processing [mypy-boto3-sagemaker-featurestore-runtime]: success
+[2023-07-20 21:52:51] INFO root fetch - processPackages [ninjakiwi-api]: Downloading https://files.pythonhosted.org/packages/7f/cd/2a93d0bc86bee2776a7541da9cfdb1bc8ba139eafa3f0b2c50e31f169930/ninjakiwi_api-0.0.6.tar.gz
+[2023-07-20 21:52:51] INFO root fetch - processPackages [mypy-boto3-codecatalyst]: Remove: archive file [/home/abi/fetcher/tmp/mypy-boto3-codecatalyst-1.28.0.tar.gz]
+[2023-07-20 21:52:51] INFO root fetch - processPackages [mypy-boto3-codecatalyst]: Remove: archive file [/home/abi/fetcher/tmp/mypy-boto3-codecatalyst-1.28.8.tar.gz]
+[2023-07-20 21:52:51] INFO root fetch - processPackages [mypy-boto3-codecatalyst]: Start processing: mypy-boto3-route53resolver
+[2023-07-20 21:52:51] INFO root fetch - main [MainThread]: End processing [mypy-boto3-codecatalyst]: success
+[2023-07-20 21:52:51] INFO root fetch - processPackages [phoenixtools]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-07-20 21:52:51] INFO root fetch - processPackages [epure]: Downloading https://files.pythonhosted.org/packages/43/6c/c26358007dbb906b402655423da9b7bedbcfcf392c2c9e20b8164e5c862e/epure-0.2.8.tar.gz
+[2023-07-20 21:52:51] INFO root fetch - processPackages [mypy-boto3-route53resolver]: New version: [1.28.8] Old Version: [1.28.0]
+[2023-07-20 21:52:51] INFO root fetch - processPackages [phoenixtools]: Downloading https://files.pythonhosted.org/packages/dc/83/61ed9154eb95fad07c5ea1b52ae4dbfde5095a6b7f500e53607a7e940ca5/phoenixtools-1.2.0.tar.gz
+[2023-07-20 21:52:51] INFO root fetch - processPackages [mypy-boto3-securitylake]: executing diffoscope
+[2023-07-20 21:52:51] INFO root fetch - processPackages [mypy-boto3-securitylake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mypy-boto3-securitylake-1.28.0.tar.gz tmp/mypy-boto3-securitylake-1.28.8.tar.gz --markdown 20230720/m/mypy-boto3-securitylake/1.28.0-1.28.8/diff.md --exclude *.pyd
+[2023-07-20 21:52:51] INFO root fetch - processPackages [ninjakiwi-api]: Downloading https://files.pythonhosted.org/packages/9f/fa/ba847ccfb710418c634d83ec0bce8b109ee10dc0175eedeefca7c8ba9efd/ninjakiwi_api-0.0.7.tar.gz
+[2023-07-20 21:52:52] INFO root fetch - processPackages [pusteblume]: Downloading https://files.pythonhosted.org/packages/c9/38/dfc28b6efd93d96461d99bcc2ac83bc745ef578c0a2a2b4f7465b448ddcd/pusteblume-1.0-py3-none-any.whl
+[2023-07-20 21:52:52] INFO root fetch - processPackages [seqexplainer]: Downloading https://files.pythonhosted.org/packages/79/01/1d3c6213cc8c6f7ecc84a2fa0314ed2838826c28ee6ae673ba91effd1509/seqexplainer-0.1.1.tar.gz
+[2023-07-20 21:52:52] INFO root fetch - processPackages [ninjakiwi-api]: executing diffoscope
+[2023-07-20 21:52:52] INFO root fetch - processPackages [ninjakiwi-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ninjakiwi_api-0.0.6.tar.gz tmp/ninjakiwi_api-0.0.7.tar.gz --markdown 20230720/n/ninjakiwi-api/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-07-20 21:52:52] INFO root fetch - processPackages [phoenixtools]: Downloading https://files.pythonhosted.org/packages/9f/8b/7a432621a641b8be8440ba964d3f4d9e6382bdd18cadecae05bcfe46c8ad/phoenixtools-1.2.1.tar.gz
+[2023-07-20 21:52:52] INFO root fetch - processPackages [mypy-boto3-route53resolver]: Downloading https://files.pythonhosted.org/packages/fd/39/9f92624dd798c58a6979cc332b490765d25f414b79c9db98b89584e56dd4/mypy-boto3-route53resolver-1.28.0.tar.gz
+[2023-07-20 21:52:52] INFO root fetch - processPackages [seqexplainer]: executing diffoscope
+[2023-07-20 21:52:52] INFO root fetch - processPackages [seqexplainer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seqexplainer-0.1.0.tar.gz tmp/seqexplainer-0.1.1.tar.gz --markdown 20230720/s/seqexplainer/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-20 21:52:52] INFO root fetch - processPackages [phoenixtools]: executing diffoscope
+[2023-07-20 21:52:52] INFO root fetch - processPackages [phoenixtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phoenixtools-1.2.0.tar.gz tmp/phoenixtools-1.2.1.tar.gz --markdown 20230720/p/phoenixtools/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-07-20 21:52:52] INFO root fetch - processPackages [pusteblume]: Downloading https://files.pythonhosted.org/packages/1b/d8/3ca3c844c1f211ac3fadec46ca1f8fd0f0d420096036115024b0d80311a9/pusteblume-1.1.tar.gz
+[2023-07-20 21:52:52] INFO root fetch - processPackages [epure]: Downloading https://files.pythonhosted.org/packages/63/be/5f55b879f17e553d286060c5527d714551546adddef9befd9ac088862e1a/epure-0.2.9.tar.gz
+[2023-07-20 21:52:52] INFO root fetch - processPackages [pusteblume]: executing diffoscope
+[2023-07-20 21:52:52] INFO root fetch - processPackages [pusteblume]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pusteblume-1.0-py3-none-any.whl.zip tmp/pusteblume-1.1.tar.gz --markdown 20230720/p/pusteblume/1.0-1.1/diff.md --exclude *.pyd
+[2023-07-20 21:52:52] INFO root fetch - processPackages [mypy-boto3-route53resolver]: Downloading https://files.pythonhosted.org/packages/3c/70/cd604e688203c06ac1f85d88513a37fbf43e774b2fad90b3d9924d4e14da/mypy-boto3-route53resolver-1.28.8.tar.gz
+[2023-07-20 21:52:52] INFO root fetch - processPackages [epure]: executing diffoscope
+[2023-07-20 21:52:52] INFO root fetch - processPackages [epure]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/epure-0.2.8.tar.gz tmp/epure-0.2.9.tar.gz --markdown 20230720/e/epure/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-20 21:52:52] INFO root fetch - processPackages [mypy-boto3-route53resolver]: executing diffoscope
+[2023-07-20 21:52:52] INFO root fetch - processPackages [mypy-boto3-route53resolver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mypy-boto3-route53resolver-1.28.0.tar.gz tmp/mypy-boto3-route53resolver-1.28.8.tar.gz --markdown 20230720/m/mypy-boto3-route53resolver/1.28.0-1.28.8/diff.md --exclude *.pyd
+[2023-07-20 21:52:53] INFO root fetch - processPackages [mypy-boto3-lexv2-models]: Remove: archive file [/home/abi/fetcher/tmp/mypy-boto3-lexv2-models-1.28.5.tar.gz]
+[2023-07-20 21:52:53] INFO root fetch - processPackages [mypy-boto3-lexv2-models]: Remove: archive file [/home/abi/fetcher/tmp/mypy-boto3-lexv2-models-1.28.8.tar.gz]
+[2023-07-20 21:52:53] INFO root fetch - processPackages [mypy-boto3-lexv2-models]: Start processing: seqpro
+[2023-07-20 21:52:53] INFO root fetch - main [MainThread]: End processing [mypy-boto3-lexv2-models]: success
+[2023-07-20 21:52:53] INFO root fetch - processPackages [seqpro]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-20 21:52:53] INFO root fetch - processPackages [seqpro]: Downloading https://files.pythonhosted.org/packages/07/8e/e4d76419afd2c0a2f0b0889b4f9d6d5a54ced6506e0535707be560739682/seqpro-0.1.1.tar.gz
+[2023-07-20 21:52:53] INFO root fetch - processPackages [mypy-boto3-securitylake]: Remove: archive file [/home/abi/fetcher/tmp/mypy-boto3-securitylake-1.28.0.tar.gz]
+[2023-07-20 21:52:53] INFO root fetch - processPackages [mypy-boto3-securitylake]: Remove: archive file [/home/abi/fetcher/tmp/mypy-boto3-securitylake-1.28.8.tar.gz]
+[2023-07-20 21:52:53] INFO root fetch - processPackages [mypy-boto3-securitylake]: Start processing: pkgUdit
+[2023-07-20 21:52:53] INFO root fetch - main [MainThread]: End processing [mypy-boto3-securitylake]: success
+[2023-07-20 21:52:53] INFO root fetch - processPackages [pkgUdit]: New version: [1.1.5.4] Old Version: [1.1.5.2]
+[2023-07-20 21:52:53] INFO root fetch - processPackages [ninjakiwi-api]: Remove: archive file [/home/abi/fetcher/tmp/ninjakiwi_api-0.0.6.tar.gz]
+[2023-07-20 21:52:53] INFO root fetch - processPackages [ninjakiwi-api]: Remove: archive file [/home/abi/fetcher/tmp/ninjakiwi_api-0.0.7.tar.gz]
+[2023-07-20 21:52:53] INFO root fetch - processPackages [ninjakiwi-api]: Start processing: threemystic-cloud-client
+[2023-07-20 21:52:53] INFO root fetch - main [MainThread]: End processing [ninjakiwi-api]: success
+[2023-07-20 21:52:53] INFO root fetch - processPackages [pyft]: Remove: archive file [/home/abi/fetcher/tmp/pyft-0.1.0.tar.gz]
+[2023-07-20 21:52:53] INFO root fetch - processPackages [pyft]: Remove: archive file [/home/abi/fetcher/tmp/pyft-0.1.1-cp310-cp310-macosx_10_7_x86_64.whl.zip]
+[2023-07-20 21:52:53] INFO root fetch - processPackages [pyft]: Start processing: bnlearn
+[2023-07-20 21:52:53] INFO root fetch - main [MainThread]: End processing [pyft]: success
+[2023-07-20 21:52:53] INFO root fetch - processPackages [threemystic-cloud-client]: New version: [0.1.38] Old Version: [0.1.37]
+[2023-07-20 21:52:53] INFO root fetch - processPackages [bnlearn]: New version: [0.8.2] Old Version: [0.8.1]
+[2023-07-20 21:52:53] INFO root fetch - processPackages [pkgUdit]: Downloading https://files.pythonhosted.org/packages/50/69/bb875abfcbabeec68bfc54df7f2852c5239e6479ac1ede0c3315533ec8be/pkgUdit-1.1.5.2-py3-none-any.whl
+[2023-07-20 21:52:53] INFO root fetch - processPackages [phoenixtools]: Remove: archive file [/home/abi/fetcher/tmp/phoenixtools-1.2.0.tar.gz]
+[2023-07-20 21:52:53] INFO root fetch - processPackages [phoenixtools]: Remove: archive file [/home/abi/fetcher/tmp/phoenixtools-1.2.1.tar.gz]
+[2023-07-20 21:52:53] INFO root fetch - processPackages [phoenixtools]: Start processing: motifdata
+[2023-07-20 21:52:53] INFO root fetch - main [MainThread]: End processing [phoenixtools]: success
+[2023-07-20 21:52:53] INFO root fetch - processPackages [seqexplainer]: Remove: archive file [/home/abi/fetcher/tmp/seqexplainer-0.1.0.tar.gz]
+[2023-07-20 21:52:53] INFO root fetch - processPackages [seqexplainer]: Remove: archive file [/home/abi/fetcher/tmp/seqexplainer-0.1.1.tar.gz]
+[2023-07-20 21:52:53] INFO root fetch - processPackages [seqexplainer]: Start processing: udi-interface
+[2023-07-20 21:52:53] INFO root fetch - main [MainThread]: End processing [seqexplainer]: success
+[2023-07-20 21:52:53] INFO root fetch - processPackages [motifdata]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-20 21:52:53] INFO root fetch - processPackages [udi-interface]: New version: [3.1.0] Old Version: [3.0.9]
+[2023-07-20 21:52:53] INFO root fetch - processPackages [seqpro]: Downloading https://files.pythonhosted.org/packages/dc/23/85462aa48760f51d4791b2c24e79aed043fe686b7b5a7534bd5739ec7c04/seqpro-0.1.2.tar.gz
+[2023-07-20 21:52:53] INFO root fetch - processPackages [threemystic-cloud-client]: Downloading https://files.pythonhosted.org/packages/4e/65/c49d46e0723360ccda93170f13a0334ebaade423a69339e55563b13c71ac/threemystic_cloud_client-0.1.37.tar.gz
+[2023-07-20 21:52:53] INFO root fetch - processPackages [mypy-boto3-sagemaker]: Remove: archive file [/home/abi/fetcher/tmp/mypy-boto3-sagemaker-1.28.3.post2.tar.gz]
+[2023-07-20 21:52:53] INFO root fetch - processPackages [mypy-boto3-sagemaker]: Remove: archive file [/home/abi/fetcher/tmp/mypy-boto3-sagemaker-1.28.8.tar.gz]
+[2023-07-20 21:52:53] INFO root fetch - processPackages [mypy-boto3-sagemaker]: Start processing: assemblyline-service-client
+[2023-07-20 21:52:53] INFO root fetch - main [MainThread]: End processing [mypy-boto3-sagemaker]: success
+[2023-07-20 21:52:53] INFO root fetch - processPackages [pusteblume]: Remove: archive file [/home/abi/fetcher/tmp/pusteblume-1.0-py3-none-any.whl.zip]
+[2023-07-20 21:52:53] INFO root fetch - processPackages [pusteblume]: Remove: archive file [/home/abi/fetcher/tmp/pusteblume-1.1.tar.gz]
+[2023-07-20 21:52:53] INFO root fetch - processPackages [pusteblume]: Start processing: assemblyline-service-server
+[2023-07-20 21:52:53] INFO root fetch - main [MainThread]: End processing [pusteblume]: success
+[2023-07-20 21:52:53] INFO root fetch - processPackages [bnlearn]: Downloading https://files.pythonhosted.org/packages/80/7b/7d87b3752a7a734d26d2826dc0b009950df06f3177a7ae5c7dbcd63d3327/bnlearn-0.8.1.tar.gz
+[2023-07-20 21:52:53] INFO root fetch - processPackages [assemblyline-service-client]: New version: [4.4.1.dev99] Old Version: [4.4.1.dev98]
+[2023-07-20 21:52:53] INFO root fetch - processPackages [assemblyline-service-server]: New version: [4.4.1.dev99] Old Version: [4.4.1.dev98]
+[2023-07-20 21:52:53] INFO root fetch - processPackages [motifdata]: Downloading https://files.pythonhosted.org/packages/86/2f/6f6cf0b8e05a881aabea02b6a19b67e808260abd754479ea09e37dab3fbc/motifdata-0.1.0.tar.gz
+[2023-07-20 21:52:53] INFO root fetch - processPackages [pkgUdit]: Downloading https://files.pythonhosted.org/packages/2e/ab/cb6f70a6c2f3004e8618fd7b84027fe315e1ff2bca5211b74648e0a72e2d/pkgUdit-1.1.5.4-py3-none-any.whl
+[2023-07-20 21:52:54] INFO root fetch - processPackages [seqpro]: executing diffoscope
+[2023-07-20 21:52:54] INFO root fetch - processPackages [seqpro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seqpro-0.1.1.tar.gz tmp/seqpro-0.1.2.tar.gz --markdown 20230720/s/seqpro/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-20 21:52:54] INFO root fetch - processPackages [assemblyline-service-client]: Downloading https://files.pythonhosted.org/packages/a4/73/2640c3bfcb2613b0f095aa242df946dd9c81ed47f2dd21c43c0eca553226/assemblyline_service_client-4.4.1.dev98-py3-none-any.whl
+[2023-07-20 21:52:54] INFO root fetch - processPackages [udi-interface]: Downloading https://files.pythonhosted.org/packages/2e/af/c1c23f937e0bea436329e585e4e5531273c5cdd6021816fe805c9fa33136/udi_interface-3.0.9.tar.gz
+[2023-07-20 21:52:54] INFO root fetch - processPackages [assemblyline-service-server]: Downloading https://files.pythonhosted.org/packages/d0/9d/73a653591c81e927ff88321d05e4273374e7a6b83130aa29fe2ca8a8f3c8/assemblyline_service_server-4.4.1.dev98-py3-none-any.whl
+[2023-07-20 21:52:54] INFO root fetch - processPackages [epure]: Remove: archive file [/home/abi/fetcher/tmp/epure-0.2.8.tar.gz]
+[2023-07-20 21:52:54] INFO root fetch - processPackages [epure]: Remove: archive file [/home/abi/fetcher/tmp/epure-0.2.9.tar.gz]
+[2023-07-20 21:52:54] INFO root fetch - processPackages [epure]: Start processing: assemblyline-ui
+[2023-07-20 21:52:54] INFO root fetch - main [MainThread]: End processing [epure]: success
+[2023-07-20 21:52:54] INFO root fetch - processPackages [threemystic-cloud-client]: Downloading https://files.pythonhosted.org/packages/3a/27/5ebcc256ed09c14d570044a691c9717825951c4d41bfbef5e695319e0322/threemystic_cloud_client-0.1.38.tar.gz
+[2023-07-20 21:52:54] INFO root fetch - processPackages [pkgUdit]: executing diffoscope
+[2023-07-20 21:52:54] INFO root fetch - processPackages [pkgUdit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pkgUdit-1.1.5.2-py3-none-any.whl.zip tmp/pkgUdit-1.1.5.4-py3-none-any.whl.zip --markdown 20230720/p/pkgUdit/1.1.5.2-1.1.5.4/diff.md --exclude *.pyd
+[2023-07-20 21:52:54] INFO root fetch - processPackages [bnlearn]: Downloading https://files.pythonhosted.org/packages/84/4c/f057752638f938892ff2ba6aef623931589d5e1203b786c6fdd6db9941b5/bnlearn-0.8.2.tar.gz
+[2023-07-20 21:52:54] INFO root fetch - processPackages [assemblyline-ui]: New version: [4.4.1.dev99] Old Version: [4.4.1.dev98]
+[2023-07-20 21:52:54] INFO root fetch - processPackages [assemblyline-service-client]: Downloading https://files.pythonhosted.org/packages/bd/c6/6e355350483536185a855a768a59edd86f3a9b152d83c0e328adfb3c5158/assemblyline_service_client-4.4.1.dev99-py3-none-any.whl
+[2023-07-20 21:52:54] INFO root fetch - processPackages [mypy-boto3-route53resolver]: Remove: archive file [/home/abi/fetcher/tmp/mypy-boto3-route53resolver-1.28.0.tar.gz]
+[2023-07-20 21:52:54] INFO root fetch - processPackages [mypy-boto3-route53resolver]: Remove: archive file [/home/abi/fetcher/tmp/mypy-boto3-route53resolver-1.28.8.tar.gz]
+[2023-07-20 21:52:54] INFO root fetch - processPackages [mypy-boto3-route53resolver]: Start processing: assemblyline-v4-service
+[2023-07-20 21:52:54] INFO root fetch - main [MainThread]: End processing [mypy-boto3-route53resolver]: success
+[2023-07-20 21:52:54] INFO root fetch - processPackages [assemblyline-ui]: Downloading https://files.pythonhosted.org/packages/88/f0/1e1ea5a38c6644090daf7b8e756373614f960038fc4187021d034bab3f59/assemblyline_ui-4.4.1.dev98-py3-none-any.whl
+[2023-07-20 21:52:54] INFO root fetch - processPackages [assemblyline-service-client]: executing diffoscope
+[2023-07-20 21:52:54] INFO root fetch - processPackages [assemblyline-service-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline_service_client-4.4.1.dev98-py3-none-any.whl.zip tmp/assemblyline_service_client-4.4.1.dev99-py3-none-any.whl.zip --markdown 20230720/a/assemblyline-service-client/4.4.1.dev98-4.4.1.dev99/diff.md --exclude *.pyd
+[2023-07-20 21:52:54] INFO root fetch - processPackages [assemblyline-service-server]: Downloading https://files.pythonhosted.org/packages/2c/65/290b479a07ea2714c26e302d7ee822da3dcfd3a50ecbfcf4091efd378829/assemblyline_service_server-4.4.1.dev99-py3-none-any.whl
+[2023-07-20 21:52:54] INFO root fetch - processPackages [threemystic-cloud-client]: executing diffoscope
+[2023-07-20 21:52:54] INFO root fetch - processPackages [threemystic-cloud-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/threemystic_cloud_client-0.1.37.tar.gz tmp/threemystic_cloud_client-0.1.38.tar.gz --markdown 20230720/t/threemystic-cloud-client/0.1.37-0.1.38/diff.md --exclude *.pyd
+[2023-07-20 21:52:54] INFO root fetch - processPackages [assemblyline-v4-service]: New version: [4.4.1.dev99] Old Version: [4.4.1.dev98]
+[2023-07-20 21:52:54] INFO root fetch - processPackages [udi-interface]: Downloading https://files.pythonhosted.org/packages/2b/6a/b456ad398278b4cdbff95b119708b9d0ee1507bfcbf20a4a3157be5a6e9b/udi_interface-3.1.0.tar.gz
+[2023-07-20 21:52:54] INFO root fetch - processPackages [motifdata]: Downloading https://files.pythonhosted.org/packages/d3/d7/bb90ee12fb593c10f41933cd2e0b1824a2938317165242116e7b0c1724bc/motifdata-0.1.1.tar.gz
+[2023-07-20 21:52:54] INFO root fetch - processPackages [bnlearn]: executing diffoscope
+[2023-07-20 21:52:54] INFO root fetch - processPackages [bnlearn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bnlearn-0.8.1.tar.gz tmp/bnlearn-0.8.2.tar.gz --markdown 20230720/b/bnlearn/0.8.1-0.8.2/diff.md --exclude *.pyd
+[2023-07-20 21:52:54] INFO root fetch - processPackages [assemblyline-service-server]: executing diffoscope
+[2023-07-20 21:52:54] INFO root fetch - processPackages [assemblyline-service-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline_service_server-4.4.1.dev98-py3-none-any.whl.zip tmp/assemblyline_service_server-4.4.1.dev99-py3-none-any.whl.zip --markdown 20230720/a/assemblyline-service-server/4.4.1.dev98-4.4.1.dev99/diff.md --exclude *.pyd
+[2023-07-20 21:52:54] INFO root fetch - processPackages [assemblyline-v4-service]: Downloading https://files.pythonhosted.org/packages/0d/18/25fd38ec83bbb1da504d3063623af0139b964cc4957ee52dab43c8a48eec/assemblyline_v4_service-4.4.1.dev98-py3-none-any.whl
+[2023-07-20 21:52:54] INFO root fetch - processPackages [assemblyline-ui]: Downloading https://files.pythonhosted.org/packages/e3/c6/dfade12e5e90540956305d36f873c5aed23370282783a34e66dc3b21a383/assemblyline_ui-4.4.1.dev99-py3-none-any.whl
+[2023-07-20 21:52:54] INFO root fetch - processPackages [udi-interface]: executing diffoscope
+[2023-07-20 21:52:54] INFO root fetch - processPackages [udi-interface]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/udi_interface-3.0.9.tar.gz tmp/udi_interface-3.1.0.tar.gz --markdown 20230720/u/udi-interface/3.0.9-3.1.0/diff.md --exclude *.pyd
+[2023-07-20 21:52:54] INFO root fetch - processPackages [motifdata]: executing diffoscope
+[2023-07-20 21:52:54] INFO root fetch - processPackages [motifdata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/motifdata-0.1.0.tar.gz tmp/motifdata-0.1.1.tar.gz --markdown 20230720/m/motifdata/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-20 21:52:54] INFO root fetch - processPackages [assemblyline-ui]: executing diffoscope
+[2023-07-20 21:52:54] INFO root fetch - processPackages [assemblyline-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline_ui-4.4.1.dev98-py3-none-any.whl.zip tmp/assemblyline_ui-4.4.1.dev99-py3-none-any.whl.zip --markdown 20230720/a/assemblyline-ui/4.4.1.dev98-4.4.1.dev99/diff.md --exclude *.pyd
+[2023-07-20 21:52:54] INFO root fetch - processPackages [assemblyline-v4-service]: Downloading https://files.pythonhosted.org/packages/47/8f/28c4f84deeaf6ecece9518c5613a84646d9a0b9e24b8c8791e4612f1738c/assemblyline_v4_service-4.4.1.dev99-py3-none-any.whl
+[2023-07-20 21:52:55] INFO root fetch - processPackages [assemblyline-v4-service]: executing diffoscope
+[2023-07-20 21:52:55] INFO root fetch - processPackages [assemblyline-v4-service]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline_v4_service-4.4.1.dev98-py3-none-any.whl.zip tmp/assemblyline_v4_service-4.4.1.dev99-py3-none-any.whl.zip --markdown 20230720/a/assemblyline-v4-service/4.4.1.dev98-4.4.1.dev99/diff.md --exclude *.pyd
+[2023-07-20 21:52:55] INFO root fetch - processPackages [seqpro]: Remove: archive file [/home/abi/fetcher/tmp/seqpro-0.1.1.tar.gz]
+[2023-07-20 21:52:55] INFO root fetch - processPackages [seqpro]: Remove: archive file [/home/abi/fetcher/tmp/seqpro-0.1.2.tar.gz]
+[2023-07-20 21:52:55] INFO root fetch - processPackages [seqpro]: Start processing: assemblyline
+[2023-07-20 21:52:55] INFO root fetch - main [MainThread]: End processing [seqpro]: success
+[2023-07-20 21:52:55] INFO root fetch - processPackages [assemblyline]: New version: [4.4.1.dev99] Old Version: [4.4.1.dev98]
+[2023-07-20 21:52:55] INFO root fetch - processPackages [assemblyline]: Downloading https://files.pythonhosted.org/packages/fb/ca/10ec337efc2ea70b32ead6e4b7d46e1e23f2d1a7638e8bfd6b51a182d2af/assemblyline-4.4.1.dev98.tar.gz
+[2023-07-20 21:52:55] INFO root fetch - processPackages [pkgUdit]: Remove: archive file [/home/abi/fetcher/tmp/pkgUdit-1.1.5.2-py3-none-any.whl.zip]
+[2023-07-20 21:52:55] INFO root fetch - processPackages [pkgUdit]: Remove: archive file [/home/abi/fetcher/tmp/pkgUdit-1.1.5.4-py3-none-any.whl.zip]
+[2023-07-20 21:52:55] INFO root fetch - processPackages [pkgUdit]: Start processing: assemblyline-core
+[2023-07-20 21:52:55] INFO root fetch - main [MainThread]: End processing [pkgUdit]: success
+[2023-07-20 21:52:55] INFO root fetch - processPackages [assemblyline-core]: New version: [4.4.1.dev99] Old Version: [4.4.1.dev98]
+[2023-07-20 21:52:55] INFO root fetch - processPackages [assemblyline]: Downloading https://files.pythonhosted.org/packages/bd/bc/8573bd972e279862ab5c57e5a99e53f5087cd49a2741a054d2753ef654a7/assemblyline-4.4.1.dev99.tar.gz
+[2023-07-20 21:52:55] INFO root fetch - processPackages [assemblyline-service-client]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_service_client-4.4.1.dev98-py3-none-any.whl.zip]
+[2023-07-20 21:52:55] INFO root fetch - processPackages [assemblyline-service-client]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_service_client-4.4.1.dev99-py3-none-any.whl.zip]
+[2023-07-20 21:52:55] INFO root fetch - processPackages [assemblyline-service-client]: Start processing: threemystic-cloud-data-client
+[2023-07-20 21:52:55] INFO root fetch - main [MainThread]: End processing [assemblyline-service-client]: success
+[2023-07-20 21:52:55] INFO root fetch - processPackages [assemblyline-core]: Downloading https://files.pythonhosted.org/packages/c6/b0/1bb0cc8f270604c12a6c573e663a56b4479a805585b2f0dec5745c366b75/assemblyline-core-4.4.1.dev98.tar.gz
+[2023-07-20 21:52:55] INFO root fetch - processPackages [threemystic-cloud-data-client]: New version: [0.1.19] Old Version: [0.1.18]
+[2023-07-20 21:52:55] INFO root fetch - processPackages [assemblyline]: executing diffoscope
+[2023-07-20 21:52:55] INFO root fetch - processPackages [assemblyline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline-4.4.1.dev98.tar.gz tmp/assemblyline-4.4.1.dev99.tar.gz --markdown 20230720/a/assemblyline/4.4.1.dev98-4.4.1.dev99/diff.md --exclude *.pyd
+[2023-07-20 21:52:56] INFO root fetch - processPackages [threemystic-cloud-data-client]: Downloading https://files.pythonhosted.org/packages/68/aa/a4fd3dec05cfa48c3fbe6c408ab716960924c9a22c0335fcee667cac2622/threemystic_cloud_data_client-0.1.18.tar.gz
+[2023-07-20 21:52:56] INFO root fetch - processPackages [assemblyline-core]: Downloading https://files.pythonhosted.org/packages/63/40/1e762930effd688f4bca07aca72276ca6ebee782934f06a6006ea66b2f16/assemblyline-core-4.4.1.dev99.tar.gz
+[2023-07-20 21:52:56] INFO root fetch - processPackages [threemystic-cloud-client]: Remove: archive file [/home/abi/fetcher/tmp/threemystic_cloud_client-0.1.37.tar.gz]
+[2023-07-20 21:52:56] INFO root fetch - processPackages [threemystic-cloud-client]: Remove: archive file [/home/abi/fetcher/tmp/threemystic_cloud_client-0.1.38.tar.gz]
+[2023-07-20 21:52:56] INFO root fetch - processPackages [threemystic-cloud-client]: Start processing: rqtqzyFxdjiJ
+[2023-07-20 21:52:56] INFO root fetch - main [MainThread]: End processing [threemystic-cloud-client]: success
+[2023-07-20 21:52:56] INFO root fetch - processPackages [threemystic-cloud-data-client]: Downloading https://files.pythonhosted.org/packages/eb/43/136a4b70c2fcddf4a89fa2c5d6c4c0d8ab830d4165e75fade81e80f978d8/threemystic_cloud_data_client-0.1.19.tar.gz
+[2023-07-20 21:52:56] INFO root fetch - processPackages [assemblyline-core]: executing diffoscope
+[2023-07-20 21:52:56] INFO root fetch - processPackages [assemblyline-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline-core-4.4.1.dev98.tar.gz tmp/assemblyline-core-4.4.1.dev99.tar.gz --markdown 20230720/a/assemblyline-core/4.4.1.dev98-4.4.1.dev99/diff.md --exclude *.pyd
+[2023-07-20 21:52:56] INFO root fetch - processPackages [bnlearn]: Remove: archive file [/home/abi/fetcher/tmp/bnlearn-0.8.1.tar.gz]
+[2023-07-20 21:52:56] INFO root fetch - processPackages [bnlearn]: Remove: archive file [/home/abi/fetcher/tmp/bnlearn-0.8.2.tar.gz]
+[2023-07-20 21:52:56] INFO root fetch - processPackages [bnlearn]: Start processing: luminesce-sdk-preview
+[2023-07-20 21:52:56] INFO root fetch - main [MainThread]: End processing [bnlearn]: success
+[2023-07-20 21:52:56] INFO root fetch - processPackages [assemblyline-service-server]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_service_server-4.4.1.dev98-py3-none-any.whl.zip]
+[2023-07-20 21:52:56] INFO root fetch - processPackages [assemblyline-service-server]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_service_server-4.4.1.dev99-py3-none-any.whl.zip]
+[2023-07-20 21:52:56] INFO root fetch - main [MainThread]: End processing [assemblyline-service-server]: success
+[2023-07-20 21:52:56] INFO root fetch - processPackages [threemystic-cloud-data-client]: executing diffoscope
+[2023-07-20 21:52:56] INFO root fetch - processPackages [threemystic-cloud-data-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/threemystic_cloud_data_client-0.1.18.tar.gz tmp/threemystic_cloud_data_client-0.1.19.tar.gz --markdown 20230720/t/threemystic-cloud-data-client/0.1.18-0.1.19/diff.md --exclude *.pyd
+[2023-07-20 21:52:56] WARNING root fetch - processPackages [rqtqzyFxdjiJ]: Skipping, unable to determine old version
+[2023-07-20 21:52:56] INFO root fetch - main [MainThread]: End processing [rqtqzyFxdjiJ] error
+[2023-07-20 21:52:56] INFO root fetch - processPackages [udi-interface]: Remove: archive file [/home/abi/fetcher/tmp/udi_interface-3.0.9.tar.gz]
+[2023-07-20 21:52:56] INFO root fetch - processPackages [udi-interface]: Remove: archive file [/home/abi/fetcher/tmp/udi_interface-3.1.0.tar.gz]
+[2023-07-20 21:52:56] INFO root fetch - main [MainThread]: End processing [udi-interface]: success
+[2023-07-20 21:52:56] INFO root fetch - processPackages [luminesce-sdk-preview]: New version: [1.9.92] Old Version: [1.9.88]
+[2023-07-20 21:52:56] INFO root fetch - processPackages [luminesce-sdk-preview]: Downloading https://files.pythonhosted.org/packages/d3/7b/a9c3e829fb03ae79379224fe34adb99d80c6dbfc5f00ccc44cf429d34f61/luminesce-sdk-preview-1.9.88.tar.gz
+[2023-07-20 21:52:56] INFO root fetch - processPackages [motifdata]: Remove: archive file [/home/abi/fetcher/tmp/motifdata-0.1.0.tar.gz]
+[2023-07-20 21:52:56] INFO root fetch - processPackages [motifdata]: Remove: archive file [/home/abi/fetcher/tmp/motifdata-0.1.1.tar.gz]
+[2023-07-20 21:52:56] INFO root fetch - main [MainThread]: End processing [motifdata]: success
+[2023-07-20 21:52:56] INFO root fetch - processPackages [assemblyline-ui]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_ui-4.4.1.dev98-py3-none-any.whl.zip]
+[2023-07-20 21:52:56] INFO root fetch - processPackages [assemblyline-ui]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_ui-4.4.1.dev99-py3-none-any.whl.zip]
+[2023-07-20 21:52:56] INFO root fetch - main [MainThread]: End processing [assemblyline-ui]: success
+[2023-07-20 21:52:56] INFO root fetch - processPackages [luminesce-sdk-preview]: Downloading https://files.pythonhosted.org/packages/b4/a1/29e30342ad6b0ee5f31f57c9ebeee25c12a4805f3f972e1908bf31abd599/luminesce-sdk-preview-1.9.92.tar.gz
+[2023-07-20 21:52:56] INFO root fetch - processPackages [luminesce-sdk-preview]: executing diffoscope
+[2023-07-20 21:52:56] INFO root fetch - processPackages [luminesce-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/luminesce-sdk-preview-1.9.88.tar.gz tmp/luminesce-sdk-preview-1.9.92.tar.gz --markdown 20230720/l/luminesce-sdk-preview/1.9.88-1.9.92/diff.md --exclude *.pyd
+[2023-07-20 21:52:57] INFO root fetch - processPackages [assemblyline-core]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline-core-4.4.1.dev98.tar.gz]
+[2023-07-20 21:52:57] INFO root fetch - processPackages [assemblyline-core]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline-core-4.4.1.dev99.tar.gz]
+[2023-07-20 21:52:57] INFO root fetch - main [MainThread]: End processing [assemblyline-core]: success
+[2023-07-20 21:52:57] INFO root fetch - processPackages [threemystic-cloud-data-client]: Remove: archive file [/home/abi/fetcher/tmp/threemystic_cloud_data_client-0.1.18.tar.gz]
+[2023-07-20 21:52:57] INFO root fetch - processPackages [threemystic-cloud-data-client]: Remove: archive file [/home/abi/fetcher/tmp/threemystic_cloud_data_client-0.1.19.tar.gz]
+[2023-07-20 21:52:57] INFO root fetch - main [MainThread]: End processing [threemystic-cloud-data-client]: success
+[2023-07-20 21:52:57] INFO root fetch - processPackages [assemblyline]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline-4.4.1.dev98.tar.gz]
+[2023-07-20 21:52:57] INFO root fetch - processPackages [assemblyline]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline-4.4.1.dev99.tar.gz]
+[2023-07-20 21:52:57] INFO root fetch - main [MainThread]: End processing [assemblyline]: success
+[2023-07-20 21:52:58] INFO root fetch - processPackages [luminesce-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/luminesce-sdk-preview-1.9.88.tar.gz]
+[2023-07-20 21:52:58] INFO root fetch - processPackages [luminesce-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/luminesce-sdk-preview-1.9.92.tar.gz]
+[2023-07-20 21:52:58] INFO root fetch - main [MainThread]: End processing [luminesce-sdk-preview]: success
+[2023-07-20 21:52:58] INFO root fetch - processPackages [assemblyline-v4-service]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_v4_service-4.4.1.dev98-py3-none-any.whl.zip]
+[2023-07-20 21:52:58] INFO root fetch - processPackages [assemblyline-v4-service]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_v4_service-4.4.1.dev99-py3-none-any.whl.zip]
+[2023-07-20 21:52:58] INFO root fetch - main [MainThread]: End processing [assemblyline-v4-service]: success
+[2023-07-20 21:52:58] INFO root fetch - main [MainThread]: Store serial: [18972151]
