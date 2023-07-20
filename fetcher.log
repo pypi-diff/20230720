@@ -10742,3 +10742,246 @@ AssertionError: tmp/verify4py-test-0.1.7.tar.gz does not exist
 [2023-07-20 15:57:20] INFO root fetch - processPackages [moto]: Remove: archive file [/home/abi/fetcher/tmp/moto-4.1.9.dev9.tar.gz]
 [2023-07-20 15:57:20] INFO root fetch - main [MainThread]: End processing [moto]: success
 [2023-07-20 15:57:20] INFO root fetch - main [MainThread]: Store serial: [18967387]
+[2023-07-20 16:02:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18967387]
+[2023-07-20 16:02:28] INFO root fetch - main [MainThread]: Found 30 changed packages
+[2023-07-20 16:02:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: secrets-vault
+[2023-07-20 16:02:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: thermoblock
+[2023-07-20 16:02:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: OrcFxAPI
+[2023-07-20 16:02:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: eulerpi
+[2023-07-20 16:02:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: match-func
+[2023-07-20 16:02:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: netgen-mesher
+[2023-07-20 16:02:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: fastapi-serve
+[2023-07-20 16:02:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: soagen
+[2023-07-20 16:02:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: hide-frames
+[2023-07-20 16:02:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: centesimal-iot
+[2023-07-20 16:02:28] INFO root fetch - processPackages [hide-frames]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-20 16:02:28] INFO root fetch - processPackages [secrets-vault]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-20 16:02:28] WARNING root fetch - processPackages [match-func]: Skipping, unable to determine old version
+[2023-07-20 16:02:28] INFO root fetch - processPackages [match-func]: Start processing: pycelium
+[2023-07-20 16:02:28] INFO root fetch - main [MainThread]: End processing [match-func] error
+[2023-07-20 16:02:28] INFO root fetch - processPackages [eulerpi]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-07-20 16:02:28] INFO root fetch - processPackages [OrcFxAPI]: New version: [11.3.5] Old Version: [11.3.4]
+[2023-07-20 16:02:28] INFO root fetch - processPackages [centesimal-iot]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-20 16:02:28] WARNING root fetch - processPackages [soagen]: Skipping, unable to determine old version
+[2023-07-20 16:02:28] INFO root fetch - processPackages [soagen]: Start processing: igem
+[2023-07-20 16:02:28] INFO root fetch - main [MainThread]: End processing [soagen] error
+[2023-07-20 16:02:28] INFO root fetch - processPackages [thermoblock]: New version: [23.7.0.dev1] Old Version: [23.7.0.dev0]
+[2023-07-20 16:02:28] INFO root fetch - processPackages [fastapi-serve]: New version: [0.0.6.dev3] Old Version: [0.0.6.dev2]
+[2023-07-20 16:02:29] INFO root fetch - processPackages [netgen-mesher]: New version: [6.2.2304.post9.dev0] Old Version: [6.2.2304]
+[2023-07-20 16:02:29] INFO root fetch - processPackages [pycelium]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-20 16:02:29] INFO root fetch - processPackages [igem]: New version: [0.1.4] Old Version: [0.1.0]
+[2023-07-20 16:02:29] INFO root fetch - processPackages [secrets-vault]: Downloading https://files.pythonhosted.org/packages/99/a5/550bb31fa47cd9503b3a7961eee2f20fabdf7e83d9f978af94c07896d649/secrets-vault-0.1.0.tar.gz
+[2023-07-20 16:02:29] INFO root fetch - processPackages [centesimal-iot]: Downloading https://files.pythonhosted.org/packages/7e/04/a91ecb2b6de1a286ea80bd55abf6f4975bb540d5ab488da8df7e6da13e4c/centesimal_iot-0.1.8-py2.py3-none-any.whl
+[2023-07-20 16:02:29] INFO root fetch - processPackages [hide-frames]: Downloading https://files.pythonhosted.org/packages/ed/68/2f73ca169d80afd287fd0b17878f9fc25caebc16af7d651990e9d43e851b/hide_frames-1.0.0.tar.gz
+[2023-07-20 16:02:29] INFO root fetch - processPackages [pycelium]: Downloading https://files.pythonhosted.org/packages/76/42/fb57aec00045116dfb46b611e5b03b2e9132b5a6bff10d59bc0452b5fa10/pycelium-0.1.8.tar.gz
+[2023-07-20 16:02:29] INFO root fetch - processPackages [eulerpi]: Downloading https://files.pythonhosted.org/packages/6c/9a/0980f6a195d446a8eeaa472f16d7854ab06b726e3e7a9e9c70d3a99249d8/eulerpi-0.4.0.tar.gz
+[2023-07-20 16:02:29] INFO root fetch - processPackages [OrcFxAPI]: Downloading https://files.pythonhosted.org/packages/e9/36/a1a6bcb334b72e540fac8e3f34470276d4470ac1209740bbf3a41512ee17/OrcFxAPI-11.3.4-py2.py3-none-any.whl
+[2023-07-20 16:02:29] INFO root fetch - processPackages [netgen-mesher]: Downloading https://files.pythonhosted.org/packages/b2/1d/912302b618d92116e26d414e56dce655210715b5f8b238e6fc2bc874eea3/netgen_mesher-6.2.2304-cp39-cp39-win_amd64.whl
+[2023-07-20 16:02:29] INFO root fetch - processPackages [fastapi-serve]: Downloading https://files.pythonhosted.org/packages/02/b4/260e9240a8496b1eaa8fe601c874f07b7b2e28623a737165d87cfd33d313/fastapi-serve-0.0.6.dev2.tar.gz
+[2023-07-20 16:02:29] INFO root fetch - processPackages [thermoblock]: Downloading https://files.pythonhosted.org/packages/fe/b1/a21b0f87922026236cab34cb101362393e6dc1088312912bb72264bce6e8/thermoblock-23.7.0.dev0.tar.gz
+[2023-07-20 16:02:29] INFO root fetch - processPackages [igem]: Downloading https://files.pythonhosted.org/packages/f4/e6/70b09cb12fd50c40a13b9dce13d0e06ab2dd0a905cd09f3099f1a77de7a1/igem-0.1.0.tar.gz
+[2023-07-20 16:02:29] WARNING root fetch - processPackages [netgen-mesher]: Skipping package: exceeds size limit 20057729>=10485760
+[2023-07-20 16:02:29] INFO root fetch - processPackages [netgen-mesher]: Start processing: pyre-check-nightly
+[2023-07-20 16:02:29] INFO root fetch - main [MainThread]: End processing [netgen-mesher] error
+[2023-07-20 16:02:29] INFO root fetch - processPackages [secrets-vault]: Downloading https://files.pythonhosted.org/packages/33/bc/844db1ba640d96d7ebc7a76b6639a284d9c92b28a3427795ab44fb73f302/secrets-vault-0.1.1.tar.gz
+[2023-07-20 16:02:29] INFO root fetch - processPackages [pyre-check-nightly]: New version: [0.0.101689851507] Old Version: [0.0.101689765190]
+[2023-07-20 16:02:29] INFO root fetch - processPackages [centesimal-iot]: Downloading https://files.pythonhosted.org/packages/e4/b4/6f5f209b09ec26c5af7c0d46a270eb2c18486f6982919639276f4178d738/centesimal_iot-0.1.9-py2.py3-none-any.whl
+[2023-07-20 16:02:29] INFO root fetch - processPackages [secrets-vault]: executing diffoscope
+[2023-07-20 16:02:29] INFO root fetch - processPackages [secrets-vault]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/secrets-vault-0.1.0.tar.gz tmp/secrets-vault-0.1.1.tar.gz --markdown 20230720/s/secrets-vault/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-20 16:02:29] INFO root fetch - processPackages [hide-frames]: Downloading https://files.pythonhosted.org/packages/61/fb/2db730f72fc9f81d61b47577d89e0a2f7b626807b75a6179312d43d07415/hide_frames-1.0.1.tar.gz
+[2023-07-20 16:02:29] INFO root fetch - processPackages [eulerpi]: Downloading https://files.pythonhosted.org/packages/0e/60/ae090b6ca2473f6c4b9ca10d85dfdca9f5b1d53d461de9ca6fe62fb4af30/eulerpi-0.5.0.tar.gz
+[2023-07-20 16:02:29] INFO root fetch - processPackages [pycelium]: Downloading https://files.pythonhosted.org/packages/e3/03/43dab6c456e60726fafa26022f656c845d108557c8b4d248f3d03195755b/pycelium-0.1.9.tar.gz
+[2023-07-20 16:02:29] INFO root fetch - processPackages [pyre-check-nightly]: Downloading https://files.pythonhosted.org/packages/4c/15/5defdb68e1def64ca2aa4991e5bbbb10528709a1483525567708974b1416/pyre-check-nightly-0.0.101689765190.tar.gz
+[2023-07-20 16:02:29] INFO root fetch - processPackages [hide-frames]: executing diffoscope
+[2023-07-20 16:02:29] INFO root fetch - processPackages [hide-frames]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hide_frames-1.0.0.tar.gz tmp/hide_frames-1.0.1.tar.gz --markdown 20230720/h/hide-frames/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-20 16:02:29] WARNING root fetch - processPackages [pyre-check-nightly]: Skipping package: exceeds size limit 23766293>=10485760
+[2023-07-20 16:02:29] INFO root fetch - processPackages [eulerpi]: executing diffoscope
+[2023-07-20 16:02:29] INFO root fetch - processPackages [pyre-check-nightly]: Start processing: edvart
+[2023-07-20 16:02:29] INFO root fetch - processPackages [eulerpi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eulerpi-0.4.0.tar.gz tmp/eulerpi-0.5.0.tar.gz --markdown 20230720/e/eulerpi/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-07-20 16:02:29] INFO root fetch - main [MainThread]: End processing [pyre-check-nightly] error
+[2023-07-20 16:02:29] INFO root fetch - processPackages [fastapi-serve]: Downloading https://files.pythonhosted.org/packages/ee/51/aa09b40901ce6642bc2d984a9957379f946756f41998956552d18f2c9164/fastapi-serve-0.0.6.dev3.tar.gz
+[2023-07-20 16:02:29] INFO root fetch - processPackages [OrcFxAPI]: Downloading https://files.pythonhosted.org/packages/6a/c8/71dea88b613752447f5e6c0255394b3a443313351a93326c1be8132b7391/OrcFxAPI-11.3.5-py2.py3-none-any.whl
+[2023-07-20 16:02:29] INFO root fetch - processPackages [thermoblock]: Downloading https://files.pythonhosted.org/packages/81/05/74877ab83a36ec8c3e9476c711e0843fe092eee758aa135e2f20ffee0f31/thermoblock-23.7.0.dev1.tar.gz
+[2023-07-20 16:02:29] INFO root fetch - processPackages [edvart]: New version: [1.0.0] Old Version: [0.0.0]
+[2023-07-20 16:02:30] INFO root fetch - processPackages [pycelium]: executing diffoscope
+[2023-07-20 16:02:30] INFO root fetch - processPackages [pycelium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycelium-0.1.8.tar.gz tmp/pycelium-0.1.9.tar.gz --markdown 20230720/p/pycelium/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-20 16:02:30] INFO root fetch - processPackages [OrcFxAPI]: executing diffoscope
+[2023-07-20 16:02:30] INFO root fetch - processPackages [OrcFxAPI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OrcFxAPI-11.3.4-py2.py3-none-any.whl.zip tmp/OrcFxAPI-11.3.5-py2.py3-none-any.whl.zip --markdown 20230720/O/OrcFxAPI/11.3.4-11.3.5/diff.md --exclude *.pyd
+[2023-07-20 16:02:30] INFO root fetch - processPackages [centesimal-iot]: executing diffoscope
+[2023-07-20 16:02:30] INFO root fetch - processPackages [centesimal-iot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/centesimal_iot-0.1.8-py2.py3-none-any.whl.zip tmp/centesimal_iot-0.1.9-py2.py3-none-any.whl.zip --markdown 20230720/c/centesimal-iot/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-20 16:02:30] INFO root fetch - processPackages [fastapi-serve]: executing diffoscope
+[2023-07-20 16:02:30] INFO root fetch - processPackages [fastapi-serve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi-serve-0.0.6.dev2.tar.gz tmp/fastapi-serve-0.0.6.dev3.tar.gz --markdown 20230720/f/fastapi-serve/0.0.6.dev2-0.0.6.dev3/diff.md --exclude *.pyd
+[2023-07-20 16:02:30] INFO root fetch - processPackages [edvart]: Downloading https://files.pythonhosted.org/packages/47/01/e4c56b46b1c8ad980da6a98f3778d7c6608feb323a10dd7fc313d4666a08/edvart-0.0.0-py3-none-any.whl
+[2023-07-20 16:02:30] INFO root fetch - processPackages [thermoblock]: executing diffoscope
+[2023-07-20 16:02:30] INFO root fetch - processPackages [thermoblock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thermoblock-23.7.0.dev0.tar.gz tmp/thermoblock-23.7.0.dev1.tar.gz --markdown 20230720/t/thermoblock/23.7.0.dev0-23.7.0.dev1/diff.md --exclude *.pyd
+[2023-07-20 16:02:30] INFO root fetch - processPackages [secrets-vault]: Remove: archive file [/home/abi/fetcher/tmp/secrets-vault-0.1.0.tar.gz]
+[2023-07-20 16:02:30] INFO root fetch - processPackages [secrets-vault]: Remove: archive file [/home/abi/fetcher/tmp/secrets-vault-0.1.1.tar.gz]
+[2023-07-20 16:02:30] INFO root fetch - processPackages [secrets-vault]: Start processing: edvart
+[2023-07-20 16:02:30] INFO root fetch - main [MainThread]: End processing [secrets-vault]: success
+[2023-07-20 16:02:30] INFO root fetch - processPackages [edvart]: New version: [1.0.0] Old Version: [0.0.0]
+[2023-07-20 16:02:30] INFO root fetch - processPackages [edvart]: Downloading https://files.pythonhosted.org/packages/d6/e1/aad2414ac7de2974be474f9b467d5cb0cdceb182f2a718ce9edd46a7bfb0/edvart-1.0.0.tar.gz
+[2023-07-20 16:02:31] INFO root fetch - processPackages [edvart]: executing diffoscope
+[2023-07-20 16:02:31] INFO root fetch - processPackages [edvart]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edvart-0.0.0-py3-none-any.whl.zip tmp/edvart-1.0.0.tar.gz --markdown 20230720/e/edvart/0.0.0-1.0.0/diff.md --exclude *.pyd
+[2023-07-20 16:02:31] INFO root fetch - processPackages [edvart]: executing diffoscope
+[2023-07-20 16:02:31] INFO root fetch - processPackages [edvart]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edvart-0.0.0-py3-none-any.whl.zip tmp/edvart-1.0.0.tar.gz --markdown 20230720/e/edvart/0.0.0-1.0.0/diff.md --exclude *.pyd
+[2023-07-20 16:02:31] INFO root fetch - processPackages [hide-frames]: Remove: archive file [/home/abi/fetcher/tmp/hide_frames-1.0.0.tar.gz]
+[2023-07-20 16:02:31] INFO root fetch - processPackages [hide-frames]: Remove: archive file [/home/abi/fetcher/tmp/hide_frames-1.0.1.tar.gz]
+[2023-07-20 16:02:31] INFO root fetch - processPackages [hide-frames]: Start processing: fastapi-serve
+[2023-07-20 16:02:31] INFO root fetch - main [MainThread]: End processing [hide-frames]: success
+[2023-07-20 16:02:31] INFO root fetch - processPackages [fastapi-serve]: New version: [0.0.6.dev3] Old Version: [0.0.6.dev2]
+[2023-07-20 16:02:31] INFO root fetch - processPackages [OrcFxAPI]: Remove: archive file [/home/abi/fetcher/tmp/OrcFxAPI-11.3.4-py2.py3-none-any.whl.zip]
+[2023-07-20 16:02:31] INFO root fetch - processPackages [OrcFxAPI]: Remove: archive file [/home/abi/fetcher/tmp/OrcFxAPI-11.3.5-py2.py3-none-any.whl.zip]
+[2023-07-20 16:02:31] INFO root fetch - processPackages [OrcFxAPI]: Start processing: odoo-addon-l10n-es-aeat-sii-oca
+[2023-07-20 16:02:31] INFO root fetch - main [MainThread]: End processing [OrcFxAPI]: success
+[2023-07-20 16:02:31] INFO root fetch - processPackages [fastapi-serve]: executing diffoscope
+[2023-07-20 16:02:31] INFO root fetch - processPackages [fastapi-serve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi-serve-0.0.6.dev2.tar.gz tmp/fastapi-serve-0.0.6.dev3.tar.gz --markdown 20230720/f/fastapi-serve/0.0.6.dev2-0.0.6.dev3/diff.md --exclude *.pyd
+[2023-07-20 16:02:31] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-sii-oca]: New version: [16.0.1.3.1] Old Version: [16.0.1.3.0]
+[2023-07-20 16:02:31] INFO root fetch - processPackages [centesimal-iot]: Remove: archive file [/home/abi/fetcher/tmp/centesimal_iot-0.1.8-py2.py3-none-any.whl.zip]
+[2023-07-20 16:02:31] INFO root fetch - processPackages [centesimal-iot]: Remove: archive file [/home/abi/fetcher/tmp/centesimal_iot-0.1.9-py2.py3-none-any.whl.zip]
+[2023-07-20 16:02:31] INFO root fetch - processPackages [centesimal-iot]: Start processing: hugie
+[2023-07-20 16:02:31] INFO root fetch - main [MainThread]: End processing [centesimal-iot]: success
+[2023-07-20 16:02:31] INFO root fetch - processPackages [hugie]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-07-20 16:02:31] INFO root fetch - processPackages [igem]: Downloading https://files.pythonhosted.org/packages/50/ed/14672ebeb84ca6c9e021c5779dd5cb78663141c86556b3c475e81a04be25/igem-0.1.4.tar.gz
+[2023-07-20 16:02:31] INFO root fetch - processPackages [fastapi-serve]: Remove: archive file [/home/abi/fetcher/tmp/fastapi-serve-0.0.6.dev2.tar.gz]
+[2023-07-20 16:02:31] INFO root fetch - processPackages [fastapi-serve]: Remove: archive file [/home/abi/fetcher/tmp/fastapi-serve-0.0.6.dev3.tar.gz]
+[2023-07-20 16:02:31] INFO root fetch - processPackages [eulerpi]: Remove: archive file [/home/abi/fetcher/tmp/eulerpi-0.4.0.tar.gz]
+[2023-07-20 16:02:31] INFO root fetch - processPackages [eulerpi]: Remove: archive file [/home/abi/fetcher/tmp/eulerpi-0.5.0.tar.gz]
+[2023-07-20 16:02:31] INFO root fetch - processPackages [fastapi-serve]: Start processing: geoviews
+[2023-07-20 16:02:31] INFO root fetch - main [MainThread]: End processing [fastapi-serve]: success
+[2023-07-20 16:02:31] INFO root fetch - processPackages [eulerpi]: Start processing: capellambse
+[2023-07-20 16:02:31] INFO root fetch - main [MainThread]: End processing [eulerpi]: success
+[2023-07-20 16:02:31] INFO root fetch - processPackages [thermoblock]: Remove: archive file [/home/abi/fetcher/tmp/thermoblock-23.7.0.dev0.tar.gz]
+[2023-07-20 16:02:31] INFO root fetch - processPackages [thermoblock]: Remove: archive file [/home/abi/fetcher/tmp/thermoblock-23.7.0.dev1.tar.gz]
+[2023-07-20 16:02:31] INFO root fetch - processPackages [thermoblock]: Start processing: snk
+[2023-07-20 16:02:31] INFO root fetch - main [MainThread]: End processing [thermoblock]: success
+[2023-07-20 16:02:31] INFO root fetch - processPackages [capellambse]: New version: [0.5.9.dev5] Old Version: [0.5.9]
+[2023-07-20 16:02:31] INFO root fetch - processPackages [geoviews]: New version: [1.9.7a2] Old Version: [1.9.6a5]
+[2023-07-20 16:02:31] INFO root fetch - processPackages [igem]: executing diffoscope
+[2023-07-20 16:02:31] INFO root fetch - processPackages [igem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/igem-0.1.0.tar.gz tmp/igem-0.1.4.tar.gz --markdown 20230720/i/igem/0.1.0-0.1.4/diff.md --exclude *.pyd
+[2023-07-20 16:02:31] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-sii-oca]: Downloading https://files.pythonhosted.org/packages/dc/b1/4825bb34bb46de835ddc9fe82d13a0684ebdb4bfacc424e0d618d37d5d09/odoo_addon_l10n_es_aeat_sii_oca-16.0.1.3.0-py3-none-any.whl
+[2023-07-20 16:02:31] INFO root fetch - processPackages [snk]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-07-20 16:02:31] INFO root fetch - processPackages [hugie]: Downloading https://files.pythonhosted.org/packages/d2/27/517442c6cc149eeec354a8af5f9e310d6af926c9aa4d348df8b7a984414c/hugie-0.3.0.tar.gz
+[2023-07-20 16:02:31] INFO root fetch - processPackages [capellambse]: Downloading https://files.pythonhosted.org/packages/0a/bb/e7974d92c6a3d93dbf30730a6d9302f37f52093b4985246d97e22939147d/capellambse-0.5.9.tar.gz
+[2023-07-20 16:02:31] INFO root fetch - processPackages [pycelium]: Remove: archive file [/home/abi/fetcher/tmp/pycelium-0.1.8.tar.gz]
+[2023-07-20 16:02:31] INFO root fetch - processPackages [pycelium]: Remove: archive file [/home/abi/fetcher/tmp/pycelium-0.1.9.tar.gz]
+[2023-07-20 16:02:31] INFO root fetch - processPackages [pycelium]: Start processing: cohere
+[2023-07-20 16:02:31] INFO root fetch - main [MainThread]: End processing [pycelium]: success
+[2023-07-20 16:02:31] INFO root fetch - processPackages [cohere]: New version: [4.9.1] Old Version: [4.9.0]
+[2023-07-20 16:02:31] INFO root fetch - processPackages [geoviews]: Downloading https://files.pythonhosted.org/packages/49/e8/c097e9dc148c99b2e487c087056acb4128cc0eb82357368f1a69b4580632/geoviews-1.9.6a5.tar.gz
+[2023-07-20 16:02:32] INFO root fetch - processPackages [cohere]: Downloading https://files.pythonhosted.org/packages/31/b3/a0389f12ee6eb070bc517e9db7a5ad19cc3b7147fc1c53ff8f3547a476b1/cohere-4.9.0.tar.gz
+[2023-07-20 16:02:32] INFO root fetch - processPackages [capellambse]: Downloading https://files.pythonhosted.org/packages/31/3c/3a68e2e4cc3165b37471f5302bc500647962d3db54edea8081d0ced76387/capellambse-0.5.9.dev5.tar.gz
+[2023-07-20 16:02:32] INFO root fetch - processPackages [hugie]: Downloading https://files.pythonhosted.org/packages/cd/10/dd8565737feaa35e8e674ba53ca4acdede6f52a39ee9ffac353e6356a055/hugie-0.3.1.tar.gz
+[2023-07-20 16:02:32] INFO root fetch - processPackages [snk]: Downloading https://files.pythonhosted.org/packages/54/33/ed6257a47eacf50e2ac7965bb117827af5a1e5eddb02d20dc3f15cc9a81a/snk-0.9.2.tar.gz
+[2023-07-20 16:02:32] ERROR root fetch - processPackages [fastapi-serve]: Diffoscope failed: time="2023-07-20T16:02:31+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+/srv/diffoscope/bin/diffoscope: tmp/fastapi-serve-0.0.6.dev2.tar.gz: No such file or directory
+/srv/diffoscope/bin/diffoscope: tmp/fastapi-serve-0.0.6.dev3.tar.gz: No such file or directory
+
+[2023-07-20 16:02:32] INFO root fetch - processPackages [fastapi-serve]: Start processing: sailboat-gym
+[2023-07-20 16:02:32] INFO root fetch - main [MainThread]: End processing [fastapi-serve] error
+[2023-07-20 16:02:32] INFO root fetch - processPackages [hugie]: executing diffoscope
+[2023-07-20 16:02:32] INFO root fetch - processPackages [hugie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hugie-0.3.0.tar.gz tmp/hugie-0.3.1.tar.gz --markdown 20230720/h/hugie/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-07-20 16:02:32] INFO root fetch - processPackages [sailboat-gym]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-20 16:02:32] INFO root fetch - processPackages [capellambse]: executing diffoscope
+[2023-07-20 16:02:32] INFO root fetch - processPackages [capellambse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/capellambse-0.5.9.tar.gz tmp/capellambse-0.5.9.dev5.tar.gz --markdown 20230720/c/capellambse/0.5.9-0.5.9.dev5/diff.md --exclude *.pyd
+[2023-07-20 16:02:32] INFO root fetch - processPackages [geoviews]: Downloading https://files.pythonhosted.org/packages/21/52/ed532b7720d007baaef44f3de206988e758a3384dc8984c0dff0f6bdb3d4/geoviews-1.9.7a2.tar.gz
+[2023-07-20 16:02:32] INFO root fetch - processPackages [sailboat-gym]: Downloading https://files.pythonhosted.org/packages/b7/3c/68b3c3b554a8064f9930cafb5a5539a7c4af299d665852189cffe56dd7f2/sailboat-gym-1.0.8.tar.gz
+[2023-07-20 16:02:32] INFO root fetch - processPackages [cohere]: Downloading https://files.pythonhosted.org/packages/31/11/99acc914d420c15b6ac2de9eb04804195bc99b02d194f3c4ae947d19869f/cohere-4.9.1.tar.gz
+[2023-07-20 16:02:32] INFO root fetch - processPackages [cohere]: executing diffoscope
+[2023-07-20 16:02:32] INFO root fetch - processPackages [cohere]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cohere-4.9.0.tar.gz tmp/cohere-4.9.1.tar.gz --markdown 20230720/c/cohere/4.9.0-4.9.1/diff.md --exclude *.pyd
+[2023-07-20 16:02:32] INFO root fetch - processPackages [geoviews]: executing diffoscope
+[2023-07-20 16:02:32] INFO root fetch - processPackages [geoviews]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geoviews-1.9.6a5.tar.gz tmp/geoviews-1.9.7a2.tar.gz --markdown 20230720/g/geoviews/1.9.6a5-1.9.7a2/diff.md --exclude *.pyd
+[2023-07-20 16:02:32] INFO root fetch - processPackages [snk]: Downloading https://files.pythonhosted.org/packages/1c/e9/336f86dec3e01b44b3e34cc162ca9a0ca4108fb07244fd97031ad3205df1/snk-0.9.3.tar.gz
+[2023-07-20 16:02:32] INFO root fetch - processPackages [sailboat-gym]: Downloading https://files.pythonhosted.org/packages/33/e2/289abaad82bb0c682bc89e04cb25378d184e076a7953af8d3da8c48d12a2/sailboat-gym-1.0.9.tar.gz
+[2023-07-20 16:02:32] INFO root fetch - processPackages [snk]: executing diffoscope
+[2023-07-20 16:02:32] INFO root fetch - processPackages [snk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snk-0.9.2.tar.gz tmp/snk-0.9.3.tar.gz --markdown 20230720/s/snk/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-07-20 16:02:33] INFO root fetch - processPackages [sailboat-gym]: executing diffoscope
+[2023-07-20 16:02:33] INFO root fetch - processPackages [sailboat-gym]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sailboat-gym-1.0.8.tar.gz tmp/sailboat-gym-1.0.9.tar.gz --markdown 20230720/s/sailboat-gym/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-20 16:02:33] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-sii-oca]: Downloading https://files.pythonhosted.org/packages/40/3f/6507a40a2b7c28c76b87c5c1a167ebe91fb68b890e36eadc35df33e5f2a8/odoo_addon_l10n_es_aeat_sii_oca-16.0.1.3.1-py3-none-any.whl
+[2023-07-20 16:02:33] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-sii-oca]: executing diffoscope
+[2023-07-20 16:02:33] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-sii-oca]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_es_aeat_sii_oca-16.0.1.3.0-py3-none-any.whl.zip tmp/odoo_addon_l10n_es_aeat_sii_oca-16.0.1.3.1-py3-none-any.whl.zip --markdown 20230720/o/odoo-addon-l10n-es-aeat-sii-oca/16.0.1.3.0-16.0.1.3.1/diff.md --exclude *.pyd
+[2023-07-20 16:02:33] INFO root fetch - processPackages [edvart]: Remove: archive file [/home/abi/fetcher/tmp/edvart-0.0.0-py3-none-any.whl.zip]
+[2023-07-20 16:02:33] INFO root fetch - processPackages [edvart]: Remove: archive file [/home/abi/fetcher/tmp/edvart-1.0.0.tar.gz]
+[2023-07-20 16:02:33] INFO root fetch - processPackages [edvart]: Start processing: mcai-worker-sdk
+[2023-07-20 16:02:33] INFO root fetch - main [MainThread]: End processing [edvart]: success
+[2023-07-20 16:02:33] INFO root fetch - processPackages [mcai-worker-sdk]: New version: [2.0.0rc9] Old Version: [2.0.0rc8]
+[2023-07-20 16:02:33] INFO root fetch - processPackages [edvart]: Start processing: fastlane-bot
+[2023-07-20 16:02:33] INFO root fetch - main [MainThread]: End processing [edvart]: success
+[2023-07-20 16:02:33] INFO root fetch - processPackages [hugie]: Remove: archive file [/home/abi/fetcher/tmp/hugie-0.3.0.tar.gz]
+[2023-07-20 16:02:33] INFO root fetch - processPackages [hugie]: Remove: archive file [/home/abi/fetcher/tmp/hugie-0.3.1.tar.gz]
+[2023-07-20 16:02:33] INFO root fetch - processPackages [hugie]: Start processing: argo-workflows
+[2023-07-20 16:02:33] INFO root fetch - main [MainThread]: End processing [hugie]: success
+[2023-07-20 16:02:33] INFO root fetch - processPackages [fastlane-bot]: New version: [0.7.0] Old Version: [0.1.0]
+[2023-07-20 16:02:33] INFO root fetch - processPackages [fastlane-bot]: Downloading https://files.pythonhosted.org/packages/1b/81/7339c9da677040112f710ac99dd41e53ebd72ff3b51cf6c7da8afa4cce3f/fastlane_bot-0.1.0.tar.gz
+[2023-07-20 16:02:33] INFO root fetch - processPackages [mcai-worker-sdk]: Downloading https://files.pythonhosted.org/packages/40/34/d1fa382d18a93b94f7d69b726ba13e79396f29cd0665f622278c6999ac81/mcai_worker_sdk-2.0.0rc8.tar.gz
+[2023-07-20 16:02:33] INFO root fetch - processPackages [argo-workflows]: New version: [6.4.9] Old Version: [6.4.8]
+[2023-07-20 16:02:34] INFO root fetch - processPackages [fastlane-bot]: Downloading https://files.pythonhosted.org/packages/3e/7a/17839178802d17608a7b101c8e182272394d3a7b2032ec1e2fae433a49bd/fastlane_bot-0.7.0.tar.gz
+[2023-07-20 16:02:34] INFO root fetch - processPackages [argo-workflows]: Downloading https://files.pythonhosted.org/packages/f9/74/c7a1240653fd1c7b5b0c4e3a12b541dddec766eeba13246c774dde3eb0ba/argo-workflows-6.4.8.tar.gz
+[2023-07-20 16:02:34] INFO root fetch - processPackages [cohere]: Remove: archive file [/home/abi/fetcher/tmp/cohere-4.9.0.tar.gz]
+[2023-07-20 16:02:34] INFO root fetch - processPackages [cohere]: Remove: archive file [/home/abi/fetcher/tmp/cohere-4.9.1.tar.gz]
+[2023-07-20 16:02:34] INFO root fetch - processPackages [cohere]: Start processing: meliorator
+[2023-07-20 16:02:34] INFO root fetch - main [MainThread]: End processing [cohere]: success
+[2023-07-20 16:02:34] INFO root fetch - processPackages [meliorator]: New version: [0.9.19] Old Version: [0.9.18]
+[2023-07-20 16:02:34] INFO root fetch - processPackages [fastlane-bot]: executing diffoscope
+[2023-07-20 16:02:34] INFO root fetch - processPackages [fastlane-bot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastlane_bot-0.1.0.tar.gz tmp/fastlane_bot-0.7.0.tar.gz --markdown 20230720/f/fastlane-bot/0.1.0-0.7.0/diff.md --exclude *.pyd
+[2023-07-20 16:02:34] INFO root fetch - processPackages [meliorator]: Downloading https://files.pythonhosted.org/packages/f7/42/00349100e80a2296e2f63d85cc526f9fec8bd01de9a25dd2e3e909494ed9/meliorator-0.9.18.tar.gz
+[2023-07-20 16:02:34] INFO root fetch - processPackages [sailboat-gym]: Remove: archive file [/home/abi/fetcher/tmp/sailboat-gym-1.0.8.tar.gz]
+[2023-07-20 16:02:34] INFO root fetch - processPackages [sailboat-gym]: Remove: archive file [/home/abi/fetcher/tmp/sailboat-gym-1.0.9.tar.gz]
+[2023-07-20 16:02:34] INFO root fetch - processPackages [sailboat-gym]: Start processing: jsonwiz
+[2023-07-20 16:02:34] INFO root fetch - main [MainThread]: End processing [sailboat-gym]: success
+[2023-07-20 16:02:34] INFO root fetch - processPackages [mcai-worker-sdk]: Downloading https://files.pythonhosted.org/packages/7d/60/e94853260b297a46fde380ad788356734c0efb8bf9ac15b23a02fd09dd14/mcai_worker_sdk-2.0.0rc9.tar.gz
+[2023-07-20 16:02:34] INFO root fetch - processPackages [snk]: Remove: archive file [/home/abi/fetcher/tmp/snk-0.9.2.tar.gz]
+[2023-07-20 16:02:34] INFO root fetch - processPackages [snk]: Remove: archive file [/home/abi/fetcher/tmp/snk-0.9.3.tar.gz]
+[2023-07-20 16:02:34] INFO root fetch - processPackages [snk]: Start processing: apysc
+[2023-07-20 16:02:34] INFO root fetch - main [MainThread]: End processing [snk]: success
+[2023-07-20 16:02:34] WARNING root fetch - processPackages [jsonwiz]: Skipping, unable to determine old version
+[2023-07-20 16:02:34] INFO root fetch - processPackages [jsonwiz]: Start processing: dynamicadaptor
+[2023-07-20 16:02:34] INFO root fetch - main [MainThread]: End processing [jsonwiz] error
+[2023-07-20 16:02:34] INFO root fetch - processPackages [argo-workflows]: Downloading https://files.pythonhosted.org/packages/fc/52/02b45d1881b8d4ff44f09aa36a2bb5be37c3fcccd6b7c356d16d3edf68d4/argo-workflows-6.4.9.tar.gz
+[2023-07-20 16:02:34] INFO root fetch - processPackages [meliorator]: Downloading https://files.pythonhosted.org/packages/28/93/e39282739deef6335af30d80902f30766fe9178476041663fe35f8022331/meliorator-0.9.19.tar.gz
+[2023-07-20 16:02:34] INFO root fetch - processPackages [apysc]: New version: [3.2.9] Old Version: [3.2.8]
+[2023-07-20 16:02:34] INFO root fetch - processPackages [mcai-worker-sdk]: executing diffoscope
+[2023-07-20 16:02:34] INFO root fetch - processPackages [mcai-worker-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mcai_worker_sdk-2.0.0rc8.tar.gz tmp/mcai_worker_sdk-2.0.0rc9.tar.gz --markdown 20230720/m/mcai-worker-sdk/2.0.0rc8-2.0.0rc9/diff.md --exclude *.pyd
+[2023-07-20 16:02:34] INFO root fetch - processPackages [meliorator]: executing diffoscope
+[2023-07-20 16:02:34] INFO root fetch - processPackages [meliorator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meliorator-0.9.18.tar.gz tmp/meliorator-0.9.19.tar.gz --markdown 20230720/m/meliorator/0.9.18-0.9.19/diff.md --exclude *.pyd
+[2023-07-20 16:02:34] INFO root fetch - processPackages [apysc]: Downloading https://files.pythonhosted.org/packages/02/d3/53ee8e22b95d72d3510ed2f7b4dece3826f39925b60ad16ee472ad5fc901/apysc-3.2.8.tar.gz
+[2023-07-20 16:02:34] INFO root fetch - processPackages [dynamicadaptor]: New version: [0.4.4] Old Version: [0.4.3]
+[2023-07-20 16:02:34] INFO root fetch - processPackages [geoviews]: Remove: archive file [/home/abi/fetcher/tmp/geoviews-1.9.6a5.tar.gz]
+[2023-07-20 16:02:34] INFO root fetch - processPackages [geoviews]: Remove: archive file [/home/abi/fetcher/tmp/geoviews-1.9.7a2.tar.gz]
+[2023-07-20 16:02:34] INFO root fetch - main [MainThread]: End processing [geoviews]: success
+[2023-07-20 16:02:34] INFO root fetch - processPackages [argo-workflows]: executing diffoscope
+[2023-07-20 16:02:34] INFO root fetch - processPackages [argo-workflows]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/argo-workflows-6.4.8.tar.gz tmp/argo-workflows-6.4.9.tar.gz --markdown 20230720/a/argo-workflows/6.4.8-6.4.9/diff.md --exclude *.pyd
+[2023-07-20 16:02:35] INFO root fetch - processPackages [apysc]: Downloading https://files.pythonhosted.org/packages/b8/1b/30b4a9d618864ee53261e6ede28b536371ecaf726662bcfb8987b220a6d1/apysc-3.2.9.tar.gz
+[2023-07-20 16:02:35] INFO root fetch - processPackages [dynamicadaptor]: Downloading https://files.pythonhosted.org/packages/18/11/719b8f23865102dc0c8a6c8c03867bfb3a90176752ff8d94a698bca506d3/dynamicadaptor-0.4.3.tar.gz
+[2023-07-20 16:02:35] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-sii-oca]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_es_aeat_sii_oca-16.0.1.3.0-py3-none-any.whl.zip]
+[2023-07-20 16:02:35] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-sii-oca]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_es_aeat_sii_oca-16.0.1.3.1-py3-none-any.whl.zip]
+[2023-07-20 16:02:35] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-es-aeat-sii-oca]: success
+[2023-07-20 16:02:35] INFO root fetch - processPackages [apysc]: executing diffoscope
+[2023-07-20 16:02:35] INFO root fetch - processPackages [apysc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apysc-3.2.8.tar.gz tmp/apysc-3.2.9.tar.gz --markdown 20230720/a/apysc/3.2.8-3.2.9/diff.md --exclude *.pyd
+[2023-07-20 16:02:35] INFO root fetch - processPackages [dynamicadaptor]: Downloading https://files.pythonhosted.org/packages/e3/27/785942da4166b8fb2978208886781be5151d865baa6faa1fd94df7f347ea/dynamicadaptor-0.4.4.tar.gz
+[2023-07-20 16:02:35] INFO root fetch - processPackages [dynamicadaptor]: executing diffoscope
+[2023-07-20 16:02:35] INFO root fetch - processPackages [dynamicadaptor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dynamicadaptor-0.4.3.tar.gz tmp/dynamicadaptor-0.4.4.tar.gz --markdown 20230720/d/dynamicadaptor/0.4.3-0.4.4/diff.md --exclude *.pyd
+[2023-07-20 16:02:35] INFO root fetch - processPackages [fastlane-bot]: Remove: archive file [/home/abi/fetcher/tmp/fastlane_bot-0.1.0.tar.gz]
+[2023-07-20 16:02:35] INFO root fetch - processPackages [fastlane-bot]: Remove: archive file [/home/abi/fetcher/tmp/fastlane_bot-0.7.0.tar.gz]
+[2023-07-20 16:02:35] INFO root fetch - main [MainThread]: End processing [fastlane-bot]: success
+[2023-07-20 16:02:36] INFO root fetch - processPackages [mcai-worker-sdk]: Remove: archive file [/home/abi/fetcher/tmp/mcai_worker_sdk-2.0.0rc8.tar.gz]
+[2023-07-20 16:02:36] INFO root fetch - processPackages [mcai-worker-sdk]: Remove: archive file [/home/abi/fetcher/tmp/mcai_worker_sdk-2.0.0rc9.tar.gz]
+[2023-07-20 16:02:36] INFO root fetch - main [MainThread]: End processing [mcai-worker-sdk]: success
+[2023-07-20 16:02:36] INFO root fetch - processPackages [meliorator]: Remove: archive file [/home/abi/fetcher/tmp/meliorator-0.9.18.tar.gz]
+[2023-07-20 16:02:36] INFO root fetch - processPackages [meliorator]: Remove: archive file [/home/abi/fetcher/tmp/meliorator-0.9.19.tar.gz]
+[2023-07-20 16:02:36] INFO root fetch - main [MainThread]: End processing [meliorator]: success
+[2023-07-20 16:02:36] INFO root fetch - processPackages [dynamicadaptor]: Remove: archive file [/home/abi/fetcher/tmp/dynamicadaptor-0.4.3.tar.gz]
+[2023-07-20 16:02:36] INFO root fetch - processPackages [dynamicadaptor]: Remove: archive file [/home/abi/fetcher/tmp/dynamicadaptor-0.4.4.tar.gz]
+[2023-07-20 16:02:36] INFO root fetch - main [MainThread]: End processing [dynamicadaptor]: success
+[2023-07-20 16:02:37] INFO root fetch - processPackages [igem]: Remove: archive file [/home/abi/fetcher/tmp/igem-0.1.0.tar.gz]
+[2023-07-20 16:02:37] INFO root fetch - processPackages [igem]: Remove: archive file [/home/abi/fetcher/tmp/igem-0.1.4.tar.gz]
+[2023-07-20 16:02:37] INFO root fetch - main [MainThread]: End processing [igem]: success
+[2023-07-20 16:02:38] INFO root fetch - processPackages [argo-workflows]: Remove: archive file [/home/abi/fetcher/tmp/argo-workflows-6.4.8.tar.gz]
+[2023-07-20 16:02:38] INFO root fetch - processPackages [argo-workflows]: Remove: archive file [/home/abi/fetcher/tmp/argo-workflows-6.4.9.tar.gz]
+[2023-07-20 16:02:38] INFO root fetch - main [MainThread]: End processing [argo-workflows]: success
+[2023-07-20 16:02:39] INFO root fetch - processPackages [apysc]: Remove: archive file [/home/abi/fetcher/tmp/apysc-3.2.8.tar.gz]
+[2023-07-20 16:02:39] INFO root fetch - processPackages [apysc]: Remove: archive file [/home/abi/fetcher/tmp/apysc-3.2.9.tar.gz]
+[2023-07-20 16:02:39] INFO root fetch - main [MainThread]: End processing [apysc]: success
+[2023-07-20 16:02:40] INFO root fetch - processPackages [capellambse]: Remove: archive file [/home/abi/fetcher/tmp/capellambse-0.5.9.tar.gz]
+[2023-07-20 16:02:40] INFO root fetch - processPackages [capellambse]: Remove: archive file [/home/abi/fetcher/tmp/capellambse-0.5.9.dev5.tar.gz]
+[2023-07-20 16:02:40] INFO root fetch - main [MainThread]: End processing [capellambse]: success
+[2023-07-20 16:02:40] INFO root fetch - main [MainThread]: Store serial: [18967498]
