@@ -20737,3 +20737,149 @@ AssertionError: tmp/threemystic_cloud_data_client-0.1.17.tar.gz does not exist
 [2023-07-20 21:02:40] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.374.0.tar.gz]
 [2023-07-20 21:02:40] INFO root fetch - main [MainThread]: End processing [policyengine-us]: success
 [2023-07-20 21:02:40] INFO root fetch - main [MainThread]: Store serial: [18971434]
+[2023-07-20 21:07:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18971434]
+[2023-07-20 21:07:52] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-07-20 21:07:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: policyengine-us
+[2023-07-20 21:07:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: LPanalysisTK-prototype
+[2023-07-20 21:07:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dataquality
+[2023-07-20 21:07:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cre
+[2023-07-20 21:07:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: streamlit-clickable-card
+[2023-07-20 21:07:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tiledb-cloud
+[2023-07-20 21:07:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: qcore
+[2023-07-20 21:07:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: NEMO-CE
+[2023-07-20 21:07:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: test-pip-abcde-camilo
+[2023-07-20 21:07:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dataclasses-json
+[2023-07-20 21:07:52] WARNING root fetch - processPackages [LPanalysisTK-prototype]: Skipping, unable to determine old version
+[2023-07-20 21:07:52] INFO root fetch - processPackages [LPanalysisTK-prototype]: Start processing: entelecheia
+[2023-07-20 21:07:52] INFO root fetch - main [MainThread]: End processing [LPanalysisTK-prototype] error
+[2023-07-20 21:07:52] INFO root fetch - processPackages [dataclasses-json]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-07-20 21:07:52] INFO root fetch - processPackages [tiledb-cloud]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-07-20 21:07:52] INFO root fetch - processPackages [dataquality]: New version: [0.9.8] Old Version: [0.9.7]
+[2023-07-20 21:07:52] INFO root fetch - processPackages [cre]: New version: [0.4.4] Old Version: [0.4.3]
+[2023-07-20 21:07:52] WARNING root fetch - processPackages [test-pip-abcde-camilo]: Skipping, unable to determine old version
+[2023-07-20 21:07:52] INFO root fetch - processPackages [test-pip-abcde-camilo]: Start processing: meson-vs-gen
+[2023-07-20 21:07:52] INFO root fetch - main [MainThread]: End processing [test-pip-abcde-camilo] error
+[2023-07-20 21:07:52] INFO root fetch - processPackages [NEMO-CE]: New version: [1.6.0] Old Version: [1.5.9]
+[2023-07-20 21:07:52] INFO root fetch - processPackages [policyengine-us]: New version: [0.376.0] Old Version: [0.375.0]
+[2023-07-20 21:07:52] INFO root fetch - processPackages [qcore]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-07-20 21:07:52] INFO root fetch - processPackages [streamlit-clickable-card]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-20 21:07:52] INFO root fetch - processPackages [entelecheia]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-20 21:07:52] WARNING root fetch - processPackages [meson-vs-gen]: Skipping, unable to determine old version
+[2023-07-20 21:07:52] INFO root fetch - processPackages [meson-vs-gen]: Start processing: femto-admin
+[2023-07-20 21:07:52] INFO root fetch - main [MainThread]: End processing [meson-vs-gen] error
+[2023-07-20 21:07:52] INFO root fetch - processPackages [femto-admin]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-20 21:07:52] INFO root fetch - processPackages [dataclasses-json]: Downloading https://files.pythonhosted.org/packages/ed/63/10cdc14908f3c9fdb9c21631275d2805853f6156b761a391e6f8918377e1/dataclasses-json-0.5.8.tar.gz
+[2023-07-20 21:07:52] INFO root fetch - processPackages [tiledb-cloud]: Downloading https://files.pythonhosted.org/packages/4d/e2/38ce15b3fcb2200474c3f28f12ab07f8fedb6d754ec30860278cc1b550fd/tiledb_cloud-0.9.4-py3-none-any.whl
+[2023-07-20 21:07:52] INFO root fetch - processPackages [cre]: Downloading https://files.pythonhosted.org/packages/5c/9b/0a14bac7e0dbc228ea41f5538818726f25fe460f46376eb3af41b0cf67a1/cre-0.4.3.tar.gz
+[2023-07-20 21:07:52] INFO root fetch - processPackages [policyengine-us]: Downloading https://files.pythonhosted.org/packages/0b/30/288af6d484e4b57d1c4cd10735ab3a408a1db271e7b05d2232b549c50d79/policyengine-us-0.375.0.tar.gz
+[2023-07-20 21:07:52] INFO root fetch - processPackages [streamlit-clickable-card]: Downloading https://files.pythonhosted.org/packages/c4/6f/4e107a7b022f23a7ec6f8397f7c1bb5b1820cddfaa1af5c346c73de88d75/streamlit_clickable_card-0.0.3.tar.gz
+[2023-07-20 21:07:52] INFO root fetch - processPackages [dataquality]: Downloading https://files.pythonhosted.org/packages/bd/dc/ee0961fa2035ca0f4718b270ca914b496e3bffc84ce29258a64732e504f8/dataquality-0.9.7.tar.gz
+[2023-07-20 21:07:52] INFO root fetch - processPackages [NEMO-CE]: Downloading https://files.pythonhosted.org/packages/b9/03/290a4d32fa8769f7c909e4e8c526f385478fad4ac71ccb1d2eabded7c07c/NEMO_CE-1.5.9-py3-none-any.whl
+[2023-07-20 21:07:52] INFO root fetch - processPackages [entelecheia]: Downloading https://files.pythonhosted.org/packages/3c/03/7d31baeb2cac0b3113dae73d48e3a6872cb43311edb1af1ffbfdb320a3aa/entelecheia-0.2.8.tar.gz
+[2023-07-20 21:07:52] INFO root fetch - processPackages [qcore]: Downloading https://files.pythonhosted.org/packages/35/14/51bf5d7ef2144494a578f1c47782ef596b673e5ba016c458dc7066cccbb3/qcore-1.9.0.tar.gz
+[2023-07-20 21:07:52] INFO root fetch - processPackages [femto-admin]: Downloading https://files.pythonhosted.org/packages/71/9a/967b1e5e0b8b8b7a7e10f778e4cfbc809233260159e3ab88cbcec4edb409/femto-admin-0.0.7.tar.gz
+[2023-07-20 21:07:53] INFO root fetch - processPackages [dataclasses-json]: Downloading https://files.pythonhosted.org/packages/86/c2/db1972ba8fda56d1c3317d8cca1c06af4b5df7e3c94345048d10cf4c7bf4/dataclasses-json-0.5.9.tar.gz
+[2023-07-20 21:07:53] INFO root fetch - processPackages [cre]: Downloading https://files.pythonhosted.org/packages/25/91/914d02618802bfc6fe62a38baece1171dc8b94e50c982249fe9081d13536/cre-0.4.4.tar.gz
+[2023-07-20 21:07:53] INFO root fetch - processPackages [tiledb-cloud]: Downloading https://files.pythonhosted.org/packages/aa/55/f0fcd5db15793f389dfd3c37e59718e290812cc782a170f0e8e71ed01c95/tiledb_cloud-0.9.5-py3-none-any.whl
+[2023-07-20 21:07:53] INFO root fetch - processPackages [streamlit-clickable-card]: Downloading https://files.pythonhosted.org/packages/d0/bb/9ae0af5ab4d7c03a2c9eb9e8541b259cc71c17664e0f575c5903a82827f2/streamlit_clickable_card-0.0.4.tar.gz
+[2023-07-20 21:07:53] INFO root fetch - processPackages [dataquality]: Downloading https://files.pythonhosted.org/packages/a6/20/77c8f33c3e2498a37d9cc2c7be996daef0739443706419e97ff7e873445a/dataquality-0.9.8.tar.gz
+[2023-07-20 21:07:53] INFO root fetch - processPackages [entelecheia]: Downloading https://files.pythonhosted.org/packages/a2/f4/4e71719ee94d6a1cb349501e5a6a0e448b5f31be80467e9b3269b7a0088d/entelecheia-0.2.9.tar.gz
+[2023-07-20 21:07:53] INFO root fetch - processPackages [policyengine-us]: Downloading https://files.pythonhosted.org/packages/2f/71/40b0357baac12713edd2419f5b46ee1b6b8b7fd857048e508791a2d5ebf5/policyengine-us-0.376.0.tar.gz
+[2023-07-20 21:07:53] INFO root fetch - processPackages [dataclasses-json]: executing diffoscope
+[2023-07-20 21:07:53] INFO root fetch - processPackages [dataclasses-json]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataclasses-json-0.5.8.tar.gz tmp/dataclasses-json-0.5.9.tar.gz --markdown 20230720/d/dataclasses-json/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-07-20 21:07:53] INFO root fetch - processPackages [NEMO-CE]: Downloading https://files.pythonhosted.org/packages/0c/2b/c86ff494f3628f33cdb501ce8fd38b0bfcb746aecbb122649eca33c8d0fc/NEMO_CE-1.6.0-py3-none-any.whl
+[2023-07-20 21:07:53] INFO root fetch - processPackages [femto-admin]: Downloading https://files.pythonhosted.org/packages/e6/76/3bb77f9e715935e44b4f107ec22afef43bc5cd63b0ee49408fc295d9abb6/femto-admin-0.0.8.tar.gz
+[2023-07-20 21:07:53] INFO root fetch - processPackages [qcore]: Downloading https://files.pythonhosted.org/packages/f3/80/c394cf2b56e9faa8f73da9afedec877a2fcd47a9a41dc8fc90a436e8c965/qcore-1.9.1.tar.gz
+[2023-07-20 21:07:53] INFO root fetch - processPackages [cre]: executing diffoscope
+[2023-07-20 21:07:53] INFO root fetch - processPackages [cre]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cre-0.4.3.tar.gz tmp/cre-0.4.4.tar.gz --markdown 20230720/c/cre/0.4.3-0.4.4/diff.md --exclude *.pyd
+[2023-07-20 21:07:53] INFO root fetch - processPackages [entelecheia]: executing diffoscope
+[2023-07-20 21:07:53] INFO root fetch - processPackages [entelecheia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/entelecheia-0.2.8.tar.gz tmp/entelecheia-0.2.9.tar.gz --markdown 20230720/e/entelecheia/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-20 21:07:53] INFO root fetch - processPackages [dataquality]: executing diffoscope
+[2023-07-20 21:07:53] INFO root fetch - processPackages [dataquality]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataquality-0.9.7.tar.gz tmp/dataquality-0.9.8.tar.gz --markdown 20230720/d/dataquality/0.9.7-0.9.8/diff.md --exclude *.pyd
+[2023-07-20 21:07:53] INFO root fetch - processPackages [streamlit-clickable-card]: executing diffoscope
+[2023-07-20 21:07:53] INFO root fetch - processPackages [streamlit-clickable-card]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit_clickable_card-0.0.3.tar.gz tmp/streamlit_clickable_card-0.0.4.tar.gz --markdown 20230720/s/streamlit-clickable-card/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-20 21:07:53] INFO root fetch - processPackages [tiledb-cloud]: executing diffoscope
+[2023-07-20 21:07:53] INFO root fetch - processPackages [tiledb-cloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tiledb_cloud-0.9.4-py3-none-any.whl.zip tmp/tiledb_cloud-0.9.5-py3-none-any.whl.zip --markdown 20230720/t/tiledb-cloud/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-07-20 21:07:53] INFO root fetch - processPackages [qcore]: executing diffoscope
+[2023-07-20 21:07:53] INFO root fetch - processPackages [qcore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qcore-1.9.0.tar.gz tmp/qcore-1.9.1.tar.gz --markdown 20230720/q/qcore/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-07-20 21:07:53] INFO root fetch - processPackages [femto-admin]: executing diffoscope
+[2023-07-20 21:07:53] INFO root fetch - processPackages [femto-admin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/femto-admin-0.0.7.tar.gz tmp/femto-admin-0.0.8.tar.gz --markdown 20230720/f/femto-admin/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-20 21:07:53] INFO root fetch - processPackages [policyengine-us]: executing diffoscope
+[2023-07-20 21:07:53] INFO root fetch - processPackages [policyengine-us]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/policyengine-us-0.375.0.tar.gz tmp/policyengine-us-0.376.0.tar.gz --markdown 20230720/p/policyengine-us/0.375.0-0.376.0/diff.md --exclude *.pyd
+[2023-07-20 21:07:53] INFO root fetch - processPackages [NEMO-CE]: executing diffoscope
+[2023-07-20 21:07:53] INFO root fetch - processPackages [NEMO-CE]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NEMO_CE-1.5.9-py3-none-any.whl.zip tmp/NEMO_CE-1.6.0-py3-none-any.whl.zip --markdown 20230720/N/NEMO-CE/1.5.9-1.6.0/diff.md --exclude *.pyd
+[2023-07-20 21:07:55] INFO root fetch - processPackages [dataclasses-json]: Remove: archive file [/home/abi/fetcher/tmp/dataclasses-json-0.5.8.tar.gz]
+[2023-07-20 21:07:55] INFO root fetch - processPackages [dataclasses-json]: Remove: archive file [/home/abi/fetcher/tmp/dataclasses-json-0.5.9.tar.gz]
+[2023-07-20 21:07:55] INFO root fetch - processPackages [dataclasses-json]: Start processing: CodeToCAD
+[2023-07-20 21:07:55] INFO root fetch - main [MainThread]: End processing [dataclasses-json]: success
+[2023-07-20 21:07:55] INFO root fetch - processPackages [CodeToCAD]: New version: [0.2.6] Old Version: [0.2.1689879910]
+[2023-07-20 21:07:55] INFO root fetch - processPackages [entelecheia]: Remove: archive file [/home/abi/fetcher/tmp/entelecheia-0.2.8.tar.gz]
+[2023-07-20 21:07:55] INFO root fetch - processPackages [entelecheia]: Remove: archive file [/home/abi/fetcher/tmp/entelecheia-0.2.9.tar.gz]
+[2023-07-20 21:07:55] INFO root fetch - processPackages [entelecheia]: Start processing: policyengine-us
+[2023-07-20 21:07:55] INFO root fetch - main [MainThread]: End processing [entelecheia]: success
+[2023-07-20 21:07:55] INFO root fetch - processPackages [policyengine-us]: New version: [0.376.0] Old Version: [0.375.0]
+[2023-07-20 21:07:55] INFO root fetch - processPackages [CodeToCAD]: Downloading https://files.pythonhosted.org/packages/1f/c7/6222c75949d6078c99de3d5d85eeac1ae63a94d643f97115d8376ab98376/CodeToCAD-0.2.1689879910.tar.gz
+[2023-07-20 21:07:55] INFO root fetch - processPackages [qcore]: Remove: archive file [/home/abi/fetcher/tmp/qcore-1.9.0.tar.gz]
+[2023-07-20 21:07:55] INFO root fetch - processPackages [qcore]: Remove: archive file [/home/abi/fetcher/tmp/qcore-1.9.1.tar.gz]
+[2023-07-20 21:07:55] INFO root fetch - processPackages [qcore]: Start processing: anya-dash
+[2023-07-20 21:07:55] INFO root fetch - main [MainThread]: End processing [qcore]: success
+[2023-07-20 21:07:55] INFO root fetch - processPackages [streamlit-clickable-card]: Remove: archive file [/home/abi/fetcher/tmp/streamlit_clickable_card-0.0.3.tar.gz]
+[2023-07-20 21:07:55] INFO root fetch - processPackages [streamlit-clickable-card]: Remove: archive file [/home/abi/fetcher/tmp/streamlit_clickable_card-0.0.4.tar.gz]
+[2023-07-20 21:07:55] INFO root fetch - processPackages [streamlit-clickable-card]: Start processing: alphawave
+[2023-07-20 21:07:55] INFO root fetch - main [MainThread]: End processing [streamlit-clickable-card]: success
+[2023-07-20 21:07:55] INFO root fetch - processPackages [policyengine-us]: executing diffoscope
+[2023-07-20 21:07:55] INFO root fetch - processPackages [policyengine-us]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/policyengine-us-0.375.0.tar.gz tmp/policyengine-us-0.376.0.tar.gz --markdown 20230720/p/policyengine-us/0.375.0-0.376.0/diff.md --exclude *.pyd
+[2023-07-20 21:07:55] WARNING root fetch - processPackages [anya-dash]: Skipping, unable to determine old version
+[2023-07-20 21:07:55] INFO root fetch - processPackages [anya-dash]: Start processing: polyp
+[2023-07-20 21:07:55] INFO root fetch - main [MainThread]: End processing [anya-dash] error
+[2023-07-20 21:07:55] INFO root fetch - processPackages [alphawave]: New version: [0.3.93] Old Version: [0.3.92]
+[2023-07-20 21:07:55] INFO root fetch - processPackages [polyp]: New version: [1.1.4] Old Version: [1.1.2]
+[2023-07-20 21:07:55] INFO root fetch - processPackages [femto-admin]: Remove: archive file [/home/abi/fetcher/tmp/femto-admin-0.0.7.tar.gz]
+[2023-07-20 21:07:55] INFO root fetch - processPackages [femto-admin]: Remove: archive file [/home/abi/fetcher/tmp/femto-admin-0.0.8.tar.gz]
+[2023-07-20 21:07:55] INFO root fetch - processPackages [femto-admin]: Start processing: py-ptsl
+[2023-07-20 21:07:55] INFO root fetch - main [MainThread]: End processing [femto-admin]: success
+[2023-07-20 21:07:55] INFO root fetch - processPackages [cre]: Remove: archive file [/home/abi/fetcher/tmp/cre-0.4.3.tar.gz]
+[2023-07-20 21:07:55] INFO root fetch - processPackages [cre]: Remove: archive file [/home/abi/fetcher/tmp/cre-0.4.4.tar.gz]
+[2023-07-20 21:07:55] INFO root fetch - main [MainThread]: End processing [cre]: success
+[2023-07-20 21:07:55] INFO root fetch - processPackages [py-ptsl]: New version: [101.0.0] Old Version: [100.3.0]
+[2023-07-20 21:07:55] INFO root fetch - processPackages [polyp]: Downloading https://files.pythonhosted.org/packages/be/44/ca548bfc533372235bb0ca168b8508cad5d465c5839a46f6f84937cd132c/polyp-1.1.2.tar.gz
+[2023-07-20 21:07:55] INFO root fetch - processPackages [CodeToCAD]: Downloading https://files.pythonhosted.org/packages/97/88/713e1635de92466694eecb2ee4b779a7f2819fdb270f5979c857272b4a92/CodeToCAD-0.2.6.tar.gz
+[2023-07-20 21:07:55] INFO root fetch - processPackages [alphawave]: Downloading https://files.pythonhosted.org/packages/59/03/91136f1acd1e765e38b6decd1eb723ddc4318869f1d86229449e14d832e2/alphawave-0.3.92.tar.gz
+[2023-07-20 21:07:55] INFO root fetch - processPackages [CodeToCAD]: executing diffoscope
+[2023-07-20 21:07:55] INFO root fetch - processPackages [CodeToCAD]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CodeToCAD-0.2.1689879910.tar.gz tmp/CodeToCAD-0.2.6.tar.gz --markdown 20230720/C/CodeToCAD/0.2.1689879910-0.2.6/diff.md --exclude *.pyd
+[2023-07-20 21:07:55] INFO root fetch - processPackages [py-ptsl]: Downloading https://files.pythonhosted.org/packages/6e/91/3a2c28c83ee6083ac4d0a9d65ef0cc771e1c0169a3df2fd3e6d993b808a1/py_ptsl-100.3.0.tar.gz
+[2023-07-20 21:07:56] INFO root fetch - processPackages [polyp]: Downloading https://files.pythonhosted.org/packages/30/54/9bcd3d23e15b03c5cbb27f642ea76db1768cee025a37aa541d1d2d0cf70d/polyp-1.1.4.tar.gz
+[2023-07-20 21:07:56] INFO root fetch - processPackages [dataquality]: Remove: archive file [/home/abi/fetcher/tmp/dataquality-0.9.7.tar.gz]
+[2023-07-20 21:07:56] INFO root fetch - processPackages [dataquality]: Remove: archive file [/home/abi/fetcher/tmp/dataquality-0.9.8.tar.gz]
+[2023-07-20 21:07:56] INFO root fetch - main [MainThread]: End processing [dataquality]: success
+[2023-07-20 21:07:56] INFO root fetch - processPackages [alphawave]: Downloading https://files.pythonhosted.org/packages/4a/17/c9488f8bb66c66f795bc7106e3de4db59f9b63c756ccbedd20309a471900/alphawave-0.3.93.tar.gz
+[2023-07-20 21:07:56] INFO root fetch - processPackages [polyp]: executing diffoscope
+[2023-07-20 21:07:56] INFO root fetch - processPackages [polyp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polyp-1.1.2.tar.gz tmp/polyp-1.1.4.tar.gz --markdown 20230720/p/polyp/1.1.2-1.1.4/diff.md --exclude *.pyd
+[2023-07-20 21:07:56] INFO root fetch - processPackages [py-ptsl]: Downloading https://files.pythonhosted.org/packages/40/52/6da6f9e0543a0655cc6472e9fe1e7cf33ab71364c1cf53db39e4e0c7a734/py_ptsl-101.0.0.tar.gz
+[2023-07-20 21:07:56] INFO root fetch - processPackages [alphawave]: executing diffoscope
+[2023-07-20 21:07:56] INFO root fetch - processPackages [alphawave]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alphawave-0.3.92.tar.gz tmp/alphawave-0.3.93.tar.gz --markdown 20230720/a/alphawave/0.3.92-0.3.93/diff.md --exclude *.pyd
+[2023-07-20 21:07:56] INFO root fetch - processPackages [py-ptsl]: executing diffoscope
+[2023-07-20 21:07:56] INFO root fetch - processPackages [py-ptsl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_ptsl-100.3.0.tar.gz tmp/py_ptsl-101.0.0.tar.gz --markdown 20230720/p/py-ptsl/100.3.0-101.0.0/diff.md --exclude *.pyd
+[2023-07-20 21:07:57] INFO root fetch - processPackages [CodeToCAD]: Remove: archive file [/home/abi/fetcher/tmp/CodeToCAD-0.2.1689879910.tar.gz]
+[2023-07-20 21:07:57] INFO root fetch - processPackages [CodeToCAD]: Remove: archive file [/home/abi/fetcher/tmp/CodeToCAD-0.2.6.tar.gz]
+[2023-07-20 21:07:57] INFO root fetch - main [MainThread]: End processing [CodeToCAD]: success
+[2023-07-20 21:07:57] INFO root fetch - processPackages [polyp]: Remove: archive file [/home/abi/fetcher/tmp/polyp-1.1.2.tar.gz]
+[2023-07-20 21:07:57] INFO root fetch - processPackages [polyp]: Remove: archive file [/home/abi/fetcher/tmp/polyp-1.1.4.tar.gz]
+[2023-07-20 21:07:57] INFO root fetch - main [MainThread]: End processing [polyp]: success
+[2023-07-20 21:07:57] INFO root fetch - processPackages [py-ptsl]: Remove: archive file [/home/abi/fetcher/tmp/py_ptsl-100.3.0.tar.gz]
+[2023-07-20 21:07:57] INFO root fetch - processPackages [py-ptsl]: Remove: archive file [/home/abi/fetcher/tmp/py_ptsl-101.0.0.tar.gz]
+[2023-07-20 21:07:57] INFO root fetch - main [MainThread]: End processing [py-ptsl]: success
+[2023-07-20 21:07:57] INFO root fetch - processPackages [alphawave]: Remove: archive file [/home/abi/fetcher/tmp/alphawave-0.3.92.tar.gz]
+[2023-07-20 21:07:57] INFO root fetch - processPackages [alphawave]: Remove: archive file [/home/abi/fetcher/tmp/alphawave-0.3.93.tar.gz]
+[2023-07-20 21:07:57] INFO root fetch - main [MainThread]: End processing [alphawave]: success
+[2023-07-20 21:07:58] INFO root fetch - processPackages [tiledb-cloud]: Remove: archive file [/home/abi/fetcher/tmp/tiledb_cloud-0.9.4-py3-none-any.whl.zip]
+[2023-07-20 21:07:58] INFO root fetch - processPackages [tiledb-cloud]: Remove: archive file [/home/abi/fetcher/tmp/tiledb_cloud-0.9.5-py3-none-any.whl.zip]
+[2023-07-20 21:07:58] INFO root fetch - main [MainThread]: End processing [tiledb-cloud]: success
+[2023-07-20 21:07:59] INFO root fetch - processPackages [NEMO-CE]: Remove: archive file [/home/abi/fetcher/tmp/NEMO_CE-1.5.9-py3-none-any.whl.zip]
+[2023-07-20 21:07:59] INFO root fetch - processPackages [NEMO-CE]: Remove: archive file [/home/abi/fetcher/tmp/NEMO_CE-1.6.0-py3-none-any.whl.zip]
+[2023-07-20 21:07:59] INFO root fetch - main [MainThread]: End processing [NEMO-CE]: success
+[2023-07-20 21:08:25] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.375.0.tar.gz]
+[2023-07-20 21:08:25] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.376.0.tar.gz]
+[2023-07-20 21:08:25] INFO root fetch - main [MainThread]: End processing [policyengine-us]: success
+[2023-07-20 21:08:25] INFO root fetch - main [MainThread]: End processing [policyengine-us]: success
+[2023-07-20 21:08:25] INFO root fetch - main [MainThread]: Store serial: [18971568]
