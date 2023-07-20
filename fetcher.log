@@ -646,3 +646,280 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-07-20 10:20:10] INFO root fetch - processPackages [maximal]: Remove: archive file [/home/abi/fetcher/tmp/maximal-1.1.tar.gz]
 [2023-07-20 10:20:10] INFO root fetch - main [MainThread]: End processing [maximal]: success
 [2023-07-20 10:20:10] INFO root fetch - main [MainThread]: Store serial: [18963186]
+[2023-07-20 10:25:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18963186]
+[2023-07-20 10:25:20] INFO root fetch - main [MainThread]: Found 34 changed packages
+[2023-07-20 10:25:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fastapi-serve
+[2023-07-20 10:25:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: datumaro
+[2023-07-20 10:25:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fastphase
+[2023-07-20 10:25:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: adafri
+[2023-07-20 10:25:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: zit
+[2023-07-20 10:25:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: qontract-reconcile
+[2023-07-20 10:25:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: thor-devkit
+[2023-07-20 10:25:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: libmata
+[2023-07-20 10:25:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dingtalk-stream
+[2023-07-20 10:25:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: readyocr
+[2023-07-20 10:25:20] INFO root fetch - processPackages [fastapi-serve]: New version: [0.0.5.dev7] Old Version: [0.0.5.dev6]
+[2023-07-20 10:25:20] INFO root fetch - processPackages [readyocr]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-20 10:25:20] INFO root fetch - processPackages [fastphase]: New version: [2.0.dev3] Old Version: [2.0.dev2]
+[2023-07-20 10:25:20] INFO root fetch - processPackages [adafri]: New version: [0.0.44] Old Version: [0.0.43]
+[2023-07-20 10:25:20] INFO root fetch - processPackages [zit]: New version: [0.0.3a9] Old Version: [0.0.3a8]
+[2023-07-20 10:25:20] INFO root fetch - processPackages [dingtalk-stream]: New version: [0.7.3] Old Version: [0.7.2]
+[2023-07-20 10:25:20] INFO root fetch - processPackages [libmata]: New version: [0.82.0] Old Version: [0.81.0]
+[2023-07-20 10:25:20] INFO root fetch - processPackages [thor-devkit]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-20 10:25:20] INFO root fetch - processPackages [datumaro]: New version: [1.4.0rc4] Old Version: [1.4.0rc3]
+[2023-07-20 10:25:20] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2023-07-20 10:25:20] INFO root fetch - processPackages [readyocr]: Downloading https://files.pythonhosted.org/packages/c0/29/14e71ef7cbc2bb63eb3a7dde19b1d0261a548da80fc6f233f4cdf0b5ee8c/readyocr-0.0.8.tar.gz
+[2023-07-20 10:25:20] INFO root fetch - processPackages [adafri]: Downloading https://files.pythonhosted.org/packages/f6/2c/a9a0faa6b82deedc3b20ff8776becb731d8246e471bd3d579b8909849bbe/adafri-0.0.43.tar.gz
+[2023-07-20 10:25:20] INFO root fetch - processPackages [fastphase]: Downloading https://files.pythonhosted.org/packages/07/34/14c635a199c68ce858b9cd2eec1df145f96f3cd26c4ea295ed6f310a6b13/fastphase-2.0.dev2.tar.gz
+[2023-07-20 10:25:20] INFO root fetch - processPackages [fastapi-serve]: Downloading https://files.pythonhosted.org/packages/54/91/f75c908b78e08d7f1c93f37fbab383d53444dba16576074b9a3c26825b37/fastapi-serve-0.0.5.dev6.tar.gz
+[2023-07-20 10:25:20] INFO root fetch - processPackages [zit]: Downloading https://files.pythonhosted.org/packages/9d/b1/feab52c6188b15e420bc52c41b2e6bca0dbd342cf5b12a4e575ae0726fee/zit-0.0.3a8.tar.gz
+[2023-07-20 10:25:20] INFO root fetch - processPackages [datumaro]: Downloading https://files.pythonhosted.org/packages/0e/f0/53640e9c8b55c3fa91048ee888b5c59a20cda67628df1857e829e1a8eb3b/datumaro-1.4.0rc3.tar.gz
+[2023-07-20 10:25:20] INFO root fetch - processPackages [libmata]: Downloading https://files.pythonhosted.org/packages/1c/38/ece6ee7200ab590ab65723ccb18c49af1caa6cff54040ac710c483f8ecd0/libmata-0.81.0.tar.gz
+[2023-07-20 10:25:20] INFO root fetch - processPackages [thor-devkit]: Downloading https://files.pythonhosted.org/packages/0b/fa/485f04a27417b95a6ed0175d634c1a87ea04684c3cf103e0eb06c0dc5e48/thor-devkit-1.0.8.tar.gz
+[2023-07-20 10:25:20] INFO root fetch - processPackages [dingtalk-stream]: Downloading https://files.pythonhosted.org/packages/a5/4d/f14a2dc89c7319dce519cc846009335def1514a0675cfaac25963a18b772/dingtalk-stream-0.7.2.tar.gz
+[2023-07-20 10:25:21] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2023-07-20 10:25:21] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20230720/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/diff.md --exclude *.pyd
+[2023-07-20 10:25:21] INFO root fetch - processPackages [adafri]: Downloading https://files.pythonhosted.org/packages/00/b2/f7320df56847372e3d96a1866c21014ac4624ff7a7dcd9da159a268c0179/adafri-0.0.44.tar.gz
+[2023-07-20 10:25:21] INFO root fetch - processPackages [readyocr]: Downloading https://files.pythonhosted.org/packages/67/b0/34662554637d50f73b74973afb6ddfb4d9895b1fafbfa36c16d5764321fa/readyocr-0.0.9.tar.gz
+[2023-07-20 10:25:21] INFO root fetch - processPackages [zit]: Downloading https://files.pythonhosted.org/packages/0b/29/dd47bcd69f0c0c4481944f323918be890bb8afe3b32336f509edfc597748/zit-0.0.3a9.tar.gz
+[2023-07-20 10:25:21] INFO root fetch - processPackages [adafri]: executing diffoscope
+[2023-07-20 10:25:21] INFO root fetch - processPackages [adafri]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adafri-0.0.43.tar.gz tmp/adafri-0.0.44.tar.gz --markdown 20230720/a/adafri/0.0.43-0.0.44/diff.md --exclude *.pyd
+[2023-07-20 10:25:21] INFO root fetch - processPackages [dingtalk-stream]: Downloading https://files.pythonhosted.org/packages/0e/aa/2b0a60c165cf33c899517a9f2ec75351406e2d47cd8fe86b6aed8a55c307/dingtalk-stream-0.7.3.tar.gz
+[2023-07-20 10:25:21] INFO root fetch - processPackages [fastphase]: Downloading https://files.pythonhosted.org/packages/d9/e0/c1d8f57daceb426248c98382926130ca6ff072273c558d93a74f799e2c65/fastphase-2.0.dev3.tar.gz
+[2023-07-20 10:25:21] INFO root fetch - processPackages [fastapi-serve]: Downloading https://files.pythonhosted.org/packages/3f/0a/69a46800b5371dcf4506c748d0af5a89f66cdb2975292e4ad1be683bde78/fastapi-serve-0.0.5.dev7.tar.gz
+[2023-07-20 10:25:21] INFO root fetch - processPackages [libmata]: Downloading https://files.pythonhosted.org/packages/bd/3a/1fcfccc440b159ea833d3590e6734e0439f1812ce5a6fed8749837bd45d2/libmata-0.82.0.tar.gz
+[2023-07-20 10:25:21] INFO root fetch - processPackages [dingtalk-stream]: executing diffoscope
+[2023-07-20 10:25:21] INFO root fetch - processPackages [dingtalk-stream]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dingtalk-stream-0.7.2.tar.gz tmp/dingtalk-stream-0.7.3.tar.gz --markdown 20230720/d/dingtalk-stream/0.7.2-0.7.3/diff.md --exclude *.pyd
+[2023-07-20 10:25:21] INFO root fetch - processPackages [datumaro]: Downloading https://files.pythonhosted.org/packages/4b/54/eb3319faa58f57f2a7573b56b073fe8ec7fd78f28b8ba5610b2a90cb74c8/datumaro-1.4.0rc4.tar.gz
+[2023-07-20 10:25:21] INFO root fetch - processPackages [fastphase]: executing diffoscope
+[2023-07-20 10:25:21] INFO root fetch - processPackages [fastphase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastphase-2.0.dev2.tar.gz tmp/fastphase-2.0.dev3.tar.gz --markdown 20230720/f/fastphase/2.0.dev2-2.0.dev3/diff.md --exclude *.pyd
+[2023-07-20 10:25:21] INFO root fetch - processPackages [thor-devkit]: Downloading https://files.pythonhosted.org/packages/f4/e7/9aacf283fe2e864fbffc17bc258a857b96542070981a6ac8d157a1a44094/thor-devkit-1.0.9.tar.gz
+[2023-07-20 10:25:21] INFO root fetch - processPackages [readyocr]: executing diffoscope
+[2023-07-20 10:25:21] INFO root fetch - processPackages [readyocr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/readyocr-0.0.8.tar.gz tmp/readyocr-0.0.9.tar.gz --markdown 20230720/r/readyocr/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-20 10:25:21] INFO root fetch - processPackages [zit]: executing diffoscope
+[2023-07-20 10:25:21] INFO root fetch - processPackages [zit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zit-0.0.3a8.tar.gz tmp/zit-0.0.3a9.tar.gz --markdown 20230720/z/zit/0.0.3a8-0.0.3a9/diff.md --exclude *.pyd
+[2023-07-20 10:25:21] INFO root fetch - processPackages [fastapi-serve]: executing diffoscope
+[2023-07-20 10:25:21] INFO root fetch - processPackages [fastapi-serve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi-serve-0.0.5.dev6.tar.gz tmp/fastapi-serve-0.0.5.dev7.tar.gz --markdown 20230720/f/fastapi-serve/0.0.5.dev6-0.0.5.dev7/diff.md --exclude *.pyd
+[2023-07-20 10:25:21] INFO root fetch - processPackages [libmata]: executing diffoscope
+[2023-07-20 10:25:21] INFO root fetch - processPackages [libmata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libmata-0.81.0.tar.gz tmp/libmata-0.82.0.tar.gz --markdown 20230720/l/libmata/0.81.0-0.82.0/diff.md --exclude *.pyd
+[2023-07-20 10:25:21] INFO root fetch - processPackages [thor-devkit]: executing diffoscope
+[2023-07-20 10:25:21] INFO root fetch - processPackages [thor-devkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thor-devkit-1.0.8.tar.gz tmp/thor-devkit-1.0.9.tar.gz --markdown 20230720/t/thor-devkit/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-20 10:25:21] INFO root fetch - processPackages [datumaro]: executing diffoscope
+[2023-07-20 10:25:21] INFO root fetch - processPackages [datumaro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datumaro-1.4.0rc3.tar.gz tmp/datumaro-1.4.0rc4.tar.gz --markdown 20230720/d/datumaro/1.4.0rc3-1.4.0rc4/diff.md --exclude *.pyd
+[2023-07-20 10:25:22] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip]
+[2023-07-20 10:25:22] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
+[2023-07-20 10:25:22] INFO root fetch - processPackages [qontract-reconcile]: Start processing: datacreator
+[2023-07-20 10:25:22] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2023-07-20 10:25:22] WARNING root fetch - processPackages [datacreator]: Skipping, unable to determine old version
+[2023-07-20 10:25:22] INFO root fetch - processPackages [datacreator]: Start processing: terraform-backend-s3-bucket
+[2023-07-20 10:25:22] INFO root fetch - main [MainThread]: End processing [datacreator] error
+[2023-07-20 10:25:22] INFO root fetch - processPackages [terraform-backend-s3-bucket]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-20 10:25:22] INFO root fetch - processPackages [terraform-backend-s3-bucket]: Downloading https://files.pythonhosted.org/packages/c8/d0/f24de56a6375142a732a6a63a2870145dbda0f949c19b7e1b44fe223b748/terraform-backend-s3-bucket-0.0.8.tar.gz
+[2023-07-20 10:25:22] INFO root fetch - processPackages [adafri]: Remove: archive file [/home/abi/fetcher/tmp/adafri-0.0.43.tar.gz]
+[2023-07-20 10:25:22] INFO root fetch - processPackages [adafri]: Remove: archive file [/home/abi/fetcher/tmp/adafri-0.0.44.tar.gz]
+[2023-07-20 10:25:22] INFO root fetch - processPackages [adafri]: Start processing: order
+[2023-07-20 10:25:22] INFO root fetch - main [MainThread]: End processing [adafri]: success
+[2023-07-20 10:25:22] INFO root fetch - processPackages [order]: New version: [2.1.3] Old Version: [2.1.2]
+[2023-07-20 10:25:22] INFO root fetch - processPackages [terraform-backend-s3-bucket]: Downloading https://files.pythonhosted.org/packages/cb/5e/264cab254692a82c02a6b4183994138c7fbe1b9f89a8df282e61342ed3ee/terraform-backend-s3-bucket-0.0.9.tar.gz
+[2023-07-20 10:25:23] INFO root fetch - processPackages [dingtalk-stream]: Remove: archive file [/home/abi/fetcher/tmp/dingtalk-stream-0.7.2.tar.gz]
+[2023-07-20 10:25:23] INFO root fetch - processPackages [order]: Downloading https://files.pythonhosted.org/packages/09/04/03de939a336fce38b7b8ba9f0bf1a3a6e67b6867f4ce1122b107fc5199d6/order-2.1.2.tar.gz
+[2023-07-20 10:25:23] INFO root fetch - processPackages [dingtalk-stream]: Remove: archive file [/home/abi/fetcher/tmp/dingtalk-stream-0.7.3.tar.gz]
+[2023-07-20 10:25:23] INFO root fetch - processPackages [dingtalk-stream]: Start processing: ign-gpao-utils
+[2023-07-20 10:25:23] INFO root fetch - main [MainThread]: End processing [dingtalk-stream]: success
+[2023-07-20 10:25:23] INFO root fetch - processPackages [zit]: Remove: archive file [/home/abi/fetcher/tmp/zit-0.0.3a8.tar.gz]
+[2023-07-20 10:25:23] INFO root fetch - processPackages [zit]: Remove: archive file [/home/abi/fetcher/tmp/zit-0.0.3a9.tar.gz]
+[2023-07-20 10:25:23] INFO root fetch - processPackages [zit]: Start processing: circular-dict
+[2023-07-20 10:25:23] INFO root fetch - main [MainThread]: End processing [zit]: success
+[2023-07-20 10:25:23] INFO root fetch - processPackages [ign-gpao-utils]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-20 10:25:23] INFO root fetch - processPackages [terraform-backend-s3-bucket]: executing diffoscope
+[2023-07-20 10:25:23] INFO root fetch - processPackages [terraform-backend-s3-bucket]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/terraform-backend-s3-bucket-0.0.8.tar.gz tmp/terraform-backend-s3-bucket-0.0.9.tar.gz --markdown 20230720/t/terraform-backend-s3-bucket/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-20 10:25:23] INFO root fetch - processPackages [circular-dict]: New version: [1.6] Old Version: [1.5]
+[2023-07-20 10:25:23] INFO root fetch - processPackages [fastapi-serve]: Remove: archive file [/home/abi/fetcher/tmp/fastapi-serve-0.0.5.dev6.tar.gz]
+[2023-07-20 10:25:23] INFO root fetch - processPackages [fastapi-serve]: Remove: archive file [/home/abi/fetcher/tmp/fastapi-serve-0.0.5.dev7.tar.gz]
+[2023-07-20 10:25:23] INFO root fetch - processPackages [fastapi-serve]: Start processing: basebot22-basebot-JustinGuese
+[2023-07-20 10:25:23] INFO root fetch - main [MainThread]: End processing [fastapi-serve]: success
+[2023-07-20 10:25:23] INFO root fetch - processPackages [basebot22-basebot-JustinGuese]: New version: [0.3.25] Old Version: [0.3.24]
+[2023-07-20 10:25:23] INFO root fetch - processPackages [ign-gpao-utils]: Downloading https://files.pythonhosted.org/packages/a5/23/056bb74f52e27a19eaaf3ab34de4ecc6dd8ffffcc8f7bc3623fb04147bd2/ign-gpao-utils-0.0.4.tar.gz
+[2023-07-20 10:25:23] INFO root fetch - processPackages [readyocr]: Remove: archive file [/home/abi/fetcher/tmp/readyocr-0.0.8.tar.gz]
+[2023-07-20 10:25:23] INFO root fetch - processPackages [readyocr]: Remove: archive file [/home/abi/fetcher/tmp/readyocr-0.0.9.tar.gz]
+[2023-07-20 10:25:23] INFO root fetch - processPackages [readyocr]: Start processing: pyserialsensors
+[2023-07-20 10:25:23] INFO root fetch - main [MainThread]: End processing [readyocr]: success
+[2023-07-20 10:25:23] INFO root fetch - processPackages [circular-dict]: Downloading https://files.pythonhosted.org/packages/fa/f6/6534f492bf60fc8467e9817036a9b19afc1481b9cbcaca3eb5420c062b83/circular-dict-1.5.tar.gz
+[2023-07-20 10:25:23] INFO root fetch - processPackages [pyserialsensors]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-20 10:25:23] INFO root fetch - processPackages [order]: Downloading https://files.pythonhosted.org/packages/3a/ef/b6231cf34955fdda1a73e7d21db1bdd017c9aea645cf3f2e5e671ff75e80/order-2.1.3.tar.gz
+[2023-07-20 10:25:23] INFO root fetch - processPackages [thor-devkit]: Remove: archive file [/home/abi/fetcher/tmp/thor-devkit-1.0.8.tar.gz]
+[2023-07-20 10:25:23] INFO root fetch - processPackages [thor-devkit]: Remove: archive file [/home/abi/fetcher/tmp/thor-devkit-1.0.9.tar.gz]
+[2023-07-20 10:25:23] INFO root fetch - processPackages [thor-devkit]: Start processing: tf-model-optimization-nightly
+[2023-07-20 10:25:23] INFO root fetch - main [MainThread]: End processing [thor-devkit]: success
+[2023-07-20 10:25:23] INFO root fetch - processPackages [basebot22-basebot-JustinGuese]: Downloading https://files.pythonhosted.org/packages/0d/17/49c25fe160dbe80cdb01755257b2af04bada60e6a5edf2362973b3e6c7bd/basebot22-basebot_JustinGuese-0.3.24.tar.gz
+[2023-07-20 10:25:23] INFO root fetch - processPackages [tf-model-optimization-nightly]: New version: [0.7.5.dev20230719] Old Version: [0.7.5.dev20230718]
+[2023-07-20 10:25:23] INFO root fetch - processPackages [order]: executing diffoscope
+[2023-07-20 10:25:23] INFO root fetch - processPackages [order]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/order-2.1.2.tar.gz tmp/order-2.1.3.tar.gz --markdown 20230720/o/order/2.1.2-2.1.3/diff.md --exclude *.pyd
+[2023-07-20 10:25:23] INFO root fetch - processPackages [tf-model-optimization-nightly]: Downloading https://files.pythonhosted.org/packages/6c/5f/57397572691a4746436837f4863f9e995a1d6e5da7da8eb4bc586a32c35b/tf_model_optimization_nightly-0.7.5.dev20230718-py2.py3-none-any.whl
+[2023-07-20 10:25:23] INFO root fetch - processPackages [pyserialsensors]: Downloading https://files.pythonhosted.org/packages/12/27/68f188be45bc820443164e2745d599dc1a63e4b5322e3cbb3f58335b0d2f/pyserialsensors-0.9.8.tar.gz
+[2023-07-20 10:25:23] INFO root fetch - processPackages [circular-dict]: Downloading https://files.pythonhosted.org/packages/30/00/d9cb0148198b2367669ae45085685a79bdba77153f5c3a67b45f3007188c/circular-dict-1.6.tar.gz
+[2023-07-20 10:25:23] INFO root fetch - processPackages [fastphase]: Remove: archive file [/home/abi/fetcher/tmp/fastphase-2.0.dev2.tar.gz]
+[2023-07-20 10:25:23] INFO root fetch - processPackages [fastphase]: Remove: archive file [/home/abi/fetcher/tmp/fastphase-2.0.dev3.tar.gz]
+[2023-07-20 10:25:23] INFO root fetch - processPackages [fastphase]: Start processing: microlearn-llm-factory
+[2023-07-20 10:25:23] INFO root fetch - main [MainThread]: End processing [fastphase]: success
+[2023-07-20 10:25:23] INFO root fetch - processPackages [ign-gpao-utils]: Downloading https://files.pythonhosted.org/packages/43/d2/58aed5cfb0ed06724f7e8b7c93af65af85220057c7e9adf1927019a889c1/ign-gpao-utils-0.0.5.tar.gz
+[2023-07-20 10:25:23] WARNING root fetch - processPackages [microlearn-llm-factory]: Skipping, unable to determine old version
+[2023-07-20 10:25:23] INFO root fetch - processPackages [microlearn-llm-factory]: Start processing: ndbioimage
+[2023-07-20 10:25:23] INFO root fetch - main [MainThread]: End processing [microlearn-llm-factory] error
+[2023-07-20 10:25:23] INFO root fetch - processPackages [circular-dict]: executing diffoscope
+[2023-07-20 10:25:23] INFO root fetch - processPackages [circular-dict]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/circular-dict-1.5.tar.gz tmp/circular-dict-1.6.tar.gz --markdown 20230720/c/circular-dict/1.5-1.6/diff.md --exclude *.pyd
+[2023-07-20 10:25:23] INFO root fetch - processPackages [ign-gpao-utils]: executing diffoscope
+[2023-07-20 10:25:23] INFO root fetch - processPackages [ign-gpao-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ign-gpao-utils-0.0.4.tar.gz tmp/ign-gpao-utils-0.0.5.tar.gz --markdown 20230720/i/ign-gpao-utils/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-20 10:25:23] INFO root fetch - processPackages [ndbioimage]: New version: [2023.7.3] Old Version: [2023.7.2]
+[2023-07-20 10:25:23] INFO root fetch - processPackages [basebot22-basebot-JustinGuese]: Downloading https://files.pythonhosted.org/packages/bd/41/8614395d341925bab1ba91d8d690abaa30895a87a4c24f570ed6d039fa39/basebot22-basebot_JustinGuese-0.3.25.tar.gz
+[2023-07-20 10:25:24] INFO root fetch - processPackages [basebot22-basebot-JustinGuese]: executing diffoscope
+[2023-07-20 10:25:24] INFO root fetch - processPackages [basebot22-basebot-JustinGuese]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/basebot22-basebot_JustinGuese-0.3.24.tar.gz tmp/basebot22-basebot_JustinGuese-0.3.25.tar.gz --markdown 20230720/b/basebot22-basebot-JustinGuese/0.3.24-0.3.25/diff.md --exclude *.pyd
+[2023-07-20 10:25:24] INFO root fetch - processPackages [tf-model-optimization-nightly]: Downloading https://files.pythonhosted.org/packages/27/8d/50157c40d66aa3c691478d70dd1e28bb106acc9e1a9cf7ba6ec29c15b477/tf_model_optimization_nightly-0.7.5.dev20230719-py2.py3-none-any.whl
+[2023-07-20 10:25:24] INFO root fetch - processPackages [ndbioimage]: Downloading https://files.pythonhosted.org/packages/ac/7b/ea2419df14cd45cc5fae7826e37513982272ae89166e27e2822c3c42c4ba/ndbioimage-2023.7.2.tar.gz
+[2023-07-20 10:25:24] INFO root fetch - processPackages [pyserialsensors]: Downloading https://files.pythonhosted.org/packages/3a/b4/da59afccd1adb56ed0b7ace9eb66d71eeab442631fa3925a8d21c71c7668/pyserialsensors-0.9.9.tar.gz
+[2023-07-20 10:25:24] INFO root fetch - processPackages [tf-model-optimization-nightly]: executing diffoscope
+[2023-07-20 10:25:24] INFO root fetch - processPackages [tf-model-optimization-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_model_optimization_nightly-0.7.5.dev20230718-py2.py3-none-any.whl.zip tmp/tf_model_optimization_nightly-0.7.5.dev20230719-py2.py3-none-any.whl.zip --markdown 20230720/t/tf-model-optimization-nightly/0.7.5.dev20230718-0.7.5.dev20230719/diff.md --exclude *.pyd
+[2023-07-20 10:25:24] INFO root fetch - processPackages [terraform-backend-s3-bucket]: Remove: archive file [/home/abi/fetcher/tmp/terraform-backend-s3-bucket-0.0.8.tar.gz]
+[2023-07-20 10:25:24] INFO root fetch - processPackages [terraform-backend-s3-bucket]: Remove: archive file [/home/abi/fetcher/tmp/terraform-backend-s3-bucket-0.0.9.tar.gz]
+[2023-07-20 10:25:24] INFO root fetch - processPackages [terraform-backend-s3-bucket]: Start processing: fastapi-serve
+[2023-07-20 10:25:24] INFO root fetch - main [MainThread]: End processing [terraform-backend-s3-bucket]: success
+[2023-07-20 10:25:24] INFO root fetch - processPackages [pyserialsensors]: executing diffoscope
+[2023-07-20 10:25:24] INFO root fetch - processPackages [pyserialsensors]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyserialsensors-0.9.8.tar.gz tmp/pyserialsensors-0.9.9.tar.gz --markdown 20230720/p/pyserialsensors/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-20 10:25:24] INFO root fetch - processPackages [fastapi-serve]: New version: [0.0.5.dev8] Old Version: [0.0.5.dev7]
+[2023-07-20 10:25:24] INFO root fetch - processPackages [ndbioimage]: Downloading https://files.pythonhosted.org/packages/45/7d/f11c7deae7c6b7b88772990de7cbc430daf15324e41f00315fcf1ccbe745/ndbioimage-2023.7.3.tar.gz
+[2023-07-20 10:25:24] INFO root fetch - processPackages [fastapi-serve]: Downloading https://files.pythonhosted.org/packages/3f/0a/69a46800b5371dcf4506c748d0af5a89f66cdb2975292e4ad1be683bde78/fastapi-serve-0.0.5.dev7.tar.gz
+[2023-07-20 10:25:24] INFO root fetch - processPackages [ndbioimage]: executing diffoscope
+[2023-07-20 10:25:24] INFO root fetch - processPackages [ndbioimage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ndbioimage-2023.7.2.tar.gz tmp/ndbioimage-2023.7.3.tar.gz --markdown 20230720/n/ndbioimage/2023.7.2-2023.7.3/diff.md --exclude *.pyd
+[2023-07-20 10:25:25] INFO root fetch - processPackages [fastapi-serve]: Downloading https://files.pythonhosted.org/packages/33/4e/faf8d398e1b28357385dbaa772b9f93f3959c69d378154b5e9e41ba16edc/fastapi-serve-0.0.5.dev8.tar.gz
+[2023-07-20 10:25:25] INFO root fetch - processPackages [ign-gpao-utils]: Remove: archive file [/home/abi/fetcher/tmp/ign-gpao-utils-0.0.4.tar.gz]
+[2023-07-20 10:25:25] INFO root fetch - processPackages [ign-gpao-utils]: Remove: archive file [/home/abi/fetcher/tmp/ign-gpao-utils-0.0.5.tar.gz]
+[2023-07-20 10:25:25] INFO root fetch - processPackages [ign-gpao-utils]: Start processing: edx-enterprise-data
+[2023-07-20 10:25:25] INFO root fetch - main [MainThread]: End processing [ign-gpao-utils]: success
+[2023-07-20 10:25:25] INFO root fetch - processPackages [circular-dict]: Remove: archive file [/home/abi/fetcher/tmp/circular-dict-1.5.tar.gz]
+[2023-07-20 10:25:25] INFO root fetch - processPackages [circular-dict]: Remove: archive file [/home/abi/fetcher/tmp/circular-dict-1.6.tar.gz]
+[2023-07-20 10:25:25] INFO root fetch - processPackages [circular-dict]: Start processing: spark-sdk
+[2023-07-20 10:25:25] INFO root fetch - main [MainThread]: End processing [circular-dict]: success
+[2023-07-20 10:25:25] INFO root fetch - processPackages [spark-sdk]: New version: [0.5.0rc1] Old Version: [0.5.0rc0]
+[2023-07-20 10:25:25] INFO root fetch - processPackages [order]: Remove: archive file [/home/abi/fetcher/tmp/order-2.1.2.tar.gz]
+[2023-07-20 10:25:25] INFO root fetch - processPackages [order]: Remove: archive file [/home/abi/fetcher/tmp/order-2.1.3.tar.gz]
+[2023-07-20 10:25:25] INFO root fetch - processPackages [order]: Start processing: ml-management
+[2023-07-20 10:25:25] INFO root fetch - main [MainThread]: End processing [order]: success
+[2023-07-20 10:25:25] INFO root fetch - processPackages [edx-enterprise-data]: New version: [4.9.0] Old Version: [4.8.1]
+[2023-07-20 10:25:25] INFO root fetch - processPackages [ml-management]: New version: [0.0.44] Old Version: [0.0.43]
+[2023-07-20 10:25:25] INFO root fetch - processPackages [fastapi-serve]: executing diffoscope
+[2023-07-20 10:25:25] INFO root fetch - processPackages [fastapi-serve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi-serve-0.0.5.dev7.tar.gz tmp/fastapi-serve-0.0.5.dev8.tar.gz --markdown 20230720/f/fastapi-serve/0.0.5.dev7-0.0.5.dev8/diff.md --exclude *.pyd
+[2023-07-20 10:25:25] INFO root fetch - processPackages [spark-sdk]: Downloading https://files.pythonhosted.org/packages/d8/7d/ee0265727a9515737605efb49209a7dc2f1900377a685eb9f9494c9d6549/spark_sdk-0.5.0rc0-py3-none-any.whl
+[2023-07-20 10:25:25] INFO root fetch - processPackages [basebot22-basebot-JustinGuese]: Remove: archive file [/home/abi/fetcher/tmp/basebot22-basebot_JustinGuese-0.3.24.tar.gz]
+[2023-07-20 10:25:25] INFO root fetch - processPackages [basebot22-basebot-JustinGuese]: Remove: archive file [/home/abi/fetcher/tmp/basebot22-basebot_JustinGuese-0.3.25.tar.gz]
+[2023-07-20 10:25:25] INFO root fetch - processPackages [basebot22-basebot-JustinGuese]: Start processing: latticegeometrylib
+[2023-07-20 10:25:25] INFO root fetch - main [MainThread]: End processing [basebot22-basebot-JustinGuese]: success
+[2023-07-20 10:25:25] INFO root fetch - processPackages [ml-management]: Downloading https://files.pythonhosted.org/packages/e1/62/84c79e15f72b8ef412d65c6677cf3d0719eb5a1e8917c4bb36421073bdcb/ml-management-0.0.43.tar.gz
+[2023-07-20 10:25:25] INFO root fetch - processPackages [latticegeometrylib]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-20 10:25:25] INFO root fetch - processPackages [datumaro]: Remove: archive file [/home/abi/fetcher/tmp/datumaro-1.4.0rc3.tar.gz]
+[2023-07-20 10:25:25] INFO root fetch - processPackages [datumaro]: Remove: archive file [/home/abi/fetcher/tmp/datumaro-1.4.0rc4.tar.gz]
+[2023-07-20 10:25:25] INFO root fetch - processPackages [datumaro]: Start processing: collective.classification.tree
+[2023-07-20 10:25:25] INFO root fetch - main [MainThread]: End processing [datumaro]: success
+[2023-07-20 10:25:25] INFO root fetch - processPackages [collective.classification.tree]: New version: [1.0a2] Old Version: [1.0a1]
+[2023-07-20 10:25:25] INFO root fetch - processPackages [edx-enterprise-data]: Downloading https://files.pythonhosted.org/packages/f8/31/de0ffff6297a3c4a7b21f2c7b2c35c31ad1fab15a01d08331865c1461017/edx-enterprise-data-4.8.1.tar.gz
+[2023-07-20 10:25:25] INFO root fetch - processPackages [spark-sdk]: Downloading https://files.pythonhosted.org/packages/3b/85/93867d0d8bbb52fd4b4697a5840646287a5677dff5af173d7cfa5e8209bb/spark_sdk-0.5.0rc1-py3-none-any.whl
+[2023-07-20 10:25:25] INFO root fetch - processPackages [latticegeometrylib]: Downloading https://files.pythonhosted.org/packages/9c/1e/749af3edb988534ba5ac1aa5ab02a659ca465a5eba8040a7476091a8c358/latticegeometrylib-0.0.8.tar.gz
+[2023-07-20 10:25:25] INFO root fetch - processPackages [ml-management]: Downloading https://files.pythonhosted.org/packages/0a/27/14c51d3ea0818fbfa2ec9c24d61065dc3ab3601db3c9950b74dabda8414d/ml-management-0.0.44.tar.gz
+[2023-07-20 10:25:25] INFO root fetch - processPackages [collective.classification.tree]: Downloading https://files.pythonhosted.org/packages/c4/21/2e2b13f5a6812e34b624f5bb44742c92b709d141e0dda758caf28ce91169/collective.classification.tree-1.0a1.tar.gz
+[2023-07-20 10:25:25] INFO root fetch - processPackages [pyserialsensors]: Remove: archive file [/home/abi/fetcher/tmp/pyserialsensors-0.9.8.tar.gz]
+[2023-07-20 10:25:25] INFO root fetch - processPackages [pyserialsensors]: Remove: archive file [/home/abi/fetcher/tmp/pyserialsensors-0.9.9.tar.gz]
+[2023-07-20 10:25:25] INFO root fetch - processPackages [pyserialsensors]: Start processing: aws-key-rotator-project
+[2023-07-20 10:25:25] INFO root fetch - main [MainThread]: End processing [pyserialsensors]: success
+[2023-07-20 10:25:25] INFO root fetch - processPackages [spark-sdk]: executing diffoscope
+[2023-07-20 10:25:25] INFO root fetch - processPackages [spark-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spark_sdk-0.5.0rc0-py3-none-any.whl.zip tmp/spark_sdk-0.5.0rc1-py3-none-any.whl.zip --markdown 20230720/s/spark-sdk/0.5.0rc0-0.5.0rc1/diff.md --exclude *.pyd
+[2023-07-20 10:25:25] INFO root fetch - processPackages [ml-management]: executing diffoscope
+[2023-07-20 10:25:25] INFO root fetch - processPackages [ml-management]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ml-management-0.0.43.tar.gz tmp/ml-management-0.0.44.tar.gz --markdown 20230720/m/ml-management/0.0.43-0.0.44/diff.md --exclude *.pyd
+[2023-07-20 10:25:25] WARNING root fetch - processPackages [aws-key-rotator-project]: Skipping, unable to determine old version
+[2023-07-20 10:25:25] INFO root fetch - processPackages [aws-key-rotator-project]: Start processing: collective.classification.folder
+[2023-07-20 10:25:25] INFO root fetch - main [MainThread]: End processing [aws-key-rotator-project] error
+[2023-07-20 10:25:25] INFO root fetch - processPackages [edx-enterprise-data]: Downloading https://files.pythonhosted.org/packages/44/c0/3a6c39e256aba209688b58e05717ab7d6e6c3a8f8e2ea9d079edf2ef3734/edx-enterprise-data-4.9.0.tar.gz
+[2023-07-20 10:25:26] INFO root fetch - processPackages [latticegeometrylib]: Downloading https://files.pythonhosted.org/packages/30/c4/c49601f2acbfbf8ad146cc15b5c9375edb7430f6965c24dda0d121580a69/latticegeometrylib-0.0.9.tar.gz
+[2023-07-20 10:25:26] INFO root fetch - processPackages [collective.classification.folder]: New version: [1.0a2] Old Version: [1.0a1]
+[2023-07-20 10:25:26] INFO root fetch - processPackages [edx-enterprise-data]: executing diffoscope
+[2023-07-20 10:25:26] INFO root fetch - processPackages [edx-enterprise-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edx-enterprise-data-4.8.1.tar.gz tmp/edx-enterprise-data-4.9.0.tar.gz --markdown 20230720/e/edx-enterprise-data/4.8.1-4.9.0/diff.md --exclude *.pyd
+[2023-07-20 10:25:26] INFO root fetch - processPackages [collective.classification.tree]: Downloading https://files.pythonhosted.org/packages/ff/0b/833d7e46ab04d1bc214b9058a736843ad9a12aeb5858fa0cc0e150733249/collective.classification.tree-1.0a2.tar.gz
+[2023-07-20 10:25:26] INFO root fetch - processPackages [latticegeometrylib]: executing diffoscope
+[2023-07-20 10:25:26] INFO root fetch - processPackages [latticegeometrylib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/latticegeometrylib-0.0.8.tar.gz tmp/latticegeometrylib-0.0.9.tar.gz --markdown 20230720/l/latticegeometrylib/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-20 10:25:26] INFO root fetch - processPackages [tf-model-optimization-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_model_optimization_nightly-0.7.5.dev20230718-py2.py3-none-any.whl.zip]
+[2023-07-20 10:25:26] INFO root fetch - processPackages [tf-model-optimization-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_model_optimization_nightly-0.7.5.dev20230719-py2.py3-none-any.whl.zip]
+[2023-07-20 10:25:26] INFO root fetch - processPackages [tf-model-optimization-nightly]: Start processing: fastapi-serve
+[2023-07-20 10:25:26] INFO root fetch - main [MainThread]: End processing [tf-model-optimization-nightly]: success
+[2023-07-20 10:25:26] INFO root fetch - processPackages [fastapi-serve]: New version: [0.0.5.dev8] Old Version: [0.0.5.dev7]
+[2023-07-20 10:25:26] INFO root fetch - processPackages [collective.classification.folder]: Downloading https://files.pythonhosted.org/packages/f1/f5/0b66b1a91eb440a938eac75ef9acabc1c076fd261f18e75ece024181c2f3/collective.classification.folder-1.0a1.tar.gz
+[2023-07-20 10:25:26] INFO root fetch - processPackages [collective.classification.tree]: executing diffoscope
+[2023-07-20 10:25:26] INFO root fetch - processPackages [collective.classification.tree]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/collective.classification.tree-1.0a1.tar.gz tmp/collective.classification.tree-1.0a2.tar.gz --markdown 20230720/c/collective.classification.tree/1.0a1-1.0a2/diff.md --exclude *.pyd
+[2023-07-20 10:25:26] INFO root fetch - processPackages [fastapi-serve]: Remove: archive file [/home/abi/fetcher/tmp/fastapi-serve-0.0.5.dev7.tar.gz]
+[2023-07-20 10:25:26] INFO root fetch - processPackages [fastapi-serve]: Remove: archive file [/home/abi/fetcher/tmp/fastapi-serve-0.0.5.dev8.tar.gz]
+[2023-07-20 10:25:26] INFO root fetch - processPackages [fastapi-serve]: Start processing: tllab-common
+[2023-07-20 10:25:26] INFO root fetch - main [MainThread]: End processing [fastapi-serve]: success
+[2023-07-20 10:25:26] INFO root fetch - processPackages [fastapi-serve]: Downloading https://files.pythonhosted.org/packages/33/4e/faf8d398e1b28357385dbaa772b9f93f3959c69d378154b5e9e41ba16edc/fastapi-serve-0.0.5.dev8.tar.gz
+[2023-07-20 10:25:26] INFO root fetch - processPackages [fastapi-serve]: executing diffoscope
+[2023-07-20 10:25:26] INFO root fetch - processPackages [fastapi-serve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi-serve-0.0.5.dev7.tar.gz tmp/fastapi-serve-0.0.5.dev8.tar.gz --markdown 20230720/f/fastapi-serve/0.0.5.dev7-0.0.5.dev8/diff.md --exclude *.pyd
+[2023-07-20 10:25:26] INFO root fetch - processPackages [tllab-common]: New version: [2023.7.3] Old Version: [2023.7.2]
+[2023-07-20 10:25:26] INFO root fetch - processPackages [collective.classification.folder]: Downloading https://files.pythonhosted.org/packages/fb/37/5fa31b4f13f2c8038b8dc608fb789b1d441b36a6c81fc1063d99cec4d568/collective.classification.folder-1.0a2.tar.gz
+[2023-07-20 10:25:26] INFO root fetch - processPackages [ndbioimage]: Remove: archive file [/home/abi/fetcher/tmp/ndbioimage-2023.7.2.tar.gz]
+[2023-07-20 10:25:26] INFO root fetch - processPackages [ndbioimage]: Remove: archive file [/home/abi/fetcher/tmp/ndbioimage-2023.7.3.tar.gz]
+[2023-07-20 10:25:26] INFO root fetch - processPackages [ndbioimage]: Start processing: OBP-devops
+[2023-07-20 10:25:26] INFO root fetch - main [MainThread]: End processing [ndbioimage]: success
+[2023-07-20 10:25:26] INFO root fetch - processPackages [tllab-common]: Downloading https://files.pythonhosted.org/packages/e8/6f/35311d80def7538a8ac5d0280f92a3ad6ed659a2864d537e5a9f85044746/tllab_common-2023.7.2.tar.gz
+[2023-07-20 10:25:27] INFO root fetch - processPackages [collective.classification.folder]: executing diffoscope
+[2023-07-20 10:25:27] INFO root fetch - processPackages [collective.classification.folder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/collective.classification.folder-1.0a1.tar.gz tmp/collective.classification.folder-1.0a2.tar.gz --markdown 20230720/c/collective.classification.folder/1.0a1-1.0a2/diff.md --exclude *.pyd
+[2023-07-20 10:25:27] INFO root fetch - processPackages [OBP-devops]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-20 10:25:27] INFO root fetch - processPackages [OBP-devops]: Downloading https://files.pythonhosted.org/packages/99/ac/c0ab9cbc5aea589e76fa1a08d1b4db5fd7b31bc0a2c56eac4f743243f95e/OBP_devops-0.1.0.tar.gz
+[2023-07-20 10:25:27] INFO root fetch - processPackages [tllab-common]: Downloading https://files.pythonhosted.org/packages/b0/ab/adcfb3bb62d86930dc59d82852e24062ca99c4f07342e8861ee7e6843e50/tllab_common-2023.7.3.tar.gz
+[2023-07-20 10:25:27] INFO root fetch - processPackages [latticegeometrylib]: Remove: archive file [/home/abi/fetcher/tmp/latticegeometrylib-0.0.8.tar.gz]
+[2023-07-20 10:25:27] INFO root fetch - processPackages [latticegeometrylib]: Remove: archive file [/home/abi/fetcher/tmp/latticegeometrylib-0.0.9.tar.gz]
+[2023-07-20 10:25:27] INFO root fetch - processPackages [latticegeometrylib]: Start processing: vcc-utils
+[2023-07-20 10:25:27] INFO root fetch - main [MainThread]: End processing [latticegeometrylib]: success
+[2023-07-20 10:25:27] ERROR root fetch - processPackages [fastapi-serve]: Diffoscope failed: time="2023-07-20T10:25:26+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+/srv/diffoscope/bin/diffoscope: tmp/fastapi-serve-0.0.5.dev7.tar.gz: No such file or directory
+
+[2023-07-20 10:25:27] INFO root fetch - processPackages [ml-management]: Remove: archive file [/home/abi/fetcher/tmp/ml-management-0.0.43.tar.gz]
+[2023-07-20 10:25:27] INFO root fetch - processPackages [fastapi-serve]: Start processing: yplib
+[2023-07-20 10:25:27] INFO root fetch - main [MainThread]: End processing [fastapi-serve] error
+[2023-07-20 10:25:27] INFO root fetch - processPackages [ml-management]: Remove: archive file [/home/abi/fetcher/tmp/ml-management-0.0.44.tar.gz]
+[2023-07-20 10:25:27] INFO root fetch - processPackages [spark-sdk]: Remove: archive file [/home/abi/fetcher/tmp/spark_sdk-0.5.0rc0-py3-none-any.whl.zip]
+[2023-07-20 10:25:27] INFO root fetch - processPackages [spark-sdk]: Remove: archive file [/home/abi/fetcher/tmp/spark_sdk-0.5.0rc1-py3-none-any.whl.zip]
+[2023-07-20 10:25:27] INFO root fetch - processPackages [ml-management]: Start processing: jsoncrawler
+[2023-07-20 10:25:27] INFO root fetch - main [MainThread]: End processing [ml-management]: success
+[2023-07-20 10:25:27] INFO root fetch - main [MainThread]: End processing [spark-sdk]: success
+[2023-07-20 10:25:27] INFO root fetch - processPackages [tllab-common]: executing diffoscope
+[2023-07-20 10:25:27] INFO root fetch - processPackages [tllab-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tllab_common-2023.7.2.tar.gz tmp/tllab_common-2023.7.3.tar.gz --markdown 20230720/t/tllab-common/2023.7.2-2023.7.3/diff.md --exclude *.pyd
+[2023-07-20 10:25:27] INFO root fetch - processPackages [libmata]: Remove: archive file [/home/abi/fetcher/tmp/libmata-0.81.0.tar.gz]
+[2023-07-20 10:25:27] INFO root fetch - processPackages [libmata]: Remove: archive file [/home/abi/fetcher/tmp/libmata-0.82.0.tar.gz]
+[2023-07-20 10:25:27] INFO root fetch - main [MainThread]: End processing [libmata]: success
+[2023-07-20 10:25:27] INFO root fetch - processPackages [OBP-devops]: Downloading https://files.pythonhosted.org/packages/0e/5a/f0556d350826c866d34ce139238ee81cf5b163dd4981d76f872008f6e3ec/OBP_devops-0.1.1.tar.gz
+[2023-07-20 10:25:27] WARNING root fetch - processPackages [vcc-utils]: Skipping, unable to determine old version
+[2023-07-20 10:25:27] INFO root fetch - main [MainThread]: End processing [vcc-utils] error
+[2023-07-20 10:25:27] WARNING root fetch - processPackages [jsoncrawler]: Skipping, unable to determine old version
+[2023-07-20 10:25:27] INFO root fetch - main [MainThread]: End processing [jsoncrawler] error
+[2023-07-20 10:25:27] INFO root fetch - processPackages [yplib]: New version: [2.6.1] Old Version: [2.6.0]
+[2023-07-20 10:25:27] INFO root fetch - processPackages [OBP-devops]: executing diffoscope
+[2023-07-20 10:25:27] INFO root fetch - processPackages [OBP-devops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OBP_devops-0.1.0.tar.gz tmp/OBP_devops-0.1.1.tar.gz --markdown 20230720/O/OBP-devops/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-20 10:25:27] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/18/69/74cd175ea07bc402ae86962cb69ccb442225d2bf6676b391decf296bf919/yplib-2.6.0.tar.gz
+[2023-07-20 10:25:28] INFO root fetch - processPackages [edx-enterprise-data]: Remove: archive file [/home/abi/fetcher/tmp/edx-enterprise-data-4.8.1.tar.gz]
+[2023-07-20 10:25:28] INFO root fetch - processPackages [edx-enterprise-data]: Remove: archive file [/home/abi/fetcher/tmp/edx-enterprise-data-4.9.0.tar.gz]
+[2023-07-20 10:25:28] INFO root fetch - main [MainThread]: End processing [edx-enterprise-data]: success
+[2023-07-20 10:25:28] INFO root fetch - processPackages [collective.classification.tree]: Remove: archive file [/home/abi/fetcher/tmp/collective.classification.tree-1.0a1.tar.gz]
+[2023-07-20 10:25:28] INFO root fetch - processPackages [collective.classification.tree]: Remove: archive file [/home/abi/fetcher/tmp/collective.classification.tree-1.0a2.tar.gz]
+[2023-07-20 10:25:28] INFO root fetch - main [MainThread]: End processing [collective.classification.tree]: success
+[2023-07-20 10:25:28] INFO root fetch - processPackages [yplib]: Downloading https://files.pythonhosted.org/packages/ec/ca/9dc47a0fa396b1dea666b9441e06331ad092b71495c6c746fd80778d1380/yplib-2.6.1.tar.gz
+[2023-07-20 10:25:28] INFO root fetch - processPackages [yplib]: executing diffoscope
+[2023-07-20 10:25:28] INFO root fetch - processPackages [yplib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yplib-2.6.0.tar.gz tmp/yplib-2.6.1.tar.gz --markdown 20230720/y/yplib/2.6.0-2.6.1/diff.md --exclude *.pyd
+[2023-07-20 10:25:28] INFO root fetch - processPackages [collective.classification.folder]: Remove: archive file [/home/abi/fetcher/tmp/collective.classification.folder-1.0a1.tar.gz]
+[2023-07-20 10:25:28] INFO root fetch - processPackages [collective.classification.folder]: Remove: archive file [/home/abi/fetcher/tmp/collective.classification.folder-1.0a2.tar.gz]
+[2023-07-20 10:25:28] INFO root fetch - main [MainThread]: End processing [collective.classification.folder]: success
+[2023-07-20 10:25:28] INFO root fetch - processPackages [tllab-common]: Remove: archive file [/home/abi/fetcher/tmp/tllab_common-2023.7.2.tar.gz]
+[2023-07-20 10:25:28] INFO root fetch - processPackages [tllab-common]: Remove: archive file [/home/abi/fetcher/tmp/tllab_common-2023.7.3.tar.gz]
+[2023-07-20 10:25:28] INFO root fetch - main [MainThread]: End processing [tllab-common]: success
+[2023-07-20 10:25:28] INFO root fetch - processPackages [OBP-devops]: Remove: archive file [/home/abi/fetcher/tmp/OBP_devops-0.1.0.tar.gz]
+[2023-07-20 10:25:28] INFO root fetch - processPackages [OBP-devops]: Remove: archive file [/home/abi/fetcher/tmp/OBP_devops-0.1.1.tar.gz]
+[2023-07-20 10:25:28] INFO root fetch - main [MainThread]: End processing [OBP-devops]: success
+[2023-07-20 10:25:29] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-2.6.0.tar.gz]
+[2023-07-20 10:25:29] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-2.6.1.tar.gz]
+[2023-07-20 10:25:29] INFO root fetch - main [MainThread]: End processing [yplib]: success
+[2023-07-20 10:25:29] INFO root fetch - main [MainThread]: Store serial: [18963297]
