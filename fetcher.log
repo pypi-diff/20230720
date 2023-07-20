@@ -19975,3 +19975,100 @@ AssertionError: tmp/threemystic_cloud_data_client-0.1.17.tar.gz does not exist
 [2023-07-20 20:45:50] INFO root fetch - processPackages [lilacai]: Remove: archive file [/home/abi/fetcher/tmp/lilacai-0.0.3.tar.gz]
 [2023-07-20 20:45:50] INFO root fetch - main [MainThread]: End processing [lilacai]: success
 [2023-07-20 20:45:50] INFO root fetch - main [MainThread]: Store serial: [18971161]
+[2023-07-20 20:50:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18971161]
+[2023-07-20 20:50:59] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-07-20 20:50:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pydal2sql
+[2023-07-20 20:50:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: TapisCL-ICICLE
+[2023-07-20 20:50:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: chorde
+[2023-07-20 20:50:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: olympix-test-generator
+[2023-07-20 20:50:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: azuremlutils
+[2023-07-20 20:50:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: Craft-xai
+[2023-07-20 20:50:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pycortex
+[2023-07-20 20:50:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: prefect-census
+[2023-07-20 20:50:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: responsecurve
+[2023-07-20 20:50:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: openram
+[2023-07-20 20:51:00] INFO root fetch - processPackages [openram]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-07-20 20:51:00] INFO root fetch - processPackages [olympix-test-generator]: New version: [0.2] Old Version: [0.1]
+[2023-07-20 20:51:00] INFO root fetch - processPackages [pydal2sql]: New version: [0.3.0] Old Version: [0.2.3]
+[2023-07-20 20:51:00] INFO root fetch - processPackages [pycortex]: New version: [1.2.7] Old Version: [1.2.6]
+[2023-07-20 20:51:00] INFO root fetch - processPackages [Craft-xai]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-20 20:51:00] WARNING root fetch - processPackages [responsecurve]: Skipping, unable to determine old version
+[2023-07-20 20:51:00] INFO root fetch - processPackages [responsecurve]: Start processing: assemblyline-service-client
+[2023-07-20 20:51:00] INFO root fetch - processPackages [prefect-census]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-20 20:51:00] INFO root fetch - main [MainThread]: End processing [responsecurve] error
+[2023-07-20 20:51:00] INFO root fetch - processPackages [TapisCL-ICICLE]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-07-20 20:51:00] INFO root fetch - processPackages [chorde]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-20 20:51:00] WARNING root fetch - processPackages [azuremlutils]: Skipping, unable to determine old version
+[2023-07-20 20:51:00] INFO root fetch - processPackages [azuremlutils]: Start processing: assemblyline-service-server
+[2023-07-20 20:51:00] INFO root fetch - main [MainThread]: End processing [azuremlutils] error
+[2023-07-20 20:51:00] INFO root fetch - processPackages [assemblyline-service-client]: New version: [4.4.1.dev99] Old Version: [4.4.1.dev98]
+[2023-07-20 20:51:00] INFO root fetch - processPackages [assemblyline-service-server]: New version: [4.4.1.dev99] Old Version: [4.4.1.dev98]
+[2023-07-20 20:51:00] INFO root fetch - processPackages [assemblyline-service-client]: Downloading https://files.pythonhosted.org/packages/a4/73/2640c3bfcb2613b0f095aa242df946dd9c81ed47f2dd21c43c0eca553226/assemblyline_service_client-4.4.1.dev98-py3-none-any.whl
+[2023-07-20 20:51:00] INFO root fetch - processPackages [TapisCL-ICICLE]: Downloading https://files.pythonhosted.org/packages/74/a8/435c31171c1981914c95427cdfd3f7251a987991b0aa9712b3c999a57418/TapisCL-ICICLE-1.0.3.tar.gz
+[2023-07-20 20:51:00] INFO root fetch - processPackages [olympix-test-generator]: Downloading https://files.pythonhosted.org/packages/32/5e/4f8f82a077a901a6da33f53039f3132da6e995e25b3dfcaed88925edcb10/olympix-test-generator-0.1.tar.gz
+[2023-07-20 20:51:00] INFO root fetch - processPackages [openram]: Downloading https://files.pythonhosted.org/packages/cd/81/d4f41efe943d85919e448d6c65c4be619651aadd21d63f69137165780373/openram-1.2.8.tar.gz
+[2023-07-20 20:51:00] INFO root fetch - processPackages [assemblyline-service-server]: Downloading https://files.pythonhosted.org/packages/d0/9d/73a653591c81e927ff88321d05e4273374e7a6b83130aa29fe2ca8a8f3c8/assemblyline_service_server-4.4.1.dev98-py3-none-any.whl
+[2023-07-20 20:51:00] INFO root fetch - processPackages [pydal2sql]: Downloading https://files.pythonhosted.org/packages/95/3b/4141c11bff9801566762ae6b30e50140e2f856392ba3e28fb488ab1deada/pydal2sql-0.2.3.tar.gz
+[2023-07-20 20:51:00] INFO root fetch - processPackages [pycortex]: Downloading https://files.pythonhosted.org/packages/bd/c1/5e1f3fd04687c0508d9e7ea141832fa92e3c05469c0004f8af9808a063f1/pycortex-1.2.6.tar.gz
+[2023-07-20 20:51:00] INFO root fetch - processPackages [chorde]: Downloading https://files.pythonhosted.org/packages/a5/3c/ef66047ff2d4384b73448052c41e136eb1f00d0804e45ad38e75aa79656f/chorde-1.0.8.tar.gz
+[2023-07-20 20:51:00] INFO root fetch - processPackages [prefect-census]: Downloading https://files.pythonhosted.org/packages/af/0c/afce672a0b05eae9a9b01af05462cf8f347919ee17499dc77caa032ba1d3/prefect-census-0.1.1.tar.gz
+[2023-07-20 20:51:00] WARNING root fetch - processPackages [pycortex]: Skipping package: exceeds size limit 37194723>=10485760
+[2023-07-20 20:51:00] INFO root fetch - processPackages [pycortex]: Start processing: indicam_client
+[2023-07-20 20:51:00] INFO root fetch - main [MainThread]: End processing [pycortex] error
+[2023-07-20 20:51:00] INFO root fetch - processPackages [assemblyline-service-client]: Downloading https://files.pythonhosted.org/packages/bd/c6/6e355350483536185a855a768a59edd86f3a9b152d83c0e328adfb3c5158/assemblyline_service_client-4.4.1.dev99-py3-none-any.whl
+[2023-07-20 20:51:00] INFO root fetch - processPackages [Craft-xai]: Downloading https://files.pythonhosted.org/packages/b6/11/89141a295d890df2db91e9ec8734664033cdc3b44400983190d1e1704cd6/Craft-xai-0.0.3.tar.gz
+[2023-07-20 20:51:00] INFO root fetch - processPackages [assemblyline-service-server]: Downloading https://files.pythonhosted.org/packages/2c/65/290b479a07ea2714c26e302d7ee822da3dcfd3a50ecbfcf4091efd378829/assemblyline_service_server-4.4.1.dev99-py3-none-any.whl
+[2023-07-20 20:51:00] WARNING root fetch - processPackages [indicam_client]: Skipping, unable to determine old version
+[2023-07-20 20:51:00] INFO root fetch - main [MainThread]: End processing [indicam_client] error
+[2023-07-20 20:51:00] INFO root fetch - processPackages [TapisCL-ICICLE]: Downloading https://files.pythonhosted.org/packages/50/8f/c4d779b482a03643e3fd6602a7e1df499063b1a97826814d0f817ef639b8/TapisCL-ICICLE-1.0.4.tar.gz
+[2023-07-20 20:51:00] INFO root fetch - processPackages [olympix-test-generator]: Downloading https://files.pythonhosted.org/packages/10/7f/00fdeee4b37693506397624fa4233618c9ec5aa9c776f8f9806a459f6d20/olympix-test-generator-0.2.tar.gz
+[2023-07-20 20:51:00] INFO root fetch - processPackages [assemblyline-service-client]: executing diffoscope
+[2023-07-20 20:51:00] INFO root fetch - processPackages [assemblyline-service-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline_service_client-4.4.1.dev98-py3-none-any.whl.zip tmp/assemblyline_service_client-4.4.1.dev99-py3-none-any.whl.zip --markdown 20230720/a/assemblyline-service-client/4.4.1.dev98-4.4.1.dev99/diff.md --exclude *.pyd
+[2023-07-20 20:51:01] INFO root fetch - processPackages [pydal2sql]: Downloading https://files.pythonhosted.org/packages/65/ee/8c552c3fb3c3ad061e06a332c25d1573540ec486b4c80598647900af1750/pydal2sql-0.3.0.tar.gz
+[2023-07-20 20:51:01] INFO root fetch - processPackages [Craft-xai]: executing diffoscope
+[2023-07-20 20:51:01] INFO root fetch - processPackages [Craft-xai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Craft-xai-0.0.2.tar.gz tmp/Craft-xai-0.0.3.tar.gz --markdown 20230720/C/Craft-xai/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-20 20:51:01] INFO root fetch - processPackages [assemblyline-service-server]: executing diffoscope
+[2023-07-20 20:51:01] INFO root fetch - processPackages [assemblyline-service-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline_service_server-4.4.1.dev98-py3-none-any.whl.zip tmp/assemblyline_service_server-4.4.1.dev99-py3-none-any.whl.zip --markdown 20230720/a/assemblyline-service-server/4.4.1.dev98-4.4.1.dev99/diff.md --exclude *.pyd
+[2023-07-20 20:51:01] INFO root fetch - processPackages [prefect-census]: Downloading https://files.pythonhosted.org/packages/e6/a6/1d92ef657da6100ca7ce8dfd48757b6e6e8ad6bd435234516bdd63e51bf8/prefect-census-0.1.2.tar.gz
+[2023-07-20 20:51:01] INFO root fetch - processPackages [TapisCL-ICICLE]: executing diffoscope
+[2023-07-20 20:51:01] INFO root fetch - processPackages [TapisCL-ICICLE]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TapisCL-ICICLE-1.0.3.tar.gz tmp/TapisCL-ICICLE-1.0.4.tar.gz --markdown 20230720/T/TapisCL-ICICLE/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-07-20 20:51:01] INFO root fetch - processPackages [chorde]: Downloading https://files.pythonhosted.org/packages/98/6c/d4ae2a6e07dd4b53098cc7a38fd31042d068eaa8b65d190b2e53ac84b62a/chorde-1.0.9.tar.gz
+[2023-07-20 20:51:01] INFO root fetch - processPackages [olympix-test-generator]: executing diffoscope
+[2023-07-20 20:51:01] INFO root fetch - processPackages [olympix-test-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/olympix-test-generator-0.1.tar.gz tmp/olympix-test-generator-0.2.tar.gz --markdown 20230720/o/olympix-test-generator/0.1-0.2/diff.md --exclude *.pyd
+[2023-07-20 20:51:01] INFO root fetch - processPackages [openram]: Downloading https://files.pythonhosted.org/packages/db/55/baee5dcc46fb63835c99917282700e98ba6d6177d267d541ceb50f1352d8/openram-1.2.9.tar.gz
+[2023-07-20 20:51:01] INFO root fetch - processPackages [prefect-census]: executing diffoscope
+[2023-07-20 20:51:01] INFO root fetch - processPackages [prefect-census]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prefect-census-0.1.1.tar.gz tmp/prefect-census-0.1.2.tar.gz --markdown 20230720/p/prefect-census/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-20 20:51:01] INFO root fetch - processPackages [pydal2sql]: executing diffoscope
+[2023-07-20 20:51:01] INFO root fetch - processPackages [pydal2sql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydal2sql-0.2.3.tar.gz tmp/pydal2sql-0.3.0.tar.gz --markdown 20230720/p/pydal2sql/0.2.3-0.3.0/diff.md --exclude *.pyd
+[2023-07-20 20:51:01] INFO root fetch - processPackages [chorde]: executing diffoscope
+[2023-07-20 20:51:01] INFO root fetch - processPackages [chorde]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chorde-1.0.8.tar.gz tmp/chorde-1.0.9.tar.gz --markdown 20230720/c/chorde/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-20 20:51:01] INFO root fetch - processPackages [openram]: executing diffoscope
+[2023-07-20 20:51:01] INFO root fetch - processPackages [openram]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openram-1.2.8.tar.gz tmp/openram-1.2.9.tar.gz --markdown 20230720/o/openram/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-07-20 20:51:02] INFO root fetch - processPackages [assemblyline-service-client]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_service_client-4.4.1.dev98-py3-none-any.whl.zip]
+[2023-07-20 20:51:02] INFO root fetch - processPackages [assemblyline-service-client]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_service_client-4.4.1.dev99-py3-none-any.whl.zip]
+[2023-07-20 20:51:02] INFO root fetch - main [MainThread]: End processing [assemblyline-service-client]: success
+[2023-07-20 20:51:02] INFO root fetch - processPackages [olympix-test-generator]: Remove: archive file [/home/abi/fetcher/tmp/olympix-test-generator-0.1.tar.gz]
+[2023-07-20 20:51:02] INFO root fetch - processPackages [olympix-test-generator]: Remove: archive file [/home/abi/fetcher/tmp/olympix-test-generator-0.2.tar.gz]
+[2023-07-20 20:51:02] INFO root fetch - main [MainThread]: End processing [olympix-test-generator]: success
+[2023-07-20 20:51:02] INFO root fetch - processPackages [Craft-xai]: Remove: archive file [/home/abi/fetcher/tmp/Craft-xai-0.0.2.tar.gz]
+[2023-07-20 20:51:02] INFO root fetch - processPackages [Craft-xai]: Remove: archive file [/home/abi/fetcher/tmp/Craft-xai-0.0.3.tar.gz]
+[2023-07-20 20:51:02] INFO root fetch - main [MainThread]: End processing [Craft-xai]: success
+[2023-07-20 20:51:02] INFO root fetch - processPackages [assemblyline-service-server]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_service_server-4.4.1.dev98-py3-none-any.whl.zip]
+[2023-07-20 20:51:02] INFO root fetch - processPackages [assemblyline-service-server]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_service_server-4.4.1.dev99-py3-none-any.whl.zip]
+[2023-07-20 20:51:02] INFO root fetch - main [MainThread]: End processing [assemblyline-service-server]: success
+[2023-07-20 20:51:02] INFO root fetch - processPackages [TapisCL-ICICLE]: Remove: archive file [/home/abi/fetcher/tmp/TapisCL-ICICLE-1.0.3.tar.gz]
+[2023-07-20 20:51:02] INFO root fetch - processPackages [TapisCL-ICICLE]: Remove: archive file [/home/abi/fetcher/tmp/TapisCL-ICICLE-1.0.4.tar.gz]
+[2023-07-20 20:51:02] INFO root fetch - main [MainThread]: End processing [TapisCL-ICICLE]: success
+[2023-07-20 20:51:02] INFO root fetch - processPackages [prefect-census]: Remove: archive file [/home/abi/fetcher/tmp/prefect-census-0.1.1.tar.gz]
+[2023-07-20 20:51:02] INFO root fetch - processPackages [prefect-census]: Remove: archive file [/home/abi/fetcher/tmp/prefect-census-0.1.2.tar.gz]
+[2023-07-20 20:51:02] INFO root fetch - main [MainThread]: End processing [prefect-census]: success
+[2023-07-20 20:51:02] INFO root fetch - processPackages [pydal2sql]: Remove: archive file [/home/abi/fetcher/tmp/pydal2sql-0.2.3.tar.gz]
+[2023-07-20 20:51:02] INFO root fetch - processPackages [pydal2sql]: Remove: archive file [/home/abi/fetcher/tmp/pydal2sql-0.3.0.tar.gz]
+[2023-07-20 20:51:02] INFO root fetch - main [MainThread]: End processing [pydal2sql]: success
+[2023-07-20 20:51:03] INFO root fetch - processPackages [chorde]: Remove: archive file [/home/abi/fetcher/tmp/chorde-1.0.8.tar.gz]
+[2023-07-20 20:51:03] INFO root fetch - processPackages [chorde]: Remove: archive file [/home/abi/fetcher/tmp/chorde-1.0.9.tar.gz]
+[2023-07-20 20:51:03] INFO root fetch - main [MainThread]: End processing [chorde]: success
+[2023-07-20 20:51:07] INFO root fetch - processPackages [openram]: Remove: archive file [/home/abi/fetcher/tmp/openram-1.2.8.tar.gz]
+[2023-07-20 20:51:07] INFO root fetch - processPackages [openram]: Remove: archive file [/home/abi/fetcher/tmp/openram-1.2.9.tar.gz]
+[2023-07-20 20:51:07] INFO root fetch - main [MainThread]: End processing [openram]: success
+[2023-07-20 20:51:07] INFO root fetch - main [MainThread]: Store serial: [18971195]
