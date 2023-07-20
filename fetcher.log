@@ -16569,3 +16569,166 @@ AssertionError: tmp/verify4py-test-0.1.7.tar.gz does not exist
 [2023-07-20 18:46:41] INFO root fetch - processPackages [orbit-database]: Remove: archive file [/home/abi/fetcher/tmp/orbit_database-1.0.8.tar.gz]
 [2023-07-20 18:46:41] INFO root fetch - main [MainThread]: End processing [orbit-database]: success
 [2023-07-20 18:46:41] INFO root fetch - main [MainThread]: Store serial: [18969816]
+[2023-07-20 18:51:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18969816]
+[2023-07-20 18:51:50] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-07-20 18:51:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyBKTR
+[2023-07-20 18:51:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ragas
+[2023-07-20 18:51:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nvidia-tao-client
+[2023-07-20 18:51:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cybrid-api-id-python
+[2023-07-20 18:51:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cybrid-api-organization-python
+[2023-07-20 18:51:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: benchmark-runner
+[2023-07-20 18:51:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: async-interrupt
+[2023-07-20 18:51:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cybrid-api-bank-python
+[2023-07-20 18:51:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: skale-contracts
+[2023-07-20 18:51:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: oking
+[2023-07-20 18:51:50] INFO root fetch - processPackages [ragas]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-07-20 18:51:50] WARNING root fetch - processPackages [pyBKTR]: Skipping, unable to determine old version
+[2023-07-20 18:51:50] INFO root fetch - processPackages [pyBKTR]: Start processing: repleno
+[2023-07-20 18:51:50] INFO root fetch - main [MainThread]: End processing [pyBKTR] error
+[2023-07-20 18:51:50] INFO root fetch - processPackages [async-interrupt]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-07-20 18:51:50] INFO root fetch - processPackages [nvidia-tao-client]: New version: [5.0.0.1] Old Version: [4.0.1]
+[2023-07-20 18:51:50] INFO root fetch - processPackages [skale-contracts]: New version: [0.0.1.dev978114706300915430] Old Version: [0.0.1.dev9714958449586304]
+[2023-07-20 18:51:50] INFO root fetch - processPackages [repleno]: New version: [0.0.14] Old Version: [0.0.13]
+[2023-07-20 18:51:50] INFO root fetch - processPackages [oking]: New version: [4.1.210] Old Version: [4.1.209]
+[2023-07-20 18:51:50] INFO root fetch - processPackages [benchmark-runner]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-07-20 18:51:50] INFO root fetch - processPackages [cybrid-api-organization-python]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-20 18:51:50] INFO root fetch - processPackages [cybrid-api-bank-python]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-20 18:51:50] INFO root fetch - processPackages [cybrid-api-id-python]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-20 18:51:50] INFO root fetch - processPackages [skale-contracts]: Downloading https://files.pythonhosted.org/packages/c8/b9/d04f09e9314c768a9e7566cbf97ac25f4abfcf0954a27f6b25c1dafa1afe/skale-contracts-0.0.1.dev9714958449586304.tar.gz
+[2023-07-20 18:51:50] INFO root fetch - processPackages [cybrid-api-organization-python]: Downloading https://files.pythonhosted.org/packages/8c/f9/11b3397de980d7217c6b56728b693a302080844e78e135a12319c23d1e09/cybrid-api-organization-python-0.9.8.tar.gz
+[2023-07-20 18:51:50] INFO root fetch - processPackages [cybrid-api-id-python]: Downloading https://files.pythonhosted.org/packages/50/b7/b977148f4fc829a75a0b07e5a1a330568bf4060c71cf5e0e0a6449ffed87/cybrid-api-id-python-0.9.8.tar.gz
+[2023-07-20 18:51:50] INFO root fetch - processPackages [async-interrupt]: Downloading https://files.pythonhosted.org/packages/21/28/c64ae38ad4c16e2dfc7cf8371775f2278213cfd7a448297a18bde9f2162d/async_interrupt-1.1.0.tar.gz
+[2023-07-20 18:51:50] INFO root fetch - processPackages [ragas]: Downloading https://files.pythonhosted.org/packages/6c/0d/f532148b7b4770088b5d8a2d130d45b62c689b350dfe25b82b9ace4e12fe/ragas-0.0.6.tar.gz
+[2023-07-20 18:51:50] INFO root fetch - processPackages [benchmark-runner]: Downloading https://files.pythonhosted.org/packages/68/c2/3af8e8485f9abfd8f28512408ea35af542ce46eaf6c71c9da44e966b20f2/benchmark-runner-1.0.98.tar.gz
+[2023-07-20 18:51:50] INFO root fetch - processPackages [nvidia-tao-client]: Downloading https://files.pythonhosted.org/packages/84/92/bcf921786e3e4ab6a37de39059acaa6f292c71246fae24bfae361c6a0164/nvidia_tao_client-4.0.1-py3-none-any.whl
+[2023-07-20 18:51:50] INFO root fetch - processPackages [repleno]: Downloading https://files.pythonhosted.org/packages/09/c2/fed2c9bff24c97be8557fa3a2f799565d254eff24a9eb4f9f7eb859a5a0f/repleno-0.0.13.tar.gz
+[2023-07-20 18:51:50] INFO root fetch - processPackages [oking]: Downloading https://files.pythonhosted.org/packages/ad/92/edaf7139b2424ca6d3efd5ce381a4209bc8e34d101f0333b62e783dace3a/oking-4.1.209.tar.gz
+[2023-07-20 18:51:50] INFO root fetch - processPackages [cybrid-api-bank-python]: Downloading https://files.pythonhosted.org/packages/20/58/83595c25956605935aa08227f1f01b1c02743825aca19e267bc95d1b4928/cybrid-api-bank-python-0.9.8.tar.gz
+[2023-07-20 18:51:50] INFO root fetch - processPackages [skale-contracts]: Downloading https://files.pythonhosted.org/packages/66/0d/dc0adfaa5fdd6130f89cd1424b654098ff03a31b3b7faf85ee62a0a14322/skale-contracts-0.0.1.dev978114706300915430.tar.gz
+[2023-07-20 18:51:51] INFO root fetch - processPackages [cybrid-api-organization-python]: Downloading https://files.pythonhosted.org/packages/6e/9a/cba8516138af9b31af978d1cb5ac08501052b56ac24c59f876cc7432e4cd/cybrid-api-organization-python-0.9.9.tar.gz
+[2023-07-20 18:51:51] INFO root fetch - processPackages [cybrid-api-id-python]: Downloading https://files.pythonhosted.org/packages/df/0b/f41ef37cacb50f16ff72d759b9fe9a5fd7fe8bde214833a5c722ba07e136/cybrid-api-id-python-0.9.9.tar.gz
+[2023-07-20 18:51:51] INFO root fetch - processPackages [async-interrupt]: Downloading https://files.pythonhosted.org/packages/6e/cb/4e2b30cb2b99fbf02bf8d56f2f3ef71cc69bbbc6c0ef2906a470d69b1ea0/async_interrupt-1.1.1.tar.gz
+[2023-07-20 18:51:51] INFO root fetch - processPackages [ragas]: Downloading https://files.pythonhosted.org/packages/7a/cf/4bc5d8016df466c72df566d47eecaa8e02cd2b6ba3fe84ad0f9dcfb33a5f/ragas-0.0.7.tar.gz
+[2023-07-20 18:51:51] INFO root fetch - processPackages [skale-contracts]: executing diffoscope
+[2023-07-20 18:51:51] INFO root fetch - processPackages [skale-contracts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skale-contracts-0.0.1.dev9714958449586304.tar.gz tmp/skale-contracts-0.0.1.dev978114706300915430.tar.gz --markdown 20230720/s/skale-contracts/0.0.1.dev9714958449586304-0.0.1.dev978114706300915430/diff.md --exclude *.pyd
+[2023-07-20 18:51:51] INFO root fetch - processPackages [cybrid-api-bank-python]: Downloading https://files.pythonhosted.org/packages/89/0b/5831e52f1895b5ffe4c5b8862788216f9cf6c8554dfffa92e8805799baaf/cybrid-api-bank-python-0.9.9.tar.gz
+[2023-07-20 18:51:51] INFO root fetch - processPackages [cybrid-api-organization-python]: executing diffoscope
+[2023-07-20 18:51:51] INFO root fetch - processPackages [cybrid-api-organization-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-organization-python-0.9.8.tar.gz tmp/cybrid-api-organization-python-0.9.9.tar.gz --markdown 20230720/c/cybrid-api-organization-python/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-20 18:51:51] INFO root fetch - processPackages [benchmark-runner]: Downloading https://files.pythonhosted.org/packages/aa/74/0b502ae8dc7d1ab19876f92da2d177323637092c1bc4f54ae1beac2c2f18/benchmark-runner-1.0.99.tar.gz
+[2023-07-20 18:51:51] INFO root fetch - processPackages [cybrid-api-id-python]: executing diffoscope
+[2023-07-20 18:51:51] INFO root fetch - processPackages [cybrid-api-id-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-id-python-0.9.8.tar.gz tmp/cybrid-api-id-python-0.9.9.tar.gz --markdown 20230720/c/cybrid-api-id-python/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-20 18:51:51] INFO root fetch - processPackages [nvidia-tao-client]: Downloading https://files.pythonhosted.org/packages/5d/40/1fa8e4c33403c2cef7566f6eb565f6ab2693d033a3732344b6ce2c4677a4/nvidia_tao_client-5.0.0.1-py3-none-any.whl
+[2023-07-20 18:51:51] INFO root fetch - processPackages [repleno]: Downloading https://files.pythonhosted.org/packages/38/d7/268162f3f3fd58791cb3f2b36944ac4c78995e150bfb7032b426e7f24820/repleno-0.0.14.tar.gz
+[2023-07-20 18:51:51] INFO root fetch - processPackages [async-interrupt]: executing diffoscope
+[2023-07-20 18:51:51] INFO root fetch - processPackages [async-interrupt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/async_interrupt-1.1.0.tar.gz tmp/async_interrupt-1.1.1.tar.gz --markdown 20230720/a/async-interrupt/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-07-20 18:51:51] INFO root fetch - processPackages [ragas]: executing diffoscope
+[2023-07-20 18:51:51] INFO root fetch - processPackages [ragas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ragas-0.0.6.tar.gz tmp/ragas-0.0.7.tar.gz --markdown 20230720/r/ragas/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-07-20 18:51:51] INFO root fetch - processPackages [cybrid-api-bank-python]: executing diffoscope
+[2023-07-20 18:51:51] INFO root fetch - processPackages [cybrid-api-bank-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-bank-python-0.9.8.tar.gz tmp/cybrid-api-bank-python-0.9.9.tar.gz --markdown 20230720/c/cybrid-api-bank-python/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-20 18:51:51] INFO root fetch - processPackages [repleno]: executing diffoscope
+[2023-07-20 18:51:51] INFO root fetch - processPackages [repleno]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/repleno-0.0.13.tar.gz tmp/repleno-0.0.14.tar.gz --markdown 20230720/r/repleno/0.0.13-0.0.14/diff.md --exclude *.pyd
+[2023-07-20 18:51:51] WARNING root fetch - processPackages [oking]: Skipping package: exceeds size limit 82502778>=10485760
+[2023-07-20 18:51:51] INFO root fetch - processPackages [oking]: Start processing: EnvisionRiskRaaS
+[2023-07-20 18:51:51] INFO root fetch - main [MainThread]: End processing [oking] error
+[2023-07-20 18:51:51] INFO root fetch - processPackages [nvidia-tao-client]: executing diffoscope
+[2023-07-20 18:51:51] INFO root fetch - processPackages [nvidia-tao-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvidia_tao_client-4.0.1-py3-none-any.whl.zip tmp/nvidia_tao_client-5.0.0.1-py3-none-any.whl.zip --markdown 20230720/n/nvidia-tao-client/4.0.1-5.0.0.1/diff.md --exclude *.pyd
+[2023-07-20 18:51:51] INFO root fetch - processPackages [benchmark-runner]: executing diffoscope
+[2023-07-20 18:51:51] INFO root fetch - processPackages [benchmark-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/benchmark-runner-1.0.98.tar.gz tmp/benchmark-runner-1.0.99.tar.gz --markdown 20230720/b/benchmark-runner/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-07-20 18:51:51] INFO root fetch - processPackages [EnvisionRiskRaaS]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-20 18:51:51] INFO root fetch - processPackages [EnvisionRiskRaaS]: Downloading https://files.pythonhosted.org/packages/05/bd/ca211f5e126a823b736d251179e93e48c9c9511f2061e6faac5526db92c2/envisionriskraas-1.0.1.tar.gz
+[2023-07-20 18:51:52] INFO root fetch - processPackages [EnvisionRiskRaaS]: Downloading https://files.pythonhosted.org/packages/e6/4e/6341be6fddb3fc6371f2376c970791077579acfc97384ed035a5e7550a00/envisionriskraas-1.0.2.tar.gz
+[2023-07-20 18:51:52] INFO root fetch - processPackages [EnvisionRiskRaaS]: executing diffoscope
+[2023-07-20 18:51:52] INFO root fetch - processPackages [EnvisionRiskRaaS]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/envisionriskraas-1.0.1.tar.gz tmp/envisionriskraas-1.0.2.tar.gz --markdown 20230720/E/EnvisionRiskRaaS/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-20 18:51:52] INFO root fetch - processPackages [skale-contracts]: Remove: archive file [/home/abi/fetcher/tmp/skale-contracts-0.0.1.dev9714958449586304.tar.gz]
+[2023-07-20 18:51:52] INFO root fetch - processPackages [skale-contracts]: Remove: archive file [/home/abi/fetcher/tmp/skale-contracts-0.0.1.dev978114706300915430.tar.gz]
+[2023-07-20 18:51:52] INFO root fetch - processPackages [skale-contracts]: Start processing: crypto-screening
+[2023-07-20 18:51:52] INFO root fetch - main [MainThread]: End processing [skale-contracts]: success
+[2023-07-20 18:51:52] INFO root fetch - processPackages [crypto-screening]: New version: [7.4.1] Old Version: [7.4.0]
+[2023-07-20 18:51:52] INFO root fetch - processPackages [async-interrupt]: Remove: archive file [/home/abi/fetcher/tmp/async_interrupt-1.1.0.tar.gz]
+[2023-07-20 18:51:52] INFO root fetch - processPackages [async-interrupt]: Remove: archive file [/home/abi/fetcher/tmp/async_interrupt-1.1.1.tar.gz]
+[2023-07-20 18:51:52] INFO root fetch - processPackages [async-interrupt]: Start processing: gigagan-pytorch
+[2023-07-20 18:51:52] INFO root fetch - main [MainThread]: End processing [async-interrupt]: success
+[2023-07-20 18:51:52] INFO root fetch - processPackages [crypto-screening]: Downloading https://files.pythonhosted.org/packages/a1/35/3781dda0c48fa1bd4f4e69b75dd41e5b5438efc1de137860688f239ef6a5/crypto-screening-7.4.0.tar.gz
+[2023-07-20 18:51:52] INFO root fetch - processPackages [gigagan-pytorch]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-20 18:51:52] INFO root fetch - processPackages [gigagan-pytorch]: Downloading https://files.pythonhosted.org/packages/3c/ea/b02048ae325864d09510d9daf7cdaf16afbb190e8dd701f2d6af6982e7ff/gigagan-pytorch-0.1.0.tar.gz
+[2023-07-20 18:51:52] INFO root fetch - processPackages [repleno]: Remove: archive file [/home/abi/fetcher/tmp/repleno-0.0.13.tar.gz]
+[2023-07-20 18:51:52] INFO root fetch - processPackages [repleno]: Remove: archive file [/home/abi/fetcher/tmp/repleno-0.0.14.tar.gz]
+[2023-07-20 18:51:52] INFO root fetch - processPackages [repleno]: Start processing: codeforlife-portal
+[2023-07-20 18:51:52] INFO root fetch - main [MainThread]: End processing [repleno]: success
+[2023-07-20 18:51:52] INFO root fetch - processPackages [cybrid-api-organization-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-organization-python-0.9.8.tar.gz]
+[2023-07-20 18:51:52] INFO root fetch - processPackages [cybrid-api-organization-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-organization-python-0.9.9.tar.gz]
+[2023-07-20 18:51:52] INFO root fetch - processPackages [cybrid-api-organization-python]: Start processing: bent
+[2023-07-20 18:51:52] INFO root fetch - main [MainThread]: End processing [cybrid-api-organization-python]: success
+[2023-07-20 18:51:53] INFO root fetch - processPackages [crypto-screening]: Downloading https://files.pythonhosted.org/packages/fa/40/dcf788512245861e7c5321c0dccb5357320f453550e4d17363e78bb716b1/crypto-screening-7.4.1.tar.gz
+[2023-07-20 18:51:53] INFO root fetch - processPackages [codeforlife-portal]: New version: [6.9.0] Old Version: [6.8.9]
+[2023-07-20 18:51:53] INFO root fetch - processPackages [bent]: New version: [0.0.9] Old Version: [0.0.19]
+[2023-07-20 18:51:53] INFO root fetch - processPackages [crypto-screening]: executing diffoscope
+[2023-07-20 18:51:53] INFO root fetch - processPackages [crypto-screening]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crypto-screening-7.4.0.tar.gz tmp/crypto-screening-7.4.1.tar.gz --markdown 20230720/c/crypto-screening/7.4.0-7.4.1/diff.md --exclude *.pyd
+[2023-07-20 18:51:53] INFO root fetch - processPackages [gigagan-pytorch]: Downloading https://files.pythonhosted.org/packages/73/5b/3ca728ff0a4f50e677cee4d8b1b884e994ffddbfe43f1e2a887989ee941d/gigagan-pytorch-0.1.1.tar.gz
+[2023-07-20 18:51:53] INFO root fetch - processPackages [nvidia-tao-client]: Remove: archive file [/home/abi/fetcher/tmp/nvidia_tao_client-4.0.1-py3-none-any.whl.zip]
+[2023-07-20 18:51:53] INFO root fetch - processPackages [nvidia-tao-client]: Remove: archive file [/home/abi/fetcher/tmp/nvidia_tao_client-5.0.0.1-py3-none-any.whl.zip]
+[2023-07-20 18:51:53] INFO root fetch - processPackages [nvidia-tao-client]: Start processing: cfl-common
+[2023-07-20 18:51:53] INFO root fetch - main [MainThread]: End processing [nvidia-tao-client]: success
+[2023-07-20 18:51:53] INFO root fetch - processPackages [codeforlife-portal]: Downloading https://files.pythonhosted.org/packages/f2/3d/d076be2df98e91e0582f7670e0c14a35b57a909d2ef20da6af88845c78ac/codeforlife-portal-6.8.9.tar.gz
+[2023-07-20 18:51:53] INFO root fetch - processPackages [gigagan-pytorch]: executing diffoscope
+[2023-07-20 18:51:53] INFO root fetch - processPackages [gigagan-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gigagan-pytorch-0.1.0.tar.gz tmp/gigagan-pytorch-0.1.1.tar.gz --markdown 20230720/g/gigagan-pytorch/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-20 18:51:53] INFO root fetch - processPackages [bent]: Downloading https://files.pythonhosted.org/packages/e3/c3/40151612e31a186eef1ad800ef4183b60017708691d14e7401aaf46a26ca/bent-0.0.19.tar.gz
+[2023-07-20 18:51:53] INFO root fetch - processPackages [benchmark-runner]: Remove: archive file [/home/abi/fetcher/tmp/benchmark-runner-1.0.98.tar.gz]
+[2023-07-20 18:51:53] INFO root fetch - processPackages [benchmark-runner]: Remove: archive file [/home/abi/fetcher/tmp/benchmark-runner-1.0.99.tar.gz]
+[2023-07-20 18:51:53] INFO root fetch - processPackages [benchmark-runner]: Start processing: llfn
+[2023-07-20 18:51:53] INFO root fetch - main [MainThread]: End processing [benchmark-runner]: success
+[2023-07-20 18:51:53] INFO root fetch - processPackages [cybrid-api-id-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-id-python-0.9.8.tar.gz]
+[2023-07-20 18:51:53] INFO root fetch - processPackages [cybrid-api-id-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-id-python-0.9.9.tar.gz]
+[2023-07-20 18:51:53] INFO root fetch - processPackages [cybrid-api-id-python]: Start processing: compose-go
+[2023-07-20 18:51:53] INFO root fetch - main [MainThread]: End processing [cybrid-api-id-python]: success
+[2023-07-20 18:51:53] INFO root fetch - processPackages [llfn]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-20 18:51:53] INFO root fetch - processPackages [cfl-common]: New version: [6.9.0] Old Version: [6.8.9]
+[2023-07-20 18:51:53] INFO root fetch - processPackages [compose-go]: New version: [2.20.1] Old Version: [2.18.1]
+[2023-07-20 18:51:53] INFO root fetch - processPackages [llfn]: Downloading https://files.pythonhosted.org/packages/94/db/4a30ada50d1d542403c15fb4b31deb17902b0b511298fc369e3a1b771bcf/llfn-0.1.1.tar.gz
+[2023-07-20 18:51:53] INFO root fetch - processPackages [EnvisionRiskRaaS]: Remove: archive file [/home/abi/fetcher/tmp/envisionriskraas-1.0.1.tar.gz]
+[2023-07-20 18:51:53] INFO root fetch - processPackages [EnvisionRiskRaaS]: Remove: archive file [/home/abi/fetcher/tmp/envisionriskraas-1.0.2.tar.gz]
+[2023-07-20 18:51:53] INFO root fetch - processPackages [EnvisionRiskRaaS]: Start processing: cheest
+[2023-07-20 18:51:53] INFO root fetch - main [MainThread]: End processing [EnvisionRiskRaaS]: success
+[2023-07-20 18:51:53] INFO root fetch - processPackages [ragas]: Remove: archive file [/home/abi/fetcher/tmp/ragas-0.0.6.tar.gz]
+[2023-07-20 18:51:53] INFO root fetch - processPackages [ragas]: Remove: archive file [/home/abi/fetcher/tmp/ragas-0.0.7.tar.gz]
+[2023-07-20 18:51:53] INFO root fetch - processPackages [bent]: Downloading https://files.pythonhosted.org/packages/90/0b/e90bc1c1cde3dc26fe2b1f4a0648bdbf77fa5cd447091e4accd93b6ce8bb/bent-0.0.9.tar.gz
+[2023-07-20 18:51:53] INFO root fetch - main [MainThread]: End processing [ragas]: success
+[2023-07-20 18:51:53] INFO root fetch - processPackages [cfl-common]: Downloading https://files.pythonhosted.org/packages/39/0c/ab055a3d77f3c24c39b7455ba3358c91d1217de2dde396545a2eebda525e/cfl-common-6.8.9.tar.gz
+[2023-07-20 18:51:53] INFO root fetch - processPackages [compose-go]: Downloading https://files.pythonhosted.org/packages/e0/2b/244f9317414f7f6ac35ad124afd426a6d1d996b63188ae200f66573309a2/compose_go-2.18.1.tar.gz
+[2023-07-20 18:51:53] INFO root fetch - processPackages [llfn]: Downloading https://files.pythonhosted.org/packages/6e/88/3040fafa530781471c728339e1b3ae385e786c8a37c9c9ad48030c7d20b5/llfn-0.1.2.tar.gz
+[2023-07-20 18:51:53] INFO root fetch - processPackages [llfn]: executing diffoscope
+[2023-07-20 18:51:53] INFO root fetch - processPackages [llfn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llfn-0.1.1.tar.gz tmp/llfn-0.1.2.tar.gz --markdown 20230720/l/llfn/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-20 18:51:53] WARNING root fetch - processPackages [cheest]: Skipping, unable to determine old version
+[2023-07-20 18:51:53] INFO root fetch - main [MainThread]: End processing [cheest] error
+[2023-07-20 18:51:53] WARNING root fetch - processPackages [compose-go]: Skipping package: exceeds size limit 15981726>=10485760
+[2023-07-20 18:51:53] INFO root fetch - main [MainThread]: End processing [compose-go] error
+[2023-07-20 18:51:53] INFO root fetch - processPackages [bent]: executing diffoscope
+[2023-07-20 18:51:53] INFO root fetch - processPackages [bent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bent-0.0.19.tar.gz tmp/bent-0.0.9.tar.gz --markdown 20230720/b/bent/0.0.19-0.0.9/diff.md --exclude *.pyd
+[2023-07-20 18:51:54] INFO root fetch - processPackages [cfl-common]: Downloading https://files.pythonhosted.org/packages/05/c2/911736fd9caff48e395c4b7643549153b78727af673a7f2ac84e0b673c45/cfl-common-6.9.0.tar.gz
+[2023-07-20 18:51:54] INFO root fetch - processPackages [cfl-common]: executing diffoscope
+[2023-07-20 18:51:54] INFO root fetch - processPackages [cfl-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cfl-common-6.8.9.tar.gz tmp/cfl-common-6.9.0.tar.gz --markdown 20230720/c/cfl-common/6.8.9-6.9.0/diff.md --exclude *.pyd
+[2023-07-20 18:51:54] INFO root fetch - processPackages [gigagan-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/gigagan-pytorch-0.1.0.tar.gz]
+[2023-07-20 18:51:54] INFO root fetch - processPackages [gigagan-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/gigagan-pytorch-0.1.1.tar.gz]
+[2023-07-20 18:51:54] INFO root fetch - main [MainThread]: End processing [gigagan-pytorch]: success
+[2023-07-20 18:51:54] INFO root fetch - processPackages [crypto-screening]: Remove: archive file [/home/abi/fetcher/tmp/crypto-screening-7.4.0.tar.gz]
+[2023-07-20 18:51:54] INFO root fetch - processPackages [crypto-screening]: Remove: archive file [/home/abi/fetcher/tmp/crypto-screening-7.4.1.tar.gz]
+[2023-07-20 18:51:54] INFO root fetch - main [MainThread]: End processing [crypto-screening]: success
+[2023-07-20 18:51:54] INFO root fetch - processPackages [cybrid-api-bank-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-bank-python-0.9.8.tar.gz]
+[2023-07-20 18:51:54] INFO root fetch - processPackages [cybrid-api-bank-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-bank-python-0.9.9.tar.gz]
+[2023-07-20 18:51:54] INFO root fetch - main [MainThread]: End processing [cybrid-api-bank-python]: success
+[2023-07-20 18:51:54] INFO root fetch - processPackages [llfn]: Remove: archive file [/home/abi/fetcher/tmp/llfn-0.1.1.tar.gz]
+[2023-07-20 18:51:54] INFO root fetch - processPackages [llfn]: Remove: archive file [/home/abi/fetcher/tmp/llfn-0.1.2.tar.gz]
+[2023-07-20 18:51:54] INFO root fetch - main [MainThread]: End processing [llfn]: success
+[2023-07-20 18:51:55] INFO root fetch - processPackages [bent]: Remove: archive file [/home/abi/fetcher/tmp/bent-0.0.19.tar.gz]
+[2023-07-20 18:51:55] INFO root fetch - processPackages [bent]: Remove: archive file [/home/abi/fetcher/tmp/bent-0.0.9.tar.gz]
+[2023-07-20 18:51:55] INFO root fetch - main [MainThread]: End processing [bent]: success
+[2023-07-20 18:51:55] INFO root fetch - processPackages [cfl-common]: Remove: archive file [/home/abi/fetcher/tmp/cfl-common-6.8.9.tar.gz]
+[2023-07-20 18:51:55] INFO root fetch - processPackages [cfl-common]: Remove: archive file [/home/abi/fetcher/tmp/cfl-common-6.9.0.tar.gz]
+[2023-07-20 18:51:55] INFO root fetch - main [MainThread]: End processing [cfl-common]: success
+[2023-07-20 18:51:56] INFO root fetch - processPackages [codeforlife-portal]: Downloading https://files.pythonhosted.org/packages/4b/33/908cc56053eac27f161dd60178364693054a2d8a33fc18e1bc5001a50954/codeforlife-portal-6.9.0.tar.gz
+[2023-07-20 18:51:58] INFO root fetch - processPackages [codeforlife-portal]: executing diffoscope
+[2023-07-20 18:51:58] INFO root fetch - processPackages [codeforlife-portal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codeforlife-portal-6.8.9.tar.gz tmp/codeforlife-portal-6.9.0.tar.gz --markdown 20230720/c/codeforlife-portal/6.8.9-6.9.0/diff.md --exclude *.pyd
+[2023-07-20 18:52:01] INFO root fetch - processPackages [codeforlife-portal]: Remove: archive file [/home/abi/fetcher/tmp/codeforlife-portal-6.8.9.tar.gz]
+[2023-07-20 18:52:01] INFO root fetch - processPackages [codeforlife-portal]: Remove: archive file [/home/abi/fetcher/tmp/codeforlife-portal-6.9.0.tar.gz]
+[2023-07-20 18:52:01] INFO root fetch - main [MainThread]: End processing [codeforlife-portal]: success
+[2023-07-20 18:52:01] INFO root fetch - main [MainThread]: Store serial: [18969878]
