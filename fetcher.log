@@ -18699,3 +18699,138 @@ AssertionError: tmp/verify4py-test-0.1.7.tar.gz does not exist
 [2023-07-20 20:14:10] INFO root fetch - processPackages [flywheel-cli]: Remove: archive file [/home/abi/fetcher/tmp/flywheel_cli-9.0.3-py3-none-any.whl.zip]
 [2023-07-20 20:14:10] INFO root fetch - main [MainThread]: End processing [flywheel-cli]: success
 [2023-07-20 20:14:10] INFO root fetch - main [MainThread]: Store serial: [18970629]
+[2023-07-20 20:19:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18970629]
+[2023-07-20 20:19:19] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-07-20 20:19:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lswifi
+[2023-07-20 20:19:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ngsolve
+[2023-07-20 20:19:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: flordb
+[2023-07-20 20:19:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: core-validator
+[2023-07-20 20:19:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tortoise-api-model
+[2023-07-20 20:19:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gammarer.aws-secure-flow-log-bucket
+[2023-07-20 20:19:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: estyp
+[2023-07-20 20:19:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: phidl
+[2023-07-20 20:19:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: gammarer.aws-secure-cloudfront-origin-bucket
+[2023-07-20 20:19:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: syngen
+[2023-07-20 20:19:19] INFO root fetch - processPackages [lswifi]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-20 20:19:19] INFO root fetch - processPackages [estyp]: New version: [0.2.4] Old Version: [0.1.0]
+[2023-07-20 20:19:19] WARNING root fetch - processPackages [tortoise-api-model]: Skipping, unable to determine old version
+[2023-07-20 20:19:19] INFO root fetch - processPackages [tortoise-api-model]: Start processing: potpourri3d
+[2023-07-20 20:19:19] INFO root fetch - main [MainThread]: End processing [tortoise-api-model] error
+[2023-07-20 20:19:19] INFO root fetch - processPackages [flordb]: New version: [2.7.0] Old Version: [2.6.4]
+[2023-07-20 20:19:19] INFO root fetch - processPackages [phidl]: New version: [1.6.4] Old Version: [1.6.3]
+[2023-07-20 20:19:19] INFO root fetch - processPackages [gammarer.aws-secure-cloudfront-origin-bucket]: New version: [0.6.2] Old Version: [0.6.1]
+[2023-07-20 20:19:19] INFO root fetch - processPackages [core-validator]: New version: [0.1.0] Old Version: [0.0.2]
+[2023-07-20 20:19:19] INFO root fetch - processPackages [gammarer.aws-secure-flow-log-bucket]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-07-20 20:19:19] INFO root fetch - processPackages [ngsolve]: New version: [6.2.2304.post36.dev0] Old Version: [6.2.2304]
+[2023-07-20 20:19:19] INFO root fetch - processPackages [syngen]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-20 20:19:19] INFO root fetch - processPackages [potpourri3d]: New version: [1.0.0] Old Version: [0.0.8]
+[2023-07-20 20:19:19] INFO root fetch - processPackages [lswifi]: Downloading https://files.pythonhosted.org/packages/8b/89/0ee59238e3c7918e55caafec161372a71a7f06fc1c78c9e811585844ee96/lswifi-0.1.8.tar.gz
+[2023-07-20 20:19:19] INFO root fetch - processPackages [flordb]: Downloading https://files.pythonhosted.org/packages/31/47/9c2cc4485e5da1eaf05215f340e282c2a1d5fb00beaf391afd0f6ceddc5e/flordb-2.6.4.tar.gz
+[2023-07-20 20:19:19] INFO root fetch - processPackages [ngsolve]: Downloading https://files.pythonhosted.org/packages/5e/36/e3a2260dbbee56532ebbdad3883a75298320eed0e4cd545a0ae18f89779a/ngsolve-6.2.2304-cp39-cp39-win_amd64.whl
+[2023-07-20 20:19:20] WARNING root fetch - processPackages [ngsolve]: Skipping package: exceeds size limit 13389961>=10485760
+[2023-07-20 20:19:20] INFO root fetch - processPackages [ngsolve]: Start processing: responsecurve
+[2023-07-20 20:19:20] INFO root fetch - main [MainThread]: End processing [ngsolve] error
+[2023-07-20 20:19:20] INFO root fetch - processPackages [core-validator]: Downloading https://files.pythonhosted.org/packages/d8/0a/33aae5123020e9004d746f024cf2e73874409de5f1b3958614736df4ae04/core_validator-0.0.2.tar.gz
+[2023-07-20 20:19:20] INFO root fetch - processPackages [estyp]: Downloading https://files.pythonhosted.org/packages/f5/fe/94a184e23452f8054d98b350e0b769ac5b3f0cdeb83e36aed1b9b63e8a15/estyp-0.1.0.tar.gz
+[2023-07-20 20:19:20] INFO root fetch - processPackages [phidl]: Downloading https://files.pythonhosted.org/packages/a9/c6/be305d001c77aa0b0bdc2eda11d3590aab30f43056dd6d09dae260add58a/phidl-1.6.3.tar.gz
+[2023-07-20 20:19:20] WARNING root fetch - processPackages [responsecurve]: Skipping, unable to determine old version
+[2023-07-20 20:19:20] INFO root fetch - processPackages [responsecurve]: Start processing: gammarer.aws-secure-log-bucket
+[2023-07-20 20:19:20] INFO root fetch - main [MainThread]: End processing [responsecurve] error
+[2023-07-20 20:19:20] INFO root fetch - processPackages [gammarer.aws-secure-cloudfront-origin-bucket]: Downloading https://files.pythonhosted.org/packages/8b/f1/a93933230ce971020ba1324026dd86dcb2ecc867579b3603b70fa8b59bea/gammarer.aws-secure-cloudfront-origin-bucket-0.6.2.tar.gz
+[2023-07-20 20:19:20] INFO root fetch - processPackages [potpourri3d]: Downloading https://files.pythonhosted.org/packages/2c/be/9093487b0a6e84ba393f90b152b1579f45e72a9452a4b2b6f5f424fa2b96/potpourri3d-0.0.8.tar.gz
+[2023-07-20 20:19:20] INFO root fetch - processPackages [gammarer.aws-secure-flow-log-bucket]: Downloading https://files.pythonhosted.org/packages/c0/f3/2eabe981fd90b8636de454df7b3e4c36d5512bd511383d3f0ef681df48d4/gammarer.aws-secure-flow-log-bucket-0.3.3.tar.gz
+[2023-07-20 20:19:20] INFO root fetch - processPackages [gammarer.aws-secure-log-bucket]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-07-20 20:19:20] INFO root fetch - processPackages [gammarer.aws-secure-cloudfront-origin-bucket]: executing diffoscope
+[2023-07-20 20:19:20] INFO root fetch - processPackages [gammarer.aws-secure-cloudfront-origin-bucket]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gammarer.aws-secure-cloudfront-origin-bucket-0.6.1.tar.gz tmp/gammarer.aws-secure-cloudfront-origin-bucket-0.6.2.tar.gz --markdown 20230720/g/gammarer.aws-secure-cloudfront-origin-bucket/0.6.1-0.6.2/diff.md --exclude *.pyd
+[2023-07-20 20:19:20] INFO root fetch - processPackages [gammarer.aws-secure-flow-log-bucket]: executing diffoscope
+[2023-07-20 20:19:20] INFO root fetch - processPackages [gammarer.aws-secure-flow-log-bucket]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gammarer.aws-secure-flow-log-bucket-0.3.2.tar.gz tmp/gammarer.aws-secure-flow-log-bucket-0.3.3.tar.gz --markdown 20230720/g/gammarer.aws-secure-flow-log-bucket/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-07-20 20:19:20] INFO root fetch - processPackages [estyp]: Downloading https://files.pythonhosted.org/packages/1e/fc/ff55f4a7582e61496c9f5f6856b694934fc74c3fa9440361a2eade30645d/estyp-0.2.4.tar.gz
+[2023-07-20 20:19:20] INFO root fetch - processPackages [core-validator]: Downloading https://files.pythonhosted.org/packages/17/47/c48ab5a5f483413f40b58401338c25eafd882637809768a77ee280d459a7/core_validator-0.1.0.tar.gz
+[2023-07-20 20:19:20] INFO root fetch - processPackages [flordb]: Downloading https://files.pythonhosted.org/packages/20/b3/d77290924e914d232e43dd9da8b37511e4fb603bcc3b9c68a935f1befa59/flordb-2.7.0.tar.gz
+[2023-07-20 20:19:20] INFO root fetch - processPackages [estyp]: executing diffoscope
+[2023-07-20 20:19:20] INFO root fetch - processPackages [estyp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/estyp-0.1.0.tar.gz tmp/estyp-0.2.4.tar.gz --markdown 20230720/e/estyp/0.1.0-0.2.4/diff.md --exclude *.pyd
+[2023-07-20 20:19:20] INFO root fetch - processPackages [lswifi]: Downloading https://files.pythonhosted.org/packages/03/bf/373c7910f4e4022f82fa8e0b4a5c45ffcb541684a4c873bcd1916bd31fe1/lswifi-0.1.9.tar.gz
+[2023-07-20 20:19:20] INFO root fetch - processPackages [gammarer.aws-secure-log-bucket]: Downloading https://files.pythonhosted.org/packages/51/fe/3f6404dfd9f21234ea01de90b057850e1c62c01c3d73ab9e428f9c47343d/gammarer.aws-secure-log-bucket-0.9.3.tar.gz
+[2023-07-20 20:19:20] INFO root fetch - processPackages [core-validator]: executing diffoscope
+[2023-07-20 20:19:20] INFO root fetch - processPackages [core-validator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/core_validator-0.0.2.tar.gz tmp/core_validator-0.1.0.tar.gz --markdown 20230720/c/core-validator/0.0.2-0.1.0/diff.md --exclude *.pyd
+[2023-07-20 20:19:20] INFO root fetch - processPackages [syngen]: executing diffoscope
+[2023-07-20 20:19:20] INFO root fetch - processPackages [syngen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syngen-0.1.8.tar.gz tmp/syngen-0.1.9.tar.gz --markdown 20230720/s/syngen/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-20 20:19:20] INFO root fetch - processPackages [phidl]: Downloading https://files.pythonhosted.org/packages/ad/b6/9ee5985370e8e80c009dcef165b7213fd615522ec29ef4cf8bd38684030c/phidl-1.6.4.tar.gz
+[2023-07-20 20:19:20] INFO root fetch - processPackages [flordb]: executing diffoscope
+[2023-07-20 20:19:20] INFO root fetch - processPackages [flordb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flordb-2.6.4.tar.gz tmp/flordb-2.7.0.tar.gz --markdown 20230720/f/flordb/2.6.4-2.7.0/diff.md --exclude *.pyd
+[2023-07-20 20:19:20] INFO root fetch - processPackages [lswifi]: executing diffoscope
+[2023-07-20 20:19:20] INFO root fetch - processPackages [lswifi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lswifi-0.1.8.tar.gz tmp/lswifi-0.1.9.tar.gz --markdown 20230720/l/lswifi/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-20 20:19:20] INFO root fetch - processPackages [gammarer.aws-secure-log-bucket]: executing diffoscope
+[2023-07-20 20:19:20] INFO root fetch - processPackages [gammarer.aws-secure-log-bucket]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gammarer.aws-secure-log-bucket-0.9.2.tar.gz tmp/gammarer.aws-secure-log-bucket-0.9.3.tar.gz --markdown 20230720/g/gammarer.aws-secure-log-bucket/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-07-20 20:19:20] INFO root fetch - processPackages [potpourri3d]: Downloading https://files.pythonhosted.org/packages/81/09/a8daa4ac0726e5c17819a2f873d5e5f24b54d620b8fd71baf1e751ad5912/potpourri3d-1.0.0.tar.gz
+[2023-07-20 20:19:20] INFO root fetch - processPackages [phidl]: executing diffoscope
+[2023-07-20 20:19:20] INFO root fetch - processPackages [phidl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phidl-1.6.3.tar.gz tmp/phidl-1.6.4.tar.gz --markdown 20230720/p/phidl/1.6.3-1.6.4/diff.md --exclude *.pyd
+[2023-07-20 20:19:20] INFO root fetch - processPackages [potpourri3d]: executing diffoscope
+[2023-07-20 20:19:20] INFO root fetch - processPackages [potpourri3d]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/potpourri3d-0.0.8.tar.gz tmp/potpourri3d-1.0.0.tar.gz --markdown 20230720/p/potpourri3d/0.0.8-1.0.0/diff.md --exclude *.pyd
+[2023-07-20 20:19:21] INFO root fetch - processPackages [gammarer.aws-secure-cloudfront-origin-bucket]: Remove: archive file [/home/abi/fetcher/tmp/gammarer.aws-secure-cloudfront-origin-bucket-0.6.1.tar.gz]
+[2023-07-20 20:19:21] INFO root fetch - processPackages [gammarer.aws-secure-cloudfront-origin-bucket]: Remove: archive file [/home/abi/fetcher/tmp/gammarer.aws-secure-cloudfront-origin-bucket-0.6.2.tar.gz]
+[2023-07-20 20:19:21] INFO root fetch - processPackages [gammarer.aws-secure-cloudfront-origin-bucket]: Start processing: streams-py
+[2023-07-20 20:19:21] INFO root fetch - main [MainThread]: End processing [gammarer.aws-secure-cloudfront-origin-bucket]: success
+[2023-07-20 20:19:21] INFO root fetch - processPackages [streams-py]: New version: [0.3] Old Version: [0.2]
+[2023-07-20 20:19:21] INFO root fetch - processPackages [gammarer.aws-secure-flow-log-bucket]: Remove: archive file [/home/abi/fetcher/tmp/gammarer.aws-secure-flow-log-bucket-0.3.2.tar.gz]
+[2023-07-20 20:19:21] INFO root fetch - processPackages [gammarer.aws-secure-flow-log-bucket]: Remove: archive file [/home/abi/fetcher/tmp/gammarer.aws-secure-flow-log-bucket-0.3.3.tar.gz]
+[2023-07-20 20:19:21] INFO root fetch - processPackages [gammarer.aws-secure-flow-log-bucket]: Start processing: anyscale
+[2023-07-20 20:19:21] INFO root fetch - main [MainThread]: End processing [gammarer.aws-secure-flow-log-bucket]: success
+[2023-07-20 20:19:21] INFO root fetch - processPackages [anyscale]: New version: [0.5.99] Old Version: [0.5.98]
+[2023-07-20 20:19:21] INFO root fetch - processPackages [streams-py]: Downloading https://files.pythonhosted.org/packages/d5/d9/f88de3a72999870fc8c29b618553ce297de03ae950c3913fedccce2c2456/streams_py-0.2.tar.gz
+[2023-07-20 20:19:21] INFO root fetch - processPackages [anyscale]: Downloading https://files.pythonhosted.org/packages/0d/64/8bf86d6d00617c61b31e91a8455e6fb08278056ee4d72abf6317509d592e/anyscale-0.5.98.tar.gz
+[2023-07-20 20:19:21] INFO root fetch - processPackages [estyp]: Remove: archive file [/home/abi/fetcher/tmp/estyp-0.1.0.tar.gz]
+[2023-07-20 20:19:21] INFO root fetch - processPackages [estyp]: Remove: archive file [/home/abi/fetcher/tmp/estyp-0.2.4.tar.gz]
+[2023-07-20 20:19:21] INFO root fetch - processPackages [estyp]: Start processing: responsecurve
+[2023-07-20 20:19:21] INFO root fetch - main [MainThread]: End processing [estyp]: success
+[2023-07-20 20:19:22] INFO root fetch - processPackages [syngen]: Remove: archive file [/home/abi/fetcher/tmp/syngen-0.1.8.tar.gz]
+[2023-07-20 20:19:22] INFO root fetch - processPackages [syngen]: Remove: archive file [/home/abi/fetcher/tmp/syngen-0.1.9.tar.gz]
+[2023-07-20 20:19:22] INFO root fetch - processPackages [syngen]: Start processing: types-vobject
+[2023-07-20 20:19:22] INFO root fetch - main [MainThread]: End processing [syngen]: success
+[2023-07-20 20:19:22] INFO root fetch - processPackages [responsecurve]: New version: [0.1] Old Version: [0.0.0]
+[2023-07-20 20:19:22] INFO root fetch - processPackages [gammarer.aws-secure-log-bucket]: Remove: archive file [/home/abi/fetcher/tmp/gammarer.aws-secure-log-bucket-0.9.2.tar.gz]
+[2023-07-20 20:19:22] INFO root fetch - processPackages [gammarer.aws-secure-log-bucket]: Remove: archive file [/home/abi/fetcher/tmp/gammarer.aws-secure-log-bucket-0.9.3.tar.gz]
+[2023-07-20 20:19:22] INFO root fetch - main [MainThread]: End processing [gammarer.aws-secure-log-bucket]: success
+[2023-07-20 20:19:22] INFO root fetch - processPackages [streams-py]: Downloading https://files.pythonhosted.org/packages/57/5b/58d74dee487f375807f0c6c992e3d062dda61c49c423437376bfebd99a4f/streams_py-0.3.tar.gz
+[2023-07-20 20:19:22] INFO root fetch - processPackages [types-vobject]: New version: [0.9.8.9] Old Version: [0.9.8.8]
+[2023-07-20 20:19:22] INFO root fetch - processPackages [lswifi]: Remove: archive file [/home/abi/fetcher/tmp/lswifi-0.1.8.tar.gz]
+[2023-07-20 20:19:22] INFO root fetch - processPackages [lswifi]: Remove: archive file [/home/abi/fetcher/tmp/lswifi-0.1.9.tar.gz]
+[2023-07-20 20:19:22] INFO root fetch - main [MainThread]: End processing [lswifi]: success
+[2023-07-20 20:19:22] INFO root fetch - processPackages [responsecurve]: Downloading https://files.pythonhosted.org/packages/76/c0/86df4a08e26bc7ae9f6dc723d1b9a917d40d65518d49228af361f6e15f56/responsecurve-0.0.0.tar.gz
+[2023-07-20 20:19:22] INFO root fetch - processPackages [streams-py]: executing diffoscope
+[2023-07-20 20:19:22] INFO root fetch - processPackages [streams-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streams_py-0.2.tar.gz tmp/streams_py-0.3.tar.gz --markdown 20230720/s/streams-py/0.2-0.3/diff.md --exclude *.pyd
+[2023-07-20 20:19:22] INFO root fetch - processPackages [core-validator]: Remove: archive file [/home/abi/fetcher/tmp/core_validator-0.0.2.tar.gz]
+[2023-07-20 20:19:22] INFO root fetch - processPackages [core-validator]: Remove: archive file [/home/abi/fetcher/tmp/core_validator-0.1.0.tar.gz]
+[2023-07-20 20:19:22] INFO root fetch - main [MainThread]: End processing [core-validator]: success
+[2023-07-20 20:19:22] INFO root fetch - processPackages [flordb]: Remove: archive file [/home/abi/fetcher/tmp/flordb-2.6.4.tar.gz]
+[2023-07-20 20:19:22] INFO root fetch - processPackages [flordb]: Remove: archive file [/home/abi/fetcher/tmp/flordb-2.7.0.tar.gz]
+[2023-07-20 20:19:22] INFO root fetch - main [MainThread]: End processing [flordb]: success
+[2023-07-20 20:19:22] INFO root fetch - processPackages [anyscale]: Downloading https://files.pythonhosted.org/packages/61/f0/917cf3e18c478eaae2e53db68c9d20607edab461774054c8f509cc4885b6/anyscale-0.5.99.tar.gz
+[2023-07-20 20:19:22] INFO root fetch - processPackages [types-vobject]: Downloading https://files.pythonhosted.org/packages/91/e8/e430bd67861337e957693c40f26786bee44239196b5449d947311bb5c867/types-vobject-0.9.8.8.tar.gz
+[2023-07-20 20:19:22] INFO root fetch - processPackages [anyscale]: executing diffoscope
+[2023-07-20 20:19:22] INFO root fetch - processPackages [anyscale]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anyscale-0.5.98.tar.gz tmp/anyscale-0.5.99.tar.gz --markdown 20230720/a/anyscale/0.5.98-0.5.99/diff.md --exclude *.pyd
+[2023-07-20 20:19:22] INFO root fetch - processPackages [phidl]: Remove: archive file [/home/abi/fetcher/tmp/phidl-1.6.3.tar.gz]
+[2023-07-20 20:19:22] INFO root fetch - processPackages [phidl]: Remove: archive file [/home/abi/fetcher/tmp/phidl-1.6.4.tar.gz]
+[2023-07-20 20:19:22] INFO root fetch - main [MainThread]: End processing [phidl]: success
+[2023-07-20 20:19:22] INFO root fetch - processPackages [responsecurve]: Downloading https://files.pythonhosted.org/packages/ee/cd/b76dbca58f761c0bb32cc5a6903c999c12e0e871b2088c327cd0d57325ce/responsecurve-0.1.tar.gz
+[2023-07-20 20:19:22] INFO root fetch - processPackages [responsecurve]: executing diffoscope
+[2023-07-20 20:19:22] INFO root fetch - processPackages [responsecurve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/responsecurve-0.0.0.tar.gz tmp/responsecurve-0.1.tar.gz --markdown 20230720/r/responsecurve/0.0.0-0.1/diff.md --exclude *.pyd
+[2023-07-20 20:19:22] INFO root fetch - processPackages [types-vobject]: Downloading https://files.pythonhosted.org/packages/45/06/a3b0f58922e35d788b976e398b3cc8d312f21507ef1e8f75299d871b9559/types-vobject-0.9.8.9.tar.gz
+[2023-07-20 20:19:23] INFO root fetch - processPackages [types-vobject]: executing diffoscope
+[2023-07-20 20:19:23] INFO root fetch - processPackages [types-vobject]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-vobject-0.9.8.8.tar.gz tmp/types-vobject-0.9.8.9.tar.gz --markdown 20230720/t/types-vobject/0.9.8.8-0.9.8.9/diff.md --exclude *.pyd
+[2023-07-20 20:19:23] INFO root fetch - processPackages [streams-py]: Remove: archive file [/home/abi/fetcher/tmp/streams_py-0.2.tar.gz]
+[2023-07-20 20:19:23] INFO root fetch - processPackages [streams-py]: Remove: archive file [/home/abi/fetcher/tmp/streams_py-0.3.tar.gz]
+[2023-07-20 20:19:23] INFO root fetch - main [MainThread]: End processing [streams-py]: success
+[2023-07-20 20:19:23] INFO root fetch - processPackages [responsecurve]: Remove: archive file [/home/abi/fetcher/tmp/responsecurve-0.0.0.tar.gz]
+[2023-07-20 20:19:23] INFO root fetch - processPackages [responsecurve]: Remove: archive file [/home/abi/fetcher/tmp/responsecurve-0.1.tar.gz]
+[2023-07-20 20:19:23] INFO root fetch - main [MainThread]: End processing [responsecurve]: success
+[2023-07-20 20:19:24] INFO root fetch - processPackages [types-vobject]: Remove: archive file [/home/abi/fetcher/tmp/types-vobject-0.9.8.8.tar.gz]
+[2023-07-20 20:19:24] INFO root fetch - processPackages [types-vobject]: Remove: archive file [/home/abi/fetcher/tmp/types-vobject-0.9.8.9.tar.gz]
+[2023-07-20 20:19:24] INFO root fetch - main [MainThread]: End processing [types-vobject]: success
+[2023-07-20 20:19:25] INFO root fetch - processPackages [potpourri3d]: Remove: archive file [/home/abi/fetcher/tmp/potpourri3d-0.0.8.tar.gz]
+[2023-07-20 20:19:25] INFO root fetch - processPackages [potpourri3d]: Remove: archive file [/home/abi/fetcher/tmp/potpourri3d-1.0.0.tar.gz]
+[2023-07-20 20:19:25] INFO root fetch - main [MainThread]: End processing [potpourri3d]: success
+[2023-07-20 20:19:28] INFO root fetch - processPackages [anyscale]: Remove: archive file [/home/abi/fetcher/tmp/anyscale-0.5.98.tar.gz]
+[2023-07-20 20:19:28] INFO root fetch - processPackages [anyscale]: Remove: archive file [/home/abi/fetcher/tmp/anyscale-0.5.99.tar.gz]
+[2023-07-20 20:19:28] INFO root fetch - main [MainThread]: End processing [anyscale]: success
+[2023-07-20 20:19:28] INFO root fetch - main [MainThread]: Store serial: [18970736]
