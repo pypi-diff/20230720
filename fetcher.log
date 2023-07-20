@@ -7201,3 +7201,135 @@ AssertionError: tmp/verify4py-test-0.1.7.tar.gz does not exist
 [2023-07-20 13:53:23] INFO root fetch - processPackages [music-assistant-frontend]: Remove: archive file [/home/abi/fetcher/tmp/music-assistant-frontend-2.0.3.tar.gz]
 [2023-07-20 13:53:23] INFO root fetch - main [MainThread]: End processing [music-assistant-frontend]: success
 [2023-07-20 13:53:23] INFO root fetch - main [MainThread]: Store serial: [18965972]
+[2023-07-20 13:58:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18965972]
+[2023-07-20 13:58:32] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-07-20 13:58:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-azure-native
+[2023-07-20 13:58:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: embellish-folder
+[2023-07-20 13:58:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pt-names
+[2023-07-20 13:58:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: xxccode
+[2023-07-20 13:58:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: zenml
+[2023-07-20 13:58:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ffstreamer
+[2023-07-20 13:58:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: robotframework-reportportal-updated
+[2023-07-20 13:58:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: test-setup-test
+[2023-07-20 13:58:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: python-define
+[2023-07-20 13:58:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cognite-sdk
+[2023-07-20 13:58:32] INFO root fetch - processPackages [zenml]: New version: [0.9.0] Old Version: [0.8.1rc0]
+[2023-07-20 13:58:32] INFO root fetch - processPackages [test-setup-test]: New version: [1.0.8] Old Version: [1.0.6]
+[2023-07-20 13:58:32] INFO root fetch - processPackages [pt-names]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-20 13:58:32] INFO root fetch - processPackages [ffstreamer]: New version: [1.0.0] Old Version: [0.0.5]
+[2023-07-20 13:58:32] INFO root fetch - processPackages [embellish-folder]: New version: [0.9.0] Old Version: [0.11.0]
+[2023-07-20 13:58:32] INFO root fetch - processPackages [cognite-sdk]: New version: [6.9.0] Old Version: [6.8.7]
+[2023-07-20 13:58:32] INFO root fetch - processPackages [python-define]: New version: [1.1.2] Old Version: [1.0.2]
+[2023-07-20 13:58:32] INFO root fetch - processPackages [robotframework-reportportal-updated]: New version: [1.1.8] Old Version: [1.1.7]
+[2023-07-20 13:58:32] INFO root fetch - processPackages [pulumi-azure-native]: New version: [2.1.1a1689851370] Old Version: [2.1.0]
+[2023-07-20 13:58:32] ERROR root fetch - processPackages [xxccode]: Unable to get metadata: No such project 'xxccode'
+[2023-07-20 13:58:32] INFO root fetch - processPackages [xxccode]: Start processing: extendable-pydantic
+[2023-07-20 13:58:32] INFO root fetch - main [MainThread]: End processing [xxccode] error
+[2023-07-20 13:58:33] INFO root fetch - processPackages [cognite-sdk]: Downloading https://files.pythonhosted.org/packages/78/2a/28d91cf6eb642a8d6c362100bf353e9fe16ae3c12d44d7bf02683979e066/cognite_sdk-6.8.7.tar.gz
+[2023-07-20 13:58:33] INFO root fetch - processPackages [test-setup-test]: Downloading https://files.pythonhosted.org/packages/7e/a5/a1842c9ad3f3d8ed18980204a83b62a485fdff3acb1f5ffd8f0392ac8c1e/test_setup_test-1.0.6.tar.gz
+[2023-07-20 13:58:33] INFO root fetch - processPackages [extendable-pydantic]: New version: [1.0.0] Old Version: [0.0.5]
+[2023-07-20 13:58:33] INFO root fetch - processPackages [ffstreamer]: Downloading https://files.pythonhosted.org/packages/3d/24/f8e7ba899eb6b800facd5b94239f7331090c0c3c86b3cad060f558eadba8/ffstreamer-0.0.5-py3-none-any.whl
+[2023-07-20 13:58:33] INFO root fetch - processPackages [zenml]: Downloading https://files.pythonhosted.org/packages/a4/ba/9dd131570801a06d93e9cd4378d1f0d8501cf5e70ba8de510e199e4d3cc5/zenml-0.8.1rc0.tar.gz
+[2023-07-20 13:58:33] INFO root fetch - processPackages [embellish-folder]: Downloading https://files.pythonhosted.org/packages/6d/2d/b435c0d8a6c88aa601a2cb90d751ba06615d80a7166f91cd5d0e01e2d035/embellish-folder-0.11.0.tar.gz
+[2023-07-20 13:58:33] INFO root fetch - processPackages [python-define]: Downloading https://files.pythonhosted.org/packages/53/98/b40b2b414167e2d3718df6d328b8ade309e799c536e150ccbbf56fff46ea/python-define-1.0.2.tar.gz
+[2023-07-20 13:58:33] INFO root fetch - processPackages [pt-names]: Downloading https://files.pythonhosted.org/packages/5d/cf/b49cc4c06d10d62a45bfceeea8d9131fed74ae496e5e7a7163b0d7b8f8f1/pt_names-0.1.0.tar.gz
+[2023-07-20 13:58:33] INFO root fetch - processPackages [pulumi-azure-native]: Downloading https://files.pythonhosted.org/packages/90/a3/05f78c2c18f849e862b1336cb2a56c5a5cc9bb5abad475fb55c01acbf11e/pulumi_azure_native-2.1.0.tar.gz
+[2023-07-20 13:58:33] INFO root fetch - processPackages [extendable-pydantic]: Downloading https://files.pythonhosted.org/packages/e3/83/a9beb52de2b8c33abdf95577118cbd4e48d95469bf170d54b4842b3d07ae/extendable_pydantic-0.0.5.tar.gz
+[2023-07-20 13:58:33] WARNING root fetch - processPackages [pulumi-azure-native]: Skipping package: exceeds size limit 21733606>=10485760
+[2023-07-20 13:58:33] INFO root fetch - processPackages [pulumi-azure-native]: Start processing: Vpro
+[2023-07-20 13:58:33] INFO root fetch - main [MainThread]: End processing [pulumi-azure-native] error
+[2023-07-20 13:58:33] INFO root fetch - processPackages [test-setup-test]: Downloading https://files.pythonhosted.org/packages/bc/ea/c4d47a90cdb1cf5374be3c13076264c14a7248d180c34427d1cb4fb2bd77/test_setup_test-1.0.8.tar.gz
+[2023-07-20 13:58:33] INFO root fetch - processPackages [robotframework-reportportal-updated]: Downloading https://files.pythonhosted.org/packages/1e/ce/5a336dbde023903ef16b3f1386ec97cac934d86b66fcbc1a01104f993aee/robotframework-reportportal_updated-1.1.8.tar.gz
+[2023-07-20 13:58:33] INFO root fetch - processPackages [Vpro]: New version: [0.26] Old Version: [0.25]
+[2023-07-20 13:58:33] INFO root fetch - processPackages [cognite-sdk]: Downloading https://files.pythonhosted.org/packages/ee/0f/6b014b445f08f43cc544922b182c361674f897642deae49079706e127ce0/cognite_sdk-6.9.0.tar.gz
+[2023-07-20 13:58:33] INFO root fetch - processPackages [ffstreamer]: Downloading https://files.pythonhosted.org/packages/24/a8/bb3f50bb1ae93d6cd0c3ca506673467aef88332d9f456e35dc908c8e8d30/ffstreamer-1.0.0-py3-none-any.whl
+[2023-07-20 13:58:33] INFO root fetch - processPackages [test-setup-test]: executing diffoscope
+[2023-07-20 13:58:33] INFO root fetch - processPackages [test-setup-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/test_setup_test-1.0.6.tar.gz tmp/test_setup_test-1.0.8.tar.gz --markdown 20230720/t/test-setup-test/1.0.6-1.0.8/diff.md --exclude *.pyd
+[2023-07-20 13:58:33] INFO root fetch - processPackages [Vpro]: Downloading https://files.pythonhosted.org/packages/92/9d/ff21a6c1806b9eeb3e35a7d2dd2e80e2e4f5a09e4671aecc6893084c0ae1/Vpro-0.25.tar.gz
+[2023-07-20 13:58:33] INFO root fetch - processPackages [robotframework-reportportal-updated]: executing diffoscope
+[2023-07-20 13:58:33] INFO root fetch - processPackages [robotframework-reportportal-updated]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotframework-reportportal_updated-1.1.7.tar.gz tmp/robotframework-reportportal_updated-1.1.8.tar.gz --markdown 20230720/r/robotframework-reportportal-updated/1.1.7-1.1.8/diff.md --exclude *.pyd
+[2023-07-20 13:58:33] INFO root fetch - processPackages [embellish-folder]: Downloading https://files.pythonhosted.org/packages/8e/1e/391d33f081effc9b23788160c353a7d224fdaa64fc88021d8c519ef99e42/embellish-folder-0.9.0.tar.gz
+[2023-07-20 13:58:33] INFO root fetch - processPackages [cognite-sdk]: executing diffoscope
+[2023-07-20 13:58:33] INFO root fetch - processPackages [cognite-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cognite_sdk-6.8.7.tar.gz tmp/cognite_sdk-6.9.0.tar.gz --markdown 20230720/c/cognite-sdk/6.8.7-6.9.0/diff.md --exclude *.pyd
+[2023-07-20 13:58:33] INFO root fetch - processPackages [python-define]: Downloading https://files.pythonhosted.org/packages/38/72/eb89e52ab6adb7eee0d69bb6078b33e641cb76fb65e6becbef54db42d3d7/python-define-1.1.2.tar.gz
+[2023-07-20 13:58:33] INFO root fetch - processPackages [ffstreamer]: executing diffoscope
+[2023-07-20 13:58:33] INFO root fetch - processPackages [ffstreamer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ffstreamer-0.0.5-py3-none-any.whl.zip tmp/ffstreamer-1.0.0-py3-none-any.whl.zip --markdown 20230720/f/ffstreamer/0.0.5-1.0.0/diff.md --exclude *.pyd
+[2023-07-20 13:58:33] INFO root fetch - processPackages [pt-names]: Downloading https://files.pythonhosted.org/packages/63/36/d1ae3fd427124dc66a0b7d9cd738171dd00195053f5fbecf1141ecdc18a5/pt_names-0.1.1.tar.gz
+[2023-07-20 13:58:33] INFO root fetch - processPackages [python-define]: executing diffoscope
+[2023-07-20 13:58:33] INFO root fetch - processPackages [python-define]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-define-1.0.2.tar.gz tmp/python-define-1.1.2.tar.gz --markdown 20230720/p/python-define/1.0.2-1.1.2/diff.md --exclude *.pyd
+[2023-07-20 13:58:33] INFO root fetch - processPackages [extendable-pydantic]: Downloading https://files.pythonhosted.org/packages/b9/2f/9ff196b143a2a3e441b5f4342c38536e09268ae496ef152dc57a6f877efd/extendable_pydantic-1.0.0.tar.gz
+[2023-07-20 13:58:33] INFO root fetch - processPackages [embellish-folder]: executing diffoscope
+[2023-07-20 13:58:33] INFO root fetch - processPackages [embellish-folder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/embellish-folder-0.11.0.tar.gz tmp/embellish-folder-0.9.0.tar.gz --markdown 20230720/e/embellish-folder/0.11.0-0.9.0/diff.md --exclude *.pyd
+[2023-07-20 13:58:34] INFO root fetch - processPackages [extendable-pydantic]: executing diffoscope
+[2023-07-20 13:58:34] INFO root fetch - processPackages [extendable-pydantic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/extendable_pydantic-0.0.5.tar.gz tmp/extendable_pydantic-1.0.0.tar.gz --markdown 20230720/e/extendable-pydantic/0.0.5-1.0.0/diff.md --exclude *.pyd
+[2023-07-20 13:58:34] INFO root fetch - processPackages [Vpro]: Downloading https://files.pythonhosted.org/packages/d7/7b/c26a8431db95064c30375a52cdf011147bcd88570152050921d1fc52eaab/Vpro-0.26.tar.gz
+[2023-07-20 13:58:34] INFO root fetch - processPackages [pt-names]: executing diffoscope
+[2023-07-20 13:58:34] INFO root fetch - processPackages [pt-names]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pt_names-0.1.0.tar.gz tmp/pt_names-0.1.1.tar.gz --markdown 20230720/p/pt-names/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-20 13:58:34] INFO root fetch - processPackages [zenml]: Downloading https://files.pythonhosted.org/packages/2c/42/78e070bea92d65044e034f70260230101d041ea1f99d781d2f29f7c995c5/zenml-0.9.0.tar.gz
+[2023-07-20 13:58:34] INFO root fetch - processPackages [Vpro]: executing diffoscope
+[2023-07-20 13:58:34] INFO root fetch - processPackages [Vpro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Vpro-0.25.tar.gz tmp/Vpro-0.26.tar.gz --markdown 20230720/V/Vpro/0.25-0.26/diff.md --exclude *.pyd
+[2023-07-20 13:58:34] INFO root fetch - processPackages [robotframework-reportportal-updated]: Remove: archive file [/home/abi/fetcher/tmp/robotframework-reportportal_updated-1.1.7.tar.gz]
+[2023-07-20 13:58:34] INFO root fetch - processPackages [robotframework-reportportal-updated]: Remove: archive file [/home/abi/fetcher/tmp/robotframework-reportportal_updated-1.1.8.tar.gz]
+[2023-07-20 13:58:34] INFO root fetch - processPackages [robotframework-reportportal-updated]: Start processing: htscf
+[2023-07-20 13:58:34] INFO root fetch - main [MainThread]: End processing [robotframework-reportportal-updated]: success
+[2023-07-20 13:58:34] INFO root fetch - processPackages [htscf]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-20 13:58:35] INFO root fetch - processPackages [test-setup-test]: Remove: archive file [/home/abi/fetcher/tmp/test_setup_test-1.0.6.tar.gz]
+[2023-07-20 13:58:35] INFO root fetch - processPackages [test-setup-test]: Remove: archive file [/home/abi/fetcher/tmp/test_setup_test-1.0.8.tar.gz]
+[2023-07-20 13:58:35] INFO root fetch - processPackages [test-setup-test]: Start processing: ensmallen
+[2023-07-20 13:58:35] INFO root fetch - main [MainThread]: End processing [test-setup-test]: success
+[2023-07-20 13:58:35] INFO root fetch - processPackages [htscf]: Downloading https://files.pythonhosted.org/packages/c8/e9/433ebd24b2457e1ffcd9a6f543cd43dd34bcf7322cf71c2fe114c40ff539/htscf-0.0.8.tar.gz
+[2023-07-20 13:58:35] INFO root fetch - processPackages [ensmallen]: New version: [0.8.9] Old Version: [0.8.8]
+[2023-07-20 13:58:35] INFO root fetch - processPackages [zenml]: executing diffoscope
+[2023-07-20 13:58:35] INFO root fetch - processPackages [zenml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zenml-0.8.1rc0.tar.gz tmp/zenml-0.9.0.tar.gz --markdown 20230720/z/zenml/0.8.1rc0-0.9.0/diff.md --exclude *.pyd
+[2023-07-20 13:58:35] INFO root fetch - processPackages [htscf]: Downloading https://files.pythonhosted.org/packages/7f/35/bbaf42ecce41b0a1aaec9012e9c22f97ede668deb3ddeeef6fb0e250f1fb/htscf-0.0.9.tar.gz
+[2023-07-20 13:58:35] INFO root fetch - processPackages [ensmallen]: Downloading https://files.pythonhosted.org/packages/75/07/70c25877db695ae02b4a944b722513282eaca44b6bec77e09bed7e8bea0c/ensmallen-0.8.8-cp37-abi3-manylinux_2_12_x86_64.manylinux2010_x86_64.whl
+[2023-07-20 13:58:35] WARNING root fetch - processPackages [ensmallen]: Skipping package: exceeds size limit 18826030>=10485760
+[2023-07-20 13:58:35] INFO root fetch - processPackages [ensmallen]: Start processing: aries-cloudcontroller
+[2023-07-20 13:58:35] INFO root fetch - main [MainThread]: End processing [ensmallen] error
+[2023-07-20 13:58:35] INFO root fetch - processPackages [htscf]: executing diffoscope
+[2023-07-20 13:58:35] INFO root fetch - processPackages [extendable-pydantic]: Remove: archive file [/home/abi/fetcher/tmp/extendable_pydantic-0.0.5.tar.gz]
+[2023-07-20 13:58:35] INFO root fetch - processPackages [htscf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/htscf-0.0.8.tar.gz tmp/htscf-0.0.9.tar.gz --markdown 20230720/h/htscf/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-20 13:58:35] INFO root fetch - processPackages [extendable-pydantic]: Remove: archive file [/home/abi/fetcher/tmp/extendable_pydantic-1.0.0.tar.gz]
+[2023-07-20 13:58:35] INFO root fetch - processPackages [extendable-pydantic]: Start processing: uncertainty-datatypes
+[2023-07-20 13:58:35] INFO root fetch - main [MainThread]: End processing [extendable-pydantic]: success
+[2023-07-20 13:58:35] INFO root fetch - processPackages [embellish-folder]: Remove: archive file [/home/abi/fetcher/tmp/embellish-folder-0.11.0.tar.gz]
+[2023-07-20 13:58:35] INFO root fetch - processPackages [embellish-folder]: Remove: archive file [/home/abi/fetcher/tmp/embellish-folder-0.9.0.tar.gz]
+[2023-07-20 13:58:35] INFO root fetch - main [MainThread]: End processing [embellish-folder]: success
+[2023-07-20 13:58:35] INFO root fetch - processPackages [aries-cloudcontroller]: New version: [0.8.1rc9] Old Version: [0.8.1rc8]
+[2023-07-20 13:58:35] INFO root fetch - processPackages [python-define]: Remove: archive file [/home/abi/fetcher/tmp/python-define-1.0.2.tar.gz]
+[2023-07-20 13:58:35] INFO root fetch - processPackages [python-define]: Remove: archive file [/home/abi/fetcher/tmp/python-define-1.1.2.tar.gz]
+[2023-07-20 13:58:35] INFO root fetch - main [MainThread]: End processing [python-define]: success
+[2023-07-20 13:58:35] INFO root fetch - processPackages [Vpro]: Remove: archive file [/home/abi/fetcher/tmp/Vpro-0.25.tar.gz]
+[2023-07-20 13:58:35] INFO root fetch - processPackages [Vpro]: Remove: archive file [/home/abi/fetcher/tmp/Vpro-0.26.tar.gz]
+[2023-07-20 13:58:35] INFO root fetch - main [MainThread]: End processing [Vpro]: success
+[2023-07-20 13:58:35] INFO root fetch - processPackages [ffstreamer]: Remove: archive file [/home/abi/fetcher/tmp/ffstreamer-0.0.5-py3-none-any.whl.zip]
+[2023-07-20 13:58:35] INFO root fetch - processPackages [ffstreamer]: Remove: archive file [/home/abi/fetcher/tmp/ffstreamer-1.0.0-py3-none-any.whl.zip]
+[2023-07-20 13:58:35] INFO root fetch - main [MainThread]: End processing [ffstreamer]: success
+[2023-07-20 13:58:35] INFO root fetch - processPackages [uncertainty-datatypes]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-20 13:58:35] INFO root fetch - processPackages [aries-cloudcontroller]: Downloading https://files.pythonhosted.org/packages/6e/5f/92635f2b2a09fea036b820ffba704d64908a682b5856d4c26a7b46afa822/aries_cloudcontroller-0.8.1rc8.tar.gz
+[2023-07-20 13:58:35] INFO root fetch - processPackages [uncertainty-datatypes]: Downloading https://files.pythonhosted.org/packages/47/63/9686e1e4a70487f9723de948b123cc39a4acbc9e1dfbbb400a0a5e107698/uncertainty-datatypes-1.0.8.tar.gz
+[2023-07-20 13:58:35] INFO root fetch - processPackages [cognite-sdk]: Remove: archive file [/home/abi/fetcher/tmp/cognite_sdk-6.8.7.tar.gz]
+[2023-07-20 13:58:35] INFO root fetch - processPackages [cognite-sdk]: Remove: archive file [/home/abi/fetcher/tmp/cognite_sdk-6.9.0.tar.gz]
+[2023-07-20 13:58:35] INFO root fetch - main [MainThread]: End processing [cognite-sdk]: success
+[2023-07-20 13:58:35] INFO root fetch - processPackages [pt-names]: Remove: archive file [/home/abi/fetcher/tmp/pt_names-0.1.0.tar.gz]
+[2023-07-20 13:58:35] INFO root fetch - processPackages [pt-names]: Remove: archive file [/home/abi/fetcher/tmp/pt_names-0.1.1.tar.gz]
+[2023-07-20 13:58:35] INFO root fetch - main [MainThread]: End processing [pt-names]: success
+[2023-07-20 13:58:36] INFO root fetch - processPackages [aries-cloudcontroller]: Downloading https://files.pythonhosted.org/packages/08/25/c5d58d68eaa8606c32cfc8bd56ff5320046335bd4845d3a2c9a5ee19764f/aries_cloudcontroller-0.8.1rc9.tar.gz
+[2023-07-20 13:58:36] INFO root fetch - processPackages [uncertainty-datatypes]: Downloading https://files.pythonhosted.org/packages/a2/0e/68bea11827fa0851563450359afc1526f80bfff934f592a362c8e9c4e660/uncertainty-datatypes-1.0.9.tar.gz
+[2023-07-20 13:58:36] INFO root fetch - processPackages [aries-cloudcontroller]: executing diffoscope
+[2023-07-20 13:58:36] INFO root fetch - processPackages [aries-cloudcontroller]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aries_cloudcontroller-0.8.1rc8.tar.gz tmp/aries_cloudcontroller-0.8.1rc9.tar.gz --markdown 20230720/a/aries-cloudcontroller/0.8.1rc8-0.8.1rc9/diff.md --exclude *.pyd
+[2023-07-20 13:58:36] INFO root fetch - processPackages [uncertainty-datatypes]: executing diffoscope
+[2023-07-20 13:58:36] INFO root fetch - processPackages [uncertainty-datatypes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uncertainty-datatypes-1.0.8.tar.gz tmp/uncertainty-datatypes-1.0.9.tar.gz --markdown 20230720/u/uncertainty-datatypes/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-20 13:58:36] INFO root fetch - processPackages [htscf]: Remove: archive file [/home/abi/fetcher/tmp/htscf-0.0.8.tar.gz]
+[2023-07-20 13:58:36] INFO root fetch - processPackages [htscf]: Remove: archive file [/home/abi/fetcher/tmp/htscf-0.0.9.tar.gz]
+[2023-07-20 13:58:36] INFO root fetch - main [MainThread]: End processing [htscf]: success
+[2023-07-20 13:58:37] INFO root fetch - processPackages [uncertainty-datatypes]: Remove: archive file [/home/abi/fetcher/tmp/uncertainty-datatypes-1.0.8.tar.gz]
+[2023-07-20 13:58:37] INFO root fetch - processPackages [uncertainty-datatypes]: Remove: archive file [/home/abi/fetcher/tmp/uncertainty-datatypes-1.0.9.tar.gz]
+[2023-07-20 13:58:37] INFO root fetch - main [MainThread]: End processing [uncertainty-datatypes]: success
+[2023-07-20 13:58:38] INFO root fetch - processPackages [aries-cloudcontroller]: Remove: archive file [/home/abi/fetcher/tmp/aries_cloudcontroller-0.8.1rc8.tar.gz]
+[2023-07-20 13:58:38] INFO root fetch - processPackages [aries-cloudcontroller]: Remove: archive file [/home/abi/fetcher/tmp/aries_cloudcontroller-0.8.1rc9.tar.gz]
+[2023-07-20 13:58:38] INFO root fetch - main [MainThread]: End processing [aries-cloudcontroller]: success
+[2023-07-20 13:58:39] INFO root fetch - processPackages [zenml]: Remove: archive file [/home/abi/fetcher/tmp/zenml-0.8.1rc0.tar.gz]
+[2023-07-20 13:58:39] INFO root fetch - processPackages [zenml]: Remove: archive file [/home/abi/fetcher/tmp/zenml-0.9.0.tar.gz]
+[2023-07-20 13:58:39] INFO root fetch - main [MainThread]: End processing [zenml]: success
+[2023-07-20 13:58:39] INFO root fetch - main [MainThread]: Store serial: [18966021]
