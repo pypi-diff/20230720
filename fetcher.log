@@ -1584,3 +1584,228 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-07-20 10:56:51] INFO root fetch - processPackages [adbench]: Remove: archive file [/home/abi/fetcher/tmp/adbench-0.1.4.tar.gz]
 [2023-07-20 10:56:51] INFO root fetch - main [MainThread]: End processing [adbench]: success
 [2023-07-20 10:56:51] INFO root fetch - main [MainThread]: Store serial: [18963549]
+[2023-07-20 11:01:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18963549]
+[2023-07-20 11:02:00] INFO root fetch - main [MainThread]: Found 27 changed packages
+[2023-07-20 11:02:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: petals
+[2023-07-20 11:02:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: finbourne-access-sdk
+[2023-07-20 11:02:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: zit
+[2023-07-20 11:02:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lsst-ctrl-bps-parsl
+[2023-07-20 11:02:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lsst-pex-config
+[2023-07-20 11:02:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: phanos
+[2023-07-20 11:02:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: report-dh
+[2023-07-20 11:02:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mindpet
+[2023-07-20 11:02:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pysqldbm
+[2023-07-20 11:02:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: vectordb
+[2023-07-20 11:02:00] INFO root fetch - processPackages [mindpet]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-20 11:02:00] INFO root fetch - processPackages [petals]: New version: [2.0.0.post2] Old Version: [2.0.0.post1]
+[2023-07-20 11:02:00] INFO root fetch - processPackages [report-dh]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-07-20 11:02:00] INFO root fetch - processPackages [finbourne-access-sdk]: New version: [0.0.815] Old Version: [0.0.616]
+[2023-07-20 11:02:00] INFO root fetch - processPackages [pysqldbm]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-07-20 11:02:00] INFO root fetch - processPackages [lsst-pex-config]: New version: [26.0.0a20230500] Old Version: [26.0.0a20230400]
+[2023-07-20 11:02:00] INFO root fetch - processPackages [lsst-ctrl-bps-parsl]: New version: [26.0.0a20230500] Old Version: [26.0.0a20230400]
+[2023-07-20 11:02:00] INFO root fetch - processPackages [phanos]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-20 11:02:00] INFO root fetch - processPackages [zit]: New version: [0.0.3a9] Old Version: [0.0.3a8]
+[2023-07-20 11:02:00] INFO root fetch - processPackages [vectordb]: New version: [0.0.9.dev2] Old Version: [0.0.9]
+[2023-07-20 11:02:00] INFO root fetch - processPackages [finbourne-access-sdk]: Downloading https://files.pythonhosted.org/packages/22/58/ee379caa00eba72b01ce5884996e3957e85f9db086b5f74209b445963467/finbourne-access-sdk-0.0.616.tar.gz
+[2023-07-20 11:02:00] INFO root fetch - processPackages [pysqldbm]: Downloading https://files.pythonhosted.org/packages/0d/b2/c378d7b043b8a080c8067060c862c68ddcd0f70d8b15d9dd44a466b5871b/pysqldbm-1.0.3.tar.gz
+[2023-07-20 11:02:00] INFO root fetch - processPackages [mindpet]: Downloading https://files.pythonhosted.org/packages/97/79/0be69ada72d01c68c2a5f9f85b54bf6d5163982c95bda27e4bd550d1583f/mindpet-1.0.0.tar.gz
+[2023-07-20 11:02:00] INFO root fetch - processPackages [lsst-ctrl-bps-parsl]: Downloading https://files.pythonhosted.org/packages/35/8c/c122879a959643f033a579ff1b13d2b33ec6c21551ffa1629264c6d3561a/lsst-ctrl-bps-parsl-26.0.0a20230400.tar.gz
+[2023-07-20 11:02:00] INFO root fetch - processPackages [report-dh]: Downloading https://files.pythonhosted.org/packages/ca/61/310c98f28cdee4f9643eebd855676e5c7be6042e137573cdc28768e8f575/report-dh-0.9.1.tar.gz
+[2023-07-20 11:02:01] INFO root fetch - processPackages [zit]: Downloading https://files.pythonhosted.org/packages/9d/b1/feab52c6188b15e420bc52c41b2e6bca0dbd342cf5b12a4e575ae0726fee/zit-0.0.3a8.tar.gz
+[2023-07-20 11:02:01] INFO root fetch - processPackages [lsst-pex-config]: Downloading https://files.pythonhosted.org/packages/d7/0c/0464eaef88f46db58e9972a38d5221f68038faa115510c0cb95799422145/lsst-pex-config-26.0.0a20230400.tar.gz
+[2023-07-20 11:02:01] INFO root fetch - processPackages [phanos]: Downloading https://files.pythonhosted.org/packages/82/61/ea2e2161b155f556cdbe8e64085cc5055e1702ac6f09d6e212e4f3070a15/phanos-0.0.8.tar.gz
+[2023-07-20 11:02:01] INFO root fetch - processPackages [vectordb]: executing diffoscope
+[2023-07-20 11:02:01] INFO root fetch - processPackages [vectordb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vectordb-0.0.9.tar.gz tmp/vectordb-0.0.9.dev2.tar.gz --markdown 20230720/v/vectordb/0.0.9-0.0.9.dev2/diff.md --exclude *.pyd
+[2023-07-20 11:02:01] INFO root fetch - processPackages [petals]: Downloading https://files.pythonhosted.org/packages/85/4d/4d3d4df41cf95c36d9fac4bcdf534eb29a77e9a979a4f4de96a48b4bd88f/petals-2.0.0.post2.tar.gz
+[2023-07-20 11:02:01] INFO root fetch - processPackages [finbourne-access-sdk]: Downloading https://files.pythonhosted.org/packages/f5/48/d40801e505892153d9eb9fea2de2f415455702ca8818dd23f14a3f88d813/finbourne-access-sdk-0.0.815.tar.gz
+[2023-07-20 11:02:01] INFO root fetch - processPackages [pysqldbm]: Downloading https://files.pythonhosted.org/packages/43/0f/87e4f33a54aca1741dab70621d87516bf6ebf79460684f83bdf5ce6e5f83/pysqldbm-1.0.4.tar.gz
+[2023-07-20 11:02:01] INFO root fetch - processPackages [zit]: Downloading https://files.pythonhosted.org/packages/0b/29/dd47bcd69f0c0c4481944f323918be890bb8afe3b32336f509edfc597748/zit-0.0.3a9.tar.gz
+[2023-07-20 11:02:01] INFO root fetch - processPackages [petals]: executing diffoscope
+[2023-07-20 11:02:01] INFO root fetch - processPackages [petals]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/petals-2.0.0.post1.tar.gz tmp/petals-2.0.0.post2.tar.gz --markdown 20230720/p/petals/2.0.0.post1-2.0.0.post2/diff.md --exclude *.pyd
+[2023-07-20 11:02:01] INFO root fetch - processPackages [lsst-ctrl-bps-parsl]: Downloading https://files.pythonhosted.org/packages/73/d7/e06e478c242de09a2c5605a32a3c6bc7f4a1e1aca5c81495250b2cc49b28/lsst-ctrl-bps-parsl-26.0.0a20230500.tar.gz
+[2023-07-20 11:02:01] INFO root fetch - processPackages [mindpet]: Downloading https://files.pythonhosted.org/packages/1a/d0/3c99b5fb3d4afd6dea7dc823b9e99c107df703b9b685898a7058fb322d78/mindpet-1.0.1.tar.gz
+[2023-07-20 11:02:01] INFO root fetch - processPackages [report-dh]: Downloading https://files.pythonhosted.org/packages/46/6b/31920ea74c958ad93386f56bfb06760dfac1e7c2fbefd75115490c2ccf21/report-dh-0.9.2.tar.gz
+[2023-07-20 11:02:01] INFO root fetch - processPackages [finbourne-access-sdk]: executing diffoscope
+[2023-07-20 11:02:01] INFO root fetch - processPackages [finbourne-access-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finbourne-access-sdk-0.0.616.tar.gz tmp/finbourne-access-sdk-0.0.815.tar.gz --markdown 20230720/f/finbourne-access-sdk/0.0.616-0.0.815/diff.md --exclude *.pyd
+[2023-07-20 11:02:01] INFO root fetch - processPackages [pysqldbm]: executing diffoscope
+[2023-07-20 11:02:01] INFO root fetch - processPackages [pysqldbm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysqldbm-1.0.3.tar.gz tmp/pysqldbm-1.0.4.tar.gz --markdown 20230720/p/pysqldbm/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-07-20 11:02:01] INFO root fetch - processPackages [zit]: executing diffoscope
+[2023-07-20 11:02:01] INFO root fetch - processPackages [zit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zit-0.0.3a8.tar.gz tmp/zit-0.0.3a9.tar.gz --markdown 20230720/z/zit/0.0.3a8-0.0.3a9/diff.md --exclude *.pyd
+[2023-07-20 11:02:01] INFO root fetch - processPackages [report-dh]: executing diffoscope
+[2023-07-20 11:02:01] INFO root fetch - processPackages [report-dh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/report-dh-0.9.1.tar.gz tmp/report-dh-0.9.2.tar.gz --markdown 20230720/r/report-dh/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-07-20 11:02:01] INFO root fetch - processPackages [mindpet]: executing diffoscope
+[2023-07-20 11:02:01] INFO root fetch - processPackages [phanos]: Downloading https://files.pythonhosted.org/packages/5c/53/a34777d46b68fa387b55d320360c6dc3f375b38ab05ee1584940b713fc9e/phanos-0.0.9.tar.gz
+[2023-07-20 11:02:01] INFO root fetch - processPackages [lsst-pex-config]: Downloading https://files.pythonhosted.org/packages/cb/e7/b5b77ed48e975232d6d946423eca1f7883eb826cf1844d70b96ddddd1696/lsst-pex-config-26.0.0a20230500.tar.gz
+[2023-07-20 11:02:01] INFO root fetch - processPackages [mindpet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mindpet-1.0.0.tar.gz tmp/mindpet-1.0.1.tar.gz --markdown 20230720/m/mindpet/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-20 11:02:01] INFO root fetch - processPackages [lsst-ctrl-bps-parsl]: executing diffoscope
+[2023-07-20 11:02:01] INFO root fetch - processPackages [lsst-ctrl-bps-parsl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsst-ctrl-bps-parsl-26.0.0a20230400.tar.gz tmp/lsst-ctrl-bps-parsl-26.0.0a20230500.tar.gz --markdown 20230720/l/lsst-ctrl-bps-parsl/26.0.0a20230400-26.0.0a20230500/diff.md --exclude *.pyd
+[2023-07-20 11:02:01] INFO root fetch - processPackages [lsst-pex-config]: executing diffoscope
+[2023-07-20 11:02:01] INFO root fetch - processPackages [lsst-pex-config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsst-pex-config-26.0.0a20230400.tar.gz tmp/lsst-pex-config-26.0.0a20230500.tar.gz --markdown 20230720/l/lsst-pex-config/26.0.0a20230400-26.0.0a20230500/diff.md --exclude *.pyd
+[2023-07-20 11:02:01] INFO root fetch - processPackages [phanos]: executing diffoscope
+[2023-07-20 11:02:01] INFO root fetch - processPackages [phanos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phanos-0.0.8.tar.gz tmp/phanos-0.0.9.tar.gz --markdown 20230720/p/phanos/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-20 11:02:02] INFO root fetch - processPackages [vectordb]: Remove: archive file [/home/abi/fetcher/tmp/vectordb-0.0.9.tar.gz]
+[2023-07-20 11:02:02] INFO root fetch - processPackages [vectordb]: Remove: archive file [/home/abi/fetcher/tmp/vectordb-0.0.9.dev2.tar.gz]
+[2023-07-20 11:02:02] INFO root fetch - processPackages [vectordb]: Start processing: lsst-utils
+[2023-07-20 11:02:02] INFO root fetch - main [MainThread]: End processing [vectordb]: success
+[2023-07-20 11:02:02] INFO root fetch - processPackages [lsst-utils]: New version: [26.0.0a20230500] Old Version: [26.0.0a20230400]
+[2023-07-20 11:02:02] INFO root fetch - processPackages [lsst-utils]: Downloading https://files.pythonhosted.org/packages/95/d2/5d16674a9fbd9d5c6dd08502fdaf2392373a5ee644f82312b6433f0688b3/lsst-utils-26.0.0a20230400.tar.gz
+[2023-07-20 11:02:02] INFO root fetch - processPackages [petals]: Remove: archive file [/home/abi/fetcher/tmp/petals-2.0.0.post1.tar.gz]
+[2023-07-20 11:02:02] INFO root fetch - processPackages [petals]: Remove: archive file [/home/abi/fetcher/tmp/petals-2.0.0.post2.tar.gz]
+[2023-07-20 11:02:02] INFO root fetch - processPackages [petals]: Start processing: astro-metadata-translator
+[2023-07-20 11:02:02] INFO root fetch - main [MainThread]: End processing [petals]: success
+[2023-07-20 11:02:02] INFO root fetch - processPackages [astro-metadata-translator]: New version: [26.0.0a20230500] Old Version: [26.0.0a20230400]
+[2023-07-20 11:02:02] INFO root fetch - processPackages [lsst-utils]: Downloading https://files.pythonhosted.org/packages/72/74/81575ebd50afb9ebc10787897207947703ae9d32205910da14de85cdef05/lsst-utils-26.0.0a20230500.tar.gz
+[2023-07-20 11:02:02] INFO root fetch - processPackages [pysqldbm]: Remove: archive file [/home/abi/fetcher/tmp/pysqldbm-1.0.3.tar.gz]
+[2023-07-20 11:02:02] INFO root fetch - processPackages [pysqldbm]: Remove: archive file [/home/abi/fetcher/tmp/pysqldbm-1.0.4.tar.gz]
+[2023-07-20 11:02:02] INFO root fetch - processPackages [pysqldbm]: Start processing: lsst-ctrl-bps
+[2023-07-20 11:02:03] INFO root fetch - main [MainThread]: End processing [pysqldbm]: success
+[2023-07-20 11:02:03] INFO root fetch - processPackages [astro-metadata-translator]: Downloading https://files.pythonhosted.org/packages/88/0f/ddf4d690ba71629b94ef331c1dcf381615f5fa0220cfb725331d64d70fe9/astro-metadata-translator-26.0.0a20230400.tar.gz
+[2023-07-20 11:02:03] INFO root fetch - processPackages [lsst-ctrl-bps]: New version: [26.0.0a20230500] Old Version: [26.0.0a20230400]
+[2023-07-20 11:02:03] INFO root fetch - processPackages [zit]: Remove: archive file [/home/abi/fetcher/tmp/zit-0.0.3a8.tar.gz]
+[2023-07-20 11:02:03] INFO root fetch - processPackages [zit]: Remove: archive file [/home/abi/fetcher/tmp/zit-0.0.3a9.tar.gz]
+[2023-07-20 11:02:03] INFO root fetch - processPackages [zit]: Start processing: lsst-resources
+[2023-07-20 11:02:03] INFO root fetch - main [MainThread]: End processing [zit]: success
+[2023-07-20 11:02:03] INFO root fetch - processPackages [report-dh]: Remove: archive file [/home/abi/fetcher/tmp/report-dh-0.9.1.tar.gz]
+[2023-07-20 11:02:03] INFO root fetch - processPackages [report-dh]: Remove: archive file [/home/abi/fetcher/tmp/report-dh-0.9.2.tar.gz]
+[2023-07-20 11:02:03] INFO root fetch - processPackages [report-dh]: Start processing: lsst-pipe-base
+[2023-07-20 11:02:03] INFO root fetch - main [MainThread]: End processing [report-dh]: success
+[2023-07-20 11:02:03] INFO root fetch - processPackages [lsst-utils]: executing diffoscope
+[2023-07-20 11:02:03] INFO root fetch - processPackages [lsst-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsst-utils-26.0.0a20230400.tar.gz tmp/lsst-utils-26.0.0a20230500.tar.gz --markdown 20230720/l/lsst-utils/26.0.0a20230400-26.0.0a20230500/diff.md --exclude *.pyd
+[2023-07-20 11:02:03] INFO root fetch - processPackages [lsst-resources]: New version: [26.0.0a20230500] Old Version: [26.0.0a20230400]
+[2023-07-20 11:02:03] INFO root fetch - processPackages [lsst-pipe-base]: New version: [26.0.0a20230500] Old Version: [26.0.0a20230400]
+[2023-07-20 11:02:03] INFO root fetch - processPackages [lsst-ctrl-bps]: Downloading https://files.pythonhosted.org/packages/3f/25/dd5788122d831e91f7a5b6df98e8e2d65df587d64b2a7e8e703b9f85d293/lsst-ctrl-bps-26.0.0a20230400.tar.gz
+[2023-07-20 11:02:03] INFO root fetch - processPackages [astro-metadata-translator]: Downloading https://files.pythonhosted.org/packages/f6/a2/6962018c4d5dc18839328422a99767c526540467659fab3d4282192e3763/astro-metadata-translator-26.0.0a20230500.tar.gz
+[2023-07-20 11:02:03] INFO root fetch - processPackages [lsst-ctrl-bps-parsl]: Remove: archive file [/home/abi/fetcher/tmp/lsst-ctrl-bps-parsl-26.0.0a20230400.tar.gz]
+[2023-07-20 11:02:03] INFO root fetch - processPackages [lsst-ctrl-bps-parsl]: Remove: archive file [/home/abi/fetcher/tmp/lsst-ctrl-bps-parsl-26.0.0a20230500.tar.gz]
+[2023-07-20 11:02:03] INFO root fetch - processPackages [lsst-ctrl-bps-parsl]: Start processing: odoo14-addon-ssi-accounting-entry-mixin
+[2023-07-20 11:02:03] INFO root fetch - main [MainThread]: End processing [lsst-ctrl-bps-parsl]: success
+[2023-07-20 11:02:03] INFO root fetch - processPackages [lsst-pipe-base]: Downloading https://files.pythonhosted.org/packages/4a/2a/d7e53c7284052c1d3edb447a5c44734c2eb2276c39ac6857f02d9a0e77d3/lsst-pipe-base-26.0.0a20230400.tar.gz
+[2023-07-20 11:02:03] WARNING root fetch - processPackages [odoo14-addon-ssi-accounting-entry-mixin]: Skipping, unable to determine old version
+[2023-07-20 11:02:03] INFO root fetch - processPackages [odoo14-addon-ssi-accounting-entry-mixin]: Start processing: discohooker
+[2023-07-20 11:02:03] INFO root fetch - main [MainThread]: End processing [odoo14-addon-ssi-accounting-entry-mixin] error
+[2023-07-20 11:02:03] INFO root fetch - processPackages [lsst-resources]: Downloading https://files.pythonhosted.org/packages/52/45/0dcc92ba8f25516fe59b89e0b4b6425fc82775a8f89d22382ac6ff4365d5/lsst-resources-26.0.0a20230400.tar.gz
+[2023-07-20 11:02:03] INFO root fetch - processPackages [phanos]: Remove: archive file [/home/abi/fetcher/tmp/phanos-0.0.8.tar.gz]
+[2023-07-20 11:02:03] INFO root fetch - processPackages [phanos]: Remove: archive file [/home/abi/fetcher/tmp/phanos-0.0.9.tar.gz]
+[2023-07-20 11:02:03] INFO root fetch - processPackages [phanos]: Start processing: cosmicexcelchecker
+[2023-07-20 11:02:03] INFO root fetch - main [MainThread]: End processing [phanos]: success
+[2023-07-20 11:02:03] INFO root fetch - processPackages [discohooker]: New version: [0.0.0b9] Old Version: [0.0.0b8]
+[2023-07-20 11:02:03] INFO root fetch - processPackages [lsst-pex-config]: Remove: archive file [/home/abi/fetcher/tmp/lsst-pex-config-26.0.0a20230400.tar.gz]
+[2023-07-20 11:02:03] INFO root fetch - processPackages [lsst-pex-config]: Remove: archive file [/home/abi/fetcher/tmp/lsst-pex-config-26.0.0a20230500.tar.gz]
+[2023-07-20 11:02:03] INFO root fetch - processPackages [lsst-pex-config]: Start processing: mecord-cli
+[2023-07-20 11:02:03] INFO root fetch - main [MainThread]: End processing [lsst-pex-config]: success
+[2023-07-20 11:02:03] INFO root fetch - processPackages [cosmicexcelchecker]: New version: [0.2.2b0] Old Version: [0.2.2a0]
+[2023-07-20 11:02:03] INFO root fetch - processPackages [mindpet]: Remove: archive file [/home/abi/fetcher/tmp/mindpet-1.0.0.tar.gz]
+[2023-07-20 11:02:03] INFO root fetch - processPackages [mindpet]: Remove: archive file [/home/abi/fetcher/tmp/mindpet-1.0.1.tar.gz]
+[2023-07-20 11:02:03] INFO root fetch - processPackages [mindpet]: Start processing: zpapollo
+[2023-07-20 11:02:03] INFO root fetch - main [MainThread]: End processing [mindpet]: success
+[2023-07-20 11:02:03] INFO root fetch - processPackages [astro-metadata-translator]: executing diffoscope
+[2023-07-20 11:02:03] INFO root fetch - processPackages [astro-metadata-translator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/astro-metadata-translator-26.0.0a20230400.tar.gz tmp/astro-metadata-translator-26.0.0a20230500.tar.gz --markdown 20230720/a/astro-metadata-translator/26.0.0a20230400-26.0.0a20230500/diff.md --exclude *.pyd
+[2023-07-20 11:02:03] INFO root fetch - processPackages [mecord-cli]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-20 11:02:03] INFO root fetch - processPackages [discohooker]: Downloading https://files.pythonhosted.org/packages/11/18/cd20f4d7f8bbf72fed32bf3ca62b1cb82e19effc531f6fc1212460966f16/discohooker-0.0.0b8.tar.gz
+[2023-07-20 11:02:03] INFO root fetch - processPackages [cosmicexcelchecker]: Downloading https://files.pythonhosted.org/packages/f9/de/b830773f66ed02c1f53514dd76bf37edb60f333fe3cc283c0a68f68253ce/cosmicexcelchecker-0.2.2a0.tar.gz
+[2023-07-20 11:02:03] WARNING root fetch - processPackages [zpapollo]: Skipping, unable to determine old version
+[2023-07-20 11:02:03] INFO root fetch - processPackages [zpapollo]: Start processing: lsst-ctrl-mpexec
+[2023-07-20 11:02:03] INFO root fetch - main [MainThread]: End processing [zpapollo] error
+[2023-07-20 11:02:03] INFO root fetch - processPackages [finbourne-access-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne-access-sdk-0.0.616.tar.gz]
+[2023-07-20 11:02:03] INFO root fetch - processPackages [finbourne-access-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne-access-sdk-0.0.815.tar.gz]
+[2023-07-20 11:02:03] INFO root fetch - processPackages [finbourne-access-sdk]: Start processing: odoo14-addon-ssi-company-currency-mixin
+[2023-07-20 11:02:03] INFO root fetch - main [MainThread]: End processing [finbourne-access-sdk]: success
+[2023-07-20 11:02:03] INFO root fetch - processPackages [mecord-cli]: Downloading https://files.pythonhosted.org/packages/99/07/defecf133b4a0c137e7272f092b0a7e4b36005e5d2e5b2e4f22949323973/mecord-cli-0.1.8.tar.gz
+[2023-07-20 11:02:03] INFO root fetch - processPackages [discohooker]: Downloading https://files.pythonhosted.org/packages/8b/8b/5f1339db58f060781d94ad397b0849ddd19df8c2fa5ddc3ea53c4d467c5c/discohooker-0.0.0b9.tar.gz
+[2023-07-20 11:02:03] INFO root fetch - processPackages [lsst-ctrl-mpexec]: New version: [26.0.0a20230500] Old Version: [26.0.0a20230400]
+[2023-07-20 11:02:03] INFO root fetch - processPackages [lsst-pipe-base]: Downloading https://files.pythonhosted.org/packages/43/b8/e01f76a3da14b328fd43a97c36653216b676c2f3b0fd8c71e30d4ff1132e/lsst-pipe-base-26.0.0a20230500.tar.gz
+[2023-07-20 11:02:04] WARNING root fetch - processPackages [odoo14-addon-ssi-company-currency-mixin]: Skipping, unable to determine old version
+[2023-07-20 11:02:04] INFO root fetch - processPackages [odoo14-addon-ssi-company-currency-mixin]: Start processing: lsst-daf-relation
+[2023-07-20 11:02:04] INFO root fetch - main [MainThread]: End processing [odoo14-addon-ssi-company-currency-mixin] error
+[2023-07-20 11:02:04] INFO root fetch - processPackages [discohooker]: executing diffoscope
+[2023-07-20 11:02:04] INFO root fetch - processPackages [discohooker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/discohooker-0.0.0b8.tar.gz tmp/discohooker-0.0.0b9.tar.gz --markdown 20230720/d/discohooker/0.0.0b8-0.0.0b9/diff.md --exclude *.pyd
+[2023-07-20 11:02:04] INFO root fetch - processPackages [cosmicexcelchecker]: Downloading https://files.pythonhosted.org/packages/66/f1/ff1473c165e4eb2aa82a97198d031d40666c4e26926bff8d55ccafc1a89b/cosmicexcelchecker-0.2.2b0.tar.gz
+[2023-07-20 11:02:04] INFO root fetch - processPackages [cosmicexcelchecker]: executing diffoscope
+[2023-07-20 11:02:04] INFO root fetch - processPackages [cosmicexcelchecker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cosmicexcelchecker-0.2.2a0.tar.gz tmp/cosmicexcelchecker-0.2.2b0.tar.gz --markdown 20230720/c/cosmicexcelchecker/0.2.2a0-0.2.2b0/diff.md --exclude *.pyd
+[2023-07-20 11:02:04] INFO root fetch - processPackages [lsst-daf-relation]: New version: [1.0.0a20230500] Old Version: [1.0.0a20230400]
+[2023-07-20 11:02:04] INFO root fetch - processPackages [lsst-pipe-base]: executing diffoscope
+[2023-07-20 11:02:04] INFO root fetch - processPackages [lsst-pipe-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsst-pipe-base-26.0.0a20230400.tar.gz tmp/lsst-pipe-base-26.0.0a20230500.tar.gz --markdown 20230720/l/lsst-pipe-base/26.0.0a20230400-26.0.0a20230500/diff.md --exclude *.pyd
+[2023-07-20 11:02:04] INFO root fetch - processPackages [lsst-ctrl-mpexec]: Downloading https://files.pythonhosted.org/packages/7d/95/1fd49d0ac8149861738d465629d14648e00335b6f27b60edea825d22869f/lsst-ctrl-mpexec-26.0.0a20230400.tar.gz
+[2023-07-20 11:02:04] INFO root fetch - processPackages [mecord-cli]: Downloading https://files.pythonhosted.org/packages/2b/9f/dbf00e6cfb2e166744734b7095dec6d81a7ee7213a1ef56c5c29e85783a1/mecord-cli-0.1.9.tar.gz
+[2023-07-20 11:02:04] INFO root fetch - processPackages [lsst-resources]: Downloading https://files.pythonhosted.org/packages/a1/31/225778e738d8196a59aa0442a433f627643f68797e49472ba8e7b8594e59/lsst-resources-26.0.0a20230500.tar.gz
+[2023-07-20 11:02:04] INFO root fetch - processPackages [lsst-ctrl-bps]: Downloading https://files.pythonhosted.org/packages/74/ca/f9dbc4fb6958267f1ee9ce347a76bcb3d1dcb671ceaf427711055ab6c67c/lsst-ctrl-bps-26.0.0a20230500.tar.gz
+[2023-07-20 11:02:04] INFO root fetch - processPackages [lsst-utils]: Remove: archive file [/home/abi/fetcher/tmp/lsst-utils-26.0.0a20230400.tar.gz]
+[2023-07-20 11:02:04] INFO root fetch - processPackages [lsst-utils]: Remove: archive file [/home/abi/fetcher/tmp/lsst-utils-26.0.0a20230500.tar.gz]
+[2023-07-20 11:02:04] INFO root fetch - processPackages [lsst-utils]: Start processing: iorclient
+[2023-07-20 11:02:04] INFO root fetch - main [MainThread]: End processing [lsst-utils]: success
+[2023-07-20 11:02:04] INFO root fetch - processPackages [mecord-cli]: executing diffoscope
+[2023-07-20 11:02:04] INFO root fetch - processPackages [mecord-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mecord-cli-0.1.8.tar.gz tmp/mecord-cli-0.1.9.tar.gz --markdown 20230720/m/mecord-cli/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-20 11:02:04] INFO root fetch - processPackages [lsst-ctrl-bps]: executing diffoscope
+[2023-07-20 11:02:04] INFO root fetch - processPackages [lsst-ctrl-bps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsst-ctrl-bps-26.0.0a20230400.tar.gz tmp/lsst-ctrl-bps-26.0.0a20230500.tar.gz --markdown 20230720/l/lsst-ctrl-bps/26.0.0a20230400-26.0.0a20230500/diff.md --exclude *.pyd
+[2023-07-20 11:02:04] INFO root fetch - processPackages [lsst-resources]: executing diffoscope
+[2023-07-20 11:02:04] INFO root fetch - processPackages [lsst-resources]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsst-resources-26.0.0a20230400.tar.gz tmp/lsst-resources-26.0.0a20230500.tar.gz --markdown 20230720/l/lsst-resources/26.0.0a20230400-26.0.0a20230500/diff.md --exclude *.pyd
+[2023-07-20 11:02:04] INFO root fetch - processPackages [lsst-daf-relation]: Downloading https://files.pythonhosted.org/packages/cf/ba/39bf44ae9e7557239b4e75ccc2395eff1e08c3015340be39cd798f07fb37/lsst-daf-relation-1.0.0a20230400.tar.gz
+[2023-07-20 11:02:04] INFO root fetch - processPackages [lsst-ctrl-mpexec]: Downloading https://files.pythonhosted.org/packages/61/b7/81e5f821fadf907a5b8aba51baef7441e1a4b2d1899448ea4c15512f8b33/lsst-ctrl-mpexec-26.0.0a20230500.tar.gz
+[2023-07-20 11:02:04] INFO root fetch - processPackages [iorclient]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-20 11:02:04] INFO root fetch - processPackages [astro-metadata-translator]: Remove: archive file [/home/abi/fetcher/tmp/astro-metadata-translator-26.0.0a20230400.tar.gz]
+[2023-07-20 11:02:04] INFO root fetch - processPackages [astro-metadata-translator]: Remove: archive file [/home/abi/fetcher/tmp/astro-metadata-translator-26.0.0a20230500.tar.gz]
+[2023-07-20 11:02:04] INFO root fetch - processPackages [astro-metadata-translator]: Start processing: polars
+[2023-07-20 11:02:04] INFO root fetch - main [MainThread]: End processing [astro-metadata-translator]: success
+[2023-07-20 11:02:04] INFO root fetch - processPackages [lsst-ctrl-mpexec]: executing diffoscope
+[2023-07-20 11:02:04] INFO root fetch - processPackages [lsst-ctrl-mpexec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsst-ctrl-mpexec-26.0.0a20230400.tar.gz tmp/lsst-ctrl-mpexec-26.0.0a20230500.tar.gz --markdown 20230720/l/lsst-ctrl-mpexec/26.0.0a20230400-26.0.0a20230500/diff.md --exclude *.pyd
+[2023-07-20 11:02:04] INFO root fetch - processPackages [iorclient]: Downloading https://files.pythonhosted.org/packages/68/1d/3229d443db990cd42b2a3072fa225eedecd6b51a867f718b1b42adc4aaa6/iorclient-0.0.3.tar.gz
+[2023-07-20 11:02:05] INFO root fetch - processPackages [polars]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-20 11:02:05] INFO root fetch - processPackages [lsst-daf-relation]: Downloading https://files.pythonhosted.org/packages/5e/5f/8e71741c69e90c32fd13e64e116dae04c056109846e98b96beed49ce1d01/lsst-daf-relation-1.0.0a20230500.tar.gz
+[2023-07-20 11:02:05] INFO root fetch - processPackages [discohooker]: Remove: archive file [/home/abi/fetcher/tmp/discohooker-0.0.0b8.tar.gz]
+[2023-07-20 11:02:05] INFO root fetch - processPackages [discohooker]: Remove: archive file [/home/abi/fetcher/tmp/discohooker-0.0.0b9.tar.gz]
+[2023-07-20 11:02:05] INFO root fetch - processPackages [discohooker]: Start processing: pyrsm
+[2023-07-20 11:02:05] INFO root fetch - main [MainThread]: End processing [discohooker]: success
+[2023-07-20 11:02:05] INFO root fetch - processPackages [pyrsm]: New version: [0.9.0] Old Version: [0.8.9]
+[2023-07-20 11:02:05] INFO root fetch - processPackages [iorclient]: Downloading https://files.pythonhosted.org/packages/48/2b/92a9a5ecbdc7f68c5c5f322cc350560eacc6bbbce1fd8cf31b453323b5ee/iorclient-0.0.4.tar.gz
+[2023-07-20 11:02:05] INFO root fetch - processPackages [lsst-daf-relation]: executing diffoscope
+[2023-07-20 11:02:05] INFO root fetch - processPackages [lsst-daf-relation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lsst-daf-relation-1.0.0a20230400.tar.gz tmp/lsst-daf-relation-1.0.0a20230500.tar.gz --markdown 20230720/l/lsst-daf-relation/1.0.0a20230400-1.0.0a20230500/diff.md --exclude *.pyd
+[2023-07-20 11:02:05] INFO root fetch - processPackages [cosmicexcelchecker]: Remove: archive file [/home/abi/fetcher/tmp/cosmicexcelchecker-0.2.2a0.tar.gz]
+[2023-07-20 11:02:05] INFO root fetch - processPackages [cosmicexcelchecker]: Remove: archive file [/home/abi/fetcher/tmp/cosmicexcelchecker-0.2.2b0.tar.gz]
+[2023-07-20 11:02:05] INFO root fetch - processPackages [cosmicexcelchecker]: Start processing: elefanto-webkassa
+[2023-07-20 11:02:05] INFO root fetch - main [MainThread]: End processing [cosmicexcelchecker]: success
+[2023-07-20 11:02:05] INFO root fetch - processPackages [polars]: Downloading https://files.pythonhosted.org/packages/e7/87/d9b28ede138dfbfa298446f324fd99a8c9f1229deeabc69024c8613d68f8/polars-0.9.8.tar.gz
+[2023-07-20 11:02:05] INFO root fetch - processPackages [elefanto-webkassa]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-07-20 11:02:05] INFO root fetch - processPackages [iorclient]: executing diffoscope
+[2023-07-20 11:02:05] INFO root fetch - processPackages [iorclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iorclient-0.0.3.tar.gz tmp/iorclient-0.0.4.tar.gz --markdown 20230720/i/iorclient/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-20 11:02:05] INFO root fetch - processPackages [elefanto-webkassa]: Downloading https://files.pythonhosted.org/packages/ae/e9/c829cfc029b6b86c1ce7fb650bccc9513efef7040041fb5e6a6c210f7b0b/elefanto_webkassa-0.4.0.tar.gz
+[2023-07-20 11:02:05] INFO root fetch - processPackages [pyrsm]: Downloading https://files.pythonhosted.org/packages/23/b4/c98b41b627cac93300e0bf0f243691d319588c7851cfd7bef1947124bedf/pyrsm-0.8.9.tar.gz
+[2023-07-20 11:02:05] INFO root fetch - processPackages [polars]: Downloading https://files.pythonhosted.org/packages/96/26/63076bebabb9ecbc73cd58cf48f924a3f05b871166f576b56d9935158194/polars-0.9.9.tar.gz
+[2023-07-20 11:02:05] INFO root fetch - processPackages [elefanto-webkassa]: Downloading https://files.pythonhosted.org/packages/a5/b9/31cbeb1d36c3ea5b3452c54d7b7d2221d0e53a67494ef0d2264d5698907b/elefanto_webkassa-0.4.1.tar.gz
+[2023-07-20 11:02:05] INFO root fetch - processPackages [pyrsm]: Downloading https://files.pythonhosted.org/packages/12/28/7c18cdab7bd736e584a0df186f5f60cc0e70a3117c0948b214f3f09a29fc/pyrsm-0.9.0.tar.gz
+[2023-07-20 11:02:05] INFO root fetch - processPackages [lsst-pipe-base]: Remove: archive file [/home/abi/fetcher/tmp/lsst-pipe-base-26.0.0a20230400.tar.gz]
+[2023-07-20 11:02:05] INFO root fetch - processPackages [lsst-pipe-base]: Remove: archive file [/home/abi/fetcher/tmp/lsst-pipe-base-26.0.0a20230500.tar.gz]
+[2023-07-20 11:02:05] INFO root fetch - main [MainThread]: End processing [lsst-pipe-base]: success
+[2023-07-20 11:02:05] INFO root fetch - processPackages [elefanto-webkassa]: executing diffoscope
+[2023-07-20 11:02:05] INFO root fetch - processPackages [elefanto-webkassa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/elefanto_webkassa-0.4.0.tar.gz tmp/elefanto_webkassa-0.4.1.tar.gz --markdown 20230720/e/elefanto-webkassa/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-07-20 11:02:06] INFO root fetch - processPackages [pyrsm]: executing diffoscope
+[2023-07-20 11:02:06] INFO root fetch - processPackages [pyrsm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrsm-0.8.9.tar.gz tmp/pyrsm-0.9.0.tar.gz --markdown 20230720/p/pyrsm/0.8.9-0.9.0/diff.md --exclude *.pyd
+[2023-07-20 11:02:06] INFO root fetch - processPackages [lsst-resources]: Remove: archive file [/home/abi/fetcher/tmp/lsst-resources-26.0.0a20230400.tar.gz]
+[2023-07-20 11:02:06] INFO root fetch - processPackages [lsst-resources]: Remove: archive file [/home/abi/fetcher/tmp/lsst-resources-26.0.0a20230500.tar.gz]
+[2023-07-20 11:02:06] INFO root fetch - main [MainThread]: End processing [lsst-resources]: success
+[2023-07-20 11:02:06] INFO root fetch - processPackages [mecord-cli]: Remove: archive file [/home/abi/fetcher/tmp/mecord-cli-0.1.8.tar.gz]
+[2023-07-20 11:02:06] INFO root fetch - processPackages [mecord-cli]: Remove: archive file [/home/abi/fetcher/tmp/mecord-cli-0.1.9.tar.gz]
+[2023-07-20 11:02:06] INFO root fetch - main [MainThread]: End processing [mecord-cli]: success
+[2023-07-20 11:02:06] INFO root fetch - processPackages [lsst-ctrl-bps]: Remove: archive file [/home/abi/fetcher/tmp/lsst-ctrl-bps-26.0.0a20230400.tar.gz]
+[2023-07-20 11:02:06] INFO root fetch - processPackages [lsst-ctrl-bps]: Remove: archive file [/home/abi/fetcher/tmp/lsst-ctrl-bps-26.0.0a20230500.tar.gz]
+[2023-07-20 11:02:06] INFO root fetch - main [MainThread]: End processing [lsst-ctrl-bps]: success
+[2023-07-20 11:02:06] INFO root fetch - processPackages [polars]: executing diffoscope
+[2023-07-20 11:02:06] INFO root fetch - processPackages [polars]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polars-0.9.8.tar.gz tmp/polars-0.9.9.tar.gz --markdown 20230720/p/polars/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-20 11:02:06] INFO root fetch - processPackages [lsst-ctrl-mpexec]: Remove: archive file [/home/abi/fetcher/tmp/lsst-ctrl-mpexec-26.0.0a20230400.tar.gz]
+[2023-07-20 11:02:06] INFO root fetch - processPackages [lsst-ctrl-mpexec]: Remove: archive file [/home/abi/fetcher/tmp/lsst-ctrl-mpexec-26.0.0a20230500.tar.gz]
+[2023-07-20 11:02:06] INFO root fetch - main [MainThread]: End processing [lsst-ctrl-mpexec]: success
+[2023-07-20 11:02:06] INFO root fetch - processPackages [lsst-daf-relation]: Remove: archive file [/home/abi/fetcher/tmp/lsst-daf-relation-1.0.0a20230400.tar.gz]
+[2023-07-20 11:02:06] INFO root fetch - processPackages [lsst-daf-relation]: Remove: archive file [/home/abi/fetcher/tmp/lsst-daf-relation-1.0.0a20230500.tar.gz]
+[2023-07-20 11:02:06] INFO root fetch - main [MainThread]: End processing [lsst-daf-relation]: success
+[2023-07-20 11:02:06] INFO root fetch - processPackages [iorclient]: Remove: archive file [/home/abi/fetcher/tmp/iorclient-0.0.3.tar.gz]
+[2023-07-20 11:02:06] INFO root fetch - processPackages [iorclient]: Remove: archive file [/home/abi/fetcher/tmp/iorclient-0.0.4.tar.gz]
+[2023-07-20 11:02:06] INFO root fetch - main [MainThread]: End processing [iorclient]: success
+[2023-07-20 11:02:07] INFO root fetch - processPackages [elefanto-webkassa]: Remove: archive file [/home/abi/fetcher/tmp/elefanto_webkassa-0.4.0.tar.gz]
+[2023-07-20 11:02:07] INFO root fetch - processPackages [elefanto-webkassa]: Remove: archive file [/home/abi/fetcher/tmp/elefanto_webkassa-0.4.1.tar.gz]
+[2023-07-20 11:02:07] INFO root fetch - main [MainThread]: End processing [elefanto-webkassa]: success
+[2023-07-20 11:02:07] INFO root fetch - processPackages [pyrsm]: Remove: archive file [/home/abi/fetcher/tmp/pyrsm-0.8.9.tar.gz]
+[2023-07-20 11:02:07] INFO root fetch - processPackages [pyrsm]: Remove: archive file [/home/abi/fetcher/tmp/pyrsm-0.9.0.tar.gz]
+[2023-07-20 11:02:07] INFO root fetch - main [MainThread]: End processing [pyrsm]: success
+[2023-07-20 11:02:08] INFO root fetch - processPackages [polars]: Remove: archive file [/home/abi/fetcher/tmp/polars-0.9.8.tar.gz]
+[2023-07-20 11:02:08] INFO root fetch - processPackages [polars]: Remove: archive file [/home/abi/fetcher/tmp/polars-0.9.9.tar.gz]
+[2023-07-20 11:02:08] INFO root fetch - main [MainThread]: End processing [polars]: success
+[2023-07-20 11:02:08] INFO root fetch - main [MainThread]: Store serial: [18963636]
