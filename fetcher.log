@@ -17775,3 +17775,117 @@ AssertionError: tmp/verify4py-test-0.1.7.tar.gz does not exist
 [2023-07-20 19:39:57] INFO root fetch - processPackages [fsai-shared-funcs]: Remove: archive file [/home/abi/fetcher/tmp/fsai_shared_funcs-0.0.99.tar.gz]
 [2023-07-20 19:39:57] INFO root fetch - main [MainThread]: End processing [fsai-shared-funcs]: success
 [2023-07-20 19:39:57] INFO root fetch - main [MainThread]: Store serial: [18970299]
+[2023-07-20 19:45:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18970299]
+[2023-07-20 19:45:05] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-07-20 19:45:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aws-fsx-lifecycle-status-monitor
+[2023-07-20 19:45:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: strongmind-deployment
+[2023-07-20 19:45:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: llamaapi
+[2023-07-20 19:45:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: shub-workflow
+[2023-07-20 19:45:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: djangoldp-babelfish
+[2023-07-20 19:45:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tooey
+[2023-07-20 19:45:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyblm
+[2023-07-20 19:45:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: jps-api-wrapper
+[2023-07-20 19:45:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cjfx
+[2023-07-20 19:45:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: fabric-orchestrator-client
+[2023-07-20 19:45:06] INFO root fetch - processPackages [llamaapi]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-07-20 19:45:06] INFO root fetch - processPackages [aws-fsx-lifecycle-status-monitor]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-07-20 19:45:06] INFO root fetch - processPackages [tooey]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-07-20 19:45:06] WARNING root fetch - processPackages [cjfx]: Skipping, unable to determine old version
+[2023-07-20 19:45:06] INFO root fetch - processPackages [cjfx]: Start processing: kyujipy
+[2023-07-20 19:45:06] INFO root fetch - main [MainThread]: End processing [cjfx] error
+[2023-07-20 19:45:06] INFO root fetch - processPackages [strongmind-deployment]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-20 19:45:06] INFO root fetch - processPackages [pyblm]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-20 19:45:06] INFO root fetch - processPackages [djangoldp-babelfish]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-20 19:45:06] INFO root fetch - processPackages [jps-api-wrapper]: New version: [1.7.0] Old Version: [1.6.0]
+[2023-07-20 19:45:06] INFO root fetch - processPackages [shub-workflow]: New version: [1.9.7.4] Old Version: [1.9.7.3]
+[2023-07-20 19:45:06] INFO root fetch - processPackages [fabric-orchestrator-client]: New version: [1.6.0b1] Old Version: [1.5.2]
+[2023-07-20 19:45:06] INFO root fetch - processPackages [llamaapi]: Downloading https://files.pythonhosted.org/packages/63/3c/ad4332634b106a776db4f44d45286fe15e6092d4d7a1250752fd78128cdf/llamaapi-0.1.3.tar.gz
+[2023-07-20 19:45:06] INFO root fetch - processPackages [kyujipy]: New version: [0.5.7] Old Version: [0.5.6]
+[2023-07-20 19:45:06] INFO root fetch - processPackages [tooey]: Downloading https://files.pythonhosted.org/packages/7c/bf/5b5e720a8d689bc91200b57d4ce753def6af77d348d84245e421dc17f116/tooey-0.3.0.tar.gz
+[2023-07-20 19:45:06] INFO root fetch - processPackages [aws-fsx-lifecycle-status-monitor]: Downloading https://files.pythonhosted.org/packages/d6/56/860b3d39f25032fb1aad5fc7a4700e4b07cdbf2f5faa60bb96d0b5f6effe/aws-fsx-lifecycle-status-monitor-0.0.6.tar.gz
+[2023-07-20 19:45:06] INFO root fetch - processPackages [shub-workflow]: Downloading https://files.pythonhosted.org/packages/b8/b5/f37b87a1a4c72917366bc3b9794f1729c62b0130131750ba52c35c41e5e4/shub-workflow-1.9.7.3.tar.gz
+[2023-07-20 19:45:06] INFO root fetch - processPackages [strongmind-deployment]: Downloading https://files.pythonhosted.org/packages/44/37/1fa9e511059e9286981228d061a848835373aa0d2564f1817d7e1cb50c09/strongmind_deployment-1.0.8-py3-none-any.whl
+[2023-07-20 19:45:06] INFO root fetch - processPackages [pyblm]: Downloading https://files.pythonhosted.org/packages/23/0b/a39ee67f2dc3ed76778b36f8468df03a839174e10864dbfdc10f05b92849/pyblm-0.1.0.tar.gz
+[2023-07-20 19:45:06] INFO root fetch - processPackages [djangoldp-babelfish]: Downloading https://files.pythonhosted.org/packages/23/0b/34551181f355ea77701410be6e0512176615c6a76006ebdad7691007be2e/djangoldp_babelfish-0.0.2.tar.gz
+[2023-07-20 19:45:06] INFO root fetch - processPackages [jps-api-wrapper]: Downloading https://files.pythonhosted.org/packages/52/92/693f53537b2cf89306f830544e8d2bf9a1bd31941de0e72e99a6756d3f6f/jps_api_wrapper-1.6.0.tar.gz
+[2023-07-20 19:45:06] INFO root fetch - processPackages [fabric-orchestrator-client]: Downloading https://files.pythonhosted.org/packages/bd/1e/e0e8ba079663deefb539978b3753a537844698b0c9018f466bf9b7f93841/fabric-orchestrator-client-1.5.2.tar.gz
+[2023-07-20 19:45:06] INFO root fetch - processPackages [kyujipy]: Downloading https://files.pythonhosted.org/packages/7f/f9/88e15f28d38a2e6693271afb517460ac2b3a004b289cf4bcacffb3db7b1d/kyujipy-0.5.6.tar.gz
+[2023-07-20 19:45:06] INFO root fetch - processPackages [tooey]: Downloading https://files.pythonhosted.org/packages/02/a2/9887fa630b14ff82f5cad4a653640b1ba58a7e82ae6db681954bcf9324ac/tooey-0.4.0.tar.gz
+[2023-07-20 19:45:06] INFO root fetch - processPackages [llamaapi]: Downloading https://files.pythonhosted.org/packages/62/b6/021350475489708a265170998df5ea1beb9b619e9c5950fc95fa76a70387/llamaapi-0.1.4.tar.gz
+[2023-07-20 19:45:06] INFO root fetch - processPackages [shub-workflow]: Downloading https://files.pythonhosted.org/packages/06/49/c3ec898ce5372e567e1a288374d950650ae37bcffa6f46c6d7233228eee6/shub-workflow-1.9.7.4.tar.gz
+[2023-07-20 19:45:07] INFO root fetch - processPackages [djangoldp-babelfish]: Downloading https://files.pythonhosted.org/packages/f0/b8/4f7c7eef33c8cc1f4c05d49c6848e9d12a5af9173e245b682788d442c85e/djangoldp_babelfish-0.0.3.tar.gz
+[2023-07-20 19:45:07] INFO root fetch - processPackages [strongmind-deployment]: Downloading https://files.pythonhosted.org/packages/6a/1b/90068fc2357bb338535372b0a54aaf7542de3c94754f32c7d29dfd0aa361/strongmind_deployment-1.0.9-py3-none-any.whl
+[2023-07-20 19:45:07] INFO root fetch - processPackages [pyblm]: Downloading https://files.pythonhosted.org/packages/bb/21/e5aa35d6c0bdaff43a7d2bf27306c25a8d8f18323cad41637e283b6e9968/pyblm-0.1.1.tar.gz
+[2023-07-20 19:45:07] INFO root fetch - processPackages [fabric-orchestrator-client]: Downloading https://files.pythonhosted.org/packages/ad/53/eb90d18c780665dd87df0df2856d919142336ec14f5a960769049a9f62ff/fabric-orchestrator-client-1.6.0b1.tar.gz
+[2023-07-20 19:45:07] INFO root fetch - processPackages [kyujipy]: Downloading https://files.pythonhosted.org/packages/10/3e/373e95600e6bdf518c2c1a66e43081d8313144f5afa972caa61ca1d57466/kyujipy-0.5.7.tar.gz
+[2023-07-20 19:45:07] INFO root fetch - processPackages [aws-fsx-lifecycle-status-monitor]: Downloading https://files.pythonhosted.org/packages/e7/8c/28d96e8159a144bfdb6f194f8ed03d8ac62b53dbdd17869486d16c610cda/aws-fsx-lifecycle-status-monitor-0.0.7.tar.gz
+[2023-07-20 19:45:07] INFO root fetch - processPackages [tooey]: executing diffoscope
+[2023-07-20 19:45:07] INFO root fetch - processPackages [tooey]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tooey-0.3.0.tar.gz tmp/tooey-0.4.0.tar.gz --markdown 20230720/t/tooey/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-07-20 19:45:07] INFO root fetch - processPackages [jps-api-wrapper]: Downloading https://files.pythonhosted.org/packages/45/56/8c794e1b65259bb437a78b508936742d5593998a9658955debdb2c368d98/jps_api_wrapper-1.7.0.tar.gz
+[2023-07-20 19:45:07] INFO root fetch - processPackages [llamaapi]: executing diffoscope
+[2023-07-20 19:45:07] INFO root fetch - processPackages [llamaapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llamaapi-0.1.3.tar.gz tmp/llamaapi-0.1.4.tar.gz --markdown 20230720/l/llamaapi/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-07-20 19:45:07] INFO root fetch - processPackages [fabric-orchestrator-client]: executing diffoscope
+[2023-07-20 19:45:07] INFO root fetch - processPackages [fabric-orchestrator-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fabric-orchestrator-client-1.5.2.tar.gz tmp/fabric-orchestrator-client-1.6.0b1.tar.gz --markdown 20230720/f/fabric-orchestrator-client/1.5.2-1.6.0b1/diff.md --exclude *.pyd
+[2023-07-20 19:45:07] INFO root fetch - processPackages [strongmind-deployment]: executing diffoscope
+[2023-07-20 19:45:07] INFO root fetch - processPackages [strongmind-deployment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/strongmind_deployment-1.0.8-py3-none-any.whl.zip tmp/strongmind_deployment-1.0.9-py3-none-any.whl.zip --markdown 20230720/s/strongmind-deployment/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-20 19:45:07] INFO root fetch - processPackages [kyujipy]: executing diffoscope
+[2023-07-20 19:45:07] INFO root fetch - processPackages [kyujipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kyujipy-0.5.6.tar.gz tmp/kyujipy-0.5.7.tar.gz --markdown 20230720/k/kyujipy/0.5.6-0.5.7/diff.md --exclude *.pyd
+[2023-07-20 19:45:07] INFO root fetch - processPackages [aws-fsx-lifecycle-status-monitor]: executing diffoscope
+[2023-07-20 19:45:07] INFO root fetch - processPackages [aws-fsx-lifecycle-status-monitor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws-fsx-lifecycle-status-monitor-0.0.6.tar.gz tmp/aws-fsx-lifecycle-status-monitor-0.0.7.tar.gz --markdown 20230720/a/aws-fsx-lifecycle-status-monitor/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-07-20 19:45:07] INFO root fetch - processPackages [djangoldp-babelfish]: executing diffoscope
+[2023-07-20 19:45:07] INFO root fetch - processPackages [djangoldp-babelfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djangoldp_babelfish-0.0.2.tar.gz tmp/djangoldp_babelfish-0.0.3.tar.gz --markdown 20230720/d/djangoldp-babelfish/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-20 19:45:07] INFO root fetch - processPackages [pyblm]: executing diffoscope
+[2023-07-20 19:45:07] INFO root fetch - processPackages [pyblm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyblm-0.1.0.tar.gz tmp/pyblm-0.1.1.tar.gz --markdown 20230720/p/pyblm/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-20 19:45:07] INFO root fetch - processPackages [jps-api-wrapper]: executing diffoscope
+[2023-07-20 19:45:07] INFO root fetch - processPackages [jps-api-wrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jps_api_wrapper-1.6.0.tar.gz tmp/jps_api_wrapper-1.7.0.tar.gz --markdown 20230720/j/jps-api-wrapper/1.6.0-1.7.0/diff.md --exclude *.pyd
+[2023-07-20 19:45:07] INFO root fetch - processPackages [shub-workflow]: executing diffoscope
+[2023-07-20 19:45:07] INFO root fetch - processPackages [shub-workflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shub-workflow-1.9.7.3.tar.gz tmp/shub-workflow-1.9.7.4.tar.gz --markdown 20230720/s/shub-workflow/1.9.7.3-1.9.7.4/diff.md --exclude *.pyd
+[2023-07-20 19:45:08] INFO root fetch - processPackages [tooey]: Remove: archive file [/home/abi/fetcher/tmp/tooey-0.3.0.tar.gz]
+[2023-07-20 19:45:08] INFO root fetch - processPackages [tooey]: Remove: archive file [/home/abi/fetcher/tmp/tooey-0.4.0.tar.gz]
+[2023-07-20 19:45:08] INFO root fetch - processPackages [tooey]: Start processing: djangoldp-babelfish
+[2023-07-20 19:45:08] INFO root fetch - main [MainThread]: End processing [tooey]: success
+[2023-07-20 19:45:08] INFO root fetch - processPackages [llamaapi]: Remove: archive file [/home/abi/fetcher/tmp/llamaapi-0.1.3.tar.gz]
+[2023-07-20 19:45:08] INFO root fetch - processPackages [llamaapi]: Remove: archive file [/home/abi/fetcher/tmp/llamaapi-0.1.4.tar.gz]
+[2023-07-20 19:45:08] INFO root fetch - processPackages [llamaapi]: Start processing: slingshot-ai
+[2023-07-20 19:45:08] INFO root fetch - main [MainThread]: End processing [llamaapi]: success
+[2023-07-20 19:45:08] INFO root fetch - processPackages [djangoldp-babelfish]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-20 19:45:08] INFO root fetch - processPackages [slingshot-ai]: New version: [0.0.17] Old Version: [0.0.16]
+[2023-07-20 19:45:08] INFO root fetch - processPackages [kyujipy]: Remove: archive file [/home/abi/fetcher/tmp/kyujipy-0.5.6.tar.gz]
+[2023-07-20 19:45:08] INFO root fetch - processPackages [kyujipy]: Remove: archive file [/home/abi/fetcher/tmp/kyujipy-0.5.7.tar.gz]
+[2023-07-20 19:45:08] INFO root fetch - main [MainThread]: End processing [kyujipy]: success
+[2023-07-20 19:45:08] INFO root fetch - processPackages [djangoldp-babelfish]: Remove: archive file [/home/abi/fetcher/tmp/djangoldp_babelfish-0.0.2.tar.gz]
+[2023-07-20 19:45:08] INFO root fetch - processPackages [djangoldp-babelfish]: Remove: archive file [/home/abi/fetcher/tmp/djangoldp_babelfish-0.0.3.tar.gz]
+[2023-07-20 19:45:08] INFO root fetch - main [MainThread]: End processing [djangoldp-babelfish]: success
+[2023-07-20 19:45:08] INFO root fetch - processPackages [djangoldp-babelfish]: Downloading https://files.pythonhosted.org/packages/f0/b8/4f7c7eef33c8cc1f4c05d49c6848e9d12a5af9173e245b682788d442c85e/djangoldp_babelfish-0.0.3.tar.gz
+[2023-07-20 19:45:08] INFO root fetch - processPackages [strongmind-deployment]: Remove: archive file [/home/abi/fetcher/tmp/strongmind_deployment-1.0.8-py3-none-any.whl.zip]
+[2023-07-20 19:45:08] INFO root fetch - processPackages [strongmind-deployment]: Remove: archive file [/home/abi/fetcher/tmp/strongmind_deployment-1.0.9-py3-none-any.whl.zip]
+[2023-07-20 19:45:08] INFO root fetch - main [MainThread]: End processing [strongmind-deployment]: success
+[2023-07-20 19:45:08] INFO root fetch - processPackages [slingshot-ai]: Downloading https://files.pythonhosted.org/packages/f1/17/fffa87c5e8562cb38e678a5c05364ebbd20e5e3ae7d63af999a545073be3/slingshot_ai-0.0.16.tar.gz
+[2023-07-20 19:45:09] INFO root fetch - processPackages [djangoldp-babelfish]: executing diffoscope
+[2023-07-20 19:45:09] INFO root fetch - processPackages [djangoldp-babelfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djangoldp_babelfish-0.0.2.tar.gz tmp/djangoldp_babelfish-0.0.3.tar.gz --markdown 20230720/d/djangoldp-babelfish/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-20 19:45:09] INFO root fetch - processPackages [aws-fsx-lifecycle-status-monitor]: Remove: archive file [/home/abi/fetcher/tmp/aws-fsx-lifecycle-status-monitor-0.0.6.tar.gz]
+[2023-07-20 19:45:09] INFO root fetch - processPackages [aws-fsx-lifecycle-status-monitor]: Remove: archive file [/home/abi/fetcher/tmp/aws-fsx-lifecycle-status-monitor-0.0.7.tar.gz]
+[2023-07-20 19:45:09] INFO root fetch - main [MainThread]: End processing [aws-fsx-lifecycle-status-monitor]: success
+[2023-07-20 19:45:09] INFO root fetch - processPackages [pyblm]: Remove: archive file [/home/abi/fetcher/tmp/pyblm-0.1.0.tar.gz]
+[2023-07-20 19:45:09] INFO root fetch - processPackages [pyblm]: Remove: archive file [/home/abi/fetcher/tmp/pyblm-0.1.1.tar.gz]
+[2023-07-20 19:45:09] INFO root fetch - main [MainThread]: End processing [pyblm]: success
+[2023-07-20 19:45:09] INFO root fetch - processPackages [jps-api-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/jps_api_wrapper-1.6.0.tar.gz]
+[2023-07-20 19:45:09] INFO root fetch - processPackages [jps-api-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/jps_api_wrapper-1.7.0.tar.gz]
+[2023-07-20 19:45:09] INFO root fetch - main [MainThread]: End processing [jps-api-wrapper]: success
+[2023-07-20 19:45:09] INFO root fetch - processPackages [fabric-orchestrator-client]: Remove: archive file [/home/abi/fetcher/tmp/fabric-orchestrator-client-1.5.2.tar.gz]
+[2023-07-20 19:45:09] INFO root fetch - processPackages [fabric-orchestrator-client]: Remove: archive file [/home/abi/fetcher/tmp/fabric-orchestrator-client-1.6.0b1.tar.gz]
+[2023-07-20 19:45:09] INFO root fetch - main [MainThread]: End processing [fabric-orchestrator-client]: success
+[2023-07-20 19:45:09] INFO root fetch - processPackages [shub-workflow]: Remove: archive file [/home/abi/fetcher/tmp/shub-workflow-1.9.7.3.tar.gz]
+[2023-07-20 19:45:09] INFO root fetch - processPackages [shub-workflow]: Remove: archive file [/home/abi/fetcher/tmp/shub-workflow-1.9.7.4.tar.gz]
+[2023-07-20 19:45:09] INFO root fetch - main [MainThread]: End processing [shub-workflow]: success
+[2023-07-20 19:45:09] INFO root fetch - processPackages [slingshot-ai]: Downloading https://files.pythonhosted.org/packages/68/16/b64d0c05e5691384829c0b0e545dc7344f2bdf1441f7502766c71da6b73f/slingshot_ai-0.0.17.tar.gz
+[2023-07-20 19:45:09] INFO root fetch - processPackages [slingshot-ai]: executing diffoscope
+[2023-07-20 19:45:09] INFO root fetch - processPackages [slingshot-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/slingshot_ai-0.0.16.tar.gz tmp/slingshot_ai-0.0.17.tar.gz --markdown 20230720/s/slingshot-ai/0.0.16-0.0.17/diff.md --exclude *.pyd
+[2023-07-20 19:45:09] ERROR root fetch - processPackages [djangoldp-babelfish]: Diffoscope failed: time="2023-07-20T19:45:09+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+/srv/diffoscope/bin/diffoscope: tmp/djangoldp_babelfish-0.0.2.tar.gz: No such file or directory
+
+[2023-07-20 19:45:09] INFO root fetch - main [MainThread]: End processing [djangoldp-babelfish] error
+[2023-07-20 19:45:10] INFO root fetch - processPackages [slingshot-ai]: Remove: archive file [/home/abi/fetcher/tmp/slingshot_ai-0.0.16.tar.gz]
+[2023-07-20 19:45:10] INFO root fetch - processPackages [slingshot-ai]: Remove: archive file [/home/abi/fetcher/tmp/slingshot_ai-0.0.17.tar.gz]
+[2023-07-20 19:45:10] INFO root fetch - main [MainThread]: End processing [slingshot-ai]: success
+[2023-07-20 19:45:10] INFO root fetch - main [MainThread]: Store serial: [18970340]
