@@ -4223,3 +4223,82 @@ AssertionError: tmp/verify4py-test-0.1.7.tar.gz does not exist
 [2023-07-20 11:40:01] INFO root fetch - processPackages [fake-winreg]: Remove: archive file [/home/abi/fetcher/tmp/fake_winreg-1.6.3.tar.gz]
 [2023-07-20 11:40:01] INFO root fetch - main [MainThread]: End processing [fake-winreg]: success
 [2023-07-20 11:40:01] INFO root fetch - main [MainThread]: Store serial: [18964482]
+[2023-07-20 11:45:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18964482]
+[2023-07-20 11:45:11] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-20 11:45:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: basic-type-operations
+[2023-07-20 11:45:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mecord-cli
+[2023-07-20 11:45:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ColabGeek
+[2023-07-20 11:45:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: CxAdmin
+[2023-07-20 11:45:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: geomancy
+[2023-07-20 11:45:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: qwak-core
+[2023-07-20 11:45:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nonebot-plugin-osubot
+[2023-07-20 11:45:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: no-pysha3-bip-utils
+[2023-07-20 11:45:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: text-block-local
+[2023-07-20 11:45:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo14-addon-shopfloor-mobile-base
+[2023-07-20 11:45:11] WARNING root fetch - processPackages [geomancy]: Skipping, unable to determine old version
+[2023-07-20 11:45:11] INFO root fetch - processPackages [geomancy]: Start processing: fusionsc
+[2023-07-20 11:45:11] INFO root fetch - main [MainThread]: End processing [geomancy] error
+[2023-07-20 11:45:11] WARNING root fetch - processPackages [basic-type-operations]: Skipping, unable to determine old version
+[2023-07-20 11:45:11] INFO root fetch - processPackages [basic-type-operations]: Start processing: pystools
+[2023-07-20 11:45:11] INFO root fetch - main [MainThread]: End processing [basic-type-operations] error
+[2023-07-20 11:45:11] INFO root fetch - processPackages [nonebot-plugin-osubot]: New version: [2.0.8] Old Version: [2.0.7]
+[2023-07-20 11:45:11] WARNING root fetch - processPackages [no-pysha3-bip-utils]: Skipping, unable to determine old version
+[2023-07-20 11:45:11] INFO root fetch - main [MainThread]: End processing [no-pysha3-bip-utils] error
+[2023-07-20 11:45:11] INFO root fetch - processPackages [ColabGeek]: New version: [1.2.3] Old Version: [1.2.2]
+[2023-07-20 11:45:11] INFO root fetch - processPackages [qwak-core]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-20 11:45:11] INFO root fetch - processPackages [odoo14-addon-shopfloor-mobile-base]: New version: [14.0.3.9.1] Old Version: [14.0.3.9.0]
+[2023-07-20 11:45:11] WARNING root fetch - processPackages [text-block-local]: Skipping, unable to determine old version
+[2023-07-20 11:45:11] INFO root fetch - main [MainThread]: End processing [text-block-local] error
+[2023-07-20 11:45:11] INFO root fetch - processPackages [mecord-cli]: New version: [0.1.9] Old Version: [0.1.82]
+[2023-07-20 11:45:11] INFO root fetch - processPackages [CxAdmin]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-20 11:45:11] INFO root fetch - processPackages [fusionsc]: New version: [4.0.2] Old Version: [4.0.1]
+[2023-07-20 11:45:11] INFO root fetch - processPackages [pystools]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-20 11:45:11] INFO root fetch - processPackages [CxAdmin]: Downloading https://files.pythonhosted.org/packages/72/2d/39137a2e73be34674809bf9eabf234a558344f4c60f8d348d9c9666872ce/CxAdmin-1.0.8.tar.gz
+[2023-07-20 11:45:11] INFO root fetch - processPackages [pystools]: Downloading https://files.pythonhosted.org/packages/d3/f1/f6fef6b574bd57970579f257d2f3b2adf9f6b87b20d9dc2c11e18d2a4a47/pystools-0.0.8.tar.gz
+[2023-07-20 11:45:11] INFO root fetch - processPackages [nonebot-plugin-osubot]: Downloading https://files.pythonhosted.org/packages/5a/3d/79ecfa02c8d717468022affd92d575790f3f3a94df723b7d385fb8e24309/nonebot-plugin-osubot-2.0.7.tar.gz
+[2023-07-20 11:45:11] INFO root fetch - processPackages [mecord-cli]: Downloading https://files.pythonhosted.org/packages/9c/87/f8d433d779b8a1c0c2563ff1467b464e594341a47cff3439db575189590e/mecord-cli-0.1.82.tar.gz
+[2023-07-20 11:45:11] INFO root fetch - processPackages [ColabGeek]: Downloading https://files.pythonhosted.org/packages/75/96/032f97aec5cf0ad4703d39b8b8f192c62c6514012c943d1bb83918581110/ColabGeek-1.2.2.tar.gz
+[2023-07-20 11:45:11] INFO root fetch - processPackages [qwak-core]: Downloading https://files.pythonhosted.org/packages/5f/d0/45d94253bcdc4108ecf2f05cb74d19b34ae62ade127e415b792f382bd060/qwak_core-0.0.98.tar.gz
+[2023-07-20 11:45:11] INFO root fetch - processPackages [fusionsc]: Downloading https://files.pythonhosted.org/packages/6b/4b/5708403096374ea86b1a65b7e3467aeb11a9f2219801f48aecf3a3c3905c/fusionsc-4.0.1.tar.gz
+[2023-07-20 11:45:11] INFO root fetch - processPackages [odoo14-addon-shopfloor-mobile-base]: Downloading https://files.pythonhosted.org/packages/c9/02/fbd281e8677b36013336bf9465d3cffb46f7d914917799726d5401feda45/odoo14_addon_shopfloor_mobile_base-14.0.3.9.0-py3-none-any.whl
+[2023-07-20 11:45:11] WARNING root fetch - processPackages [nonebot-plugin-osubot]: Skipping package: exceeds size limit 29657488>=10485760
+[2023-07-20 11:45:11] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-osubot] error
+[2023-07-20 11:45:11] INFO root fetch - processPackages [CxAdmin]: Downloading https://files.pythonhosted.org/packages/12/69/d90f882fe41226c22716f3133aa3d1fd7abd744d25527cd17a8e33f7487f/CxAdmin-1.0.9.tar.gz
+[2023-07-20 11:45:11] INFO root fetch - processPackages [pystools]: Downloading https://files.pythonhosted.org/packages/9b/5a/9f2cf38e22565c5aa2ecb7be3dbecb7a44f7d23efbd86fd532eacd613f62/pystools-0.0.9.tar.gz
+[2023-07-20 11:45:12] INFO root fetch - processPackages [mecord-cli]: Downloading https://files.pythonhosted.org/packages/2b/9f/dbf00e6cfb2e166744734b7095dec6d81a7ee7213a1ef56c5c29e85783a1/mecord-cli-0.1.9.tar.gz
+[2023-07-20 11:45:12] INFO root fetch - processPackages [CxAdmin]: executing diffoscope
+[2023-07-20 11:45:12] INFO root fetch - processPackages [CxAdmin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CxAdmin-1.0.8.tar.gz tmp/CxAdmin-1.0.9.tar.gz --markdown 20230720/C/CxAdmin/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-20 11:45:12] INFO root fetch - processPackages [pystools]: executing diffoscope
+[2023-07-20 11:45:12] INFO root fetch - processPackages [pystools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pystools-0.0.8.tar.gz tmp/pystools-0.0.9.tar.gz --markdown 20230720/p/pystools/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-20 11:45:12] INFO root fetch - processPackages [ColabGeek]: Downloading https://files.pythonhosted.org/packages/a0/1b/3ccfc900c0b5895570ef8bb3b845c21d58891ae0c9a0f2625dbea956c89a/ColabGeek-1.2.3.tar.gz
+[2023-07-20 11:45:12] INFO root fetch - processPackages [mecord-cli]: executing diffoscope
+[2023-07-20 11:45:12] INFO root fetch - processPackages [mecord-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mecord-cli-0.1.82.tar.gz tmp/mecord-cli-0.1.9.tar.gz --markdown 20230720/m/mecord-cli/0.1.82-0.1.9/diff.md --exclude *.pyd
+[2023-07-20 11:45:12] INFO root fetch - processPackages [ColabGeek]: executing diffoscope
+[2023-07-20 11:45:12] INFO root fetch - processPackages [ColabGeek]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ColabGeek-1.2.2.tar.gz tmp/ColabGeek-1.2.3.tar.gz --markdown 20230720/C/ColabGeek/1.2.2-1.2.3/diff.md --exclude *.pyd
+[2023-07-20 11:45:12] INFO root fetch - processPackages [qwak-core]: Downloading https://files.pythonhosted.org/packages/f2/c0/4910ee16f1146c11278c0b18778d0552fdbed48c75db8c1145bb48ab13c4/qwak_core-0.0.99.tar.gz
+[2023-07-20 11:45:12] WARNING root fetch - processPackages [fusionsc]: Skipping package: exceeds size limit 16405718>=10485760
+[2023-07-20 11:45:12] INFO root fetch - main [MainThread]: End processing [fusionsc] error
+[2023-07-20 11:45:12] INFO root fetch - processPackages [qwak-core]: executing diffoscope
+[2023-07-20 11:45:12] INFO root fetch - processPackages [qwak-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qwak_core-0.0.98.tar.gz tmp/qwak_core-0.0.99.tar.gz --markdown 20230720/q/qwak-core/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-20 11:45:12] INFO root fetch - processPackages [CxAdmin]: Remove: archive file [/home/abi/fetcher/tmp/CxAdmin-1.0.8.tar.gz]
+[2023-07-20 11:45:12] INFO root fetch - processPackages [CxAdmin]: Remove: archive file [/home/abi/fetcher/tmp/CxAdmin-1.0.9.tar.gz]
+[2023-07-20 11:45:12] INFO root fetch - main [MainThread]: End processing [CxAdmin]: success
+[2023-07-20 11:45:13] INFO root fetch - processPackages [pystools]: Remove: archive file [/home/abi/fetcher/tmp/pystools-0.0.8.tar.gz]
+[2023-07-20 11:45:13] INFO root fetch - processPackages [pystools]: Remove: archive file [/home/abi/fetcher/tmp/pystools-0.0.9.tar.gz]
+[2023-07-20 11:45:13] INFO root fetch - main [MainThread]: End processing [pystools]: success
+[2023-07-20 11:45:13] INFO root fetch - processPackages [mecord-cli]: Remove: archive file [/home/abi/fetcher/tmp/mecord-cli-0.1.82.tar.gz]
+[2023-07-20 11:45:13] INFO root fetch - processPackages [mecord-cli]: Remove: archive file [/home/abi/fetcher/tmp/mecord-cli-0.1.9.tar.gz]
+[2023-07-20 11:45:13] INFO root fetch - main [MainThread]: End processing [mecord-cli]: success
+[2023-07-20 11:45:13] INFO root fetch - processPackages [ColabGeek]: Remove: archive file [/home/abi/fetcher/tmp/ColabGeek-1.2.2.tar.gz]
+[2023-07-20 11:45:13] INFO root fetch - processPackages [ColabGeek]: Remove: archive file [/home/abi/fetcher/tmp/ColabGeek-1.2.3.tar.gz]
+[2023-07-20 11:45:13] INFO root fetch - main [MainThread]: End processing [ColabGeek]: success
+[2023-07-20 11:45:13] INFO root fetch - processPackages [odoo14-addon-shopfloor-mobile-base]: Downloading https://files.pythonhosted.org/packages/9c/4e/8ecc8852ff23bc95932ae1f8ba30fe73b8ddad3a6a84ff656bb087fcf7ed/odoo14_addon_shopfloor_mobile_base-14.0.3.9.1-py3-none-any.whl
+[2023-07-20 11:45:14] INFO root fetch - processPackages [odoo14-addon-shopfloor-mobile-base]: executing diffoscope
+[2023-07-20 11:45:14] INFO root fetch - processPackages [odoo14-addon-shopfloor-mobile-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_shopfloor_mobile_base-14.0.3.9.0-py3-none-any.whl.zip tmp/odoo14_addon_shopfloor_mobile_base-14.0.3.9.1-py3-none-any.whl.zip --markdown 20230720/o/odoo14-addon-shopfloor-mobile-base/14.0.3.9.0-14.0.3.9.1/diff.md --exclude *.pyd
+[2023-07-20 11:45:15] INFO root fetch - processPackages [qwak-core]: Remove: archive file [/home/abi/fetcher/tmp/qwak_core-0.0.98.tar.gz]
+[2023-07-20 11:45:15] INFO root fetch - processPackages [qwak-core]: Remove: archive file [/home/abi/fetcher/tmp/qwak_core-0.0.99.tar.gz]
+[2023-07-20 11:45:15] INFO root fetch - main [MainThread]: End processing [qwak-core]: success
+[2023-07-20 11:45:15] INFO root fetch - processPackages [odoo14-addon-shopfloor-mobile-base]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_shopfloor_mobile_base-14.0.3.9.0-py3-none-any.whl.zip]
+[2023-07-20 11:45:15] INFO root fetch - processPackages [odoo14-addon-shopfloor-mobile-base]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_shopfloor_mobile_base-14.0.3.9.1-py3-none-any.whl.zip]
+[2023-07-20 11:45:15] INFO root fetch - main [MainThread]: End processing [odoo14-addon-shopfloor-mobile-base]: success
+[2023-07-20 11:45:15] INFO root fetch - main [MainThread]: Store serial: [18964523]
