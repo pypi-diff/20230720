@@ -1154,3 +1154,89 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-07-20 10:35:55] INFO root fetch - processPackages [mppm]: Remove: archive file [/home/abi/fetcher/tmp/mppm-1.0.2.tar.gz]
 [2023-07-20 10:35:55] INFO root fetch - main [MainThread]: End processing [mppm]: success
 [2023-07-20 10:35:55] INFO root fetch - main [MainThread]: Store serial: [18963384]
+[2023-07-20 10:40:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18963384]
+[2023-07-20 10:41:04] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-20 10:41:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pydantic-settings-yaml
+[2023-07-20 10:41:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: h2o-engine-manager
+[2023-07-20 10:41:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: thor-requests
+[2023-07-20 10:41:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: htscf
+[2023-07-20 10:41:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: arkindex-cli
+[2023-07-20 10:41:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pulumi-azure-native
+[2023-07-20 10:41:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: zuicorn
+[2023-07-20 10:41:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: datachecks
+[2023-07-20 10:41:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tf-nightly
+[2023-07-20 10:41:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: sdksio-verizon-apis-sdk
+[2023-07-20 10:41:05] INFO root fetch - processPackages [zuicorn]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-07-20 10:41:05] INFO root fetch - processPackages [pydantic-settings-yaml]: New version: [0.2.0] Old Version: [0.1.3]
+[2023-07-20 10:41:05] INFO root fetch - processPackages [h2o-engine-manager]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-07-20 10:41:05] INFO root fetch - processPackages [thor-requests]: New version: [1.2.4] Old Version: [1.2.2]
+[2023-07-20 10:41:05] INFO root fetch - processPackages [arkindex-cli]: New version: [0.2.7] Old Version: [0.2.6]
+[2023-07-20 10:41:05] INFO root fetch - processPackages [htscf]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-20 10:41:05] WARNING root fetch - processPackages [datachecks]: Skipping, unable to determine old version
+[2023-07-20 10:41:05] INFO root fetch - processPackages [datachecks]: Start processing: BuoyanText
+[2023-07-20 10:41:05] INFO root fetch - main [MainThread]: End processing [datachecks] error
+[2023-07-20 10:41:05] WARNING root fetch - processPackages [sdksio-verizon-apis-sdk]: Skipping, unable to determine old version
+[2023-07-20 10:41:05] INFO root fetch - processPackages [sdksio-verizon-apis-sdk]: Start processing: chellow
+[2023-07-20 10:41:05] INFO root fetch - main [MainThread]: End processing [sdksio-verizon-apis-sdk] error
+[2023-07-20 10:41:05] INFO root fetch - processPackages [pulumi-azure-native]: New version: [2.0.1a1689839768] Old Version: [2.0.0b4]
+[2023-07-20 10:41:05] WARNING root fetch - processPackages [BuoyanText]: Skipping, unable to determine old version
+[2023-07-20 10:41:05] INFO root fetch - main [MainThread]: End processing [BuoyanText] error
+[2023-07-20 10:41:05] INFO root fetch - processPackages [zuicorn]: Downloading https://files.pythonhosted.org/packages/6a/62/1b9b98cdefa3792aaa6d91116f3a2baca63220bd27f4620851e396029592/zuicorn-1.0.5.tar.gz
+[2023-07-20 10:41:05] INFO root fetch - processPackages [tf-nightly]: New version: [2.14.0.dev20230720] Old Version: [2.14.0.dev20230719]
+[2023-07-20 10:41:05] INFO root fetch - processPackages [h2o-engine-manager]: Downloading https://files.pythonhosted.org/packages/90/55/998dc30e171bdfca49c02cbd2a201a5bf24b9486eff8d73cf30260c8c6ad/h2o_engine_manager-0.4.0.tar.gz
+[2023-07-20 10:41:05] INFO root fetch - processPackages [pydantic-settings-yaml]: Downloading https://files.pythonhosted.org/packages/4c/0a/5cd7216462de107548bfd5aa417b1d6b4880632907542a32625d501c023e/pydantic_settings_yaml-0.1.3.tar.gz
+[2023-07-20 10:41:05] INFO root fetch - processPackages [chellow]: New version: [2827] Old Version: [2826]
+[2023-07-20 10:41:05] INFO root fetch - processPackages [htscf]: Downloading https://files.pythonhosted.org/packages/c8/e9/433ebd24b2457e1ffcd9a6f543cd43dd34bcf7322cf71c2fe114c40ff539/htscf-0.0.8.tar.gz
+[2023-07-20 10:41:05] INFO root fetch - processPackages [pulumi-azure-native]: Downloading https://files.pythonhosted.org/packages/e9/94/87f70b27a812d485e43f2bb2d2e210be4d7f9881bd14de5d168ed3561c3a/pulumi_azure_native-2.0.0b4.tar.gz
+[2023-07-20 10:41:05] INFO root fetch - processPackages [thor-requests]: Downloading https://files.pythonhosted.org/packages/e1/86/e49e5546a019a75dd2a03e47ee29da7a9daedf055a6745670d01495e328e/thor-requests-1.2.2.tar.gz
+[2023-07-20 10:41:05] INFO root fetch - processPackages [arkindex-cli]: Downloading https://files.pythonhosted.org/packages/0b/00/a9140c3bbfb0c3cdaeaae55b0fc762a325a26cd57b1c9766ad37cb2a22eb/arkindex-cli-0.2.6.tar.gz
+[2023-07-20 10:41:05] WARNING root fetch - processPackages [pulumi-azure-native]: Skipping package: exceeds size limit 21623117>=10485760
+[2023-07-20 10:41:05] INFO root fetch - main [MainThread]: End processing [pulumi-azure-native] error
+[2023-07-20 10:41:05] INFO root fetch - processPackages [tf-nightly]: Downloading https://files.pythonhosted.org/packages/f2/b5/d4a464e372073777824e3d75403822753c6c77e75259988c11c5ce9aad8e/tf_nightly-2.14.0.dev20230719-cp39-cp39-win_amd64.whl
+[2023-07-20 10:41:05] INFO root fetch - processPackages [chellow]: Downloading https://files.pythonhosted.org/packages/53/7f/0c0b4c6862d01d54d05680973dafeac8063cadbc1558cc789060e11e064a/chellow-2826.tar.gz
+[2023-07-20 10:41:05] INFO root fetch - processPackages [zuicorn]: Downloading https://files.pythonhosted.org/packages/c8/28/18e0313aed98eb1d3d351e8ed91ed63c4daced058db1b8f6a5c7b1a00e69/zuicorn-1.0.6.tar.gz
+[2023-07-20 10:41:05] INFO root fetch - processPackages [pydantic-settings-yaml]: Downloading https://files.pythonhosted.org/packages/03/b5/0de91f5e0d23c0301e44029d5f64a32127f89611acc0a11fc55eb2bc90d1/pydantic_settings_yaml-0.2.0.tar.gz
+[2023-07-20 10:41:05] INFO root fetch - processPackages [h2o-engine-manager]: Downloading https://files.pythonhosted.org/packages/50/5b/174b06233cbf4551d9117a3d642604be540b9ac33e9dcb041ee647b1b5e3/h2o_engine_manager-0.5.0.tar.gz
+[2023-07-20 10:41:05] INFO root fetch - processPackages [zuicorn]: executing diffoscope
+[2023-07-20 10:41:05] INFO root fetch - processPackages [zuicorn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zuicorn-1.0.5.tar.gz tmp/zuicorn-1.0.6.tar.gz --markdown 20230720/z/zuicorn/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-07-20 10:41:05] INFO root fetch - processPackages [htscf]: Downloading https://files.pythonhosted.org/packages/7f/35/bbaf42ecce41b0a1aaec9012e9c22f97ede668deb3ddeeef6fb0e250f1fb/htscf-0.0.9.tar.gz
+[2023-07-20 10:41:05] INFO root fetch - processPackages [arkindex-cli]: Downloading https://files.pythonhosted.org/packages/5d/2e/0414165b3e24b333f68ec07d0f3b18efc5ee9f7bf2f294c076d105efafcd/arkindex-cli-0.2.7.tar.gz
+[2023-07-20 10:41:05] INFO root fetch - processPackages [thor-requests]: Downloading https://files.pythonhosted.org/packages/f1/fd/3c2f060aa3e011f2b9044ae28c8e6dd86857ab105ae852d5040f11603a94/thor-requests-1.2.4.tar.gz
+[2023-07-20 10:41:05] INFO root fetch - processPackages [tf-nightly]: Downloading https://files.pythonhosted.org/packages/d5/dd/edc71f017bfa9778fcacf343e4d2849eb04d7d7262f9efc72295fc4cfbc8/tf_nightly-2.14.0.dev20230720-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-20 10:41:06] INFO root fetch - processPackages [pydantic-settings-yaml]: executing diffoscope
+[2023-07-20 10:41:06] INFO root fetch - processPackages [pydantic-settings-yaml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydantic_settings_yaml-0.1.3.tar.gz tmp/pydantic_settings_yaml-0.2.0.tar.gz --markdown 20230720/p/pydantic-settings-yaml/0.1.3-0.2.0/diff.md --exclude *.pyd
+[2023-07-20 10:41:06] INFO root fetch - processPackages [arkindex-cli]: executing diffoscope
+[2023-07-20 10:41:06] INFO root fetch - processPackages [arkindex-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arkindex-cli-0.2.6.tar.gz tmp/arkindex-cli-0.2.7.tar.gz --markdown 20230720/a/arkindex-cli/0.2.6-0.2.7/diff.md --exclude *.pyd
+[2023-07-20 10:41:06] INFO root fetch - processPackages [h2o-engine-manager]: executing diffoscope
+[2023-07-20 10:41:06] INFO root fetch - processPackages [h2o-engine-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/h2o_engine_manager-0.4.0.tar.gz tmp/h2o_engine_manager-0.5.0.tar.gz --markdown 20230720/h/h2o-engine-manager/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-07-20 10:41:06] INFO root fetch - processPackages [thor-requests]: executing diffoscope
+[2023-07-20 10:41:06] INFO root fetch - processPackages [thor-requests]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thor-requests-1.2.2.tar.gz tmp/thor-requests-1.2.4.tar.gz --markdown 20230720/t/thor-requests/1.2.2-1.2.4/diff.md --exclude *.pyd
+[2023-07-20 10:41:06] INFO root fetch - processPackages [htscf]: executing diffoscope
+[2023-07-20 10:41:06] INFO root fetch - processPackages [htscf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/htscf-0.0.8.tar.gz tmp/htscf-0.0.9.tar.gz --markdown 20230720/h/htscf/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-20 10:41:06] INFO root fetch - processPackages [chellow]: Downloading https://files.pythonhosted.org/packages/bc/64/ec72bd83957d5f6ad5cfc5f2b156b41dad4c98bee657040bbb6b98ac80b6/chellow-2827.tar.gz
+[2023-07-20 10:41:06] WARNING root fetch - processPackages [tf-nightly]: Skipping package: exceeds size limit 486126210>=10485760
+[2023-07-20 10:41:06] INFO root fetch - main [MainThread]: End processing [tf-nightly] error
+[2023-07-20 10:41:06] INFO root fetch - processPackages [chellow]: executing diffoscope
+[2023-07-20 10:41:06] INFO root fetch - processPackages [chellow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chellow-2826.tar.gz tmp/chellow-2827.tar.gz --markdown 20230720/c/chellow/2826-2827/diff.md --exclude *.pyd
+[2023-07-20 10:41:06] INFO root fetch - processPackages [zuicorn]: Remove: archive file [/home/abi/fetcher/tmp/zuicorn-1.0.5.tar.gz]
+[2023-07-20 10:41:06] INFO root fetch - processPackages [zuicorn]: Remove: archive file [/home/abi/fetcher/tmp/zuicorn-1.0.6.tar.gz]
+[2023-07-20 10:41:06] INFO root fetch - main [MainThread]: End processing [zuicorn]: success
+[2023-07-20 10:41:07] INFO root fetch - processPackages [thor-requests]: Remove: archive file [/home/abi/fetcher/tmp/thor-requests-1.2.2.tar.gz]
+[2023-07-20 10:41:07] INFO root fetch - processPackages [thor-requests]: Remove: archive file [/home/abi/fetcher/tmp/thor-requests-1.2.4.tar.gz]
+[2023-07-20 10:41:07] INFO root fetch - main [MainThread]: End processing [thor-requests]: success
+[2023-07-20 10:41:07] INFO root fetch - processPackages [pydantic-settings-yaml]: Remove: archive file [/home/abi/fetcher/tmp/pydantic_settings_yaml-0.1.3.tar.gz]
+[2023-07-20 10:41:07] INFO root fetch - processPackages [pydantic-settings-yaml]: Remove: archive file [/home/abi/fetcher/tmp/pydantic_settings_yaml-0.2.0.tar.gz]
+[2023-07-20 10:41:07] INFO root fetch - main [MainThread]: End processing [pydantic-settings-yaml]: success
+[2023-07-20 10:41:07] INFO root fetch - processPackages [arkindex-cli]: Remove: archive file [/home/abi/fetcher/tmp/arkindex-cli-0.2.6.tar.gz]
+[2023-07-20 10:41:07] INFO root fetch - processPackages [arkindex-cli]: Remove: archive file [/home/abi/fetcher/tmp/arkindex-cli-0.2.7.tar.gz]
+[2023-07-20 10:41:07] INFO root fetch - main [MainThread]: End processing [arkindex-cli]: success
+[2023-07-20 10:41:07] INFO root fetch - processPackages [htscf]: Remove: archive file [/home/abi/fetcher/tmp/htscf-0.0.8.tar.gz]
+[2023-07-20 10:41:07] INFO root fetch - processPackages [htscf]: Remove: archive file [/home/abi/fetcher/tmp/htscf-0.0.9.tar.gz]
+[2023-07-20 10:41:07] INFO root fetch - main [MainThread]: End processing [htscf]: success
+[2023-07-20 10:41:08] INFO root fetch - processPackages [h2o-engine-manager]: Remove: archive file [/home/abi/fetcher/tmp/h2o_engine_manager-0.4.0.tar.gz]
+[2023-07-20 10:41:08] INFO root fetch - processPackages [h2o-engine-manager]: Remove: archive file [/home/abi/fetcher/tmp/h2o_engine_manager-0.5.0.tar.gz]
+[2023-07-20 10:41:08] INFO root fetch - main [MainThread]: End processing [h2o-engine-manager]: success
+[2023-07-20 10:41:09] INFO root fetch - processPackages [chellow]: Remove: archive file [/home/abi/fetcher/tmp/chellow-2826.tar.gz]
+[2023-07-20 10:41:09] INFO root fetch - processPackages [chellow]: Remove: archive file [/home/abi/fetcher/tmp/chellow-2827.tar.gz]
+[2023-07-20 10:41:09] INFO root fetch - main [MainThread]: End processing [chellow]: success
+[2023-07-20 10:41:09] INFO root fetch - main [MainThread]: Store serial: [18963424]
