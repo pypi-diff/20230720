@@ -923,3 +923,129 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-07-20 10:25:29] INFO root fetch - processPackages [yplib]: Remove: archive file [/home/abi/fetcher/tmp/yplib-2.6.1.tar.gz]
 [2023-07-20 10:25:29] INFO root fetch - main [MainThread]: End processing [yplib]: success
 [2023-07-20 10:25:29] INFO root fetch - main [MainThread]: Store serial: [18963297]
+[2023-07-20 10:30:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18963297]
+[2023-07-20 10:30:38] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-07-20 10:30:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jsoncrawler
+[2023-07-20 10:30:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: spark-sdk
+[2023-07-20 10:30:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dys-connector
+[2023-07-20 10:30:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: qoptcraft
+[2023-07-20 10:30:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: query-everywhere
+[2023-07-20 10:30:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: kuksa-client
+[2023-07-20 10:30:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: herta-villa-sdk
+[2023-07-20 10:30:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: reana-commons
+[2023-07-20 10:30:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: sailboat-gym
+[2023-07-20 10:30:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: seedwork-python
+[2023-07-20 10:30:38] INFO root fetch - processPackages [seedwork-python]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-07-20 10:30:38] INFO root fetch - processPackages [spark-sdk]: New version: [0.5.0rc1] Old Version: [0.5.0rc0]
+[2023-07-20 10:30:38] WARNING root fetch - processPackages [jsoncrawler]: Skipping, unable to determine old version
+[2023-07-20 10:30:38] INFO root fetch - processPackages [jsoncrawler]: Start processing: CFSession
+[2023-07-20 10:30:38] INFO root fetch - main [MainThread]: End processing [jsoncrawler] error
+[2023-07-20 10:30:38] INFO root fetch - processPackages [kuksa-client]: New version: [0.4.0a6] Old Version: [0.4.0a5]
+[2023-07-20 10:30:38] INFO root fetch - processPackages [query-everywhere]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-20 10:30:38] INFO root fetch - processPackages [dys-connector]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-20 10:30:38] WARNING root fetch - processPackages [qoptcraft]: Skipping, unable to determine old version
+[2023-07-20 10:30:38] INFO root fetch - processPackages [qoptcraft]: Start processing: harmonai-tools
+[2023-07-20 10:30:38] INFO root fetch - main [MainThread]: End processing [qoptcraft] error
+[2023-07-20 10:30:38] INFO root fetch - processPackages [herta-villa-sdk]: New version: [0.7.0] Old Version: [0.6.4]
+[2023-07-20 10:30:38] INFO root fetch - processPackages [sailboat-gym]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-20 10:30:38] INFO root fetch - processPackages [reana-commons]: New version: [0.9.3a3] Old Version: [0.9.3a2]
+[2023-07-20 10:30:38] INFO root fetch - processPackages [CFSession]: New version: [1.0.0] Old Version: [0.2.3]
+[2023-07-20 10:30:38] INFO root fetch - processPackages [query-everywhere]: Downloading https://files.pythonhosted.org/packages/a3/25/d049932001cc25d181916134e3aae1e1d9121d10f4a91e2bb351600ae8aa/query_everywhere-0.1.8.tar.gz
+[2023-07-20 10:30:38] INFO root fetch - processPackages [harmonai-tools]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-20 10:30:38] INFO root fetch - processPackages [seedwork-python]: Downloading https://files.pythonhosted.org/packages/c5/f8/ab320a329f670c575e7e95add69b23e2d44f3d8d169ae61bf066d8467ab8/seedwork_python-0.3.0.tar.gz
+[2023-07-20 10:30:38] INFO root fetch - processPackages [spark-sdk]: Downloading https://files.pythonhosted.org/packages/d8/7d/ee0265727a9515737605efb49209a7dc2f1900377a685eb9f9494c9d6549/spark_sdk-0.5.0rc0-py3-none-any.whl
+[2023-07-20 10:30:38] INFO root fetch - processPackages [kuksa-client]: Downloading https://files.pythonhosted.org/packages/b9/a3/06ba96d92176f24bbefda8f344d63f100c9a57d075a17ce8ed6ee46a4558/kuksa_client-0.4.0a5.tar.gz
+[2023-07-20 10:30:38] INFO root fetch - processPackages [dys-connector]: Downloading https://files.pythonhosted.org/packages/ea/91/d1e71ef8f6df96daff93a623e680603c9c03e324c40e58ca37a0ef040087/dys-connector-0.2.8.tar.gz
+[2023-07-20 10:30:38] INFO root fetch - processPackages [CFSession]: Downloading https://files.pythonhosted.org/packages/87/b3/ca49251677e9d319d91e069edd4cc10b41db8682ea4e2456721c95581df6/CFSession-0.2.3.tar.gz
+[2023-07-20 10:30:39] INFO root fetch - processPackages [reana-commons]: Downloading https://files.pythonhosted.org/packages/c1/f3/564db4c04b470d1b328c81dd9202a0dba918815afa1a3ae137de34e82949/reana-commons-0.9.3a2.tar.gz
+[2023-07-20 10:30:39] INFO root fetch - processPackages [herta-villa-sdk]: Downloading https://files.pythonhosted.org/packages/0a/f1/3cf5848dc8dea90715decd4ad7bf35b1df98371dc45b91d2c020a38c982e/herta_villa_sdk-0.6.4.tar.gz
+[2023-07-20 10:30:39] INFO root fetch - processPackages [sailboat-gym]: Downloading https://files.pythonhosted.org/packages/b7/3c/68b3c3b554a8064f9930cafb5a5539a7c4af299d665852189cffe56dd7f2/sailboat-gym-1.0.8.tar.gz
+[2023-07-20 10:30:39] INFO root fetch - processPackages [harmonai-tools]: Downloading https://files.pythonhosted.org/packages/cf/0e/dcf08496eb09b933b6be9b67383ae2f1fb9e946ba7f954d5dbb34c662527/harmonai-tools-0.0.2.tar.gz
+[2023-07-20 10:30:39] INFO root fetch - processPackages [query-everywhere]: Downloading https://files.pythonhosted.org/packages/a7/a5/22d2761ade844e7169bc3458f47a95a826ce9de5007b63f0795cb513e34a/query_everywhere-0.1.9.tar.gz
+[2023-07-20 10:30:39] INFO root fetch - processPackages [query-everywhere]: executing diffoscope
+[2023-07-20 10:30:39] INFO root fetch - processPackages [query-everywhere]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/query_everywhere-0.1.8.tar.gz tmp/query_everywhere-0.1.9.tar.gz --markdown 20230720/q/query-everywhere/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-20 10:30:39] INFO root fetch - processPackages [kuksa-client]: Downloading https://files.pythonhosted.org/packages/d1/6a/b2599032f0d8445dd0670b288c3c1be55232d54066db499e27f06936dae7/kuksa_client-0.4.0a6.tar.gz
+[2023-07-20 10:30:39] INFO root fetch - processPackages [seedwork-python]: Downloading https://files.pythonhosted.org/packages/b3/a3/e3f189d3991eb1a5169e2c98c4a54b66a146179eaa603726358659db9acd/seedwork_python-0.4.0.tar.gz
+[2023-07-20 10:30:39] INFO root fetch - processPackages [spark-sdk]: Downloading https://files.pythonhosted.org/packages/3b/85/93867d0d8bbb52fd4b4697a5840646287a5677dff5af173d7cfa5e8209bb/spark_sdk-0.5.0rc1-py3-none-any.whl
+[2023-07-20 10:30:39] INFO root fetch - processPackages [CFSession]: Downloading https://files.pythonhosted.org/packages/da/e6/7fbde71bba595ce88df1256d52dffd504499e792c723c0c795ad5e121be7/CFSession-1.0.0.tar.gz
+[2023-07-20 10:30:39] INFO root fetch - processPackages [herta-villa-sdk]: Downloading https://files.pythonhosted.org/packages/a8/35/a9ace09937c5dd7fcf77ef7196c6475c56f5d235edcc29cd9538bcf1ab2e/herta_villa_sdk-0.7.0.tar.gz
+[2023-07-20 10:30:39] INFO root fetch - processPackages [kuksa-client]: executing diffoscope
+[2023-07-20 10:30:39] INFO root fetch - processPackages [kuksa-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kuksa_client-0.4.0a5.tar.gz tmp/kuksa_client-0.4.0a6.tar.gz --markdown 20230720/k/kuksa-client/0.4.0a5-0.4.0a6/diff.md --exclude *.pyd
+[2023-07-20 10:30:39] INFO root fetch - processPackages [seedwork-python]: executing diffoscope
+[2023-07-20 10:30:39] INFO root fetch - processPackages [seedwork-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seedwork_python-0.3.0.tar.gz tmp/seedwork_python-0.4.0.tar.gz --markdown 20230720/s/seedwork-python/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-07-20 10:30:39] INFO root fetch - processPackages [harmonai-tools]: Downloading https://files.pythonhosted.org/packages/13/c7/08d21f5946881f178f49a413d5d1838c05353628ef1ac6b14cd005b5093b/harmonai-tools-0.0.3.tar.gz
+[2023-07-20 10:30:39] INFO root fetch - processPackages [reana-commons]: Downloading https://files.pythonhosted.org/packages/42/43/6d0a02c7493c5d1452fb78b5f09aebf6fc92eae8584696923cb63521134b/reana-commons-0.9.3a3.tar.gz
+[2023-07-20 10:30:39] INFO root fetch - processPackages [sailboat-gym]: Downloading https://files.pythonhosted.org/packages/33/e2/289abaad82bb0c682bc89e04cb25378d184e076a7953af8d3da8c48d12a2/sailboat-gym-1.0.9.tar.gz
+[2023-07-20 10:30:39] INFO root fetch - processPackages [spark-sdk]: executing diffoscope
+[2023-07-20 10:30:39] INFO root fetch - processPackages [spark-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spark_sdk-0.5.0rc0-py3-none-any.whl.zip tmp/spark_sdk-0.5.0rc1-py3-none-any.whl.zip --markdown 20230720/s/spark-sdk/0.5.0rc0-0.5.0rc1/diff.md --exclude *.pyd
+[2023-07-20 10:30:39] INFO root fetch - processPackages [CFSession]: executing diffoscope
+[2023-07-20 10:30:39] INFO root fetch - processPackages [CFSession]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CFSession-0.2.3.tar.gz tmp/CFSession-1.0.0.tar.gz --markdown 20230720/C/CFSession/0.2.3-1.0.0/diff.md --exclude *.pyd
+[2023-07-20 10:30:39] INFO root fetch - processPackages [herta-villa-sdk]: executing diffoscope
+[2023-07-20 10:30:39] INFO root fetch - processPackages [herta-villa-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/herta_villa_sdk-0.6.4.tar.gz tmp/herta_villa_sdk-0.7.0.tar.gz --markdown 20230720/h/herta-villa-sdk/0.6.4-0.7.0/diff.md --exclude *.pyd
+[2023-07-20 10:30:39] INFO root fetch - processPackages [harmonai-tools]: executing diffoscope
+[2023-07-20 10:30:39] INFO root fetch - processPackages [harmonai-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/harmonai-tools-0.0.2.tar.gz tmp/harmonai-tools-0.0.3.tar.gz --markdown 20230720/h/harmonai-tools/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-20 10:30:39] INFO root fetch - processPackages [sailboat-gym]: executing diffoscope
+[2023-07-20 10:30:39] INFO root fetch - processPackages [reana-commons]: executing diffoscope
+[2023-07-20 10:30:39] INFO root fetch - processPackages [sailboat-gym]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sailboat-gym-1.0.8.tar.gz tmp/sailboat-gym-1.0.9.tar.gz --markdown 20230720/s/sailboat-gym/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-20 10:30:39] INFO root fetch - processPackages [reana-commons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reana-commons-0.9.3a2.tar.gz tmp/reana-commons-0.9.3a3.tar.gz --markdown 20230720/r/reana-commons/0.9.3a2-0.9.3a3/diff.md --exclude *.pyd
+[2023-07-20 10:30:39] INFO root fetch - processPackages [dys-connector]: Downloading https://files.pythonhosted.org/packages/b0/7c/d9f0003fcfbe50d37c11efd6d0e8e7a57380a2cef03001bd0a36aec39834/dys-connector-0.2.9.tar.gz
+[2023-07-20 10:30:40] INFO root fetch - processPackages [query-everywhere]: Remove: archive file [/home/abi/fetcher/tmp/query_everywhere-0.1.8.tar.gz]
+[2023-07-20 10:30:40] INFO root fetch - processPackages [query-everywhere]: Remove: archive file [/home/abi/fetcher/tmp/query_everywhere-0.1.9.tar.gz]
+[2023-07-20 10:30:40] INFO root fetch - processPackages [query-everywhere]: Start processing: pysqldbm
+[2023-07-20 10:30:40] INFO root fetch - main [MainThread]: End processing [query-everywhere]: success
+[2023-07-20 10:30:40] INFO root fetch - processPackages [pysqldbm]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-07-20 10:30:40] INFO root fetch - processPackages [dys-connector]: executing diffoscope
+[2023-07-20 10:30:40] INFO root fetch - processPackages [dys-connector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dys-connector-0.2.8.tar.gz tmp/dys-connector-0.2.9.tar.gz --markdown 20230720/d/dys-connector/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-20 10:30:40] INFO root fetch - processPackages [pysqldbm]: Downloading https://files.pythonhosted.org/packages/a7/cd/3fbf95ae1e92170331fb40dfc45045e2b86df59d0a3fcbdef8dc12d998d7/pysqldbm-1.0.2.tar.gz
+[2023-07-20 10:30:40] INFO root fetch - processPackages [pysqldbm]: Downloading https://files.pythonhosted.org/packages/0d/b2/c378d7b043b8a080c8067060c862c68ddcd0f70d8b15d9dd44a466b5871b/pysqldbm-1.0.3.tar.gz
+[2023-07-20 10:30:41] INFO root fetch - processPackages [seedwork-python]: Remove: archive file [/home/abi/fetcher/tmp/seedwork_python-0.3.0.tar.gz]
+[2023-07-20 10:30:41] INFO root fetch - processPackages [seedwork-python]: Remove: archive file [/home/abi/fetcher/tmp/seedwork_python-0.4.0.tar.gz]
+[2023-07-20 10:30:41] INFO root fetch - processPackages [seedwork-python]: Start processing: pyakamai
+[2023-07-20 10:30:41] INFO root fetch - main [MainThread]: End processing [seedwork-python]: success
+[2023-07-20 10:30:41] INFO root fetch - processPackages [pyakamai]: New version: [1.25] Old Version: [1.23]
+[2023-07-20 10:30:41] INFO root fetch - processPackages [pysqldbm]: executing diffoscope
+[2023-07-20 10:30:41] INFO root fetch - processPackages [pysqldbm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysqldbm-1.0.2.tar.gz tmp/pysqldbm-1.0.3.tar.gz --markdown 20230720/p/pysqldbm/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-07-20 10:30:41] INFO root fetch - processPackages [spark-sdk]: Remove: archive file [/home/abi/fetcher/tmp/spark_sdk-0.5.0rc0-py3-none-any.whl.zip]
+[2023-07-20 10:30:41] INFO root fetch - processPackages [spark-sdk]: Remove: archive file [/home/abi/fetcher/tmp/spark_sdk-0.5.0rc1-py3-none-any.whl.zip]
+[2023-07-20 10:30:41] INFO root fetch - processPackages [spark-sdk]: Start processing: cdhit-reader
+[2023-07-20 10:30:41] INFO root fetch - main [MainThread]: End processing [spark-sdk]: success
+[2023-07-20 10:30:41] INFO root fetch - processPackages [kuksa-client]: Remove: archive file [/home/abi/fetcher/tmp/kuksa_client-0.4.0a5.tar.gz]
+[2023-07-20 10:30:41] INFO root fetch - processPackages [kuksa-client]: Remove: archive file [/home/abi/fetcher/tmp/kuksa_client-0.4.0a6.tar.gz]
+[2023-07-20 10:30:41] INFO root fetch - main [MainThread]: End processing [kuksa-client]: success
+[2023-07-20 10:30:41] INFO root fetch - processPackages [cdhit-reader]: New version: [0.2.0] Old Version: [0.1.1]
+[2023-07-20 10:30:41] INFO root fetch - processPackages [harmonai-tools]: Remove: archive file [/home/abi/fetcher/tmp/harmonai-tools-0.0.2.tar.gz]
+[2023-07-20 10:30:41] INFO root fetch - processPackages [harmonai-tools]: Remove: archive file [/home/abi/fetcher/tmp/harmonai-tools-0.0.3.tar.gz]
+[2023-07-20 10:30:41] INFO root fetch - main [MainThread]: End processing [harmonai-tools]: success
+[2023-07-20 10:30:41] INFO root fetch - processPackages [pyakamai]: Downloading https://files.pythonhosted.org/packages/fe/d9/d99b4f82fda4512d5b1eb7814b319ff72744f4f8e192c4ca19b2c38baaec/pyakamai-1.23-py3-none-any.whl
+[2023-07-20 10:30:41] INFO root fetch - processPackages [sailboat-gym]: Remove: archive file [/home/abi/fetcher/tmp/sailboat-gym-1.0.8.tar.gz]
+[2023-07-20 10:30:41] INFO root fetch - processPackages [sailboat-gym]: Remove: archive file [/home/abi/fetcher/tmp/sailboat-gym-1.0.9.tar.gz]
+[2023-07-20 10:30:41] INFO root fetch - main [MainThread]: End processing [sailboat-gym]: success
+[2023-07-20 10:30:41] INFO root fetch - processPackages [CFSession]: Remove: archive file [/home/abi/fetcher/tmp/CFSession-0.2.3.tar.gz]
+[2023-07-20 10:30:41] INFO root fetch - processPackages [CFSession]: Remove: archive file [/home/abi/fetcher/tmp/CFSession-1.0.0.tar.gz]
+[2023-07-20 10:30:41] INFO root fetch - main [MainThread]: End processing [CFSession]: success
+[2023-07-20 10:30:41] INFO root fetch - processPackages [cdhit-reader]: Downloading https://files.pythonhosted.org/packages/50/b3/af3208de1166f6529e049112c7f0e3c9d13d01968050badc985f79d72d95/cdhit-reader-0.1.1.tar.gz
+[2023-07-20 10:30:41] INFO root fetch - processPackages [reana-commons]: Remove: archive file [/home/abi/fetcher/tmp/reana-commons-0.9.3a2.tar.gz]
+[2023-07-20 10:30:41] INFO root fetch - processPackages [reana-commons]: Remove: archive file [/home/abi/fetcher/tmp/reana-commons-0.9.3a3.tar.gz]
+[2023-07-20 10:30:41] INFO root fetch - main [MainThread]: End processing [reana-commons]: success
+[2023-07-20 10:30:41] INFO root fetch - processPackages [herta-villa-sdk]: Remove: archive file [/home/abi/fetcher/tmp/herta_villa_sdk-0.6.4.tar.gz]
+[2023-07-20 10:30:41] INFO root fetch - processPackages [herta-villa-sdk]: Remove: archive file [/home/abi/fetcher/tmp/herta_villa_sdk-0.7.0.tar.gz]
+[2023-07-20 10:30:41] INFO root fetch - main [MainThread]: End processing [herta-villa-sdk]: success
+[2023-07-20 10:30:41] INFO root fetch - processPackages [dys-connector]: Remove: archive file [/home/abi/fetcher/tmp/dys-connector-0.2.8.tar.gz]
+[2023-07-20 10:30:41] INFO root fetch - processPackages [dys-connector]: Remove: archive file [/home/abi/fetcher/tmp/dys-connector-0.2.9.tar.gz]
+[2023-07-20 10:30:41] INFO root fetch - main [MainThread]: End processing [dys-connector]: success
+[2023-07-20 10:30:41] INFO root fetch - processPackages [pyakamai]: Downloading https://files.pythonhosted.org/packages/9c/27/2e8423a62d7d0c5f33184284732f81fb430d23e00c6a348b2117ac2ea0c4/pyakamai-1.25-py3-none-any.whl
+[2023-07-20 10:30:41] INFO root fetch - processPackages [cdhit-reader]: Downloading https://files.pythonhosted.org/packages/5a/05/663ba7b1b114653bbf36ca25d5b6a2fdd4432d9cf05406924584187367df/cdhit-reader-0.2.0.tar.gz
+[2023-07-20 10:30:41] INFO root fetch - processPackages [pyakamai]: executing diffoscope
+[2023-07-20 10:30:41] INFO root fetch - processPackages [pyakamai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyakamai-1.23-py3-none-any.whl.zip tmp/pyakamai-1.25-py3-none-any.whl.zip --markdown 20230720/p/pyakamai/1.23-1.25/diff.md --exclude *.pyd
+[2023-07-20 10:30:41] INFO root fetch - processPackages [pysqldbm]: Remove: archive file [/home/abi/fetcher/tmp/pysqldbm-1.0.2.tar.gz]
+[2023-07-20 10:30:41] INFO root fetch - processPackages [pysqldbm]: Remove: archive file [/home/abi/fetcher/tmp/pysqldbm-1.0.3.tar.gz]
+[2023-07-20 10:30:41] INFO root fetch - main [MainThread]: End processing [pysqldbm]: success
+[2023-07-20 10:30:42] INFO root fetch - processPackages [cdhit-reader]: executing diffoscope
+[2023-07-20 10:30:42] INFO root fetch - processPackages [cdhit-reader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdhit-reader-0.1.1.tar.gz tmp/cdhit-reader-0.2.0.tar.gz --markdown 20230720/c/cdhit-reader/0.1.1-0.2.0/diff.md --exclude *.pyd
+[2023-07-20 10:30:42] INFO root fetch - processPackages [pyakamai]: Remove: archive file [/home/abi/fetcher/tmp/pyakamai-1.23-py3-none-any.whl.zip]
+[2023-07-20 10:30:42] INFO root fetch - processPackages [pyakamai]: Remove: archive file [/home/abi/fetcher/tmp/pyakamai-1.25-py3-none-any.whl.zip]
+[2023-07-20 10:30:42] INFO root fetch - main [MainThread]: End processing [pyakamai]: success
+[2023-07-20 10:30:42] INFO root fetch - processPackages [cdhit-reader]: Remove: archive file [/home/abi/fetcher/tmp/cdhit-reader-0.1.1.tar.gz]
+[2023-07-20 10:30:42] INFO root fetch - processPackages [cdhit-reader]: Remove: archive file [/home/abi/fetcher/tmp/cdhit-reader-0.2.0.tar.gz]
+[2023-07-20 10:30:42] INFO root fetch - main [MainThread]: End processing [cdhit-reader]: success
+[2023-07-20 10:30:42] INFO root fetch - main [MainThread]: Store serial: [18963346]
