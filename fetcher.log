@@ -6708,3 +6708,122 @@ AssertionError: tmp/verify4py-test-0.1.7.tar.gz does not exist
 [2023-07-20 13:26:27] INFO root fetch - processPackages [apideck]: Remove: archive file [/home/abi/fetcher/tmp/apideck-0.2.3.tar.gz]
 [2023-07-20 13:26:27] INFO root fetch - main [MainThread]: End processing [apideck]: success
 [2023-07-20 13:26:27] INFO root fetch - main [MainThread]: Store serial: [18965776]
+[2023-07-20 13:31:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18965776]
+[2023-07-20 13:31:36] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-07-20 13:31:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-endpoint-route-handler
+[2023-07-20 13:31:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ddadevops
+[2023-07-20 13:31:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fwhunt-scan
+[2023-07-20 13:31:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: agentaction
+[2023-07-20 13:31:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: torchserve-nightly
+[2023-07-20 13:31:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: torch-model-archiver-nightly
+[2023-07-20 13:31:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: torch-workflow-archiver-nightly
+[2023-07-20 13:31:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dissect.etl
+[2023-07-20 13:31:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: rambaldi
+[2023-07-20 13:31:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: tarn
+[2023-07-20 13:31:36] INFO root fetch - processPackages [agentaction]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-20 13:31:36] WARNING root fetch - processPackages [rambaldi]: Skipping, unable to determine old version
+[2023-07-20 13:31:36] INFO root fetch - processPackages [rambaldi]: Start processing: cg
+[2023-07-20 13:31:36] INFO root fetch - processPackages [dissect.etl]: New version: [3.7.dev1] Old Version: [3.6.dev2]
+[2023-07-20 13:31:36] INFO root fetch - main [MainThread]: End processing [rambaldi] error
+[2023-07-20 13:31:36] INFO root fetch - processPackages [tarn]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-07-20 13:31:36] INFO root fetch - processPackages [odoo-addon-endpoint-route-handler]: New version: [16.0.1.1.0] Old Version: [16.0.1.0.0.3]
+[2023-07-20 13:31:36] INFO root fetch - processPackages [fwhunt-scan]: New version: [2.3.2] Old Version: [2.3.0]
+[2023-07-20 13:31:36] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: New version: [2023.7.9] Old Version: [2023.7.8]
+[2023-07-20 13:31:36] INFO root fetch - processPackages [ddadevops]: New version: [4.2.0] Old Version: [4.1.0.dev2]
+[2023-07-20 13:31:36] INFO root fetch - processPackages [torchserve-nightly]: New version: [2023.7.9] Old Version: [2023.7.8]
+[2023-07-20 13:31:36] INFO root fetch - processPackages [torch-model-archiver-nightly]: New version: [2023.7.9] Old Version: [2023.7.8]
+[2023-07-20 13:31:36] INFO root fetch - processPackages [agentaction]: Downloading https://files.pythonhosted.org/packages/5f/37/b7fd0571b132307625a6b697cf0f03fa6cb5f504c060f75ba726529b7229/agentaction-0.1.2.tar.gz
+[2023-07-20 13:31:36] INFO root fetch - processPackages [cg]: New version: [39.1.0] Old Version: [39.0.0]
+[2023-07-20 13:31:36] INFO root fetch - processPackages [tarn]: Downloading https://files.pythonhosted.org/packages/6c/07/7f29dcecdfe6f7b70b8ec40ebf74704ff9ca66eba04d9b5705a62740795e/tarn-0.9.4.tar.gz
+[2023-07-20 13:31:36] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/e9/d2/ace82f6858276177cd9286d5e030504359b5a385583c823d8bc18b4e6368/cg-39.0.0.tar.gz
+[2023-07-20 13:31:36] INFO root fetch - processPackages [dissect.etl]: Downloading https://files.pythonhosted.org/packages/30/85/14dfa4da9ca8c034915fbb262da14625c9e28f64f6b8bcf37bc0fb360e27/dissect.etl-3.6.dev2.tar.gz
+[2023-07-20 13:31:36] INFO root fetch - processPackages [odoo-addon-endpoint-route-handler]: Downloading https://files.pythonhosted.org/packages/f0/3d/c6caf08f77208eb3f26b76caad41f6c03acc3220c06ddff06f65874754dd/odoo_addon_endpoint_route_handler-16.0.1.0.0.3-py3-none-any.whl
+[2023-07-20 13:31:36] INFO root fetch - processPackages [fwhunt-scan]: Downloading https://files.pythonhosted.org/packages/f7/fd/d615493794d0c9e855145f21fddda415ef85d8628a5384897af6cf245817/fwhunt_scan-2.3.0.tar.gz
+[2023-07-20 13:31:36] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/44/8a/225f6757d5df77a706853e7f70981e785e26693e9c5529b1725322da94ee/torch_workflow_archiver_nightly-2023.7.8-py3-none-any.whl
+[2023-07-20 13:31:37] INFO root fetch - processPackages [torchserve-nightly]: Downloading https://files.pythonhosted.org/packages/d6/b2/b77948f318b41f4c30bce37021e5eaab04bf7c8abae416af053b02be3370/torchserve_nightly-2023.7.8-py3-none-any.whl
+[2023-07-20 13:31:37] INFO root fetch - processPackages [ddadevops]: Downloading https://files.pythonhosted.org/packages/d7/9a/a04da7dbb1a696187e45654581af5ae64f8de1aed7226554ea11e57621cf/ddadevops-4.1.0.dev2.tar.gz
+[2023-07-20 13:31:37] INFO root fetch - processPackages [torch-model-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/fc/e9/cb5f596703c31d7f2e9bf2501c71de3a97dd6f54385926ea9d621de36d48/torch_model_archiver_nightly-2023.7.8-py3-none-any.whl
+[2023-07-20 13:31:37] WARNING root fetch - processPackages [torchserve-nightly]: Skipping package: exceeds size limit 23750079>=10485760
+[2023-07-20 13:31:37] INFO root fetch - processPackages [torchserve-nightly]: Start processing: djlint
+[2023-07-20 13:31:37] INFO root fetch - main [MainThread]: End processing [torchserve-nightly] error
+[2023-07-20 13:31:37] INFO root fetch - processPackages [agentaction]: Downloading https://files.pythonhosted.org/packages/04/13/4a7441042c2dec946991472944053824da6e9fb54abe1ed22405c1064fcb/agentaction-0.1.3.tar.gz
+[2023-07-20 13:31:37] INFO root fetch - processPackages [djlint]: New version: [1.9.5] Old Version: [1.9.4]
+[2023-07-20 13:31:37] INFO root fetch - processPackages [agentaction]: executing diffoscope
+[2023-07-20 13:31:37] INFO root fetch - processPackages [agentaction]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agentaction-0.1.2.tar.gz tmp/agentaction-0.1.3.tar.gz --markdown 20230720/a/agentaction/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-20 13:31:37] INFO root fetch - processPackages [tarn]: Downloading https://files.pythonhosted.org/packages/84/a9/4a272839201f3e029f6a716533a963f2c2c4f0c27d4314529d55764988a6/tarn-0.9.5.tar.gz
+[2023-07-20 13:31:37] INFO root fetch - processPackages [odoo-addon-endpoint-route-handler]: Downloading https://files.pythonhosted.org/packages/eb/33/dce44b3e240cc1c620e5aa948965a84c7a3bf1c686acb49e5be8ec09b40f/odoo_addon_endpoint_route_handler-16.0.1.1.0-py3-none-any.whl
+[2023-07-20 13:31:37] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/fe/e1/e410f517fa560296c172a15440f705636cb42246e81398b27edb5a7c072f/torch_workflow_archiver_nightly-2023.7.9-py3-none-any.whl
+[2023-07-20 13:31:37] INFO root fetch - processPackages [djlint]: Downloading https://files.pythonhosted.org/packages/f9/db/1d732492f0f364373f90898eb81fd25b7968fb75cb643ad2325972ed793e/djlint-1.9.4.tar.gz
+[2023-07-20 13:31:37] INFO root fetch - processPackages [torch-model-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/fa/aa/2acd3c1df69eef6cb2f42f54b0fd7b1c220c14c65ccebdf7f555bda0304d/torch_model_archiver_nightly-2023.7.9-py3-none-any.whl
+[2023-07-20 13:31:37] INFO root fetch - processPackages [fwhunt-scan]: Downloading https://files.pythonhosted.org/packages/4b/eb/6043a50d073d6788e1ca765c9a8f74be14b69ed0a52b4b3610f0fdd3dbfc/fwhunt_scan-2.3.2.tar.gz
+[2023-07-20 13:31:37] INFO root fetch - processPackages [ddadevops]: Downloading https://files.pythonhosted.org/packages/b8/40/98cab7b8e40c2a3043b5883f999ffb6666d6a1a0ef3c19ec3135dcb31730/ddadevops-4.2.0.tar.gz
+[2023-07-20 13:31:37] INFO root fetch - processPackages [tarn]: executing diffoscope
+[2023-07-20 13:31:37] INFO root fetch - processPackages [tarn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tarn-0.9.4.tar.gz tmp/tarn-0.9.5.tar.gz --markdown 20230720/t/tarn/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-07-20 13:31:37] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/7b/a5/189ef82c0c1f8ad3fc02bad4865598904afabeabf7fe4c451146d659da90/cg-39.1.0.tar.gz
+[2023-07-20 13:31:37] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: executing diffoscope
+[2023-07-20 13:31:37] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_workflow_archiver_nightly-2023.7.8-py3-none-any.whl.zip tmp/torch_workflow_archiver_nightly-2023.7.9-py3-none-any.whl.zip --markdown 20230720/t/torch-workflow-archiver-nightly/2023.7.8-2023.7.9/diff.md --exclude *.pyd
+[2023-07-20 13:31:37] INFO root fetch - processPackages [odoo-addon-endpoint-route-handler]: executing diffoscope
+[2023-07-20 13:31:37] INFO root fetch - processPackages [odoo-addon-endpoint-route-handler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_endpoint_route_handler-16.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_endpoint_route_handler-16.0.1.1.0-py3-none-any.whl.zip --markdown 20230720/o/odoo-addon-endpoint-route-handler/16.0.1.0.0.3-16.0.1.1.0/diff.md --exclude *.pyd
+[2023-07-20 13:31:37] INFO root fetch - processPackages [torch-model-archiver-nightly]: executing diffoscope
+[2023-07-20 13:31:37] INFO root fetch - processPackages [torch-model-archiver-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_model_archiver_nightly-2023.7.8-py3-none-any.whl.zip tmp/torch_model_archiver_nightly-2023.7.9-py3-none-any.whl.zip --markdown 20230720/t/torch-model-archiver-nightly/2023.7.8-2023.7.9/diff.md --exclude *.pyd
+[2023-07-20 13:31:37] INFO root fetch - processPackages [ddadevops]: executing diffoscope
+[2023-07-20 13:31:37] INFO root fetch - processPackages [ddadevops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ddadevops-4.1.0.dev2.tar.gz tmp/ddadevops-4.2.0.tar.gz --markdown 20230720/d/ddadevops/4.1.0.dev2-4.2.0/diff.md --exclude *.pyd
+[2023-07-20 13:31:37] INFO root fetch - processPackages [fwhunt-scan]: executing diffoscope
+[2023-07-20 13:31:37] INFO root fetch - processPackages [fwhunt-scan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fwhunt_scan-2.3.0.tar.gz tmp/fwhunt_scan-2.3.2.tar.gz --markdown 20230720/f/fwhunt-scan/2.3.0-2.3.2/diff.md --exclude *.pyd
+[2023-07-20 13:31:37] INFO root fetch - processPackages [dissect.etl]: Downloading https://files.pythonhosted.org/packages/86/1b/cadb8a1d4e2bfd48d122e3bb06c9f0fac2054d087ef91fd233d1501648c7/dissect.etl-3.7.dev1.tar.gz
+[2023-07-20 13:31:38] INFO root fetch - processPackages [djlint]: Downloading https://files.pythonhosted.org/packages/54/cf/8946f7940be9edeca23fba4ba04373985b2d027737d5ffa4a4bfec091740/djlint-1.9.5.tar.gz
+[2023-07-20 13:31:38] INFO root fetch - processPackages [cg]: executing diffoscope
+[2023-07-20 13:31:38] INFO root fetch - processPackages [cg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg-39.0.0.tar.gz tmp/cg-39.1.0.tar.gz --markdown 20230720/c/cg/39.0.0-39.1.0/diff.md --exclude *.pyd
+[2023-07-20 13:31:38] INFO root fetch - processPackages [djlint]: executing diffoscope
+[2023-07-20 13:31:38] INFO root fetch - processPackages [djlint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djlint-1.9.4.tar.gz tmp/djlint-1.9.5.tar.gz --markdown 20230720/d/djlint/1.9.4-1.9.5/diff.md --exclude *.pyd
+[2023-07-20 13:31:38] INFO root fetch - processPackages [dissect.etl]: executing diffoscope
+[2023-07-20 13:31:38] INFO root fetch - processPackages [dissect.etl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dissect.etl-3.6.dev2.tar.gz tmp/dissect.etl-3.7.dev1.tar.gz --markdown 20230720/d/dissect.etl/3.6.dev2-3.7.dev1/diff.md --exclude *.pyd
+[2023-07-20 13:31:38] INFO root fetch - processPackages [agentaction]: Remove: archive file [/home/abi/fetcher/tmp/agentaction-0.1.2.tar.gz]
+[2023-07-20 13:31:38] INFO root fetch - processPackages [agentaction]: Remove: archive file [/home/abi/fetcher/tmp/agentaction-0.1.3.tar.gz]
+[2023-07-20 13:31:38] INFO root fetch - processPackages [agentaction]: Start processing: botoful
+[2023-07-20 13:31:38] INFO root fetch - main [MainThread]: End processing [agentaction]: success
+[2023-07-20 13:31:38] INFO root fetch - processPackages [botoful]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-07-20 13:31:38] INFO root fetch - processPackages [botoful]: Downloading https://files.pythonhosted.org/packages/56/16/8d4a9e19844ba9f464d7c85e50ab82820c58f4eb8b920f8f180f7a8fba09/botoful-0.3.0.tar.gz
+[2023-07-20 13:31:39] INFO root fetch - processPackages [tarn]: Remove: archive file [/home/abi/fetcher/tmp/tarn-0.9.4.tar.gz]
+[2023-07-20 13:31:39] INFO root fetch - processPackages [tarn]: Remove: archive file [/home/abi/fetcher/tmp/tarn-0.9.5.tar.gz]
+[2023-07-20 13:31:39] INFO root fetch - processPackages [tarn]: Start processing: wiliot-deployment-tools
+[2023-07-20 13:31:39] INFO root fetch - main [MainThread]: End processing [tarn]: success
+[2023-07-20 13:31:39] INFO root fetch - processPackages [wiliot-deployment-tools]: New version: [4.0.8] Old Version: [4.0.7]
+[2023-07-20 13:31:39] INFO root fetch - processPackages [botoful]: Downloading https://files.pythonhosted.org/packages/61/5c/a2f09d9a580969992019394a9d11fae293680879b7396d362a518a6658f3/botoful-0.4.0.tar.gz
+[2023-07-20 13:31:39] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_workflow_archiver_nightly-2023.7.8-py3-none-any.whl.zip]
+[2023-07-20 13:31:39] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_workflow_archiver_nightly-2023.7.9-py3-none-any.whl.zip]
+[2023-07-20 13:31:39] INFO root fetch - main [MainThread]: End processing [torch-workflow-archiver-nightly]: success
+[2023-07-20 13:31:39] INFO root fetch - processPackages [torch-model-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_archiver_nightly-2023.7.8-py3-none-any.whl.zip]
+[2023-07-20 13:31:39] INFO root fetch - processPackages [torch-model-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_archiver_nightly-2023.7.9-py3-none-any.whl.zip]
+[2023-07-20 13:31:39] INFO root fetch - main [MainThread]: End processing [torch-model-archiver-nightly]: success
+[2023-07-20 13:31:39] INFO root fetch - processPackages [botoful]: executing diffoscope
+[2023-07-20 13:31:39] INFO root fetch - processPackages [botoful]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botoful-0.3.0.tar.gz tmp/botoful-0.4.0.tar.gz --markdown 20230720/b/botoful/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-07-20 13:31:39] INFO root fetch - processPackages [wiliot-deployment-tools]: Downloading https://files.pythonhosted.org/packages/dc/92/c5b9a483fe38ba3d8168fab282f11332917de54eb6ba9ef5c674f0fd6f98/wiliot-deployment-tools-4.0.7.tar.gz
+[2023-07-20 13:31:39] INFO root fetch - processPackages [ddadevops]: Remove: archive file [/home/abi/fetcher/tmp/ddadevops-4.1.0.dev2.tar.gz]
+[2023-07-20 13:31:39] INFO root fetch - processPackages [ddadevops]: Remove: archive file [/home/abi/fetcher/tmp/ddadevops-4.2.0.tar.gz]
+[2023-07-20 13:31:39] INFO root fetch - main [MainThread]: End processing [ddadevops]: success
+[2023-07-20 13:31:39] INFO root fetch - processPackages [fwhunt-scan]: Remove: archive file [/home/abi/fetcher/tmp/fwhunt_scan-2.3.0.tar.gz]
+[2023-07-20 13:31:39] INFO root fetch - processPackages [fwhunt-scan]: Remove: archive file [/home/abi/fetcher/tmp/fwhunt_scan-2.3.2.tar.gz]
+[2023-07-20 13:31:39] INFO root fetch - main [MainThread]: End processing [fwhunt-scan]: success
+[2023-07-20 13:31:39] INFO root fetch - processPackages [odoo-addon-endpoint-route-handler]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_endpoint_route_handler-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2023-07-20 13:31:39] INFO root fetch - processPackages [odoo-addon-endpoint-route-handler]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_endpoint_route_handler-16.0.1.1.0-py3-none-any.whl.zip]
+[2023-07-20 13:31:39] INFO root fetch - main [MainThread]: End processing [odoo-addon-endpoint-route-handler]: success
+[2023-07-20 13:31:39] INFO root fetch - processPackages [wiliot-deployment-tools]: Downloading https://files.pythonhosted.org/packages/c1/d8/ac9ca94ecddd03059c1fc825f3afd9097f77d7810f76c2d615ba559b0c3c/wiliot-deployment-tools-4.0.8.tar.gz
+[2023-07-20 13:31:39] INFO root fetch - processPackages [djlint]: Remove: archive file [/home/abi/fetcher/tmp/djlint-1.9.4.tar.gz]
+[2023-07-20 13:31:39] INFO root fetch - processPackages [djlint]: Remove: archive file [/home/abi/fetcher/tmp/djlint-1.9.5.tar.gz]
+[2023-07-20 13:31:39] INFO root fetch - main [MainThread]: End processing [djlint]: success
+[2023-07-20 13:31:39] INFO root fetch - processPackages [wiliot-deployment-tools]: executing diffoscope
+[2023-07-20 13:31:39] INFO root fetch - processPackages [wiliot-deployment-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wiliot-deployment-tools-4.0.7.tar.gz tmp/wiliot-deployment-tools-4.0.8.tar.gz --markdown 20230720/w/wiliot-deployment-tools/4.0.7-4.0.8/diff.md --exclude *.pyd
+[2023-07-20 13:31:40] INFO root fetch - processPackages [botoful]: Remove: archive file [/home/abi/fetcher/tmp/botoful-0.3.0.tar.gz]
+[2023-07-20 13:31:40] INFO root fetch - processPackages [botoful]: Remove: archive file [/home/abi/fetcher/tmp/botoful-0.4.0.tar.gz]
+[2023-07-20 13:31:40] INFO root fetch - main [MainThread]: End processing [botoful]: success
+[2023-07-20 13:31:40] INFO root fetch - processPackages [wiliot-deployment-tools]: Remove: archive file [/home/abi/fetcher/tmp/wiliot-deployment-tools-4.0.7.tar.gz]
+[2023-07-20 13:31:40] INFO root fetch - processPackages [wiliot-deployment-tools]: Remove: archive file [/home/abi/fetcher/tmp/wiliot-deployment-tools-4.0.8.tar.gz]
+[2023-07-20 13:31:40] INFO root fetch - main [MainThread]: End processing [wiliot-deployment-tools]: success
+[2023-07-20 13:31:44] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-39.0.0.tar.gz]
+[2023-07-20 13:31:44] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-39.1.0.tar.gz]
+[2023-07-20 13:31:44] INFO root fetch - main [MainThread]: End processing [cg]: success
+[2023-07-20 13:31:57] INFO root fetch - processPackages [dissect.etl]: Remove: archive file [/home/abi/fetcher/tmp/dissect.etl-3.6.dev2.tar.gz]
+[2023-07-20 13:31:57] INFO root fetch - processPackages [dissect.etl]: Remove: archive file [/home/abi/fetcher/tmp/dissect.etl-3.7.dev1.tar.gz]
+[2023-07-20 13:31:57] INFO root fetch - main [MainThread]: End processing [dissect.etl]: success
+[2023-07-20 13:31:57] INFO root fetch - main [MainThread]: Store serial: [18965827]
