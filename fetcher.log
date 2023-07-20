@@ -22790,3 +22790,216 @@ AssertionError: tmp/threemystic_cloud_data_client-0.1.17.tar.gz does not exist
 [2023-07-20 22:14:29] INFO root fetch - processPackages [hidden-py]: Remove: archive file [/home/abi/fetcher/tmp/hidden-py-1.0.9.tar.gz]
 [2023-07-20 22:14:29] INFO root fetch - main [MainThread]: End processing [hidden-py]: success
 [2023-07-20 22:14:29] INFO root fetch - main [MainThread]: Store serial: [18972388]
+[2023-07-20 22:19:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18972388]
+[2023-07-20 22:19:38] INFO root fetch - main [MainThread]: Found 24 changed packages
+[2023-07-20 22:19:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hopeit.engine
+[2023-07-20 22:19:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hopeit.redis-streams
+[2023-07-20 22:19:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hopeit.redis-storage
+[2023-07-20 22:19:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hopeit.fs-storage
+[2023-07-20 22:19:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: anchorpy
+[2023-07-20 22:19:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hopeit.config-manager
+[2023-07-20 22:19:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: hopeit.log-streamer
+[2023-07-20 22:19:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: hopeit.apps-visualizer
+[2023-07-20 22:19:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: hopeit.apps-client
+[2023-07-20 22:19:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: nuances
+[2023-07-20 22:19:39] INFO root fetch - processPackages [hopeit.apps-visualizer]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-07-20 22:19:39] INFO root fetch - processPackages [hopeit.fs-storage]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-07-20 22:19:39] INFO root fetch - processPackages [hopeit.redis-storage]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-07-20 22:19:39] WARNING root fetch - processPackages [nuances]: Skipping, unable to determine old version
+[2023-07-20 22:19:39] INFO root fetch - processPackages [nuances]: Start processing: globus-sdk
+[2023-07-20 22:19:39] INFO root fetch - main [MainThread]: End processing [nuances] error
+[2023-07-20 22:19:39] INFO root fetch - processPackages [hopeit.log-streamer]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-07-20 22:19:39] INFO root fetch - processPackages [hopeit.redis-streams]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-07-20 22:19:39] INFO root fetch - processPackages [hopeit.apps-client]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-07-20 22:19:39] INFO root fetch - processPackages [hopeit.engine]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-07-20 22:19:39] INFO root fetch - processPackages [hopeit.config-manager]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-07-20 22:19:39] INFO root fetch - processPackages [anchorpy]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-07-20 22:19:39] INFO root fetch - processPackages [globus-sdk]: New version: [3.9.0] Old Version: [3.8.0]
+[2023-07-20 22:19:39] INFO root fetch - processPackages [hopeit.redis-streams]: Downloading https://files.pythonhosted.org/packages/7f/bb/cce2521722a9ca7c4f8705faefc9409cad7bf8b8f50738dc003908134809/hopeit.redis-streams-0.9.3.tar.gz
+[2023-07-20 22:19:39] INFO root fetch - processPackages [hopeit.fs-storage]: Downloading https://files.pythonhosted.org/packages/fb/78/9f12ba0723f18d95cfc265e9161ab9caa8331dfef9113139e04730a3baab/hopeit.fs-storage-0.9.3.tar.gz
+[2023-07-20 22:19:39] INFO root fetch - processPackages [hopeit.apps-visualizer]: Downloading https://files.pythonhosted.org/packages/45/84/219789f37d8157c1e93bf58f59e3582f5fb3349a8a76ffae004e2cb1f2e0/hopeit.apps-visualizer-0.9.3.tar.gz
+[2023-07-20 22:19:39] INFO root fetch - processPackages [hopeit.redis-storage]: Downloading https://files.pythonhosted.org/packages/9b/34/adf0ddc7317dfbf4f6e8a93d5a495ce90a75e91ee96aded064a778ba38ab/hopeit.redis-storage-0.9.3.tar.gz
+[2023-07-20 22:19:39] INFO root fetch - processPackages [hopeit.log-streamer]: Downloading https://files.pythonhosted.org/packages/0a/f1/19d733cb2838abfc35013b77c2fa4ee1b6408653d3dd4dedd69fb2bac9a7/hopeit.log-streamer-0.9.3.tar.gz
+[2023-07-20 22:19:39] INFO root fetch - processPackages [hopeit.config-manager]: Downloading https://files.pythonhosted.org/packages/4b/bc/188ce43c48caa1b21325a321ce3bfbdac69ec99bbf0dec45e7ebb123728e/hopeit.config-manager-0.9.3.tar.gz
+[2023-07-20 22:19:39] INFO root fetch - processPackages [hopeit.engine]: Downloading https://files.pythonhosted.org/packages/77/0c/f0d086e52a7f12dc4c183bbc474952fed1cf0cbb7cc84fa108de631ff49f/hopeit.engine-0.9.3.tar.gz
+[2023-07-20 22:19:39] INFO root fetch - processPackages [anchorpy]: Downloading https://files.pythonhosted.org/packages/c6/9c/ff8a4e7db64912b9b6f8e4a6432c1eab285beb6a41133bd03b6a8be063eb/anchorpy-0.9.3.tar.gz
+[2023-07-20 22:19:39] INFO root fetch - processPackages [hopeit.apps-client]: Downloading https://files.pythonhosted.org/packages/6f/d0/3300217b0bdc4ec8860f6ad73d60cdd4292afa64854322e92ac5c69c4504/hopeit.apps-client-0.9.3.tar.gz
+[2023-07-20 22:19:39] INFO root fetch - processPackages [globus-sdk]: Downloading https://files.pythonhosted.org/packages/0e/69/a18f6f005ad4042544dfee250cc0ad7b1dfa15b020e91635cb852df8b39b/globus-sdk-3.8.0.tar.gz
+[2023-07-20 22:19:39] INFO root fetch - processPackages [hopeit.redis-streams]: Downloading https://files.pythonhosted.org/packages/22/de/9a189da49a2a5ad51b23e93dfc57ce7e122fb2d2010b14cb5ba62b391872/hopeit.redis-streams-0.9.4.tar.gz
+[2023-07-20 22:19:39] INFO root fetch - processPackages [hopeit.fs-storage]: Downloading https://files.pythonhosted.org/packages/2a/6e/6e8c3d16e93db96638875ab2d41825e14ee7199dc7513c1548f78eab46bf/hopeit.fs-storage-0.9.4.tar.gz
+[2023-07-20 22:19:39] INFO root fetch - processPackages [hopeit.apps-visualizer]: Downloading https://files.pythonhosted.org/packages/04/fe/fb284943ec4cf69ecb6a13eef13a825ab5820bc1ccb7530010cbeaf3e7bf/hopeit.apps-visualizer-0.9.4.tar.gz
+[2023-07-20 22:19:39] INFO root fetch - processPackages [hopeit.redis-storage]: Downloading https://files.pythonhosted.org/packages/a4/ee/13527f64d499195573def792b5480170abe715480d3a4cf26a2af4f34016/hopeit.redis-storage-0.9.4.tar.gz
+[2023-07-20 22:19:39] INFO root fetch - processPackages [hopeit.log-streamer]: Downloading https://files.pythonhosted.org/packages/e9/c9/3c38233250f29d6d260b698c83c68e698f45a9299afd8d9e0770948c7450/hopeit.log-streamer-0.9.4.tar.gz
+[2023-07-20 22:19:39] INFO root fetch - processPackages [globus-sdk]: Downloading https://files.pythonhosted.org/packages/25/14/aabdb79c17bfdf79dfb1d76a57ae9f7c4fabe3edacc2c68efe1df4e9efa2/globus-sdk-3.9.0.tar.gz
+[2023-07-20 22:19:39] INFO root fetch - processPackages [hopeit.config-manager]: Downloading https://files.pythonhosted.org/packages/fa/a9/5f086f78a386daa79bc05e3f19b72498d35c80843d16b0f9c1e8538f90ee/hopeit.config-manager-0.9.4.tar.gz
+[2023-07-20 22:19:39] INFO root fetch - processPackages [anchorpy]: Downloading https://files.pythonhosted.org/packages/d6/bb/88a6cd3ad69ef5c584af177b35327dfdc29e721151f8d88fd3e6f6cc8fbf/anchorpy-0.9.4.tar.gz
+[2023-07-20 22:19:40] INFO root fetch - processPackages [hopeit.redis-streams]: executing diffoscope
+[2023-07-20 22:19:40] INFO root fetch - processPackages [hopeit.redis-streams]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hopeit.redis-streams-0.9.3.tar.gz tmp/hopeit.redis-streams-0.9.4.tar.gz --markdown 20230720/h/hopeit.redis-streams/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-07-20 22:19:40] INFO root fetch - processPackages [hopeit.engine]: Downloading https://files.pythonhosted.org/packages/0a/09/01dc7c313169d5681eaa32f1584f254c9649ca9a7f2a060fafb34d8f6660/hopeit.engine-0.9.4.tar.gz
+[2023-07-20 22:19:40] INFO root fetch - processPackages [globus-sdk]: executing diffoscope
+[2023-07-20 22:19:40] INFO root fetch - processPackages [globus-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/globus-sdk-3.8.0.tar.gz tmp/globus-sdk-3.9.0.tar.gz --markdown 20230720/g/globus-sdk/3.8.0-3.9.0/diff.md --exclude *.pyd
+[2023-07-20 22:19:40] INFO root fetch - processPackages [hopeit.redis-storage]: executing diffoscope
+[2023-07-20 22:19:40] INFO root fetch - processPackages [hopeit.redis-storage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hopeit.redis-storage-0.9.3.tar.gz tmp/hopeit.redis-storage-0.9.4.tar.gz --markdown 20230720/h/hopeit.redis-storage/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-07-20 22:19:40] INFO root fetch - processPackages [hopeit.log-streamer]: executing diffoscope
+[2023-07-20 22:19:40] INFO root fetch - processPackages [hopeit.log-streamer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hopeit.log-streamer-0.9.3.tar.gz tmp/hopeit.log-streamer-0.9.4.tar.gz --markdown 20230720/h/hopeit.log-streamer/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-07-20 22:19:40] INFO root fetch - processPackages [anchorpy]: executing diffoscope
+[2023-07-20 22:19:40] INFO root fetch - processPackages [anchorpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anchorpy-0.9.3.tar.gz tmp/anchorpy-0.9.4.tar.gz --markdown 20230720/a/anchorpy/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-07-20 22:19:40] INFO root fetch - processPackages [hopeit.apps-visualizer]: executing diffoscope
+[2023-07-20 22:19:40] INFO root fetch - processPackages [hopeit.apps-visualizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hopeit.apps-visualizer-0.9.3.tar.gz tmp/hopeit.apps-visualizer-0.9.4.tar.gz --markdown 20230720/h/hopeit.apps-visualizer/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-07-20 22:19:40] INFO root fetch - processPackages [hopeit.engine]: executing diffoscope
+[2023-07-20 22:19:40] INFO root fetch - processPackages [hopeit.engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hopeit.engine-0.9.3.tar.gz tmp/hopeit.engine-0.9.4.tar.gz --markdown 20230720/h/hopeit.engine/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-07-20 22:19:40] INFO root fetch - processPackages [hopeit.apps-client]: Downloading https://files.pythonhosted.org/packages/20/fc/68fc9dc7f279819114f0ece384de66d5e3bdff4a3cd5627fed15fb768a76/hopeit.apps-client-0.9.4.tar.gz
+[2023-07-20 22:19:40] INFO root fetch - processPackages [hopeit.fs-storage]: executing diffoscope
+[2023-07-20 22:19:40] INFO root fetch - processPackages [hopeit.fs-storage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hopeit.fs-storage-0.9.3.tar.gz tmp/hopeit.fs-storage-0.9.4.tar.gz --markdown 20230720/h/hopeit.fs-storage/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-07-20 22:19:40] INFO root fetch - processPackages [hopeit.apps-client]: executing diffoscope
+[2023-07-20 22:19:40] INFO root fetch - processPackages [hopeit.apps-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hopeit.apps-client-0.9.3.tar.gz tmp/hopeit.apps-client-0.9.4.tar.gz --markdown 20230720/h/hopeit.apps-client/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-07-20 22:19:41] INFO root fetch - processPackages [hopeit.config-manager]: executing diffoscope
+[2023-07-20 22:19:41] INFO root fetch - processPackages [hopeit.config-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hopeit.config-manager-0.9.3.tar.gz tmp/hopeit.config-manager-0.9.4.tar.gz --markdown 20230720/h/hopeit.config-manager/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-07-20 22:19:41] INFO root fetch - processPackages [hopeit.redis-streams]: Remove: archive file [/home/abi/fetcher/tmp/hopeit.redis-streams-0.9.3.tar.gz]
+[2023-07-20 22:19:41] INFO root fetch - processPackages [hopeit.redis-streams]: Remove: archive file [/home/abi/fetcher/tmp/hopeit.redis-streams-0.9.4.tar.gz]
+[2023-07-20 22:19:41] INFO root fetch - processPackages [hopeit.redis-streams]: Start processing: nwebclient
+[2023-07-20 22:19:41] INFO root fetch - main [MainThread]: End processing [hopeit.redis-streams]: success
+[2023-07-20 22:19:41] INFO root fetch - processPackages [nwebclient]: New version: [1.0.94] Old Version: [1.0.47]
+[2023-07-20 22:19:41] INFO root fetch - processPackages [nwebclient]: Downloading https://files.pythonhosted.org/packages/f8/5a/617896767d6ed09371dcf4b5a8041793a603d156e939d0b03b5fba1552d8/nwebclient-1.0.47.tar.gz
+[2023-07-20 22:19:41] INFO root fetch - processPackages [hopeit.log-streamer]: Remove: archive file [/home/abi/fetcher/tmp/hopeit.log-streamer-0.9.3.tar.gz]
+[2023-07-20 22:19:41] INFO root fetch - processPackages [hopeit.log-streamer]: Remove: archive file [/home/abi/fetcher/tmp/hopeit.log-streamer-0.9.4.tar.gz]
+[2023-07-20 22:19:41] INFO root fetch - processPackages [hopeit.log-streamer]: Start processing: dexteritysdk
+[2023-07-20 22:19:41] INFO root fetch - main [MainThread]: End processing [hopeit.log-streamer]: success
+[2023-07-20 22:19:41] INFO root fetch - processPackages [hopeit.redis-storage]: Remove: archive file [/home/abi/fetcher/tmp/hopeit.redis-storage-0.9.3.tar.gz]
+[2023-07-20 22:19:41] INFO root fetch - processPackages [hopeit.redis-storage]: Remove: archive file [/home/abi/fetcher/tmp/hopeit.redis-storage-0.9.4.tar.gz]
+[2023-07-20 22:19:41] INFO root fetch - processPackages [hopeit.redis-storage]: Start processing: boonamber
+[2023-07-20 22:19:41] INFO root fetch - main [MainThread]: End processing [hopeit.redis-storage]: success
+[2023-07-20 22:19:41] INFO root fetch - processPackages [dexteritysdk]: New version: [0.2.8] Old Version: [0.2.3]
+[2023-07-20 22:19:41] INFO root fetch - processPackages [boonamber]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-07-20 22:19:41] INFO root fetch - processPackages [hopeit.apps-visualizer]: Remove: archive file [/home/abi/fetcher/tmp/hopeit.apps-visualizer-0.9.3.tar.gz]
+[2023-07-20 22:19:41] INFO root fetch - processPackages [hopeit.apps-visualizer]: Remove: archive file [/home/abi/fetcher/tmp/hopeit.apps-visualizer-0.9.4.tar.gz]
+[2023-07-20 22:19:41] INFO root fetch - processPackages [hopeit.apps-visualizer]: Start processing: keyrock-model
+[2023-07-20 22:19:41] INFO root fetch - main [MainThread]: End processing [hopeit.apps-visualizer]: success
+[2023-07-20 22:19:41] INFO root fetch - processPackages [keyrock-model]: New version: [2023.7.20.2017] Old Version: [2023.3.17.1651]
+[2023-07-20 22:19:41] INFO root fetch - processPackages [anchorpy]: Remove: archive file [/home/abi/fetcher/tmp/anchorpy-0.9.3.tar.gz]
+[2023-07-20 22:19:41] INFO root fetch - processPackages [anchorpy]: Remove: archive file [/home/abi/fetcher/tmp/anchorpy-0.9.4.tar.gz]
+[2023-07-20 22:19:41] INFO root fetch - processPackages [anchorpy]: Start processing: keyrock-fastapi
+[2023-07-20 22:19:41] INFO root fetch - main [MainThread]: End processing [anchorpy]: success
+[2023-07-20 22:19:41] INFO root fetch - processPackages [nwebclient]: Downloading https://files.pythonhosted.org/packages/12/6e/d067b316a4ac231633403551f2c003e4ea1de809ac114b82af80cd324ec1/nwebclient-1.0.94.tar.gz
+[2023-07-20 22:19:41] INFO root fetch - processPackages [dexteritysdk]: Downloading https://files.pythonhosted.org/packages/c0/1c/75eee5f287e7581a58391ed18014bb4bad47518ed694ea6e493592b4ff7a/dexteritysdk-0.2.3.tar.gz
+[2023-07-20 22:19:41] INFO root fetch - processPackages [keyrock-fastapi]: New version: [2023.7.20.2017] Old Version: [2023.4.1.1925]
+[2023-07-20 22:19:41] INFO root fetch - processPackages [hopeit.fs-storage]: Remove: archive file [/home/abi/fetcher/tmp/hopeit.fs-storage-0.9.3.tar.gz]
+[2023-07-20 22:19:41] INFO root fetch - processPackages [hopeit.fs-storage]: Remove: archive file [/home/abi/fetcher/tmp/hopeit.fs-storage-0.9.4.tar.gz]
+[2023-07-20 22:19:41] INFO root fetch - processPackages [hopeit.fs-storage]: Start processing: keyrock-math
+[2023-07-20 22:19:41] INFO root fetch - main [MainThread]: End processing [hopeit.fs-storage]: success
+[2023-07-20 22:19:41] INFO root fetch - processPackages [nwebclient]: executing diffoscope
+[2023-07-20 22:19:41] INFO root fetch - processPackages [nwebclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nwebclient-1.0.47.tar.gz tmp/nwebclient-1.0.94.tar.gz --markdown 20230720/n/nwebclient/1.0.47-1.0.94/diff.md --exclude *.pyd
+[2023-07-20 22:19:41] INFO root fetch - processPackages [keyrock-math]: New version: [2023.7.20.2017] Old Version: [2023.5.7.1147]
+[2023-07-20 22:19:41] INFO root fetch - processPackages [boonamber]: Downloading https://files.pythonhosted.org/packages/c6/81/5faefc3cb0df82d1483ffa5ee9ea069ddf9b2d979f7d9643e8756c7ce92f/boonamber-2.0.8.tar.gz
+[2023-07-20 22:19:41] INFO root fetch - processPackages [hopeit.engine]: Remove: archive file [/home/abi/fetcher/tmp/hopeit.engine-0.9.3.tar.gz]
+[2023-07-20 22:19:41] INFO root fetch - processPackages [hopeit.engine]: Remove: archive file [/home/abi/fetcher/tmp/hopeit.engine-0.9.4.tar.gz]
+[2023-07-20 22:19:41] INFO root fetch - processPackages [hopeit.engine]: Start processing: modal-client
+[2023-07-20 22:19:41] INFO root fetch - main [MainThread]: End processing [hopeit.engine]: success
+[2023-07-20 22:19:41] INFO root fetch - processPackages [keyrock-model]: Downloading https://files.pythonhosted.org/packages/0e/2a/3d818cc67eb6d8acbc36532de717eb128d208b21b00315af805eeeac67c1/keyrock-model-2023.3.17.1651.tar.gz
+[2023-07-20 22:19:42] INFO root fetch - processPackages [modal-client]: New version: [0.50.2684] Old Version: [0.50.2677]
+[2023-07-20 22:19:42] INFO root fetch - processPackages [globus-sdk]: Remove: archive file [/home/abi/fetcher/tmp/globus-sdk-3.8.0.tar.gz]
+[2023-07-20 22:19:42] INFO root fetch - processPackages [globus-sdk]: Remove: archive file [/home/abi/fetcher/tmp/globus-sdk-3.9.0.tar.gz]
+[2023-07-20 22:19:42] INFO root fetch - processPackages [globus-sdk]: Start processing: modal
+[2023-07-20 22:19:42] INFO root fetch - main [MainThread]: End processing [globus-sdk]: success
+[2023-07-20 22:19:42] INFO root fetch - processPackages [keyrock-fastapi]: Downloading https://files.pythonhosted.org/packages/1f/65/d5db95b6840bc37686ebc5e74d46db6402005b8071a4b065a3721ccf9b62/keyrock-fastapi-2023.4.1.1925.tar.gz
+[2023-07-20 22:19:42] INFO root fetch - processPackages [dexteritysdk]: Downloading https://files.pythonhosted.org/packages/18/ec/7309d07db8a022b6c0d9eeaeb4864863ed7f0c5c1c99f5d7fd8f4dd5c1ab/dexteritysdk-0.2.8.tar.gz
+[2023-07-20 22:19:42] INFO root fetch - processPackages [modal]: New version: [0.50.2684] Old Version: [0.50.2677]
+[2023-07-20 22:19:42] INFO root fetch - processPackages [modal-client]: Downloading https://files.pythonhosted.org/packages/63/44/fa0079c4bf40b47fa8d89f6c63119c7c126fdcf8029cff25fa871829ceb9/modal_client-0.50.2677-py3-none-any.whl
+[2023-07-20 22:19:42] INFO root fetch - processPackages [keyrock-math]: Downloading https://files.pythonhosted.org/packages/db/32/e9efbece2da71201b80a85d059a8cd9218134e2a8ea579647f1adb1bbe6e/keyrock-math-2023.5.7.1147.tar.gz
+[2023-07-20 22:19:42] INFO root fetch - processPackages [hopeit.apps-client]: Remove: archive file [/home/abi/fetcher/tmp/hopeit.apps-client-0.9.3.tar.gz]
+[2023-07-20 22:19:42] INFO root fetch - processPackages [hopeit.apps-client]: Remove: archive file [/home/abi/fetcher/tmp/hopeit.apps-client-0.9.4.tar.gz]
+[2023-07-20 22:19:42] INFO root fetch - processPackages [hopeit.apps-client]: Start processing: wells4hydrogeology
+[2023-07-20 22:19:42] INFO root fetch - main [MainThread]: End processing [hopeit.apps-client]: success
+[2023-07-20 22:19:42] INFO root fetch - processPackages [modal]: Downloading https://files.pythonhosted.org/packages/1e/4d/4e507278df55c4cda9b98a99526f644551106edbe74035a0b6d6969285a7/modal-0.50.2677-py3-none-any.whl
+[2023-07-20 22:19:42] INFO root fetch - processPackages [wells4hydrogeology]: New version: [0.0.9] Old Version: [0.0.7]
+[2023-07-20 22:19:42] INFO root fetch - processPackages [dexteritysdk]: executing diffoscope
+[2023-07-20 22:19:42] INFO root fetch - processPackages [dexteritysdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dexteritysdk-0.2.3.tar.gz tmp/dexteritysdk-0.2.8.tar.gz --markdown 20230720/d/dexteritysdk/0.2.3-0.2.8/diff.md --exclude *.pyd
+[2023-07-20 22:19:42] INFO root fetch - processPackages [keyrock-model]: Downloading https://files.pythonhosted.org/packages/c9/a8/9d3eae6e6a4259c80653af79106c105c5fcac49108aa14e37295c3b40d15/keyrock-model-2023.7.20.2017.tar.gz
+[2023-07-20 22:19:42] INFO root fetch - processPackages [boonamber]: Downloading https://files.pythonhosted.org/packages/01/75/a3e5f14d3787b374680ddcb5ab76eb0622f1e5f9d47cf22b4c670eb46e1e/boonamber-2.0.9.tar.gz
+[2023-07-20 22:19:42] INFO root fetch - processPackages [hopeit.config-manager]: Remove: archive file [/home/abi/fetcher/tmp/hopeit.config-manager-0.9.3.tar.gz]
+[2023-07-20 22:19:42] INFO root fetch - processPackages [hopeit.config-manager]: Remove: archive file [/home/abi/fetcher/tmp/hopeit.config-manager-0.9.4.tar.gz]
+[2023-07-20 22:19:42] INFO root fetch - processPackages [hopeit.config-manager]: Start processing: anyscale
+[2023-07-20 22:19:42] INFO root fetch - main [MainThread]: End processing [hopeit.config-manager]: success
+[2023-07-20 22:19:42] INFO root fetch - processPackages [anyscale]: New version: [0.5.99] Old Version: [0.5.98]
+[2023-07-20 22:19:42] INFO root fetch - processPackages [keyrock-model]: executing diffoscope
+[2023-07-20 22:19:42] INFO root fetch - processPackages [keyrock-model]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keyrock-model-2023.3.17.1651.tar.gz tmp/keyrock-model-2023.7.20.2017.tar.gz --markdown 20230720/k/keyrock-model/2023.3.17.1651-2023.7.20.2017/diff.md --exclude *.pyd
+[2023-07-20 22:19:42] INFO root fetch - processPackages [boonamber]: executing diffoscope
+[2023-07-20 22:19:42] INFO root fetch - processPackages [boonamber]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/boonamber-2.0.8.tar.gz tmp/boonamber-2.0.9.tar.gz --markdown 20230720/b/boonamber/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-07-20 22:19:42] INFO root fetch - processPackages [wells4hydrogeology]: Downloading https://files.pythonhosted.org/packages/38/64/f8848dc82dada4490b4b62680c17df2eed0ab4ed7348d99dd21bbaf72589/wells4hydrogeology-0.0.7.tar.gz
+[2023-07-20 22:19:42] INFO root fetch - processPackages [anyscale]: Downloading https://files.pythonhosted.org/packages/0d/64/8bf86d6d00617c61b31e91a8455e6fb08278056ee4d72abf6317509d592e/anyscale-0.5.98.tar.gz
+[2023-07-20 22:19:42] INFO root fetch - processPackages [modal-client]: Downloading https://files.pythonhosted.org/packages/c2/2e/2282b8af64f61eb0c5bdafb4f6b31f6ca603fe07abac7fe5210f7b748903/modal_client-0.50.2684-py3-none-any.whl
+[2023-07-20 22:19:42] INFO root fetch - processPackages [keyrock-fastapi]: Downloading https://files.pythonhosted.org/packages/49/19/6bf0f03e2abe4033e35d817cf0cd1cb1670a23d4118c5cad0fc213cf3d74/keyrock-fastapi-2023.7.20.2017.tar.gz
+[2023-07-20 22:19:42] INFO root fetch - processPackages [keyrock-math]: Downloading https://files.pythonhosted.org/packages/fd/c8/930b530e58bfc3467116b2d39dc556b2d27a29f43e677112de959afe0144/keyrock-math-2023.7.20.2017.tar.gz
+[2023-07-20 22:19:42] INFO root fetch - processPackages [modal]: Downloading https://files.pythonhosted.org/packages/c1/e3/8df09fd9170a59ca672c3c7d10c95b68e258d8baccba924bcf3e73f4d667/modal-0.50.2684-py3-none-any.whl
+[2023-07-20 22:19:42] INFO root fetch - processPackages [keyrock-fastapi]: executing diffoscope
+[2023-07-20 22:19:42] INFO root fetch - processPackages [keyrock-fastapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keyrock-fastapi-2023.4.1.1925.tar.gz tmp/keyrock-fastapi-2023.7.20.2017.tar.gz --markdown 20230720/k/keyrock-fastapi/2023.4.1.1925-2023.7.20.2017/diff.md --exclude *.pyd
+[2023-07-20 22:19:42] INFO root fetch - processPackages [modal-client]: executing diffoscope
+[2023-07-20 22:19:42] INFO root fetch - processPackages [modal-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modal_client-0.50.2677-py3-none-any.whl.zip tmp/modal_client-0.50.2684-py3-none-any.whl.zip --markdown 20230720/m/modal-client/0.50.2677-0.50.2684/diff.md --exclude *.pyd
+[2023-07-20 22:19:42] INFO root fetch - processPackages [keyrock-math]: executing diffoscope
+[2023-07-20 22:19:42] INFO root fetch - processPackages [keyrock-math]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keyrock-math-2023.5.7.1147.tar.gz tmp/keyrock-math-2023.7.20.2017.tar.gz --markdown 20230720/k/keyrock-math/2023.5.7.1147-2023.7.20.2017/diff.md --exclude *.pyd
+[2023-07-20 22:19:42] INFO root fetch - processPackages [modal]: executing diffoscope
+[2023-07-20 22:19:42] INFO root fetch - processPackages [modal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modal-0.50.2677-py3-none-any.whl.zip tmp/modal-0.50.2684-py3-none-any.whl.zip --markdown 20230720/m/modal/0.50.2677-0.50.2684/diff.md --exclude *.pyd
+[2023-07-20 22:19:42] INFO root fetch - processPackages [wells4hydrogeology]: Downloading https://files.pythonhosted.org/packages/d9/25/055d3b467f4f52ff75f762fae00f967fe59e276bb553111b594014704dd0/wells4hydrogeology-0.0.9.tar.gz
+[2023-07-20 22:19:43] INFO root fetch - processPackages [nwebclient]: Remove: archive file [/home/abi/fetcher/tmp/nwebclient-1.0.47.tar.gz]
+[2023-07-20 22:19:43] INFO root fetch - processPackages [nwebclient]: Remove: archive file [/home/abi/fetcher/tmp/nwebclient-1.0.94.tar.gz]
+[2023-07-20 22:19:43] INFO root fetch - processPackages [nwebclient]: Start processing: anya-dash
+[2023-07-20 22:19:43] INFO root fetch - main [MainThread]: End processing [nwebclient]: success
+[2023-07-20 22:19:43] INFO root fetch - processPackages [anyscale]: Downloading https://files.pythonhosted.org/packages/61/f0/917cf3e18c478eaae2e53db68c9d20607edab461774054c8f509cc4885b6/anyscale-0.5.99.tar.gz
+[2023-07-20 22:19:43] INFO root fetch - processPackages [anya-dash]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-20 22:19:43] INFO root fetch - processPackages [wells4hydrogeology]: executing diffoscope
+[2023-07-20 22:19:43] INFO root fetch - processPackages [wells4hydrogeology]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wells4hydrogeology-0.0.7.tar.gz tmp/wells4hydrogeology-0.0.9.tar.gz --markdown 20230720/w/wells4hydrogeology/0.0.7-0.0.9/diff.md --exclude *.pyd
+[2023-07-20 22:19:43] INFO root fetch - processPackages [anyscale]: executing diffoscope
+[2023-07-20 22:19:43] INFO root fetch - processPackages [anyscale]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anyscale-0.5.98.tar.gz tmp/anyscale-0.5.99.tar.gz --markdown 20230720/a/anyscale/0.5.98-0.5.99/diff.md --exclude *.pyd
+[2023-07-20 22:19:43] INFO root fetch - processPackages [anya-dash]: Downloading https://files.pythonhosted.org/packages/c9/d8/b977d33aea28eb45adab1c7548a19f006747c47b62a246d94e88744de884/anya_dash-0.0.2.tar.gz
+[2023-07-20 22:19:43] INFO root fetch - processPackages [keyrock-model]: Remove: archive file [/home/abi/fetcher/tmp/keyrock-model-2023.3.17.1651.tar.gz]
+[2023-07-20 22:19:43] INFO root fetch - processPackages [keyrock-model]: Remove: archive file [/home/abi/fetcher/tmp/keyrock-model-2023.7.20.2017.tar.gz]
+[2023-07-20 22:19:43] INFO root fetch - processPackages [keyrock-model]: Start processing: aws-network-firewall
+[2023-07-20 22:19:43] INFO root fetch - main [MainThread]: End processing [keyrock-model]: success
+[2023-07-20 22:19:43] INFO root fetch - processPackages [aws-network-firewall]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-20 22:19:43] INFO root fetch - processPackages [aws-network-firewall]: Downloading https://files.pythonhosted.org/packages/23/4b/553971ef4fd9751daf6491530233d16e78d6f23d0e75f1fae37fec19cb21/aws_network_firewall-0.1.1.tar.gz
+[2023-07-20 22:19:43] INFO root fetch - processPackages [anya-dash]: Downloading https://files.pythonhosted.org/packages/a0/6c/d7b5813157fc21a9052fc854fae6c6e4b5358edd0b1a70f5e52a2954b617/anya_dash-0.0.3.tar.gz
+[2023-07-20 22:19:44] INFO root fetch - processPackages [keyrock-fastapi]: Remove: archive file [/home/abi/fetcher/tmp/keyrock-fastapi-2023.4.1.1925.tar.gz]
+[2023-07-20 22:19:44] INFO root fetch - processPackages [keyrock-fastapi]: Remove: archive file [/home/abi/fetcher/tmp/keyrock-fastapi-2023.7.20.2017.tar.gz]
+[2023-07-20 22:19:44] INFO root fetch - processPackages [keyrock-fastapi]: Start processing: scgraph
+[2023-07-20 22:19:44] INFO root fetch - main [MainThread]: End processing [keyrock-fastapi]: success
+[2023-07-20 22:19:44] INFO root fetch - processPackages [aws-network-firewall]: Downloading https://files.pythonhosted.org/packages/9b/53/113ccae9150495539ea3a2798612d0c7b0fbd959da1f50e347e9500ea026/aws_network_firewall-0.1.2.tar.gz
+[2023-07-20 22:19:44] INFO root fetch - processPackages [anya-dash]: executing diffoscope
+[2023-07-20 22:19:44] INFO root fetch - processPackages [anya-dash]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anya_dash-0.0.2.tar.gz tmp/anya_dash-0.0.3.tar.gz --markdown 20230720/a/anya-dash/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-20 22:19:44] INFO root fetch - processPackages [aws-network-firewall]: executing diffoscope
+[2023-07-20 22:19:44] INFO root fetch - processPackages [aws-network-firewall]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_network_firewall-0.1.1.tar.gz tmp/aws_network_firewall-0.1.2.tar.gz --markdown 20230720/a/aws-network-firewall/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-20 22:19:44] INFO root fetch - processPackages [keyrock-math]: Remove: archive file [/home/abi/fetcher/tmp/keyrock-math-2023.5.7.1147.tar.gz]
+[2023-07-20 22:19:44] INFO root fetch - processPackages [keyrock-math]: Remove: archive file [/home/abi/fetcher/tmp/keyrock-math-2023.7.20.2017.tar.gz]
+[2023-07-20 22:19:44] INFO root fetch - main [MainThread]: End processing [keyrock-math]: success
+[2023-07-20 22:19:44] INFO root fetch - processPackages [scgraph]: New version: [1.0.0b1] Old Version: [0.3.0]
+[2023-07-20 22:19:44] INFO root fetch - processPackages [boonamber]: Remove: archive file [/home/abi/fetcher/tmp/boonamber-2.0.8.tar.gz]
+[2023-07-20 22:19:44] INFO root fetch - processPackages [boonamber]: Remove: archive file [/home/abi/fetcher/tmp/boonamber-2.0.9.tar.gz]
+[2023-07-20 22:19:44] INFO root fetch - main [MainThread]: End processing [boonamber]: success
+[2023-07-20 22:19:44] INFO root fetch - processPackages [modal]: Remove: archive file [/home/abi/fetcher/tmp/modal-0.50.2677-py3-none-any.whl.zip]
+[2023-07-20 22:19:44] INFO root fetch - processPackages [modal]: Remove: archive file [/home/abi/fetcher/tmp/modal-0.50.2684-py3-none-any.whl.zip]
+[2023-07-20 22:19:44] INFO root fetch - main [MainThread]: End processing [modal]: success
+[2023-07-20 22:19:44] INFO root fetch - processPackages [scgraph]: Downloading https://files.pythonhosted.org/packages/61/63/65adc98cc36da7e44e869c07a867e4487576e0c6be54c94ced3216463040/scgraph-0.3.0.tar.gz
+[2023-07-20 22:19:44] INFO root fetch - processPackages [wells4hydrogeology]: Remove: archive file [/home/abi/fetcher/tmp/wells4hydrogeology-0.0.7.tar.gz]
+[2023-07-20 22:19:44] INFO root fetch - processPackages [wells4hydrogeology]: Remove: archive file [/home/abi/fetcher/tmp/wells4hydrogeology-0.0.9.tar.gz]
+[2023-07-20 22:19:44] INFO root fetch - main [MainThread]: End processing [wells4hydrogeology]: success
+[2023-07-20 22:19:44] INFO root fetch - processPackages [dexteritysdk]: Remove: archive file [/home/abi/fetcher/tmp/dexteritysdk-0.2.3.tar.gz]
+[2023-07-20 22:19:44] INFO root fetch - processPackages [dexteritysdk]: Remove: archive file [/home/abi/fetcher/tmp/dexteritysdk-0.2.8.tar.gz]
+[2023-07-20 22:19:44] INFO root fetch - main [MainThread]: End processing [dexteritysdk]: success
+[2023-07-20 22:19:44] INFO root fetch - processPackages [scgraph]: Downloading https://files.pythonhosted.org/packages/32/7f/43cda01ce15f69af02172c1458391664afd47b1092653bae7776fb81f9a6/scgraph-1.0.0b1.tar.gz
+[2023-07-20 22:19:45] INFO root fetch - processPackages [scgraph]: executing diffoscope
+[2023-07-20 22:19:45] INFO root fetch - processPackages [scgraph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scgraph-0.3.0.tar.gz tmp/scgraph-1.0.0b1.tar.gz --markdown 20230720/s/scgraph/0.3.0-1.0.0b1/diff.md --exclude *.pyd
+[2023-07-20 22:19:45] INFO root fetch - processPackages [aws-network-firewall]: Remove: archive file [/home/abi/fetcher/tmp/aws_network_firewall-0.1.1.tar.gz]
+[2023-07-20 22:19:45] INFO root fetch - processPackages [aws-network-firewall]: Remove: archive file [/home/abi/fetcher/tmp/aws_network_firewall-0.1.2.tar.gz]
+[2023-07-20 22:19:45] INFO root fetch - main [MainThread]: End processing [aws-network-firewall]: success
+[2023-07-20 22:19:45] INFO root fetch - processPackages [modal-client]: Remove: archive file [/home/abi/fetcher/tmp/modal_client-0.50.2677-py3-none-any.whl.zip]
+[2023-07-20 22:19:45] INFO root fetch - processPackages [modal-client]: Remove: archive file [/home/abi/fetcher/tmp/modal_client-0.50.2684-py3-none-any.whl.zip]
+[2023-07-20 22:19:45] INFO root fetch - main [MainThread]: End processing [modal-client]: success
+[2023-07-20 22:19:46] INFO root fetch - processPackages [scgraph]: Remove: archive file [/home/abi/fetcher/tmp/scgraph-0.3.0.tar.gz]
+[2023-07-20 22:19:46] INFO root fetch - processPackages [scgraph]: Remove: archive file [/home/abi/fetcher/tmp/scgraph-1.0.0b1.tar.gz]
+[2023-07-20 22:19:46] INFO root fetch - main [MainThread]: End processing [scgraph]: success
+[2023-07-20 22:19:49] INFO root fetch - processPackages [anyscale]: Remove: archive file [/home/abi/fetcher/tmp/anyscale-0.5.98.tar.gz]
+[2023-07-20 22:19:49] INFO root fetch - processPackages [anyscale]: Remove: archive file [/home/abi/fetcher/tmp/anyscale-0.5.99.tar.gz]
+[2023-07-20 22:19:49] INFO root fetch - main [MainThread]: End processing [anyscale]: success
+[2023-07-20 22:21:35] INFO root fetch - processPackages [anya-dash]: Remove: archive file [/home/abi/fetcher/tmp/anya_dash-0.0.2.tar.gz]
+[2023-07-20 22:21:35] INFO root fetch - processPackages [anya-dash]: Remove: archive file [/home/abi/fetcher/tmp/anya_dash-0.0.3.tar.gz]
+[2023-07-20 22:21:35] INFO root fetch - main [MainThread]: End processing [anya-dash]: success
+[2023-07-20 22:21:35] INFO root fetch - main [MainThread]: Store serial: [18972461]
