@@ -4095,3 +4095,131 @@ AssertionError: tmp/verify4py-test-0.1.7.tar.gz does not exist
 [2023-07-20 11:34:47] INFO root fetch - processPackages [django-daiquiri]: Remove: archive file [/home/abi/fetcher/tmp/django-daiquiri-0.4.2.tar.gz]
 [2023-07-20 11:34:47] INFO root fetch - main [MainThread]: End processing [django-daiquiri]: success
 [2023-07-20 11:34:47] INFO root fetch - main [MainThread]: Store serial: [18964367]
+[2023-07-20 11:39:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18964367]
+[2023-07-20 11:39:56] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-07-20 11:39:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lamindb_setup
+[2023-07-20 11:39:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: zalando-kubectl
+[2023-07-20 11:39:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-base-revision
+[2023-07-20 11:39:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: certora-cli-alpha-master
+[2023-07-20 11:39:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: CxAdmin
+[2023-07-20 11:39:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dingodb
+[2023-07-20 11:39:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: uharfbuzz
+[2023-07-20 11:39:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: discohooker
+[2023-07-20 11:39:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: geomancy
+[2023-07-20 11:39:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: liveramp-automation
+[2023-07-20 11:39:56] INFO root fetch - processPackages [lamindb_setup]: New version: [0.49.0] Old Version: [0.48.8]
+[2023-07-20 11:39:56] INFO root fetch - processPackages [odoo-addon-base-revision]: New version: [16.0.1.0.1] Old Version: [16.0.1.0.0.3]
+[2023-07-20 11:39:56] WARNING root fetch - processPackages [dingodb]: Skipping, unable to determine old version
+[2023-07-20 11:39:56] INFO root fetch - processPackages [dingodb]: Start processing: lnschema_core
+[2023-07-20 11:39:56] INFO root fetch - main [MainThread]: End processing [dingodb] error
+[2023-07-20 11:39:56] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20230720.9.35.373421] Old Version: [20230720.8.17.453767]
+[2023-07-20 11:39:56] WARNING root fetch - processPackages [geomancy]: Skipping, unable to determine old version
+[2023-07-20 11:39:56] INFO root fetch - processPackages [geomancy]: Start processing: reach
+[2023-07-20 11:39:56] INFO root fetch - main [MainThread]: End processing [geomancy] error
+[2023-07-20 11:39:56] INFO root fetch - processPackages [liveramp-automation]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-20 11:39:56] INFO root fetch - processPackages [discohooker]: New version: [0.0.0b9] Old Version: [0.0.0b8]
+[2023-07-20 11:39:56] INFO root fetch - processPackages [uharfbuzz]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-07-20 11:39:56] INFO root fetch - processPackages [CxAdmin]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-20 11:39:56] INFO root fetch - processPackages [zalando-kubectl]: New version: [1.9.3.46] Old Version: [1.9.3.45]
+[2023-07-20 11:39:56] INFO root fetch - processPackages [lnschema_core]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-07-20 11:39:57] INFO root fetch - processPackages [discohooker]: Downloading https://files.pythonhosted.org/packages/11/18/cd20f4d7f8bbf72fed32bf3ca62b1cb82e19effc531f6fc1212460966f16/discohooker-0.0.0b8.tar.gz
+[2023-07-20 11:39:57] INFO root fetch - processPackages [reach]: New version: [4.1.1] Old Version: [4.1.0]
+[2023-07-20 11:39:57] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/99/a4/130c25bf2e5418b45b19466d35f40d4adc16a20f574847f4c6df359b1970/certora-cli-alpha-master-20230720.8.17.453767.tar.gz
+[2023-07-20 11:39:57] INFO root fetch - processPackages [lamindb_setup]: Downloading https://files.pythonhosted.org/packages/75/89/c7c760a94bac15ab15437318c4bb169f467aa185c4a28ec66f7bd5a98fb3/lamindb_setup-0.48.8.tar.gz
+[2023-07-20 11:39:57] INFO root fetch - processPackages [odoo-addon-base-revision]: Downloading https://files.pythonhosted.org/packages/09/d9/9ff2fd581678a39b2ef6d9378589cfa3f5e8dc1e9bc23d3da309b4d853c6/odoo_addon_base_revision-16.0.1.0.0.3-py3-none-any.whl
+[2023-07-20 11:39:57] INFO root fetch - processPackages [uharfbuzz]: Downloading https://files.pythonhosted.org/packages/34/fd/ae1008840e04c90636fe4e1b605df94f4a8ad8c3ee4170aeaf91f61e49ac/uharfbuzz-0.9.0.zip
+[2023-07-20 11:39:57] INFO root fetch - processPackages [liveramp-automation]: Downloading https://files.pythonhosted.org/packages/2b/e4/f77acc91140e7fa75d1b1d542cb7cbff3ef339a36b9621daab9e6bda6f57/liveramp_automation-0.0.2-py3-none-any.whl
+[2023-07-20 11:39:57] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 37530787>=10485760
+[2023-07-20 11:39:57] INFO root fetch - processPackages [certora-cli-alpha-master]: Start processing: hydrusvideodeduplicator
+[2023-07-20 11:39:57] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2023-07-20 11:39:57] INFO root fetch - processPackages [CxAdmin]: Downloading https://files.pythonhosted.org/packages/72/2d/39137a2e73be34674809bf9eabf234a558344f4c60f8d348d9c9666872ce/CxAdmin-1.0.8.tar.gz
+[2023-07-20 11:39:57] INFO root fetch - processPackages [zalando-kubectl]: Downloading https://files.pythonhosted.org/packages/17/27/7c57e4bfb5742cdbbb539cdfb30cf6130058dfc614148341010c91c0ab38/zalando-kubectl-1.9.3.45.tar.gz
+[2023-07-20 11:39:57] INFO root fetch - processPackages [lnschema_core]: Downloading https://files.pythonhosted.org/packages/7a/53/1459e32f6943488250f623718aeb560351a142d81c57a5fc8ef6b0dd1680/lnschema_core-0.8.1.tar.gz
+[2023-07-20 11:39:57] INFO root fetch - processPackages [hydrusvideodeduplicator]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-07-20 11:39:57] INFO root fetch - processPackages [reach]: Downloading https://files.pythonhosted.org/packages/48/bd/53c15ee28bf0df9603b3a85032b85a88c7c65bdf593d2d8ab5470c6667ba/reach-4.1.0.tar.gz
+[2023-07-20 11:39:57] INFO root fetch - processPackages [discohooker]: Downloading https://files.pythonhosted.org/packages/8b/8b/5f1339db58f060781d94ad397b0849ddd19df8c2fa5ddc3ea53c4d467c5c/discohooker-0.0.0b9.tar.gz
+[2023-07-20 11:39:57] INFO root fetch - processPackages [hydrusvideodeduplicator]: Downloading https://files.pythonhosted.org/packages/0b/86/77a22c925341fe249cbd09e26ea9106e4d6c29cf32e4cf16e44011b14272/hydrusvideodeduplicator-0.4.0.tar.gz
+[2023-07-20 11:39:57] INFO root fetch - processPackages [lamindb_setup]: Downloading https://files.pythonhosted.org/packages/94/e7/89da074c030b2bfe62f6cc20aa85e8838b9daf51be690fe370bd81b0e94b/lamindb_setup-0.49.0.tar.gz
+[2023-07-20 11:39:57] INFO root fetch - processPackages [discohooker]: executing diffoscope
+[2023-07-20 11:39:57] INFO root fetch - processPackages [discohooker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/discohooker-0.0.0b8.tar.gz tmp/discohooker-0.0.0b9.tar.gz --markdown 20230720/d/discohooker/0.0.0b8-0.0.0b9/diff.md --exclude *.pyd
+[2023-07-20 11:39:57] INFO root fetch - processPackages [uharfbuzz]: Downloading https://files.pythonhosted.org/packages/d2/85/2bc6dc16bca729561f4b906023b3fc8bba3e05dbc3ca2724a45f9a6cfb37/uharfbuzz-0.9.1.zip
+[2023-07-20 11:39:57] INFO root fetch - processPackages [liveramp-automation]: Downloading https://files.pythonhosted.org/packages/e3/7a/6ac77a0d8bdb2860258e6b3c3228f3a5bda5d85583be833cdeebf3f8ff9a/liveramp_automation-0.0.3-py3-none-any.whl
+[2023-07-20 11:39:57] INFO root fetch - processPackages [CxAdmin]: Downloading https://files.pythonhosted.org/packages/12/69/d90f882fe41226c22716f3133aa3d1fd7abd744d25527cd17a8e33f7487f/CxAdmin-1.0.9.tar.gz
+[2023-07-20 11:39:57] INFO root fetch - processPackages [uharfbuzz]: executing diffoscope
+[2023-07-20 11:39:57] INFO root fetch - processPackages [uharfbuzz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uharfbuzz-0.9.0.zip tmp/uharfbuzz-0.9.1.zip --markdown 20230720/u/uharfbuzz/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-07-20 11:39:57] INFO root fetch - processPackages [lnschema_core]: Downloading https://files.pythonhosted.org/packages/39/cd/cc4d91db21934f66692bedcbdb15fc2c82698c7cc9d0288133e8fa2f5cee/lnschema_core-0.9.0.tar.gz
+[2023-07-20 11:39:57] INFO root fetch - processPackages [liveramp-automation]: executing diffoscope
+[2023-07-20 11:39:57] INFO root fetch - processPackages [liveramp-automation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/liveramp_automation-0.0.2-py3-none-any.whl.zip tmp/liveramp_automation-0.0.3-py3-none-any.whl.zip --markdown 20230720/l/liveramp-automation/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-20 11:39:57] INFO root fetch - processPackages [lamindb_setup]: executing diffoscope
+[2023-07-20 11:39:57] INFO root fetch - processPackages [lamindb_setup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lamindb_setup-0.48.8.tar.gz tmp/lamindb_setup-0.49.0.tar.gz --markdown 20230720/l/lamindb_setup/0.48.8-0.49.0/diff.md --exclude *.pyd
+[2023-07-20 11:39:57] INFO root fetch - processPackages [reach]: Downloading https://files.pythonhosted.org/packages/2b/d3/be84f08baff840bed2f9f04287f741d026860fba81b664e6dea521a6780a/reach-4.1.1.tar.gz
+[2023-07-20 11:39:57] INFO root fetch - processPackages [odoo-addon-base-revision]: Downloading https://files.pythonhosted.org/packages/8c/d5/7c767f4b37fb16770fa4f9b53971fb3e27d3e85285fb101bd6e8148fc5b2/odoo_addon_base_revision-16.0.1.0.1-py3-none-any.whl
+[2023-07-20 11:39:57] INFO root fetch - processPackages [CxAdmin]: executing diffoscope
+[2023-07-20 11:39:57] INFO root fetch - processPackages [CxAdmin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CxAdmin-1.0.8.tar.gz tmp/CxAdmin-1.0.9.tar.gz --markdown 20230720/C/CxAdmin/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-20 11:39:57] INFO root fetch - processPackages [hydrusvideodeduplicator]: Downloading https://files.pythonhosted.org/packages/fb/81/b2aff3228774941cfa56cf8672fbdd1bbbbf00c33c00ac22b238a5e3e813/hydrusvideodeduplicator-0.4.1.tar.gz
+[2023-07-20 11:39:58] INFO root fetch - processPackages [lnschema_core]: executing diffoscope
+[2023-07-20 11:39:58] INFO root fetch - processPackages [lnschema_core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lnschema_core-0.8.1.tar.gz tmp/lnschema_core-0.9.0.tar.gz --markdown 20230720/l/lnschema_core/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-07-20 11:39:58] INFO root fetch - processPackages [odoo-addon-base-revision]: executing diffoscope
+[2023-07-20 11:39:58] INFO root fetch - processPackages [odoo-addon-base-revision]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_base_revision-16.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_base_revision-16.0.1.0.1-py3-none-any.whl.zip --markdown 20230720/o/odoo-addon-base-revision/16.0.1.0.0.3-16.0.1.0.1/diff.md --exclude *.pyd
+[2023-07-20 11:39:58] INFO root fetch - processPackages [reach]: executing diffoscope
+[2023-07-20 11:39:58] INFO root fetch - processPackages [reach]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reach-4.1.0.tar.gz tmp/reach-4.1.1.tar.gz --markdown 20230720/r/reach/4.1.0-4.1.1/diff.md --exclude *.pyd
+[2023-07-20 11:39:58] INFO root fetch - processPackages [hydrusvideodeduplicator]: executing diffoscope
+[2023-07-20 11:39:58] INFO root fetch - processPackages [hydrusvideodeduplicator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hydrusvideodeduplicator-0.4.0.tar.gz tmp/hydrusvideodeduplicator-0.4.1.tar.gz --markdown 20230720/h/hydrusvideodeduplicator/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-07-20 11:39:58] INFO root fetch - processPackages [zalando-kubectl]: Downloading https://files.pythonhosted.org/packages/b0/8c/40f48ac4d1bc22f066f2fd8ea893a31a7c6e03893deecec223d45e719377/zalando-kubectl-1.9.3.46.tar.gz
+[2023-07-20 11:39:58] INFO root fetch - processPackages [discohooker]: Remove: archive file [/home/abi/fetcher/tmp/discohooker-0.0.0b8.tar.gz]
+[2023-07-20 11:39:58] INFO root fetch - processPackages [discohooker]: Remove: archive file [/home/abi/fetcher/tmp/discohooker-0.0.0b9.tar.gz]
+[2023-07-20 11:39:58] INFO root fetch - processPackages [discohooker]: Start processing: kiara-plugin.network-analysis
+[2023-07-20 11:39:58] INFO root fetch - main [MainThread]: End processing [discohooker]: success
+[2023-07-20 11:39:58] INFO root fetch - processPackages [zalando-kubectl]: executing diffoscope
+[2023-07-20 11:39:58] INFO root fetch - processPackages [zalando-kubectl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zalando-kubectl-1.9.3.45.tar.gz tmp/zalando-kubectl-1.9.3.46.tar.gz --markdown 20230720/z/zalando-kubectl/1.9.3.45-1.9.3.46/diff.md --exclude *.pyd
+[2023-07-20 11:39:59] INFO root fetch - processPackages [kiara-plugin.network-analysis]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-07-20 11:39:59] INFO root fetch - processPackages [kiara-plugin.network-analysis]: Downloading https://files.pythonhosted.org/packages/2e/1f/8d098ee0b2c43e1a776fc29b81e599ce0f0bc782dde9bab8749d936a5a56/kiara_plugin.network_analysis-0.4.8.tar.gz
+[2023-07-20 11:39:59] INFO root fetch - processPackages [uharfbuzz]: Remove: archive file [/home/abi/fetcher/tmp/uharfbuzz-0.9.0.zip]
+[2023-07-20 11:39:59] INFO root fetch - processPackages [uharfbuzz]: Remove: archive file [/home/abi/fetcher/tmp/uharfbuzz-0.9.1.zip]
+[2023-07-20 11:39:59] INFO root fetch - processPackages [uharfbuzz]: Start processing: PlistParser
+[2023-07-20 11:39:59] INFO root fetch - main [MainThread]: End processing [uharfbuzz]: success
+[2023-07-20 11:39:59] INFO root fetch - processPackages [CxAdmin]: Remove: archive file [/home/abi/fetcher/tmp/CxAdmin-1.0.8.tar.gz]
+[2023-07-20 11:39:59] INFO root fetch - processPackages [CxAdmin]: Remove: archive file [/home/abi/fetcher/tmp/CxAdmin-1.0.9.tar.gz]
+[2023-07-20 11:39:59] INFO root fetch - processPackages [CxAdmin]: Start processing: fake-winreg
+[2023-07-20 11:39:59] INFO root fetch - main [MainThread]: End processing [CxAdmin]: success
+[2023-07-20 11:39:59] WARNING root fetch - processPackages [PlistParser]: Skipping, unable to determine old version
+[2023-07-20 11:39:59] INFO root fetch - processPackages [PlistParser]: Start processing: riitag-sdk
+[2023-07-20 11:39:59] INFO root fetch - main [MainThread]: End processing [PlistParser] error
+[2023-07-20 11:39:59] INFO root fetch - processPackages [liveramp-automation]: Remove: archive file [/home/abi/fetcher/tmp/liveramp_automation-0.0.2-py3-none-any.whl.zip]
+[2023-07-20 11:39:59] INFO root fetch - processPackages [liveramp-automation]: Remove: archive file [/home/abi/fetcher/tmp/liveramp_automation-0.0.3-py3-none-any.whl.zip]
+[2023-07-20 11:39:59] INFO root fetch - main [MainThread]: End processing [liveramp-automation]: success
+[2023-07-20 11:39:59] INFO root fetch - processPackages [fake-winreg]: New version: [1.6.3] Old Version: [1.6.2.2]
+[2023-07-20 11:39:59] WARNING root fetch - processPackages [riitag-sdk]: Skipping, unable to determine old version
+[2023-07-20 11:39:59] INFO root fetch - main [MainThread]: End processing [riitag-sdk] error
+[2023-07-20 11:39:59] INFO root fetch - processPackages [reach]: Remove: archive file [/home/abi/fetcher/tmp/reach-4.1.0.tar.gz]
+[2023-07-20 11:39:59] INFO root fetch - processPackages [reach]: Remove: archive file [/home/abi/fetcher/tmp/reach-4.1.1.tar.gz]
+[2023-07-20 11:39:59] INFO root fetch - main [MainThread]: End processing [reach]: success
+[2023-07-20 11:39:59] INFO root fetch - processPackages [odoo-addon-base-revision]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_revision-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2023-07-20 11:39:59] INFO root fetch - processPackages [odoo-addon-base-revision]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_revision-16.0.1.0.1-py3-none-any.whl.zip]
+[2023-07-20 11:39:59] INFO root fetch - main [MainThread]: End processing [odoo-addon-base-revision]: success
+[2023-07-20 11:39:59] INFO root fetch - processPackages [lnschema_core]: Remove: archive file [/home/abi/fetcher/tmp/lnschema_core-0.8.1.tar.gz]
+[2023-07-20 11:39:59] INFO root fetch - processPackages [lnschema_core]: Remove: archive file [/home/abi/fetcher/tmp/lnschema_core-0.9.0.tar.gz]
+[2023-07-20 11:39:59] INFO root fetch - main [MainThread]: End processing [lnschema_core]: success
+[2023-07-20 11:39:59] INFO root fetch - processPackages [kiara-plugin.network-analysis]: Downloading https://files.pythonhosted.org/packages/6d/24/07d4152ffcb0d8afe5534fd4fc1d036779b2d4d448f49a5fae1f86fba7eb/kiara_plugin.network_analysis-0.4.9.tar.gz
+[2023-07-20 11:39:59] INFO root fetch - processPackages [fake-winreg]: Downloading https://files.pythonhosted.org/packages/fc/39/01f9a8ca314bc62926c2675e6fcf8d64987c2292b507e4ea96452828d3a6/fake_winreg-1.6.2.2.tar.gz
+[2023-07-20 11:39:59] INFO root fetch - processPackages [hydrusvideodeduplicator]: Remove: archive file [/home/abi/fetcher/tmp/hydrusvideodeduplicator-0.4.0.tar.gz]
+[2023-07-20 11:39:59] INFO root fetch - processPackages [hydrusvideodeduplicator]: Remove: archive file [/home/abi/fetcher/tmp/hydrusvideodeduplicator-0.4.1.tar.gz]
+[2023-07-20 11:39:59] INFO root fetch - main [MainThread]: End processing [hydrusvideodeduplicator]: success
+[2023-07-20 11:39:59] INFO root fetch - processPackages [lamindb_setup]: Remove: archive file [/home/abi/fetcher/tmp/lamindb_setup-0.48.8.tar.gz]
+[2023-07-20 11:39:59] INFO root fetch - processPackages [lamindb_setup]: Remove: archive file [/home/abi/fetcher/tmp/lamindb_setup-0.49.0.tar.gz]
+[2023-07-20 11:39:59] INFO root fetch - main [MainThread]: End processing [lamindb_setup]: success
+[2023-07-20 11:39:59] INFO root fetch - processPackages [kiara-plugin.network-analysis]: executing diffoscope
+[2023-07-20 11:39:59] INFO root fetch - processPackages [kiara-plugin.network-analysis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kiara_plugin.network_analysis-0.4.8.tar.gz tmp/kiara_plugin.network_analysis-0.4.9.tar.gz --markdown 20230720/k/kiara-plugin.network-analysis/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-07-20 11:40:00] INFO root fetch - processPackages [zalando-kubectl]: Remove: archive file [/home/abi/fetcher/tmp/zalando-kubectl-1.9.3.45.tar.gz]
+[2023-07-20 11:40:00] INFO root fetch - processPackages [zalando-kubectl]: Remove: archive file [/home/abi/fetcher/tmp/zalando-kubectl-1.9.3.46.tar.gz]
+[2023-07-20 11:40:00] INFO root fetch - main [MainThread]: End processing [zalando-kubectl]: success
+[2023-07-20 11:40:00] INFO root fetch - processPackages [fake-winreg]: Downloading https://files.pythonhosted.org/packages/e0/50/279ad473416837aecd6adaee518817ce577188d3bea4fc8b3fedaa3ecf5e/fake_winreg-1.6.3.tar.gz
+[2023-07-20 11:40:00] INFO root fetch - processPackages [fake-winreg]: executing diffoscope
+[2023-07-20 11:40:00] INFO root fetch - processPackages [fake-winreg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fake_winreg-1.6.2.2.tar.gz tmp/fake_winreg-1.6.3.tar.gz --markdown 20230720/f/fake-winreg/1.6.2.2-1.6.3/diff.md --exclude *.pyd
+[2023-07-20 11:40:00] INFO root fetch - processPackages [kiara-plugin.network-analysis]: Remove: archive file [/home/abi/fetcher/tmp/kiara_plugin.network_analysis-0.4.8.tar.gz]
+[2023-07-20 11:40:00] INFO root fetch - processPackages [kiara-plugin.network-analysis]: Remove: archive file [/home/abi/fetcher/tmp/kiara_plugin.network_analysis-0.4.9.tar.gz]
+[2023-07-20 11:40:00] INFO root fetch - main [MainThread]: End processing [kiara-plugin.network-analysis]: success
+[2023-07-20 11:40:01] INFO root fetch - processPackages [fake-winreg]: Remove: archive file [/home/abi/fetcher/tmp/fake_winreg-1.6.2.2.tar.gz]
+[2023-07-20 11:40:01] INFO root fetch - processPackages [fake-winreg]: Remove: archive file [/home/abi/fetcher/tmp/fake_winreg-1.6.3.tar.gz]
+[2023-07-20 11:40:01] INFO root fetch - main [MainThread]: End processing [fake-winreg]: success
+[2023-07-20 11:40:01] INFO root fetch - main [MainThread]: Store serial: [18964482]
