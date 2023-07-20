@@ -22342,3 +22342,163 @@ AssertionError: tmp/threemystic_cloud_data_client-0.1.17.tar.gz does not exist
 [2023-07-20 21:58:25] INFO root fetch - processPackages [djgentelella]: Remove: archive file [/home/abi/fetcher/tmp/djgentelella-0.3.9.tar.gz]
 [2023-07-20 21:58:25] INFO root fetch - main [MainThread]: End processing [djgentelella]: success
 [2023-07-20 21:58:25] INFO root fetch - main [MainThread]: Store serial: [18972236]
+[2023-07-20 22:03:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18972236]
+[2023-07-20 22:03:52] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-07-20 22:03:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: markdown-to-confluence
+[2023-07-20 22:03:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: seqexplainer
+[2023-07-20 22:03:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: stable-ts
+[2023-07-20 22:03:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: seqdatasets
+[2023-07-20 22:03:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pkgUdit
+[2023-07-20 22:03:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hspylib-clitt
+[2023-07-20 22:03:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: qontract-reconcile
+[2023-07-20 22:03:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: npf
+[2023-07-20 22:03:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: robusta-cli
+[2023-07-20 22:03:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: great-expectations-experimental
+[2023-07-20 22:03:53] INFO root fetch - processPackages [markdown-to-confluence]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-07-20 22:03:53] INFO root fetch - processPackages [seqdatasets]: New version: [0.1.2] Old Version: [0.1.0]
+[2023-07-20 22:03:53] INFO root fetch - processPackages [seqexplainer]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-20 22:03:53] INFO root fetch - processPackages [stable-ts]: New version: [2.7.1] Old Version: [2.7.0]
+[2023-07-20 22:03:53] INFO root fetch - processPackages [hspylib-clitt]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-20 22:03:53] INFO root fetch - processPackages [pkgUdit]: New version: [1.1.5.5] Old Version: [1.1.5.4]
+[2023-07-20 22:03:53] INFO root fetch - processPackages [npf]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-20 22:03:53] INFO root fetch - processPackages [robusta-cli]: New version: [0.9.9] Old Version: [0.9.7]
+[2023-07-20 22:03:53] INFO root fetch - processPackages [great-expectations-experimental]: New version: [0.1.20230720088] Old Version: [0.1.20230718042]
+[2023-07-20 22:03:53] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2023-07-20 22:03:53] INFO root fetch - processPackages [hspylib-clitt]: executing diffoscope
+[2023-07-20 22:03:53] INFO root fetch - processPackages [hspylib-clitt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hspylib-clitt-0.9.8.tar.gz tmp/hspylib-clitt-0.9.9.tar.gz --markdown 20230720/h/hspylib-clitt/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-20 22:03:53] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/ee/0e/ac8ef8d8ff9114b5366efefac8ac0a94430168107cf051385aa73efdd7ef/qontract_reconcile-0.9.1rc98-py3-none-any.whl
+[2023-07-20 22:03:53] INFO root fetch - processPackages [stable-ts]: Downloading https://files.pythonhosted.org/packages/6f/cb/92ce698ec855fb6458b53c54ec763eaab6b5c3a2c44e7857286bbf3852bf/stable-ts-2.7.0.tar.gz
+[2023-07-20 22:03:53] INFO root fetch - processPackages [pkgUdit]: Downloading https://files.pythonhosted.org/packages/2e/ab/cb6f70a6c2f3004e8618fd7b84027fe315e1ff2bca5211b74648e0a72e2d/pkgUdit-1.1.5.4-py3-none-any.whl
+[2023-07-20 22:03:53] INFO root fetch - processPackages [seqexplainer]: Downloading https://files.pythonhosted.org/packages/79/01/1d3c6213cc8c6f7ecc84a2fa0314ed2838826c28ee6ae673ba91effd1509/seqexplainer-0.1.1.tar.gz
+[2023-07-20 22:03:53] INFO root fetch - processPackages [seqdatasets]: Downloading https://files.pythonhosted.org/packages/da/7d/28e1532d8605012922745a568c7f2ddd96e06939a36a144196391e53b42f/seqdatasets-0.1.0.tar.gz
+[2023-07-20 22:03:53] INFO root fetch - processPackages [markdown-to-confluence]: Downloading https://files.pythonhosted.org/packages/f3/db/32f3cdc444b8d198207f2b1a7d55042eafea865cbc8be9d0aae4535394ae/markdown-to-confluence-0.1.7.tar.gz
+[2023-07-20 22:03:53] INFO root fetch - processPackages [robusta-cli]: Downloading https://files.pythonhosted.org/packages/39/60/df780a4cd33fb6c25e7e6b0c86022d93aaa4490b1a758140e3d98a02996e/robusta-cli-0.9.7.tar.gz
+[2023-07-20 22:03:53] INFO root fetch - processPackages [npf]: Downloading https://files.pythonhosted.org/packages/44/0c/3e478ce5d39abfaf553be5523f8dd1a28ace87e948c64f7c7bc286744a2e/npf-1.0.8.tar.gz
+[2023-07-20 22:03:53] INFO root fetch - processPackages [great-expectations-experimental]: Downloading https://files.pythonhosted.org/packages/a4/69/77c8c31298e1755cb6eecc2c7c30b97f198663128d2f755c9c6a03c89467/great_expectations_experimental-0.1.20230718042.tar.gz
+[2023-07-20 22:03:53] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/dd/8b/9de8b95ca80c898ecaafa95edc3438d306b82ab0d29d3895dd6e8f152129/qontract_reconcile-0.9.1rc99-py3-none-any.whl
+[2023-07-20 22:03:53] INFO root fetch - processPackages [seqexplainer]: Downloading https://files.pythonhosted.org/packages/0d/4a/bd33b39f8eef8d029547f6805ae60876be1c5dda4400cbf64cc72164741f/seqexplainer-0.1.2.tar.gz
+[2023-07-20 22:03:53] INFO root fetch - processPackages [pkgUdit]: Downloading https://files.pythonhosted.org/packages/b1/da/a8f6ab80e27e9df591ae17275076b3593a8762ea33e1d15c8d8b360bb58b/pkgUdit-1.1.5.5-py3-none-any.whl
+[2023-07-20 22:03:53] INFO root fetch - processPackages [markdown-to-confluence]: Downloading https://files.pythonhosted.org/packages/1e/0e/f3b7d1138963b6a01cd5524d7e351a4cff6a06b6cdda4982e1a0da6a3748/markdown-to-confluence-0.1.8.tar.gz
+[2023-07-20 22:03:53] INFO root fetch - processPackages [stable-ts]: Downloading https://files.pythonhosted.org/packages/d1/08/d898282d6178f67fdf93da1d6e82af7fc7a820389d0a4c3750b94185b92d/stable-ts-2.7.1.tar.gz
+[2023-07-20 22:03:53] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2023-07-20 22:03:53] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20230720/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/diff.md --exclude *.pyd
+[2023-07-20 22:03:53] INFO root fetch - processPackages [seqdatasets]: Downloading https://files.pythonhosted.org/packages/c4/28/2cc66ee30972a13385ca3b681be85beec97205ef5a99d3b5c3d887cae18d/seqdatasets-0.1.2.tar.gz
+[2023-07-20 22:03:53] INFO root fetch - processPackages [seqexplainer]: executing diffoscope
+[2023-07-20 22:03:53] INFO root fetch - processPackages [seqexplainer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seqexplainer-0.1.1.tar.gz tmp/seqexplainer-0.1.2.tar.gz --markdown 20230720/s/seqexplainer/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-20 22:03:53] INFO root fetch - processPackages [pkgUdit]: executing diffoscope
+[2023-07-20 22:03:53] INFO root fetch - processPackages [pkgUdit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pkgUdit-1.1.5.4-py3-none-any.whl.zip tmp/pkgUdit-1.1.5.5-py3-none-any.whl.zip --markdown 20230720/p/pkgUdit/1.1.5.4-1.1.5.5/diff.md --exclude *.pyd
+[2023-07-20 22:03:54] INFO root fetch - processPackages [hspylib-clitt]: Remove: archive file [/home/abi/fetcher/tmp/hspylib-clitt-0.9.8.tar.gz]
+[2023-07-20 22:03:54] INFO root fetch - processPackages [hspylib-clitt]: Remove: archive file [/home/abi/fetcher/tmp/hspylib-clitt-0.9.9.tar.gz]
+[2023-07-20 22:03:54] INFO root fetch - processPackages [hspylib-clitt]: Start processing: eugene-tools
+[2023-07-20 22:03:54] INFO root fetch - main [MainThread]: End processing [hspylib-clitt]: success
+[2023-07-20 22:03:54] INFO root fetch - processPackages [markdown-to-confluence]: executing diffoscope
+[2023-07-20 22:03:54] INFO root fetch - processPackages [markdown-to-confluence]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/markdown-to-confluence-0.1.7.tar.gz tmp/markdown-to-confluence-0.1.8.tar.gz --markdown 20230720/m/markdown-to-confluence/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-07-20 22:03:54] INFO root fetch - processPackages [robusta-cli]: Downloading https://files.pythonhosted.org/packages/9f/ff/a70074935ded21551e9900241be83e06dcddd697498c8fa3eeab30d0105c/robusta-cli-0.9.9.tar.gz
+[2023-07-20 22:03:54] INFO root fetch - processPackages [npf]: Downloading https://files.pythonhosted.org/packages/ea/66/52aab137d4c382a910523654a3b21507b0e75160197812fb8f27aee00718/npf-1.0.9.tar.gz
+[2023-07-20 22:03:54] INFO root fetch - processPackages [eugene-tools]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-20 22:03:54] INFO root fetch - processPackages [stable-ts]: executing diffoscope
+[2023-07-20 22:03:54] INFO root fetch - processPackages [stable-ts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stable-ts-2.7.0.tar.gz tmp/stable-ts-2.7.1.tar.gz --markdown 20230720/s/stable-ts/2.7.0-2.7.1/diff.md --exclude *.pyd
+[2023-07-20 22:03:54] INFO root fetch - processPackages [great-expectations-experimental]: Downloading https://files.pythonhosted.org/packages/44/7a/cf88f6cd4d4aeb643fe4d1a715616694d2165afbf8f00e8e79a504a65e14/great_expectations_experimental-0.1.20230720088.tar.gz
+[2023-07-20 22:03:54] INFO root fetch - processPackages [seqdatasets]: executing diffoscope
+[2023-07-20 22:03:54] INFO root fetch - processPackages [seqdatasets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seqdatasets-0.1.0.tar.gz tmp/seqdatasets-0.1.2.tar.gz --markdown 20230720/s/seqdatasets/0.1.0-0.1.2/diff.md --exclude *.pyd
+[2023-07-20 22:03:54] INFO root fetch - processPackages [robusta-cli]: executing diffoscope
+[2023-07-20 22:03:54] INFO root fetch - processPackages [robusta-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robusta-cli-0.9.7.tar.gz tmp/robusta-cli-0.9.9.tar.gz --markdown 20230720/r/robusta-cli/0.9.7-0.9.9/diff.md --exclude *.pyd
+[2023-07-20 22:03:54] INFO root fetch - processPackages [eugene-tools]: Downloading https://files.pythonhosted.org/packages/65/28/4404556335b1dc486a4e757d4d17f93f68b945fd4ff9d3b685af2de38859/eugene_tools-0.1.1.tar.gz
+[2023-07-20 22:03:54] INFO root fetch - processPackages [npf]: executing diffoscope
+[2023-07-20 22:03:54] INFO root fetch - processPackages [npf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/npf-1.0.8.tar.gz tmp/npf-1.0.9.tar.gz --markdown 20230720/n/npf/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-20 22:03:54] INFO root fetch - processPackages [great-expectations-experimental]: executing diffoscope
+[2023-07-20 22:03:54] INFO root fetch - processPackages [great-expectations-experimental]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/great_expectations_experimental-0.1.20230718042.tar.gz tmp/great_expectations_experimental-0.1.20230720088.tar.gz --markdown 20230720/g/great-expectations-experimental/0.1.20230718042-0.1.20230720088/diff.md --exclude *.pyd
+[2023-07-20 22:03:54] INFO root fetch - processPackages [eugene-tools]: Downloading https://files.pythonhosted.org/packages/9a/0e/a167220766d7fdd8aa90942f70b8c0949655dcae6d80b2f8950081d41e80/eugene_tools-0.1.2.tar.gz
+[2023-07-20 22:03:54] INFO root fetch - processPackages [eugene-tools]: executing diffoscope
+[2023-07-20 22:03:54] INFO root fetch - processPackages [eugene-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eugene_tools-0.1.1.tar.gz tmp/eugene_tools-0.1.2.tar.gz --markdown 20230720/e/eugene-tools/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-20 22:03:55] INFO root fetch - processPackages [pkgUdit]: Remove: archive file [/home/abi/fetcher/tmp/pkgUdit-1.1.5.4-py3-none-any.whl.zip]
+[2023-07-20 22:03:55] INFO root fetch - processPackages [pkgUdit]: Remove: archive file [/home/abi/fetcher/tmp/pkgUdit-1.1.5.5-py3-none-any.whl.zip]
+[2023-07-20 22:03:55] INFO root fetch - processPackages [pkgUdit]: Start processing: cdk-sops-secrets
+[2023-07-20 22:03:55] INFO root fetch - main [MainThread]: End processing [pkgUdit]: success
+[2023-07-20 22:03:55] INFO root fetch - processPackages [seqexplainer]: Remove: archive file [/home/abi/fetcher/tmp/seqexplainer-0.1.1.tar.gz]
+[2023-07-20 22:03:55] INFO root fetch - processPackages [seqexplainer]: Remove: archive file [/home/abi/fetcher/tmp/seqexplainer-0.1.2.tar.gz]
+[2023-07-20 22:03:55] INFO root fetch - processPackages [seqexplainer]: Start processing: zfit
+[2023-07-20 22:03:55] INFO root fetch - main [MainThread]: End processing [seqexplainer]: success
+[2023-07-20 22:03:55] INFO root fetch - processPackages [markdown-to-confluence]: Remove: archive file [/home/abi/fetcher/tmp/markdown-to-confluence-0.1.7.tar.gz]
+[2023-07-20 22:03:55] INFO root fetch - processPackages [markdown-to-confluence]: Remove: archive file [/home/abi/fetcher/tmp/markdown-to-confluence-0.1.8.tar.gz]
+[2023-07-20 22:03:55] INFO root fetch - processPackages [markdown-to-confluence]: Start processing: ofa
+[2023-07-20 22:03:55] INFO root fetch - main [MainThread]: End processing [markdown-to-confluence]: success
+[2023-07-20 22:03:55] INFO root fetch - processPackages [cdk-sops-secrets]: New version: [1.2.99] Old Version: [1.2.98]
+[2023-07-20 22:03:55] INFO root fetch - processPackages [zfit]: New version: [0.9.0a3] Old Version: [0.9.0a2]
+[2023-07-20 22:03:55] INFO root fetch - processPackages [stable-ts]: Remove: archive file [/home/abi/fetcher/tmp/stable-ts-2.7.0.tar.gz]
+[2023-07-20 22:03:55] INFO root fetch - processPackages [stable-ts]: Remove: archive file [/home/abi/fetcher/tmp/stable-ts-2.7.1.tar.gz]
+[2023-07-20 22:03:55] INFO root fetch - processPackages [stable-ts]: Start processing: veracode-api-py
+[2023-07-20 22:03:55] INFO root fetch - main [MainThread]: End processing [stable-ts]: success
+[2023-07-20 22:03:55] INFO root fetch - processPackages [ofa]: New version: [0.1.0.post202307202001] Old Version: [0.1.0.post202203231606]
+[2023-07-20 22:03:55] INFO root fetch - processPackages [veracode-api-py]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-20 22:03:55] INFO root fetch - processPackages [seqdatasets]: Remove: archive file [/home/abi/fetcher/tmp/seqdatasets-0.1.0.tar.gz]
+[2023-07-20 22:03:55] INFO root fetch - processPackages [seqdatasets]: Remove: archive file [/home/abi/fetcher/tmp/seqdatasets-0.1.2.tar.gz]
+[2023-07-20 22:03:55] INFO root fetch - processPackages [seqdatasets]: Start processing: cfstack
+[2023-07-20 22:03:55] INFO root fetch - main [MainThread]: End processing [seqdatasets]: success
+[2023-07-20 22:03:55] INFO root fetch - processPackages [cfstack]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-07-20 22:03:56] INFO root fetch - processPackages [ofa]: Downloading https://files.pythonhosted.org/packages/8c/af/3128668c129b0f77c75176c01a26987de291f46921376620730aaf08d3df/ofa-0.1.0.post202203231606-py3-none-any.whl
+[2023-07-20 22:03:56] INFO root fetch - processPackages [cfstack]: Downloading https://files.pythonhosted.org/packages/ec/c3/66de688160119e3dfdab6babc3a64bab6ace0e4ddf97478fd8de6470fd3d/cfstack-1.1.1.tar.gz
+[2023-07-20 22:03:56] INFO root fetch - processPackages [zfit]: Downloading https://files.pythonhosted.org/packages/5f/45/c2a4a280a4669f3d5a473bbbede7e0fb01844f23957157b09b6980486c1f/zfit-0.9.0a2.tar.gz
+[2023-07-20 22:03:56] INFO root fetch - processPackages [veracode-api-py]: Downloading https://files.pythonhosted.org/packages/32/67/f569ca911079be70a5c9da14c47fe0b9ad32d4ce45fac5b8587ed1942adc/veracode_api_py-0.9.8.tar.gz
+[2023-07-20 22:03:56] INFO root fetch - processPackages [cdk-sops-secrets]: executing diffoscope
+[2023-07-20 22:03:56] INFO root fetch - processPackages [cdk-sops-secrets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-sops-secrets-1.2.98.tar.gz tmp/cdk-sops-secrets-1.2.99.tar.gz --markdown 20230720/c/cdk-sops-secrets/1.2.98-1.2.99/diff.md --exclude *.pyd
+[2023-07-20 22:03:56] INFO root fetch - processPackages [great-expectations-experimental]: Remove: archive file [/home/abi/fetcher/tmp/great_expectations_experimental-0.1.20230718042.tar.gz]
+[2023-07-20 22:03:56] INFO root fetch - processPackages [great-expectations-experimental]: Remove: archive file [/home/abi/fetcher/tmp/great_expectations_experimental-0.1.20230720088.tar.gz]
+[2023-07-20 22:03:56] INFO root fetch - processPackages [great-expectations-experimental]: Start processing: nvidia-dali-tf-plugin-nightly-cuda110
+[2023-07-20 22:03:56] INFO root fetch - main [MainThread]: End processing [great-expectations-experimental]: success
+[2023-07-20 22:03:56] INFO root fetch - processPackages [cfstack]: Downloading https://files.pythonhosted.org/packages/01/4f/6f1b59ca22e530e9a69e7cb09c828d1dc9e2c3101c51ef923d7bed5a36c4/cfstack-1.1.2.tar.gz
+[2023-07-20 22:03:56] INFO root fetch - processPackages [ofa]: Downloading https://files.pythonhosted.org/packages/d7/72/9ce788c3b80266e0a62ef0049d62ad7658482f2661c2d682661b6bfea9e4/ofa-0.1.0.post202307202001-py3-none-any.whl
+[2023-07-20 22:03:56] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda110]: New version: [1.29.0.dev20230720] Old Version: [1.29.0.dev20230719]
+[2023-07-20 22:03:56] INFO root fetch - processPackages [npf]: Remove: archive file [/home/abi/fetcher/tmp/npf-1.0.8.tar.gz]
+[2023-07-20 22:03:56] INFO root fetch - processPackages [robusta-cli]: Remove: archive file [/home/abi/fetcher/tmp/robusta-cli-0.9.7.tar.gz]
+[2023-07-20 22:03:56] INFO root fetch - processPackages [cfstack]: executing diffoscope
+[2023-07-20 22:03:56] INFO root fetch - processPackages [npf]: Remove: archive file [/home/abi/fetcher/tmp/npf-1.0.9.tar.gz]
+[2023-07-20 22:03:56] INFO root fetch - processPackages [cfstack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cfstack-1.1.1.tar.gz tmp/cfstack-1.1.2.tar.gz --markdown 20230720/c/cfstack/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-07-20 22:03:56] INFO root fetch - processPackages [robusta-cli]: Remove: archive file [/home/abi/fetcher/tmp/robusta-cli-0.9.9.tar.gz]
+[2023-07-20 22:03:56] INFO root fetch - processPackages [npf]: Start processing: reflex
+[2023-07-20 22:03:56] INFO root fetch - main [MainThread]: End processing [npf]: success
+[2023-07-20 22:03:56] INFO root fetch - main [MainThread]: End processing [robusta-cli]: success
+[2023-07-20 22:03:56] INFO root fetch - processPackages [eugene-tools]: Remove: archive file [/home/abi/fetcher/tmp/eugene_tools-0.1.1.tar.gz]
+[2023-07-20 22:03:56] INFO root fetch - processPackages [eugene-tools]: Remove: archive file [/home/abi/fetcher/tmp/eugene_tools-0.1.2.tar.gz]
+[2023-07-20 22:03:56] INFO root fetch - main [MainThread]: End processing [eugene-tools]: success
+[2023-07-20 22:03:56] INFO root fetch - processPackages [veracode-api-py]: Downloading https://files.pythonhosted.org/packages/66/47/79e9dd3302b5b712006f8d05fcabc8de0bc641f28b77a3170525f7b66dd7/veracode_api_py-0.9.9.tar.gz
+[2023-07-20 22:03:56] INFO root fetch - processPackages [ofa]: executing diffoscope
+[2023-07-20 22:03:56] INFO root fetch - processPackages [ofa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ofa-0.1.0.post202203231606-py3-none-any.whl.zip tmp/ofa-0.1.0.post202307202001-py3-none-any.whl.zip --markdown 20230720/o/ofa/0.1.0.post202203231606-0.1.0.post202307202001/diff.md --exclude *.pyd
+[2023-07-20 22:03:56] INFO root fetch - processPackages [zfit]: Downloading https://files.pythonhosted.org/packages/1a/21/15ef2af4e39f9470653ee29ada9b0207d6a2ff7d11654e5d791a0ca1504a/zfit-0.9.0a3.tar.gz
+[2023-07-20 22:03:56] INFO root fetch - processPackages [reflex]: New version: [0.2.2a1] Old Version: [0.2.1a2]
+[2023-07-20 22:03:56] INFO root fetch - processPackages [veracode-api-py]: executing diffoscope
+[2023-07-20 22:03:56] INFO root fetch - processPackages [veracode-api-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/veracode_api_py-0.9.8.tar.gz tmp/veracode_api_py-0.9.9.tar.gz --markdown 20230720/v/veracode-api-py/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-20 22:03:56] INFO root fetch - processPackages [zfit]: executing diffoscope
+[2023-07-20 22:03:56] INFO root fetch - processPackages [zfit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zfit-0.9.0a2.tar.gz tmp/zfit-0.9.0a3.tar.gz --markdown 20230720/z/zfit/0.9.0a2-0.9.0a3/diff.md --exclude *.pyd
+[2023-07-20 22:03:57] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda110]: Downloading https://files.pythonhosted.org/packages/12/8c/fcfeedfe5686450012b8d640db45ea784d42a671b0c3987d468b5897b940/nvidia-dali-tf-plugin-nightly-cuda110-1.29.0.dev20230719.tar.gz
+[2023-07-20 22:03:57] INFO root fetch - processPackages [cdk-sops-secrets]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sops-secrets-1.2.98.tar.gz]
+[2023-07-20 22:03:57] INFO root fetch - processPackages [cdk-sops-secrets]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sops-secrets-1.2.99.tar.gz]
+[2023-07-20 22:03:57] INFO root fetch - main [MainThread]: End processing [cdk-sops-secrets]: success
+[2023-07-20 22:03:57] INFO root fetch - processPackages [reflex]: Downloading https://files.pythonhosted.org/packages/07/35/414647ec29512d6230f6a059d2836dd276fffd7a69b6941c83a8ca532769/reflex-0.2.2a1.tar.gz
+[2023-07-20 22:03:57] INFO root fetch - processPackages [reflex]: executing diffoscope
+[2023-07-20 22:03:57] INFO root fetch - processPackages [reflex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reflex-0.2.1a2.tar.gz tmp/reflex-0.2.2a1.tar.gz --markdown 20230720/r/reflex/0.2.1a2-0.2.2a1/diff.md --exclude *.pyd
+[2023-07-20 22:03:57] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda110]: Downloading https://files.pythonhosted.org/packages/c9/ac/66c362b9e4770d38070cc7c5eab071a21f58c567af168b8a3824c4afbcf4/nvidia-dali-tf-plugin-nightly-cuda110-1.29.0.dev20230720.tar.gz
+[2023-07-20 22:03:57] INFO root fetch - processPackages [cfstack]: Remove: archive file [/home/abi/fetcher/tmp/cfstack-1.1.1.tar.gz]
+[2023-07-20 22:03:57] INFO root fetch - processPackages [cfstack]: Remove: archive file [/home/abi/fetcher/tmp/cfstack-1.1.2.tar.gz]
+[2023-07-20 22:03:57] INFO root fetch - main [MainThread]: End processing [cfstack]: success
+[2023-07-20 22:03:57] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda110]: executing diffoscope
+[2023-07-20 22:03:57] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda110]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvidia-dali-tf-plugin-nightly-cuda110-1.29.0.dev20230719.tar.gz tmp/nvidia-dali-tf-plugin-nightly-cuda110-1.29.0.dev20230720.tar.gz --markdown 20230720/n/nvidia-dali-tf-plugin-nightly-cuda110/1.29.0.dev20230719-1.29.0.dev20230720/diff.md --exclude *.pyd
+[2023-07-20 22:03:58] INFO root fetch - processPackages [veracode-api-py]: Remove: archive file [/home/abi/fetcher/tmp/veracode_api_py-0.9.8.tar.gz]
+[2023-07-20 22:03:58] INFO root fetch - processPackages [veracode-api-py]: Remove: archive file [/home/abi/fetcher/tmp/veracode_api_py-0.9.9.tar.gz]
+[2023-07-20 22:03:58] INFO root fetch - main [MainThread]: End processing [veracode-api-py]: success
+[2023-07-20 22:03:58] INFO root fetch - processPackages [ofa]: Remove: archive file [/home/abi/fetcher/tmp/ofa-0.1.0.post202203231606-py3-none-any.whl.zip]
+[2023-07-20 22:03:58] INFO root fetch - processPackages [ofa]: Remove: archive file [/home/abi/fetcher/tmp/ofa-0.1.0.post202307202001-py3-none-any.whl.zip]
+[2023-07-20 22:03:58] INFO root fetch - main [MainThread]: End processing [ofa]: success
+[2023-07-20 22:03:58] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip]
+[2023-07-20 22:03:58] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
+[2023-07-20 22:03:58] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2023-07-20 22:03:58] INFO root fetch - processPackages [reflex]: Remove: archive file [/home/abi/fetcher/tmp/reflex-0.2.1a2.tar.gz]
+[2023-07-20 22:03:58] INFO root fetch - processPackages [reflex]: Remove: archive file [/home/abi/fetcher/tmp/reflex-0.2.2a1.tar.gz]
+[2023-07-20 22:03:58] INFO root fetch - main [MainThread]: End processing [reflex]: success
+[2023-07-20 22:03:58] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda110]: Remove: archive file [/home/abi/fetcher/tmp/nvidia-dali-tf-plugin-nightly-cuda110-1.29.0.dev20230719.tar.gz]
+[2023-07-20 22:03:58] INFO root fetch - processPackages [nvidia-dali-tf-plugin-nightly-cuda110]: Remove: archive file [/home/abi/fetcher/tmp/nvidia-dali-tf-plugin-nightly-cuda110-1.29.0.dev20230720.tar.gz]
+[2023-07-20 22:03:58] INFO root fetch - main [MainThread]: End processing [nvidia-dali-tf-plugin-nightly-cuda110]: success
+[2023-07-20 22:04:00] INFO root fetch - processPackages [zfit]: Remove: archive file [/home/abi/fetcher/tmp/zfit-0.9.0a2.tar.gz]
+[2023-07-20 22:04:00] INFO root fetch - processPackages [zfit]: Remove: archive file [/home/abi/fetcher/tmp/zfit-0.9.0a3.tar.gz]
+[2023-07-20 22:04:00] INFO root fetch - main [MainThread]: End processing [zfit]: success
+[2023-07-20 22:04:00] INFO root fetch - main [MainThread]: Store serial: [18972281]
