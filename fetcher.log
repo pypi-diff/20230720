@@ -11939,3 +11939,66 @@ AssertionError: tmp/verify4py-test-0.1.7.tar.gz does not exist
 [2023-07-20 16:23:55] INFO root fetch - processPackages [aws-cdk.cli-lib-alpha]: Remove: archive file [/home/abi/fetcher/tmp/aws_cdk.cli_lib_alpha-2.88.0a0-py3-none-any.whl.zip]
 [2023-07-20 16:23:55] INFO root fetch - main [MainThread]: End processing [aws-cdk.cli-lib-alpha]: success
 [2023-07-20 16:23:55] INFO root fetch - main [MainThread]: Store serial: [18967866]
+[2023-07-20 16:29:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18967866]
+[2023-07-20 16:29:15] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-20 16:29:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pysqldbm
+[2023-07-20 16:29:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: profcomff-parse-lib
+[2023-07-20 16:29:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hyload
+[2023-07-20 16:29:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: MediaLib
+[2023-07-20 16:29:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: TDCRPy
+[2023-07-20 16:29:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: taskcluster-taskgraph
+[2023-07-20 16:29:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cloud-governance
+[2023-07-20 16:29:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: jpl-router
+[2023-07-20 16:29:15] INFO root fetch - processPackages [TDCRPy]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-20 16:29:15] INFO root fetch - processPackages [pysqldbm]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-07-20 16:29:15] WARNING root fetch - processPackages [jpl-router]: Skipping, unable to determine old version
+[2023-07-20 16:29:15] INFO root fetch - main [MainThread]: End processing [jpl-router] error
+[2023-07-20 16:29:15] INFO root fetch - processPackages [MediaLib]: New version: [3.0.1.8] Old Version: [3.0.1.7]
+[2023-07-20 16:29:15] WARNING root fetch - processPackages [profcomff-parse-lib]: Skipping, unable to determine old version
+[2023-07-20 16:29:15] INFO root fetch - main [MainThread]: End processing [profcomff-parse-lib] error
+[2023-07-20 16:29:15] INFO root fetch - processPackages [hyload]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-07-20 16:29:15] INFO root fetch - processPackages [taskcluster-taskgraph]: New version: [5.7.0] Old Version: [5.6.2]
+[2023-07-20 16:29:15] INFO root fetch - processPackages [cloud-governance]: New version: [1.1.99] Old Version: [1.1.98]
+[2023-07-20 16:29:15] INFO root fetch - processPackages [TDCRPy]: Downloading https://files.pythonhosted.org/packages/45/d1/26f2b4eb42e05416d7662d5fb8b6f31b59dee6421945806c7b7bfdfbfa94/TDCRPy-0.0.8.tar.gz
+[2023-07-20 16:29:16] INFO root fetch - processPackages [hyload]: Downloading https://files.pythonhosted.org/packages/97/7a/83afebdc0a368c81e88f9d2724c77d5e8ce6e83936e9c910e13de1120251/hyload-0.2.1-py3-none-any.whl
+[2023-07-20 16:29:16] INFO root fetch - processPackages [cloud-governance]: Downloading https://files.pythonhosted.org/packages/af/f8/db9bacb41ff13a7d3ae59369ae36809c3202232c910b932a09e42257b676/cloud-governance-1.1.98.tar.gz
+[2023-07-20 16:29:16] INFO root fetch - processPackages [pysqldbm]: Downloading https://files.pythonhosted.org/packages/43/0f/87e4f33a54aca1741dab70621d87516bf6ebf79460684f83bdf5ce6e5f83/pysqldbm-1.0.4.tar.gz
+[2023-07-20 16:29:16] INFO root fetch - processPackages [MediaLib]: Downloading https://files.pythonhosted.org/packages/06/63/2fe083f8568f205a8663aee4833309c123eb564af511fa322aa8e2c792e3/MediaLib-3.0.1.7.tar.gz
+[2023-07-20 16:29:16] INFO root fetch - processPackages [taskcluster-taskgraph]: Downloading https://files.pythonhosted.org/packages/3e/f6/782057af16cc18ead5c8ef47aad024decb19270ad43f980b6735336166ca/taskcluster-taskgraph-5.6.2.tar.gz
+[2023-07-20 16:29:16] INFO root fetch - processPackages [TDCRPy]: Downloading https://files.pythonhosted.org/packages/58/f4/f09bcfbd9ef3b75b2932ba824304fc7e7bcee566e8570cb2d64f76eb9adc/TDCRPy-0.0.9.tar.gz
+[2023-07-20 16:29:16] INFO root fetch - processPackages [cloud-governance]: Downloading https://files.pythonhosted.org/packages/ec/3e/06dc6e6844d3033717858064a494efaaf4cdae01a0c58d2b2a38273075e2/cloud-governance-1.1.99.tar.gz
+[2023-07-20 16:29:16] INFO root fetch - processPackages [hyload]: Downloading https://files.pythonhosted.org/packages/f4/6c/b20801d3c49dd3e1e7a7918aed7dcd0dcdad7f9424fe81c0756fbae33e5c/hyload-0.2.2-py3-none-any.whl
+[2023-07-20 16:29:16] INFO root fetch - processPackages [TDCRPy]: executing diffoscope
+[2023-07-20 16:29:16] INFO root fetch - processPackages [TDCRPy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TDCRPy-0.0.8.tar.gz tmp/TDCRPy-0.0.9.tar.gz --markdown 20230720/T/TDCRPy/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-20 16:29:16] INFO root fetch - processPackages [pysqldbm]: Downloading https://files.pythonhosted.org/packages/65/0e/3a2a270000cd54ad465bc46e8acd9378b310fdcc783bd11b16bb378a5500/pysqldbm-1.0.5.tar.gz
+[2023-07-20 16:29:16] INFO root fetch - processPackages [cloud-governance]: executing diffoscope
+[2023-07-20 16:29:16] INFO root fetch - processPackages [cloud-governance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloud-governance-1.1.98.tar.gz tmp/cloud-governance-1.1.99.tar.gz --markdown 20230720/c/cloud-governance/1.1.98-1.1.99/diff.md --exclude *.pyd
+[2023-07-20 16:29:16] INFO root fetch - processPackages [taskcluster-taskgraph]: Downloading https://files.pythonhosted.org/packages/51/bd/78db984550c6e0be67f81b2ac35bec2fd0e403c1602a9c60c74b18260b67/taskcluster-taskgraph-5.7.0.tar.gz
+[2023-07-20 16:29:16] INFO root fetch - processPackages [hyload]: executing diffoscope
+[2023-07-20 16:29:16] INFO root fetch - processPackages [hyload]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyload-0.2.1-py3-none-any.whl.zip tmp/hyload-0.2.2-py3-none-any.whl.zip --markdown 20230720/h/hyload/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-07-20 16:29:16] INFO root fetch - processPackages [pysqldbm]: executing diffoscope
+[2023-07-20 16:29:16] INFO root fetch - processPackages [pysqldbm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysqldbm-1.0.4.tar.gz tmp/pysqldbm-1.0.5.tar.gz --markdown 20230720/p/pysqldbm/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-07-20 16:29:16] INFO root fetch - processPackages [MediaLib]: Downloading https://files.pythonhosted.org/packages/fd/04/4b2d7353f557ea762b7adb669c1f06bdda2de327d3601b93ec539ba300c9/MediaLib-3.0.1.8.tar.gz
+[2023-07-20 16:29:16] INFO root fetch - processPackages [taskcluster-taskgraph]: executing diffoscope
+[2023-07-20 16:29:16] INFO root fetch - processPackages [taskcluster-taskgraph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/taskcluster-taskgraph-5.6.2.tar.gz tmp/taskcluster-taskgraph-5.7.0.tar.gz --markdown 20230720/t/taskcluster-taskgraph/5.6.2-5.7.0/diff.md --exclude *.pyd
+[2023-07-20 16:29:16] INFO root fetch - processPackages [MediaLib]: executing diffoscope
+[2023-07-20 16:29:16] INFO root fetch - processPackages [MediaLib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MediaLib-3.0.1.7.tar.gz tmp/MediaLib-3.0.1.8.tar.gz --markdown 20230720/M/MediaLib/3.0.1.7-3.0.1.8/diff.md --exclude *.pyd
+[2023-07-20 16:29:17] INFO root fetch - processPackages [TDCRPy]: Remove: archive file [/home/abi/fetcher/tmp/TDCRPy-0.0.8.tar.gz]
+[2023-07-20 16:29:17] INFO root fetch - processPackages [TDCRPy]: Remove: archive file [/home/abi/fetcher/tmp/TDCRPy-0.0.9.tar.gz]
+[2023-07-20 16:29:17] INFO root fetch - main [MainThread]: End processing [TDCRPy]: success
+[2023-07-20 16:29:17] INFO root fetch - processPackages [pysqldbm]: Remove: archive file [/home/abi/fetcher/tmp/pysqldbm-1.0.4.tar.gz]
+[2023-07-20 16:29:17] INFO root fetch - processPackages [pysqldbm]: Remove: archive file [/home/abi/fetcher/tmp/pysqldbm-1.0.5.tar.gz]
+[2023-07-20 16:29:17] INFO root fetch - main [MainThread]: End processing [pysqldbm]: success
+[2023-07-20 16:29:17] INFO root fetch - processPackages [hyload]: Remove: archive file [/home/abi/fetcher/tmp/hyload-0.2.1-py3-none-any.whl.zip]
+[2023-07-20 16:29:17] INFO root fetch - processPackages [hyload]: Remove: archive file [/home/abi/fetcher/tmp/hyload-0.2.2-py3-none-any.whl.zip]
+[2023-07-20 16:29:17] INFO root fetch - main [MainThread]: End processing [hyload]: success
+[2023-07-20 16:29:17] INFO root fetch - processPackages [MediaLib]: Remove: archive file [/home/abi/fetcher/tmp/MediaLib-3.0.1.7.tar.gz]
+[2023-07-20 16:29:17] INFO root fetch - processPackages [MediaLib]: Remove: archive file [/home/abi/fetcher/tmp/MediaLib-3.0.1.8.tar.gz]
+[2023-07-20 16:29:17] INFO root fetch - main [MainThread]: End processing [MediaLib]: success
+[2023-07-20 16:29:18] INFO root fetch - processPackages [cloud-governance]: Remove: archive file [/home/abi/fetcher/tmp/cloud-governance-1.1.98.tar.gz]
+[2023-07-20 16:29:18] INFO root fetch - processPackages [cloud-governance]: Remove: archive file [/home/abi/fetcher/tmp/cloud-governance-1.1.99.tar.gz]
+[2023-07-20 16:29:18] INFO root fetch - main [MainThread]: End processing [cloud-governance]: success
+[2023-07-20 16:29:18] INFO root fetch - processPackages [taskcluster-taskgraph]: Remove: archive file [/home/abi/fetcher/tmp/taskcluster-taskgraph-5.6.2.tar.gz]
+[2023-07-20 16:29:18] INFO root fetch - processPackages [taskcluster-taskgraph]: Remove: archive file [/home/abi/fetcher/tmp/taskcluster-taskgraph-5.7.0.tar.gz]
+[2023-07-20 16:29:18] INFO root fetch - main [MainThread]: End processing [taskcluster-taskgraph]: success
+[2023-07-20 16:29:18] INFO root fetch - main [MainThread]: Store serial: [18967935]
