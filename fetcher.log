@@ -1355,3 +1355,124 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-07-20 10:46:25] INFO root fetch - processPackages [tfp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl.zip]
 [2023-07-20 10:46:25] INFO root fetch - main [MainThread]: End processing [tfp-nightly]: success
 [2023-07-20 10:46:25] INFO root fetch - main [MainThread]: Store serial: [18963465]
+[2023-07-20 10:51:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18963465]
+[2023-07-20 10:51:34] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-07-20 10:51:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: oarepo-model-builder
+[2023-07-20 10:51:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: anyforce
+[2023-07-20 10:51:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: impunity
+[2023-07-20 10:51:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: imio.helpers
+[2023-07-20 10:51:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: S3Backup
+[2023-07-20 10:51:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dao-scripts
+[2023-07-20 10:51:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: rayvision-utils
+[2023-07-20 10:51:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: kiara
+[2023-07-20 10:51:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: microlearn-gen-course
+[2023-07-20 10:51:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: recon-lw
+[2023-07-20 10:51:34] INFO root fetch - processPackages [S3Backup]: New version: [v0.6] Old Version: [v0.5-alpha]
+[2023-07-20 10:51:34] INFO root fetch - processPackages [anyforce]: New version: [0.9.0] Old Version: [0.8.2]
+[2023-07-20 10:51:34] INFO root fetch - processPackages [dao-scripts]: New version: [1.1.9.post3.dev5] Old Version: [1.1.9.post3.dev4]
+[2023-07-20 10:51:34] INFO root fetch - processPackages [recon-lw]: New version: [2.0.0.dev5608740227] Old Version: [2.0.0.dev5585671861]
+[2023-07-20 10:51:34] INFO root fetch - processPackages [S3Backup]: Downloading https://files.pythonhosted.org/packages/ae/68/e337c66c85ea3690cf688b1bd1fa8cea463a695216d90e94d5085762e9e6/S3Backup-v0.5-alpha.zip
+[2023-07-20 10:51:34] INFO root fetch - processPackages [anyforce]: Downloading https://files.pythonhosted.org/packages/75/22/a60c6e897bc29038e83b0aaba8bd40f9465d8ba0f62d101cda65ef7d9d3a/anyforce-0.8.2.tar.gz
+[2023-07-20 10:51:34] WARNING root fetch - processPackages [microlearn-gen-course]: Skipping, unable to determine old version
+[2023-07-20 10:51:34] INFO root fetch - processPackages [microlearn-gen-course]: Start processing: discohooker
+[2023-07-20 10:51:34] INFO root fetch - main [MainThread]: End processing [microlearn-gen-course] error
+[2023-07-20 10:51:34] INFO root fetch - processPackages [impunity]: New version: [1.0] Old Version: [0.2.1]
+[2023-07-20 10:51:34] INFO root fetch - processPackages [rayvision-utils]: New version: [1.2.2.1] Old Version: [1.2.1]
+[2023-07-20 10:51:34] INFO root fetch - processPackages [oarepo-model-builder]: New version: [4.0.9] Old Version: [4.0.8]
+[2023-07-20 10:51:34] INFO root fetch - processPackages [recon-lw]: Downloading https://files.pythonhosted.org/packages/e8/19/78e0964f44fdbf161d0584928fb85961d90d5c6f478c5938541809e8ca93/recon_lw-2.0.0.dev5585671861.tar.gz
+[2023-07-20 10:51:34] INFO root fetch - processPackages [imio.helpers]: New version: [0.9] Old Version: [0.8]
+[2023-07-20 10:51:34] INFO root fetch - processPackages [kiara]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-07-20 10:51:34] INFO root fetch - processPackages [discohooker]: New version: [0.0.0b9] Old Version: [0.0.0b8]
+[2023-07-20 10:51:34] INFO root fetch - processPackages [dao-scripts]: executing diffoscope
+[2023-07-20 10:51:34] INFO root fetch - processPackages [dao-scripts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dao-scripts-1.1.9.post3.dev4.tar.gz tmp/dao-scripts-1.1.9.post3.dev5.tar.gz --markdown 20230720/d/dao-scripts/1.1.9.post3.dev4-1.1.9.post3.dev5/diff.md --exclude *.pyd
+[2023-07-20 10:51:34] INFO root fetch - processPackages [discohooker]: Downloading https://files.pythonhosted.org/packages/11/18/cd20f4d7f8bbf72fed32bf3ca62b1cb82e19effc531f6fc1212460966f16/discohooker-0.0.0b8.tar.gz
+[2023-07-20 10:51:34] INFO root fetch - processPackages [rayvision-utils]: Downloading https://files.pythonhosted.org/packages/a8/58/a2c28b012fbd09740151e43bab52a3b611c617e1327ea3cd1548068a75e7/rayvision_utils-1.2.1.tar.gz
+[2023-07-20 10:51:34] INFO root fetch - processPackages [impunity]: Downloading https://files.pythonhosted.org/packages/6e/4c/1b464eb517a4b54d44e5b9f4f596324e85df17b913745072dc4910836fc5/impunity-0.2.1.tar.gz
+[2023-07-20 10:51:34] INFO root fetch - processPackages [anyforce]: Downloading https://files.pythonhosted.org/packages/9b/ab/c662247bed8dd85fa8c1d2517b08f7688328858eb44bfe36bed0b0aed718/anyforce-0.9.0.tar.gz
+[2023-07-20 10:51:34] INFO root fetch - processPackages [imio.helpers]: Downloading https://files.pythonhosted.org/packages/c2/bb/5e5b2b7179ba4e1a44769569d220c67dedf6040a24a5f6f7a2ce70736f69/imio.helpers-0.8.tar.gz
+[2023-07-20 10:51:34] INFO root fetch - processPackages [oarepo-model-builder]: Downloading https://files.pythonhosted.org/packages/a7/f0/62f6d05442790f0562d20d7e93407d69aeea6c98832d6f8f68b27611715f/oarepo-model-builder-4.0.8.tar.gz
+[2023-07-20 10:51:34] INFO root fetch - processPackages [kiara]: Downloading https://files.pythonhosted.org/packages/3f/79/fa4e8a6826f113046ada93d9b667f72636d2aff88f86e3f02e892002926a/kiara-0.4.8.tar.gz
+[2023-07-20 10:51:34] INFO root fetch - processPackages [S3Backup]: Downloading https://files.pythonhosted.org/packages/e6/b3/7f7b2077fdae80e2c29f1a8e652539f4a1f9ef5de8bd49dab45913c54528/S3Backup-v0.6.zip
+[2023-07-20 10:51:34] INFO root fetch - processPackages [recon-lw]: Downloading https://files.pythonhosted.org/packages/e5/d5/ac4f6d736ef34ee8caac54ffa5263fe36c784e37ba66af3a74c73791205d/recon_lw-2.0.0.dev5608740227.tar.gz
+[2023-07-20 10:51:35] INFO root fetch - processPackages [anyforce]: executing diffoscope
+[2023-07-20 10:51:35] INFO root fetch - processPackages [anyforce]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anyforce-0.8.2.tar.gz tmp/anyforce-0.9.0.tar.gz --markdown 20230720/a/anyforce/0.8.2-0.9.0/diff.md --exclude *.pyd
+[2023-07-20 10:51:35] INFO root fetch - processPackages [recon-lw]: executing diffoscope
+[2023-07-20 10:51:35] INFO root fetch - processPackages [recon-lw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/recon_lw-2.0.0.dev5585671861.tar.gz tmp/recon_lw-2.0.0.dev5608740227.tar.gz --markdown 20230720/r/recon-lw/2.0.0.dev5585671861-2.0.0.dev5608740227/diff.md --exclude *.pyd
+[2023-07-20 10:51:35] INFO root fetch - processPackages [discohooker]: Downloading https://files.pythonhosted.org/packages/8b/8b/5f1339db58f060781d94ad397b0849ddd19df8c2fa5ddc3ea53c4d467c5c/discohooker-0.0.0b9.tar.gz
+[2023-07-20 10:51:35] INFO root fetch - processPackages [S3Backup]: executing diffoscope
+[2023-07-20 10:51:35] INFO root fetch - processPackages [S3Backup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/S3Backup-v0.5-alpha.zip tmp/S3Backup-v0.6.zip --markdown 20230720/S/S3Backup/v0.5-alpha-v0.6/diff.md --exclude *.pyd
+[2023-07-20 10:51:35] INFO root fetch - processPackages [rayvision-utils]: Downloading https://files.pythonhosted.org/packages/82/0e/cf57cc37a7a8d0e8550748c90038b54e72f7335446dd38c2c009957a6247/rayvision_utils-1.2.2.1.tar.gz
+[2023-07-20 10:51:35] INFO root fetch - processPackages [impunity]: Downloading https://files.pythonhosted.org/packages/dc/14/b5fd51edd53f23fbe83746b8ad6e999a99838042f2b49f32240bb88f7f8c/impunity-1.0.tar.gz
+[2023-07-20 10:51:35] INFO root fetch - processPackages [imio.helpers]: Downloading https://files.pythonhosted.org/packages/fb/60/e683504d6c5a9c5abdcda6b00cac0911f64f7aaf2b1dbafca097d38d5c94/imio.helpers-0.9.tar.gz
+[2023-07-20 10:51:35] INFO root fetch - processPackages [oarepo-model-builder]: Downloading https://files.pythonhosted.org/packages/d0/c0/f88cc77e087d52084596bac94c3c439ecf68e7ef6b2b2efa8058d91454f9/oarepo-model-builder-4.0.9.tar.gz
+[2023-07-20 10:51:35] INFO root fetch - processPackages [discohooker]: executing diffoscope
+[2023-07-20 10:51:35] INFO root fetch - processPackages [discohooker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/discohooker-0.0.0b8.tar.gz tmp/discohooker-0.0.0b9.tar.gz --markdown 20230720/d/discohooker/0.0.0b8-0.0.0b9/diff.md --exclude *.pyd
+[2023-07-20 10:51:35] INFO root fetch - processPackages [dao-scripts]: Remove: archive file [/home/abi/fetcher/tmp/dao-scripts-1.1.9.post3.dev4.tar.gz]
+[2023-07-20 10:51:35] INFO root fetch - processPackages [rayvision-utils]: executing diffoscope
+[2023-07-20 10:51:35] INFO root fetch - processPackages [rayvision-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rayvision_utils-1.2.1.tar.gz tmp/rayvision_utils-1.2.2.1.tar.gz --markdown 20230720/r/rayvision-utils/1.2.1-1.2.2.1/diff.md --exclude *.pyd
+[2023-07-20 10:51:35] INFO root fetch - processPackages [dao-scripts]: Remove: archive file [/home/abi/fetcher/tmp/dao-scripts-1.1.9.post3.dev5.tar.gz]
+[2023-07-20 10:51:35] INFO root fetch - processPackages [dao-scripts]: Start processing: elefanto-webkassa
+[2023-07-20 10:51:35] INFO root fetch - main [MainThread]: End processing [dao-scripts]: success
+[2023-07-20 10:51:35] INFO root fetch - processPackages [impunity]: executing diffoscope
+[2023-07-20 10:51:35] INFO root fetch - processPackages [elefanto-webkassa]: New version: [0.4.0] Old Version: [0.3.2]
+[2023-07-20 10:51:35] INFO root fetch - processPackages [impunity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/impunity-0.2.1.tar.gz tmp/impunity-1.0.tar.gz --markdown 20230720/i/impunity/0.2.1-1.0/diff.md --exclude *.pyd
+[2023-07-20 10:51:35] INFO root fetch - processPackages [imio.helpers]: executing diffoscope
+[2023-07-20 10:51:35] INFO root fetch - processPackages [imio.helpers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imio.helpers-0.8.tar.gz tmp/imio.helpers-0.9.tar.gz --markdown 20230720/i/imio.helpers/0.8-0.9/diff.md --exclude *.pyd
+[2023-07-20 10:51:35] INFO root fetch - processPackages [oarepo-model-builder]: executing diffoscope
+[2023-07-20 10:51:35] INFO root fetch - processPackages [oarepo-model-builder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oarepo-model-builder-4.0.8.tar.gz tmp/oarepo-model-builder-4.0.9.tar.gz --markdown 20230720/o/oarepo-model-builder/4.0.8-4.0.9/diff.md --exclude *.pyd
+[2023-07-20 10:51:35] INFO root fetch - processPackages [kiara]: Downloading https://files.pythonhosted.org/packages/05/0e/69cf34a19959bde095398297ff33bcf2421ec3ddc0ae7bafe46183d25333/kiara-0.4.9.tar.gz
+[2023-07-20 10:51:35] INFO root fetch - processPackages [elefanto-webkassa]: Downloading https://files.pythonhosted.org/packages/da/db/e9933c416512cbb37afcc1ed2688193d0e94fba1a4575737a75d53788cbb/elefanto_webkassa-0.3.2.tar.gz
+[2023-07-20 10:51:36] INFO root fetch - processPackages [kiara]: executing diffoscope
+[2023-07-20 10:51:36] INFO root fetch - processPackages [kiara]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kiara-0.4.8.tar.gz tmp/kiara-0.4.9.tar.gz --markdown 20230720/k/kiara/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-07-20 10:51:36] INFO root fetch - processPackages [elefanto-webkassa]: Downloading https://files.pythonhosted.org/packages/ae/e9/c829cfc029b6b86c1ce7fb650bccc9513efef7040041fb5e6a6c210f7b0b/elefanto_webkassa-0.4.0.tar.gz
+[2023-07-20 10:51:36] INFO root fetch - processPackages [anyforce]: Remove: archive file [/home/abi/fetcher/tmp/anyforce-0.8.2.tar.gz]
+[2023-07-20 10:51:36] INFO root fetch - processPackages [anyforce]: Remove: archive file [/home/abi/fetcher/tmp/anyforce-0.9.0.tar.gz]
+[2023-07-20 10:51:36] INFO root fetch - processPackages [anyforce]: Start processing: torchhandy
+[2023-07-20 10:51:36] INFO root fetch - main [MainThread]: End processing [anyforce]: success
+[2023-07-20 10:51:36] INFO root fetch - processPackages [elefanto-webkassa]: executing diffoscope
+[2023-07-20 10:51:36] INFO root fetch - processPackages [elefanto-webkassa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/elefanto_webkassa-0.3.2.tar.gz tmp/elefanto_webkassa-0.4.0.tar.gz --markdown 20230720/e/elefanto-webkassa/0.3.2-0.4.0/diff.md --exclude *.pyd
+[2023-07-20 10:51:36] INFO root fetch - processPackages [recon-lw]: Remove: archive file [/home/abi/fetcher/tmp/recon_lw-2.0.0.dev5585671861.tar.gz]
+[2023-07-20 10:51:36] INFO root fetch - processPackages [recon-lw]: Remove: archive file [/home/abi/fetcher/tmp/recon_lw-2.0.0.dev5608740227.tar.gz]
+[2023-07-20 10:51:36] INFO root fetch - processPackages [recon-lw]: Start processing: finbourne-insights-sdk-preview
+[2023-07-20 10:51:36] INFO root fetch - main [MainThread]: End processing [recon-lw]: success
+[2023-07-20 10:51:36] INFO root fetch - processPackages [torchhandy]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-20 10:51:36] INFO root fetch - processPackages [S3Backup]: Remove: archive file [/home/abi/fetcher/tmp/S3Backup-v0.5-alpha.zip]
+[2023-07-20 10:51:36] INFO root fetch - processPackages [S3Backup]: Remove: archive file [/home/abi/fetcher/tmp/S3Backup-v0.6.zip]
+[2023-07-20 10:51:36] INFO root fetch - main [MainThread]: End processing [S3Backup]: success
+[2023-07-20 10:51:36] INFO root fetch - processPackages [finbourne-insights-sdk-preview]: New version: [0.0.718] Old Version: [0.0.717]
+[2023-07-20 10:51:36] INFO root fetch - processPackages [torchhandy]: Downloading https://files.pythonhosted.org/packages/27/5c/5efa69ac623e6027d18d4853d5cecfae74e847fcd1370a708317043701be/torchhandy-0.0.3.tar.gz
+[2023-07-20 10:51:36] INFO root fetch - processPackages [finbourne-insights-sdk-preview]: Downloading https://files.pythonhosted.org/packages/73/22/86727607f81adf89029fe7235bb78c083e37dd9884f3e065d056ce441c4f/finbourne-insights-sdk-preview-0.0.717.tar.gz
+[2023-07-20 10:51:36] INFO root fetch - processPackages [discohooker]: Remove: archive file [/home/abi/fetcher/tmp/discohooker-0.0.0b8.tar.gz]
+[2023-07-20 10:51:36] INFO root fetch - processPackages [discohooker]: Remove: archive file [/home/abi/fetcher/tmp/discohooker-0.0.0b9.tar.gz]
+[2023-07-20 10:51:36] INFO root fetch - main [MainThread]: End processing [discohooker]: success
+[2023-07-20 10:51:36] INFO root fetch - processPackages [impunity]: Remove: archive file [/home/abi/fetcher/tmp/impunity-0.2.1.tar.gz]
+[2023-07-20 10:51:36] INFO root fetch - processPackages [impunity]: Remove: archive file [/home/abi/fetcher/tmp/impunity-1.0.tar.gz]
+[2023-07-20 10:51:36] INFO root fetch - main [MainThread]: End processing [impunity]: success
+[2023-07-20 10:51:37] INFO root fetch - processPackages [rayvision-utils]: Remove: archive file [/home/abi/fetcher/tmp/rayvision_utils-1.2.1.tar.gz]
+[2023-07-20 10:51:37] INFO root fetch - processPackages [rayvision-utils]: Remove: archive file [/home/abi/fetcher/tmp/rayvision_utils-1.2.2.1.tar.gz]
+[2023-07-20 10:51:37] INFO root fetch - main [MainThread]: End processing [rayvision-utils]: success
+[2023-07-20 10:51:37] INFO root fetch - processPackages [torchhandy]: Downloading https://files.pythonhosted.org/packages/34/f0/a8767ad13d2a42edaeaa0bae1b917ff2fc3997a95f319f44893abc1dd991/torchhandy-0.0.4.tar.gz
+[2023-07-20 10:51:37] INFO root fetch - processPackages [torchhandy]: executing diffoscope
+[2023-07-20 10:51:37] INFO root fetch - processPackages [torchhandy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchhandy-0.0.3.tar.gz tmp/torchhandy-0.0.4.tar.gz --markdown 20230720/t/torchhandy/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-20 10:51:37] INFO root fetch - processPackages [finbourne-insights-sdk-preview]: Downloading https://files.pythonhosted.org/packages/5f/85/0532af72934a4aa24754a2e3f5d129cdb37e0b19fd45ab6e97e505b4fca2/finbourne-insights-sdk-preview-0.0.718.tar.gz
+[2023-07-20 10:51:37] INFO root fetch - processPackages [imio.helpers]: Remove: archive file [/home/abi/fetcher/tmp/imio.helpers-0.8.tar.gz]
+[2023-07-20 10:51:37] INFO root fetch - processPackages [imio.helpers]: Remove: archive file [/home/abi/fetcher/tmp/imio.helpers-0.9.tar.gz]
+[2023-07-20 10:51:37] INFO root fetch - main [MainThread]: End processing [imio.helpers]: success
+[2023-07-20 10:51:37] INFO root fetch - processPackages [finbourne-insights-sdk-preview]: executing diffoscope
+[2023-07-20 10:51:37] INFO root fetch - processPackages [finbourne-insights-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finbourne-insights-sdk-preview-0.0.717.tar.gz tmp/finbourne-insights-sdk-preview-0.0.718.tar.gz --markdown 20230720/f/finbourne-insights-sdk-preview/0.0.717-0.0.718/diff.md --exclude *.pyd
+[2023-07-20 10:51:37] INFO root fetch - processPackages [elefanto-webkassa]: Remove: archive file [/home/abi/fetcher/tmp/elefanto_webkassa-0.3.2.tar.gz]
+[2023-07-20 10:51:37] INFO root fetch - processPackages [elefanto-webkassa]: Remove: archive file [/home/abi/fetcher/tmp/elefanto_webkassa-0.4.0.tar.gz]
+[2023-07-20 10:51:37] INFO root fetch - main [MainThread]: End processing [elefanto-webkassa]: success
+[2023-07-20 10:51:37] INFO root fetch - processPackages [oarepo-model-builder]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-model-builder-4.0.8.tar.gz]
+[2023-07-20 10:51:37] INFO root fetch - processPackages [oarepo-model-builder]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-model-builder-4.0.9.tar.gz]
+[2023-07-20 10:51:37] INFO root fetch - main [MainThread]: End processing [oarepo-model-builder]: success
+[2023-07-20 10:51:38] INFO root fetch - processPackages [torchhandy]: Remove: archive file [/home/abi/fetcher/tmp/torchhandy-0.0.3.tar.gz]
+[2023-07-20 10:51:38] INFO root fetch - processPackages [torchhandy]: Remove: archive file [/home/abi/fetcher/tmp/torchhandy-0.0.4.tar.gz]
+[2023-07-20 10:51:38] INFO root fetch - main [MainThread]: End processing [torchhandy]: success
+[2023-07-20 10:51:38] INFO root fetch - processPackages [kiara]: Remove: archive file [/home/abi/fetcher/tmp/kiara-0.4.8.tar.gz]
+[2023-07-20 10:51:38] INFO root fetch - processPackages [kiara]: Remove: archive file [/home/abi/fetcher/tmp/kiara-0.4.9.tar.gz]
+[2023-07-20 10:51:38] INFO root fetch - main [MainThread]: End processing [kiara]: success
+[2023-07-20 10:51:38] INFO root fetch - processPackages [finbourne-insights-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/finbourne-insights-sdk-preview-0.0.717.tar.gz]
+[2023-07-20 10:51:38] INFO root fetch - processPackages [finbourne-insights-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/finbourne-insights-sdk-preview-0.0.718.tar.gz]
+[2023-07-20 10:51:38] INFO root fetch - main [MainThread]: End processing [finbourne-insights-sdk-preview]: success
+[2023-07-20 10:51:38] INFO root fetch - main [MainThread]: Store serial: [18963505]
