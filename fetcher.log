@@ -5511,3 +5511,94 @@ AssertionError: tmp/verify4py-test-0.1.7.tar.gz does not exist
 [2023-07-20 12:33:35] INFO root fetch - processPackages [Pandora-ChatGPT]: Remove: archive file [/home/abi/fetcher/tmp/Pandora-ChatGPT-1.2.9.tar.gz]
 [2023-07-20 12:33:35] INFO root fetch - main [MainThread]: End processing [Pandora-ChatGPT]: success
 [2023-07-20 12:33:35] INFO root fetch - main [MainThread]: Store serial: [18965141]
+[2023-07-20 12:38:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18965141]
+[2023-07-20 12:38:44] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-20 12:38:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: digimat.bac0
+[2023-07-20 12:38:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ldimbenchmark
+[2023-07-20 12:38:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: idkwhttph
+[2023-07-20 12:38:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-github-connector-odoo
+[2023-07-20 12:38:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-github-connector
+[2023-07-20 12:38:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: siat
+[2023-07-20 12:38:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: CxAdmin
+[2023-07-20 12:38:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: thanos-gen
+[2023-07-20 12:38:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: financetoolkit
+[2023-07-20 12:38:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: bose
+[2023-07-20 12:38:44] INFO root fetch - processPackages [odoo-addon-github-connector]: New version: [15.0.1.1.0] Old Version: [15.0.1.0.1]
+[2023-07-20 12:38:44] INFO root fetch - processPackages [digimat.bac0]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-20 12:38:44] INFO root fetch - processPackages [odoo-addon-github-connector-odoo]: New version: [15.0.1.1.0] Old Version: [15.0.1.0.1]
+[2023-07-20 12:38:44] INFO root fetch - processPackages [idkwhttph]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-07-20 12:38:44] INFO root fetch - processPackages [thanos-gen]: New version: [2.1.1] Old Version: [1.0.0]
+[2023-07-20 12:38:44] INFO root fetch - processPackages [financetoolkit]: New version: [1.1.0] Old Version: [1.0.3]
+[2023-07-20 12:38:44] INFO root fetch - processPackages [siat]: New version: [2.4.3] Old Version: [2.4.2]
+[2023-07-20 12:38:44] INFO root fetch - processPackages [ldimbenchmark]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-20 12:38:44] INFO root fetch - processPackages [CxAdmin]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-20 12:38:44] INFO root fetch - processPackages [bose]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-07-20 12:38:44] INFO root fetch - processPackages [odoo-addon-github-connector-odoo]: Downloading https://files.pythonhosted.org/packages/a8/97/336eeaedb8ba0db587ff8aebfdd1f9476718a90032e2b11e7aaa0a9763cd/odoo_addon_github_connector_odoo-15.0.1.0.1-py3-none-any.whl
+[2023-07-20 12:38:44] INFO root fetch - processPackages [financetoolkit]: Downloading https://files.pythonhosted.org/packages/e0/b4/7e0bb9e205840d4f1d78efed21393ef713e3c3f88bde64ab67f69c513308/financetoolkit-1.0.3.tar.gz
+[2023-07-20 12:38:44] INFO root fetch - processPackages [odoo-addon-github-connector]: Downloading https://files.pythonhosted.org/packages/14/87/4fce903b1fd74bffb1eea39ced27f6ff72cebe8dc4392c056e7d58d0ef4d/odoo_addon_github_connector-15.0.1.0.1-py3-none-any.whl
+[2023-07-20 12:38:44] INFO root fetch - processPackages [idkwhttph]: Downloading https://files.pythonhosted.org/packages/a7/41/96d7cc8a42ebeb4d6f95d8607fed2199d6ced3161314ef3c5bd8a13e8140/idkwhttph-0.2.1.tar.gz
+[2023-07-20 12:38:44] INFO root fetch - processPackages [siat]: Downloading https://files.pythonhosted.org/packages/35/72/68f4f211445885fe8226dd1358c48577f97cbb86ed81607dd4fbb409eb01/siat-2.4.2-py3-none-any.whl
+[2023-07-20 12:38:44] INFO root fetch - processPackages [digimat.bac0]: Downloading https://files.pythonhosted.org/packages/93/69/86e0838e726c0937c564256e80ef37aa475670fd71b17c0760827302f8e2/digimat.bac0-0.0.7.tar.gz
+[2023-07-20 12:38:44] INFO root fetch - processPackages [CxAdmin]: Downloading https://files.pythonhosted.org/packages/72/2d/39137a2e73be34674809bf9eabf234a558344f4c60f8d348d9c9666872ce/CxAdmin-1.0.8.tar.gz
+[2023-07-20 12:38:44] INFO root fetch - processPackages [thanos-gen]: Downloading https://files.pythonhosted.org/packages/2b/eb/c4f3aa4534d950d217cf8429e0d374cafc96660e71960a6ab03b32c126e8/thanos-gen-1.0.0.tar.gz
+[2023-07-20 12:38:44] INFO root fetch - processPackages [bose]: Downloading https://files.pythonhosted.org/packages/fb/a2/8b256687327fb4807c2c68295224ca84bca13feb5b12e00d6e71d929253e/bose-2.0.8.tar.gz
+[2023-07-20 12:38:45] INFO root fetch - processPackages [financetoolkit]: Downloading https://files.pythonhosted.org/packages/22/9a/b23796ad7dc1e204f5bee0a50ac76a57e1025386b7e5cc9929fab7684fc3/financetoolkit-1.1.0.tar.gz
+[2023-07-20 12:38:45] INFO root fetch - processPackages [ldimbenchmark]: executing diffoscope
+[2023-07-20 12:38:45] INFO root fetch - processPackages [ldimbenchmark]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ldimbenchmark-0.2.8.tar.gz tmp/ldimbenchmark-0.2.9.tar.gz --markdown 20230720/l/ldimbenchmark/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-20 12:38:45] INFO root fetch - processPackages [CxAdmin]: Downloading https://files.pythonhosted.org/packages/12/69/d90f882fe41226c22716f3133aa3d1fd7abd744d25527cd17a8e33f7487f/CxAdmin-1.0.9.tar.gz
+[2023-07-20 12:38:45] INFO root fetch - processPackages [idkwhttph]: Downloading https://files.pythonhosted.org/packages/dd/cf/d6996d2f8de858c2ad298dfbcaa646a41097b2ec35e9b61e278462a71ab7/idkwhttph-0.2.2.tar.gz
+[2023-07-20 12:38:45] INFO root fetch - processPackages [odoo-addon-github-connector-odoo]: Downloading https://files.pythonhosted.org/packages/77/2a/8853cddea629252cb53e3a38503783316373dd039d53916161e996dac90b/odoo_addon_github_connector_odoo-15.0.1.1.0-py3-none-any.whl
+[2023-07-20 12:38:45] INFO root fetch - processPackages [digimat.bac0]: Downloading https://files.pythonhosted.org/packages/78/69/c221dd8f83b0cf18b4d8071cc4f3e464fd1a4a46aedfcc6da331732122ce/digimat.bac0-0.0.8.tar.gz
+[2023-07-20 12:38:45] INFO root fetch - processPackages [financetoolkit]: executing diffoscope
+[2023-07-20 12:38:45] INFO root fetch - processPackages [financetoolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/financetoolkit-1.0.3.tar.gz tmp/financetoolkit-1.1.0.tar.gz --markdown 20230720/f/financetoolkit/1.0.3-1.1.0/diff.md --exclude *.pyd
+[2023-07-20 12:38:45] INFO root fetch - processPackages [thanos-gen]: Downloading https://files.pythonhosted.org/packages/4e/b5/69303b72978cac370b2cbcf024f5eb95baf82b86b9006a98535ad04fd2be/thanos-gen-2.1.1.tar.gz
+[2023-07-20 12:38:45] INFO root fetch - processPackages [odoo-addon-github-connector]: Downloading https://files.pythonhosted.org/packages/e5/ba/9d512d1bfa99d943e612bdd00c49d0b35a69482f8e13018bcdeb4ae92388/odoo_addon_github_connector-15.0.1.1.0-py3-none-any.whl
+[2023-07-20 12:38:45] INFO root fetch - processPackages [CxAdmin]: executing diffoscope
+[2023-07-20 12:38:45] INFO root fetch - processPackages [CxAdmin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CxAdmin-1.0.8.tar.gz tmp/CxAdmin-1.0.9.tar.gz --markdown 20230720/C/CxAdmin/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-20 12:38:45] INFO root fetch - processPackages [bose]: Downloading https://files.pythonhosted.org/packages/02/3d/99351c9925c6d6d7dfdf932bdc8ff4c3cb7c7c58020f6528b9daad4d14f2/bose-2.0.9.tar.gz
+[2023-07-20 12:38:45] INFO root fetch - processPackages [siat]: Downloading https://files.pythonhosted.org/packages/e9/b1/46004334063bcac12be20aa7803dde799bfba7c9999ea43b76b8177a7cfa/siat-2.4.3-py3-none-any.whl
+[2023-07-20 12:38:45] INFO root fetch - processPackages [odoo-addon-github-connector-odoo]: executing diffoscope
+[2023-07-20 12:38:45] INFO root fetch - processPackages [odoo-addon-github-connector-odoo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_github_connector_odoo-15.0.1.0.1-py3-none-any.whl.zip tmp/odoo_addon_github_connector_odoo-15.0.1.1.0-py3-none-any.whl.zip --markdown 20230720/o/odoo-addon-github-connector-odoo/15.0.1.0.1-15.0.1.1.0/diff.md --exclude *.pyd
+[2023-07-20 12:38:45] INFO root fetch - processPackages [digimat.bac0]: executing diffoscope
+[2023-07-20 12:38:45] INFO root fetch - processPackages [idkwhttph]: executing diffoscope
+[2023-07-20 12:38:45] INFO root fetch - processPackages [digimat.bac0]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/digimat.bac0-0.0.7.tar.gz tmp/digimat.bac0-0.0.8.tar.gz --markdown 20230720/d/digimat.bac0/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-20 12:38:45] INFO root fetch - processPackages [idkwhttph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idkwhttph-0.2.1.tar.gz tmp/idkwhttph-0.2.2.tar.gz --markdown 20230720/i/idkwhttph/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-07-20 12:38:45] INFO root fetch - processPackages [odoo-addon-github-connector]: executing diffoscope
+[2023-07-20 12:38:45] INFO root fetch - processPackages [odoo-addon-github-connector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_github_connector-15.0.1.0.1-py3-none-any.whl.zip tmp/odoo_addon_github_connector-15.0.1.1.0-py3-none-any.whl.zip --markdown 20230720/o/odoo-addon-github-connector/15.0.1.0.1-15.0.1.1.0/diff.md --exclude *.pyd
+[2023-07-20 12:38:45] INFO root fetch - processPackages [thanos-gen]: executing diffoscope
+[2023-07-20 12:38:45] INFO root fetch - processPackages [thanos-gen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thanos-gen-1.0.0.tar.gz tmp/thanos-gen-2.1.1.tar.gz --markdown 20230720/t/thanos-gen/1.0.0-2.1.1/diff.md --exclude *.pyd
+[2023-07-20 12:38:45] INFO root fetch - processPackages [bose]: executing diffoscope
+[2023-07-20 12:38:45] INFO root fetch - processPackages [bose]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bose-2.0.8.tar.gz tmp/bose-2.0.9.tar.gz --markdown 20230720/b/bose/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-07-20 12:38:45] INFO root fetch - processPackages [siat]: executing diffoscope
+[2023-07-20 12:38:45] INFO root fetch - processPackages [siat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/siat-2.4.2-py3-none-any.whl.zip tmp/siat-2.4.3-py3-none-any.whl.zip --markdown 20230720/s/siat/2.4.2-2.4.3/diff.md --exclude *.pyd
+[2023-07-20 12:38:46] INFO root fetch - processPackages [ldimbenchmark]: Remove: archive file [/home/abi/fetcher/tmp/ldimbenchmark-0.2.8.tar.gz]
+[2023-07-20 12:38:46] INFO root fetch - processPackages [ldimbenchmark]: Remove: archive file [/home/abi/fetcher/tmp/ldimbenchmark-0.2.9.tar.gz]
+[2023-07-20 12:38:46] INFO root fetch - main [MainThread]: End processing [ldimbenchmark]: success
+[2023-07-20 12:38:46] INFO root fetch - processPackages [CxAdmin]: Remove: archive file [/home/abi/fetcher/tmp/CxAdmin-1.0.8.tar.gz]
+[2023-07-20 12:38:46] INFO root fetch - processPackages [CxAdmin]: Remove: archive file [/home/abi/fetcher/tmp/CxAdmin-1.0.9.tar.gz]
+[2023-07-20 12:38:46] INFO root fetch - main [MainThread]: End processing [CxAdmin]: success
+[2023-07-20 12:38:47] INFO root fetch - processPackages [thanos-gen]: Remove: archive file [/home/abi/fetcher/tmp/thanos-gen-1.0.0.tar.gz]
+[2023-07-20 12:38:47] INFO root fetch - processPackages [thanos-gen]: Remove: archive file [/home/abi/fetcher/tmp/thanos-gen-2.1.1.tar.gz]
+[2023-07-20 12:38:47] INFO root fetch - main [MainThread]: End processing [thanos-gen]: success
+[2023-07-20 12:38:47] INFO root fetch - processPackages [financetoolkit]: Remove: archive file [/home/abi/fetcher/tmp/financetoolkit-1.0.3.tar.gz]
+[2023-07-20 12:38:47] INFO root fetch - processPackages [financetoolkit]: Remove: archive file [/home/abi/fetcher/tmp/financetoolkit-1.1.0.tar.gz]
+[2023-07-20 12:38:47] INFO root fetch - main [MainThread]: End processing [financetoolkit]: success
+[2023-07-20 12:38:47] INFO root fetch - processPackages [idkwhttph]: Remove: archive file [/home/abi/fetcher/tmp/idkwhttph-0.2.1.tar.gz]
+[2023-07-20 12:38:47] INFO root fetch - processPackages [idkwhttph]: Remove: archive file [/home/abi/fetcher/tmp/idkwhttph-0.2.2.tar.gz]
+[2023-07-20 12:38:47] INFO root fetch - main [MainThread]: End processing [idkwhttph]: success
+[2023-07-20 12:38:47] INFO root fetch - processPackages [digimat.bac0]: Remove: archive file [/home/abi/fetcher/tmp/digimat.bac0-0.0.7.tar.gz]
+[2023-07-20 12:38:47] INFO root fetch - processPackages [digimat.bac0]: Remove: archive file [/home/abi/fetcher/tmp/digimat.bac0-0.0.8.tar.gz]
+[2023-07-20 12:38:47] INFO root fetch - main [MainThread]: End processing [digimat.bac0]: success
+[2023-07-20 12:38:47] INFO root fetch - processPackages [bose]: Remove: archive file [/home/abi/fetcher/tmp/bose-2.0.8.tar.gz]
+[2023-07-20 12:38:47] INFO root fetch - processPackages [bose]: Remove: archive file [/home/abi/fetcher/tmp/bose-2.0.9.tar.gz]
+[2023-07-20 12:38:47] INFO root fetch - main [MainThread]: End processing [bose]: success
+[2023-07-20 12:38:47] INFO root fetch - processPackages [odoo-addon-github-connector]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_github_connector-15.0.1.0.1-py3-none-any.whl.zip]
+[2023-07-20 12:38:47] INFO root fetch - processPackages [odoo-addon-github-connector]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_github_connector-15.0.1.1.0-py3-none-any.whl.zip]
+[2023-07-20 12:38:47] INFO root fetch - main [MainThread]: End processing [odoo-addon-github-connector]: success
+[2023-07-20 12:38:47] INFO root fetch - processPackages [odoo-addon-github-connector-odoo]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_github_connector_odoo-15.0.1.0.1-py3-none-any.whl.zip]
+[2023-07-20 12:38:47] INFO root fetch - processPackages [odoo-addon-github-connector-odoo]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_github_connector_odoo-15.0.1.1.0-py3-none-any.whl.zip]
+[2023-07-20 12:38:47] INFO root fetch - main [MainThread]: End processing [odoo-addon-github-connector-odoo]: success
+[2023-07-20 12:38:47] INFO root fetch - processPackages [siat]: Remove: archive file [/home/abi/fetcher/tmp/siat-2.4.2-py3-none-any.whl.zip]
+[2023-07-20 12:38:47] INFO root fetch - processPackages [siat]: Remove: archive file [/home/abi/fetcher/tmp/siat-2.4.3-py3-none-any.whl.zip]
+[2023-07-20 12:38:47] INFO root fetch - main [MainThread]: End processing [siat]: success
+[2023-07-20 12:38:47] INFO root fetch - main [MainThread]: Store serial: [18965168]
