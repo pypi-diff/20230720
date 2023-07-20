@@ -16215,3 +16215,229 @@ AssertionError: tmp/verify4py-test-0.1.7.tar.gz does not exist
 [2023-07-20 18:34:31] INFO root fetch - processPackages [cosapp]: Remove: archive file [/home/abi/fetcher/tmp/cosapp-0.15.0.tar.gz]
 [2023-07-20 18:34:31] INFO root fetch - main [MainThread]: End processing [cosapp]: success
 [2023-07-20 18:34:31] INFO root fetch - main [MainThread]: Store serial: [18969670]
+[2023-07-20 18:39:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18969670]
+[2023-07-20 18:39:40] INFO root fetch - main [MainThread]: Found 27 changed packages
+[2023-07-20 18:39:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: music-assistant-frontend
+[2023-07-20 18:39:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Metadata-Magic
+[2023-07-20 18:39:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: eclair-evm
+[2023-07-20 18:39:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: datacraft
+[2023-07-20 18:39:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ob-dj-store
+[2023-07-20 18:39:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dataset-image-annotator
+[2023-07-20 18:39:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nautobot-api-sandbox
+[2023-07-20 18:39:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: langroid
+[2023-07-20 18:39:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: metrics-layer
+[2023-07-20 18:39:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pyeasyfuse
+[2023-07-20 18:39:40] INFO root fetch - processPackages [nautobot-api-sandbox]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-20 18:39:40] INFO root fetch - processPackages [Metadata-Magic]: New version: [0.6.2] Old Version: [0.6.1]
+[2023-07-20 18:39:40] INFO root fetch - processPackages [datacraft]: New version: [0.7.2] Old Version: [0.7.1]
+[2023-07-20 18:39:40] INFO root fetch - processPackages [music-assistant-frontend]: New version: [2.0.4] Old Version: [2.0.3]
+[2023-07-20 18:39:40] WARNING root fetch - processPackages [pyeasyfuse]: Skipping, unable to determine old version
+[2023-07-20 18:39:40] INFO root fetch - processPackages [pyeasyfuse]: Start processing: string-grab
+[2023-07-20 18:39:40] INFO root fetch - main [MainThread]: End processing [pyeasyfuse] error
+[2023-07-20 18:39:40] WARNING root fetch - processPackages [eclair-evm]: Skipping, unable to determine old version
+[2023-07-20 18:39:40] INFO root fetch - processPackages [eclair-evm]: Start processing: zarr
+[2023-07-20 18:39:40] INFO root fetch - main [MainThread]: End processing [eclair-evm] error
+[2023-07-20 18:39:40] INFO root fetch - processPackages [dataset-image-annotator]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-20 18:39:40] INFO root fetch - processPackages [langroid]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-20 18:39:40] INFO root fetch - processPackages [ob-dj-store]: New version: [0.0.9.8] Old Version: [0.0.9.7]
+[2023-07-20 18:39:40] INFO root fetch - processPackages [metrics-layer]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-20 18:39:40] INFO root fetch - processPackages [string-grab]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-20 18:39:40] INFO root fetch - processPackages [zarr]: New version: [2.9.5] Old Version: [2.9.4]
+[2023-07-20 18:39:40] INFO root fetch - processPackages [nautobot-api-sandbox]: Downloading https://files.pythonhosted.org/packages/6e/66/e703accc840b2db47f2a0124af848954a9a20ca4b729e2c12c025d75f607/nautobot_api_sandbox-0.1.0.tar.gz
+[2023-07-20 18:39:40] INFO root fetch - processPackages [string-grab]: Downloading https://files.pythonhosted.org/packages/1a/4b/a1fa64656dd1f1384b440b37231a801d481e124bea50cdbb23c196c4dc85/string_grab-0.0.3.tar.gz
+[2023-07-20 18:39:40] INFO root fetch - processPackages [metrics-layer]: Downloading https://files.pythonhosted.org/packages/9c/13/00ea34acde8fa007f10b327cfe09c1558d08ccd7ebdaac72e463c72710b2/metrics_layer-0.9.8.tar.gz
+[2023-07-20 18:39:41] INFO root fetch - processPackages [Metadata-Magic]: Downloading https://files.pythonhosted.org/packages/2e/05/c8bea5bc56a55ee3cd0b8a12cb4f90518618b594bf2f39c7e78ae1f75e37/Metadata_Magic-0.6.1-py3-none-any.whl
+[2023-07-20 18:39:41] INFO root fetch - processPackages [music-assistant-frontend]: Downloading https://files.pythonhosted.org/packages/a0/f0/395d892f290676a73101f8a14b3a334653c93c0c065e969055b3a45bb751/music-assistant-frontend-2.0.3.tar.gz
+[2023-07-20 18:39:41] INFO root fetch - processPackages [langroid]: executing diffoscope
+[2023-07-20 18:39:41] INFO root fetch - processPackages [langroid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langroid-0.1.8.tar.gz tmp/langroid-0.1.9.tar.gz --markdown 20230720/l/langroid/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-20 18:39:41] INFO root fetch - processPackages [dataset-image-annotator]: Downloading https://files.pythonhosted.org/packages/90/a0/99d418bb3ca6a33c9d8ea4fdbc13f7f5d9b92196b7607b23d4674b9e733f/dataset-image-annotator-0.0.8.tar.gz
+[2023-07-20 18:39:41] INFO root fetch - processPackages [ob-dj-store]: Downloading https://files.pythonhosted.org/packages/0c/a8/fd8fc20d9e25ffdfa38a5915686c016f42b533aaa82d359ff30484814ada/ob-dj-store-0.0.9.7.tar.gz
+[2023-07-20 18:39:41] INFO root fetch - processPackages [datacraft]: Downloading https://files.pythonhosted.org/packages/f2/5a/3aad1f69951afba1b76c0a391e7447114e95479004be718ba3c655e04cd4/datacraft-0.7.1.tar.gz
+[2023-07-20 18:39:41] INFO root fetch - processPackages [zarr]: Downloading https://files.pythonhosted.org/packages/e1/2a/5ff78005e06a0ba3648013ba012d73479cc1a6924bf1ac2ad1a27814f15f/zarr-2.9.4.tar.gz
+[2023-07-20 18:39:41] INFO root fetch - processPackages [metrics-layer]: Downloading https://files.pythonhosted.org/packages/98/41/f98ac2ac2a5f241cfd8c7c920a4b7dcb17f9e906635e0c1130ca5ca3a416/metrics_layer-0.9.9.tar.gz
+[2023-07-20 18:39:41] INFO root fetch - processPackages [nautobot-api-sandbox]: Downloading https://files.pythonhosted.org/packages/fb/d7/3c63eecc44489615c7b3848957158a6c2294526746a2bd0965a7a1517cd0/nautobot_api_sandbox-0.1.1.tar.gz
+[2023-07-20 18:39:41] INFO root fetch - processPackages [metrics-layer]: executing diffoscope
+[2023-07-20 18:39:41] INFO root fetch - processPackages [metrics-layer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metrics_layer-0.9.8.tar.gz tmp/metrics_layer-0.9.9.tar.gz --markdown 20230720/m/metrics-layer/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-20 18:39:41] INFO root fetch - processPackages [Metadata-Magic]: Downloading https://files.pythonhosted.org/packages/1f/df/eaf6b44485b4591796a427d26bd6f284aeff3199e574a489b3237aee3946/Metadata_Magic-0.6.2-py3-none-any.whl
+[2023-07-20 18:39:41] INFO root fetch - processPackages [string-grab]: Downloading https://files.pythonhosted.org/packages/31/c9/e5adb26df7a477ec844fd73b78d0993e0c62bb2a84c177d8e5f75112787b/string_grab-0.0.4.tar.gz
+[2023-07-20 18:39:41] INFO root fetch - processPackages [nautobot-api-sandbox]: executing diffoscope
+[2023-07-20 18:39:41] INFO root fetch - processPackages [nautobot-api-sandbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nautobot_api_sandbox-0.1.0.tar.gz tmp/nautobot_api_sandbox-0.1.1.tar.gz --markdown 20230720/n/nautobot-api-sandbox/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-20 18:39:41] INFO root fetch - processPackages [music-assistant-frontend]: Downloading https://files.pythonhosted.org/packages/db/3d/395cff51c6c9d355e7c998b093f2090316975473a4abef5cc36cafb42180/music-assistant-frontend-2.0.4.tar.gz
+[2023-07-20 18:39:41] INFO root fetch - processPackages [string-grab]: executing diffoscope
+[2023-07-20 18:39:41] INFO root fetch - processPackages [string-grab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/string_grab-0.0.3.tar.gz tmp/string_grab-0.0.4.tar.gz --markdown 20230720/s/string-grab/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-20 18:39:41] INFO root fetch - processPackages [Metadata-Magic]: executing diffoscope
+[2023-07-20 18:39:41] INFO root fetch - processPackages [Metadata-Magic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Metadata_Magic-0.6.1-py3-none-any.whl.zip tmp/Metadata_Magic-0.6.2-py3-none-any.whl.zip --markdown 20230720/M/Metadata-Magic/0.6.1-0.6.2/diff.md --exclude *.pyd
+[2023-07-20 18:39:41] INFO root fetch - processPackages [dataset-image-annotator]: Downloading https://files.pythonhosted.org/packages/9e/ac/c0824cd9b4bd16182002320cbdaf824d6f07cd066d45ecffb2bdbf5e0861/dataset-image-annotator-0.0.9.tar.gz
+[2023-07-20 18:39:41] INFO root fetch - processPackages [datacraft]: Downloading https://files.pythonhosted.org/packages/4c/1e/fc0d5510ef2ba0d8b5af659df853c3ef8e61957a11d0f91893ebe3e72962/datacraft-0.7.2.tar.gz
+[2023-07-20 18:39:41] INFO root fetch - processPackages [ob-dj-store]: Downloading https://files.pythonhosted.org/packages/10/95/20bbd86eb725e4c9efaf8686a43df4977f38c591c117280967801b2d331f/ob-dj-store-0.0.9.8.tar.gz
+[2023-07-20 18:39:41] INFO root fetch - processPackages [music-assistant-frontend]: executing diffoscope
+[2023-07-20 18:39:41] INFO root fetch - processPackages [music-assistant-frontend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/music-assistant-frontend-2.0.3.tar.gz tmp/music-assistant-frontend-2.0.4.tar.gz --markdown 20230720/m/music-assistant-frontend/2.0.3-2.0.4/diff.md --exclude *.pyd
+[2023-07-20 18:39:41] INFO root fetch - processPackages [langroid]: Remove: archive file [/home/abi/fetcher/tmp/langroid-0.1.8.tar.gz]
+[2023-07-20 18:39:41] INFO root fetch - processPackages [langroid]: Remove: archive file [/home/abi/fetcher/tmp/langroid-0.1.9.tar.gz]
+[2023-07-20 18:39:41] INFO root fetch - processPackages [langroid]: Start processing: quantflow
+[2023-07-20 18:39:41] INFO root fetch - main [MainThread]: End processing [langroid]: success
+[2023-07-20 18:39:41] INFO root fetch - processPackages [datacraft]: executing diffoscope
+[2023-07-20 18:39:41] INFO root fetch - processPackages [datacraft]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datacraft-0.7.1.tar.gz tmp/datacraft-0.7.2.tar.gz --markdown 20230720/d/datacraft/0.7.1-0.7.2/diff.md --exclude *.pyd
+[2023-07-20 18:39:41] INFO root fetch - processPackages [quantflow]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-07-20 18:39:41] INFO root fetch - processPackages [dataset-image-annotator]: executing diffoscope
+[2023-07-20 18:39:41] INFO root fetch - processPackages [dataset-image-annotator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataset-image-annotator-0.0.8.tar.gz tmp/dataset-image-annotator-0.0.9.tar.gz --markdown 20230720/d/dataset-image-annotator/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-20 18:39:41] INFO root fetch - processPackages [ob-dj-store]: executing diffoscope
+[2023-07-20 18:39:41] INFO root fetch - processPackages [ob-dj-store]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ob-dj-store-0.0.9.7.tar.gz tmp/ob-dj-store-0.0.9.8.tar.gz --markdown 20230720/o/ob-dj-store/0.0.9.7-0.0.9.8/diff.md --exclude *.pyd
+[2023-07-20 18:39:42] INFO root fetch - processPackages [quantflow]: Downloading https://files.pythonhosted.org/packages/c9/f5/998bb5c96bc0c73d2a32042fe5d649d5aa96e726236b272676a74290f1f4/quantflow-0.2.2.tar.gz
+[2023-07-20 18:39:42] INFO root fetch - processPackages [quantflow]: Downloading https://files.pythonhosted.org/packages/9a/a3/df8e5b9d031ab53095dd5bdc069cd97948fb305f3a549a27809dedd0d83c/quantflow-0.2.3.tar.gz
+[2023-07-20 18:39:42] INFO root fetch - processPackages [quantflow]: executing diffoscope
+[2023-07-20 18:39:42] INFO root fetch - processPackages [quantflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quantflow-0.2.2.tar.gz tmp/quantflow-0.2.3.tar.gz --markdown 20230720/q/quantflow/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-07-20 18:39:42] INFO root fetch - processPackages [metrics-layer]: Remove: archive file [/home/abi/fetcher/tmp/metrics_layer-0.9.8.tar.gz]
+[2023-07-20 18:39:42] INFO root fetch - processPackages [metrics-layer]: Remove: archive file [/home/abi/fetcher/tmp/metrics_layer-0.9.9.tar.gz]
+[2023-07-20 18:39:42] INFO root fetch - processPackages [metrics-layer]: Start processing: dataset-format-benchmark
+[2023-07-20 18:39:42] INFO root fetch - main [MainThread]: End processing [metrics-layer]: success
+[2023-07-20 18:39:43] INFO root fetch - processPackages [nautobot-api-sandbox]: Remove: archive file [/home/abi/fetcher/tmp/nautobot_api_sandbox-0.1.0.tar.gz]
+[2023-07-20 18:39:43] INFO root fetch - processPackages [nautobot-api-sandbox]: Remove: archive file [/home/abi/fetcher/tmp/nautobot_api_sandbox-0.1.1.tar.gz]
+[2023-07-20 18:39:43] INFO root fetch - processPackages [nautobot-api-sandbox]: Start processing: modis-crawler-utils
+[2023-07-20 18:39:43] INFO root fetch - main [MainThread]: End processing [nautobot-api-sandbox]: success
+[2023-07-20 18:39:43] INFO root fetch - processPackages [dataset-format-benchmark]: New version: [0.0.8] Old Version: [0.0.12]
+[2023-07-20 18:39:43] INFO root fetch - processPackages [string-grab]: Remove: archive file [/home/abi/fetcher/tmp/string_grab-0.0.3.tar.gz]
+[2023-07-20 18:39:43] INFO root fetch - processPackages [string-grab]: Remove: archive file [/home/abi/fetcher/tmp/string_grab-0.0.4.tar.gz]
+[2023-07-20 18:39:43] INFO root fetch - processPackages [string-grab]: Start processing: aiofm
+[2023-07-20 18:39:43] INFO root fetch - main [MainThread]: End processing [string-grab]: success
+[2023-07-20 18:39:43] INFO root fetch - processPackages [modis-crawler-utils]: New version: [0.2.79] Old Version: [0.2.78]
+[2023-07-20 18:39:43] INFO root fetch - processPackages [aiofm]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-20 18:39:43] INFO root fetch - processPackages [dataset-format-benchmark]: Downloading https://files.pythonhosted.org/packages/60/88/0a03c808f6d634b5909257a5e65d1f68f5c49e96cf3a44096f5b3af1bb03/dataset-format-benchmark-0.0.12.tar.gz
+[2023-07-20 18:39:43] INFO root fetch - processPackages [Metadata-Magic]: Remove: archive file [/home/abi/fetcher/tmp/Metadata_Magic-0.6.1-py3-none-any.whl.zip]
+[2023-07-20 18:39:43] INFO root fetch - processPackages [Metadata-Magic]: Remove: archive file [/home/abi/fetcher/tmp/Metadata_Magic-0.6.2-py3-none-any.whl.zip]
+[2023-07-20 18:39:43] INFO root fetch - processPackages [Metadata-Magic]: Start processing: thanos-gen
+[2023-07-20 18:39:43] INFO root fetch - main [MainThread]: End processing [Metadata-Magic]: success
+[2023-07-20 18:39:43] WARNING root fetch - processPackages [thanos-gen]: Skipping, unable to determine old version
+[2023-07-20 18:39:43] INFO root fetch - processPackages [thanos-gen]: Start processing: rasa
+[2023-07-20 18:39:43] INFO root fetch - main [MainThread]: End processing [thanos-gen] error
+[2023-07-20 18:39:43] INFO root fetch - processPackages [zarr]: Downloading https://files.pythonhosted.org/packages/d6/5c/79d0837d512a3f74c1a04ef9cd036fcf7872d3fa698aad3d68416a35c444/zarr-2.9.5.tar.gz
+[2023-07-20 18:39:43] INFO root fetch - processPackages [modis-crawler-utils]: Downloading https://files.pythonhosted.org/packages/23/f6/0c92ec673f1142110eed9e5404eb75bf28942e4d2cd186def50104996d7d/modis_crawler_utils-0.2.78.tar.gz
+[2023-07-20 18:39:43] INFO root fetch - processPackages [aiofm]: Downloading https://files.pythonhosted.org/packages/b5/22/7c33a77c187f9c2c700ecf22ca22800a7ffbec50f6d2d263c6fd601c36e2/aiofm-0.0.8.tar.gz
+[2023-07-20 18:39:43] INFO root fetch - processPackages [dataset-image-annotator]: Remove: archive file [/home/abi/fetcher/tmp/dataset-image-annotator-0.0.8.tar.gz]
+[2023-07-20 18:39:43] INFO root fetch - processPackages [dataset-image-annotator]: Remove: archive file [/home/abi/fetcher/tmp/dataset-image-annotator-0.0.9.tar.gz]
+[2023-07-20 18:39:43] INFO root fetch - processPackages [dataset-image-annotator]: Start processing: plaid-python
+[2023-07-20 18:39:43] INFO root fetch - main [MainThread]: End processing [dataset-image-annotator]: success
+[2023-07-20 18:39:43] INFO root fetch - processPackages [rasa]: New version: [3.7.0b2] Old Version: [3.7.0b1]
+[2023-07-20 18:39:43] INFO root fetch - processPackages [plaid-python]: New version: [9.9.0] Old Version: [9.8.0]
+[2023-07-20 18:39:43] INFO root fetch - processPackages [datacraft]: Remove: archive file [/home/abi/fetcher/tmp/datacraft-0.7.1.tar.gz]
+[2023-07-20 18:39:43] INFO root fetch - processPackages [datacraft]: Remove: archive file [/home/abi/fetcher/tmp/datacraft-0.7.2.tar.gz]
+[2023-07-20 18:39:43] INFO root fetch - processPackages [datacraft]: Start processing: auth-satvadev
+[2023-07-20 18:39:43] INFO root fetch - main [MainThread]: End processing [datacraft]: success
+[2023-07-20 18:39:43] INFO root fetch - processPackages [rasa]: Downloading https://files.pythonhosted.org/packages/9d/ee/6e6b3c4ee90ca7f8e4a90c4aecaa4db1d1af21d64f3fe48a0a503bfd72f1/rasa-3.7.0b1.tar.gz
+[2023-07-20 18:39:43] INFO root fetch - processPackages [auth-satvadev]: New version: [1.0.3] Old Version: [1.0.2a0]
+[2023-07-20 18:39:43] INFO root fetch - processPackages [dataset-format-benchmark]: Downloading https://files.pythonhosted.org/packages/6a/e9/c2c6a990c842394f0b2ef2a01e0029d81c29a3c10b2e0268adb11a35a629/dataset-format-benchmark-0.0.8.tar.gz
+[2023-07-20 18:39:43] INFO root fetch - processPackages [modis-crawler-utils]: Downloading https://files.pythonhosted.org/packages/01/38/696842b2fe247a293381dea511e2344a694e29ebdc282fb616153892433c/modis_crawler_utils-0.2.79.tar.gz
+[2023-07-20 18:39:43] INFO root fetch - processPackages [auth-satvadev]: Downloading https://files.pythonhosted.org/packages/5e/92/ddf9b04e091b3fe8d304fc2048439c2d569beb029ca503765c1fdd2af4c4/auth_satvadev-1.0.2a0.tar.gz
+[2023-07-20 18:39:43] INFO root fetch - processPackages [ob-dj-store]: Remove: archive file [/home/abi/fetcher/tmp/ob-dj-store-0.0.9.7.tar.gz]
+[2023-07-20 18:39:43] INFO root fetch - processPackages [ob-dj-store]: Remove: archive file [/home/abi/fetcher/tmp/ob-dj-store-0.0.9.8.tar.gz]
+[2023-07-20 18:39:43] INFO root fetch - processPackages [ob-dj-store]: Start processing: up-nextflap
+[2023-07-20 18:39:43] INFO root fetch - main [MainThread]: End processing [ob-dj-store]: success
+[2023-07-20 18:39:43] INFO root fetch - processPackages [plaid-python]: Downloading https://files.pythonhosted.org/packages/28/e4/50f6c63d4bdca16ae7556462bac3c36fe05191a2d2c5d288a171d1284ec1/plaid-python-9.8.0.tar.gz
+[2023-07-20 18:39:43] INFO root fetch - processPackages [up-nextflap]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-20 18:39:43] INFO root fetch - processPackages [modis-crawler-utils]: executing diffoscope
+[2023-07-20 18:39:43] INFO root fetch - processPackages [modis-crawler-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modis_crawler_utils-0.2.78.tar.gz tmp/modis_crawler_utils-0.2.79.tar.gz --markdown 20230720/m/modis-crawler-utils/0.2.78-0.2.79/diff.md --exclude *.pyd
+[2023-07-20 18:39:43] INFO root fetch - processPackages [aiofm]: Downloading https://files.pythonhosted.org/packages/46/14/dbe2936ec89e9d3dc4201e2cabe12c342a92d2884c8f0016e943cec4bbfc/aiofm-0.0.9.tar.gz
+[2023-07-20 18:39:43] INFO root fetch - processPackages [quantflow]: Remove: archive file [/home/abi/fetcher/tmp/quantflow-0.2.2.tar.gz]
+[2023-07-20 18:39:43] INFO root fetch - processPackages [quantflow]: Remove: archive file [/home/abi/fetcher/tmp/quantflow-0.2.3.tar.gz]
+[2023-07-20 18:39:43] INFO root fetch - processPackages [quantflow]: Start processing: circle-sdk
+[2023-07-20 18:39:43] INFO root fetch - main [MainThread]: End processing [quantflow]: success
+[2023-07-20 18:39:43] INFO root fetch - processPackages [rasa]: Downloading https://files.pythonhosted.org/packages/4c/f3/68b3078c92d1ab3a586c6e2deed78de2cfaca614c14df68b4d843fefb05c/rasa-3.7.0b2.tar.gz
+[2023-07-20 18:39:43] INFO root fetch - processPackages [dataset-format-benchmark]: executing diffoscope
+[2023-07-20 18:39:43] INFO root fetch - processPackages [dataset-format-benchmark]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataset-format-benchmark-0.0.12.tar.gz tmp/dataset-format-benchmark-0.0.8.tar.gz --markdown 20230720/d/dataset-format-benchmark/0.0.12-0.0.8/diff.md --exclude *.pyd
+[2023-07-20 18:39:43] INFO root fetch - processPackages [circle-sdk]: New version: [0.1.0b9] Old Version: [0.1.0b8]
+[2023-07-20 18:39:44] INFO root fetch - processPackages [up-nextflap]: Downloading https://files.pythonhosted.org/packages/4a/f8/82247fe33258ab6fec4bfe70190aa849ca498056dbc5dc3d1aefbdd85837/up_nextflap-0.0.4.tar.gz
+[2023-07-20 18:39:44] INFO root fetch - processPackages [aiofm]: executing diffoscope
+[2023-07-20 18:39:44] INFO root fetch - processPackages [aiofm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiofm-0.0.8.tar.gz tmp/aiofm-0.0.9.tar.gz --markdown 20230720/a/aiofm/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-20 18:39:44] INFO root fetch - processPackages [auth-satvadev]: Downloading https://files.pythonhosted.org/packages/23/e9/663e7159955c5f0dad3ec762c355283b6a841ba4805ad9e5adcafb4b135a/auth_satvadev-1.0.3.tar.gz
+[2023-07-20 18:39:44] INFO root fetch - processPackages [auth-satvadev]: executing diffoscope
+[2023-07-20 18:39:44] INFO root fetch - processPackages [auth-satvadev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auth_satvadev-1.0.2a0.tar.gz tmp/auth_satvadev-1.0.3.tar.gz --markdown 20230720/a/auth-satvadev/1.0.2a0-1.0.3/diff.md --exclude *.pyd
+[2023-07-20 18:39:44] INFO root fetch - processPackages [circle-sdk]: Downloading https://files.pythonhosted.org/packages/96/99/e384e67318ac6ca1800a41fbf04669a65b5909132a65ee4c37d92ea6d645/circle-sdk-0.1.0b8.tar.gz
+[2023-07-20 18:39:44] INFO root fetch - processPackages [plaid-python]: Downloading https://files.pythonhosted.org/packages/46/6b/fe3a5d709d398108f2f29d60802967bb5be57a563e9f7420a27ccd3da756/plaid-python-9.9.0.tar.gz
+[2023-07-20 18:39:44] INFO root fetch - processPackages [rasa]: executing diffoscope
+[2023-07-20 18:39:44] INFO root fetch - processPackages [rasa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rasa-3.7.0b1.tar.gz tmp/rasa-3.7.0b2.tar.gz --markdown 20230720/r/rasa/3.7.0b1-3.7.0b2/diff.md --exclude *.pyd
+[2023-07-20 18:39:44] INFO root fetch - processPackages [up-nextflap]: Downloading https://files.pythonhosted.org/packages/b1/54/66b58e224b505c8e8b52c43147dc19fe727e0aed0e9c89ec2af4df9bdcef/up_nextflap-0.0.5.tar.gz
+[2023-07-20 18:39:44] INFO root fetch - processPackages [plaid-python]: executing diffoscope
+[2023-07-20 18:39:44] INFO root fetch - processPackages [plaid-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plaid-python-9.8.0.tar.gz tmp/plaid-python-9.9.0.tar.gz --markdown 20230720/p/plaid-python/9.8.0-9.9.0/diff.md --exclude *.pyd
+[2023-07-20 18:39:44] INFO root fetch - processPackages [circle-sdk]: Downloading https://files.pythonhosted.org/packages/5b/a8/5a38017fdb32c9335a0390e1fcdfbf195b7649d3902c4b12eb6a3658754c/circle-sdk-0.1.0b9.tar.gz
+[2023-07-20 18:39:44] INFO root fetch - processPackages [up-nextflap]: executing diffoscope
+[2023-07-20 18:39:44] INFO root fetch - processPackages [up-nextflap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/up_nextflap-0.0.4.tar.gz tmp/up_nextflap-0.0.5.tar.gz --markdown 20230720/u/up-nextflap/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-20 18:39:44] INFO root fetch - processPackages [circle-sdk]: executing diffoscope
+[2023-07-20 18:39:44] INFO root fetch - processPackages [circle-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/circle-sdk-0.1.0b8.tar.gz tmp/circle-sdk-0.1.0b9.tar.gz --markdown 20230720/c/circle-sdk/0.1.0b8-0.1.0b9/diff.md --exclude *.pyd
+[2023-07-20 18:39:45] INFO root fetch - processPackages [zarr]: executing diffoscope
+[2023-07-20 18:39:45] INFO root fetch - processPackages [zarr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zarr-2.9.4.tar.gz tmp/zarr-2.9.5.tar.gz --markdown 20230720/z/zarr/2.9.4-2.9.5/diff.md --exclude *.pyd
+[2023-07-20 18:39:45] INFO root fetch - processPackages [modis-crawler-utils]: Remove: archive file [/home/abi/fetcher/tmp/modis_crawler_utils-0.2.78.tar.gz]
+[2023-07-20 18:39:45] INFO root fetch - processPackages [modis-crawler-utils]: Remove: archive file [/home/abi/fetcher/tmp/modis_crawler_utils-0.2.79.tar.gz]
+[2023-07-20 18:39:45] INFO root fetch - processPackages [modis-crawler-utils]: Start processing: shub-workflow
+[2023-07-20 18:39:45] INFO root fetch - main [MainThread]: End processing [modis-crawler-utils]: success
+[2023-07-20 18:39:45] INFO root fetch - processPackages [shub-workflow]: New version: [1.9.7.4] Old Version: [1.9.7.3]
+[2023-07-20 18:39:45] INFO root fetch - processPackages [dataset-format-benchmark]: Remove: archive file [/home/abi/fetcher/tmp/dataset-format-benchmark-0.0.12.tar.gz]
+[2023-07-20 18:39:45] INFO root fetch - processPackages [dataset-format-benchmark]: Remove: archive file [/home/abi/fetcher/tmp/dataset-format-benchmark-0.0.8.tar.gz]
+[2023-07-20 18:39:45] INFO root fetch - processPackages [dataset-format-benchmark]: Start processing: neon-gui
+[2023-07-20 18:39:45] INFO root fetch - main [MainThread]: End processing [dataset-format-benchmark]: success
+[2023-07-20 18:39:45] INFO root fetch - processPackages [neon-gui]: New version: [1.2.0] Old Version: [1.1.3a9]
+[2023-07-20 18:39:45] INFO root fetch - processPackages [auth-satvadev]: Remove: archive file [/home/abi/fetcher/tmp/auth_satvadev-1.0.2a0.tar.gz]
+[2023-07-20 18:39:45] INFO root fetch - processPackages [auth-satvadev]: Remove: archive file [/home/abi/fetcher/tmp/auth_satvadev-1.0.3.tar.gz]
+[2023-07-20 18:39:45] INFO root fetch - processPackages [auth-satvadev]: Start processing: excel-framework
+[2023-07-20 18:39:45] INFO root fetch - main [MainThread]: End processing [auth-satvadev]: success
+[2023-07-20 18:39:45] INFO root fetch - processPackages [shub-workflow]: Downloading https://files.pythonhosted.org/packages/b8/b5/f37b87a1a4c72917366bc3b9794f1729c62b0130131750ba52c35c41e5e4/shub-workflow-1.9.7.3.tar.gz
+[2023-07-20 18:39:45] INFO root fetch - processPackages [excel-framework]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-07-20 18:39:45] INFO root fetch - processPackages [neon-gui]: Downloading https://files.pythonhosted.org/packages/21/50/5538bc67363725d9ebe2d2387cbd2b1c075610cc3b2f1f5e426156098b6a/neon_gui-1.1.3a9.tar.gz
+[2023-07-20 18:39:45] INFO root fetch - processPackages [aiofm]: Remove: archive file [/home/abi/fetcher/tmp/aiofm-0.0.8.tar.gz]
+[2023-07-20 18:39:45] INFO root fetch - processPackages [aiofm]: Remove: archive file [/home/abi/fetcher/tmp/aiofm-0.0.9.tar.gz]
+[2023-07-20 18:39:45] INFO root fetch - processPackages [aiofm]: Start processing: copernicus-marine-client
+[2023-07-20 18:39:45] INFO root fetch - main [MainThread]: End processing [aiofm]: success
+[2023-07-20 18:39:45] INFO root fetch - processPackages [copernicus-marine-client]: New version: [0.8.8] Old Version: [0.8.7]
+[2023-07-20 18:39:45] INFO root fetch - processPackages [excel-framework]: Downloading https://files.pythonhosted.org/packages/c6/b0/e0ee483e115042713ef1524a48b386747dae83966da9655c82328e82aea3/excel_framework-0.2.0.tar.gz
+[2023-07-20 18:39:45] INFO root fetch - processPackages [copernicus-marine-client]: Downloading https://files.pythonhosted.org/packages/5f/96/a44e9ab263598a6f0858406b553d5e4dff56b35cadf3183abff1c5995f31/copernicus_marine_client-0.8.7.tar.gz
+[2023-07-20 18:39:46] INFO root fetch - processPackages [neon-gui]: Downloading https://files.pythonhosted.org/packages/65/78/42a4b48f4c027089a48ac36230a92657e26a881231c34c7e60ff345a2dfb/neon_gui-1.2.0.tar.gz
+[2023-07-20 18:39:46] INFO root fetch - processPackages [shub-workflow]: Downloading https://files.pythonhosted.org/packages/06/49/c3ec898ce5372e567e1a288374d950650ae37bcffa6f46c6d7233228eee6/shub-workflow-1.9.7.4.tar.gz
+[2023-07-20 18:39:46] INFO root fetch - processPackages [excel-framework]: Downloading https://files.pythonhosted.org/packages/98/40/83545921383d66e2120016ad9863e993f807a2efe67719d2af6012a87771/excel_framework-0.3.0.tar.gz
+[2023-07-20 18:39:46] INFO root fetch - processPackages [neon-gui]: executing diffoscope
+[2023-07-20 18:39:46] INFO root fetch - processPackages [neon-gui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neon_gui-1.1.3a9.tar.gz tmp/neon_gui-1.2.0.tar.gz --markdown 20230720/n/neon-gui/1.1.3a9-1.2.0/diff.md --exclude *.pyd
+[2023-07-20 18:39:46] INFO root fetch - processPackages [excel-framework]: executing diffoscope
+[2023-07-20 18:39:46] INFO root fetch - processPackages [excel-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/excel_framework-0.2.0.tar.gz tmp/excel_framework-0.3.0.tar.gz --markdown 20230720/e/excel-framework/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-07-20 18:39:46] INFO root fetch - processPackages [shub-workflow]: executing diffoscope
+[2023-07-20 18:39:46] INFO root fetch - processPackages [shub-workflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shub-workflow-1.9.7.3.tar.gz tmp/shub-workflow-1.9.7.4.tar.gz --markdown 20230720/s/shub-workflow/1.9.7.3-1.9.7.4/diff.md --exclude *.pyd
+[2023-07-20 18:39:46] INFO root fetch - processPackages [copernicus-marine-client]: Downloading https://files.pythonhosted.org/packages/95/6a/508fb49cf42b5649183b00581d11df5a879aafbf26b205a07c032ef3526c/copernicus_marine_client-0.8.8.tar.gz
+[2023-07-20 18:39:46] INFO root fetch - processPackages [copernicus-marine-client]: executing diffoscope
+[2023-07-20 18:39:46] INFO root fetch - processPackages [copernicus-marine-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/copernicus_marine_client-0.8.7.tar.gz tmp/copernicus_marine_client-0.8.8.tar.gz --markdown 20230720/c/copernicus-marine-client/0.8.7-0.8.8/diff.md --exclude *.pyd
+[2023-07-20 18:39:47] INFO root fetch - processPackages [up-nextflap]: Remove: archive file [/home/abi/fetcher/tmp/up_nextflap-0.0.4.tar.gz]
+[2023-07-20 18:39:47] INFO root fetch - processPackages [up-nextflap]: Remove: archive file [/home/abi/fetcher/tmp/up_nextflap-0.0.5.tar.gz]
+[2023-07-20 18:39:47] INFO root fetch - processPackages [up-nextflap]: Start processing: gscp
+[2023-07-20 18:39:47] INFO root fetch - main [MainThread]: End processing [up-nextflap]: success
+[2023-07-20 18:39:47] INFO root fetch - processPackages [gscp]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-20 18:39:47] INFO root fetch - processPackages [gscp]: Downloading https://files.pythonhosted.org/packages/77/7a/545f9fda296e6dc9885261ec879ddfa5857b63cb2e38ac52547d870c9dc8/gscp-1.0.8.tar.gz
+[2023-07-20 18:39:47] INFO root fetch - processPackages [neon-gui]: Remove: archive file [/home/abi/fetcher/tmp/neon_gui-1.1.3a9.tar.gz]
+[2023-07-20 18:39:47] INFO root fetch - processPackages [neon-gui]: Remove: archive file [/home/abi/fetcher/tmp/neon_gui-1.2.0.tar.gz]
+[2023-07-20 18:39:47] INFO root fetch - main [MainThread]: End processing [neon-gui]: success
+[2023-07-20 18:39:47] INFO root fetch - processPackages [shub-workflow]: Remove: archive file [/home/abi/fetcher/tmp/shub-workflow-1.9.7.3.tar.gz]
+[2023-07-20 18:39:47] INFO root fetch - processPackages [shub-workflow]: Remove: archive file [/home/abi/fetcher/tmp/shub-workflow-1.9.7.4.tar.gz]
+[2023-07-20 18:39:47] INFO root fetch - main [MainThread]: End processing [shub-workflow]: success
+[2023-07-20 18:39:48] INFO root fetch - processPackages [gscp]: Downloading https://files.pythonhosted.org/packages/8a/18/014a68a7ab723739f9e2b0e7d5f9d7a688ce24b62d383364ec0c90144252/gscp-1.0.9.tar.gz
+[2023-07-20 18:39:48] INFO root fetch - processPackages [gscp]: executing diffoscope
+[2023-07-20 18:39:48] INFO root fetch - processPackages [gscp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gscp-1.0.8.tar.gz tmp/gscp-1.0.9.tar.gz --markdown 20230720/g/gscp/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-20 18:39:48] INFO root fetch - processPackages [copernicus-marine-client]: Remove: archive file [/home/abi/fetcher/tmp/copernicus_marine_client-0.8.7.tar.gz]
+[2023-07-20 18:39:48] INFO root fetch - processPackages [copernicus-marine-client]: Remove: archive file [/home/abi/fetcher/tmp/copernicus_marine_client-0.8.8.tar.gz]
+[2023-07-20 18:39:48] INFO root fetch - main [MainThread]: End processing [copernicus-marine-client]: success
+[2023-07-20 18:39:48] INFO root fetch - processPackages [excel-framework]: Remove: archive file [/home/abi/fetcher/tmp/excel_framework-0.2.0.tar.gz]
+[2023-07-20 18:39:48] INFO root fetch - processPackages [excel-framework]: Remove: archive file [/home/abi/fetcher/tmp/excel_framework-0.3.0.tar.gz]
+[2023-07-20 18:39:48] INFO root fetch - main [MainThread]: End processing [excel-framework]: success
+[2023-07-20 18:39:48] INFO root fetch - processPackages [rasa]: Remove: archive file [/home/abi/fetcher/tmp/rasa-3.7.0b1.tar.gz]
+[2023-07-20 18:39:48] INFO root fetch - processPackages [rasa]: Remove: archive file [/home/abi/fetcher/tmp/rasa-3.7.0b2.tar.gz]
+[2023-07-20 18:39:48] INFO root fetch - main [MainThread]: End processing [rasa]: success
+[2023-07-20 18:39:49] INFO root fetch - processPackages [gscp]: Remove: archive file [/home/abi/fetcher/tmp/gscp-1.0.8.tar.gz]
+[2023-07-20 18:39:49] INFO root fetch - processPackages [gscp]: Remove: archive file [/home/abi/fetcher/tmp/gscp-1.0.9.tar.gz]
+[2023-07-20 18:39:49] INFO root fetch - main [MainThread]: End processing [gscp]: success
+[2023-07-20 18:39:49] INFO root fetch - processPackages [circle-sdk]: Remove: archive file [/home/abi/fetcher/tmp/circle-sdk-0.1.0b8.tar.gz]
+[2023-07-20 18:39:49] INFO root fetch - processPackages [circle-sdk]: Remove: archive file [/home/abi/fetcher/tmp/circle-sdk-0.1.0b9.tar.gz]
+[2023-07-20 18:39:49] INFO root fetch - main [MainThread]: End processing [circle-sdk]: success
+[2023-07-20 18:39:52] INFO root fetch - processPackages [plaid-python]: Remove: archive file [/home/abi/fetcher/tmp/plaid-python-9.8.0.tar.gz]
+[2023-07-20 18:39:52] INFO root fetch - processPackages [plaid-python]: Remove: archive file [/home/abi/fetcher/tmp/plaid-python-9.9.0.tar.gz]
+[2023-07-20 18:39:52] INFO root fetch - main [MainThread]: End processing [plaid-python]: success
+[2023-07-20 18:39:59] INFO root fetch - processPackages [music-assistant-frontend]: Remove: archive file [/home/abi/fetcher/tmp/music-assistant-frontend-2.0.3.tar.gz]
+[2023-07-20 18:39:59] INFO root fetch - processPackages [music-assistant-frontend]: Remove: archive file [/home/abi/fetcher/tmp/music-assistant-frontend-2.0.4.tar.gz]
+[2023-07-20 18:39:59] INFO root fetch - main [MainThread]: End processing [music-assistant-frontend]: success
+[2023-07-20 18:41:27] INFO root fetch - processPackages [zarr]: Remove: archive file [/home/abi/fetcher/tmp/zarr-2.9.4.tar.gz]
+[2023-07-20 18:41:27] INFO root fetch - processPackages [zarr]: Remove: archive file [/home/abi/fetcher/tmp/zarr-2.9.5.tar.gz]
+[2023-07-20 18:41:27] INFO root fetch - main [MainThread]: End processing [zarr]: success
+[2023-07-20 18:41:27] INFO root fetch - main [MainThread]: Store serial: [18969758]
