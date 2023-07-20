@@ -5986,3 +5986,132 @@ AssertionError: tmp/verify4py-test-0.1.7.tar.gz does not exist
 [2023-07-20 12:54:37] INFO root fetch - processPackages [fontmake]: Remove: archive file [/home/abi/fetcher/tmp/fontmake-3.6.1.zip]
 [2023-07-20 12:54:37] INFO root fetch - main [MainThread]: End processing [fontmake]: success
 [2023-07-20 12:54:37] INFO root fetch - main [MainThread]: Store serial: [18965345]
+[2023-07-20 12:59:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18965345]
+[2023-07-20 12:59:45] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-07-20 12:59:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lazysdk
+[2023-07-20 12:59:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: string-grab
+[2023-07-20 12:59:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rkvst-archivist
+[2023-07-20 12:59:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: keycmd
+[2023-07-20 12:59:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: excel-framework
+[2023-07-20 12:59:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo14-addon-sale-operating-unit
+[2023-07-20 12:59:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: leidenalg
+[2023-07-20 12:59:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: oc-cdtapi
+[2023-07-20 12:59:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pesic
+[2023-07-20 12:59:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: coziepy
+[2023-07-20 12:59:46] INFO root fetch - processPackages [odoo14-addon-sale-operating-unit]: New version: [14.0.1.1.0] Old Version: [14.0.1.0.2.dev2]
+[2023-07-20 12:59:46] INFO root fetch - processPackages [lazysdk]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-20 12:59:46] INFO root fetch - processPackages [excel-framework]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-20 12:59:46] INFO root fetch - processPackages [oc-cdtapi]: New version: [3.9.6] Old Version: [3.9.5]
+[2023-07-20 12:59:46] WARNING root fetch - processPackages [coziepy]: Skipping, unable to determine old version
+[2023-07-20 12:59:46] INFO root fetch - processPackages [coziepy]: Start processing: xcsf
+[2023-07-20 12:59:46] INFO root fetch - main [MainThread]: End processing [coziepy] error
+[2023-07-20 12:59:46] WARNING root fetch - processPackages [string-grab]: Skipping, unable to determine old version
+[2023-07-20 12:59:46] INFO root fetch - processPackages [string-grab]: Start processing: aify
+[2023-07-20 12:59:46] INFO root fetch - main [MainThread]: End processing [string-grab] error
+[2023-07-20 12:59:46] WARNING root fetch - processPackages [keycmd]: Skipping, unable to determine old version
+[2023-07-20 12:59:46] INFO root fetch - processPackages [keycmd]: Start processing: mass-analytics
+[2023-07-20 12:59:46] INFO root fetch - main [MainThread]: End processing [keycmd] error
+[2023-07-20 12:59:46] INFO root fetch - processPackages [pesic]: New version: [0.1.2] Old Version: [0.1.0]
+[2023-07-20 12:59:46] INFO root fetch - processPackages [rkvst-archivist]: New version: [0.25.0] Old Version: [0.24.1]
+[2023-07-20 12:59:46] INFO root fetch - processPackages [aify]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-07-20 12:59:46] INFO root fetch - processPackages [mass-analytics]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-20 12:59:46] INFO root fetch - processPackages [leidenalg]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-07-20 12:59:46] INFO root fetch - processPackages [xcsf]: New version: [1.3.0] Old Version: [1.2.9]
+[2023-07-20 12:59:46] INFO root fetch - processPackages [aify]: Downloading https://files.pythonhosted.org/packages/2d/4e/8ef0dae59bf82abb6083f73f1bb81d4a9cd70eff2fb4aa5b11652e9afb83/aify-0.1.7-py3-none-any.whl
+[2023-07-20 12:59:46] INFO root fetch - processPackages [excel-framework]: Downloading https://files.pythonhosted.org/packages/e0/2a/bc18958758768efad2961ef1d7d15ce0259bc04e0c0023e22ac176096f31/excel_framework-0.1.0.tar.gz
+[2023-07-20 12:59:46] INFO root fetch - processPackages [odoo14-addon-sale-operating-unit]: Downloading https://files.pythonhosted.org/packages/49/11/d3cdef970dfab94179f6684f0cdb32d7c49b38f4f137a8d5fa8c79676965/odoo14_addon_sale_operating_unit-14.0.1.0.2.dev2-py3-none-any.whl
+[2023-07-20 12:59:46] INFO root fetch - processPackages [rkvst-archivist]: Downloading https://files.pythonhosted.org/packages/71/f4/58542e1569977d62548a4d7a4056fc29a802225f8df093cd5abf66719c57/rkvst-archivist-0.24.1.tar.gz
+[2023-07-20 12:59:46] INFO root fetch - processPackages [lazysdk]: Downloading https://files.pythonhosted.org/packages/38/6e/873c1f710606f91c4d8dd01b66a600b8f53828c838a79ba123c316f77c05/lazysdk-0.1.8.tar.gz
+[2023-07-20 12:59:46] INFO root fetch - processPackages [leidenalg]: Downloading https://files.pythonhosted.org/packages/c9/2a/559f1420a57e9279d2d97de6a7b60f85b452ae0d57e08019aa539cfa866b/leidenalg-0.9.0.tar.gz
+[2023-07-20 12:59:46] INFO root fetch - processPackages [oc-cdtapi]: Downloading https://files.pythonhosted.org/packages/a3/84/2f52ff952b1ef7c30866c710a59c9870eb31149e784fc821aacaf30fa044/oc_cdtapi-3.9.5-py3-none-any.whl
+[2023-07-20 12:59:46] INFO root fetch - processPackages [pesic]: Downloading https://files.pythonhosted.org/packages/c9/a0/24e060c2bfbbb02d036b8321a30cd22265cb47cc51e4630390b5ff864e59/pesic-0.1.0.tar.gz
+[2023-07-20 12:59:46] INFO root fetch - processPackages [mass-analytics]: Downloading https://files.pythonhosted.org/packages/dc/7a/397284656a3ff9dafe369c2029747ca68c3882aca5cac0e6f475eb134046/mass_analytics-1.0.1.tar.gz
+[2023-07-20 12:59:46] INFO root fetch - processPackages [xcsf]: Downloading https://files.pythonhosted.org/packages/47/fb/93cb7779f3ee451f1b8ca1374aafd4899762f8fda8ef16933f8aaddb830d/xcsf-1.2.9.tar.gz
+[2023-07-20 12:59:46] INFO root fetch - processPackages [excel-framework]: Downloading https://files.pythonhosted.org/packages/c8/d2/966c374c977fa8852e7ff87236158681ef18b8c01c6f09afabc4beb7cbcf/excel_framework-0.1.1.tar.gz
+[2023-07-20 12:59:46] INFO root fetch - processPackages [lazysdk]: Downloading https://files.pythonhosted.org/packages/56/f7/82feafe86145b2d6d28587748503b8e9a4aaab1142447bc3345f6b0683e6/lazysdk-0.1.9.tar.gz
+[2023-07-20 12:59:46] INFO root fetch - processPackages [rkvst-archivist]: Downloading https://files.pythonhosted.org/packages/d3/30/45abd334756828d5f29478b4a7c11fc705938d423404f6bbc5e0018dabf1/rkvst-archivist-0.25.0.tar.gz
+[2023-07-20 12:59:46] INFO root fetch - processPackages [excel-framework]: executing diffoscope
+[2023-07-20 12:59:46] INFO root fetch - processPackages [excel-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/excel_framework-0.1.0.tar.gz tmp/excel_framework-0.1.1.tar.gz --markdown 20230720/e/excel-framework/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-20 12:59:46] INFO root fetch - processPackages [aify]: Downloading https://files.pythonhosted.org/packages/48/70/7dc6a7b7c76ac97a5d112fca94e641d9dade27cf0708bdb0162e5ee3edae/aify-0.1.8-py3-none-any.whl
+[2023-07-20 12:59:46] INFO root fetch - processPackages [oc-cdtapi]: Downloading https://files.pythonhosted.org/packages/2a/53/6a945a8afa7a1def016d113d868c50b044f7e6c7f3782e59c1f516134dde/oc_cdtapi-3.9.6-py3-none-any.whl
+[2023-07-20 12:59:46] INFO root fetch - processPackages [pesic]: Downloading https://files.pythonhosted.org/packages/65/8d/ba94d893fee1dec85f7e2dc48240ce70cb406b823d66779237a75834cc91/pesic-0.1.2.tar.gz
+[2023-07-20 12:59:46] INFO root fetch - processPackages [mass-analytics]: Downloading https://files.pythonhosted.org/packages/49/e1/7683a564cf88be8994fae63b6a26948e6f7c679099e7ea21474d357e1e95/mass_analytics-1.0.2.tar.gz
+[2023-07-20 12:59:47] INFO root fetch - processPackages [odoo14-addon-sale-operating-unit]: Downloading https://files.pythonhosted.org/packages/57/44/8033c9b13609aa640304156d2885454fab50714391983295a52d8dd9969f/odoo14_addon_sale_operating_unit-14.0.1.1.0-py3-none-any.whl
+[2023-07-20 12:59:47] INFO root fetch - processPackages [lazysdk]: executing diffoscope
+[2023-07-20 12:59:47] INFO root fetch - processPackages [lazysdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lazysdk-0.1.8.tar.gz tmp/lazysdk-0.1.9.tar.gz --markdown 20230720/l/lazysdk/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-20 12:59:47] INFO root fetch - processPackages [rkvst-archivist]: executing diffoscope
+[2023-07-20 12:59:47] INFO root fetch - processPackages [rkvst-archivist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rkvst-archivist-0.24.1.tar.gz tmp/rkvst-archivist-0.25.0.tar.gz --markdown 20230720/r/rkvst-archivist/0.24.1-0.25.0/diff.md --exclude *.pyd
+[2023-07-20 12:59:47] INFO root fetch - processPackages [oc-cdtapi]: executing diffoscope
+[2023-07-20 12:59:47] INFO root fetch - processPackages [oc-cdtapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oc_cdtapi-3.9.5-py3-none-any.whl.zip tmp/oc_cdtapi-3.9.6-py3-none-any.whl.zip --markdown 20230720/o/oc-cdtapi/3.9.5-3.9.6/diff.md --exclude *.pyd
+[2023-07-20 12:59:47] INFO root fetch - processPackages [pesic]: executing diffoscope
+[2023-07-20 12:59:47] INFO root fetch - processPackages [pesic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pesic-0.1.0.tar.gz tmp/pesic-0.1.2.tar.gz --markdown 20230720/p/pesic/0.1.0-0.1.2/diff.md --exclude *.pyd
+[2023-07-20 12:59:47] INFO root fetch - processPackages [odoo14-addon-sale-operating-unit]: executing diffoscope
+[2023-07-20 12:59:47] INFO root fetch - processPackages [odoo14-addon-sale-operating-unit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_sale_operating_unit-14.0.1.0.2.dev2-py3-none-any.whl.zip tmp/odoo14_addon_sale_operating_unit-14.0.1.1.0-py3-none-any.whl.zip --markdown 20230720/o/odoo14-addon-sale-operating-unit/14.0.1.0.2.dev2-14.0.1.1.0/diff.md --exclude *.pyd
+[2023-07-20 12:59:47] INFO root fetch - processPackages [mass-analytics]: executing diffoscope
+[2023-07-20 12:59:47] INFO root fetch - processPackages [mass-analytics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mass_analytics-1.0.1.tar.gz tmp/mass_analytics-1.0.2.tar.gz --markdown 20230720/m/mass-analytics/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-20 12:59:47] INFO root fetch - processPackages [xcsf]: Downloading https://files.pythonhosted.org/packages/a0/bf/7dad74e90abae8a9ef0dd6056a48a39ec4072ec398a50faec07247ebe023/xcsf-1.3.0.tar.gz
+[2023-07-20 12:59:47] INFO root fetch - processPackages [aify]: executing diffoscope
+[2023-07-20 12:59:47] INFO root fetch - processPackages [aify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aify-0.1.7-py3-none-any.whl.zip tmp/aify-0.1.8-py3-none-any.whl.zip --markdown 20230720/a/aify/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-07-20 12:59:47] INFO root fetch - processPackages [leidenalg]: Downloading https://files.pythonhosted.org/packages/bc/20/0e65d671e1a0736fc774342231055a70344fca02744918c5a5751e8f749f/leidenalg-0.9.1.tar.gz
+[2023-07-20 12:59:47] INFO root fetch - processPackages [xcsf]: executing diffoscope
+[2023-07-20 12:59:47] INFO root fetch - processPackages [xcsf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xcsf-1.2.9.tar.gz tmp/xcsf-1.3.0.tar.gz --markdown 20230720/x/xcsf/1.2.9-1.3.0/diff.md --exclude *.pyd
+[2023-07-20 12:59:48] INFO root fetch - processPackages [leidenalg]: executing diffoscope
+[2023-07-20 12:59:48] INFO root fetch - processPackages [leidenalg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leidenalg-0.9.0.tar.gz tmp/leidenalg-0.9.1.tar.gz --markdown 20230720/l/leidenalg/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-07-20 12:59:48] INFO root fetch - processPackages [mass-analytics]: Remove: archive file [/home/abi/fetcher/tmp/mass_analytics-1.0.1.tar.gz]
+[2023-07-20 12:59:48] INFO root fetch - processPackages [mass-analytics]: Remove: archive file [/home/abi/fetcher/tmp/mass_analytics-1.0.2.tar.gz]
+[2023-07-20 12:59:48] INFO root fetch - processPackages [mass-analytics]: Start processing: bs-admin-utils
+[2023-07-20 12:59:48] INFO root fetch - main [MainThread]: End processing [mass-analytics]: success
+[2023-07-20 12:59:48] INFO root fetch - processPackages [pesic]: Remove: archive file [/home/abi/fetcher/tmp/pesic-0.1.0.tar.gz]
+[2023-07-20 12:59:48] INFO root fetch - processPackages [pesic]: Remove: archive file [/home/abi/fetcher/tmp/pesic-0.1.2.tar.gz]
+[2023-07-20 12:59:48] INFO root fetch - processPackages [pesic]: Start processing: AutoCarver
+[2023-07-20 12:59:48] INFO root fetch - main [MainThread]: End processing [pesic]: success
+[2023-07-20 12:59:48] INFO root fetch - processPackages [excel-framework]: Remove: archive file [/home/abi/fetcher/tmp/excel_framework-0.1.0.tar.gz]
+[2023-07-20 12:59:48] INFO root fetch - processPackages [excel-framework]: Remove: archive file [/home/abi/fetcher/tmp/excel_framework-0.1.1.tar.gz]
+[2023-07-20 12:59:48] INFO root fetch - processPackages [excel-framework]: Start processing: test-setup-test
+[2023-07-20 12:59:48] INFO root fetch - main [MainThread]: End processing [excel-framework]: success
+[2023-07-20 12:59:48] INFO root fetch - processPackages [oc-cdtapi]: Remove: archive file [/home/abi/fetcher/tmp/oc_cdtapi-3.9.5-py3-none-any.whl.zip]
+[2023-07-20 12:59:48] INFO root fetch - processPackages [oc-cdtapi]: Remove: archive file [/home/abi/fetcher/tmp/oc_cdtapi-3.9.6-py3-none-any.whl.zip]
+[2023-07-20 12:59:48] INFO root fetch - main [MainThread]: End processing [oc-cdtapi]: success
+[2023-07-20 12:59:48] INFO root fetch - processPackages [test-setup-test]: New version: [1.0.8] Old Version: [1.0.6]
+[2023-07-20 12:59:48] INFO root fetch - processPackages [bs-admin-utils]: New version: [1.1.4] Old Version: [1.1.3]
+[2023-07-20 12:59:48] INFO root fetch - processPackages [odoo14-addon-sale-operating-unit]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_sale_operating_unit-14.0.1.0.2.dev2-py3-none-any.whl.zip]
+[2023-07-20 12:59:48] INFO root fetch - processPackages [odoo14-addon-sale-operating-unit]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_sale_operating_unit-14.0.1.1.0-py3-none-any.whl.zip]
+[2023-07-20 12:59:48] INFO root fetch - main [MainThread]: End processing [odoo14-addon-sale-operating-unit]: success
+[2023-07-20 12:59:48] INFO root fetch - processPackages [AutoCarver]: New version: [5.1.8] Old Version: [5.1.7]
+[2023-07-20 12:59:48] INFO root fetch - processPackages [lazysdk]: Remove: archive file [/home/abi/fetcher/tmp/lazysdk-0.1.8.tar.gz]
+[2023-07-20 12:59:48] INFO root fetch - processPackages [lazysdk]: Remove: archive file [/home/abi/fetcher/tmp/lazysdk-0.1.9.tar.gz]
+[2023-07-20 12:59:48] INFO root fetch - main [MainThread]: End processing [lazysdk]: success
+[2023-07-20 12:59:48] INFO root fetch - processPackages [test-setup-test]: Downloading https://files.pythonhosted.org/packages/7e/a5/a1842c9ad3f3d8ed18980204a83b62a485fdff3acb1f5ffd8f0392ac8c1e/test_setup_test-1.0.6.tar.gz
+[2023-07-20 12:59:48] INFO root fetch - processPackages [rkvst-archivist]: Remove: archive file [/home/abi/fetcher/tmp/rkvst-archivist-0.24.1.tar.gz]
+[2023-07-20 12:59:48] INFO root fetch - processPackages [rkvst-archivist]: Remove: archive file [/home/abi/fetcher/tmp/rkvst-archivist-0.25.0.tar.gz]
+[2023-07-20 12:59:48] INFO root fetch - main [MainThread]: End processing [rkvst-archivist]: success
+[2023-07-20 12:59:49] INFO root fetch - processPackages [aify]: Remove: archive file [/home/abi/fetcher/tmp/aify-0.1.7-py3-none-any.whl.zip]
+[2023-07-20 12:59:49] INFO root fetch - processPackages [aify]: Remove: archive file [/home/abi/fetcher/tmp/aify-0.1.8-py3-none-any.whl.zip]
+[2023-07-20 12:59:49] INFO root fetch - main [MainThread]: End processing [aify]: success
+[2023-07-20 12:59:49] INFO root fetch - processPackages [bs-admin-utils]: Downloading https://files.pythonhosted.org/packages/5a/07/94cd976e9bc6d511fc30d39247eba17e55ff9c09f94272707c1750244f22/bs_admin_utils-1.1.3-py3-none-any.whl
+[2023-07-20 12:59:49] INFO root fetch - processPackages [AutoCarver]: Downloading https://files.pythonhosted.org/packages/e0/55/549ee59e6efe822f4d791a2888a759bc717a671dbff05f151989c8989348/AutoCarver-5.1.7.tar.gz
+[2023-07-20 12:59:49] INFO root fetch - processPackages [test-setup-test]: Downloading https://files.pythonhosted.org/packages/bc/ea/c4d47a90cdb1cf5374be3c13076264c14a7248d180c34427d1cb4fb2bd77/test_setup_test-1.0.8.tar.gz
+[2023-07-20 12:59:49] INFO root fetch - processPackages [test-setup-test]: executing diffoscope
+[2023-07-20 12:59:49] INFO root fetch - processPackages [test-setup-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/test_setup_test-1.0.6.tar.gz tmp/test_setup_test-1.0.8.tar.gz --markdown 20230720/t/test-setup-test/1.0.6-1.0.8/diff.md --exclude *.pyd
+[2023-07-20 12:59:49] INFO root fetch - processPackages [AutoCarver]: Downloading https://files.pythonhosted.org/packages/5c/09/86f340bf71d602f1f381f9c9c462a07b6e8a8aaf7cf75d841ad469ff4a23/AutoCarver-5.1.8.tar.gz
+[2023-07-20 12:59:49] INFO root fetch - processPackages [bs-admin-utils]: Downloading https://files.pythonhosted.org/packages/0a/fd/b3649529d6de2e7b50e56d602a2f49a9fdb110876f131ff17fb05ccf78ef/bs_admin_utils-1.1.4-py3-none-any.whl
+[2023-07-20 12:59:49] INFO root fetch - processPackages [AutoCarver]: executing diffoscope
+[2023-07-20 12:59:49] INFO root fetch - processPackages [AutoCarver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AutoCarver-5.1.7.tar.gz tmp/AutoCarver-5.1.8.tar.gz --markdown 20230720/A/AutoCarver/5.1.7-5.1.8/diff.md --exclude *.pyd
+[2023-07-20 12:59:49] INFO root fetch - processPackages [bs-admin-utils]: executing diffoscope
+[2023-07-20 12:59:49] INFO root fetch - processPackages [bs-admin-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bs_admin_utils-1.1.3-py3-none-any.whl.zip tmp/bs_admin_utils-1.1.4-py3-none-any.whl.zip --markdown 20230720/b/bs-admin-utils/1.1.3-1.1.4/diff.md --exclude *.pyd
+[2023-07-20 12:59:50] INFO root fetch - processPackages [test-setup-test]: Remove: archive file [/home/abi/fetcher/tmp/test_setup_test-1.0.6.tar.gz]
+[2023-07-20 12:59:50] INFO root fetch - processPackages [test-setup-test]: Remove: archive file [/home/abi/fetcher/tmp/test_setup_test-1.0.8.tar.gz]
+[2023-07-20 12:59:50] INFO root fetch - main [MainThread]: End processing [test-setup-test]: success
+[2023-07-20 12:59:50] INFO root fetch - processPackages [bs-admin-utils]: Remove: archive file [/home/abi/fetcher/tmp/bs_admin_utils-1.1.3-py3-none-any.whl.zip]
+[2023-07-20 12:59:50] INFO root fetch - processPackages [bs-admin-utils]: Remove: archive file [/home/abi/fetcher/tmp/bs_admin_utils-1.1.4-py3-none-any.whl.zip]
+[2023-07-20 12:59:50] INFO root fetch - main [MainThread]: End processing [bs-admin-utils]: success
+[2023-07-20 12:59:50] INFO root fetch - processPackages [AutoCarver]: Remove: archive file [/home/abi/fetcher/tmp/AutoCarver-5.1.7.tar.gz]
+[2023-07-20 12:59:50] INFO root fetch - processPackages [AutoCarver]: Remove: archive file [/home/abi/fetcher/tmp/AutoCarver-5.1.8.tar.gz]
+[2023-07-20 12:59:50] INFO root fetch - main [MainThread]: End processing [AutoCarver]: success
+[2023-07-20 12:59:52] INFO root fetch - processPackages [xcsf]: Remove: archive file [/home/abi/fetcher/tmp/xcsf-1.2.9.tar.gz]
+[2023-07-20 12:59:52] INFO root fetch - processPackages [xcsf]: Remove: archive file [/home/abi/fetcher/tmp/xcsf-1.3.0.tar.gz]
+[2023-07-20 12:59:52] INFO root fetch - main [MainThread]: End processing [xcsf]: success
+[2023-07-20 13:00:06] INFO root fetch - processPackages [leidenalg]: Remove: archive file [/home/abi/fetcher/tmp/leidenalg-0.9.0.tar.gz]
+[2023-07-20 13:00:06] INFO root fetch - processPackages [leidenalg]: Remove: archive file [/home/abi/fetcher/tmp/leidenalg-0.9.1.tar.gz]
+[2023-07-20 13:00:06] INFO root fetch - main [MainThread]: End processing [leidenalg]: success
+[2023-07-20 13:00:06] INFO root fetch - main [MainThread]: Store serial: [18965442]
