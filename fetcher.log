@@ -18379,3 +18379,323 @@ AssertionError: tmp/verify4py-test-0.1.7.tar.gz does not exist
 [2023-07-20 20:08:19] INFO root fetch - processPackages [qcs-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/qcs_sdk_python-0.9.1rc0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2023-07-20 20:08:19] INFO root fetch - main [MainThread]: End processing [qcs-sdk-python]: success
 [2023-07-20 20:08:19] INFO root fetch - main [MainThread]: Store serial: [18970535]
+[2023-07-20 20:13:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18970535]
+[2023-07-20 20:13:59] INFO root fetch - main [MainThread]: Found 37 changed packages
+[2023-07-20 20:13:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ocdsextensionregistry
+[2023-07-20 20:13:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gigagan-pytorch
+[2023-07-20 20:13:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: music-assistant
+[2023-07-20 20:13:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: llamatune
+[2023-07-20 20:13:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hugging-py-face
+[2023-07-20 20:13:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ICICONSOLE
+[2023-07-20 20:13:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pibooth
+[2023-07-20 20:13:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tensorflow-gnn
+[2023-07-20 20:13:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: kcli
+[2023-07-20 20:13:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: wrapper-fping1
+[2023-07-20 20:13:59] INFO root fetch - processPackages [ocdsextensionregistry]: New version: [0.3.8] Old Version: [0.3.7]
+[2023-07-20 20:13:59] INFO root fetch - processPackages [llamatune]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-07-20 20:13:59] INFO root fetch - processPackages [gigagan-pytorch]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-07-20 20:13:59] INFO root fetch - processPackages [hugging-py-face]: New version: [0.5.3] Old Version: [0.5.2]
+[2023-07-20 20:13:59] INFO root fetch - processPackages [tensorflow-gnn]: New version: [0.6.0rc0] Old Version: [0.5.1]
+[2023-07-20 20:13:59] WARNING root fetch - processPackages [wrapper-fping1]: Skipping, unable to determine old version
+[2023-07-20 20:13:59] INFO root fetch - processPackages [wrapper-fping1]: Start processing: process-twarc
+[2023-07-20 20:13:59] INFO root fetch - main [MainThread]: End processing [wrapper-fping1] error
+[2023-07-20 20:13:59] INFO root fetch - processPackages [ICICONSOLE]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-07-20 20:13:59] INFO root fetch - processPackages [pibooth]: New version: [2.0.8] Old Version: [2.0.7]
+[2023-07-20 20:13:59] INFO root fetch - processPackages [music-assistant]: New version: [2.0.0b9] Old Version: [2.0.0b8]
+[2023-07-20 20:14:00] INFO root fetch - processPackages [kcli]: New version: [99.0.202307201809] Old Version: [99.0.202307201700]
+[2023-07-20 20:14:00] INFO root fetch - processPackages [process-twarc]: New version: [0.12.7] Old Version: [0.12.6]
+[2023-07-20 20:14:00] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/f4/8f/861b8caedbed0c21dde2eb72299bdbe8b90300c82f052c511b904a438b0c/kcli-99.0.202307201700-py3-none-any.whl
+[2023-07-20 20:14:00] INFO root fetch - processPackages [llamatune]: Downloading https://files.pythonhosted.org/packages/aa/23/d801c53d10d52172015b61292073fb3f4ad0cf9f92c8910ef44dd34b5fe8/llamatune-0.2.3.tar.gz
+[2023-07-20 20:14:00] INFO root fetch - processPackages [ICICONSOLE]: Downloading https://files.pythonhosted.org/packages/3f/2e/e146e0e0f67039998f5929ee2f6a8be727f90ae85a0133df15bd995bc570/ICICONSOLE-0.4.0.tar.gz
+[2023-07-20 20:14:00] INFO root fetch - processPackages [ocdsextensionregistry]: Downloading https://files.pythonhosted.org/packages/2e/f2/af413e5e7dedeb60e407dd0cf26fa91ee76cdb71d0e12f21b778ed2c2caa/ocdsextensionregistry-0.3.7.tar.gz
+[2023-07-20 20:14:00] INFO root fetch - processPackages [gigagan-pytorch]: Downloading https://files.pythonhosted.org/packages/33/56/377fb1eb32c0def98d7fd1dd47930e7a9ad95915c462dcfbe29272af5e41/gigagan-pytorch-0.1.4.tar.gz
+[2023-07-20 20:14:00] INFO root fetch - processPackages [hugging-py-face]: Downloading https://files.pythonhosted.org/packages/3a/63/b251e36ef3babe6deb6e5dce0a736f94d070f75512b17911998d877f87c5/hugging_py_face-0.5.2.tar.gz
+[2023-07-20 20:14:00] INFO root fetch - processPackages [tensorflow-gnn]: Downloading https://files.pythonhosted.org/packages/c5/9a/cbcd094b47d27bd3c88f721165fb9ee21919d3963ae8fb5e28a7cb946ee5/tensorflow-gnn-0.5.1.tar.gz
+[2023-07-20 20:14:00] INFO root fetch - processPackages [pibooth]: Downloading https://files.pythonhosted.org/packages/f5/62/2a63ff5a87950e605db64084b9bc70105df6a612b9b5af111c6649831e7e/pibooth-2.0.7-py3-none-any.whl
+[2023-07-20 20:14:00] INFO root fetch - processPackages [music-assistant]: Downloading https://files.pythonhosted.org/packages/01/81/90b4aed85dc1c0ddc370cac2850f4f155120a91bed518c846ed8aaf92f03/music_assistant-2.0.0b8.tar.gz
+[2023-07-20 20:14:00] INFO root fetch - processPackages [process-twarc]: Downloading https://files.pythonhosted.org/packages/70/d2/0280900b5898ab261896954c23847b1a6db17c5820bd6be7107a2083023c/process-twarc-0.12.6.tar.gz
+[2023-07-20 20:14:00] WARNING root fetch - processPackages [music-assistant]: Skipping package: exceeds size limit 60699137>=10485760
+[2023-07-20 20:14:00] INFO root fetch - processPackages [music-assistant]: Start processing: descript-audio-codec
+[2023-07-20 20:14:00] INFO root fetch - main [MainThread]: End processing [music-assistant] error
+[2023-07-20 20:14:00] INFO root fetch - processPackages [descript-audio-codec]: New version: [1.0.0] Old Version: [0.0.5]
+[2023-07-20 20:14:00] INFO root fetch - processPackages [hugging-py-face]: Downloading https://files.pythonhosted.org/packages/3b/c3/0202dcc0febaf407966fe37d296bc3f2dac9b33e2372a8654f8fb26e57d7/hugging_py_face-0.5.3.tar.gz
+[2023-07-20 20:14:00] INFO root fetch - processPackages [llamatune]: Downloading https://files.pythonhosted.org/packages/cc/2a/c87ca3b520fba34964ca40c0a308379bbd19fd20b1abe18644ce678cace7/llamatune-0.2.4.tar.gz
+[2023-07-20 20:14:00] INFO root fetch - processPackages [ocdsextensionregistry]: Downloading https://files.pythonhosted.org/packages/54/56/03928867e8125d372afe3970ff4a1587ab6fae2ff6b56c2b69c9aec9cc2f/ocdsextensionregistry-0.3.8.tar.gz
+[2023-07-20 20:14:00] INFO root fetch - processPackages [gigagan-pytorch]: Downloading https://files.pythonhosted.org/packages/e7/00/c65c990e1f443f0ea827e2f493588f276e2d1809073afacb8a2e85c1a8ed/gigagan-pytorch-0.1.5.tar.gz
+[2023-07-20 20:14:00] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/70/cc/2bd1ae25c588887198eebdf37218169f834a9a99f796954422d0f3136bfe/kcli-99.0.202307201809-py3-none-any.whl
+[2023-07-20 20:14:00] INFO root fetch - processPackages [descript-audio-codec]: Downloading https://files.pythonhosted.org/packages/61/65/13f152b3b546b072b152eca8d1f9ba192c03771f8b01c96c0b9ac0461048/descript-audio-codec-0.0.5.tar.gz
+[2023-07-20 20:14:00] INFO root fetch - processPackages [ICICONSOLE]: Downloading https://files.pythonhosted.org/packages/04/be/38f372032e43c8f79c509c711f38cb05f5241233a624107a11014be00c5e/ICICONSOLE-0.5.0.tar.gz
+[2023-07-20 20:14:00] INFO root fetch - processPackages [llamatune]: executing diffoscope
+[2023-07-20 20:14:00] INFO root fetch - processPackages [llamatune]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llamatune-0.2.3.tar.gz tmp/llamatune-0.2.4.tar.gz --markdown 20230720/l/llamatune/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-07-20 20:14:00] INFO root fetch - processPackages [hugging-py-face]: executing diffoscope
+[2023-07-20 20:14:00] INFO root fetch - processPackages [hugging-py-face]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hugging_py_face-0.5.2.tar.gz tmp/hugging_py_face-0.5.3.tar.gz --markdown 20230720/h/hugging-py-face/0.5.2-0.5.3/diff.md --exclude *.pyd
+[2023-07-20 20:14:00] INFO root fetch - processPackages [process-twarc]: Downloading https://files.pythonhosted.org/packages/30/9a/5c23e96e91ac3810207be570feff0f6fa7ac7f5b3016d3a6e97eaed72327/process-twarc-0.12.7.tar.gz
+[2023-07-20 20:14:00] INFO root fetch - processPackages [ocdsextensionregistry]: executing diffoscope
+[2023-07-20 20:14:00] INFO root fetch - processPackages [ocdsextensionregistry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ocdsextensionregistry-0.3.7.tar.gz tmp/ocdsextensionregistry-0.3.8.tar.gz --markdown 20230720/o/ocdsextensionregistry/0.3.7-0.3.8/diff.md --exclude *.pyd
+[2023-07-20 20:14:00] INFO root fetch - processPackages [pibooth]: Downloading https://files.pythonhosted.org/packages/33/3d/13426e5cde9ad11a8f7b4c84591b4535e28b44fece5873eb3361acdf73ae/pibooth-2.0.8-py2-none-any.whl
+[2023-07-20 20:14:00] INFO root fetch - processPackages [gigagan-pytorch]: executing diffoscope
+[2023-07-20 20:14:00] INFO root fetch - processPackages [gigagan-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gigagan-pytorch-0.1.4.tar.gz tmp/gigagan-pytorch-0.1.5.tar.gz --markdown 20230720/g/gigagan-pytorch/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-07-20 20:14:00] INFO root fetch - processPackages [tensorflow-gnn]: Downloading https://files.pythonhosted.org/packages/5e/9b/29c3ac687a731e5eb0b2cd2d23fb0efa6abb2de6a054063610cdfe7340ad/tensorflow-gnn-0.6.0rc0.tar.gz
+[2023-07-20 20:14:01] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2023-07-20 20:14:01] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202307201700-py3-none-any.whl.zip tmp/kcli-99.0.202307201809-py3-none-any.whl.zip --markdown 20230720/k/kcli/99.0.202307201700-99.0.202307201809/diff.md --exclude *.pyd
+[2023-07-20 20:14:01] INFO root fetch - processPackages [ICICONSOLE]: executing diffoscope
+[2023-07-20 20:14:01] INFO root fetch - processPackages [process-twarc]: executing diffoscope
+[2023-07-20 20:14:01] INFO root fetch - processPackages [ICICONSOLE]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ICICONSOLE-0.4.0.tar.gz tmp/ICICONSOLE-0.5.0.tar.gz --markdown 20230720/I/ICICONSOLE/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-07-20 20:14:01] INFO root fetch - processPackages [process-twarc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/process-twarc-0.12.6.tar.gz tmp/process-twarc-0.12.7.tar.gz --markdown 20230720/p/process-twarc/0.12.6-0.12.7/diff.md --exclude *.pyd
+[2023-07-20 20:14:01] INFO root fetch - processPackages [pibooth]: executing diffoscope
+[2023-07-20 20:14:01] INFO root fetch - processPackages [pibooth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pibooth-2.0.7-py3-none-any.whl.zip tmp/pibooth-2.0.8-py2-none-any.whl.zip --markdown 20230720/p/pibooth/2.0.7-2.0.8/diff.md --exclude *.pyd
+[2023-07-20 20:14:01] INFO root fetch - processPackages [tensorflow-gnn]: executing diffoscope
+[2023-07-20 20:14:01] INFO root fetch - processPackages [tensorflow-gnn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensorflow-gnn-0.5.1.tar.gz tmp/tensorflow-gnn-0.6.0rc0.tar.gz --markdown 20230720/t/tensorflow-gnn/0.5.1-0.6.0rc0/diff.md --exclude *.pyd
+[2023-07-20 20:14:01] INFO root fetch - processPackages [descript-audio-codec]: Downloading https://files.pythonhosted.org/packages/7b/89/022d30f42091b0228f24449d0083130d44a1f6d141ad67f2cc67e22679d2/descript-audio-codec-1.0.0.tar.gz
+[2023-07-20 20:14:01] INFO root fetch - processPackages [descript-audio-codec]: executing diffoscope
+[2023-07-20 20:14:01] INFO root fetch - processPackages [descript-audio-codec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/descript-audio-codec-0.0.5.tar.gz tmp/descript-audio-codec-1.0.0.tar.gz --markdown 20230720/d/descript-audio-codec/0.0.5-1.0.0/diff.md --exclude *.pyd
+[2023-07-20 20:14:02] INFO root fetch - processPackages [llamatune]: Remove: archive file [/home/abi/fetcher/tmp/llamatune-0.2.3.tar.gz]
+[2023-07-20 20:14:02] INFO root fetch - processPackages [llamatune]: Remove: archive file [/home/abi/fetcher/tmp/llamatune-0.2.4.tar.gz]
+[2023-07-20 20:14:02] INFO root fetch - processPackages [llamatune]: Start processing: estyp
+[2023-07-20 20:14:02] INFO root fetch - main [MainThread]: End processing [llamatune]: success
+[2023-07-20 20:14:02] INFO root fetch - processPackages [hugging-py-face]: Remove: archive file [/home/abi/fetcher/tmp/hugging_py_face-0.5.2.tar.gz]
+[2023-07-20 20:14:02] INFO root fetch - processPackages [hugging-py-face]: Remove: archive file [/home/abi/fetcher/tmp/hugging_py_face-0.5.3.tar.gz]
+[2023-07-20 20:14:02] INFO root fetch - processPackages [hugging-py-face]: Start processing: garrett-streamlit-auth0
+[2023-07-20 20:14:02] INFO root fetch - main [MainThread]: End processing [hugging-py-face]: success
+[2023-07-20 20:14:02] INFO root fetch - processPackages [estyp]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-07-20 20:14:02] INFO root fetch - processPackages [garrett-streamlit-auth0]: New version: [0.2.0.4.dev1689876708] Old Version: [0.2.0.24.dev1689807050]
+[2023-07-20 20:14:02] INFO root fetch - processPackages [estyp]: Downloading https://files.pythonhosted.org/packages/c6/fe/fdd9c5a220a1013e53b88a994912770176cb40ad255e7a0509976803f905/estyp-0.2.2.tar.gz
+[2023-07-20 20:14:02] INFO root fetch - processPackages [process-twarc]: Remove: archive file [/home/abi/fetcher/tmp/process-twarc-0.12.6.tar.gz]
+[2023-07-20 20:14:02] INFO root fetch - processPackages [process-twarc]: Remove: archive file [/home/abi/fetcher/tmp/process-twarc-0.12.7.tar.gz]
+[2023-07-20 20:14:02] INFO root fetch - processPackages [process-twarc]: Start processing: kfish
+[2023-07-20 20:14:02] INFO root fetch - main [MainThread]: End processing [process-twarc]: success
+[2023-07-20 20:14:02] INFO root fetch - processPackages [ICICONSOLE]: Remove: archive file [/home/abi/fetcher/tmp/ICICONSOLE-0.4.0.tar.gz]
+[2023-07-20 20:14:02] INFO root fetch - processPackages [ICICONSOLE]: Remove: archive file [/home/abi/fetcher/tmp/ICICONSOLE-0.5.0.tar.gz]
+[2023-07-20 20:14:02] INFO root fetch - processPackages [ICICONSOLE]: Start processing: c7n
+[2023-07-20 20:14:02] INFO root fetch - main [MainThread]: End processing [ICICONSOLE]: success
+[2023-07-20 20:14:02] INFO root fetch - processPackages [gigagan-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/gigagan-pytorch-0.1.4.tar.gz]
+[2023-07-20 20:14:02] INFO root fetch - processPackages [gigagan-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/gigagan-pytorch-0.1.5.tar.gz]
+[2023-07-20 20:14:02] INFO root fetch - processPackages [gigagan-pytorch]: Start processing: c7n-left
+[2023-07-20 20:14:02] INFO root fetch - main [MainThread]: End processing [gigagan-pytorch]: success
+[2023-07-20 20:14:02] INFO root fetch - processPackages [kfish]: New version: [99.0.202307201812] Old Version: [99.0.202307201702]
+[2023-07-20 20:14:02] INFO root fetch - processPackages [garrett-streamlit-auth0]: Downloading https://files.pythonhosted.org/packages/5d/12/3d5ed20511debad905dd6d3ee8ab9618c99282d71d198200d37308c58475/garrett-streamlit-auth0-0.2.0.24.dev1689807050.tar.gz
+[2023-07-20 20:14:02] INFO root fetch - processPackages [c7n-left]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-20 20:14:02] INFO root fetch - processPackages [ocdsextensionregistry]: Remove: archive file [/home/abi/fetcher/tmp/ocdsextensionregistry-0.3.7.tar.gz]
+[2023-07-20 20:14:02] INFO root fetch - processPackages [ocdsextensionregistry]: Remove: archive file [/home/abi/fetcher/tmp/ocdsextensionregistry-0.3.8.tar.gz]
+[2023-07-20 20:14:02] INFO root fetch - processPackages [ocdsextensionregistry]: Start processing: c7n-gcp
+[2023-07-20 20:14:02] INFO root fetch - main [MainThread]: End processing [ocdsextensionregistry]: success
+[2023-07-20 20:14:02] INFO root fetch - processPackages [c7n]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-20 20:14:02] INFO root fetch - processPackages [c7n-gcp]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-07-20 20:14:02] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/2f/3a/dbccaeb4f3943503dd5e53554ffb76be0368c982a33d037de80159d40be4/kfish-99.0.202307201702-py3-none-any.whl
+[2023-07-20 20:14:02] INFO root fetch - processPackages [estyp]: Downloading https://files.pythonhosted.org/packages/04/6d/c3cc186a3be88bc54cf91d99986b8efd11c113e3432a4ef8dcfca887464d/estyp-0.2.3.tar.gz
+[2023-07-20 20:14:03] INFO root fetch - processPackages [estyp]: executing diffoscope
+[2023-07-20 20:14:03] INFO root fetch - processPackages [estyp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/estyp-0.2.2.tar.gz tmp/estyp-0.2.3.tar.gz --markdown 20230720/e/estyp/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-07-20 20:14:03] INFO root fetch - processPackages [c7n-left]: Downloading https://files.pythonhosted.org/packages/45/89/f7b0f58e816ae42718bb21d0a458203c6730eedbfe2f1cb07158b82addbe/c7n_left-0.1.8-py3-none-any.whl
+[2023-07-20 20:14:03] INFO root fetch - processPackages [c7n]: Downloading https://files.pythonhosted.org/packages/9d/2d/f146928af578e37dec57ccc760febe08c8949da0e40fc817b2c053c1b753/c7n-0.9.8-py3-none-any.whl
+[2023-07-20 20:14:03] INFO root fetch - processPackages [pibooth]: Remove: archive file [/home/abi/fetcher/tmp/pibooth-2.0.7-py3-none-any.whl.zip]
+[2023-07-20 20:14:03] INFO root fetch - processPackages [pibooth]: Remove: archive file [/home/abi/fetcher/tmp/pibooth-2.0.8-py2-none-any.whl.zip]
+[2023-07-20 20:14:03] INFO root fetch - processPackages [pibooth]: Start processing: c7n-kube
+[2023-07-20 20:14:03] INFO root fetch - main [MainThread]: End processing [pibooth]: success
+[2023-07-20 20:14:03] INFO root fetch - processPackages [c7n-gcp]: Downloading https://files.pythonhosted.org/packages/67/fd/9bec00a143c60b12089d4815c62aedbaab69b37f045df01fc85d1f4d7ec1/c7n_gcp-0.4.8-py3-none-any.whl
+[2023-07-20 20:14:03] INFO root fetch - processPackages [descript-audio-codec]: Remove: archive file [/home/abi/fetcher/tmp/descript-audio-codec-0.0.5.tar.gz]
+[2023-07-20 20:14:03] INFO root fetch - processPackages [descript-audio-codec]: Remove: archive file [/home/abi/fetcher/tmp/descript-audio-codec-1.0.0.tar.gz]
+[2023-07-20 20:14:03] INFO root fetch - processPackages [descript-audio-codec]: Start processing: c7n-openstack
+[2023-07-20 20:14:03] INFO root fetch - main [MainThread]: End processing [descript-audio-codec]: success
+[2023-07-20 20:14:03] INFO root fetch - processPackages [c7n-kube]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-20 20:14:03] INFO root fetch - processPackages [c7n-openstack]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-20 20:14:03] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/28/28/304ea7c1773b3a2c555f7eac7d50b882db7cdc3f773dd268583bbabf7d9a/kfish-99.0.202307201812-py3-none-any.whl
+[2023-07-20 20:14:03] INFO root fetch - processPackages [garrett-streamlit-auth0]: Downloading https://files.pythonhosted.org/packages/d5/27/0aa0c45263653e910f5bd5c910ce4d7a856cc69ed1ca3c74523d094a630b/garrett-streamlit-auth0-0.2.0.4.dev1689876708.tar.gz
+[2023-07-20 20:14:03] INFO root fetch - processPackages [kfish]: executing diffoscope
+[2023-07-20 20:14:03] INFO root fetch - processPackages [kfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfish-99.0.202307201702-py3-none-any.whl.zip tmp/kfish-99.0.202307201812-py3-none-any.whl.zip --markdown 20230720/k/kfish/99.0.202307201702-99.0.202307201812/diff.md --exclude *.pyd
+[2023-07-20 20:14:03] INFO root fetch - processPackages [c7n-kube]: Downloading https://files.pythonhosted.org/packages/0f/65/4c78144e7d8037ab7649763bc1270f7e408cf81346b90ddf14fc3ed33023/c7n_kube-0.2.8-py3-none-any.whl
+[2023-07-20 20:14:03] INFO root fetch - processPackages [c7n-openstack]: Downloading https://files.pythonhosted.org/packages/2b/90/36bc88d1e3f90ad73b15d26eadd2c392674393d7657258b2c8ef6bdc8730/c7n_openstack-0.1.8-py3-none-any.whl
+[2023-07-20 20:14:03] INFO root fetch - processPackages [garrett-streamlit-auth0]: executing diffoscope
+[2023-07-20 20:14:03] INFO root fetch - processPackages [garrett-streamlit-auth0]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/garrett-streamlit-auth0-0.2.0.24.dev1689807050.tar.gz tmp/garrett-streamlit-auth0-0.2.0.4.dev1689876708.tar.gz --markdown 20230720/g/garrett-streamlit-auth0/0.2.0.24.dev1689807050-0.2.0.4.dev1689876708/diff.md --exclude *.pyd
+[2023-07-20 20:14:03] INFO root fetch - processPackages [c7n-left]: Downloading https://files.pythonhosted.org/packages/90/33/43bcf85ab4311ecf61671e28138673067f479feb44a10e1a2ef4c3a107f2/c7n_left-0.1.9-py3-none-any.whl
+[2023-07-20 20:14:03] INFO root fetch - processPackages [c7n]: Downloading https://files.pythonhosted.org/packages/0c/92/c26ff9f37d60d4fda00f7f92d95e2fed3ccd40e5467130ca2293e0fcba61/c7n-0.9.9-py3-none-any.whl
+[2023-07-20 20:14:03] INFO root fetch - processPackages [c7n-gcp]: Downloading https://files.pythonhosted.org/packages/48/0b/e3c0db3fe0a605e794c46ff2679559ab82b60f9d2fce968bc386235e7633/c7n_gcp-0.4.9-py3-none-any.whl
+[2023-07-20 20:14:03] INFO root fetch - processPackages [c7n-left]: executing diffoscope
+[2023-07-20 20:14:03] INFO root fetch - processPackages [c7n-left]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c7n_left-0.1.8-py3-none-any.whl.zip tmp/c7n_left-0.1.9-py3-none-any.whl.zip --markdown 20230720/c/c7n-left/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-20 20:14:03] INFO root fetch - processPackages [c7n]: executing diffoscope
+[2023-07-20 20:14:03] INFO root fetch - processPackages [c7n]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c7n-0.9.8-py3-none-any.whl.zip tmp/c7n-0.9.9-py3-none-any.whl.zip --markdown 20230720/c/c7n/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-20 20:14:03] INFO root fetch - processPackages [c7n-kube]: Downloading https://files.pythonhosted.org/packages/fb/33/67dd584e092c52eb477bc6e5565669702a22859b18ffc6d14cb26c816982/c7n_kube-0.2.9-py3-none-any.whl
+[2023-07-20 20:14:04] INFO root fetch - processPackages [c7n-kube]: executing diffoscope
+[2023-07-20 20:14:04] INFO root fetch - processPackages [c7n-kube]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c7n_kube-0.2.8-py3-none-any.whl.zip tmp/c7n_kube-0.2.9-py3-none-any.whl.zip --markdown 20230720/c/c7n-kube/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-20 20:14:04] INFO root fetch - processPackages [c7n-openstack]: Downloading https://files.pythonhosted.org/packages/d9/3a/ba6694d6cb706b97c3ef11072fba444af3ed7bb3e6a4706ddc47707209b9/c7n_openstack-0.1.9-py3-none-any.whl
+[2023-07-20 20:14:04] INFO root fetch - processPackages [estyp]: Remove: archive file [/home/abi/fetcher/tmp/estyp-0.2.2.tar.gz]
+[2023-07-20 20:14:04] INFO root fetch - processPackages [estyp]: Remove: archive file [/home/abi/fetcher/tmp/estyp-0.2.3.tar.gz]
+[2023-07-20 20:14:04] INFO root fetch - processPackages [estyp]: Start processing: c7n-mailer
+[2023-07-20 20:14:04] INFO root fetch - main [MainThread]: End processing [estyp]: success
+[2023-07-20 20:14:04] INFO root fetch - processPackages [c7n-mailer]: New version: [0.6.9] Old Version: [0.6.8]
+[2023-07-20 20:14:04] INFO root fetch - processPackages [c7n-gcp]: executing diffoscope
+[2023-07-20 20:14:04] INFO root fetch - processPackages [c7n-gcp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c7n_gcp-0.4.8-py3-none-any.whl.zip tmp/c7n_gcp-0.4.9-py3-none-any.whl.zip --markdown 20230720/c/c7n-gcp/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-07-20 20:14:04] INFO root fetch - processPackages [c7n-openstack]: executing diffoscope
+[2023-07-20 20:14:04] INFO root fetch - processPackages [c7n-openstack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c7n_openstack-0.1.8-py3-none-any.whl.zip tmp/c7n_openstack-0.1.9-py3-none-any.whl.zip --markdown 20230720/c/c7n-openstack/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-20 20:14:04] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202307201702-py3-none-any.whl.zip]
+[2023-07-20 20:14:04] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202307201812-py3-none-any.whl.zip]
+[2023-07-20 20:14:04] INFO root fetch - processPackages [kfish]: Start processing: c7n-logexporter
+[2023-07-20 20:14:04] INFO root fetch - main [MainThread]: End processing [kfish]: success
+[2023-07-20 20:14:04] INFO root fetch - processPackages [c7n-logexporter]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-07-20 20:14:04] INFO root fetch - processPackages [c7n-mailer]: Downloading https://files.pythonhosted.org/packages/2f/d6/071042c1224eaecfe3a9a2c90ea6d4c378bd37cd23c06362650b7cb19601/c7n_mailer-0.6.8-py3-none-any.whl
+[2023-07-20 20:14:04] INFO root fetch - processPackages [c7n-logexporter]: Downloading https://files.pythonhosted.org/packages/cb/d8/d1b541faeaba11953d6f109d561a37db05f2bbf969f3f7bde5b0c664dd56/c7n_logexporter-0.4.8-py3-none-any.whl
+[2023-07-20 20:14:04] INFO root fetch - processPackages [garrett-streamlit-auth0]: Remove: archive file [/home/abi/fetcher/tmp/garrett-streamlit-auth0-0.2.0.24.dev1689807050.tar.gz]
+[2023-07-20 20:14:04] INFO root fetch - processPackages [garrett-streamlit-auth0]: Remove: archive file [/home/abi/fetcher/tmp/garrett-streamlit-auth0-0.2.0.4.dev1689876708.tar.gz]
+[2023-07-20 20:14:04] INFO root fetch - processPackages [garrett-streamlit-auth0]: Start processing: c7n-policystream
+[2023-07-20 20:14:04] INFO root fetch - main [MainThread]: End processing [garrett-streamlit-auth0]: success
+[2023-07-20 20:14:04] INFO root fetch - processPackages [c7n-policystream]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-07-20 20:14:04] INFO root fetch - processPackages [c7n-mailer]: Downloading https://files.pythonhosted.org/packages/b9/ee/68db44fb8012ffb67f229a7f982cc77ba8d22b496a5d9d0e3faf565635fb/c7n_mailer-0.6.9-py3-none-any.whl
+[2023-07-20 20:14:04] INFO root fetch - processPackages [c7n-left]: Remove: archive file [/home/abi/fetcher/tmp/c7n_left-0.1.8-py3-none-any.whl.zip]
+[2023-07-20 20:14:04] INFO root fetch - processPackages [c7n-left]: Remove: archive file [/home/abi/fetcher/tmp/c7n_left-0.1.9-py3-none-any.whl.zip]
+[2023-07-20 20:14:04] INFO root fetch - processPackages [c7n-left]: Start processing: c7n-trailcreator
+[2023-07-20 20:14:04] INFO root fetch - main [MainThread]: End processing [c7n-left]: success
+[2023-07-20 20:14:05] INFO root fetch - processPackages [c7n-trailcreator]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-20 20:14:05] INFO root fetch - processPackages [c7n-mailer]: executing diffoscope
+[2023-07-20 20:14:05] INFO root fetch - processPackages [c7n-mailer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c7n_mailer-0.6.8-py3-none-any.whl.zip tmp/c7n_mailer-0.6.9-py3-none-any.whl.zip --markdown 20230720/c/c7n-mailer/0.6.8-0.6.9/diff.md --exclude *.pyd
+[2023-07-20 20:14:05] INFO root fetch - processPackages [tensorflow-gnn]: Remove: archive file [/home/abi/fetcher/tmp/tensorflow-gnn-0.5.1.tar.gz]
+[2023-07-20 20:14:05] INFO root fetch - processPackages [tensorflow-gnn]: Remove: archive file [/home/abi/fetcher/tmp/tensorflow-gnn-0.6.0rc0.tar.gz]
+[2023-07-20 20:14:05] INFO root fetch - processPackages [tensorflow-gnn]: Start processing: c7n-org
+[2023-07-20 20:14:05] INFO root fetch - main [MainThread]: End processing [tensorflow-gnn]: success
+[2023-07-20 20:14:05] INFO root fetch - processPackages [c7n-policystream]: Downloading https://files.pythonhosted.org/packages/c3/0c/c2d94c1313395d67ff0d05bc3031ad24432127ddad7b969cf646962d711d/c7n_policystream-0.4.8-py3-none-any.whl
+[2023-07-20 20:14:05] INFO root fetch - processPackages [c7n-org]: New version: [0.6.9] Old Version: [0.6.8]
+[2023-07-20 20:14:05] INFO root fetch - processPackages [c7n-trailcreator]: Downloading https://files.pythonhosted.org/packages/1d/15/8478bb14a898189ef118feb417c50b985e2d5a65b574420b456fe7669446/c7n_trailcreator-0.2.8-py3-none-any.whl
+[2023-07-20 20:14:05] INFO root fetch - processPackages [c7n-kube]: Remove: archive file [/home/abi/fetcher/tmp/c7n_kube-0.2.8-py3-none-any.whl.zip]
+[2023-07-20 20:14:05] INFO root fetch - processPackages [c7n-kube]: Remove: archive file [/home/abi/fetcher/tmp/c7n_kube-0.2.9-py3-none-any.whl.zip]
+[2023-07-20 20:14:05] INFO root fetch - processPackages [c7n-kube]: Start processing: scrunch
+[2023-07-20 20:14:05] INFO root fetch - main [MainThread]: End processing [c7n-kube]: success
+[2023-07-20 20:14:05] INFO root fetch - processPackages [c7n-logexporter]: Downloading https://files.pythonhosted.org/packages/29/f8/e352f3a606b357c23ad7fed3fbf71788de94b5bd3292a0b9295c6f36622b/c7n_logexporter-0.4.9-py3-none-any.whl
+[2023-07-20 20:14:05] INFO root fetch - processPackages [c7n-org]: Downloading https://files.pythonhosted.org/packages/83/f7/bc531247815c3e00653837d933033e5f529d3868db51ca528f3b3be08e45/c7n_org-0.6.8-py3-none-any.whl
+[2023-07-20 20:14:05] INFO root fetch - processPackages [scrunch]: New version: [6.5.2000.post1689876621] Old Version: [6.5.1999.post1689868377]
+[2023-07-20 20:14:05] INFO root fetch - processPackages [c7n-openstack]: Remove: archive file [/home/abi/fetcher/tmp/c7n_openstack-0.1.8-py3-none-any.whl.zip]
+[2023-07-20 20:14:05] INFO root fetch - processPackages [c7n-openstack]: Remove: archive file [/home/abi/fetcher/tmp/c7n_openstack-0.1.9-py3-none-any.whl.zip]
+[2023-07-20 20:14:05] INFO root fetch - processPackages [c7n-openstack]: Start processing: c7n-sphinxext
+[2023-07-20 20:14:05] INFO root fetch - main [MainThread]: End processing [c7n-openstack]: success
+[2023-07-20 20:14:05] INFO root fetch - processPackages [c7n-policystream]: Downloading https://files.pythonhosted.org/packages/b5/d0/79a090c3d0b7556ae0815deaac15e56a6daa54267e7011f9ec699704acb3/c7n_policystream-0.4.9-py3-none-any.whl
+[2023-07-20 20:14:05] INFO root fetch - processPackages [scrunch]: Downloading https://files.pythonhosted.org/packages/12/8c/3387b374899dad890b90e0805add2eea4050deaa79b95d129d03eea5b171/scrunch-6.5.1999.post1689868377.tar.gz
+[2023-07-20 20:14:05] INFO root fetch - processPackages [c7n-gcp]: Remove: archive file [/home/abi/fetcher/tmp/c7n_gcp-0.4.8-py3-none-any.whl.zip]
+[2023-07-20 20:14:05] INFO root fetch - processPackages [c7n-gcp]: Remove: archive file [/home/abi/fetcher/tmp/c7n_gcp-0.4.9-py3-none-any.whl.zip]
+[2023-07-20 20:14:05] INFO root fetch - processPackages [c7n-gcp]: Start processing: c7n-terraform
+[2023-07-20 20:14:05] INFO root fetch - main [MainThread]: End processing [c7n-gcp]: success
+[2023-07-20 20:14:05] INFO root fetch - processPackages [c7n-sphinxext]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-07-20 20:14:05] INFO root fetch - processPackages [c7n-logexporter]: executing diffoscope
+[2023-07-20 20:14:05] INFO root fetch - processPackages [c7n-logexporter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c7n_logexporter-0.4.8-py3-none-any.whl.zip tmp/c7n_logexporter-0.4.9-py3-none-any.whl.zip --markdown 20230720/c/c7n-logexporter/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-07-20 20:14:05] INFO root fetch - processPackages [c7n-terraform]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-20 20:14:05] INFO root fetch - processPackages [c7n-policystream]: executing diffoscope
+[2023-07-20 20:14:05] INFO root fetch - processPackages [c7n-policystream]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c7n_policystream-0.4.8-py3-none-any.whl.zip tmp/c7n_policystream-0.4.9-py3-none-any.whl.zip --markdown 20230720/c/c7n-policystream/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-07-20 20:14:05] INFO root fetch - processPackages [c7n-sphinxext]: Downloading https://files.pythonhosted.org/packages/29/c6/19ff20df7b604eaec6f0371e3ad920dd673cd0cd993e08f3cd8698dec37a/c7n_sphinxext-1.1.8-py3-none-any.whl
+[2023-07-20 20:14:05] INFO root fetch - processPackages [c7n-terraform]: Downloading https://files.pythonhosted.org/packages/70/31/4e88c4f31dae8b43c500cdda1b9d5cf9fb262e848d321247a896e4fa6f8f/c7n_terraform-0.1.8-py3-none-any.whl
+[2023-07-20 20:14:06] INFO root fetch - processPackages [c7n-org]: Downloading https://files.pythonhosted.org/packages/0c/74/a3abb36dce87d14c4c3d22e00817b96c9784d0705c9e8fa81e2cf3e8d4f6/c7n_org-0.6.9-py3-none-any.whl
+[2023-07-20 20:14:06] INFO root fetch - processPackages [scrunch]: Downloading https://files.pythonhosted.org/packages/a8/bf/3b8cbd6d46811a3f5c201d909e6cf8dbd8ceaf373cce1fec4ce9e015d53e/scrunch-6.5.2000.post1689876621.tar.gz
+[2023-07-20 20:14:06] INFO root fetch - processPackages [c7n]: Remove: archive file [/home/abi/fetcher/tmp/c7n-0.9.8-py3-none-any.whl.zip]
+[2023-07-20 20:14:06] INFO root fetch - processPackages [c7n]: Remove: archive file [/home/abi/fetcher/tmp/c7n-0.9.9-py3-none-any.whl.zip]
+[2023-07-20 20:14:06] INFO root fetch - processPackages [c7n]: Start processing: spouk-firebird-utils
+[2023-07-20 20:14:06] INFO root fetch - main [MainThread]: End processing [c7n]: success
+[2023-07-20 20:14:06] INFO root fetch - processPackages [c7n-org]: executing diffoscope
+[2023-07-20 20:14:06] INFO root fetch - processPackages [c7n-org]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c7n_org-0.6.8-py3-none-any.whl.zip tmp/c7n_org-0.6.9-py3-none-any.whl.zip --markdown 20230720/c/c7n-org/0.6.8-0.6.9/diff.md --exclude *.pyd
+[2023-07-20 20:14:06] INFO root fetch - processPackages [c7n-mailer]: Remove: archive file [/home/abi/fetcher/tmp/c7n_mailer-0.6.8-py3-none-any.whl.zip]
+[2023-07-20 20:14:06] INFO root fetch - processPackages [c7n-mailer]: Remove: archive file [/home/abi/fetcher/tmp/c7n_mailer-0.6.9-py3-none-any.whl.zip]
+[2023-07-20 20:14:06] INFO root fetch - processPackages [c7n-mailer]: Start processing: c7n-awscc
+[2023-07-20 20:14:06] INFO root fetch - main [MainThread]: End processing [c7n-mailer]: success
+[2023-07-20 20:14:06] WARNING root fetch - processPackages [spouk-firebird-utils]: Skipping, unable to determine old version
+[2023-07-20 20:14:06] INFO root fetch - processPackages [spouk-firebird-utils]: Start processing: c7n-tencentcloud
+[2023-07-20 20:14:06] INFO root fetch - main [MainThread]: End processing [spouk-firebird-utils] error
+[2023-07-20 20:14:06] INFO root fetch - processPackages [c7n-trailcreator]: Downloading https://files.pythonhosted.org/packages/2a/3e/6fdb2a5e5d0eb79e0c6f3027dbea071264da14dae7c5cd9eb4983e81b6cc/c7n_trailcreator-0.2.9-py3-none-any.whl
+[2023-07-20 20:14:06] INFO root fetch - processPackages [scrunch]: executing diffoscope
+[2023-07-20 20:14:06] INFO root fetch - processPackages [scrunch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scrunch-6.5.1999.post1689868377.tar.gz tmp/scrunch-6.5.2000.post1689876621.tar.gz --markdown 20230720/s/scrunch/6.5.1999.post1689868377-6.5.2000.post1689876621/diff.md --exclude *.pyd
+[2023-07-20 20:14:06] INFO root fetch - processPackages [c7n-awscc]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-20 20:14:06] INFO root fetch - processPackages [c7n-sphinxext]: Downloading https://files.pythonhosted.org/packages/a9/fb/3f99aedddaf8625aa65f88174b8b034b5532a3931f2c3547fcb0616a4427/c7n_sphinxext-1.1.9-py3-none-any.whl
+[2023-07-20 20:14:06] INFO root fetch - processPackages [c7n-tencentcloud]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-20 20:14:06] INFO root fetch - processPackages [c7n-trailcreator]: executing diffoscope
+[2023-07-20 20:14:06] INFO root fetch - processPackages [c7n-trailcreator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c7n_trailcreator-0.2.8-py3-none-any.whl.zip tmp/c7n_trailcreator-0.2.9-py3-none-any.whl.zip --markdown 20230720/c/c7n-trailcreator/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-20 20:14:06] INFO root fetch - processPackages [c7n-sphinxext]: executing diffoscope
+[2023-07-20 20:14:06] INFO root fetch - processPackages [c7n-sphinxext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c7n_sphinxext-1.1.8-py3-none-any.whl.zip tmp/c7n_sphinxext-1.1.9-py3-none-any.whl.zip --markdown 20230720/c/c7n-sphinxext/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-07-20 20:14:06] INFO root fetch - processPackages [c7n-awscc]: Downloading https://files.pythonhosted.org/packages/b6/61/2d10f250d405bdce69df47a26bfb4fc93b0921058f590de6bb59246ebaaa/c7n_awscc-0.1.8-py3-none-any.whl
+[2023-07-20 20:14:06] INFO root fetch - processPackages [c7n-tencentcloud]: Downloading https://files.pythonhosted.org/packages/c1/b9/3645495088af7bb52df8a1b835740b59a3991650f71117b48b9b3a00cebc/c7n_tencentcloud-0.1.8-py3-none-any.whl
+[2023-07-20 20:14:06] INFO root fetch - processPackages [c7n-logexporter]: Remove: archive file [/home/abi/fetcher/tmp/c7n_logexporter-0.4.8-py3-none-any.whl.zip]
+[2023-07-20 20:14:06] INFO root fetch - processPackages [c7n-logexporter]: Remove: archive file [/home/abi/fetcher/tmp/c7n_logexporter-0.4.9-py3-none-any.whl.zip]
+[2023-07-20 20:14:06] INFO root fetch - processPackages [c7n-logexporter]: Start processing: process-twarc
+[2023-07-20 20:14:06] INFO root fetch - main [MainThread]: End processing [c7n-logexporter]: success
+[2023-07-20 20:14:06] INFO root fetch - processPackages [process-twarc]: New version: [0.12.8] Old Version: [0.12.7]
+[2023-07-20 20:14:06] INFO root fetch - processPackages [c7n-terraform]: Downloading https://files.pythonhosted.org/packages/ee/1f/fb7c83b5c50eb6dea47ed48f5abe14540c8f85ee9ebcdade5210bb70bc1c/c7n_terraform-0.1.9-py3-none-any.whl
+[2023-07-20 20:14:06] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202307201700-py3-none-any.whl.zip]
+[2023-07-20 20:14:06] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202307201809-py3-none-any.whl.zip]
+[2023-07-20 20:14:06] INFO root fetch - processPackages [kcli]: Start processing: c7n-azure
+[2023-07-20 20:14:06] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2023-07-20 20:14:06] INFO root fetch - processPackages [process-twarc]: Downloading https://files.pythonhosted.org/packages/30/9a/5c23e96e91ac3810207be570feff0f6fa7ac7f5b3016d3a6e97eaed72327/process-twarc-0.12.7.tar.gz
+[2023-07-20 20:14:06] INFO root fetch - processPackages [c7n-policystream]: Remove: archive file [/home/abi/fetcher/tmp/c7n_policystream-0.4.8-py3-none-any.whl.zip]
+[2023-07-20 20:14:06] INFO root fetch - processPackages [c7n-policystream]: Remove: archive file [/home/abi/fetcher/tmp/c7n_policystream-0.4.9-py3-none-any.whl.zip]
+[2023-07-20 20:14:06] INFO root fetch - processPackages [c7n-policystream]: Start processing: c7n-oci
+[2023-07-20 20:14:06] INFO root fetch - main [MainThread]: End processing [c7n-policystream]: success
+[2023-07-20 20:14:07] INFO root fetch - processPackages [c7n-azure]: New version: [0.7.9] Old Version: [0.7.8]
+[2023-07-20 20:14:07] INFO root fetch - processPackages [c7n-terraform]: executing diffoscope
+[2023-07-20 20:14:07] INFO root fetch - processPackages [c7n-terraform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c7n_terraform-0.1.8-py3-none-any.whl.zip tmp/c7n_terraform-0.1.9-py3-none-any.whl.zip --markdown 20230720/c/c7n-terraform/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-20 20:14:07] INFO root fetch - processPackages [c7n-oci]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-20 20:14:07] INFO root fetch - processPackages [c7n-awscc]: Downloading https://files.pythonhosted.org/packages/30/d8/1998a5b82faf253536e6124a52b08c27e018c2df3b873caa7ab287726ba0/c7n_awscc-0.1.9-py3-none-any.whl
+[2023-07-20 20:14:07] INFO root fetch - processPackages [c7n-tencentcloud]: Downloading https://files.pythonhosted.org/packages/2c/84/507fd6ca5475a26454f2cef64d577314ecf0e65a2f81783342f0d7beeee4/c7n_tencentcloud-0.1.9-py3-none-any.whl
+[2023-07-20 20:14:07] INFO root fetch - processPackages [process-twarc]: Downloading https://files.pythonhosted.org/packages/29/6e/6c6edba2e80435f81430ab9603e2735b5eb3761410b842aecf52083a4646/process-twarc-0.12.8.tar.gz
+[2023-07-20 20:14:07] INFO root fetch - processPackages [c7n-azure]: Downloading https://files.pythonhosted.org/packages/2f/c5/4e193e207591e855645adfb17946006c8e4986137b1f245bf5308f663019/c7n_azure-0.7.8-py3-none-any.whl
+[2023-07-20 20:14:07] INFO root fetch - processPackages [c7n-awscc]: executing diffoscope
+[2023-07-20 20:14:07] INFO root fetch - processPackages [c7n-awscc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c7n_awscc-0.1.8-py3-none-any.whl.zip tmp/c7n_awscc-0.1.9-py3-none-any.whl.zip --markdown 20230720/c/c7n-awscc/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-20 20:14:07] INFO root fetch - processPackages [c7n-oci]: Downloading https://files.pythonhosted.org/packages/62/d9/e3f86d2b5da5db80b5a04e39808ede83995443792f39a7025e21f9de39d4/c7n_oci-0.1.2-py3-none-any.whl
+[2023-07-20 20:14:07] INFO root fetch - processPackages [c7n-org]: Remove: archive file [/home/abi/fetcher/tmp/c7n_org-0.6.8-py3-none-any.whl.zip]
+[2023-07-20 20:14:07] INFO root fetch - processPackages [c7n-org]: Remove: archive file [/home/abi/fetcher/tmp/c7n_org-0.6.9-py3-none-any.whl.zip]
+[2023-07-20 20:14:07] INFO root fetch - processPackages [c7n-org]: Start processing: llamatune
+[2023-07-20 20:14:07] INFO root fetch - main [MainThread]: End processing [c7n-org]: success
+[2023-07-20 20:14:07] INFO root fetch - processPackages [c7n-tencentcloud]: executing diffoscope
+[2023-07-20 20:14:07] INFO root fetch - processPackages [c7n-tencentcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c7n_tencentcloud-0.1.8-py3-none-any.whl.zip tmp/c7n_tencentcloud-0.1.9-py3-none-any.whl.zip --markdown 20230720/c/c7n-tencentcloud/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-20 20:14:07] INFO root fetch - processPackages [process-twarc]: executing diffoscope
+[2023-07-20 20:14:07] INFO root fetch - processPackages [process-twarc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/process-twarc-0.12.7.tar.gz tmp/process-twarc-0.12.8.tar.gz --markdown 20230720/p/process-twarc/0.12.7-0.12.8/diff.md --exclude *.pyd
+[2023-07-20 20:14:07] INFO root fetch - processPackages [llamatune]: New version: [0.4.0] Old Version: [0.2.4]
+[2023-07-20 20:14:07] INFO root fetch - processPackages [llamatune]: Downloading https://files.pythonhosted.org/packages/cc/2a/c87ca3b520fba34964ca40c0a308379bbd19fd20b1abe18644ce678cace7/llamatune-0.2.4.tar.gz
+[2023-07-20 20:14:07] INFO root fetch - processPackages [c7n-trailcreator]: Remove: archive file [/home/abi/fetcher/tmp/c7n_trailcreator-0.2.8-py3-none-any.whl.zip]
+[2023-07-20 20:14:07] INFO root fetch - processPackages [c7n-trailcreator]: Remove: archive file [/home/abi/fetcher/tmp/c7n_trailcreator-0.2.9-py3-none-any.whl.zip]
+[2023-07-20 20:14:07] INFO root fetch - processPackages [c7n-trailcreator]: Start processing: flywheel-cli
+[2023-07-20 20:14:07] INFO root fetch - main [MainThread]: End processing [c7n-trailcreator]: success
+[2023-07-20 20:14:07] INFO root fetch - processPackages [c7n-sphinxext]: Remove: archive file [/home/abi/fetcher/tmp/c7n_sphinxext-1.1.8-py3-none-any.whl.zip]
+[2023-07-20 20:14:07] INFO root fetch - processPackages [c7n-sphinxext]: Remove: archive file [/home/abi/fetcher/tmp/c7n_sphinxext-1.1.9-py3-none-any.whl.zip]
+[2023-07-20 20:14:07] INFO root fetch - processPackages [c7n-sphinxext]: Start processing: ninjakiwi-api
+[2023-07-20 20:14:07] INFO root fetch - main [MainThread]: End processing [c7n-sphinxext]: success
+[2023-07-20 20:14:07] INFO root fetch - processPackages [flywheel-cli]: New version: [9.0.3] Old Version: [9.0.2.dev1]
+[2023-07-20 20:14:07] INFO root fetch - processPackages [c7n-azure]: Downloading https://files.pythonhosted.org/packages/9c/b5/995bc9ba0e9f7ae2ed0869121f6561f6b388b552882b6778c27863ba47d0/c7n_azure-0.7.9-py3-none-any.whl
+[2023-07-20 20:14:07] INFO root fetch - processPackages [ninjakiwi-api]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-07-20 20:14:07] INFO root fetch - processPackages [c7n-oci]: Downloading https://files.pythonhosted.org/packages/9f/a0/c9dfa3c376c0b8f073e42b0159ccb53d277f8281ae1fba38d64195940d78/c7n_oci-0.1.3-py3-none-any.whl
+[2023-07-20 20:14:07] INFO root fetch - processPackages [llamatune]: Downloading https://files.pythonhosted.org/packages/cc/d9/f297002a95be892906c710cbd95d49469943b9f68a8b6b0d2df3da830b87/llamatune-0.4.0.tar.gz
+[2023-07-20 20:14:07] INFO root fetch - processPackages [ninjakiwi-api]: Downloading https://files.pythonhosted.org/packages/7f/cd/2a93d0bc86bee2776a7541da9cfdb1bc8ba139eafa3f0b2c50e31f169930/ninjakiwi_api-0.0.6.tar.gz
+[2023-07-20 20:14:08] INFO root fetch - processPackages [c7n-oci]: executing diffoscope
+[2023-07-20 20:14:08] INFO root fetch - processPackages [c7n-oci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c7n_oci-0.1.2-py3-none-any.whl.zip tmp/c7n_oci-0.1.3-py3-none-any.whl.zip --markdown 20230720/c/c7n-oci/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-20 20:14:08] INFO root fetch - processPackages [flywheel-cli]: Downloading https://files.pythonhosted.org/packages/cd/8c/888e6a210974b8635a94ad1a71290a597e3bb5cf05736f9b6089b1e4f9ee/flywheel_cli-9.0.2.dev1-py3-none-any.whl
+[2023-07-20 20:14:08] INFO root fetch - processPackages [scrunch]: Remove: archive file [/home/abi/fetcher/tmp/scrunch-6.5.1999.post1689868377.tar.gz]
+[2023-07-20 20:14:08] INFO root fetch - processPackages [scrunch]: Remove: archive file [/home/abi/fetcher/tmp/scrunch-6.5.2000.post1689876621.tar.gz]
+[2023-07-20 20:14:08] INFO root fetch - main [MainThread]: End processing [scrunch]: success
+[2023-07-20 20:14:08] INFO root fetch - processPackages [llamatune]: executing diffoscope
+[2023-07-20 20:14:08] INFO root fetch - processPackages [llamatune]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llamatune-0.2.4.tar.gz tmp/llamatune-0.4.0.tar.gz --markdown 20230720/l/llamatune/0.2.4-0.4.0/diff.md --exclude *.pyd
+[2023-07-20 20:14:08] INFO root fetch - processPackages [ninjakiwi-api]: Downloading https://files.pythonhosted.org/packages/9f/fa/ba847ccfb710418c634d83ec0bce8b109ee10dc0175eedeefca7c8ba9efd/ninjakiwi_api-0.0.7.tar.gz
+[2023-07-20 20:14:08] INFO root fetch - processPackages [c7n-terraform]: Remove: archive file [/home/abi/fetcher/tmp/c7n_terraform-0.1.8-py3-none-any.whl.zip]
+[2023-07-20 20:14:08] INFO root fetch - processPackages [c7n-terraform]: Remove: archive file [/home/abi/fetcher/tmp/c7n_terraform-0.1.9-py3-none-any.whl.zip]
+[2023-07-20 20:14:08] INFO root fetch - main [MainThread]: End processing [c7n-terraform]: success
+[2023-07-20 20:14:08] INFO root fetch - processPackages [c7n-azure]: executing diffoscope
+[2023-07-20 20:14:08] INFO root fetch - processPackages [c7n-azure]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c7n_azure-0.7.8-py3-none-any.whl.zip tmp/c7n_azure-0.7.9-py3-none-any.whl.zip --markdown 20230720/c/c7n-azure/0.7.8-0.7.9/diff.md --exclude *.pyd
+[2023-07-20 20:14:08] INFO root fetch - processPackages [ninjakiwi-api]: executing diffoscope
+[2023-07-20 20:14:08] INFO root fetch - processPackages [ninjakiwi-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ninjakiwi_api-0.0.6.tar.gz tmp/ninjakiwi_api-0.0.7.tar.gz --markdown 20230720/n/ninjakiwi-api/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-07-20 20:14:08] INFO root fetch - processPackages [flywheel-cli]: Downloading https://files.pythonhosted.org/packages/ca/5b/e1a470e13fabcd0f52c475b54da7f9f10c25fd5d419bd22de69fe2838457/flywheel_cli-9.0.3-py3-none-any.whl
+[2023-07-20 20:14:08] INFO root fetch - processPackages [process-twarc]: Remove: archive file [/home/abi/fetcher/tmp/process-twarc-0.12.7.tar.gz]
+[2023-07-20 20:14:08] INFO root fetch - processPackages [process-twarc]: Remove: archive file [/home/abi/fetcher/tmp/process-twarc-0.12.8.tar.gz]
+[2023-07-20 20:14:08] INFO root fetch - main [MainThread]: End processing [process-twarc]: success
+[2023-07-20 20:14:08] INFO root fetch - processPackages [c7n-tencentcloud]: Remove: archive file [/home/abi/fetcher/tmp/c7n_tencentcloud-0.1.8-py3-none-any.whl.zip]
+[2023-07-20 20:14:08] INFO root fetch - processPackages [c7n-tencentcloud]: Remove: archive file [/home/abi/fetcher/tmp/c7n_tencentcloud-0.1.9-py3-none-any.whl.zip]
+[2023-07-20 20:14:08] INFO root fetch - main [MainThread]: End processing [c7n-tencentcloud]: success
+[2023-07-20 20:14:09] INFO root fetch - processPackages [flywheel-cli]: executing diffoscope
+[2023-07-20 20:14:09] INFO root fetch - processPackages [flywheel-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flywheel_cli-9.0.2.dev1-py3-none-any.whl.zip tmp/flywheel_cli-9.0.3-py3-none-any.whl.zip --markdown 20230720/f/flywheel-cli/9.0.2.dev1-9.0.3/diff.md --exclude *.pyd
+[2023-07-20 20:14:09] INFO root fetch - processPackages [llamatune]: Remove: archive file [/home/abi/fetcher/tmp/llamatune-0.2.4.tar.gz]
+[2023-07-20 20:14:09] INFO root fetch - processPackages [llamatune]: Remove: archive file [/home/abi/fetcher/tmp/llamatune-0.4.0.tar.gz]
+[2023-07-20 20:14:09] INFO root fetch - main [MainThread]: End processing [llamatune]: success
+[2023-07-20 20:14:09] INFO root fetch - processPackages [ninjakiwi-api]: Remove: archive file [/home/abi/fetcher/tmp/ninjakiwi_api-0.0.6.tar.gz]
+[2023-07-20 20:14:09] INFO root fetch - processPackages [ninjakiwi-api]: Remove: archive file [/home/abi/fetcher/tmp/ninjakiwi_api-0.0.7.tar.gz]
+[2023-07-20 20:14:09] INFO root fetch - main [MainThread]: End processing [ninjakiwi-api]: success
+[2023-07-20 20:14:09] INFO root fetch - processPackages [c7n-azure]: Remove: archive file [/home/abi/fetcher/tmp/c7n_azure-0.7.8-py3-none-any.whl.zip]
+[2023-07-20 20:14:09] INFO root fetch - processPackages [c7n-azure]: Remove: archive file [/home/abi/fetcher/tmp/c7n_azure-0.7.9-py3-none-any.whl.zip]
+[2023-07-20 20:14:09] INFO root fetch - main [MainThread]: End processing [c7n-azure]: success
+[2023-07-20 20:14:09] INFO root fetch - processPackages [c7n-oci]: Remove: archive file [/home/abi/fetcher/tmp/c7n_oci-0.1.2-py3-none-any.whl.zip]
+[2023-07-20 20:14:09] INFO root fetch - processPackages [c7n-oci]: Remove: archive file [/home/abi/fetcher/tmp/c7n_oci-0.1.3-py3-none-any.whl.zip]
+[2023-07-20 20:14:09] INFO root fetch - main [MainThread]: End processing [c7n-oci]: success
+[2023-07-20 20:14:09] INFO root fetch - processPackages [c7n-awscc]: Remove: archive file [/home/abi/fetcher/tmp/c7n_awscc-0.1.8-py3-none-any.whl.zip]
+[2023-07-20 20:14:09] INFO root fetch - processPackages [c7n-awscc]: Remove: archive file [/home/abi/fetcher/tmp/c7n_awscc-0.1.9-py3-none-any.whl.zip]
+[2023-07-20 20:14:09] INFO root fetch - main [MainThread]: End processing [c7n-awscc]: success
+[2023-07-20 20:14:10] INFO root fetch - processPackages [flywheel-cli]: Remove: archive file [/home/abi/fetcher/tmp/flywheel_cli-9.0.2.dev1-py3-none-any.whl.zip]
+[2023-07-20 20:14:10] INFO root fetch - processPackages [flywheel-cli]: Remove: archive file [/home/abi/fetcher/tmp/flywheel_cli-9.0.3-py3-none-any.whl.zip]
+[2023-07-20 20:14:10] INFO root fetch - main [MainThread]: End processing [flywheel-cli]: success
+[2023-07-20 20:14:10] INFO root fetch - main [MainThread]: Store serial: [18970629]
