@@ -3813,3 +3813,186 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-07-20 11:24:11] INFO root fetch - processPackages [tbp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tbp-nightly-2.9.0a20221130.tar.gz]
 [2023-07-20 11:24:11] INFO root fetch - main [MainThread]: End processing [tbp-nightly]: success
 [2023-07-20 11:24:11] INFO root fetch - main [MainThread]: Store serial: [18964259]
+[2023-07-20 11:29:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18964259]
+[2023-07-20 11:29:20] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2023-07-20 11:29:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: spark-sdk
+[2023-07-20 11:29:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dbt-starrocks
+[2023-07-20 11:29:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: vgs-api-client
+[2023-07-20 11:29:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Vpro
+[2023-07-20 11:29:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hpcflow-new2
+[2023-07-20 11:29:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: verify4py-test
+[2023-07-20 11:29:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: idf-build-apps
+[2023-07-20 11:29:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nvidia-pytriton
+[2023-07-20 11:29:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: kiara-plugin.develop
+[2023-07-20 11:29:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cdk-rds-dump
+[2023-07-20 11:29:20] INFO root fetch - processPackages [kiara-plugin.develop]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-07-20 11:29:20] INFO root fetch - processPackages [idf-build-apps]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-07-20 11:29:20] INFO root fetch - processPackages [cdk-rds-dump]: New version: [1.2.6] Old Version: [1.2.5]
+[2023-07-20 11:29:20] WARNING root fetch - processPackages [dbt-starrocks]: Skipping, unable to determine old version
+[2023-07-20 11:29:20] INFO root fetch - processPackages [dbt-starrocks]: Start processing: hybridbackend-tf115-cpu
+[2023-07-20 11:29:20] INFO root fetch - main [MainThread]: End processing [dbt-starrocks] error
+[2023-07-20 11:29:20] INFO root fetch - processPackages [Vpro]: New version: [0.25] Old Version: [0.2]
+[2023-07-20 11:29:20] INFO root fetch - processPackages [spark-sdk]: New version: [0.5.0rc1] Old Version: [0.4.9]
+[2023-07-20 11:29:20] INFO root fetch - processPackages [verify4py-test]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-07-20 11:29:20] INFO root fetch - processPackages [nvidia-pytriton]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-07-20 11:29:20] INFO root fetch - processPackages [hpcflow-new2]: New version: [0.2.0a9] Old Version: [0.2.0a8]
+[2023-07-20 11:29:20] INFO root fetch - processPackages [vgs-api-client]: New version: [0.0.45] Old Version: [0.0.44]
+[2023-07-20 11:29:20] INFO root fetch - processPackages [hybridbackend-tf115-cpu]: New version: [1.0.0.dev1685335576] Old Version: [0.8.0]
+[2023-07-20 11:29:20] INFO root fetch - processPackages [hybridbackend-tf115-cpu]: Downloading https://files.pythonhosted.org/packages/11/de/1408b520b9e4eed382ee068aba170d6089d3731f0d51ce3e898b0cb2aef6/hybridbackend_tf115_cpu-0.8.0-cp36-cp36m-manylinux_2_24_x86_64.whl
+[2023-07-20 11:29:21] WARNING root fetch - processPackages [hybridbackend-tf115-cpu]: Skipping package: exceeds size limit 27806678>=10485760
+[2023-07-20 11:29:21] INFO root fetch - processPackages [hybridbackend-tf115-cpu]: Start processing: dbt-doris
+[2023-07-20 11:29:21] INFO root fetch - main [MainThread]: End processing [hybridbackend-tf115-cpu] error
+[2023-07-20 11:29:21] INFO root fetch - processPackages [kiara-plugin.develop]: Downloading https://files.pythonhosted.org/packages/c5/84/9f52bdafe05f1637f0c177f07ee7a5b6c7dce22c832decc5799d227e5e27/kiara_plugin.develop-0.4.1.tar.gz
+[2023-07-20 11:29:21] INFO root fetch - processPackages [idf-build-apps]: Downloading https://files.pythonhosted.org/packages/0f/7b/7454b2b0a9af52e4ec3cc5d4ea04148deff0d404ece695b96d6e13967b6a/idf_build_apps-1.0.3.tar.gz
+[2023-07-20 11:29:21] INFO root fetch - processPackages [vgs-api-client]: executing diffoscope
+[2023-07-20 11:29:21] INFO root fetch - processPackages [vgs-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vgs_api_client-0.0.44-py3-none-any.whl.zip tmp/vgs_api_client-0.0.45-py3-none-any.whl.zip --markdown 20230720/v/vgs-api-client/0.0.44-0.0.45/diff.md --exclude *.pyd
+[2023-07-20 11:29:21] INFO root fetch - processPackages [verify4py-test]: Downloading https://files.pythonhosted.org/packages/c0/13/6a337419a4cf9d3b578727b1da12c3e23687d543d2a357b1ce81abaabb2c/verify4py-test-0.1.6.tar.gz
+[2023-07-20 11:29:21] INFO root fetch - processPackages [cdk-rds-dump]: Downloading https://files.pythonhosted.org/packages/a7/df/30cf42242f883ed048869aa44fddfcbedb8f507725bfb754a8123aad53de/cdk-rds-dump-1.2.5.tar.gz
+[2023-07-20 11:29:21] INFO root fetch - processPackages [Vpro]: Downloading https://files.pythonhosted.org/packages/20/0a/75d5cef380daf73dfbcac209bc57dc3bfea554c9bfb2a1d01fe9f266b828/Vpro-0.2.tar.gz
+[2023-07-20 11:29:21] INFO root fetch - processPackages [spark-sdk]: Downloading https://files.pythonhosted.org/packages/78/ef/a94fc9e735951687c8ae5c09971b47a197f864afe848bd3c4ada1591b88a/spark_sdk-0.4.9-py3-none-any.whl
+[2023-07-20 11:29:21] INFO root fetch - processPackages [hpcflow-new2]: Downloading https://files.pythonhosted.org/packages/cc/ca/1fd224eb5a09826e85c92dd157f8295299e773354fdb824dadc0590fb96a/hpcflow_new2-0.2.0a8.tar.gz
+[2023-07-20 11:29:21] INFO root fetch - processPackages [nvidia-pytriton]: Downloading https://files.pythonhosted.org/packages/57/af/acd94b5b03071a70be4b1f796637c8da1efc8b036abe9bcaefdfe97ccc5f/nvidia_pytriton-0.2.1-py3-none-manylinux_2_31_x86_64.whl
+[2023-07-20 11:29:21] INFO root fetch - processPackages [dbt-doris]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-07-20 11:29:21] WARNING root fetch - processPackages [nvidia-pytriton]: Skipping package: exceeds size limit 37427560>=10485760
+[2023-07-20 11:29:21] INFO root fetch - processPackages [nvidia-pytriton]: Start processing: verify4py-test
+[2023-07-20 11:29:21] INFO root fetch - main [MainThread]: End processing [nvidia-pytriton] error
+[2023-07-20 11:29:21] INFO root fetch - processPackages [verify4py-test]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-07-20 11:29:21] INFO root fetch - processPackages [idf-build-apps]: Downloading https://files.pythonhosted.org/packages/0b/03/48a3eee6a6d63e1c15603704727ed2837276a8c363c78fcc7638ae7a4d29/idf_build_apps-1.0.4.tar.gz
+[2023-07-20 11:29:21] INFO root fetch - processPackages [verify4py-test]: Downloading https://files.pythonhosted.org/packages/b3/c0/5934437badcf7bc55be3cec9e591965661f7644d699da0008cb5641f0a3f/verify4py-test-0.1.7.tar.gz
+[2023-07-20 11:29:21] INFO root fetch - processPackages [Vpro]: Downloading https://files.pythonhosted.org/packages/92/9d/ff21a6c1806b9eeb3e35a7d2dd2e80e2e4f5a09e4671aecc6893084c0ae1/Vpro-0.25.tar.gz
+[2023-07-20 11:29:21] INFO root fetch - processPackages [dbt-doris]: Downloading https://files.pythonhosted.org/packages/82/1f/1b02c05e9b99f6e864796a6aa4e9809a61d858bd315d1e21178d92e9b337/dbt-doris-0.3.0.tar.gz
+[2023-07-20 11:29:21] INFO root fetch - processPackages [verify4py-test]: Downloading https://files.pythonhosted.org/packages/b3/c0/5934437badcf7bc55be3cec9e591965661f7644d699da0008cb5641f0a3f/verify4py-test-0.1.7.tar.gz
+[2023-07-20 11:29:21] INFO root fetch - processPackages [kiara-plugin.develop]: Downloading https://files.pythonhosted.org/packages/27/f1/1a25cb3879276de0957caae5a2b4e5a4c56ac699acefeee8a07a1a5f98f2/kiara_plugin.develop-0.4.2.tar.gz
+[2023-07-20 11:29:21] INFO root fetch - processPackages [hpcflow-new2]: Downloading https://files.pythonhosted.org/packages/8f/94/5cf6c22b7755a1754a5e0798543a3a471342e39b288d923874c390867d9f/hpcflow_new2-0.2.0a9.tar.gz
+[2023-07-20 11:29:21] INFO root fetch - processPackages [spark-sdk]: Downloading https://files.pythonhosted.org/packages/3b/85/93867d0d8bbb52fd4b4697a5840646287a5677dff5af173d7cfa5e8209bb/spark_sdk-0.5.0rc1-py3-none-any.whl
+[2023-07-20 11:29:21] INFO root fetch - processPackages [vgs-api-client]: Remove: archive file [/home/abi/fetcher/tmp/vgs_api_client-0.0.44-py3-none-any.whl.zip]
+[2023-07-20 11:29:21] INFO root fetch - processPackages [vgs-api-client]: Remove: archive file [/home/abi/fetcher/tmp/vgs_api_client-0.0.45-py3-none-any.whl.zip]
+[2023-07-20 11:29:21] INFO root fetch - processPackages [vgs-api-client]: Start processing: mknodes
+[2023-07-20 11:29:21] INFO root fetch - main [MainThread]: End processing [vgs-api-client]: success
+[2023-07-20 11:29:21] INFO root fetch - processPackages [idf-build-apps]: executing diffoscope
+[2023-07-20 11:29:21] INFO root fetch - processPackages [idf-build-apps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idf_build_apps-1.0.3.tar.gz tmp/idf_build_apps-1.0.4.tar.gz --markdown 20230720/i/idf-build-apps/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-07-20 11:29:21] INFO root fetch - processPackages [Vpro]: executing diffoscope
+[2023-07-20 11:29:21] INFO root fetch - processPackages [Vpro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Vpro-0.2.tar.gz tmp/Vpro-0.25.tar.gz --markdown 20230720/V/Vpro/0.2-0.25/diff.md --exclude *.pyd
+[2023-07-20 11:29:21] INFO root fetch - processPackages [verify4py-test]: executing diffoscope
+[2023-07-20 11:29:21] INFO root fetch - processPackages [verify4py-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/verify4py-test-0.1.6.tar.gz tmp/verify4py-test-0.1.7.tar.gz --markdown 20230720/v/verify4py-test/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-07-20 11:29:21] INFO root fetch - processPackages [cdk-rds-dump]: Downloading https://files.pythonhosted.org/packages/d7/7a/3612a78c61aebbb38ed82a4be947fb67bf469412384d01208b1f44cabe05/cdk-rds-dump-1.2.6.tar.gz
+[2023-07-20 11:29:21] INFO root fetch - processPackages [kiara-plugin.develop]: executing diffoscope
+[2023-07-20 11:29:21] INFO root fetch - processPackages [kiara-plugin.develop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kiara_plugin.develop-0.4.1.tar.gz tmp/kiara_plugin.develop-0.4.2.tar.gz --markdown 20230720/k/kiara-plugin.develop/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-07-20 11:29:21] INFO root fetch - processPackages [hpcflow-new2]: executing diffoscope
+[2023-07-20 11:29:21] INFO root fetch - processPackages [hpcflow-new2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hpcflow_new2-0.2.0a8.tar.gz tmp/hpcflow_new2-0.2.0a9.tar.gz --markdown 20230720/h/hpcflow-new2/0.2.0a8-0.2.0a9/diff.md --exclude *.pyd
+[2023-07-20 11:29:21] INFO root fetch - processPackages [spark-sdk]: executing diffoscope
+[2023-07-20 11:29:21] INFO root fetch - processPackages [spark-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spark_sdk-0.4.9-py3-none-any.whl.zip tmp/spark_sdk-0.5.0rc1-py3-none-any.whl.zip --markdown 20230720/s/spark-sdk/0.4.9-0.5.0rc1/diff.md --exclude *.pyd
+[2023-07-20 11:29:22] INFO root fetch - processPackages [mknodes]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-07-20 11:29:22] INFO root fetch - processPackages [dbt-doris]: Downloading https://files.pythonhosted.org/packages/f9/0a/ce624bc2c0e4b42c5ad145cd31541d11f13a079f26c148079c3e48317b7f/dbt-doris-0.3.1.tar.gz
+[2023-07-20 11:29:22] INFO root fetch - processPackages [verify4py-test]: Downloading https://files.pythonhosted.org/packages/12/bd/6ff211b4d11a682dbb28a147f97a9453b8d5117e5c87dd1bd86ec7758542/verify4py-test-0.1.8.tar.gz
+[2023-07-20 11:29:22] INFO root fetch - processPackages [cdk-rds-dump]: executing diffoscope
+[2023-07-20 11:29:22] INFO root fetch - processPackages [cdk-rds-dump]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-rds-dump-1.2.5.tar.gz tmp/cdk-rds-dump-1.2.6.tar.gz --markdown 20230720/c/cdk-rds-dump/1.2.5-1.2.6/diff.md --exclude *.pyd
+[2023-07-20 11:29:22] INFO root fetch - processPackages [dbt-doris]: executing diffoscope
+[2023-07-20 11:29:22] INFO root fetch - processPackages [dbt-doris]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt-doris-0.3.0.tar.gz tmp/dbt-doris-0.3.1.tar.gz --markdown 20230720/d/dbt-doris/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-07-20 11:29:22] INFO root fetch - processPackages [mknodes]: Downloading https://files.pythonhosted.org/packages/d5/39/03e255e5416e3bd4fce03e516c1739d579e43471a53da0b37c2e245c9664/mknodes-0.1.0.tar.gz
+[2023-07-20 11:29:22] INFO root fetch - processPackages [verify4py-test]: executing diffoscope
+[2023-07-20 11:29:22] INFO root fetch - processPackages [verify4py-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/verify4py-test-0.1.7.tar.gz tmp/verify4py-test-0.1.8.tar.gz --markdown 20230720/v/verify4py-test/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-07-20 11:29:22] INFO root fetch - processPackages [mknodes]: Downloading https://files.pythonhosted.org/packages/65/0c/4a58660dbe2a95ecd4c3475e9d6aaf3747e00768bfd10e04c3a89b1ae5a4/mknodes-0.2.0.tar.gz
+[2023-07-20 11:29:22] INFO root fetch - processPackages [mknodes]: executing diffoscope
+[2023-07-20 11:29:22] INFO root fetch - processPackages [mknodes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mknodes-0.1.0.tar.gz tmp/mknodes-0.2.0.tar.gz --markdown 20230720/m/mknodes/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-07-20 11:29:23] INFO root fetch - processPackages [Vpro]: Remove: archive file [/home/abi/fetcher/tmp/Vpro-0.2.tar.gz]
+[2023-07-20 11:29:23] INFO root fetch - processPackages [Vpro]: Remove: archive file [/home/abi/fetcher/tmp/Vpro-0.25.tar.gz]
+[2023-07-20 11:29:23] INFO root fetch - processPackages [Vpro]: Start processing: oddrn-generator
+[2023-07-20 11:29:23] INFO root fetch - main [MainThread]: End processing [Vpro]: success
+[2023-07-20 11:29:23] INFO root fetch - processPackages [verify4py-test]: Remove: archive file [/home/abi/fetcher/tmp/verify4py-test-0.1.6.tar.gz]
+[2023-07-20 11:29:23] INFO root fetch - processPackages [verify4py-test]: Remove: archive file [/home/abi/fetcher/tmp/verify4py-test-0.1.7.tar.gz]
+[2023-07-20 11:29:23] INFO root fetch - processPackages [verify4py-test]: Start processing: cloudimized
+[2023-07-20 11:29:23] INFO root fetch - main [MainThread]: End processing [verify4py-test]: success
+[2023-07-20 11:29:23] INFO root fetch - processPackages [oddrn-generator]: New version: [0.1.9] Old Version: [0.1.88]
+[2023-07-20 11:29:23] INFO root fetch - processPackages [cloudimized]: New version: [1.3.6rc1] Old Version: [1.3.5rc1]
+[2023-07-20 11:29:23] INFO root fetch - processPackages [spark-sdk]: Remove: archive file [/home/abi/fetcher/tmp/spark_sdk-0.4.9-py3-none-any.whl.zip]
+[2023-07-20 11:29:23] INFO root fetch - processPackages [spark-sdk]: Remove: archive file [/home/abi/fetcher/tmp/spark_sdk-0.5.0rc1-py3-none-any.whl.zip]
+[2023-07-20 11:29:23] INFO root fetch - processPackages [spark-sdk]: Start processing: TinetApiRequest
+[2023-07-20 11:29:23] INFO root fetch - main [MainThread]: End processing [spark-sdk]: success
+[2023-07-20 11:29:23] INFO root fetch - processPackages [cloudimized]: Downloading https://files.pythonhosted.org/packages/77/ab/81b7e8e774a8226781bb02f1f962bda0593f4bc117003aabd4c1b176fb9c/cloudimized-1.3.5rc1.tar.gz
+[2023-07-20 11:29:23] INFO root fetch - processPackages [hpcflow-new2]: Remove: archive file [/home/abi/fetcher/tmp/hpcflow_new2-0.2.0a8.tar.gz]
+[2023-07-20 11:29:23] INFO root fetch - processPackages [hpcflow-new2]: Remove: archive file [/home/abi/fetcher/tmp/hpcflow_new2-0.2.0a9.tar.gz]
+[2023-07-20 11:29:23] INFO root fetch - processPackages [hpcflow-new2]: Start processing: capsolver
+[2023-07-20 11:29:23] INFO root fetch - main [MainThread]: End processing [hpcflow-new2]: success
+[2023-07-20 11:29:23] INFO root fetch - processPackages [oddrn-generator]: Downloading https://files.pythonhosted.org/packages/9f/89/751dc6a1d0809e37d93d3fa1684cfa0525210d5e9bc2321ed5a58e8aadc9/oddrn_generator-0.1.88.tar.gz
+[2023-07-20 11:29:23] INFO root fetch - processPackages [TinetApiRequest]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-20 11:29:23] INFO root fetch - processPackages [idf-build-apps]: Remove: archive file [/home/abi/fetcher/tmp/idf_build_apps-1.0.3.tar.gz]
+[2023-07-20 11:29:23] INFO root fetch - processPackages [idf-build-apps]: Remove: archive file [/home/abi/fetcher/tmp/idf_build_apps-1.0.4.tar.gz]
+[2023-07-20 11:29:23] INFO root fetch - processPackages [idf-build-apps]: Start processing: gulf-id-scanner
+[2023-07-20 11:29:23] INFO root fetch - main [MainThread]: End processing [idf-build-apps]: success
+[2023-07-20 11:29:23] INFO root fetch - processPackages [capsolver]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-07-20 11:29:23] ERROR root fetch - processPackages [verify4py-test]: Diffoscope failed: time="2023-07-20T11:29:22+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 66, in compare_root_paths
+    file1 = specialize(FilesystemFile(path1, container=container1))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/specialize.py", line 54, in specialize
+    if try_recognize(file, cls, cls.recognizes):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/specialize.py", line 37, in try_recognize
+    if not recognizes(file):
+           ^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/missing_file.py", line 43, in recognizes
+    assert Config().new_file, f"{file.name} does not exist"
+AssertionError: tmp/verify4py-test-0.1.7.tar.gz does not exist
+
+[2023-07-20 11:29:23] INFO root fetch - processPackages [verify4py-test]: Start processing: mujoco-dev
+[2023-07-20 11:29:23] INFO root fetch - main [MainThread]: End processing [verify4py-test] error
+[2023-07-20 11:29:23] INFO root fetch - processPackages [dbt-doris]: Remove: archive file [/home/abi/fetcher/tmp/dbt-doris-0.3.0.tar.gz]
+[2023-07-20 11:29:23] INFO root fetch - processPackages [dbt-doris]: Remove: archive file [/home/abi/fetcher/tmp/dbt-doris-0.3.1.tar.gz]
+[2023-07-20 11:29:23] INFO root fetch - processPackages [dbt-doris]: Start processing: claude-api-py
+[2023-07-20 11:29:23] INFO root fetch - main [MainThread]: End processing [dbt-doris]: success
+[2023-07-20 11:29:23] INFO root fetch - processPackages [cloudimized]: Downloading https://files.pythonhosted.org/packages/57/b2/26aac1c129dcaa1fdcbe42ddf9204ea144cae4d5a6bea91e249bc9c6aea8/cloudimized-1.3.6rc1.tar.gz
+[2023-07-20 11:29:23] INFO root fetch - processPackages [TinetApiRequest]: Downloading https://files.pythonhosted.org/packages/d6/2f/dd85d8935bc7665af2b44c89bab28f0ba08d08a06422a14f72fc6428b372/TinetApiRequest-1.0.0.tar.gz
+[2023-07-20 11:29:23] WARNING root fetch - processPackages [gulf-id-scanner]: Skipping, unable to determine old version
+[2023-07-20 11:29:23] INFO root fetch - main [MainThread]: End processing [gulf-id-scanner] error
+[2023-07-20 11:29:24] INFO root fetch - processPackages [mujoco-dev]: New version: [2.3.7.dev549565890] Old Version: [2.3.6.dev549449372]
+[2023-07-20 11:29:24] INFO root fetch - processPackages [kiara-plugin.develop]: Remove: archive file [/home/abi/fetcher/tmp/kiara_plugin.develop-0.4.1.tar.gz]
+[2023-07-20 11:29:24] INFO root fetch - processPackages [kiara-plugin.develop]: Remove: archive file [/home/abi/fetcher/tmp/kiara_plugin.develop-0.4.2.tar.gz]
+[2023-07-20 11:29:24] INFO root fetch - main [MainThread]: End processing [kiara-plugin.develop]: success
+[2023-07-20 11:29:24] ERROR root fetch - processPackages [claude-api-py]: Unable to get metadata: No such project 'claude-api-py'
+[2023-07-20 11:29:24] INFO root fetch - main [MainThread]: End processing [claude-api-py] error
+[2023-07-20 11:29:24] INFO root fetch - processPackages [cloudimized]: executing diffoscope
+[2023-07-20 11:29:24] INFO root fetch - processPackages [cloudimized]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudimized-1.3.5rc1.tar.gz tmp/cloudimized-1.3.6rc1.tar.gz --markdown 20230720/c/cloudimized/1.3.5rc1-1.3.6rc1/diff.md --exclude *.pyd
+[2023-07-20 11:29:24] INFO root fetch - processPackages [capsolver]: Downloading https://files.pythonhosted.org/packages/9a/b0/232ba60fb2c1cbaf1efedeae42900011c3c7257d90ad58b371fd7d9111eb/capsolver-1.0.6.tar.gz
+[2023-07-20 11:29:24] INFO root fetch - processPackages [oddrn-generator]: Downloading https://files.pythonhosted.org/packages/2a/2e/c01483d58b0cf1c450eb92f93a9180e3d71bda2dfe4cbe678bad80d62bfb/oddrn-generator-0.1.9.tar.gz
+[2023-07-20 11:29:24] INFO root fetch - processPackages [cdk-rds-dump]: Remove: archive file [/home/abi/fetcher/tmp/cdk-rds-dump-1.2.5.tar.gz]
+[2023-07-20 11:29:24] INFO root fetch - processPackages [cdk-rds-dump]: Remove: archive file [/home/abi/fetcher/tmp/cdk-rds-dump-1.2.6.tar.gz]
+[2023-07-20 11:29:24] INFO root fetch - main [MainThread]: End processing [cdk-rds-dump]: success
+[2023-07-20 11:29:24] INFO root fetch - processPackages [oddrn-generator]: executing diffoscope
+[2023-07-20 11:29:24] INFO root fetch - processPackages [oddrn-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oddrn_generator-0.1.88.tar.gz tmp/oddrn-generator-0.1.9.tar.gz --markdown 20230720/o/oddrn-generator/0.1.88-0.1.9/diff.md --exclude *.pyd
+[2023-07-20 11:29:24] INFO root fetch - processPackages [TinetApiRequest]: Downloading https://files.pythonhosted.org/packages/29/ef/4066fcc6a78a692e6697c60555961172290f904c0f112eab23451eb1e87e/TinetApiRequest-1.0.1.tar.gz
+[2023-07-20 11:29:24] INFO root fetch - processPackages [mujoco-dev]: Downloading https://files.pythonhosted.org/packages/46/ba/d6b7f17b5430fe0aeb712591358c031755a90896952e83784031566a4e25/mujoco_dev-2.3.6.dev549449372-cp39-cp39-win_amd64.whl
+[2023-07-20 11:29:24] INFO root fetch - processPackages [mknodes]: Remove: archive file [/home/abi/fetcher/tmp/mknodes-0.1.0.tar.gz]
+[2023-07-20 11:29:24] INFO root fetch - processPackages [mknodes]: Remove: archive file [/home/abi/fetcher/tmp/mknodes-0.2.0.tar.gz]
+[2023-07-20 11:29:24] INFO root fetch - main [MainThread]: End processing [mknodes]: success
+[2023-07-20 11:29:24] INFO root fetch - processPackages [TinetApiRequest]: executing diffoscope
+[2023-07-20 11:29:24] INFO root fetch - processPackages [TinetApiRequest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TinetApiRequest-1.0.0.tar.gz tmp/TinetApiRequest-1.0.1.tar.gz --markdown 20230720/T/TinetApiRequest/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-20 11:29:24] INFO root fetch - processPackages [capsolver]: Downloading https://files.pythonhosted.org/packages/af/aa/9c2452c1d696ed72a9eea62920d0d4fcdadde1b30b57d23faa422bd1cd54/capsolver-1.0.7.tar.gz
+[2023-07-20 11:29:24] INFO root fetch - processPackages [capsolver]: executing diffoscope
+[2023-07-20 11:29:24] INFO root fetch - processPackages [capsolver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/capsolver-1.0.6.tar.gz tmp/capsolver-1.0.7.tar.gz --markdown 20230720/c/capsolver/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2023-07-20 11:29:25] INFO root fetch - processPackages [oddrn-generator]: Remove: archive file [/home/abi/fetcher/tmp/oddrn_generator-0.1.88.tar.gz]
+[2023-07-20 11:29:25] INFO root fetch - processPackages [oddrn-generator]: Remove: archive file [/home/abi/fetcher/tmp/oddrn-generator-0.1.9.tar.gz]
+[2023-07-20 11:29:25] INFO root fetch - main [MainThread]: End processing [oddrn-generator]: success
+[2023-07-20 11:29:25] INFO root fetch - processPackages [cloudimized]: Remove: archive file [/home/abi/fetcher/tmp/cloudimized-1.3.5rc1.tar.gz]
+[2023-07-20 11:29:25] INFO root fetch - processPackages [cloudimized]: Remove: archive file [/home/abi/fetcher/tmp/cloudimized-1.3.6rc1.tar.gz]
+[2023-07-20 11:29:25] INFO root fetch - main [MainThread]: End processing [cloudimized]: success
+[2023-07-20 11:29:25] INFO root fetch - processPackages [mujoco-dev]: Downloading https://files.pythonhosted.org/packages/76/d4/b5a37f1d530357c6b65457bd241e9d69d00df6234c075630e41d2636f0a4/mujoco_dev-2.3.7.dev549565890-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-07-20 11:29:25] INFO root fetch - processPackages [TinetApiRequest]: Remove: archive file [/home/abi/fetcher/tmp/TinetApiRequest-1.0.0.tar.gz]
+[2023-07-20 11:29:25] INFO root fetch - processPackages [TinetApiRequest]: Remove: archive file [/home/abi/fetcher/tmp/TinetApiRequest-1.0.1.tar.gz]
+[2023-07-20 11:29:25] INFO root fetch - main [MainThread]: End processing [TinetApiRequest]: success
+[2023-07-20 11:29:25] INFO root fetch - processPackages [capsolver]: Remove: archive file [/home/abi/fetcher/tmp/capsolver-1.0.6.tar.gz]
+[2023-07-20 11:29:25] INFO root fetch - processPackages [capsolver]: Remove: archive file [/home/abi/fetcher/tmp/capsolver-1.0.7.tar.gz]
+[2023-07-20 11:29:25] INFO root fetch - main [MainThread]: End processing [capsolver]: success
+[2023-07-20 11:29:26] INFO root fetch - processPackages [mujoco-dev]: executing diffoscope
+[2023-07-20 11:29:26] INFO root fetch - processPackages [mujoco-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mujoco_dev-2.3.6.dev549449372-cp39-cp39-win_amd64.whl.zip tmp/mujoco_dev-2.3.7.dev549565890-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230720/m/mujoco-dev/2.3.6.dev549449372-2.3.7.dev549565890/diff.md --exclude *.pyd
+[2023-07-20 11:29:29] INFO root fetch - processPackages [mujoco-dev]: Remove: archive file [/home/abi/fetcher/tmp/mujoco_dev-2.3.6.dev549449372-cp39-cp39-win_amd64.whl.zip]
+[2023-07-20 11:29:29] INFO root fetch - processPackages [mujoco-dev]: Remove: archive file [/home/abi/fetcher/tmp/mujoco_dev-2.3.7.dev549565890-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-20 11:29:29] INFO root fetch - main [MainThread]: End processing [mujoco-dev]: success
+[2023-07-20 11:29:29] INFO root fetch - main [MainThread]: Store serial: [18964331]
