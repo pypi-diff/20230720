@@ -23160,3 +23160,132 @@ AssertionError: tmp/threemystic_cloud_data_client-0.1.17.tar.gz does not exist
 [2023-07-20 22:26:53] INFO root fetch - processPackages [vstutils]: Remove: archive file [/home/abi/fetcher/tmp/vstutils-5.6.4.tar.gz]
 [2023-07-20 22:26:53] INFO root fetch - main [MainThread]: End processing [vstutils]: success
 [2023-07-20 22:26:53] INFO root fetch - main [MainThread]: Store serial: [18972576]
+[2023-07-20 22:31:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18972576]
+[2023-07-20 22:32:03] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-07-20 22:32:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: devcycle-python-server-sdk
+[2023-07-20 22:32:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: colab-iv01
+[2023-07-20 22:32:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rules-validations
+[2023-07-20 22:32:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: universi
+[2023-07-20 22:32:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: keyring-pybridge
+[2023-07-20 22:32:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: rubiran
+[2023-07-20 22:32:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyCHX
+[2023-07-20 22:32:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: seqchromloader
+[2023-07-20 22:32:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nwebclient
+[2023-07-20 22:32:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: sumatra-client
+[2023-07-20 22:32:03] INFO root fetch - processPackages [seqchromloader]: New version: [0.6.5] Old Version: [0.6.4]
+[2023-07-20 22:32:03] INFO root fetch - processPackages [pyCHX]: New version: [4.2.0] Old Version: [4.1.2]
+[2023-07-20 22:32:03] INFO root fetch - processPackages [universi]: New version: [0.8.0] Old Version: [0.7.0]
+[2023-07-20 22:32:03] INFO root fetch - processPackages [rules-validations]: New version: [0.6.5] Old Version: [0.5.2]
+[2023-07-20 22:32:03] WARNING root fetch - processPackages [colab-iv01]: Skipping, unable to determine old version
+[2023-07-20 22:32:03] INFO root fetch - processPackages [colab-iv01]: Start processing: talc
+[2023-07-20 22:32:03] INFO root fetch - main [MainThread]: End processing [colab-iv01] error
+[2023-07-20 22:32:03] INFO root fetch - processPackages [nwebclient]: New version: [1.0.94] Old Version: [1.0.47]
+[2023-07-20 22:32:03] WARNING root fetch - processPackages [keyring-pybridge]: Skipping, unable to determine old version
+[2023-07-20 22:32:03] INFO root fetch - processPackages [keyring-pybridge]: Start processing: lilacai
+[2023-07-20 22:32:03] INFO root fetch - main [MainThread]: End processing [keyring-pybridge] error
+[2023-07-20 22:32:03] INFO root fetch - processPackages [devcycle-python-server-sdk]: New version: [3.3.2] Old Version: [3.3.1]
+[2023-07-20 22:32:03] INFO root fetch - processPackages [sumatra-client]: New version: [1.3.2] Old Version: [1.3.1]
+[2023-07-20 22:32:03] INFO root fetch - processPackages [rubiran]: New version: [2.0.3] Old Version: [2.0.2]
+[2023-07-20 22:32:03] INFO root fetch - processPackages [talc]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-20 22:32:03] INFO root fetch - processPackages [lilacai]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-20 22:32:03] INFO root fetch - processPackages [rules-validations]: Downloading https://files.pythonhosted.org/packages/60/ba/abaa93d503cea2412aab780e0224eda7a3a4fe9e861fb7566bcbdf6769eb/rules_validations-0.5.2.tar.gz
+[2023-07-20 22:32:03] INFO root fetch - processPackages [nwebclient]: Downloading https://files.pythonhosted.org/packages/f8/5a/617896767d6ed09371dcf4b5a8041793a603d156e939d0b03b5fba1552d8/nwebclient-1.0.47.tar.gz
+[2023-07-20 22:32:03] INFO root fetch - processPackages [seqchromloader]: Downloading https://files.pythonhosted.org/packages/4d/75/bca9bd419c34e9b313764e2dff11ab60a84f8636e3d7288a379e0052d934/seqchromloader-0.6.4.tar.gz
+[2023-07-20 22:32:03] INFO root fetch - processPackages [universi]: Downloading https://files.pythonhosted.org/packages/ef/12/e36eaf4f95521762396ba1da54fbb5ee13ee1e13bb0eb9f9dda5ad193076/universi-0.7.0.tar.gz
+[2023-07-20 22:32:03] INFO root fetch - processPackages [pyCHX]: Downloading https://files.pythonhosted.org/packages/50/7e/325dce7e7f110156995e1b9ce4f14b9183e6637a63646303557aa7b39286/pyCHX-4.1.2.tar.gz
+[2023-07-20 22:32:04] INFO root fetch - processPackages [rubiran]: Downloading https://files.pythonhosted.org/packages/6a/77/2419bc28231c390ac3d6bef24bec3178cca9e00638be475d83a5863b4856/rubiran-2.0.2.tar.gz
+[2023-07-20 22:32:04] INFO root fetch - processPackages [devcycle-python-server-sdk]: Downloading https://files.pythonhosted.org/packages/10/18/bbb682104675d59f8940bf95ea70cd587feb2dc0d0647346fc96cf4bd3cd/devcycle-python-server-sdk-3.3.1.tar.gz
+[2023-07-20 22:32:04] INFO root fetch - processPackages [sumatra-client]: Downloading https://files.pythonhosted.org/packages/62/fe/63294a0c1bdd3ef87024a95516b35bdf0b2cad417ea9f9e9e078e2e8e548/sumatra-client-1.3.1.tar.gz
+[2023-07-20 22:32:04] INFO root fetch - processPackages [lilacai]: Downloading https://files.pythonhosted.org/packages/a8/5c/f2bc9580431fd335de5cfa5e278e63139ce47d41a6bb511cfa4e34a2f1a9/lilacai-0.0.4.tar.gz
+[2023-07-20 22:32:04] INFO root fetch - processPackages [nwebclient]: Downloading https://files.pythonhosted.org/packages/12/6e/d067b316a4ac231633403551f2c003e4ea1de809ac114b82af80cd324ec1/nwebclient-1.0.94.tar.gz
+[2023-07-20 22:32:04] INFO root fetch - processPackages [rules-validations]: Downloading https://files.pythonhosted.org/packages/05/dd/920536150fd6e4974cdc64c59333ac8faed99be6466e3e71177bd53f5ce8/rules_validations-0.6.5.tar.gz
+[2023-07-20 22:32:04] INFO root fetch - processPackages [talc]: Downloading https://files.pythonhosted.org/packages/c2/83/be080bf4fdfd4781fa9ccf21c6b7645e6a2064fc492df9f17868bc60b3d7/talc-0.0.2.tar.gz
+[2023-07-20 22:32:04] INFO root fetch - processPackages [nwebclient]: executing diffoscope
+[2023-07-20 22:32:04] INFO root fetch - processPackages [nwebclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nwebclient-1.0.47.tar.gz tmp/nwebclient-1.0.94.tar.gz --markdown 20230720/n/nwebclient/1.0.47-1.0.94/diff.md --exclude *.pyd
+[2023-07-20 22:32:04] INFO root fetch - processPackages [seqchromloader]: Downloading https://files.pythonhosted.org/packages/58/e1/ab4c86ef7add112bbbab9017e0215b13263cf5637eae01425ab40fd65951/seqchromloader-0.6.5.tar.gz
+[2023-07-20 22:32:04] INFO root fetch - processPackages [rubiran]: Downloading https://files.pythonhosted.org/packages/2c/d2/cd31d90d543ada4778a34b64d42d078df27ec923d552c079fe4f7e669547/rubiran-2.0.3.tar.gz
+[2023-07-20 22:32:04] INFO root fetch - processPackages [devcycle-python-server-sdk]: Downloading https://files.pythonhosted.org/packages/c0/f5/8921b0b24b34489204fbf66518c68de27d1c755d9e82287e692ceb6954fb/devcycle-python-server-sdk-3.3.2.tar.gz
+[2023-07-20 22:32:04] INFO root fetch - processPackages [universi]: Downloading https://files.pythonhosted.org/packages/7d/ee/8b55c8bdda1f63b615e079678b3d8122af815b6945f9b44ade3893b61598/universi-0.8.0.tar.gz
+[2023-07-20 22:32:04] INFO root fetch - processPackages [rules-validations]: executing diffoscope
+[2023-07-20 22:32:04] INFO root fetch - processPackages [rules-validations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rules_validations-0.5.2.tar.gz tmp/rules_validations-0.6.5.tar.gz --markdown 20230720/r/rules-validations/0.5.2-0.6.5/diff.md --exclude *.pyd
+[2023-07-20 22:32:04] INFO root fetch - processPackages [sumatra-client]: Downloading https://files.pythonhosted.org/packages/a3/d6/183af3dbcd247b1036549bc06afcdac75f80e87d2b29f8a3537e1647fcf2/sumatra-client-1.3.2.tar.gz
+[2023-07-20 22:32:04] INFO root fetch - processPackages [pyCHX]: Downloading https://files.pythonhosted.org/packages/81/9e/c638188fb0b20275550db5ba56eec0ff4d5a0f3bf0aae3c752aafe6949ad/pyCHX-4.2.0-py3.11.egg
+[2023-07-20 22:32:04] INFO root fetch - processPackages [lilacai]: Downloading https://files.pythonhosted.org/packages/1f/3b/f6c647cc17dd31771a826cf46270e1206526d75b66a68e4e025b4a3e0485/lilacai-0.0.5.tar.gz
+[2023-07-20 22:32:04] INFO root fetch - processPackages [seqchromloader]: executing diffoscope
+[2023-07-20 22:32:04] INFO root fetch - processPackages [seqchromloader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seqchromloader-0.6.4.tar.gz tmp/seqchromloader-0.6.5.tar.gz --markdown 20230720/s/seqchromloader/0.6.4-0.6.5/diff.md --exclude *.pyd
+[2023-07-20 22:32:04] INFO root fetch - processPackages [universi]: executing diffoscope
+[2023-07-20 22:32:04] INFO root fetch - processPackages [universi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/universi-0.7.0.tar.gz tmp/universi-0.8.0.tar.gz --markdown 20230720/u/universi/0.7.0-0.8.0/diff.md --exclude *.pyd
+[2023-07-20 22:32:04] INFO root fetch - processPackages [devcycle-python-server-sdk]: executing diffoscope
+[2023-07-20 22:32:04] INFO root fetch - processPackages [devcycle-python-server-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/devcycle-python-server-sdk-3.3.1.tar.gz tmp/devcycle-python-server-sdk-3.3.2.tar.gz --markdown 20230720/d/devcycle-python-server-sdk/3.3.1-3.3.2/diff.md --exclude *.pyd
+[2023-07-20 22:32:04] INFO root fetch - processPackages [rubiran]: executing diffoscope
+[2023-07-20 22:32:04] INFO root fetch - processPackages [rubiran]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rubiran-2.0.2.tar.gz tmp/rubiran-2.0.3.tar.gz --markdown 20230720/r/rubiran/2.0.2-2.0.3/diff.md --exclude *.pyd
+[2023-07-20 22:32:04] INFO root fetch - processPackages [sumatra-client]: executing diffoscope
+[2023-07-20 22:32:04] INFO root fetch - processPackages [sumatra-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sumatra-client-1.3.1.tar.gz tmp/sumatra-client-1.3.2.tar.gz --markdown 20230720/s/sumatra-client/1.3.1-1.3.2/diff.md --exclude *.pyd
+[2023-07-20 22:32:04] INFO root fetch - processPackages [talc]: Downloading https://files.pythonhosted.org/packages/a9/1b/19a64b09ef8195315b78e990e4a41fbe74850b14b5522115179621d2cbf8/talc-0.0.3.tar.gz
+[2023-07-20 22:32:04] INFO root fetch - processPackages [lilacai]: executing diffoscope
+[2023-07-20 22:32:04] INFO root fetch - processPackages [lilacai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lilacai-0.0.4.tar.gz tmp/lilacai-0.0.5.tar.gz --markdown 20230720/l/lilacai/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-20 22:32:04] INFO root fetch - processPackages [talc]: executing diffoscope
+[2023-07-20 22:32:04] INFO root fetch - processPackages [talc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/talc-0.0.2.tar.gz tmp/talc-0.0.3.tar.gz --markdown 20230720/t/talc/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-20 22:32:05] INFO root fetch - processPackages [pyCHX]: executing diffoscope
+[2023-07-20 22:32:05] INFO root fetch - processPackages [pyCHX]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyCHX-4.1.2.tar.gz tmp/pyCHX-4.2.0-py3.11.egg --markdown 20230720/p/pyCHX/4.1.2-4.2.0/diff.md --exclude *.pyd
+[2023-07-20 22:32:05] INFO root fetch - processPackages [nwebclient]: Remove: archive file [/home/abi/fetcher/tmp/nwebclient-1.0.47.tar.gz]
+[2023-07-20 22:32:05] INFO root fetch - processPackages [nwebclient]: Remove: archive file [/home/abi/fetcher/tmp/nwebclient-1.0.94.tar.gz]
+[2023-07-20 22:32:05] INFO root fetch - processPackages [nwebclient]: Start processing: hca-import-validation
+[2023-07-20 22:32:05] INFO root fetch - main [MainThread]: End processing [nwebclient]: success
+[2023-07-20 22:32:05] INFO root fetch - processPackages [hca-import-validation]: New version: [0.0.8] Old Version: [0.0.4]
+[2023-07-20 22:32:05] INFO root fetch - processPackages [hca-import-validation]: Downloading https://files.pythonhosted.org/packages/9d/ef/e52ba7ac72ca22c8aa60dccd3b145878e8bd2089c839a9f7c1caa1b234d4/hca-import-validation-0.0.4.tar.gz
+[2023-07-20 22:32:06] INFO root fetch - processPackages [rules-validations]: Remove: archive file [/home/abi/fetcher/tmp/rules_validations-0.5.2.tar.gz]
+[2023-07-20 22:32:06] INFO root fetch - processPackages [rules-validations]: Remove: archive file [/home/abi/fetcher/tmp/rules_validations-0.6.5.tar.gz]
+[2023-07-20 22:32:06] INFO root fetch - processPackages [rules-validations]: Start processing: ckanext-vip-portal
+[2023-07-20 22:32:06] INFO root fetch - main [MainThread]: End processing [rules-validations]: success
+[2023-07-20 22:32:06] INFO root fetch - processPackages [ckanext-vip-portal]: New version: [0.2.3] Old Version: [0.2.2.post1]
+[2023-07-20 22:32:06] INFO root fetch - processPackages [seqchromloader]: Remove: archive file [/home/abi/fetcher/tmp/seqchromloader-0.6.4.tar.gz]
+[2023-07-20 22:32:06] INFO root fetch - processPackages [seqchromloader]: Remove: archive file [/home/abi/fetcher/tmp/seqchromloader-0.6.5.tar.gz]
+[2023-07-20 22:32:06] INFO root fetch - processPackages [seqchromloader]: Start processing: wells4hydrogeology
+[2023-07-20 22:32:06] INFO root fetch - main [MainThread]: End processing [seqchromloader]: success
+[2023-07-20 22:32:06] INFO root fetch - processPackages [wells4hydrogeology]: New version: [0.0.9] Old Version: [0.0.7]
+[2023-07-20 22:32:06] INFO root fetch - processPackages [ckanext-vip-portal]: Downloading https://files.pythonhosted.org/packages/e6/30/557708342fdbdcc5ab4bba8a889b13773f37909b6ad9abd0f62905b625b6/ckanext-vip-portal-0.2.2.post1.tar.gz
+[2023-07-20 22:32:06] INFO root fetch - processPackages [devcycle-python-server-sdk]: Remove: archive file [/home/abi/fetcher/tmp/devcycle-python-server-sdk-3.3.1.tar.gz]
+[2023-07-20 22:32:06] INFO root fetch - processPackages [devcycle-python-server-sdk]: Remove: archive file [/home/abi/fetcher/tmp/devcycle-python-server-sdk-3.3.2.tar.gz]
+[2023-07-20 22:32:06] INFO root fetch - processPackages [devcycle-python-server-sdk]: Start processing: ncd-classifier
+[2023-07-20 22:32:06] INFO root fetch - main [MainThread]: End processing [devcycle-python-server-sdk]: success
+[2023-07-20 22:32:06] INFO root fetch - processPackages [rubiran]: Remove: archive file [/home/abi/fetcher/tmp/rubiran-2.0.2.tar.gz]
+[2023-07-20 22:32:06] INFO root fetch - processPackages [rubiran]: Remove: archive file [/home/abi/fetcher/tmp/rubiran-2.0.3.tar.gz]
+[2023-07-20 22:32:06] INFO root fetch - main [MainThread]: End processing [rubiran]: success
+[2023-07-20 22:32:06] INFO root fetch - processPackages [wells4hydrogeology]: Downloading https://files.pythonhosted.org/packages/38/64/f8848dc82dada4490b4b62680c17df2eed0ab4ed7348d99dd21bbaf72589/wells4hydrogeology-0.0.7.tar.gz
+[2023-07-20 22:32:06] INFO root fetch - processPackages [hca-import-validation]: Downloading https://files.pythonhosted.org/packages/4c/ed/2b184a520092d225366814c64649df2e663e6d35f8ba6de145a277df0e20/hca-import-validation-0.0.8.tar.gz
+[2023-07-20 22:32:06] WARNING root fetch - processPackages [ncd-classifier]: Skipping, unable to determine old version
+[2023-07-20 22:32:06] INFO root fetch - main [MainThread]: End processing [ncd-classifier] error
+[2023-07-20 22:32:06] INFO root fetch - processPackages [talc]: Remove: archive file [/home/abi/fetcher/tmp/talc-0.0.2.tar.gz]
+[2023-07-20 22:32:06] INFO root fetch - processPackages [talc]: Remove: archive file [/home/abi/fetcher/tmp/talc-0.0.3.tar.gz]
+[2023-07-20 22:32:06] INFO root fetch - main [MainThread]: End processing [talc]: success
+[2023-07-20 22:32:06] INFO root fetch - processPackages [wells4hydrogeology]: Downloading https://files.pythonhosted.org/packages/d9/25/055d3b467f4f52ff75f762fae00f967fe59e276bb553111b594014704dd0/wells4hydrogeology-0.0.9.tar.gz
+[2023-07-20 22:32:06] INFO root fetch - processPackages [sumatra-client]: Remove: archive file [/home/abi/fetcher/tmp/sumatra-client-1.3.1.tar.gz]
+[2023-07-20 22:32:06] INFO root fetch - processPackages [sumatra-client]: Remove: archive file [/home/abi/fetcher/tmp/sumatra-client-1.3.2.tar.gz]
+[2023-07-20 22:32:06] INFO root fetch - main [MainThread]: End processing [sumatra-client]: success
+[2023-07-20 22:32:06] INFO root fetch - processPackages [universi]: Remove: archive file [/home/abi/fetcher/tmp/universi-0.7.0.tar.gz]
+[2023-07-20 22:32:06] INFO root fetch - processPackages [universi]: Remove: archive file [/home/abi/fetcher/tmp/universi-0.8.0.tar.gz]
+[2023-07-20 22:32:06] INFO root fetch - main [MainThread]: End processing [universi]: success
+[2023-07-20 22:32:06] INFO root fetch - processPackages [hca-import-validation]: executing diffoscope
+[2023-07-20 22:32:06] INFO root fetch - processPackages [hca-import-validation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hca-import-validation-0.0.4.tar.gz tmp/hca-import-validation-0.0.8.tar.gz --markdown 20230720/h/hca-import-validation/0.0.4-0.0.8/diff.md --exclude *.pyd
+[2023-07-20 22:32:06] INFO root fetch - processPackages [ckanext-vip-portal]: Downloading https://files.pythonhosted.org/packages/12/95/c99eb4c33fff5d255f20d0e21840945d8b515e969fda4ca5d90fa96a622e/ckanext-vip-portal-0.2.3.tar.gz
+[2023-07-20 22:32:06] INFO root fetch - processPackages [wells4hydrogeology]: executing diffoscope
+[2023-07-20 22:32:06] INFO root fetch - processPackages [wells4hydrogeology]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wells4hydrogeology-0.0.7.tar.gz tmp/wells4hydrogeology-0.0.9.tar.gz --markdown 20230720/w/wells4hydrogeology/0.0.7-0.0.9/diff.md --exclude *.pyd
+[2023-07-20 22:32:06] INFO root fetch - processPackages [ckanext-vip-portal]: executing diffoscope
+[2023-07-20 22:32:06] INFO root fetch - processPackages [ckanext-vip-portal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ckanext-vip-portal-0.2.2.post1.tar.gz tmp/ckanext-vip-portal-0.2.3.tar.gz --markdown 20230720/c/ckanext-vip-portal/0.2.2.post1-0.2.3/diff.md --exclude *.pyd
+[2023-07-20 22:32:06] INFO root fetch - processPackages [pyCHX]: Remove: archive file [/home/abi/fetcher/tmp/pyCHX-4.1.2.tar.gz]
+[2023-07-20 22:32:06] INFO root fetch - processPackages [pyCHX]: Remove: archive file [/home/abi/fetcher/tmp/pyCHX-4.2.0-py3.11.egg]
+[2023-07-20 22:32:06] INFO root fetch - main [MainThread]: End processing [pyCHX]: success
+[2023-07-20 22:32:07] INFO root fetch - processPackages [lilacai]: Remove: archive file [/home/abi/fetcher/tmp/lilacai-0.0.4.tar.gz]
+[2023-07-20 22:32:07] INFO root fetch - processPackages [lilacai]: Remove: archive file [/home/abi/fetcher/tmp/lilacai-0.0.5.tar.gz]
+[2023-07-20 22:32:07] INFO root fetch - main [MainThread]: End processing [lilacai]: success
+[2023-07-20 22:32:07] INFO root fetch - processPackages [hca-import-validation]: Remove: archive file [/home/abi/fetcher/tmp/hca-import-validation-0.0.4.tar.gz]
+[2023-07-20 22:32:07] INFO root fetch - processPackages [hca-import-validation]: Remove: archive file [/home/abi/fetcher/tmp/hca-import-validation-0.0.8.tar.gz]
+[2023-07-20 22:32:07] INFO root fetch - main [MainThread]: End processing [hca-import-validation]: success
+[2023-07-20 22:32:07] INFO root fetch - processPackages [ckanext-vip-portal]: Remove: archive file [/home/abi/fetcher/tmp/ckanext-vip-portal-0.2.2.post1.tar.gz]
+[2023-07-20 22:32:07] INFO root fetch - processPackages [ckanext-vip-portal]: Remove: archive file [/home/abi/fetcher/tmp/ckanext-vip-portal-0.2.3.tar.gz]
+[2023-07-20 22:32:07] INFO root fetch - main [MainThread]: End processing [ckanext-vip-portal]: success
+[2023-07-20 22:32:07] INFO root fetch - processPackages [wells4hydrogeology]: Remove: archive file [/home/abi/fetcher/tmp/wells4hydrogeology-0.0.7.tar.gz]
+[2023-07-20 22:32:07] INFO root fetch - processPackages [wells4hydrogeology]: Remove: archive file [/home/abi/fetcher/tmp/wells4hydrogeology-0.0.9.tar.gz]
+[2023-07-20 22:32:07] INFO root fetch - main [MainThread]: End processing [wells4hydrogeology]: success
+[2023-07-20 22:32:07] INFO root fetch - main [MainThread]: Store serial: [18972633]
