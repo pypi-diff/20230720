@@ -8817,3 +8817,132 @@ AssertionError: tmp/verify4py-test-0.1.7.tar.gz does not exist
 [2023-07-20 14:57:33] WARNING root fetch - processPackages [ideabox.theme]: Skipping package: exceeds size limit 15409688>=10485760
 [2023-07-20 14:57:33] INFO root fetch - main [MainThread]: End processing [ideabox.theme] error
 [2023-07-20 14:57:33] INFO root fetch - main [MainThread]: Store serial: [18966639]
+[2023-07-20 15:02:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18966639]
+[2023-07-20 15:02:41] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-07-20 15:02:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyWalletConnect
+[2023-07-20 15:02:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: MSI-Explorer
+[2023-07-20 15:02:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: logium
+[2023-07-20 15:02:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: partition-igraph
+[2023-07-20 15:02:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: discohooker
+[2023-07-20 15:02:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ccxt
+[2023-07-20 15:02:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: joseki
+[2023-07-20 15:02:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: TEST-TC
+[2023-07-20 15:02:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: quarchCalibration
+[2023-07-20 15:02:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: django-reactor
+[2023-07-20 15:02:41] INFO root fetch - processPackages [pyWalletConnect]: New version: [1.5.0] Old Version: [1.4.0]
+[2023-07-20 15:02:41] WARNING root fetch - processPackages [MSI-Explorer]: Skipping, unable to determine old version
+[2023-07-20 15:02:41] INFO root fetch - processPackages [MSI-Explorer]: Start processing: recordlinkage
+[2023-07-20 15:02:41] INFO root fetch - main [MainThread]: End processing [MSI-Explorer] error
+[2023-07-20 15:02:41] INFO root fetch - processPackages [partition-igraph]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-07-20 15:02:41] INFO root fetch - processPackages [discohooker]: New version: [0.0.0b9] Old Version: [0.0.0b8]
+[2023-07-20 15:02:41] INFO root fetch - processPackages [logium]: New version: [1.1] Old Version: [1.0]
+[2023-07-20 15:02:41] INFO root fetch - processPackages [TEST-TC]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-07-20 15:02:41] INFO root fetch - processPackages [quarchCalibration]: New version: [1.1.5.dev1] Old Version: [1.1.5]
+[2023-07-20 15:02:41] INFO root fetch - processPackages [joseki]: New version: [2.3.0] Old Version: [2.2.0]
+[2023-07-20 15:02:41] INFO root fetch - processPackages [django-reactor]: New version: [5.3.0b0] Old Version: [5.2.0b0]
+[2023-07-20 15:02:41] INFO root fetch - processPackages [ccxt]: New version: [4.0.9] Old Version: [4.0.8]
+[2023-07-20 15:02:41] INFO root fetch - processPackages [recordlinkage]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-07-20 15:02:41] INFO root fetch - processPackages [pyWalletConnect]: Downloading https://files.pythonhosted.org/packages/96/29/04386b18fb985dafb452fc9e094378e6c3bf43bda126119f474a2cdaea65/pyWalletConnect-1.4.0-py3-none-any.whl
+[2023-07-20 15:02:41] INFO root fetch - processPackages [discohooker]: Downloading https://files.pythonhosted.org/packages/11/18/cd20f4d7f8bbf72fed32bf3ca62b1cb82e19effc531f6fc1212460966f16/discohooker-0.0.0b8.tar.gz
+[2023-07-20 15:02:41] INFO root fetch - processPackages [TEST-TC]: Downloading https://files.pythonhosted.org/packages/85/32/5980a6f5c0a9b721603197caad1be80912ca4106c6b25387c81798319f3e/TEST_TC-1.1.1.tar.gz
+[2023-07-20 15:02:41] INFO root fetch - processPackages [joseki]: Downloading https://files.pythonhosted.org/packages/c5/f4/53d0e68585659b1d9799c625f12263148d57e9f92374a609fbdfe9c68157/joseki-2.2.0.tar.gz
+[2023-07-20 15:02:41] INFO root fetch - processPackages [quarchCalibration]: Downloading https://files.pythonhosted.org/packages/7b/29/1ab8b338385049b30df3f95369844f32986320a1b1a946cdba58d3b222a2/quarchCalibration-1.1.5-py2.py3-none-any.whl
+[2023-07-20 15:02:41] INFO root fetch - processPackages [partition-igraph]: Downloading https://files.pythonhosted.org/packages/05/bf/c92215091f928aacc2f78e2e7be63bcdc53216f008b4813d8f4b81319f88/partition_igraph-0.0.6.tar.gz
+[2023-07-20 15:02:42] INFO root fetch - processPackages [logium]: Downloading https://files.pythonhosted.org/packages/c6/52/55346e700725fc9a79fe723446dbb04194c52bedee7336f58b2e1d5194ac/logium-1.0.tar.gz
+[2023-07-20 15:02:42] INFO root fetch - processPackages [recordlinkage]: Downloading https://files.pythonhosted.org/packages/d7/90/41055fd8c8f9638ccf6db4cff683142ae823b134b3a4c6b86c8659d9f780/recordlinkage-0.8.1-py2.py3-none-any.whl
+[2023-07-20 15:02:42] INFO root fetch - processPackages [django-reactor]: Downloading https://files.pythonhosted.org/packages/20/94/85ce28decf95dea1a063f16b34cf513adb855fcb481ab957f272525ae844/django-reactor-5.2.0b0.tar.gz
+[2023-07-20 15:02:42] INFO root fetch - processPackages [ccxt]: Downloading https://files.pythonhosted.org/packages/ad/7d/8330d03fabbc3e43fd950e4c4fc50051c4c1ed03e1de206a341ccc8c1663/ccxt-4.0.8.tar.gz
+[2023-07-20 15:02:42] INFO root fetch - processPackages [discohooker]: Downloading https://files.pythonhosted.org/packages/8b/8b/5f1339db58f060781d94ad397b0849ddd19df8c2fa5ddc3ea53c4d467c5c/discohooker-0.0.0b9.tar.gz
+[2023-07-20 15:02:42] INFO root fetch - processPackages [pyWalletConnect]: Downloading https://files.pythonhosted.org/packages/8e/bc/48c195c2785562a434d4ea11794c0c46c84ce0872dbe22602244d3d33e07/pyWalletConnect-1.5.0-py3-none-any.whl
+[2023-07-20 15:02:42] INFO root fetch - processPackages [quarchCalibration]: Downloading https://files.pythonhosted.org/packages/16/3b/98bb794ea217679a9b7194ea2946d72d9bffa9838550861f4b62a20ceed8/quarchCalibration-1.1.5.dev1-py2.py3-none-any.whl
+[2023-07-20 15:02:42] INFO root fetch - processPackages [joseki]: Downloading https://files.pythonhosted.org/packages/42/85/242aab42bfb8b9ca8c95e761eac562c944cea8bcf7431fb3be1d8359aa12/joseki-2.3.0.tar.gz
+[2023-07-20 15:02:42] INFO root fetch - processPackages [discohooker]: executing diffoscope
+[2023-07-20 15:02:42] INFO root fetch - processPackages [discohooker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/discohooker-0.0.0b8.tar.gz tmp/discohooker-0.0.0b9.tar.gz --markdown 20230720/d/discohooker/0.0.0b8-0.0.0b9/diff.md --exclude *.pyd
+[2023-07-20 15:02:42] INFO root fetch - processPackages [logium]: Downloading https://files.pythonhosted.org/packages/60/6c/0244587c180fe0513ad54cc125443cee13d45af495b19d8ab623c7b74429/logium-1.1.tar.gz
+[2023-07-20 15:02:42] INFO root fetch - processPackages [TEST-TC]: Downloading https://files.pythonhosted.org/packages/5a/11/da802a13b60d7dd9e0ff02bdfc3ff0de496b8bc6f948736c99792852197d/TEST_TC-1.1.2.tar.gz
+[2023-07-20 15:02:42] INFO root fetch - processPackages [pyWalletConnect]: executing diffoscope
+[2023-07-20 15:02:42] INFO root fetch - processPackages [pyWalletConnect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyWalletConnect-1.4.0-py3-none-any.whl.zip tmp/pyWalletConnect-1.5.0-py3-none-any.whl.zip --markdown 20230720/p/pyWalletConnect/1.4.0-1.5.0/diff.md --exclude *.pyd
+[2023-07-20 15:02:42] INFO root fetch - processPackages [partition-igraph]: Downloading https://files.pythonhosted.org/packages/16/ef/e90473d0433f21e07c19f40bfd76dd0fb9be7bd0afc3e0370270a26b8d7e/partition_igraph-0.0.7.tar.gz
+[2023-07-20 15:02:42] INFO root fetch - processPackages [django-reactor]: Downloading https://files.pythonhosted.org/packages/be/a6/58963dfd92445afe39c6ff95df3eef90413ceec8cc19247f567dc1de03d5/django-reactor-5.3.0b0.tar.gz
+[2023-07-20 15:02:42] INFO root fetch - processPackages [quarchCalibration]: executing diffoscope
+[2023-07-20 15:02:42] INFO root fetch - processPackages [quarchCalibration]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quarchCalibration-1.1.5-py2.py3-none-any.whl.zip tmp/quarchCalibration-1.1.5.dev1-py2.py3-none-any.whl.zip --markdown 20230720/q/quarchCalibration/1.1.5-1.1.5.dev1/diff.md --exclude *.pyd
+[2023-07-20 15:02:42] INFO root fetch - processPackages [logium]: executing diffoscope
+[2023-07-20 15:02:42] INFO root fetch - processPackages [logium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/logium-1.0.tar.gz tmp/logium-1.1.tar.gz --markdown 20230720/l/logium/1.0-1.1/diff.md --exclude *.pyd
+[2023-07-20 15:02:42] INFO root fetch - processPackages [TEST-TC]: executing diffoscope
+[2023-07-20 15:02:42] INFO root fetch - processPackages [TEST-TC]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TEST_TC-1.1.1.tar.gz tmp/TEST_TC-1.1.2.tar.gz --markdown 20230720/T/TEST-TC/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-07-20 15:02:42] INFO root fetch - processPackages [joseki]: executing diffoscope
+[2023-07-20 15:02:42] INFO root fetch - processPackages [joseki]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/joseki-2.2.0.tar.gz tmp/joseki-2.3.0.tar.gz --markdown 20230720/j/joseki/2.2.0-2.3.0/diff.md --exclude *.pyd
+[2023-07-20 15:02:42] INFO root fetch - processPackages [partition-igraph]: executing diffoscope
+[2023-07-20 15:02:42] INFO root fetch - processPackages [partition-igraph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/partition_igraph-0.0.6.tar.gz tmp/partition_igraph-0.0.7.tar.gz --markdown 20230720/p/partition-igraph/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-07-20 15:02:42] INFO root fetch - processPackages [recordlinkage]: Downloading https://files.pythonhosted.org/packages/06/85/becd76df6cc90a9a7ec6587882fb2b3c3525a413e72759f33fc20054583d/recordlinkage-0.9.0-py2.py3-none-any.whl
+[2023-07-20 15:02:42] INFO root fetch - processPackages [django-reactor]: executing diffoscope
+[2023-07-20 15:02:42] INFO root fetch - processPackages [django-reactor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-reactor-5.2.0b0.tar.gz tmp/django-reactor-5.3.0b0.tar.gz --markdown 20230720/d/django-reactor/5.2.0b0-5.3.0b0/diff.md --exclude *.pyd
+[2023-07-20 15:02:42] INFO root fetch - processPackages [ccxt]: Downloading https://files.pythonhosted.org/packages/32/a5/e913d1abd897de7e300e2702f68a742f7dba4a8d682a377a41f7423bd968/ccxt-4.0.9.tar.gz
+[2023-07-20 15:02:43] INFO root fetch - processPackages [recordlinkage]: executing diffoscope
+[2023-07-20 15:02:43] INFO root fetch - processPackages [recordlinkage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/recordlinkage-0.8.1-py2.py3-none-any.whl.zip tmp/recordlinkage-0.9.0-py2.py3-none-any.whl.zip --markdown 20230720/r/recordlinkage/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-07-20 15:02:43] INFO root fetch - processPackages [ccxt]: executing diffoscope
+[2023-07-20 15:02:43] INFO root fetch - processPackages [ccxt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccxt-4.0.8.tar.gz tmp/ccxt-4.0.9.tar.gz --markdown 20230720/c/ccxt/4.0.8-4.0.9/diff.md --exclude *.pyd
+[2023-07-20 15:02:43] INFO root fetch - processPackages [discohooker]: Remove: archive file [/home/abi/fetcher/tmp/discohooker-0.0.0b8.tar.gz]
+[2023-07-20 15:02:43] INFO root fetch - processPackages [discohooker]: Remove: archive file [/home/abi/fetcher/tmp/discohooker-0.0.0b9.tar.gz]
+[2023-07-20 15:02:43] INFO root fetch - processPackages [discohooker]: Start processing: strangeworks-rigetti
+[2023-07-20 15:02:43] INFO root fetch - main [MainThread]: End processing [discohooker]: success
+[2023-07-20 15:02:43] INFO root fetch - processPackages [strangeworks-rigetti]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-20 15:02:44] INFO root fetch - processPackages [pyWalletConnect]: Remove: archive file [/home/abi/fetcher/tmp/pyWalletConnect-1.4.0-py3-none-any.whl.zip]
+[2023-07-20 15:02:44] INFO root fetch - processPackages [pyWalletConnect]: Remove: archive file [/home/abi/fetcher/tmp/pyWalletConnect-1.5.0-py3-none-any.whl.zip]
+[2023-07-20 15:02:44] INFO root fetch - processPackages [pyWalletConnect]: Start processing: file1.py
+[2023-07-20 15:02:44] INFO root fetch - main [MainThread]: End processing [pyWalletConnect]: success
+[2023-07-20 15:02:44] INFO root fetch - processPackages [strangeworks-rigetti]: Downloading https://files.pythonhosted.org/packages/e8/cf/09400752f506cbb6d790b1cf16d39797fff0708c4e7b68a82a9ae9e967e0/strangeworks-rigetti-0.2.8.tar.gz
+[2023-07-20 15:02:44] INFO root fetch - processPackages [logium]: Remove: archive file [/home/abi/fetcher/tmp/logium-1.0.tar.gz]
+[2023-07-20 15:02:44] INFO root fetch - processPackages [logium]: Remove: archive file [/home/abi/fetcher/tmp/logium-1.1.tar.gz]
+[2023-07-20 15:02:44] INFO root fetch - processPackages [logium]: Start processing: quarchCalibration
+[2023-07-20 15:02:44] INFO root fetch - main [MainThread]: End processing [logium]: success
+[2023-07-20 15:02:44] INFO root fetch - processPackages [quarchCalibration]: New version: [1.1.6.dev1] Old Version: [1.1.5.dev1]
+[2023-07-20 15:02:44] WARNING root fetch - processPackages [file1.py]: Skipping, unable to determine old version
+[2023-07-20 15:02:44] INFO root fetch - processPackages [file1.py]: Start processing: smartplot
+[2023-07-20 15:02:44] INFO root fetch - main [MainThread]: End processing [file1.py] error
+[2023-07-20 15:02:44] INFO root fetch - processPackages [TEST-TC]: Remove: archive file [/home/abi/fetcher/tmp/TEST_TC-1.1.1.tar.gz]
+[2023-07-20 15:02:44] INFO root fetch - processPackages [TEST-TC]: Remove: archive file [/home/abi/fetcher/tmp/TEST_TC-1.1.2.tar.gz]
+[2023-07-20 15:02:44] INFO root fetch - processPackages [TEST-TC]: Start processing: valory-docker-compose
+[2023-07-20 15:02:44] INFO root fetch - main [MainThread]: End processing [TEST-TC]: success
+[2023-07-20 15:02:44] INFO root fetch - processPackages [partition-igraph]: Remove: archive file [/home/abi/fetcher/tmp/partition_igraph-0.0.6.tar.gz]
+[2023-07-20 15:02:44] INFO root fetch - processPackages [partition-igraph]: Remove: archive file [/home/abi/fetcher/tmp/partition_igraph-0.0.7.tar.gz]
+[2023-07-20 15:02:44] INFO root fetch - main [MainThread]: End processing [partition-igraph]: success
+[2023-07-20 15:02:44] INFO root fetch - processPackages [smartplot]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-20 15:02:44] INFO root fetch - processPackages [quarchCalibration]: Remove: archive file [/home/abi/fetcher/tmp/quarchCalibration-1.1.5-py2.py3-none-any.whl.zip]
+[2023-07-20 15:02:44] INFO root fetch - processPackages [quarchCalibration]: Remove: archive file [/home/abi/fetcher/tmp/quarchCalibration-1.1.5.dev1-py2.py3-none-any.whl.zip]
+[2023-07-20 15:02:44] INFO root fetch - main [MainThread]: End processing [quarchCalibration]: success
+[2023-07-20 15:02:44] INFO root fetch - processPackages [smartplot]: Downloading https://files.pythonhosted.org/packages/5e/1c/6764235d019efb51437944286f3fe0d917b9469aecd0f11d62f6700e23f8/smartplot-0.1.0.tar.gz
+[2023-07-20 15:02:44] INFO root fetch - processPackages [joseki]: Remove: archive file [/home/abi/fetcher/tmp/joseki-2.2.0.tar.gz]
+[2023-07-20 15:02:44] INFO root fetch - processPackages [joseki]: Remove: archive file [/home/abi/fetcher/tmp/joseki-2.3.0.tar.gz]
+[2023-07-20 15:02:44] INFO root fetch - main [MainThread]: End processing [joseki]: success
+[2023-07-20 15:02:44] WARNING root fetch - processPackages [valory-docker-compose]: Skipping, unable to determine old version
+[2023-07-20 15:02:44] INFO root fetch - main [MainThread]: End processing [valory-docker-compose] error
+[2023-07-20 15:02:44] INFO root fetch - processPackages [quarchCalibration]: Downloading https://files.pythonhosted.org/packages/66/40/45c18feeb9608bcb0db7e2d2a01c6e2ba82820a0082a8ad00e96a21bae23/quarchCalibration-1.1.6.dev1-py2.py3-none-any.whl
+[2023-07-20 15:02:44] INFO root fetch - processPackages [strangeworks-rigetti]: Downloading https://files.pythonhosted.org/packages/b7/b9/b5a7348eab089566bd6f58bc461538e5456e5bf282b57b8a5fa0145f3dee/strangeworks-rigetti-0.2.9.tar.gz
+[2023-07-20 15:02:44] INFO root fetch - processPackages [recordlinkage]: Remove: archive file [/home/abi/fetcher/tmp/recordlinkage-0.8.1-py2.py3-none-any.whl.zip]
+[2023-07-20 15:02:44] INFO root fetch - processPackages [recordlinkage]: Remove: archive file [/home/abi/fetcher/tmp/recordlinkage-0.9.0-py2.py3-none-any.whl.zip]
+[2023-07-20 15:02:44] INFO root fetch - main [MainThread]: End processing [recordlinkage]: success
+[2023-07-20 15:02:44] INFO root fetch - processPackages [smartplot]: Downloading https://files.pythonhosted.org/packages/6b/7d/b132edcaade520b1df3d8291bffdaf83566c7414fc1d9044af05e2560980/smartplot-0.1.1.tar.gz
+[2023-07-20 15:02:44] INFO root fetch - processPackages [smartplot]: executing diffoscope
+[2023-07-20 15:02:44] INFO root fetch - processPackages [smartplot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smartplot-0.1.0.tar.gz tmp/smartplot-0.1.1.tar.gz --markdown 20230720/s/smartplot/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-20 15:02:44] INFO root fetch - processPackages [strangeworks-rigetti]: executing diffoscope
+[2023-07-20 15:02:44] INFO root fetch - processPackages [strangeworks-rigetti]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/strangeworks-rigetti-0.2.8.tar.gz tmp/strangeworks-rigetti-0.2.9.tar.gz --markdown 20230720/s/strangeworks-rigetti/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-20 15:02:44] INFO root fetch - processPackages [quarchCalibration]: executing diffoscope
+[2023-07-20 15:02:44] INFO root fetch - processPackages [quarchCalibration]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quarchCalibration-1.1.5.dev1-py2.py3-none-any.whl.zip tmp/quarchCalibration-1.1.6.dev1-py2.py3-none-any.whl.zip --markdown 20230720/q/quarchCalibration/1.1.5.dev1-1.1.6.dev1/diff.md --exclude *.pyd
+[2023-07-20 15:02:45] INFO root fetch - processPackages [django-reactor]: Remove: archive file [/home/abi/fetcher/tmp/django-reactor-5.2.0b0.tar.gz]
+[2023-07-20 15:02:45] INFO root fetch - processPackages [django-reactor]: Remove: archive file [/home/abi/fetcher/tmp/django-reactor-5.3.0b0.tar.gz]
+[2023-07-20 15:02:45] INFO root fetch - main [MainThread]: End processing [django-reactor]: success
+[2023-07-20 15:02:45] ERROR root fetch - processPackages [quarchCalibration]: Diffoscope failed: time="2023-07-20T15:02:45+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+/srv/diffoscope/bin/diffoscope: tmp/quarchCalibration-1.1.5.dev1-py2.py3-none-any.whl.zip: No such file or directory
+
+[2023-07-20 15:02:45] INFO root fetch - main [MainThread]: End processing [quarchCalibration] error
+[2023-07-20 15:02:45] INFO root fetch - processPackages [smartplot]: Remove: archive file [/home/abi/fetcher/tmp/smartplot-0.1.0.tar.gz]
+[2023-07-20 15:02:45] INFO root fetch - processPackages [smartplot]: Remove: archive file [/home/abi/fetcher/tmp/smartplot-0.1.1.tar.gz]
+[2023-07-20 15:02:45] INFO root fetch - main [MainThread]: End processing [smartplot]: success
+[2023-07-20 15:02:45] INFO root fetch - processPackages [strangeworks-rigetti]: Remove: archive file [/home/abi/fetcher/tmp/strangeworks-rigetti-0.2.8.tar.gz]
+[2023-07-20 15:02:45] INFO root fetch - processPackages [strangeworks-rigetti]: Remove: archive file [/home/abi/fetcher/tmp/strangeworks-rigetti-0.2.9.tar.gz]
+[2023-07-20 15:02:45] INFO root fetch - main [MainThread]: End processing [strangeworks-rigetti]: success
+[2023-07-20 15:02:48] INFO root fetch - processPackages [ccxt]: Remove: archive file [/home/abi/fetcher/tmp/ccxt-4.0.8.tar.gz]
+[2023-07-20 15:02:48] INFO root fetch - processPackages [ccxt]: Remove: archive file [/home/abi/fetcher/tmp/ccxt-4.0.9.tar.gz]
+[2023-07-20 15:02:48] INFO root fetch - main [MainThread]: End processing [ccxt]: success
+[2023-07-20 15:02:48] INFO root fetch - main [MainThread]: Store serial: [18966688]
