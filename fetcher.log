@@ -15431,3 +15431,127 @@ AssertionError: tmp/verify4py-test-0.1.7.tar.gz does not exist
 [2023-07-20 18:02:57] INFO root fetch - processPackages [entsoe-py]: Remove: archive file [/home/abi/fetcher/tmp/entsoe-py-0.5.9.tar.gz]
 [2023-07-20 18:02:57] INFO root fetch - main [MainThread]: End processing [entsoe-py]: success
 [2023-07-20 18:02:57] INFO root fetch - main [MainThread]: Store serial: [18969384]
+[2023-07-20 18:08:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18969384]
+[2023-07-20 18:08:06] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-07-20 18:08:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo13-addon-sale-order-type
+[2023-07-20 18:08:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: klaviyo-for-django
+[2023-07-20 18:08:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ckanext-versioned-datastore
+[2023-07-20 18:08:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ckanext-nhm
+[2023-07-20 18:08:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ciscopykit
+[2023-07-20 18:08:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: always-updates
+[2023-07-20 18:08:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: kcp-py
+[2023-07-20 18:08:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: eggella
+[2023-07-20 18:08:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mazely
+[2023-07-20 18:08:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo-addon-product-pack
+[2023-07-20 18:08:06] INFO root fetch - processPackages [ckanext-nhm]: New version: [6.0.2] Old Version: [6.0.1]
+[2023-07-20 18:08:06] INFO root fetch - processPackages [mazely]: New version: [0.2.0] Old Version: [0.1.1]
+[2023-07-20 18:08:06] INFO root fetch - processPackages [eggella]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-20 18:08:06] INFO root fetch - processPackages [odoo13-addon-sale-order-type]: New version: [13.0.1.7.5.dev5] Old Version: [13.0.1.7.5.dev4]
+[2023-07-20 18:08:06] INFO root fetch - processPackages [ckanext-versioned-datastore]: New version: [5.0.2] Old Version: [5.0.1]
+[2023-07-20 18:08:06] INFO root fetch - processPackages [odoo-addon-product-pack]: New version: [16.0.1.1.0] Old Version: [16.0.1.0.0.6]
+[2023-07-20 18:08:06] INFO root fetch - processPackages [kcp-py]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-07-20 18:08:06] INFO root fetch - processPackages [ciscopykit]: New version: [2.1.0] Old Version: [2.0.0]
+[2023-07-20 18:08:06] WARNING root fetch - processPackages [klaviyo-for-django]: Skipping, unable to determine old version
+[2023-07-20 18:08:06] INFO root fetch - processPackages [klaviyo-for-django]: Start processing: python-eigen-ingenuity
+[2023-07-20 18:08:06] INFO root fetch - main [MainThread]: End processing [klaviyo-for-django] error
+[2023-07-20 18:08:06] INFO root fetch - processPackages [always-updates]: New version: [99.9] Old Version: [99.8]
+[2023-07-20 18:08:06] INFO root fetch - processPackages [python-eigen-ingenuity]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-07-20 18:08:06] INFO root fetch - processPackages [ckanext-nhm]: Downloading https://files.pythonhosted.org/packages/71/89/37808c93eb919865764c34a3d8d65792cdaf10d4d0228614651f91cf8cfe/ckanext-nhm-6.0.1.tar.gz
+[2023-07-20 18:08:07] WARNING root fetch - processPackages [ckanext-nhm]: Skipping package: exceeds size limit 29132190>=10485760
+[2023-07-20 18:08:07] INFO root fetch - processPackages [ckanext-nhm]: Start processing: reg-tables
+[2023-07-20 18:08:07] INFO root fetch - main [MainThread]: End processing [ckanext-nhm] error
+[2023-07-20 18:08:07] INFO root fetch - processPackages [mazely]: Downloading https://files.pythonhosted.org/packages/1d/48/89103de70ee91885293a89af9edc39fa6695cc6bdcc916773275f7b9bf94/mazely-0.1.1.tar.gz
+[2023-07-20 18:08:07] INFO root fetch - processPackages [kcp-py]: Downloading https://files.pythonhosted.org/packages/17/39/95b2d3594450bbfb03547d6d10d56ee2ef3c163514c7fa5f767dcb3e261b/kcp_py-0.1.3.tar.gz
+[2023-07-20 18:08:07] INFO root fetch - processPackages [eggella]: Downloading https://files.pythonhosted.org/packages/bb/1b/44f6849e464ad14b61b79401b70b45413044469858cb1e1247146390a1b5/eggella-0.0.3.tar.gz
+[2023-07-20 18:08:07] INFO root fetch - processPackages [reg-tables]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-20 18:08:07] INFO root fetch - processPackages [odoo-addon-product-pack]: Downloading https://files.pythonhosted.org/packages/d1/b8/1d3cbba85bef91650cc598b11f4bd5cd4a707f3e54bf00f99924f44b2d47/odoo_addon_product_pack-16.0.1.0.0.6-py3-none-any.whl
+[2023-07-20 18:08:07] INFO root fetch - processPackages [odoo13-addon-sale-order-type]: Downloading https://files.pythonhosted.org/packages/9e/f0/4fc3ad7bdb2591a18b0d0578cdf30db6e79ed02df3f71f5446fd76adb90e/odoo13_addon_sale_order_type-13.0.1.7.5.dev4-py3-none-any.whl
+[2023-07-20 18:08:07] INFO root fetch - processPackages [ckanext-versioned-datastore]: Downloading https://files.pythonhosted.org/packages/4f/10/5b4155b5a8508c79f4c7d1214128dadbe0f766b05adb0849a75ef72383a2/ckanext-versioned-datastore-5.0.1.tar.gz
+[2023-07-20 18:08:07] INFO root fetch - processPackages [always-updates]: Downloading https://files.pythonhosted.org/packages/5a/dc/f0b9cc3dcafc81b230cec909ee0b7d6229e97b28093d8f6f51c2ace8468b/always_updates-99.8.tar.gz
+[2023-07-20 18:08:07] INFO root fetch - processPackages [ciscopykit]: Downloading https://files.pythonhosted.org/packages/ac/49/67c43132c2f9a9de9e3bc1fce93b660bee404f2e4f746a530d4a6752d00c/ciscopykit-2.0.0.tar.gz
+[2023-07-20 18:08:07] INFO root fetch - processPackages [python-eigen-ingenuity]: Downloading https://files.pythonhosted.org/packages/84/89/3c53ff4be542cfc10c07f16d0437fc0c21897173bc9a04852f315de7f14e/python-eigen-ingenuity-0.4.8.tar.gz
+[2023-07-20 18:08:07] INFO root fetch - processPackages [reg-tables]: Downloading https://files.pythonhosted.org/packages/24/67/20f4cf2980a1748da87bb06403b79de86492142fdc2bd25d52a6262dba96/reg_tables-0.1.8.tar.gz
+[2023-07-20 18:08:07] INFO root fetch - processPackages [eggella]: Downloading https://files.pythonhosted.org/packages/71/9a/b5ebe18d73daecf1c045633dc7af1493b4b58a02d6535dd1977ffeb1d6b2/eggella-0.0.4.tar.gz
+[2023-07-20 18:08:07] INFO root fetch - processPackages [mazely]: Downloading https://files.pythonhosted.org/packages/0e/d3/5a9396e6efef7e833c329049a34826978e5a094add6fda585d9eeaa662ef/mazely-0.2.0.tar.gz
+[2023-07-20 18:08:07] INFO root fetch - processPackages [odoo-addon-product-pack]: Downloading https://files.pythonhosted.org/packages/22/cf/9fa64a7d15f60ba4f52f624ce8e3db185c5e60aa10f95c909bed52042145/odoo_addon_product_pack-16.0.1.1.0-py3-none-any.whl
+[2023-07-20 18:08:07] INFO root fetch - processPackages [ciscopykit]: Downloading https://files.pythonhosted.org/packages/24/59/a9750b050ef7a981da7edb721589de7c5cf43c07a3ed4b5f5ddcc4da9f87/ciscopykit-2.1.0.tar.gz
+[2023-07-20 18:08:07] INFO root fetch - processPackages [kcp-py]: Downloading https://files.pythonhosted.org/packages/c3/4b/ef2e820e3b44fc8df2b509016c07dee673dfa38ae5874c972fefed6f000d/kcp_py-0.1.4.tar.gz
+[2023-07-20 18:08:07] INFO root fetch - processPackages [python-eigen-ingenuity]: Downloading https://files.pythonhosted.org/packages/d5/46/2554bcc92a089d39a46cc8a215282b82286d0694e45c99808348a0478326/python-eigen-ingenuity-0.4.9.tar.gz
+[2023-07-20 18:08:07] INFO root fetch - processPackages [odoo13-addon-sale-order-type]: Downloading https://files.pythonhosted.org/packages/27/4d/7575c901f07347a67fa299fa8cc9e187ac4ea019da73f350ea0b3f7120c0/odoo13_addon_sale_order_type-13.0.1.7.5.dev5-py3-none-any.whl
+[2023-07-20 18:08:07] INFO root fetch - processPackages [reg-tables]: Downloading https://files.pythonhosted.org/packages/60/cb/8303c5aa17a1545671283f1ee1f4bef8b73de1d8178d27afa612d9ed415c/reg_tables-0.1.9.tar.gz
+[2023-07-20 18:08:07] INFO root fetch - processPackages [eggella]: executing diffoscope
+[2023-07-20 18:08:07] INFO root fetch - processPackages [eggella]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eggella-0.0.3.tar.gz tmp/eggella-0.0.4.tar.gz --markdown 20230720/e/eggella/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-20 18:08:07] INFO root fetch - processPackages [always-updates]: Downloading https://files.pythonhosted.org/packages/b1/bd/641679b0c9c7b7c15f7084f8215f70f9189c0f4efd5633e45fe0a7f33ba5/always_updates-99.9.tar.gz
+[2023-07-20 18:08:08] INFO root fetch - processPackages [ciscopykit]: executing diffoscope
+[2023-07-20 18:08:08] INFO root fetch - processPackages [ciscopykit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ciscopykit-2.0.0.tar.gz tmp/ciscopykit-2.1.0.tar.gz --markdown 20230720/c/ciscopykit/2.0.0-2.1.0/diff.md --exclude *.pyd
+[2023-07-20 18:08:08] INFO root fetch - processPackages [ckanext-versioned-datastore]: Downloading https://files.pythonhosted.org/packages/b0/03/159a0d370084ddf6d89686de30960805c7b98bdf0364442d1974679e5de6/ckanext-versioned-datastore-5.0.2.tar.gz
+[2023-07-20 18:08:08] INFO root fetch - processPackages [kcp-py]: executing diffoscope
+[2023-07-20 18:08:08] INFO root fetch - processPackages [kcp-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcp_py-0.1.3.tar.gz tmp/kcp_py-0.1.4.tar.gz --markdown 20230720/k/kcp-py/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-07-20 18:08:08] INFO root fetch - processPackages [odoo-addon-product-pack]: executing diffoscope
+[2023-07-20 18:08:08] INFO root fetch - processPackages [odoo-addon-product-pack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_product_pack-16.0.1.0.0.6-py3-none-any.whl.zip tmp/odoo_addon_product_pack-16.0.1.1.0-py3-none-any.whl.zip --markdown 20230720/o/odoo-addon-product-pack/16.0.1.0.0.6-16.0.1.1.0/diff.md --exclude *.pyd
+[2023-07-20 18:08:08] INFO root fetch - processPackages [mazely]: executing diffoscope
+[2023-07-20 18:08:08] INFO root fetch - processPackages [mazely]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mazely-0.1.1.tar.gz tmp/mazely-0.2.0.tar.gz --markdown 20230720/m/mazely/0.1.1-0.2.0/diff.md --exclude *.pyd
+[2023-07-20 18:08:08] INFO root fetch - processPackages [always-updates]: executing diffoscope
+[2023-07-20 18:08:08] INFO root fetch - processPackages [always-updates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/always_updates-99.8.tar.gz tmp/always_updates-99.9.tar.gz --markdown 20230720/a/always-updates/99.8-99.9/diff.md --exclude *.pyd
+[2023-07-20 18:08:08] INFO root fetch - processPackages [odoo13-addon-sale-order-type]: executing diffoscope
+[2023-07-20 18:08:08] INFO root fetch - processPackages [odoo13-addon-sale-order-type]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_sale_order_type-13.0.1.7.5.dev4-py3-none-any.whl.zip tmp/odoo13_addon_sale_order_type-13.0.1.7.5.dev5-py3-none-any.whl.zip --markdown 20230720/o/odoo13-addon-sale-order-type/13.0.1.7.5.dev4-13.0.1.7.5.dev5/diff.md --exclude *.pyd
+[2023-07-20 18:08:08] INFO root fetch - processPackages [python-eigen-ingenuity]: executing diffoscope
+[2023-07-20 18:08:08] INFO root fetch - processPackages [python-eigen-ingenuity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-eigen-ingenuity-0.4.8.tar.gz tmp/python-eigen-ingenuity-0.4.9.tar.gz --markdown 20230720/p/python-eigen-ingenuity/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-07-20 18:08:08] INFO root fetch - processPackages [ckanext-versioned-datastore]: executing diffoscope
+[2023-07-20 18:08:08] INFO root fetch - processPackages [ckanext-versioned-datastore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ckanext-versioned-datastore-5.0.1.tar.gz tmp/ckanext-versioned-datastore-5.0.2.tar.gz --markdown 20230720/c/ckanext-versioned-datastore/5.0.1-5.0.2/diff.md --exclude *.pyd
+[2023-07-20 18:08:08] INFO root fetch - processPackages [reg-tables]: executing diffoscope
+[2023-07-20 18:08:08] INFO root fetch - processPackages [reg-tables]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reg_tables-0.1.8.tar.gz tmp/reg_tables-0.1.9.tar.gz --markdown 20230720/r/reg-tables/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-20 18:08:09] INFO root fetch - processPackages [eggella]: Remove: archive file [/home/abi/fetcher/tmp/eggella-0.0.3.tar.gz]
+[2023-07-20 18:08:09] INFO root fetch - processPackages [eggella]: Remove: archive file [/home/abi/fetcher/tmp/eggella-0.0.4.tar.gz]
+[2023-07-20 18:08:09] INFO root fetch - processPackages [eggella]: Start processing: notification-service-nightly
+[2023-07-20 18:08:09] INFO root fetch - main [MainThread]: End processing [eggella]: success
+[2023-07-20 18:08:09] INFO root fetch - processPackages [notification-service-nightly]: New version: [2023.7.9] Old Version: [2023.7.8]
+[2023-07-20 18:08:09] INFO root fetch - processPackages [kcp-py]: Remove: archive file [/home/abi/fetcher/tmp/kcp_py-0.1.3.tar.gz]
+[2023-07-20 18:08:09] INFO root fetch - processPackages [kcp-py]: Remove: archive file [/home/abi/fetcher/tmp/kcp_py-0.1.4.tar.gz]
+[2023-07-20 18:08:09] INFO root fetch - processPackages [kcp-py]: Start processing: ai-flow-nightly
+[2023-07-20 18:08:09] INFO root fetch - main [MainThread]: End processing [kcp-py]: success
+[2023-07-20 18:08:09] INFO root fetch - processPackages [ai-flow-nightly]: New version: [2023.7.9] Old Version: [2023.7.8]
+[2023-07-20 18:08:09] INFO root fetch - processPackages [notification-service-nightly]: executing diffoscope
+[2023-07-20 18:08:09] INFO root fetch - processPackages [notification-service-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/notification_service_nightly-2023.7.8.tar.gz tmp/notification_service_nightly-2023.7.9.tar.gz --markdown 20230720/n/notification-service-nightly/2023.7.8-2023.7.9/diff.md --exclude *.pyd
+[2023-07-20 18:08:09] INFO root fetch - processPackages [always-updates]: Remove: archive file [/home/abi/fetcher/tmp/always_updates-99.8.tar.gz]
+[2023-07-20 18:08:09] INFO root fetch - processPackages [always-updates]: Remove: archive file [/home/abi/fetcher/tmp/always_updates-99.9.tar.gz]
+[2023-07-20 18:08:09] INFO root fetch - processPackages [always-updates]: Start processing: roboflow
+[2023-07-20 18:08:09] INFO root fetch - main [MainThread]: End processing [always-updates]: success
+[2023-07-20 18:08:09] INFO root fetch - processPackages [ciscopykit]: Remove: archive file [/home/abi/fetcher/tmp/ciscopykit-2.0.0.tar.gz]
+[2023-07-20 18:08:09] INFO root fetch - processPackages [ciscopykit]: Remove: archive file [/home/abi/fetcher/tmp/ciscopykit-2.1.0.tar.gz]
+[2023-07-20 18:08:09] INFO root fetch - main [MainThread]: End processing [ciscopykit]: success
+[2023-07-20 18:08:09] INFO root fetch - processPackages [roboflow]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-07-20 18:08:09] INFO root fetch - processPackages [ai-flow-nightly]: executing diffoscope
+[2023-07-20 18:08:09] INFO root fetch - processPackages [ai-flow-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ai_flow_nightly-2023.7.8.tar.gz tmp/ai_flow_nightly-2023.7.9.tar.gz --markdown 20230720/a/ai-flow-nightly/2023.7.8-2023.7.9/diff.md --exclude *.pyd
+[2023-07-20 18:08:09] INFO root fetch - processPackages [odoo-addon-product-pack]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_product_pack-16.0.1.0.0.6-py3-none-any.whl.zip]
+[2023-07-20 18:08:09] INFO root fetch - processPackages [odoo-addon-product-pack]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_product_pack-16.0.1.1.0-py3-none-any.whl.zip]
+[2023-07-20 18:08:09] INFO root fetch - main [MainThread]: End processing [odoo-addon-product-pack]: success
+[2023-07-20 18:08:09] INFO root fetch - processPackages [python-eigen-ingenuity]: Remove: archive file [/home/abi/fetcher/tmp/python-eigen-ingenuity-0.4.8.tar.gz]
+[2023-07-20 18:08:09] INFO root fetch - processPackages [python-eigen-ingenuity]: Remove: archive file [/home/abi/fetcher/tmp/python-eigen-ingenuity-0.4.9.tar.gz]
+[2023-07-20 18:08:09] INFO root fetch - main [MainThread]: End processing [python-eigen-ingenuity]: success
+[2023-07-20 18:08:09] INFO root fetch - processPackages [reg-tables]: Remove: archive file [/home/abi/fetcher/tmp/reg_tables-0.1.8.tar.gz]
+[2023-07-20 18:08:09] INFO root fetch - processPackages [reg-tables]: Remove: archive file [/home/abi/fetcher/tmp/reg_tables-0.1.9.tar.gz]
+[2023-07-20 18:08:10] INFO root fetch - main [MainThread]: End processing [reg-tables]: success
+[2023-07-20 18:08:10] INFO root fetch - processPackages [roboflow]: Downloading https://files.pythonhosted.org/packages/2b/35/6b09a9d5d1aebf9b5e2843c95a586efc29d9c5cb23ef57fe41bac7fe6a76/roboflow-1.1.0.tar.gz
+[2023-07-20 18:08:10] INFO root fetch - processPackages [mazely]: Remove: archive file [/home/abi/fetcher/tmp/mazely-0.1.1.tar.gz]
+[2023-07-20 18:08:10] INFO root fetch - processPackages [mazely]: Remove: archive file [/home/abi/fetcher/tmp/mazely-0.2.0.tar.gz]
+[2023-07-20 18:08:10] INFO root fetch - main [MainThread]: End processing [mazely]: success
+[2023-07-20 18:08:10] INFO root fetch - processPackages [odoo13-addon-sale-order-type]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_sale_order_type-13.0.1.7.5.dev4-py3-none-any.whl.zip]
+[2023-07-20 18:08:10] INFO root fetch - processPackages [odoo13-addon-sale-order-type]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_sale_order_type-13.0.1.7.5.dev5-py3-none-any.whl.zip]
+[2023-07-20 18:08:10] INFO root fetch - main [MainThread]: End processing [odoo13-addon-sale-order-type]: success
+[2023-07-20 18:08:10] INFO root fetch - processPackages [roboflow]: Downloading https://files.pythonhosted.org/packages/81/3b/9d2400ec649929e0d9d0dbdcc17605b23de4ad14f228d0d6b49e65190472/roboflow-1.1.1.tar.gz
+[2023-07-20 18:08:10] INFO root fetch - processPackages [roboflow]: executing diffoscope
+[2023-07-20 18:08:10] INFO root fetch - processPackages [roboflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/roboflow-1.1.0.tar.gz tmp/roboflow-1.1.1.tar.gz --markdown 20230720/r/roboflow/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-07-20 18:08:11] INFO root fetch - processPackages [notification-service-nightly]: Remove: archive file [/home/abi/fetcher/tmp/notification_service_nightly-2023.7.8.tar.gz]
+[2023-07-20 18:08:11] INFO root fetch - processPackages [notification-service-nightly]: Remove: archive file [/home/abi/fetcher/tmp/notification_service_nightly-2023.7.9.tar.gz]
+[2023-07-20 18:08:11] INFO root fetch - main [MainThread]: End processing [notification-service-nightly]: success
+[2023-07-20 18:08:11] INFO root fetch - processPackages [roboflow]: Remove: archive file [/home/abi/fetcher/tmp/roboflow-1.1.0.tar.gz]
+[2023-07-20 18:08:11] INFO root fetch - processPackages [roboflow]: Remove: archive file [/home/abi/fetcher/tmp/roboflow-1.1.1.tar.gz]
+[2023-07-20 18:08:11] INFO root fetch - main [MainThread]: End processing [roboflow]: success
+[2023-07-20 18:08:11] INFO root fetch - processPackages [ckanext-versioned-datastore]: Remove: archive file [/home/abi/fetcher/tmp/ckanext-versioned-datastore-5.0.1.tar.gz]
+[2023-07-20 18:08:11] INFO root fetch - processPackages [ckanext-versioned-datastore]: Remove: archive file [/home/abi/fetcher/tmp/ckanext-versioned-datastore-5.0.2.tar.gz]
+[2023-07-20 18:08:11] INFO root fetch - main [MainThread]: End processing [ckanext-versioned-datastore]: success
+[2023-07-20 18:08:11] INFO root fetch - processPackages [ai-flow-nightly]: Remove: archive file [/home/abi/fetcher/tmp/ai_flow_nightly-2023.7.8.tar.gz]
+[2023-07-20 18:08:11] INFO root fetch - processPackages [ai-flow-nightly]: Remove: archive file [/home/abi/fetcher/tmp/ai_flow_nightly-2023.7.9.tar.gz]
+[2023-07-20 18:08:11] INFO root fetch - main [MainThread]: End processing [ai-flow-nightly]: success
+[2023-07-20 18:08:11] INFO root fetch - main [MainThread]: Store serial: [18969425]
