@@ -23289,3 +23289,117 @@ AssertionError: tmp/threemystic_cloud_data_client-0.1.17.tar.gz does not exist
 [2023-07-20 22:32:07] INFO root fetch - processPackages [wells4hydrogeology]: Remove: archive file [/home/abi/fetcher/tmp/wells4hydrogeology-0.0.9.tar.gz]
 [2023-07-20 22:32:07] INFO root fetch - main [MainThread]: End processing [wells4hydrogeology]: success
 [2023-07-20 22:32:07] INFO root fetch - main [MainThread]: Store serial: [18972633]
+[2023-07-20 22:37:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18972633]
+[2023-07-20 22:37:18] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-07-20 22:37:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: geoapps-utils
+[2023-07-20 22:37:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: laskea
+[2023-07-20 22:37:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: scgraph
+[2023-07-20 22:37:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: panther
+[2023-07-20 22:37:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ezsmdeploydev
+[2023-07-20 22:37:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: coiled
+[2023-07-20 22:37:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: juju
+[2023-07-20 22:37:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: adafri
+[2023-07-20 22:37:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: olympix-test-generator
+[2023-07-20 22:37:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: llamaapi
+[2023-07-20 22:37:18] INFO root fetch - processPackages [laskea]: New version: [2023.7.20] Old Version: [2023.6.18]
+[2023-07-20 22:37:18] INFO root fetch - processPackages [ezsmdeploydev]: New version: [1.99.dev0] Old Version: [1.98.dev0]
+[2023-07-20 22:37:18] INFO root fetch - processPackages [olympix-test-generator]: New version: [1.0] Old Version: [0.5]
+[2023-07-20 22:37:18] INFO root fetch - processPackages [scgraph]: New version: [1.0.0b2] Old Version: [1.0.0b1]
+[2023-07-20 22:37:18] INFO root fetch - processPackages [adafri]: New version: [0.0.45] Old Version: [0.0.44]
+[2023-07-20 22:37:18] INFO root fetch - processPackages [llamaapi]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-07-20 22:37:18] INFO root fetch - processPackages [juju]: New version: [3.2.0.0] Old Version: [3.1.2.0]
+[2023-07-20 22:37:18] WARNING root fetch - processPackages [geoapps-utils]: Skipping, unable to determine old version
+[2023-07-20 22:37:18] INFO root fetch - processPackages [panther]: New version: [1.7.9] Old Version: [1.7.8]
+[2023-07-20 22:37:18] INFO root fetch - processPackages [geoapps-utils]: Start processing: bugbug
+[2023-07-20 22:37:18] INFO root fetch - main [MainThread]: End processing [geoapps-utils] error
+[2023-07-20 22:37:18] INFO root fetch - processPackages [coiled]: New version: [0.8.9.dev9] Old Version: [0.8.9.dev6]
+[2023-07-20 22:37:18] INFO root fetch - processPackages [bugbug]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-20 22:37:18] INFO root fetch - processPackages [olympix-test-generator]: Downloading https://files.pythonhosted.org/packages/63/98/6d2a2e3c5f90592a9d7e3f621930a5e8cc28fb85142a836ae43aeb767f1a/olympix-test-generator-0.5.tar.gz
+[2023-07-20 22:37:18] INFO root fetch - processPackages [scgraph]: Downloading https://files.pythonhosted.org/packages/32/7f/43cda01ce15f69af02172c1458391664afd47b1092653bae7776fb81f9a6/scgraph-1.0.0b1.tar.gz
+[2023-07-20 22:37:18] INFO root fetch - processPackages [adafri]: Downloading https://files.pythonhosted.org/packages/00/b2/f7320df56847372e3d96a1866c21014ac4624ff7a7dcd9da159a268c0179/adafri-0.0.44.tar.gz
+[2023-07-20 22:37:18] INFO root fetch - processPackages [ezsmdeploydev]: Downloading https://files.pythonhosted.org/packages/5b/a0/ee12278b32ef959dfae943f9f37dcecc568c28da64b4b626d8abb67012a7/ezsmdeploydev-1.98.dev0.tar.gz
+[2023-07-20 22:37:18] INFO root fetch - processPackages [panther]: Downloading https://files.pythonhosted.org/packages/22/7f/e45916f90c729b991d5fb68083607ae07c06576b188b70d69c1e2344301a/panther-1.7.8.tar.gz
+[2023-07-20 22:37:18] INFO root fetch - processPackages [llamaapi]: Downloading https://files.pythonhosted.org/packages/a4/38/87028575a483154015d7a186f09702f2e30edb4ba9353806d9879fcea7b5/llamaapi-0.1.5.tar.gz
+[2023-07-20 22:37:18] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/01/4b/38ee625e022b9045458352636265942fc0dd2c5373d6b88ca4415a39b230/coiled-0.8.9.dev6.tar.gz
+[2023-07-20 22:37:18] INFO root fetch - processPackages [laskea]: Downloading https://files.pythonhosted.org/packages/60/36/a00a749e2e0019722419506ebc083e1b580d27653c7424e6a8e517019e52/laskea-2023.6.18.tar.gz
+[2023-07-20 22:37:18] INFO root fetch - processPackages [juju]: Downloading https://files.pythonhosted.org/packages/0b/5b/28f670aef3cb4d8de0261b7038dcbccda97a463baadad4105421cfa486da/juju-3.1.2.0.tar.gz
+[2023-07-20 22:37:18] INFO root fetch - processPackages [bugbug]: Downloading https://files.pythonhosted.org/packages/5b/6a/fc99f3a6e09827c698ee6eab2d88fea1cf94e1c6d0f0d04236a834ba423b/bugbug-0.0.98.tar.gz
+[2023-07-20 22:37:19] INFO root fetch - processPackages [ezsmdeploydev]: Downloading https://files.pythonhosted.org/packages/96/a2/7158dfc3e62825f7178f816516b7cf8c93169be32276031d8493f4cf9e36/ezsmdeploydev-1.99.dev0.tar.gz
+[2023-07-20 22:37:19] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/26/80/9e4bfeccf312016e825026ef4ffbc2321b3117d2572b720eaa72b12d9673/coiled-0.8.9.dev9.tar.gz
+[2023-07-20 22:37:19] INFO root fetch - processPackages [panther]: Downloading https://files.pythonhosted.org/packages/26/b4/a11d5e9201570ef6c49a09335ff86fdedfb67593aafcf07712d13a04dcef/panther-1.7.9.tar.gz
+[2023-07-20 22:37:19] INFO root fetch - processPackages [adafri]: Downloading https://files.pythonhosted.org/packages/de/3d/a0629a0d83e751ce8f87145fdbde680a997588f3bcf6ad65f8d847dbd7d3/adafri-0.0.45.tar.gz
+[2023-07-20 22:37:19] INFO root fetch - processPackages [llamaapi]: Downloading https://files.pythonhosted.org/packages/bb/47/e5c59c1788d7a3c2e2895b9d5232d3d620bb84e5428e55e4f75225abdd85/llamaapi-0.1.6.tar.gz
+[2023-07-20 22:37:19] INFO root fetch - processPackages [olympix-test-generator]: Downloading https://files.pythonhosted.org/packages/f2/2e/ca0f8dee63f24332f250d15f53add831b8a07873deedf011e6ec9de81316/olympix-test-generator-1.0.tar.gz
+[2023-07-20 22:37:19] INFO root fetch - processPackages [scgraph]: Downloading https://files.pythonhosted.org/packages/73/ef/3a8c943c8544b98b76ed3205e330d57c2be9fd7d68e4a9405de978b6d86d/scgraph-1.0.0b2.tar.gz
+[2023-07-20 22:37:19] INFO root fetch - processPackages [juju]: Downloading https://files.pythonhosted.org/packages/c5/e2/2ac4af1ed1b2ad828c6e14b8b8d99c167771bef7644fc1803dcc5c7902a6/juju-3.2.0.0.tar.gz
+[2023-07-20 22:37:19] INFO root fetch - processPackages [laskea]: Downloading https://files.pythonhosted.org/packages/67/16/9c3dd56cda111fe25a05cc575aefefe665a82ea873da5d4b98a307546a9b/laskea-2023.7.20.tar.gz
+[2023-07-20 22:37:19] INFO root fetch - processPackages [coiled]: executing diffoscope
+[2023-07-20 22:37:19] INFO root fetch - processPackages [coiled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coiled-0.8.9.dev6.tar.gz tmp/coiled-0.8.9.dev9.tar.gz --markdown 20230720/c/coiled/0.8.9.dev6-0.8.9.dev9/diff.md --exclude *.pyd
+[2023-07-20 22:37:19] INFO root fetch - processPackages [ezsmdeploydev]: executing diffoscope
+[2023-07-20 22:37:19] INFO root fetch - processPackages [ezsmdeploydev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ezsmdeploydev-1.98.dev0.tar.gz tmp/ezsmdeploydev-1.99.dev0.tar.gz --markdown 20230720/e/ezsmdeploydev/1.98.dev0-1.99.dev0/diff.md --exclude *.pyd
+[2023-07-20 22:37:19] INFO root fetch - processPackages [bugbug]: Downloading https://files.pythonhosted.org/packages/1b/68/2d9f5d88a3b137b0acc5c563e30de6711280c6bea1292fb42f4652b41c4b/bugbug-0.0.99.tar.gz
+[2023-07-20 22:37:19] INFO root fetch - processPackages [scgraph]: executing diffoscope
+[2023-07-20 22:37:19] INFO root fetch - processPackages [scgraph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scgraph-1.0.0b1.tar.gz tmp/scgraph-1.0.0b2.tar.gz --markdown 20230720/s/scgraph/1.0.0b1-1.0.0b2/diff.md --exclude *.pyd
+[2023-07-20 22:37:19] INFO root fetch - processPackages [adafri]: executing diffoscope
+[2023-07-20 22:37:19] INFO root fetch - processPackages [adafri]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adafri-0.0.44.tar.gz tmp/adafri-0.0.45.tar.gz --markdown 20230720/a/adafri/0.0.44-0.0.45/diff.md --exclude *.pyd
+[2023-07-20 22:37:19] INFO root fetch - processPackages [panther]: executing diffoscope
+[2023-07-20 22:37:19] INFO root fetch - processPackages [panther]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/panther-1.7.8.tar.gz tmp/panther-1.7.9.tar.gz --markdown 20230720/p/panther/1.7.8-1.7.9/diff.md --exclude *.pyd
+[2023-07-20 22:37:19] INFO root fetch - processPackages [llamaapi]: executing diffoscope
+[2023-07-20 22:37:19] INFO root fetch - processPackages [llamaapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llamaapi-0.1.5.tar.gz tmp/llamaapi-0.1.6.tar.gz --markdown 20230720/l/llamaapi/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-07-20 22:37:19] INFO root fetch - processPackages [olympix-test-generator]: executing diffoscope
+[2023-07-20 22:37:19] INFO root fetch - processPackages [olympix-test-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/olympix-test-generator-0.5.tar.gz tmp/olympix-test-generator-1.0.tar.gz --markdown 20230720/o/olympix-test-generator/0.5-1.0/diff.md --exclude *.pyd
+[2023-07-20 22:37:19] INFO root fetch - processPackages [laskea]: executing diffoscope
+[2023-07-20 22:37:19] INFO root fetch - processPackages [laskea]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/laskea-2023.6.18.tar.gz tmp/laskea-2023.7.20.tar.gz --markdown 20230720/l/laskea/2023.6.18-2023.7.20/diff.md --exclude *.pyd
+[2023-07-20 22:37:19] INFO root fetch - processPackages [juju]: executing diffoscope
+[2023-07-20 22:37:19] INFO root fetch - processPackages [juju]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/juju-3.1.2.0.tar.gz tmp/juju-3.2.0.0.tar.gz --markdown 20230720/j/juju/3.1.2.0-3.2.0.0/diff.md --exclude *.pyd
+[2023-07-20 22:37:19] INFO root fetch - processPackages [bugbug]: executing diffoscope
+[2023-07-20 22:37:19] INFO root fetch - processPackages [bugbug]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bugbug-0.0.98.tar.gz tmp/bugbug-0.0.99.tar.gz --markdown 20230720/b/bugbug/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-20 22:37:21] INFO root fetch - processPackages [llamaapi]: Remove: archive file [/home/abi/fetcher/tmp/llamaapi-0.1.5.tar.gz]
+[2023-07-20 22:37:21] INFO root fetch - processPackages [llamaapi]: Remove: archive file [/home/abi/fetcher/tmp/llamaapi-0.1.6.tar.gz]
+[2023-07-20 22:37:21] INFO root fetch - processPackages [llamaapi]: Start processing: openml
+[2023-07-20 22:37:21] INFO root fetch - main [MainThread]: End processing [llamaapi]: success
+[2023-07-20 22:37:21] INFO root fetch - processPackages [openml]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-07-20 22:37:21] INFO root fetch - processPackages [olympix-test-generator]: Remove: archive file [/home/abi/fetcher/tmp/olympix-test-generator-0.5.tar.gz]
+[2023-07-20 22:37:21] INFO root fetch - processPackages [olympix-test-generator]: Remove: archive file [/home/abi/fetcher/tmp/olympix-test-generator-1.0.tar.gz]
+[2023-07-20 22:37:21] INFO root fetch - processPackages [olympix-test-generator]: Start processing: olympix-test-generator
+[2023-07-20 22:37:21] INFO root fetch - main [MainThread]: End processing [olympix-test-generator]: success
+[2023-07-20 22:37:21] INFO root fetch - processPackages [olympix-test-generator]: New version: [1.1] Old Version: [1.0]
+[2023-07-20 22:37:21] INFO root fetch - processPackages [laskea]: Remove: archive file [/home/abi/fetcher/tmp/laskea-2023.6.18.tar.gz]
+[2023-07-20 22:37:21] INFO root fetch - processPackages [laskea]: Remove: archive file [/home/abi/fetcher/tmp/laskea-2023.7.20.tar.gz]
+[2023-07-20 22:37:21] INFO root fetch - main [MainThread]: End processing [laskea]: success
+[2023-07-20 22:37:21] INFO root fetch - processPackages [olympix-test-generator]: Downloading https://files.pythonhosted.org/packages/f2/2e/ca0f8dee63f24332f250d15f53add831b8a07873deedf011e6ec9de81316/olympix-test-generator-1.0.tar.gz
+[2023-07-20 22:37:21] INFO root fetch - processPackages [adafri]: Remove: archive file [/home/abi/fetcher/tmp/adafri-0.0.44.tar.gz]
+[2023-07-20 22:37:21] INFO root fetch - processPackages [adafri]: Remove: archive file [/home/abi/fetcher/tmp/adafri-0.0.45.tar.gz]
+[2023-07-20 22:37:21] INFO root fetch - main [MainThread]: End processing [adafri]: success
+[2023-07-20 22:37:21] INFO root fetch - processPackages [openml]: Downloading https://files.pythonhosted.org/packages/ba/21/935418159e4862d1f7a5e34eb6308b675d60060c957248f8a308fe39e15b/openml-0.8.0.tar.gz
+[2023-07-20 22:37:21] INFO root fetch - processPackages [scgraph]: Remove: archive file [/home/abi/fetcher/tmp/scgraph-1.0.0b1.tar.gz]
+[2023-07-20 22:37:21] INFO root fetch - processPackages [scgraph]: Remove: archive file [/home/abi/fetcher/tmp/scgraph-1.0.0b2.tar.gz]
+[2023-07-20 22:37:21] INFO root fetch - main [MainThread]: End processing [scgraph]: success
+[2023-07-20 22:37:21] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-0.8.9.dev6.tar.gz]
+[2023-07-20 22:37:21] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-0.8.9.dev9.tar.gz]
+[2023-07-20 22:37:21] INFO root fetch - main [MainThread]: End processing [coiled]: success
+[2023-07-20 22:37:21] INFO root fetch - processPackages [panther]: Remove: archive file [/home/abi/fetcher/tmp/panther-1.7.8.tar.gz]
+[2023-07-20 22:37:21] INFO root fetch - processPackages [panther]: Remove: archive file [/home/abi/fetcher/tmp/panther-1.7.9.tar.gz]
+[2023-07-20 22:37:21] INFO root fetch - main [MainThread]: End processing [panther]: success
+[2023-07-20 22:37:21] INFO root fetch - processPackages [ezsmdeploydev]: Remove: archive file [/home/abi/fetcher/tmp/ezsmdeploydev-1.98.dev0.tar.gz]
+[2023-07-20 22:37:21] INFO root fetch - processPackages [ezsmdeploydev]: Remove: archive file [/home/abi/fetcher/tmp/ezsmdeploydev-1.99.dev0.tar.gz]
+[2023-07-20 22:37:21] INFO root fetch - main [MainThread]: End processing [ezsmdeploydev]: success
+[2023-07-20 22:37:21] INFO root fetch - processPackages [olympix-test-generator]: Downloading https://files.pythonhosted.org/packages/8f/f4/fc4bfce5c787bfa03b731523049f6b61b33a9bbd5c7d1c8d3b691a8b5873/olympix-test-generator-1.1.tar.gz
+[2023-07-20 22:37:21] INFO root fetch - processPackages [bugbug]: Remove: archive file [/home/abi/fetcher/tmp/bugbug-0.0.98.tar.gz]
+[2023-07-20 22:37:21] INFO root fetch - processPackages [bugbug]: Remove: archive file [/home/abi/fetcher/tmp/bugbug-0.0.99.tar.gz]
+[2023-07-20 22:37:21] INFO root fetch - main [MainThread]: End processing [bugbug]: success
+[2023-07-20 22:37:21] INFO root fetch - processPackages [olympix-test-generator]: executing diffoscope
+[2023-07-20 22:37:21] INFO root fetch - processPackages [olympix-test-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/olympix-test-generator-1.0.tar.gz tmp/olympix-test-generator-1.1.tar.gz --markdown 20230720/o/olympix-test-generator/1.0-1.1/diff.md --exclude *.pyd
+[2023-07-20 22:37:21] INFO root fetch - processPackages [openml]: Downloading https://files.pythonhosted.org/packages/d6/36/4b733c0b76b5e2716d2b281b62bc6e4c8986032e5d00ab14595afd71383f/openml-0.9.0.tar.gz
+[2023-07-20 22:37:22] INFO root fetch - processPackages [openml]: executing diffoscope
+[2023-07-20 22:37:22] INFO root fetch - processPackages [openml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openml-0.8.0.tar.gz tmp/openml-0.9.0.tar.gz --markdown 20230720/o/openml/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-07-20 22:37:22] INFO root fetch - processPackages [olympix-test-generator]: Remove: archive file [/home/abi/fetcher/tmp/olympix-test-generator-1.0.tar.gz]
+[2023-07-20 22:37:22] INFO root fetch - processPackages [olympix-test-generator]: Remove: archive file [/home/abi/fetcher/tmp/olympix-test-generator-1.1.tar.gz]
+[2023-07-20 22:37:22] INFO root fetch - main [MainThread]: End processing [olympix-test-generator]: success
+[2023-07-20 22:37:22] INFO root fetch - processPackages [juju]: Remove: archive file [/home/abi/fetcher/tmp/juju-3.1.2.0.tar.gz]
+[2023-07-20 22:37:22] INFO root fetch - processPackages [juju]: Remove: archive file [/home/abi/fetcher/tmp/juju-3.2.0.0.tar.gz]
+[2023-07-20 22:37:22] INFO root fetch - main [MainThread]: End processing [juju]: success
+[2023-07-20 22:37:23] INFO root fetch - processPackages [openml]: Remove: archive file [/home/abi/fetcher/tmp/openml-0.8.0.tar.gz]
+[2023-07-20 22:37:23] INFO root fetch - processPackages [openml]: Remove: archive file [/home/abi/fetcher/tmp/openml-0.9.0.tar.gz]
+[2023-07-20 22:37:23] INFO root fetch - main [MainThread]: End processing [openml]: success
+[2023-07-20 22:37:23] INFO root fetch - main [MainThread]: Store serial: [18972671]
