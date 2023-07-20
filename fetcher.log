@@ -1240,3 +1240,118 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-07-20 10:41:09] INFO root fetch - processPackages [chellow]: Remove: archive file [/home/abi/fetcher/tmp/chellow-2827.tar.gz]
 [2023-07-20 10:41:09] INFO root fetch - main [MainThread]: End processing [chellow]: success
 [2023-07-20 10:41:09] INFO root fetch - main [MainThread]: Store serial: [18963424]
+[2023-07-20 10:46:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18963424]
+[2023-07-20 10:46:18] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-07-20 10:46:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tff-nightly
+[2023-07-20 10:46:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: im-data-manager-job-decoder
+[2023-07-20 10:46:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tf-estimator-nightly
+[2023-07-20 10:46:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulumi-azure-native
+[2023-07-20 10:46:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pystools
+[2023-07-20 10:46:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: discohooker
+[2023-07-20 10:46:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: fastapi-serve
+[2023-07-20 10:46:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: order
+[2023-07-20 10:46:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: fastapi-serve
+[2023-07-20 10:46:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: helptasker-common
+[2023-07-20 10:46:18] INFO root fetch - processPackages [discohooker]: New version: [0.0.0b9] Old Version: [0.0.0b8]
+[2023-07-20 10:46:18] INFO root fetch - processPackages [fastapi-serve]: New version: [0.0.5.dev8] Old Version: [0.0.5.dev7]
+[2023-07-20 10:46:18] INFO root fetch - processPackages [helptasker-common]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-20 10:46:18] INFO root fetch - processPackages [pystools]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-20 10:46:18] INFO root fetch - processPackages [im-data-manager-job-decoder]: New version: [1.9.0] Old Version: [1.8.1]
+[2023-07-20 10:46:18] INFO root fetch - processPackages [order]: New version: [2.1.3] Old Version: [2.1.2]
+[2023-07-20 10:46:18] INFO root fetch - processPackages [fastapi-serve]: New version: [0.0.5.dev8] Old Version: [0.0.5.dev7]
+[2023-07-20 10:46:18] INFO root fetch - processPackages [tf-estimator-nightly]: New version: [2.9.0.dev2022033108] Old Version: [2.9.0.dev2022033008]
+[2023-07-20 10:46:18] INFO root fetch - processPackages [pulumi-azure-native]: New version: [2.1.0] Old Version: [2.0.1a1689839768]
+[2023-07-20 10:46:18] INFO root fetch - processPackages [discohooker]: Downloading https://files.pythonhosted.org/packages/11/18/cd20f4d7f8bbf72fed32bf3ca62b1cb82e19effc531f6fc1212460966f16/discohooker-0.0.0b8.tar.gz
+[2023-07-20 10:46:18] INFO root fetch - processPackages [tff-nightly]: New version: [0.0.1.dev20230720] Old Version: [0.0.1.dev20230719]
+[2023-07-20 10:46:18] INFO root fetch - processPackages [tf-estimator-nightly]: Downloading https://files.pythonhosted.org/packages/31/a0/5e1b898e43043b32d95e8719e2eb127692fd8261edbdad4801876a46893f/tf_estimator_nightly-2.9.0.dev2022033008-py2.py3-none-any.whl
+[2023-07-20 10:46:18] INFO root fetch - processPackages [fastapi-serve]: Downloading https://files.pythonhosted.org/packages/3f/0a/69a46800b5371dcf4506c748d0af5a89f66cdb2975292e4ad1be683bde78/fastapi-serve-0.0.5.dev7.tar.gz
+[2023-07-20 10:46:18] INFO root fetch - processPackages [helptasker-common]: Downloading https://files.pythonhosted.org/packages/2b/f4/08bb24afbeaeaf1071aae96b330fa22ae6b4a9e6433218a943ef2b4d3665/helptasker_common-0.0.2.tar.gz
+[2023-07-20 10:46:18] INFO root fetch - processPackages [pystools]: Downloading https://files.pythonhosted.org/packages/d3/f1/f6fef6b574bd57970579f257d2f3b2adf9f6b87b20d9dc2c11e18d2a4a47/pystools-0.0.8.tar.gz
+[2023-07-20 10:46:18] INFO root fetch - processPackages [fastapi-serve]: Downloading https://files.pythonhosted.org/packages/3f/0a/69a46800b5371dcf4506c748d0af5a89f66cdb2975292e4ad1be683bde78/fastapi-serve-0.0.5.dev7.tar.gz
+[2023-07-20 10:46:18] INFO root fetch - processPackages [order]: Downloading https://files.pythonhosted.org/packages/09/04/03de939a336fce38b7b8ba9f0bf1a3a6e67b6867f4ce1122b107fc5199d6/order-2.1.2.tar.gz
+[2023-07-20 10:46:18] INFO root fetch - processPackages [pulumi-azure-native]: Downloading https://files.pythonhosted.org/packages/d0/f4/1fc800abc7c8b3990d330fefa9e5b494479befbb6e56c5368470bb82344d/pulumi_azure_native-2.0.1a1689839768.tar.gz
+[2023-07-20 10:46:18] INFO root fetch - processPackages [im-data-manager-job-decoder]: Downloading https://files.pythonhosted.org/packages/b8/4a/1ffb88fb6c242daa5635bd10510654c2d356bfa4efb0204564467e55a6b1/im-data-manager-job-decoder-1.8.1.tar.gz
+[2023-07-20 10:46:18] WARNING root fetch - processPackages [pulumi-azure-native]: Skipping package: exceeds size limit 21868190>=10485760
+[2023-07-20 10:46:18] INFO root fetch - processPackages [pulumi-azure-native]: Start processing: synthedata
+[2023-07-20 10:46:18] INFO root fetch - main [MainThread]: End processing [pulumi-azure-native] error
+[2023-07-20 10:46:18] INFO root fetch - processPackages [discohooker]: Downloading https://files.pythonhosted.org/packages/8b/8b/5f1339db58f060781d94ad397b0849ddd19df8c2fa5ddc3ea53c4d467c5c/discohooker-0.0.0b9.tar.gz
+[2023-07-20 10:46:18] INFO root fetch - processPackages [tff-nightly]: Downloading https://files.pythonhosted.org/packages/3d/3d/91f33fd0aa7e304a5f0d37b0e70f02514ce3e8b52d8032aaa92696a95d37/tff_nightly-0.0.1.dev20230719-py2.py3-none-any.whl
+[2023-07-20 10:46:19] INFO root fetch - processPackages [helptasker-common]: Downloading https://files.pythonhosted.org/packages/f5/b9/cc4e51c056b7ebca2533dbaf1ec61f5358e5ddaf910d568d17a901421e63/helptasker_common-0.0.3.tar.gz
+[2023-07-20 10:46:19] INFO root fetch - processPackages [fastapi-serve]: executing diffoscope
+[2023-07-20 10:46:19] INFO root fetch - processPackages [fastapi-serve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi-serve-0.0.5.dev7.tar.gz tmp/fastapi-serve-0.0.5.dev8.tar.gz --markdown 20230720/f/fastapi-serve/0.0.5.dev7-0.0.5.dev8/diff.md --exclude *.pyd
+[2023-07-20 10:46:19] WARNING root fetch - processPackages [synthedata]: Skipping, unable to determine old version
+[2023-07-20 10:46:19] INFO root fetch - processPackages [synthedata]: Start processing: tfp-nightly
+[2023-07-20 10:46:19] INFO root fetch - main [MainThread]: End processing [synthedata] error
+[2023-07-20 10:46:19] INFO root fetch - processPackages [fastapi-serve]: executing diffoscope
+[2023-07-20 10:46:19] INFO root fetch - processPackages [fastapi-serve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi-serve-0.0.5.dev7.tar.gz tmp/fastapi-serve-0.0.5.dev8.tar.gz --markdown 20230720/f/fastapi-serve/0.0.5.dev7-0.0.5.dev8/diff.md --exclude *.pyd
+[2023-07-20 10:46:19] INFO root fetch - processPackages [discohooker]: executing diffoscope
+[2023-07-20 10:46:19] INFO root fetch - processPackages [discohooker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/discohooker-0.0.0b8.tar.gz tmp/discohooker-0.0.0b9.tar.gz --markdown 20230720/d/discohooker/0.0.0b8-0.0.0b9/diff.md --exclude *.pyd
+[2023-07-20 10:46:19] INFO root fetch - processPackages [tf-estimator-nightly]: Downloading https://files.pythonhosted.org/packages/1c/b6/fe4f7077ae036fd90bf9dfdc09b52cf611b857e7a26c3bc44a2e76c94af2/tf_estimator_nightly-2.9.0.dev2022033108-py2.py3-none-any.whl
+[2023-07-20 10:46:19] INFO root fetch - processPackages [order]: Downloading https://files.pythonhosted.org/packages/3a/ef/b6231cf34955fdda1a73e7d21db1bdd017c9aea645cf3f2e5e671ff75e80/order-2.1.3.tar.gz
+[2023-07-20 10:46:19] INFO root fetch - processPackages [tfp-nightly]: New version: [0.9.0.dev20200114] Old Version: [0.9.0.dev20200113]
+[2023-07-20 10:46:19] INFO root fetch - processPackages [helptasker-common]: executing diffoscope
+[2023-07-20 10:46:19] INFO root fetch - processPackages [helptasker-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/helptasker_common-0.0.2.tar.gz tmp/helptasker_common-0.0.3.tar.gz --markdown 20230720/h/helptasker-common/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-20 10:46:19] INFO root fetch - processPackages [pystools]: Downloading https://files.pythonhosted.org/packages/9b/5a/9f2cf38e22565c5aa2ecb7be3dbecb7a44f7d23efbd86fd532eacd613f62/pystools-0.0.9.tar.gz
+[2023-07-20 10:46:19] INFO root fetch - processPackages [tfp-nightly]: Downloading https://files.pythonhosted.org/packages/be/16/ebf16b1094e104257af6265eee53833e4f737ef6d11426d959009fa9952a/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl
+[2023-07-20 10:46:19] INFO root fetch - processPackages [order]: executing diffoscope
+[2023-07-20 10:46:19] INFO root fetch - processPackages [order]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/order-2.1.2.tar.gz tmp/order-2.1.3.tar.gz --markdown 20230720/o/order/2.1.2-2.1.3/diff.md --exclude *.pyd
+[2023-07-20 10:46:19] INFO root fetch - processPackages [tf-estimator-nightly]: executing diffoscope
+[2023-07-20 10:46:19] INFO root fetch - processPackages [tf-estimator-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_estimator_nightly-2.9.0.dev2022033008-py2.py3-none-any.whl.zip tmp/tf_estimator_nightly-2.9.0.dev2022033108-py2.py3-none-any.whl.zip --markdown 20230720/t/tf-estimator-nightly/2.9.0.dev2022033008-2.9.0.dev2022033108/diff.md --exclude *.pyd
+[2023-07-20 10:46:19] INFO root fetch - processPackages [im-data-manager-job-decoder]: Downloading https://files.pythonhosted.org/packages/af/73/f856a2d9ae03130fb59552d593e2b32353e595e21a87fdb570b9510d68e9/im-data-manager-job-decoder-1.9.0.tar.gz
+[2023-07-20 10:46:19] INFO root fetch - processPackages [pystools]: executing diffoscope
+[2023-07-20 10:46:19] INFO root fetch - processPackages [pystools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pystools-0.0.8.tar.gz tmp/pystools-0.0.9.tar.gz --markdown 20230720/p/pystools/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-20 10:46:19] INFO root fetch - processPackages [tff-nightly]: Downloading https://files.pythonhosted.org/packages/c0/5f/71bf0f171272db2f53355f15ad36db7e25013cf3fef54666df717e0deeda/tff_nightly-0.0.1.dev20230720-py2.py3-none-any.whl
+[2023-07-20 10:46:19] INFO root fetch - processPackages [im-data-manager-job-decoder]: executing diffoscope
+[2023-07-20 10:46:19] INFO root fetch - processPackages [im-data-manager-job-decoder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/im-data-manager-job-decoder-1.8.1.tar.gz tmp/im-data-manager-job-decoder-1.9.0.tar.gz --markdown 20230720/i/im-data-manager-job-decoder/1.8.1-1.9.0/diff.md --exclude *.pyd
+[2023-07-20 10:46:19] INFO root fetch - processPackages [tff-nightly]: executing diffoscope
+[2023-07-20 10:46:19] INFO root fetch - processPackages [tff-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tff_nightly-0.0.1.dev20230719-py2.py3-none-any.whl.zip tmp/tff_nightly-0.0.1.dev20230720-py2.py3-none-any.whl.zip --markdown 20230720/t/tff-nightly/0.0.1.dev20230719-0.0.1.dev20230720/diff.md --exclude *.pyd
+[2023-07-20 10:46:20] INFO root fetch - processPackages [discohooker]: Remove: archive file [/home/abi/fetcher/tmp/discohooker-0.0.0b8.tar.gz]
+[2023-07-20 10:46:20] INFO root fetch - processPackages [discohooker]: Remove: archive file [/home/abi/fetcher/tmp/discohooker-0.0.0b9.tar.gz]
+[2023-07-20 10:46:20] INFO root fetch - processPackages [discohooker]: Start processing: fastgenerateapi
+[2023-07-20 10:46:20] INFO root fetch - main [MainThread]: End processing [discohooker]: success
+[2023-07-20 10:46:20] INFO root fetch - processPackages [fastgenerateapi]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-07-20 10:46:20] INFO root fetch - processPackages [fastapi-serve]: Remove: archive file [/home/abi/fetcher/tmp/fastapi-serve-0.0.5.dev7.tar.gz]
+[2023-07-20 10:46:20] INFO root fetch - processPackages [fastapi-serve]: Remove: archive file [/home/abi/fetcher/tmp/fastapi-serve-0.0.5.dev8.tar.gz]
+[2023-07-20 10:46:20] INFO root fetch - processPackages [fastapi-serve]: Start processing: S3Backup
+[2023-07-20 10:46:20] INFO root fetch - main [MainThread]: End processing [fastapi-serve]: success
+[2023-07-20 10:46:20] INFO root fetch - processPackages [helptasker-common]: Remove: archive file [/home/abi/fetcher/tmp/helptasker_common-0.0.2.tar.gz]
+[2023-07-20 10:46:20] INFO root fetch - processPackages [helptasker-common]: Remove: archive file [/home/abi/fetcher/tmp/helptasker_common-0.0.3.tar.gz]
+[2023-07-20 10:46:20] INFO root fetch - main [MainThread]: End processing [helptasker-common]: success
+[2023-07-20 10:46:20] INFO root fetch - main [MainThread]: End processing [fastapi-serve]: success
+[2023-07-20 10:46:20] INFO root fetch - processPackages [tfp-nightly]: Downloading https://files.pythonhosted.org/packages/f1/98/c1f5a754a26ea1f08e3558803ffb67dd65482de4f6bfadc5415573cd3cb7/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl
+[2023-07-20 10:46:20] INFO root fetch - processPackages [S3Backup]: New version: [v0.6] Old Version: [v0.5-alpha]
+[2023-07-20 10:46:20] INFO root fetch - processPackages [fastgenerateapi]: Downloading https://files.pythonhosted.org/packages/7f/91/a405456acd3b77c270c049a322420d06af1f82de5a3e7eef455613f9c791/fastgenerateapi-0.0.6.tar.gz
+[2023-07-20 10:46:20] INFO root fetch - processPackages [order]: Remove: archive file [/home/abi/fetcher/tmp/order-2.1.2.tar.gz]
+[2023-07-20 10:46:20] INFO root fetch - processPackages [order]: Remove: archive file [/home/abi/fetcher/tmp/order-2.1.3.tar.gz]
+[2023-07-20 10:46:20] INFO root fetch - main [MainThread]: End processing [order]: success
+[2023-07-20 10:46:20] INFO root fetch - processPackages [im-data-manager-job-decoder]: Remove: archive file [/home/abi/fetcher/tmp/im-data-manager-job-decoder-1.8.1.tar.gz]
+[2023-07-20 10:46:20] INFO root fetch - processPackages [im-data-manager-job-decoder]: Remove: archive file [/home/abi/fetcher/tmp/im-data-manager-job-decoder-1.9.0.tar.gz]
+[2023-07-20 10:46:20] INFO root fetch - main [MainThread]: End processing [im-data-manager-job-decoder]: success
+[2023-07-20 10:46:20] INFO root fetch - processPackages [pystools]: Remove: archive file [/home/abi/fetcher/tmp/pystools-0.0.8.tar.gz]
+[2023-07-20 10:46:20] INFO root fetch - processPackages [pystools]: Remove: archive file [/home/abi/fetcher/tmp/pystools-0.0.9.tar.gz]
+[2023-07-20 10:46:20] INFO root fetch - main [MainThread]: End processing [pystools]: success
+[2023-07-20 10:46:20] INFO root fetch - processPackages [S3Backup]: Downloading https://files.pythonhosted.org/packages/ae/68/e337c66c85ea3690cf688b1bd1fa8cea463a695216d90e94d5085762e9e6/S3Backup-v0.5-alpha.zip
+[2023-07-20 10:46:21] INFO root fetch - processPackages [tf-estimator-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_estimator_nightly-2.9.0.dev2022033008-py2.py3-none-any.whl.zip]
+[2023-07-20 10:46:21] INFO root fetch - processPackages [tf-estimator-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_estimator_nightly-2.9.0.dev2022033108-py2.py3-none-any.whl.zip]
+[2023-07-20 10:46:21] INFO root fetch - main [MainThread]: End processing [tf-estimator-nightly]: success
+[2023-07-20 10:46:21] INFO root fetch - processPackages [fastgenerateapi]: Downloading https://files.pythonhosted.org/packages/83/6d/2cc828965a510fdfcf565bbee0529b755e68f8a9e0de2e06584bd1f6b9fb/fastgenerateapi-0.0.7.tar.gz
+[2023-07-20 10:46:21] INFO root fetch - processPackages [S3Backup]: Downloading https://files.pythonhosted.org/packages/e6/b3/7f7b2077fdae80e2c29f1a8e652539f4a1f9ef5de8bd49dab45913c54528/S3Backup-v0.6.zip
+[2023-07-20 10:46:21] INFO root fetch - processPackages [tfp-nightly]: executing diffoscope
+[2023-07-20 10:46:21] INFO root fetch - processPackages [tfp-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl.zip tmp/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl.zip --markdown 20230720/t/tfp-nightly/0.9.0.dev20200113-0.9.0.dev20200114/diff.md --exclude *.pyd
+[2023-07-20 10:46:21] INFO root fetch - processPackages [S3Backup]: executing diffoscope
+[2023-07-20 10:46:21] INFO root fetch - processPackages [S3Backup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/S3Backup-v0.5-alpha.zip tmp/S3Backup-v0.6.zip --markdown 20230720/S/S3Backup/v0.5-alpha-v0.6/diff.md --exclude *.pyd
+[2023-07-20 10:46:21] INFO root fetch - processPackages [fastgenerateapi]: executing diffoscope
+[2023-07-20 10:46:21] INFO root fetch - processPackages [fastgenerateapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastgenerateapi-0.0.6.tar.gz tmp/fastgenerateapi-0.0.7.tar.gz --markdown 20230720/f/fastgenerateapi/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-07-20 10:46:22] INFO root fetch - processPackages [tff-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tff_nightly-0.0.1.dev20230719-py2.py3-none-any.whl.zip]
+[2023-07-20 10:46:22] INFO root fetch - processPackages [tff-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tff_nightly-0.0.1.dev20230720-py2.py3-none-any.whl.zip]
+[2023-07-20 10:46:22] INFO root fetch - main [MainThread]: End processing [tff-nightly]: success
+[2023-07-20 10:46:22] INFO root fetch - processPackages [S3Backup]: Remove: archive file [/home/abi/fetcher/tmp/S3Backup-v0.5-alpha.zip]
+[2023-07-20 10:46:22] INFO root fetch - processPackages [S3Backup]: Remove: archive file [/home/abi/fetcher/tmp/S3Backup-v0.6.zip]
+[2023-07-20 10:46:22] INFO root fetch - main [MainThread]: End processing [S3Backup]: success
+[2023-07-20 10:46:22] INFO root fetch - processPackages [fastgenerateapi]: Remove: archive file [/home/abi/fetcher/tmp/fastgenerateapi-0.0.6.tar.gz]
+[2023-07-20 10:46:22] INFO root fetch - processPackages [fastgenerateapi]: Remove: archive file [/home/abi/fetcher/tmp/fastgenerateapi-0.0.7.tar.gz]
+[2023-07-20 10:46:22] INFO root fetch - main [MainThread]: End processing [fastgenerateapi]: success
+[2023-07-20 10:46:25] INFO root fetch - processPackages [tfp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl.zip]
+[2023-07-20 10:46:25] INFO root fetch - processPackages [tfp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl.zip]
+[2023-07-20 10:46:25] INFO root fetch - main [MainThread]: End processing [tfp-nightly]: success
+[2023-07-20 10:46:25] INFO root fetch - main [MainThread]: Store serial: [18963465]
