@@ -3653,3 +3653,163 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid
 [2023-07-20 11:18:56] INFO root fetch - processPackages [nvfuser-cu117]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu117-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2023-07-20 11:18:56] INFO root fetch - main [MainThread]: End processing [nvfuser-cu117]: success
 [2023-07-20 11:18:56] INFO root fetch - main [MainThread]: Store serial: [18964180]
+[2023-07-20 11:24:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18964180]
+[2023-07-20 11:24:05] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-07-20 11:24:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: track-generator
+[2023-07-20 11:24:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: financetoolkit
+[2023-07-20 11:24:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mecord-cli
+[2023-07-20 11:24:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: idbadapter
+[2023-07-20 11:24:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cloudspot-license-api
+[2023-07-20 11:24:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: OpenFisca-Survey-Manager
+[2023-07-20 11:24:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: caf.toolkit
+[2023-07-20 11:24:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: fw-utils
+[2023-07-20 11:24:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: scoamp
+[2023-07-20 11:24:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: spanishconjugator
+[2023-07-20 11:24:05] INFO root fetch - processPackages [OpenFisca-Survey-Manager]: New version: [1.1.0] Old Version: [1.0.2]
+[2023-07-20 11:24:05] INFO root fetch - processPackages [scoamp]: New version: [0.4.0a1] Old Version: [0.4.0a0]
+[2023-07-20 11:24:05] INFO root fetch - processPackages [idbadapter]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-07-20 11:24:05] INFO root fetch - processPackages [mecord-cli]: New version: [0.1.9] Old Version: [0.1.80]
+[2023-07-20 11:24:05] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-07-20 11:24:05] INFO root fetch - processPackages [financetoolkit]: New version: [1.1.0] Old Version: [1.0.3]
+[2023-07-20 11:24:05] INFO root fetch - processPackages [track-generator]: New version: [0.5.4] Old Version: [0.5.3]
+[2023-07-20 11:24:05] INFO root fetch - processPackages [fw-utils]: New version: [4.3.4] Old Version: [4.3.3]
+[2023-07-20 11:24:05] INFO root fetch - processPackages [caf.toolkit]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-20 11:24:05] INFO root fetch - processPackages [cloudspot-license-api]: New version: [1.4.3] Old Version: [1.4.2]
+[2023-07-20 11:24:05] INFO root fetch - processPackages [idbadapter]: Downloading https://files.pythonhosted.org/packages/86/ce/5d285dd699179d957286354202e9f27f54e8c0d87c76c2a78ad5248373cb/idbadapter-1.9.1.tar.gz
+[2023-07-20 11:24:05] INFO root fetch - processPackages [scoamp]: Downloading https://files.pythonhosted.org/packages/08/cc/617d8b4793cfa44e2104fe2b8319013ede0cd7f99f1d0981f9010be22e20/scoamp-0.4.0a0-py3-none-any.whl
+[2023-07-20 11:24:05] INFO root fetch - processPackages [mecord-cli]: Downloading https://files.pythonhosted.org/packages/d0/48/f29cf3843b06bdcbefa6af3e1a8bb30a7076ec57c6464c63423744bbee4d/mecord-cli-0.1.80.tar.gz
+[2023-07-20 11:24:05] INFO root fetch - processPackages [OpenFisca-Survey-Manager]: Downloading https://files.pythonhosted.org/packages/18/e9/350ef450e185b27771c55322fe88b1eadfedf36f339a93124fa5f00255b5/OpenFisca-Survey-Manager-1.0.2.tar.gz
+[2023-07-20 11:24:05] INFO root fetch - processPackages [caf.toolkit]: Downloading https://files.pythonhosted.org/packages/a7/20/01bf0472fc88cb4d6a90bbf2d66226abd65207eb1a3f67114fd63772659e/caf.toolkit-0.1.1.tar.gz
+[2023-07-20 11:24:05] INFO root fetch - processPackages [track-generator]: Downloading https://files.pythonhosted.org/packages/0a/54/aedad7036627ca1927a5d92ec6efb24631aaabbaa1e1a3828928672c7885/track_generator-0.5.3.tar.gz
+[2023-07-20 11:24:05] INFO root fetch - processPackages [cloudspot-license-api]: Downloading https://files.pythonhosted.org/packages/7f/41/ff9c729d2f6fb708f8bc2eaa6840328804830e46a8f23f6879ced051d772/cloudspot-license-api-1.4.2.tar.gz
+[2023-07-20 11:24:05] INFO root fetch - processPackages [financetoolkit]: Downloading https://files.pythonhosted.org/packages/e0/b4/7e0bb9e205840d4f1d78efed21393ef713e3c3f88bde64ab67f69c513308/financetoolkit-1.0.3.tar.gz
+[2023-07-20 11:24:05] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-07-20 11:24:05] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230720/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-07-20 11:24:06] INFO root fetch - processPackages [idbadapter]: Downloading https://files.pythonhosted.org/packages/c4/35/985340f64972bda83ee832be6f3541ed86dce06b492b7f4440f2db710cae/idbadapter-1.9.2.tar.gz
+[2023-07-20 11:24:06] INFO root fetch - processPackages [fw-utils]: Downloading https://files.pythonhosted.org/packages/f8/32/d5a34ae9e8601a846964a9d13c00ed6e4186aa98d80bbd95fbcd90359b97/fw_utils-4.3.3-py3-none-any.whl
+[2023-07-20 11:24:06] INFO root fetch - processPackages [scoamp]: Downloading https://files.pythonhosted.org/packages/e2/7f/0fec07703675e02ac0116268648dc6215f40f6414c8ffb88140417ce42fc/scoamp-0.4.0a1-py3-none-any.whl
+[2023-07-20 11:24:06] INFO root fetch - processPackages [mecord-cli]: Downloading https://files.pythonhosted.org/packages/2b/9f/dbf00e6cfb2e166744734b7095dec6d81a7ee7213a1ef56c5c29e85783a1/mecord-cli-0.1.9.tar.gz
+[2023-07-20 11:24:06] INFO root fetch - processPackages [idbadapter]: executing diffoscope
+[2023-07-20 11:24:06] INFO root fetch - processPackages [idbadapter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idbadapter-1.9.1.tar.gz tmp/idbadapter-1.9.2.tar.gz --markdown 20230720/i/idbadapter/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2023-07-20 11:24:06] INFO root fetch - processPackages [scoamp]: executing diffoscope
+[2023-07-20 11:24:06] INFO root fetch - processPackages [scoamp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scoamp-0.4.0a0-py3-none-any.whl.zip tmp/scoamp-0.4.0a1-py3-none-any.whl.zip --markdown 20230720/s/scoamp/0.4.0a0-0.4.0a1/diff.md --exclude *.pyd
+[2023-07-20 11:24:06] INFO root fetch - processPackages [mecord-cli]: executing diffoscope
+[2023-07-20 11:24:06] INFO root fetch - processPackages [mecord-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mecord-cli-0.1.80.tar.gz tmp/mecord-cli-0.1.9.tar.gz --markdown 20230720/m/mecord-cli/0.1.80-0.1.9/diff.md --exclude *.pyd
+[2023-07-20 11:24:06] INFO root fetch - processPackages [track-generator]: Downloading https://files.pythonhosted.org/packages/c5/1b/87f4e41ff91e1ded98533d47d3cbd8c7caf9ce79d924dd7c920b45e87a2b/track_generator-0.5.4.tar.gz
+[2023-07-20 11:24:06] INFO root fetch - processPackages [OpenFisca-Survey-Manager]: Downloading https://files.pythonhosted.org/packages/34/2f/cdc5b0fdad0a36d9897329f0dcddd17c203165cb17c690719822e19c948f/OpenFisca-Survey-Manager-1.1.0.tar.gz
+[2023-07-20 11:24:06] INFO root fetch - processPackages [caf.toolkit]: Downloading https://files.pythonhosted.org/packages/58/b5/491860066157ee6a59d632718af3537d4710755c47a4265fcba6b18a0daf/caf.toolkit-0.1.2.tar.gz
+[2023-07-20 11:24:06] INFO root fetch - processPackages [financetoolkit]: Downloading https://files.pythonhosted.org/packages/22/9a/b23796ad7dc1e204f5bee0a50ac76a57e1025386b7e5cc9929fab7684fc3/financetoolkit-1.1.0.tar.gz
+[2023-07-20 11:24:06] INFO root fetch - processPackages [cloudspot-license-api]: Downloading https://files.pythonhosted.org/packages/fa/82/6059ecc2232d74116347a0f846d4c4bdcbee554727bff428fc48491a136c/cloudspot-license-api-1.4.3.tar.gz
+[2023-07-20 11:24:06] INFO root fetch - processPackages [fw-utils]: Downloading https://files.pythonhosted.org/packages/5e/aa/91a0e4b3c241321a55af30ed1b27541e92fc457f969a8cd55b7fddf1c7cd/fw_utils-4.3.4-py3-none-any.whl
+[2023-07-20 11:24:06] INFO root fetch - processPackages [OpenFisca-Survey-Manager]: executing diffoscope
+[2023-07-20 11:24:06] INFO root fetch - processPackages [OpenFisca-Survey-Manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OpenFisca-Survey-Manager-1.0.2.tar.gz tmp/OpenFisca-Survey-Manager-1.1.0.tar.gz --markdown 20230720/O/OpenFisca-Survey-Manager/1.0.2-1.1.0/diff.md --exclude *.pyd
+[2023-07-20 11:24:06] INFO root fetch - processPackages [track-generator]: executing diffoscope
+[2023-07-20 11:24:06] INFO root fetch - processPackages [track-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/track_generator-0.5.3.tar.gz tmp/track_generator-0.5.4.tar.gz --markdown 20230720/t/track-generator/0.5.3-0.5.4/diff.md --exclude *.pyd
+[2023-07-20 11:24:06] INFO root fetch - processPackages [caf.toolkit]: executing diffoscope
+[2023-07-20 11:24:06] INFO root fetch - processPackages [caf.toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/caf.toolkit-0.1.1.tar.gz tmp/caf.toolkit-0.1.2.tar.gz --markdown 20230720/c/caf.toolkit/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-20 11:24:06] INFO root fetch - processPackages [financetoolkit]: executing diffoscope
+[2023-07-20 11:24:06] INFO root fetch - processPackages [financetoolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/financetoolkit-1.0.3.tar.gz tmp/financetoolkit-1.1.0.tar.gz --markdown 20230720/f/financetoolkit/1.0.3-1.1.0/diff.md --exclude *.pyd
+[2023-07-20 11:24:06] INFO root fetch - processPackages [cloudspot-license-api]: executing diffoscope
+[2023-07-20 11:24:06] INFO root fetch - processPackages [cloudspot-license-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudspot-license-api-1.4.2.tar.gz tmp/cloudspot-license-api-1.4.3.tar.gz --markdown 20230720/c/cloudspot-license-api/1.4.2-1.4.3/diff.md --exclude *.pyd
+[2023-07-20 11:24:06] INFO root fetch - processPackages [fw-utils]: executing diffoscope
+[2023-07-20 11:24:06] INFO root fetch - processPackages [fw-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fw_utils-4.3.3-py3-none-any.whl.zip tmp/fw_utils-4.3.4-py3-none-any.whl.zip --markdown 20230720/f/fw-utils/4.3.3-4.3.4/diff.md --exclude *.pyd
+[2023-07-20 11:24:06] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.998.tar.gz]
+[2023-07-20 11:24:06] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.999.tar.gz]
+[2023-07-20 11:24:06] INFO root fetch - processPackages [spanishconjugator]: Start processing: onnion-rt
+[2023-07-20 11:24:06] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-07-20 11:24:07] INFO root fetch - processPackages [onnion-rt]: New version: [0.8.0] Old Version: [0.7.0]
+[2023-07-20 11:24:07] INFO root fetch - processPackages [onnion-rt]: Downloading https://files.pythonhosted.org/packages/de/13/bdd24b68cfaad7823267699bff1afd8e6f2193d4cf59906f8292a47f018a/onnion_rt-0.7.0.tar.gz
+[2023-07-20 11:24:07] INFO root fetch - processPackages [idbadapter]: Remove: archive file [/home/abi/fetcher/tmp/idbadapter-1.9.1.tar.gz]
+[2023-07-20 11:24:07] INFO root fetch - processPackages [idbadapter]: Remove: archive file [/home/abi/fetcher/tmp/idbadapter-1.9.2.tar.gz]
+[2023-07-20 11:24:07] INFO root fetch - processPackages [idbadapter]: Start processing: micrOSDevToolKit
+[2023-07-20 11:24:07] INFO root fetch - main [MainThread]: End processing [idbadapter]: success
+[2023-07-20 11:24:07] INFO root fetch - processPackages [micrOSDevToolKit]: New version: [1.20.4] Old Version: [1.20.3]
+[2023-07-20 11:24:07] INFO root fetch - processPackages [onnion-rt]: Downloading https://files.pythonhosted.org/packages/cb/2f/e7e1112fbd78f5b5fa188ba8c51d065315b8da566293215183da4cdae63b/onnion_rt-0.8.0.tar.gz
+[2023-07-20 11:24:07] INFO root fetch - processPackages [scoamp]: Remove: archive file [/home/abi/fetcher/tmp/scoamp-0.4.0a0-py3-none-any.whl.zip]
+[2023-07-20 11:24:07] INFO root fetch - processPackages [scoamp]: Remove: archive file [/home/abi/fetcher/tmp/scoamp-0.4.0a1-py3-none-any.whl.zip]
+[2023-07-20 11:24:07] INFO root fetch - processPackages [scoamp]: Start processing: spanishconjugator
+[2023-07-20 11:24:07] INFO root fetch - main [MainThread]: End processing [scoamp]: success
+[2023-07-20 11:24:08] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-07-20 11:24:08] INFO root fetch - processPackages [mecord-cli]: Remove: archive file [/home/abi/fetcher/tmp/mecord-cli-0.1.80.tar.gz]
+[2023-07-20 11:24:08] INFO root fetch - processPackages [mecord-cli]: Remove: archive file [/home/abi/fetcher/tmp/mecord-cli-0.1.9.tar.gz]
+[2023-07-20 11:24:08] INFO root fetch - processPackages [mecord-cli]: Start processing: quao
+[2023-07-20 11:24:08] INFO root fetch - main [MainThread]: End processing [mecord-cli]: success
+[2023-07-20 11:24:08] INFO root fetch - processPackages [micrOSDevToolKit]: Downloading https://files.pythonhosted.org/packages/e1/3a/b7c29a4917ca08e6267204baee57c3a9a9e9ca58848f8f58da29425ab851/micrOSDevToolKit-1.20.3.tar.gz
+[2023-07-20 11:24:08] INFO root fetch - processPackages [onnion-rt]: executing diffoscope
+[2023-07-20 11:24:08] INFO root fetch - processPackages [onnion-rt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onnion_rt-0.7.0.tar.gz tmp/onnion_rt-0.8.0.tar.gz --markdown 20230720/o/onnion-rt/0.7.0-0.8.0/diff.md --exclude *.pyd
+[2023-07-20 11:24:08] INFO root fetch - processPackages [quao]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-20 11:24:08] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2023-07-20 11:24:08] INFO root fetch - processPackages [quao]: Downloading https://files.pythonhosted.org/packages/53/04/d819ae61d912cd518f07ed4fe988afc31cb80ed329759b5ef911477d9307/quao-0.3.8.tar.gz
+[2023-07-20 11:24:08] INFO root fetch - processPackages [track-generator]: Remove: archive file [/home/abi/fetcher/tmp/track_generator-0.5.3.tar.gz]
+[2023-07-20 11:24:08] INFO root fetch - processPackages [track-generator]: Remove: archive file [/home/abi/fetcher/tmp/track_generator-0.5.4.tar.gz]
+[2023-07-20 11:24:08] INFO root fetch - processPackages [track-generator]: Start processing: code-loader
+[2023-07-20 11:24:08] INFO root fetch - main [MainThread]: End processing [track-generator]: success
+[2023-07-20 11:24:08] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2023-07-20 11:24:08] INFO root fetch - processPackages [fw-utils]: Remove: archive file [/home/abi/fetcher/tmp/fw_utils-4.3.3-py3-none-any.whl.zip]
+[2023-07-20 11:24:08] INFO root fetch - processPackages [fw-utils]: Remove: archive file [/home/abi/fetcher/tmp/fw_utils-4.3.4-py3-none-any.whl.zip]
+[2023-07-20 11:24:08] INFO root fetch - processPackages [fw-utils]: Start processing: tbp-nightly
+[2023-07-20 11:24:08] INFO root fetch - main [MainThread]: End processing [fw-utils]: success
+[2023-07-20 11:24:08] INFO root fetch - processPackages [cloudspot-license-api]: Remove: archive file [/home/abi/fetcher/tmp/cloudspot-license-api-1.4.2.tar.gz]
+[2023-07-20 11:24:08] INFO root fetch - processPackages [cloudspot-license-api]: Remove: archive file [/home/abi/fetcher/tmp/cloudspot-license-api-1.4.3.tar.gz]
+[2023-07-20 11:24:08] INFO root fetch - processPackages [cloudspot-license-api]: Start processing: verify4py-test
+[2023-07-20 11:24:08] INFO root fetch - processPackages [code-loader]: New version: [0.2.9] Old Version: [0.2.84.dev1]
+[2023-07-20 11:24:08] INFO root fetch - main [MainThread]: End processing [cloudspot-license-api]: success
+[2023-07-20 11:24:08] INFO root fetch - processPackages [financetoolkit]: Remove: archive file [/home/abi/fetcher/tmp/financetoolkit-1.0.3.tar.gz]
+[2023-07-20 11:24:08] INFO root fetch - processPackages [financetoolkit]: Remove: archive file [/home/abi/fetcher/tmp/financetoolkit-1.1.0.tar.gz]
+[2023-07-20 11:24:08] INFO root fetch - processPackages [financetoolkit]: Start processing: hippo-api
+[2023-07-20 11:24:08] INFO root fetch - main [MainThread]: End processing [financetoolkit]: success
+[2023-07-20 11:24:08] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-07-20 11:24:08] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230720/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-07-20 11:24:08] INFO root fetch - processPackages [quao]: Downloading https://files.pythonhosted.org/packages/53/9f/0abd8df4984f2e14eb4aeabf0982e954c9b6858c1b06dd12cf64a30fa1e6/quao-0.3.9.tar.gz
+[2023-07-20 11:24:08] INFO root fetch - processPackages [tbp-nightly]: New version: [2.9.0a20221130] Old Version: [2.9.0a20221129]
+[2023-07-20 11:24:08] INFO root fetch - processPackages [caf.toolkit]: Remove: archive file [/home/abi/fetcher/tmp/caf.toolkit-0.1.1.tar.gz]
+[2023-07-20 11:24:08] INFO root fetch - processPackages [caf.toolkit]: Remove: archive file [/home/abi/fetcher/tmp/caf.toolkit-0.1.2.tar.gz]
+[2023-07-20 11:24:08] INFO root fetch - processPackages [caf.toolkit]: Start processing: xnat-nott
+[2023-07-20 11:24:08] INFO root fetch - main [MainThread]: End processing [caf.toolkit]: success
+[2023-07-20 11:24:08] INFO root fetch - processPackages [OpenFisca-Survey-Manager]: Remove: archive file [/home/abi/fetcher/tmp/OpenFisca-Survey-Manager-1.0.2.tar.gz]
+[2023-07-20 11:24:08] INFO root fetch - processPackages [OpenFisca-Survey-Manager]: Remove: archive file [/home/abi/fetcher/tmp/OpenFisca-Survey-Manager-1.1.0.tar.gz]
+[2023-07-20 11:24:08] INFO root fetch - main [MainThread]: End processing [OpenFisca-Survey-Manager]: success
+[2023-07-20 11:24:08] INFO root fetch - processPackages [quao]: executing diffoscope
+[2023-07-20 11:24:08] INFO root fetch - processPackages [quao]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quao-0.3.8.tar.gz tmp/quao-0.3.9.tar.gz --markdown 20230720/q/quao/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-20 11:24:08] WARNING root fetch - processPackages [hippo-api]: Skipping, unable to determine old version
+[2023-07-20 11:24:08] INFO root fetch - main [MainThread]: End processing [hippo-api] error
+[2023-07-20 11:24:08] INFO root fetch - processPackages [tbp-nightly]: Downloading https://files.pythonhosted.org/packages/b9/6c/43a589e5ab1d1b961e5780e41057576c7abd5bf16d3f871d8ef4ebdaf461/tbp-nightly-2.9.0a20221129.tar.gz
+[2023-07-20 11:24:08] INFO root fetch - processPackages [xnat-nott]: New version: [0.1.0.post4] Old Version: [0.1.0]
+[2023-07-20 11:24:08] WARNING root fetch - processPackages [verify4py-test]: Skipping, unable to determine old version
+[2023-07-20 11:24:08] INFO root fetch - main [MainThread]: End processing [verify4py-test] error
+[2023-07-20 11:24:08] INFO root fetch - processPackages [code-loader]: Downloading https://files.pythonhosted.org/packages/4d/02/338fae804babac8aa3ff77b9ec074a10a9f5cdf3107cb37728ae9ac0db8b/code_loader-0.2.84.dev1.tar.gz
+[2023-07-20 11:24:08] INFO root fetch - processPackages [micrOSDevToolKit]: Downloading https://files.pythonhosted.org/packages/bb/4a/698a9b1e61ae95c938b83eedad980af3dc0de30ad6b649b57467325b1d79/micrOSDevToolKit-1.20.4.tar.gz
+[2023-07-20 11:24:08] INFO root fetch - processPackages [xnat-nott]: Downloading https://files.pythonhosted.org/packages/4e/27/bc94a68eb3c65ef2a8cd27cd96b512d02150b5b64e0044d0fd7432da6d72/xnat_nott-0.1.0.tar.gz
+[2023-07-20 11:24:08] INFO root fetch - processPackages [micrOSDevToolKit]: executing diffoscope
+[2023-07-20 11:24:08] INFO root fetch - processPackages [micrOSDevToolKit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/micrOSDevToolKit-1.20.3.tar.gz tmp/micrOSDevToolKit-1.20.4.tar.gz --markdown 20230720/m/micrOSDevToolKit/1.20.3-1.20.4/diff.md --exclude *.pyd
+[2023-07-20 11:24:08] INFO root fetch - processPackages [tbp-nightly]: Downloading https://files.pythonhosted.org/packages/2e/31/c611af28c0d42c7cbb86781523f94e57796654fd8b7a7049e8a6db2eecf3/tbp-nightly-2.9.0a20221130.tar.gz
+[2023-07-20 11:24:09] INFO root fetch - processPackages [tbp-nightly]: executing diffoscope
+[2023-07-20 11:24:09] INFO root fetch - processPackages [tbp-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tbp-nightly-2.9.0a20221129.tar.gz tmp/tbp-nightly-2.9.0a20221130.tar.gz --markdown 20230720/t/tbp-nightly/2.9.0a20221129-2.9.0a20221130/diff.md --exclude *.pyd
+[2023-07-20 11:24:09] INFO root fetch - processPackages [code-loader]: Downloading https://files.pythonhosted.org/packages/23/3d/c50351675c5df1eec25c494b3e7b9f9b516c43bd5d3db8cc4447604a8f74/code-loader-0.2.9.tar.gz
+[2023-07-20 11:24:09] INFO root fetch - processPackages [onnion-rt]: Remove: archive file [/home/abi/fetcher/tmp/onnion_rt-0.7.0.tar.gz]
+[2023-07-20 11:24:09] INFO root fetch - processPackages [onnion-rt]: Remove: archive file [/home/abi/fetcher/tmp/onnion_rt-0.8.0.tar.gz]
+[2023-07-20 11:24:09] INFO root fetch - main [MainThread]: End processing [onnion-rt]: success
+[2023-07-20 11:24:09] INFO root fetch - processPackages [xnat-nott]: Downloading https://files.pythonhosted.org/packages/6c/7d/26da6b1ee932a3293310376a66a97d7293f2975b10de649a167220781b20/xnat_nott-0.1.0.post4.tar.gz
+[2023-07-20 11:24:09] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.998.tar.gz]
+[2023-07-20 11:24:09] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.999.tar.gz]
+[2023-07-20 11:24:09] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-07-20 11:24:09] INFO root fetch - processPackages [xnat-nott]: executing diffoscope
+[2023-07-20 11:24:09] INFO root fetch - processPackages [xnat-nott]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xnat_nott-0.1.0.tar.gz tmp/xnat_nott-0.1.0.post4.tar.gz --markdown 20230720/x/xnat-nott/0.1.0-0.1.0.post4/diff.md --exclude *.pyd
+[2023-07-20 11:24:09] INFO root fetch - processPackages [code-loader]: executing diffoscope
+[2023-07-20 11:24:09] INFO root fetch - processPackages [code-loader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/code_loader-0.2.84.dev1.tar.gz tmp/code-loader-0.2.9.tar.gz --markdown 20230720/c/code-loader/0.2.84.dev1-0.2.9/diff.md --exclude *.pyd
+[2023-07-20 11:24:09] INFO root fetch - processPackages [quao]: Remove: archive file [/home/abi/fetcher/tmp/quao-0.3.8.tar.gz]
+[2023-07-20 11:24:09] INFO root fetch - processPackages [quao]: Remove: archive file [/home/abi/fetcher/tmp/quao-0.3.9.tar.gz]
+[2023-07-20 11:24:09] INFO root fetch - main [MainThread]: End processing [quao]: success
+[2023-07-20 11:24:10] INFO root fetch - processPackages [xnat-nott]: Remove: archive file [/home/abi/fetcher/tmp/xnat_nott-0.1.0.tar.gz]
+[2023-07-20 11:24:10] INFO root fetch - processPackages [xnat-nott]: Remove: archive file [/home/abi/fetcher/tmp/xnat_nott-0.1.0.post4.tar.gz]
+[2023-07-20 11:24:10] INFO root fetch - main [MainThread]: End processing [xnat-nott]: success
+[2023-07-20 11:24:10] INFO root fetch - processPackages [code-loader]: Remove: archive file [/home/abi/fetcher/tmp/code_loader-0.2.84.dev1.tar.gz]
+[2023-07-20 11:24:10] INFO root fetch - processPackages [code-loader]: Remove: archive file [/home/abi/fetcher/tmp/code-loader-0.2.9.tar.gz]
+[2023-07-20 11:24:10] INFO root fetch - main [MainThread]: End processing [code-loader]: success
+[2023-07-20 11:24:11] INFO root fetch - processPackages [micrOSDevToolKit]: Remove: archive file [/home/abi/fetcher/tmp/micrOSDevToolKit-1.20.3.tar.gz]
+[2023-07-20 11:24:11] INFO root fetch - processPackages [micrOSDevToolKit]: Remove: archive file [/home/abi/fetcher/tmp/micrOSDevToolKit-1.20.4.tar.gz]
+[2023-07-20 11:24:11] INFO root fetch - main [MainThread]: End processing [micrOSDevToolKit]: success
+[2023-07-20 11:24:11] INFO root fetch - processPackages [tbp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tbp-nightly-2.9.0a20221129.tar.gz]
+[2023-07-20 11:24:11] INFO root fetch - processPackages [tbp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tbp-nightly-2.9.0a20221130.tar.gz]
+[2023-07-20 11:24:11] INFO root fetch - main [MainThread]: End processing [tbp-nightly]: success
+[2023-07-20 11:24:11] INFO root fetch - main [MainThread]: Store serial: [18964259]
