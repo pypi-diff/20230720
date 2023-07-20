@@ -12731,3 +12731,148 @@ AssertionError: tmp/verify4py-test-0.1.7.tar.gz does not exist
 [2023-07-20 16:50:44] INFO root fetch - processPackages [ms-deisotope]: Remove: archive file [/home/abi/fetcher/tmp/ms_deisotope-0.0.9.tar.gz]
 [2023-07-20 16:50:44] INFO root fetch - main [MainThread]: End processing [ms-deisotope]: success
 [2023-07-20 16:50:44] INFO root fetch - main [MainThread]: Store serial: [18968221]
+[2023-07-20 16:55:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18968221]
+[2023-07-20 16:55:53] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-07-20 16:55:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dilated-attention-pytorch
+[2023-07-20 16:55:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kappe
+[2023-07-20 16:55:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyprost
+[2023-07-20 16:55:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nucliadb-contributor-assets
+[2023-07-20 16:55:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: upgini
+[2023-07-20 16:55:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dxsp
+[2023-07-20 16:55:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: biliarchiver
+[2023-07-20 16:55:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: faasmctl
+[2023-07-20 16:55:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mail-satvadev
+[2023-07-20 16:55:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: macloot
+[2023-07-20 16:55:54] INFO root fetch - processPackages [kappe]: New version: [0.8.1] Old Version: [0.8.0]
+[2023-07-20 16:55:54] INFO root fetch - processPackages [nucliadb-contributor-assets]: New version: [1.0.0.post898] Old Version: [1.0.0.post890]
+[2023-07-20 16:55:54] INFO root fetch - processPackages [biliarchiver]: New version: [0.0.9] Old Version: [0.0.25]
+[2023-07-20 16:55:54] INFO root fetch - processPackages [pyprost]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-20 16:55:54] INFO root fetch - processPackages [macloot]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-07-20 16:55:54] INFO root fetch - processPackages [dilated-attention-pytorch]: New version: [0.1.0rc1] Old Version: [0.1.0]
+[2023-07-20 16:55:54] INFO root fetch - processPackages [faasmctl]: New version: [0.8.2] Old Version: [0.8.1]
+[2023-07-20 16:55:54] INFO root fetch - processPackages [mail-satvadev]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-07-20 16:55:54] INFO root fetch - processPackages [dxsp]: New version: [4.1.0] Old Version: [4.0.6]
+[2023-07-20 16:55:54] INFO root fetch - processPackages [upgini]: New version: [1.1.99] Old Version: [1.1.98]
+[2023-07-20 16:55:54] INFO root fetch - processPackages [faasmctl]: Downloading https://files.pythonhosted.org/packages/6a/da/3a7b9c884f2c45c7a535384f234ac958c1f988ee05fd346850de35651311/faasmctl-0.8.1.tar.gz
+[2023-07-20 16:55:54] INFO root fetch - processPackages [kappe]: Downloading https://files.pythonhosted.org/packages/e6/b0/767377a61b7e42a04551dcd7d9acc5f78b367073f83f33eeef73b1303a84/kappe-0.8.0.tar.gz
+[2023-07-20 16:55:54] INFO root fetch - processPackages [dxsp]: Downloading https://files.pythonhosted.org/packages/a8/df/a089d55104a624a8ab21b52c733c37a044a4d119c20154c6ace00e7aff64/dxsp-4.0.6.tar.gz
+[2023-07-20 16:55:54] INFO root fetch - processPackages [nucliadb-contributor-assets]: Downloading https://files.pythonhosted.org/packages/6a/c2/cc1d78d094f703413e46c0d518021d7b0c174c0dffd58d76b92fbb4a8b7a/nucliadb_contributor_assets-1.0.0.post890-py3-none-any.whl
+[2023-07-20 16:55:54] INFO root fetch - processPackages [biliarchiver]: Downloading https://files.pythonhosted.org/packages/3f/a5/0ccb98ba9a580bc0ee63d9da6c52d03034bff4aa7c1588658649d3217caf/biliarchiver-0.0.25.tar.gz
+[2023-07-20 16:55:54] INFO root fetch - processPackages [dilated-attention-pytorch]: Downloading https://files.pythonhosted.org/packages/3d/ba/ac327765b66541cef3470a1e642d48815c525b359986464931f7e6aa7271/dilated-attention-pytorch-0.1.0.tar.gz
+[2023-07-20 16:55:54] INFO root fetch - processPackages [pyprost]: Downloading https://files.pythonhosted.org/packages/10/b0/b794036e5a82277b68fea0d5d5eab009f8f0046786d5fffcb9234ad80732/pyprost-0.2.8.tar.gz
+[2023-07-20 16:55:54] INFO root fetch - processPackages [macloot]: Downloading https://files.pythonhosted.org/packages/f7/ea/1cec93868f534ad7aca0e4d5a7c6802c3f9ee1d745650d1a760add7ff970/macloot-1.0.0.tar.gz
+[2023-07-20 16:55:54] INFO root fetch - processPackages [mail-satvadev]: Downloading https://files.pythonhosted.org/packages/89/b6/b49777ba152c9285ab2f16b0a57d793a7164acde2a3549f2bb5b929fcd8e/mail_satvadev-1.0.5.tar.gz
+[2023-07-20 16:55:54] INFO root fetch - processPackages [upgini]: executing diffoscope
+[2023-07-20 16:55:54] INFO root fetch - processPackages [upgini]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/upgini-1.1.98.tar.gz tmp/upgini-1.1.99.tar.gz --markdown 20230720/u/upgini/1.1.98-1.1.99/diff.md --exclude *.pyd
+[2023-07-20 16:55:54] INFO root fetch - processPackages [kappe]: Downloading https://files.pythonhosted.org/packages/d0/ec/e06ce7074a3be5bc9e3b0727983e3b2c136cc95cd801ec1f49f32678dd85/kappe-0.8.1.tar.gz
+[2023-07-20 16:55:54] INFO root fetch - processPackages [biliarchiver]: Downloading https://files.pythonhosted.org/packages/75/6f/a07bee6d23ed240047e737c1e393aadca816e9e1cc7c1aaa81457a4885da/biliarchiver-0.0.9.tar.gz
+[2023-07-20 16:55:54] INFO root fetch - processPackages [faasmctl]: Downloading https://files.pythonhosted.org/packages/34/21/d9112bc69215e118cbbabfbe2822c08ea7e41819938a806ea6d7c5782008/faasmctl-0.8.2.tar.gz
+[2023-07-20 16:55:54] INFO root fetch - processPackages [dxsp]: Downloading https://files.pythonhosted.org/packages/b0/de/45afb15e78eadf1dfb62ab85d8625c707fad683df78ec6a32027e7a0ce33/dxsp-4.1.0.tar.gz
+[2023-07-20 16:55:54] INFO root fetch - processPackages [nucliadb-contributor-assets]: Downloading https://files.pythonhosted.org/packages/91/ed/b7cebe72bce1d3be38f8b157e3ab609298b71c623530c0321a90600027dc/nucliadb_contributor_assets-1.0.0.post898-py3-none-any.whl
+[2023-07-20 16:55:55] INFO root fetch - processPackages [dilated-attention-pytorch]: Downloading https://files.pythonhosted.org/packages/54/a5/045e379eff3a9cdf10dd78218ac69a1a6986cb380dbdd6a4d62f2ba06c18/dilated-attention-pytorch-0.1.0rc1.tar.gz
+[2023-07-20 16:55:55] INFO root fetch - processPackages [macloot]: Downloading https://files.pythonhosted.org/packages/4e/dd/742f241fda4016949fa23467fdf54484c2bfa229a0899841dca9a4bd9392/macloot-1.1.0.tar.gz
+[2023-07-20 16:55:55] INFO root fetch - processPackages [mail-satvadev]: Downloading https://files.pythonhosted.org/packages/cb/cd/d64802acfbfb59e3462be6da1644922f4956ecf5d95f4542e9c09b80240d/mail_satvadev-1.0.6.tar.gz
+[2023-07-20 16:55:55] INFO root fetch - processPackages [biliarchiver]: executing diffoscope
+[2023-07-20 16:55:55] INFO root fetch - processPackages [biliarchiver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/biliarchiver-0.0.25.tar.gz tmp/biliarchiver-0.0.9.tar.gz --markdown 20230720/b/biliarchiver/0.0.25-0.0.9/diff.md --exclude *.pyd
+[2023-07-20 16:55:55] INFO root fetch - processPackages [kappe]: executing diffoscope
+[2023-07-20 16:55:55] INFO root fetch - processPackages [kappe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kappe-0.8.0.tar.gz tmp/kappe-0.8.1.tar.gz --markdown 20230720/k/kappe/0.8.0-0.8.1/diff.md --exclude *.pyd
+[2023-07-20 16:55:55] INFO root fetch - processPackages [pyprost]: Downloading https://files.pythonhosted.org/packages/87/60/227488f9d6c76083b0c3e9f392422c5f7618400848cb0dd1187cf96dca7a/pyprost-0.2.9.tar.gz
+[2023-07-20 16:55:55] INFO root fetch - processPackages [dxsp]: executing diffoscope
+[2023-07-20 16:55:55] INFO root fetch - processPackages [dxsp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dxsp-4.0.6.tar.gz tmp/dxsp-4.1.0.tar.gz --markdown 20230720/d/dxsp/4.0.6-4.1.0/diff.md --exclude *.pyd
+[2023-07-20 16:55:55] INFO root fetch - processPackages [faasmctl]: executing diffoscope
+[2023-07-20 16:55:55] INFO root fetch - processPackages [faasmctl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/faasmctl-0.8.1.tar.gz tmp/faasmctl-0.8.2.tar.gz --markdown 20230720/f/faasmctl/0.8.1-0.8.2/diff.md --exclude *.pyd
+[2023-07-20 16:55:55] INFO root fetch - processPackages [dilated-attention-pytorch]: executing diffoscope
+[2023-07-20 16:55:55] INFO root fetch - processPackages [dilated-attention-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dilated-attention-pytorch-0.1.0.tar.gz tmp/dilated-attention-pytorch-0.1.0rc1.tar.gz --markdown 20230720/d/dilated-attention-pytorch/0.1.0-0.1.0rc1/diff.md --exclude *.pyd
+[2023-07-20 16:55:55] INFO root fetch - processPackages [macloot]: executing diffoscope
+[2023-07-20 16:55:55] INFO root fetch - processPackages [macloot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/macloot-1.0.0.tar.gz tmp/macloot-1.1.0.tar.gz --markdown 20230720/m/macloot/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-07-20 16:55:55] INFO root fetch - processPackages [mail-satvadev]: executing diffoscope
+[2023-07-20 16:55:55] INFO root fetch - processPackages [mail-satvadev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mail_satvadev-1.0.5.tar.gz tmp/mail_satvadev-1.0.6.tar.gz --markdown 20230720/m/mail-satvadev/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-07-20 16:55:55] INFO root fetch - processPackages [pyprost]: executing diffoscope
+[2023-07-20 16:55:55] INFO root fetch - processPackages [pyprost]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyprost-0.2.8.tar.gz tmp/pyprost-0.2.9.tar.gz --markdown 20230720/p/pyprost/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-20 16:55:55] INFO root fetch - processPackages [nucliadb-contributor-assets]: executing diffoscope
+[2023-07-20 16:55:55] INFO root fetch - processPackages [nucliadb-contributor-assets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_contributor_assets-1.0.0.post890-py3-none-any.whl.zip tmp/nucliadb_contributor_assets-1.0.0.post898-py3-none-any.whl.zip --markdown 20230720/n/nucliadb-contributor-assets/1.0.0.post890-1.0.0.post898/diff.md --exclude *.pyd
+[2023-07-20 16:55:55] INFO root fetch - processPackages [upgini]: Remove: archive file [/home/abi/fetcher/tmp/upgini-1.1.98.tar.gz]
+[2023-07-20 16:55:55] INFO root fetch - processPackages [upgini]: Remove: archive file [/home/abi/fetcher/tmp/upgini-1.1.99.tar.gz]
+[2023-07-20 16:55:55] INFO root fetch - processPackages [upgini]: Start processing: dbt-copilot-tools
+[2023-07-20 16:55:55] INFO root fetch - main [MainThread]: End processing [upgini]: success
+[2023-07-20 16:55:55] INFO root fetch - processPackages [dbt-copilot-tools]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-07-20 16:55:56] INFO root fetch - processPackages [dbt-copilot-tools]: Downloading https://files.pythonhosted.org/packages/8c/23/a231ad7c725bf031c9028d10379f0909785eb554f0c7e90cb5769ae2d25b/dbt_copilot_tools-0.1.8.tar.gz
+[2023-07-20 16:55:56] INFO root fetch - processPackages [dbt-copilot-tools]: executing diffoscope
+[2023-07-20 16:55:56] INFO root fetch - processPackages [dbt-copilot-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt_copilot_tools-0.1.7.tar.gz tmp/dbt_copilot_tools-0.1.8.tar.gz --markdown 20230720/d/dbt-copilot-tools/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-07-20 16:55:56] INFO root fetch - processPackages [biliarchiver]: Remove: archive file [/home/abi/fetcher/tmp/biliarchiver-0.0.25.tar.gz]
+[2023-07-20 16:55:56] INFO root fetch - processPackages [biliarchiver]: Remove: archive file [/home/abi/fetcher/tmp/biliarchiver-0.0.9.tar.gz]
+[2023-07-20 16:55:56] INFO root fetch - processPackages [biliarchiver]: Start processing: talkytrend
+[2023-07-20 16:55:56] INFO root fetch - main [MainThread]: End processing [biliarchiver]: success
+[2023-07-20 16:55:56] INFO root fetch - processPackages [talkytrend]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-07-20 16:55:56] INFO root fetch - processPackages [kappe]: Remove: archive file [/home/abi/fetcher/tmp/kappe-0.8.0.tar.gz]
+[2023-07-20 16:55:56] INFO root fetch - processPackages [kappe]: Remove: archive file [/home/abi/fetcher/tmp/kappe-0.8.1.tar.gz]
+[2023-07-20 16:55:56] INFO root fetch - processPackages [kappe]: Start processing: findmyorder
+[2023-07-20 16:55:56] INFO root fetch - main [MainThread]: End processing [kappe]: success
+[2023-07-20 16:55:56] INFO root fetch - processPackages [findmyorder]: New version: [1.6.1] Old Version: [1.6.0]
+[2023-07-20 16:55:56] INFO root fetch - processPackages [dilated-attention-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/dilated-attention-pytorch-0.1.0.tar.gz]
+[2023-07-20 16:55:56] INFO root fetch - processPackages [dilated-attention-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/dilated-attention-pytorch-0.1.0rc1.tar.gz]
+[2023-07-20 16:55:56] INFO root fetch - processPackages [dilated-attention-pytorch]: Start processing: iamlistening
+[2023-07-20 16:55:56] INFO root fetch - main [MainThread]: End processing [dilated-attention-pytorch]: success
+[2023-07-20 16:55:56] INFO root fetch - processPackages [talkytrend]: executing diffoscope
+[2023-07-20 16:55:56] INFO root fetch - processPackages [iamlistening]: New version: [1.1.7] Old Version: [1.1.6]
+[2023-07-20 16:55:56] INFO root fetch - processPackages [talkytrend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/talkytrend-1.9.1.tar.gz tmp/talkytrend-1.9.2.tar.gz --markdown 20230720/t/talkytrend/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2023-07-20 16:55:56] INFO root fetch - processPackages [pyprost]: Remove: archive file [/home/abi/fetcher/tmp/pyprost-0.2.8.tar.gz]
+[2023-07-20 16:55:56] INFO root fetch - processPackages [pyprost]: Remove: archive file [/home/abi/fetcher/tmp/pyprost-0.2.9.tar.gz]
+[2023-07-20 16:55:56] INFO root fetch - processPackages [pyprost]: Start processing: airbyte-cdk
+[2023-07-20 16:55:56] INFO root fetch - main [MainThread]: End processing [pyprost]: success
+[2023-07-20 16:55:56] INFO root fetch - processPackages [airbyte-cdk]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-07-20 16:55:56] INFO root fetch - processPackages [findmyorder]: Downloading https://files.pythonhosted.org/packages/b7/6d/ecde4ee4db91c37698d55e636a63fafce9d6266cb46be243bb5c64a1ab5d/findmyorder-1.6.0.tar.gz
+[2023-07-20 16:55:56] INFO root fetch - processPackages [faasmctl]: Remove: archive file [/home/abi/fetcher/tmp/faasmctl-0.8.1.tar.gz]
+[2023-07-20 16:55:56] INFO root fetch - processPackages [faasmctl]: Remove: archive file [/home/abi/fetcher/tmp/faasmctl-0.8.2.tar.gz]
+[2023-07-20 16:55:56] INFO root fetch - processPackages [faasmctl]: Start processing: igem-lite
+[2023-07-20 16:55:56] INFO root fetch - main [MainThread]: End processing [faasmctl]: success
+[2023-07-20 16:55:56] INFO root fetch - processPackages [mail-satvadev]: Remove: archive file [/home/abi/fetcher/tmp/mail_satvadev-1.0.5.tar.gz]
+[2023-07-20 16:55:56] INFO root fetch - processPackages [dxsp]: Remove: archive file [/home/abi/fetcher/tmp/dxsp-4.0.6.tar.gz]
+[2023-07-20 16:55:56] INFO root fetch - processPackages [mail-satvadev]: Remove: archive file [/home/abi/fetcher/tmp/mail_satvadev-1.0.6.tar.gz]
+[2023-07-20 16:55:56] INFO root fetch - processPackages [dxsp]: Remove: archive file [/home/abi/fetcher/tmp/dxsp-4.1.0.tar.gz]
+[2023-07-20 16:55:56] INFO root fetch - processPackages [mail-satvadev]: Start processing: mlrun
+[2023-07-20 16:55:56] INFO root fetch - main [MainThread]: End processing [mail-satvadev]: success
+[2023-07-20 16:55:56] INFO root fetch - main [MainThread]: End processing [dxsp]: success
+[2023-07-20 16:55:57] WARNING root fetch - processPackages [igem-lite]: Skipping, unable to determine old version
+[2023-07-20 16:55:57] INFO root fetch - main [MainThread]: End processing [igem-lite] error
+[2023-07-20 16:55:57] INFO root fetch - processPackages [iamlistening]: Downloading https://files.pythonhosted.org/packages/c4/92/c85358533a283764d7363f11f1c44f3b0cc14fd83dc9dfacf48aca37ede2/iamlistening-1.1.6.tar.gz
+[2023-07-20 16:55:57] INFO root fetch - processPackages [airbyte-cdk]: Downloading https://files.pythonhosted.org/packages/a6/6c/5db8c1f4ef1f82d0d51a3df308363222107d0773276235a4acbc31f7f8dc/airbyte-cdk-0.9.4.tar.gz
+[2023-07-20 16:55:57] INFO root fetch - processPackages [macloot]: Remove: archive file [/home/abi/fetcher/tmp/macloot-1.0.0.tar.gz]
+[2023-07-20 16:55:57] INFO root fetch - processPackages [macloot]: Remove: archive file [/home/abi/fetcher/tmp/macloot-1.1.0.tar.gz]
+[2023-07-20 16:55:57] INFO root fetch - main [MainThread]: End processing [macloot]: success
+[2023-07-20 16:55:57] INFO root fetch - processPackages [mlrun]: New version: [1.4.0rc9] Old Version: [1.4.0rc8]
+[2023-07-20 16:55:57] INFO root fetch - processPackages [mlrun]: Downloading https://files.pythonhosted.org/packages/53/ab/c4b6cba1b681d59d469058b913e88a639eebd1952ee11b561f5fd2dc06f6/mlrun-1.4.0rc8-py3-none-any.whl
+[2023-07-20 16:55:57] INFO root fetch - processPackages [airbyte-cdk]: Downloading https://files.pythonhosted.org/packages/9f/96/b471868d256cf73e3745675013847705a79a47e5a529e1c026d6032228bb/airbyte-cdk-0.9.5.tar.gz
+[2023-07-20 16:55:57] INFO root fetch - processPackages [iamlistening]: Downloading https://files.pythonhosted.org/packages/ed/1c/951feb434de8989dc01ca921b7ef1268f22b27b7ae51cd77aa5f43127238/iamlistening-1.1.7.tar.gz
+[2023-07-20 16:55:57] INFO root fetch - processPackages [findmyorder]: Downloading https://files.pythonhosted.org/packages/b8/2d/a0f7bcf6bc61eab01ea28a0f20812e0cc77ac8e353cf5e3de6a19b3ed55b/findmyorder-1.6.1.tar.gz
+[2023-07-20 16:55:57] INFO root fetch - processPackages [dbt-copilot-tools]: Remove: archive file [/home/abi/fetcher/tmp/dbt_copilot_tools-0.1.7.tar.gz]
+[2023-07-20 16:55:57] INFO root fetch - processPackages [dbt-copilot-tools]: Remove: archive file [/home/abi/fetcher/tmp/dbt_copilot_tools-0.1.8.tar.gz]
+[2023-07-20 16:55:57] INFO root fetch - processPackages [findmyorder]: executing diffoscope
+[2023-07-20 16:55:57] INFO root fetch - main [MainThread]: End processing [dbt-copilot-tools]: success
+[2023-07-20 16:55:57] INFO root fetch - processPackages [findmyorder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/findmyorder-1.6.0.tar.gz tmp/findmyorder-1.6.1.tar.gz --markdown 20230720/f/findmyorder/1.6.0-1.6.1/diff.md --exclude *.pyd
+[2023-07-20 16:55:57] INFO root fetch - processPackages [mlrun]: Downloading https://files.pythonhosted.org/packages/eb/ad/9f5f871fcad9f8cb844bb52b41819c7f2f0813f9ea4390a2c38a5ed6f6b9/mlrun-1.4.0rc9-py3-none-any.whl
+[2023-07-20 16:55:57] INFO root fetch - processPackages [airbyte-cdk]: executing diffoscope
+[2023-07-20 16:55:57] INFO root fetch - processPackages [airbyte-cdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airbyte-cdk-0.9.4.tar.gz tmp/airbyte-cdk-0.9.5.tar.gz --markdown 20230720/a/airbyte-cdk/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-07-20 16:55:57] INFO root fetch - processPackages [iamlistening]: executing diffoscope
+[2023-07-20 16:55:57] INFO root fetch - processPackages [iamlistening]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iamlistening-1.1.6.tar.gz tmp/iamlistening-1.1.7.tar.gz --markdown 20230720/i/iamlistening/1.1.6-1.1.7/diff.md --exclude *.pyd
+[2023-07-20 16:55:57] INFO root fetch - processPackages [mlrun]: executing diffoscope
+[2023-07-20 16:55:57] INFO root fetch - processPackages [mlrun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlrun-1.4.0rc8-py3-none-any.whl.zip tmp/mlrun-1.4.0rc9-py3-none-any.whl.zip --markdown 20230720/m/mlrun/1.4.0rc8-1.4.0rc9/diff.md --exclude *.pyd
+[2023-07-20 16:55:57] INFO root fetch - processPackages [talkytrend]: Remove: archive file [/home/abi/fetcher/tmp/talkytrend-1.9.1.tar.gz]
+[2023-07-20 16:55:57] INFO root fetch - processPackages [talkytrend]: Remove: archive file [/home/abi/fetcher/tmp/talkytrend-1.9.2.tar.gz]
+[2023-07-20 16:55:57] INFO root fetch - main [MainThread]: End processing [talkytrend]: success
+[2023-07-20 16:55:58] INFO root fetch - processPackages [findmyorder]: Remove: archive file [/home/abi/fetcher/tmp/findmyorder-1.6.0.tar.gz]
+[2023-07-20 16:55:58] INFO root fetch - processPackages [findmyorder]: Remove: archive file [/home/abi/fetcher/tmp/findmyorder-1.6.1.tar.gz]
+[2023-07-20 16:55:58] INFO root fetch - main [MainThread]: End processing [findmyorder]: success
+[2023-07-20 16:55:58] INFO root fetch - processPackages [iamlistening]: Remove: archive file [/home/abi/fetcher/tmp/iamlistening-1.1.6.tar.gz]
+[2023-07-20 16:55:58] INFO root fetch - processPackages [iamlistening]: Remove: archive file [/home/abi/fetcher/tmp/iamlistening-1.1.7.tar.gz]
+[2023-07-20 16:55:58] INFO root fetch - main [MainThread]: End processing [iamlistening]: success
+[2023-07-20 16:55:59] INFO root fetch - processPackages [airbyte-cdk]: Remove: archive file [/home/abi/fetcher/tmp/airbyte-cdk-0.9.4.tar.gz]
+[2023-07-20 16:55:59] INFO root fetch - processPackages [airbyte-cdk]: Remove: archive file [/home/abi/fetcher/tmp/airbyte-cdk-0.9.5.tar.gz]
+[2023-07-20 16:55:59] INFO root fetch - main [MainThread]: End processing [airbyte-cdk]: success
+[2023-07-20 16:56:00] INFO root fetch - processPackages [mlrun]: Remove: archive file [/home/abi/fetcher/tmp/mlrun-1.4.0rc8-py3-none-any.whl.zip]
+[2023-07-20 16:56:00] INFO root fetch - processPackages [mlrun]: Remove: archive file [/home/abi/fetcher/tmp/mlrun-1.4.0rc9-py3-none-any.whl.zip]
+[2023-07-20 16:56:00] INFO root fetch - main [MainThread]: End processing [mlrun]: success
+[2023-07-20 16:56:08] INFO root fetch - processPackages [nucliadb-contributor-assets]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_contributor_assets-1.0.0.post890-py3-none-any.whl.zip]
+[2023-07-20 16:56:08] INFO root fetch - processPackages [nucliadb-contributor-assets]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_contributor_assets-1.0.0.post898-py3-none-any.whl.zip]
+[2023-07-20 16:56:08] INFO root fetch - main [MainThread]: End processing [nucliadb-contributor-assets]: success
+[2023-07-20 16:56:08] INFO root fetch - main [MainThread]: Store serial: [18968287]
