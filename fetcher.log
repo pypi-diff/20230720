@@ -15199,3 +15199,159 @@ AssertionError: tmp/verify4py-test-0.1.7.tar.gz does not exist
 [2023-07-20 17:52:28] INFO root fetch - processPackages [sqlite-vss]: Remove: archive file [/home/abi/fetcher/tmp/sqlite_vss-0.1.1a9-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux1_x86_64.whl.zip]
 [2023-07-20 17:52:28] INFO root fetch - main [MainThread]: End processing [sqlite-vss]: success
 [2023-07-20 17:52:28] INFO root fetch - main [MainThread]: Store serial: [18969301]
+[2023-07-20 17:57:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18969301]
+[2023-07-20 17:57:37] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-07-20 17:57:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tortoise-api
+[2023-07-20 17:57:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ninjakiwi-api
+[2023-07-20 17:57:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ecallisto-ng
+[2023-07-20 17:57:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: buscador
+[2023-07-20 17:57:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: im-data-manager-metadata
+[2023-07-20 17:57:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cryton-core
+[2023-07-20 17:57:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pas.plugins.oidc
+[2023-07-20 17:57:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: kathara
+[2023-07-20 17:57:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: scrunch
+[2023-07-20 17:57:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: sidewinder-db
+[2023-07-20 17:57:37] INFO root fetch - processPackages [scrunch]: New version: [6.5.1999.post1689868377] Old Version: [6.5.1999.post1689808706]
+[2023-07-20 17:57:37] INFO root fetch - processPackages [ecallisto-ng]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-07-20 17:57:37] INFO root fetch - processPackages [tortoise-api]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-20 17:57:37] INFO root fetch - processPackages [cryton-core]: New version: [2023.1.2] Old Version: [2022.2.2]
+[2023-07-20 17:57:37] INFO root fetch - processPackages [buscador]: New version: [0.7] Old Version: [0.6]
+[2023-07-20 17:57:37] INFO root fetch - processPackages [sidewinder-db]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-20 17:57:37] INFO root fetch - processPackages [im-data-manager-metadata]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-07-20 17:57:37] INFO root fetch - processPackages [pas.plugins.oidc]: New version: [1.0a6] Old Version: [1.0a5]
+[2023-07-20 17:57:37] INFO root fetch - processPackages [kathara]: New version: [3.6.3] Old Version: [3.6.2]
+[2023-07-20 17:57:37] INFO root fetch - processPackages [ninjakiwi-api]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-07-20 17:57:37] INFO root fetch - processPackages [buscador]: Downloading https://files.pythonhosted.org/packages/3b/03/775968b4d261c64109bc43290bcba76c106890f751c19fffd53caaad3a30/buscador-0.6.tar.gz
+[2023-07-20 17:57:38] INFO root fetch - processPackages [sidewinder-db]: Downloading https://files.pythonhosted.org/packages/41/8c/4962d301dbebe1579580beddfee1d2e67b820f27a1cf41283445c7219faa/sidewinder-db-0.0.8.tar.gz
+[2023-07-20 17:57:38] INFO root fetch - processPackages [ecallisto-ng]: Downloading https://files.pythonhosted.org/packages/f8/83/9cdaf4382acbac3e1ea47f6b1ae1382ed3af548139228ff6b9cb911ffd8e/ecallisto_ng-0.2.4.tar.gz
+[2023-07-20 17:57:38] INFO root fetch - processPackages [tortoise-api]: Downloading https://files.pythonhosted.org/packages/df/87/99477736f98e354af27ee810214468b6364972f255e1c2c74446c168462f/tortoise-api-0.0.5.tar.gz
+[2023-07-20 17:57:38] INFO root fetch - processPackages [cryton-core]: Downloading https://files.pythonhosted.org/packages/6b/5d/c3233f74c68d744289122c1e971ac76b4e1d5ed0ad3ac117f3350c96cfcd/cryton_core-2022.2.2.tar.gz
+[2023-07-20 17:57:38] INFO root fetch - processPackages [scrunch]: Downloading https://files.pythonhosted.org/packages/55/50/9b52ca5bb5b66a06a88fe21f43b95007de2333910cd7262d512f25decbaa/scrunch-6.5.1999.post1689808706.tar.gz
+[2023-07-20 17:57:38] INFO root fetch - processPackages [ninjakiwi-api]: Downloading https://files.pythonhosted.org/packages/7f/cd/2a93d0bc86bee2776a7541da9cfdb1bc8ba139eafa3f0b2c50e31f169930/ninjakiwi_api-0.0.6.tar.gz
+[2023-07-20 17:57:38] INFO root fetch - processPackages [im-data-manager-metadata]: Downloading https://files.pythonhosted.org/packages/0e/9a/3235570aa6069cd7b1de70ff177ef6f630a13a5b7a778303da7b1fdf75a0/im_data_manager_metadata-1.0.2-py3-none-any.whl
+[2023-07-20 17:57:38] INFO root fetch - processPackages [pas.plugins.oidc]: Downloading https://files.pythonhosted.org/packages/dc/4d/834e1f2e2a24f92f15eeb97ee8ae306c15ba58b9bfbccc9fbe8b035ad0ae/pas.plugins.oidc-1.0a5.tar.gz
+[2023-07-20 17:57:38] INFO root fetch - processPackages [kathara]: Downloading https://files.pythonhosted.org/packages/a0/31/d62d7f1617f253f2d08d7a0dd6fe12ceca300a565557ced56bc6834a06d0/kathara-3.6.2.tar.gz
+[2023-07-20 17:57:38] INFO root fetch - processPackages [sidewinder-db]: Downloading https://files.pythonhosted.org/packages/b4/1e/90ca024c383d5af900d01d83653527bcf952ac605ca5599cb8668cc17609/sidewinder-db-0.0.9.tar.gz
+[2023-07-20 17:57:38] INFO root fetch - processPackages [buscador]: Downloading https://files.pythonhosted.org/packages/94/a7/1948205bc46ec55c456e94951863a6bc17d2b09163e2217da4e9038472eb/buscador-0.7.tar.gz
+[2023-07-20 17:57:38] INFO root fetch - processPackages [tortoise-api]: Downloading https://files.pythonhosted.org/packages/7e/58/22352e399d81b6f1ba3a9208f6d4a367ddebb9436375da813ed9cd824a0b/tortoise-api-0.0.6.tar.gz
+[2023-07-20 17:57:38] INFO root fetch - processPackages [ecallisto-ng]: Downloading https://files.pythonhosted.org/packages/ff/48/27c310be63794ce73bd0337a34d878db5a2793665997729a8c5a121069ea/ecallisto_ng-0.2.5.tar.gz
+[2023-07-20 17:57:38] INFO root fetch - processPackages [ninjakiwi-api]: Downloading https://files.pythonhosted.org/packages/9f/fa/ba847ccfb710418c634d83ec0bce8b109ee10dc0175eedeefca7c8ba9efd/ninjakiwi_api-0.0.7.tar.gz
+[2023-07-20 17:57:38] INFO root fetch - processPackages [scrunch]: Downloading https://files.pythonhosted.org/packages/12/8c/3387b374899dad890b90e0805add2eea4050deaa79b95d129d03eea5b171/scrunch-6.5.1999.post1689868377.tar.gz
+[2023-07-20 17:57:38] INFO root fetch - processPackages [sidewinder-db]: executing diffoscope
+[2023-07-20 17:57:38] INFO root fetch - processPackages [sidewinder-db]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sidewinder-db-0.0.8.tar.gz tmp/sidewinder-db-0.0.9.tar.gz --markdown 20230720/s/sidewinder-db/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-20 17:57:38] INFO root fetch - processPackages [buscador]: executing diffoscope
+[2023-07-20 17:57:38] INFO root fetch - processPackages [buscador]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/buscador-0.6.tar.gz tmp/buscador-0.7.tar.gz --markdown 20230720/b/buscador/0.6-0.7/diff.md --exclude *.pyd
+[2023-07-20 17:57:38] INFO root fetch - processPackages [kathara]: Downloading https://files.pythonhosted.org/packages/42/56/f47e5b88b085c0f1b25191330707a26a4c2f70baf4d765be6eea08cb1a42/kathara-3.6.3.tar.gz
+[2023-07-20 17:57:38] INFO root fetch - processPackages [pas.plugins.oidc]: Downloading https://files.pythonhosted.org/packages/09/9e/9c38c5d8dee3d88358639a0314194c68a2b1f92ef91c38fb3121dcd70543/pas.plugins.oidc-1.0a6.tar.gz
+[2023-07-20 17:57:38] INFO root fetch - processPackages [im-data-manager-metadata]: Downloading https://files.pythonhosted.org/packages/32/3f/0a651ec25103e07b34ccf0ff6b34fa27ab0fcb0112d6bde6eb60a0ae8e90/im_data_manager_metadata-1.0.3-py3-none-any.whl
+[2023-07-20 17:57:38] INFO root fetch - processPackages [ninjakiwi-api]: executing diffoscope
+[2023-07-20 17:57:38] INFO root fetch - processPackages [ninjakiwi-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ninjakiwi_api-0.0.6.tar.gz tmp/ninjakiwi_api-0.0.7.tar.gz --markdown 20230720/n/ninjakiwi-api/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-07-20 17:57:38] INFO root fetch - processPackages [tortoise-api]: executing diffoscope
+[2023-07-20 17:57:38] INFO root fetch - processPackages [tortoise-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tortoise-api-0.0.5.tar.gz tmp/tortoise-api-0.0.6.tar.gz --markdown 20230720/t/tortoise-api/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-20 17:57:38] INFO root fetch - processPackages [scrunch]: executing diffoscope
+[2023-07-20 17:57:38] INFO root fetch - processPackages [scrunch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scrunch-6.5.1999.post1689808706.tar.gz tmp/scrunch-6.5.1999.post1689868377.tar.gz --markdown 20230720/s/scrunch/6.5.1999.post1689808706-6.5.1999.post1689868377/diff.md --exclude *.pyd
+[2023-07-20 17:57:38] INFO root fetch - processPackages [ecallisto-ng]: executing diffoscope
+[2023-07-20 17:57:38] INFO root fetch - processPackages [ecallisto-ng]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ecallisto_ng-0.2.4.tar.gz tmp/ecallisto_ng-0.2.5.tar.gz --markdown 20230720/e/ecallisto-ng/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-07-20 17:57:39] INFO root fetch - processPackages [im-data-manager-metadata]: executing diffoscope
+[2023-07-20 17:57:39] INFO root fetch - processPackages [im-data-manager-metadata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/im_data_manager_metadata-1.0.2-py3-none-any.whl.zip tmp/im_data_manager_metadata-1.0.3-py3-none-any.whl.zip --markdown 20230720/i/im-data-manager-metadata/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-07-20 17:57:39] INFO root fetch - processPackages [kathara]: executing diffoscope
+[2023-07-20 17:57:39] INFO root fetch - processPackages [kathara]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kathara-3.6.2.tar.gz tmp/kathara-3.6.3.tar.gz --markdown 20230720/k/kathara/3.6.2-3.6.3/diff.md --exclude *.pyd
+[2023-07-20 17:57:39] INFO root fetch - processPackages [pas.plugins.oidc]: executing diffoscope
+[2023-07-20 17:57:39] INFO root fetch - processPackages [pas.plugins.oidc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pas.plugins.oidc-1.0a5.tar.gz tmp/pas.plugins.oidc-1.0a6.tar.gz --markdown 20230720/p/pas.plugins.oidc/1.0a5-1.0a6/diff.md --exclude *.pyd
+[2023-07-20 17:57:40] INFO root fetch - processPackages [buscador]: Remove: archive file [/home/abi/fetcher/tmp/buscador-0.6.tar.gz]
+[2023-07-20 17:57:40] INFO root fetch - processPackages [buscador]: Remove: archive file [/home/abi/fetcher/tmp/buscador-0.7.tar.gz]
+[2023-07-20 17:57:40] INFO root fetch - processPackages [buscador]: Start processing: simple-plugin-manager-zimolab1995
+[2023-07-20 17:57:40] INFO root fetch - main [MainThread]: End processing [buscador]: success
+[2023-07-20 17:57:40] INFO root fetch - processPackages [tortoise-api]: Remove: archive file [/home/abi/fetcher/tmp/tortoise-api-0.0.5.tar.gz]
+[2023-07-20 17:57:40] INFO root fetch - processPackages [tortoise-api]: Remove: archive file [/home/abi/fetcher/tmp/tortoise-api-0.0.6.tar.gz]
+[2023-07-20 17:57:40] INFO root fetch - processPackages [tortoise-api]: Start processing: pymgpipe
+[2023-07-20 17:57:40] INFO root fetch - main [MainThread]: End processing [tortoise-api]: success
+[2023-07-20 17:57:40] INFO root fetch - processPackages [simple-plugin-manager-zimolab1995]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-20 17:57:40] INFO root fetch - processPackages [pymgpipe]: New version: [0.16.6] Old Version: [0.16.2]
+[2023-07-20 17:57:40] INFO root fetch - processPackages [sidewinder-db]: Remove: archive file [/home/abi/fetcher/tmp/sidewinder-db-0.0.8.tar.gz]
+[2023-07-20 17:57:40] INFO root fetch - processPackages [sidewinder-db]: Remove: archive file [/home/abi/fetcher/tmp/sidewinder-db-0.0.9.tar.gz]
+[2023-07-20 17:57:40] INFO root fetch - processPackages [sidewinder-db]: Start processing: cryton-worker
+[2023-07-20 17:57:40] INFO root fetch - main [MainThread]: End processing [sidewinder-db]: success
+[2023-07-20 17:57:40] INFO root fetch - processPackages [ninjakiwi-api]: Remove: archive file [/home/abi/fetcher/tmp/ninjakiwi_api-0.0.6.tar.gz]
+[2023-07-20 17:57:40] INFO root fetch - processPackages [ninjakiwi-api]: Remove: archive file [/home/abi/fetcher/tmp/ninjakiwi_api-0.0.7.tar.gz]
+[2023-07-20 17:57:40] INFO root fetch - processPackages [ninjakiwi-api]: Start processing: cursesplus
+[2023-07-20 17:57:40] INFO root fetch - main [MainThread]: End processing [ninjakiwi-api]: success
+[2023-07-20 17:57:40] INFO root fetch - processPackages [cryton-worker]: New version: [2023.1.1] Old Version: [2022.2.2]
+[2023-07-20 17:57:40] INFO root fetch - processPackages [simple-plugin-manager-zimolab1995]: Downloading https://files.pythonhosted.org/packages/85/16/663e6093002147ed0d63a0297bc161d1ef266a68c5e6c1b1181dca74e792/simple_plugin_manager_zimolab1995-0.0.4.tar.gz
+[2023-07-20 17:57:40] INFO root fetch - processPackages [cursesplus]: New version: [2.6.0] Old Version: [2.5.0]
+[2023-07-20 17:57:40] INFO root fetch - processPackages [ecallisto-ng]: Remove: archive file [/home/abi/fetcher/tmp/ecallisto_ng-0.2.4.tar.gz]
+[2023-07-20 17:57:40] INFO root fetch - processPackages [ecallisto-ng]: Remove: archive file [/home/abi/fetcher/tmp/ecallisto_ng-0.2.5.tar.gz]
+[2023-07-20 17:57:40] INFO root fetch - processPackages [ecallisto-ng]: Start processing: setuplog
+[2023-07-20 17:57:40] INFO root fetch - main [MainThread]: End processing [ecallisto-ng]: success
+[2023-07-20 17:57:40] INFO root fetch - processPackages [cryton-core]: Downloading https://files.pythonhosted.org/packages/68/ea/7ec6d0ef3cfd9033fd246235295d5d97561c68326e90578e68cc57ad7fad/cryton_core-2023.1.2.tar.gz
+[2023-07-20 17:57:40] INFO root fetch - processPackages [im-data-manager-metadata]: Remove: archive file [/home/abi/fetcher/tmp/im_data_manager_metadata-1.0.2-py3-none-any.whl.zip]
+[2023-07-20 17:57:40] INFO root fetch - processPackages [im-data-manager-metadata]: Remove: archive file [/home/abi/fetcher/tmp/im_data_manager_metadata-1.0.3-py3-none-any.whl.zip]
+[2023-07-20 17:57:40] INFO root fetch - processPackages [im-data-manager-metadata]: Start processing: strongdm
+[2023-07-20 17:57:40] INFO root fetch - main [MainThread]: End processing [im-data-manager-metadata]: success
+[2023-07-20 17:57:40] INFO root fetch - processPackages [setuplog]: New version: [0.4.1] Old Version: [0.3.1]
+[2023-07-20 17:57:40] INFO root fetch - processPackages [pymgpipe]: Downloading https://files.pythonhosted.org/packages/fb/57/4f0ead36c95e27ed7e8545b707acdadd5916818382200c8754013a05c4aa/pymgpipe-0.16.2.tar.gz
+[2023-07-20 17:57:40] INFO root fetch - processPackages [strongdm]: New version: [4.1.0] Old Version: [4.0.0]
+[2023-07-20 17:57:40] INFO root fetch - processPackages [pas.plugins.oidc]: Remove: archive file [/home/abi/fetcher/tmp/pas.plugins.oidc-1.0a5.tar.gz]
+[2023-07-20 17:57:40] INFO root fetch - processPackages [pas.plugins.oidc]: Remove: archive file [/home/abi/fetcher/tmp/pas.plugins.oidc-1.0a6.tar.gz]
+[2023-07-20 17:57:40] INFO root fetch - processPackages [pas.plugins.oidc]: Start processing: secrets-vault
+[2023-07-20 17:57:40] INFO root fetch - main [MainThread]: End processing [pas.plugins.oidc]: success
+[2023-07-20 17:57:40] INFO root fetch - processPackages [cursesplus]: Downloading https://files.pythonhosted.org/packages/2f/12/6f4761c761d93c6742139c16c11bf0846c6d90b2c6d5b7e59c1d89767e01/cursesplus-2.5.0.tar.gz
+[2023-07-20 17:57:40] INFO root fetch - processPackages [cryton-worker]: Downloading https://files.pythonhosted.org/packages/04/9d/969457db4ede55888e77b89a5d2c224fb3a7d9c58254e557d2b4221e585d/cryton_worker-2022.2.2.tar.gz
+[2023-07-20 17:57:40] INFO root fetch - processPackages [secrets-vault]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-07-20 17:57:40] INFO root fetch - processPackages [simple-plugin-manager-zimolab1995]: Downloading https://files.pythonhosted.org/packages/d7/cb/90247a7732f97079f6baafd15a7043b103c2f2ab4192ded4a738a6abbe8c/simple_plugin_manager_zimolab1995-0.0.5.tar.gz
+[2023-07-20 17:57:40] INFO root fetch - processPackages [scrunch]: Remove: archive file [/home/abi/fetcher/tmp/scrunch-6.5.1999.post1689808706.tar.gz]
+[2023-07-20 17:57:40] INFO root fetch - processPackages [scrunch]: Remove: archive file [/home/abi/fetcher/tmp/scrunch-6.5.1999.post1689868377.tar.gz]
+[2023-07-20 17:57:40] INFO root fetch - main [MainThread]: End processing [scrunch]: success
+[2023-07-20 17:57:40] INFO root fetch - processPackages [setuplog]: Downloading https://files.pythonhosted.org/packages/da/65/b93053abde55a441a4bd564c85d42b184bd87392aad30d5413d16e14019e/setuplog-0.3.1.tar.gz
+[2023-07-20 17:57:40] INFO root fetch - processPackages [secrets-vault]: Downloading https://files.pythonhosted.org/packages/4d/89/51a87a23146ecc89264ec82cd10c348f9cce11ee11ff43519dd3f5e3dccc/secrets-vault-0.1.3.tar.gz
+[2023-07-20 17:57:40] INFO root fetch - processPackages [strongdm]: Downloading https://files.pythonhosted.org/packages/c5/dd/d566824c4faa704428e026171d272407ac9eda423ee86c69aa94c3cdedb5/strongdm-4.0.0.zip
+[2023-07-20 17:57:40] INFO root fetch - processPackages [simple-plugin-manager-zimolab1995]: executing diffoscope
+[2023-07-20 17:57:40] INFO root fetch - processPackages [simple-plugin-manager-zimolab1995]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simple_plugin_manager_zimolab1995-0.0.4.tar.gz tmp/simple_plugin_manager_zimolab1995-0.0.5.tar.gz --markdown 20230720/s/simple-plugin-manager-zimolab1995/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-20 17:57:41] INFO root fetch - processPackages [pymgpipe]: Downloading https://files.pythonhosted.org/packages/96/10/fffd5ec97827c0438fde58535d36a479ee8d2b7d2075a0e797c0c4fb32d1/pymgpipe-0.16.6.tar.gz
+[2023-07-20 17:57:41] INFO root fetch - processPackages [cursesplus]: Downloading https://files.pythonhosted.org/packages/26/b8/e514d6d3602696ae289416172fe9cf2145d799cdd4d35c32ca30fb59487b/cursesplus-2.6.0.tar.gz
+[2023-07-20 17:57:41] INFO root fetch - processPackages [cryton-worker]: Downloading https://files.pythonhosted.org/packages/7c/6e/ba7b9de3dcad8eb9574679352e1c5e1b77f53c95a73727455735a8da0965/cryton_worker-2023.1.1.tar.gz
+[2023-07-20 17:57:41] INFO root fetch - processPackages [secrets-vault]: Downloading https://files.pythonhosted.org/packages/54/ee/814dc1f377b465fbb98e67796fb73e1555957c0565729ea21613b25d5ecb/secrets-vault-0.1.4.tar.gz
+[2023-07-20 17:57:41] INFO root fetch - processPackages [setuplog]: Downloading https://files.pythonhosted.org/packages/76/23/9b9e09750b7602d01887cf9427b533d645f0e2d9dcec65723f046192133e/setuplog-0.4.1.tar.gz
+[2023-07-20 17:57:41] INFO root fetch - processPackages [strongdm]: Downloading https://files.pythonhosted.org/packages/b8/9e/c51ff9526e95a9bc620ad7fb511a32092cb467fc475c45f76dce96bff3ab/strongdm-4.1.0.zip
+[2023-07-20 17:57:41] INFO root fetch - processPackages [cursesplus]: executing diffoscope
+[2023-07-20 17:57:41] INFO root fetch - processPackages [cursesplus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cursesplus-2.5.0.tar.gz tmp/cursesplus-2.6.0.tar.gz --markdown 20230720/c/cursesplus/2.5.0-2.6.0/diff.md --exclude *.pyd
+[2023-07-20 17:57:41] INFO root fetch - processPackages [setuplog]: executing diffoscope
+[2023-07-20 17:57:41] INFO root fetch - processPackages [setuplog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/setuplog-0.3.1.tar.gz tmp/setuplog-0.4.1.tar.gz --markdown 20230720/s/setuplog/0.3.1-0.4.1/diff.md --exclude *.pyd
+[2023-07-20 17:57:41] INFO root fetch - processPackages [pymgpipe]: executing diffoscope
+[2023-07-20 17:57:41] INFO root fetch - processPackages [pymgpipe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymgpipe-0.16.2.tar.gz tmp/pymgpipe-0.16.6.tar.gz --markdown 20230720/p/pymgpipe/0.16.2-0.16.6/diff.md --exclude *.pyd
+[2023-07-20 17:57:41] INFO root fetch - processPackages [cryton-worker]: executing diffoscope
+[2023-07-20 17:57:41] INFO root fetch - processPackages [cryton-worker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cryton_worker-2022.2.2.tar.gz tmp/cryton_worker-2023.1.1.tar.gz --markdown 20230720/c/cryton-worker/2022.2.2-2023.1.1/diff.md --exclude *.pyd
+[2023-07-20 17:57:41] INFO root fetch - processPackages [secrets-vault]: executing diffoscope
+[2023-07-20 17:57:41] INFO root fetch - processPackages [secrets-vault]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/secrets-vault-0.1.3.tar.gz tmp/secrets-vault-0.1.4.tar.gz --markdown 20230720/s/secrets-vault/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-07-20 17:57:41] INFO root fetch - processPackages [strongdm]: executing diffoscope
+[2023-07-20 17:57:41] INFO root fetch - processPackages [strongdm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/strongdm-4.0.0.zip tmp/strongdm-4.1.0.zip --markdown 20230720/s/strongdm/4.0.0-4.1.0/diff.md --exclude *.pyd
+[2023-07-20 17:57:41] INFO root fetch - processPackages [simple-plugin-manager-zimolab1995]: Remove: archive file [/home/abi/fetcher/tmp/simple_plugin_manager_zimolab1995-0.0.4.tar.gz]
+[2023-07-20 17:57:41] INFO root fetch - processPackages [simple-plugin-manager-zimolab1995]: Remove: archive file [/home/abi/fetcher/tmp/simple_plugin_manager_zimolab1995-0.0.5.tar.gz]
+[2023-07-20 17:57:41] INFO root fetch - main [MainThread]: End processing [simple-plugin-manager-zimolab1995]: success
+[2023-07-20 17:57:42] INFO root fetch - processPackages [kathara]: Remove: archive file [/home/abi/fetcher/tmp/kathara-3.6.2.tar.gz]
+[2023-07-20 17:57:42] INFO root fetch - processPackages [kathara]: Remove: archive file [/home/abi/fetcher/tmp/kathara-3.6.3.tar.gz]
+[2023-07-20 17:57:42] INFO root fetch - main [MainThread]: End processing [kathara]: success
+[2023-07-20 17:57:42] INFO root fetch - processPackages [cryton-core]: executing diffoscope
+[2023-07-20 17:57:42] INFO root fetch - processPackages [cryton-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cryton_core-2022.2.2.tar.gz tmp/cryton_core-2023.1.2.tar.gz --markdown 20230720/c/cryton-core/2022.2.2-2023.1.2/diff.md --exclude *.pyd
+[2023-07-20 17:57:42] INFO root fetch - processPackages [secrets-vault]: Remove: archive file [/home/abi/fetcher/tmp/secrets-vault-0.1.3.tar.gz]
+[2023-07-20 17:57:42] INFO root fetch - processPackages [secrets-vault]: Remove: archive file [/home/abi/fetcher/tmp/secrets-vault-0.1.4.tar.gz]
+[2023-07-20 17:57:42] INFO root fetch - main [MainThread]: End processing [secrets-vault]: success
+[2023-07-20 17:57:42] INFO root fetch - processPackages [setuplog]: Remove: archive file [/home/abi/fetcher/tmp/setuplog-0.3.1.tar.gz]
+[2023-07-20 17:57:42] INFO root fetch - processPackages [setuplog]: Remove: archive file [/home/abi/fetcher/tmp/setuplog-0.4.1.tar.gz]
+[2023-07-20 17:57:42] INFO root fetch - main [MainThread]: End processing [setuplog]: success
+[2023-07-20 17:57:42] INFO root fetch - processPackages [cursesplus]: Remove: archive file [/home/abi/fetcher/tmp/cursesplus-2.5.0.tar.gz]
+[2023-07-20 17:57:42] INFO root fetch - processPackages [cursesplus]: Remove: archive file [/home/abi/fetcher/tmp/cursesplus-2.6.0.tar.gz]
+[2023-07-20 17:57:42] INFO root fetch - main [MainThread]: End processing [cursesplus]: success
+[2023-07-20 17:57:42] INFO root fetch - processPackages [cryton-worker]: Remove: archive file [/home/abi/fetcher/tmp/cryton_worker-2022.2.2.tar.gz]
+[2023-07-20 17:57:42] INFO root fetch - processPackages [cryton-worker]: Remove: archive file [/home/abi/fetcher/tmp/cryton_worker-2023.1.1.tar.gz]
+[2023-07-20 17:57:42] INFO root fetch - main [MainThread]: End processing [cryton-worker]: success
+[2023-07-20 17:57:43] INFO root fetch - processPackages [strongdm]: Remove: archive file [/home/abi/fetcher/tmp/strongdm-4.0.0.zip]
+[2023-07-20 17:57:43] INFO root fetch - processPackages [strongdm]: Remove: archive file [/home/abi/fetcher/tmp/strongdm-4.1.0.zip]
+[2023-07-20 17:57:43] INFO root fetch - main [MainThread]: End processing [strongdm]: success
+[2023-07-20 17:57:43] INFO root fetch - processPackages [pymgpipe]: Remove: archive file [/home/abi/fetcher/tmp/pymgpipe-0.16.2.tar.gz]
+[2023-07-20 17:57:43] INFO root fetch - processPackages [pymgpipe]: Remove: archive file [/home/abi/fetcher/tmp/pymgpipe-0.16.6.tar.gz]
+[2023-07-20 17:57:43] INFO root fetch - main [MainThread]: End processing [pymgpipe]: success
+[2023-07-20 17:57:45] INFO root fetch - processPackages [cryton-core]: Remove: archive file [/home/abi/fetcher/tmp/cryton_core-2022.2.2.tar.gz]
+[2023-07-20 17:57:45] INFO root fetch - processPackages [cryton-core]: Remove: archive file [/home/abi/fetcher/tmp/cryton_core-2023.1.2.tar.gz]
+[2023-07-20 17:57:45] INFO root fetch - main [MainThread]: End processing [cryton-core]: success
+[2023-07-20 17:57:45] INFO root fetch - main [MainThread]: Store serial: [18969343]
