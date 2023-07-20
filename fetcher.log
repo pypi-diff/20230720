@@ -6286,3 +6286,152 @@ AssertionError: tmp/verify4py-test-0.1.7.tar.gz does not exist
 [2023-07-20 13:10:31] INFO root fetch - processPackages [msaDocModels]: Remove: archive file [/home/abi/fetcher/tmp/msaDocModels-0.0.9.tar.gz]
 [2023-07-20 13:10:31] INFO root fetch - main [MainThread]: End processing [msaDocModels]: success
 [2023-07-20 13:10:31] INFO root fetch - main [MainThread]: Store serial: [18965494]
+[2023-07-20 13:15:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18965494]
+[2023-07-20 13:15:40] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-07-20 13:15:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: py-go-goose
+[2023-07-20 13:15:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: CxAdmin
+[2023-07-20 13:15:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: daggerpy
+[2023-07-20 13:15:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: network-config-analyzer
+[2023-07-20 13:15:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: test-setup-test
+[2023-07-20 13:15:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: geopyv
+[2023-07-20 13:15:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: CxAdmin
+[2023-07-20 13:15:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: LightSim2Grid
+[2023-07-20 13:15:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: async-wrapper
+[2023-07-20 13:15:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: fastlane-bot
+[2023-07-20 13:15:40] INFO root fetch - processPackages [async-wrapper]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-07-20 13:15:40] INFO root fetch - processPackages [network-config-analyzer]: New version: [1.9.4] Old Version: [1.9.3]
+[2023-07-20 13:15:40] INFO root fetch - processPackages [py-go-goose]: New version: [1.4.1] Old Version: [1.4]
+[2023-07-20 13:15:40] INFO root fetch - processPackages [test-setup-test]: New version: [1.0.8] Old Version: [1.0.6]
+[2023-07-20 13:15:40] INFO root fetch - processPackages [daggerpy]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-20 13:15:40] INFO root fetch - processPackages [CxAdmin]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-20 13:15:40] INFO root fetch - processPackages [fastlane-bot]: New version: [1.1.0] Old Version: [0.0.1]
+[2023-07-20 13:15:40] INFO root fetch - processPackages [LightSim2Grid]: New version: [0.7.3] Old Version: [0.7.2.dev1]
+[2023-07-20 13:15:40] INFO root fetch - processPackages [CxAdmin]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-20 13:15:40] INFO root fetch - processPackages [geopyv]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-20 13:15:40] INFO root fetch - processPackages [test-setup-test]: Downloading https://files.pythonhosted.org/packages/7e/a5/a1842c9ad3f3d8ed18980204a83b62a485fdff3acb1f5ffd8f0392ac8c1e/test_setup_test-1.0.6.tar.gz
+[2023-07-20 13:15:40] INFO root fetch - processPackages [CxAdmin]: Downloading https://files.pythonhosted.org/packages/72/2d/39137a2e73be34674809bf9eabf234a558344f4c60f8d348d9c9666872ce/CxAdmin-1.0.8.tar.gz
+[2023-07-20 13:15:40] INFO root fetch - processPackages [CxAdmin]: Downloading https://files.pythonhosted.org/packages/72/2d/39137a2e73be34674809bf9eabf234a558344f4c60f8d348d9c9666872ce/CxAdmin-1.0.8.tar.gz
+[2023-07-20 13:15:40] INFO root fetch - processPackages [async-wrapper]: Downloading https://files.pythonhosted.org/packages/f3/b8/3f6e928b60f0748b8d948a3e54e9a4981d1e69e45399d0bdb01369d97f0b/async_wrapper-0.1.3.tar.gz
+[2023-07-20 13:15:40] INFO root fetch - processPackages [py-go-goose]: Downloading https://files.pythonhosted.org/packages/14/8b/c94251f980791c942e65efd99a96e6e5dcac332d2edfb955e754202628e6/py_go_goose-1.4.tar.gz
+[2023-07-20 13:15:40] INFO root fetch - processPackages [network-config-analyzer]: Downloading https://files.pythonhosted.org/packages/93/21/7d53626fe6da22bc28031b54c379cc68c10fe75fb14b6f90f7a53661b4cc/network-config-analyzer-1.9.3.tar.gz
+[2023-07-20 13:15:40] INFO root fetch - processPackages [daggerpy]: Downloading https://files.pythonhosted.org/packages/e8/e8/6a15bf8e09a0187bc9528591cb4f9e318210c5f2f089af2da224dfbe9efe/daggerpy-0.0.1.tar.gz
+[2023-07-20 13:15:40] INFO root fetch - processPackages [fastlane-bot]: Downloading https://files.pythonhosted.org/packages/b6/d3/4ff75827aa256e34679b9bc9a508234e9330e95b9fe487dfa0b928efe135/fastlane_bot-0.0.1.tar.gz
+[2023-07-20 13:15:40] INFO root fetch - processPackages [LightSim2Grid]: Downloading https://files.pythonhosted.org/packages/82/58/8b667797a1fb310ef80cb7d0a2f3183a775bdcf19f81d64c0674aea881a2/LightSim2Grid-0.7.2.dev1.tar.gz
+[2023-07-20 13:15:41] INFO root fetch - processPackages [geopyv]: Downloading https://files.pythonhosted.org/packages/59/cd/5c2cb6799fbf4df8b4ca611d25994ac3d2b2ef9ce0eb5cb7fe5555b1f774/geopyv-0.0.8.tar.gz
+[2023-07-20 13:15:41] INFO root fetch - processPackages [CxAdmin]: Downloading https://files.pythonhosted.org/packages/12/69/d90f882fe41226c22716f3133aa3d1fd7abd744d25527cd17a8e33f7487f/CxAdmin-1.0.9.tar.gz
+[2023-07-20 13:15:41] INFO root fetch - processPackages [test-setup-test]: Downloading https://files.pythonhosted.org/packages/bc/ea/c4d47a90cdb1cf5374be3c13076264c14a7248d180c34427d1cb4fb2bd77/test_setup_test-1.0.8.tar.gz
+[2023-07-20 13:15:41] INFO root fetch - processPackages [CxAdmin]: Downloading https://files.pythonhosted.org/packages/12/69/d90f882fe41226c22716f3133aa3d1fd7abd744d25527cd17a8e33f7487f/CxAdmin-1.0.9.tar.gz
+[2023-07-20 13:15:41] INFO root fetch - processPackages [async-wrapper]: Downloading https://files.pythonhosted.org/packages/3d/0c/86b691fdce503508d4b739c9d33bc4838ba2ad05be45e87a8a432546eb3e/async_wrapper-0.1.4.tar.gz
+[2023-07-20 13:15:41] INFO root fetch - processPackages [CxAdmin]: executing diffoscope
+[2023-07-20 13:15:41] INFO root fetch - processPackages [CxAdmin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CxAdmin-1.0.8.tar.gz tmp/CxAdmin-1.0.9.tar.gz --markdown 20230720/C/CxAdmin/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-20 13:15:41] INFO root fetch - processPackages [test-setup-test]: executing diffoscope
+[2023-07-20 13:15:41] INFO root fetch - processPackages [test-setup-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/test_setup_test-1.0.6.tar.gz tmp/test_setup_test-1.0.8.tar.gz --markdown 20230720/t/test-setup-test/1.0.6-1.0.8/diff.md --exclude *.pyd
+[2023-07-20 13:15:41] INFO root fetch - processPackages [fastlane-bot]: Downloading https://files.pythonhosted.org/packages/ac/3e/07deb41a0cefc3e05dba715761974f4de33c7dc345831d5eb3e30dd33829/fastlane_bot-1.1.0-py3-none-any.whl
+[2023-07-20 13:15:41] INFO root fetch - processPackages [CxAdmin]: executing diffoscope
+[2023-07-20 13:15:41] INFO root fetch - processPackages [CxAdmin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CxAdmin-1.0.8.tar.gz tmp/CxAdmin-1.0.9.tar.gz --markdown 20230720/C/CxAdmin/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-20 13:15:41] INFO root fetch - processPackages [daggerpy]: Downloading https://files.pythonhosted.org/packages/dd/61/383c0ca4220d033fd5685835d7f3a3ed39fd4bb8586306d6b8953af231af/daggerpy-0.0.2.tar.gz
+[2023-07-20 13:15:41] INFO root fetch - processPackages [LightSim2Grid]: Downloading https://files.pythonhosted.org/packages/9e/e4/78f156c523db57bb4ddeca33fd26cb7bca5f57148dccada7cda7854a5483/LightSim2Grid-0.7.3.tar.gz
+[2023-07-20 13:15:41] INFO root fetch - processPackages [async-wrapper]: executing diffoscope
+[2023-07-20 13:15:41] INFO root fetch - processPackages [async-wrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/async_wrapper-0.1.3.tar.gz tmp/async_wrapper-0.1.4.tar.gz --markdown 20230720/a/async-wrapper/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-07-20 13:15:41] INFO root fetch - processPackages [py-go-goose]: Downloading https://files.pythonhosted.org/packages/81/b7/ebe80998551772f747eb8c2f496dd19f58dafea0c6ba9b7cff28c53f44b8/py_go_goose-1.4.1-cp38-cp38-macosx_13_0_arm64.whl
+[2023-07-20 13:15:41] INFO root fetch - processPackages [fastlane-bot]: executing diffoscope
+[2023-07-20 13:15:41] INFO root fetch - processPackages [fastlane-bot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastlane_bot-0.0.1.tar.gz tmp/fastlane_bot-1.1.0-py3-none-any.whl.zip --markdown 20230720/f/fastlane-bot/0.0.1-1.1.0/diff.md --exclude *.pyd
+[2023-07-20 13:15:41] INFO root fetch - processPackages [geopyv]: Downloading https://files.pythonhosted.org/packages/76/fd/888bc0b2bd9d5003b90a509494f1d527befc7101dc39ed5d07d6f7ba03d0/geopyv-0.0.9.tar.gz
+[2023-07-20 13:15:41] INFO root fetch - processPackages [daggerpy]: executing diffoscope
+[2023-07-20 13:15:41] INFO root fetch - processPackages [daggerpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/daggerpy-0.0.1.tar.gz tmp/daggerpy-0.0.2.tar.gz --markdown 20230720/d/daggerpy/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-20 13:15:41] INFO root fetch - processPackages [LightSim2Grid]: executing diffoscope
+[2023-07-20 13:15:41] INFO root fetch - processPackages [LightSim2Grid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/LightSim2Grid-0.7.2.dev1.tar.gz tmp/LightSim2Grid-0.7.3.tar.gz --markdown 20230720/L/LightSim2Grid/0.7.2.dev1-0.7.3/diff.md --exclude *.pyd
+[2023-07-20 13:15:41] INFO root fetch - processPackages [network-config-analyzer]: Downloading https://files.pythonhosted.org/packages/dc/4f/c205b9787a1c10e92b172ccca0119d5d96c900752bf6ef6daec09cca4acd/network-config-analyzer-1.9.4.tar.gz
+[2023-07-20 13:15:41] INFO root fetch - processPackages [geopyv]: executing diffoscope
+[2023-07-20 13:15:41] INFO root fetch - processPackages [geopyv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geopyv-0.0.8.tar.gz tmp/geopyv-0.0.9.tar.gz --markdown 20230720/g/geopyv/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-20 13:15:41] INFO root fetch - processPackages [network-config-analyzer]: executing diffoscope
+[2023-07-20 13:15:41] INFO root fetch - processPackages [network-config-analyzer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/network-config-analyzer-1.9.3.tar.gz tmp/network-config-analyzer-1.9.4.tar.gz --markdown 20230720/n/network-config-analyzer/1.9.3-1.9.4/diff.md --exclude *.pyd
+[2023-07-20 13:15:41] INFO root fetch - processPackages [py-go-goose]: executing diffoscope
+[2023-07-20 13:15:41] INFO root fetch - processPackages [py-go-goose]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_go_goose-1.4.tar.gz tmp/py_go_goose-1.4.1-cp38-cp38-macosx_13_0_arm64.whl.zip --markdown 20230720/p/py-go-goose/1.4-1.4.1/diff.md --exclude *.pyd
+[2023-07-20 13:15:42] INFO root fetch - processPackages [test-setup-test]: Remove: archive file [/home/abi/fetcher/tmp/test_setup_test-1.0.6.tar.gz]
+[2023-07-20 13:15:42] INFO root fetch - processPackages [test-setup-test]: Remove: archive file [/home/abi/fetcher/tmp/test_setup_test-1.0.8.tar.gz]
+[2023-07-20 13:15:42] INFO root fetch - processPackages [test-setup-test]: Start processing: assisted-service-client
+[2023-07-20 13:15:42] INFO root fetch - main [MainThread]: End processing [test-setup-test]: success
+[2023-07-20 13:15:42] INFO root fetch - processPackages [assisted-service-client]: New version: [2.9.0.post9] Old Version: [2.9.0.post8]
+[2023-07-20 13:15:42] INFO root fetch - processPackages [CxAdmin]: Remove: archive file [/home/abi/fetcher/tmp/CxAdmin-1.0.8.tar.gz]
+[2023-07-20 13:15:42] INFO root fetch - processPackages [CxAdmin]: Remove: archive file [/home/abi/fetcher/tmp/CxAdmin-1.0.9.tar.gz]
+[2023-07-20 13:15:42] INFO root fetch - processPackages [CxAdmin]: Start processing: lamindb
+[2023-07-20 13:15:42] INFO root fetch - main [MainThread]: End processing [CxAdmin]: success
+[2023-07-20 13:15:42] INFO root fetch - processPackages [CxAdmin]: Start processing: CxAdmin
+[2023-07-20 13:15:42] INFO root fetch - main [MainThread]: End processing [CxAdmin]: success
+[2023-07-20 13:15:42] INFO root fetch - processPackages [lamindb]: New version: [0.9.6] Old Version: [0.9.4]
+[2023-07-20 13:15:43] INFO root fetch - processPackages [CxAdmin]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-20 13:15:43] INFO root fetch - processPackages [async-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/async_wrapper-0.1.3.tar.gz]
+[2023-07-20 13:15:43] INFO root fetch - processPackages [async-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/async_wrapper-0.1.4.tar.gz]
+[2023-07-20 13:15:43] INFO root fetch - processPackages [async-wrapper]: Start processing: discotime
+[2023-07-20 13:15:43] INFO root fetch - main [MainThread]: End processing [async-wrapper]: success
+[2023-07-20 13:15:43] INFO root fetch - processPackages [discotime]: New version: [0.0.4] Old Version: [0.0.2]
+[2023-07-20 13:15:43] INFO root fetch - processPackages [fastlane-bot]: Remove: archive file [/home/abi/fetcher/tmp/fastlane_bot-0.0.1.tar.gz]
+[2023-07-20 13:15:43] INFO root fetch - processPackages [fastlane-bot]: Remove: archive file [/home/abi/fetcher/tmp/fastlane_bot-1.1.0-py3-none-any.whl.zip]
+[2023-07-20 13:15:43] INFO root fetch - processPackages [fastlane-bot]: Start processing: CxAdmin
+[2023-07-20 13:15:43] INFO root fetch - main [MainThread]: End processing [fastlane-bot]: success
+[2023-07-20 13:15:43] INFO root fetch - processPackages [CxAdmin]: Downloading https://files.pythonhosted.org/packages/72/2d/39137a2e73be34674809bf9eabf234a558344f4c60f8d348d9c9666872ce/CxAdmin-1.0.8.tar.gz
+[2023-07-20 13:15:43] INFO root fetch - processPackages [CxAdmin]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-20 13:15:43] INFO root fetch - processPackages [lamindb]: Downloading https://files.pythonhosted.org/packages/15/74/34148a2f59ec5fafeee3ffbc599388444e1e8d22d525c0b2e244aa151fef/lamindb-0.9.4.tar.gz
+[2023-07-20 13:15:43] INFO root fetch - processPackages [assisted-service-client]: executing diffoscope
+[2023-07-20 13:15:43] INFO root fetch - processPackages [assisted-service-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assisted_service_client-2.9.0.post8-py3-none-any.whl.zip tmp/assisted_service_client-2.9.0.post9-py3-none-any.whl.zip --markdown 20230720/a/assisted-service-client/2.9.0.post8-2.9.0.post9/diff.md --exclude *.pyd
+[2023-07-20 13:15:43] INFO root fetch - processPackages [discotime]: Downloading https://files.pythonhosted.org/packages/cd/5c/836746584799bfaf23a431f2f8565ae5b96cdfb927ecd34438bec3cf1c61/discotime-0.0.2.tar.gz
+[2023-07-20 13:15:43] INFO root fetch - processPackages [CxAdmin]: Downloading https://files.pythonhosted.org/packages/12/69/d90f882fe41226c22716f3133aa3d1fd7abd744d25527cd17a8e33f7487f/CxAdmin-1.0.9.tar.gz
+[2023-07-20 13:15:43] INFO root fetch - processPackages [daggerpy]: Remove: archive file [/home/abi/fetcher/tmp/daggerpy-0.0.1.tar.gz]
+[2023-07-20 13:15:43] INFO root fetch - processPackages [daggerpy]: Remove: archive file [/home/abi/fetcher/tmp/daggerpy-0.0.2.tar.gz]
+[2023-07-20 13:15:43] INFO root fetch - processPackages [daggerpy]: Start processing: deepcave
+[2023-07-20 13:15:43] INFO root fetch - main [MainThread]: End processing [daggerpy]: success
+[2023-07-20 13:15:43] INFO root fetch - processPackages [CxAdmin]: Downloading https://files.pythonhosted.org/packages/12/69/d90f882fe41226c22716f3133aa3d1fd7abd744d25527cd17a8e33f7487f/CxAdmin-1.0.9.tar.gz
+[2023-07-20 13:15:43] INFO root fetch - processPackages [deepcave]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-07-20 13:15:43] INFO root fetch - processPackages [CxAdmin]: executing diffoscope
+[2023-07-20 13:15:43] INFO root fetch - processPackages [CxAdmin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CxAdmin-1.0.8.tar.gz tmp/CxAdmin-1.0.9.tar.gz --markdown 20230720/C/CxAdmin/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-20 13:15:43] INFO root fetch - processPackages [LightSim2Grid]: Remove: archive file [/home/abi/fetcher/tmp/LightSim2Grid-0.7.2.dev1.tar.gz]
+[2023-07-20 13:15:43] INFO root fetch - processPackages [LightSim2Grid]: Remove: archive file [/home/abi/fetcher/tmp/LightSim2Grid-0.7.3.tar.gz]
+[2023-07-20 13:15:43] INFO root fetch - processPackages [LightSim2Grid]: Start processing: dao-scripts
+[2023-07-20 13:15:43] INFO root fetch - main [MainThread]: End processing [LightSim2Grid]: success
+[2023-07-20 13:15:43] INFO root fetch - processPackages [CxAdmin]: executing diffoscope
+[2023-07-20 13:15:43] INFO root fetch - processPackages [CxAdmin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CxAdmin-1.0.8.tar.gz tmp/CxAdmin-1.0.9.tar.gz --markdown 20230720/C/CxAdmin/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-20 13:15:43] INFO root fetch - processPackages [dao-scripts]: New version: [1.1.9.post3.dev5] Old Version: [1.1.9.post3.dev4]
+[2023-07-20 13:15:43] INFO root fetch - processPackages [geopyv]: Remove: archive file [/home/abi/fetcher/tmp/geopyv-0.0.8.tar.gz]
+[2023-07-20 13:15:43] INFO root fetch - processPackages [geopyv]: Remove: archive file [/home/abi/fetcher/tmp/geopyv-0.0.9.tar.gz]
+[2023-07-20 13:15:43] INFO root fetch - main [MainThread]: End processing [geopyv]: success
+[2023-07-20 13:15:43] INFO root fetch - processPackages [lamindb]: Downloading https://files.pythonhosted.org/packages/a8/dd/da42b7dd3f39064fda6a4977c93f1a040eefa69ef3a3cefd7b4b8d13efb6/lamindb-0.9.6.tar.gz
+[2023-07-20 13:15:43] INFO root fetch - processPackages [dao-scripts]: Downloading https://files.pythonhosted.org/packages/3f/71/418934cb7f68b4288380db631fed537ca7b5ca07af0499c9dd3d0e0cc1a2/dao-scripts-1.1.9.post3.dev4.tar.gz
+[2023-07-20 13:15:43] INFO root fetch - processPackages [deepcave]: Downloading https://files.pythonhosted.org/packages/29/85/d3a6cd82b3d478f99fb5b4a65e411aaf0553ff620f7acfd00c5f7df8bc9e/deepcave-1.1.1.tar.gz
+[2023-07-20 13:15:43] INFO root fetch - processPackages [discotime]: Downloading https://files.pythonhosted.org/packages/1d/db/74e9c7adf094b4bbed7671d4a89f7026854f7f771d14571bf47bef8ecb14/discotime-0.0.4.tar.gz
+[2023-07-20 13:15:43] INFO root fetch - processPackages [network-config-analyzer]: Remove: archive file [/home/abi/fetcher/tmp/network-config-analyzer-1.9.3.tar.gz]
+[2023-07-20 13:15:43] INFO root fetch - processPackages [network-config-analyzer]: Remove: archive file [/home/abi/fetcher/tmp/network-config-analyzer-1.9.4.tar.gz]
+[2023-07-20 13:15:43] INFO root fetch - main [MainThread]: End processing [network-config-analyzer]: success
+[2023-07-20 13:15:43] INFO root fetch - processPackages [py-go-goose]: Remove: archive file [/home/abi/fetcher/tmp/py_go_goose-1.4.tar.gz]
+[2023-07-20 13:15:43] INFO root fetch - processPackages [py-go-goose]: Remove: archive file [/home/abi/fetcher/tmp/py_go_goose-1.4.1-cp38-cp38-macosx_13_0_arm64.whl.zip]
+[2023-07-20 13:15:43] INFO root fetch - main [MainThread]: End processing [py-go-goose]: success
+[2023-07-20 13:15:43] INFO root fetch - processPackages [discotime]: executing diffoscope
+[2023-07-20 13:15:43] INFO root fetch - processPackages [discotime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/discotime-0.0.2.tar.gz tmp/discotime-0.0.4.tar.gz --markdown 20230720/d/discotime/0.0.2-0.0.4/diff.md --exclude *.pyd
+[2023-07-20 13:15:43] INFO root fetch - processPackages [dao-scripts]: Downloading https://files.pythonhosted.org/packages/ac/91/16d6264c14fbbbd6e620eb5d2ad885fe7c2fbf6a302453c8a4ed41eb54d0/dao-scripts-1.1.9.post3.dev5.tar.gz
+[2023-07-20 13:15:44] INFO root fetch - processPackages [dao-scripts]: executing diffoscope
+[2023-07-20 13:15:44] INFO root fetch - processPackages [dao-scripts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dao-scripts-1.1.9.post3.dev4.tar.gz tmp/dao-scripts-1.1.9.post3.dev5.tar.gz --markdown 20230720/d/dao-scripts/1.1.9.post3.dev4-1.1.9.post3.dev5/diff.md --exclude *.pyd
+[2023-07-20 13:15:44] INFO root fetch - processPackages [assisted-service-client]: Remove: archive file [/home/abi/fetcher/tmp/assisted_service_client-2.9.0.post8-py3-none-any.whl.zip]
+[2023-07-20 13:15:44] INFO root fetch - processPackages [assisted-service-client]: Remove: archive file [/home/abi/fetcher/tmp/assisted_service_client-2.9.0.post9-py3-none-any.whl.zip]
+[2023-07-20 13:15:44] INFO root fetch - main [MainThread]: End processing [assisted-service-client]: success
+[2023-07-20 13:15:44] INFO root fetch - processPackages [deepcave]: Downloading https://files.pythonhosted.org/packages/de/43/7631e1ac7619b991801993869c6d276bf2b1493cb61b7d9f573f3819f55a/deepcave-1.1.2.tar.gz
+[2023-07-20 13:15:44] INFO root fetch - processPackages [deepcave]: executing diffoscope
+[2023-07-20 13:15:44] INFO root fetch - processPackages [deepcave]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepcave-1.1.1.tar.gz tmp/deepcave-1.1.2.tar.gz --markdown 20230720/d/deepcave/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-07-20 13:15:44] INFO root fetch - processPackages [CxAdmin]: Remove: archive file [/home/abi/fetcher/tmp/CxAdmin-1.0.8.tar.gz]
+[2023-07-20 13:15:44] INFO root fetch - processPackages [CxAdmin]: Remove: archive file [/home/abi/fetcher/tmp/CxAdmin-1.0.9.tar.gz]
+[2023-07-20 13:15:44] INFO root fetch - main [MainThread]: End processing [CxAdmin]: success
+[2023-07-20 13:15:44] INFO root fetch - main [MainThread]: End processing [CxAdmin]: success
+[2023-07-20 13:15:44] INFO root fetch - processPackages [lamindb]: executing diffoscope
+[2023-07-20 13:15:44] INFO root fetch - processPackages [lamindb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lamindb-0.9.4.tar.gz tmp/lamindb-0.9.6.tar.gz --markdown 20230720/l/lamindb/0.9.4-0.9.6/diff.md --exclude *.pyd
+[2023-07-20 13:15:44] INFO root fetch - processPackages [discotime]: Remove: archive file [/home/abi/fetcher/tmp/discotime-0.0.2.tar.gz]
+[2023-07-20 13:15:44] INFO root fetch - processPackages [discotime]: Remove: archive file [/home/abi/fetcher/tmp/discotime-0.0.4.tar.gz]
+[2023-07-20 13:15:44] INFO root fetch - main [MainThread]: End processing [discotime]: success
+[2023-07-20 13:15:45] INFO root fetch - processPackages [dao-scripts]: Remove: archive file [/home/abi/fetcher/tmp/dao-scripts-1.1.9.post3.dev4.tar.gz]
+[2023-07-20 13:15:45] INFO root fetch - processPackages [dao-scripts]: Remove: archive file [/home/abi/fetcher/tmp/dao-scripts-1.1.9.post3.dev5.tar.gz]
+[2023-07-20 13:15:45] INFO root fetch - main [MainThread]: End processing [dao-scripts]: success
+[2023-07-20 13:15:45] INFO root fetch - processPackages [deepcave]: Remove: archive file [/home/abi/fetcher/tmp/deepcave-1.1.1.tar.gz]
+[2023-07-20 13:15:45] INFO root fetch - processPackages [deepcave]: Remove: archive file [/home/abi/fetcher/tmp/deepcave-1.1.2.tar.gz]
+[2023-07-20 13:15:45] INFO root fetch - main [MainThread]: End processing [deepcave]: success
+[2023-07-20 13:15:45] INFO root fetch - processPackages [lamindb]: Remove: archive file [/home/abi/fetcher/tmp/lamindb-0.9.4.tar.gz]
+[2023-07-20 13:15:45] INFO root fetch - processPackages [lamindb]: Remove: archive file [/home/abi/fetcher/tmp/lamindb-0.9.6.tar.gz]
+[2023-07-20 13:15:45] INFO root fetch - main [MainThread]: End processing [lamindb]: success
+[2023-07-20 13:15:45] INFO root fetch - main [MainThread]: Store serial: [18965598]
