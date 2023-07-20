@@ -14891,3 +14891,158 @@ AssertionError: tmp/verify4py-test-0.1.7.tar.gz does not exist
 [2023-07-20 17:41:35] INFO root fetch - processPackages [mkdocs-traefiklabs]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs-traefiklabs-100.0.9.tar.gz]
 [2023-07-20 17:41:35] INFO root fetch - main [MainThread]: End processing [mkdocs-traefiklabs]: success
 [2023-07-20 17:41:35] INFO root fetch - main [MainThread]: Store serial: [18969190]
+[2023-07-20 17:46:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18969190]
+[2023-07-20 17:46:46] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-07-20 17:46:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: formio-data
+[2023-07-20 17:46:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nowcasting-datamodel
+[2023-07-20 17:46:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: griptape
+[2023-07-20 17:46:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: certora-cli-alpha-martin-z3-lemmas-test
+[2023-07-20 17:46:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: valcheck
+[2023-07-20 17:46:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pt-names
+[2023-07-20 17:46:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: causalgen
+[2023-07-20 17:46:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ldeep
+[2023-07-20 17:46:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mongodriver
+[2023-07-20 17:46:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: sphinx-lint
+[2023-07-20 17:46:46] INFO root fetch - processPackages [certora-cli-alpha-martin-z3-lemmas-test]: New version: [20230720.15.41.513759] Old Version: [20230720.13.5.368096]
+[2023-07-20 17:46:46] INFO root fetch - processPackages [griptape]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-07-20 17:46:46] WARNING root fetch - processPackages [causalgen]: Skipping, unable to determine old version
+[2023-07-20 17:46:46] INFO root fetch - processPackages [causalgen]: Start processing: flex-config
+[2023-07-20 17:46:46] INFO root fetch - main [MainThread]: End processing [causalgen] error
+[2023-07-20 17:46:46] INFO root fetch - processPackages [sphinx-lint]: New version: [0.6.8] Old Version: [0.6.7]
+[2023-07-20 17:46:46] INFO root fetch - processPackages [ldeep]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-20 17:46:46] INFO root fetch - processPackages [pt-names]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-20 17:46:46] INFO root fetch - processPackages [valcheck]: New version: [0.7.0] Old Version: [0.6.0]
+[2023-07-20 17:46:46] INFO root fetch - processPackages [mongodriver]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-07-20 17:46:46] INFO root fetch - processPackages [nowcasting-datamodel]: New version: [1.5.3] Old Version: [1.5.2]
+[2023-07-20 17:46:46] INFO root fetch - processPackages [formio-data]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-20 17:46:47] INFO root fetch - processPackages [flex-config]: New version: [2.2.1] Old Version: [2.2.0rc0]
+[2023-07-20 17:46:47] INFO root fetch - processPackages [ldeep]: Downloading https://files.pythonhosted.org/packages/24/e2/09c2ff64528ba7e556d1f75dec902fee07b80fdde1f9ffcf6dd1e182bfcf/ldeep-1.0.8.tar.gz
+[2023-07-20 17:46:47] INFO root fetch - processPackages [pt-names]: Downloading https://files.pythonhosted.org/packages/63/36/d1ae3fd427124dc66a0b7d9cd738171dd00195053f5fbecf1141ecdc18a5/pt_names-0.1.1.tar.gz
+[2023-07-20 17:46:47] INFO root fetch - processPackages [certora-cli-alpha-martin-z3-lemmas-test]: Downloading https://files.pythonhosted.org/packages/e1/d4/4a9e9c02ea0ffc46d46e2ae3dbd5132340a488830707c020b3d112429c39/certora-cli-alpha-martin-z3-lemmas-test-20230720.13.5.368096.tar.gz
+[2023-07-20 17:46:47] WARNING root fetch - processPackages [certora-cli-alpha-martin-z3-lemmas-test]: Skipping package: exceeds size limit 38805449>=10485760
+[2023-07-20 17:46:47] INFO root fetch - processPackages [certora-cli-alpha-martin-z3-lemmas-test]: Start processing: stigg-api-client
+[2023-07-20 17:46:47] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-martin-z3-lemmas-test] error
+[2023-07-20 17:46:47] INFO root fetch - processPackages [griptape]: Downloading https://files.pythonhosted.org/packages/61/6a/bcf2cf6048e3abdc73de35cbae9b02a4d5a43d68bdd51e246ecddb0472b1/griptape-0.9.0.tar.gz
+[2023-07-20 17:46:47] INFO root fetch - processPackages [nowcasting-datamodel]: Downloading https://files.pythonhosted.org/packages/48/ea/43d6b518cf53e4a4999d029572a28ffb5013bbf3a20ea57990eb13110196/nowcasting_datamodel-1.5.2.tar.gz
+[2023-07-20 17:46:47] INFO root fetch - processPackages [mongodriver]: Downloading https://files.pythonhosted.org/packages/ca/05/69ac034f40aa60f9991c80b39ea3b3da9a981fdd480c1893d01fccb4a718/mongodriver-1.2.0.tar.gz
+[2023-07-20 17:46:47] INFO root fetch - processPackages [valcheck]: Downloading https://files.pythonhosted.org/packages/a1/ee/931068dcd69d81b93509f2cb4cd09441bbea0fea397b6afb996c28da1b63/valcheck-0.6.0.tar.gz
+[2023-07-20 17:46:47] INFO root fetch - processPackages [sphinx-lint]: Downloading https://files.pythonhosted.org/packages/33/a7/99a4b5c0a4309b7ae32b67cd5d63f541598774518198060ad4400356056b/sphinx-lint-0.6.7.tar.gz
+[2023-07-20 17:46:47] INFO root fetch - processPackages [formio-data]: Downloading https://files.pythonhosted.org/packages/60/06/e6f7f6726ae8a9a09602d6148e69d8c134f199b9a414f7a92ed8ba54228f/formio-data-1.0.1.tar.gz
+[2023-07-20 17:46:47] INFO root fetch - processPackages [flex-config]: Downloading https://files.pythonhosted.org/packages/ef/25/2d30fafdad4015d35afb428dfefc3d8e2bf9a0b80d29d2f4c3f23fcae5ed/flex-config-2.2.0rc0.tar.gz
+[2023-07-20 17:46:47] INFO root fetch - processPackages [stigg-api-client]: New version: [0.5.0] Old Version: [0.496.0]
+[2023-07-20 17:46:47] INFO root fetch - processPackages [ldeep]: Downloading https://files.pythonhosted.org/packages/e2/b0/645c2fce50d34f47b9f5b8fb9be8a6c2e716ddb3573e379f4221970560bc/ldeep-1.0.9.tar.gz
+[2023-07-20 17:46:47] INFO root fetch - processPackages [stigg-api-client]: Downloading https://files.pythonhosted.org/packages/b4/9c/ba5d9a454cca2569e94849fa84efa1874794cbe52b230944ce9ed900a800/stigg_api_client-0.496.0.tar.gz
+[2023-07-20 17:46:47] INFO root fetch - processPackages [pt-names]: Downloading https://files.pythonhosted.org/packages/f1/22/44967f570f5c7ef9f212ccf67291b2d85c92f5db2a3fc71f0a057a9f2624/pt_names-0.1.2.tar.gz
+[2023-07-20 17:46:47] INFO root fetch - processPackages [ldeep]: executing diffoscope
+[2023-07-20 17:46:47] INFO root fetch - processPackages [ldeep]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ldeep-1.0.8.tar.gz tmp/ldeep-1.0.9.tar.gz --markdown 20230720/l/ldeep/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-20 17:46:47] INFO root fetch - processPackages [formio-data]: Downloading https://files.pythonhosted.org/packages/29/4e/02e1f58e9676bf3eed3a3b75723bb59b68f3c5b5eaf489307f026557953d/formio-data-1.0.2.tar.gz
+[2023-07-20 17:46:47] INFO root fetch - processPackages [valcheck]: Downloading https://files.pythonhosted.org/packages/eb/cc/abca88c567481d0c91d6cd0d97537f8c4c7db20070d26ca95799e1ab5f96/valcheck-0.7.0.tar.gz
+[2023-07-20 17:46:47] INFO root fetch - processPackages [griptape]: Downloading https://files.pythonhosted.org/packages/d3/e7/7c06c5c2173f5e68123d3bdeb9f89c59f9548675ab8e244c9a62bd4cf34d/griptape-0.9.1.tar.gz
+[2023-07-20 17:46:47] INFO root fetch - processPackages [sphinx-lint]: Downloading https://files.pythonhosted.org/packages/4c/86/8a7677dc193a61c136beac8206c8587215f355bd97985f50d5a1c3a633b9/sphinx-lint-0.6.8.tar.gz
+[2023-07-20 17:46:47] INFO root fetch - processPackages [mongodriver]: Downloading https://files.pythonhosted.org/packages/c6/55/13ec3394abd3808e6cf83229b9719651dc8cfa33e54b2d9e29e8c6f2ea08/mongodriver-1.2.1.tar.gz
+[2023-07-20 17:46:47] INFO root fetch - processPackages [formio-data]: executing diffoscope
+[2023-07-20 17:46:47] INFO root fetch - processPackages [formio-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/formio-data-1.0.1.tar.gz tmp/formio-data-1.0.2.tar.gz --markdown 20230720/f/formio-data/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-20 17:46:47] INFO root fetch - processPackages [valcheck]: executing diffoscope
+[2023-07-20 17:46:47] INFO root fetch - processPackages [valcheck]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/valcheck-0.6.0.tar.gz tmp/valcheck-0.7.0.tar.gz --markdown 20230720/v/valcheck/0.6.0-0.7.0/diff.md --exclude *.pyd
+[2023-07-20 17:46:47] INFO root fetch - processPackages [nowcasting-datamodel]: Downloading https://files.pythonhosted.org/packages/a7/f9/3bbe62f0c1fd2aa13e618e7aa5b74536c5d1ec2d3fca582ddecf834957d7/nowcasting_datamodel-1.5.3.tar.gz
+[2023-07-20 17:46:47] INFO root fetch - processPackages [griptape]: executing diffoscope
+[2023-07-20 17:46:47] INFO root fetch - processPackages [griptape]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/griptape-0.9.0.tar.gz tmp/griptape-0.9.1.tar.gz --markdown 20230720/g/griptape/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-07-20 17:46:48] INFO root fetch - processPackages [mongodriver]: executing diffoscope
+[2023-07-20 17:46:48] INFO root fetch - processPackages [mongodriver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mongodriver-1.2.0.tar.gz tmp/mongodriver-1.2.1.tar.gz --markdown 20230720/m/mongodriver/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-07-20 17:46:48] INFO root fetch - processPackages [sphinx-lint]: executing diffoscope
+[2023-07-20 17:46:48] INFO root fetch - processPackages [sphinx-lint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sphinx-lint-0.6.7.tar.gz tmp/sphinx-lint-0.6.8.tar.gz --markdown 20230720/s/sphinx-lint/0.6.7-0.6.8/diff.md --exclude *.pyd
+[2023-07-20 17:46:48] INFO root fetch - processPackages [stigg-api-client]: Downloading https://files.pythonhosted.org/packages/6f/d2/ae3138d8e73b06a33bdd8d29d234ac4387d7bf23217c13b557d497089bbf/stigg_api_client-0.5.0.tar.gz
+[2023-07-20 17:46:48] INFO root fetch - processPackages [pt-names]: executing diffoscope
+[2023-07-20 17:46:48] INFO root fetch - processPackages [pt-names]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pt_names-0.1.1.tar.gz tmp/pt_names-0.1.2.tar.gz --markdown 20230720/p/pt-names/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-20 17:46:48] INFO root fetch - processPackages [stigg-api-client]: executing diffoscope
+[2023-07-20 17:46:48] INFO root fetch - processPackages [stigg-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stigg_api_client-0.496.0.tar.gz tmp/stigg_api_client-0.5.0.tar.gz --markdown 20230720/s/stigg-api-client/0.496.0-0.5.0/diff.md --exclude *.pyd
+[2023-07-20 17:46:48] INFO root fetch - processPackages [nowcasting-datamodel]: executing diffoscope
+[2023-07-20 17:46:48] INFO root fetch - processPackages [nowcasting-datamodel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nowcasting_datamodel-1.5.2.tar.gz tmp/nowcasting_datamodel-1.5.3.tar.gz --markdown 20230720/n/nowcasting-datamodel/1.5.2-1.5.3/diff.md --exclude *.pyd
+[2023-07-20 17:46:49] INFO root fetch - processPackages [ldeep]: Remove: archive file [/home/abi/fetcher/tmp/ldeep-1.0.8.tar.gz]
+[2023-07-20 17:46:49] INFO root fetch - processPackages [ldeep]: Remove: archive file [/home/abi/fetcher/tmp/ldeep-1.0.9.tar.gz]
+[2023-07-20 17:46:49] INFO root fetch - processPackages [ldeep]: Start processing: stigg-api-client-v2
+[2023-07-20 17:46:49] INFO root fetch - main [MainThread]: End processing [ldeep]: success
+[2023-07-20 17:46:49] INFO root fetch - processPackages [flex-config]: Downloading https://files.pythonhosted.org/packages/5c/b1/9cec7eb775e1094fca5f53c27a33318a3a6cb9966520c2d8b1d9ff52a54e/flex_config-2.2.1.tar.gz
+[2023-07-20 17:46:49] INFO root fetch - processPackages [stigg-api-client-v2]: New version: [0.496.0] Old Version: [0.493.0]
+[2023-07-20 17:46:49] INFO root fetch - processPackages [flex-config]: executing diffoscope
+[2023-07-20 17:46:49] INFO root fetch - processPackages [flex-config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flex-config-2.2.0rc0.tar.gz tmp/flex_config-2.2.1.tar.gz --markdown 20230720/f/flex-config/2.2.0rc0-2.2.1/diff.md --exclude *.pyd
+[2023-07-20 17:46:49] INFO root fetch - processPackages [stigg-api-client-v2]: Downloading https://files.pythonhosted.org/packages/1a/4b/b2b655f10908f237e3ba64d2c8cf15ed23c1331f474486f093562f2e3401/stigg_api_client_v2-0.493.0.tar.gz
+[2023-07-20 17:46:49] INFO root fetch - processPackages [valcheck]: Remove: archive file [/home/abi/fetcher/tmp/valcheck-0.6.0.tar.gz]
+[2023-07-20 17:46:49] INFO root fetch - processPackages [valcheck]: Remove: archive file [/home/abi/fetcher/tmp/valcheck-0.7.0.tar.gz]
+[2023-07-20 17:46:49] INFO root fetch - processPackages [valcheck]: Start processing: ninjakiwi-api
+[2023-07-20 17:46:49] INFO root fetch - main [MainThread]: End processing [valcheck]: success
+[2023-07-20 17:46:49] INFO root fetch - processPackages [sphinx-lint]: Remove: archive file [/home/abi/fetcher/tmp/sphinx-lint-0.6.7.tar.gz]
+[2023-07-20 17:46:49] INFO root fetch - processPackages [sphinx-lint]: Remove: archive file [/home/abi/fetcher/tmp/sphinx-lint-0.6.8.tar.gz]
+[2023-07-20 17:46:49] INFO root fetch - processPackages [sphinx-lint]: Start processing: lamindb
+[2023-07-20 17:46:49] INFO root fetch - main [MainThread]: End processing [sphinx-lint]: success
+[2023-07-20 17:46:49] INFO root fetch - processPackages [ninjakiwi-api]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-07-20 17:46:49] INFO root fetch - processPackages [lamindb]: New version: [0.9.6] Old Version: [0.9.4]
+[2023-07-20 17:46:49] INFO root fetch - processPackages [formio-data]: Remove: archive file [/home/abi/fetcher/tmp/formio-data-1.0.1.tar.gz]
+[2023-07-20 17:46:49] INFO root fetch - processPackages [formio-data]: Remove: archive file [/home/abi/fetcher/tmp/formio-data-1.0.2.tar.gz]
+[2023-07-20 17:46:49] INFO root fetch - processPackages [formio-data]: Start processing: chroma-migrate
+[2023-07-20 17:46:49] INFO root fetch - main [MainThread]: End processing [formio-data]: success
+[2023-07-20 17:46:49] INFO root fetch - processPackages [mongodriver]: Remove: archive file [/home/abi/fetcher/tmp/mongodriver-1.2.0.tar.gz]
+[2023-07-20 17:46:49] INFO root fetch - processPackages [mongodriver]: Remove: archive file [/home/abi/fetcher/tmp/mongodriver-1.2.1.tar.gz]
+[2023-07-20 17:46:49] INFO root fetch - processPackages [mongodriver]: Start processing: poe-api
+[2023-07-20 17:46:49] INFO root fetch - main [MainThread]: End processing [mongodriver]: success
+[2023-07-20 17:46:49] INFO root fetch - processPackages [lamindb]: Downloading https://files.pythonhosted.org/packages/15/74/34148a2f59ec5fafeee3ffbc599388444e1e8d22d525c0b2e244aa151fef/lamindb-0.9.4.tar.gz
+[2023-07-20 17:46:49] INFO root fetch - processPackages [chroma-migrate]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-20 17:46:49] INFO root fetch - processPackages [stigg-api-client]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client-0.496.0.tar.gz]
+[2023-07-20 17:46:49] INFO root fetch - processPackages [stigg-api-client]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client-0.5.0.tar.gz]
+[2023-07-20 17:46:49] INFO root fetch - processPackages [stigg-api-client]: Start processing: ChatGPT-Cloud
+[2023-07-20 17:46:49] INFO root fetch - main [MainThread]: End processing [stigg-api-client]: success
+[2023-07-20 17:46:49] INFO root fetch - processPackages [ninjakiwi-api]: Downloading https://files.pythonhosted.org/packages/7f/cd/2a93d0bc86bee2776a7541da9cfdb1bc8ba139eafa3f0b2c50e31f169930/ninjakiwi_api-0.0.6.tar.gz
+[2023-07-20 17:46:49] INFO root fetch - processPackages [stigg-api-client-v2]: Downloading https://files.pythonhosted.org/packages/2d/2a/13396681ef34516a2bd7bfd5ebad19ee66311d903adc01607c5271d73e09/stigg_api_client_v2-0.496.0.tar.gz
+[2023-07-20 17:46:49] INFO root fetch - processPackages [griptape]: Remove: archive file [/home/abi/fetcher/tmp/griptape-0.9.0.tar.gz]
+[2023-07-20 17:46:49] INFO root fetch - processPackages [griptape]: Remove: archive file [/home/abi/fetcher/tmp/griptape-0.9.1.tar.gz]
+[2023-07-20 17:46:49] INFO root fetch - main [MainThread]: End processing [griptape]: success
+[2023-07-20 17:46:49] INFO root fetch - processPackages [poe-api]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-07-20 17:46:49] INFO root fetch - processPackages [ChatGPT-Cloud]: New version: [0.6.4] Old Version: [0.6.3]
+[2023-07-20 17:46:49] INFO root fetch - processPackages [pt-names]: Remove: archive file [/home/abi/fetcher/tmp/pt_names-0.1.1.tar.gz]
+[2023-07-20 17:46:49] INFO root fetch - processPackages [pt-names]: Remove: archive file [/home/abi/fetcher/tmp/pt_names-0.1.2.tar.gz]
+[2023-07-20 17:46:49] INFO root fetch - main [MainThread]: End processing [pt-names]: success
+[2023-07-20 17:46:49] INFO root fetch - processPackages [stigg-api-client-v2]: executing diffoscope
+[2023-07-20 17:46:49] INFO root fetch - processPackages [stigg-api-client-v2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stigg_api_client_v2-0.493.0.tar.gz tmp/stigg_api_client_v2-0.496.0.tar.gz --markdown 20230720/s/stigg-api-client-v2/0.493.0-0.496.0/diff.md --exclude *.pyd
+[2023-07-20 17:46:49] INFO root fetch - processPackages [ChatGPT-Cloud]: Downloading https://files.pythonhosted.org/packages/a7/82/c92c4c69e03d7a3786fe5c44c73b88d9aaf31fe8b47ae80cdaaa332a61f8/ChatGPT-Cloud-0.6.3.tar.gz
+[2023-07-20 17:46:49] INFO root fetch - processPackages [nowcasting-datamodel]: Remove: archive file [/home/abi/fetcher/tmp/nowcasting_datamodel-1.5.2.tar.gz]
+[2023-07-20 17:46:49] INFO root fetch - processPackages [nowcasting-datamodel]: Remove: archive file [/home/abi/fetcher/tmp/nowcasting_datamodel-1.5.3.tar.gz]
+[2023-07-20 17:46:49] INFO root fetch - main [MainThread]: End processing [nowcasting-datamodel]: success
+[2023-07-20 17:46:49] INFO root fetch - processPackages [chroma-migrate]: Downloading https://files.pythonhosted.org/packages/a1/8c/a2b0d815d67e07c4649cb0e23dddde925c928b6b056e9687f0134fa49f39/chroma_migrate-0.0.4.tar.gz
+[2023-07-20 17:46:49] INFO root fetch - processPackages [lamindb]: Downloading https://files.pythonhosted.org/packages/a8/dd/da42b7dd3f39064fda6a4977c93f1a040eefa69ef3a3cefd7b4b8d13efb6/lamindb-0.9.6.tar.gz
+[2023-07-20 17:46:49] INFO root fetch - processPackages [poe-api]: Downloading https://files.pythonhosted.org/packages/9c/44/1b1f6d3db05e1fc64e687e10d2c9b41322f4a0c9938af5d147e04ca6c42f/poe_api-0.4.8-py3-none-any.whl
+[2023-07-20 17:46:50] INFO root fetch - processPackages [lamindb]: executing diffoscope
+[2023-07-20 17:46:50] INFO root fetch - processPackages [lamindb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lamindb-0.9.4.tar.gz tmp/lamindb-0.9.6.tar.gz --markdown 20230720/l/lamindb/0.9.4-0.9.6/diff.md --exclude *.pyd
+[2023-07-20 17:46:50] INFO root fetch - processPackages [ninjakiwi-api]: Downloading https://files.pythonhosted.org/packages/9f/fa/ba847ccfb710418c634d83ec0bce8b109ee10dc0175eedeefca7c8ba9efd/ninjakiwi_api-0.0.7.tar.gz
+[2023-07-20 17:46:50] INFO root fetch - processPackages [ninjakiwi-api]: executing diffoscope
+[2023-07-20 17:46:50] INFO root fetch - processPackages [ninjakiwi-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ninjakiwi_api-0.0.6.tar.gz tmp/ninjakiwi_api-0.0.7.tar.gz --markdown 20230720/n/ninjakiwi-api/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-07-20 17:46:50] INFO root fetch - processPackages [chroma-migrate]: Downloading https://files.pythonhosted.org/packages/2e/00/55fb23ed5e9a1b86c3fa32e8fda462d07363c93df27018f3d47e8c33dd6d/chroma_migrate-0.0.5.tar.gz
+[2023-07-20 17:46:50] INFO root fetch - processPackages [flex-config]: Remove: archive file [/home/abi/fetcher/tmp/flex-config-2.2.0rc0.tar.gz]
+[2023-07-20 17:46:50] INFO root fetch - processPackages [flex-config]: Remove: archive file [/home/abi/fetcher/tmp/flex_config-2.2.1.tar.gz]
+[2023-07-20 17:46:50] INFO root fetch - main [MainThread]: End processing [flex-config]: success
+[2023-07-20 17:46:50] INFO root fetch - processPackages [ChatGPT-Cloud]: Downloading https://files.pythonhosted.org/packages/1d/4b/f2860d7dbb362f6a1f70051d4e0631341316709b4a5ca8d0f0ff8563ef12/ChatGPT-Cloud-0.6.4.tar.gz
+[2023-07-20 17:46:50] INFO root fetch - processPackages [chroma-migrate]: executing diffoscope
+[2023-07-20 17:46:50] INFO root fetch - processPackages [chroma-migrate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chroma_migrate-0.0.4.tar.gz tmp/chroma_migrate-0.0.5.tar.gz --markdown 20230720/c/chroma-migrate/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-20 17:46:50] INFO root fetch - processPackages [poe-api]: Downloading https://files.pythonhosted.org/packages/c3/81/94236c4531a0f89a3f9b95bae87e56444a5729f4adac042f96194dbd706c/poe_api-0.4.9-py3-none-any.whl
+[2023-07-20 17:46:50] INFO root fetch - processPackages [ChatGPT-Cloud]: executing diffoscope
+[2023-07-20 17:46:50] INFO root fetch - processPackages [ChatGPT-Cloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ChatGPT-Cloud-0.6.3.tar.gz tmp/ChatGPT-Cloud-0.6.4.tar.gz --markdown 20230720/C/ChatGPT-Cloud/0.6.3-0.6.4/diff.md --exclude *.pyd
+[2023-07-20 17:46:50] INFO root fetch - processPackages [poe-api]: executing diffoscope
+[2023-07-20 17:46:50] INFO root fetch - processPackages [poe-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/poe_api-0.4.8-py3-none-any.whl.zip tmp/poe_api-0.4.9-py3-none-any.whl.zip --markdown 20230720/p/poe-api/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-07-20 17:46:51] INFO root fetch - processPackages [stigg-api-client-v2]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client_v2-0.493.0.tar.gz]
+[2023-07-20 17:46:51] INFO root fetch - processPackages [stigg-api-client-v2]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client_v2-0.496.0.tar.gz]
+[2023-07-20 17:46:51] INFO root fetch - main [MainThread]: End processing [stigg-api-client-v2]: success
+[2023-07-20 17:46:51] INFO root fetch - processPackages [ninjakiwi-api]: Remove: archive file [/home/abi/fetcher/tmp/ninjakiwi_api-0.0.6.tar.gz]
+[2023-07-20 17:46:51] INFO root fetch - processPackages [ninjakiwi-api]: Remove: archive file [/home/abi/fetcher/tmp/ninjakiwi_api-0.0.7.tar.gz]
+[2023-07-20 17:46:51] INFO root fetch - main [MainThread]: End processing [ninjakiwi-api]: success
+[2023-07-20 17:46:51] INFO root fetch - processPackages [lamindb]: Remove: archive file [/home/abi/fetcher/tmp/lamindb-0.9.4.tar.gz]
+[2023-07-20 17:46:51] INFO root fetch - processPackages [lamindb]: Remove: archive file [/home/abi/fetcher/tmp/lamindb-0.9.6.tar.gz]
+[2023-07-20 17:46:51] INFO root fetch - main [MainThread]: End processing [lamindb]: success
+[2023-07-20 17:46:51] INFO root fetch - processPackages [chroma-migrate]: Remove: archive file [/home/abi/fetcher/tmp/chroma_migrate-0.0.4.tar.gz]
+[2023-07-20 17:46:51] INFO root fetch - processPackages [chroma-migrate]: Remove: archive file [/home/abi/fetcher/tmp/chroma_migrate-0.0.5.tar.gz]
+[2023-07-20 17:46:51] INFO root fetch - main [MainThread]: End processing [chroma-migrate]: success
+[2023-07-20 17:46:51] INFO root fetch - processPackages [poe-api]: Remove: archive file [/home/abi/fetcher/tmp/poe_api-0.4.8-py3-none-any.whl.zip]
+[2023-07-20 17:46:51] INFO root fetch - processPackages [poe-api]: Remove: archive file [/home/abi/fetcher/tmp/poe_api-0.4.9-py3-none-any.whl.zip]
+[2023-07-20 17:46:51] INFO root fetch - main [MainThread]: End processing [poe-api]: success
+[2023-07-20 17:46:55] INFO root fetch - processPackages [ChatGPT-Cloud]: Remove: archive file [/home/abi/fetcher/tmp/ChatGPT-Cloud-0.6.3.tar.gz]
+[2023-07-20 17:46:55] INFO root fetch - processPackages [ChatGPT-Cloud]: Remove: archive file [/home/abi/fetcher/tmp/ChatGPT-Cloud-0.6.4.tar.gz]
+[2023-07-20 17:46:55] INFO root fetch - main [MainThread]: End processing [ChatGPT-Cloud]: success
+[2023-07-20 17:46:55] INFO root fetch - main [MainThread]: Store serial: [18969243]
