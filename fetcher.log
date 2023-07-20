@@ -20883,3 +20883,99 @@ AssertionError: tmp/threemystic_cloud_data_client-0.1.17.tar.gz does not exist
 [2023-07-20 21:08:25] INFO root fetch - main [MainThread]: End processing [policyengine-us]: success
 [2023-07-20 21:08:25] INFO root fetch - main [MainThread]: End processing [policyengine-us]: success
 [2023-07-20 21:08:25] INFO root fetch - main [MainThread]: Store serial: [18971568]
+[2023-07-20 21:13:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18971568]
+[2023-07-20 21:13:36] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-20 21:13:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ddtrace
+[2023-07-20 21:13:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: vstutils
+[2023-07-20 21:13:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: roblox-pyc
+[2023-07-20 21:13:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: open-interpreter
+[2023-07-20 21:13:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: griptape
+[2023-07-20 21:13:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pymatgen
+[2023-07-20 21:13:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pynamicui
+[2023-07-20 21:13:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: splineplot
+[2023-07-20 21:13:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mcu-geo-utils
+[2023-07-20 21:13:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: robotframework-reportportal-updated
+[2023-07-20 21:13:36] INFO root fetch - processPackages [griptape]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-07-20 21:13:36] INFO root fetch - processPackages [robotframework-reportportal-updated]: New version: [1.1.8] Old Version: [1.1.7]
+[2023-07-20 21:13:36] INFO root fetch - processPackages [splineplot]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-07-20 21:13:36] INFO root fetch - processPackages [roblox-pyc]: New version: [1.6.6.5a0] Old Version: [1.6.6.5.4]
+[2023-07-20 21:13:36] INFO root fetch - processPackages [ddtrace]: New version: [1.9.7] Old Version: [1.9.6]
+[2023-07-20 21:13:36] INFO root fetch - processPackages [vstutils]: New version: [5.6.3] Old Version: [5.6.2]
+[2023-07-20 21:13:36] WARNING root fetch - processPackages [mcu-geo-utils]: Skipping, unable to determine old version
+[2023-07-20 21:13:36] INFO root fetch - processPackages [mcu-geo-utils]: Start processing: landingzone-organization
+[2023-07-20 21:13:36] INFO root fetch - main [MainThread]: End processing [mcu-geo-utils] error
+[2023-07-20 21:13:36] INFO root fetch - processPackages [pynamicui]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-20 21:13:36] INFO root fetch - processPackages [griptape]: Downloading https://files.pythonhosted.org/packages/61/6a/bcf2cf6048e3abdc73de35cbae9b02a4d5a43d68bdd51e246ecddb0472b1/griptape-0.9.0.tar.gz
+[2023-07-20 21:13:36] INFO root fetch - processPackages [pymatgen]: New version: [4.7.7] Old Version: [4.7.6]
+[2023-07-20 21:13:36] INFO root fetch - processPackages [splineplot]: Downloading https://files.pythonhosted.org/packages/2c/34/230db64e460d41115c0b69859bf3ba4a876de366fac3e911841e2d0d85f7/splineplot-0.2.0.tar.gz
+[2023-07-20 21:13:36] INFO root fetch - processPackages [robotframework-reportportal-updated]: Downloading https://files.pythonhosted.org/packages/e3/2e/734f7f60ee1e1a00d18552c5c53f8b1670207a9546d80820b363b56178be/robotframework-reportportal_updated-1.1.7.tar.gz
+[2023-07-20 21:13:36] INFO root fetch - processPackages [roblox-pyc]: Downloading https://files.pythonhosted.org/packages/44/ab/2c1167a2d328570fcff41305068766f10c181301f2cd7a1f64f72287fa27/roblox-pyc-1.6.6.5.4.tar.gz
+[2023-07-20 21:13:36] INFO root fetch - processPackages [vstutils]: Downloading https://files.pythonhosted.org/packages/f7/ff/e5cb0f898232fc084d903187f1ff11e4ed87ec332c173e77fec71efa2c1b/vstutils-5.6.2.tar.gz
+[2023-07-20 21:13:36] INFO root fetch - processPackages [landingzone-organization]: New version: [0.8.0] Old Version: [0.7.0]
+[2023-07-20 21:13:36] INFO root fetch - processPackages [ddtrace]: Downloading https://files.pythonhosted.org/packages/3a/2c/cff2a3eaa910dcd80b8323ee78c2bdc36e2d726d38ab467c65a785ce220d/ddtrace-1.9.6.tar.gz
+[2023-07-20 21:13:36] INFO root fetch - processPackages [pynamicui]: Downloading https://files.pythonhosted.org/packages/79/65/bc9d1d7177eed19cc85041e024c4dcfb9bee43d4367041ab7637a0fdfc4e/pynamicui-0.0.7.tar.gz
+[2023-07-20 21:13:36] INFO root fetch - processPackages [open-interpreter]: New version: [0.0.236] Old Version: [0.0.235]
+[2023-07-20 21:13:36] INFO root fetch - processPackages [pymatgen]: Downloading https://files.pythonhosted.org/packages/f8/11/932dcc4ebb444717ca49389e060aeb54f98ed9df48131df12df030e2ad3d/pymatgen-4.7.6.tar.gz
+[2023-07-20 21:13:37] INFO root fetch - processPackages [splineplot]: Downloading https://files.pythonhosted.org/packages/87/8e/962885fdd7c7a7050cbb4543518a4e6d762d9b3e70c141e63fb1662846d1/splineplot-0.3.0.tar.gz
+[2023-07-20 21:13:37] INFO root fetch - processPackages [griptape]: Downloading https://files.pythonhosted.org/packages/d3/e7/7c06c5c2173f5e68123d3bdeb9f89c59f9548675ab8e244c9a62bd4cf34d/griptape-0.9.1.tar.gz
+[2023-07-20 21:13:37] INFO root fetch - processPackages [open-interpreter]: Downloading https://files.pythonhosted.org/packages/a6/46/a93d36088c56bfa3e90d1989b41a03962819f7b2f2da3ae608941724f639/open_interpreter-0.0.235.tar.gz
+[2023-07-20 21:13:37] INFO root fetch - processPackages [robotframework-reportportal-updated]: Downloading https://files.pythonhosted.org/packages/1e/ce/5a336dbde023903ef16b3f1386ec97cac934d86b66fcbc1a01104f993aee/robotframework-reportportal_updated-1.1.8.tar.gz
+[2023-07-20 21:13:37] INFO root fetch - processPackages [landingzone-organization]: Downloading https://files.pythonhosted.org/packages/8f/ae/f2e020d561bc03372463b6f6f37bca11336628fd92cc96904dd34adf6bc4/landingzone_organization-0.7.0.tar.gz
+[2023-07-20 21:13:37] INFO root fetch - processPackages [roblox-pyc]: Downloading https://files.pythonhosted.org/packages/59/75/7884ffaab86bf051065880fd8aefdfc8e3f2c34e7c9d4a8d352321ec57f8/roblox-pyc-1.6.6.5a0.tar.gz
+[2023-07-20 21:13:37] INFO root fetch - processPackages [robotframework-reportportal-updated]: executing diffoscope
+[2023-07-20 21:13:37] INFO root fetch - processPackages [robotframework-reportportal-updated]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotframework-reportportal_updated-1.1.7.tar.gz tmp/robotframework-reportportal_updated-1.1.8.tar.gz --markdown 20230720/r/robotframework-reportportal-updated/1.1.7-1.1.8/diff.md --exclude *.pyd
+[2023-07-20 21:13:37] INFO root fetch - processPackages [vstutils]: Downloading https://files.pythonhosted.org/packages/7b/2d/1c014726ac9094a213d354050ab0032413362260c0e73c82d7b6ef01fcfc/vstutils-5.6.3.tar.gz
+[2023-07-20 21:13:37] INFO root fetch - processPackages [splineplot]: executing diffoscope
+[2023-07-20 21:13:37] INFO root fetch - processPackages [splineplot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/splineplot-0.2.0.tar.gz tmp/splineplot-0.3.0.tar.gz --markdown 20230720/s/splineplot/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-07-20 21:13:37] INFO root fetch - processPackages [roblox-pyc]: executing diffoscope
+[2023-07-20 21:13:37] INFO root fetch - processPackages [roblox-pyc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/roblox-pyc-1.6.6.5.4.tar.gz tmp/roblox-pyc-1.6.6.5a0.tar.gz --markdown 20230720/r/roblox-pyc/1.6.6.5.4-1.6.6.5a0/diff.md --exclude *.pyd
+[2023-07-20 21:13:37] INFO root fetch - processPackages [pynamicui]: Downloading https://files.pythonhosted.org/packages/3a/20/65dd50354a52cf5a543f98e6da8f01e065821af0b850ca2f342804136f93/pynamicui-0.0.8.tar.gz
+[2023-07-20 21:13:37] INFO root fetch - processPackages [griptape]: executing diffoscope
+[2023-07-20 21:13:37] INFO root fetch - processPackages [griptape]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/griptape-0.9.0.tar.gz tmp/griptape-0.9.1.tar.gz --markdown 20230720/g/griptape/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-07-20 21:13:37] INFO root fetch - processPackages [open-interpreter]: Downloading https://files.pythonhosted.org/packages/0e/59/8613eed9de3905773c2cec43c25f1109e3a5a376957a1e7ddf5633c1038a/open_interpreter-0.0.236.tar.gz
+[2023-07-20 21:13:37] INFO root fetch - processPackages [pynamicui]: executing diffoscope
+[2023-07-20 21:13:37] INFO root fetch - processPackages [pynamicui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pynamicui-0.0.7.tar.gz tmp/pynamicui-0.0.8.tar.gz --markdown 20230720/p/pynamicui/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-20 21:13:37] INFO root fetch - processPackages [landingzone-organization]: Downloading https://files.pythonhosted.org/packages/b6/6a/3a1a714fb35f12d0755444cd01252da60292fcb03ee8bf07824100cab750/landingzone_organization-0.8.0.tar.gz
+[2023-07-20 21:13:37] INFO root fetch - processPackages [vstutils]: executing diffoscope
+[2023-07-20 21:13:37] INFO root fetch - processPackages [vstutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vstutils-5.6.2.tar.gz tmp/vstutils-5.6.3.tar.gz --markdown 20230720/v/vstutils/5.6.2-5.6.3/diff.md --exclude *.pyd
+[2023-07-20 21:13:37] INFO root fetch - processPackages [open-interpreter]: executing diffoscope
+[2023-07-20 21:13:37] INFO root fetch - processPackages [open-interpreter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/open_interpreter-0.0.235.tar.gz tmp/open_interpreter-0.0.236.tar.gz --markdown 20230720/o/open-interpreter/0.0.235-0.0.236/diff.md --exclude *.pyd
+[2023-07-20 21:13:37] INFO root fetch - processPackages [landingzone-organization]: executing diffoscope
+[2023-07-20 21:13:37] INFO root fetch - processPackages [landingzone-organization]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/landingzone_organization-0.7.0.tar.gz tmp/landingzone_organization-0.8.0.tar.gz --markdown 20230720/l/landingzone-organization/0.7.0-0.8.0/diff.md --exclude *.pyd
+[2023-07-20 21:13:37] INFO root fetch - processPackages [pymatgen]: Downloading https://files.pythonhosted.org/packages/5d/70/264aa342dff7f1c5fa6c1870cf2fb08b1e89462261dfd880f3107cfb8788/pymatgen-4.7.7.tar.gz
+[2023-07-20 21:13:38] INFO root fetch - processPackages [pymatgen]: executing diffoscope
+[2023-07-20 21:13:38] INFO root fetch - processPackages [pymatgen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymatgen-4.7.6.tar.gz tmp/pymatgen-4.7.7.tar.gz --markdown 20230720/p/pymatgen/4.7.6-4.7.7/diff.md --exclude *.pyd
+[2023-07-20 21:13:38] INFO root fetch - processPackages [ddtrace]: Downloading https://files.pythonhosted.org/packages/fb/91/45e4e65746e25b4af3841c377fa6cbd72ab8b8bf10e2067f0d010acf9f12/ddtrace-1.9.7.tar.gz
+[2023-07-20 21:13:38] INFO root fetch - processPackages [splineplot]: Remove: archive file [/home/abi/fetcher/tmp/splineplot-0.2.0.tar.gz]
+[2023-07-20 21:13:38] INFO root fetch - processPackages [splineplot]: Remove: archive file [/home/abi/fetcher/tmp/splineplot-0.3.0.tar.gz]
+[2023-07-20 21:13:38] INFO root fetch - main [MainThread]: End processing [splineplot]: success
+[2023-07-20 21:13:38] INFO root fetch - processPackages [roblox-pyc]: Remove: archive file [/home/abi/fetcher/tmp/roblox-pyc-1.6.6.5.4.tar.gz]
+[2023-07-20 21:13:38] INFO root fetch - processPackages [roblox-pyc]: Remove: archive file [/home/abi/fetcher/tmp/roblox-pyc-1.6.6.5a0.tar.gz]
+[2023-07-20 21:13:38] INFO root fetch - main [MainThread]: End processing [roblox-pyc]: success
+[2023-07-20 21:13:38] INFO root fetch - processPackages [robotframework-reportportal-updated]: Remove: archive file [/home/abi/fetcher/tmp/robotframework-reportportal_updated-1.1.7.tar.gz]
+[2023-07-20 21:13:38] INFO root fetch - processPackages [robotframework-reportportal-updated]: Remove: archive file [/home/abi/fetcher/tmp/robotframework-reportportal_updated-1.1.8.tar.gz]
+[2023-07-20 21:13:38] INFO root fetch - main [MainThread]: End processing [robotframework-reportportal-updated]: success
+[2023-07-20 21:13:38] INFO root fetch - processPackages [pynamicui]: Remove: archive file [/home/abi/fetcher/tmp/pynamicui-0.0.7.tar.gz]
+[2023-07-20 21:13:38] INFO root fetch - processPackages [pynamicui]: Remove: archive file [/home/abi/fetcher/tmp/pynamicui-0.0.8.tar.gz]
+[2023-07-20 21:13:38] INFO root fetch - main [MainThread]: End processing [pynamicui]: success
+[2023-07-20 21:13:39] INFO root fetch - processPackages [landingzone-organization]: Remove: archive file [/home/abi/fetcher/tmp/landingzone_organization-0.7.0.tar.gz]
+[2023-07-20 21:13:39] INFO root fetch - processPackages [landingzone-organization]: Remove: archive file [/home/abi/fetcher/tmp/landingzone_organization-0.8.0.tar.gz]
+[2023-07-20 21:13:39] INFO root fetch - main [MainThread]: End processing [landingzone-organization]: success
+[2023-07-20 21:13:39] INFO root fetch - processPackages [open-interpreter]: Remove: archive file [/home/abi/fetcher/tmp/open_interpreter-0.0.235.tar.gz]
+[2023-07-20 21:13:39] INFO root fetch - processPackages [open-interpreter]: Remove: archive file [/home/abi/fetcher/tmp/open_interpreter-0.0.236.tar.gz]
+[2023-07-20 21:13:39] INFO root fetch - main [MainThread]: End processing [open-interpreter]: success
+[2023-07-20 21:13:39] INFO root fetch - processPackages [griptape]: Remove: archive file [/home/abi/fetcher/tmp/griptape-0.9.0.tar.gz]
+[2023-07-20 21:13:39] INFO root fetch - processPackages [griptape]: Remove: archive file [/home/abi/fetcher/tmp/griptape-0.9.1.tar.gz]
+[2023-07-20 21:13:39] INFO root fetch - main [MainThread]: End processing [griptape]: success
+[2023-07-20 21:13:39] INFO root fetch - processPackages [ddtrace]: executing diffoscope
+[2023-07-20 21:13:39] INFO root fetch - processPackages [ddtrace]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ddtrace-1.9.6.tar.gz tmp/ddtrace-1.9.7.tar.gz --markdown 20230720/d/ddtrace/1.9.6-1.9.7/diff.md --exclude *.pyd
+[2023-07-20 21:13:39] INFO root fetch - processPackages [vstutils]: Remove: archive file [/home/abi/fetcher/tmp/vstutils-5.6.2.tar.gz]
+[2023-07-20 21:13:39] INFO root fetch - processPackages [vstutils]: Remove: archive file [/home/abi/fetcher/tmp/vstutils-5.6.3.tar.gz]
+[2023-07-20 21:13:39] INFO root fetch - main [MainThread]: End processing [vstutils]: success
+[2023-07-20 21:13:41] INFO root fetch - processPackages [pymatgen]: Remove: archive file [/home/abi/fetcher/tmp/pymatgen-4.7.6.tar.gz]
+[2023-07-20 21:13:41] INFO root fetch - processPackages [pymatgen]: Remove: archive file [/home/abi/fetcher/tmp/pymatgen-4.7.7.tar.gz]
+[2023-07-20 21:13:41] INFO root fetch - main [MainThread]: End processing [pymatgen]: success
+[2023-07-20 21:14:07] INFO root fetch - processPackages [ddtrace]: Remove: archive file [/home/abi/fetcher/tmp/ddtrace-1.9.6.tar.gz]
+[2023-07-20 21:14:07] INFO root fetch - processPackages [ddtrace]: Remove: archive file [/home/abi/fetcher/tmp/ddtrace-1.9.7.tar.gz]
+[2023-07-20 21:14:07] INFO root fetch - main [MainThread]: End processing [ddtrace]: success
+[2023-07-20 21:14:07] INFO root fetch - main [MainThread]: Store serial: [18971687]
