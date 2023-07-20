@@ -15667,3 +15667,126 @@ AssertionError: tmp/verify4py-test-0.1.7.tar.gz does not exist
 [2023-07-20 18:13:25] INFO root fetch - processPackages [makim]: Remove: archive file [/home/abi/fetcher/tmp/makim-1.8.2.tar.gz]
 [2023-07-20 18:13:25] INFO root fetch - main [MainThread]: End processing [makim]: success
 [2023-07-20 18:13:25] INFO root fetch - main [MainThread]: Store serial: [18969464]
+[2023-07-20 18:18:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18969464]
+[2023-07-20 18:18:34] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-07-20 18:18:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: amazon-braket-pennylane-plugin
+[2023-07-20 18:18:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: up-nextflap
+[2023-07-20 18:18:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: preset-cli
+[2023-07-20 18:18:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: CircuitCalculator
+[2023-07-20 18:18:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: im-data-manager-metadata
+[2023-07-20 18:18:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: racplusplus
+[2023-07-20 18:18:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: poolcontrolpy
+[2023-07-20 18:18:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mail-satvadev
+[2023-07-20 18:18:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dexteritysdk
+[2023-07-20 18:18:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: rasa
+[2023-07-20 18:18:35] INFO root fetch - processPackages [racplusplus]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-20 18:18:35] WARNING root fetch - processPackages [up-nextflap]: Skipping, unable to determine old version
+[2023-07-20 18:18:35] INFO root fetch - processPackages [up-nextflap]: Start processing: resotodata
+[2023-07-20 18:18:35] INFO root fetch - main [MainThread]: End processing [up-nextflap] error
+[2023-07-20 18:18:35] INFO root fetch - processPackages [amazon-braket-pennylane-plugin]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-07-20 18:18:35] INFO root fetch - processPackages [preset-cli]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-07-20 18:18:35] INFO root fetch - processPackages [CircuitCalculator]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-20 18:18:35] INFO root fetch - processPackages [dexteritysdk]: New version: [0.2.8] Old Version: [0.2.3]
+[2023-07-20 18:18:35] INFO root fetch - processPackages [mail-satvadev]: New version: [1.0.6a0] Old Version: [1.0.6]
+[2023-07-20 18:18:35] INFO root fetch - processPackages [im-data-manager-metadata]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-07-20 18:18:35] INFO root fetch - processPackages [poolcontrolpy]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-20 18:18:35] INFO root fetch - processPackages [rasa]: New version: [3.7.0b2] Old Version: [3.7.0b1]
+[2023-07-20 18:18:35] INFO root fetch - processPackages [resotodata]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-07-20 18:18:35] INFO root fetch - processPackages [mail-satvadev]: Downloading https://files.pythonhosted.org/packages/cb/cd/d64802acfbfb59e3462be6da1644922f4956ecf5d95f4542e9c09b80240d/mail_satvadev-1.0.6.tar.gz
+[2023-07-20 18:18:35] INFO root fetch - processPackages [CircuitCalculator]: Downloading https://files.pythonhosted.org/packages/bf/1f/61591bd6874775c2a603db5f2f5a8b3f266e9003b2a8738b62779b126602/CircuitCalculator-0.0.8.tar.gz
+[2023-07-20 18:18:35] INFO root fetch - processPackages [resotodata]: Downloading https://files.pythonhosted.org/packages/41/87/a1263e2efc5ccd8d94457dbb1ee5131a2abc4ba1d81fb4c1762e0f4b316b/resotodata-0.2.1.tar.gz
+[2023-07-20 18:18:35] INFO root fetch - processPackages [im-data-manager-metadata]: Downloading https://files.pythonhosted.org/packages/32/3f/0a651ec25103e07b34ccf0ff6b34fa27ab0fcb0112d6bde6eb60a0ae8e90/im_data_manager_metadata-1.0.3-py3-none-any.whl
+[2023-07-20 18:18:35] INFO root fetch - processPackages [racplusplus]: Downloading https://files.pythonhosted.org/packages/45/ae/72f84374699ede8a41d710375ad4b5b1668380afcc21642b7c8e9dd4959b/racplusplus-0.1.0-cp39-cp39-win_amd64.whl
+[2023-07-20 18:18:35] INFO root fetch - processPackages [amazon-braket-pennylane-plugin]: Downloading https://files.pythonhosted.org/packages/95/95/8e28d0f8b5ef7a7ecb48c398bbc026f6e765510347b46a114a993653e369/amazon-braket-pennylane-plugin-1.8.0.tar.gz
+[2023-07-20 18:18:35] INFO root fetch - processPackages [preset-cli]: Downloading https://files.pythonhosted.org/packages/0e/f6/c00b7e2c7a5758592febafc9bd6497643b8294374947c0b73264672834cc/preset-cli-0.2.3.tar.gz
+[2023-07-20 18:18:35] INFO root fetch - processPackages [dexteritysdk]: Downloading https://files.pythonhosted.org/packages/c0/1c/75eee5f287e7581a58391ed18014bb4bad47518ed694ea6e493592b4ff7a/dexteritysdk-0.2.3.tar.gz
+[2023-07-20 18:18:35] INFO root fetch - processPackages [poolcontrolpy]: Downloading https://files.pythonhosted.org/packages/3c/e7/6c9662c32950047c4eda620544ad209fba4d223a96e3ef03cbe82481ae6d/poolcontrolpy-0.2.8.tar.gz
+[2023-07-20 18:18:35] INFO root fetch - processPackages [rasa]: Downloading https://files.pythonhosted.org/packages/9d/ee/6e6b3c4ee90ca7f8e4a90c4aecaa4db1d1af21d64f3fe48a0a503bfd72f1/rasa-3.7.0b1.tar.gz
+[2023-07-20 18:18:35] INFO root fetch - processPackages [CircuitCalculator]: Downloading https://files.pythonhosted.org/packages/e9/6b/012f1855b3854bed914cfc1577b7852d1bbf3b9d8ef65de04bf67ea35775/CircuitCalculator-0.0.9.tar.gz
+[2023-07-20 18:18:35] INFO root fetch - processPackages [mail-satvadev]: Downloading https://files.pythonhosted.org/packages/f6/89/8f713de947f7c354fc8a4e58c479c8bb30619464ab22587802fe5bdf8cc1/mail_satvadev-1.0.6a0.tar.gz
+[2023-07-20 18:18:36] INFO root fetch - processPackages [im-data-manager-metadata]: Downloading https://files.pythonhosted.org/packages/4e/b9/f3eb805afd41af9c378ced141dce82cc7a7e1fedaa0735efd7117874f0d6/im_data_manager_metadata-1.0.4-py3-none-any.whl
+[2023-07-20 18:18:36] INFO root fetch - processPackages [CircuitCalculator]: executing diffoscope
+[2023-07-20 18:18:36] INFO root fetch - processPackages [CircuitCalculator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CircuitCalculator-0.0.8.tar.gz tmp/CircuitCalculator-0.0.9.tar.gz --markdown 20230720/C/CircuitCalculator/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-20 18:18:36] INFO root fetch - processPackages [resotodata]: Downloading https://files.pythonhosted.org/packages/5b/49/ec2f426062580d141436f0056161f792f44bb83f0a0524675e7cef1455a8/resotodata-0.2.2.tar.gz
+[2023-07-20 18:18:36] INFO root fetch - processPackages [mail-satvadev]: executing diffoscope
+[2023-07-20 18:18:36] INFO root fetch - processPackages [mail-satvadev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mail_satvadev-1.0.6.tar.gz tmp/mail_satvadev-1.0.6a0.tar.gz --markdown 20230720/m/mail-satvadev/1.0.6-1.0.6a0/diff.md --exclude *.pyd
+[2023-07-20 18:18:36] INFO root fetch - processPackages [amazon-braket-pennylane-plugin]: Downloading https://files.pythonhosted.org/packages/20/1b/9eacc1dc4e4a53515e50e9d14155ef17ff031ee0f90420b437271f5026f6/amazon-braket-pennylane-plugin-1.9.0.tar.gz
+[2023-07-20 18:18:36] INFO root fetch - processPackages [preset-cli]: Downloading https://files.pythonhosted.org/packages/6d/86/851099b6a29c82e4939c2b92263303b4f1e2120b571312d5f52f381c9a9b/preset-cli-0.2.4.tar.gz
+[2023-07-20 18:18:36] INFO root fetch - processPackages [racplusplus]: Downloading https://files.pythonhosted.org/packages/ee/dc/f62f5480cf766c34f2bb41858c471ec8bc1126f0cb3fcd4b93d3c251e764/racplusplus-0.1.1-cp39-cp39-win_amd64.whl
+[2023-07-20 18:18:36] INFO root fetch - processPackages [rasa]: Downloading https://files.pythonhosted.org/packages/4c/f3/68b3078c92d1ab3a586c6e2deed78de2cfaca614c14df68b4d843fefb05c/rasa-3.7.0b2.tar.gz
+[2023-07-20 18:18:36] INFO root fetch - processPackages [im-data-manager-metadata]: executing diffoscope
+[2023-07-20 18:18:36] INFO root fetch - processPackages [im-data-manager-metadata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/im_data_manager_metadata-1.0.3-py3-none-any.whl.zip tmp/im_data_manager_metadata-1.0.4-py3-none-any.whl.zip --markdown 20230720/i/im-data-manager-metadata/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-07-20 18:18:36] INFO root fetch - processPackages [dexteritysdk]: Downloading https://files.pythonhosted.org/packages/18/ec/7309d07db8a022b6c0d9eeaeb4864863ed7f0c5c1c99f5d7fd8f4dd5c1ab/dexteritysdk-0.2.8.tar.gz
+[2023-07-20 18:18:36] INFO root fetch - processPackages [poolcontrolpy]: Downloading https://files.pythonhosted.org/packages/89/ad/9390d47a57934000ca45f8ee44c76999c8a6db32f19b4651ca2a6987bb23/poolcontrolpy-0.2.9.tar.gz
+[2023-07-20 18:18:36] INFO root fetch - processPackages [preset-cli]: executing diffoscope
+[2023-07-20 18:18:36] INFO root fetch - processPackages [preset-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/preset-cli-0.2.3.tar.gz tmp/preset-cli-0.2.4.tar.gz --markdown 20230720/p/preset-cli/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-07-20 18:18:36] INFO root fetch - processPackages [amazon-braket-pennylane-plugin]: executing diffoscope
+[2023-07-20 18:18:36] INFO root fetch - processPackages [amazon-braket-pennylane-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amazon-braket-pennylane-plugin-1.8.0.tar.gz tmp/amazon-braket-pennylane-plugin-1.9.0.tar.gz --markdown 20230720/a/amazon-braket-pennylane-plugin/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-07-20 18:18:36] INFO root fetch - processPackages [rasa]: executing diffoscope
+[2023-07-20 18:18:36] INFO root fetch - processPackages [rasa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rasa-3.7.0b1.tar.gz tmp/rasa-3.7.0b2.tar.gz --markdown 20230720/r/rasa/3.7.0b1-3.7.0b2/diff.md --exclude *.pyd
+[2023-07-20 18:18:36] INFO root fetch - processPackages [poolcontrolpy]: executing diffoscope
+[2023-07-20 18:18:36] INFO root fetch - processPackages [poolcontrolpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/poolcontrolpy-0.2.8.tar.gz tmp/poolcontrolpy-0.2.9.tar.gz --markdown 20230720/p/poolcontrolpy/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-20 18:18:36] INFO root fetch - processPackages [dexteritysdk]: executing diffoscope
+[2023-07-20 18:18:36] INFO root fetch - processPackages [dexteritysdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dexteritysdk-0.2.3.tar.gz tmp/dexteritysdk-0.2.8.tar.gz --markdown 20230720/d/dexteritysdk/0.2.3-0.2.8/diff.md --exclude *.pyd
+[2023-07-20 18:18:36] INFO root fetch - processPackages [resotodata]: executing diffoscope
+[2023-07-20 18:18:36] INFO root fetch - processPackages [resotodata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/resotodata-0.2.1.tar.gz tmp/resotodata-0.2.2.tar.gz --markdown 20230720/r/resotodata/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-07-20 18:18:36] INFO root fetch - processPackages [racplusplus]: executing diffoscope
+[2023-07-20 18:18:36] INFO root fetch - processPackages [racplusplus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/racplusplus-0.1.0-cp39-cp39-win_amd64.whl.zip tmp/racplusplus-0.1.1-cp39-cp39-win_amd64.whl.zip --markdown 20230720/r/racplusplus/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-20 18:18:37] INFO root fetch - processPackages [CircuitCalculator]: Remove: archive file [/home/abi/fetcher/tmp/CircuitCalculator-0.0.8.tar.gz]
+[2023-07-20 18:18:37] INFO root fetch - processPackages [CircuitCalculator]: Remove: archive file [/home/abi/fetcher/tmp/CircuitCalculator-0.0.9.tar.gz]
+[2023-07-20 18:18:37] INFO root fetch - processPackages [CircuitCalculator]: Start processing: sphinx-apitree
+[2023-07-20 18:18:37] INFO root fetch - main [MainThread]: End processing [CircuitCalculator]: success
+[2023-07-20 18:18:37] INFO root fetch - processPackages [mail-satvadev]: Remove: archive file [/home/abi/fetcher/tmp/mail_satvadev-1.0.6.tar.gz]
+[2023-07-20 18:18:37] INFO root fetch - processPackages [mail-satvadev]: Remove: archive file [/home/abi/fetcher/tmp/mail_satvadev-1.0.6a0.tar.gz]
+[2023-07-20 18:18:37] INFO root fetch - processPackages [mail-satvadev]: Start processing: aEye
+[2023-07-20 18:18:37] INFO root fetch - main [MainThread]: End processing [mail-satvadev]: success
+[2023-07-20 18:18:37] INFO root fetch - processPackages [sphinx-apitree]: New version: [1.3.0] Old Version: [1.2.0]
+[2023-07-20 18:18:37] INFO root fetch - processPackages [im-data-manager-metadata]: Remove: archive file [/home/abi/fetcher/tmp/im_data_manager_metadata-1.0.3-py3-none-any.whl.zip]
+[2023-07-20 18:18:37] INFO root fetch - processPackages [im-data-manager-metadata]: Remove: archive file [/home/abi/fetcher/tmp/im_data_manager_metadata-1.0.4-py3-none-any.whl.zip]
+[2023-07-20 18:18:37] INFO root fetch - processPackages [im-data-manager-metadata]: Start processing: oak9-tython
+[2023-07-20 18:18:37] INFO root fetch - main [MainThread]: End processing [im-data-manager-metadata]: success
+[2023-07-20 18:18:37] INFO root fetch - processPackages [aEye]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-07-20 18:18:37] INFO root fetch - processPackages [sphinx-apitree]: Downloading https://files.pythonhosted.org/packages/46/df/819bb4cabdd3ce0810f4a275a00a1afd8f464817c506e3355d6997d29b3b/sphinx_apitree-1.2.0.tar.gz
+[2023-07-20 18:18:37] INFO root fetch - processPackages [oak9-tython]: New version: [1.0.9] Old Version: [1.0.8b7]
+[2023-07-20 18:18:37] INFO root fetch - processPackages [aEye]: Downloading https://files.pythonhosted.org/packages/80/75/17ab9a3c3621a65490781f7e8199438242dd14e251cf65723f1f869a08f6/aEye-1.0.0.tar.gz
+[2023-07-20 18:18:38] INFO root fetch - processPackages [poolcontrolpy]: Remove: archive file [/home/abi/fetcher/tmp/poolcontrolpy-0.2.8.tar.gz]
+[2023-07-20 18:18:38] INFO root fetch - processPackages [poolcontrolpy]: Remove: archive file [/home/abi/fetcher/tmp/poolcontrolpy-0.2.9.tar.gz]
+[2023-07-20 18:18:38] INFO root fetch - main [MainThread]: End processing [poolcontrolpy]: success
+[2023-07-20 18:18:38] INFO root fetch - processPackages [amazon-braket-pennylane-plugin]: Remove: archive file [/home/abi/fetcher/tmp/amazon-braket-pennylane-plugin-1.8.0.tar.gz]
+[2023-07-20 18:18:38] INFO root fetch - processPackages [amazon-braket-pennylane-plugin]: Remove: archive file [/home/abi/fetcher/tmp/amazon-braket-pennylane-plugin-1.9.0.tar.gz]
+[2023-07-20 18:18:38] INFO root fetch - main [MainThread]: End processing [amazon-braket-pennylane-plugin]: success
+[2023-07-20 18:18:38] INFO root fetch - processPackages [oak9-tython]: Downloading https://files.pythonhosted.org/packages/ba/65/090a681d43cebea093017988d6c5cb5d398c449f4d60c98c757f5c869175/oak9_tython-1.0.8b7.tar.gz
+[2023-07-20 18:18:38] INFO root fetch - processPackages [sphinx-apitree]: Downloading https://files.pythonhosted.org/packages/4d/48/7b3af782ea7dce58062c3cc56be63574852aa316be6f1163a460c50352ef/sphinx_apitree-1.3.0.tar.gz
+[2023-07-20 18:18:38] INFO root fetch - processPackages [aEye]: Downloading https://files.pythonhosted.org/packages/dd/42/e69db013a1d9707c6af5d7c5985149b207a72fb45e086f786dcf7add4981/aEye-1.1.0.tar.gz
+[2023-07-20 18:18:38] INFO root fetch - processPackages [preset-cli]: Remove: archive file [/home/abi/fetcher/tmp/preset-cli-0.2.3.tar.gz]
+[2023-07-20 18:18:38] INFO root fetch - processPackages [preset-cli]: Remove: archive file [/home/abi/fetcher/tmp/preset-cli-0.2.4.tar.gz]
+[2023-07-20 18:18:38] INFO root fetch - main [MainThread]: End processing [preset-cli]: success
+[2023-07-20 18:18:38] INFO root fetch - processPackages [sphinx-apitree]: executing diffoscope
+[2023-07-20 18:18:38] INFO root fetch - processPackages [sphinx-apitree]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sphinx_apitree-1.2.0.tar.gz tmp/sphinx_apitree-1.3.0.tar.gz --markdown 20230720/s/sphinx-apitree/1.2.0-1.3.0/diff.md --exclude *.pyd
+[2023-07-20 18:18:38] INFO root fetch - processPackages [aEye]: executing diffoscope
+[2023-07-20 18:18:38] INFO root fetch - processPackages [aEye]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aEye-1.0.0.tar.gz tmp/aEye-1.1.0.tar.gz --markdown 20230720/a/aEye/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-07-20 18:18:38] INFO root fetch - processPackages [oak9-tython]: Downloading https://files.pythonhosted.org/packages/af/36/8f01395527a0cc965e848898ade0281cc26d08ab3928486ce9d1e1aee26b/oak9_tython-1.0.9.tar.gz
+[2023-07-20 18:18:38] INFO root fetch - processPackages [oak9-tython]: executing diffoscope
+[2023-07-20 18:18:38] INFO root fetch - processPackages [oak9-tython]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oak9_tython-1.0.8b7.tar.gz tmp/oak9_tython-1.0.9.tar.gz --markdown 20230720/o/oak9-tython/1.0.8b7-1.0.9/diff.md --exclude *.pyd
+[2023-07-20 18:18:39] INFO root fetch - processPackages [dexteritysdk]: Remove: archive file [/home/abi/fetcher/tmp/dexteritysdk-0.2.3.tar.gz]
+[2023-07-20 18:18:39] INFO root fetch - processPackages [dexteritysdk]: Remove: archive file [/home/abi/fetcher/tmp/dexteritysdk-0.2.8.tar.gz]
+[2023-07-20 18:18:39] INFO root fetch - main [MainThread]: End processing [dexteritysdk]: success
+[2023-07-20 18:18:39] INFO root fetch - processPackages [resotodata]: Remove: archive file [/home/abi/fetcher/tmp/resotodata-0.2.1.tar.gz]
+[2023-07-20 18:18:39] INFO root fetch - processPackages [resotodata]: Remove: archive file [/home/abi/fetcher/tmp/resotodata-0.2.2.tar.gz]
+[2023-07-20 18:18:39] INFO root fetch - main [MainThread]: End processing [resotodata]: success
+[2023-07-20 18:18:39] INFO root fetch - processPackages [sphinx-apitree]: Remove: archive file [/home/abi/fetcher/tmp/sphinx_apitree-1.2.0.tar.gz]
+[2023-07-20 18:18:39] INFO root fetch - processPackages [sphinx-apitree]: Remove: archive file [/home/abi/fetcher/tmp/sphinx_apitree-1.3.0.tar.gz]
+[2023-07-20 18:18:39] INFO root fetch - main [MainThread]: End processing [sphinx-apitree]: success
+[2023-07-20 18:18:39] INFO root fetch - processPackages [aEye]: Remove: archive file [/home/abi/fetcher/tmp/aEye-1.0.0.tar.gz]
+[2023-07-20 18:18:39] INFO root fetch - processPackages [aEye]: Remove: archive file [/home/abi/fetcher/tmp/aEye-1.1.0.tar.gz]
+[2023-07-20 18:18:39] INFO root fetch - main [MainThread]: End processing [aEye]: success
+[2023-07-20 18:18:39] INFO root fetch - processPackages [rasa]: Remove: archive file [/home/abi/fetcher/tmp/rasa-3.7.0b1.tar.gz]
+[2023-07-20 18:18:39] INFO root fetch - processPackages [rasa]: Remove: archive file [/home/abi/fetcher/tmp/rasa-3.7.0b2.tar.gz]
+[2023-07-20 18:18:39] INFO root fetch - main [MainThread]: End processing [rasa]: success
+[2023-07-20 18:18:40] INFO root fetch - processPackages [racplusplus]: Remove: archive file [/home/abi/fetcher/tmp/racplusplus-0.1.0-cp39-cp39-win_amd64.whl.zip]
+[2023-07-20 18:18:40] INFO root fetch - processPackages [racplusplus]: Remove: archive file [/home/abi/fetcher/tmp/racplusplus-0.1.1-cp39-cp39-win_amd64.whl.zip]
+[2023-07-20 18:18:40] INFO root fetch - main [MainThread]: End processing [racplusplus]: success
+[2023-07-20 18:18:44] INFO root fetch - processPackages [oak9-tython]: Remove: archive file [/home/abi/fetcher/tmp/oak9_tython-1.0.8b7.tar.gz]
+[2023-07-20 18:18:44] INFO root fetch - processPackages [oak9-tython]: Remove: archive file [/home/abi/fetcher/tmp/oak9_tython-1.0.9.tar.gz]
+[2023-07-20 18:18:44] INFO root fetch - main [MainThread]: End processing [oak9-tython]: success
+[2023-07-20 18:18:44] INFO root fetch - main [MainThread]: Store serial: [18969530]
