@@ -15897,3 +15897,145 @@ AssertionError: tmp/verify4py-test-0.1.7.tar.gz does not exist
 [2023-07-20 18:23:57] INFO root fetch - processPackages [cadence-detector]: Remove: archive file [/home/abi/fetcher/tmp/cadence_detector-0.2.3.tar.gz]
 [2023-07-20 18:23:57] INFO root fetch - main [MainThread]: End processing [cadence-detector]: success
 [2023-07-20 18:23:57] INFO root fetch - main [MainThread]: Store serial: [18969565]
+[2023-07-20 18:29:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18969565]
+[2023-07-20 18:29:06] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-07-20 18:29:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fast-depends
+[2023-07-20 18:29:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: skale-contracts
+[2023-07-20 18:29:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rust-dll-example
+[2023-07-20 18:29:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulumi-mongodbatlas
+[2023-07-20 18:29:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: vultr-python-client
+[2023-07-20 18:29:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: intelab-python-sdk
+[2023-07-20 18:29:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: framegrab
+[2023-07-20 18:29:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mail-satvadev
+[2023-07-20 18:29:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: flashcam
+[2023-07-20 18:29:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: lasfile
+[2023-07-20 18:29:06] INFO root fetch - processPackages [mail-satvadev]: New version: [1.0.8] Old Version: [1.0.7a0]
+[2023-07-20 18:29:06] INFO root fetch - processPackages [skale-contracts]: New version: [0.0.1.dev978114706300915430] Old Version: [0.0.1.dev9714958449586304]
+[2023-07-20 18:29:06] INFO root fetch - processPackages [flashcam]: New version: [1.5.9] Old Version: [1.5.8]
+[2023-07-20 18:29:06] INFO root fetch - processPackages [framegrab]: New version: [0.2.1] Old Version: [0.2]
+[2023-07-20 18:29:06] INFO root fetch - processPackages [vultr-python-client]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-20 18:29:06] INFO root fetch - processPackages [lasfile]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-20 18:29:06] WARNING root fetch - processPackages [rust-dll-example]: Skipping, unable to determine old version
+[2023-07-20 18:29:06] INFO root fetch - processPackages [rust-dll-example]: Start processing: veetility
+[2023-07-20 18:29:06] INFO root fetch - main [MainThread]: End processing [rust-dll-example] error
+[2023-07-20 18:29:06] INFO root fetch - processPackages [fast-depends]: New version: [2.1.3] Old Version: [2.1.2]
+[2023-07-20 18:29:06] INFO root fetch - processPackages [pulumi-mongodbatlas]: New version: [3.9.2] Old Version: [3.9.1]
+[2023-07-20 18:29:06] INFO root fetch - processPackages [intelab-python-sdk]: New version: [0.7.4] Old Version: [0.7.3]
+[2023-07-20 18:29:07] INFO root fetch - processPackages [flashcam]: Downloading https://files.pythonhosted.org/packages/9d/29/cb839f6d94c07e77bc1f17083816f3fd9b3db9e145f606acb0bacc68a3fa/flashcam-1.5.8.tar.gz
+[2023-07-20 18:29:07] INFO root fetch - processPackages [mail-satvadev]: Downloading https://files.pythonhosted.org/packages/cc/3d/5c745f6dc27342915c156c5da9df4e9c364a7c2e549896ae037492a3582e/mail_satvadev-1.0.7a0.tar.gz
+[2023-07-20 18:29:07] INFO root fetch - processPackages [veetility]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-07-20 18:29:07] INFO root fetch - processPackages [pulumi-mongodbatlas]: Downloading https://files.pythonhosted.org/packages/b8/b0/a8befc40e2b2c024faff2656c4570b4580a7c4b647e6d7f825d56d861b4d/pulumi_mongodbatlas-3.9.1.tar.gz
+[2023-07-20 18:29:07] INFO root fetch - processPackages [framegrab]: Downloading https://files.pythonhosted.org/packages/5e/b3/e13ff4520cb3a0fddc5071ddbebbd1afca7c707632c635127c4928ea884b/framegrab-0.2.tar.gz
+[2023-07-20 18:29:07] INFO root fetch - processPackages [skale-contracts]: Downloading https://files.pythonhosted.org/packages/c8/b9/d04f09e9314c768a9e7566cbf97ac25f4abfcf0954a27f6b25c1dafa1afe/skale-contracts-0.0.1.dev9714958449586304.tar.gz
+[2023-07-20 18:29:07] INFO root fetch - processPackages [intelab-python-sdk]: Downloading https://files.pythonhosted.org/packages/ab/f8/69f34e70450bc7085326ccf535e360151735ebf640b2aebad01c0d7e029a/intelab_python_sdk-0.7.3.tar.gz
+[2023-07-20 18:29:07] INFO root fetch - processPackages [fast-depends]: Downloading https://files.pythonhosted.org/packages/f9/7a/b93c31befb09633ed95f0f6c9f3653cc02a0360ecfaf3fad015444e8d8eb/fast_depends-2.1.2.tar.gz
+[2023-07-20 18:29:07] INFO root fetch - processPackages [vultr-python-client]: Downloading https://files.pythonhosted.org/packages/3c/96/f7cfc1cb412e11e94bd4dde3c02862635c1ae35ab1659187058f906679f6/vultr-python-client-1.0.1.tar.gz
+[2023-07-20 18:29:07] INFO root fetch - processPackages [veetility]: Downloading https://files.pythonhosted.org/packages/b4/6c/d6775912e1f4b22333ed3a4fee91721e0069b8797ba5c31097f91a3135d6/veetility-0.1.98.tar.gz
+[2023-07-20 18:29:07] INFO root fetch - processPackages [flashcam]: Downloading https://files.pythonhosted.org/packages/96/42/2781f734b5b961970dcbae981e95975f89ee4e4297f0299dbb182cc3a6d2/flashcam-1.5.9.tar.gz
+[2023-07-20 18:29:07] INFO root fetch - processPackages [mail-satvadev]: Downloading https://files.pythonhosted.org/packages/ca/7a/79426394dacc814f987ccd76bc5210711b8e9a5ec4deb4e42039367f8d10/mail_satvadev-1.0.8.tar.gz
+[2023-07-20 18:29:07] INFO root fetch - processPackages [lasfile]: executing diffoscope
+[2023-07-20 18:29:07] INFO root fetch - processPackages [lasfile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lasfile-0.1.8.tar.gz tmp/lasfile-0.1.9.tar.gz --markdown 20230720/l/lasfile/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-20 18:29:07] INFO root fetch - processPackages [pulumi-mongodbatlas]: Downloading https://files.pythonhosted.org/packages/0b/f7/b68fff12e66ad24a69216aac73a3afff2830a71e879426010edff57e057a/pulumi_mongodbatlas-3.9.2.tar.gz
+[2023-07-20 18:29:07] INFO root fetch - processPackages [framegrab]: Downloading https://files.pythonhosted.org/packages/01/a7/29c89095d16c7c0fb9b518a6d8cb908d921fce9e2f8d65b8a18f514c83cd/framegrab-0.2.1.tar.gz
+[2023-07-20 18:29:07] INFO root fetch - processPackages [mail-satvadev]: executing diffoscope
+[2023-07-20 18:29:07] INFO root fetch - processPackages [mail-satvadev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mail_satvadev-1.0.7a0.tar.gz tmp/mail_satvadev-1.0.8.tar.gz --markdown 20230720/m/mail-satvadev/1.0.7a0-1.0.8/diff.md --exclude *.pyd
+[2023-07-20 18:29:07] INFO root fetch - processPackages [intelab-python-sdk]: Downloading https://files.pythonhosted.org/packages/20/fa/a934534eb3a9e29de974816b53a74a6882b0e682c09bb39006e56c993e71/intelab_python_sdk-0.7.4.tar.gz
+[2023-07-20 18:29:07] INFO root fetch - processPackages [fast-depends]: Downloading https://files.pythonhosted.org/packages/6a/5e/1fdeb267535c712ba8cbbad891574fc5377bec1da41aac4b91e3c0a288c5/fast_depends-2.1.3.tar.gz
+[2023-07-20 18:29:07] INFO root fetch - processPackages [flashcam]: executing diffoscope
+[2023-07-20 18:29:07] INFO root fetch - processPackages [flashcam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flashcam-1.5.8.tar.gz tmp/flashcam-1.5.9.tar.gz --markdown 20230720/f/flashcam/1.5.8-1.5.9/diff.md --exclude *.pyd
+[2023-07-20 18:29:07] INFO root fetch - processPackages [skale-contracts]: Downloading https://files.pythonhosted.org/packages/66/0d/dc0adfaa5fdd6130f89cd1424b654098ff03a31b3b7faf85ee62a0a14322/skale-contracts-0.0.1.dev978114706300915430.tar.gz
+[2023-07-20 18:29:07] INFO root fetch - processPackages [vultr-python-client]: Downloading https://files.pythonhosted.org/packages/de/8a/40627cf5ded889f3fb080707d7d068f6afd2c42792d824e92370fa5db9c7/vultr-python-client-1.0.2.tar.gz
+[2023-07-20 18:29:07] INFO root fetch - processPackages [veetility]: Downloading https://files.pythonhosted.org/packages/a0/4f/eb1359196e4e216d1ccfde231e462db3887b8a191ac90d104f3b45fa4169/veetility-0.1.99.tar.gz
+[2023-07-20 18:29:07] INFO root fetch - processPackages [framegrab]: executing diffoscope
+[2023-07-20 18:29:07] INFO root fetch - processPackages [framegrab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/framegrab-0.2.tar.gz tmp/framegrab-0.2.1.tar.gz --markdown 20230720/f/framegrab/0.2-0.2.1/diff.md --exclude *.pyd
+[2023-07-20 18:29:07] INFO root fetch - processPackages [fast-depends]: executing diffoscope
+[2023-07-20 18:29:07] INFO root fetch - processPackages [fast-depends]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fast_depends-2.1.2.tar.gz tmp/fast_depends-2.1.3.tar.gz --markdown 20230720/f/fast-depends/2.1.2-2.1.3/diff.md --exclude *.pyd
+[2023-07-20 18:29:07] INFO root fetch - processPackages [pulumi-mongodbatlas]: executing diffoscope
+[2023-07-20 18:29:07] INFO root fetch - processPackages [pulumi-mongodbatlas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_mongodbatlas-3.9.1.tar.gz tmp/pulumi_mongodbatlas-3.9.2.tar.gz --markdown 20230720/p/pulumi-mongodbatlas/3.9.1-3.9.2/diff.md --exclude *.pyd
+[2023-07-20 18:29:07] INFO root fetch - processPackages [skale-contracts]: executing diffoscope
+[2023-07-20 18:29:07] INFO root fetch - processPackages [skale-contracts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skale-contracts-0.0.1.dev9714958449586304.tar.gz tmp/skale-contracts-0.0.1.dev978114706300915430.tar.gz --markdown 20230720/s/skale-contracts/0.0.1.dev9714958449586304-0.0.1.dev978114706300915430/diff.md --exclude *.pyd
+[2023-07-20 18:29:07] INFO root fetch - processPackages [intelab-python-sdk]: executing diffoscope
+[2023-07-20 18:29:07] INFO root fetch - processPackages [intelab-python-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/intelab_python_sdk-0.7.3.tar.gz tmp/intelab_python_sdk-0.7.4.tar.gz --markdown 20230720/i/intelab-python-sdk/0.7.3-0.7.4/diff.md --exclude *.pyd
+[2023-07-20 18:29:07] INFO root fetch - processPackages [veetility]: executing diffoscope
+[2023-07-20 18:29:07] INFO root fetch - processPackages [veetility]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/veetility-0.1.98.tar.gz tmp/veetility-0.1.99.tar.gz --markdown 20230720/v/veetility/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-07-20 18:29:07] INFO root fetch - processPackages [vultr-python-client]: executing diffoscope
+[2023-07-20 18:29:07] INFO root fetch - processPackages [vultr-python-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vultr-python-client-1.0.1.tar.gz tmp/vultr-python-client-1.0.2.tar.gz --markdown 20230720/v/vultr-python-client/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-20 18:29:08] INFO root fetch - processPackages [lasfile]: Remove: archive file [/home/abi/fetcher/tmp/lasfile-0.1.8.tar.gz]
+[2023-07-20 18:29:08] INFO root fetch - processPackages [lasfile]: Remove: archive file [/home/abi/fetcher/tmp/lasfile-0.1.9.tar.gz]
+[2023-07-20 18:29:08] INFO root fetch - processPackages [lasfile]: Start processing: TEST-TC
+[2023-07-20 18:29:08] INFO root fetch - main [MainThread]: End processing [lasfile]: success
+[2023-07-20 18:29:08] INFO root fetch - processPackages [TEST-TC]: New version: [1.1.4] Old Version: [1.1.2]
+[2023-07-20 18:29:08] INFO root fetch - processPackages [TEST-TC]: Downloading https://files.pythonhosted.org/packages/5a/11/da802a13b60d7dd9e0ff02bdfc3ff0de496b8bc6f948736c99792852197d/TEST_TC-1.1.2.tar.gz
+[2023-07-20 18:29:09] INFO root fetch - processPackages [mail-satvadev]: Remove: archive file [/home/abi/fetcher/tmp/mail_satvadev-1.0.7a0.tar.gz]
+[2023-07-20 18:29:09] INFO root fetch - processPackages [mail-satvadev]: Remove: archive file [/home/abi/fetcher/tmp/mail_satvadev-1.0.8.tar.gz]
+[2023-07-20 18:29:09] INFO root fetch - processPackages [mail-satvadev]: Start processing: SBILib
+[2023-07-20 18:29:09] INFO root fetch - main [MainThread]: End processing [mail-satvadev]: success
+[2023-07-20 18:29:09] WARNING root fetch - processPackages [SBILib]: Skipping, unable to determine old version
+[2023-07-20 18:29:09] INFO root fetch - processPackages [SBILib]: Start processing: noisepy-seis
+[2023-07-20 18:29:09] INFO root fetch - main [MainThread]: End processing [SBILib] error
+[2023-07-20 18:29:09] INFO root fetch - processPackages [noisepy-seis]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-07-20 18:29:09] INFO root fetch - processPackages [TEST-TC]: Downloading https://files.pythonhosted.org/packages/66/83/2f0c3a02f58ad91c5c443334cfdc8b559cf92ce2d5d49ec7e8a0c8fc6829/TEST_TC-1.1.4.tar.gz
+[2023-07-20 18:29:09] INFO root fetch - processPackages [flashcam]: Remove: archive file [/home/abi/fetcher/tmp/flashcam-1.5.8.tar.gz]
+[2023-07-20 18:29:09] INFO root fetch - processPackages [flashcam]: Remove: archive file [/home/abi/fetcher/tmp/flashcam-1.5.9.tar.gz]
+[2023-07-20 18:29:09] INFO root fetch - processPackages [flashcam]: Start processing: mail-satvadev
+[2023-07-20 18:29:09] INFO root fetch - main [MainThread]: End processing [flashcam]: success
+[2023-07-20 18:29:09] INFO root fetch - processPackages [framegrab]: Remove: archive file [/home/abi/fetcher/tmp/framegrab-0.2.tar.gz]
+[2023-07-20 18:29:09] INFO root fetch - processPackages [framegrab]: Remove: archive file [/home/abi/fetcher/tmp/framegrab-0.2.1.tar.gz]
+[2023-07-20 18:29:09] INFO root fetch - processPackages [framegrab]: Start processing: jupysql-plugin
+[2023-07-20 18:29:09] INFO root fetch - main [MainThread]: End processing [framegrab]: success
+[2023-07-20 18:29:09] INFO root fetch - processPackages [jupysql-plugin]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-07-20 18:29:09] INFO root fetch - processPackages [mail-satvadev]: New version: [1.0.8] Old Version: [1.0.7a0]
+[2023-07-20 18:29:09] INFO root fetch - processPackages [noisepy-seis]: Downloading https://files.pythonhosted.org/packages/f5/d5/19dbdcb40dcf808f3eba40a616dceb4ac6380b7575582ac99b93b039a0de/noisepy_seis-0.9.3.tar.gz
+[2023-07-20 18:29:09] INFO root fetch - processPackages [skale-contracts]: Remove: archive file [/home/abi/fetcher/tmp/skale-contracts-0.0.1.dev9714958449586304.tar.gz]
+[2023-07-20 18:29:09] INFO root fetch - processPackages [skale-contracts]: Remove: archive file [/home/abi/fetcher/tmp/skale-contracts-0.0.1.dev978114706300915430.tar.gz]
+[2023-07-20 18:29:09] INFO root fetch - processPackages [skale-contracts]: Start processing: linux-tools
+[2023-07-20 18:29:09] INFO root fetch - main [MainThread]: End processing [skale-contracts]: success
+[2023-07-20 18:29:09] INFO root fetch - processPackages [mail-satvadev]: Downloading https://files.pythonhosted.org/packages/cc/3d/5c745f6dc27342915c156c5da9df4e9c364a7c2e549896ae037492a3582e/mail_satvadev-1.0.7a0.tar.gz
+[2023-07-20 18:29:09] INFO root fetch - processPackages [fast-depends]: Remove: archive file [/home/abi/fetcher/tmp/fast_depends-2.1.2.tar.gz]
+[2023-07-20 18:29:09] INFO root fetch - processPackages [fast-depends]: Remove: archive file [/home/abi/fetcher/tmp/fast_depends-2.1.3.tar.gz]
+[2023-07-20 18:29:09] INFO root fetch - main [MainThread]: End processing [fast-depends]: success
+[2023-07-20 18:29:09] INFO root fetch - processPackages [TEST-TC]: executing diffoscope
+[2023-07-20 18:29:09] INFO root fetch - processPackages [TEST-TC]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TEST_TC-1.1.2.tar.gz tmp/TEST_TC-1.1.4.tar.gz --markdown 20230720/T/TEST-TC/1.1.2-1.1.4/diff.md --exclude *.pyd
+[2023-07-20 18:29:09] INFO root fetch - processPackages [intelab-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/intelab_python_sdk-0.7.3.tar.gz]
+[2023-07-20 18:29:09] INFO root fetch - processPackages [intelab-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/intelab_python_sdk-0.7.4.tar.gz]
+[2023-07-20 18:29:09] INFO root fetch - main [MainThread]: End processing [intelab-python-sdk]: success
+[2023-07-20 18:29:09] INFO root fetch - processPackages [veetility]: Remove: archive file [/home/abi/fetcher/tmp/veetility-0.1.98.tar.gz]
+[2023-07-20 18:29:09] INFO root fetch - processPackages [veetility]: Remove: archive file [/home/abi/fetcher/tmp/veetility-0.1.99.tar.gz]
+[2023-07-20 18:29:09] INFO root fetch - main [MainThread]: End processing [veetility]: success
+[2023-07-20 18:29:09] INFO root fetch - processPackages [jupysql-plugin]: Downloading https://files.pythonhosted.org/packages/35/8b/2e6d9450db91bef4710d749ec5f7dd6e268c46aa9cb32d5427c8ddddb2b1/jupysql_plugin-0.1.7.tar.gz
+[2023-07-20 18:29:09] INFO root fetch - processPackages [linux-tools]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-07-20 18:29:09] INFO root fetch - processPackages [mail-satvadev]: Downloading https://files.pythonhosted.org/packages/ca/7a/79426394dacc814f987ccd76bc5210711b8e9a5ec4deb4e42039367f8d10/mail_satvadev-1.0.8.tar.gz
+[2023-07-20 18:29:09] INFO root fetch - processPackages [noisepy-seis]: Downloading https://files.pythonhosted.org/packages/8b/71/48d26b290b99f3df9bd0ce64e131145fea9cc0ec8287af7b0ba2ffa0b630/noisepy_seis-0.9.4.tar.gz
+[2023-07-20 18:29:09] INFO root fetch - processPackages [mail-satvadev]: executing diffoscope
+[2023-07-20 18:29:09] INFO root fetch - processPackages [mail-satvadev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mail_satvadev-1.0.7a0.tar.gz tmp/mail_satvadev-1.0.8.tar.gz --markdown 20230720/m/mail-satvadev/1.0.7a0-1.0.8/diff.md --exclude *.pyd
+[2023-07-20 18:29:09] INFO root fetch - processPackages [noisepy-seis]: executing diffoscope
+[2023-07-20 18:29:09] INFO root fetch - processPackages [noisepy-seis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/noisepy_seis-0.9.3.tar.gz tmp/noisepy_seis-0.9.4.tar.gz --markdown 20230720/n/noisepy-seis/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-07-20 18:29:09] INFO root fetch - processPackages [linux-tools]: Downloading https://files.pythonhosted.org/packages/76/69/9229879b9df1b25b2725a5f60a24c8ad2e5b44f93bc8d9a1ead52487ff36/linux-tools-0.2.5.tar.gz
+[2023-07-20 18:29:10] INFO root fetch - processPackages [jupysql-plugin]: Downloading https://files.pythonhosted.org/packages/a0/60/cb41f33e56cb869be7f11ea3570d0412ff244aa4affbdb10f12ab9815977/jupysql_plugin-0.1.8.tar.gz
+[2023-07-20 18:29:10] INFO root fetch - processPackages [jupysql-plugin]: executing diffoscope
+[2023-07-20 18:29:10] INFO root fetch - processPackages [jupysql-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupysql_plugin-0.1.7.tar.gz tmp/jupysql_plugin-0.1.8.tar.gz --markdown 20230720/j/jupysql-plugin/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-07-20 18:29:10] INFO root fetch - processPackages [linux-tools]: Downloading https://files.pythonhosted.org/packages/3c/f0/897c34c809f940f2aaedc57f7c40cf58dfb4f604952c38948e3b23fc6ce9/linux-tools-0.2.6.tar.gz
+[2023-07-20 18:29:10] INFO root fetch - processPackages [TEST-TC]: Remove: archive file [/home/abi/fetcher/tmp/TEST_TC-1.1.2.tar.gz]
+[2023-07-20 18:29:10] INFO root fetch - processPackages [TEST-TC]: Remove: archive file [/home/abi/fetcher/tmp/TEST_TC-1.1.4.tar.gz]
+[2023-07-20 18:29:10] INFO root fetch - main [MainThread]: End processing [TEST-TC]: success
+[2023-07-20 18:29:10] INFO root fetch - processPackages [linux-tools]: executing diffoscope
+[2023-07-20 18:29:10] INFO root fetch - processPackages [linux-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/linux-tools-0.2.5.tar.gz tmp/linux-tools-0.2.6.tar.gz --markdown 20230720/l/linux-tools/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-07-20 18:29:10] INFO root fetch - processPackages [mail-satvadev]: Remove: archive file [/home/abi/fetcher/tmp/mail_satvadev-1.0.7a0.tar.gz]
+[2023-07-20 18:29:10] INFO root fetch - processPackages [mail-satvadev]: Remove: archive file [/home/abi/fetcher/tmp/mail_satvadev-1.0.8.tar.gz]
+[2023-07-20 18:29:10] INFO root fetch - main [MainThread]: End processing [mail-satvadev]: success
+[2023-07-20 18:29:11] INFO root fetch - processPackages [noisepy-seis]: Remove: archive file [/home/abi/fetcher/tmp/noisepy_seis-0.9.3.tar.gz]
+[2023-07-20 18:29:11] INFO root fetch - processPackages [noisepy-seis]: Remove: archive file [/home/abi/fetcher/tmp/noisepy_seis-0.9.4.tar.gz]
+[2023-07-20 18:29:11] INFO root fetch - main [MainThread]: End processing [noisepy-seis]: success
+[2023-07-20 18:29:11] INFO root fetch - processPackages [pulumi-mongodbatlas]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_mongodbatlas-3.9.1.tar.gz]
+[2023-07-20 18:29:11] INFO root fetch - processPackages [pulumi-mongodbatlas]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_mongodbatlas-3.9.2.tar.gz]
+[2023-07-20 18:29:11] INFO root fetch - main [MainThread]: End processing [pulumi-mongodbatlas]: success
+[2023-07-20 18:29:11] INFO root fetch - processPackages [linux-tools]: Remove: archive file [/home/abi/fetcher/tmp/linux-tools-0.2.5.tar.gz]
+[2023-07-20 18:29:11] INFO root fetch - processPackages [linux-tools]: Remove: archive file [/home/abi/fetcher/tmp/linux-tools-0.2.6.tar.gz]
+[2023-07-20 18:29:11] INFO root fetch - main [MainThread]: End processing [linux-tools]: success
+[2023-07-20 18:29:12] INFO root fetch - processPackages [jupysql-plugin]: Remove: archive file [/home/abi/fetcher/tmp/jupysql_plugin-0.1.7.tar.gz]
+[2023-07-20 18:29:12] INFO root fetch - processPackages [jupysql-plugin]: Remove: archive file [/home/abi/fetcher/tmp/jupysql_plugin-0.1.8.tar.gz]
+[2023-07-20 18:29:12] INFO root fetch - main [MainThread]: End processing [jupysql-plugin]: success
+[2023-07-20 18:29:13] INFO root fetch - processPackages [vultr-python-client]: Remove: archive file [/home/abi/fetcher/tmp/vultr-python-client-1.0.1.tar.gz]
+[2023-07-20 18:29:13] INFO root fetch - processPackages [vultr-python-client]: Remove: archive file [/home/abi/fetcher/tmp/vultr-python-client-1.0.2.tar.gz]
+[2023-07-20 18:29:13] INFO root fetch - main [MainThread]: End processing [vultr-python-client]: success
+[2023-07-20 18:29:13] INFO root fetch - main [MainThread]: Store serial: [18969615]
