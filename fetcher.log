@@ -18834,3 +18834,170 @@ AssertionError: tmp/verify4py-test-0.1.7.tar.gz does not exist
 [2023-07-20 20:19:28] INFO root fetch - processPackages [anyscale]: Remove: archive file [/home/abi/fetcher/tmp/anyscale-0.5.99.tar.gz]
 [2023-07-20 20:19:28] INFO root fetch - main [MainThread]: End processing [anyscale]: success
 [2023-07-20 20:19:28] INFO root fetch - main [MainThread]: Store serial: [18970736]
+[2023-07-20 20:24:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18970736]
+[2023-07-20 20:24:37] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-07-20 20:24:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: types-vobject
+[2023-07-20 20:24:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: types-python-crontab
+[2023-07-20 20:24:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: types-editdistance
+[2023-07-20 20:24:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: types-openpyxl
+[2023-07-20 20:24:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: types-toposort
+[2023-07-20 20:24:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: types-tensorflow
+[2023-07-20 20:24:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: types-pysftp
+[2023-07-20 20:24:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: simpleutilz
+[2023-07-20 20:24:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: fpingwrppr
+[2023-07-20 20:24:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: xiaomi-ble
+[2023-07-20 20:24:38] INFO root fetch - processPackages [types-vobject]: New version: [0.9.8.9] Old Version: [0.9.8.8]
+[2023-07-20 20:24:38] INFO root fetch - processPackages [types-pysftp]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-20 20:24:38] INFO root fetch - processPackages [types-tensorflow]: New version: [2.12.0.6] Old Version: [2.12.0.5]
+[2023-07-20 20:24:38] WARNING root fetch - processPackages [fpingwrppr]: Skipping, unable to determine old version
+[2023-07-20 20:24:38] INFO root fetch - processPackages [fpingwrppr]: Start processing: pydatawork
+[2023-07-20 20:24:38] INFO root fetch - main [MainThread]: End processing [fpingwrppr] error
+[2023-07-20 20:24:38] INFO root fetch - processPackages [types-python-crontab]: New version: [3.0.0.1] Old Version: [3.0.0.0]
+[2023-07-20 20:24:38] INFO root fetch - processPackages [types-openpyxl]: New version: [3.1.0.9] Old Version: [3.1.0.8]
+[2023-07-20 20:24:38] INFO root fetch - processPackages [types-editdistance]: New version: [0.6.3.5] Old Version: [0.6.3.4]
+[2023-07-20 20:24:38] INFO root fetch - processPackages [simpleutilz]: New version: [1.0.4] Old Version: [1.0.2]
+[2023-07-20 20:24:38] INFO root fetch - processPackages [types-toposort]: New version: [1.9.0.1] Old Version: [1.9.0.0]
+[2023-07-20 20:24:38] INFO root fetch - processPackages [xiaomi-ble]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-07-20 20:24:38] INFO root fetch - processPackages [pydatawork]: New version: [0.17.5.7] Old Version: [0.17.5.6]
+[2023-07-20 20:24:38] INFO root fetch - processPackages [types-vobject]: Downloading https://files.pythonhosted.org/packages/91/e8/e430bd67861337e957693c40f26786bee44239196b5449d947311bb5c867/types-vobject-0.9.8.8.tar.gz
+[2023-07-20 20:24:38] INFO root fetch - processPackages [simpleutilz]: Downloading https://files.pythonhosted.org/packages/85/ad/c3ce228212db577a406cdb9d02152dd058374cc475b204cc71d7d097e236/simpleutilz-1.0.2.tar.gz
+[2023-07-20 20:24:38] INFO root fetch - processPackages [types-editdistance]: Downloading https://files.pythonhosted.org/packages/20/63/9cac3968c44c2aee9970120efdba597193cc7f2b43e7e9bb74e6d6bfcf5f/types-editdistance-0.6.3.4.tar.gz
+[2023-07-20 20:24:38] INFO root fetch - processPackages [types-openpyxl]: Downloading https://files.pythonhosted.org/packages/1b/8a/70639ec16728a27eb8efb7ffc70ebf607fb622eb4122f8a8aef9167c4502/types-openpyxl-3.1.0.8.tar.gz
+[2023-07-20 20:24:38] INFO root fetch - processPackages [types-pysftp]: Downloading https://files.pythonhosted.org/packages/50/5b/3384b2b9336bd05cc8f523948ec17721136561680fdd1161e05ed38f1931/types-pysftp-0.2.8.tar.gz
+[2023-07-20 20:24:38] INFO root fetch - processPackages [types-tensorflow]: Downloading https://files.pythonhosted.org/packages/07/14/6b7b05adf45602be4f424afc987b5636d595a68898d7203b1fe392e5d766/types-tensorflow-2.12.0.5.tar.gz
+[2023-07-20 20:24:38] INFO root fetch - processPackages [types-python-crontab]: Downloading https://files.pythonhosted.org/packages/32/dc/eb586798a819a4d9c014735bceafacfd8d2b7c901765a899f88d610d2b85/types-python-crontab-3.0.0.0.tar.gz
+[2023-07-20 20:24:38] INFO root fetch - processPackages [pydatawork]: Downloading https://files.pythonhosted.org/packages/1c/a6/e81e71e59b736b95570b08400fe6910b5692e70cf9f2c9933ad19b2f96c8/pydatawork-0.17.5.6.tar.gz
+[2023-07-20 20:24:38] INFO root fetch - processPackages [xiaomi-ble]: executing diffoscope
+[2023-07-20 20:24:38] INFO root fetch - processPackages [xiaomi-ble]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xiaomi-ble-0.9.2.tar.gz tmp/xiaomi-ble-0.9.3.tar.gz --markdown 20230720/x/xiaomi-ble/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-07-20 20:24:38] INFO root fetch - processPackages [types-toposort]: Downloading https://files.pythonhosted.org/packages/42/43/d21dd1c1ee75a8bf715c1c396466def0648fdcc2c189d6a187d8caf8200e/types-toposort-1.9.0.0.tar.gz
+[2023-07-20 20:24:38] INFO root fetch - processPackages [types-vobject]: Downloading https://files.pythonhosted.org/packages/45/06/a3b0f58922e35d788b976e398b3cc8d312f21507ef1e8f75299d871b9559/types-vobject-0.9.8.9.tar.gz
+[2023-07-20 20:24:38] INFO root fetch - processPackages [types-vobject]: executing diffoscope
+[2023-07-20 20:24:38] INFO root fetch - processPackages [types-vobject]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-vobject-0.9.8.8.tar.gz tmp/types-vobject-0.9.8.9.tar.gz --markdown 20230720/t/types-vobject/0.9.8.8-0.9.8.9/diff.md --exclude *.pyd
+[2023-07-20 20:24:39] INFO root fetch - processPackages [simpleutilz]: Downloading https://files.pythonhosted.org/packages/c1/74/fb7c974431cabe17caa465e35c1c011084ac630750b89f34b48dbe69f8f8/simpleutilz-1.0.4.tar.gz
+[2023-07-20 20:24:39] INFO root fetch - processPackages [types-editdistance]: Downloading https://files.pythonhosted.org/packages/7b/a4/a58c687b863f19dc137165e86cde0dfb0aa6c29cccbc07ee5e219fcf78cb/types-editdistance-0.6.3.5.tar.gz
+[2023-07-20 20:24:39] INFO root fetch - processPackages [types-python-crontab]: Downloading https://files.pythonhosted.org/packages/36/ce/abf3e79018d9cb63902bc7abe0985618962b045d8acf9f297a4b5e960337/types-python-crontab-3.0.0.1.tar.gz
+[2023-07-20 20:24:39] INFO root fetch - processPackages [pydatawork]: Downloading https://files.pythonhosted.org/packages/29/2d/e954f8f18a975c3c1f115c46a8fa8b09a0cf12395366b0cb2c745152efd7/pydatawork-0.17.5.7.tar.gz
+[2023-07-20 20:24:39] INFO root fetch - processPackages [types-openpyxl]: Downloading https://files.pythonhosted.org/packages/b9/65/22bbec74fcc943aa6c6fdb6df2ce51327bae5470283f90badeeb0bf4ac39/types-openpyxl-3.1.0.9.tar.gz
+[2023-07-20 20:24:39] INFO root fetch - processPackages [simpleutilz]: executing diffoscope
+[2023-07-20 20:24:39] INFO root fetch - processPackages [simpleutilz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simpleutilz-1.0.2.tar.gz tmp/simpleutilz-1.0.4.tar.gz --markdown 20230720/s/simpleutilz/1.0.2-1.0.4/diff.md --exclude *.pyd
+[2023-07-20 20:24:39] INFO root fetch - processPackages [types-editdistance]: executing diffoscope
+[2023-07-20 20:24:39] INFO root fetch - processPackages [types-editdistance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-editdistance-0.6.3.4.tar.gz tmp/types-editdistance-0.6.3.5.tar.gz --markdown 20230720/t/types-editdistance/0.6.3.4-0.6.3.5/diff.md --exclude *.pyd
+[2023-07-20 20:24:39] INFO root fetch - processPackages [types-tensorflow]: Downloading https://files.pythonhosted.org/packages/a9/83/802b4b23585d05a25d1a450a467fdc0887e449bb43fdaeea24528ca3ed3e/types-tensorflow-2.12.0.6.tar.gz
+[2023-07-20 20:24:39] INFO root fetch - processPackages [types-pysftp]: Downloading https://files.pythonhosted.org/packages/98/48/312d2a402bcd68574def4a9090cdca1c881ccc92c56cca37b50bc1a003dc/types-pysftp-0.2.9.tar.gz
+[2023-07-20 20:24:39] INFO root fetch - processPackages [types-toposort]: Downloading https://files.pythonhosted.org/packages/f3/37/9965d3da0e7e162eb0ff12538bc5826411b77d9509e9b44fb63f5557097d/types-toposort-1.9.0.1.tar.gz
+[2023-07-20 20:24:39] INFO root fetch - processPackages [pydatawork]: executing diffoscope
+[2023-07-20 20:24:39] INFO root fetch - processPackages [pydatawork]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydatawork-0.17.5.6.tar.gz tmp/pydatawork-0.17.5.7.tar.gz --markdown 20230720/p/pydatawork/0.17.5.6-0.17.5.7/diff.md --exclude *.pyd
+[2023-07-20 20:24:39] INFO root fetch - processPackages [types-python-crontab]: executing diffoscope
+[2023-07-20 20:24:39] INFO root fetch - processPackages [types-python-crontab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-python-crontab-3.0.0.0.tar.gz tmp/types-python-crontab-3.0.0.1.tar.gz --markdown 20230720/t/types-python-crontab/3.0.0.0-3.0.0.1/diff.md --exclude *.pyd
+[2023-07-20 20:24:39] INFO root fetch - processPackages [types-tensorflow]: executing diffoscope
+[2023-07-20 20:24:39] INFO root fetch - processPackages [types-tensorflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-tensorflow-2.12.0.5.tar.gz tmp/types-tensorflow-2.12.0.6.tar.gz --markdown 20230720/t/types-tensorflow/2.12.0.5-2.12.0.6/diff.md --exclude *.pyd
+[2023-07-20 20:24:39] INFO root fetch - processPackages [types-openpyxl]: executing diffoscope
+[2023-07-20 20:24:39] INFO root fetch - processPackages [types-openpyxl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-openpyxl-3.1.0.8.tar.gz tmp/types-openpyxl-3.1.0.9.tar.gz --markdown 20230720/t/types-openpyxl/3.1.0.8-3.1.0.9/diff.md --exclude *.pyd
+[2023-07-20 20:24:39] INFO root fetch - processPackages [types-pysftp]: executing diffoscope
+[2023-07-20 20:24:39] INFO root fetch - processPackages [types-toposort]: executing diffoscope
+[2023-07-20 20:24:39] INFO root fetch - processPackages [types-pysftp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-pysftp-0.2.8.tar.gz tmp/types-pysftp-0.2.9.tar.gz --markdown 20230720/t/types-pysftp/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-20 20:24:39] INFO root fetch - processPackages [types-toposort]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-toposort-1.9.0.0.tar.gz tmp/types-toposort-1.9.0.1.tar.gz --markdown 20230720/t/types-toposort/1.9.0.0-1.9.0.1/diff.md --exclude *.pyd
+[2023-07-20 20:24:39] INFO root fetch - processPackages [xiaomi-ble]: Remove: archive file [/home/abi/fetcher/tmp/xiaomi-ble-0.9.2.tar.gz]
+[2023-07-20 20:24:39] INFO root fetch - processPackages [xiaomi-ble]: Remove: archive file [/home/abi/fetcher/tmp/xiaomi-ble-0.9.3.tar.gz]
+[2023-07-20 20:24:39] INFO root fetch - processPackages [xiaomi-ble]: Start processing: spouk-firebird-utils
+[2023-07-20 20:24:39] INFO root fetch - main [MainThread]: End processing [xiaomi-ble]: success
+[2023-07-20 20:24:39] WARNING root fetch - processPackages [spouk-firebird-utils]: Skipping, unable to determine old version
+[2023-07-20 20:24:39] INFO root fetch - processPackages [spouk-firebird-utils]: Start processing: garrett-streamlit-auth0
+[2023-07-20 20:24:39] INFO root fetch - main [MainThread]: End processing [spouk-firebird-utils] error
+[2023-07-20 20:24:39] INFO root fetch - processPackages [garrett-streamlit-auth0]: New version: [0.2.0.4.dev1689876708] Old Version: [0.2.0.3]
+[2023-07-20 20:24:40] INFO root fetch - processPackages [garrett-streamlit-auth0]: Downloading https://files.pythonhosted.org/packages/ee/3e/68be19c563e3b7fa2957db360dfa593f8bde85000402bfa5aa4293a568ac/garrett-streamlit-auth0-0.2.0.3.tar.gz
+[2023-07-20 20:24:40] INFO root fetch - processPackages [garrett-streamlit-auth0]: Downloading https://files.pythonhosted.org/packages/d5/27/0aa0c45263653e910f5bd5c910ce4d7a856cc69ed1ca3c74523d094a630b/garrett-streamlit-auth0-0.2.0.4.dev1689876708.tar.gz
+[2023-07-20 20:24:40] INFO root fetch - processPackages [types-vobject]: Remove: archive file [/home/abi/fetcher/tmp/types-vobject-0.9.8.8.tar.gz]
+[2023-07-20 20:24:40] INFO root fetch - processPackages [types-vobject]: Remove: archive file [/home/abi/fetcher/tmp/types-vobject-0.9.8.9.tar.gz]
+[2023-07-20 20:24:40] INFO root fetch - processPackages [types-vobject]: Start processing: anywidget
+[2023-07-20 20:24:40] INFO root fetch - main [MainThread]: End processing [types-vobject]: success
+[2023-07-20 20:24:40] INFO root fetch - processPackages [anywidget]: New version: [0.6.3] Old Version: [0.6.2]
+[2023-07-20 20:24:40] INFO root fetch - processPackages [garrett-streamlit-auth0]: executing diffoscope
+[2023-07-20 20:24:40] INFO root fetch - processPackages [garrett-streamlit-auth0]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/garrett-streamlit-auth0-0.2.0.3.tar.gz tmp/garrett-streamlit-auth0-0.2.0.4.dev1689876708.tar.gz --markdown 20230720/g/garrett-streamlit-auth0/0.2.0.3-0.2.0.4.dev1689876708/diff.md --exclude *.pyd
+[2023-07-20 20:24:40] INFO root fetch - processPackages [simpleutilz]: Remove: archive file [/home/abi/fetcher/tmp/simpleutilz-1.0.2.tar.gz]
+[2023-07-20 20:24:40] INFO root fetch - processPackages [simpleutilz]: Remove: archive file [/home/abi/fetcher/tmp/simpleutilz-1.0.4.tar.gz]
+[2023-07-20 20:24:40] INFO root fetch - processPackages [simpleutilz]: Start processing: onelogin
+[2023-07-20 20:24:40] INFO root fetch - main [MainThread]: End processing [simpleutilz]: success
+[2023-07-20 20:24:40] INFO root fetch - processPackages [onelogin]: New version: [3.1.6] Old Version: [3.1.5]
+[2023-07-20 20:24:40] INFO root fetch - processPackages [anywidget]: Downloading https://files.pythonhosted.org/packages/2b/19/b7088bea8cd51e6dfcfb2ea83f5cbaefad05bdc180bc97f58ca63477405f/anywidget-0.6.2.tar.gz
+[2023-07-20 20:24:40] INFO root fetch - processPackages [types-editdistance]: Remove: archive file [/home/abi/fetcher/tmp/types-editdistance-0.6.3.4.tar.gz]
+[2023-07-20 20:24:40] INFO root fetch - processPackages [types-editdistance]: Remove: archive file [/home/abi/fetcher/tmp/types-editdistance-0.6.3.5.tar.gz]
+[2023-07-20 20:24:40] INFO root fetch - processPackages [types-editdistance]: Start processing: acryl-executor
+[2023-07-20 20:24:40] INFO root fetch - main [MainThread]: End processing [types-editdistance]: success
+[2023-07-20 20:24:40] INFO root fetch - processPackages [acryl-executor]: New version: [0.0.3rc8] Old Version: [0.0.3rc7]
+[2023-07-20 20:24:40] INFO root fetch - processPackages [types-python-crontab]: Remove: archive file [/home/abi/fetcher/tmp/types-python-crontab-3.0.0.0.tar.gz]
+[2023-07-20 20:24:40] INFO root fetch - processPackages [types-python-crontab]: Remove: archive file [/home/abi/fetcher/tmp/types-python-crontab-3.0.0.1.tar.gz]
+[2023-07-20 20:24:40] INFO root fetch - processPackages [types-python-crontab]: Start processing: caikit
+[2023-07-20 20:24:40] INFO root fetch - main [MainThread]: End processing [types-python-crontab]: success
+[2023-07-20 20:24:40] INFO root fetch - processPackages [types-pysftp]: Remove: archive file [/home/abi/fetcher/tmp/types-pysftp-0.2.8.tar.gz]
+[2023-07-20 20:24:40] INFO root fetch - processPackages [types-pysftp]: Remove: archive file [/home/abi/fetcher/tmp/types-pysftp-0.2.9.tar.gz]
+[2023-07-20 20:24:40] INFO root fetch - processPackages [types-pysftp]: Start processing: phc-ingestion
+[2023-07-20 20:24:40] INFO root fetch - main [MainThread]: End processing [types-pysftp]: success
+[2023-07-20 20:24:40] INFO root fetch - processPackages [onelogin]: Downloading https://files.pythonhosted.org/packages/38/15/45dd9228a1466f4433337f7447940eee7a6e3e7a613624482a69fb0f1de1/onelogin-3.1.5.tar.gz
+[2023-07-20 20:24:40] INFO root fetch - processPackages [pydatawork]: Remove: archive file [/home/abi/fetcher/tmp/pydatawork-0.17.5.6.tar.gz]
+[2023-07-20 20:24:40] INFO root fetch - processPackages [pydatawork]: Remove: archive file [/home/abi/fetcher/tmp/pydatawork-0.17.5.7.tar.gz]
+[2023-07-20 20:24:40] INFO root fetch - processPackages [pydatawork]: Start processing: gammarer.aws-secure-vpc-bucket
+[2023-07-20 20:24:40] INFO root fetch - main [MainThread]: End processing [pydatawork]: success
+[2023-07-20 20:24:40] INFO root fetch - processPackages [phc-ingestion]: New version: [0.3.44] Old Version: [0.3.43]
+[2023-07-20 20:24:40] INFO root fetch - processPackages [types-toposort]: Remove: archive file [/home/abi/fetcher/tmp/types-toposort-1.9.0.0.tar.gz]
+[2023-07-20 20:24:40] INFO root fetch - processPackages [types-toposort]: Remove: archive file [/home/abi/fetcher/tmp/types-toposort-1.9.0.1.tar.gz]
+[2023-07-20 20:24:40] INFO root fetch - processPackages [types-toposort]: Start processing: swibots
+[2023-07-20 20:24:40] INFO root fetch - main [MainThread]: End processing [types-toposort]: success
+[2023-07-20 20:24:40] INFO root fetch - processPackages [gammarer.aws-secure-vpc-bucket]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-07-20 20:24:40] INFO root fetch - processPackages [caikit]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-07-20 20:24:41] INFO root fetch - processPackages [phc-ingestion]: Downloading https://files.pythonhosted.org/packages/0c/a4/9982f73f3ea4bbdd6247fdc7ad3363a6b9cea5a488921e903502d700d5f8/phc-ingestion-0.3.43.tar.gz
+[2023-07-20 20:24:41] INFO root fetch - processPackages [acryl-executor]: Downloading https://files.pythonhosted.org/packages/d5/a9/8aeb3d356cfa303dc3282664aa2bb00b25fff24cd406b46f1092ac0b9eda/acryl-executor-0.0.3rc7.tar.gz
+[2023-07-20 20:24:41] INFO root fetch - processPackages [swibots]: New version: [1.3.6] Old Version: [1.3.5]
+[2023-07-20 20:24:41] INFO root fetch - processPackages [types-tensorflow]: Remove: archive file [/home/abi/fetcher/tmp/types-tensorflow-2.12.0.5.tar.gz]
+[2023-07-20 20:24:41] INFO root fetch - processPackages [types-tensorflow]: Remove: archive file [/home/abi/fetcher/tmp/types-tensorflow-2.12.0.6.tar.gz]
+[2023-07-20 20:24:41] INFO root fetch - main [MainThread]: End processing [types-tensorflow]: success
+[2023-07-20 20:24:41] INFO root fetch - processPackages [gammarer.aws-secure-vpc-bucket]: Downloading https://files.pythonhosted.org/packages/61/08/bc1a8e639a4d33ac0b7d2276dd29b0b1b104dd74aea54f6b84d6f2246233/gammarer.aws-secure-vpc-bucket-0.5.0.tar.gz
+[2023-07-20 20:24:41] INFO root fetch - processPackages [swibots]: Downloading https://files.pythonhosted.org/packages/54/bd/79a46cdadaaa2c8a2d600fcfd605526e9b95f87747256f7e7df6d76cb478/swibots-1.3.5.tar.gz
+[2023-07-20 20:24:41] INFO root fetch - processPackages [onelogin]: Downloading https://files.pythonhosted.org/packages/b7/42/a2deca5f533cddab20b14488f785805111f82bd27a86541e306605ab8580/onelogin-3.1.6.tar.gz
+[2023-07-20 20:24:41] INFO root fetch - processPackages [phc-ingestion]: Downloading https://files.pythonhosted.org/packages/85/85/f58a12c7c3ec3d2a00411b3d4eb188dc6384d214a2407e0720cf1af82cc7/phc-ingestion-0.3.44.tar.gz
+[2023-07-20 20:24:41] INFO root fetch - processPackages [anywidget]: Downloading https://files.pythonhosted.org/packages/8e/1d/3a665a3f44e8ed313201d2e4be93f288403d0fbcac0e18e71d9e27843de6/anywidget-0.6.3.tar.gz
+[2023-07-20 20:24:41] INFO root fetch - processPackages [onelogin]: executing diffoscope
+[2023-07-20 20:24:41] INFO root fetch - processPackages [onelogin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onelogin-3.1.5.tar.gz tmp/onelogin-3.1.6.tar.gz --markdown 20230720/o/onelogin/3.1.5-3.1.6/diff.md --exclude *.pyd
+[2023-07-20 20:24:41] INFO root fetch - processPackages [caikit]: executing diffoscope
+[2023-07-20 20:24:41] INFO root fetch - processPackages [caikit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/caikit-0.9.3.tar.gz tmp/caikit-0.9.4.tar.gz --markdown 20230720/c/caikit/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-07-20 20:24:41] INFO root fetch - processPackages [types-openpyxl]: Remove: archive file [/home/abi/fetcher/tmp/types-openpyxl-3.1.0.8.tar.gz]
+[2023-07-20 20:24:41] INFO root fetch - processPackages [types-openpyxl]: Remove: archive file [/home/abi/fetcher/tmp/types-openpyxl-3.1.0.9.tar.gz]
+[2023-07-20 20:24:41] INFO root fetch - main [MainThread]: End processing [types-openpyxl]: success
+[2023-07-20 20:24:41] INFO root fetch - processPackages [acryl-executor]: Downloading https://files.pythonhosted.org/packages/fd/1e/859918d10285958fb2010680cfbed8fb662415bc71783bc84a3fa1abcef8/acryl-executor-0.0.3rc8.tar.gz
+[2023-07-20 20:24:41] INFO root fetch - processPackages [phc-ingestion]: executing diffoscope
+[2023-07-20 20:24:41] INFO root fetch - processPackages [phc-ingestion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phc-ingestion-0.3.43.tar.gz tmp/phc-ingestion-0.3.44.tar.gz --markdown 20230720/p/phc-ingestion/0.3.43-0.3.44/diff.md --exclude *.pyd
+[2023-07-20 20:24:41] INFO root fetch - processPackages [gammarer.aws-secure-vpc-bucket]: Downloading https://files.pythonhosted.org/packages/c1/b4/925274c299020971a95653e83352301afa00a68c1773be6e437e80c3e0dd/gammarer.aws-secure-vpc-bucket-0.5.1.tar.gz
+[2023-07-20 20:24:41] INFO root fetch - processPackages [anywidget]: executing diffoscope
+[2023-07-20 20:24:41] INFO root fetch - processPackages [anywidget]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anywidget-0.6.2.tar.gz tmp/anywidget-0.6.3.tar.gz --markdown 20230720/a/anywidget/0.6.2-0.6.3/diff.md --exclude *.pyd
+[2023-07-20 20:24:41] INFO root fetch - processPackages [garrett-streamlit-auth0]: Remove: archive file [/home/abi/fetcher/tmp/garrett-streamlit-auth0-0.2.0.3.tar.gz]
+[2023-07-20 20:24:41] INFO root fetch - processPackages [garrett-streamlit-auth0]: Remove: archive file [/home/abi/fetcher/tmp/garrett-streamlit-auth0-0.2.0.4.dev1689876708.tar.gz]
+[2023-07-20 20:24:41] INFO root fetch - main [MainThread]: End processing [garrett-streamlit-auth0]: success
+[2023-07-20 20:24:41] INFO root fetch - processPackages [swibots]: Downloading https://files.pythonhosted.org/packages/6e/f4/81b5e784ed076766d4f6b7222f44ddd3d9057d98b06d02c3724868e9e3e1/swibots-1.3.6.tar.gz
+[2023-07-20 20:24:41] INFO root fetch - processPackages [acryl-executor]: executing diffoscope
+[2023-07-20 20:24:41] INFO root fetch - processPackages [acryl-executor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acryl-executor-0.0.3rc7.tar.gz tmp/acryl-executor-0.0.3rc8.tar.gz --markdown 20230720/a/acryl-executor/0.0.3rc7-0.0.3rc8/diff.md --exclude *.pyd
+[2023-07-20 20:24:41] INFO root fetch - processPackages [gammarer.aws-secure-vpc-bucket]: executing diffoscope
+[2023-07-20 20:24:41] INFO root fetch - processPackages [gammarer.aws-secure-vpc-bucket]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gammarer.aws-secure-vpc-bucket-0.5.0.tar.gz tmp/gammarer.aws-secure-vpc-bucket-0.5.1.tar.gz --markdown 20230720/g/gammarer.aws-secure-vpc-bucket/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-07-20 20:24:41] INFO root fetch - processPackages [swibots]: executing diffoscope
+[2023-07-20 20:24:41] INFO root fetch - processPackages [swibots]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swibots-1.3.5.tar.gz tmp/swibots-1.3.6.tar.gz --markdown 20230720/s/swibots/1.3.5-1.3.6/diff.md --exclude *.pyd
+[2023-07-20 20:24:42] INFO root fetch - processPackages [caikit]: Remove: archive file [/home/abi/fetcher/tmp/caikit-0.9.3.tar.gz]
+[2023-07-20 20:24:42] INFO root fetch - processPackages [caikit]: Remove: archive file [/home/abi/fetcher/tmp/caikit-0.9.4.tar.gz]
+[2023-07-20 20:24:42] INFO root fetch - main [MainThread]: End processing [caikit]: success
+[2023-07-20 20:24:42] INFO root fetch - processPackages [gammarer.aws-secure-vpc-bucket]: Remove: archive file [/home/abi/fetcher/tmp/gammarer.aws-secure-vpc-bucket-0.5.0.tar.gz]
+[2023-07-20 20:24:42] INFO root fetch - processPackages [gammarer.aws-secure-vpc-bucket]: Remove: archive file [/home/abi/fetcher/tmp/gammarer.aws-secure-vpc-bucket-0.5.1.tar.gz]
+[2023-07-20 20:24:42] INFO root fetch - main [MainThread]: End processing [gammarer.aws-secure-vpc-bucket]: success
+[2023-07-20 20:24:43] INFO root fetch - processPackages [phc-ingestion]: Remove: archive file [/home/abi/fetcher/tmp/phc-ingestion-0.3.43.tar.gz]
+[2023-07-20 20:24:43] INFO root fetch - processPackages [phc-ingestion]: Remove: archive file [/home/abi/fetcher/tmp/phc-ingestion-0.3.44.tar.gz]
+[2023-07-20 20:24:43] INFO root fetch - main [MainThread]: End processing [phc-ingestion]: success
+[2023-07-20 20:24:43] INFO root fetch - processPackages [acryl-executor]: Remove: archive file [/home/abi/fetcher/tmp/acryl-executor-0.0.3rc7.tar.gz]
+[2023-07-20 20:24:43] INFO root fetch - processPackages [acryl-executor]: Remove: archive file [/home/abi/fetcher/tmp/acryl-executor-0.0.3rc8.tar.gz]
+[2023-07-20 20:24:43] INFO root fetch - main [MainThread]: End processing [acryl-executor]: success
+[2023-07-20 20:24:43] INFO root fetch - processPackages [swibots]: Remove: archive file [/home/abi/fetcher/tmp/swibots-1.3.5.tar.gz]
+[2023-07-20 20:24:43] INFO root fetch - processPackages [swibots]: Remove: archive file [/home/abi/fetcher/tmp/swibots-1.3.6.tar.gz]
+[2023-07-20 20:24:43] INFO root fetch - main [MainThread]: End processing [swibots]: success
+[2023-07-20 20:24:44] INFO root fetch - processPackages [onelogin]: Remove: archive file [/home/abi/fetcher/tmp/onelogin-3.1.5.tar.gz]
+[2023-07-20 20:24:44] INFO root fetch - processPackages [onelogin]: Remove: archive file [/home/abi/fetcher/tmp/onelogin-3.1.6.tar.gz]
+[2023-07-20 20:24:44] INFO root fetch - main [MainThread]: End processing [onelogin]: success
+[2023-07-20 20:24:44] INFO root fetch - processPackages [anywidget]: Remove: archive file [/home/abi/fetcher/tmp/anywidget-0.6.2.tar.gz]
+[2023-07-20 20:24:44] INFO root fetch - processPackages [anywidget]: Remove: archive file [/home/abi/fetcher/tmp/anywidget-0.6.3.tar.gz]
+[2023-07-20 20:24:44] INFO root fetch - main [MainThread]: End processing [anywidget]: success
+[2023-07-20 20:24:44] INFO root fetch - main [MainThread]: Store serial: [18970810]
