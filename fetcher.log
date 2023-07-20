@@ -8946,3 +8946,148 @@ AssertionError: tmp/verify4py-test-0.1.7.tar.gz does not exist
 [2023-07-20 15:02:48] INFO root fetch - processPackages [ccxt]: Remove: archive file [/home/abi/fetcher/tmp/ccxt-4.0.9.tar.gz]
 [2023-07-20 15:02:48] INFO root fetch - main [MainThread]: End processing [ccxt]: success
 [2023-07-20 15:02:48] INFO root fetch - main [MainThread]: Store serial: [18966688]
+[2023-07-20 15:07:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18966688]
+[2023-07-20 15:07:58] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-07-20 15:07:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: periflow-client
+[2023-07-20 15:07:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ezgpx
+[2023-07-20 15:07:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: elementary-data
+[2023-07-20 15:07:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fastapi-simple-pagination
+[2023-07-20 15:07:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tinybird-cli
+[2023-07-20 15:07:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: th2-grpc-act-ssh
+[2023-07-20 15:07:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gulf-id-scanner
+[2023-07-20 15:07:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cornflakes
+[2023-07-20 15:07:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: fbgemm-gpu-nightly-cpu
+[2023-07-20 15:07:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: certora-cli-alpha-martin-z3-lemmas-test
+[2023-07-20 15:07:58] INFO root fetch - processPackages [fastapi-simple-pagination]: New version: [1.3.1] Old Version: [1.3.0]
+[2023-07-20 15:07:58] INFO root fetch - processPackages [gulf-id-scanner]: New version: [0.1.0b1] Old Version: [0.1.0b0]
+[2023-07-20 15:07:58] INFO root fetch - processPackages [th2-grpc-act-ssh]: New version: [2.0.0.dev5610911783] Old Version: [2.0.0.dev5409734028]
+[2023-07-20 15:07:58] INFO root fetch - processPackages [certora-cli-alpha-martin-z3-lemmas-test]: New version: [20230720.13.5.368096] Old Version: [20230720.11.44.433451]
+[2023-07-20 15:07:58] INFO root fetch - processPackages [ezgpx]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-07-20 15:07:58] WARNING root fetch - processPackages [periflow-client]: Skipping, unable to determine old version
+[2023-07-20 15:07:58] INFO root fetch - processPackages [periflow-client]: Start processing: noci
+[2023-07-20 15:07:58] INFO root fetch - main [MainThread]: End processing [periflow-client] error
+[2023-07-20 15:07:58] INFO root fetch - processPackages [tinybird-cli]: New version: [1.0.0b99] Old Version: [1.0.0b98]
+[2023-07-20 15:07:58] INFO root fetch - processPackages [elementary-data]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-07-20 15:07:58] INFO root fetch - processPackages [cornflakes]: New version: [3.3.8] Old Version: [3.3.7]
+[2023-07-20 15:07:58] INFO root fetch - processPackages [noci]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-20 15:07:58] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: New version: [2023.7.20] Old Version: [2023.7.19]
+[2023-07-20 15:07:58] INFO root fetch - processPackages [th2-grpc-act-ssh]: Downloading https://files.pythonhosted.org/packages/e7/7e/762f6ae24fcee76429b921e9b69c708bb5dbdacf3e2494fd89fc857d2e5b/th2_grpc_act_ssh-2.0.0.dev5409734028.tar.gz
+[2023-07-20 15:07:58] INFO root fetch - processPackages [tinybird-cli]: Downloading https://files.pythonhosted.org/packages/cf/bc/f6fe2aa48ad97fc6f03b105a263497f0cc5d7173fa89703bbc609c18f13a/tinybird-cli-1.0.0b98.tar.gz
+[2023-07-20 15:07:58] INFO root fetch - processPackages [elementary-data]: Downloading https://files.pythonhosted.org/packages/f9/c2/8288cbf7a5e59fa167db366ec359d06425e70ba38df66d22f2a9c9d00cf5/elementary-data-0.9.0.tar.gz
+[2023-07-20 15:07:58] INFO root fetch - processPackages [certora-cli-alpha-martin-z3-lemmas-test]: Downloading https://files.pythonhosted.org/packages/55/8f/8003d257f6b6449dd6e588c2267f4594da1dc9962349b67ee400bea94af4/certora-cli-alpha-martin-z3-lemmas-test-20230720.11.44.433451.tar.gz
+[2023-07-20 15:07:59] INFO root fetch - processPackages [gulf-id-scanner]: Downloading https://files.pythonhosted.org/packages/f7/f6/9044dcccf896c1d467b8297a72504b21889808e4b04c7fe9f49cadb9a9ac/gulf_id_scanner-0.1.0b0.tar.gz
+[2023-07-20 15:07:59] INFO root fetch - processPackages [fastapi-simple-pagination]: Downloading https://files.pythonhosted.org/packages/4c/6d/b14b0d15e9fff66a32c60200e7a082cbe16fa9de25102fe9611990527c86/fastapi_simple_pagination-1.3.0.tar.gz
+[2023-07-20 15:07:59] WARNING root fetch - processPackages [certora-cli-alpha-martin-z3-lemmas-test]: Skipping package: exceeds size limit 38805449>=10485760
+[2023-07-20 15:07:59] INFO root fetch - processPackages [certora-cli-alpha-martin-z3-lemmas-test]: Start processing: drf-kit
+[2023-07-20 15:07:59] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-martin-z3-lemmas-test] error
+[2023-07-20 15:07:59] INFO root fetch - processPackages [cornflakes]: Downloading https://files.pythonhosted.org/packages/81/1c/daa327251453a47d7a0adfae4bb15c9145b3bb33737e248eaf78be434dae/cornflakes-3.3.7.tar.gz
+[2023-07-20 15:07:59] INFO root fetch - processPackages [noci]: Downloading https://files.pythonhosted.org/packages/68/4f/90a78e854f5da02510d95ac8b7a8db890eb3d8a8252e85f7286ce45fb4a5/noci-0.0.1.tar.gz
+[2023-07-20 15:07:59] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/42/d6/cb1e2627f31b10c5a4ef9fdccf5896146042c14bd01b9974fe8cdeefcd15/fbgemm_gpu_nightly_cpu-2023.7.19-cp39-cp39-manylinux2014_x86_64.whl
+[2023-07-20 15:07:59] INFO root fetch - processPackages [drf-kit]: New version: [1.9.0] Old Version: [1.8.7]
+[2023-07-20 15:07:59] INFO root fetch - processPackages [ezgpx]: Downloading https://files.pythonhosted.org/packages/0f/7e/9f8ac6d5dc32233ce46ecc8e7b7039085a849177061f842746e286d68fbd/ezgpx-0.1.4.tar.gz
+[2023-07-20 15:07:59] INFO root fetch - processPackages [th2-grpc-act-ssh]: Downloading https://files.pythonhosted.org/packages/ad/eb/463555ff134491af517e2c04b7e292573a7b087c2437558c4a43727b2432/th2_grpc_act_ssh-2.0.0.dev5610911783.tar.gz
+[2023-07-20 15:07:59] INFO root fetch - processPackages [tinybird-cli]: Downloading https://files.pythonhosted.org/packages/6a/27/a5d411f1a02b44b9f386c7d18397784dcaa5fe1129d9a77e87a5e048edc5/tinybird-cli-1.0.0b99.tar.gz
+[2023-07-20 15:07:59] INFO root fetch - processPackages [elementary-data]: Downloading https://files.pythonhosted.org/packages/29/6f/93f76ab66fa1f8c9f19831b8da18b09f96684acb6943df20fe66d9f59933/elementary-data-0.9.1.tar.gz
+[2023-07-20 15:07:59] INFO root fetch - processPackages [drf-kit]: Downloading https://files.pythonhosted.org/packages/08/ab/5faecc24d6c3ffea558698cedd2cfdd5915a0c1a9ea8fb5f6f31a1ba3c9e/drf-kit-1.8.7.tar.gz
+[2023-07-20 15:07:59] INFO root fetch - processPackages [th2-grpc-act-ssh]: executing diffoscope
+[2023-07-20 15:07:59] INFO root fetch - processPackages [th2-grpc-act-ssh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/th2_grpc_act_ssh-2.0.0.dev5409734028.tar.gz tmp/th2_grpc_act_ssh-2.0.0.dev5610911783.tar.gz --markdown 20230720/t/th2-grpc-act-ssh/2.0.0.dev5409734028-2.0.0.dev5610911783/diff.md --exclude *.pyd
+[2023-07-20 15:07:59] INFO root fetch - processPackages [gulf-id-scanner]: Downloading https://files.pythonhosted.org/packages/7c/0b/6a37490102125823406d75b33d553fa92e309634ae5c50e3e778e8714594/gulf_id_scanner-0.1.0b1.tar.gz
+[2023-07-20 15:07:59] INFO root fetch - processPackages [fastapi-simple-pagination]: Downloading https://files.pythonhosted.org/packages/ed/ab/6add07ec2048543909594b00198460ecd5dc2699cc41cf4144ae258e8775/fastapi_simple_pagination-1.3.1.tar.gz
+[2023-07-20 15:07:59] INFO root fetch - processPackages [ezgpx]: executing diffoscope
+[2023-07-20 15:07:59] INFO root fetch - processPackages [ezgpx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ezgpx-0.1.3.tar.gz tmp/ezgpx-0.1.4.tar.gz --markdown 20230720/e/ezgpx/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-07-20 15:07:59] INFO root fetch - processPackages [tinybird-cli]: executing diffoscope
+[2023-07-20 15:07:59] INFO root fetch - processPackages [tinybird-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tinybird-cli-1.0.0b98.tar.gz tmp/tinybird-cli-1.0.0b99.tar.gz --markdown 20230720/t/tinybird-cli/1.0.0b98-1.0.0b99/diff.md --exclude *.pyd
+[2023-07-20 15:07:59] INFO root fetch - processPackages [noci]: Downloading https://files.pythonhosted.org/packages/17/16/e05112bee0ab206343220b39843526333034c939bd018e4e9fb40586ae42/noci-0.0.2.tar.gz
+[2023-07-20 15:07:59] INFO root fetch - processPackages [elementary-data]: executing diffoscope
+[2023-07-20 15:07:59] INFO root fetch - processPackages [elementary-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/elementary-data-0.9.0.tar.gz tmp/elementary-data-0.9.1.tar.gz --markdown 20230720/e/elementary-data/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-07-20 15:07:59] INFO root fetch - processPackages [gulf-id-scanner]: executing diffoscope
+[2023-07-20 15:07:59] INFO root fetch - processPackages [gulf-id-scanner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gulf_id_scanner-0.1.0b0.tar.gz tmp/gulf_id_scanner-0.1.0b1.tar.gz --markdown 20230720/g/gulf-id-scanner/0.1.0b0-0.1.0b1/diff.md --exclude *.pyd
+[2023-07-20 15:07:59] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/99/24/2614c6709f8ec29093f8e35fbd22be6ee80839fa18bf7f33486d8bf79070/fbgemm_gpu_nightly_cpu-2023.7.20-cp39-cp39-manylinux2014_x86_64.whl
+[2023-07-20 15:07:59] INFO root fetch - processPackages [noci]: executing diffoscope
+[2023-07-20 15:07:59] INFO root fetch - processPackages [noci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/noci-0.0.1.tar.gz tmp/noci-0.0.2.tar.gz --markdown 20230720/n/noci/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-20 15:07:59] INFO root fetch - processPackages [fastapi-simple-pagination]: executing diffoscope
+[2023-07-20 15:07:59] INFO root fetch - processPackages [fastapi-simple-pagination]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi_simple_pagination-1.3.0.tar.gz tmp/fastapi_simple_pagination-1.3.1.tar.gz --markdown 20230720/f/fastapi-simple-pagination/1.3.0-1.3.1/diff.md --exclude *.pyd
+[2023-07-20 15:08:00] INFO root fetch - processPackages [cornflakes]: Downloading https://files.pythonhosted.org/packages/e5/55/733331e03e739949b23de4d863aa0261ebf91501314c67e0c1c4d49b1835/cornflakes-3.3.8.tar.gz
+[2023-07-20 15:08:00] INFO root fetch - processPackages [cornflakes]: executing diffoscope
+[2023-07-20 15:08:00] INFO root fetch - processPackages [cornflakes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cornflakes-3.3.7.tar.gz tmp/cornflakes-3.3.8.tar.gz --markdown 20230720/c/cornflakes/3.3.7-3.3.8/diff.md --exclude *.pyd
+[2023-07-20 15:08:00] INFO root fetch - processPackages [drf-kit]: Downloading https://files.pythonhosted.org/packages/aa/e5/774e027488891430f34e9bf81096830a88e69d862f2d412723bae9896816/drf-kit-1.9.0.tar.gz
+[2023-07-20 15:08:00] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: executing diffoscope
+[2023-07-20 15:08:00] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fbgemm_gpu_nightly_cpu-2023.7.19-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/fbgemm_gpu_nightly_cpu-2023.7.20-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20230720/f/fbgemm-gpu-nightly-cpu/2023.7.19-2023.7.20/diff.md --exclude *.pyd
+[2023-07-20 15:08:00] INFO root fetch - processPackages [th2-grpc-act-ssh]: Remove: archive file [/home/abi/fetcher/tmp/th2_grpc_act_ssh-2.0.0.dev5409734028.tar.gz]
+[2023-07-20 15:08:00] INFO root fetch - processPackages [th2-grpc-act-ssh]: Remove: archive file [/home/abi/fetcher/tmp/th2_grpc_act_ssh-2.0.0.dev5610911783.tar.gz]
+[2023-07-20 15:08:00] INFO root fetch - processPackages [th2-grpc-act-ssh]: Start processing: ou-container-builder
+[2023-07-20 15:08:00] INFO root fetch - main [MainThread]: End processing [th2-grpc-act-ssh]: success
+[2023-07-20 15:08:00] INFO root fetch - processPackages [drf-kit]: executing diffoscope
+[2023-07-20 15:08:00] INFO root fetch - processPackages [drf-kit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drf-kit-1.8.7.tar.gz tmp/drf-kit-1.9.0.tar.gz --markdown 20230720/d/drf-kit/1.8.7-1.9.0/diff.md --exclude *.pyd
+[2023-07-20 15:08:00] INFO root fetch - processPackages [ezgpx]: Remove: archive file [/home/abi/fetcher/tmp/ezgpx-0.1.3.tar.gz]
+[2023-07-20 15:08:00] INFO root fetch - processPackages [ezgpx]: Remove: archive file [/home/abi/fetcher/tmp/ezgpx-0.1.4.tar.gz]
+[2023-07-20 15:08:00] INFO root fetch - processPackages [ezgpx]: Start processing: cubicweb-web
+[2023-07-20 15:08:00] INFO root fetch - main [MainThread]: End processing [ezgpx]: success
+[2023-07-20 15:08:00] INFO root fetch - processPackages [ou-container-builder]: New version: [2.6.1] Old Version: [2.6.0]
+[2023-07-20 15:08:00] INFO root fetch - processPackages [cubicweb-web]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-07-20 15:08:00] INFO root fetch - processPackages [tinybird-cli]: Remove: archive file [/home/abi/fetcher/tmp/tinybird-cli-1.0.0b98.tar.gz]
+[2023-07-20 15:08:00] INFO root fetch - processPackages [tinybird-cli]: Remove: archive file [/home/abi/fetcher/tmp/tinybird-cli-1.0.0b99.tar.gz]
+[2023-07-20 15:08:01] INFO root fetch - processPackages [tinybird-cli]: Start processing: TDCRPy
+[2023-07-20 15:08:01] INFO root fetch - main [MainThread]: End processing [tinybird-cli]: success
+[2023-07-20 15:08:01] INFO root fetch - processPackages [TDCRPy]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-20 15:08:01] INFO root fetch - processPackages [TDCRPy]: Downloading https://files.pythonhosted.org/packages/45/d1/26f2b4eb42e05416d7662d5fb8b6f31b59dee6421945806c7b7bfdfbfa94/TDCRPy-0.0.8.tar.gz
+[2023-07-20 15:08:01] INFO root fetch - processPackages [fastapi-simple-pagination]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_simple_pagination-1.3.0.tar.gz]
+[2023-07-20 15:08:01] INFO root fetch - processPackages [fastapi-simple-pagination]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_simple_pagination-1.3.1.tar.gz]
+[2023-07-20 15:08:01] INFO root fetch - processPackages [fastapi-simple-pagination]: Start processing: dialogy
+[2023-07-20 15:08:01] INFO root fetch - main [MainThread]: End processing [fastapi-simple-pagination]: success
+[2023-07-20 15:08:01] INFO root fetch - processPackages [noci]: Remove: archive file [/home/abi/fetcher/tmp/noci-0.0.1.tar.gz]
+[2023-07-20 15:08:01] INFO root fetch - processPackages [noci]: Remove: archive file [/home/abi/fetcher/tmp/noci-0.0.2.tar.gz]
+[2023-07-20 15:08:01] INFO root fetch - processPackages [noci]: Start processing: zerospeech-benchmarks
+[2023-07-20 15:08:01] INFO root fetch - main [MainThread]: End processing [noci]: success
+[2023-07-20 15:08:01] INFO root fetch - processPackages [gulf-id-scanner]: Remove: archive file [/home/abi/fetcher/tmp/gulf_id_scanner-0.1.0b0.tar.gz]
+[2023-07-20 15:08:01] INFO root fetch - processPackages [gulf-id-scanner]: Remove: archive file [/home/abi/fetcher/tmp/gulf_id_scanner-0.1.0b1.tar.gz]
+[2023-07-20 15:08:01] INFO root fetch - main [MainThread]: End processing [gulf-id-scanner]: success
+[2023-07-20 15:08:01] INFO root fetch - processPackages [ou-container-builder]: Downloading https://files.pythonhosted.org/packages/08/f6/eb48f8211930e74a0f9cfb22606831e93b5fdf9a0d3b6a3f00a6ab7220dd/ou_container_builder-2.6.0.tar.gz
+[2023-07-20 15:08:01] INFO root fetch - processPackages [cubicweb-web]: Downloading https://files.pythonhosted.org/packages/3f/bc/9a05f152e0ec89639cf6ac89ac6d401c488557a4ac23f2d5c7e6b18145b3/cubicweb-web-1.2.0.tar.gz
+[2023-07-20 15:08:01] INFO root fetch - processPackages [zerospeech-benchmarks]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-07-20 15:08:01] INFO root fetch - processPackages [dialogy]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-07-20 15:08:01] INFO root fetch - processPackages [TDCRPy]: Downloading https://files.pythonhosted.org/packages/58/f4/f09bcfbd9ef3b75b2932ba824304fc7e7bcee566e8570cb2d64f76eb9adc/TDCRPy-0.0.9.tar.gz
+[2023-07-20 15:08:01] INFO root fetch - processPackages [TDCRPy]: executing diffoscope
+[2023-07-20 15:08:01] INFO root fetch - processPackages [TDCRPy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TDCRPy-0.0.8.tar.gz tmp/TDCRPy-0.0.9.tar.gz --markdown 20230720/T/TDCRPy/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-20 15:08:01] INFO root fetch - processPackages [zerospeech-benchmarks]: Downloading https://files.pythonhosted.org/packages/12/22/eca63b6fabc0e8756ca6fefd497a9f4dad4be4aec61314fedededc5c8d3c/zerospeech-benchmarks-0.9.2.tar.gz
+[2023-07-20 15:08:01] INFO root fetch - processPackages [dialogy]: Downloading https://files.pythonhosted.org/packages/ca/98/9c0607140525a5654c6e21f4f5142382491d00618c71ab35f6d398597a78/dialogy-2.0.8.tar.gz
+[2023-07-20 15:08:01] INFO root fetch - processPackages [drf-kit]: Remove: archive file [/home/abi/fetcher/tmp/drf-kit-1.8.7.tar.gz]
+[2023-07-20 15:08:01] INFO root fetch - processPackages [drf-kit]: Remove: archive file [/home/abi/fetcher/tmp/drf-kit-1.9.0.tar.gz]
+[2023-07-20 15:08:01] INFO root fetch - main [MainThread]: End processing [drf-kit]: success
+[2023-07-20 15:08:02] INFO root fetch - processPackages [ou-container-builder]: Downloading https://files.pythonhosted.org/packages/a8/6e/8dc0d6e8beb9a7fd1c18f5b961f4c32c443964687a4bafe0c9abc407eb52/ou_container_builder-2.6.1.tar.gz
+[2023-07-20 15:08:02] INFO root fetch - processPackages [zerospeech-benchmarks]: Downloading https://files.pythonhosted.org/packages/ee/c0/b0bdc1e0ee1daf615c1973aeede76d75d55334e283bec4d82f8759642a9c/zerospeech-benchmarks-0.9.3.tar.gz
+[2023-07-20 15:08:02] INFO root fetch - processPackages [dialogy]: Downloading https://files.pythonhosted.org/packages/ca/d9/dca00478422152d39f4cd3351f106029580ab4f7401eaf41b4329643ddbe/dialogy-2.0.9.tar.gz
+[2023-07-20 15:08:02] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/fbgemm_gpu_nightly_cpu-2023.7.19-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2023-07-20 15:08:02] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/fbgemm_gpu_nightly_cpu-2023.7.20-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2023-07-20 15:08:02] INFO root fetch - main [MainThread]: End processing [fbgemm-gpu-nightly-cpu]: success
+[2023-07-20 15:08:02] INFO root fetch - processPackages [elementary-data]: Remove: archive file [/home/abi/fetcher/tmp/elementary-data-0.9.0.tar.gz]
+[2023-07-20 15:08:02] INFO root fetch - processPackages [elementary-data]: Remove: archive file [/home/abi/fetcher/tmp/elementary-data-0.9.1.tar.gz]
+[2023-07-20 15:08:02] INFO root fetch - main [MainThread]: End processing [elementary-data]: success
+[2023-07-20 15:08:02] INFO root fetch - processPackages [zerospeech-benchmarks]: executing diffoscope
+[2023-07-20 15:08:02] INFO root fetch - processPackages [zerospeech-benchmarks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zerospeech-benchmarks-0.9.2.tar.gz tmp/zerospeech-benchmarks-0.9.3.tar.gz --markdown 20230720/z/zerospeech-benchmarks/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-07-20 15:08:02] INFO root fetch - processPackages [dialogy]: executing diffoscope
+[2023-07-20 15:08:02] INFO root fetch - processPackages [dialogy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dialogy-2.0.8.tar.gz tmp/dialogy-2.0.9.tar.gz --markdown 20230720/d/dialogy/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-07-20 15:08:02] INFO root fetch - processPackages [ou-container-builder]: executing diffoscope
+[2023-07-20 15:08:02] INFO root fetch - processPackages [ou-container-builder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ou_container_builder-2.6.0.tar.gz tmp/ou_container_builder-2.6.1.tar.gz --markdown 20230720/o/ou-container-builder/2.6.0-2.6.1/diff.md --exclude *.pyd
+[2023-07-20 15:08:02] INFO root fetch - processPackages [TDCRPy]: Remove: archive file [/home/abi/fetcher/tmp/TDCRPy-0.0.8.tar.gz]
+[2023-07-20 15:08:02] INFO root fetch - processPackages [TDCRPy]: Remove: archive file [/home/abi/fetcher/tmp/TDCRPy-0.0.9.tar.gz]
+[2023-07-20 15:08:02] INFO root fetch - main [MainThread]: End processing [TDCRPy]: success
+[2023-07-20 15:08:02] INFO root fetch - processPackages [cubicweb-web]: Downloading https://files.pythonhosted.org/packages/c1/59/105348c4d5d8a32bd9dc082e5385350e9435d1bfb4eadb5f46cb40745e40/cubicweb-web-1.2.1.tar.gz
+[2023-07-20 15:08:03] INFO root fetch - processPackages [cubicweb-web]: executing diffoscope
+[2023-07-20 15:08:03] INFO root fetch - processPackages [cubicweb-web]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cubicweb-web-1.2.0.tar.gz tmp/cubicweb-web-1.2.1.tar.gz --markdown 20230720/c/cubicweb-web/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-07-20 15:08:03] INFO root fetch - processPackages [dialogy]: Remove: archive file [/home/abi/fetcher/tmp/dialogy-2.0.8.tar.gz]
+[2023-07-20 15:08:03] INFO root fetch - processPackages [dialogy]: Remove: archive file [/home/abi/fetcher/tmp/dialogy-2.0.9.tar.gz]
+[2023-07-20 15:08:03] INFO root fetch - main [MainThread]: End processing [dialogy]: success
+[2023-07-20 15:08:03] INFO root fetch - processPackages [zerospeech-benchmarks]: Remove: archive file [/home/abi/fetcher/tmp/zerospeech-benchmarks-0.9.2.tar.gz]
+[2023-07-20 15:08:03] INFO root fetch - processPackages [zerospeech-benchmarks]: Remove: archive file [/home/abi/fetcher/tmp/zerospeech-benchmarks-0.9.3.tar.gz]
+[2023-07-20 15:08:03] INFO root fetch - main [MainThread]: End processing [zerospeech-benchmarks]: success
+[2023-07-20 15:08:05] INFO root fetch - processPackages [cubicweb-web]: Remove: archive file [/home/abi/fetcher/tmp/cubicweb-web-1.2.0.tar.gz]
+[2023-07-20 15:08:05] INFO root fetch - processPackages [cubicweb-web]: Remove: archive file [/home/abi/fetcher/tmp/cubicweb-web-1.2.1.tar.gz]
+[2023-07-20 15:08:05] INFO root fetch - main [MainThread]: End processing [cubicweb-web]: success
+[2023-07-20 15:08:07] INFO root fetch - processPackages [cornflakes]: Remove: archive file [/home/abi/fetcher/tmp/cornflakes-3.3.7.tar.gz]
+[2023-07-20 15:08:07] INFO root fetch - processPackages [cornflakes]: Remove: archive file [/home/abi/fetcher/tmp/cornflakes-3.3.8.tar.gz]
+[2023-07-20 15:08:07] INFO root fetch - main [MainThread]: End processing [cornflakes]: success
+[2023-07-20 15:08:08] INFO root fetch - processPackages [ou-container-builder]: Remove: archive file [/home/abi/fetcher/tmp/ou_container_builder-2.6.0.tar.gz]
+[2023-07-20 15:08:08] INFO root fetch - processPackages [ou-container-builder]: Remove: archive file [/home/abi/fetcher/tmp/ou_container_builder-2.6.1.tar.gz]
+[2023-07-20 15:08:08] INFO root fetch - main [MainThread]: End processing [ou-container-builder]: success
+[2023-07-20 15:08:08] INFO root fetch - main [MainThread]: Store serial: [18966756]
