@@ -15046,3 +15046,156 @@ AssertionError: tmp/verify4py-test-0.1.7.tar.gz does not exist
 [2023-07-20 17:46:55] INFO root fetch - processPackages [ChatGPT-Cloud]: Remove: archive file [/home/abi/fetcher/tmp/ChatGPT-Cloud-0.6.4.tar.gz]
 [2023-07-20 17:46:55] INFO root fetch - main [MainThread]: End processing [ChatGPT-Cloud]: success
 [2023-07-20 17:46:55] INFO root fetch - main [MainThread]: Store serial: [18969243]
+[2023-07-20 17:51:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18969243]
+[2023-07-20 17:52:03] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-07-20 17:52:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pydantic-resolve
+[2023-07-20 17:52:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyrasta
+[2023-07-20 17:52:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: helptasker-common
+[2023-07-20 17:52:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mavisim
+[2023-07-20 17:52:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: Clone-ChatGPT
+[2023-07-20 17:52:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ninjakiwi-api
+[2023-07-20 17:52:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: jsrl
+[2023-07-20 17:52:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: datasette-sqlite-vss
+[2023-07-20 17:52:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: sqlite-vss
+[2023-07-20 17:52:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: autonomous-app
+[2023-07-20 17:52:04] WARNING root fetch - processPackages [jsrl]: Skipping, unable to determine old version
+[2023-07-20 17:52:04] INFO root fetch - processPackages [jsrl]: Start processing: social-auth-mitxpro
+[2023-07-20 17:52:04] INFO root fetch - main [MainThread]: End processing [jsrl] error
+[2023-07-20 17:52:04] INFO root fetch - processPackages [pydantic-resolve]: New version: [1.6.3] Old Version: [1.6.2]
+[2023-07-20 17:52:04] INFO root fetch - processPackages [Clone-ChatGPT]: New version: [1.2.9.3] Old Version: [1.2.9.2]
+[2023-07-20 17:52:04] INFO root fetch - processPackages [autonomous-app]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-20 17:52:04] INFO root fetch - processPackages [helptasker-common]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-07-20 17:52:04] INFO root fetch - processPackages [pyrasta]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-07-20 17:52:04] INFO root fetch - processPackages [ninjakiwi-api]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-07-20 17:52:04] INFO root fetch - processPackages [datasette-sqlite-vss]: New version: [0.1.1a9] Old Version: [0.1.1a8]
+[2023-07-20 17:52:04] INFO root fetch - processPackages [mavisim]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-07-20 17:52:04] INFO root fetch - processPackages [sqlite-vss]: New version: [0.1.1a9] Old Version: [0.1.1a8]
+[2023-07-20 17:52:04] INFO root fetch - processPackages [social-auth-mitxpro]: New version: [0.6.2] Old Version: [0.6.1]
+[2023-07-20 17:52:04] INFO root fetch - processPackages [Clone-ChatGPT]: Downloading https://files.pythonhosted.org/packages/9b/75/9516ece3fe47084b72900bff11532ef6446d728295284ee3cb016a1f6190/Clone-ChatGPT-1.2.9.2.tar.gz
+[2023-07-20 17:52:04] INFO root fetch - processPackages [ninjakiwi-api]: Downloading https://files.pythonhosted.org/packages/7f/cd/2a93d0bc86bee2776a7541da9cfdb1bc8ba139eafa3f0b2c50e31f169930/ninjakiwi_api-0.0.6.tar.gz
+[2023-07-20 17:52:04] INFO root fetch - processPackages [helptasker-common]: Downloading https://files.pythonhosted.org/packages/e1/d2/cee8a58cffe96eb2d2b5828511e25b7cb8db21f8af635db9e1fa64a929ab/helptasker_common-0.2.0.tar.gz
+[2023-07-20 17:52:04] INFO root fetch - processPackages [mavisim]: Downloading https://files.pythonhosted.org/packages/9d/5a/e0dbe7e6ff03853bc0e2145643cb31136d19ef2e12c315b298ce9e743185/mavisim-1.1.8.tar.gz
+[2023-07-20 17:52:04] INFO root fetch - processPackages [sqlite-vss]: Downloading https://files.pythonhosted.org/packages/51/63/9dd1545bb1d137578652a5f27284866e142c23a512c823ced396eb35870b/sqlite_vss-0.1.1a8-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux1_x86_64.whl
+[2023-07-20 17:52:04] INFO root fetch - processPackages [pydantic-resolve]: Downloading https://files.pythonhosted.org/packages/51/ac/e128f6b1683bddae884aaa8021dd64089942daad2056125d2e92252945ff/pydantic_resolve-1.6.2.tar.gz
+[2023-07-20 17:52:04] INFO root fetch - processPackages [datasette-sqlite-vss]: Downloading https://files.pythonhosted.org/packages/6b/c9/46cbc03e6120a6d031ef47d3764f65fae9e0925e556486102f15dea9a2e7/datasette_sqlite_vss-0.1.1a8-py3-none-any.whl
+[2023-07-20 17:52:04] INFO root fetch - processPackages [social-auth-mitxpro]: Downloading https://files.pythonhosted.org/packages/6e/43/ba0a95245ba0978ef32ad6c7bdb9d258dd3ae0577e3aa6730cb116279357/social_auth_mitxpro-0.6.1.tar.gz
+[2023-07-20 17:52:04] INFO root fetch - processPackages [autonomous-app]: Downloading https://files.pythonhosted.org/packages/f4/4b/0d2146e74930d8af6549605dc8d6ae40d86c6a5c1e11f77dd2c6f4cdbb8d/autonomous-app-0.1.2.tar.gz
+[2023-07-20 17:52:04] INFO root fetch - processPackages [pyrasta]: Downloading https://files.pythonhosted.org/packages/26/95/876df8e65f7aeefad4a45be03c9dd18c2d195575717cdea6d482de616146/pyrasta-1.3.8.tar.gz
+[2023-07-20 17:52:04] INFO root fetch - processPackages [mavisim]: Downloading https://files.pythonhosted.org/packages/fa/1a/6083d193a61e74fb23f8c5eda765dd8b1f9acc6333e87b23faa729ff53b3/mavisim-1.1.9.tar.gz
+[2023-07-20 17:52:05] INFO root fetch - processPackages [ninjakiwi-api]: Downloading https://files.pythonhosted.org/packages/9f/fa/ba847ccfb710418c634d83ec0bce8b109ee10dc0175eedeefca7c8ba9efd/ninjakiwi_api-0.0.7.tar.gz
+[2023-07-20 17:52:05] INFO root fetch - processPackages [helptasker-common]: Downloading https://files.pythonhosted.org/packages/e9/a8/e230caafe56930a2ac0e3ac94481c294e77e6428c1b006f08f4621270b14/helptasker_common-0.2.1.tar.gz
+[2023-07-20 17:52:05] INFO root fetch - processPackages [sqlite-vss]: Downloading https://files.pythonhosted.org/packages/84/49/c3e9edf1447bbca8e97d5a521f090a99ac9069452f7cf7863df641abd8c2/sqlite_vss-0.1.1a9-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux1_x86_64.whl
+[2023-07-20 17:52:05] INFO root fetch - processPackages [Clone-ChatGPT]: Downloading https://files.pythonhosted.org/packages/9c/b3/6bc12c0bb177342dc8997f3e77b01b6d7aa130f9be63f1d9a6845edc48b9/Clone-ChatGPT-1.2.9.3.tar.gz
+[2023-07-20 17:52:05] INFO root fetch - processPackages [datasette-sqlite-vss]: Downloading https://files.pythonhosted.org/packages/78/39/1de339a6154e659c8a6464539aaa36ab5e4340a7d77d50f437b106ca0d12/datasette_sqlite_vss-0.1.1a9-py3-none-any.whl
+[2023-07-20 17:52:05] INFO root fetch - processPackages [pydantic-resolve]: Downloading https://files.pythonhosted.org/packages/fd/3a/77dd253adf81ce287e8ecc7d3c9737902f2801fbec9d33a3426ede433811/pydantic_resolve-1.6.3.tar.gz
+[2023-07-20 17:52:05] INFO root fetch - processPackages [mavisim]: executing diffoscope
+[2023-07-20 17:52:05] INFO root fetch - processPackages [mavisim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mavisim-1.1.8.tar.gz tmp/mavisim-1.1.9.tar.gz --markdown 20230720/m/mavisim/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-07-20 17:52:05] INFO root fetch - processPackages [autonomous-app]: Downloading https://files.pythonhosted.org/packages/2d/1d/06ec11621275e857dd7d172f09101c98a1e255f3fc18b90d1478cadcdedb/autonomous-app-0.1.3.tar.gz
+[2023-07-20 17:52:05] INFO root fetch - processPackages [ninjakiwi-api]: executing diffoscope
+[2023-07-20 17:52:05] INFO root fetch - processPackages [ninjakiwi-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ninjakiwi_api-0.0.6.tar.gz tmp/ninjakiwi_api-0.0.7.tar.gz --markdown 20230720/n/ninjakiwi-api/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-07-20 17:52:05] INFO root fetch - processPackages [social-auth-mitxpro]: Downloading https://files.pythonhosted.org/packages/5c/58/6ba6067a08b3b3b136fb03e63195b6cae249312dd354c439071fc96fa3b0/social_auth_mitxpro-0.6.2.tar.gz
+[2023-07-20 17:52:05] INFO root fetch - processPackages [pyrasta]: Downloading https://files.pythonhosted.org/packages/40/4b/717bc7c9626096e5d6f681e721bc2fef5029ecc0f19d0a4a2a13cf9ab5f2/pyrasta-1.3.9.tar.gz
+[2023-07-20 17:52:05] INFO root fetch - processPackages [helptasker-common]: executing diffoscope
+[2023-07-20 17:52:05] INFO root fetch - processPackages [helptasker-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/helptasker_common-0.2.0.tar.gz tmp/helptasker_common-0.2.1.tar.gz --markdown 20230720/h/helptasker-common/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-07-20 17:52:05] INFO root fetch - processPackages [datasette-sqlite-vss]: executing diffoscope
+[2023-07-20 17:52:05] INFO root fetch - processPackages [datasette-sqlite-vss]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datasette_sqlite_vss-0.1.1a8-py3-none-any.whl.zip tmp/datasette_sqlite_vss-0.1.1a9-py3-none-any.whl.zip --markdown 20230720/d/datasette-sqlite-vss/0.1.1a8-0.1.1a9/diff.md --exclude *.pyd
+[2023-07-20 17:52:05] INFO root fetch - processPackages [pydantic-resolve]: executing diffoscope
+[2023-07-20 17:52:05] INFO root fetch - processPackages [pydantic-resolve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydantic_resolve-1.6.2.tar.gz tmp/pydantic_resolve-1.6.3.tar.gz --markdown 20230720/p/pydantic-resolve/1.6.2-1.6.3/diff.md --exclude *.pyd
+[2023-07-20 17:52:05] INFO root fetch - processPackages [autonomous-app]: executing diffoscope
+[2023-07-20 17:52:05] INFO root fetch - processPackages [autonomous-app]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autonomous-app-0.1.2.tar.gz tmp/autonomous-app-0.1.3.tar.gz --markdown 20230720/a/autonomous-app/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-20 17:52:05] INFO root fetch - processPackages [social-auth-mitxpro]: executing diffoscope
+[2023-07-20 17:52:05] INFO root fetch - processPackages [social-auth-mitxpro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/social_auth_mitxpro-0.6.1.tar.gz tmp/social_auth_mitxpro-0.6.2.tar.gz --markdown 20230720/s/social-auth-mitxpro/0.6.1-0.6.2/diff.md --exclude *.pyd
+[2023-07-20 17:52:05] INFO root fetch - processPackages [sqlite-vss]: executing diffoscope
+[2023-07-20 17:52:05] INFO root fetch - processPackages [sqlite-vss]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlite_vss-0.1.1a8-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux1_x86_64.whl.zip tmp/sqlite_vss-0.1.1a9-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux1_x86_64.whl.zip --markdown 20230720/s/sqlite-vss/0.1.1a8-0.1.1a9/diff.md --exclude *.pyd
+[2023-07-20 17:52:05] INFO root fetch - processPackages [Clone-ChatGPT]: executing diffoscope
+[2023-07-20 17:52:05] INFO root fetch - processPackages [Clone-ChatGPT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Clone-ChatGPT-1.2.9.2.tar.gz tmp/Clone-ChatGPT-1.2.9.3.tar.gz --markdown 20230720/C/Clone-ChatGPT/1.2.9.2-1.2.9.3/diff.md --exclude *.pyd
+[2023-07-20 17:52:05] INFO root fetch - processPackages [pyrasta]: executing diffoscope
+[2023-07-20 17:52:05] INFO root fetch - processPackages [pyrasta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrasta-1.3.8.tar.gz tmp/pyrasta-1.3.9.tar.gz --markdown 20230720/p/pyrasta/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2023-07-20 17:52:06] INFO root fetch - processPackages [pydantic-resolve]: Remove: archive file [/home/abi/fetcher/tmp/pydantic_resolve-1.6.2.tar.gz]
+[2023-07-20 17:52:06] INFO root fetch - processPackages [pydantic-resolve]: Remove: archive file [/home/abi/fetcher/tmp/pydantic_resolve-1.6.3.tar.gz]
+[2023-07-20 17:52:06] INFO root fetch - processPackages [pydantic-resolve]: Start processing: lona
+[2023-07-20 17:52:06] INFO root fetch - main [MainThread]: End processing [pydantic-resolve]: success
+[2023-07-20 17:52:06] INFO root fetch - processPackages [mavisim]: Remove: archive file [/home/abi/fetcher/tmp/mavisim-1.1.8.tar.gz]
+[2023-07-20 17:52:06] INFO root fetch - processPackages [mavisim]: Remove: archive file [/home/abi/fetcher/tmp/mavisim-1.1.9.tar.gz]
+[2023-07-20 17:52:06] INFO root fetch - processPackages [mavisim]: Start processing: micropython-motor
+[2023-07-20 17:52:06] INFO root fetch - main [MainThread]: End processing [mavisim]: success
+[2023-07-20 17:52:06] INFO root fetch - processPackages [datasette-sqlite-vss]: Remove: archive file [/home/abi/fetcher/tmp/datasette_sqlite_vss-0.1.1a8-py3-none-any.whl.zip]
+[2023-07-20 17:52:06] INFO root fetch - processPackages [datasette-sqlite-vss]: Remove: archive file [/home/abi/fetcher/tmp/datasette_sqlite_vss-0.1.1a9-py3-none-any.whl.zip]
+[2023-07-20 17:52:06] INFO root fetch - processPackages [datasette-sqlite-vss]: Start processing: cloud-cost-allocation
+[2023-07-20 17:52:06] INFO root fetch - main [MainThread]: End processing [datasette-sqlite-vss]: success
+[2023-07-20 17:52:06] INFO root fetch - processPackages [ninjakiwi-api]: Remove: archive file [/home/abi/fetcher/tmp/ninjakiwi_api-0.0.6.tar.gz]
+[2023-07-20 17:52:06] INFO root fetch - processPackages [ninjakiwi-api]: Remove: archive file [/home/abi/fetcher/tmp/ninjakiwi_api-0.0.7.tar.gz]
+[2023-07-20 17:52:06] INFO root fetch - processPackages [ninjakiwi-api]: Start processing: nucliadb-contributor-assets
+[2023-07-20 17:52:06] INFO root fetch - main [MainThread]: End processing [ninjakiwi-api]: success
+[2023-07-20 17:52:06] INFO root fetch - processPackages [lona]: New version: [1.9] Old Version: [1.8.5]
+[2023-07-20 17:52:07] INFO root fetch - processPackages [helptasker-common]: Remove: archive file [/home/abi/fetcher/tmp/helptasker_common-0.2.0.tar.gz]
+[2023-07-20 17:52:07] INFO root fetch - processPackages [helptasker-common]: Remove: archive file [/home/abi/fetcher/tmp/helptasker_common-0.2.1.tar.gz]
+[2023-07-20 17:52:07] INFO root fetch - processPackages [helptasker-common]: Start processing: sidewinder-db
+[2023-07-20 17:52:07] INFO root fetch - main [MainThread]: End processing [helptasker-common]: success
+[2023-07-20 17:52:07] INFO root fetch - processPackages [micropython-motor]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-07-20 17:52:07] INFO root fetch - processPackages [cloud-cost-allocation]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-07-20 17:52:07] INFO root fetch - processPackages [nucliadb-contributor-assets]: New version: [1.0.0.post900] Old Version: [1.0.0.post899]
+[2023-07-20 17:52:07] INFO root fetch - processPackages [social-auth-mitxpro]: Remove: archive file [/home/abi/fetcher/tmp/social_auth_mitxpro-0.6.1.tar.gz]
+[2023-07-20 17:52:07] INFO root fetch - processPackages [social-auth-mitxpro]: Remove: archive file [/home/abi/fetcher/tmp/social_auth_mitxpro-0.6.2.tar.gz]
+[2023-07-20 17:52:07] INFO root fetch - processPackages [social-auth-mitxpro]: Start processing: smplkit
+[2023-07-20 17:52:07] INFO root fetch - main [MainThread]: End processing [social-auth-mitxpro]: success
+[2023-07-20 17:52:07] INFO root fetch - processPackages [autonomous-app]: Remove: archive file [/home/abi/fetcher/tmp/autonomous-app-0.1.2.tar.gz]
+[2023-07-20 17:52:07] INFO root fetch - processPackages [autonomous-app]: Remove: archive file [/home/abi/fetcher/tmp/autonomous-app-0.1.3.tar.gz]
+[2023-07-20 17:52:07] INFO root fetch - processPackages [autonomous-app]: Start processing: scraid
+[2023-07-20 17:52:07] INFO root fetch - main [MainThread]: End processing [autonomous-app]: success
+[2023-07-20 17:52:07] INFO root fetch - processPackages [sidewinder-db]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-20 17:52:07] INFO root fetch - processPackages [nucliadb-contributor-assets]: Downloading https://files.pythonhosted.org/packages/39/25/fd9941f84193f8444e26f42ba4e8dec5e498dc842a93d2786dccd09acca4/nucliadb_contributor_assets-1.0.0.post899-py3-none-any.whl
+[2023-07-20 17:52:07] WARNING root fetch - processPackages [scraid]: Skipping, unable to determine old version
+[2023-07-20 17:52:07] INFO root fetch - main [MainThread]: End processing [scraid] error
+[2023-07-20 17:52:07] INFO root fetch - processPackages [smplkit]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-20 17:52:07] INFO root fetch - processPackages [lona]: Downloading https://files.pythonhosted.org/packages/83/61/d2150282fe6b79aa4b23d9638b0fcdea4e57fa8b09e19dcded35f5834c8c/lona-1.8.5.tar.gz
+[2023-07-20 17:52:07] INFO root fetch - processPackages [pyrasta]: Remove: archive file [/home/abi/fetcher/tmp/pyrasta-1.3.8.tar.gz]
+[2023-07-20 17:52:07] INFO root fetch - processPackages [pyrasta]: Remove: archive file [/home/abi/fetcher/tmp/pyrasta-1.3.9.tar.gz]
+[2023-07-20 17:52:07] INFO root fetch - main [MainThread]: End processing [pyrasta]: success
+[2023-07-20 17:52:07] INFO root fetch - processPackages [micropython-motor]: Downloading https://files.pythonhosted.org/packages/8f/e3/7c0ec1de0b003bbfe96c9d9bb4ed1dbeb9fb095720b87b7b0b46f00cb4ee/micropython-motor-0.1.0.tar.gz
+[2023-07-20 17:52:07] INFO root fetch - processPackages [cloud-cost-allocation]: Downloading https://files.pythonhosted.org/packages/b0/af/321416d6d75a4443cae135080f7f042e171ede4c500908bae65c752b017e/cloud-cost-allocation-1.0.5.tar.gz
+[2023-07-20 17:52:07] INFO root fetch - processPackages [sidewinder-db]: Downloading https://files.pythonhosted.org/packages/41/8c/4962d301dbebe1579580beddfee1d2e67b820f27a1cf41283445c7219faa/sidewinder-db-0.0.8.tar.gz
+[2023-07-20 17:52:07] INFO root fetch - processPackages [smplkit]: Downloading https://files.pythonhosted.org/packages/36/64/939755259d7468f99f3811a93c748f8e89ddea05d650a69ee4ae66fb7f12/smplkit-0.0.1.tar.gz
+[2023-07-20 17:52:07] INFO root fetch - processPackages [Clone-ChatGPT]: Remove: archive file [/home/abi/fetcher/tmp/Clone-ChatGPT-1.2.9.2.tar.gz]
+[2023-07-20 17:52:07] INFO root fetch - processPackages [Clone-ChatGPT]: Remove: archive file [/home/abi/fetcher/tmp/Clone-ChatGPT-1.2.9.3.tar.gz]
+[2023-07-20 17:52:07] INFO root fetch - main [MainThread]: End processing [Clone-ChatGPT]: success
+[2023-07-20 17:52:07] INFO root fetch - processPackages [cloud-cost-allocation]: Downloading https://files.pythonhosted.org/packages/96/c8/488571f46337a5330b562aeb63ecf0dd71dc8a8fcfb14564b11641e36343/cloud-cost-allocation-1.0.6.tar.gz
+[2023-07-20 17:52:07] INFO root fetch - processPackages [micropython-motor]: Downloading https://files.pythonhosted.org/packages/d1/1e/5c4bc4334560bbbb93976a48906ebfb7d9e1293adeb4071765cc8ed3b840/micropython-motor-0.2.0.tar.gz
+[2023-07-20 17:52:07] INFO root fetch - processPackages [nucliadb-contributor-assets]: Downloading https://files.pythonhosted.org/packages/27/01/8d7742c91736582b6d64160f5c616451a96c7cd40b7982e952e8d7d9c534/nucliadb_contributor_assets-1.0.0.post900-py3-none-any.whl
+[2023-07-20 17:52:07] INFO root fetch - processPackages [lona]: Downloading https://files.pythonhosted.org/packages/86/aa/9e7d60f5a341def5c43aff6771b9a7254fe60b07cc5c114265d59bde8319/lona-1.9.tar.gz
+[2023-07-20 17:52:07] INFO root fetch - processPackages [cloud-cost-allocation]: executing diffoscope
+[2023-07-20 17:52:07] INFO root fetch - processPackages [cloud-cost-allocation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloud-cost-allocation-1.0.5.tar.gz tmp/cloud-cost-allocation-1.0.6.tar.gz --markdown 20230720/c/cloud-cost-allocation/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-07-20 17:52:07] INFO root fetch - processPackages [sidewinder-db]: Downloading https://files.pythonhosted.org/packages/b4/1e/90ca024c383d5af900d01d83653527bcf952ac605ca5599cb8668cc17609/sidewinder-db-0.0.9.tar.gz
+[2023-07-20 17:52:07] INFO root fetch - processPackages [micropython-motor]: executing diffoscope
+[2023-07-20 17:52:07] INFO root fetch - processPackages [micropython-motor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/micropython-motor-0.1.0.tar.gz tmp/micropython-motor-0.2.0.tar.gz --markdown 20230720/m/micropython-motor/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-07-20 17:52:07] INFO root fetch - processPackages [lona]: executing diffoscope
+[2023-07-20 17:52:07] INFO root fetch - processPackages [lona]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lona-1.8.5.tar.gz tmp/lona-1.9.tar.gz --markdown 20230720/l/lona/1.8.5-1.9/diff.md --exclude *.pyd
+[2023-07-20 17:52:07] INFO root fetch - processPackages [smplkit]: Downloading https://files.pythonhosted.org/packages/07/17/90cc4495d360aad7542c9d88f85c7701fb49acc6fc8b1cda2e61d8a79d76/smplkit-0.0.2.tar.gz
+[2023-07-20 17:52:07] INFO root fetch - processPackages [nucliadb-contributor-assets]: executing diffoscope
+[2023-07-20 17:52:07] INFO root fetch - processPackages [nucliadb-contributor-assets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_contributor_assets-1.0.0.post899-py3-none-any.whl.zip tmp/nucliadb_contributor_assets-1.0.0.post900-py3-none-any.whl.zip --markdown 20230720/n/nucliadb-contributor-assets/1.0.0.post899-1.0.0.post900/diff.md --exclude *.pyd
+[2023-07-20 17:52:08] INFO root fetch - processPackages [sidewinder-db]: executing diffoscope
+[2023-07-20 17:52:08] INFO root fetch - processPackages [sidewinder-db]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sidewinder-db-0.0.8.tar.gz tmp/sidewinder-db-0.0.9.tar.gz --markdown 20230720/s/sidewinder-db/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-20 17:52:08] INFO root fetch - processPackages [smplkit]: executing diffoscope
+[2023-07-20 17:52:08] INFO root fetch - processPackages [smplkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smplkit-0.0.1.tar.gz tmp/smplkit-0.0.2.tar.gz --markdown 20230720/s/smplkit/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-20 17:52:08] INFO root fetch - processPackages [micropython-motor]: Remove: archive file [/home/abi/fetcher/tmp/micropython-motor-0.1.0.tar.gz]
+[2023-07-20 17:52:08] INFO root fetch - processPackages [micropython-motor]: Remove: archive file [/home/abi/fetcher/tmp/micropython-motor-0.2.0.tar.gz]
+[2023-07-20 17:52:08] INFO root fetch - main [MainThread]: End processing [micropython-motor]: success
+[2023-07-20 17:52:09] INFO root fetch - processPackages [cloud-cost-allocation]: Remove: archive file [/home/abi/fetcher/tmp/cloud-cost-allocation-1.0.5.tar.gz]
+[2023-07-20 17:52:09] INFO root fetch - processPackages [cloud-cost-allocation]: Remove: archive file [/home/abi/fetcher/tmp/cloud-cost-allocation-1.0.6.tar.gz]
+[2023-07-20 17:52:09] INFO root fetch - main [MainThread]: End processing [cloud-cost-allocation]: success
+[2023-07-20 17:52:09] INFO root fetch - processPackages [sidewinder-db]: Remove: archive file [/home/abi/fetcher/tmp/sidewinder-db-0.0.8.tar.gz]
+[2023-07-20 17:52:09] INFO root fetch - processPackages [sidewinder-db]: Remove: archive file [/home/abi/fetcher/tmp/sidewinder-db-0.0.9.tar.gz]
+[2023-07-20 17:52:09] INFO root fetch - main [MainThread]: End processing [sidewinder-db]: success
+[2023-07-20 17:52:09] INFO root fetch - processPackages [smplkit]: Remove: archive file [/home/abi/fetcher/tmp/smplkit-0.0.1.tar.gz]
+[2023-07-20 17:52:09] INFO root fetch - processPackages [smplkit]: Remove: archive file [/home/abi/fetcher/tmp/smplkit-0.0.2.tar.gz]
+[2023-07-20 17:52:09] INFO root fetch - main [MainThread]: End processing [smplkit]: success
+[2023-07-20 17:52:09] INFO root fetch - processPackages [nucliadb-contributor-assets]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_contributor_assets-1.0.0.post899-py3-none-any.whl.zip]
+[2023-07-20 17:52:09] INFO root fetch - processPackages [nucliadb-contributor-assets]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_contributor_assets-1.0.0.post900-py3-none-any.whl.zip]
+[2023-07-20 17:52:09] INFO root fetch - main [MainThread]: End processing [nucliadb-contributor-assets]: success
+[2023-07-20 17:52:09] INFO root fetch - processPackages [lona]: Remove: archive file [/home/abi/fetcher/tmp/lona-1.8.5.tar.gz]
+[2023-07-20 17:52:09] INFO root fetch - processPackages [lona]: Remove: archive file [/home/abi/fetcher/tmp/lona-1.9.tar.gz]
+[2023-07-20 17:52:09] INFO root fetch - main [MainThread]: End processing [lona]: success
+[2023-07-20 17:52:28] INFO root fetch - processPackages [sqlite-vss]: Remove: archive file [/home/abi/fetcher/tmp/sqlite_vss-0.1.1a8-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux1_x86_64.whl.zip]
+[2023-07-20 17:52:28] INFO root fetch - processPackages [sqlite-vss]: Remove: archive file [/home/abi/fetcher/tmp/sqlite_vss-0.1.1a9-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux1_x86_64.whl.zip]
+[2023-07-20 17:52:28] INFO root fetch - main [MainThread]: End processing [sqlite-vss]: success
+[2023-07-20 17:52:28] INFO root fetch - main [MainThread]: Store serial: [18969301]
