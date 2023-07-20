@@ -16039,3 +16039,179 @@ AssertionError: tmp/verify4py-test-0.1.7.tar.gz does not exist
 [2023-07-20 18:29:13] INFO root fetch - processPackages [vultr-python-client]: Remove: archive file [/home/abi/fetcher/tmp/vultr-python-client-1.0.2.tar.gz]
 [2023-07-20 18:29:13] INFO root fetch - main [MainThread]: End processing [vultr-python-client]: success
 [2023-07-20 18:29:13] INFO root fetch - main [MainThread]: Store serial: [18969615]
+[2023-07-20 18:34:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18969615]
+[2023-07-20 18:34:23] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-07-20 18:34:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: veetility
+[2023-07-20 18:34:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: py-go-goose
+[2023-07-20 18:34:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cosapp
+[2023-07-20 18:34:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ovos-workshop
+[2023-07-20 18:34:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: up-nextflap
+[2023-07-20 18:34:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: openai-forward
+[2023-07-20 18:34:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tortoise-api
+[2023-07-20 18:34:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pulumi-confluentcloud
+[2023-07-20 18:34:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ldeep
+[2023-07-20 18:34:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: elifecleaner
+[2023-07-20 18:34:23] INFO root fetch - processPackages [up-nextflap]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-20 18:34:23] INFO root fetch - processPackages [pulumi-confluentcloud]: New version: [1.9.0a1675887560] Old Version: [1.9.0]
+[2023-07-20 18:34:23] INFO root fetch - processPackages [veetility]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-07-20 18:34:23] INFO root fetch - processPackages [elifecleaner]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-07-20 18:34:23] INFO root fetch - processPackages [ldeep]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-20 18:34:23] INFO root fetch - processPackages [openai-forward]: New version: [0.3.0a0] Old Version: [0.3.0]
+[2023-07-20 18:34:23] INFO root fetch - processPackages [py-go-goose]: New version: [1.4.4] Old Version: [1.4.3]
+[2023-07-20 18:34:23] INFO root fetch - processPackages [cosapp]: New version: [0.15.0] Old Version: [0.14.1]
+[2023-07-20 18:34:23] INFO root fetch - processPackages [tortoise-api]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-07-20 18:34:23] INFO root fetch - processPackages [ovos-workshop]: New version: [0.0.9a1] Old Version: [0.0.9]
+[2023-07-20 18:34:23] INFO root fetch - processPackages [py-go-goose]: Downloading https://files.pythonhosted.org/packages/8f/c6/7b940223353ce0f001ce266e82b63dd94b7b86089eff156da65fdcb9ca59/py_go_goose-1.4.3-py3-none-any.whl
+[2023-07-20 18:34:23] INFO root fetch - processPackages [pulumi-confluentcloud]: Downloading https://files.pythonhosted.org/packages/ee/5c/83ab7b1cf2467d8b22165c469862d15e131885dbf277da0d1bb686af03fe/pulumi_confluentcloud-1.9.0.tar.gz
+[2023-07-20 18:34:23] INFO root fetch - processPackages [ldeep]: Downloading https://files.pythonhosted.org/packages/24/e2/09c2ff64528ba7e556d1f75dec902fee07b80fdde1f9ffcf6dd1e182bfcf/ldeep-1.0.8.tar.gz
+[2023-07-20 18:34:23] INFO root fetch - processPackages [up-nextflap]: Downloading https://files.pythonhosted.org/packages/9a/ce/af9f3cd003b18d11a34146040d9d25d14ef28191cbf9a7e013230e6838ec/up_nextflap-0.0.3.tar.gz
+[2023-07-20 18:34:23] INFO root fetch - processPackages [tortoise-api]: Downloading https://files.pythonhosted.org/packages/7e/58/22352e399d81b6f1ba3a9208f6d4a367ddebb9436375da813ed9cd824a0b/tortoise-api-0.0.6.tar.gz
+[2023-07-20 18:34:23] INFO root fetch - processPackages [cosapp]: Downloading https://files.pythonhosted.org/packages/22/50/4c98de18bbc2f41b152fabd5f19a9e1281532c0ac93933236b7cee77e189/cosapp-0.14.1.tar.gz
+[2023-07-20 18:34:23] INFO root fetch - processPackages [veetility]: Downloading https://files.pythonhosted.org/packages/b4/6c/d6775912e1f4b22333ed3a4fee91721e0069b8797ba5c31097f91a3135d6/veetility-0.1.98.tar.gz
+[2023-07-20 18:34:23] INFO root fetch - processPackages [elifecleaner]: Downloading https://files.pythonhosted.org/packages/d8/0e/4046c55d79880da671663d71e149bd71481ded59f3d48fcdbcb00ba806d5/elifecleaner-0.9.0.tar.gz
+[2023-07-20 18:34:23] INFO root fetch - processPackages [openai-forward]: Downloading https://files.pythonhosted.org/packages/1f/b8/6fca5f185d1bfb7216eaf1f3f95fda5032fa53d8849d8710aa56804e342b/openai_forward-0.3.0.tar.gz
+[2023-07-20 18:34:23] INFO root fetch - processPackages [ovos-workshop]: Downloading https://files.pythonhosted.org/packages/b6/ab/62ae7616b83875d5219bb580c1e6a2ff0fdbdc91c8a9b55495dd60066611/ovos_workshop-0.0.9-py3-none-any.whl
+[2023-07-20 18:34:24] INFO root fetch - processPackages [pulumi-confluentcloud]: Downloading https://files.pythonhosted.org/packages/ec/f6/4c3900e97797a3f84c4c58458a6334035e702bd96d9ed3ec48d8e6e20f4e/pulumi_confluentcloud-1.9.0a1675887560.tar.gz
+[2023-07-20 18:34:24] INFO root fetch - processPackages [ldeep]: Downloading https://files.pythonhosted.org/packages/e2/b0/645c2fce50d34f47b9f5b8fb9be8a6c2e716ddb3573e379f4221970560bc/ldeep-1.0.9.tar.gz
+[2023-07-20 18:34:24] INFO root fetch - processPackages [tortoise-api]: Downloading https://files.pythonhosted.org/packages/76/ee/ef78e1e89e6e842d343af61fd30b6bb1271ce8a1fdf5151d915c471dedb6/tortoise-api-0.0.7.tar.gz
+[2023-07-20 18:34:24] INFO root fetch - processPackages [ldeep]: executing diffoscope
+[2023-07-20 18:34:24] INFO root fetch - processPackages [ldeep]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ldeep-1.0.8.tar.gz tmp/ldeep-1.0.9.tar.gz --markdown 20230720/l/ldeep/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-20 18:34:24] INFO root fetch - processPackages [pulumi-confluentcloud]: executing diffoscope
+[2023-07-20 18:34:24] INFO root fetch - processPackages [pulumi-confluentcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_confluentcloud-1.9.0.tar.gz tmp/pulumi_confluentcloud-1.9.0a1675887560.tar.gz --markdown 20230720/p/pulumi-confluentcloud/1.9.0-1.9.0a1675887560/diff.md --exclude *.pyd
+[2023-07-20 18:34:24] INFO root fetch - processPackages [elifecleaner]: Downloading https://files.pythonhosted.org/packages/ba/d9/f14856c509de287aec8a31e76808f681383e338462e051c31edcecd1527f/elifecleaner-0.9.1.tar.gz
+[2023-07-20 18:34:24] INFO root fetch - processPackages [openai-forward]: Downloading https://files.pythonhosted.org/packages/e9/df/0af3523011773929f803188f6f13c8fa2c24725d4e7cc199d175dfc7f5e7/openai_forward-0.3.0a0.tar.gz
+[2023-07-20 18:34:24] INFO root fetch - processPackages [tortoise-api]: executing diffoscope
+[2023-07-20 18:34:24] INFO root fetch - processPackages [tortoise-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tortoise-api-0.0.6.tar.gz tmp/tortoise-api-0.0.7.tar.gz --markdown 20230720/t/tortoise-api/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-07-20 18:34:24] INFO root fetch - processPackages [veetility]: Downloading https://files.pythonhosted.org/packages/a0/4f/eb1359196e4e216d1ccfde231e462db3887b8a191ac90d104f3b45fa4169/veetility-0.1.99.tar.gz
+[2023-07-20 18:34:24] INFO root fetch - processPackages [ovos-workshop]: Downloading https://files.pythonhosted.org/packages/78/03/4b813a66c30f57b7c996eda91cf259cb974ad9186f3ae1762c9384e34fc7/ovos_workshop-0.0.9a1-py3-none-any.whl
+[2023-07-20 18:34:24] INFO root fetch - processPackages [py-go-goose]: Downloading https://files.pythonhosted.org/packages/52/9d/92a5f7704bce5aabd939f354ad1cf54064df0723a79af54afa3c2ce4e2f8/py_go_goose-1.4.4-cp38-cp38-macosx_13_0_arm64.whl
+[2023-07-20 18:34:24] INFO root fetch - processPackages [openai-forward]: executing diffoscope
+[2023-07-20 18:34:24] INFO root fetch - processPackages [openai-forward]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openai_forward-0.3.0.tar.gz tmp/openai_forward-0.3.0a0.tar.gz --markdown 20230720/o/openai-forward/0.3.0-0.3.0a0/diff.md --exclude *.pyd
+[2023-07-20 18:34:24] INFO root fetch - processPackages [veetility]: executing diffoscope
+[2023-07-20 18:34:24] INFO root fetch - processPackages [veetility]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/veetility-0.1.98.tar.gz tmp/veetility-0.1.99.tar.gz --markdown 20230720/v/veetility/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-07-20 18:34:24] INFO root fetch - processPackages [ovos-workshop]: executing diffoscope
+[2023-07-20 18:34:24] INFO root fetch - processPackages [ovos-workshop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ovos_workshop-0.0.9-py3-none-any.whl.zip tmp/ovos_workshop-0.0.9a1-py3-none-any.whl.zip --markdown 20230720/o/ovos-workshop/0.0.9-0.0.9a1/diff.md --exclude *.pyd
+[2023-07-20 18:34:24] INFO root fetch - processPackages [cosapp]: Downloading https://files.pythonhosted.org/packages/d4/c7/23bd5ea20230550105466cd5e6072ac79f41b0c14f3f9887fe9e08cf8632/cosapp-0.15.0.tar.gz
+[2023-07-20 18:34:24] INFO root fetch - processPackages [py-go-goose]: executing diffoscope
+[2023-07-20 18:34:24] INFO root fetch - processPackages [py-go-goose]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_go_goose-1.4.3-py3-none-any.whl.zip tmp/py_go_goose-1.4.4-cp38-cp38-macosx_13_0_arm64.whl.zip --markdown 20230720/p/py-go-goose/1.4.3-1.4.4/diff.md --exclude *.pyd
+[2023-07-20 18:34:25] INFO root fetch - processPackages [cosapp]: executing diffoscope
+[2023-07-20 18:34:25] INFO root fetch - processPackages [cosapp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cosapp-0.14.1.tar.gz tmp/cosapp-0.15.0.tar.gz --markdown 20230720/c/cosapp/0.14.1-0.15.0/diff.md --exclude *.pyd
+[2023-07-20 18:34:25] INFO root fetch - processPackages [elifecleaner]: executing diffoscope
+[2023-07-20 18:34:25] INFO root fetch - processPackages [elifecleaner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/elifecleaner-0.9.0.tar.gz tmp/elifecleaner-0.9.1.tar.gz --markdown 20230720/e/elifecleaner/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-07-20 18:34:25] INFO root fetch - processPackages [up-nextflap]: Downloading https://files.pythonhosted.org/packages/4a/f8/82247fe33258ab6fec4bfe70190aa849ca498056dbc5dc3d1aefbdd85837/up_nextflap-0.0.4.tar.gz
+[2023-07-20 18:34:25] INFO root fetch - processPackages [tortoise-api]: Remove: archive file [/home/abi/fetcher/tmp/tortoise-api-0.0.6.tar.gz]
+[2023-07-20 18:34:25] INFO root fetch - processPackages [tortoise-api]: Remove: archive file [/home/abi/fetcher/tmp/tortoise-api-0.0.7.tar.gz]
+[2023-07-20 18:34:25] INFO root fetch - processPackages [tortoise-api]: Start processing: salure-helpers-profit
+[2023-07-20 18:34:25] INFO root fetch - main [MainThread]: End processing [tortoise-api]: success
+[2023-07-20 18:34:25] INFO root fetch - processPackages [salure-helpers-profit]: New version: [2.0.0] Old Version: [1.3.6]
+[2023-07-20 18:34:25] INFO root fetch - processPackages [ldeep]: Remove: archive file [/home/abi/fetcher/tmp/ldeep-1.0.8.tar.gz]
+[2023-07-20 18:34:25] INFO root fetch - processPackages [ldeep]: Remove: archive file [/home/abi/fetcher/tmp/ldeep-1.0.9.tar.gz]
+[2023-07-20 18:34:25] INFO root fetch - processPackages [ldeep]: Start processing: threemystic-cloud-data-client
+[2023-07-20 18:34:25] INFO root fetch - main [MainThread]: End processing [ldeep]: success
+[2023-07-20 18:34:25] INFO root fetch - processPackages [threemystic-cloud-data-client]: New version: [0.1.15] Old Version: [0.1.14]
+[2023-07-20 18:34:25] INFO root fetch - processPackages [openai-forward]: Remove: archive file [/home/abi/fetcher/tmp/openai_forward-0.3.0.tar.gz]
+[2023-07-20 18:34:25] INFO root fetch - processPackages [openai-forward]: Remove: archive file [/home/abi/fetcher/tmp/openai_forward-0.3.0a0.tar.gz]
+[2023-07-20 18:34:25] INFO root fetch - processPackages [salure-helpers-profit]: Downloading https://files.pythonhosted.org/packages/6b/67/e4cce5292f00649b1f8dc89116c247d4f4ef4e223cd2cefc5130bcf5ca41/salure_helpers_profit-1.3.6.tar.gz
+[2023-07-20 18:34:25] INFO root fetch - processPackages [openai-forward]: Start processing: skale-contracts
+[2023-07-20 18:34:25] INFO root fetch - main [MainThread]: End processing [openai-forward]: success
+[2023-07-20 18:34:25] INFO root fetch - processPackages [pulumi-confluentcloud]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_confluentcloud-1.9.0.tar.gz]
+[2023-07-20 18:34:25] INFO root fetch - processPackages [pulumi-confluentcloud]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_confluentcloud-1.9.0a1675887560.tar.gz]
+[2023-07-20 18:34:25] INFO root fetch - processPackages [pulumi-confluentcloud]: Start processing: gdal2numpy
+[2023-07-20 18:34:25] INFO root fetch - processPackages [skale-contracts]: New version: [0.0.1.dev978114706300915430] Old Version: [0.0.1.dev9714958449586304]
+[2023-07-20 18:34:25] INFO root fetch - main [MainThread]: End processing [pulumi-confluentcloud]: success
+[2023-07-20 18:34:25] INFO root fetch - processPackages [gdal2numpy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-20 18:34:25] INFO root fetch - processPackages [ovos-workshop]: Remove: archive file [/home/abi/fetcher/tmp/ovos_workshop-0.0.9-py3-none-any.whl.zip]
+[2023-07-20 18:34:25] INFO root fetch - processPackages [ovos-workshop]: Remove: archive file [/home/abi/fetcher/tmp/ovos_workshop-0.0.9a1-py3-none-any.whl.zip]
+[2023-07-20 18:34:26] INFO root fetch - processPackages [ovos-workshop]: Start processing: service-configuration-lib
+[2023-07-20 18:34:26] INFO root fetch - main [MainThread]: End processing [ovos-workshop]: success
+[2023-07-20 18:34:26] INFO root fetch - processPackages [skale-contracts]: Downloading https://files.pythonhosted.org/packages/c8/b9/d04f09e9314c768a9e7566cbf97ac25f4abfcf0954a27f6b25c1dafa1afe/skale-contracts-0.0.1.dev9714958449586304.tar.gz
+[2023-07-20 18:34:26] INFO root fetch - processPackages [threemystic-cloud-data-client]: Downloading https://files.pythonhosted.org/packages/29/23/6171c654ced2ebd5e0f448df1b1a851e23aba584751b95d9e97c83558343/threemystic_cloud_data_client-0.1.14.tar.gz
+[2023-07-20 18:34:26] INFO root fetch - processPackages [service-configuration-lib]: New version: [2.9.0] Old Version: [2.8.0]
+[2023-07-20 18:34:26] INFO root fetch - processPackages [veetility]: Remove: archive file [/home/abi/fetcher/tmp/veetility-0.1.98.tar.gz]
+[2023-07-20 18:34:26] INFO root fetch - processPackages [veetility]: Remove: archive file [/home/abi/fetcher/tmp/veetility-0.1.99.tar.gz]
+[2023-07-20 18:34:26] INFO root fetch - processPackages [veetility]: Start processing: gwdg-idm-api
+[2023-07-20 18:34:26] INFO root fetch - main [MainThread]: End processing [veetility]: success
+[2023-07-20 18:34:26] INFO root fetch - processPackages [gwdg-idm-api]: New version: [2.2.0] Old Version: [2.1.0]
+[2023-07-20 18:34:26] INFO root fetch - processPackages [salure-helpers-profit]: Downloading https://files.pythonhosted.org/packages/ab/ea/79f7efd5ec955e54284a72203a30cc6722e93bf29c7552bc7b51714af83b/salure_helpers_profit-2.0.0.tar.gz
+[2023-07-20 18:34:26] INFO root fetch - processPackages [gdal2numpy]: Downloading https://files.pythonhosted.org/packages/8b/c7/c38f143f5db75454a9df08f7ff287cb3de46fb5f10139def0fcb92a15404/gdal2numpy-0.0.98.tar.gz
+[2023-07-20 18:34:26] INFO root fetch - processPackages [elifecleaner]: Remove: archive file [/home/abi/fetcher/tmp/elifecleaner-0.9.0.tar.gz]
+[2023-07-20 18:34:26] INFO root fetch - processPackages [elifecleaner]: Remove: archive file [/home/abi/fetcher/tmp/elifecleaner-0.9.1.tar.gz]
+[2023-07-20 18:34:26] INFO root fetch - processPackages [elifecleaner]: Start processing: EnvisionRiskRaaS
+[2023-07-20 18:34:26] INFO root fetch - main [MainThread]: End processing [elifecleaner]: success
+[2023-07-20 18:34:26] INFO root fetch - processPackages [EnvisionRiskRaaS]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-20 18:34:26] INFO root fetch - processPackages [service-configuration-lib]: Downloading https://files.pythonhosted.org/packages/32/bc/50c0c486ef8868d70e1ede030d9152799090473991e4384059539a9b1e98/service-configuration-lib-2.8.0.tar.gz
+[2023-07-20 18:34:26] INFO root fetch - processPackages [skale-contracts]: Downloading https://files.pythonhosted.org/packages/66/0d/dc0adfaa5fdd6130f89cd1424b654098ff03a31b3b7faf85ee62a0a14322/skale-contracts-0.0.1.dev978114706300915430.tar.gz
+[2023-07-20 18:34:26] INFO root fetch - processPackages [threemystic-cloud-data-client]: Downloading https://files.pythonhosted.org/packages/e8/90/692b69673f24464f81efb57b18b2c07d18a618a48bfdf5a634dd6cdf69d7/threemystic_cloud_data_client-0.1.15.tar.gz
+[2023-07-20 18:34:26] INFO root fetch - processPackages [salure-helpers-profit]: executing diffoscope
+[2023-07-20 18:34:26] INFO root fetch - processPackages [salure-helpers-profit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/salure_helpers_profit-1.3.6.tar.gz tmp/salure_helpers_profit-2.0.0.tar.gz --markdown 20230720/s/salure-helpers-profit/1.3.6-2.0.0/diff.md --exclude *.pyd
+[2023-07-20 18:34:26] INFO root fetch - processPackages [gwdg-idm-api]: Downloading https://files.pythonhosted.org/packages/f4/e0/6333c4d9aaff61bc7f4a6edf6f0fe2d72d1f2cbc1d59d9db9342e0dbf15e/gwdg_idm_api-2.1.0.tar.gz
+[2023-07-20 18:34:26] INFO root fetch - processPackages [skale-contracts]: executing diffoscope
+[2023-07-20 18:34:26] INFO root fetch - processPackages [skale-contracts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skale-contracts-0.0.1.dev9714958449586304.tar.gz tmp/skale-contracts-0.0.1.dev978114706300915430.tar.gz --markdown 20230720/s/skale-contracts/0.0.1.dev9714958449586304-0.0.1.dev978114706300915430/diff.md --exclude *.pyd
+[2023-07-20 18:34:26] INFO root fetch - processPackages [threemystic-cloud-data-client]: executing diffoscope
+[2023-07-20 18:34:26] INFO root fetch - processPackages [threemystic-cloud-data-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/threemystic_cloud_data_client-0.1.14.tar.gz tmp/threemystic_cloud_data_client-0.1.15.tar.gz --markdown 20230720/t/threemystic-cloud-data-client/0.1.14-0.1.15/diff.md --exclude *.pyd
+[2023-07-20 18:34:26] INFO root fetch - processPackages [gdal2numpy]: Downloading https://files.pythonhosted.org/packages/67/ee/9c755bd5249fc9dc6a1dd773cb241c19b8df83a94fc0674017b57bd19e20/gdal2numpy-0.0.99.tar.gz
+[2023-07-20 18:34:26] INFO root fetch - processPackages [py-go-goose]: Remove: archive file [/home/abi/fetcher/tmp/py_go_goose-1.4.3-py3-none-any.whl.zip]
+[2023-07-20 18:34:26] INFO root fetch - processPackages [py-go-goose]: Remove: archive file [/home/abi/fetcher/tmp/py_go_goose-1.4.4-cp38-cp38-macosx_13_0_arm64.whl.zip]
+[2023-07-20 18:34:26] INFO root fetch - processPackages [py-go-goose]: Start processing: skale-contracts
+[2023-07-20 18:34:26] INFO root fetch - main [MainThread]: End processing [py-go-goose]: success
+[2023-07-20 18:34:26] INFO root fetch - processPackages [skale-contracts]: New version: [0.0.1.dev978114706300915430] Old Version: [0.0.1.dev9714958449586304]
+[2023-07-20 18:34:26] INFO root fetch - processPackages [EnvisionRiskRaaS]: Downloading https://files.pythonhosted.org/packages/05/bd/ca211f5e126a823b736d251179e93e48c9c9511f2061e6faac5526db92c2/envisionriskraas-1.0.1.tar.gz
+[2023-07-20 18:34:26] INFO root fetch - processPackages [gdal2numpy]: executing diffoscope
+[2023-07-20 18:34:26] INFO root fetch - processPackages [gdal2numpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gdal2numpy-0.0.98.tar.gz tmp/gdal2numpy-0.0.99.tar.gz --markdown 20230720/g/gdal2numpy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-20 18:34:26] INFO root fetch - processPackages [service-configuration-lib]: Downloading https://files.pythonhosted.org/packages/08/ad/99858a3ee1fce3071381a61c7a2502b9fd908605783332e4af449df36153/service-configuration-lib-2.9.0.tar.gz
+[2023-07-20 18:34:26] INFO root fetch - processPackages [up-nextflap]: executing diffoscope
+[2023-07-20 18:34:26] INFO root fetch - processPackages [up-nextflap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/up_nextflap-0.0.3.tar.gz tmp/up_nextflap-0.0.4.tar.gz --markdown 20230720/u/up-nextflap/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-20 18:34:26] INFO root fetch - processPackages [gwdg-idm-api]: Downloading https://files.pythonhosted.org/packages/26/bc/c377ddbf54e04b1af4ae3924dc70961d9d81a197f9bf909f02d9c067ffa5/gwdg_idm_api-2.2.0.tar.gz
+[2023-07-20 18:34:26] INFO root fetch - processPackages [skale-contracts]: executing diffoscope
+[2023-07-20 18:34:26] INFO root fetch - processPackages [skale-contracts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skale-contracts-0.0.1.dev9714958449586304.tar.gz tmp/skale-contracts-0.0.1.dev978114706300915430.tar.gz --markdown 20230720/s/skale-contracts/0.0.1.dev9714958449586304-0.0.1.dev978114706300915430/diff.md --exclude *.pyd
+[2023-07-20 18:34:26] INFO root fetch - processPackages [EnvisionRiskRaaS]: executing diffoscope
+[2023-07-20 18:34:26] INFO root fetch - processPackages [EnvisionRiskRaaS]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/envisionriskraas-1.0.0.tar.gz tmp/envisionriskraas-1.0.1.tar.gz --markdown 20230720/E/EnvisionRiskRaaS/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-20 18:34:27] INFO root fetch - processPackages [gwdg-idm-api]: executing diffoscope
+[2023-07-20 18:34:27] INFO root fetch - processPackages [gwdg-idm-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gwdg_idm_api-2.1.0.tar.gz tmp/gwdg_idm_api-2.2.0.tar.gz --markdown 20230720/g/gwdg-idm-api/2.1.0-2.2.0/diff.md --exclude *.pyd
+[2023-07-20 18:34:27] INFO root fetch - processPackages [service-configuration-lib]: executing diffoscope
+[2023-07-20 18:34:27] INFO root fetch - processPackages [service-configuration-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/service-configuration-lib-2.8.0.tar.gz tmp/service-configuration-lib-2.9.0.tar.gz --markdown 20230720/s/service-configuration-lib/2.8.0-2.9.0/diff.md --exclude *.pyd
+[2023-07-20 18:34:27] INFO root fetch - processPackages [salure-helpers-profit]: Remove: archive file [/home/abi/fetcher/tmp/salure_helpers_profit-1.3.6.tar.gz]
+[2023-07-20 18:34:27] INFO root fetch - processPackages [salure-helpers-profit]: Remove: archive file [/home/abi/fetcher/tmp/salure_helpers_profit-2.0.0.tar.gz]
+[2023-07-20 18:34:27] INFO root fetch - processPackages [salure-helpers-profit]: Start processing: landingai
+[2023-07-20 18:34:27] INFO root fetch - main [MainThread]: End processing [salure-helpers-profit]: success
+[2023-07-20 18:34:27] INFO root fetch - processPackages [landingai]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-20 18:34:28] INFO root fetch - processPackages [skale-contracts]: Remove: archive file [/home/abi/fetcher/tmp/skale-contracts-0.0.1.dev9714958449586304.tar.gz]
+[2023-07-20 18:34:28] INFO root fetch - processPackages [skale-contracts]: Remove: archive file [/home/abi/fetcher/tmp/skale-contracts-0.0.1.dev978114706300915430.tar.gz]
+[2023-07-20 18:34:28] INFO root fetch - processPackages [skale-contracts]: Start processing: dopt-users-python-client
+[2023-07-20 18:34:28] INFO root fetch - main [MainThread]: End processing [skale-contracts]: success
+[2023-07-20 18:34:28] INFO root fetch - processPackages [threemystic-cloud-data-client]: Remove: archive file [/home/abi/fetcher/tmp/threemystic_cloud_data_client-0.1.14.tar.gz]
+[2023-07-20 18:34:28] INFO root fetch - processPackages [threemystic-cloud-data-client]: Remove: archive file [/home/abi/fetcher/tmp/threemystic_cloud_data_client-0.1.15.tar.gz]
+[2023-07-20 18:34:28] INFO root fetch - main [MainThread]: End processing [threemystic-cloud-data-client]: success
+[2023-07-20 18:34:28] INFO root fetch - processPackages [dopt-users-python-client]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-20 18:34:28] INFO root fetch - processPackages [landingai]: executing diffoscope
+[2023-07-20 18:34:28] INFO root fetch - processPackages [landingai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/landingai-0.2.8.tar.gz tmp/landingai-0.2.9.tar.gz --markdown 20230720/l/landingai/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-20 18:34:28] INFO root fetch - processPackages [EnvisionRiskRaaS]: Remove: archive file [/home/abi/fetcher/tmp/envisionriskraas-1.0.0.tar.gz]
+[2023-07-20 18:34:28] INFO root fetch - processPackages [EnvisionRiskRaaS]: Remove: archive file [/home/abi/fetcher/tmp/envisionriskraas-1.0.1.tar.gz]
+[2023-07-20 18:34:28] INFO root fetch - main [MainThread]: End processing [EnvisionRiskRaaS]: success
+[2023-07-20 18:34:28] INFO root fetch - processPackages [gdal2numpy]: Remove: archive file [/home/abi/fetcher/tmp/gdal2numpy-0.0.98.tar.gz]
+[2023-07-20 18:34:28] INFO root fetch - processPackages [gdal2numpy]: Remove: archive file [/home/abi/fetcher/tmp/gdal2numpy-0.0.99.tar.gz]
+[2023-07-20 18:34:28] INFO root fetch - main [MainThread]: End processing [gdal2numpy]: success
+[2023-07-20 18:34:28] INFO root fetch - processPackages [dopt-users-python-client]: Downloading https://files.pythonhosted.org/packages/20/33/a0b86f3801fde544a043ba9d0b941bb3ab2e16263740f7c9296c62841d16/dopt_users_python_client-1.0.0.tar.gz
+[2023-07-20 18:34:28] INFO root fetch - processPackages [service-configuration-lib]: Remove: archive file [/home/abi/fetcher/tmp/service-configuration-lib-2.8.0.tar.gz]
+[2023-07-20 18:34:28] INFO root fetch - processPackages [service-configuration-lib]: Remove: archive file [/home/abi/fetcher/tmp/service-configuration-lib-2.9.0.tar.gz]
+[2023-07-20 18:34:28] INFO root fetch - main [MainThread]: End processing [service-configuration-lib]: success
+[2023-07-20 18:34:28] INFO root fetch - main [MainThread]: End processing [skale-contracts]: success
+[2023-07-20 18:34:28] INFO root fetch - processPackages [gwdg-idm-api]: Remove: archive file [/home/abi/fetcher/tmp/gwdg_idm_api-2.1.0.tar.gz]
+[2023-07-20 18:34:28] INFO root fetch - processPackages [gwdg-idm-api]: Remove: archive file [/home/abi/fetcher/tmp/gwdg_idm_api-2.2.0.tar.gz]
+[2023-07-20 18:34:28] INFO root fetch - main [MainThread]: End processing [gwdg-idm-api]: success
+[2023-07-20 18:34:28] INFO root fetch - processPackages [dopt-users-python-client]: Downloading https://files.pythonhosted.org/packages/cc/35/c129158ddae74f9b9c4814b5e14557424e72b7f03e00d153ae8aebe35c00/dopt_users_python_client-1.0.1.tar.gz
+[2023-07-20 18:34:28] INFO root fetch - processPackages [dopt-users-python-client]: executing diffoscope
+[2023-07-20 18:34:28] INFO root fetch - processPackages [dopt-users-python-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dopt_users_python_client-1.0.0.tar.gz tmp/dopt_users_python_client-1.0.1.tar.gz --markdown 20230720/d/dopt-users-python-client/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-20 18:34:29] INFO root fetch - processPackages [landingai]: Remove: archive file [/home/abi/fetcher/tmp/landingai-0.2.8.tar.gz]
+[2023-07-20 18:34:29] INFO root fetch - processPackages [landingai]: Remove: archive file [/home/abi/fetcher/tmp/landingai-0.2.9.tar.gz]
+[2023-07-20 18:34:29] INFO root fetch - main [MainThread]: End processing [landingai]: success
+[2023-07-20 18:34:29] INFO root fetch - processPackages [up-nextflap]: Remove: archive file [/home/abi/fetcher/tmp/up_nextflap-0.0.3.tar.gz]
+[2023-07-20 18:34:29] INFO root fetch - processPackages [up-nextflap]: Remove: archive file [/home/abi/fetcher/tmp/up_nextflap-0.0.4.tar.gz]
+[2023-07-20 18:34:29] INFO root fetch - main [MainThread]: End processing [up-nextflap]: success
+[2023-07-20 18:34:29] INFO root fetch - processPackages [dopt-users-python-client]: Remove: archive file [/home/abi/fetcher/tmp/dopt_users_python_client-1.0.0.tar.gz]
+[2023-07-20 18:34:29] INFO root fetch - processPackages [dopt-users-python-client]: Remove: archive file [/home/abi/fetcher/tmp/dopt_users_python_client-1.0.1.tar.gz]
+[2023-07-20 18:34:29] INFO root fetch - main [MainThread]: End processing [dopt-users-python-client]: success
+[2023-07-20 18:34:31] INFO root fetch - processPackages [cosapp]: Remove: archive file [/home/abi/fetcher/tmp/cosapp-0.14.1.tar.gz]
+[2023-07-20 18:34:31] INFO root fetch - processPackages [cosapp]: Remove: archive file [/home/abi/fetcher/tmp/cosapp-0.15.0.tar.gz]
+[2023-07-20 18:34:31] INFO root fetch - main [MainThread]: End processing [cosapp]: success
+[2023-07-20 18:34:31] INFO root fetch - main [MainThread]: Store serial: [18969670]
