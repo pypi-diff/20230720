@@ -11110,3 +11110,167 @@ AssertionError: tmp/verify4py-test-0.1.7.tar.gz does not exist
 [2023-07-20 16:07:58] INFO root fetch - processPackages [edx-enterprise]: Remove: archive file [/home/abi/fetcher/tmp/edx-enterprise-4.0.2.tar.gz]
 [2023-07-20 16:07:58] INFO root fetch - main [MainThread]: End processing [edx-enterprise]: success
 [2023-07-20 16:07:58] INFO root fetch - main [MainThread]: Store serial: [18967559]
+[2023-07-20 16:13:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18967559]
+[2023-07-20 16:13:07] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-07-20 16:13:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: secrets-vault
+[2023-07-20 16:13:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyqgraf
+[2023-07-20 16:13:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pipeline-ai
+[2023-07-20 16:13:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: scanpydoc
+[2023-07-20 16:13:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pycelium
+[2023-07-20 16:13:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: datapipe-core
+[2023-07-20 16:13:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: centesimal-iot
+[2023-07-20 16:13:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: python-jmap
+[2023-07-20 16:13:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cybrid-api-organization-python
+[2023-07-20 16:13:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ai-aside
+[2023-07-20 16:13:08] INFO root fetch - processPackages [pyqgraf]: New version: [0.0.9] Old Version: [0.0.6]
+[2023-07-20 16:13:08] INFO root fetch - processPackages [datapipe-core]: New version: [0.13.0a5] Old Version: [0.13.0a4]
+[2023-07-20 16:13:08] INFO root fetch - processPackages [python-jmap]: New version: [0.0.4] Old Version: [0.0.1]
+[2023-07-20 16:13:08] INFO root fetch - processPackages [secrets-vault]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-20 16:13:08] INFO root fetch - processPackages [ai-aside]: New version: [3.0.1] Old Version: [3.0.0]
+[2023-07-20 16:13:08] INFO root fetch - processPackages [pycelium]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-20 16:13:08] INFO root fetch - processPackages [scanpydoc]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-07-20 16:13:08] INFO root fetch - processPackages [centesimal-iot]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-20 16:13:08] INFO root fetch - processPackages [pipeline-ai]: New version: [0.5.0b9] Old Version: [0.5.0b8]
+[2023-07-20 16:13:08] INFO root fetch - processPackages [cybrid-api-organization-python]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-20 16:13:08] INFO root fetch - processPackages [python-jmap]: Downloading https://files.pythonhosted.org/packages/d7/90/c213a8b5c27674bd7ff1eb8f7fd2d614b0445c53ac97393ec5fada6307d0/python_jmap-0.0.1.tar.gz
+[2023-07-20 16:13:08] INFO root fetch - processPackages [centesimal-iot]: Downloading https://files.pythonhosted.org/packages/7e/04/a91ecb2b6de1a286ea80bd55abf6f4975bb540d5ab488da8df7e6da13e4c/centesimal_iot-0.1.8-py2.py3-none-any.whl
+[2023-07-20 16:13:08] INFO root fetch - processPackages [cybrid-api-organization-python]: Downloading https://files.pythonhosted.org/packages/8c/f9/11b3397de980d7217c6b56728b693a302080844e78e135a12319c23d1e09/cybrid-api-organization-python-0.9.8.tar.gz
+[2023-07-20 16:13:08] INFO root fetch - processPackages [pycelium]: Downloading https://files.pythonhosted.org/packages/76/42/fb57aec00045116dfb46b611e5b03b2e9132b5a6bff10d59bc0452b5fa10/pycelium-0.1.8.tar.gz
+[2023-07-20 16:13:08] INFO root fetch - processPackages [pyqgraf]: Downloading https://files.pythonhosted.org/packages/9f/c5/6d356e9709af4322578cdffd2af991eeb07d400ab29b11d345bca855b9eb/pyqgraf-0.0.6.tar.gz
+[2023-07-20 16:13:08] INFO root fetch - processPackages [ai-aside]: Downloading https://files.pythonhosted.org/packages/f7/c2/49c959e76c7750253f7feb5f5e3fda85a32d9e51e5202a27ce5b71eefa92/ai-aside-3.0.0.tar.gz
+[2023-07-20 16:13:08] INFO root fetch - processPackages [secrets-vault]: Downloading https://files.pythonhosted.org/packages/33/bc/844db1ba640d96d7ebc7a76b6639a284d9c92b28a3427795ab44fb73f302/secrets-vault-0.1.1.tar.gz
+[2023-07-20 16:13:08] INFO root fetch - processPackages [pipeline-ai]: Downloading https://files.pythonhosted.org/packages/45/84/69fb620c6f6b3f06697d71d86fa7f79d152166acbaff211bb451a9c093d9/pipeline_ai-0.5.0b8.tar.gz
+[2023-07-20 16:13:08] INFO root fetch - processPackages [scanpydoc]: Downloading https://files.pythonhosted.org/packages/e3/e6/57554c76efc8b982e4c1d7ce08cd74f4ac471cd5891be4725ed899417a90/scanpydoc-0.9.1.tar.gz
+[2023-07-20 16:13:08] INFO root fetch - processPackages [datapipe-core]: Downloading https://files.pythonhosted.org/packages/d7/78/2fae489907be25d786b462008b8b6c935a224edf8e7a76091b81dd3d2ece/datapipe_core-0.13.0a5.tar.gz
+[2023-07-20 16:13:08] INFO root fetch - processPackages [centesimal-iot]: Downloading https://files.pythonhosted.org/packages/e4/b4/6f5f209b09ec26c5af7c0d46a270eb2c18486f6982919639276f4178d738/centesimal_iot-0.1.9-py2.py3-none-any.whl
+[2023-07-20 16:13:09] INFO root fetch - processPackages [cybrid-api-organization-python]: Downloading https://files.pythonhosted.org/packages/6e/9a/cba8516138af9b31af978d1cb5ac08501052b56ac24c59f876cc7432e4cd/cybrid-api-organization-python-0.9.9.tar.gz
+[2023-07-20 16:13:09] INFO root fetch - processPackages [pycelium]: Downloading https://files.pythonhosted.org/packages/e3/03/43dab6c456e60726fafa26022f656c845d108557c8b4d248f3d03195755b/pycelium-0.1.9.tar.gz
+[2023-07-20 16:13:09] INFO root fetch - processPackages [python-jmap]: Downloading https://files.pythonhosted.org/packages/03/dc/0381e2d45bcfcaab2c4b31e0605ce68e522fbce5314a4b5aee84bf5252ed/python_jmap-0.0.4.tar.gz
+[2023-07-20 16:13:09] INFO root fetch - processPackages [datapipe-core]: executing diffoscope
+[2023-07-20 16:13:09] INFO root fetch - processPackages [datapipe-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datapipe_core-0.13.0a4.tar.gz tmp/datapipe_core-0.13.0a5.tar.gz --markdown 20230720/d/datapipe-core/0.13.0a4-0.13.0a5/diff.md --exclude *.pyd
+[2023-07-20 16:13:09] INFO root fetch - processPackages [secrets-vault]: Downloading https://files.pythonhosted.org/packages/3d/82/a19165048c691eb2241896f6af7adb469dc63ea5c29fb1a6d8170dff08a4/secrets-vault-0.1.2.tar.gz
+[2023-07-20 16:13:09] INFO root fetch - processPackages [centesimal-iot]: executing diffoscope
+[2023-07-20 16:13:09] INFO root fetch - processPackages [centesimal-iot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/centesimal_iot-0.1.8-py2.py3-none-any.whl.zip tmp/centesimal_iot-0.1.9-py2.py3-none-any.whl.zip --markdown 20230720/c/centesimal-iot/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-20 16:13:09] INFO root fetch - processPackages [ai-aside]: Downloading https://files.pythonhosted.org/packages/46/f7/48d9aa119ca629c3d72ed273ad48a19d5f43c93304a014c1befb2c7e591a/ai-aside-3.0.1.tar.gz
+[2023-07-20 16:13:09] INFO root fetch - processPackages [cybrid-api-organization-python]: executing diffoscope
+[2023-07-20 16:13:09] INFO root fetch - processPackages [cybrid-api-organization-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-organization-python-0.9.8.tar.gz tmp/cybrid-api-organization-python-0.9.9.tar.gz --markdown 20230720/c/cybrid-api-organization-python/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-20 16:13:09] INFO root fetch - processPackages [scanpydoc]: Downloading https://files.pythonhosted.org/packages/83/9a/fa7c781fc460a5672e0bdba055a427416d623c63cd6f0308b929ec372eba/scanpydoc-0.9.2.tar.gz
+[2023-07-20 16:13:09] INFO root fetch - processPackages [pycelium]: executing diffoscope
+[2023-07-20 16:13:09] INFO root fetch - processPackages [pycelium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycelium-0.1.8.tar.gz tmp/pycelium-0.1.9.tar.gz --markdown 20230720/p/pycelium/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-20 16:13:09] INFO root fetch - processPackages [pyqgraf]: Downloading https://files.pythonhosted.org/packages/70/18/65c37721f12d2f6ba7c7b573b4b8b2f314a9df6d45922195e2e387ffb637/pyqgraf-0.0.9.tar.gz
+[2023-07-20 16:13:09] INFO root fetch - processPackages [python-jmap]: executing diffoscope
+[2023-07-20 16:13:09] INFO root fetch - processPackages [ai-aside]: executing diffoscope
+[2023-07-20 16:13:09] INFO root fetch - processPackages [python-jmap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_jmap-0.0.1.tar.gz tmp/python_jmap-0.0.4.tar.gz --markdown 20230720/p/python-jmap/0.0.1-0.0.4/diff.md --exclude *.pyd
+[2023-07-20 16:13:09] INFO root fetch - processPackages [ai-aside]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ai-aside-3.0.0.tar.gz tmp/ai-aside-3.0.1.tar.gz --markdown 20230720/a/ai-aside/3.0.0-3.0.1/diff.md --exclude *.pyd
+[2023-07-20 16:13:09] INFO root fetch - processPackages [pipeline-ai]: Downloading https://files.pythonhosted.org/packages/b7/28/822a6cc9e70825b5c051ab9bf029b954982ed00aa6b036349995dcf4c5fa/pipeline_ai-0.5.0b9.tar.gz
+[2023-07-20 16:13:09] INFO root fetch - processPackages [scanpydoc]: executing diffoscope
+[2023-07-20 16:13:09] INFO root fetch - processPackages [scanpydoc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scanpydoc-0.9.1.tar.gz tmp/scanpydoc-0.9.2.tar.gz --markdown 20230720/s/scanpydoc/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-07-20 16:13:09] INFO root fetch - processPackages [secrets-vault]: executing diffoscope
+[2023-07-20 16:13:09] INFO root fetch - processPackages [secrets-vault]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/secrets-vault-0.1.1.tar.gz tmp/secrets-vault-0.1.2.tar.gz --markdown 20230720/s/secrets-vault/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-20 16:13:09] INFO root fetch - processPackages [pyqgraf]: executing diffoscope
+[2023-07-20 16:13:09] INFO root fetch - processPackages [pyqgraf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyqgraf-0.0.6.tar.gz tmp/pyqgraf-0.0.9.tar.gz --markdown 20230720/p/pyqgraf/0.0.6-0.0.9/diff.md --exclude *.pyd
+[2023-07-20 16:13:09] INFO root fetch - processPackages [pipeline-ai]: executing diffoscope
+[2023-07-20 16:13:09] INFO root fetch - processPackages [pipeline-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipeline_ai-0.5.0b8.tar.gz tmp/pipeline_ai-0.5.0b9.tar.gz --markdown 20230720/p/pipeline-ai/0.5.0b8-0.5.0b9/diff.md --exclude *.pyd
+[2023-07-20 16:13:10] INFO root fetch - processPackages [datapipe-core]: Remove: archive file [/home/abi/fetcher/tmp/datapipe_core-0.13.0a4.tar.gz]
+[2023-07-20 16:13:10] INFO root fetch - processPackages [datapipe-core]: Remove: archive file [/home/abi/fetcher/tmp/datapipe_core-0.13.0a5.tar.gz]
+[2023-07-20 16:13:10] INFO root fetch - processPackages [datapipe-core]: Start processing: cybrid-api-id-python
+[2023-07-20 16:13:10] INFO root fetch - main [MainThread]: End processing [datapipe-core]: success
+[2023-07-20 16:13:10] INFO root fetch - processPackages [cybrid-api-id-python]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-20 16:13:10] INFO root fetch - processPackages [cybrid-api-id-python]: Downloading https://files.pythonhosted.org/packages/50/b7/b977148f4fc829a75a0b07e5a1a330568bf4060c71cf5e0e0a6449ffed87/cybrid-api-id-python-0.9.8.tar.gz
+[2023-07-20 16:13:10] INFO root fetch - processPackages [centesimal-iot]: Remove: archive file [/home/abi/fetcher/tmp/centesimal_iot-0.1.8-py2.py3-none-any.whl.zip]
+[2023-07-20 16:13:10] INFO root fetch - processPackages [centesimal-iot]: Remove: archive file [/home/abi/fetcher/tmp/centesimal_iot-0.1.9-py2.py3-none-any.whl.zip]
+[2023-07-20 16:13:10] INFO root fetch - processPackages [centesimal-iot]: Start processing: bridgestan
+[2023-07-20 16:13:10] INFO root fetch - main [MainThread]: End processing [centesimal-iot]: success
+[2023-07-20 16:13:10] INFO root fetch - processPackages [bridgestan]: New version: [2.1.2] Old Version: [2.1.1]
+[2023-07-20 16:13:10] INFO root fetch - processPackages [cybrid-api-id-python]: Downloading https://files.pythonhosted.org/packages/df/0b/f41ef37cacb50f16ff72d759b9fe9a5fd7fe8bde214833a5c722ba07e136/cybrid-api-id-python-0.9.9.tar.gz
+[2023-07-20 16:13:10] INFO root fetch - processPackages [cybrid-api-id-python]: executing diffoscope
+[2023-07-20 16:13:10] INFO root fetch - processPackages [cybrid-api-id-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-id-python-0.9.8.tar.gz tmp/cybrid-api-id-python-0.9.9.tar.gz --markdown 20230720/c/cybrid-api-id-python/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-20 16:13:10] INFO root fetch - processPackages [bridgestan]: Downloading https://files.pythonhosted.org/packages/75/8b/ca58948d4e213508043b6f00295833fd18baf89673e494ab3e4241cb3043/bridgestan-2.1.1.tar.gz
+[2023-07-20 16:13:10] INFO root fetch - processPackages [cybrid-api-organization-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-organization-python-0.9.8.tar.gz]
+[2023-07-20 16:13:10] INFO root fetch - processPackages [cybrid-api-organization-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-organization-python-0.9.9.tar.gz]
+[2023-07-20 16:13:10] INFO root fetch - processPackages [cybrid-api-organization-python]: Start processing: cybrid-api-bank-python
+[2023-07-20 16:13:10] INFO root fetch - main [MainThread]: End processing [cybrid-api-organization-python]: success
+[2023-07-20 16:13:11] INFO root fetch - processPackages [cybrid-api-bank-python]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-20 16:13:11] INFO root fetch - processPackages [python-jmap]: Remove: archive file [/home/abi/fetcher/tmp/python_jmap-0.0.1.tar.gz]
+[2023-07-20 16:13:11] INFO root fetch - processPackages [python-jmap]: Remove: archive file [/home/abi/fetcher/tmp/python_jmap-0.0.4.tar.gz]
+[2023-07-20 16:13:11] INFO root fetch - processPackages [python-jmap]: Start processing: pyjedai
+[2023-07-20 16:13:11] INFO root fetch - main [MainThread]: End processing [python-jmap]: success
+[2023-07-20 16:13:11] INFO root fetch - processPackages [pyqgraf]: Remove: archive file [/home/abi/fetcher/tmp/pyqgraf-0.0.6.tar.gz]
+[2023-07-20 16:13:11] INFO root fetch - processPackages [pyqgraf]: Remove: archive file [/home/abi/fetcher/tmp/pyqgraf-0.0.9.tar.gz]
+[2023-07-20 16:13:11] INFO root fetch - processPackages [pyqgraf]: Start processing: aliyun-python-sdk-ga
+[2023-07-20 16:13:11] INFO root fetch - main [MainThread]: End processing [pyqgraf]: success
+[2023-07-20 16:13:11] INFO root fetch - processPackages [pyjedai]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-20 16:13:11] INFO root fetch - processPackages [secrets-vault]: Remove: archive file [/home/abi/fetcher/tmp/secrets-vault-0.1.1.tar.gz]
+[2023-07-20 16:13:11] INFO root fetch - processPackages [secrets-vault]: Remove: archive file [/home/abi/fetcher/tmp/secrets-vault-0.1.2.tar.gz]
+[2023-07-20 16:13:11] INFO root fetch - processPackages [secrets-vault]: Start processing: localcosmos-cordova-builder
+[2023-07-20 16:13:11] INFO root fetch - main [MainThread]: End processing [secrets-vault]: success
+[2023-07-20 16:13:11] INFO root fetch - processPackages [scanpydoc]: Remove: archive file [/home/abi/fetcher/tmp/scanpydoc-0.9.1.tar.gz]
+[2023-07-20 16:13:11] INFO root fetch - processPackages [scanpydoc]: Remove: archive file [/home/abi/fetcher/tmp/scanpydoc-0.9.2.tar.gz]
+[2023-07-20 16:13:11] INFO root fetch - processPackages [scanpydoc]: Start processing: poetry-plugin-use-pip-global-index-url
+[2023-07-20 16:13:11] INFO root fetch - main [MainThread]: End processing [scanpydoc]: success
+[2023-07-20 16:13:11] INFO root fetch - processPackages [localcosmos-cordova-builder]: New version: [0.7.1] Old Version: [0.7.0]
+[2023-07-20 16:13:11] INFO root fetch - processPackages [cybrid-api-bank-python]: Downloading https://files.pythonhosted.org/packages/20/58/83595c25956605935aa08227f1f01b1c02743825aca19e267bc95d1b4928/cybrid-api-bank-python-0.9.8.tar.gz
+[2023-07-20 16:13:11] INFO root fetch - processPackages [pycelium]: Remove: archive file [/home/abi/fetcher/tmp/pycelium-0.1.8.tar.gz]
+[2023-07-20 16:13:11] INFO root fetch - processPackages [pycelium]: Remove: archive file [/home/abi/fetcher/tmp/pycelium-0.1.9.tar.gz]
+[2023-07-20 16:13:11] INFO root fetch - processPackages [pycelium]: Start processing: timedctl
+[2023-07-20 16:13:11] INFO root fetch - main [MainThread]: End processing [pycelium]: success
+[2023-07-20 16:13:11] INFO root fetch - processPackages [aliyun-python-sdk-ga]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-20 16:13:11] INFO root fetch - processPackages [pipeline-ai]: Remove: archive file [/home/abi/fetcher/tmp/pipeline_ai-0.5.0b8.tar.gz]
+[2023-07-20 16:13:11] INFO root fetch - processPackages [pipeline-ai]: Remove: archive file [/home/abi/fetcher/tmp/pipeline_ai-0.5.0b9.tar.gz]
+[2023-07-20 16:13:11] INFO root fetch - main [MainThread]: End processing [pipeline-ai]: success
+[2023-07-20 16:13:11] INFO root fetch - processPackages [poetry-plugin-use-pip-global-index-url]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-07-20 16:13:11] INFO root fetch - processPackages [ai-aside]: Remove: archive file [/home/abi/fetcher/tmp/ai-aside-3.0.0.tar.gz]
+[2023-07-20 16:13:11] INFO root fetch - processPackages [ai-aside]: Remove: archive file [/home/abi/fetcher/tmp/ai-aside-3.0.1.tar.gz]
+[2023-07-20 16:13:11] INFO root fetch - main [MainThread]: End processing [ai-aside]: success
+[2023-07-20 16:13:11] INFO root fetch - processPackages [timedctl]: New version: [3.3.0] Old Version: [3.2.0]
+[2023-07-20 16:13:11] INFO root fetch - processPackages [bridgestan]: Downloading https://files.pythonhosted.org/packages/0f/3e/f82c999e9ba24e79eb5cb252ca3bda93594a587818b8e2132922965774c9/bridgestan-2.1.2.tar.gz
+[2023-07-20 16:13:11] INFO root fetch - processPackages [pyjedai]: Downloading https://files.pythonhosted.org/packages/5d/4b/ec13246b664a85d440ae4ab42ad4c5840d24190e22f25016d83aae1ed84c/pyjedai-0.0.8.tar.gz
+[2023-07-20 16:13:11] INFO root fetch - processPackages [localcosmos-cordova-builder]: Downloading https://files.pythonhosted.org/packages/ee/65/19a4a5583b651268b2fd7c6d858d0bb3e3417b8459a45aa7759ac8f8f479/localcosmos_cordova_builder-0.7.0.tar.gz
+[2023-07-20 16:13:11] INFO root fetch - processPackages [timedctl]: Downloading https://files.pythonhosted.org/packages/e5/18/8971f46945db8486547ee60025faeb188fbebd3df1f0042ce311cb7b7867/timedctl-3.2.0.tar.gz
+[2023-07-20 16:13:11] INFO root fetch - processPackages [aliyun-python-sdk-ga]: Downloading https://files.pythonhosted.org/packages/56/d6/d5fa69385a0c3982ef1cb88b2822ece555f73278758c81db74d8cba93cdb/aliyun-python-sdk-ga-1.0.8.tar.gz
+[2023-07-20 16:13:11] INFO root fetch - processPackages [cybrid-api-bank-python]: Downloading https://files.pythonhosted.org/packages/89/0b/5831e52f1895b5ffe4c5b8862788216f9cf6c8554dfffa92e8805799baaf/cybrid-api-bank-python-0.9.9.tar.gz
+[2023-07-20 16:13:11] INFO root fetch - processPackages [bridgestan]: executing diffoscope
+[2023-07-20 16:13:11] INFO root fetch - processPackages [bridgestan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bridgestan-2.1.1.tar.gz tmp/bridgestan-2.1.2.tar.gz --markdown 20230720/b/bridgestan/2.1.1-2.1.2/diff.md --exclude *.pyd
+[2023-07-20 16:13:11] INFO root fetch - processPackages [poetry-plugin-use-pip-global-index-url]: Downloading https://files.pythonhosted.org/packages/6e/b5/85f55914484ff8bc8fe492f7d40023a6ae6c78f06a16e784706f04e50eaa/poetry_plugin_use_pip_global_index_url-0.2.1.tar.gz
+[2023-07-20 16:13:11] INFO root fetch - processPackages [cybrid-api-bank-python]: executing diffoscope
+[2023-07-20 16:13:11] INFO root fetch - processPackages [cybrid-api-bank-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-bank-python-0.9.8.tar.gz tmp/cybrid-api-bank-python-0.9.9.tar.gz --markdown 20230720/c/cybrid-api-bank-python/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-20 16:13:11] INFO root fetch - processPackages [timedctl]: Downloading https://files.pythonhosted.org/packages/97/16/edc0f61faa05290a8734538db8bbe08213589dac63391d8f23cd0f6b563c/timedctl-3.3.0.tar.gz
+[2023-07-20 16:13:11] INFO root fetch - processPackages [pyjedai]: Downloading https://files.pythonhosted.org/packages/05/34/11c66400196bd5bcbd53bfb2ed5f0d10123094afb74ae9edd058657f9593/pyjedai-0.0.9.tar.gz
+[2023-07-20 16:13:11] INFO root fetch - processPackages [timedctl]: executing diffoscope
+[2023-07-20 16:13:11] INFO root fetch - processPackages [timedctl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/timedctl-3.2.0.tar.gz tmp/timedctl-3.3.0.tar.gz --markdown 20230720/t/timedctl/3.2.0-3.3.0/diff.md --exclude *.pyd
+[2023-07-20 16:13:11] INFO root fetch - processPackages [localcosmos-cordova-builder]: Downloading https://files.pythonhosted.org/packages/cd/a2/afa446fb2a60ab09e6358e9eaadd94bdcf43de587b19c5ada55c9b793633/localcosmos_cordova_builder-0.7.1.tar.gz
+[2023-07-20 16:13:11] INFO root fetch - processPackages [pyjedai]: executing diffoscope
+[2023-07-20 16:13:11] INFO root fetch - processPackages [pyjedai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyjedai-0.0.8.tar.gz tmp/pyjedai-0.0.9.tar.gz --markdown 20230720/p/pyjedai/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-20 16:13:12] INFO root fetch - processPackages [poetry-plugin-use-pip-global-index-url]: Downloading https://files.pythonhosted.org/packages/e3/02/888add48d6b249b38105ea7549d1461d9ded34ad51adabea64940508b645/poetry_plugin_use_pip_global_index_url-0.2.2.tar.gz
+[2023-07-20 16:13:12] INFO root fetch - processPackages [aliyun-python-sdk-ga]: Downloading https://files.pythonhosted.org/packages/ca/00/cafcff01254f7f6f675d2b430f7f4abed3df62eaf56252d77e27eb68e298/aliyun-python-sdk-ga-1.0.9.tar.gz
+[2023-07-20 16:13:12] INFO root fetch - processPackages [localcosmos-cordova-builder]: executing diffoscope
+[2023-07-20 16:13:12] INFO root fetch - processPackages [localcosmos-cordova-builder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localcosmos_cordova_builder-0.7.0.tar.gz tmp/localcosmos_cordova_builder-0.7.1.tar.gz --markdown 20230720/l/localcosmos-cordova-builder/0.7.0-0.7.1/diff.md --exclude *.pyd
+[2023-07-20 16:13:12] INFO root fetch - processPackages [poetry-plugin-use-pip-global-index-url]: executing diffoscope
+[2023-07-20 16:13:12] INFO root fetch - processPackages [poetry-plugin-use-pip-global-index-url]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/poetry_plugin_use_pip_global_index_url-0.2.1.tar.gz tmp/poetry_plugin_use_pip_global_index_url-0.2.2.tar.gz --markdown 20230720/p/poetry-plugin-use-pip-global-index-url/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-07-20 16:13:12] INFO root fetch - processPackages [aliyun-python-sdk-ga]: executing diffoscope
+[2023-07-20 16:13:12] INFO root fetch - processPackages [aliyun-python-sdk-ga]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aliyun-python-sdk-ga-1.0.8.tar.gz tmp/aliyun-python-sdk-ga-1.0.9.tar.gz --markdown 20230720/a/aliyun-python-sdk-ga/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-20 16:13:12] INFO root fetch - processPackages [cybrid-api-id-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-id-python-0.9.8.tar.gz]
+[2023-07-20 16:13:12] INFO root fetch - processPackages [cybrid-api-id-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-id-python-0.9.9.tar.gz]
+[2023-07-20 16:13:12] INFO root fetch - main [MainThread]: End processing [cybrid-api-id-python]: success
+[2023-07-20 16:13:12] INFO root fetch - processPackages [bridgestan]: Remove: archive file [/home/abi/fetcher/tmp/bridgestan-2.1.1.tar.gz]
+[2023-07-20 16:13:12] INFO root fetch - processPackages [bridgestan]: Remove: archive file [/home/abi/fetcher/tmp/bridgestan-2.1.2.tar.gz]
+[2023-07-20 16:13:12] INFO root fetch - main [MainThread]: End processing [bridgestan]: success
+[2023-07-20 16:13:12] INFO root fetch - processPackages [timedctl]: Remove: archive file [/home/abi/fetcher/tmp/timedctl-3.2.0.tar.gz]
+[2023-07-20 16:13:12] INFO root fetch - processPackages [timedctl]: Remove: archive file [/home/abi/fetcher/tmp/timedctl-3.3.0.tar.gz]
+[2023-07-20 16:13:12] INFO root fetch - main [MainThread]: End processing [timedctl]: success
+[2023-07-20 16:13:13] INFO root fetch - processPackages [poetry-plugin-use-pip-global-index-url]: Remove: archive file [/home/abi/fetcher/tmp/poetry_plugin_use_pip_global_index_url-0.2.1.tar.gz]
+[2023-07-20 16:13:13] INFO root fetch - processPackages [poetry-plugin-use-pip-global-index-url]: Remove: archive file [/home/abi/fetcher/tmp/poetry_plugin_use_pip_global_index_url-0.2.2.tar.gz]
+[2023-07-20 16:13:13] INFO root fetch - main [MainThread]: End processing [poetry-plugin-use-pip-global-index-url]: success
+[2023-07-20 16:13:13] INFO root fetch - processPackages [localcosmos-cordova-builder]: Remove: archive file [/home/abi/fetcher/tmp/localcosmos_cordova_builder-0.7.0.tar.gz]
+[2023-07-20 16:13:13] INFO root fetch - processPackages [localcosmos-cordova-builder]: Remove: archive file [/home/abi/fetcher/tmp/localcosmos_cordova_builder-0.7.1.tar.gz]
+[2023-07-20 16:13:13] INFO root fetch - main [MainThread]: End processing [localcosmos-cordova-builder]: success
+[2023-07-20 16:13:13] INFO root fetch - processPackages [pyjedai]: Remove: archive file [/home/abi/fetcher/tmp/pyjedai-0.0.8.tar.gz]
+[2023-07-20 16:13:13] INFO root fetch - processPackages [pyjedai]: Remove: archive file [/home/abi/fetcher/tmp/pyjedai-0.0.9.tar.gz]
+[2023-07-20 16:13:13] INFO root fetch - main [MainThread]: End processing [pyjedai]: success
+[2023-07-20 16:13:13] INFO root fetch - processPackages [aliyun-python-sdk-ga]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-ga-1.0.8.tar.gz]
+[2023-07-20 16:13:13] INFO root fetch - processPackages [aliyun-python-sdk-ga]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-ga-1.0.9.tar.gz]
+[2023-07-20 16:13:13] INFO root fetch - main [MainThread]: End processing [aliyun-python-sdk-ga]: success
+[2023-07-20 16:13:13] INFO root fetch - processPackages [cybrid-api-bank-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-bank-python-0.9.8.tar.gz]
+[2023-07-20 16:13:13] INFO root fetch - processPackages [cybrid-api-bank-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-bank-python-0.9.9.tar.gz]
+[2023-07-20 16:13:13] INFO root fetch - main [MainThread]: End processing [cybrid-api-bank-python]: success
+[2023-07-20 16:13:13] INFO root fetch - main [MainThread]: Store serial: [18967616]
