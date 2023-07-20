@@ -3996,3 +3996,102 @@ AssertionError: tmp/verify4py-test-0.1.7.tar.gz does not exist
 [2023-07-20 11:29:29] INFO root fetch - processPackages [mujoco-dev]: Remove: archive file [/home/abi/fetcher/tmp/mujoco_dev-2.3.7.dev549565890-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2023-07-20 11:29:29] INFO root fetch - main [MainThread]: End processing [mujoco-dev]: success
 [2023-07-20 11:29:29] INFO root fetch - main [MainThread]: Store serial: [18964331]
+[2023-07-20 11:34:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18964331]
+[2023-07-20 11:34:40] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-20 11:34:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: collective.task
+[2023-07-20 11:34:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: verify4py
+[2023-07-20 11:34:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: HOLY-BIBLE
+[2023-07-20 11:34:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: recon-lw
+[2023-07-20 11:34:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pollination-handlers
+[2023-07-20 11:34:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: titan-iris
+[2023-07-20 11:34:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: hybridbackend-tf115-cu121
+[2023-07-20 11:34:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: django-daiquiri
+[2023-07-20 11:34:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: oddrn-generator
+[2023-07-20 11:34:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: auto-labeling-pipeline
+[2023-07-20 11:34:41] INFO root fetch - processPackages [verify4py]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-07-20 11:34:41] INFO root fetch - processPackages [collective.task]: New version: [3.0.9] Old Version: [3.0.8]
+[2023-07-20 11:34:41] INFO root fetch - processPackages [recon-lw]: New version: [2.0.0.dev5609297419] Old Version: [2.0.0.dev5608872950]
+[2023-07-20 11:34:41] INFO root fetch - processPackages [hybridbackend-tf115-cu121]: New version: [1.0.0.dev1685335576] Old Version: [1.0.0]
+[2023-07-20 11:34:41] WARNING root fetch - processPackages [HOLY-BIBLE]: Skipping, unable to determine old version
+[2023-07-20 11:34:41] INFO root fetch - processPackages [HOLY-BIBLE]: Start processing: cloud-governance
+[2023-07-20 11:34:41] INFO root fetch - main [MainThread]: End processing [HOLY-BIBLE] error
+[2023-07-20 11:34:41] INFO root fetch - processPackages [django-daiquiri]: New version: [0.4.2] Old Version: [0.2]
+[2023-07-20 11:34:41] INFO root fetch - processPackages [pollination-handlers]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-07-20 11:34:41] INFO root fetch - processPackages [oddrn-generator]: New version: [0.1.9] Old Version: [0.1.88]
+[2023-07-20 11:34:41] INFO root fetch - processPackages [titan-iris]: New version: [0.9.3.dev99] Old Version: [0.9.2.dev5]
+[2023-07-20 11:34:41] INFO root fetch - processPackages [auto-labeling-pipeline]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-20 11:34:41] INFO root fetch - processPackages [oddrn-generator]: Downloading https://files.pythonhosted.org/packages/9f/89/751dc6a1d0809e37d93d3fa1684cfa0525210d5e9bc2321ed5a58e8aadc9/oddrn_generator-0.1.88.tar.gz
+[2023-07-20 11:34:41] INFO root fetch - processPackages [recon-lw]: Downloading https://files.pythonhosted.org/packages/a3/3f/7e5779d44707f2c26f741e4458940a2634e08ae43081ad82e357af9739a0/recon_lw-2.0.0.dev5608872950.tar.gz
+[2023-07-20 11:34:41] INFO root fetch - processPackages [cloud-governance]: New version: [1.1.99] Old Version: [1.1.98]
+[2023-07-20 11:34:41] INFO root fetch - processPackages [collective.task]: Downloading https://files.pythonhosted.org/packages/1a/79/becf4fa08ac1d308f52bf61a36e428f259f57b83d4a3c2c930ef256955c3/collective.task-3.0.8.tar.gz
+[2023-07-20 11:34:41] INFO root fetch - processPackages [hybridbackend-tf115-cu121]: Downloading https://files.pythonhosted.org/packages/ab/37/eafc53963e31530ebefe40cad57aaa54fb6a6ff74fa1742e4382b60d9c8e/hybridbackend_tf115_cu121-1.0.0-cp38-cp38-manylinux_2_31_x86_64.whl
+[2023-07-20 11:34:41] INFO root fetch - processPackages [django-daiquiri]: Downloading https://files.pythonhosted.org/packages/f6/73/4fffab5a6fe21dc804278f14b9630f29d9231d8634c193b39baae6e7f986/django-daiquiri-0.2.tar.gz
+[2023-07-20 11:34:41] INFO root fetch - processPackages [pollination-handlers]: executing diffoscope
+[2023-07-20 11:34:41] INFO root fetch - processPackages [pollination-handlers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pollination-handlers-0.9.5.tar.gz tmp/pollination-handlers-0.9.6.tar.gz --markdown 20230720/p/pollination-handlers/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-07-20 11:34:41] INFO root fetch - processPackages [auto-labeling-pipeline]: Downloading https://files.pythonhosted.org/packages/d3/4b/3f7910265aff267fe0e8bafa42a41eb72e17f658c7fe19691eaba32b7041/auto-labeling-pipeline-0.1.8.tar.gz
+[2023-07-20 11:34:41] INFO root fetch - processPackages [titan-iris]: Downloading https://files.pythonhosted.org/packages/d8/4a/02919e9fa5b5ed0fc3b652fc6bd854246cd85b81a3bf56f61ea4ea1bbe89/titan-iris-0.9.2.dev5.tar.gz
+[2023-07-20 11:34:41] INFO root fetch - processPackages [verify4py]: Downloading https://files.pythonhosted.org/packages/2c/14/b899404c0cb952035e51342b662b48211b6a4c45d87b1a7ef4b4b88c717e/verify4py-0.1.5.tar.gz
+[2023-07-20 11:34:41] WARNING root fetch - processPackages [hybridbackend-tf115-cu121]: Skipping package: exceeds size limit 52725376>=10485760
+[2023-07-20 11:34:41] INFO root fetch - processPackages [hybridbackend-tf115-cu121]: Start processing: lamindb_setup
+[2023-07-20 11:34:41] INFO root fetch - main [MainThread]: End processing [hybridbackend-tf115-cu121] error
+[2023-07-20 11:34:41] INFO root fetch - processPackages [cloud-governance]: Downloading https://files.pythonhosted.org/packages/af/f8/db9bacb41ff13a7d3ae59369ae36809c3202232c910b932a09e42257b676/cloud-governance-1.1.98.tar.gz
+[2023-07-20 11:34:41] INFO root fetch - processPackages [oddrn-generator]: Downloading https://files.pythonhosted.org/packages/2a/2e/c01483d58b0cf1c450eb92f93a9180e3d71bda2dfe4cbe678bad80d62bfb/oddrn-generator-0.1.9.tar.gz
+[2023-07-20 11:34:41] INFO root fetch - processPackages [lamindb_setup]: New version: [0.49.0] Old Version: [0.48.8]
+[2023-07-20 11:34:42] INFO root fetch - processPackages [recon-lw]: Downloading https://files.pythonhosted.org/packages/5b/8e/3ac2f3c0965faef3352247faad07faecb1133172878de3470cc2be9ec6b5/recon_lw-2.0.0.dev5609297419.tar.gz
+[2023-07-20 11:34:42] INFO root fetch - processPackages [oddrn-generator]: executing diffoscope
+[2023-07-20 11:34:42] INFO root fetch - processPackages [oddrn-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oddrn_generator-0.1.88.tar.gz tmp/oddrn-generator-0.1.9.tar.gz --markdown 20230720/o/oddrn-generator/0.1.88-0.1.9/diff.md --exclude *.pyd
+[2023-07-20 11:34:42] INFO root fetch - processPackages [collective.task]: Downloading https://files.pythonhosted.org/packages/00/ed/02e3b1aa6f76ebc0793f4ef7b363b6c9cdded02e9637e948f7ea6d620c2e/collective.task-3.0.9.tar.gz
+[2023-07-20 11:34:42] INFO root fetch - processPackages [django-daiquiri]: Downloading https://files.pythonhosted.org/packages/bd/a4/c068eaeb4daee974df9b4229adee177bd4976a2b76f7d6938cb6b224138f/django-daiquiri-0.4.2.tar.gz
+[2023-07-20 11:34:42] INFO root fetch - processPackages [lamindb_setup]: Downloading https://files.pythonhosted.org/packages/75/89/c7c760a94bac15ab15437318c4bb169f467aa185c4a28ec66f7bd5a98fb3/lamindb_setup-0.48.8.tar.gz
+[2023-07-20 11:34:42] INFO root fetch - processPackages [recon-lw]: executing diffoscope
+[2023-07-20 11:34:42] INFO root fetch - processPackages [recon-lw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/recon_lw-2.0.0.dev5608872950.tar.gz tmp/recon_lw-2.0.0.dev5609297419.tar.gz --markdown 20230720/r/recon-lw/2.0.0.dev5608872950-2.0.0.dev5609297419/diff.md --exclude *.pyd
+[2023-07-20 11:34:42] INFO root fetch - processPackages [auto-labeling-pipeline]: Downloading https://files.pythonhosted.org/packages/96/13/13a813c8725cf0ed9fe01cb06f23344cd53f295941b58f80f14806abc948/auto-labeling-pipeline-0.1.9.tar.gz
+[2023-07-20 11:34:42] INFO root fetch - processPackages [pollination-handlers]: Remove: archive file [/home/abi/fetcher/tmp/pollination-handlers-0.9.5.tar.gz]
+[2023-07-20 11:34:42] INFO root fetch - processPackages [pollination-handlers]: Remove: archive file [/home/abi/fetcher/tmp/pollination-handlers-0.9.6.tar.gz]
+[2023-07-20 11:34:42] INFO root fetch - main [MainThread]: End processing [pollination-handlers]: success
+[2023-07-20 11:34:42] INFO root fetch - processPackages [verify4py]: Downloading https://files.pythonhosted.org/packages/68/60/aa6eb8016aee8071db26238db1fe0dcacef0f0d547b1b0e4bcde3fc02c1a/verify4py-0.1.6.tar.gz
+[2023-07-20 11:34:42] INFO root fetch - processPackages [cloud-governance]: Downloading https://files.pythonhosted.org/packages/ec/3e/06dc6e6844d3033717858064a494efaaf4cdae01a0c58d2b2a38273075e2/cloud-governance-1.1.99.tar.gz
+[2023-07-20 11:34:42] INFO root fetch - processPackages [titan-iris]: Downloading https://files.pythonhosted.org/packages/e6/3c/18cd2bade8545377203ce5c15b460e11ef1f135b4425a3d1901bcb1e2061/titan-iris-0.9.3.dev99.tar.gz
+[2023-07-20 11:34:42] INFO root fetch - processPackages [collective.task]: executing diffoscope
+[2023-07-20 11:34:42] INFO root fetch - processPackages [collective.task]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/collective.task-3.0.8.tar.gz tmp/collective.task-3.0.9.tar.gz --markdown 20230720/c/collective.task/3.0.8-3.0.9/diff.md --exclude *.pyd
+[2023-07-20 11:34:42] INFO root fetch - processPackages [django-daiquiri]: executing diffoscope
+[2023-07-20 11:34:42] INFO root fetch - processPackages [django-daiquiri]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-daiquiri-0.2.tar.gz tmp/django-daiquiri-0.4.2.tar.gz --markdown 20230720/d/django-daiquiri/0.2-0.4.2/diff.md --exclude *.pyd
+[2023-07-20 11:34:42] INFO root fetch - processPackages [auto-labeling-pipeline]: executing diffoscope
+[2023-07-20 11:34:42] INFO root fetch - processPackages [auto-labeling-pipeline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auto-labeling-pipeline-0.1.8.tar.gz tmp/auto-labeling-pipeline-0.1.9.tar.gz --markdown 20230720/a/auto-labeling-pipeline/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-20 11:34:42] INFO root fetch - processPackages [cloud-governance]: executing diffoscope
+[2023-07-20 11:34:42] INFO root fetch - processPackages [cloud-governance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloud-governance-1.1.98.tar.gz tmp/cloud-governance-1.1.99.tar.gz --markdown 20230720/c/cloud-governance/1.1.98-1.1.99/diff.md --exclude *.pyd
+[2023-07-20 11:34:42] INFO root fetch - processPackages [verify4py]: executing diffoscope
+[2023-07-20 11:34:42] INFO root fetch - processPackages [verify4py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/verify4py-0.1.5.tar.gz tmp/verify4py-0.1.6.tar.gz --markdown 20230720/v/verify4py/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-07-20 11:34:42] INFO root fetch - processPackages [titan-iris]: executing diffoscope
+[2023-07-20 11:34:42] INFO root fetch - processPackages [titan-iris]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/titan-iris-0.9.2.dev5.tar.gz tmp/titan-iris-0.9.3.dev99.tar.gz --markdown 20230720/t/titan-iris/0.9.2.dev5-0.9.3.dev99/diff.md --exclude *.pyd
+[2023-07-20 11:34:42] INFO root fetch - processPackages [lamindb_setup]: Downloading https://files.pythonhosted.org/packages/94/e7/89da074c030b2bfe62f6cc20aa85e8838b9daf51be690fe370bd81b0e94b/lamindb_setup-0.49.0.tar.gz
+[2023-07-20 11:34:43] INFO root fetch - processPackages [oddrn-generator]: Remove: archive file [/home/abi/fetcher/tmp/oddrn_generator-0.1.88.tar.gz]
+[2023-07-20 11:34:43] INFO root fetch - processPackages [oddrn-generator]: Remove: archive file [/home/abi/fetcher/tmp/oddrn-generator-0.1.9.tar.gz]
+[2023-07-20 11:34:43] INFO root fetch - main [MainThread]: End processing [oddrn-generator]: success
+[2023-07-20 11:34:43] INFO root fetch - processPackages [recon-lw]: Remove: archive file [/home/abi/fetcher/tmp/recon_lw-2.0.0.dev5608872950.tar.gz]
+[2023-07-20 11:34:43] INFO root fetch - processPackages [recon-lw]: Remove: archive file [/home/abi/fetcher/tmp/recon_lw-2.0.0.dev5609297419.tar.gz]
+[2023-07-20 11:34:43] INFO root fetch - main [MainThread]: End processing [recon-lw]: success
+[2023-07-20 11:34:43] INFO root fetch - processPackages [lamindb_setup]: executing diffoscope
+[2023-07-20 11:34:43] INFO root fetch - processPackages [lamindb_setup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lamindb_setup-0.48.8.tar.gz tmp/lamindb_setup-0.49.0.tar.gz --markdown 20230720/l/lamindb_setup/0.48.8-0.49.0/diff.md --exclude *.pyd
+[2023-07-20 11:34:43] INFO root fetch - processPackages [verify4py]: Remove: archive file [/home/abi/fetcher/tmp/verify4py-0.1.5.tar.gz]
+[2023-07-20 11:34:43] INFO root fetch - processPackages [verify4py]: Remove: archive file [/home/abi/fetcher/tmp/verify4py-0.1.6.tar.gz]
+[2023-07-20 11:34:43] INFO root fetch - main [MainThread]: End processing [verify4py]: success
+[2023-07-20 11:34:43] INFO root fetch - processPackages [auto-labeling-pipeline]: Remove: archive file [/home/abi/fetcher/tmp/auto-labeling-pipeline-0.1.8.tar.gz]
+[2023-07-20 11:34:43] INFO root fetch - processPackages [auto-labeling-pipeline]: Remove: archive file [/home/abi/fetcher/tmp/auto-labeling-pipeline-0.1.9.tar.gz]
+[2023-07-20 11:34:43] INFO root fetch - main [MainThread]: End processing [auto-labeling-pipeline]: success
+[2023-07-20 11:34:44] INFO root fetch - processPackages [titan-iris]: Remove: archive file [/home/abi/fetcher/tmp/titan-iris-0.9.2.dev5.tar.gz]
+[2023-07-20 11:34:44] INFO root fetch - processPackages [titan-iris]: Remove: archive file [/home/abi/fetcher/tmp/titan-iris-0.9.3.dev99.tar.gz]
+[2023-07-20 11:34:44] INFO root fetch - main [MainThread]: End processing [titan-iris]: success
+[2023-07-20 11:34:44] INFO root fetch - processPackages [collective.task]: Remove: archive file [/home/abi/fetcher/tmp/collective.task-3.0.8.tar.gz]
+[2023-07-20 11:34:44] INFO root fetch - processPackages [collective.task]: Remove: archive file [/home/abi/fetcher/tmp/collective.task-3.0.9.tar.gz]
+[2023-07-20 11:34:44] INFO root fetch - main [MainThread]: End processing [collective.task]: success
+[2023-07-20 11:34:44] INFO root fetch - processPackages [cloud-governance]: Remove: archive file [/home/abi/fetcher/tmp/cloud-governance-1.1.98.tar.gz]
+[2023-07-20 11:34:44] INFO root fetch - processPackages [cloud-governance]: Remove: archive file [/home/abi/fetcher/tmp/cloud-governance-1.1.99.tar.gz]
+[2023-07-20 11:34:44] INFO root fetch - main [MainThread]: End processing [cloud-governance]: success
+[2023-07-20 11:34:44] INFO root fetch - processPackages [lamindb_setup]: Remove: archive file [/home/abi/fetcher/tmp/lamindb_setup-0.48.8.tar.gz]
+[2023-07-20 11:34:44] INFO root fetch - processPackages [lamindb_setup]: Remove: archive file [/home/abi/fetcher/tmp/lamindb_setup-0.49.0.tar.gz]
+[2023-07-20 11:34:44] INFO root fetch - main [MainThread]: End processing [lamindb_setup]: success
+[2023-07-20 11:34:47] INFO root fetch - processPackages [django-daiquiri]: Remove: archive file [/home/abi/fetcher/tmp/django-daiquiri-0.2.tar.gz]
+[2023-07-20 11:34:47] INFO root fetch - processPackages [django-daiquiri]: Remove: archive file [/home/abi/fetcher/tmp/django-daiquiri-0.4.2.tar.gz]
+[2023-07-20 11:34:47] INFO root fetch - main [MainThread]: End processing [django-daiquiri]: success
+[2023-07-20 11:34:47] INFO root fetch - main [MainThread]: Store serial: [18964367]
