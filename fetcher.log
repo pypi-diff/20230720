@@ -8709,3 +8709,111 @@ AssertionError: tmp/verify4py-test-0.1.7.tar.gz does not exist
 [2023-07-20 14:52:21] INFO root fetch - processPackages [qwak-core]: Remove: archive file [/home/abi/fetcher/tmp/qwak_core-0.0.99.tar.gz]
 [2023-07-20 14:52:21] INFO root fetch - main [MainThread]: End processing [qwak-core]: success
 [2023-07-20 14:52:21] INFO root fetch - main [MainThread]: Store serial: [18966574]
+[2023-07-20 14:57:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18966574]
+[2023-07-20 14:57:29] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-07-20 14:57:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: xformers
+[2023-07-20 14:57:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: openassetio-manager-bal
+[2023-07-20 14:57:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hotel-manage
+[2023-07-20 14:57:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: smartplot
+[2023-07-20 14:57:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: print-bot-gen-1
+[2023-07-20 14:57:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: craterslab
+[2023-07-20 14:57:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyspex
+[2023-07-20 14:57:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: brain-isotopic-distribution
+[2023-07-20 14:57:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: TDCRPy
+[2023-07-20 14:57:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: scanpydoc
+[2023-07-20 14:57:29] INFO root fetch - processPackages [pyspex]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-07-20 14:57:30] INFO root fetch - processPackages [openassetio-manager-bal]: New version: [1.0.0a9] Old Version: [1.0.0a8]
+[2023-07-20 14:57:30] INFO root fetch - processPackages [smartplot]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-20 14:57:30] INFO root fetch - processPackages [xformers]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-20 14:57:30] INFO root fetch - processPackages [brain-isotopic-distribution]: New version: [1.5.9] Old Version: [1.5.8]
+[2023-07-20 14:57:30] WARNING root fetch - processPackages [craterslab]: Skipping, unable to determine old version
+[2023-07-20 14:57:30] INFO root fetch - processPackages [craterslab]: Start processing: ecallisto-ng
+[2023-07-20 14:57:30] INFO root fetch - main [MainThread]: End processing [craterslab] error
+[2023-07-20 14:57:30] WARNING root fetch - processPackages [hotel-manage]: Skipping, unable to determine old version
+[2023-07-20 14:57:30] INFO root fetch - processPackages [hotel-manage]: Start processing: minecraftstatus
+[2023-07-20 14:57:30] INFO root fetch - main [MainThread]: End processing [hotel-manage] error
+[2023-07-20 14:57:30] WARNING root fetch - processPackages [print-bot-gen-1]: Skipping, unable to determine old version
+[2023-07-20 14:57:30] INFO root fetch - processPackages [print-bot-gen-1]: Start processing: benchllm
+[2023-07-20 14:57:30] INFO root fetch - main [MainThread]: End processing [print-bot-gen-1] error
+[2023-07-20 14:57:30] INFO root fetch - processPackages [TDCRPy]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-20 14:57:30] INFO root fetch - processPackages [scanpydoc]: New version: [0.9.1] Old Version: [0.9]
+[2023-07-20 14:57:30] INFO root fetch - processPackages [minecraftstatus]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-20 14:57:30] INFO root fetch - processPackages [ecallisto-ng]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-07-20 14:57:30] INFO root fetch - processPackages [smartplot]: Downloading https://files.pythonhosted.org/packages/5e/1c/6764235d019efb51437944286f3fe0d917b9469aecd0f11d62f6700e23f8/smartplot-0.1.0.tar.gz
+[2023-07-20 14:57:30] INFO root fetch - processPackages [brain-isotopic-distribution]: Downloading https://files.pythonhosted.org/packages/76/a9/e9a542976152baebf520747ebb619fc715f25516b7ba2e3545195b7bb4e1/brain-isotopic-distribution-1.5.8.tar.gz
+[2023-07-20 14:57:30] INFO root fetch - processPackages [TDCRPy]: Downloading https://files.pythonhosted.org/packages/45/d1/26f2b4eb42e05416d7662d5fb8b6f31b59dee6421945806c7b7bfdfbfa94/TDCRPy-0.0.8.tar.gz
+[2023-07-20 14:57:30] INFO root fetch - processPackages [pyspex]: Downloading https://files.pythonhosted.org/packages/17/08/c36f9d7b0c53e1f1c4f68b13d4c172e66c5440f039fcd3b69fd7c7b6ffdc/pyspex-1.3.8.tar.gz
+[2023-07-20 14:57:30] INFO root fetch - processPackages [openassetio-manager-bal]: Downloading https://files.pythonhosted.org/packages/27/22/2860f6f43bccd2ba52e93c0bca2510ab499efbe81fd7685d88a3b23c0e78/openassetio_manager_bal-1.0.0a8-py3-none-any.whl
+[2023-07-20 14:57:30] INFO root fetch - processPackages [benchllm]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-07-20 14:57:30] INFO root fetch - processPackages [scanpydoc]: Downloading https://files.pythonhosted.org/packages/83/d9/d6d9cc8976103c14299682e83f54f96f9d46a39d3d8ca90810b409db9904/scanpydoc-0.9.tar.gz
+[2023-07-20 14:57:30] INFO root fetch - processPackages [minecraftstatus]: Downloading https://files.pythonhosted.org/packages/4a/cb/4bfd493553ab86ff60df4b8fe68f35ad27e9e4916afccee6f1def46cdefd/minecraftstatus-0.0.8.tar.gz
+[2023-07-20 14:57:30] INFO root fetch - processPackages [ecallisto-ng]: Downloading https://files.pythonhosted.org/packages/a3/29/7d3e8067a0640ef4d670fc0916dfe6f70824ae338e7e54299524d374be03/ecallisto_ng-0.2.3.tar.gz
+[2023-07-20 14:57:30] INFO root fetch - processPackages [benchllm]: Downloading https://files.pythonhosted.org/packages/70/80/a8b9382a4259d4d0a48752b5f05c409a25be19caef14ef273851569eddc6/benchllm-0.2.0.tar.gz
+[2023-07-20 14:57:30] INFO root fetch - processPackages [smartplot]: Downloading https://files.pythonhosted.org/packages/6b/7d/b132edcaade520b1df3d8291bffdaf83566c7414fc1d9044af05e2560980/smartplot-0.1.1.tar.gz
+[2023-07-20 14:57:30] INFO root fetch - processPackages [TDCRPy]: Downloading https://files.pythonhosted.org/packages/58/f4/f09bcfbd9ef3b75b2932ba824304fc7e7bcee566e8570cb2d64f76eb9adc/TDCRPy-0.0.9.tar.gz
+[2023-07-20 14:57:30] INFO root fetch - processPackages [brain-isotopic-distribution]: Downloading https://files.pythonhosted.org/packages/72/96/e02c029e5291f791fa08858d7e075b1e50c3a689f6bf3f412b31465bdf58/brain-isotopic-distribution-1.5.9.tar.gz
+[2023-07-20 14:57:30] INFO root fetch - processPackages [xformers]: executing diffoscope
+[2023-07-20 14:57:30] INFO root fetch - processPackages [xformers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xformers-0.0.8.tar.gz tmp/xformers-0.0.9.tar.gz --markdown 20230720/x/xformers/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-20 14:57:30] INFO root fetch - processPackages [smartplot]: executing diffoscope
+[2023-07-20 14:57:30] INFO root fetch - processPackages [smartplot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smartplot-0.1.0.tar.gz tmp/smartplot-0.1.1.tar.gz --markdown 20230720/s/smartplot/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-20 14:57:30] INFO root fetch - processPackages [pyspex]: Downloading https://files.pythonhosted.org/packages/c4/b5/bb0f00815b4858a3e7cb34d005f49dcd0b324a01bcae8155ed45837a42e8/pyspex-1.3.9.tar.gz
+[2023-07-20 14:57:30] INFO root fetch - processPackages [scanpydoc]: Downloading https://files.pythonhosted.org/packages/e3/e6/57554c76efc8b982e4c1d7ce08cd74f4ac471cd5891be4725ed899417a90/scanpydoc-0.9.1.tar.gz
+[2023-07-20 14:57:30] INFO root fetch - processPackages [TDCRPy]: executing diffoscope
+[2023-07-20 14:57:30] INFO root fetch - processPackages [TDCRPy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TDCRPy-0.0.8.tar.gz tmp/TDCRPy-0.0.9.tar.gz --markdown 20230720/T/TDCRPy/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-20 14:57:30] INFO root fetch - processPackages [ecallisto-ng]: Downloading https://files.pythonhosted.org/packages/f8/83/9cdaf4382acbac3e1ea47f6b1ae1382ed3af548139228ff6b9cb911ffd8e/ecallisto_ng-0.2.4.tar.gz
+[2023-07-20 14:57:30] INFO root fetch - processPackages [brain-isotopic-distribution]: executing diffoscope
+[2023-07-20 14:57:30] INFO root fetch - processPackages [brain-isotopic-distribution]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/brain-isotopic-distribution-1.5.8.tar.gz tmp/brain-isotopic-distribution-1.5.9.tar.gz --markdown 20230720/b/brain-isotopic-distribution/1.5.8-1.5.9/diff.md --exclude *.pyd
+[2023-07-20 14:57:30] INFO root fetch - processPackages [minecraftstatus]: Downloading https://files.pythonhosted.org/packages/96/02/3f22f7a7c9e08d1f1b702a5c821c299d1c8762bd8f94cfa201d4bf8dec12/minecraftstatus-0.0.9.tar.gz
+[2023-07-20 14:57:31] INFO root fetch - processPackages [pyspex]: executing diffoscope
+[2023-07-20 14:57:31] INFO root fetch - processPackages [pyspex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyspex-1.3.8.tar.gz tmp/pyspex-1.3.9.tar.gz --markdown 20230720/p/pyspex/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2023-07-20 14:57:31] INFO root fetch - processPackages [scanpydoc]: executing diffoscope
+[2023-07-20 14:57:31] INFO root fetch - processPackages [scanpydoc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scanpydoc-0.9.tar.gz tmp/scanpydoc-0.9.1.tar.gz --markdown 20230720/s/scanpydoc/0.9-0.9.1/diff.md --exclude *.pyd
+[2023-07-20 14:57:31] INFO root fetch - processPackages [benchllm]: Downloading https://files.pythonhosted.org/packages/75/87/a1595fdb0b476144f69d70e7283e99dcbe6146159dfce176cc7945a55d56/benchllm-0.3.0.tar.gz
+[2023-07-20 14:57:31] INFO root fetch - processPackages [ecallisto-ng]: executing diffoscope
+[2023-07-20 14:57:31] INFO root fetch - processPackages [ecallisto-ng]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ecallisto_ng-0.2.3.tar.gz tmp/ecallisto_ng-0.2.4.tar.gz --markdown 20230720/e/ecallisto-ng/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-07-20 14:57:31] INFO root fetch - processPackages [minecraftstatus]: executing diffoscope
+[2023-07-20 14:57:31] INFO root fetch - processPackages [minecraftstatus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/minecraftstatus-0.0.8.tar.gz tmp/minecraftstatus-0.0.9.tar.gz --markdown 20230720/m/minecraftstatus/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-20 14:57:31] INFO root fetch - processPackages [openassetio-manager-bal]: Downloading https://files.pythonhosted.org/packages/fc/4c/9f7881d5ad888030e6fdf3c809d4cdd495ac120e8985b8cbf445061e292f/openassetio_manager_bal-1.0.0a9-py3-none-any.whl
+[2023-07-20 14:57:31] INFO root fetch - processPackages [benchllm]: executing diffoscope
+[2023-07-20 14:57:31] INFO root fetch - processPackages [benchllm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/benchllm-0.2.0.tar.gz tmp/benchllm-0.3.0.tar.gz --markdown 20230720/b/benchllm/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-07-20 14:57:31] INFO root fetch - processPackages [openassetio-manager-bal]: executing diffoscope
+[2023-07-20 14:57:31] INFO root fetch - processPackages [openassetio-manager-bal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openassetio_manager_bal-1.0.0a8-py3-none-any.whl.zip tmp/openassetio_manager_bal-1.0.0a9-py3-none-any.whl.zip --markdown 20230720/o/openassetio-manager-bal/1.0.0a8-1.0.0a9/diff.md --exclude *.pyd
+[2023-07-20 14:57:32] INFO root fetch - processPackages [xformers]: Remove: archive file [/home/abi/fetcher/tmp/xformers-0.0.8.tar.gz]
+[2023-07-20 14:57:32] INFO root fetch - processPackages [xformers]: Remove: archive file [/home/abi/fetcher/tmp/xformers-0.0.9.tar.gz]
+[2023-07-20 14:57:32] INFO root fetch - processPackages [xformers]: Start processing: ideabox.theme
+[2023-07-20 14:57:32] INFO root fetch - main [MainThread]: End processing [xformers]: success
+[2023-07-20 14:57:32] INFO root fetch - processPackages [smartplot]: Remove: archive file [/home/abi/fetcher/tmp/smartplot-0.1.0.tar.gz]
+[2023-07-20 14:57:32] INFO root fetch - processPackages [smartplot]: Remove: archive file [/home/abi/fetcher/tmp/smartplot-0.1.1.tar.gz]
+[2023-07-20 14:57:32] INFO root fetch - processPackages [smartplot]: Start processing: tilupy
+[2023-07-20 14:57:32] INFO root fetch - main [MainThread]: End processing [smartplot]: success
+[2023-07-20 14:57:32] INFO root fetch - processPackages [ideabox.theme]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-20 14:57:32] WARNING root fetch - processPackages [tilupy]: Skipping, unable to determine old version
+[2023-07-20 14:57:32] INFO root fetch - main [MainThread]: End processing [tilupy] error
+[2023-07-20 14:57:32] INFO root fetch - processPackages [ideabox.theme]: Downloading https://files.pythonhosted.org/packages/d5/0f/e8d5f75d9e189dd4d5108d584d2cd1b59217436d0905b2a79208bf22c132/ideabox.theme-1.0.1.tar.gz
+[2023-07-20 14:57:32] INFO root fetch - processPackages [TDCRPy]: Remove: archive file [/home/abi/fetcher/tmp/TDCRPy-0.0.8.tar.gz]
+[2023-07-20 14:57:32] INFO root fetch - processPackages [TDCRPy]: Remove: archive file [/home/abi/fetcher/tmp/TDCRPy-0.0.9.tar.gz]
+[2023-07-20 14:57:32] INFO root fetch - main [MainThread]: End processing [TDCRPy]: success
+[2023-07-20 14:57:32] INFO root fetch - processPackages [minecraftstatus]: Remove: archive file [/home/abi/fetcher/tmp/minecraftstatus-0.0.8.tar.gz]
+[2023-07-20 14:57:32] INFO root fetch - processPackages [scanpydoc]: Remove: archive file [/home/abi/fetcher/tmp/scanpydoc-0.9.tar.gz]
+[2023-07-20 14:57:32] INFO root fetch - processPackages [minecraftstatus]: Remove: archive file [/home/abi/fetcher/tmp/minecraftstatus-0.0.9.tar.gz]
+[2023-07-20 14:57:32] INFO root fetch - processPackages [scanpydoc]: Remove: archive file [/home/abi/fetcher/tmp/scanpydoc-0.9.1.tar.gz]
+[2023-07-20 14:57:32] INFO root fetch - main [MainThread]: End processing [minecraftstatus]: success
+[2023-07-20 14:57:32] INFO root fetch - main [MainThread]: End processing [scanpydoc]: success
+[2023-07-20 14:57:32] INFO root fetch - processPackages [ecallisto-ng]: Remove: archive file [/home/abi/fetcher/tmp/ecallisto_ng-0.2.3.tar.gz]
+[2023-07-20 14:57:32] INFO root fetch - processPackages [ecallisto-ng]: Remove: archive file [/home/abi/fetcher/tmp/ecallisto_ng-0.2.4.tar.gz]
+[2023-07-20 14:57:32] INFO root fetch - main [MainThread]: End processing [ecallisto-ng]: success
+[2023-07-20 14:57:32] INFO root fetch - processPackages [benchllm]: Remove: archive file [/home/abi/fetcher/tmp/benchllm-0.2.0.tar.gz]
+[2023-07-20 14:57:32] INFO root fetch - processPackages [benchllm]: Remove: archive file [/home/abi/fetcher/tmp/benchllm-0.3.0.tar.gz]
+[2023-07-20 14:57:32] INFO root fetch - main [MainThread]: End processing [benchllm]: success
+[2023-07-20 14:57:32] INFO root fetch - processPackages [openassetio-manager-bal]: Remove: archive file [/home/abi/fetcher/tmp/openassetio_manager_bal-1.0.0a8-py3-none-any.whl.zip]
+[2023-07-20 14:57:32] INFO root fetch - processPackages [openassetio-manager-bal]: Remove: archive file [/home/abi/fetcher/tmp/openassetio_manager_bal-1.0.0a9-py3-none-any.whl.zip]
+[2023-07-20 14:57:32] INFO root fetch - main [MainThread]: End processing [openassetio-manager-bal]: success
+[2023-07-20 14:57:32] INFO root fetch - processPackages [pyspex]: Remove: archive file [/home/abi/fetcher/tmp/pyspex-1.3.8.tar.gz]
+[2023-07-20 14:57:32] INFO root fetch - processPackages [pyspex]: Remove: archive file [/home/abi/fetcher/tmp/pyspex-1.3.9.tar.gz]
+[2023-07-20 14:57:32] INFO root fetch - main [MainThread]: End processing [pyspex]: success
+[2023-07-20 14:57:32] INFO root fetch - processPackages [brain-isotopic-distribution]: Remove: archive file [/home/abi/fetcher/tmp/brain-isotopic-distribution-1.5.8.tar.gz]
+[2023-07-20 14:57:32] INFO root fetch - processPackages [brain-isotopic-distribution]: Remove: archive file [/home/abi/fetcher/tmp/brain-isotopic-distribution-1.5.9.tar.gz]
+[2023-07-20 14:57:32] INFO root fetch - main [MainThread]: End processing [brain-isotopic-distribution]: success
+[2023-07-20 14:57:33] WARNING root fetch - processPackages [ideabox.theme]: Skipping package: exceeds size limit 15409688>=10485760
+[2023-07-20 14:57:33] INFO root fetch - main [MainThread]: End processing [ideabox.theme] error
+[2023-07-20 14:57:33] INFO root fetch - main [MainThread]: Store serial: [18966639]
