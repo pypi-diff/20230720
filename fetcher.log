@@ -6570,3 +6570,141 @@ AssertionError: tmp/verify4py-test-0.1.7.tar.gz does not exist
 [2023-07-20 13:21:00] INFO root fetch - processPackages [jupyterlab_local_browser]: Remove: archive file [/home/abi/fetcher/tmp/jupyterlab_local_browser-0.4.2.tar.gz]
 [2023-07-20 13:21:00] INFO root fetch - main [MainThread]: End processing [jupyterlab_local_browser]: success
 [2023-07-20 13:21:00] INFO root fetch - main [MainThread]: Store serial: [18965700]
+[2023-07-20 13:26:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18965700]
+[2023-07-20 13:26:09] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-07-20 13:26:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tb-nightly
+[2023-07-20 13:26:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ltsfit
+[2023-07-20 13:26:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: apideck
+[2023-07-20 13:26:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: preprocessing-pgp
+[2023-07-20 13:26:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: izihawa-ipfs-api
+[2023-07-20 13:26:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hyload
+[2023-07-20 13:26:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: claude2
+[2023-07-20 13:26:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: Geode-Common
+[2023-07-20 13:26:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: finflo
+[2023-07-20 13:26:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: torchrl-nightly
+[2023-07-20 13:26:09] INFO root fetch - processPackages [ltsfit]: New version: [6.0.1] Old Version: [5.0.20]
+[2023-07-20 13:26:09] INFO root fetch - processPackages [izihawa-ipfs-api]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-07-20 13:26:09] INFO root fetch - processPackages [claude2]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-20 13:26:09] INFO root fetch - processPackages [hyload]: New version: [0.2.1] Old Version: [0.1.1]
+[2023-07-20 13:26:09] INFO root fetch - processPackages [apideck]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-07-20 13:26:09] INFO root fetch - processPackages [preprocessing-pgp]: New version: [0.2.9.post9.dev8] Old Version: [0.2.9.post9.dev7]
+[2023-07-20 13:26:09] INFO root fetch - processPackages [finflo]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-07-20 13:26:09] INFO root fetch - processPackages [Geode-Common]: New version: [26.1.4rc1] Old Version: [26.1.3rc4]
+[2023-07-20 13:26:09] INFO root fetch - processPackages [claude2]: Downloading https://files.pythonhosted.org/packages/4e/15/50f1269f421295de0a9b3513eb5975cced4650c6be52c0ce92dcea4010c1/claude2-1.0.0.tar.gz
+[2023-07-20 13:26:09] INFO root fetch - processPackages [torchrl-nightly]: New version: [2023.7.9] Old Version: [2023.7.8]
+[2023-07-20 13:26:09] INFO root fetch - processPackages [apideck]: Downloading https://files.pythonhosted.org/packages/3e/4f/a06d8ad81039a97f4bf3201f4f425386225678dbec75940983b7302c4300/apideck-0.2.2.tar.gz
+[2023-07-20 13:26:09] INFO root fetch - processPackages [ltsfit]: Downloading https://files.pythonhosted.org/packages/b5/3d/3c5ae12efef0180071313c9a53b150b757a74758e0233b11b9da92991541/ltsfit-5.0.20.tar.gz
+[2023-07-20 13:26:09] INFO root fetch - processPackages [preprocessing-pgp]: Downloading https://files.pythonhosted.org/packages/3b/ff/280ddfc30db341960587617aede0239f03d7380c369e1410cf3fc31d07bf/preprocessing-pgp-0.2.9.post9.dev7.tar.gz
+[2023-07-20 13:26:09] INFO root fetch - processPackages [finflo]: Downloading https://files.pythonhosted.org/packages/04/d4/473c3170b2653947ae4fdf747350d5d9da37102ff9e555728fe31155c998/finflo-2.0.8.tar.gz
+[2023-07-20 13:26:09] INFO root fetch - processPackages [tb-nightly]: New version: [2.9.0a20220502] Old Version: [2.9.0a20220501]
+[2023-07-20 13:26:10] WARNING root fetch - processPackages [preprocessing-pgp]: Skipping package: exceeds size limit 78857974>=10485760
+[2023-07-20 13:26:10] INFO root fetch - processPackages [preprocessing-pgp]: Start processing: TDCRPy
+[2023-07-20 13:26:10] INFO root fetch - main [MainThread]: End processing [preprocessing-pgp] error
+[2023-07-20 13:26:10] INFO root fetch - processPackages [hyload]: Downloading https://files.pythonhosted.org/packages/aa/40/cc51c301de416b304f231cb304ac45646125f5682ed4599ae1820e593a2f/hyload-0.1.1-py3-none-any.whl
+[2023-07-20 13:26:10] INFO root fetch - processPackages [Geode-Common]: Downloading https://files.pythonhosted.org/packages/06/c7/77bfed9289122cd242b82cafbce267df1792ef69539dcde4f704b32ccb2a/Geode_Common-26.1.3rc4-cp39-cp39-win_amd64.whl
+[2023-07-20 13:26:10] INFO root fetch - processPackages [torchrl-nightly]: Downloading https://files.pythonhosted.org/packages/38/33/59a88ceafbd8e349b7f261de4859c91912b883bd14249422d344f09ba9ed/torchrl_nightly-2023.7.8-cp39-cp39-win_amd64.whl
+[2023-07-20 13:26:10] INFO root fetch - processPackages [TDCRPy]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-20 13:26:10] INFO root fetch - processPackages [izihawa-ipfs-api]: Downloading https://files.pythonhosted.org/packages/24/19/faccbe6951e79f16570cd1a6a408d0aeaae36856658db866fa08e253161c/izihawa-ipfs-api-1.0.4.tar.gz
+[2023-07-20 13:26:10] INFO root fetch - processPackages [claude2]: Downloading https://files.pythonhosted.org/packages/88/3f/294c8823071404da1451a82db1ec7bc4e93f52b8445c83033c30a0489a30/claude2-1.0.1.tar.gz
+[2023-07-20 13:26:10] INFO root fetch - processPackages [tb-nightly]: Downloading https://files.pythonhosted.org/packages/cc/bf/76bb32cf070e37f4b777ed5596c5d082fb60a1bfc06e9463401d07021a8a/tb_nightly-2.9.0a20220501-py3-none-any.whl
+[2023-07-20 13:26:10] INFO root fetch - processPackages [TDCRPy]: Downloading https://files.pythonhosted.org/packages/45/d1/26f2b4eb42e05416d7662d5fb8b6f31b59dee6421945806c7b7bfdfbfa94/TDCRPy-0.0.8.tar.gz
+[2023-07-20 13:26:10] INFO root fetch - processPackages [izihawa-ipfs-api]: executing diffoscope
+[2023-07-20 13:26:10] INFO root fetch - processPackages [izihawa-ipfs-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/izihawa-ipfs-api-1.0.3.tar.gz tmp/izihawa-ipfs-api-1.0.4.tar.gz --markdown 20230720/i/izihawa-ipfs-api/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-07-20 13:26:10] INFO root fetch - processPackages [claude2]: executing diffoscope
+[2023-07-20 13:26:10] INFO root fetch - processPackages [claude2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/claude2-1.0.0.tar.gz tmp/claude2-1.0.1.tar.gz --markdown 20230720/c/claude2/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-20 13:26:10] INFO root fetch - processPackages [finflo]: Downloading https://files.pythonhosted.org/packages/cc/e5/9200013d5fdb9d58e796c4748484e51997a114364e5fea45f180325456db/finflo-2.0.9.tar.gz
+[2023-07-20 13:26:10] INFO root fetch - processPackages [ltsfit]: Downloading https://files.pythonhosted.org/packages/ff/25/87da8ccfc5c1eb5eab2c31d54bed3e895b94d782307c99dec5faa936cd67/ltsfit-6.0.1.tar.gz
+[2023-07-20 13:26:10] INFO root fetch - processPackages [apideck]: Downloading https://files.pythonhosted.org/packages/dc/87/972317ddffb2c41adca809022c854452220bc9b0694e2dc095ba20fc4a37/apideck-0.2.3.tar.gz
+[2023-07-20 13:26:10] INFO root fetch - processPackages [hyload]: Downloading https://files.pythonhosted.org/packages/97/7a/83afebdc0a368c81e88f9d2724c77d5e8ce6e83936e9c910e13de1120251/hyload-0.2.1-py3-none-any.whl
+[2023-07-20 13:26:10] INFO root fetch - processPackages [finflo]: executing diffoscope
+[2023-07-20 13:26:10] INFO root fetch - processPackages [finflo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finflo-2.0.8.tar.gz tmp/finflo-2.0.9.tar.gz --markdown 20230720/f/finflo/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-07-20 13:26:10] INFO root fetch - processPackages [TDCRPy]: Downloading https://files.pythonhosted.org/packages/58/f4/f09bcfbd9ef3b75b2932ba824304fc7e7bcee566e8570cb2d64f76eb9adc/TDCRPy-0.0.9.tar.gz
+[2023-07-20 13:26:10] INFO root fetch - processPackages [torchrl-nightly]: Downloading https://files.pythonhosted.org/packages/22/59/298ac6427c9497e554f2b3ba5d253603250fe69672e94a74affda6a5613c/torchrl_nightly-2023.7.9-cp39-cp39-win_amd64.whl
+[2023-07-20 13:26:10] INFO root fetch - processPackages [Geode-Common]: Downloading https://files.pythonhosted.org/packages/0c/fe/1d633722365c65e6a3932980479ba68a06d0def899a008a251db2c578595/Geode_Common-26.1.4rc1-cp39-cp39-manylinux2014_x86_64.whl
+[2023-07-20 13:26:10] INFO root fetch - processPackages [ltsfit]: executing diffoscope
+[2023-07-20 13:26:10] INFO root fetch - processPackages [ltsfit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ltsfit-5.0.20.tar.gz tmp/ltsfit-6.0.1.tar.gz --markdown 20230720/l/ltsfit/5.0.20-6.0.1/diff.md --exclude *.pyd
+[2023-07-20 13:26:10] INFO root fetch - processPackages [apideck]: executing diffoscope
+[2023-07-20 13:26:10] INFO root fetch - processPackages [apideck]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apideck-0.2.2.tar.gz tmp/apideck-0.2.3.tar.gz --markdown 20230720/a/apideck/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-07-20 13:26:10] INFO root fetch - processPackages [hyload]: executing diffoscope
+[2023-07-20 13:26:10] INFO root fetch - processPackages [hyload]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyload-0.1.1-py3-none-any.whl.zip tmp/hyload-0.2.1-py3-none-any.whl.zip --markdown 20230720/h/hyload/0.1.1-0.2.1/diff.md --exclude *.pyd
+[2023-07-20 13:26:10] INFO root fetch - processPackages [TDCRPy]: executing diffoscope
+[2023-07-20 13:26:10] INFO root fetch - processPackages [TDCRPy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TDCRPy-0.0.8.tar.gz tmp/TDCRPy-0.0.9.tar.gz --markdown 20230720/T/TDCRPy/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-20 13:26:10] INFO root fetch - processPackages [torchrl-nightly]: executing diffoscope
+[2023-07-20 13:26:10] INFO root fetch - processPackages [torchrl-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchrl_nightly-2023.7.8-cp39-cp39-win_amd64.whl.zip tmp/torchrl_nightly-2023.7.9-cp39-cp39-win_amd64.whl.zip --markdown 20230720/t/torchrl-nightly/2023.7.8-2023.7.9/diff.md --exclude *.pyd
+[2023-07-20 13:26:11] INFO root fetch - processPackages [tb-nightly]: Downloading https://files.pythonhosted.org/packages/68/8e/03bca092830a4abf26a80c7387b02478c5f948656cb79d63c1bffab65c00/tb_nightly-2.9.0a20220502-py3-none-any.whl
+[2023-07-20 13:26:11] INFO root fetch - processPackages [izihawa-ipfs-api]: Remove: archive file [/home/abi/fetcher/tmp/izihawa-ipfs-api-1.0.3.tar.gz]
+[2023-07-20 13:26:11] INFO root fetch - processPackages [izihawa-ipfs-api]: Remove: archive file [/home/abi/fetcher/tmp/izihawa-ipfs-api-1.0.4.tar.gz]
+[2023-07-20 13:26:11] INFO root fetch - processPackages [izihawa-ipfs-api]: Start processing: funding-service-design-utils
+[2023-07-20 13:26:11] INFO root fetch - main [MainThread]: End processing [izihawa-ipfs-api]: success
+[2023-07-20 13:26:11] INFO root fetch - processPackages [tb-nightly]: executing diffoscope
+[2023-07-20 13:26:11] INFO root fetch - processPackages [tb-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tb_nightly-2.9.0a20220501-py3-none-any.whl.zip tmp/tb_nightly-2.9.0a20220502-py3-none-any.whl.zip --markdown 20230720/t/tb-nightly/2.9.0a20220501-2.9.0a20220502/diff.md --exclude *.pyd
+[2023-07-20 13:26:11] INFO root fetch - processPackages [claude2]: Remove: archive file [/home/abi/fetcher/tmp/claude2-1.0.0.tar.gz]
+[2023-07-20 13:26:11] INFO root fetch - processPackages [claude2]: Remove: archive file [/home/abi/fetcher/tmp/claude2-1.0.1.tar.gz]
+[2023-07-20 13:26:11] INFO root fetch - processPackages [claude2]: Start processing: CxAdmin
+[2023-07-20 13:26:11] INFO root fetch - main [MainThread]: End processing [claude2]: success
+[2023-07-20 13:26:11] INFO root fetch - processPackages [Geode-Common]: executing diffoscope
+[2023-07-20 13:26:11] INFO root fetch - processPackages [Geode-Common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Geode_Common-26.1.3rc4-cp39-cp39-win_amd64.whl.zip tmp/Geode_Common-26.1.4rc1-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20230720/G/Geode-Common/26.1.3rc4-26.1.4rc1/diff.md --exclude *.pyd
+[2023-07-20 13:26:11] INFO root fetch - processPackages [CxAdmin]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-20 13:26:11] INFO root fetch - processPackages [funding-service-design-utils]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-07-20 13:26:11] INFO root fetch - processPackages [CxAdmin]: Downloading https://files.pythonhosted.org/packages/72/2d/39137a2e73be34674809bf9eabf234a558344f4c60f8d348d9c9666872ce/CxAdmin-1.0.8.tar.gz
+[2023-07-20 13:26:11] INFO root fetch - processPackages [funding-service-design-utils]: Downloading https://files.pythonhosted.org/packages/fc/05/ebfd1361ff3bd9a9b0a15e036dfd215e147713cb058c15778765feded45b/funding-service-design-utils-2.0.8.tar.gz
+[2023-07-20 13:26:11] INFO root fetch - processPackages [CxAdmin]: Downloading https://files.pythonhosted.org/packages/12/69/d90f882fe41226c22716f3133aa3d1fd7abd744d25527cd17a8e33f7487f/CxAdmin-1.0.9.tar.gz
+[2023-07-20 13:26:12] INFO root fetch - processPackages [finflo]: Remove: archive file [/home/abi/fetcher/tmp/finflo-2.0.8.tar.gz]
+[2023-07-20 13:26:12] INFO root fetch - processPackages [finflo]: Remove: archive file [/home/abi/fetcher/tmp/finflo-2.0.9.tar.gz]
+[2023-07-20 13:26:12] INFO root fetch - processPackages [finflo]: Start processing: formal-sdk
+[2023-07-20 13:26:12] INFO root fetch - main [MainThread]: End processing [finflo]: success
+[2023-07-20 13:26:12] INFO root fetch - processPackages [CxAdmin]: executing diffoscope
+[2023-07-20 13:26:12] INFO root fetch - processPackages [CxAdmin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CxAdmin-1.0.8.tar.gz tmp/CxAdmin-1.0.9.tar.gz --markdown 20230720/C/CxAdmin/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-20 13:26:12] INFO root fetch - processPackages [hyload]: Remove: archive file [/home/abi/fetcher/tmp/hyload-0.1.1-py3-none-any.whl.zip]
+[2023-07-20 13:26:12] INFO root fetch - processPackages [hyload]: Remove: archive file [/home/abi/fetcher/tmp/hyload-0.2.1-py3-none-any.whl.zip]
+[2023-07-20 13:26:12] INFO root fetch - processPackages [hyload]: Start processing: preprocessing-pgp
+[2023-07-20 13:26:12] INFO root fetch - main [MainThread]: End processing [hyload]: success
+[2023-07-20 13:26:12] INFO root fetch - processPackages [formal-sdk]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-07-20 13:26:12] INFO root fetch - processPackages [ltsfit]: Remove: archive file [/home/abi/fetcher/tmp/ltsfit-5.0.20.tar.gz]
+[2023-07-20 13:26:12] INFO root fetch - processPackages [ltsfit]: Remove: archive file [/home/abi/fetcher/tmp/ltsfit-6.0.1.tar.gz]
+[2023-07-20 13:26:12] INFO root fetch - processPackages [ltsfit]: Start processing: ltsfit
+[2023-07-20 13:26:12] INFO root fetch - main [MainThread]: End processing [ltsfit]: success
+[2023-07-20 13:26:12] INFO root fetch - processPackages [preprocessing-pgp]: New version: [0.2.9.post9.dev8] Old Version: [0.2.9.post9.dev7]
+[2023-07-20 13:26:12] INFO root fetch - processPackages [ltsfit]: New version: [6.0.2] Old Version: [6.0.1]
+[2023-07-20 13:26:12] INFO root fetch - processPackages [funding-service-design-utils]: Downloading https://files.pythonhosted.org/packages/64/dd/5468aa90577e921b62adb3b2a2ce40bcdbcbdf4133e3ffe35bab68233cc6/funding-service-design-utils-2.0.9.tar.gz
+[2023-07-20 13:26:12] INFO root fetch - processPackages [TDCRPy]: Remove: archive file [/home/abi/fetcher/tmp/TDCRPy-0.0.8.tar.gz]
+[2023-07-20 13:26:12] INFO root fetch - processPackages [TDCRPy]: Remove: archive file [/home/abi/fetcher/tmp/TDCRPy-0.0.9.tar.gz]
+[2023-07-20 13:26:12] INFO root fetch - main [MainThread]: End processing [TDCRPy]: success
+[2023-07-20 13:26:12] INFO root fetch - processPackages [preprocessing-pgp]: Downloading https://files.pythonhosted.org/packages/3b/ff/280ddfc30db341960587617aede0239f03d7380c369e1410cf3fc31d07bf/preprocessing-pgp-0.2.9.post9.dev7.tar.gz
+[2023-07-20 13:26:12] INFO root fetch - processPackages [ltsfit]: Downloading https://files.pythonhosted.org/packages/ff/25/87da8ccfc5c1eb5eab2c31d54bed3e895b94d782307c99dec5faa936cd67/ltsfit-6.0.1.tar.gz
+[2023-07-20 13:26:12] INFO root fetch - processPackages [formal-sdk]: Downloading https://files.pythonhosted.org/packages/bf/03/598276b6f11787c1e1950dde18e70c8ce44fff13ccef18b0c1d3b034f873/formal-sdk-0.8.0.tar.gz
+[2023-07-20 13:26:12] WARNING root fetch - processPackages [preprocessing-pgp]: Skipping package: exceeds size limit 78857974>=10485760
+[2023-07-20 13:26:12] INFO root fetch - main [MainThread]: End processing [preprocessing-pgp] error
+[2023-07-20 13:26:12] INFO root fetch - processPackages [funding-service-design-utils]: executing diffoscope
+[2023-07-20 13:26:12] INFO root fetch - processPackages [funding-service-design-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/funding-service-design-utils-2.0.8.tar.gz tmp/funding-service-design-utils-2.0.9.tar.gz --markdown 20230720/f/funding-service-design-utils/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-07-20 13:26:12] INFO root fetch - processPackages [ltsfit]: Downloading https://files.pythonhosted.org/packages/1a/2a/8aa63e9a7b9077af558a26f023d64919fd8be119738d9b7ae677d04f740d/ltsfit-6.0.2.tar.gz
+[2023-07-20 13:26:13] INFO root fetch - processPackages [ltsfit]: executing diffoscope
+[2023-07-20 13:26:13] INFO root fetch - processPackages [ltsfit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ltsfit-6.0.1.tar.gz tmp/ltsfit-6.0.2.tar.gz --markdown 20230720/l/ltsfit/6.0.1-6.0.2/diff.md --exclude *.pyd
+[2023-07-20 13:26:13] INFO root fetch - processPackages [Geode-Common]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Common-26.1.3rc4-cp39-cp39-win_amd64.whl.zip]
+[2023-07-20 13:26:13] INFO root fetch - processPackages [Geode-Common]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Common-26.1.4rc1-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2023-07-20 13:26:13] INFO root fetch - main [MainThread]: End processing [Geode-Common]: success
+[2023-07-20 13:26:13] INFO root fetch - processPackages [torchrl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchrl_nightly-2023.7.8-cp39-cp39-win_amd64.whl.zip]
+[2023-07-20 13:26:13] INFO root fetch - processPackages [torchrl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchrl_nightly-2023.7.9-cp39-cp39-win_amd64.whl.zip]
+[2023-07-20 13:26:13] INFO root fetch - main [MainThread]: End processing [torchrl-nightly]: success
+[2023-07-20 13:26:13] INFO root fetch - processPackages [CxAdmin]: Remove: archive file [/home/abi/fetcher/tmp/CxAdmin-1.0.8.tar.gz]
+[2023-07-20 13:26:13] INFO root fetch - processPackages [CxAdmin]: Remove: archive file [/home/abi/fetcher/tmp/CxAdmin-1.0.9.tar.gz]
+[2023-07-20 13:26:13] INFO root fetch - main [MainThread]: End processing [CxAdmin]: success
+[2023-07-20 13:26:13] INFO root fetch - processPackages [funding-service-design-utils]: Remove: archive file [/home/abi/fetcher/tmp/funding-service-design-utils-2.0.8.tar.gz]
+[2023-07-20 13:26:13] INFO root fetch - processPackages [funding-service-design-utils]: Remove: archive file [/home/abi/fetcher/tmp/funding-service-design-utils-2.0.9.tar.gz]
+[2023-07-20 13:26:13] INFO root fetch - main [MainThread]: End processing [funding-service-design-utils]: success
+[2023-07-20 13:26:13] INFO root fetch - processPackages [formal-sdk]: Downloading https://files.pythonhosted.org/packages/92/61/28c782801750048612df0906384cd2244241f9a937375323773a525c8462/formal-sdk-0.9.0.tar.gz
+[2023-07-20 13:26:13] INFO root fetch - processPackages [formal-sdk]: executing diffoscope
+[2023-07-20 13:26:13] INFO root fetch - processPackages [formal-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/formal-sdk-0.8.0.tar.gz tmp/formal-sdk-0.9.0.tar.gz --markdown 20230720/f/formal-sdk/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-07-20 13:26:13] INFO root fetch - processPackages [ltsfit]: Remove: archive file [/home/abi/fetcher/tmp/ltsfit-6.0.1.tar.gz]
+[2023-07-20 13:26:13] INFO root fetch - processPackages [ltsfit]: Remove: archive file [/home/abi/fetcher/tmp/ltsfit-6.0.2.tar.gz]
+[2023-07-20 13:26:13] INFO root fetch - main [MainThread]: End processing [ltsfit]: success
+[2023-07-20 13:26:14] INFO root fetch - processPackages [tb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tb_nightly-2.9.0a20220501-py3-none-any.whl.zip]
+[2023-07-20 13:26:14] INFO root fetch - processPackages [tb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tb_nightly-2.9.0a20220502-py3-none-any.whl.zip]
+[2023-07-20 13:26:14] INFO root fetch - main [MainThread]: End processing [tb-nightly]: success
+[2023-07-20 13:26:14] INFO root fetch - processPackages [formal-sdk]: Remove: archive file [/home/abi/fetcher/tmp/formal-sdk-0.8.0.tar.gz]
+[2023-07-20 13:26:14] INFO root fetch - processPackages [formal-sdk]: Remove: archive file [/home/abi/fetcher/tmp/formal-sdk-0.9.0.tar.gz]
+[2023-07-20 13:26:14] INFO root fetch - main [MainThread]: End processing [formal-sdk]: success
+[2023-07-20 13:26:27] INFO root fetch - processPackages [apideck]: Remove: archive file [/home/abi/fetcher/tmp/apideck-0.2.2.tar.gz]
+[2023-07-20 13:26:27] INFO root fetch - processPackages [apideck]: Remove: archive file [/home/abi/fetcher/tmp/apideck-0.2.3.tar.gz]
+[2023-07-20 13:26:27] INFO root fetch - main [MainThread]: End processing [apideck]: success
+[2023-07-20 13:26:27] INFO root fetch - main [MainThread]: Store serial: [18965776]
