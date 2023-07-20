@@ -1,0 +1,86 @@
+[2023-07-20 09:59:09] INFO root fetch - main [MainThread]: No serial file found, fetching last serial via API
+[2023-07-20 09:59:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18962950]
+[2023-07-20 09:59:14] INFO root fetch - main [MainThread]: No changed packages found
+[2023-07-20 10:04:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18962950]
+[2023-07-20 10:04:20] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-20 10:04:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: TII-formation-package
+[2023-07-20 10:04:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: armonik
+[2023-07-20 10:04:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: discohooker
+[2023-07-20 10:04:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: armonik
+[2023-07-20 10:04:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo14-addon-ssi-transaction-cancel-mixin
+[2023-07-20 10:04:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: armonik
+[2023-07-20 10:04:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nasops
+[2023-07-20 10:04:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: openxlab-test
+[2023-07-20 10:04:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: adafri
+[2023-07-20 10:04:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: TII-formation-package
+[2023-07-20 10:04:20] INFO root fetch - processPackages [openxlab-test]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-20 10:04:20] WARNING root fetch - processPackages [odoo14-addon-ssi-transaction-cancel-mixin]: Skipping, unable to determine old version
+[2023-07-20 10:04:20] INFO root fetch - processPackages [odoo14-addon-ssi-transaction-cancel-mixin]: Start processing: discohooker
+[2023-07-20 10:04:20] INFO root fetch - main [MainThread]: End processing [odoo14-addon-ssi-transaction-cancel-mixin] error
+[2023-07-20 10:04:20] WARNING root fetch - processPackages [TII-formation-package]: Skipping, unable to determine old version
+[2023-07-20 10:04:20] INFO root fetch - processPackages [TII-formation-package]: Start processing: zylo
+[2023-07-20 10:04:20] INFO root fetch - main [MainThread]: End processing [TII-formation-package] error
+[2023-07-20 10:04:20] WARNING root fetch - processPackages [TII-formation-package]: Skipping, unable to determine old version
+[2023-07-20 10:04:20] INFO root fetch - main [MainThread]: End processing [TII-formation-package] error
+[2023-07-20 10:04:20] INFO root fetch - processPackages [discohooker]: New version: [0.0.0b9] Old Version: [0.0.0b8]
+[2023-07-20 10:04:20] INFO root fetch - processPackages [adafri]: New version: [0.0.41] Old Version: [0.0.40]
+[2023-07-20 10:04:20] INFO root fetch - processPackages [armonik]: New version: [3.9.3.dev630] Old Version: [3.9.3.dev627]
+[2023-07-20 10:04:20] INFO root fetch - processPackages [nasops]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-20 10:04:20] INFO root fetch - processPackages [armonik]: New version: [3.9.3.dev630] Old Version: [3.9.3.dev627]
+[2023-07-20 10:04:20] INFO root fetch - processPackages [armonik]: New version: [3.9.3.dev630] Old Version: [3.9.3.dev627]
+[2023-07-20 10:04:20] INFO root fetch - processPackages [discohooker]: New version: [0.0.0b9] Old Version: [0.0.0b8]
+[2023-07-20 10:04:20] INFO root fetch - processPackages [armonik]: Downloading https://files.pythonhosted.org/packages/a3/db/468340c3e51513d2270b938c830901748ba3f03d05938557f70273672795/armonik-3.9.3.dev627.tar.gz
+[2023-07-20 10:04:20] INFO root fetch - processPackages [armonik]: Downloading https://files.pythonhosted.org/packages/a3/db/468340c3e51513d2270b938c830901748ba3f03d05938557f70273672795/armonik-3.9.3.dev627.tar.gz
+[2023-07-20 10:04:20] INFO root fetch - processPackages [armonik]: Downloading https://files.pythonhosted.org/packages/a3/db/468340c3e51513d2270b938c830901748ba3f03d05938557f70273672795/armonik-3.9.3.dev627.tar.gz
+[2023-07-20 10:04:21] INFO root fetch - processPackages [zylo]: New version: [2.0.3] Old Version: [2.0.2]
+[2023-07-20 10:04:21] INFO root fetch - processPackages [openxlab-test]: Downloading https://files.pythonhosted.org/packages/44/ce/cf74900c24338dcbe6be813d0861d1da67dc96d72c847abfa02526710cf8/openxlab_test-0.0.7.tar.gz
+[2023-07-20 10:04:21] INFO root fetch - processPackages [nasops]: Downloading https://files.pythonhosted.org/packages/44/2c/26c928e70b777b08eeed3fdf52e12ed0851254aee60eefafaa1e417bd889/nasops-0.0.2.tar.gz
+[2023-07-20 10:04:21] INFO root fetch - processPackages [discohooker]: Downloading https://files.pythonhosted.org/packages/11/18/cd20f4d7f8bbf72fed32bf3ca62b1cb82e19effc531f6fc1212460966f16/discohooker-0.0.0b8.tar.gz
+[2023-07-20 10:04:21] INFO root fetch - processPackages [discohooker]: Downloading https://files.pythonhosted.org/packages/11/18/cd20f4d7f8bbf72fed32bf3ca62b1cb82e19effc531f6fc1212460966f16/discohooker-0.0.0b8.tar.gz
+[2023-07-20 10:04:21] INFO root fetch - processPackages [adafri]: Downloading https://files.pythonhosted.org/packages/a9/74/5ef7f47091fe06d2988432a5226eea22be2a080a822a0c1fd36d304c2a12/adafri-0.0.40.tar.gz
+[2023-07-20 10:04:21] WARNING root fetch - processPackages [openxlab-test]: Skipping package: exceeds size limit 22336229>=10485760
+[2023-07-20 10:04:21] INFO root fetch - main [MainThread]: End processing [openxlab-test] error
+[2023-07-20 10:04:21] INFO root fetch - processPackages [armonik]: Downloading https://files.pythonhosted.org/packages/11/ad/4f1bc0423cfda7af28cb5dc84e1865bf90ef91df50054caabbc8de87872b/armonik-3.9.3.dev630.tar.gz
+[2023-07-20 10:04:21] INFO root fetch - processPackages [zylo]: Downloading https://files.pythonhosted.org/packages/21/21/a396355dbe0c0fc05586cd82c52aca3b6cfdbfe4186999c68ac16bf8333b/zylo-2.0.2.tar.gz
+[2023-07-20 10:04:21] INFO root fetch - processPackages [armonik]: Downloading https://files.pythonhosted.org/packages/11/ad/4f1bc0423cfda7af28cb5dc84e1865bf90ef91df50054caabbc8de87872b/armonik-3.9.3.dev630.tar.gz
+[2023-07-20 10:04:21] INFO root fetch - processPackages [armonik]: Downloading https://files.pythonhosted.org/packages/11/ad/4f1bc0423cfda7af28cb5dc84e1865bf90ef91df50054caabbc8de87872b/armonik-3.9.3.dev630.tar.gz
+[2023-07-20 10:04:21] INFO root fetch - processPackages [armonik]: executing diffoscope
+[2023-07-20 10:04:21] INFO root fetch - processPackages [armonik]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/armonik-3.9.3.dev627.tar.gz tmp/armonik-3.9.3.dev630.tar.gz --markdown 20230720/a/armonik/3.9.3.dev627-3.9.3.dev630/diff.md --exclude *.pyd
+[2023-07-20 10:04:21] INFO root fetch - processPackages [armonik]: executing diffoscope
+[2023-07-20 10:04:21] INFO root fetch - processPackages [armonik]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/armonik-3.9.3.dev627.tar.gz tmp/armonik-3.9.3.dev630.tar.gz --markdown 20230720/a/armonik/3.9.3.dev627-3.9.3.dev630/diff.md --exclude *.pyd
+[2023-07-20 10:04:21] INFO root fetch - processPackages [armonik]: executing diffoscope
+[2023-07-20 10:04:21] INFO root fetch - processPackages [armonik]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/armonik-3.9.3.dev627.tar.gz tmp/armonik-3.9.3.dev630.tar.gz --markdown 20230720/a/armonik/3.9.3.dev627-3.9.3.dev630/diff.md --exclude *.pyd
+[2023-07-20 10:04:21] INFO root fetch - processPackages [discohooker]: Downloading https://files.pythonhosted.org/packages/8b/8b/5f1339db58f060781d94ad397b0849ddd19df8c2fa5ddc3ea53c4d467c5c/discohooker-0.0.0b9.tar.gz
+[2023-07-20 10:04:21] INFO root fetch - processPackages [discohooker]: Downloading https://files.pythonhosted.org/packages/8b/8b/5f1339db58f060781d94ad397b0849ddd19df8c2fa5ddc3ea53c4d467c5c/discohooker-0.0.0b9.tar.gz
+[2023-07-20 10:04:21] INFO root fetch - processPackages [adafri]: Downloading https://files.pythonhosted.org/packages/92/d8/44a9ac6f88f8edfc0e1689416dce32544e222bfbb1f32f7dcc356839ff91/adafri-0.0.41.tar.gz
+[2023-07-20 10:04:21] INFO root fetch - processPackages [nasops]: Downloading https://files.pythonhosted.org/packages/b5/69/7280e834840be879dddadcaabd366a0293b7f2d3da2e5d8896c60263d080/nasops-0.0.3.tar.gz
+[2023-07-20 10:04:21] INFO root fetch - processPackages [discohooker]: executing diffoscope
+[2023-07-20 10:04:21] INFO root fetch - processPackages [discohooker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/discohooker-0.0.0b8.tar.gz tmp/discohooker-0.0.0b9.tar.gz --markdown 20230720/d/discohooker/0.0.0b8-0.0.0b9/diff.md --exclude *.pyd
+[2023-07-20 10:04:21] INFO root fetch - processPackages [zylo]: Downloading https://files.pythonhosted.org/packages/37/9a/4b1eda7d3238a99b3c2ce01778b17f7d7684070fd206a52a9aaeb251222d/zylo-2.0.3.tar.gz
+[2023-07-20 10:04:21] INFO root fetch - processPackages [discohooker]: executing diffoscope
+[2023-07-20 10:04:21] INFO root fetch - processPackages [discohooker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/discohooker-0.0.0b8.tar.gz tmp/discohooker-0.0.0b9.tar.gz --markdown 20230720/d/discohooker/0.0.0b8-0.0.0b9/diff.md --exclude *.pyd
+[2023-07-20 10:04:21] INFO root fetch - processPackages [nasops]: executing diffoscope
+[2023-07-20 10:04:21] INFO root fetch - processPackages [nasops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nasops-0.0.2.tar.gz tmp/nasops-0.0.3.tar.gz --markdown 20230720/n/nasops/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-20 10:04:21] INFO root fetch - processPackages [adafri]: executing diffoscope
+[2023-07-20 10:04:21] INFO root fetch - processPackages [adafri]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adafri-0.0.40.tar.gz tmp/adafri-0.0.41.tar.gz --markdown 20230720/a/adafri/0.0.40-0.0.41/diff.md --exclude *.pyd
+[2023-07-20 10:04:21] INFO root fetch - processPackages [zylo]: executing diffoscope
+[2023-07-20 10:04:21] INFO root fetch - processPackages [zylo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zylo-2.0.2.tar.gz tmp/zylo-2.0.3.tar.gz --markdown 20230720/z/zylo/2.0.2-2.0.3/diff.md --exclude *.pyd
+[2023-07-20 10:04:23] INFO root fetch - processPackages [nasops]: Remove: archive file [/home/abi/fetcher/tmp/nasops-0.0.2.tar.gz]
+[2023-07-20 10:04:23] INFO root fetch - processPackages [nasops]: Remove: archive file [/home/abi/fetcher/tmp/nasops-0.0.3.tar.gz]
+[2023-07-20 10:04:23] INFO root fetch - main [MainThread]: End processing [nasops]: success
+[2023-07-20 10:04:23] INFO root fetch - processPackages [discohooker]: Remove: archive file [/home/abi/fetcher/tmp/discohooker-0.0.0b8.tar.gz]
+[2023-07-20 10:04:23] INFO root fetch - processPackages [discohooker]: Remove: archive file [/home/abi/fetcher/tmp/discohooker-0.0.0b9.tar.gz]
+[2023-07-20 10:04:23] INFO root fetch - main [MainThread]: End processing [discohooker]: success
+[2023-07-20 10:04:23] INFO root fetch - processPackages [zylo]: Remove: archive file [/home/abi/fetcher/tmp/zylo-2.0.2.tar.gz]
+[2023-07-20 10:04:23] INFO root fetch - processPackages [zylo]: Remove: archive file [/home/abi/fetcher/tmp/zylo-2.0.3.tar.gz]
+[2023-07-20 10:04:23] INFO root fetch - main [MainThread]: End processing [zylo]: success
+[2023-07-20 10:04:23] INFO root fetch - main [MainThread]: End processing [discohooker]: success
+[2023-07-20 10:04:23] INFO root fetch - processPackages [adafri]: Remove: archive file [/home/abi/fetcher/tmp/adafri-0.0.40.tar.gz]
+[2023-07-20 10:04:23] INFO root fetch - processPackages [adafri]: Remove: archive file [/home/abi/fetcher/tmp/adafri-0.0.41.tar.gz]
+[2023-07-20 10:04:23] INFO root fetch - main [MainThread]: End processing [adafri]: success
+[2023-07-20 10:04:23] INFO root fetch - processPackages [armonik]: Remove: archive file [/home/abi/fetcher/tmp/armonik-3.9.3.dev627.tar.gz]
+[2023-07-20 10:04:23] INFO root fetch - processPackages [armonik]: Remove: archive file [/home/abi/fetcher/tmp/armonik-3.9.3.dev630.tar.gz]
+[2023-07-20 10:04:23] INFO root fetch - main [MainThread]: End processing [armonik]: success
+[2023-07-20 10:04:23] INFO root fetch - main [MainThread]: End processing [armonik]: success
+[2023-07-20 10:04:23] INFO root fetch - main [MainThread]: End processing [armonik]: success
+[2023-07-20 10:04:23] INFO root fetch - main [MainThread]: Store serial: [18962993]
