@@ -7131,3 +7131,73 @@ AssertionError: tmp/verify4py-test-0.1.7.tar.gz does not exist
 [2023-07-20 13:47:59] INFO root fetch - processPackages [octavia]: Remove: archive file [/home/abi/fetcher/tmp/octavia-9.1.0.tar.gz]
 [2023-07-20 13:47:59] INFO root fetch - main [MainThread]: End processing [octavia]: success
 [2023-07-20 13:47:59] INFO root fetch - main [MainThread]: Store serial: [18965940]
+[2023-07-20 13:53:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18965940]
+[2023-07-20 13:53:08] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-20 13:53:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: struvolpy
+[2023-07-20 13:53:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: test-setup-test
+[2023-07-20 13:53:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: test-setup-test
+[2023-07-20 13:53:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pt-names
+[2023-07-20 13:53:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: music-assistant-frontend
+[2023-07-20 13:53:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: molgraph
+[2023-07-20 13:53:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: llfn
+[2023-07-20 13:53:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: iflytekspark
+[2023-07-20 13:53:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: smartplot
+[2023-07-20 13:53:09] WARNING root fetch - processPackages [smartplot]: Skipping, unable to determine old version
+[2023-07-20 13:53:09] INFO root fetch - main [MainThread]: End processing [smartplot] error
+[2023-07-20 13:53:09] INFO root fetch - processPackages [test-setup-test]: New version: [1.0.8] Old Version: [1.0.6]
+[2023-07-20 13:53:09] INFO root fetch - processPackages [molgraph]: New version: [0.5.7] Old Version: [0.5.6]
+[2023-07-20 13:53:09] INFO root fetch - processPackages [music-assistant-frontend]: New version: [2.0.3] Old Version: [2.0.2]
+[2023-07-20 13:53:09] INFO root fetch - processPackages [iflytekspark]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-20 13:53:09] WARNING root fetch - processPackages [pt-names]: Skipping, unable to determine old version
+[2023-07-20 13:53:09] INFO root fetch - processPackages [struvolpy]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-20 13:53:09] INFO root fetch - main [MainThread]: End processing [pt-names] error
+[2023-07-20 13:53:09] INFO root fetch - processPackages [llfn]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-20 13:53:09] INFO root fetch - processPackages [test-setup-test]: New version: [1.0.8] Old Version: [1.0.6]
+[2023-07-20 13:53:09] INFO root fetch - processPackages [test-setup-test]: Downloading https://files.pythonhosted.org/packages/7e/a5/a1842c9ad3f3d8ed18980204a83b62a485fdff3acb1f5ffd8f0392ac8c1e/test_setup_test-1.0.6.tar.gz
+[2023-07-20 13:53:09] INFO root fetch - processPackages [molgraph]: Downloading https://files.pythonhosted.org/packages/66/75/67650646481da553fedca5ca30a12a50a3c0413c80584a690a4bf6b7bb9e/molgraph-0.5.6.tar.gz
+[2023-07-20 13:53:09] INFO root fetch - processPackages [llfn]: Downloading https://files.pythonhosted.org/packages/94/db/4a30ada50d1d542403c15fb4b31deb17902b0b511298fc369e3a1b771bcf/llfn-0.1.1.tar.gz
+[2023-07-20 13:53:09] INFO root fetch - processPackages [test-setup-test]: Downloading https://files.pythonhosted.org/packages/7e/a5/a1842c9ad3f3d8ed18980204a83b62a485fdff3acb1f5ffd8f0392ac8c1e/test_setup_test-1.0.6.tar.gz
+[2023-07-20 13:53:09] INFO root fetch - processPackages [music-assistant-frontend]: Downloading https://files.pythonhosted.org/packages/90/0c/4568ad51fd6191cc33d1186154d4f9741afb1164f95b18d1fb48d0837e4e/music-assistant-frontend-2.0.2.tar.gz
+[2023-07-20 13:53:09] INFO root fetch - processPackages [struvolpy]: Downloading https://files.pythonhosted.org/packages/25/f7/b508aac45020ab09f63c7bd7598f2cc323b03efa55653a5991e5b3b50243/struvolpy-1.0.1.tar.gz
+[2023-07-20 13:53:09] INFO root fetch - processPackages [iflytekspark]: Downloading https://files.pythonhosted.org/packages/86/3b/718df0c1886ad530a682579e34c5eebd4464e1277e40b7a19b51fe92716b/iflytekspark-0.0.1-py3-none-any.whl
+[2023-07-20 13:53:09] INFO root fetch - processPackages [test-setup-test]: Downloading https://files.pythonhosted.org/packages/bc/ea/c4d47a90cdb1cf5374be3c13076264c14a7248d180c34427d1cb4fb2bd77/test_setup_test-1.0.8.tar.gz
+[2023-07-20 13:53:09] INFO root fetch - processPackages [test-setup-test]: Downloading https://files.pythonhosted.org/packages/bc/ea/c4d47a90cdb1cf5374be3c13076264c14a7248d180c34427d1cb4fb2bd77/test_setup_test-1.0.8.tar.gz
+[2023-07-20 13:53:09] INFO root fetch - processPackages [molgraph]: Downloading https://files.pythonhosted.org/packages/54/72/3c21c7dd504051b87276f1a7b529c1292aa4f66f8b66e8817b34091f8df5/molgraph-0.5.7.tar.gz
+[2023-07-20 13:53:09] INFO root fetch - processPackages [test-setup-test]: executing diffoscope
+[2023-07-20 13:53:09] INFO root fetch - processPackages [test-setup-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/test_setup_test-1.0.6.tar.gz tmp/test_setup_test-1.0.8.tar.gz --markdown 20230720/t/test-setup-test/1.0.6-1.0.8/diff.md --exclude *.pyd
+[2023-07-20 13:53:09] INFO root fetch - processPackages [llfn]: Downloading https://files.pythonhosted.org/packages/6e/88/3040fafa530781471c728339e1b3ae385e786c8a37c9c9ad48030c7d20b5/llfn-0.1.2.tar.gz
+[2023-07-20 13:53:09] INFO root fetch - processPackages [struvolpy]: Downloading https://files.pythonhosted.org/packages/c1/b6/188cf64d847d5421710ad91576cc87c093c70ba1379a915892466d93d5fc/struvolpy-1.0.2.tar.gz
+[2023-07-20 13:53:09] INFO root fetch - processPackages [test-setup-test]: executing diffoscope
+[2023-07-20 13:53:09] INFO root fetch - processPackages [test-setup-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/test_setup_test-1.0.6.tar.gz tmp/test_setup_test-1.0.8.tar.gz --markdown 20230720/t/test-setup-test/1.0.6-1.0.8/diff.md --exclude *.pyd
+[2023-07-20 13:53:09] INFO root fetch - processPackages [molgraph]: executing diffoscope
+[2023-07-20 13:53:09] INFO root fetch - processPackages [molgraph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/molgraph-0.5.6.tar.gz tmp/molgraph-0.5.7.tar.gz --markdown 20230720/m/molgraph/0.5.6-0.5.7/diff.md --exclude *.pyd
+[2023-07-20 13:53:09] INFO root fetch - processPackages [iflytekspark]: Downloading https://files.pythonhosted.org/packages/63/28/d7878e996596d02a1b87e617c7d10e1ed2a6cc9f96678280b4fbb22b00da/iflytekspark-0.0.2.tar.gz
+[2023-07-20 13:53:09] INFO root fetch - processPackages [llfn]: executing diffoscope
+[2023-07-20 13:53:09] INFO root fetch - processPackages [llfn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llfn-0.1.1.tar.gz tmp/llfn-0.1.2.tar.gz --markdown 20230720/l/llfn/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-20 13:53:09] INFO root fetch - processPackages [struvolpy]: executing diffoscope
+[2023-07-20 13:53:09] INFO root fetch - processPackages [struvolpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/struvolpy-1.0.1.tar.gz tmp/struvolpy-1.0.2.tar.gz --markdown 20230720/s/struvolpy/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-20 13:53:09] INFO root fetch - processPackages [iflytekspark]: executing diffoscope
+[2023-07-20 13:53:09] INFO root fetch - processPackages [iflytekspark]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iflytekspark-0.0.1-py3-none-any.whl.zip tmp/iflytekspark-0.0.2.tar.gz --markdown 20230720/i/iflytekspark/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-20 13:53:10] INFO root fetch - processPackages [music-assistant-frontend]: Downloading https://files.pythonhosted.org/packages/a0/f0/395d892f290676a73101f8a14b3a334653c93c0c065e969055b3a45bb751/music-assistant-frontend-2.0.3.tar.gz
+[2023-07-20 13:53:10] INFO root fetch - processPackages [music-assistant-frontend]: executing diffoscope
+[2023-07-20 13:53:10] INFO root fetch - processPackages [music-assistant-frontend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/music-assistant-frontend-2.0.2.tar.gz tmp/music-assistant-frontend-2.0.3.tar.gz --markdown 20230720/m/music-assistant-frontend/2.0.2-2.0.3/diff.md --exclude *.pyd
+[2023-07-20 13:53:10] INFO root fetch - processPackages [test-setup-test]: Remove: archive file [/home/abi/fetcher/tmp/test_setup_test-1.0.6.tar.gz]
+[2023-07-20 13:53:10] INFO root fetch - processPackages [test-setup-test]: Remove: archive file [/home/abi/fetcher/tmp/test_setup_test-1.0.8.tar.gz]
+[2023-07-20 13:53:10] INFO root fetch - main [MainThread]: End processing [test-setup-test]: success
+[2023-07-20 13:53:10] INFO root fetch - main [MainThread]: End processing [test-setup-test]: success
+[2023-07-20 13:53:10] INFO root fetch - processPackages [iflytekspark]: Remove: archive file [/home/abi/fetcher/tmp/iflytekspark-0.0.1-py3-none-any.whl.zip]
+[2023-07-20 13:53:10] INFO root fetch - processPackages [iflytekspark]: Remove: archive file [/home/abi/fetcher/tmp/iflytekspark-0.0.2.tar.gz]
+[2023-07-20 13:53:10] INFO root fetch - main [MainThread]: End processing [iflytekspark]: success
+[2023-07-20 13:53:11] INFO root fetch - processPackages [llfn]: Remove: archive file [/home/abi/fetcher/tmp/llfn-0.1.1.tar.gz]
+[2023-07-20 13:53:11] INFO root fetch - processPackages [llfn]: Remove: archive file [/home/abi/fetcher/tmp/llfn-0.1.2.tar.gz]
+[2023-07-20 13:53:11] INFO root fetch - main [MainThread]: End processing [llfn]: success
+[2023-07-20 13:53:11] INFO root fetch - processPackages [struvolpy]: Remove: archive file [/home/abi/fetcher/tmp/struvolpy-1.0.1.tar.gz]
+[2023-07-20 13:53:11] INFO root fetch - processPackages [struvolpy]: Remove: archive file [/home/abi/fetcher/tmp/struvolpy-1.0.2.tar.gz]
+[2023-07-20 13:53:11] INFO root fetch - main [MainThread]: End processing [struvolpy]: success
+[2023-07-20 13:53:11] INFO root fetch - processPackages [molgraph]: Remove: archive file [/home/abi/fetcher/tmp/molgraph-0.5.6.tar.gz]
+[2023-07-20 13:53:11] INFO root fetch - processPackages [molgraph]: Remove: archive file [/home/abi/fetcher/tmp/molgraph-0.5.7.tar.gz]
+[2023-07-20 13:53:11] INFO root fetch - main [MainThread]: End processing [molgraph]: success
+[2023-07-20 13:53:23] INFO root fetch - processPackages [music-assistant-frontend]: Remove: archive file [/home/abi/fetcher/tmp/music-assistant-frontend-2.0.2.tar.gz]
+[2023-07-20 13:53:23] INFO root fetch - processPackages [music-assistant-frontend]: Remove: archive file [/home/abi/fetcher/tmp/music-assistant-frontend-2.0.3.tar.gz]
+[2023-07-20 13:53:23] INFO root fetch - main [MainThread]: End processing [music-assistant-frontend]: success
+[2023-07-20 13:53:23] INFO root fetch - main [MainThread]: Store serial: [18965972]
