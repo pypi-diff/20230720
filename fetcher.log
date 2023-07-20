@@ -8318,3 +8318,145 @@ AssertionError: tmp/verify4py-test-0.1.7.tar.gz does not exist
 [2023-07-20 14:36:25] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-40.0.0.tar.gz]
 [2023-07-20 14:36:25] INFO root fetch - main [MainThread]: End processing [cg]: success
 [2023-07-20 14:36:25] INFO root fetch - main [MainThread]: Store serial: [18966430]
+[2023-07-20 14:41:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18966430]
+[2023-07-20 14:41:33] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-07-20 14:41:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: micropython-hints
+[2023-07-20 14:41:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: projen
+[2023-07-20 14:41:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: start-selenium-webdriver
+[2023-07-20 14:41:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: py-go-goose
+[2023-07-20 14:41:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tuxrun
+[2023-07-20 14:41:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tilupy
+[2023-07-20 14:41:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: port-pulumi
+[2023-07-20 14:41:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: micropython-hints
+[2023-07-20 14:41:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ChatGPT-Cloud
+[2023-07-20 14:41:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: localstack-core
+[2023-07-20 14:41:34] INFO root fetch - processPackages [port-pulumi]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-07-20 14:41:34] INFO root fetch - processPackages [micropython-hints]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-07-20 14:41:34] INFO root fetch - processPackages [py-go-goose]: New version: [1.4.3] Old Version: [1.4.2]
+[2023-07-20 14:41:34] INFO root fetch - processPackages [micropython-hints]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-07-20 14:41:34] INFO root fetch - processPackages [ChatGPT-Cloud]: New version: [0.6.3] Old Version: [0.6.2]
+[2023-07-20 14:41:34] INFO root fetch - processPackages [start-selenium-webdriver]: New version: [0.3] Old Version: [0.2]
+[2023-07-20 14:41:34] WARNING root fetch - processPackages [tilupy]: Skipping, unable to determine old version
+[2023-07-20 14:41:34] INFO root fetch - processPackages [tilupy]: Start processing: mfire
+[2023-07-20 14:41:34] INFO root fetch - main [MainThread]: End processing [tilupy] error
+[2023-07-20 14:41:34] INFO root fetch - processPackages [projen]: New version: [0.71.99] Old Version: [0.71.98]
+[2023-07-20 14:41:34] INFO root fetch - processPackages [tuxrun]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-07-20 14:41:34] INFO root fetch - processPackages [localstack-core]: New version: [2.2.1.dev20230720123900] Old Version: [2.2.0]
+[2023-07-20 14:41:34] INFO root fetch - processPackages [mfire]: New version: [2.2.post1] Old Version: [2.2]
+[2023-07-20 14:41:34] INFO root fetch - processPackages [ChatGPT-Cloud]: Downloading https://files.pythonhosted.org/packages/74/68/f35a99d60e82f10ac4050ae19937c781033b79a1e9a752b5829da04af724/ChatGPT-Cloud-0.6.2.tar.gz
+[2023-07-20 14:41:34] INFO root fetch - processPackages [py-go-goose]: Downloading https://files.pythonhosted.org/packages/8a/39/2b3d0c413d6dc8e44f35a7a6513f4c784592adc276cad002a275a31c8193/py_go_goose-1.4.2-cp38-cp38-macosx_13_0_arm64.whl
+[2023-07-20 14:41:34] INFO root fetch - processPackages [micropython-hints]: Downloading https://files.pythonhosted.org/packages/96/e8/b3bfc9b7783c6b709baf297f13bf88632da95991820d1c755f102d5a256e/micropython_hints-0.0.6.tar.gz
+[2023-07-20 14:41:34] INFO root fetch - processPackages [projen]: Downloading https://files.pythonhosted.org/packages/e6/32/7b9177419a0f336c70af7f165826714344a50cfd40e5990d888982c6ac99/projen-0.71.98.tar.gz
+[2023-07-20 14:41:34] INFO root fetch - processPackages [micropython-hints]: Downloading https://files.pythonhosted.org/packages/96/e8/b3bfc9b7783c6b709baf297f13bf88632da95991820d1c755f102d5a256e/micropython_hints-0.0.6.tar.gz
+[2023-07-20 14:41:34] INFO root fetch - processPackages [port-pulumi]: Downloading https://files.pythonhosted.org/packages/7e/9b/f4f9cab78d130496142841b62eae8135cd3d3d3838f617698ab787c43a8f/port_pulumi-1.0.0.tar.gz
+[2023-07-20 14:41:34] INFO root fetch - processPackages [start-selenium-webdriver]: Downloading https://files.pythonhosted.org/packages/3e/99/f16c951406c7231cdd397d07e15c5a54e2f160b0ec835e63e90da62d5e02/start_selenium_webdriver-0.2.tar.gz
+[2023-07-20 14:41:34] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/29/a7/cccee196e4a798a26ee468f3699724a0ee0371f82048b095e3f744277f1e/localstack-core-2.2.0.tar.gz
+[2023-07-20 14:41:34] INFO root fetch - processPackages [tuxrun]: Downloading https://files.pythonhosted.org/packages/05/75/c3a2f3d058040a29b90033ef83341a25499a52eb95f05ae733070a447399/tuxrun-0.9.5.tar.gz
+[2023-07-20 14:41:34] INFO root fetch - processPackages [mfire]: Downloading https://files.pythonhosted.org/packages/60/81/cbf0a3ed9d26ccb296390b130d0dc1b9ef97359a129570ddc4d5f8f94556/mfire-2.2.tar.gz
+[2023-07-20 14:41:34] WARNING root fetch - processPackages [mfire]: Skipping package: exceeds size limit 41797499>=10485760
+[2023-07-20 14:41:34] INFO root fetch - processPackages [mfire]: Start processing: localstack-core
+[2023-07-20 14:41:34] INFO root fetch - main [MainThread]: End processing [mfire] error
+[2023-07-20 14:41:34] INFO root fetch - processPackages [localstack-core]: New version: [2.2.1.dev20230720123900] Old Version: [2.2.0]
+[2023-07-20 14:41:34] INFO root fetch - processPackages [micropython-hints]: Downloading https://files.pythonhosted.org/packages/20/27/f7cdc2926076c4ba643717efec0ad569289058206f5c717a1ff6b8ba4eeb/micropython_hints-0.0.7.tar.gz
+[2023-07-20 14:41:34] INFO root fetch - processPackages [micropython-hints]: Downloading https://files.pythonhosted.org/packages/20/27/f7cdc2926076c4ba643717efec0ad569289058206f5c717a1ff6b8ba4eeb/micropython_hints-0.0.7.tar.gz
+[2023-07-20 14:41:34] INFO root fetch - processPackages [ChatGPT-Cloud]: Downloading https://files.pythonhosted.org/packages/a7/82/c92c4c69e03d7a3786fe5c44c73b88d9aaf31fe8b47ae80cdaaa332a61f8/ChatGPT-Cloud-0.6.3.tar.gz
+[2023-07-20 14:41:35] INFO root fetch - processPackages [port-pulumi]: Downloading https://files.pythonhosted.org/packages/1e/c6/2a04138d092870e87122cb9f23a954aad82391219da9635120ed4b0f753a/port_pulumi-1.1.0.tar.gz
+[2023-07-20 14:41:35] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/d6/09/fcf009d94127dba52b5e2d9bf1464bb49c17e694166654b7ad5e58e33dae/localstack-core-2.2.1.dev20230720123900.tar.gz
+[2023-07-20 14:41:35] INFO root fetch - processPackages [start-selenium-webdriver]: Downloading https://files.pythonhosted.org/packages/87/7d/5e685f01c6b376568f552bc7c4e2bd1c1c282fbe9292f568ee64b354fb97/start_selenium_webdriver-0.3-py3-none-any.whl
+[2023-07-20 14:41:35] INFO root fetch - processPackages [tuxrun]: Downloading https://files.pythonhosted.org/packages/ae/5a/4fe00d549cd779f2a99801a6e2061f2501e373810e56871af8b037beb43f/tuxrun-0.9.6.tar.gz
+[2023-07-20 14:41:35] INFO root fetch - processPackages [micropython-hints]: executing diffoscope
+[2023-07-20 14:41:35] INFO root fetch - processPackages [micropython-hints]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/micropython_hints-0.0.6.tar.gz tmp/micropython_hints-0.0.7.tar.gz --markdown 20230720/m/micropython-hints/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-07-20 14:41:35] INFO root fetch - processPackages [projen]: Downloading https://files.pythonhosted.org/packages/21/a6/caf5451fda5ceed9de3dfadecf33e65b6279d0a5dfa4350206da3da20fac/projen-0.71.99.tar.gz
+[2023-07-20 14:41:35] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/d6/09/fcf009d94127dba52b5e2d9bf1464bb49c17e694166654b7ad5e58e33dae/localstack-core-2.2.1.dev20230720123900.tar.gz
+[2023-07-20 14:41:35] INFO root fetch - processPackages [micropython-hints]: executing diffoscope
+[2023-07-20 14:41:35] INFO root fetch - processPackages [micropython-hints]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/micropython_hints-0.0.6.tar.gz tmp/micropython_hints-0.0.7.tar.gz --markdown 20230720/m/micropython-hints/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-07-20 14:41:35] INFO root fetch - processPackages [py-go-goose]: Downloading https://files.pythonhosted.org/packages/8f/c6/7b940223353ce0f001ce266e82b63dd94b7b86089eff156da65fdcb9ca59/py_go_goose-1.4.3-py3-none-any.whl
+[2023-07-20 14:41:35] INFO root fetch - processPackages [port-pulumi]: executing diffoscope
+[2023-07-20 14:41:35] INFO root fetch - processPackages [port-pulumi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/port_pulumi-1.0.0.tar.gz tmp/port_pulumi-1.1.0.tar.gz --markdown 20230720/p/port-pulumi/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-07-20 14:41:35] INFO root fetch - processPackages [start-selenium-webdriver]: executing diffoscope
+[2023-07-20 14:41:35] INFO root fetch - processPackages [start-selenium-webdriver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/start_selenium_webdriver-0.2.tar.gz tmp/start_selenium_webdriver-0.3-py3-none-any.whl.zip --markdown 20230720/s/start-selenium-webdriver/0.2-0.3/diff.md --exclude *.pyd
+[2023-07-20 14:41:35] INFO root fetch - processPackages [tuxrun]: executing diffoscope
+[2023-07-20 14:41:35] INFO root fetch - processPackages [tuxrun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tuxrun-0.9.5.tar.gz tmp/tuxrun-0.9.6.tar.gz --markdown 20230720/t/tuxrun/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-07-20 14:41:35] INFO root fetch - processPackages [ChatGPT-Cloud]: executing diffoscope
+[2023-07-20 14:41:35] INFO root fetch - processPackages [ChatGPT-Cloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ChatGPT-Cloud-0.6.2.tar.gz tmp/ChatGPT-Cloud-0.6.3.tar.gz --markdown 20230720/C/ChatGPT-Cloud/0.6.2-0.6.3/diff.md --exclude *.pyd
+[2023-07-20 14:41:35] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2023-07-20 14:41:35] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack-core-2.2.0.tar.gz tmp/localstack-core-2.2.1.dev20230720123900.tar.gz --markdown 20230720/l/localstack-core/2.2.0-2.2.1.dev20230720123900/diff.md --exclude *.pyd
+[2023-07-20 14:41:35] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2023-07-20 14:41:35] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack-core-2.2.0.tar.gz tmp/localstack-core-2.2.1.dev20230720123900.tar.gz --markdown 20230720/l/localstack-core/2.2.0-2.2.1.dev20230720123900/diff.md --exclude *.pyd
+[2023-07-20 14:41:35] INFO root fetch - processPackages [projen]: executing diffoscope
+[2023-07-20 14:41:35] INFO root fetch - processPackages [projen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/projen-0.71.98.tar.gz tmp/projen-0.71.99.tar.gz --markdown 20230720/p/projen/0.71.98-0.71.99/diff.md --exclude *.pyd
+[2023-07-20 14:41:35] INFO root fetch - processPackages [py-go-goose]: executing diffoscope
+[2023-07-20 14:41:35] INFO root fetch - processPackages [py-go-goose]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_go_goose-1.4.2-cp38-cp38-macosx_13_0_arm64.whl.zip tmp/py_go_goose-1.4.3-py3-none-any.whl.zip --markdown 20230720/p/py-go-goose/1.4.2-1.4.3/diff.md --exclude *.pyd
+[2023-07-20 14:41:36] INFO root fetch - processPackages [start-selenium-webdriver]: Remove: archive file [/home/abi/fetcher/tmp/start_selenium_webdriver-0.2.tar.gz]
+[2023-07-20 14:41:36] INFO root fetch - processPackages [start-selenium-webdriver]: Remove: archive file [/home/abi/fetcher/tmp/start_selenium_webdriver-0.3-py3-none-any.whl.zip]
+[2023-07-20 14:41:36] INFO root fetch - processPackages [start-selenium-webdriver]: Start processing: meld
+[2023-07-20 14:41:36] INFO root fetch - main [MainThread]: End processing [start-selenium-webdriver]: success
+[2023-07-20 14:41:36] INFO root fetch - processPackages [meld]: New version: [1.0.2] Old Version: [1.0.0]
+[2023-07-20 14:41:36] INFO root fetch - processPackages [port-pulumi]: Remove: archive file [/home/abi/fetcher/tmp/port_pulumi-1.0.0.tar.gz]
+[2023-07-20 14:41:36] INFO root fetch - processPackages [port-pulumi]: Remove: archive file [/home/abi/fetcher/tmp/port_pulumi-1.1.0.tar.gz]
+[2023-07-20 14:41:36] INFO root fetch - processPackages [port-pulumi]: Start processing: apifoncier
+[2023-07-20 14:41:36] INFO root fetch - main [MainThread]: End processing [port-pulumi]: success
+[2023-07-20 14:41:36] INFO root fetch - processPackages [apifoncier]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-20 14:41:36] INFO root fetch - processPackages [meld]: Downloading https://files.pythonhosted.org/packages/89/04/493c4628db14fee1fa96a39ce816b88970f3742cae0f7c5f3f28015f7678/meld-1.0.0.tar.gz
+[2023-07-20 14:41:36] INFO root fetch - processPackages [micropython-hints]: Remove: archive file [/home/abi/fetcher/tmp/micropython_hints-0.0.6.tar.gz]
+[2023-07-20 14:41:36] INFO root fetch - processPackages [micropython-hints]: Remove: archive file [/home/abi/fetcher/tmp/micropython_hints-0.0.7.tar.gz]
+[2023-07-20 14:41:36] INFO root fetch - processPackages [micropython-hints]: Start processing: Clone-ChatGPT
+[2023-07-20 14:41:36] INFO root fetch - main [MainThread]: End processing [micropython-hints]: success
+[2023-07-20 14:41:37] INFO root fetch - processPackages [Clone-ChatGPT]: New version: [1.2.9.1] Old Version: [1.2.9]
+[2023-07-20 14:41:37] INFO root fetch - processPackages [apifoncier]: executing diffoscope
+[2023-07-20 14:41:37] INFO root fetch - processPackages [apifoncier]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apifoncier-0.0.8.tar.gz tmp/apifoncier-0.0.9.tar.gz --markdown 20230720/a/apifoncier/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-20 14:41:37] INFO root fetch - processPackages [tuxrun]: Remove: archive file [/home/abi/fetcher/tmp/tuxrun-0.9.5.tar.gz]
+[2023-07-20 14:41:37] INFO root fetch - processPackages [tuxrun]: Remove: archive file [/home/abi/fetcher/tmp/tuxrun-0.9.6.tar.gz]
+[2023-07-20 14:41:37] INFO root fetch - processPackages [tuxrun]: Start processing: upf-tools
+[2023-07-20 14:41:37] INFO root fetch - main [MainThread]: End processing [tuxrun]: success
+[2023-07-20 14:41:37] INFO root fetch - processPackages [Clone-ChatGPT]: Downloading https://files.pythonhosted.org/packages/a9/01/480472d01d235c720694241fe7c0d94d332263b74b9f458fdafce0cf7156/Clone-ChatGPT-1.2.9.tar.gz
+[2023-07-20 14:41:37] WARNING root fetch - processPackages [upf-tools]: Skipping, unable to determine old version
+[2023-07-20 14:41:37] INFO root fetch - processPackages [upf-tools]: Start processing: python-libtiepie
+[2023-07-20 14:41:37] INFO root fetch - main [MainThread]: End processing [upf-tools] error
+[2023-07-20 14:41:37] INFO root fetch - processPackages [python-libtiepie]: New version: [1.1.6] Old Version: [1.1.5]
+[2023-07-20 14:41:37] INFO root fetch - processPackages [micropython-hints]: Start processing: fb-pdnstools
+[2023-07-20 14:41:37] INFO root fetch - main [MainThread]: End processing [micropython-hints]: success
+[2023-07-20 14:41:37] INFO root fetch - processPackages [meld]: Downloading https://files.pythonhosted.org/packages/64/34/7a43890031d05b2d3ed269ea6fa256016a8675f2420255caf22bf33bff98/meld-1.0.2.tar.gz
+[2023-07-20 14:41:37] INFO root fetch - processPackages [fb-pdnstools]: New version: [0.6.0] Old Version: [0.5.6]
+[2023-07-20 14:41:37] INFO root fetch - processPackages [meld]: executing diffoscope
+[2023-07-20 14:41:37] INFO root fetch - processPackages [meld]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meld-1.0.0.tar.gz tmp/meld-1.0.2.tar.gz --markdown 20230720/m/meld/1.0.0-1.0.2/diff.md --exclude *.pyd
+[2023-07-20 14:41:37] INFO root fetch - processPackages [python-libtiepie]: Downloading https://files.pythonhosted.org/packages/f0/68/b672cab6e53311fbe94e771a4972be62d032231dbdab780a3eb7106a7935/python_libtiepie-1.1.5-py3-none-win_amd64.whl
+[2023-07-20 14:41:37] INFO root fetch - processPackages [fb-pdnstools]: Downloading https://files.pythonhosted.org/packages/63/e2/b7077afe928026a82b4bd56d89c627203d0137085409f102322cf1ae33ab/fb_pdnstools-0.5.6.tar.gz
+[2023-07-20 14:41:37] INFO root fetch - processPackages [Clone-ChatGPT]: Downloading https://files.pythonhosted.org/packages/52/f6/848603f1c73fff8d02308db26c2e79d50994808e52acddb676cbdb0dc001/Clone-ChatGPT-1.2.9.1.tar.gz
+[2023-07-20 14:41:37] INFO root fetch - processPackages [projen]: Remove: archive file [/home/abi/fetcher/tmp/projen-0.71.98.tar.gz]
+[2023-07-20 14:41:37] INFO root fetch - processPackages [projen]: Remove: archive file [/home/abi/fetcher/tmp/projen-0.71.99.tar.gz]
+[2023-07-20 14:41:37] INFO root fetch - processPackages [py-go-goose]: Remove: archive file [/home/abi/fetcher/tmp/py_go_goose-1.4.2-cp38-cp38-macosx_13_0_arm64.whl.zip]
+[2023-07-20 14:41:37] INFO root fetch - processPackages [py-go-goose]: Remove: archive file [/home/abi/fetcher/tmp/py_go_goose-1.4.3-py3-none-any.whl.zip]
+[2023-07-20 14:41:37] INFO root fetch - main [MainThread]: End processing [projen]: success
+[2023-07-20 14:41:37] INFO root fetch - main [MainThread]: End processing [py-go-goose]: success
+[2023-07-20 14:41:37] INFO root fetch - processPackages [Clone-ChatGPT]: executing diffoscope
+[2023-07-20 14:41:37] INFO root fetch - processPackages [Clone-ChatGPT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Clone-ChatGPT-1.2.9.tar.gz tmp/Clone-ChatGPT-1.2.9.1.tar.gz --markdown 20230720/C/Clone-ChatGPT/1.2.9-1.2.9.1/diff.md --exclude *.pyd
+[2023-07-20 14:41:38] INFO root fetch - processPackages [fb-pdnstools]: Downloading https://files.pythonhosted.org/packages/bb/3b/73c4e7470f3073c6c90d09f23bc966d021128f176988d0fe0e48329e2687/fb_pdnstools-0.6.0.tar.gz
+[2023-07-20 14:41:38] INFO root fetch - processPackages [python-libtiepie]: Downloading https://files.pythonhosted.org/packages/4a/4d/31a82edebdbcf2640096ba99bb27ef142149d9619224744189a1714a9a6d/python_libtiepie-1.1.6-py3-none-win_amd64.whl
+[2023-07-20 14:41:38] INFO root fetch - processPackages [apifoncier]: Remove: archive file [/home/abi/fetcher/tmp/apifoncier-0.0.8.tar.gz]
+[2023-07-20 14:41:38] INFO root fetch - processPackages [apifoncier]: Remove: archive file [/home/abi/fetcher/tmp/apifoncier-0.0.9.tar.gz]
+[2023-07-20 14:41:38] INFO root fetch - main [MainThread]: End processing [apifoncier]: success
+[2023-07-20 14:41:38] INFO root fetch - processPackages [fb-pdnstools]: executing diffoscope
+[2023-07-20 14:41:38] INFO root fetch - processPackages [fb-pdnstools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fb_pdnstools-0.5.6.tar.gz tmp/fb_pdnstools-0.6.0.tar.gz --markdown 20230720/f/fb-pdnstools/0.5.6-0.6.0/diff.md --exclude *.pyd
+[2023-07-20 14:41:38] INFO root fetch - processPackages [python-libtiepie]: executing diffoscope
+[2023-07-20 14:41:38] INFO root fetch - processPackages [python-libtiepie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_libtiepie-1.1.5-py3-none-win_amd64.whl.zip tmp/python_libtiepie-1.1.6-py3-none-win_amd64.whl.zip --markdown 20230720/p/python-libtiepie/1.1.5-1.1.6/diff.md --exclude *.pyd
+[2023-07-20 14:41:38] INFO root fetch - processPackages [meld]: Remove: archive file [/home/abi/fetcher/tmp/meld-1.0.0.tar.gz]
+[2023-07-20 14:41:38] INFO root fetch - processPackages [meld]: Remove: archive file [/home/abi/fetcher/tmp/meld-1.0.2.tar.gz]
+[2023-07-20 14:41:38] INFO root fetch - main [MainThread]: End processing [meld]: success
+[2023-07-20 14:41:39] INFO root fetch - processPackages [fb-pdnstools]: Remove: archive file [/home/abi/fetcher/tmp/fb_pdnstools-0.5.6.tar.gz]
+[2023-07-20 14:41:39] INFO root fetch - processPackages [fb-pdnstools]: Remove: archive file [/home/abi/fetcher/tmp/fb_pdnstools-0.6.0.tar.gz]
+[2023-07-20 14:41:39] INFO root fetch - main [MainThread]: End processing [fb-pdnstools]: success
+[2023-07-20 14:41:39] INFO root fetch - processPackages [Clone-ChatGPT]: Remove: archive file [/home/abi/fetcher/tmp/Clone-ChatGPT-1.2.9.tar.gz]
+[2023-07-20 14:41:39] INFO root fetch - processPackages [Clone-ChatGPT]: Remove: archive file [/home/abi/fetcher/tmp/Clone-ChatGPT-1.2.9.1.tar.gz]
+[2023-07-20 14:41:39] INFO root fetch - main [MainThread]: End processing [Clone-ChatGPT]: success
+[2023-07-20 14:41:40] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-2.2.0.tar.gz]
+[2023-07-20 14:41:40] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-2.2.1.dev20230720123900.tar.gz]
+[2023-07-20 14:41:40] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2023-07-20 14:41:41] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2023-07-20 14:41:41] INFO root fetch - processPackages [ChatGPT-Cloud]: Remove: archive file [/home/abi/fetcher/tmp/ChatGPT-Cloud-0.6.2.tar.gz]
+[2023-07-20 14:41:41] INFO root fetch - processPackages [ChatGPT-Cloud]: Remove: archive file [/home/abi/fetcher/tmp/ChatGPT-Cloud-0.6.3.tar.gz]
+[2023-07-20 14:41:41] INFO root fetch - main [MainThread]: End processing [ChatGPT-Cloud]: success
+[2023-07-20 14:41:46] INFO root fetch - processPackages [python-libtiepie]: Remove: archive file [/home/abi/fetcher/tmp/python_libtiepie-1.1.5-py3-none-win_amd64.whl.zip]
+[2023-07-20 14:41:46] INFO root fetch - processPackages [python-libtiepie]: Remove: archive file [/home/abi/fetcher/tmp/python_libtiepie-1.1.6-py3-none-win_amd64.whl.zip]
+[2023-07-20 14:41:46] INFO root fetch - main [MainThread]: End processing [python-libtiepie]: success
+[2023-07-20 14:41:46] INFO root fetch - main [MainThread]: Store serial: [18966488]
