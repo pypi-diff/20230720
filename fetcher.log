@@ -17571,3 +17571,207 @@ AssertionError: tmp/verify4py-test-0.1.7.tar.gz does not exist
 [2023-07-20 19:34:40] INFO root fetch - processPackages [gpt-index]: Remove: archive file [/home/abi/fetcher/tmp/gpt_index-0.7.9.tar.gz]
 [2023-07-20 19:34:40] INFO root fetch - main [MainThread]: End processing [gpt-index]: success
 [2023-07-20 19:34:40] INFO root fetch - main [MainThread]: Store serial: [18970215]
+[2023-07-20 19:39:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18970215]
+[2023-07-20 19:39:51] INFO root fetch - main [MainThread]: Found 25 changed packages
+[2023-07-20 19:39:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyblm
+[2023-07-20 19:39:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dyntastic
+[2023-07-20 19:39:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: djangoldp-babelfish
+[2023-07-20 19:39:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: up-nextflap
+[2023-07-20 19:39:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ThermalNetwork
+[2023-07-20 19:39:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: llamatune
+[2023-07-20 19:39:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: roblox-pyc
+[2023-07-20 19:39:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bigml
+[2023-07-20 19:39:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: llamaapi
+[2023-07-20 19:39:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: EnvisionRiskRaaS
+[2023-07-20 19:39:51] WARNING root fetch - processPackages [djangoldp-babelfish]: Skipping, unable to determine old version
+[2023-07-20 19:39:51] INFO root fetch - processPackages [djangoldp-babelfish]: Start processing: llamatune
+[2023-07-20 19:39:51] INFO root fetch - main [MainThread]: End processing [djangoldp-babelfish] error
+[2023-07-20 19:39:51] INFO root fetch - processPackages [dyntastic]: New version: [0.9.0] Old Version: [0.8.2]
+[2023-07-20 19:39:51] INFO root fetch - processPackages [llamatune]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-07-20 19:39:51] INFO root fetch - processPackages [ThermalNetwork]: New version: [0.1.1] Old Version: [0.1]
+[2023-07-20 19:39:51] WARNING root fetch - processPackages [pyblm]: Skipping, unable to determine old version
+[2023-07-20 19:39:51] INFO root fetch - processPackages [pyblm]: Start processing: PyYAMLp
+[2023-07-20 19:39:51] INFO root fetch - main [MainThread]: End processing [pyblm] error
+[2023-07-20 19:39:51] INFO root fetch - processPackages [llamaapi]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-20 19:39:51] INFO root fetch - processPackages [up-nextflap]: New version: [0.0.8] Old Version: [0.0.6]
+[2023-07-20 19:39:51] INFO root fetch - processPackages [EnvisionRiskRaaS]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-07-20 19:39:51] INFO root fetch - processPackages [llamatune]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-07-20 19:39:51] INFO root fetch - processPackages [roblox-pyc]: New version: [1.6.6.5a0] Old Version: [1.6.6.5.4]
+[2023-07-20 19:39:51] INFO root fetch - processPackages [bigml]: New version: [9.6.0] Old Version: [9.5.0]
+[2023-07-20 19:39:51] INFO root fetch - processPackages [llamatune]: Downloading https://files.pythonhosted.org/packages/99/12/1750e050cec613f767b05becf7cd040f5206d5ffc0f3088bbec448f3a11e/llamatune-0.2.1.tar.gz
+[2023-07-20 19:39:51] WARNING root fetch - processPackages [PyYAMLp]: Skipping, unable to determine old version
+[2023-07-20 19:39:51] INFO root fetch - processPackages [PyYAMLp]: Start processing: sampo
+[2023-07-20 19:39:51] INFO root fetch - main [MainThread]: End processing [PyYAMLp] error
+[2023-07-20 19:39:51] INFO root fetch - processPackages [llamatune]: Downloading https://files.pythonhosted.org/packages/99/12/1750e050cec613f767b05becf7cd040f5206d5ffc0f3088bbec448f3a11e/llamatune-0.2.1.tar.gz
+[2023-07-20 19:39:51] INFO root fetch - processPackages [up-nextflap]: Downloading https://files.pythonhosted.org/packages/ad/ef/7af9fa531291c03d2f40a5033239eed35cb1367e98737c977caa60fe1e0d/up_nextflap-0.0.6.tar.gz
+[2023-07-20 19:39:51] INFO root fetch - processPackages [llamaapi]: Downloading https://files.pythonhosted.org/packages/09/a4/d62cc98ac2ba7b5a83e88a1593b35e89b5a7537ed82b67f775ab351bb910/llamaapi-0.1.2.tar.gz
+[2023-07-20 19:39:51] INFO root fetch - processPackages [dyntastic]: Downloading https://files.pythonhosted.org/packages/17/08/c38b5962ea8fe93768ab888ddc6254f56e7a77a32feda84db12412084c36/dyntastic-0.8.2.tar.gz
+[2023-07-20 19:39:51] INFO root fetch - processPackages [sampo]: New version: [0.1.1.99] Old Version: [0.1.1.98]
+[2023-07-20 19:39:51] INFO root fetch - processPackages [EnvisionRiskRaaS]: Downloading https://files.pythonhosted.org/packages/4e/11/d36a90eb4d82e83e2fe9d9d5248931a6d833db1986673af098d3225839c2/envisionriskraas-1.0.6.tar.gz
+[2023-07-20 19:39:51] INFO root fetch - processPackages [roblox-pyc]: Downloading https://files.pythonhosted.org/packages/44/ab/2c1167a2d328570fcff41305068766f10c181301f2cd7a1f64f72287fa27/roblox-pyc-1.6.6.5.4.tar.gz
+[2023-07-20 19:39:51] INFO root fetch - processPackages [ThermalNetwork]: Downloading https://files.pythonhosted.org/packages/59/a3/56f0cadbe8f118932434dc9f5b97f6bda765323108d67d23af218e316945/ThermalNetwork-0.1.tar.gz
+[2023-07-20 19:39:51] INFO root fetch - processPackages [bigml]: Downloading https://files.pythonhosted.org/packages/10/85/90170c390993469a05078332684626641431791498e2b5e9df7716591d1c/bigml-9.5.0.tar.gz
+[2023-07-20 19:39:51] INFO root fetch - processPackages [llamatune]: Downloading https://files.pythonhosted.org/packages/63/06/2de577f4f45daaff34b3b7978855b14e1ee90afcb0d46dcaff75e6a40605/llamatune-0.2.2.tar.gz
+[2023-07-20 19:39:52] INFO root fetch - processPackages [sampo]: Downloading https://files.pythonhosted.org/packages/c0/f0/691fad5ee7a8eae5d9b71eb531e4b6d414959a5afcc9811977263994bd77/sampo-0.1.1.98.tar.gz
+[2023-07-20 19:39:52] INFO root fetch - processPackages [llamatune]: Downloading https://files.pythonhosted.org/packages/63/06/2de577f4f45daaff34b3b7978855b14e1ee90afcb0d46dcaff75e6a40605/llamatune-0.2.2.tar.gz
+[2023-07-20 19:39:52] WARNING root fetch - processPackages [bigml]: Skipping package: exceeds size limit 25128353>=10485760
+[2023-07-20 19:39:52] INFO root fetch - processPackages [bigml]: Start processing: gladier
+[2023-07-20 19:39:52] INFO root fetch - main [MainThread]: End processing [bigml] error
+[2023-07-20 19:39:52] INFO root fetch - processPackages [llamatune]: executing diffoscope
+[2023-07-20 19:39:52] INFO root fetch - processPackages [llamatune]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llamatune-0.2.1.tar.gz tmp/llamatune-0.2.2.tar.gz --markdown 20230720/l/llamatune/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-07-20 19:39:52] INFO root fetch - processPackages [llamaapi]: Downloading https://files.pythonhosted.org/packages/63/3c/ad4332634b106a776db4f44d45286fe15e6092d4d7a1250752fd78128cdf/llamaapi-0.1.3.tar.gz
+[2023-07-20 19:39:52] INFO root fetch - processPackages [up-nextflap]: Downloading https://files.pythonhosted.org/packages/97/b0/4a747f0649f3fa98ed0f7e0855e9073aeef2589d229337a39771ec6fbc8d/up_nextflap-0.0.8.tar.gz
+[2023-07-20 19:39:52] INFO root fetch - processPackages [gladier]: New version: [0.9.0b2] Old Version: [0.9.0b1]
+[2023-07-20 19:39:52] INFO root fetch - processPackages [dyntastic]: Downloading https://files.pythonhosted.org/packages/de/18/b3f04108390a952e5e44acf14b61fa808748e53305e0c0a32525474fef6e/dyntastic-0.9.0.tar.gz
+[2023-07-20 19:39:52] INFO root fetch - processPackages [EnvisionRiskRaaS]: Downloading https://files.pythonhosted.org/packages/2e/4a/c4a2f5b89469599cd6395d13c0acf6294f8d31f8ece5e45ed5aa9886f6d8/envisionriskraas-1.0.7.tar.gz
+[2023-07-20 19:39:52] INFO root fetch - processPackages [llamatune]: executing diffoscope
+[2023-07-20 19:39:52] INFO root fetch - processPackages [llamatune]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llamatune-0.2.1.tar.gz tmp/llamatune-0.2.2.tar.gz --markdown 20230720/l/llamatune/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-07-20 19:39:52] INFO root fetch - processPackages [ThermalNetwork]: Downloading https://files.pythonhosted.org/packages/5e/2f/a5f9d2edb5469095af9bc4dffe1a5794608af2ae5f1d23804a059978655f/ThermalNetwork-0.1.1.tar.gz
+[2023-07-20 19:39:52] INFO root fetch - processPackages [llamaapi]: executing diffoscope
+[2023-07-20 19:39:52] INFO root fetch - processPackages [llamaapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llamaapi-0.1.2.tar.gz tmp/llamaapi-0.1.3.tar.gz --markdown 20230720/l/llamaapi/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-20 19:39:52] INFO root fetch - processPackages [roblox-pyc]: Downloading https://files.pythonhosted.org/packages/59/75/7884ffaab86bf051065880fd8aefdfc8e3f2c34e7c9d4a8d352321ec57f8/roblox-pyc-1.6.6.5a0.tar.gz
+[2023-07-20 19:39:52] INFO root fetch - processPackages [EnvisionRiskRaaS]: executing diffoscope
+[2023-07-20 19:39:52] INFO root fetch - processPackages [EnvisionRiskRaaS]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/envisionriskraas-1.0.6.tar.gz tmp/envisionriskraas-1.0.7.tar.gz --markdown 20230720/E/EnvisionRiskRaaS/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2023-07-20 19:39:52] INFO root fetch - processPackages [ThermalNetwork]: executing diffoscope
+[2023-07-20 19:39:52] INFO root fetch - processPackages [ThermalNetwork]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ThermalNetwork-0.1.tar.gz tmp/ThermalNetwork-0.1.1.tar.gz --markdown 20230720/T/ThermalNetwork/0.1-0.1.1/diff.md --exclude *.pyd
+[2023-07-20 19:39:52] INFO root fetch - processPackages [roblox-pyc]: executing diffoscope
+[2023-07-20 19:39:52] INFO root fetch - processPackages [roblox-pyc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/roblox-pyc-1.6.6.5.4.tar.gz tmp/roblox-pyc-1.6.6.5a0.tar.gz --markdown 20230720/r/roblox-pyc/1.6.6.5.4-1.6.6.5a0/diff.md --exclude *.pyd
+[2023-07-20 19:39:52] INFO root fetch - processPackages [up-nextflap]: executing diffoscope
+[2023-07-20 19:39:52] INFO root fetch - processPackages [up-nextflap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/up_nextflap-0.0.6.tar.gz tmp/up_nextflap-0.0.8.tar.gz --markdown 20230720/u/up-nextflap/0.0.6-0.0.8/diff.md --exclude *.pyd
+[2023-07-20 19:39:52] INFO root fetch - processPackages [gladier]: Downloading https://files.pythonhosted.org/packages/6b/9a/bd318876171f4f4d0fdcdfa4bfe253642fbcf6dd9e02775f08ba3872c8a6/gladier-0.9.0b1.tar.gz
+[2023-07-20 19:39:52] INFO root fetch - processPackages [dyntastic]: executing diffoscope
+[2023-07-20 19:39:52] INFO root fetch - processPackages [dyntastic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dyntastic-0.8.2.tar.gz tmp/dyntastic-0.9.0.tar.gz --markdown 20230720/d/dyntastic/0.8.2-0.9.0/diff.md --exclude *.pyd
+[2023-07-20 19:39:52] INFO root fetch - processPackages [sampo]: Downloading https://files.pythonhosted.org/packages/28/10/7f07e18ca3b08fef3d13985a88344883d8eaf53be7daeda7186b282872a8/sampo-0.1.1.99.tar.gz
+[2023-07-20 19:39:52] INFO root fetch - processPackages [sampo]: executing diffoscope
+[2023-07-20 19:39:52] INFO root fetch - processPackages [sampo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sampo-0.1.1.98.tar.gz tmp/sampo-0.1.1.99.tar.gz --markdown 20230720/s/sampo/0.1.1.98-0.1.1.99/diff.md --exclude *.pyd
+[2023-07-20 19:39:52] INFO root fetch - processPackages [gladier]: Downloading https://files.pythonhosted.org/packages/e3/7b/a6e40b2cabac5e7cf617fc752b3504f77eecfaf4ec3c36cd79eeb582a56f/gladier-0.9.0b2.tar.gz
+[2023-07-20 19:39:53] INFO root fetch - processPackages [gladier]: executing diffoscope
+[2023-07-20 19:39:53] INFO root fetch - processPackages [gladier]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gladier-0.9.0b1.tar.gz tmp/gladier-0.9.0b2.tar.gz --markdown 20230720/g/gladier/0.9.0b1-0.9.0b2/diff.md --exclude *.pyd
+[2023-07-20 19:39:53] INFO root fetch - processPackages [llamatune]: Remove: archive file [/home/abi/fetcher/tmp/llamatune-0.2.1.tar.gz]
+[2023-07-20 19:39:53] INFO root fetch - processPackages [llamatune]: Remove: archive file [/home/abi/fetcher/tmp/llamatune-0.2.2.tar.gz]
+[2023-07-20 19:39:53] INFO root fetch - processPackages [llamatune]: Start processing: virl2-client
+[2023-07-20 19:39:53] INFO root fetch - main [MainThread]: End processing [llamatune]: success
+[2023-07-20 19:39:53] INFO root fetch - processPackages [virl2-client]: New version: [2.6.0] Old Version: [2.5.0]
+[2023-07-20 19:39:53] INFO root fetch - processPackages [llamatune]: Start processing: geopix
+[2023-07-20 19:39:53] INFO root fetch - main [MainThread]: End processing [llamatune]: success
+[2023-07-20 19:39:53] INFO root fetch - processPackages [virl2-client]: Downloading https://files.pythonhosted.org/packages/b1/27/67c075f67d092eb0c4374a63bf23da330ef095154b2af50c2fef6e35221b/virl2_client-2.5.0.tar.gz
+[2023-07-20 19:39:53] INFO root fetch - processPackages [geopix]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-20 19:39:53] INFO root fetch - processPackages [llamaapi]: Remove: archive file [/home/abi/fetcher/tmp/llamaapi-0.1.2.tar.gz]
+[2023-07-20 19:39:53] INFO root fetch - processPackages [llamaapi]: Remove: archive file [/home/abi/fetcher/tmp/llamaapi-0.1.3.tar.gz]
+[2023-07-20 19:39:53] INFO root fetch - processPackages [llamaapi]: Start processing: fsai-grpc-api
+[2023-07-20 19:39:53] INFO root fetch - main [MainThread]: End processing [llamaapi]: success
+[2023-07-20 19:39:53] INFO root fetch - processPackages [fsai-grpc-api]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-20 19:39:53] INFO root fetch - processPackages [EnvisionRiskRaaS]: Remove: archive file [/home/abi/fetcher/tmp/envisionriskraas-1.0.6.tar.gz]
+[2023-07-20 19:39:53] INFO root fetch - processPackages [EnvisionRiskRaaS]: Remove: archive file [/home/abi/fetcher/tmp/envisionriskraas-1.0.7.tar.gz]
+[2023-07-20 19:39:53] INFO root fetch - processPackages [EnvisionRiskRaaS]: Start processing: iwx-manifest-builder
+[2023-07-20 19:39:53] INFO root fetch - main [MainThread]: End processing [EnvisionRiskRaaS]: success
+[2023-07-20 19:39:53] INFO root fetch - processPackages [iwx-manifest-builder]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-20 19:39:53] INFO root fetch - processPackages [geopix]: Downloading https://files.pythonhosted.org/packages/b6/a3/41b4f581e7463e3bce55e79579de9bf1f2c828011573c06bf7ab33a974bd/geopix-0.0.98.tar.gz
+[2023-07-20 19:39:53] INFO root fetch - processPackages [fsai-grpc-api]: Downloading https://files.pythonhosted.org/packages/08/a7/9a7ebe38ab432231655f1bfd81e702be8be178baa4b6a212002bdcf3cd96/fsai_grpc_api-0.0.98.tar.gz
+[2023-07-20 19:39:53] INFO root fetch - processPackages [roblox-pyc]: Remove: archive file [/home/abi/fetcher/tmp/roblox-pyc-1.6.6.5.4.tar.gz]
+[2023-07-20 19:39:53] INFO root fetch - processPackages [roblox-pyc]: Remove: archive file [/home/abi/fetcher/tmp/roblox-pyc-1.6.6.5a0.tar.gz]
+[2023-07-20 19:39:53] INFO root fetch - processPackages [roblox-pyc]: Start processing: recursive-validator
+[2023-07-20 19:39:53] INFO root fetch - main [MainThread]: End processing [roblox-pyc]: success
+[2023-07-20 19:39:54] INFO root fetch - processPackages [virl2-client]: Downloading https://files.pythonhosted.org/packages/62/fe/43a4046c98b99e9714d1752ee8e3b859d1879979923ce809948a73810eb2/virl2_client-2.6.0.tar.gz
+[2023-07-20 19:39:54] INFO root fetch - processPackages [ThermalNetwork]: Remove: archive file [/home/abi/fetcher/tmp/ThermalNetwork-0.1.tar.gz]
+[2023-07-20 19:39:54] INFO root fetch - processPackages [ThermalNetwork]: Remove: archive file [/home/abi/fetcher/tmp/ThermalNetwork-0.1.1.tar.gz]
+[2023-07-20 19:39:54] INFO root fetch - processPackages [ThermalNetwork]: Start processing: json-file-split
+[2023-07-20 19:39:54] INFO root fetch - main [MainThread]: End processing [ThermalNetwork]: success
+[2023-07-20 19:39:54] INFO root fetch - processPackages [recursive-validator]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-20 19:39:54] INFO root fetch - processPackages [iwx-manifest-builder]: Downloading https://files.pythonhosted.org/packages/33/bf/02ba356059e9069f6db9f027bf1bd97a4c1de39fe82e72814ed2f73f3c39/iwx_manifest_builder-0.0.98.tar.gz
+[2023-07-20 19:39:54] INFO root fetch - processPackages [dyntastic]: Remove: archive file [/home/abi/fetcher/tmp/dyntastic-0.8.2.tar.gz]
+[2023-07-20 19:39:54] INFO root fetch - processPackages [dyntastic]: Remove: archive file [/home/abi/fetcher/tmp/dyntastic-0.9.0.tar.gz]
+[2023-07-20 19:39:54] INFO root fetch - processPackages [dyntastic]: Start processing: tfads-o-builder
+[2023-07-20 19:39:54] INFO root fetch - main [MainThread]: End processing [dyntastic]: success
+[2023-07-20 19:39:54] INFO root fetch - processPackages [json-file-split]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-20 19:39:54] INFO root fetch - processPackages [virl2-client]: executing diffoscope
+[2023-07-20 19:39:54] INFO root fetch - processPackages [virl2-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/virl2_client-2.5.0.tar.gz tmp/virl2_client-2.6.0.tar.gz --markdown 20230720/v/virl2-client/2.5.0-2.6.0/diff.md --exclude *.pyd
+[2023-07-20 19:39:54] INFO root fetch - processPackages [tfads-o-builder]: New version: [0.0.171] Old Version: [0.0.170]
+[2023-07-20 19:39:54] INFO root fetch - processPackages [recursive-validator]: Downloading https://files.pythonhosted.org/packages/44/24/6e3f27033069680d4ad07aee3e1d535e1b3444f1ce72e8df548e8a16dc8e/recursive_validator-0.0.98.tar.gz
+[2023-07-20 19:39:54] INFO root fetch - processPackages [json-file-split]: Downloading https://files.pythonhosted.org/packages/99/d8/622632db80b721cb33feb5bafb9759e9b295589e09234724044a35a985ba/json_file_split-0.0.98.tar.gz
+[2023-07-20 19:39:54] INFO root fetch - processPackages [fsai-grpc-api]: Downloading https://files.pythonhosted.org/packages/9b/76/8a69144e2e7db3d7b70f7a9a6458e71d63b921d67ca39c9f646ee438e103/fsai_grpc_api-0.0.99.tar.gz
+[2023-07-20 19:39:54] INFO root fetch - processPackages [sampo]: Remove: archive file [/home/abi/fetcher/tmp/sampo-0.1.1.98.tar.gz]
+[2023-07-20 19:39:54] INFO root fetch - processPackages [sampo]: Remove: archive file [/home/abi/fetcher/tmp/sampo-0.1.1.99.tar.gz]
+[2023-07-20 19:39:54] INFO root fetch - processPackages [sampo]: Start processing: fsai-shared-funcs
+[2023-07-20 19:39:54] INFO root fetch - main [MainThread]: End processing [sampo]: success
+[2023-07-20 19:39:54] INFO root fetch - processPackages [tfads-o-builder]: Downloading https://files.pythonhosted.org/packages/63/a8/140cbbd8889f7786180d7743f77a45bcdc364839d89bcd039e372f83acb8/tfads_o_builder-0.0.170.tar.gz
+[2023-07-20 19:39:54] INFO root fetch - processPackages [fsai-shared-funcs]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-20 19:39:54] INFO root fetch - processPackages [gladier]: Remove: archive file [/home/abi/fetcher/tmp/gladier-0.9.0b1.tar.gz]
+[2023-07-20 19:39:54] INFO root fetch - processPackages [gladier]: Remove: archive file [/home/abi/fetcher/tmp/gladier-0.9.0b2.tar.gz]
+[2023-07-20 19:39:54] INFO root fetch - processPackages [gladier]: Start processing: awpr
+[2023-07-20 19:39:54] INFO root fetch - main [MainThread]: End processing [gladier]: success
+[2023-07-20 19:39:54] INFO root fetch - processPackages [iwx-manifest-builder]: Downloading https://files.pythonhosted.org/packages/d7/d6/4db840a6915c649204176fabdc1a7d70a4fdf7a1d3bd33ddd8cd11c02111/iwx_manifest_builder-0.0.99.tar.gz
+[2023-07-20 19:39:54] INFO root fetch - processPackages [awpr]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-20 19:39:54] INFO root fetch - processPackages [fsai-grpc-api]: executing diffoscope
+[2023-07-20 19:39:54] INFO root fetch - processPackages [fsai-grpc-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fsai_grpc_api-0.0.98.tar.gz tmp/fsai_grpc_api-0.0.99.tar.gz --markdown 20230720/f/fsai-grpc-api/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-20 19:39:54] INFO root fetch - processPackages [geopix]: Downloading https://files.pythonhosted.org/packages/6a/35/1c90409a83c347836b8e4e5b2ad3d6ad6534718a8977dd9b3a646edd5e26/geopix-0.0.99.tar.gz
+[2023-07-20 19:39:54] INFO root fetch - processPackages [fsai-shared-funcs]: Downloading https://files.pythonhosted.org/packages/61/bc/39412ebc8deaeb66f457caebc15c02bc1fe07bc33108672e4bf143d64e3b/fsai_shared_funcs-0.0.98.tar.gz
+[2023-07-20 19:39:54] INFO root fetch - processPackages [tfads-o-builder]: Downloading https://files.pythonhosted.org/packages/45/ff/9ca2a3f8e3af2a23a5772a14b81d218b01febd612a714887793dc77388f2/tfads_o_builder-0.0.171.tar.gz
+[2023-07-20 19:39:54] INFO root fetch - processPackages [recursive-validator]: Downloading https://files.pythonhosted.org/packages/3a/cc/f8feacbe20ac476d11c94a3c866b32fb9b4dde5694a5194843b6b0dde0eb/recursive_validator-0.0.99.tar.gz
+[2023-07-20 19:39:54] INFO root fetch - processPackages [up-nextflap]: Remove: archive file [/home/abi/fetcher/tmp/up_nextflap-0.0.6.tar.gz]
+[2023-07-20 19:39:54] INFO root fetch - processPackages [up-nextflap]: Remove: archive file [/home/abi/fetcher/tmp/up_nextflap-0.0.8.tar.gz]
+[2023-07-20 19:39:54] INFO root fetch - processPackages [up-nextflap]: Start processing: cvat-manifest-builder
+[2023-07-20 19:39:54] INFO root fetch - main [MainThread]: End processing [up-nextflap]: success
+[2023-07-20 19:39:54] INFO root fetch - processPackages [iwx-manifest-builder]: executing diffoscope
+[2023-07-20 19:39:54] INFO root fetch - processPackages [iwx-manifest-builder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iwx_manifest_builder-0.0.98.tar.gz tmp/iwx_manifest_builder-0.0.99.tar.gz --markdown 20230720/i/iwx-manifest-builder/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-20 19:39:54] INFO root fetch - processPackages [awpr]: Downloading https://files.pythonhosted.org/packages/20/69/15c65a62a3a988a3178f156c6296d17502891a9da8e386979e511c8bd639/awpr-0.0.98.tar.gz
+[2023-07-20 19:39:54] INFO root fetch - processPackages [cvat-manifest-builder]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-20 19:39:54] INFO root fetch - processPackages [tfads-o-builder]: executing diffoscope
+[2023-07-20 19:39:54] INFO root fetch - processPackages [tfads-o-builder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfads_o_builder-0.0.170.tar.gz tmp/tfads_o_builder-0.0.171.tar.gz --markdown 20230720/t/tfads-o-builder/0.0.170-0.0.171/diff.md --exclude *.pyd
+[2023-07-20 19:39:54] INFO root fetch - processPackages [geopix]: executing diffoscope
+[2023-07-20 19:39:54] INFO root fetch - processPackages [geopix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geopix-0.0.98.tar.gz tmp/geopix-0.0.99.tar.gz --markdown 20230720/g/geopix/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-20 19:39:54] INFO root fetch - processPackages [recursive-validator]: executing diffoscope
+[2023-07-20 19:39:54] INFO root fetch - processPackages [recursive-validator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/recursive_validator-0.0.98.tar.gz tmp/recursive_validator-0.0.99.tar.gz --markdown 20230720/r/recursive-validator/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-20 19:39:55] INFO root fetch - processPackages [cvat-manifest-builder]: Downloading https://files.pythonhosted.org/packages/4d/53/ceeb4be50300cbb9ab2e0de8699ddef9fb20be70ac60f72cac3097f0efc9/cvat_manifest_builder-0.0.98.tar.gz
+[2023-07-20 19:39:55] INFO root fetch - processPackages [fsai-shared-funcs]: Downloading https://files.pythonhosted.org/packages/3d/ad/0128c444d5b95fa3b9882d63404069f05fbee06ab63f54a541348c51a445/fsai_shared_funcs-0.0.99.tar.gz
+[2023-07-20 19:39:55] INFO root fetch - processPackages [virl2-client]: Remove: archive file [/home/abi/fetcher/tmp/virl2_client-2.5.0.tar.gz]
+[2023-07-20 19:39:55] INFO root fetch - processPackages [virl2-client]: Remove: archive file [/home/abi/fetcher/tmp/virl2_client-2.6.0.tar.gz]
+[2023-07-20 19:39:55] INFO root fetch - processPackages [virl2-client]: Start processing: gigagan-pytorch
+[2023-07-20 19:39:55] INFO root fetch - main [MainThread]: End processing [virl2-client]: success
+[2023-07-20 19:39:55] INFO root fetch - processPackages [gigagan-pytorch]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-20 19:39:55] INFO root fetch - processPackages [awpr]: Downloading https://files.pythonhosted.org/packages/43/6a/a5e099ae1a88431e28ea793094495025f2a78ac4d52ea49d8aad0e55cf8c/awpr-0.0.99.tar.gz
+[2023-07-20 19:39:55] INFO root fetch - processPackages [gigagan-pytorch]: Downloading https://files.pythonhosted.org/packages/73/5b/3ca728ff0a4f50e677cee4d8b1b884e994ffddbfe43f1e2a887989ee941d/gigagan-pytorch-0.1.1.tar.gz
+[2023-07-20 19:39:55] INFO root fetch - processPackages [json-file-split]: Downloading https://files.pythonhosted.org/packages/a0/bb/0991effbd14e0114fac9146f11da815fc866dc9e12a179cdfc204af7bd99/json_file_split-0.0.99.tar.gz
+[2023-07-20 19:39:55] INFO root fetch - processPackages [awpr]: executing diffoscope
+[2023-07-20 19:39:55] INFO root fetch - processPackages [awpr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/awpr-0.0.98.tar.gz tmp/awpr-0.0.99.tar.gz --markdown 20230720/a/awpr/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-20 19:39:55] INFO root fetch - processPackages [cvat-manifest-builder]: Downloading https://files.pythonhosted.org/packages/2d/fd/8ffcf4ea6e13da75ab842cd4fdacad9222d483a9b210dbc27e9c251f6a20/cvat_manifest_builder-0.0.99.tar.gz
+[2023-07-20 19:39:55] INFO root fetch - processPackages [json-file-split]: executing diffoscope
+[2023-07-20 19:39:55] INFO root fetch - processPackages [json-file-split]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/json_file_split-0.0.98.tar.gz tmp/json_file_split-0.0.99.tar.gz --markdown 20230720/j/json-file-split/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-20 19:39:55] INFO root fetch - processPackages [gigagan-pytorch]: Downloading https://files.pythonhosted.org/packages/98/de/93cc3551daa853bc697e06894266086cd47a24757333db2b5319cff853da/gigagan-pytorch-0.1.2.tar.gz
+[2023-07-20 19:39:55] INFO root fetch - processPackages [gigagan-pytorch]: executing diffoscope
+[2023-07-20 19:39:55] INFO root fetch - processPackages [gigagan-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gigagan-pytorch-0.1.1.tar.gz tmp/gigagan-pytorch-0.1.2.tar.gz --markdown 20230720/g/gigagan-pytorch/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-20 19:39:55] INFO root fetch - processPackages [cvat-manifest-builder]: executing diffoscope
+[2023-07-20 19:39:55] INFO root fetch - processPackages [cvat-manifest-builder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cvat_manifest_builder-0.0.98.tar.gz tmp/cvat_manifest_builder-0.0.99.tar.gz --markdown 20230720/c/cvat-manifest-builder/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-20 19:39:55] INFO root fetch - processPackages [fsai-grpc-api]: Remove: archive file [/home/abi/fetcher/tmp/fsai_grpc_api-0.0.98.tar.gz]
+[2023-07-20 19:39:55] INFO root fetch - processPackages [fsai-grpc-api]: Remove: archive file [/home/abi/fetcher/tmp/fsai_grpc_api-0.0.99.tar.gz]
+[2023-07-20 19:39:55] INFO root fetch - main [MainThread]: End processing [fsai-grpc-api]: success
+[2023-07-20 19:39:55] INFO root fetch - processPackages [fsai-shared-funcs]: executing diffoscope
+[2023-07-20 19:39:55] INFO root fetch - processPackages [fsai-shared-funcs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fsai_shared_funcs-0.0.98.tar.gz tmp/fsai_shared_funcs-0.0.99.tar.gz --markdown 20230720/f/fsai-shared-funcs/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-20 19:39:56] INFO root fetch - processPackages [tfads-o-builder]: Remove: archive file [/home/abi/fetcher/tmp/tfads_o_builder-0.0.170.tar.gz]
+[2023-07-20 19:39:56] INFO root fetch - processPackages [tfads-o-builder]: Remove: archive file [/home/abi/fetcher/tmp/tfads_o_builder-0.0.171.tar.gz]
+[2023-07-20 19:39:56] INFO root fetch - main [MainThread]: End processing [tfads-o-builder]: success
+[2023-07-20 19:39:56] INFO root fetch - processPackages [recursive-validator]: Remove: archive file [/home/abi/fetcher/tmp/recursive_validator-0.0.98.tar.gz]
+[2023-07-20 19:39:56] INFO root fetch - processPackages [recursive-validator]: Remove: archive file [/home/abi/fetcher/tmp/recursive_validator-0.0.99.tar.gz]
+[2023-07-20 19:39:56] INFO root fetch - main [MainThread]: End processing [recursive-validator]: success
+[2023-07-20 19:39:56] INFO root fetch - processPackages [geopix]: Remove: archive file [/home/abi/fetcher/tmp/geopix-0.0.98.tar.gz]
+[2023-07-20 19:39:56] INFO root fetch - processPackages [geopix]: Remove: archive file [/home/abi/fetcher/tmp/geopix-0.0.99.tar.gz]
+[2023-07-20 19:39:56] INFO root fetch - main [MainThread]: End processing [geopix]: success
+[2023-07-20 19:39:56] INFO root fetch - processPackages [iwx-manifest-builder]: Remove: archive file [/home/abi/fetcher/tmp/iwx_manifest_builder-0.0.98.tar.gz]
+[2023-07-20 19:39:56] INFO root fetch - processPackages [iwx-manifest-builder]: Remove: archive file [/home/abi/fetcher/tmp/iwx_manifest_builder-0.0.99.tar.gz]
+[2023-07-20 19:39:56] INFO root fetch - main [MainThread]: End processing [iwx-manifest-builder]: success
+[2023-07-20 19:39:56] INFO root fetch - processPackages [awpr]: Remove: archive file [/home/abi/fetcher/tmp/awpr-0.0.98.tar.gz]
+[2023-07-20 19:39:56] INFO root fetch - processPackages [awpr]: Remove: archive file [/home/abi/fetcher/tmp/awpr-0.0.99.tar.gz]
+[2023-07-20 19:39:56] INFO root fetch - main [MainThread]: End processing [awpr]: success
+[2023-07-20 19:39:56] INFO root fetch - processPackages [json-file-split]: Remove: archive file [/home/abi/fetcher/tmp/json_file_split-0.0.98.tar.gz]
+[2023-07-20 19:39:56] INFO root fetch - processPackages [json-file-split]: Remove: archive file [/home/abi/fetcher/tmp/json_file_split-0.0.99.tar.gz]
+[2023-07-20 19:39:56] INFO root fetch - main [MainThread]: End processing [json-file-split]: success
+[2023-07-20 19:39:56] INFO root fetch - processPackages [cvat-manifest-builder]: Remove: archive file [/home/abi/fetcher/tmp/cvat_manifest_builder-0.0.98.tar.gz]
+[2023-07-20 19:39:56] INFO root fetch - processPackages [cvat-manifest-builder]: Remove: archive file [/home/abi/fetcher/tmp/cvat_manifest_builder-0.0.99.tar.gz]
+[2023-07-20 19:39:56] INFO root fetch - main [MainThread]: End processing [cvat-manifest-builder]: success
+[2023-07-20 19:39:57] INFO root fetch - processPackages [gigagan-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/gigagan-pytorch-0.1.1.tar.gz]
+[2023-07-20 19:39:57] INFO root fetch - processPackages [gigagan-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/gigagan-pytorch-0.1.2.tar.gz]
+[2023-07-20 19:39:57] INFO root fetch - main [MainThread]: End processing [gigagan-pytorch]: success
+[2023-07-20 19:39:57] INFO root fetch - processPackages [fsai-shared-funcs]: Remove: archive file [/home/abi/fetcher/tmp/fsai_shared_funcs-0.0.98.tar.gz]
+[2023-07-20 19:39:57] INFO root fetch - processPackages [fsai-shared-funcs]: Remove: archive file [/home/abi/fetcher/tmp/fsai_shared_funcs-0.0.99.tar.gz]
+[2023-07-20 19:39:57] INFO root fetch - main [MainThread]: End processing [fsai-shared-funcs]: success
+[2023-07-20 19:39:57] INFO root fetch - main [MainThread]: Store serial: [18970299]
