@@ -19001,3 +19001,102 @@ AssertionError: tmp/verify4py-test-0.1.7.tar.gz does not exist
 [2023-07-20 20:24:44] INFO root fetch - processPackages [anywidget]: Remove: archive file [/home/abi/fetcher/tmp/anywidget-0.6.3.tar.gz]
 [2023-07-20 20:24:44] INFO root fetch - main [MainThread]: End processing [anywidget]: success
 [2023-07-20 20:24:44] INFO root fetch - main [MainThread]: Store serial: [18970810]
+[2023-07-20 20:29:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18970810]
+[2023-07-20 20:29:53] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-20 20:29:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: plotagain
+[2023-07-20 20:29:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: isic-cli
+[2023-07-20 20:29:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fpingwrppr
+[2023-07-20 20:29:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ex4nicegui
+[2023-07-20 20:29:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo14-addon-community-maps
+[2023-07-20 20:29:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gigagan-pytorch
+[2023-07-20 20:29:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: simpleutilz
+[2023-07-20 20:29:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ValidX
+[2023-07-20 20:29:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ezjaxtyping
+[2023-07-20 20:29:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: scrunch
+[2023-07-20 20:29:53] INFO root fetch - processPackages [ValidX]: New version: [0.8.1] Old Version: [0.8]
+[2023-07-20 20:29:53] INFO root fetch - processPackages [simpleutilz]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-07-20 20:29:53] INFO root fetch - processPackages [isic-cli]: New version: [6.5.0] Old Version: [6.4.0]
+[2023-07-20 20:29:53] WARNING root fetch - processPackages [plotagain]: Skipping, unable to determine old version
+[2023-07-20 20:29:53] INFO root fetch - processPackages [plotagain]: Start processing: plotagain
+[2023-07-20 20:29:53] INFO root fetch - main [MainThread]: End processing [plotagain] error
+[2023-07-20 20:29:53] INFO root fetch - processPackages [ex4nicegui]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-07-20 20:29:53] INFO root fetch - processPackages [fpingwrppr]: New version: [0.2] Old Version: [0.1]
+[2023-07-20 20:29:53] INFO root fetch - processPackages [odoo14-addon-community-maps]: New version: [14.0.0.1.9] Old Version: [14.0.0.1.8]
+[2023-07-20 20:29:53] INFO root fetch - processPackages [gigagan-pytorch]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-07-20 20:29:53] INFO root fetch - processPackages [scrunch]: New version: [6.5.2000.post1689876621] Old Version: [6.5.1999.post1689868377]
+[2023-07-20 20:29:54] WARNING root fetch - processPackages [ezjaxtyping]: Skipping, unable to determine old version
+[2023-07-20 20:29:54] INFO root fetch - processPackages [ezjaxtyping]: Start processing: coiled
+[2023-07-20 20:29:54] INFO root fetch - main [MainThread]: End processing [ezjaxtyping] error
+[2023-07-20 20:29:54] INFO root fetch - processPackages [plotagain]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-20 20:29:54] INFO root fetch - processPackages [simpleutilz]: Downloading https://files.pythonhosted.org/packages/c1/74/fb7c974431cabe17caa465e35c1c011084ac630750b89f34b48dbe69f8f8/simpleutilz-1.0.4.tar.gz
+[2023-07-20 20:29:54] INFO root fetch - processPackages [scrunch]: Downloading https://files.pythonhosted.org/packages/12/8c/3387b374899dad890b90e0805add2eea4050deaa79b95d129d03eea5b171/scrunch-6.5.1999.post1689868377.tar.gz
+[2023-07-20 20:29:54] INFO root fetch - processPackages [coiled]: New version: [0.8.9.dev9] Old Version: [0.8.9.dev6]
+[2023-07-20 20:29:54] INFO root fetch - processPackages [odoo14-addon-community-maps]: Downloading https://files.pythonhosted.org/packages/84/7f/0b072c4728b657ac949445b507726d84db90e928dcef5ffb5b48efcabdbf/odoo14_addon_community_maps-14.0.0.1.8-py3-none-any.whl
+[2023-07-20 20:29:54] INFO root fetch - processPackages [fpingwrppr]: Downloading https://files.pythonhosted.org/packages/bf/dc/b7ad102551551ec69fa943ba75d5b647b14c1b5a11b75af34cf70781919c/fpingwrppr-0.1.tar.gz
+[2023-07-20 20:29:54] INFO root fetch - processPackages [gigagan-pytorch]: Downloading https://files.pythonhosted.org/packages/e7/00/c65c990e1f443f0ea827e2f493588f276e2d1809073afacb8a2e85c1a8ed/gigagan-pytorch-0.1.5.tar.gz
+[2023-07-20 20:29:54] INFO root fetch - processPackages [isic-cli]: Downloading https://files.pythonhosted.org/packages/8a/c2/6c3c7349d74073b487db7b34c62829b04bacb4484f42b98789b3d4c71ebf/isic-cli-6.4.0.tar.gz
+[2023-07-20 20:29:54] INFO root fetch - processPackages [ValidX]: Downloading https://files.pythonhosted.org/packages/57/4b/9bfbaa9d378bed0a638f162ff5496ab8098c03aa1646eb583be9a04af934/ValidX-0.8.tar.gz
+[2023-07-20 20:29:54] INFO root fetch - processPackages [ex4nicegui]: Downloading https://files.pythonhosted.org/packages/b5/9f/40dc2ccd9e77232ba5708c6a52e86cc32004e3b64cd7e9778f48c37d7e1b/ex4nicegui-0.2.1.tar.gz
+[2023-07-20 20:29:54] INFO root fetch - processPackages [plotagain]: Downloading https://files.pythonhosted.org/packages/7b/1b/d21081ebde14beba7f00bdbd62cc0c3f0ff3a57d804b22f3e7437dc500a1/plotagain-1.0.0.tar.gz
+[2023-07-20 20:29:54] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/01/4b/38ee625e022b9045458352636265942fc0dd2c5373d6b88ca4415a39b230/coiled-0.8.9.dev6.tar.gz
+[2023-07-20 20:29:54] INFO root fetch - processPackages [scrunch]: Downloading https://files.pythonhosted.org/packages/a8/bf/3b8cbd6d46811a3f5c201d909e6cf8dbd8ceaf373cce1fec4ce9e015d53e/scrunch-6.5.2000.post1689876621.tar.gz
+[2023-07-20 20:29:54] INFO root fetch - processPackages [simpleutilz]: Downloading https://files.pythonhosted.org/packages/c2/7c/60ff0de1f49fb716fc4b245b9a2db2115c659767bed35bb8e6484e3dfc24/simpleutilz-1.0.5.tar.gz
+[2023-07-20 20:29:54] INFO root fetch - processPackages [gigagan-pytorch]: Downloading https://files.pythonhosted.org/packages/a5/8b/59d0d086b0e6ce4de0f2e6da7a747cc8a5a6b17d1af2d9d009bc2b6abd3a/gigagan-pytorch-0.1.6.tar.gz
+[2023-07-20 20:29:54] INFO root fetch - processPackages [simpleutilz]: executing diffoscope
+[2023-07-20 20:29:54] INFO root fetch - processPackages [simpleutilz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simpleutilz-1.0.4.tar.gz tmp/simpleutilz-1.0.5.tar.gz --markdown 20230720/s/simpleutilz/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-07-20 20:29:54] INFO root fetch - processPackages [fpingwrppr]: Downloading https://files.pythonhosted.org/packages/ee/0c/c6b9b396fc995c3e71dada41e4d27f9a9bc209ddafc27670e5fd01b50c8b/fpingwrppr-0.2.tar.gz
+[2023-07-20 20:29:54] INFO root fetch - processPackages [scrunch]: executing diffoscope
+[2023-07-20 20:29:54] INFO root fetch - processPackages [scrunch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scrunch-6.5.1999.post1689868377.tar.gz tmp/scrunch-6.5.2000.post1689876621.tar.gz --markdown 20230720/s/scrunch/6.5.1999.post1689868377-6.5.2000.post1689876621/diff.md --exclude *.pyd
+[2023-07-20 20:29:54] INFO root fetch - processPackages [plotagain]: Downloading https://files.pythonhosted.org/packages/bd/fa/13f61ed698aa6ccdfbcd175733e326b4bee7c906c7a2b1b2fb2c1acc6642/plotagain-1.0.1.tar.gz
+[2023-07-20 20:29:54] INFO root fetch - processPackages [ex4nicegui]: Downloading https://files.pythonhosted.org/packages/e3/fb/abc88b480b09438bfafa7341776a1f74effead5d6b4275f50d09079455ed/ex4nicegui-0.2.2.tar.gz
+[2023-07-20 20:29:54] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/26/80/9e4bfeccf312016e825026ef4ffbc2321b3117d2572b720eaa72b12d9673/coiled-0.8.9.dev9.tar.gz
+[2023-07-20 20:29:54] INFO root fetch - processPackages [gigagan-pytorch]: executing diffoscope
+[2023-07-20 20:29:54] INFO root fetch - processPackages [gigagan-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gigagan-pytorch-0.1.5.tar.gz tmp/gigagan-pytorch-0.1.6.tar.gz --markdown 20230720/g/gigagan-pytorch/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-07-20 20:29:54] INFO root fetch - processPackages [fpingwrppr]: executing diffoscope
+[2023-07-20 20:29:54] INFO root fetch - processPackages [fpingwrppr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fpingwrppr-0.1.tar.gz tmp/fpingwrppr-0.2.tar.gz --markdown 20230720/f/fpingwrppr/0.1-0.2/diff.md --exclude *.pyd
+[2023-07-20 20:29:54] INFO root fetch - processPackages [ValidX]: Downloading https://files.pythonhosted.org/packages/07/14/629750a8d50dbff1076818a908d6180ab865bb68c4f5c9a0d8f98e38d59e/ValidX-0.8.1.tar.gz
+[2023-07-20 20:29:54] INFO root fetch - processPackages [isic-cli]: Downloading https://files.pythonhosted.org/packages/aa/f9/7907745866e88fb153c8495b4f74e784ea609913fcb9b2d7d1aceef48559/isic-cli-6.5.0.tar.gz
+[2023-07-20 20:29:54] INFO root fetch - processPackages [ex4nicegui]: executing diffoscope
+[2023-07-20 20:29:54] INFO root fetch - processPackages [ex4nicegui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ex4nicegui-0.2.1.tar.gz tmp/ex4nicegui-0.2.2.tar.gz --markdown 20230720/e/ex4nicegui/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-07-20 20:29:54] INFO root fetch - processPackages [coiled]: executing diffoscope
+[2023-07-20 20:29:54] INFO root fetch - processPackages [coiled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coiled-0.8.9.dev6.tar.gz tmp/coiled-0.8.9.dev9.tar.gz --markdown 20230720/c/coiled/0.8.9.dev6-0.8.9.dev9/diff.md --exclude *.pyd
+[2023-07-20 20:29:55] INFO root fetch - processPackages [plotagain]: executing diffoscope
+[2023-07-20 20:29:55] INFO root fetch - processPackages [plotagain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plotagain-1.0.0.tar.gz tmp/plotagain-1.0.1.tar.gz --markdown 20230720/p/plotagain/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-20 20:29:55] INFO root fetch - processPackages [odoo14-addon-community-maps]: Downloading https://files.pythonhosted.org/packages/22/06/f747d3a2743d38562b19010425158088c5810684c910def50e5d4a559eb7/odoo14_addon_community_maps-14.0.0.1.9-py3-none-any.whl
+[2023-07-20 20:29:55] INFO root fetch - processPackages [isic-cli]: executing diffoscope
+[2023-07-20 20:29:55] INFO root fetch - processPackages [isic-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/isic-cli-6.4.0.tar.gz tmp/isic-cli-6.5.0.tar.gz --markdown 20230720/i/isic-cli/6.4.0-6.5.0/diff.md --exclude *.pyd
+[2023-07-20 20:29:55] INFO root fetch - processPackages [ValidX]: executing diffoscope
+[2023-07-20 20:29:55] INFO root fetch - processPackages [ValidX]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ValidX-0.8.tar.gz tmp/ValidX-0.8.1.tar.gz --markdown 20230720/V/ValidX/0.8-0.8.1/diff.md --exclude *.pyd
+[2023-07-20 20:29:55] INFO root fetch - processPackages [odoo14-addon-community-maps]: executing diffoscope
+[2023-07-20 20:29:55] INFO root fetch - processPackages [odoo14-addon-community-maps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_community_maps-14.0.0.1.8-py3-none-any.whl.zip tmp/odoo14_addon_community_maps-14.0.0.1.9-py3-none-any.whl.zip --markdown 20230720/o/odoo14-addon-community-maps/14.0.0.1.8-14.0.0.1.9/diff.md --exclude *.pyd
+[2023-07-20 20:29:56] INFO root fetch - processPackages [simpleutilz]: Remove: archive file [/home/abi/fetcher/tmp/simpleutilz-1.0.4.tar.gz]
+[2023-07-20 20:29:56] INFO root fetch - processPackages [simpleutilz]: Remove: archive file [/home/abi/fetcher/tmp/simpleutilz-1.0.5.tar.gz]
+[2023-07-20 20:29:56] INFO root fetch - main [MainThread]: End processing [simpleutilz]: success
+[2023-07-20 20:29:56] INFO root fetch - processPackages [fpingwrppr]: Remove: archive file [/home/abi/fetcher/tmp/fpingwrppr-0.1.tar.gz]
+[2023-07-20 20:29:56] INFO root fetch - processPackages [fpingwrppr]: Remove: archive file [/home/abi/fetcher/tmp/fpingwrppr-0.2.tar.gz]
+[2023-07-20 20:29:56] INFO root fetch - main [MainThread]: End processing [fpingwrppr]: success
+[2023-07-20 20:29:56] INFO root fetch - processPackages [gigagan-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/gigagan-pytorch-0.1.5.tar.gz]
+[2023-07-20 20:29:56] INFO root fetch - processPackages [gigagan-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/gigagan-pytorch-0.1.6.tar.gz]
+[2023-07-20 20:29:56] INFO root fetch - main [MainThread]: End processing [gigagan-pytorch]: success
+[2023-07-20 20:29:56] INFO root fetch - processPackages [scrunch]: Remove: archive file [/home/abi/fetcher/tmp/scrunch-6.5.1999.post1689868377.tar.gz]
+[2023-07-20 20:29:56] INFO root fetch - processPackages [scrunch]: Remove: archive file [/home/abi/fetcher/tmp/scrunch-6.5.2000.post1689876621.tar.gz]
+[2023-07-20 20:29:56] INFO root fetch - main [MainThread]: End processing [scrunch]: success
+[2023-07-20 20:29:56] INFO root fetch - processPackages [plotagain]: Remove: archive file [/home/abi/fetcher/tmp/plotagain-1.0.0.tar.gz]
+[2023-07-20 20:29:56] INFO root fetch - processPackages [plotagain]: Remove: archive file [/home/abi/fetcher/tmp/plotagain-1.0.1.tar.gz]
+[2023-07-20 20:29:56] INFO root fetch - main [MainThread]: End processing [plotagain]: success
+[2023-07-20 20:29:56] INFO root fetch - processPackages [ex4nicegui]: Remove: archive file [/home/abi/fetcher/tmp/ex4nicegui-0.2.1.tar.gz]
+[2023-07-20 20:29:56] INFO root fetch - processPackages [ex4nicegui]: Remove: archive file [/home/abi/fetcher/tmp/ex4nicegui-0.2.2.tar.gz]
+[2023-07-20 20:29:56] INFO root fetch - main [MainThread]: End processing [ex4nicegui]: success
+[2023-07-20 20:29:56] INFO root fetch - processPackages [ValidX]: Remove: archive file [/home/abi/fetcher/tmp/ValidX-0.8.tar.gz]
+[2023-07-20 20:29:56] INFO root fetch - processPackages [ValidX]: Remove: archive file [/home/abi/fetcher/tmp/ValidX-0.8.1.tar.gz]
+[2023-07-20 20:29:56] INFO root fetch - main [MainThread]: End processing [ValidX]: success
+[2023-07-20 20:29:56] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-0.8.9.dev6.tar.gz]
+[2023-07-20 20:29:56] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-0.8.9.dev9.tar.gz]
+[2023-07-20 20:29:56] INFO root fetch - main [MainThread]: End processing [coiled]: success
+[2023-07-20 20:29:56] INFO root fetch - processPackages [isic-cli]: Remove: archive file [/home/abi/fetcher/tmp/isic-cli-6.4.0.tar.gz]
+[2023-07-20 20:29:56] INFO root fetch - processPackages [isic-cli]: Remove: archive file [/home/abi/fetcher/tmp/isic-cli-6.5.0.tar.gz]
+[2023-07-20 20:29:56] INFO root fetch - main [MainThread]: End processing [isic-cli]: success
+[2023-07-20 20:29:56] INFO root fetch - processPackages [odoo14-addon-community-maps]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_community_maps-14.0.0.1.8-py3-none-any.whl.zip]
+[2023-07-20 20:29:56] INFO root fetch - processPackages [odoo14-addon-community-maps]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_community_maps-14.0.0.1.9-py3-none-any.whl.zip]
+[2023-07-20 20:29:56] INFO root fetch - main [MainThread]: End processing [odoo14-addon-community-maps]: success
+[2023-07-20 20:29:56] INFO root fetch - main [MainThread]: Store serial: [18970893]
