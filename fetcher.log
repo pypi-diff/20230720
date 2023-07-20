@@ -6172,3 +6172,117 @@ AssertionError: tmp/verify4py-test-0.1.7.tar.gz does not exist
 [2023-07-20 13:05:18] INFO root fetch - processPackages [lite-tools]: Remove: archive file [/home/abi/fetcher/tmp/lite_tools-0.4.9.9-py3-none-any.whl.zip]
 [2023-07-20 13:05:18] INFO root fetch - main [MainThread]: End processing [lite-tools]: success
 [2023-07-20 13:05:18] INFO root fetch - main [MainThread]: Store serial: [18965459]
+[2023-07-20 13:10:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18965459]
+[2023-07-20 13:10:27] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-07-20 13:10:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: requestsbankrko
+[2023-07-20 13:10:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aify
+[2023-07-20 13:10:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: CxAdmin
+[2023-07-20 13:10:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fastlane-bot
+[2023-07-20 13:10:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: iqrfpy
+[2023-07-20 13:10:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ctaplot
+[2023-07-20 13:10:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: unitxt
+[2023-07-20 13:10:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dash-template-rendering
+[2023-07-20 13:10:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: molmap
+[2023-07-20 13:10:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: agentaction
+[2023-07-20 13:10:27] INFO root fetch - processPackages [unitxt]: New version: [1.0.9] Old Version: [1.0.7]
+[2023-07-20 13:10:27] INFO root fetch - processPackages [fastlane-bot]: New version: [1.1.0] Old Version: [0.0.0]
+[2023-07-20 13:10:27] INFO root fetch - processPackages [ctaplot]: New version: [0.6.3] Old Version: [0.6.2]
+[2023-07-20 13:10:27] INFO root fetch - processPackages [molmap]: New version: [1.3.9.8] Old Version: [1.3.9.7.1]
+[2023-07-20 13:10:27] INFO root fetch - processPackages [requestsbankrko]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-07-20 13:10:27] INFO root fetch - processPackages [dash-template-rendering]: New version: [0.0.1b3] Old Version: [0.0.1b2]
+[2023-07-20 13:10:27] INFO root fetch - processPackages [aify]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-20 13:10:27] INFO root fetch - processPackages [iqrfpy]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-20 13:10:27] INFO root fetch - processPackages [CxAdmin]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-20 13:10:27] INFO root fetch - processPackages [agentaction]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-20 13:10:27] INFO root fetch - processPackages [unitxt]: Downloading https://files.pythonhosted.org/packages/11/d1/d3b62f8baf803050688a5209b7a249f450e3b915906be3b8636049f44de2/unitxt-1.0.7.tar.gz
+[2023-07-20 13:10:27] INFO root fetch - processPackages [dash-template-rendering]: Downloading https://files.pythonhosted.org/packages/5b/35/cd7c756b94756f9bad0422e1bed1e40c23ecec0ea5280ded74b3f93db145/dash-template-rendering-0.0.1b2.tar.gz
+[2023-07-20 13:10:27] INFO root fetch - processPackages [aify]: Downloading https://files.pythonhosted.org/packages/48/70/7dc6a7b7c76ac97a5d112fca94e641d9dade27cf0708bdb0162e5ee3edae/aify-0.1.8-py3-none-any.whl
+[2023-07-20 13:10:27] INFO root fetch - processPackages [requestsbankrko]: Downloading https://files.pythonhosted.org/packages/6c/0b/a914b09687c66f8b7e119673da0893d4dea2ea56d0d2667333936790278f/requestsbankrko-0.2.4.tar.gz
+[2023-07-20 13:10:27] INFO root fetch - processPackages [CxAdmin]: Downloading https://files.pythonhosted.org/packages/72/2d/39137a2e73be34674809bf9eabf234a558344f4c60f8d348d9c9666872ce/CxAdmin-1.0.8.tar.gz
+[2023-07-20 13:10:27] INFO root fetch - processPackages [agentaction]: Downloading https://files.pythonhosted.org/packages/ad/5f/9bbab358bfd8f267f134d912e62ea39f065de7d559773d2a039e821397b2/agentaction-0.1.1.tar.gz
+[2023-07-20 13:10:27] INFO root fetch - processPackages [molmap]: Downloading https://files.pythonhosted.org/packages/8e/60/65fe0e3e2257bf15d16825a3c90efb3c22202d1435c684eb4b1ad30de8ff/molmap-1.3.9.7.1.tar.gz
+[2023-07-20 13:10:27] INFO root fetch - processPackages [fastlane-bot]: Downloading https://files.pythonhosted.org/packages/4d/2d/2d8147b9108a36f9db920a7b3fd43a4a15ae8030dbb01eaaadaf09556c9f/fastlane_bot-0.0.0.tar.gz
+[2023-07-20 13:10:27] INFO root fetch - processPackages [ctaplot]: Downloading https://files.pythonhosted.org/packages/4f/93/a3f97b7bb9fd5a3c83b6e90e559b0f778e12633e6c07346198e046bfae2c/ctaplot-0.6.2.tar.gz
+[2023-07-20 13:10:27] INFO root fetch - processPackages [iqrfpy]: Downloading https://files.pythonhosted.org/packages/b7/5f/e812275617185f777c7fce9c456eb51a907a7befdc183c6889e181172873/iqrfpy-0.1.8.tar.gz
+[2023-07-20 13:10:28] INFO root fetch - processPackages [unitxt]: Downloading https://files.pythonhosted.org/packages/0e/ad/4d0c5d55831a7fd66fbaca1667f8f31321026e46d5f9444cb997646d2fe7/unitxt-1.0.9.tar.gz
+[2023-07-20 13:10:28] INFO root fetch - processPackages [CxAdmin]: Downloading https://files.pythonhosted.org/packages/12/69/d90f882fe41226c22716f3133aa3d1fd7abd744d25527cd17a8e33f7487f/CxAdmin-1.0.9.tar.gz
+[2023-07-20 13:10:28] INFO root fetch - processPackages [dash-template-rendering]: Downloading https://files.pythonhosted.org/packages/17/f1/6e2f70447027f6db00d72f7fe7b23329371397d82dce2c5b067e9962a99e/dash-template-rendering-0.0.1b3.tar.gz
+[2023-07-20 13:10:28] INFO root fetch - processPackages [agentaction]: Downloading https://files.pythonhosted.org/packages/5f/37/b7fd0571b132307625a6b697cf0f03fa6cb5f504c060f75ba726529b7229/agentaction-0.1.2.tar.gz
+[2023-07-20 13:10:28] INFO root fetch - processPackages [requestsbankrko]: Downloading https://files.pythonhosted.org/packages/40/dd/9a6af8b5b2d478f33144ab7ebe61866b0a4cd5e629fc276c31e355cd99c2/requestsbankrko-0.2.5.tar.gz
+[2023-07-20 13:10:28] INFO root fetch - processPackages [fastlane-bot]: Downloading https://files.pythonhosted.org/packages/ac/3e/07deb41a0cefc3e05dba715761974f4de33c7dc345831d5eb3e30dd33829/fastlane_bot-1.1.0-py3-none-any.whl
+[2023-07-20 13:10:28] INFO root fetch - processPackages [unitxt]: executing diffoscope
+[2023-07-20 13:10:28] INFO root fetch - processPackages [unitxt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unitxt-1.0.7.tar.gz tmp/unitxt-1.0.9.tar.gz --markdown 20230720/u/unitxt/1.0.7-1.0.9/diff.md --exclude *.pyd
+[2023-07-20 13:10:28] INFO root fetch - processPackages [CxAdmin]: executing diffoscope
+[2023-07-20 13:10:28] INFO root fetch - processPackages [CxAdmin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CxAdmin-1.0.8.tar.gz tmp/CxAdmin-1.0.9.tar.gz --markdown 20230720/C/CxAdmin/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-20 13:10:28] INFO root fetch - processPackages [aify]: Downloading https://files.pythonhosted.org/packages/fd/27/98c9c823adfd16bc8457703aeb9c4cd06bd5c233cfed754ef7389629a3af/aify-0.1.9-py3-none-any.whl
+[2023-07-20 13:10:28] INFO root fetch - processPackages [requestsbankrko]: executing diffoscope
+[2023-07-20 13:10:28] INFO root fetch - processPackages [requestsbankrko]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/requestsbankrko-0.2.4.tar.gz tmp/requestsbankrko-0.2.5.tar.gz --markdown 20230720/r/requestsbankrko/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-07-20 13:10:28] INFO root fetch - processPackages [dash-template-rendering]: executing diffoscope
+[2023-07-20 13:10:28] INFO root fetch - processPackages [dash-template-rendering]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dash-template-rendering-0.0.1b2.tar.gz tmp/dash-template-rendering-0.0.1b3.tar.gz --markdown 20230720/d/dash-template-rendering/0.0.1b2-0.0.1b3/diff.md --exclude *.pyd
+[2023-07-20 13:10:28] INFO root fetch - processPackages [agentaction]: executing diffoscope
+[2023-07-20 13:10:28] INFO root fetch - processPackages [agentaction]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agentaction-0.1.1.tar.gz tmp/agentaction-0.1.2.tar.gz --markdown 20230720/a/agentaction/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-20 13:10:28] INFO root fetch - processPackages [fastlane-bot]: executing diffoscope
+[2023-07-20 13:10:28] INFO root fetch - processPackages [fastlane-bot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastlane_bot-0.0.0.tar.gz tmp/fastlane_bot-1.1.0-py3-none-any.whl.zip --markdown 20230720/f/fastlane-bot/0.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-07-20 13:10:28] INFO root fetch - processPackages [iqrfpy]: Downloading https://files.pythonhosted.org/packages/61/4d/d6db2b0216d6f8be72314ce157fb65dd7999d0129899beaf32ce8889d1db/iqrfpy-0.1.9.tar.gz
+[2023-07-20 13:10:28] INFO root fetch - processPackages [ctaplot]: Downloading https://files.pythonhosted.org/packages/7a/6f/090990c9e5e07509aeeb2227fbb4fa858dc772aa4cc704e008f1166bee18/ctaplot-0.6.3.tar.gz
+[2023-07-20 13:10:28] INFO root fetch - processPackages [aify]: executing diffoscope
+[2023-07-20 13:10:28] INFO root fetch - processPackages [aify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aify-0.1.8-py3-none-any.whl.zip tmp/aify-0.1.9-py3-none-any.whl.zip --markdown 20230720/a/aify/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-20 13:10:28] INFO root fetch - processPackages [iqrfpy]: executing diffoscope
+[2023-07-20 13:10:28] INFO root fetch - processPackages [iqrfpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iqrfpy-0.1.8.tar.gz tmp/iqrfpy-0.1.9.tar.gz --markdown 20230720/i/iqrfpy/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-20 13:10:28] INFO root fetch - processPackages [ctaplot]: executing diffoscope
+[2023-07-20 13:10:28] INFO root fetch - processPackages [ctaplot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ctaplot-0.6.2.tar.gz tmp/ctaplot-0.6.3.tar.gz --markdown 20230720/c/ctaplot/0.6.2-0.6.3/diff.md --exclude *.pyd
+[2023-07-20 13:10:29] INFO root fetch - processPackages [molmap]: Downloading https://files.pythonhosted.org/packages/21/91/c746616d6132ce9c87404460c559c07d6610a9870ea2f7045a60f639d1c3/molmap-1.3.9.8-py3-none-any.whl
+[2023-07-20 13:10:29] INFO root fetch - processPackages [molmap]: executing diffoscope
+[2023-07-20 13:10:29] INFO root fetch - processPackages [molmap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/molmap-1.3.9.7.1.tar.gz tmp/molmap-1.3.9.8-py3-none-any.whl.zip --markdown 20230720/m/molmap/1.3.9.7.1-1.3.9.8/diff.md --exclude *.pyd
+[2023-07-20 13:10:29] INFO root fetch - processPackages [dash-template-rendering]: Remove: archive file [/home/abi/fetcher/tmp/dash-template-rendering-0.0.1b2.tar.gz]
+[2023-07-20 13:10:29] INFO root fetch - processPackages [dash-template-rendering]: Remove: archive file [/home/abi/fetcher/tmp/dash-template-rendering-0.0.1b3.tar.gz]
+[2023-07-20 13:10:29] INFO root fetch - processPackages [dash-template-rendering]: Start processing: crossroads-schematization
+[2023-07-20 13:10:29] INFO root fetch - main [MainThread]: End processing [dash-template-rendering]: success
+[2023-07-20 13:10:29] INFO root fetch - processPackages [CxAdmin]: Remove: archive file [/home/abi/fetcher/tmp/CxAdmin-1.0.8.tar.gz]
+[2023-07-20 13:10:29] INFO root fetch - processPackages [CxAdmin]: Remove: archive file [/home/abi/fetcher/tmp/CxAdmin-1.0.9.tar.gz]
+[2023-07-20 13:10:29] INFO root fetch - processPackages [CxAdmin]: Start processing: tortoise-api
+[2023-07-20 13:10:29] INFO root fetch - main [MainThread]: End processing [CxAdmin]: success
+[2023-07-20 13:10:29] INFO root fetch - processPackages [crossroads-schematization]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-07-20 13:10:29] WARNING root fetch - processPackages [tortoise-api]: Skipping, unable to determine old version
+[2023-07-20 13:10:29] INFO root fetch - processPackages [tortoise-api]: Start processing: msaDocModels
+[2023-07-20 13:10:29] INFO root fetch - main [MainThread]: End processing [tortoise-api] error
+[2023-07-20 13:10:29] INFO root fetch - processPackages [requestsbankrko]: Remove: archive file [/home/abi/fetcher/tmp/requestsbankrko-0.2.4.tar.gz]
+[2023-07-20 13:10:29] INFO root fetch - processPackages [requestsbankrko]: Remove: archive file [/home/abi/fetcher/tmp/requestsbankrko-0.2.5.tar.gz]
+[2023-07-20 13:10:29] INFO root fetch - main [MainThread]: End processing [requestsbankrko]: success
+[2023-07-20 13:10:30] INFO root fetch - processPackages [fastlane-bot]: Remove: archive file [/home/abi/fetcher/tmp/fastlane_bot-0.0.0.tar.gz]
+[2023-07-20 13:10:30] INFO root fetch - processPackages [fastlane-bot]: Remove: archive file [/home/abi/fetcher/tmp/fastlane_bot-1.1.0-py3-none-any.whl.zip]
+[2023-07-20 13:10:30] INFO root fetch - main [MainThread]: End processing [fastlane-bot]: success
+[2023-07-20 13:10:30] INFO root fetch - processPackages [msaDocModels]: New version: [0.0.9] Old Version: [0.0.84]
+[2023-07-20 13:10:30] INFO root fetch - processPackages [crossroads-schematization]: Downloading https://files.pythonhosted.org/packages/b7/d9/4f9aac1d56209ad21cfa80d80d7d348b1e8d3aabd6c22a6eee20e0d58702/crossroads-schematization-0.3.0.tar.gz
+[2023-07-20 13:10:30] INFO root fetch - processPackages [unitxt]: Remove: archive file [/home/abi/fetcher/tmp/unitxt-1.0.7.tar.gz]
+[2023-07-20 13:10:30] INFO root fetch - processPackages [unitxt]: Remove: archive file [/home/abi/fetcher/tmp/unitxt-1.0.9.tar.gz]
+[2023-07-20 13:10:30] INFO root fetch - main [MainThread]: End processing [unitxt]: success
+[2023-07-20 13:10:30] INFO root fetch - processPackages [aify]: Remove: archive file [/home/abi/fetcher/tmp/aify-0.1.8-py3-none-any.whl.zip]
+[2023-07-20 13:10:30] INFO root fetch - processPackages [aify]: Remove: archive file [/home/abi/fetcher/tmp/aify-0.1.9-py3-none-any.whl.zip]
+[2023-07-20 13:10:30] INFO root fetch - main [MainThread]: End processing [aify]: success
+[2023-07-20 13:10:30] INFO root fetch - processPackages [agentaction]: Remove: archive file [/home/abi/fetcher/tmp/agentaction-0.1.1.tar.gz]
+[2023-07-20 13:10:30] INFO root fetch - processPackages [agentaction]: Remove: archive file [/home/abi/fetcher/tmp/agentaction-0.1.2.tar.gz]
+[2023-07-20 13:10:30] INFO root fetch - main [MainThread]: End processing [agentaction]: success
+[2023-07-20 13:10:30] INFO root fetch - processPackages [msaDocModels]: Downloading https://files.pythonhosted.org/packages/79/70/5c2174b18f030bb4c0e6f977f637d27827e7ba1ec32153c040216aec99ae/msaDocModels-0.0.84.tar.gz
+[2023-07-20 13:10:30] INFO root fetch - processPackages [crossroads-schematization]: Downloading https://files.pythonhosted.org/packages/ad/50/7f1450cdfb0410aac17d0912eed736e4c0ea79aed1f6140eb39f292a4a6b/crossroads-schematization-0.3.1.tar.gz
+[2023-07-20 13:10:30] INFO root fetch - processPackages [iqrfpy]: Remove: archive file [/home/abi/fetcher/tmp/iqrfpy-0.1.8.tar.gz]
+[2023-07-20 13:10:30] INFO root fetch - processPackages [iqrfpy]: Remove: archive file [/home/abi/fetcher/tmp/iqrfpy-0.1.9.tar.gz]
+[2023-07-20 13:10:30] INFO root fetch - main [MainThread]: End processing [iqrfpy]: success
+[2023-07-20 13:10:30] INFO root fetch - processPackages [crossroads-schematization]: executing diffoscope
+[2023-07-20 13:10:30] INFO root fetch - processPackages [crossroads-schematization]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crossroads-schematization-0.3.0.tar.gz tmp/crossroads-schematization-0.3.1.tar.gz --markdown 20230720/c/crossroads-schematization/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-07-20 13:10:30] INFO root fetch - processPackages [msaDocModels]: Downloading https://files.pythonhosted.org/packages/2f/da/7c36532a600ac292c1fec4f775200d779a44eb48ddc5249e3c2fc70dbf4d/msaDocModels-0.0.9.tar.gz
+[2023-07-20 13:10:30] INFO root fetch - processPackages [msaDocModels]: executing diffoscope
+[2023-07-20 13:10:30] INFO root fetch - processPackages [msaDocModels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/msaDocModels-0.0.84.tar.gz tmp/msaDocModels-0.0.9.tar.gz --markdown 20230720/m/msaDocModels/0.0.84-0.0.9/diff.md --exclude *.pyd
+[2023-07-20 13:10:31] INFO root fetch - processPackages [molmap]: Remove: archive file [/home/abi/fetcher/tmp/molmap-1.3.9.7.1.tar.gz]
+[2023-07-20 13:10:31] INFO root fetch - processPackages [molmap]: Remove: archive file [/home/abi/fetcher/tmp/molmap-1.3.9.8-py3-none-any.whl.zip]
+[2023-07-20 13:10:31] INFO root fetch - main [MainThread]: End processing [molmap]: success
+[2023-07-20 13:10:31] INFO root fetch - processPackages [ctaplot]: Remove: archive file [/home/abi/fetcher/tmp/ctaplot-0.6.2.tar.gz]
+[2023-07-20 13:10:31] INFO root fetch - processPackages [ctaplot]: Remove: archive file [/home/abi/fetcher/tmp/ctaplot-0.6.3.tar.gz]
+[2023-07-20 13:10:31] INFO root fetch - main [MainThread]: End processing [ctaplot]: success
+[2023-07-20 13:10:31] INFO root fetch - processPackages [crossroads-schematization]: Remove: archive file [/home/abi/fetcher/tmp/crossroads-schematization-0.3.0.tar.gz]
+[2023-07-20 13:10:31] INFO root fetch - processPackages [crossroads-schematization]: Remove: archive file [/home/abi/fetcher/tmp/crossroads-schematization-0.3.1.tar.gz]
+[2023-07-20 13:10:31] INFO root fetch - main [MainThread]: End processing [crossroads-schematization]: success
+[2023-07-20 13:10:31] INFO root fetch - processPackages [msaDocModels]: Remove: archive file [/home/abi/fetcher/tmp/msaDocModels-0.0.84.tar.gz]
+[2023-07-20 13:10:31] INFO root fetch - processPackages [msaDocModels]: Remove: archive file [/home/abi/fetcher/tmp/msaDocModels-0.0.9.tar.gz]
+[2023-07-20 13:10:31] INFO root fetch - main [MainThread]: End processing [msaDocModels]: success
+[2023-07-20 13:10:31] INFO root fetch - main [MainThread]: Store serial: [18965494]
