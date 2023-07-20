@@ -435,3 +435,214 @@
 [2023-07-20 10:14:57] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-39.0.0.tar.gz]
 [2023-07-20 10:14:57] INFO root fetch - main [MainThread]: End processing [cg]: success
 [2023-07-20 10:14:57] INFO root fetch - main [MainThread]: Store serial: [18963139]
+[2023-07-20 10:20:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18963139]
+[2023-07-20 10:20:05] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-07-20 10:20:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: uframe
+[2023-07-20 10:20:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: helptasker-common
+[2023-07-20 10:20:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pysqldbm
+[2023-07-20 10:20:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: eventix
+[2023-07-20 10:20:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: jkUnicode
+[2023-07-20 10:20:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: adafri
+[2023-07-20 10:20:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lkfmt
+[2023-07-20 10:20:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: EnergyCapSdk
+[2023-07-20 10:20:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: icetcore
+[2023-07-20 10:20:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: certora-cli-alpha-master
+[2023-07-20 10:20:06] INFO root fetch - processPackages [uframe]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-20 10:20:06] INFO root fetch - processPackages [lkfmt]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-07-20 10:20:06] INFO root fetch - processPackages [helptasker-common]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-20 10:20:06] INFO root fetch - processPackages [eventix]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-07-20 10:20:06] INFO root fetch - processPackages [jkUnicode]: New version: [2.0.7] Old Version: [2.0.6]
+[2023-07-20 10:20:06] INFO root fetch - processPackages [icetcore]: New version: [6.2.9] Old Version: [6.2.8]
+[2023-07-20 10:20:06] INFO root fetch - processPackages [pysqldbm]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-20 10:20:06] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20230720.8.17.453767] Old Version: [20230720.7.40.444928]
+[2023-07-20 10:20:06] INFO root fetch - processPackages [adafri]: New version: [0.0.43] Old Version: [0.0.42]
+[2023-07-20 10:20:06] INFO root fetch - processPackages [EnergyCapSdk]: New version: [8.2304.4667] Old Version: [8.2304.4665]
+[2023-07-20 10:20:06] INFO root fetch - processPackages [adafri]: Downloading https://files.pythonhosted.org/packages/07/56/27a85500a228af9553b79012fa058198fc7531f300a865026c3bfcfc8fa7/adafri-0.0.42.tar.gz
+[2023-07-20 10:20:06] INFO root fetch - processPackages [uframe]: Downloading https://files.pythonhosted.org/packages/88/30/bf97df0214c8d55f9fcde562b29d89d4347e5b1275e2f2a91be210f7a8df/uframe-0.0.2.tar.gz
+[2023-07-20 10:20:06] INFO root fetch - processPackages [eventix]: Downloading https://files.pythonhosted.org/packages/60/e3/dfbc45d79cf31c56a7ea080e03997833ef4156e2e9c6468fccc7dd9c6825/eventix-0.9.0.tar.gz
+[2023-07-20 10:20:06] INFO root fetch - processPackages [lkfmt]: Downloading https://files.pythonhosted.org/packages/d2/07/262fc0d1cc3e692ad00919e68c31f45107d310aa3c66c933cb731c138b18/lkfmt-0.2.0-py3-none-any.whl
+[2023-07-20 10:20:06] INFO root fetch - processPackages [pysqldbm]: Downloading https://files.pythonhosted.org/packages/6e/57/1c4167b9a95a395cd9d99eb2ae167521a876adc42ebb9689d08ae6325d97/pysqldbm-1.0.1.tar.gz
+[2023-07-20 10:20:06] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/6c/31/ff0d2020cd7e0c2a1dbd152fcc48812d1b9bc46d0b75f09242f7af10e063/certora-cli-alpha-master-20230720.7.40.444928.tar.gz
+[2023-07-20 10:20:06] INFO root fetch - processPackages [jkUnicode]: Downloading https://files.pythonhosted.org/packages/f4/37/7f529d2297a1e4c78c61ee230dbc1111c239fba793e62f39ec1fe0a0e593/jkUnicode-2.0.6.tar.gz
+[2023-07-20 10:20:06] INFO root fetch - processPackages [icetcore]: Downloading https://files.pythonhosted.org/packages/f8/ec/f0b36a16e347cf6c52f5bd9080e2ceceb1ccbff1f5375cc02793f8a11f4c/icetcore-6.2.8-py3-none-any.whl
+[2023-07-20 10:20:06] INFO root fetch - processPackages [EnergyCapSdk]: Downloading https://files.pythonhosted.org/packages/48/48/b85c572b40a0588d4438aa9e75c38c4b59b1d0089812e4ddd22f0181e999/EnergyCapSdk-8.2304.4667.tar.gz
+[2023-07-20 10:20:06] INFO root fetch - processPackages [helptasker-common]: Downloading https://files.pythonhosted.org/packages/2b/f4/08bb24afbeaeaf1071aae96b330fa22ae6b4a9e6433218a943ef2b4d3665/helptasker_common-0.0.2.tar.gz
+[2023-07-20 10:20:06] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 37530781>=10485760
+[2023-07-20 10:20:06] INFO root fetch - processPackages [certora-cli-alpha-master]: Start processing: query-everywhere
+[2023-07-20 10:20:06] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2023-07-20 10:20:06] INFO root fetch - processPackages [query-everywhere]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-20 10:20:06] INFO root fetch - processPackages [adafri]: Downloading https://files.pythonhosted.org/packages/f6/2c/a9a0faa6b82deedc3b20ff8776becb731d8246e471bd3d579b8909849bbe/adafri-0.0.43.tar.gz
+[2023-07-20 10:20:07] INFO root fetch - processPackages [uframe]: Downloading https://files.pythonhosted.org/packages/1d/18/9bd2ba1d80311e091cdeaa3e415cc6d86da7f084a170b39758544f5ad694/uframe-0.0.3.tar.gz
+[2023-07-20 10:20:07] INFO root fetch - processPackages [lkfmt]: Downloading https://files.pythonhosted.org/packages/ac/1b/dfc519beff04a582b458adebc54890ab52eac166411a6d0e7688ef04b806/lkfmt-0.2.1-py3-none-any.whl
+[2023-07-20 10:20:07] INFO root fetch - processPackages [pysqldbm]: Downloading https://files.pythonhosted.org/packages/a7/cd/3fbf95ae1e92170331fb40dfc45045e2b86df59d0a3fcbdef8dc12d998d7/pysqldbm-1.0.2.tar.gz
+[2023-07-20 10:20:07] INFO root fetch - processPackages [query-everywhere]: Downloading https://files.pythonhosted.org/packages/a3/25/d049932001cc25d181916134e3aae1e1d9121d10f4a91e2bb351600ae8aa/query_everywhere-0.1.8.tar.gz
+[2023-07-20 10:20:07] INFO root fetch - processPackages [EnergyCapSdk]: executing diffoscope
+[2023-07-20 10:20:07] INFO root fetch - processPackages [EnergyCapSdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/EnergyCapSdk-8.2304.4665.tar.gz tmp/EnergyCapSdk-8.2304.4667.tar.gz --markdown 20230720/E/EnergyCapSdk/8.2304.4665-8.2304.4667/diff.md --exclude *.pyd
+[2023-07-20 10:20:07] INFO root fetch - processPackages [eventix]: Downloading https://files.pythonhosted.org/packages/e7/4b/3df1b8f7d72250a5b9b7f4a94bb094bd00c5f1092e89e5a6bef1198e957e/eventix-0.9.1.tar.gz
+[2023-07-20 10:20:07] INFO root fetch - processPackages [helptasker-common]: Downloading https://files.pythonhosted.org/packages/f5/b9/cc4e51c056b7ebca2533dbaf1ec61f5358e5ddaf910d568d17a901421e63/helptasker_common-0.0.3.tar.gz
+[2023-07-20 10:20:07] INFO root fetch - processPackages [adafri]: executing diffoscope
+[2023-07-20 10:20:07] INFO root fetch - processPackages [adafri]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adafri-0.0.42.tar.gz tmp/adafri-0.0.43.tar.gz --markdown 20230720/a/adafri/0.0.42-0.0.43/diff.md --exclude *.pyd
+[2023-07-20 10:20:07] INFO root fetch - processPackages [pysqldbm]: executing diffoscope
+[2023-07-20 10:20:07] INFO root fetch - processPackages [pysqldbm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysqldbm-1.0.1.tar.gz tmp/pysqldbm-1.0.2.tar.gz --markdown 20230720/p/pysqldbm/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-20 10:20:07] INFO root fetch - processPackages [icetcore]: Downloading https://files.pythonhosted.org/packages/d5/c1/b1e46c16d3b48d44f3a47abbcbfb5f271ccf897fec2a9a769d9698ea6533/icetcore-6.2.9.tar.gz
+[2023-07-20 10:20:07] INFO root fetch - processPackages [eventix]: executing diffoscope
+[2023-07-20 10:20:07] INFO root fetch - processPackages [eventix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eventix-0.9.0.tar.gz tmp/eventix-0.9.1.tar.gz --markdown 20230720/e/eventix/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-07-20 10:20:07] INFO root fetch - processPackages [uframe]: executing diffoscope
+[2023-07-20 10:20:07] INFO root fetch - processPackages [uframe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uframe-0.0.2.tar.gz tmp/uframe-0.0.3.tar.gz --markdown 20230720/u/uframe/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-20 10:20:07] INFO root fetch - processPackages [lkfmt]: executing diffoscope
+[2023-07-20 10:20:07] INFO root fetch - processPackages [lkfmt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lkfmt-0.2.0-py3-none-any.whl.zip tmp/lkfmt-0.2.1-py3-none-any.whl.zip --markdown 20230720/l/lkfmt/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-07-20 10:20:07] INFO root fetch - processPackages [jkUnicode]: Downloading https://files.pythonhosted.org/packages/c2/45/a841ae8dc3309268cc012f0364276b471c018a5e9e167cdcaafb6a83be45/jkUnicode-2.0.7.tar.gz
+[2023-07-20 10:20:07] INFO root fetch - processPackages [helptasker-common]: executing diffoscope
+[2023-07-20 10:20:07] INFO root fetch - processPackages [helptasker-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/helptasker_common-0.0.2.tar.gz tmp/helptasker_common-0.0.3.tar.gz --markdown 20230720/h/helptasker-common/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-07-20 10:20:07] INFO root fetch - processPackages [icetcore]: executing diffoscope
+[2023-07-20 10:20:07] INFO root fetch - processPackages [icetcore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/icetcore-6.2.8-py3-none-any.whl.zip tmp/icetcore-6.2.9.tar.gz --markdown 20230720/i/icetcore/6.2.8-6.2.9/diff.md --exclude *.pyd
+[2023-07-20 10:20:07] INFO root fetch - processPackages [query-everywhere]: Downloading https://files.pythonhosted.org/packages/a7/a5/22d2761ade844e7169bc3458f47a95a826ce9de5007b63f0795cb513e34a/query_everywhere-0.1.9.tar.gz
+[2023-07-20 10:20:07] INFO root fetch - processPackages [jkUnicode]: executing diffoscope
+[2023-07-20 10:20:07] INFO root fetch - processPackages [jkUnicode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jkUnicode-2.0.6.tar.gz tmp/jkUnicode-2.0.7.tar.gz --markdown 20230720/j/jkUnicode/2.0.6-2.0.7/diff.md --exclude *.pyd
+[2023-07-20 10:20:07] INFO root fetch - processPackages [query-everywhere]: executing diffoscope
+[2023-07-20 10:20:07] INFO root fetch - processPackages [query-everywhere]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/query_everywhere-0.1.8.tar.gz tmp/query_everywhere-0.1.9.tar.gz --markdown 20230720/q/query-everywhere/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-20 10:20:08] INFO root fetch - processPackages [EnergyCapSdk]: Remove: archive file [/home/abi/fetcher/tmp/EnergyCapSdk-8.2304.4665.tar.gz]
+[2023-07-20 10:20:08] INFO root fetch - processPackages [EnergyCapSdk]: Remove: archive file [/home/abi/fetcher/tmp/EnergyCapSdk-8.2304.4667.tar.gz]
+[2023-07-20 10:20:08] INFO root fetch - processPackages [EnergyCapSdk]: Start processing: cubicweb-signedrequest
+[2023-07-20 10:20:08] INFO root fetch - main [MainThread]: End processing [EnergyCapSdk]: success
+[2023-07-20 10:20:08] INFO root fetch - processPackages [cubicweb-signedrequest]: New version: [3.0.0] Old Version: [2.1.0]
+[2023-07-20 10:20:08] INFO root fetch - processPackages [pysqldbm]: Remove: archive file [/home/abi/fetcher/tmp/pysqldbm-1.0.1.tar.gz]
+[2023-07-20 10:20:08] INFO root fetch - processPackages [pysqldbm]: Remove: archive file [/home/abi/fetcher/tmp/pysqldbm-1.0.2.tar.gz]
+[2023-07-20 10:20:08] INFO root fetch - processPackages [pysqldbm]: Start processing: fastapi-serve
+[2023-07-20 10:20:08] INFO root fetch - main [MainThread]: End processing [pysqldbm]: success
+[2023-07-20 10:20:08] INFO root fetch - processPackages [fastapi-serve]: New version: [0.0.5.dev4] Old Version: [0.0.5.dev3]
+[2023-07-20 10:20:08] INFO root fetch - processPackages [cubicweb-signedrequest]: Downloading https://files.pythonhosted.org/packages/eb/d9/8aa43ee1e08c80b6af1bb68d77e10ba1ffb4106c7b6be9a6551dc266f926/cubicweb-signedrequest-2.1.0.tar.gz
+[2023-07-20 10:20:08] INFO root fetch - processPackages [fastapi-serve]: Downloading https://files.pythonhosted.org/packages/72/f1/ae99f13a19f66135c7fcf654bf612eb9694e6195d30aacc857ec4e43e2a4/fastapi-serve-0.0.5.dev3.tar.gz
+[2023-07-20 10:20:08] ERROR root fetch - processPackages [icetcore]: Diffoscope failed: time="2023-07-20T10:20:07+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 138, in feeder
+    raise subprocess.CalledProcessError(
+subprocess.CalledProcessError: Command '['zipinfo {}']' returned non-zero exit status 9.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 217, in compare
+    x = super().compare(other, source)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 416, in _compare_using_details
+    details.extend(self.compare_details(other, source))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 252, in compare_details
+    differences.extend(zipinfo_differences(self, other))
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 127, in zipinfo_differences
+    zipinfo = Difference.from_operation(Zipinfo, file.path, other.path)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 267, in from_operation
+    return Difference.from_operation_exc(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 316, in from_operation_exc
+    difference = Difference.from_feeder(
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 214, in from_feeder
+    unified_diff = diff(feeder1, feeder2)
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 126, in feeder
+    end_nl = feeder(out_file)
+             ^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 81, in feeder
+    out = filter_reader(buf, filter)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 47, in filter_reader
+    buf = additional_filter(buf)
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 57, in filter
+    m = self.re_strip_path.match(line.decode("utf-8"))
+                                 ^^^^^^^^^^^^^^^^^^^^
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf9 in position 73: invalid start byte
+
+[2023-07-20 10:20:08] INFO root fetch - processPackages [icetcore]: Start processing: hyutils-hyutil-hoyun-lab
+[2023-07-20 10:20:08] INFO root fetch - main [MainThread]: End processing [icetcore] error
+[2023-07-20 10:20:08] INFO root fetch - processPackages [adafri]: Remove: archive file [/home/abi/fetcher/tmp/adafri-0.0.42.tar.gz]
+[2023-07-20 10:20:08] INFO root fetch - processPackages [adafri]: Remove: archive file [/home/abi/fetcher/tmp/adafri-0.0.43.tar.gz]
+[2023-07-20 10:20:08] INFO root fetch - processPackages [adafri]: Start processing: odoo12-addon-product-top-category
+[2023-07-20 10:20:08] INFO root fetch - main [MainThread]: End processing [adafri]: success
+[2023-07-20 10:20:08] INFO root fetch - processPackages [eventix]: Remove: archive file [/home/abi/fetcher/tmp/eventix-0.9.0.tar.gz]
+[2023-07-20 10:20:08] INFO root fetch - processPackages [eventix]: Remove: archive file [/home/abi/fetcher/tmp/eventix-0.9.1.tar.gz]
+[2023-07-20 10:20:08] INFO root fetch - processPackages [eventix]: Start processing: maximal
+[2023-07-20 10:20:08] INFO root fetch - main [MainThread]: End processing [eventix]: success
+[2023-07-20 10:20:08] INFO root fetch - processPackages [helptasker-common]: Remove: archive file [/home/abi/fetcher/tmp/helptasker_common-0.0.2.tar.gz]
+[2023-07-20 10:20:08] INFO root fetch - processPackages [helptasker-common]: Remove: archive file [/home/abi/fetcher/tmp/helptasker_common-0.0.3.tar.gz]
+[2023-07-20 10:20:08] INFO root fetch - main [MainThread]: End processing [helptasker-common]: success
+[2023-07-20 10:20:08] INFO root fetch - processPackages [hyutils-hyutil-hoyun-lab]: New version: [0.0.7.5] Old Version: [0.0.7.4]
+[2023-07-20 10:20:09] INFO root fetch - processPackages [uframe]: Remove: archive file [/home/abi/fetcher/tmp/uframe-0.0.2.tar.gz]
+[2023-07-20 10:20:09] INFO root fetch - processPackages [uframe]: Remove: archive file [/home/abi/fetcher/tmp/uframe-0.0.3.tar.gz]
+[2023-07-20 10:20:09] INFO root fetch - main [MainThread]: End processing [uframe]: success
+[2023-07-20 10:20:09] INFO root fetch - processPackages [fastapi-serve]: Downloading https://files.pythonhosted.org/packages/89/01/3a2932bd457359ba2419f1b81a7ec9c174cf24cb4f1deaf91e0e056e21cd/fastapi-serve-0.0.5.dev4.tar.gz
+[2023-07-20 10:20:09] INFO root fetch - processPackages [cubicweb-signedrequest]: Downloading https://files.pythonhosted.org/packages/b0/2c/31f2c4cb326c2d35e82521e395456c7919bac1fc98f6e616fa26fdf7720e/cubicweb-signedrequest-3.0.0.tar.gz
+[2023-07-20 10:20:09] INFO root fetch - processPackages [maximal]: New version: [1.1] Old Version: [1.0]
+[2023-07-20 10:20:09] INFO root fetch - processPackages [lkfmt]: Remove: archive file [/home/abi/fetcher/tmp/lkfmt-0.2.0-py3-none-any.whl.zip]
+[2023-07-20 10:20:09] INFO root fetch - processPackages [lkfmt]: Remove: archive file [/home/abi/fetcher/tmp/lkfmt-0.2.1-py3-none-any.whl.zip]
+[2023-07-20 10:20:09] INFO root fetch - main [MainThread]: End processing [lkfmt]: success
+[2023-07-20 10:20:09] INFO root fetch - processPackages [query-everywhere]: Remove: archive file [/home/abi/fetcher/tmp/query_everywhere-0.1.8.tar.gz]
+[2023-07-20 10:20:09] INFO root fetch - processPackages [query-everywhere]: Remove: archive file [/home/abi/fetcher/tmp/query_everywhere-0.1.9.tar.gz]
+[2023-07-20 10:20:09] INFO root fetch - main [MainThread]: End processing [query-everywhere]: success
+[2023-07-20 10:20:09] INFO root fetch - processPackages [hyutils-hyutil-hoyun-lab]: Downloading https://files.pythonhosted.org/packages/6e/7a/62090eaf4977e8dec887c5dc5898eab6d6595ddbf2c53de999991d6549f3/hyutils-hyutil-hoyun-lab-0.0.7.4.tar.gz
+[2023-07-20 10:20:09] WARNING root fetch - processPackages [odoo12-addon-product-top-category]: Skipping, unable to determine old version
+[2023-07-20 10:20:09] INFO root fetch - main [MainThread]: End processing [odoo12-addon-product-top-category] error
+[2023-07-20 10:20:09] INFO root fetch - processPackages [fastapi-serve]: executing diffoscope
+[2023-07-20 10:20:09] INFO root fetch - processPackages [cubicweb-signedrequest]: executing diffoscope
+[2023-07-20 10:20:09] INFO root fetch - processPackages [fastapi-serve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi-serve-0.0.5.dev3.tar.gz tmp/fastapi-serve-0.0.5.dev4.tar.gz --markdown 20230720/f/fastapi-serve/0.0.5.dev3-0.0.5.dev4/diff.md --exclude *.pyd
+[2023-07-20 10:20:09] INFO root fetch - processPackages [cubicweb-signedrequest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cubicweb-signedrequest-2.1.0.tar.gz tmp/cubicweb-signedrequest-3.0.0.tar.gz --markdown 20230720/c/cubicweb-signedrequest/2.1.0-3.0.0/diff.md --exclude *.pyd
+[2023-07-20 10:20:09] INFO root fetch - processPackages [maximal]: Downloading https://files.pythonhosted.org/packages/94/8d/21eefb0f74d9221816c0710a52d6875166289de67e28efcc08c3e03bb146/maximal-1.0.tar.gz
+[2023-07-20 10:20:09] INFO root fetch - processPackages [hyutils-hyutil-hoyun-lab]: Downloading https://files.pythonhosted.org/packages/ca/2a/52d3e834c9d0010dfbff63c6c478e6c751a637eebe7ce5201b95c0552ddf/hyutils-hyutil-hoyun-lab-0.0.7.5.tar.gz
+[2023-07-20 10:20:09] INFO root fetch - processPackages [jkUnicode]: Remove: archive file [/home/abi/fetcher/tmp/jkUnicode-2.0.6.tar.gz]
+[2023-07-20 10:20:09] INFO root fetch - processPackages [jkUnicode]: Remove: archive file [/home/abi/fetcher/tmp/jkUnicode-2.0.7.tar.gz]
+[2023-07-20 10:20:09] INFO root fetch - main [MainThread]: End processing [jkUnicode]: success
+[2023-07-20 10:20:09] INFO root fetch - processPackages [hyutils-hyutil-hoyun-lab]: executing diffoscope
+[2023-07-20 10:20:09] INFO root fetch - processPackages [hyutils-hyutil-hoyun-lab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyutils-hyutil-hoyun-lab-0.0.7.4.tar.gz tmp/hyutils-hyutil-hoyun-lab-0.0.7.5.tar.gz --markdown 20230720/h/hyutils-hyutil-hoyun-lab/0.0.7.4-0.0.7.5/diff.md --exclude *.pyd
+[2023-07-20 10:20:09] INFO root fetch - processPackages [maximal]: Downloading https://files.pythonhosted.org/packages/7f/14/39252906625363f4d8263e9f8aa2ef3267043c61f2fda03f12c2fc7226ad/maximal-1.1.tar.gz
+[2023-07-20 10:20:09] INFO root fetch - processPackages [maximal]: executing diffoscope
+[2023-07-20 10:20:09] INFO root fetch - processPackages [maximal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maximal-1.0.tar.gz tmp/maximal-1.1.tar.gz --markdown 20230720/m/maximal/1.0-1.1/diff.md --exclude *.pyd
+[2023-07-20 10:20:10] INFO root fetch - processPackages [fastapi-serve]: Remove: archive file [/home/abi/fetcher/tmp/fastapi-serve-0.0.5.dev3.tar.gz]
+[2023-07-20 10:20:10] INFO root fetch - processPackages [fastapi-serve]: Remove: archive file [/home/abi/fetcher/tmp/fastapi-serve-0.0.5.dev4.tar.gz]
+[2023-07-20 10:20:10] INFO root fetch - main [MainThread]: End processing [fastapi-serve]: success
+[2023-07-20 10:20:10] INFO root fetch - processPackages [cubicweb-signedrequest]: Remove: archive file [/home/abi/fetcher/tmp/cubicweb-signedrequest-2.1.0.tar.gz]
+[2023-07-20 10:20:10] INFO root fetch - processPackages [cubicweb-signedrequest]: Remove: archive file [/home/abi/fetcher/tmp/cubicweb-signedrequest-3.0.0.tar.gz]
+[2023-07-20 10:20:10] INFO root fetch - main [MainThread]: End processing [cubicweb-signedrequest]: success
+[2023-07-20 10:20:10] INFO root fetch - processPackages [hyutils-hyutil-hoyun-lab]: Remove: archive file [/home/abi/fetcher/tmp/hyutils-hyutil-hoyun-lab-0.0.7.4.tar.gz]
+[2023-07-20 10:20:10] INFO root fetch - processPackages [hyutils-hyutil-hoyun-lab]: Remove: archive file [/home/abi/fetcher/tmp/hyutils-hyutil-hoyun-lab-0.0.7.5.tar.gz]
+[2023-07-20 10:20:10] INFO root fetch - main [MainThread]: End processing [hyutils-hyutil-hoyun-lab]: success
+[2023-07-20 10:20:10] INFO root fetch - processPackages [maximal]: Remove: archive file [/home/abi/fetcher/tmp/maximal-1.0.tar.gz]
+[2023-07-20 10:20:10] INFO root fetch - processPackages [maximal]: Remove: archive file [/home/abi/fetcher/tmp/maximal-1.1.tar.gz]
+[2023-07-20 10:20:10] INFO root fetch - main [MainThread]: End processing [maximal]: success
+[2023-07-20 10:20:10] INFO root fetch - main [MainThread]: Store serial: [18963186]
