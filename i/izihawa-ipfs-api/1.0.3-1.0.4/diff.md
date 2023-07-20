@@ -1,235 +1,85 @@
 # Comparing `tmp/izihawa-ipfs-api-1.0.3.tar.gz` & `tmp/izihawa-ipfs-api-1.0.4.tar.gz`
 
+## filetype from file(1)
+
 ```diff
-@@ -0,0 +1,229 @@
-+00000000: 1f8b 0808 9018 b964 02ff 697a 6968 6177  .......d..izihaw
-+00000010: 612d 6970 6673 2d61 7069 2d31 2e30 2e34  a-ipfs-api-1.0.4
-+00000020: 2e74 6172 00ed 1d6b 73e2 3832 9ffd 2bb4  .tar...ks.82..+.
-+00000030: 7c08 b045 1cf3 cea4 96bd 6312 32a1 9600  |..E......c.2...
-+00000040: 0564 e6a6 5214 a560 015a 8ccd 5926 099b  .d..R..`.Z..Y&..
-+00000050: ca7f bf6e d906 f3c8 6b92 65f7 3652 a502  ...n....k.e.6R..
-+00000060: d6a3 dfea 6ec9 b2d1 0ff5 c37f 37e9 dd39  ....n.......7..9
-+00000070: a326 73f7 fe94 62f8 e5b1 4fc3 c866 97df  .&s...b...O..f..
-+00000080: b13e 6d64 d2e9 3d72 b7b7 8332 131e 7501  .>md..=r...2..u.
-+00000090: fdde c72c 9922 9978 7cc2 4ae9 c2d1 a7a3  ...,.".x|.J.....
-+000000a0: 7cc6 c81d e985 8291 3572 da9e 2aff fcc2  |.......5r..*...
-+000000b0: ffe0 237a 4b0f f874 200e e894 1fa4 7543  ..#zK..t .....uC
-+000000c0: cf1d befb fc2f e6f3 fe67 c1ff 3432 b995  ...../...g..42..
-+000000d0: 399f cee5 f285 4c3a 97c9 a461 fe67 0bc5  9.....L:...a.g..
-+000000e0: c21e c9ef 72fe 4fa9 18d1 27fa 41b7 c1e0  ....r.O...'.A...
-+000000f0: 9fa7 7ffd efe0 ff33 854d ff9f 55fe 7f27  .......3.M..U..'
-+00000100: fe3f 13f1 ffc5 4f39 a368 e886 72fd 1fdd  .?....O9.h..r...
-+00000110: ffd7 aa27 957a bbf2 7ef3 bf90 cb3d e6ff  ...'.z..~....=..
-+00000120: 21e7 28fa fe1f 1241 e90b d2b9 62da d823  !.(....A....b..#
-+00000130: c62e e7ff 07f5 ff17 d50e a9f1 3eb3 05d3  ............>...
-+00000140: b413 673a 77f9 70e4 9144 3f49 3246 264b  ..g:w.p..D?I2F&K
-+00000150: 02fb d0b4 2673 275c 08ee d884 0b32 622e  ....&s'\.....2b.
-+00000160: bb9e 93a1 4b6d 8f99 2932 7019 23ce 80f4  ....Km..)2p.#...
-+00000170: 47d4 1db2 14f1 1c42 ed39 9932 57c0 00e7  G......B.9.2W...
-+00000180: daa3 dce6 f690 50d2 071c 1af4 f446 0046  ......P......F.F
-+00000190: 3803 ef96 ba0c 3a9b 840a e1f4 3905 78c4  8.....:.....9.x.
-+000001a0: 74fa b309 b33d ea21 be01 b798 2009 6fc4  t....=.!.... .o.
-+000001b0: 48ac 1d8c 8825 2512 9351 4be3 36c1 b6b0  H....%%..QK.6...
-+000001c0: 89dc 726f e4cc 3ce2 32e1 b9bc 8f30 5284  ..ro..<.2....0R.
-+000001d0: db7d 6b66 220d 61b3 c527 3cc0 80c3 25e3  .}kf".a..'<...%.
-+000001e0: 4203 a033 011c 209d 2932 714c 3ec0 4f26  B..3.. .)2qL>.O&
-+000001f0: d99a ceae 2d2e 4629 6272 047d 3df3 a052  ....-.F)br.}=..R
-+00000200: 60a5 9460 0af9 3874 5c22 9865 6900 8103  `..`..8t\".ei...
-+00000210: dd92 d725 75b2 0f92 3e45 817a 8188 04d6  ...%u...>E.z....
-+00000220: dc8e 9cc9 2a27 5c68 8399 6b03 4a26 c798  ....*'\h..k.J&..
-+00000230: 0e88 4c62 fc9d f53d acc1 ee03 c7b2 9c5b  ..Lb...=.......[
-+00000240: 64ad efd8 2647 8ec4 b1a6 75a0 895e 3b37  d...&G....u..^;7
-+00000250: 4cf2 e2eb d576 3c20 d527 0115 305d 6a35  L....v< .'..0]j5
-+00000260: 6882 5960 59e4 9a05 0203 bc20 5e1a 61c7  h.Y`Y...... ^.a.
-+00000270: 45f4 301b 6c8f 538b 4c1d 57e2 5b67 5307  E.0.l.S.L.W.[gS.
-+00000280: fce7 15d2 6e9c 75be 955b 1552 6d93 66ab  ....n.u..[.Rm.f.
-+00000290: f1b5 7a5a 3925 b172 1bae 6329 f2ad da39  ..zZ9%.r..c)...9
-+000002a0: 6f5c 7608 f468 95eb 9def a471 46ca f5ef  o\v..h.....qF...
-+000002b0: e4b7 6afd 3445 2aff 69b6 2aed 3669 b4b4  ..j.4E*.i.*.6i..
-+000002c0: ea45 b356 ad40 5db5 7e52 bb3c add6 bf90  .E.V.@].~R.<....
-+000002d0: cf30 aede 00e3 ad82 0903 d04e 8320 c200  .0.........N. ..
-+000002e0: 54b5 d246 6017 95d6 c939 5c96 3f57 6bd5  T..F`....9\.?Wk.
-+000002f0: cef7 9476 56ed d411 e659 a345 caa4 596e  ...vV....Y.E..Yn
-+00000300: 75aa 2797 b572 8b34 2f5b cd46 bb02 e84f  u.'..r.4/[.F...O
-+00000310: 016c bd5a 3f6b 0196 ca45 a5de d101 2bd4  .l.Z?k...E....+.
-+00000320: 91ca 57b8 20ed f372 ad86 a8b4 f225 50df  ..W. ..r.....%P.
-+00000330: 42fa c849 a3f9 bd55 fd72 de21 e78d da69  B..I...U.r.!...i
-+00000340: 052a 3f57 80b2 f2e7 5ac5 4705 4c9d d4ca  .*?W....Z.G.L...
-+00000350: d58b 1439 2d5f 94bf 54e4 a806 4069 69d8  ...9-_..T...@ii.
-+00000360: cda7 8e7c 3baf 6015 e22b c3df 49a7 daa8  ...|;.`..+..I...
-+00000370: 231b 278d 7aa7 0597 29e0 b2d5 590c fd56  #.'.z...)...Y..V
-+00000380: 6d57 52a4 dcaa b651 2067 adc6 454a 4371  mWR....Q g..EJCq
-+00000390: c288 8604 02e3 ea15 1f0a 8a9a ac68 04ba  .............h..
-+000003a0: e0f5 65bb b200 484e 2be5 1ac0 6ae3 6064  ..e...HN+...j.`d
-+000003b0: 31ec acab 40f9 0f2d 2aff 57f9 7f90 ff17  1...@..-*.W.....
-+000003c0: 3e1d 7dca e68f 54fe aff2 ffc3 8b72 bd7a  >.}...T......r.z
-+000003d0: 5669 7774 6eff e9f9 bf61 6471 ff27 9bcb  Viwtn....adq.'..
-+000003e0: a48d 4231 0df5 e97c 0e5c 82ca ff77 a17f  ..B1...|.\...w..
-+000003f0: 3fcb 835c f9bf 33ee 324c ba85 eedd 796a  ?..\..3.2L....yj
-+00000400: 66a8 f8bf b3f8 9fcd 6dc6 ff8c 8aff 3b89  f.......m.....;.
-+00000410: ff47 5bef ff80 0b3e 5259 c0c7 8dff cddf  .G[....>RY......
-+00000420: be1c c01a b8b1 8bfd 3f23 9759 bfff 932b  ........?#.Y...+
-+00000430: 168a 2afe ef64 ff8f 79d4 a41e 3df8 ca5c  ..*..d..y...=..\
-+00000440: dc06 3a26 193d add5 e984 1d93 75db d016  ..:&.=......u...
-+00000450: 7da4 9168 edd9 6442 ddf9 3129 8bb9 dd27  }..h..dB..1)...'
-+00000460: 7d8b 43f6 4006 8e4b aacd b336 2937 ab5a  }.C.@..K...6)7.Z
-+00000470: 79e6 8d1c f798 3451 baa4 e998 8e25 c673  y.....4Q.....%.s
-+00000480: ade9 3ab8 8175 70d9 aa1d 9373 67c2 a614  ..:..up....sg...
-+00000490: b7d7 469e 3715 c787 8743 ee8d 66d7 7adf  ..F.7....C..f.z.
-+000004a0: 991c 0634 1c2e 6838 b1a8 107c c019 4275  ...4..h8...|..Bu
-+000004b0: 9da1 4b27 13dc faaa 517b 3803 28e4 18ea  ..K'....Q{8.(...
-+000004c0: e780 d5c6 6f59 fd48 6bf9 a98d 38f0 ab8f  ....oY.Hk...8...
-+000004d0: c9af 25ac 0e76 3d0f ceb8 05bc 061b de1f  ..%..v=.........
-+000004e0: cee7 a9f8 afe2 ff46 fccf 173f 7d32 f22a  .......F...?}2.*
-+000004f0: fe7f dcf8 1f54 f7b0 ba07 d587 6f9d ffaf  .....T......o...
-+00000500: 3bff 5104 3b54 e73f 3e8c ff57 fbbf 7f9d  ;.Q.;T.?>..W....
-+00000510: ffcf acf9 ff6c 4eed ff2a ffbf e1ff 7b3d  .....lN..*....{=
-+00000520: 6e73 afd7 d3a7 f377 5eff a573 f974 7ae9  ns.....w^..s.tz.
-+00000530: ff8d cc1e cefe b4da ffdd 8dfe 2778 079f  ............'x..
-+00000540: e012 b08f 2b2b 26b4 a0ea 77e1 d8e1 77cb  ....++&...w...w.
-+00000550: 190e 6191 155e bad4 369d 4978 e5cd a7d8  ..a..^..6.Ix....
-+00000560: 165e 3aae 1c39 709d 09a1 dcb9 a682 052b  .^:..9p........+
-+00000570: c3a0 c367 a839 9135 5b3a e9ec aecf a6fe  ...g.9.5[:......
-+00000580: 9182 a07f 9bb9 37b0 56bb b4e9 0de5 16bd  ......7.V.......
-+00000590: b658 c575 1d77 3118 578d 615f 1f6e 93ce  .X.u.w1.W.a_.n..
-+000005a0: 2d87 9a7e 374d fb77 843b 7df1 5d93 ff09  -..~7M.w.;}.]...
-+000005b0: 2e75 cd13 6e1e 6b04 8a2d 17be c273 e555  .u..n.k..-...s.U
-+000005c0: 1faa 1717 82ff 816b 62a0 5ad3 4c36 c033  .......kb.Z.L6.3
-+000005d0: 1eb0 84ed c17f b969 dec3 6325 bd5b 264f  .......i..c%.[&O
-+000005e0: 9124 2ce1 a548 7091 22e3 a40f 9d0f c898  .$,..Hp.".......
-+000005f0: fc4a 2c66 6387 a012 8b4b b960 e42b b566  .J,fc....K.`.+.f
-+00000600: 3e6f 89d8 984c c032 f11c 86c5 804a 6f44  >o...L.2.....JoD
-+00000610: 6d3c 7a01 4b59 6a85 e73e 00ce d01b e1c9  m<z.KYj..>......
-+00000620: 0b80 a6c7 9221 0e84 1fe0 4e92 9f4a 2fc2  .....!....N..J/.
-+00000630: 17f4 f7b1 8ee8 0d93 1804 8823 4443 4514  ...........#DCE.
-+00000640: 8dcf 3d33 c12d 98a0 1c41 4a50 e525 fcc6  ..=3.-...AJP.%..
-+00000650: db11 aca9 25da f56e 49f2 0b19 2fe9 805a  ....%..nI.../..Z
-+00000660: 7607 437d 83d2 fb23 073b 25e0 72c8 1221  v.C}...#.;%.r..!
-+00000670: d9c9 8524 4b21 5757 4677 0163 1d85 4e4d  ...$K!WWFw.c..NM
-+00000680: 3321 01af 511a 6a0a f05d 01dc 2bde bd8a  3!..Q.j..]..+...
-+00000690: 4f19 737b dc8c 77e5 b605 c7b3 2eeb f07c  O.s{..w........|
-+000006a0: 4c2e f366 aebd 090c 8cc1 b7a3 2a78 ca13  L..f........*x..
-+000006b0: 0ba4 c75c df08 134b 3b0f 248f 5613 fa51  ...\...K;.$.V..Q
-+000006c0: 94cc 2045 d0f0 7b33 d792 6696 2248 0ed8  .. E..{3..f."H..
-+000006d0: cbcf 3f8f 6fa9 3b14 118d 89d9 94b9 89a4  ..?.o.;.........
-+000006e0: be18 1f8e 8cf4 8e8a 64a0 4b58 c0ab ff09  ........d.KX....
-+000006f0: dc5d 7557 3b84 2a07 03e1 c24b 4ce8 3461  .]uW;.*....KL.4a
-+00000700: d1c9 b549 c9dd 31b9 bb8a fbed f16e 2a02  ...I..1......n*.
-+00000710: 2f99 d424 102a 777c 9021 9789 294c 56d6  /..$.*w|.!..)LV.
-+00000720: 9bba 0e48 4b80 31f9 ac85 0d51 b3f3 8518  ...HK.1....Q....
-+00000730: b668 0ba9 0c99 d7a3 96e5 f4e5 712c 1140  .h..........q,.@
-+00000740: 1847 86f2 4184 8a65 f586 6a1e 998f cbb1  .G..A..e..j.....
-+00000750: 4b63 8a0a 0190 95c6 1bbc a125 f9a4 f4a9  Kc.........%....
-+00000760: db43 cf91 921e 6295 b408 e172 1600 d475  .C....b....r...u
-+00000770: 7ec6 4bdd 04ae 14bb d4e0 2b28 350e a1c5  ~.K.......+(5...
-+00000780: bb76 eee2 499d db03 2771 bfc2 5d9c ca03  .v..I...'q..]...
-+00000790: 6cf1 6312 0737 8b87 e8e2 a9d5 0e13 c764  l.c..7.........d
-+000007a0: d80c ae89 0d5d 6aad b723 c5d0 2e09 5f6d  .....]j..#...._m
-+000007b0: 1943 f578 ad0e 661d d4e2 dc0b 795e d2fe  .C.x..f.....y^..
-+000007c0: 908c ea23 c2e0 ba42 7cfd 8234 2087 e05e  ...#...B|..4 ..^
-+000007d0: a039 078c 6ca5 1f96 41ec 10a4 fc2f 987d  .9..l...A..../.}
-+000007e0: 13ea 9500 e53e d259 bac7 ff0f fb33 c1dc  .....>.Y.....3..
-+000007f0: 8308 9ed2 7d3c 15d7 7f77 b89d 88d4 261f  ....}<...w....&.
-+00000800: 62a9 0dc0 4839 74c7 b383 c04f c8cb c34a  b...H9t....O...J
-+00000810: bf25 3bcc 12ec 4f62 e2cd b461 dc72 bd05  .%;...Ob...a.r..
-+00000820: 413a 9acb 0c4c ad44 3286 b1e8 8541 b7b7  A:...L.D2....A..
-+00000830: 41f4 6210 3627 3660 ae0e e202 0f01 92ba  A.b.6'6`........
-+00000840: 63b3 f732 5766 be9f b586 7442 eb0a dd6b  c..2Wf....tB...k
-+00000850: dd7c f140 a735 816d b3e2 c075 ac80 5b77  .|.@.5.m...u..[w
-+00000860: 02c0 46cf 9d84 7e80 9b91 99ff 36e1 00d4  ..F...~.....6...
-+00000870: d70a 07d0 a3c1 7033 b59d 9b6d 266b 8247  ......p3...m&k.G
-+00000880: f4d8 aad1 82c1 0201 e2f0 1e40 450d f409  ...........@E...
-+00000890: 588f 59d2 1b64 e0b2 8973 f37a 0bd9 2284  X.Y..d...s.z..".
-+000008a0: 75fb 58e8 f271 9d3f a56e 4b6c 55f7 76f9  u.X..q.?.nKlU.v.
-+000008b0: 02e3 1bc2 8d38 a727 64cc 07db 2675 cec8  .....8.'d...&u..
-+000008c0: 6d8b 6faf d7cc 06a3 914c e51c 72e6 c7d2  m.o......L..r...
-+000008d0: 941f 8bed 5b98 f949 7aa8 3566 64e6 f948  ....[..Iz.5fd..H
-+000008e0: 4a9f 78b1 9630 c072 48b5 1ed5 d3a6 8e06  J.x..0.rH.......
-+000008f0: 7179 13c9 d747 7c89 c973 e7ab 24fa 5830  qy...G|..s..$.X0
-+00000900: 1ff4 237e 0fb3 4284 a9f7 1d30 4958 a320  ..#~..B....0IX. 
-+00000910: e65e 7f34 b3c7 2291 3cde 70ef 73ce 2c53  .^.4..".<.p.s.,S
-+00000920: 0e5e c617 b9aa d9b2 3c79 9d74 b64b 61f2  .^......<y.t.Ka.
-+00000930: 0e52 08e4 bdb4 28dd 65d4 4494 11ab 294f  .R....(.e.D...)O
-+00000940: 7960 34ab 36b4 6138 cbc4 c917 e108 16d7  y`4.6.a8........
-+00000950: 3d19 13e3 d716 1db3 6c1c a845 f931 b714  =.......l..E.1..
-+00000960: c785 d541 dac8 1de5 8b85 f8fb 7857 c407  ...A........xW..
-+00000970: 4365 585d 771f 1875 7bfe 9a26 4874 6492  CeX]w..u{..&Htd.
-+00000980: f398 130a 3640 7afe f234 fe0a c7bb 992b  ....6@z..4.....+
-+00000990: 80f0 712f e5c6 90e9 02e4 ec25 2466 3f94  ..q/.......%$f?.
-+000009a0: c47d f0e5 611f e92f dd2f a4f6 b00f 5ea9  .}..a.././....^.
-+000009b0: 34a0 90a4 ac71 b39a 49c8 2ce2 4dde 7c6d  4....q..I.,.M.|m
-+000009c0: da5d c5cf 8186 7877 ddf0 d81d aeb6 41bc  .]....xw......A.
-+000009d0: c3f7 8e8b 3e64 5f77 8f67 ba8f 2ae5 87a3  ....>d_w.g..*...
-+000009e0: a454 167a 6e5f 3f80 fcd0 2745 aac9 f7e1  .T.zn_?...'E....
-+000009f0: 4fcc 1629 cb70 c6ac ca2a 1a4c 5272 17a1  O..).p...*.LRr..
-+00000a00: d471 674c 3a51 c7ba 613d 6f3e f5ab de47  .qgL:Q..a=o>...G
-+00000a10: 8296 d8b5 d81e b171 4b2c 65b7 2ff9 be47  .......qK,e./..G
-+00000a20: 6bd3 cdd9 640a 3281 8ae4 c37e 2084 0329  k...d.2....~ ..)
-+00000a30: 8468 7b54 3ac9 87f8 56a3 dea6 84c0 a037  .h{T:...V......7
-+00000a40: 94d0 8305 36a3 9397 ea22 4570 57dc 9979  ....6...."EpW..y
-+00000a50: 72cb 0798 3694 761e d5ce be2f db92 0782  r...6.v..../....
-+00000a60: 5ba3 7b33 8528 e1fa 62b5 5320 ea52 f0b9  [.{3.(..b.S .R..
-+00000a70: cd83 2d83 b2c5 6d16 4664 a9f1 202a af46  ..-...m.Fd.. *.F
-+00000a80: 523f 06fb 7b91 3a46 5b91 c081 c92d e9de  R?..{.:F[....-..
-+00000a90: d224 c25d 183c 5602 b41e 936b c7b1 40a4  .$.].<V....k..@.
-+00000aa0: 67e8 79df 2def ff7b 79b5 fd90 db15 fd86  g.y.-..{y.......
-+00000ab0: 95c9 e7bd def6 0977 4bad b17f f7c0 e42e  .......wK.......
-+00000ac0: eb7b 8e3b 8f4e 3da8 9ab9 82df 8493 ed49  .{.;.N=........I
-+00000ad0: b748 0e7e 0d36 9975 79d2 a80a e917 6645  .H.~.6.uy.....fE
-+00000ae0: 57e1 de6d 77a9 9a05 b65e 6016 ab02 0167  W..mw....^`....g
-+00000af0: bc9c faf8 6f0d df8a 5d2f 80a2 d901 2877  ....o...]/....(w
-+00000b00: 8e76 b781 e12a de90 8fe3 8978 77d5 0603  .v...*.....xw...
-+00000b10: 6b1d e328 39fc 2a5e 83cb 8d7e e1b6 2db4  k..(9.*^...~..-.
-+00000b20: 5dc5 3b80 39de 95ab 7bdc b4c3 0579 94a8  ].;.9...{....y..
-+00000b30: cd91 4b6b 0fc5 9190 9996 0f0e eb70 0b0f  ..Kk.........p..
-+00000b40: b80e 6afc 881e 88c0 af6a c3d7 7837 b901  ..j......j..x7..
-+00000b50: 9a59 4056 629d ae34 09f8 8a56 e693 f2a1  .Y@Vb..4...V....
-+00000b60: c285 5eb7 d3b9 9cc5 98b6 06bb ad03 7d9b  ..^...........}.
-+00000b70: b144 894d 6e87 b6e4 1ca1 bd31 39f6 a7ca  .D.Mn......19...
-+00000b80: c23d c2e8 e51c 7949 9eac eeff bfe1 fc97  .=....yI........
-+00000b90: 7aff cf5f 76ff 7fdb fb7f f29f f205 75fc  z.._v.........u.
-+00000ba0: 5bdd ff5f deff d7d9 7078 8099 cde1 0fce  [.._....px......
-+00000bb0: ff57 9dff ca18 eafd 3fea fc97 f2ff 7fc5  .W......?.......
-+00000bc0: f92f f0ff eafc 97f2 ff8f faff 1f78 32e8  ./...........x2.
-+00000bd0: 75cf ff18 78fe ab58 50e7 bf76 52d4 f33f  u...x..XP..vR..?
-+00000be0: eaf9 1f15 ff55 fc57 f15f c5ff 17c5 ff76  .....U.W._.....v
-+00000bf0: e3b2 7552 69bf e61d 11cf c7ff e25a fccf  ..uRi........Z..
-+00000c00: e40b 3915 ff77 51c2 b817 79e1 8b36 9d4f  ..9..wQ...y..6.O
-+00000c10: fdf8 ac7b cec4 d2d6 5f0d a23d f570 80f6  ...{...._..=.p..
-+00000c20: 7ce6 a8bd c8b8 9ee8 65b2 29b3 4d66 f7e7  |.......e.).Mf..
-+00000c30: 3ddc 2516 cf74 0fe8 7fae 9be7 4c7b 16bb  =.%..t......L{..
-+00000c40: 61d6 877a fd89 8aff 2afe abf8 afe2 ff8b  a..z....*.......
-+00000c50: e3ff 36e7 fbc6 f86f 18e9 b5f8 9f2b e6b2  ..6....o.....+..
-+00000c60: 2afe efa2 a8a9 feb1 8b8a ff2a feab f8af  *..........*....
-+00000c70: e2ff 8be3 7f74 35f5 4eeb 7fa3 b81e ffb3  .....t5.N.......
-+00000c80: 99a2 8aff 3b29 c1f3 d325 dc12 d7f3 daca  ....;)...%......
-+00000c90: b3d8 a592 a167 a032 3486 99c7 2d51 2aa5  .....g.24...-Q*.
-+00000ca0: f5b4 9e55 2e42 c57f 15ff 55fc 57e5 83c5  ...U.B....U.W...
-+00000cb0: ff1f d826 7d36 fe67 36e2 3f1e 0950 f17f  ...&}6.g6.?..P..
-+00000cc0: 77fa 5f28 5a4d 7d15 ff55 fcff c0f1 3f5d  w._(ZM}..U....?]
-+00000cd0: 50f1 5fc5 ffd5 5bc0 ef30 ff9f 8aff c5ec  P._...[..0......
-+00000ce0: f2fe 7fba 80f3 bf50 c8a8 f5ff 4eca d5f5  .......P....N...
-+00000cf0: 8c5b e681 980b 8f4d bae1 bd7e f98e ac98  .[.....M...~....
-+00000d00: 60de 6cea 398e 257e 29e4 7523 d6d5 fcce  `.l.9.%~).u#....
-+00000d10: d7b4 3f66 b609 7d22 5d74 d9d6 9b30 8fc6  ..?f..}"]t...0..
-+00000d20: 34ed 2a30 9fae 86cf a261 cf75 438b 6937  4.*0.....a.uC.i7
-+00000d30: fe69 426c 9446 17d3 a83c 2d28 91df 9370  .iBl.F...<-(...p
-+00000d40: e0ea d1c1 1879 e86a 2613 7d97 cbb7 c461  .....y.j&.}....a
-+00000d50: 8f47 8f1f c616 fc1c 4cfd 2381 d05b 9efe  .G......L.#..[..
-+00000d60: 8bf9 6f35 90e7 0825 3ef9 8057 ec45 070a  ..o5...%>..W.E..
-+00000d70: 6329 0d48 9803 7dbc 2fe5 b4b8 25c6 9900  c).H..}./...%...
-+00000d80: 212d 98d7 67ae 25ba 5a2c 3ce0 1843 f42f  !-..g.%.Z,<..C./
-+00000d90: 38e3 88f2 4399 ea11 e906 f890 f725 3280  8...C........%2.
-+00000da0: 778f 8ffe 4b2a d68f 69c4 ba0f daf3 8e5c  w...K*..i......\
-+00000db0: c57f 15ff 57e3 bf7a ffab 8aff 87ef fa73  ....W..z.......s
-+00000dc0: 50cf efff 2fcf ffa7 f3f8 fbbf c5b4 3aff  P.../.........:.
-+00000dd0: bf9b f2a3 fbff 6ae6 a8f5 ffbb c57f f5fb  ......j.........
-+00000de0: 1f7f 5dfc dffe fb5f 3923 9751 59c0 c78d  ..]...._9#.QY...
-+00000df0: ff72 e5a1 f707 c3f7 9aff 4fc6 ff5c 61ed  .r........O..\a.
-+00000e00: f73f f2f9 b4fa fdaf ddac ffd9 70d8 c31b  .?..........p...
-+00000e10: 3b5d cda3 c39e 5cc4 c372 525e 98d4 c3a5  ;]....\..rR^....
-+00000e20: a5a1 294f a08a 2aaa a8a2 8a2a aaa8 a28a  ..)O..*....*....
-+00000e30: 2aaa a8a2 8a2a aaa8 a28a 2aff 97e5 7f5d  *....*....*....]
-+00000e40: ed3a e600 a000 00                        .:.....
+@@ -1 +1 @@
+-gzip compressed data, was "izihawa-ipfs-api-1.0.3.tar", last modified: Wed Jul 19 20:29:41 2023, max compression
++gzip compressed data, was "izihawa-ipfs-api-1.0.4.tar", last modified: Thu Jul 20 11:20:48 2023, max compression
+```
+
+## Comparing `izihawa-ipfs-api-1.0.3.tar` & `izihawa-ipfs-api-1.0.4.tar`
+
+### file list
+
+```diff
+@@ -1,15 +1,15 @@
+-drwxr-xr-x   0 pasha      (501) staff       (20)        0 2023-07-19 20:29:41.466143 izihawa-ipfs-api-1.0.3/
+--rw-r--r--   0 pasha      (501) staff       (20)     1063 2023-07-19 19:14:30.000000 izihawa-ipfs-api-1.0.3/LICENSE
+--rw-r--r--   0 pasha      (501) staff       (20)       24 2022-12-01 11:19:40.000000 izihawa-ipfs-api-1.0.3/MANIFEST.in
+--rw-r--r--   0 pasha      (501) staff       (20)      272 2023-07-19 20:29:41.465543 izihawa-ipfs-api-1.0.3/PKG-INFO
+-drwxr-xr-x   0 pasha      (501) staff       (20)        0 2023-07-19 20:29:41.458708 izihawa-ipfs-api-1.0.3/izihawa_ipfs_api/
+--rw-r--r--   0 pasha      (501) staff       (20)     6426 2023-07-19 20:27:04.000000 izihawa-ipfs-api-1.0.3/izihawa_ipfs_api/__init__.py
+-drwxr-xr-x   0 pasha      (501) staff       (20)        0 2023-07-19 20:29:41.464726 izihawa-ipfs-api-1.0.3/izihawa_ipfs_api.egg-info/
+--rw-r--r--   0 pasha      (501) staff       (20)      272 2023-07-19 20:29:41.000000 izihawa-ipfs-api-1.0.3/izihawa_ipfs_api.egg-info/PKG-INFO
+--rw-r--r--   0 pasha      (501) staff       (20)      279 2023-07-19 20:29:41.000000 izihawa-ipfs-api-1.0.3/izihawa_ipfs_api.egg-info/SOURCES.txt
+--rw-r--r--   0 pasha      (501) staff       (20)        1 2023-07-19 20:29:41.000000 izihawa-ipfs-api-1.0.3/izihawa_ipfs_api.egg-info/dependency_links.txt
+--rw-r--r--   0 pasha      (501) staff       (20)       57 2023-07-19 20:29:41.000000 izihawa-ipfs-api-1.0.3/izihawa_ipfs_api.egg-info/requires.txt
+--rw-r--r--   0 pasha      (501) staff       (20)       17 2023-07-19 20:29:41.000000 izihawa-ipfs-api-1.0.3/izihawa_ipfs_api.egg-info/top_level.txt
+--rw-r--r--   0 pasha      (501) staff       (20)      479 2023-07-19 20:27:04.000000 izihawa-ipfs-api-1.0.3/pyproject.toml
+--rw-r--r--   0 pasha      (501) staff       (20)       56 2023-07-19 20:13:42.000000 izihawa-ipfs-api-1.0.3/requirements.txt
+--rw-r--r--   0 pasha      (501) staff       (20)       38 2023-07-19 20:29:41.466334 izihawa-ipfs-api-1.0.3/setup.cfg
++drwxr-xr-x   0 pasha      (501) staff       (20)        0 2023-07-20 11:20:48.660304 izihawa-ipfs-api-1.0.4/
++-rw-r--r--   0 pasha      (501) staff       (20)     1063 2023-07-19 19:14:30.000000 izihawa-ipfs-api-1.0.4/LICENSE
++-rw-r--r--   0 pasha      (501) staff       (20)       24 2022-12-01 11:19:40.000000 izihawa-ipfs-api-1.0.4/MANIFEST.in
++-rw-r--r--   0 pasha      (501) staff       (20)      272 2023-07-20 11:20:48.660015 izihawa-ipfs-api-1.0.4/PKG-INFO
++drwxr-xr-x   0 pasha      (501) staff       (20)        0 2023-07-20 11:20:48.657990 izihawa-ipfs-api-1.0.4/izihawa_ipfs_api/
++-rw-r--r--   0 pasha      (501) staff       (20)     6473 2023-07-20 11:20:34.000000 izihawa-ipfs-api-1.0.4/izihawa_ipfs_api/__init__.py
++drwxr-xr-x   0 pasha      (501) staff       (20)        0 2023-07-20 11:20:48.659568 izihawa-ipfs-api-1.0.4/izihawa_ipfs_api.egg-info/
++-rw-r--r--   0 pasha      (501) staff       (20)      272 2023-07-20 11:20:48.000000 izihawa-ipfs-api-1.0.4/izihawa_ipfs_api.egg-info/PKG-INFO
++-rw-r--r--   0 pasha      (501) staff       (20)      279 2023-07-20 11:20:48.000000 izihawa-ipfs-api-1.0.4/izihawa_ipfs_api.egg-info/SOURCES.txt
++-rw-r--r--   0 pasha      (501) staff       (20)        1 2023-07-20 11:20:48.000000 izihawa-ipfs-api-1.0.4/izihawa_ipfs_api.egg-info/dependency_links.txt
++-rw-r--r--   0 pasha      (501) staff       (20)       57 2023-07-20 11:20:48.000000 izihawa-ipfs-api-1.0.4/izihawa_ipfs_api.egg-info/requires.txt
++-rw-r--r--   0 pasha      (501) staff       (20)       17 2023-07-20 11:20:48.000000 izihawa-ipfs-api-1.0.4/izihawa_ipfs_api.egg-info/top_level.txt
++-rw-r--r--   0 pasha      (501) staff       (20)      479 2023-07-20 11:20:16.000000 izihawa-ipfs-api-1.0.4/pyproject.toml
++-rw-r--r--   0 pasha      (501) staff       (20)       56 2023-07-20 11:20:14.000000 izihawa-ipfs-api-1.0.4/requirements.txt
++-rw-r--r--   0 pasha      (501) staff       (20)       38 2023-07-20 11:20:48.660404 izihawa-ipfs-api-1.0.4/setup.cfg
+```
+
+### Comparing `izihawa-ipfs-api-1.0.3/LICENSE` & `izihawa-ipfs-api-1.0.4/LICENSE`
+
+ * *Files identical despite different names*
+
+### Comparing `izihawa-ipfs-api-1.0.3/izihawa_ipfs_api/__init__.py` & `izihawa-ipfs-api-1.0.4/izihawa_ipfs_api/__init__.py`
+
+ * *Files 2% similar despite different names*
+
+```diff
+@@ -151,23 +151,24 @@
+             'cid': cid,
+         })
+         response = await self.post(
+             f'/api/v0/ls?arg={cid}&size={json.dumps(size)}&resolve-type={json.dumps(resolve_type)}'
+         )
+         return await response.json()
+ 
+-    async def ls_stream(self, cid, size=True, resolve_type=True):
++    async def ls_stream(self, cid, size=True, resolve_type=True, timeout: int = 0):
+         logging.getLogger('statbox').info({
+             'action': 'ls',
+             'mode': 'ipfs_api_client',
+             'cid': cid,
+         })
+         response = await self.post(
+             f'/api/v0/ls?arg={cid}&size={json.dumps(size)}&resolve-type={json.dumps(resolve_type)}&stream=true',
+             response_processor=None,
++            timeout=timeout,
+         )
+         async for line in response.content:
+             yield orjson.loads(line)
+ 
+     async def pin(self, cid: str, progress: bool = False):
+         logging.getLogger('statbox').info({
+             'action': 'pin',
 ```
 

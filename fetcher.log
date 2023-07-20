@@ -7812,3 +7812,95 @@ AssertionError: tmp/verify4py-test-0.1.7.tar.gz does not exist
 [2023-07-20 14:14:28] INFO root fetch - processPackages [openmetadata-ingestion]: Remove: archive file [/home/abi/fetcher/tmp/openmetadata-ingestion-1.1.0.4.tar.gz]
 [2023-07-20 14:14:28] INFO root fetch - main [MainThread]: End processing [openmetadata-ingestion]: success
 [2023-07-20 14:14:28] INFO root fetch - main [MainThread]: Store serial: [18966234]
+[2023-07-20 14:19:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18966234]
+[2023-07-20 14:19:37] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-20 14:19:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cm2py
+[2023-07-20 14:19:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: port-ocean
+[2023-07-20 14:19:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ayt-api
+[2023-07-20 14:19:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: remotemanager
+[2023-07-20 14:19:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: py-go-goose
+[2023-07-20 14:19:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: encorelib
+[2023-07-20 14:19:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dash-express-components
+[2023-07-20 14:19:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: openmldb
+[2023-07-20 14:19:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: deepgram-sdk
+[2023-07-20 14:19:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: izihawa-ipfs-api
+[2023-07-20 14:19:37] INFO root fetch - processPackages [openmldb]: New version: [0.8.2] Old Version: [0.8.1]
+[2023-07-20 14:19:37] INFO root fetch - processPackages [remotemanager]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-07-20 14:19:37] INFO root fetch - processPackages [dash-express-components]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-20 14:19:37] INFO root fetch - processPackages [ayt-api]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-07-20 14:19:37] INFO root fetch - processPackages [py-go-goose]: New version: [1.4.2] Old Version: [1.4.1]
+[2023-07-20 14:19:37] INFO root fetch - processPackages [cm2py]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-07-20 14:19:37] WARNING root fetch - processPackages [encorelib]: Skipping, unable to determine old version
+[2023-07-20 14:19:37] INFO root fetch - processPackages [encorelib]: Start processing: dupla
+[2023-07-20 14:19:37] INFO root fetch - main [MainThread]: End processing [encorelib] error
+[2023-07-20 14:19:37] INFO root fetch - processPackages [port-ocean]: New version: [0.1.0rc5] Old Version: [0.1.0rc4]
+[2023-07-20 14:19:37] INFO root fetch - processPackages [izihawa-ipfs-api]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-07-20 14:19:37] INFO root fetch - processPackages [deepgram-sdk]: New version: [2.9.0] Old Version: [2.8.0]
+[2023-07-20 14:19:37] INFO root fetch - processPackages [py-go-goose]: Downloading https://files.pythonhosted.org/packages/81/b7/ebe80998551772f747eb8c2f496dd19f58dafea0c6ba9b7cff28c53f44b8/py_go_goose-1.4.1-cp38-cp38-macosx_13_0_arm64.whl
+[2023-07-20 14:19:37] INFO root fetch - processPackages [dash-express-components]: Downloading https://files.pythonhosted.org/packages/45/7b/61b1675fed3cbd68bd3fe066763b3fc63536dbbc20acaef0ef22906a792b/dash_express_components-0.0.8.tar.gz
+[2023-07-20 14:19:37] INFO root fetch - processPackages [izihawa-ipfs-api]: Downloading https://files.pythonhosted.org/packages/64/f5/60e4914a7a3f28cdb82bd6783e37864c7984a606005638571359379a7a7e/izihawa-ipfs-api-1.0.3.tar.gz
+[2023-07-20 14:19:37] INFO root fetch - processPackages [port-ocean]: Downloading https://files.pythonhosted.org/packages/ed/2c/19b28d339bcbf2937c9abe49c8d0c3d9038995639223d504509ce417e008/port_ocean-0.1.0rc4.tar.gz
+[2023-07-20 14:19:37] INFO root fetch - processPackages [dupla]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-20 14:19:38] INFO root fetch - processPackages [openmldb]: Downloading https://files.pythonhosted.org/packages/49/35/6a7e702ce7b5add988efc17c88905e49113dbf81c07092857b9199c4bb39/openmldb-0.8.1-py3-none-manylinux1_x86_64.whl
+[2023-07-20 14:19:38] INFO root fetch - processPackages [cm2py]: Downloading https://files.pythonhosted.org/packages/65/df/6682da0c2528964396f9c917b477c67bb77413b67ae6402a9b78fb1f19bc/cm2py-0.2.5.tar.gz
+[2023-07-20 14:19:38] INFO root fetch - processPackages [ayt-api]: Downloading https://files.pythonhosted.org/packages/5e/89/d0edf9dda1b23f7fe84491510b316624d3ae8354151250c7496d556c0f0f/ayt-api-0.1.3.tar.gz
+[2023-07-20 14:19:38] INFO root fetch - processPackages [remotemanager]: Downloading https://files.pythonhosted.org/packages/0c/13/732081f28aaf86d0b4ddc35f5f70fcef337bb353d435dcdec2d2f111bcd2/remotemanager-0.9.0.tar.gz
+[2023-07-20 14:19:38] INFO root fetch - processPackages [deepgram-sdk]: Downloading https://files.pythonhosted.org/packages/8d/6f/5081abfcdb424c8c2b034f836a3cb32ba83c437edc0646cbe9bc721b5ab9/deepgram-sdk-2.8.0.tar.gz
+[2023-07-20 14:19:38] WARNING root fetch - processPackages [openmldb]: Skipping package: exceeds size limit 25773442>=10485760
+[2023-07-20 14:19:38] INFO root fetch - main [MainThread]: End processing [openmldb] error
+[2023-07-20 14:19:38] INFO root fetch - processPackages [dupla]: Downloading https://files.pythonhosted.org/packages/a0/63/8ea3ec2d90bbf6ff702848af41777d883055ed676bdf27c2ff29f2911975/dupla-0.0.1.tar.gz
+[2023-07-20 14:19:38] INFO root fetch - processPackages [izihawa-ipfs-api]: Downloading https://files.pythonhosted.org/packages/24/19/faccbe6951e79f16570cd1a6a408d0aeaae36856658db866fa08e253161c/izihawa-ipfs-api-1.0.4.tar.gz
+[2023-07-20 14:19:38] INFO root fetch - processPackages [dash-express-components]: Downloading https://files.pythonhosted.org/packages/19/bd/a24d847266cd35ecf1681d41420a9be0331b22fb730bef223ef869483a72/dash_express_components-0.0.9.tar.gz
+[2023-07-20 14:19:38] INFO root fetch - processPackages [port-ocean]: Downloading https://files.pythonhosted.org/packages/59/8c/6136251eeea251356b72a9668766c8c91380dfcabd27a3949e4b14762f4c/port_ocean-0.1.0rc5.tar.gz
+[2023-07-20 14:19:38] INFO root fetch - processPackages [cm2py]: Downloading https://files.pythonhosted.org/packages/b0/a2/f5094f061728bcb57c240d8f1bd931e06d94c78ff8ae0d87afea03504e59/cm2py-0.2.6.tar.gz
+[2023-07-20 14:19:38] INFO root fetch - processPackages [ayt-api]: Downloading https://files.pythonhosted.org/packages/fd/61/a123284c233c4bc668149a7f222340360b9b654af1b18e23df5f8c01372d/ayt-api-0.1.4.tar.gz
+[2023-07-20 14:19:38] INFO root fetch - processPackages [deepgram-sdk]: Downloading https://files.pythonhosted.org/packages/7f/44/b459c3f040c758454f828ebc1712de711ddb69074a0b249b090dd91f57e0/deepgram-sdk-2.9.0.tar.gz
+[2023-07-20 14:19:38] INFO root fetch - processPackages [remotemanager]: Downloading https://files.pythonhosted.org/packages/14/36/f68b058de4ad53e120d91906fe1cd8ee9808e2e75bdd19e3deaa2fb4c43b/remotemanager-0.9.1.tar.gz
+[2023-07-20 14:19:38] INFO root fetch - processPackages [izihawa-ipfs-api]: executing diffoscope
+[2023-07-20 14:19:38] INFO root fetch - processPackages [izihawa-ipfs-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/izihawa-ipfs-api-1.0.3.tar.gz tmp/izihawa-ipfs-api-1.0.4.tar.gz --markdown 20230720/i/izihawa-ipfs-api/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-07-20 14:19:38] INFO root fetch - processPackages [py-go-goose]: Downloading https://files.pythonhosted.org/packages/8a/39/2b3d0c413d6dc8e44f35a7a6513f4c784592adc276cad002a275a31c8193/py_go_goose-1.4.2-cp38-cp38-macosx_13_0_arm64.whl
+[2023-07-20 14:19:38] INFO root fetch - processPackages [port-ocean]: executing diffoscope
+[2023-07-20 14:19:38] INFO root fetch - processPackages [port-ocean]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/port_ocean-0.1.0rc4.tar.gz tmp/port_ocean-0.1.0rc5.tar.gz --markdown 20230720/p/port-ocean/0.1.0rc4-0.1.0rc5/diff.md --exclude *.pyd
+[2023-07-20 14:19:38] INFO root fetch - processPackages [ayt-api]: executing diffoscope
+[2023-07-20 14:19:38] INFO root fetch - processPackages [ayt-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ayt-api-0.1.3.tar.gz tmp/ayt-api-0.1.4.tar.gz --markdown 20230720/a/ayt-api/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-07-20 14:19:38] INFO root fetch - processPackages [cm2py]: executing diffoscope
+[2023-07-20 14:19:38] INFO root fetch - processPackages [cm2py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cm2py-0.2.5.tar.gz tmp/cm2py-0.2.6.tar.gz --markdown 20230720/c/cm2py/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-07-20 14:19:38] INFO root fetch - processPackages [deepgram-sdk]: executing diffoscope
+[2023-07-20 14:19:38] INFO root fetch - processPackages [deepgram-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepgram-sdk-2.8.0.tar.gz tmp/deepgram-sdk-2.9.0.tar.gz --markdown 20230720/d/deepgram-sdk/2.8.0-2.9.0/diff.md --exclude *.pyd
+[2023-07-20 14:19:38] INFO root fetch - processPackages [dash-express-components]: executing diffoscope
+[2023-07-20 14:19:38] INFO root fetch - processPackages [dash-express-components]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dash_express_components-0.0.8.tar.gz tmp/dash_express_components-0.0.9.tar.gz --markdown 20230720/d/dash-express-components/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-20 14:19:38] INFO root fetch - processPackages [dupla]: Downloading https://files.pythonhosted.org/packages/8d/01/baf056384a6610ead333eda3ac4871eeddc51b800bb8b1be0eefa01be1a1/dupla-0.0.2.tar.gz
+[2023-07-20 14:19:38] INFO root fetch - processPackages [remotemanager]: executing diffoscope
+[2023-07-20 14:19:38] INFO root fetch - processPackages [remotemanager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/remotemanager-0.9.0.tar.gz tmp/remotemanager-0.9.1.tar.gz --markdown 20230720/r/remotemanager/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-07-20 14:19:39] INFO root fetch - processPackages [dupla]: executing diffoscope
+[2023-07-20 14:19:39] INFO root fetch - processPackages [dupla]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dupla-0.0.1.tar.gz tmp/dupla-0.0.2.tar.gz --markdown 20230720/d/dupla/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-20 14:19:39] INFO root fetch - processPackages [izihawa-ipfs-api]: Remove: archive file [/home/abi/fetcher/tmp/izihawa-ipfs-api-1.0.3.tar.gz]
+[2023-07-20 14:19:39] INFO root fetch - processPackages [izihawa-ipfs-api]: Remove: archive file [/home/abi/fetcher/tmp/izihawa-ipfs-api-1.0.4.tar.gz]
+[2023-07-20 14:19:39] INFO root fetch - main [MainThread]: End processing [izihawa-ipfs-api]: success
+[2023-07-20 14:19:40] INFO root fetch - processPackages [py-go-goose]: executing diffoscope
+[2023-07-20 14:19:40] INFO root fetch - processPackages [py-go-goose]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_go_goose-1.4.1-cp38-cp38-macosx_13_0_arm64.whl.zip tmp/py_go_goose-1.4.2-cp38-cp38-macosx_13_0_arm64.whl.zip --markdown 20230720/p/py-go-goose/1.4.1-1.4.2/diff.md --exclude *.pyd
+[2023-07-20 14:19:40] INFO root fetch - processPackages [ayt-api]: Remove: archive file [/home/abi/fetcher/tmp/ayt-api-0.1.3.tar.gz]
+[2023-07-20 14:19:40] INFO root fetch - processPackages [ayt-api]: Remove: archive file [/home/abi/fetcher/tmp/ayt-api-0.1.4.tar.gz]
+[2023-07-20 14:19:40] INFO root fetch - main [MainThread]: End processing [ayt-api]: success
+[2023-07-20 14:19:40] INFO root fetch - processPackages [cm2py]: Remove: archive file [/home/abi/fetcher/tmp/cm2py-0.2.5.tar.gz]
+[2023-07-20 14:19:40] INFO root fetch - processPackages [cm2py]: Remove: archive file [/home/abi/fetcher/tmp/cm2py-0.2.6.tar.gz]
+[2023-07-20 14:19:40] INFO root fetch - main [MainThread]: End processing [cm2py]: success
+[2023-07-20 14:19:40] INFO root fetch - processPackages [deepgram-sdk]: Remove: archive file [/home/abi/fetcher/tmp/deepgram-sdk-2.8.0.tar.gz]
+[2023-07-20 14:19:40] INFO root fetch - processPackages [deepgram-sdk]: Remove: archive file [/home/abi/fetcher/tmp/deepgram-sdk-2.9.0.tar.gz]
+[2023-07-20 14:19:40] INFO root fetch - main [MainThread]: End processing [deepgram-sdk]: success
+[2023-07-20 14:19:40] INFO root fetch - processPackages [port-ocean]: Remove: archive file [/home/abi/fetcher/tmp/port_ocean-0.1.0rc4.tar.gz]
+[2023-07-20 14:19:40] INFO root fetch - processPackages [port-ocean]: Remove: archive file [/home/abi/fetcher/tmp/port_ocean-0.1.0rc5.tar.gz]
+[2023-07-20 14:19:40] INFO root fetch - processPackages [remotemanager]: Remove: archive file [/home/abi/fetcher/tmp/remotemanager-0.9.0.tar.gz]
+[2023-07-20 14:19:40] INFO root fetch - processPackages [remotemanager]: Remove: archive file [/home/abi/fetcher/tmp/remotemanager-0.9.1.tar.gz]
+[2023-07-20 14:19:40] INFO root fetch - main [MainThread]: End processing [port-ocean]: success
+[2023-07-20 14:19:40] INFO root fetch - main [MainThread]: End processing [remotemanager]: success
+[2023-07-20 14:19:40] INFO root fetch - processPackages [dupla]: Remove: archive file [/home/abi/fetcher/tmp/dupla-0.0.1.tar.gz]
+[2023-07-20 14:19:40] INFO root fetch - processPackages [dupla]: Remove: archive file [/home/abi/fetcher/tmp/dupla-0.0.2.tar.gz]
+[2023-07-20 14:19:40] INFO root fetch - main [MainThread]: End processing [dupla]: success
+[2023-07-20 14:19:46] INFO root fetch - processPackages [py-go-goose]: Remove: archive file [/home/abi/fetcher/tmp/py_go_goose-1.4.1-cp38-cp38-macosx_13_0_arm64.whl.zip]
+[2023-07-20 14:19:46] INFO root fetch - processPackages [py-go-goose]: Remove: archive file [/home/abi/fetcher/tmp/py_go_goose-1.4.2-cp38-cp38-macosx_13_0_arm64.whl.zip]
+[2023-07-20 14:19:46] INFO root fetch - main [MainThread]: End processing [py-go-goose]: success
+[2023-07-20 14:20:11] INFO root fetch - processPackages [dash-express-components]: Remove: archive file [/home/abi/fetcher/tmp/dash_express_components-0.0.8.tar.gz]
+[2023-07-20 14:20:11] INFO root fetch - processPackages [dash-express-components]: Remove: archive file [/home/abi/fetcher/tmp/dash_express_components-0.0.9.tar.gz]
+[2023-07-20 14:20:11] INFO root fetch - main [MainThread]: End processing [dash-express-components]: success
+[2023-07-20 14:20:11] INFO root fetch - main [MainThread]: Store serial: [18966266]
