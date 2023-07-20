@@ -5436,3 +5436,78 @@ AssertionError: tmp/verify4py-test-0.1.7.tar.gz does not exist
 [2023-07-20 12:28:24] INFO root fetch - processPackages [data-engineering-pulumi-components]: Remove: archive file [/home/abi/fetcher/tmp/data-engineering-pulumi-components-0.4.1.dev7.tar.gz]
 [2023-07-20 12:28:24] INFO root fetch - main [MainThread]: End processing [data-engineering-pulumi-components]: success
 [2023-07-20 12:28:24] INFO root fetch - main [MainThread]: Store serial: [18965116]
+[2023-07-20 12:33:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18965116]
+[2023-07-20 12:33:33] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-20 12:33:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kodexa
+[2023-07-20 12:33:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: location-local
+[2023-07-20 12:33:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: excel-framework
+[2023-07-20 12:33:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Pandora-ChatGPT
+[2023-07-20 12:33:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: zq-tools
+[2023-07-20 12:33:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mvf
+[2023-07-20 12:33:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: warpzone-sdk
+[2023-07-20 12:33:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: test-setup-test
+[2023-07-20 12:33:33] INFO root fetch - processPackages [zq-tools]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-20 12:33:33] INFO root fetch - processPackages [test-setup-test]: New version: [1.0.8] Old Version: [1.0.6]
+[2023-07-20 12:33:33] INFO root fetch - processPackages [mvf]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-20 12:33:33] INFO root fetch - processPackages [excel-framework]: New version: [0.1.0] Old Version: [0.0.9]
+[2023-07-20 12:33:33] INFO root fetch - processPackages [location-local]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-20 12:33:33] INFO root fetch - processPackages [kodexa]: New version: [6.3.35609835783] Old Version: [6.3.35609458884]
+[2023-07-20 12:33:33] INFO root fetch - processPackages [warpzone-sdk]: New version: [8.3.1] Old Version: [8.3.0]
+[2023-07-20 12:33:33] INFO root fetch - processPackages [Pandora-ChatGPT]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-07-20 12:33:33] INFO root fetch - processPackages [zq-tools]: Downloading https://files.pythonhosted.org/packages/c9/21/8da34521a9a4d8d118bee02c293ce8b7348b8ea7f63db2ac1a3cdab1c2d6/zq-tools-1.0.0.tar.gz
+[2023-07-20 12:33:33] INFO root fetch - processPackages [location-local]: Downloading https://files.pythonhosted.org/packages/6d/cb/4f9cf6ceeea5b094804c76a025ff71045e7480fc2b55dfa9d5790635d306/location-local-0.0.8.tar.gz
+[2023-07-20 12:33:33] INFO root fetch - processPackages [Pandora-ChatGPT]: Downloading https://files.pythonhosted.org/packages/e5/70/b8f9da193cdd66f222791c8e40f63f7b2531436191ad67fb77487b4e6189/Pandora-ChatGPT-1.2.8.tar.gz
+[2023-07-20 12:33:33] INFO root fetch - processPackages [mvf]: Downloading https://files.pythonhosted.org/packages/ec/46/218119b311de91583a4d4e3441fcac6ac1f0ba72cf1304ddd1954dd37bc7/mvf-0.0.8.tar.gz
+[2023-07-20 12:33:33] INFO root fetch - processPackages [test-setup-test]: Downloading https://files.pythonhosted.org/packages/7e/a5/a1842c9ad3f3d8ed18980204a83b62a485fdff3acb1f5ffd8f0392ac8c1e/test_setup_test-1.0.6.tar.gz
+[2023-07-20 12:33:33] INFO root fetch - processPackages [kodexa]: Downloading https://files.pythonhosted.org/packages/16/c3/8df6812a9d4dc85b61f2cd27dfaa84e0448c7661740b0e73f91b510acf30/kodexa-6.3.35609458884.tar.gz
+[2023-07-20 12:33:33] INFO root fetch - processPackages [excel-framework]: Downloading https://files.pythonhosted.org/packages/b5/c7/1844e6f515d2e972cc28735e6f1f5792db1345e5ae774dc3ed7291c8196d/excel_framework-0.0.9.tar.gz
+[2023-07-20 12:33:33] INFO root fetch - processPackages [warpzone-sdk]: Downloading https://files.pythonhosted.org/packages/f2/f9/3d3dee4a9dbbeac28630d2efbc45d927bdd4d78c96083d1ea1f94a8dd657/warpzone_sdk-8.3.0.tar.gz
+[2023-07-20 12:33:33] INFO root fetch - processPackages [zq-tools]: Downloading https://files.pythonhosted.org/packages/de/30/7277f3c30ebb0fb643416c63a74e3e88a27055344ba4677b327bcc2cbf51/zq-tools-1.0.1.tar.gz
+[2023-07-20 12:33:33] INFO root fetch - processPackages [zq-tools]: executing diffoscope
+[2023-07-20 12:33:33] INFO root fetch - processPackages [zq-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zq-tools-1.0.0.tar.gz tmp/zq-tools-1.0.1.tar.gz --markdown 20230720/z/zq-tools/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-20 12:33:34] INFO root fetch - processPackages [location-local]: Downloading https://files.pythonhosted.org/packages/34/2a/fb42e220a0e2df4585b42e32e07079cfefac11c203461bffdb813267c647/location-local-0.0.9.tar.gz
+[2023-07-20 12:33:34] INFO root fetch - processPackages [Pandora-ChatGPT]: Downloading https://files.pythonhosted.org/packages/e9/79/3a9f45ba7e0b1a54633234311b6829beec63cd72f97e27eb32d453be50c0/Pandora-ChatGPT-1.2.9.tar.gz
+[2023-07-20 12:33:34] INFO root fetch - processPackages [test-setup-test]: Downloading https://files.pythonhosted.org/packages/bc/ea/c4d47a90cdb1cf5374be3c13076264c14a7248d180c34427d1cb4fb2bd77/test_setup_test-1.0.8.tar.gz
+[2023-07-20 12:33:34] INFO root fetch - processPackages [location-local]: executing diffoscope
+[2023-07-20 12:33:34] INFO root fetch - processPackages [kodexa]: Downloading https://files.pythonhosted.org/packages/eb/f3/f0c383eef3cf4e882dc1fa754b29c0591afa8ffe3fb14f91f8e2fbaf23da/kodexa-6.3.35609835783.tar.gz
+[2023-07-20 12:33:34] INFO root fetch - processPackages [location-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/location-local-0.0.8.tar.gz tmp/location-local-0.0.9.tar.gz --markdown 20230720/l/location-local/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-20 12:33:34] INFO root fetch - processPackages [mvf]: Downloading https://files.pythonhosted.org/packages/e1/2f/2cf930164b12f93ff6c0e1739054784311abd14c2c9c3c65a63f7524b22a/mvf-0.0.9.tar.gz
+[2023-07-20 12:33:34] INFO root fetch - processPackages [warpzone-sdk]: Downloading https://files.pythonhosted.org/packages/45/b2/7eb016c6444b1276860aa50e9111cc426da653f3da66f46c502b57b9cc29/warpzone_sdk-8.3.1.tar.gz
+[2023-07-20 12:33:34] INFO root fetch - processPackages [test-setup-test]: executing diffoscope
+[2023-07-20 12:33:34] INFO root fetch - processPackages [test-setup-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/test_setup_test-1.0.6.tar.gz tmp/test_setup_test-1.0.8.tar.gz --markdown 20230720/t/test-setup-test/1.0.6-1.0.8/diff.md --exclude *.pyd
+[2023-07-20 12:33:34] INFO root fetch - processPackages [mvf]: executing diffoscope
+[2023-07-20 12:33:34] INFO root fetch - processPackages [mvf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mvf-0.0.8.tar.gz tmp/mvf-0.0.9.tar.gz --markdown 20230720/m/mvf/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-20 12:33:34] INFO root fetch - processPackages [Pandora-ChatGPT]: executing diffoscope
+[2023-07-20 12:33:34] INFO root fetch - processPackages [Pandora-ChatGPT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Pandora-ChatGPT-1.2.8.tar.gz tmp/Pandora-ChatGPT-1.2.9.tar.gz --markdown 20230720/P/Pandora-ChatGPT/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-07-20 12:33:34] INFO root fetch - processPackages [warpzone-sdk]: executing diffoscope
+[2023-07-20 12:33:34] INFO root fetch - processPackages [warpzone-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/warpzone_sdk-8.3.0.tar.gz tmp/warpzone_sdk-8.3.1.tar.gz --markdown 20230720/w/warpzone-sdk/8.3.0-8.3.1/diff.md --exclude *.pyd
+[2023-07-20 12:33:34] INFO root fetch - processPackages [kodexa]: executing diffoscope
+[2023-07-20 12:33:34] INFO root fetch - processPackages [kodexa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kodexa-6.3.35609458884.tar.gz tmp/kodexa-6.3.35609835783.tar.gz --markdown 20230720/k/kodexa/6.3.35609458884-6.3.35609835783/diff.md --exclude *.pyd
+[2023-07-20 12:33:34] INFO root fetch - processPackages [excel-framework]: Downloading https://files.pythonhosted.org/packages/e0/2a/bc18958758768efad2961ef1d7d15ce0259bc04e0c0023e22ac176096f31/excel_framework-0.1.0.tar.gz
+[2023-07-20 12:33:34] INFO root fetch - processPackages [excel-framework]: executing diffoscope
+[2023-07-20 12:33:34] INFO root fetch - processPackages [excel-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/excel_framework-0.0.9.tar.gz tmp/excel_framework-0.1.0.tar.gz --markdown 20230720/e/excel-framework/0.0.9-0.1.0/diff.md --exclude *.pyd
+[2023-07-20 12:33:35] INFO root fetch - processPackages [zq-tools]: Remove: archive file [/home/abi/fetcher/tmp/zq-tools-1.0.0.tar.gz]
+[2023-07-20 12:33:35] INFO root fetch - processPackages [zq-tools]: Remove: archive file [/home/abi/fetcher/tmp/zq-tools-1.0.1.tar.gz]
+[2023-07-20 12:33:35] INFO root fetch - main [MainThread]: End processing [zq-tools]: success
+[2023-07-20 12:33:35] INFO root fetch - processPackages [location-local]: Remove: archive file [/home/abi/fetcher/tmp/location-local-0.0.8.tar.gz]
+[2023-07-20 12:33:35] INFO root fetch - processPackages [location-local]: Remove: archive file [/home/abi/fetcher/tmp/location-local-0.0.9.tar.gz]
+[2023-07-20 12:33:35] INFO root fetch - main [MainThread]: End processing [location-local]: success
+[2023-07-20 12:33:35] INFO root fetch - processPackages [test-setup-test]: Remove: archive file [/home/abi/fetcher/tmp/test_setup_test-1.0.6.tar.gz]
+[2023-07-20 12:33:35] INFO root fetch - processPackages [test-setup-test]: Remove: archive file [/home/abi/fetcher/tmp/test_setup_test-1.0.8.tar.gz]
+[2023-07-20 12:33:35] INFO root fetch - main [MainThread]: End processing [test-setup-test]: success
+[2023-07-20 12:33:35] INFO root fetch - processPackages [mvf]: Remove: archive file [/home/abi/fetcher/tmp/mvf-0.0.8.tar.gz]
+[2023-07-20 12:33:35] INFO root fetch - processPackages [mvf]: Remove: archive file [/home/abi/fetcher/tmp/mvf-0.0.9.tar.gz]
+[2023-07-20 12:33:35] INFO root fetch - main [MainThread]: End processing [mvf]: success
+[2023-07-20 12:33:35] INFO root fetch - processPackages [warpzone-sdk]: Remove: archive file [/home/abi/fetcher/tmp/warpzone_sdk-8.3.0.tar.gz]
+[2023-07-20 12:33:35] INFO root fetch - processPackages [warpzone-sdk]: Remove: archive file [/home/abi/fetcher/tmp/warpzone_sdk-8.3.1.tar.gz]
+[2023-07-20 12:33:35] INFO root fetch - main [MainThread]: End processing [warpzone-sdk]: success
+[2023-07-20 12:33:35] INFO root fetch - processPackages [kodexa]: Remove: archive file [/home/abi/fetcher/tmp/kodexa-6.3.35609458884.tar.gz]
+[2023-07-20 12:33:35] INFO root fetch - processPackages [kodexa]: Remove: archive file [/home/abi/fetcher/tmp/kodexa-6.3.35609835783.tar.gz]
+[2023-07-20 12:33:35] INFO root fetch - main [MainThread]: End processing [kodexa]: success
+[2023-07-20 12:33:35] INFO root fetch - processPackages [excel-framework]: Remove: archive file [/home/abi/fetcher/tmp/excel_framework-0.0.9.tar.gz]
+[2023-07-20 12:33:35] INFO root fetch - processPackages [excel-framework]: Remove: archive file [/home/abi/fetcher/tmp/excel_framework-0.1.0.tar.gz]
+[2023-07-20 12:33:35] INFO root fetch - main [MainThread]: End processing [excel-framework]: success
+[2023-07-20 12:33:35] INFO root fetch - processPackages [Pandora-ChatGPT]: Remove: archive file [/home/abi/fetcher/tmp/Pandora-ChatGPT-1.2.8.tar.gz]
+[2023-07-20 12:33:35] INFO root fetch - processPackages [Pandora-ChatGPT]: Remove: archive file [/home/abi/fetcher/tmp/Pandora-ChatGPT-1.2.9.tar.gz]
+[2023-07-20 12:33:35] INFO root fetch - main [MainThread]: End processing [Pandora-ChatGPT]: success
+[2023-07-20 12:33:35] INFO root fetch - main [MainThread]: Store serial: [18965141]
