@@ -8192,3 +8192,129 @@ AssertionError: tmp/verify4py-test-0.1.7.tar.gz does not exist
 [2023-07-20 14:31:08] INFO root fetch - processPackages [pyinstaller-hooks-contrib]: Remove: archive file [/home/abi/fetcher/tmp/pyinstaller-hooks-contrib-2023.6.tar.gz]
 [2023-07-20 14:31:08] INFO root fetch - main [MainThread]: End processing [pyinstaller-hooks-contrib]: success
 [2023-07-20 14:31:08] INFO root fetch - main [MainThread]: Store serial: [18966378]
+[2023-07-20 14:36:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18966378]
+[2023-07-20 14:36:17] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-07-20 14:36:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pabutools
+[2023-07-20 14:36:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: types-pluggy
+[2023-07-20 14:36:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: auto-corr-feature-selection
+[2023-07-20 14:36:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pybuc
+[2023-07-20 14:36:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: french-cities
+[2023-07-20 14:36:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cg
+[2023-07-20 14:36:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: intezer-sdk
+[2023-07-20 14:36:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: deciphon-snap
+[2023-07-20 14:36:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: splineplot
+[2023-07-20 14:36:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pymodbus
+[2023-07-20 14:36:17] INFO root fetch - processPackages [pabutools]: New version: [1.0.0] Old Version: [0.9]
+[2023-07-20 14:36:17] INFO root fetch - processPackages [pybuc]: New version: [0.9.10] Old Version: [0.8.10]
+[2023-07-20 14:36:17] INFO root fetch - processPackages [french-cities]: New version: [0.1.0a3] Old Version: [0.1.0a2]
+[2023-07-20 14:36:17] INFO root fetch - processPackages [splineplot]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-07-20 14:36:17] INFO root fetch - processPackages [deciphon-snap]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-07-20 14:36:17] INFO root fetch - processPackages [auto-corr-feature-selection]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-20 14:36:17] INFO root fetch - processPackages [pymodbus]: New version: [3.4.0] Old Version: [3.3.2]
+[2023-07-20 14:36:17] INFO root fetch - processPackages [intezer-sdk]: New version: [1.9.4] Old Version: [1.9.3]
+[2023-07-20 14:36:17] INFO root fetch - processPackages [cg]: New version: [40.0.0] Old Version: [39.1.0]
+[2023-07-20 14:36:17] WARNING root fetch - processPackages [types-pluggy]: Skipping, unable to determine old version
+[2023-07-20 14:36:17] INFO root fetch - processPackages [types-pluggy]: Start processing: brain-isotopic-distribution
+[2023-07-20 14:36:17] INFO root fetch - main [MainThread]: End processing [types-pluggy] error
+[2023-07-20 14:36:17] INFO root fetch - processPackages [pabutools]: Downloading https://files.pythonhosted.org/packages/56/b0/7ad6cfaf44d8343afae69329300536ab7b0acc5d1a24cc791137939c0807/pabutools-0.9.tar.gz
+[2023-07-20 14:36:17] INFO root fetch - processPackages [french-cities]: Downloading https://files.pythonhosted.org/packages/56/aa/1449d649f7f748c427dd106fab9e9d50b0c1dc5dd13f8ab1de612a743d42/french_cities-0.1.0a2.tar.gz
+[2023-07-20 14:36:17] INFO root fetch - processPackages [splineplot]: Downloading https://files.pythonhosted.org/packages/2c/34/230db64e460d41115c0b69859bf3ba4a876de366fac3e911841e2d0d85f7/splineplot-0.2.0.tar.gz
+[2023-07-20 14:36:17] INFO root fetch - processPackages [brain-isotopic-distribution]: New version: [1.5.9] Old Version: [1.5.8]
+[2023-07-20 14:36:17] INFO root fetch - processPackages [deciphon-snap]: Downloading https://files.pythonhosted.org/packages/30/24/e38b8f93888bdd850906e8a66c8fb424fec3167936e694a00820f9390a95/deciphon_snap-0.3.2.tar.gz
+[2023-07-20 14:36:17] INFO root fetch - processPackages [intezer-sdk]: Downloading https://files.pythonhosted.org/packages/54/07/b1b49e1d9407879a59c376b8799d8e3abe495ec3380638b2f1fbc61dd234/intezer_sdk-1.9.3-py3-none-any.whl
+[2023-07-20 14:36:17] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/7b/a5/189ef82c0c1f8ad3fc02bad4865598904afabeabf7fe4c451146d659da90/cg-39.1.0.tar.gz
+[2023-07-20 14:36:17] INFO root fetch - processPackages [pybuc]: Downloading https://files.pythonhosted.org/packages/ff/a6/647d6e38a6519bf2966722e1789589d0e50eea7a6376967ab7afbc093f70/pybuc-0.8.10.tar.gz
+[2023-07-20 14:36:17] INFO root fetch - processPackages [auto-corr-feature-selection]: Downloading https://files.pythonhosted.org/packages/b1/a2/019738ba4f1f046f9ad32573eee8e40b583e9b294da1ae55aa12e6109deb/auto_corr_feature_selection-0.1.0.tar.gz
+[2023-07-20 14:36:17] INFO root fetch - processPackages [pymodbus]: Downloading https://files.pythonhosted.org/packages/d2/5c/0464bafa1276a221cf1ea6b9ae41ebeb51cba3cb8bcd5bd5a4654f6e54e6/pymodbus-3.3.2.tar.gz
+[2023-07-20 14:36:17] INFO root fetch - processPackages [brain-isotopic-distribution]: Downloading https://files.pythonhosted.org/packages/76/a9/e9a542976152baebf520747ebb619fc715f25516b7ba2e3545195b7bb4e1/brain-isotopic-distribution-1.5.8.tar.gz
+[2023-07-20 14:36:18] INFO root fetch - processPackages [pabutools]: Downloading https://files.pythonhosted.org/packages/f1/1f/3b9e587ac5e004791fb2860533fd180a07cdcb8ad61a912affe0b9ebeb1c/pabutools-1.0.0.tar.gz
+[2023-07-20 14:36:18] INFO root fetch - processPackages [intezer-sdk]: Downloading https://files.pythonhosted.org/packages/1c/aa/b1c8d382cd3e6aeabd68aef67900e65831956e5715f6a86367c94bf60cd4/intezer_sdk-1.9.4-py3-none-any.whl
+[2023-07-20 14:36:18] INFO root fetch - processPackages [french-cities]: Downloading https://files.pythonhosted.org/packages/f2/b4/ab960a52651f123f73c8f89dddec67044ba89263d612be15fd814b05fba8/french_cities-0.1.0a3.tar.gz
+[2023-07-20 14:36:18] INFO root fetch - processPackages [deciphon-snap]: Downloading https://files.pythonhosted.org/packages/e2/2d/b133766b19d6543ae289d2006b46639470b823871d31cacea674196f6c00/deciphon_snap-0.3.3.tar.gz
+[2023-07-20 14:36:18] INFO root fetch - processPackages [splineplot]: Downloading https://files.pythonhosted.org/packages/87/8e/962885fdd7c7a7050cbb4543518a4e6d762d9b3e70c141e63fb1662846d1/splineplot-0.3.0.tar.gz
+[2023-07-20 14:36:18] INFO root fetch - processPackages [pabutools]: executing diffoscope
+[2023-07-20 14:36:18] INFO root fetch - processPackages [pabutools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pabutools-0.9.tar.gz tmp/pabutools-1.0.0.tar.gz --markdown 20230720/p/pabutools/0.9-1.0.0/diff.md --exclude *.pyd
+[2023-07-20 14:36:18] INFO root fetch - processPackages [auto-corr-feature-selection]: Downloading https://files.pythonhosted.org/packages/10/e0/93886df660f9bd5854edd2ad58358d769b73ba7c92a6163fcca8dc0480ff/auto_corr_feature_selection-0.1.1.tar.gz
+[2023-07-20 14:36:18] INFO root fetch - processPackages [intezer-sdk]: executing diffoscope
+[2023-07-20 14:36:18] INFO root fetch - processPackages [intezer-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/intezer_sdk-1.9.3-py3-none-any.whl.zip tmp/intezer_sdk-1.9.4-py3-none-any.whl.zip --markdown 20230720/i/intezer-sdk/1.9.3-1.9.4/diff.md --exclude *.pyd
+[2023-07-20 14:36:18] INFO root fetch - processPackages [pymodbus]: Downloading https://files.pythonhosted.org/packages/a3/f2/7606bdef0388dde8dc6acd4ff8c26d618e38b68ff452cf103406d6c4e35c/pymodbus-3.4.0.tar.gz
+[2023-07-20 14:36:18] INFO root fetch - processPackages [french-cities]: executing diffoscope
+[2023-07-20 14:36:18] INFO root fetch - processPackages [french-cities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/french_cities-0.1.0a2.tar.gz tmp/french_cities-0.1.0a3.tar.gz --markdown 20230720/f/french-cities/0.1.0a2-0.1.0a3/diff.md --exclude *.pyd
+[2023-07-20 14:36:18] INFO root fetch - processPackages [splineplot]: executing diffoscope
+[2023-07-20 14:36:18] INFO root fetch - processPackages [splineplot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/splineplot-0.2.0.tar.gz tmp/splineplot-0.3.0.tar.gz --markdown 20230720/s/splineplot/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-07-20 14:36:18] INFO root fetch - processPackages [deciphon-snap]: executing diffoscope
+[2023-07-20 14:36:18] INFO root fetch - processPackages [deciphon-snap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deciphon_snap-0.3.2.tar.gz tmp/deciphon_snap-0.3.3.tar.gz --markdown 20230720/d/deciphon-snap/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-07-20 14:36:18] INFO root fetch - processPackages [auto-corr-feature-selection]: executing diffoscope
+[2023-07-20 14:36:18] INFO root fetch - processPackages [auto-corr-feature-selection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auto_corr_feature_selection-0.1.0.tar.gz tmp/auto_corr_feature_selection-0.1.1.tar.gz --markdown 20230720/a/auto-corr-feature-selection/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-20 14:36:18] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/c8/17/02eef759df1a4db9cfd36ee810059b0202da76dde3ca0f7032c8e473ab19/cg-40.0.0.tar.gz
+[2023-07-20 14:36:18] INFO root fetch - processPackages [brain-isotopic-distribution]: Downloading https://files.pythonhosted.org/packages/72/96/e02c029e5291f791fa08858d7e075b1e50c3a689f6bf3f412b31465bdf58/brain-isotopic-distribution-1.5.9.tar.gz
+[2023-07-20 14:36:18] INFO root fetch - processPackages [pymodbus]: executing diffoscope
+[2023-07-20 14:36:18] INFO root fetch - processPackages [pymodbus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymodbus-3.3.2.tar.gz tmp/pymodbus-3.4.0.tar.gz --markdown 20230720/p/pymodbus/3.3.2-3.4.0/diff.md --exclude *.pyd
+[2023-07-20 14:36:18] INFO root fetch - processPackages [cg]: executing diffoscope
+[2023-07-20 14:36:18] INFO root fetch - processPackages [cg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg-39.1.0.tar.gz tmp/cg-40.0.0.tar.gz --markdown 20230720/c/cg/39.1.0-40.0.0/diff.md --exclude *.pyd
+[2023-07-20 14:36:18] INFO root fetch - processPackages [pybuc]: Downloading https://files.pythonhosted.org/packages/36/ff/435775953f489894dbc63700890c9984ecc56774ee84cef35a35acadf8b2/pybuc-0.9.10.tar.gz
+[2023-07-20 14:36:19] INFO root fetch - processPackages [brain-isotopic-distribution]: executing diffoscope
+[2023-07-20 14:36:19] INFO root fetch - processPackages [brain-isotopic-distribution]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/brain-isotopic-distribution-1.5.8.tar.gz tmp/brain-isotopic-distribution-1.5.9.tar.gz --markdown 20230720/b/brain-isotopic-distribution/1.5.8-1.5.9/diff.md --exclude *.pyd
+[2023-07-20 14:36:19] INFO root fetch - processPackages [pabutools]: Remove: archive file [/home/abi/fetcher/tmp/pabutools-0.9.tar.gz]
+[2023-07-20 14:36:19] INFO root fetch - processPackages [pabutools]: Remove: archive file [/home/abi/fetcher/tmp/pabutools-1.0.0.tar.gz]
+[2023-07-20 14:36:19] INFO root fetch - processPackages [pabutools]: Start processing: centesimal-iot
+[2023-07-20 14:36:19] INFO root fetch - main [MainThread]: End processing [pabutools]: success
+[2023-07-20 14:36:19] INFO root fetch - processPackages [pybuc]: executing diffoscope
+[2023-07-20 14:36:19] INFO root fetch - processPackages [pybuc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybuc-0.8.10.tar.gz tmp/pybuc-0.9.10.tar.gz --markdown 20230720/p/pybuc/0.8.10-0.9.10/diff.md --exclude *.pyd
+[2023-07-20 14:36:19] INFO root fetch - processPackages [centesimal-iot]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-20 14:36:19] INFO root fetch - processPackages [intezer-sdk]: Remove: archive file [/home/abi/fetcher/tmp/intezer_sdk-1.9.3-py3-none-any.whl.zip]
+[2023-07-20 14:36:19] INFO root fetch - processPackages [intezer-sdk]: Remove: archive file [/home/abi/fetcher/tmp/intezer_sdk-1.9.4-py3-none-any.whl.zip]
+[2023-07-20 14:36:19] INFO root fetch - processPackages [intezer-sdk]: Start processing: pycelium
+[2023-07-20 14:36:19] INFO root fetch - main [MainThread]: End processing [intezer-sdk]: success
+[2023-07-20 14:36:19] INFO root fetch - processPackages [pycelium]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-20 14:36:19] INFO root fetch - processPackages [splineplot]: Remove: archive file [/home/abi/fetcher/tmp/splineplot-0.2.0.tar.gz]
+[2023-07-20 14:36:19] INFO root fetch - processPackages [splineplot]: Remove: archive file [/home/abi/fetcher/tmp/splineplot-0.3.0.tar.gz]
+[2023-07-20 14:36:19] INFO root fetch - processPackages [splineplot]: Start processing: cmsis-stream
+[2023-07-20 14:36:19] INFO root fetch - main [MainThread]: End processing [splineplot]: success
+[2023-07-20 14:36:19] INFO root fetch - processPackages [centesimal-iot]: Downloading https://files.pythonhosted.org/packages/7e/04/a91ecb2b6de1a286ea80bd55abf6f4975bb540d5ab488da8df7e6da13e4c/centesimal_iot-0.1.8-py2.py3-none-any.whl
+[2023-07-20 14:36:19] INFO root fetch - processPackages [cmsis-stream]: New version: [1.6.1] Old Version: [1.6.0]
+[2023-07-20 14:36:19] INFO root fetch - processPackages [auto-corr-feature-selection]: Remove: archive file [/home/abi/fetcher/tmp/auto_corr_feature_selection-0.1.0.tar.gz]
+[2023-07-20 14:36:19] INFO root fetch - processPackages [auto-corr-feature-selection]: Remove: archive file [/home/abi/fetcher/tmp/auto_corr_feature_selection-0.1.1.tar.gz]
+[2023-07-20 14:36:19] INFO root fetch - processPackages [auto-corr-feature-selection]: Start processing: invoices-from-excel-to-pdf
+[2023-07-20 14:36:19] INFO root fetch - main [MainThread]: End processing [auto-corr-feature-selection]: success
+[2023-07-20 14:36:19] INFO root fetch - processPackages [cmsis-stream]: Downloading https://files.pythonhosted.org/packages/32/ab/9dee6544615ecec56941caff87a4e581654bcb4951c165b79ec5f592c09d/cmsis_stream-1.6.0-py3-none-any.whl
+[2023-07-20 14:36:19] INFO root fetch - processPackages [french-cities]: Remove: archive file [/home/abi/fetcher/tmp/french_cities-0.1.0a2.tar.gz]
+[2023-07-20 14:36:19] INFO root fetch - processPackages [french-cities]: Remove: archive file [/home/abi/fetcher/tmp/french_cities-0.1.0a3.tar.gz]
+[2023-07-20 14:36:19] INFO root fetch - main [MainThread]: End processing [french-cities]: success
+[2023-07-20 14:36:19] ERROR root fetch - processPackages [invoices-from-excel-to-pdf]: Unable to get metadata: No such project 'invoices-from-excel-to-pdf'
+[2023-07-20 14:36:19] INFO root fetch - main [MainThread]: End processing [invoices-from-excel-to-pdf] error
+[2023-07-20 14:36:20] INFO root fetch - processPackages [deciphon-snap]: Remove: archive file [/home/abi/fetcher/tmp/deciphon_snap-0.3.2.tar.gz]
+[2023-07-20 14:36:20] INFO root fetch - processPackages [deciphon-snap]: Remove: archive file [/home/abi/fetcher/tmp/deciphon_snap-0.3.3.tar.gz]
+[2023-07-20 14:36:20] INFO root fetch - main [MainThread]: End processing [deciphon-snap]: success
+[2023-07-20 14:36:20] INFO root fetch - processPackages [pycelium]: Downloading https://files.pythonhosted.org/packages/76/42/fb57aec00045116dfb46b611e5b03b2e9132b5a6bff10d59bc0452b5fa10/pycelium-0.1.8.tar.gz
+[2023-07-20 14:36:20] INFO root fetch - processPackages [centesimal-iot]: Downloading https://files.pythonhosted.org/packages/e4/b4/6f5f209b09ec26c5af7c0d46a270eb2c18486f6982919639276f4178d738/centesimal_iot-0.1.9-py2.py3-none-any.whl
+[2023-07-20 14:36:20] INFO root fetch - processPackages [cmsis-stream]: Downloading https://files.pythonhosted.org/packages/e4/92/2140d33f732f0d422929a77dd64fe2c2c7b21bb2f8b487a4d49f35d1dd87/cmsis_stream-1.6.1-py3-none-any.whl
+[2023-07-20 14:36:20] INFO root fetch - processPackages [centesimal-iot]: executing diffoscope
+[2023-07-20 14:36:20] INFO root fetch - processPackages [centesimal-iot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/centesimal_iot-0.1.8-py2.py3-none-any.whl.zip tmp/centesimal_iot-0.1.9-py2.py3-none-any.whl.zip --markdown 20230720/c/centesimal-iot/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-20 14:36:20] INFO root fetch - processPackages [pycelium]: Downloading https://files.pythonhosted.org/packages/e3/03/43dab6c456e60726fafa26022f656c845d108557c8b4d248f3d03195755b/pycelium-0.1.9.tar.gz
+[2023-07-20 14:36:20] INFO root fetch - processPackages [cmsis-stream]: executing diffoscope
+[2023-07-20 14:36:20] INFO root fetch - processPackages [cmsis-stream]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cmsis_stream-1.6.0-py3-none-any.whl.zip tmp/cmsis_stream-1.6.1-py3-none-any.whl.zip --markdown 20230720/c/cmsis-stream/1.6.0-1.6.1/diff.md --exclude *.pyd
+[2023-07-20 14:36:20] INFO root fetch - processPackages [pycelium]: executing diffoscope
+[2023-07-20 14:36:20] INFO root fetch - processPackages [pycelium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycelium-0.1.8.tar.gz tmp/pycelium-0.1.9.tar.gz --markdown 20230720/p/pycelium/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-20 14:36:20] INFO root fetch - processPackages [pymodbus]: Remove: archive file [/home/abi/fetcher/tmp/pymodbus-3.3.2.tar.gz]
+[2023-07-20 14:36:20] INFO root fetch - processPackages [pymodbus]: Remove: archive file [/home/abi/fetcher/tmp/pymodbus-3.4.0.tar.gz]
+[2023-07-20 14:36:20] INFO root fetch - main [MainThread]: End processing [pymodbus]: success
+[2023-07-20 14:36:21] INFO root fetch - processPackages [brain-isotopic-distribution]: Remove: archive file [/home/abi/fetcher/tmp/brain-isotopic-distribution-1.5.8.tar.gz]
+[2023-07-20 14:36:21] INFO root fetch - processPackages [brain-isotopic-distribution]: Remove: archive file [/home/abi/fetcher/tmp/brain-isotopic-distribution-1.5.9.tar.gz]
+[2023-07-20 14:36:21] INFO root fetch - main [MainThread]: End processing [brain-isotopic-distribution]: success
+[2023-07-20 14:36:21] INFO root fetch - processPackages [pybuc]: Remove: archive file [/home/abi/fetcher/tmp/pybuc-0.8.10.tar.gz]
+[2023-07-20 14:36:21] INFO root fetch - processPackages [pybuc]: Remove: archive file [/home/abi/fetcher/tmp/pybuc-0.9.10.tar.gz]
+[2023-07-20 14:36:21] INFO root fetch - main [MainThread]: End processing [pybuc]: success
+[2023-07-20 14:36:21] INFO root fetch - processPackages [centesimal-iot]: Remove: archive file [/home/abi/fetcher/tmp/centesimal_iot-0.1.8-py2.py3-none-any.whl.zip]
+[2023-07-20 14:36:21] INFO root fetch - processPackages [centesimal-iot]: Remove: archive file [/home/abi/fetcher/tmp/centesimal_iot-0.1.9-py2.py3-none-any.whl.zip]
+[2023-07-20 14:36:21] INFO root fetch - main [MainThread]: End processing [centesimal-iot]: success
+[2023-07-20 14:36:21] INFO root fetch - processPackages [cmsis-stream]: Remove: archive file [/home/abi/fetcher/tmp/cmsis_stream-1.6.0-py3-none-any.whl.zip]
+[2023-07-20 14:36:21] INFO root fetch - processPackages [cmsis-stream]: Remove: archive file [/home/abi/fetcher/tmp/cmsis_stream-1.6.1-py3-none-any.whl.zip]
+[2023-07-20 14:36:21] INFO root fetch - main [MainThread]: End processing [cmsis-stream]: success
+[2023-07-20 14:36:21] INFO root fetch - processPackages [pycelium]: Remove: archive file [/home/abi/fetcher/tmp/pycelium-0.1.8.tar.gz]
+[2023-07-20 14:36:21] INFO root fetch - processPackages [pycelium]: Remove: archive file [/home/abi/fetcher/tmp/pycelium-0.1.9.tar.gz]
+[2023-07-20 14:36:21] INFO root fetch - main [MainThread]: End processing [pycelium]: success
+[2023-07-20 14:36:25] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-39.1.0.tar.gz]
+[2023-07-20 14:36:25] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-40.0.0.tar.gz]
+[2023-07-20 14:36:25] INFO root fetch - main [MainThread]: End processing [cg]: success
+[2023-07-20 14:36:25] INFO root fetch - main [MainThread]: Store serial: [18966430]
