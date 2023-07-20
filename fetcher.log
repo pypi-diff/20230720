@@ -7528,3 +7528,120 @@ AssertionError: tmp/verify4py-test-0.1.7.tar.gz does not exist
 [2023-07-20 14:03:55] INFO root fetch - processPackages [strmprivacy-api-definitions]: Remove: archive file [/home/abi/fetcher/tmp/strmprivacy-api-definitions-3.9.0.tar.gz]
 [2023-07-20 14:03:55] INFO root fetch - main [MainThread]: End processing [strmprivacy-api-definitions]: success
 [2023-07-20 14:03:55] INFO root fetch - main [MainThread]: Store serial: [18966095]
+[2023-07-20 14:08:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18966095]
+[2023-07-20 14:09:04] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-07-20 14:09:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: apphelpers
+[2023-07-20 14:09:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyirf
+[2023-07-20 14:09:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mosaiks
+[2023-07-20 14:09:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dashvector
+[2023-07-20 14:09:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: smartplot
+[2023-07-20 14:09:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pollination-handlers
+[2023-07-20 14:09:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pipd
+[2023-07-20 14:09:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: test-setup-test
+[2023-07-20 14:09:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: vfbLib
+[2023-07-20 14:09:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: xxccode
+[2023-07-20 14:09:04] INFO root fetch - processPackages [vfbLib]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-07-20 14:09:04] INFO root fetch - processPackages [pyirf]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-07-20 14:09:04] WARNING root fetch - processPackages [mosaiks]: Skipping, unable to determine old version
+[2023-07-20 14:09:04] INFO root fetch - processPackages [mosaiks]: Start processing: doccano
+[2023-07-20 14:09:04] INFO root fetch - main [MainThread]: End processing [mosaiks] error
+[2023-07-20 14:09:04] INFO root fetch - processPackages [pipd]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-07-20 14:09:04] INFO root fetch - processPackages [test-setup-test]: New version: [1.0.8] Old Version: [1.0.6]
+[2023-07-20 14:09:04] INFO root fetch - processPackages [pollination-handlers]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-07-20 14:09:04] INFO root fetch - processPackages [xxccode]: New version: [0.2] Old Version: [0.1.1]
+[2023-07-20 14:09:04] INFO root fetch - processPackages [smartplot]: New version: [0.1.0] Old Version: [0.0.0]
+[2023-07-20 14:09:04] INFO root fetch - processPackages [dashvector]: New version: [0.0.15] Old Version: [0.0.14]
+[2023-07-20 14:09:04] INFO root fetch - processPackages [apphelpers]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-07-20 14:09:04] INFO root fetch - processPackages [xxccode]: Downloading https://files.pythonhosted.org/packages/10/e7/cfec2c3df9935ab83b571198637d3c65a3344a365fcfa5951c654109689c/xxccode-0.1.1.tar.gz
+[2023-07-20 14:09:04] INFO root fetch - processPackages [smartplot]: Downloading https://files.pythonhosted.org/packages/ea/84/6ee9dcbf22abcbe75e072786d96eaebac52c6626ae7d983f4c2c2d0a0c84/smartplot-0.0.0.tar.gz
+[2023-07-20 14:09:04] INFO root fetch - processPackages [doccano]: New version: [1.8.4] Old Version: [1.8.3]
+[2023-07-20 14:09:04] INFO root fetch - processPackages [test-setup-test]: Downloading https://files.pythonhosted.org/packages/7e/a5/a1842c9ad3f3d8ed18980204a83b62a485fdff3acb1f5ffd8f0392ac8c1e/test_setup_test-1.0.6.tar.gz
+[2023-07-20 14:09:04] INFO root fetch - processPackages [vfbLib]: Downloading https://files.pythonhosted.org/packages/12/cf/f5b85a88b7eb517fe29c5ca81dd2e839346785b69a0f840f8c25575ad851/vfbLib-0.5.0.tar.gz
+[2023-07-20 14:09:05] INFO root fetch - processPackages [apphelpers]: Downloading https://files.pythonhosted.org/packages/47/49/4c7dd32dd7e28a68392fc063d9e8ffc309e9621abe6ff53a6b3465cb601c/apphelpers-0.9.1.tar.gz
+[2023-07-20 14:09:05] INFO root fetch - processPackages [pyirf]: Downloading https://files.pythonhosted.org/packages/c9/03/5ddf7e95887ad858fdcdd53691831629d5ccac87b5a3b3d8bde04dc2b7ba/pyirf-0.8.1.tar.gz
+[2023-07-20 14:09:05] INFO root fetch - processPackages [pollination-handlers]: Downloading https://files.pythonhosted.org/packages/b0/30/7fd212f727559989be8873d84326ded705046edfc50787929987619b9997/pollination-handlers-0.9.5.tar.gz
+[2023-07-20 14:09:05] INFO root fetch - processPackages [pipd]: Downloading https://files.pythonhosted.org/packages/95/83/d50499e44789e8ec3c66dfb6f34a013d7d6b607e611966566724097d7dd3/pipd-0.2.0.tar.gz
+[2023-07-20 14:09:05] INFO root fetch - processPackages [dashvector]: Downloading https://files.pythonhosted.org/packages/2f/76/24db1c48ae7e840a8b8bf93c34e7fb8662c8b421050f50f5be21c5a85005/dashvector-0.0.14-py3-none-any.whl
+[2023-07-20 14:09:05] INFO root fetch - processPackages [doccano]: Downloading https://files.pythonhosted.org/packages/8c/6b/893bd1163663829af1b41908137c609dff14de0a4d53d98fdeba0f2941f3/doccano-1.8.3.tar.gz
+[2023-07-20 14:09:05] INFO root fetch - processPackages [xxccode]: Downloading https://files.pythonhosted.org/packages/fb/d2/83a90203fcf464e54f113a05a630a55aeb5263e16b9a37b38b678a0e27f0/xxccode-0.2.tar.gz
+[2023-07-20 14:09:05] INFO root fetch - processPackages [smartplot]: Downloading https://files.pythonhosted.org/packages/5e/1c/6764235d019efb51437944286f3fe0d917b9469aecd0f11d62f6700e23f8/smartplot-0.1.0.tar.gz
+[2023-07-20 14:09:05] INFO root fetch - processPackages [test-setup-test]: Downloading https://files.pythonhosted.org/packages/bc/ea/c4d47a90cdb1cf5374be3c13076264c14a7248d180c34427d1cb4fb2bd77/test_setup_test-1.0.8.tar.gz
+[2023-07-20 14:09:05] WARNING root fetch - processPackages [doccano]: Skipping package: exceeds size limit 24380325>=10485760
+[2023-07-20 14:09:05] INFO root fetch - processPackages [doccano]: Start processing: nwebclient
+[2023-07-20 14:09:05] INFO root fetch - main [MainThread]: End processing [doccano] error
+[2023-07-20 14:09:05] INFO root fetch - processPackages [vfbLib]: Downloading https://files.pythonhosted.org/packages/23/79/51b07e1d7e25b6d9b8fe5f9adf46fd7112a9460680f57782972e4e2829e0/vfbLib-0.5.1.tar.gz
+[2023-07-20 14:09:05] INFO root fetch - processPackages [xxccode]: executing diffoscope
+[2023-07-20 14:09:05] INFO root fetch - processPackages [xxccode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xxccode-0.1.1.tar.gz tmp/xxccode-0.2.tar.gz --markdown 20230720/x/xxccode/0.1.1-0.2/diff.md --exclude *.pyd
+[2023-07-20 14:09:05] INFO root fetch - processPackages [smartplot]: executing diffoscope
+[2023-07-20 14:09:05] INFO root fetch - processPackages [smartplot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smartplot-0.0.0.tar.gz tmp/smartplot-0.1.0.tar.gz --markdown 20230720/s/smartplot/0.0.0-0.1.0/diff.md --exclude *.pyd
+[2023-07-20 14:09:05] INFO root fetch - processPackages [pollination-handlers]: Downloading https://files.pythonhosted.org/packages/0a/39/15eb30fcf22cf3fbf9c4285e467bbc8eee80ae13ba25af01401542c7fdea/pollination-handlers-0.9.6.tar.gz
+[2023-07-20 14:09:05] INFO root fetch - processPackages [nwebclient]: New version: [1.0.94] Old Version: [1.0.47]
+[2023-07-20 14:09:05] INFO root fetch - processPackages [pipd]: Downloading https://files.pythonhosted.org/packages/cc/99/7708d4e5ef679cbcbefd45080eb8622fb33ac2e3bb21ec184a60a41de830/pipd-0.2.1.tar.gz
+[2023-07-20 14:09:05] INFO root fetch - processPackages [test-setup-test]: executing diffoscope
+[2023-07-20 14:09:05] INFO root fetch - processPackages [test-setup-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/test_setup_test-1.0.6.tar.gz tmp/test_setup_test-1.0.8.tar.gz --markdown 20230720/t/test-setup-test/1.0.6-1.0.8/diff.md --exclude *.pyd
+[2023-07-20 14:09:05] INFO root fetch - processPackages [apphelpers]: Downloading https://files.pythonhosted.org/packages/82/45/8767a258a28a0bb1f9a3c1a785ca493a563dd385fcbd8d6d30891ae64e4a/apphelpers-0.9.2.tar.gz
+[2023-07-20 14:09:05] INFO root fetch - processPackages [dashvector]: Downloading https://files.pythonhosted.org/packages/51/fe/9c65396c8c9f35742272894d1a7b03752dc33e16f6b51c3f502a5a09c180/dashvector-0.0.15-py3-none-any.whl
+[2023-07-20 14:09:05] INFO root fetch - processPackages [vfbLib]: executing diffoscope
+[2023-07-20 14:09:05] INFO root fetch - processPackages [vfbLib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vfbLib-0.5.0.tar.gz tmp/vfbLib-0.5.1.tar.gz --markdown 20230720/v/vfbLib/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-07-20 14:09:05] INFO root fetch - processPackages [pyirf]: Downloading https://files.pythonhosted.org/packages/7c/0e/a40a590c697c2bf03e64101640a7023195ac9235ade3185e4c297796267f/pyirf-0.9.0.tar.gz
+[2023-07-20 14:09:05] INFO root fetch - processPackages [pipd]: executing diffoscope
+[2023-07-20 14:09:05] INFO root fetch - processPackages [pipd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipd-0.2.0.tar.gz tmp/pipd-0.2.1.tar.gz --markdown 20230720/p/pipd/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-07-20 14:09:05] INFO root fetch - processPackages [pollination-handlers]: executing diffoscope
+[2023-07-20 14:09:05] INFO root fetch - processPackages [pollination-handlers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pollination-handlers-0.9.5.tar.gz tmp/pollination-handlers-0.9.6.tar.gz --markdown 20230720/p/pollination-handlers/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-07-20 14:09:05] INFO root fetch - processPackages [dashvector]: executing diffoscope
+[2023-07-20 14:09:05] INFO root fetch - processPackages [dashvector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dashvector-0.0.14-py3-none-any.whl.zip tmp/dashvector-0.0.15-py3-none-any.whl.zip --markdown 20230720/d/dashvector/0.0.14-0.0.15/diff.md --exclude *.pyd
+[2023-07-20 14:09:05] INFO root fetch - processPackages [pyirf]: executing diffoscope
+[2023-07-20 14:09:05] INFO root fetch - processPackages [pyirf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyirf-0.8.1.tar.gz tmp/pyirf-0.9.0.tar.gz --markdown 20230720/p/pyirf/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-07-20 14:09:05] INFO root fetch - processPackages [apphelpers]: executing diffoscope
+[2023-07-20 14:09:05] INFO root fetch - processPackages [apphelpers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apphelpers-0.9.1.tar.gz tmp/apphelpers-0.9.2.tar.gz --markdown 20230720/a/apphelpers/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-07-20 14:09:06] INFO root fetch - processPackages [nwebclient]: executing diffoscope
+[2023-07-20 14:09:06] INFO root fetch - processPackages [nwebclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nwebclient-1.0.47.tar.gz tmp/nwebclient-1.0.94.tar.gz --markdown 20230720/n/nwebclient/1.0.47-1.0.94/diff.md --exclude *.pyd
+[2023-07-20 14:09:07] INFO root fetch - processPackages [test-setup-test]: Remove: archive file [/home/abi/fetcher/tmp/test_setup_test-1.0.6.tar.gz]
+[2023-07-20 14:09:07] INFO root fetch - processPackages [test-setup-test]: Remove: archive file [/home/abi/fetcher/tmp/test_setup_test-1.0.8.tar.gz]
+[2023-07-20 14:09:07] INFO root fetch - processPackages [test-setup-test]: Start processing: PVNet
+[2023-07-20 14:09:07] INFO root fetch - main [MainThread]: End processing [test-setup-test]: success
+[2023-07-20 14:09:07] INFO root fetch - processPackages [xxccode]: Remove: archive file [/home/abi/fetcher/tmp/xxccode-0.1.1.tar.gz]
+[2023-07-20 14:09:07] INFO root fetch - processPackages [xxccode]: Remove: archive file [/home/abi/fetcher/tmp/xxccode-0.2.tar.gz]
+[2023-07-20 14:09:07] INFO root fetch - processPackages [xxccode]: Start processing: phc-ingestion
+[2023-07-20 14:09:07] INFO root fetch - main [MainThread]: End processing [xxccode]: success
+[2023-07-20 14:09:07] INFO root fetch - processPackages [smartplot]: Remove: archive file [/home/abi/fetcher/tmp/smartplot-0.0.0.tar.gz]
+[2023-07-20 14:09:07] INFO root fetch - processPackages [smartplot]: Remove: archive file [/home/abi/fetcher/tmp/smartplot-0.1.0.tar.gz]
+[2023-07-20 14:09:07] INFO root fetch - main [MainThread]: End processing [smartplot]: success
+[2023-07-20 14:09:07] INFO root fetch - processPackages [PVNet]: New version: [2.1.9] Old Version: [2.1.8]
+[2023-07-20 14:09:07] INFO root fetch - processPackages [phc-ingestion]: New version: [0.3.43] Old Version: [0.3.42]
+[2023-07-20 14:09:07] INFO root fetch - processPackages [PVNet]: Downloading https://files.pythonhosted.org/packages/69/09/f33a8c25bbe470ac36ab6fcbc17dfb91e283c4b4920a26dc0e72553f686c/PVNet-2.1.8.tar.gz
+[2023-07-20 14:09:07] INFO root fetch - processPackages [pipd]: Remove: archive file [/home/abi/fetcher/tmp/pipd-0.2.0.tar.gz]
+[2023-07-20 14:09:07] INFO root fetch - processPackages [pipd]: Remove: archive file [/home/abi/fetcher/tmp/pipd-0.2.1.tar.gz]
+[2023-07-20 14:09:07] INFO root fetch - main [MainThread]: End processing [pipd]: success
+[2023-07-20 14:09:07] INFO root fetch - processPackages [phc-ingestion]: Downloading https://files.pythonhosted.org/packages/80/7f/144ef8c95a96536c2b795c8603509a93e8f2877981c3a1bd6c1a218566c5/phc-ingestion-0.3.42.tar.gz
+[2023-07-20 14:09:07] INFO root fetch - processPackages [nwebclient]: Remove: archive file [/home/abi/fetcher/tmp/nwebclient-1.0.47.tar.gz]
+[2023-07-20 14:09:07] INFO root fetch - processPackages [nwebclient]: Remove: archive file [/home/abi/fetcher/tmp/nwebclient-1.0.94.tar.gz]
+[2023-07-20 14:09:07] INFO root fetch - main [MainThread]: End processing [nwebclient]: success
+[2023-07-20 14:09:07] INFO root fetch - processPackages [vfbLib]: Remove: archive file [/home/abi/fetcher/tmp/vfbLib-0.5.0.tar.gz]
+[2023-07-20 14:09:07] INFO root fetch - processPackages [vfbLib]: Remove: archive file [/home/abi/fetcher/tmp/vfbLib-0.5.1.tar.gz]
+[2023-07-20 14:09:07] INFO root fetch - main [MainThread]: End processing [vfbLib]: success
+[2023-07-20 14:09:07] INFO root fetch - processPackages [dashvector]: Remove: archive file [/home/abi/fetcher/tmp/dashvector-0.0.14-py3-none-any.whl.zip]
+[2023-07-20 14:09:07] INFO root fetch - processPackages [dashvector]: Remove: archive file [/home/abi/fetcher/tmp/dashvector-0.0.15-py3-none-any.whl.zip]
+[2023-07-20 14:09:07] INFO root fetch - main [MainThread]: End processing [dashvector]: success
+[2023-07-20 14:09:07] INFO root fetch - processPackages [pollination-handlers]: Remove: archive file [/home/abi/fetcher/tmp/pollination-handlers-0.9.5.tar.gz]
+[2023-07-20 14:09:07] INFO root fetch - processPackages [pollination-handlers]: Remove: archive file [/home/abi/fetcher/tmp/pollination-handlers-0.9.6.tar.gz]
+[2023-07-20 14:09:07] INFO root fetch - main [MainThread]: End processing [pollination-handlers]: success
+[2023-07-20 14:09:07] INFO root fetch - processPackages [apphelpers]: Remove: archive file [/home/abi/fetcher/tmp/apphelpers-0.9.1.tar.gz]
+[2023-07-20 14:09:07] INFO root fetch - processPackages [apphelpers]: Remove: archive file [/home/abi/fetcher/tmp/apphelpers-0.9.2.tar.gz]
+[2023-07-20 14:09:07] INFO root fetch - main [MainThread]: End processing [apphelpers]: success
+[2023-07-20 14:09:07] INFO root fetch - processPackages [PVNet]: Downloading https://files.pythonhosted.org/packages/d4/ba/ef96e95b87f300f958926cc7928727e003991e00e4da411929847acb2b71/PVNet-2.1.9.tar.gz
+[2023-07-20 14:09:07] INFO root fetch - processPackages [pyirf]: Remove: archive file [/home/abi/fetcher/tmp/pyirf-0.8.1.tar.gz]
+[2023-07-20 14:09:07] INFO root fetch - processPackages [pyirf]: Remove: archive file [/home/abi/fetcher/tmp/pyirf-0.9.0.tar.gz]
+[2023-07-20 14:09:07] INFO root fetch - main [MainThread]: End processing [pyirf]: success
+[2023-07-20 14:09:07] INFO root fetch - processPackages [PVNet]: executing diffoscope
+[2023-07-20 14:09:07] INFO root fetch - processPackages [PVNet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PVNet-2.1.8.tar.gz tmp/PVNet-2.1.9.tar.gz --markdown 20230720/P/PVNet/2.1.8-2.1.9/diff.md --exclude *.pyd
+[2023-07-20 14:09:07] INFO root fetch - processPackages [phc-ingestion]: Downloading https://files.pythonhosted.org/packages/0c/a4/9982f73f3ea4bbdd6247fdc7ad3363a6b9cea5a488921e903502d700d5f8/phc-ingestion-0.3.43.tar.gz
+[2023-07-20 14:09:08] INFO root fetch - processPackages [phc-ingestion]: executing diffoscope
+[2023-07-20 14:09:08] INFO root fetch - processPackages [phc-ingestion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phc-ingestion-0.3.42.tar.gz tmp/phc-ingestion-0.3.43.tar.gz --markdown 20230720/p/phc-ingestion/0.3.42-0.3.43/diff.md --exclude *.pyd
+[2023-07-20 14:09:08] INFO root fetch - processPackages [PVNet]: Remove: archive file [/home/abi/fetcher/tmp/PVNet-2.1.8.tar.gz]
+[2023-07-20 14:09:08] INFO root fetch - processPackages [PVNet]: Remove: archive file [/home/abi/fetcher/tmp/PVNet-2.1.9.tar.gz]
+[2023-07-20 14:09:08] INFO root fetch - main [MainThread]: End processing [PVNet]: success
+[2023-07-20 14:09:09] INFO root fetch - processPackages [phc-ingestion]: Remove: archive file [/home/abi/fetcher/tmp/phc-ingestion-0.3.42.tar.gz]
+[2023-07-20 14:09:09] INFO root fetch - processPackages [phc-ingestion]: Remove: archive file [/home/abi/fetcher/tmp/phc-ingestion-0.3.43.tar.gz]
+[2023-07-20 14:09:09] INFO root fetch - main [MainThread]: End processing [phc-ingestion]: success
+[2023-07-20 14:09:09] INFO root fetch - main [MainThread]: Store serial: [18966141]
