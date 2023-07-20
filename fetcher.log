@@ -15790,3 +15790,110 @@ AssertionError: tmp/verify4py-test-0.1.7.tar.gz does not exist
 [2023-07-20 18:18:44] INFO root fetch - processPackages [oak9-tython]: Remove: archive file [/home/abi/fetcher/tmp/oak9_tython-1.0.9.tar.gz]
 [2023-07-20 18:18:44] INFO root fetch - main [MainThread]: End processing [oak9-tython]: success
 [2023-07-20 18:18:44] INFO root fetch - main [MainThread]: Store serial: [18969530]
+[2023-07-20 18:23:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18969530]
+[2023-07-20 18:23:53] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-20 18:23:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mail-satvadev
+[2023-07-20 18:23:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: calitp-data-infra
+[2023-07-20 18:23:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: emark
+[2023-07-20 18:23:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: neon-gui
+[2023-07-20 18:23:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: python-eigen-ingenuity
+[2023-07-20 18:23:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: flashcam
+[2023-07-20 18:23:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: credsweeper
+[2023-07-20 18:23:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: simplekivy
+[2023-07-20 18:23:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: salure-helpers-profit
+[2023-07-20 18:23:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ldimbenchmark
+[2023-07-20 18:23:53] INFO root fetch - processPackages [emark]: New version: [1.1rc2] Old Version: [1.1rc1]
+[2023-07-20 18:23:53] INFO root fetch - processPackages [python-eigen-ingenuity]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-07-20 18:23:53] INFO root fetch - processPackages [neon-gui]: New version: [1.1.3a9] Old Version: [1.1.3a8]
+[2023-07-20 18:23:53] INFO root fetch - processPackages [simplekivy]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-20 18:23:53] INFO root fetch - processPackages [salure-helpers-profit]: New version: [1.3.6] Old Version: [1.3.5]
+[2023-07-20 18:23:53] INFO root fetch - processPackages [mail-satvadev]: New version: [1.0.7] Old Version: [1.0.6a0]
+[2023-07-20 18:23:53] INFO root fetch - processPackages [calitp-data-infra]: New version: [2023.7.20] Old Version: [2023.6.20]
+[2023-07-20 18:23:53] INFO root fetch - processPackages [credsweeper]: New version: [1.5.3] Old Version: [1.5.2]
+[2023-07-20 18:23:53] INFO root fetch - processPackages [flashcam]: New version: [1.5.9] Old Version: [1.5.8]
+[2023-07-20 18:23:53] INFO root fetch - processPackages [ldimbenchmark]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-20 18:23:53] INFO root fetch - processPackages [emark]: Downloading https://files.pythonhosted.org/packages/2f/6e/42782014442300192c3afdb6f1e93e63fd418bc66adcd3f75f94ec45dc6c/emark-1.1rc1.tar.gz
+[2023-07-20 18:23:53] INFO root fetch - processPackages [python-eigen-ingenuity]: Downloading https://files.pythonhosted.org/packages/84/89/3c53ff4be542cfc10c07f16d0437fc0c21897173bc9a04852f315de7f14e/python-eigen-ingenuity-0.4.8.tar.gz
+[2023-07-20 18:23:53] INFO root fetch - processPackages [mail-satvadev]: Downloading https://files.pythonhosted.org/packages/f6/89/8f713de947f7c354fc8a4e58c479c8bb30619464ab22587802fe5bdf8cc1/mail_satvadev-1.0.6a0.tar.gz
+[2023-07-20 18:23:53] INFO root fetch - processPackages [ldimbenchmark]: Downloading https://files.pythonhosted.org/packages/40/ad/2f487f62a551984a54e0a4dc768ff692f22874530d9695d257d30b206c65/ldimbenchmark-0.2.8.tar.gz
+[2023-07-20 18:23:54] INFO root fetch - processPackages [salure-helpers-profit]: Downloading https://files.pythonhosted.org/packages/44/8c/879a90fb3f6a021ef6e99ca998a94afa7a38b40979c736e8bf9cf7c4d204/salure_helpers_profit-1.3.5.tar.gz
+[2023-07-20 18:23:54] INFO root fetch - processPackages [simplekivy]: Downloading https://files.pythonhosted.org/packages/2f/d4/6ae55d1d810dac2da1233ad7dce0a879023c51b55b52f38c4dee64ec7101/simplekivy-0.0.4.tar.gz
+[2023-07-20 18:23:54] INFO root fetch - processPackages [calitp-data-infra]: Downloading https://files.pythonhosted.org/packages/24/77/eb771e929027ce1b5205693047fb67ddf969557e27c0c5b74a4736df832d/calitp_data_infra-2023.6.20.tar.gz
+[2023-07-20 18:23:54] INFO root fetch - processPackages [flashcam]: Downloading https://files.pythonhosted.org/packages/9d/29/cb839f6d94c07e77bc1f17083816f3fd9b3db9e145f606acb0bacc68a3fa/flashcam-1.5.8.tar.gz
+[2023-07-20 18:23:54] INFO root fetch - processPackages [credsweeper]: Downloading https://files.pythonhosted.org/packages/e7/a6/1190c8342a9d6580df52aa1ac5eedd7535afcb272acd0607abb3df33f2e8/credsweeper-1.5.2.tar.gz
+[2023-07-20 18:23:54] INFO root fetch - processPackages [python-eigen-ingenuity]: Downloading https://files.pythonhosted.org/packages/d5/46/2554bcc92a089d39a46cc8a215282b82286d0694e45c99808348a0478326/python-eigen-ingenuity-0.4.9.tar.gz
+[2023-07-20 18:23:54] INFO root fetch - processPackages [neon-gui]: executing diffoscope
+[2023-07-20 18:23:54] INFO root fetch - processPackages [neon-gui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neon_gui-1.1.3a8.tar.gz tmp/neon_gui-1.1.3a9.tar.gz --markdown 20230720/n/neon-gui/1.1.3a8-1.1.3a9/diff.md --exclude *.pyd
+[2023-07-20 18:23:54] INFO root fetch - processPackages [ldimbenchmark]: Downloading https://files.pythonhosted.org/packages/1c/0e/d7ff04c87c7e7e468653d7cd9cbde0ab35f48885a880c1e2229267475009/ldimbenchmark-0.2.9.tar.gz
+[2023-07-20 18:23:54] INFO root fetch - processPackages [emark]: Downloading https://files.pythonhosted.org/packages/09/a6/097789bc9e61bdfe46a0102ab5cff8342c7b32f20392b77be7b88f523ab7/emark-1.1rc2.tar.gz
+[2023-07-20 18:23:54] INFO root fetch - processPackages [mail-satvadev]: Downloading https://files.pythonhosted.org/packages/3c/3d/e9a85b7351fd38c4b01cb9628200dbcae0773cfd062619f4ea3c1ab7296b/mail_satvadev-1.0.7.tar.gz
+[2023-07-20 18:23:54] INFO root fetch - processPackages [python-eigen-ingenuity]: executing diffoscope
+[2023-07-20 18:23:54] INFO root fetch - processPackages [python-eigen-ingenuity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-eigen-ingenuity-0.4.8.tar.gz tmp/python-eigen-ingenuity-0.4.9.tar.gz --markdown 20230720/p/python-eigen-ingenuity/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-07-20 18:23:54] INFO root fetch - processPackages [salure-helpers-profit]: Downloading https://files.pythonhosted.org/packages/6b/67/e4cce5292f00649b1f8dc89116c247d4f4ef4e223cd2cefc5130bcf5ca41/salure_helpers_profit-1.3.6.tar.gz
+[2023-07-20 18:23:54] INFO root fetch - processPackages [flashcam]: Downloading https://files.pythonhosted.org/packages/96/42/2781f734b5b961970dcbae981e95975f89ee4e4297f0299dbb182cc3a6d2/flashcam-1.5.9.tar.gz
+[2023-07-20 18:23:54] INFO root fetch - processPackages [simplekivy]: Downloading https://files.pythonhosted.org/packages/6b/ee/e13eb3ce005010a9deee15116dc7246c5cb18c26fdff72d3b2ca316c0a3b/simplekivy-0.0.5.tar.gz
+[2023-07-20 18:23:54] INFO root fetch - processPackages [calitp-data-infra]: Downloading https://files.pythonhosted.org/packages/1d/48/0d3111ce2c9127061505c343900c59cd92d623731121e1d85fc1334784c6/calitp_data_infra-2023.7.20.tar.gz
+[2023-07-20 18:23:54] INFO root fetch - processPackages [ldimbenchmark]: executing diffoscope
+[2023-07-20 18:23:54] INFO root fetch - processPackages [ldimbenchmark]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ldimbenchmark-0.2.8.tar.gz tmp/ldimbenchmark-0.2.9.tar.gz --markdown 20230720/l/ldimbenchmark/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-20 18:23:54] INFO root fetch - processPackages [credsweeper]: Downloading https://files.pythonhosted.org/packages/dd/8e/1322a47d10959bcc2c4d9aa0cca38821672dc91cdc65a7b1ae3ed5465962/credsweeper-1.5.3.tar.gz
+[2023-07-20 18:23:54] INFO root fetch - processPackages [mail-satvadev]: executing diffoscope
+[2023-07-20 18:23:54] INFO root fetch - processPackages [mail-satvadev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mail_satvadev-1.0.6a0.tar.gz tmp/mail_satvadev-1.0.7.tar.gz --markdown 20230720/m/mail-satvadev/1.0.6a0-1.0.7/diff.md --exclude *.pyd
+[2023-07-20 18:23:54] INFO root fetch - processPackages [emark]: executing diffoscope
+[2023-07-20 18:23:54] INFO root fetch - processPackages [emark]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/emark-1.1rc1.tar.gz tmp/emark-1.1rc2.tar.gz --markdown 20230720/e/emark/1.1rc1-1.1rc2/diff.md --exclude *.pyd
+[2023-07-20 18:23:54] INFO root fetch - processPackages [salure-helpers-profit]: executing diffoscope
+[2023-07-20 18:23:54] INFO root fetch - processPackages [salure-helpers-profit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/salure_helpers_profit-1.3.5.tar.gz tmp/salure_helpers_profit-1.3.6.tar.gz --markdown 20230720/s/salure-helpers-profit/1.3.5-1.3.6/diff.md --exclude *.pyd
+[2023-07-20 18:23:54] INFO root fetch - processPackages [simplekivy]: executing diffoscope
+[2023-07-20 18:23:54] INFO root fetch - processPackages [simplekivy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simplekivy-0.0.4.tar.gz tmp/simplekivy-0.0.5.tar.gz --markdown 20230720/s/simplekivy/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-20 18:23:54] INFO root fetch - processPackages [calitp-data-infra]: executing diffoscope
+[2023-07-20 18:23:54] INFO root fetch - processPackages [calitp-data-infra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/calitp_data_infra-2023.6.20.tar.gz tmp/calitp_data_infra-2023.7.20.tar.gz --markdown 20230720/c/calitp-data-infra/2023.6.20-2023.7.20/diff.md --exclude *.pyd
+[2023-07-20 18:23:54] INFO root fetch - processPackages [flashcam]: executing diffoscope
+[2023-07-20 18:23:54] INFO root fetch - processPackages [flashcam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flashcam-1.5.8.tar.gz tmp/flashcam-1.5.9.tar.gz --markdown 20230720/f/flashcam/1.5.8-1.5.9/diff.md --exclude *.pyd
+[2023-07-20 18:23:54] INFO root fetch - processPackages [credsweeper]: executing diffoscope
+[2023-07-20 18:23:54] INFO root fetch - processPackages [credsweeper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/credsweeper-1.5.2.tar.gz tmp/credsweeper-1.5.3.tar.gz --markdown 20230720/c/credsweeper/1.5.2-1.5.3/diff.md --exclude *.pyd
+[2023-07-20 18:23:55] INFO root fetch - processPackages [neon-gui]: Remove: archive file [/home/abi/fetcher/tmp/neon_gui-1.1.3a8.tar.gz]
+[2023-07-20 18:23:55] INFO root fetch - processPackages [neon-gui]: Remove: archive file [/home/abi/fetcher/tmp/neon_gui-1.1.3a9.tar.gz]
+[2023-07-20 18:23:55] INFO root fetch - processPackages [neon-gui]: Start processing: langchain
+[2023-07-20 18:23:55] INFO root fetch - main [MainThread]: End processing [neon-gui]: success
+[2023-07-20 18:23:55] INFO root fetch - processPackages [langchain]: New version: [0.0.99rc0] Old Version: [0.0.99]
+[2023-07-20 18:23:56] INFO root fetch - processPackages [python-eigen-ingenuity]: Remove: archive file [/home/abi/fetcher/tmp/python-eigen-ingenuity-0.4.8.tar.gz]
+[2023-07-20 18:23:56] INFO root fetch - processPackages [python-eigen-ingenuity]: Remove: archive file [/home/abi/fetcher/tmp/python-eigen-ingenuity-0.4.9.tar.gz]
+[2023-07-20 18:23:56] INFO root fetch - processPackages [python-eigen-ingenuity]: Start processing: cadence-detector
+[2023-07-20 18:23:56] INFO root fetch - main [MainThread]: End processing [python-eigen-ingenuity]: success
+[2023-07-20 18:23:56] INFO root fetch - processPackages [langchain]: executing diffoscope
+[2023-07-20 18:23:56] INFO root fetch - processPackages [langchain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain-0.0.99.tar.gz tmp/langchain-0.0.99rc0.tar.gz --markdown 20230720/l/langchain/0.0.99-0.0.99rc0/diff.md --exclude *.pyd
+[2023-07-20 18:23:56] INFO root fetch - processPackages [cadence-detector]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-07-20 18:23:56] INFO root fetch - processPackages [ldimbenchmark]: Remove: archive file [/home/abi/fetcher/tmp/ldimbenchmark-0.2.8.tar.gz]
+[2023-07-20 18:23:56] INFO root fetch - processPackages [ldimbenchmark]: Remove: archive file [/home/abi/fetcher/tmp/ldimbenchmark-0.2.9.tar.gz]
+[2023-07-20 18:23:56] INFO root fetch - main [MainThread]: End processing [ldimbenchmark]: success
+[2023-07-20 18:23:56] INFO root fetch - processPackages [mail-satvadev]: Remove: archive file [/home/abi/fetcher/tmp/mail_satvadev-1.0.6a0.tar.gz]
+[2023-07-20 18:23:56] INFO root fetch - processPackages [mail-satvadev]: Remove: archive file [/home/abi/fetcher/tmp/mail_satvadev-1.0.7.tar.gz]
+[2023-07-20 18:23:56] INFO root fetch - main [MainThread]: End processing [mail-satvadev]: success
+[2023-07-20 18:23:56] INFO root fetch - processPackages [simplekivy]: Remove: archive file [/home/abi/fetcher/tmp/simplekivy-0.0.4.tar.gz]
+[2023-07-20 18:23:56] INFO root fetch - processPackages [simplekivy]: Remove: archive file [/home/abi/fetcher/tmp/simplekivy-0.0.5.tar.gz]
+[2023-07-20 18:23:56] INFO root fetch - main [MainThread]: End processing [simplekivy]: success
+[2023-07-20 18:23:56] INFO root fetch - processPackages [emark]: Remove: archive file [/home/abi/fetcher/tmp/emark-1.1rc1.tar.gz]
+[2023-07-20 18:23:56] INFO root fetch - processPackages [emark]: Remove: archive file [/home/abi/fetcher/tmp/emark-1.1rc2.tar.gz]
+[2023-07-20 18:23:56] INFO root fetch - main [MainThread]: End processing [emark]: success
+[2023-07-20 18:23:56] INFO root fetch - processPackages [cadence-detector]: Downloading https://files.pythonhosted.org/packages/ba/6e/1329a7b4853b5594ccfed586e72cc96edd370d9c5e11ed1c920268f09579/cadence_detector-0.2.2.tar.gz
+[2023-07-20 18:23:56] INFO root fetch - processPackages [calitp-data-infra]: Remove: archive file [/home/abi/fetcher/tmp/calitp_data_infra-2023.6.20.tar.gz]
+[2023-07-20 18:23:56] INFO root fetch - processPackages [calitp-data-infra]: Remove: archive file [/home/abi/fetcher/tmp/calitp_data_infra-2023.7.20.tar.gz]
+[2023-07-20 18:23:56] INFO root fetch - main [MainThread]: End processing [calitp-data-infra]: success
+[2023-07-20 18:23:56] INFO root fetch - processPackages [salure-helpers-profit]: Remove: archive file [/home/abi/fetcher/tmp/salure_helpers_profit-1.3.5.tar.gz]
+[2023-07-20 18:23:56] INFO root fetch - processPackages [salure-helpers-profit]: Remove: archive file [/home/abi/fetcher/tmp/salure_helpers_profit-1.3.6.tar.gz]
+[2023-07-20 18:23:56] INFO root fetch - main [MainThread]: End processing [salure-helpers-profit]: success
+[2023-07-20 18:23:56] INFO root fetch - processPackages [flashcam]: Remove: archive file [/home/abi/fetcher/tmp/flashcam-1.5.8.tar.gz]
+[2023-07-20 18:23:56] INFO root fetch - processPackages [flashcam]: Remove: archive file [/home/abi/fetcher/tmp/flashcam-1.5.9.tar.gz]
+[2023-07-20 18:23:56] INFO root fetch - main [MainThread]: End processing [flashcam]: success
+[2023-07-20 18:23:56] INFO root fetch - processPackages [cadence-detector]: Downloading https://files.pythonhosted.org/packages/79/a7/7442fd2abf453903ade17ff98023bb1d842eccf4a82e4ae398688cd249bf/cadence_detector-0.2.3.tar.gz
+[2023-07-20 18:23:56] INFO root fetch - processPackages [cadence-detector]: executing diffoscope
+[2023-07-20 18:23:56] INFO root fetch - processPackages [cadence-detector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cadence_detector-0.2.2.tar.gz tmp/cadence_detector-0.2.3.tar.gz --markdown 20230720/c/cadence-detector/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-07-20 18:23:57] INFO root fetch - processPackages [langchain]: Remove: archive file [/home/abi/fetcher/tmp/langchain-0.0.99.tar.gz]
+[2023-07-20 18:23:57] INFO root fetch - processPackages [langchain]: Remove: archive file [/home/abi/fetcher/tmp/langchain-0.0.99rc0.tar.gz]
+[2023-07-20 18:23:57] INFO root fetch - main [MainThread]: End processing [langchain]: success
+[2023-07-20 18:23:57] INFO root fetch - processPackages [credsweeper]: Remove: archive file [/home/abi/fetcher/tmp/credsweeper-1.5.2.tar.gz]
+[2023-07-20 18:23:57] INFO root fetch - processPackages [credsweeper]: Remove: archive file [/home/abi/fetcher/tmp/credsweeper-1.5.3.tar.gz]
+[2023-07-20 18:23:57] INFO root fetch - main [MainThread]: End processing [credsweeper]: success
+[2023-07-20 18:23:57] INFO root fetch - processPackages [cadence-detector]: Remove: archive file [/home/abi/fetcher/tmp/cadence_detector-0.2.2.tar.gz]
+[2023-07-20 18:23:57] INFO root fetch - processPackages [cadence-detector]: Remove: archive file [/home/abi/fetcher/tmp/cadence_detector-0.2.3.tar.gz]
+[2023-07-20 18:23:57] INFO root fetch - main [MainThread]: End processing [cadence-detector]: success
+[2023-07-20 18:23:57] INFO root fetch - main [MainThread]: Store serial: [18969565]
