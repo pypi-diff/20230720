@@ -6898,3 +6898,116 @@ AssertionError: tmp/verify4py-test-0.1.7.tar.gz does not exist
 [2023-07-20 13:37:10] INFO root fetch - processPackages [qwak-core]: Remove: archive file [/home/abi/fetcher/tmp/qwak_core-0.0.99.tar.gz]
 [2023-07-20 13:37:10] INFO root fetch - main [MainThread]: End processing [qwak-core]: success
 [2023-07-20 13:37:10] INFO root fetch - main [MainThread]: Store serial: [18965853]
+[2023-07-20 13:42:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18965853]
+[2023-07-20 13:42:19] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-07-20 13:42:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyre-check-nightly
+[2023-07-20 13:42:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sphinx-enos-theme
+[2023-07-20 13:42:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sktime
+[2023-07-20 13:42:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: etrobo-python
+[2023-07-20 13:42:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: rkvst-samples
+[2023-07-20 13:42:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: CxAdmin
+[2023-07-20 13:42:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pollination-daylight-factor
+[2023-07-20 13:42:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: datayoga-core
+[2023-07-20 13:42:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: datayoga
+[2023-07-20 13:42:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cellrank
+[2023-07-20 13:42:19] INFO root fetch - processPackages [etrobo-python]: New version: [0.4.1] Old Version: [0.4]
+[2023-07-20 13:42:19] INFO root fetch - processPackages [pollination-daylight-factor]: New version: [0.8.9] Old Version: [0.8.8]
+[2023-07-20 13:42:19] INFO root fetch - processPackages [sphinx-enos-theme]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-20 13:42:19] INFO root fetch - processPackages [rkvst-samples]: New version: [0.9.0] Old Version: [0.8.2]
+[2023-07-20 13:42:19] INFO root fetch - processPackages [cellrank]: New version: [2.0.0] Old Version: [1.5.1]
+[2023-07-20 13:42:19] INFO root fetch - processPackages [sktime]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-07-20 13:42:19] INFO root fetch - processPackages [CxAdmin]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-20 13:42:19] INFO root fetch - processPackages [datayoga]: New version: [1.90.0] Old Version: [1.9.0]
+[2023-07-20 13:42:19] INFO root fetch - processPackages [datayoga-core]: New version: [1.90.0] Old Version: [1.9.0]
+[2023-07-20 13:42:19] INFO root fetch - processPackages [pyre-check-nightly]: New version: [0.0.101689851507] Old Version: [0.0.101689765190]
+[2023-07-20 13:42:19] INFO root fetch - processPackages [sphinx-enos-theme]: Downloading https://files.pythonhosted.org/packages/d1/91/a94ff8e2f017a275c7162f624377aa91f191fa1086cc9b0c9871f44f67ed/sphinx_enos_theme-0.2.8.tar.gz
+[2023-07-20 13:42:19] INFO root fetch - processPackages [CxAdmin]: Downloading https://files.pythonhosted.org/packages/72/2d/39137a2e73be34674809bf9eabf234a558344f4c60f8d348d9c9666872ce/CxAdmin-1.0.8.tar.gz
+[2023-07-20 13:42:19] INFO root fetch - processPackages [sktime]: Downloading https://files.pythonhosted.org/packages/14/3c/02b40dd3133f7607421dcc3c5b44747f5bc0f6af14cc7a14e83b686f1ed1/sktime-0.8.1.tar.gz
+[2023-07-20 13:42:19] INFO root fetch - processPackages [etrobo-python]: Downloading https://files.pythonhosted.org/packages/84/10/5ad76ce4d6a64e62fc1df406d03539d9724acadc88fc9cd1e2a5ee14e2a2/etrobo_python-0.4.tar.gz
+[2023-07-20 13:42:19] INFO root fetch - processPackages [pollination-daylight-factor]: Downloading https://files.pythonhosted.org/packages/3a/0a/c55785466c23a76077cfc824f6c41625fb86f343f2e44b2566513956767b/pollination-daylight-factor-0.8.8.tar.gz
+[2023-07-20 13:42:19] INFO root fetch - processPackages [cellrank]: Downloading https://files.pythonhosted.org/packages/9f/34/195eab2e21e832f601219b8971365bb07aa2873f2b4665ac229441510eaf/cellrank-1.5.1.tar.gz
+[2023-07-20 13:42:19] INFO root fetch - processPackages [datayoga-core]: Downloading https://files.pythonhosted.org/packages/c4/c3/5f207c438bbc89672565e2c01d8d647056616369d2a41dec1dde69c7068a/datayoga_core-1.9.0.tar.gz
+[2023-07-20 13:42:19] INFO root fetch - processPackages [datayoga]: Downloading https://files.pythonhosted.org/packages/2d/37/01977557580693bc06b316a396f1b34bdd6f8352df2bf0db283690e2292b/datayoga-1.9.0.tar.gz
+[2023-07-20 13:42:19] INFO root fetch - processPackages [rkvst-samples]: Downloading https://files.pythonhosted.org/packages/0d/a0/5a316a6155066ce810648d105dfed70839eed00bc11538223ba1f1e5174c/rkvst-samples-0.8.2.tar.gz
+[2023-07-20 13:42:19] INFO root fetch - processPackages [pyre-check-nightly]: Downloading https://files.pythonhosted.org/packages/4c/15/5defdb68e1def64ca2aa4991e5bbbb10528709a1483525567708974b1416/pyre-check-nightly-0.0.101689765190.tar.gz
+[2023-07-20 13:42:20] WARNING root fetch - processPackages [rkvst-samples]: Skipping package: exceeds size limit 13331472>=10485760
+[2023-07-20 13:42:20] INFO root fetch - processPackages [rkvst-samples]: Start processing: CxAdmin
+[2023-07-20 13:42:20] INFO root fetch - main [MainThread]: End processing [rkvst-samples] error
+[2023-07-20 13:42:20] WARNING root fetch - processPackages [pyre-check-nightly]: Skipping package: exceeds size limit 23766293>=10485760
+[2023-07-20 13:42:20] INFO root fetch - processPackages [pyre-check-nightly]: Start processing: im-data-manager-job-decoder
+[2023-07-20 13:42:20] INFO root fetch - main [MainThread]: End processing [pyre-check-nightly] error
+[2023-07-20 13:42:20] INFO root fetch - processPackages [CxAdmin]: Downloading https://files.pythonhosted.org/packages/12/69/d90f882fe41226c22716f3133aa3d1fd7abd744d25527cd17a8e33f7487f/CxAdmin-1.0.9.tar.gz
+[2023-07-20 13:42:20] INFO root fetch - processPackages [CxAdmin]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-20 13:42:20] INFO root fetch - processPackages [im-data-manager-job-decoder]: New version: [1.9.0] Old Version: [1.8.1]
+[2023-07-20 13:42:20] INFO root fetch - processPackages [sphinx-enos-theme]: Downloading https://files.pythonhosted.org/packages/cf/26/5cc1b9d871cfd2bf60bdd6594178f1651766e04dfa4731e2d745543aa7e3/sphinx_enos_theme-0.2.9.tar.gz
+[2023-07-20 13:42:20] INFO root fetch - processPackages [etrobo-python]: Downloading https://files.pythonhosted.org/packages/84/f9/3e7f8f8436a8e7a8fe6db5d15ed753e9a589d18740362a192e365e533029/etrobo_python-0.4.1.tar.gz
+[2023-07-20 13:42:20] INFO root fetch - processPackages [pollination-daylight-factor]: Downloading https://files.pythonhosted.org/packages/7e/57/84ab7fc3e34853d074793b209e53d12522f1b4c1acff06313c5a76ce9019/pollination-daylight-factor-0.8.9.tar.gz
+[2023-07-20 13:42:20] INFO root fetch - processPackages [im-data-manager-job-decoder]: Downloading https://files.pythonhosted.org/packages/b8/4a/1ffb88fb6c242daa5635bd10510654c2d356bfa4efb0204564467e55a6b1/im-data-manager-job-decoder-1.8.1.tar.gz
+[2023-07-20 13:42:20] INFO root fetch - processPackages [CxAdmin]: executing diffoscope
+[2023-07-20 13:42:20] INFO root fetch - processPackages [CxAdmin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CxAdmin-1.0.8.tar.gz tmp/CxAdmin-1.0.9.tar.gz --markdown 20230720/C/CxAdmin/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-20 13:42:20] INFO root fetch - processPackages [sphinx-enos-theme]: executing diffoscope
+[2023-07-20 13:42:20] INFO root fetch - processPackages [sphinx-enos-theme]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sphinx_enos_theme-0.2.8.tar.gz tmp/sphinx_enos_theme-0.2.9.tar.gz --markdown 20230720/s/sphinx-enos-theme/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-20 13:42:20] INFO root fetch - processPackages [cellrank]: Downloading https://files.pythonhosted.org/packages/5c/27/48ceed14582210876b5f5c2b64e63a7cef544fba44af23981525bed0fffa/cellrank-2.0.0.tar.gz
+[2023-07-20 13:42:20] INFO root fetch - processPackages [datayoga]: Downloading https://files.pythonhosted.org/packages/6e/b5/e7285437cca0580f85c63eca358d11be303edba7681999d43d6d30f0fa53/datayoga-1.90.0.tar.gz
+[2023-07-20 13:42:20] INFO root fetch - processPackages [pollination-daylight-factor]: executing diffoscope
+[2023-07-20 13:42:20] INFO root fetch - processPackages [pollination-daylight-factor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pollination-daylight-factor-0.8.8.tar.gz tmp/pollination-daylight-factor-0.8.9.tar.gz --markdown 20230720/p/pollination-daylight-factor/0.8.8-0.8.9/diff.md --exclude *.pyd
+[2023-07-20 13:42:20] INFO root fetch - processPackages [CxAdmin]: executing diffoscope
+[2023-07-20 13:42:20] INFO root fetch - processPackages [CxAdmin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CxAdmin-1.0.8.tar.gz tmp/CxAdmin-1.0.9.tar.gz --markdown 20230720/C/CxAdmin/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-20 13:42:20] INFO root fetch - processPackages [etrobo-python]: executing diffoscope
+[2023-07-20 13:42:20] INFO root fetch - processPackages [etrobo-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/etrobo_python-0.4.tar.gz tmp/etrobo_python-0.4.1.tar.gz --markdown 20230720/e/etrobo-python/0.4-0.4.1/diff.md --exclude *.pyd
+[2023-07-20 13:42:20] WARNING root fetch - processPackages [sktime]: Skipping package: exceeds size limit 11076866>=10485760
+[2023-07-20 13:42:20] INFO root fetch - processPackages [sktime]: Start processing: pygwalker
+[2023-07-20 13:42:20] INFO root fetch - main [MainThread]: End processing [sktime] error
+[2023-07-20 13:42:20] INFO root fetch - processPackages [datayoga-core]: Downloading https://files.pythonhosted.org/packages/dd/a3/99cac7e8332a9f2399e02f92b7aa4a1d9950db39bdba935965103b9e4d24/datayoga_core-1.90.0.tar.gz
+[2023-07-20 13:42:20] INFO root fetch - processPackages [datayoga]: executing diffoscope
+[2023-07-20 13:42:20] INFO root fetch - processPackages [datayoga]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datayoga-1.9.0.tar.gz tmp/datayoga-1.90.0.tar.gz --markdown 20230720/d/datayoga/1.9.0-1.90.0/diff.md --exclude *.pyd
+[2023-07-20 13:42:20] INFO root fetch - processPackages [cellrank]: executing diffoscope
+[2023-07-20 13:42:20] INFO root fetch - processPackages [cellrank]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cellrank-1.5.1.tar.gz tmp/cellrank-2.0.0.tar.gz --markdown 20230720/c/cellrank/1.5.1-2.0.0/diff.md --exclude *.pyd
+[2023-07-20 13:42:20] INFO root fetch - processPackages [im-data-manager-job-decoder]: Downloading https://files.pythonhosted.org/packages/af/73/f856a2d9ae03130fb59552d593e2b32353e595e21a87fdb570b9510d68e9/im-data-manager-job-decoder-1.9.0.tar.gz
+[2023-07-20 13:42:20] INFO root fetch - processPackages [datayoga-core]: executing diffoscope
+[2023-07-20 13:42:20] INFO root fetch - processPackages [datayoga-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datayoga_core-1.9.0.tar.gz tmp/datayoga_core-1.90.0.tar.gz --markdown 20230720/d/datayoga-core/1.9.0-1.90.0/diff.md --exclude *.pyd
+[2023-07-20 13:42:20] INFO root fetch - processPackages [im-data-manager-job-decoder]: executing diffoscope
+[2023-07-20 13:42:20] INFO root fetch - processPackages [im-data-manager-job-decoder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/im-data-manager-job-decoder-1.8.1.tar.gz tmp/im-data-manager-job-decoder-1.9.0.tar.gz --markdown 20230720/i/im-data-manager-job-decoder/1.8.1-1.9.0/diff.md --exclude *.pyd
+[2023-07-20 13:42:21] INFO root fetch - processPackages [pygwalker]: New version: [0.2.0a4] Old Version: [0.2.0a3]
+[2023-07-20 13:42:21] INFO root fetch - processPackages [pygwalker]: Downloading https://files.pythonhosted.org/packages/97/1f/4b2ec19cd4724f06f582a46013bb2f3586fe4cd3af67e909dfd33d0cdc95/pygwalker-0.2.0a3.tar.gz
+[2023-07-20 13:42:21] INFO root fetch - processPackages [CxAdmin]: Remove: archive file [/home/abi/fetcher/tmp/CxAdmin-1.0.8.tar.gz]
+[2023-07-20 13:42:21] INFO root fetch - processPackages [CxAdmin]: Remove: archive file [/home/abi/fetcher/tmp/CxAdmin-1.0.9.tar.gz]
+[2023-07-20 13:42:21] INFO root fetch - processPackages [CxAdmin]: Start processing: recon-lw
+[2023-07-20 13:42:21] INFO root fetch - main [MainThread]: End processing [CxAdmin]: success
+[2023-07-20 13:42:21] INFO root fetch - processPackages [pygwalker]: Downloading https://files.pythonhosted.org/packages/70/84/aaf00c753676c06726407792dbc8be1d056a992668fece22317496153870/pygwalker-0.2.0a4.tar.gz
+[2023-07-20 13:42:21] INFO root fetch - main [MainThread]: End processing [CxAdmin]: success
+[2023-07-20 13:42:21] INFO root fetch - processPackages [recon-lw]: New version: [2.0.0.dev5609297419] Old Version: [2.0.0.dev5608872950]
+[2023-07-20 13:42:21] INFO root fetch - processPackages [pollination-daylight-factor]: Remove: archive file [/home/abi/fetcher/tmp/pollination-daylight-factor-0.8.8.tar.gz]
+[2023-07-20 13:42:21] INFO root fetch - processPackages [pollination-daylight-factor]: Remove: archive file [/home/abi/fetcher/tmp/pollination-daylight-factor-0.8.9.tar.gz]
+[2023-07-20 13:42:21] INFO root fetch - main [MainThread]: End processing [pollination-daylight-factor]: success
+[2023-07-20 13:42:21] INFO root fetch - processPackages [recon-lw]: Downloading https://files.pythonhosted.org/packages/a3/3f/7e5779d44707f2c26f741e4458940a2634e08ae43081ad82e357af9739a0/recon_lw-2.0.0.dev5608872950.tar.gz
+[2023-07-20 13:42:21] INFO root fetch - processPackages [etrobo-python]: Remove: archive file [/home/abi/fetcher/tmp/etrobo_python-0.4.tar.gz]
+[2023-07-20 13:42:21] INFO root fetch - processPackages [etrobo-python]: Remove: archive file [/home/abi/fetcher/tmp/etrobo_python-0.4.1.tar.gz]
+[2023-07-20 13:42:21] INFO root fetch - main [MainThread]: End processing [etrobo-python]: success
+[2023-07-20 13:42:21] INFO root fetch - processPackages [pygwalker]: executing diffoscope
+[2023-07-20 13:42:21] INFO root fetch - processPackages [pygwalker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygwalker-0.2.0a3.tar.gz tmp/pygwalker-0.2.0a4.tar.gz --markdown 20230720/p/pygwalker/0.2.0a3-0.2.0a4/diff.md --exclude *.pyd
+[2023-07-20 13:42:22] INFO root fetch - processPackages [sphinx-enos-theme]: Remove: archive file [/home/abi/fetcher/tmp/sphinx_enos_theme-0.2.8.tar.gz]
+[2023-07-20 13:42:22] INFO root fetch - processPackages [sphinx-enos-theme]: Remove: archive file [/home/abi/fetcher/tmp/sphinx_enos_theme-0.2.9.tar.gz]
+[2023-07-20 13:42:22] INFO root fetch - main [MainThread]: End processing [sphinx-enos-theme]: success
+[2023-07-20 13:42:22] INFO root fetch - processPackages [datayoga]: Remove: archive file [/home/abi/fetcher/tmp/datayoga-1.9.0.tar.gz]
+[2023-07-20 13:42:22] INFO root fetch - processPackages [datayoga]: Remove: archive file [/home/abi/fetcher/tmp/datayoga-1.90.0.tar.gz]
+[2023-07-20 13:42:22] INFO root fetch - main [MainThread]: End processing [datayoga]: success
+[2023-07-20 13:42:22] INFO root fetch - processPackages [recon-lw]: Downloading https://files.pythonhosted.org/packages/5b/8e/3ac2f3c0965faef3352247faad07faecb1133172878de3470cc2be9ec6b5/recon_lw-2.0.0.dev5609297419.tar.gz
+[2023-07-20 13:42:22] INFO root fetch - processPackages [im-data-manager-job-decoder]: Remove: archive file [/home/abi/fetcher/tmp/im-data-manager-job-decoder-1.8.1.tar.gz]
+[2023-07-20 13:42:22] INFO root fetch - processPackages [im-data-manager-job-decoder]: Remove: archive file [/home/abi/fetcher/tmp/im-data-manager-job-decoder-1.9.0.tar.gz]
+[2023-07-20 13:42:22] INFO root fetch - main [MainThread]: End processing [im-data-manager-job-decoder]: success
+[2023-07-20 13:42:22] INFO root fetch - processPackages [recon-lw]: executing diffoscope
+[2023-07-20 13:42:22] INFO root fetch - processPackages [recon-lw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/recon_lw-2.0.0.dev5608872950.tar.gz tmp/recon_lw-2.0.0.dev5609297419.tar.gz --markdown 20230720/r/recon-lw/2.0.0.dev5608872950-2.0.0.dev5609297419/diff.md --exclude *.pyd
+[2023-07-20 13:42:22] INFO root fetch - processPackages [datayoga-core]: Remove: archive file [/home/abi/fetcher/tmp/datayoga_core-1.9.0.tar.gz]
+[2023-07-20 13:42:22] INFO root fetch - processPackages [datayoga-core]: Remove: archive file [/home/abi/fetcher/tmp/datayoga_core-1.90.0.tar.gz]
+[2023-07-20 13:42:22] INFO root fetch - main [MainThread]: End processing [datayoga-core]: success
+[2023-07-20 13:42:22] INFO root fetch - processPackages [cellrank]: Remove: archive file [/home/abi/fetcher/tmp/cellrank-1.5.1.tar.gz]
+[2023-07-20 13:42:22] INFO root fetch - processPackages [cellrank]: Remove: archive file [/home/abi/fetcher/tmp/cellrank-2.0.0.tar.gz]
+[2023-07-20 13:42:22] INFO root fetch - main [MainThread]: End processing [cellrank]: success
+[2023-07-20 13:42:23] INFO root fetch - processPackages [recon-lw]: Remove: archive file [/home/abi/fetcher/tmp/recon_lw-2.0.0.dev5608872950.tar.gz]
+[2023-07-20 13:42:23] INFO root fetch - processPackages [recon-lw]: Remove: archive file [/home/abi/fetcher/tmp/recon_lw-2.0.0.dev5609297419.tar.gz]
+[2023-07-20 13:42:23] INFO root fetch - main [MainThread]: End processing [recon-lw]: success
+[2023-07-20 13:42:37] INFO root fetch - processPackages [pygwalker]: Remove: archive file [/home/abi/fetcher/tmp/pygwalker-0.2.0a3.tar.gz]
+[2023-07-20 13:42:37] INFO root fetch - processPackages [pygwalker]: Remove: archive file [/home/abi/fetcher/tmp/pygwalker-0.2.0a4.tar.gz]
+[2023-07-20 13:42:37] INFO root fetch - main [MainThread]: End processing [pygwalker]: success
+[2023-07-20 13:42:37] INFO root fetch - main [MainThread]: Store serial: [18965896]
