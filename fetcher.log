@@ -13268,3 +13268,494 @@ AssertionError: tmp/verify4py-test-0.1.7.tar.gz does not exist
 [2023-07-20 17:12:42] INFO root fetch - processPackages [label-sleuth]: Remove: archive file [/home/abi/fetcher/tmp/label-sleuth-0.9.4.tar.gz]
 [2023-07-20 17:12:42] INFO root fetch - main [MainThread]: End processing [label-sleuth]: success
 [2023-07-20 17:12:42] INFO root fetch - main [MainThread]: Store serial: [18968538]
+[2023-07-20 17:17:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18968538]
+[2023-07-20 17:17:51] INFO root fetch - main [MainThread]: Found 56 changed packages
+[2023-07-20 17:17:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hserv
+[2023-07-20 17:17:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: perspective-python
+[2023-07-20 17:17:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aiohomekit
+[2023-07-20 17:17:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: astrotitles
+[2023-07-20 17:17:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: signal-analog
+[2023-07-20 17:17:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: py-astrolab
+[2023-07-20 17:17:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: openhexa.sdk
+[2023-07-20 17:17:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: scanpydoc
+[2023-07-20 17:17:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cf-deploy
+[2023-07-20 17:17:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: sound-extraction
+[2023-07-20 17:17:51] INFO root fetch - processPackages [scanpydoc]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-07-20 17:17:51] INFO root fetch - processPackages [openhexa.sdk]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-20 17:17:51] INFO root fetch - processPackages [aiohomekit]: New version: [2.6.9] Old Version: [2.6.8]
+[2023-07-20 17:17:51] INFO root fetch - processPackages [cf-deploy]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-20 17:17:51] INFO root fetch - processPackages [py-astrolab]: New version: [0.4.3] Old Version: [0.4.2]
+[2023-07-20 17:17:51] INFO root fetch - processPackages [hserv]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-20 17:17:51] INFO root fetch - processPackages [sound-extraction]: New version: [2.1.2] Old Version: [2.0.0]
+[2023-07-20 17:17:51] INFO root fetch - processPackages [astrotitles]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-20 17:17:51] INFO root fetch - processPackages [signal-analog]: New version: [2.9.3] Old Version: [2.9.2]
+[2023-07-20 17:17:51] INFO root fetch - processPackages [perspective-python]: New version: [2.3.2] Old Version: [2.3.1]
+[2023-07-20 17:17:51] INFO root fetch - processPackages [scanpydoc]: Downloading https://files.pythonhosted.org/packages/83/9a/fa7c781fc460a5672e0bdba055a427416d623c63cd6f0308b929ec372eba/scanpydoc-0.9.2.tar.gz
+[2023-07-20 17:17:51] INFO root fetch - processPackages [openhexa.sdk]: Downloading https://files.pythonhosted.org/packages/2d/63/6cf8c3d8c690624bf5da3eccae426000fc384f6f2b1e46094f46a261b21e/openhexa.sdk-0.1.8.tar.gz
+[2023-07-20 17:17:52] INFO root fetch - processPackages [aiohomekit]: Downloading https://files.pythonhosted.org/packages/65/96/4d8b38121d10fccc163a3a2c9427904ba4acbc687c4ff074ea9d3a046599/aiohomekit-2.6.8.tar.gz
+[2023-07-20 17:17:52] INFO root fetch - processPackages [signal-analog]: Downloading https://files.pythonhosted.org/packages/ba/d8/5e792fb5f11549a144991facf312939b8c9bdb51f876c2cdd62482d2e207/signal_analog-2.9.2-py3.7.egg
+[2023-07-20 17:17:52] INFO root fetch - processPackages [hserv]: Downloading https://files.pythonhosted.org/packages/a9/55/452bd1fe09c51ef3318a3d832f6697882263cd11f457dd5df8e9a1758b44/hserv-0.0.4.tar.gz
+[2023-07-20 17:17:52] INFO root fetch - processPackages [sound-extraction]: Downloading https://files.pythonhosted.org/packages/48/66/90b6b60601e0131ccd555783abfef1cede5ccb55a8512d3e95a97fa4134f/sound-extraction-2.0.0.tar.gz
+[2023-07-20 17:17:52] INFO root fetch - processPackages [cf-deploy]: Downloading https://files.pythonhosted.org/packages/5f/b4/80914e66b3d2421004e6153c7e82f50f6c194fd736ef183b090abbd5e798/cf_deploy-0.1.8.tar.gz
+[2023-07-20 17:17:52] INFO root fetch - processPackages [astrotitles]: Downloading https://files.pythonhosted.org/packages/31/f2/61865f92f77868ff5e2effc70ff0662890c8ccf469f51010bb9c20b13751/astrotitles-0.1.2.tar.gz
+[2023-07-20 17:17:52] INFO root fetch - processPackages [perspective-python]: Downloading https://files.pythonhosted.org/packages/7f/23/6e39a71aef6097f758d6ed8a49243c400ad63cb3d6c336a4b34b6d9edb15/perspective-python-2.3.1.tar.gz
+[2023-07-20 17:17:52] INFO root fetch - processPackages [py-astrolab]: Downloading https://files.pythonhosted.org/packages/28/68/583ab16b38affa5cf8bcb687afc37e0c850e0629d03a2efaee2db450c9d1/py_astrolab-0.4.3.tar.gz
+[2023-07-20 17:17:52] INFO root fetch - processPackages [openhexa.sdk]: Downloading https://files.pythonhosted.org/packages/01/47/9a54270a3486c1a1712ca7717008e6748264c1125692b213adfd2f68b21c/openhexa.sdk-0.1.9.tar.gz
+[2023-07-20 17:17:52] INFO root fetch - processPackages [scanpydoc]: Downloading https://files.pythonhosted.org/packages/d4/4c/dbe4d1763a0d99adbbf400d6b94573aa7e0388508eaf83fa657e7bea1a1b/scanpydoc-0.9.3.tar.gz
+[2023-07-20 17:17:52] INFO root fetch - processPackages [py-astrolab]: executing diffoscope
+[2023-07-20 17:17:52] INFO root fetch - processPackages [py-astrolab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_astrolab-0.4.2.tar.gz tmp/py_astrolab-0.4.3.tar.gz --markdown 20230720/p/py-astrolab/0.4.2-0.4.3/diff.md --exclude *.pyd
+[2023-07-20 17:17:52] INFO root fetch - processPackages [openhexa.sdk]: executing diffoscope
+[2023-07-20 17:17:52] INFO root fetch - processPackages [openhexa.sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openhexa.sdk-0.1.8.tar.gz tmp/openhexa.sdk-0.1.9.tar.gz --markdown 20230720/o/openhexa.sdk/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-20 17:17:52] INFO root fetch - processPackages [aiohomekit]: Downloading https://files.pythonhosted.org/packages/30/ac/4e69e64fa19c718af982b3ce08ccfe2934a67dd65dbfc32d404a0ab62c6f/aiohomekit-2.6.9.tar.gz
+[2023-07-20 17:17:52] INFO root fetch - processPackages [astrotitles]: Downloading https://files.pythonhosted.org/packages/5e/64/94c6dd8d4817239ec4fac74c67acfe78bad2796c8c7d70edfa1f0fea860e/astrotitles-0.1.3.tar.gz
+[2023-07-20 17:17:52] INFO root fetch - processPackages [hserv]: Downloading https://files.pythonhosted.org/packages/c8/42/df8602b3d0d0f8b9f09bb0cff481601646f5b4ed207821ad2da48482e34c/hserv-0.0.5.tar.gz
+[2023-07-20 17:17:52] INFO root fetch - processPackages [sound-extraction]: Downloading https://files.pythonhosted.org/packages/22/5b/db6940d95cfa849d87f455c06cba13bfa4c2bdd72ee801118908ed2bff30/sound-extraction-2.1.2.tar.gz
+[2023-07-20 17:17:52] INFO root fetch - processPackages [signal-analog]: Downloading https://files.pythonhosted.org/packages/1f/53/60d132580f518415cc556c7dc7fa69f088e29157a5b8b9996e4b3e86bc7f/signal_analog-2.9.3-py2.py3-none-any.whl
+[2023-07-20 17:17:52] INFO root fetch - processPackages [scanpydoc]: executing diffoscope
+[2023-07-20 17:17:52] INFO root fetch - processPackages [scanpydoc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scanpydoc-0.9.2.tar.gz tmp/scanpydoc-0.9.3.tar.gz --markdown 20230720/s/scanpydoc/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-07-20 17:17:52] INFO root fetch - processPackages [aiohomekit]: executing diffoscope
+[2023-07-20 17:17:52] INFO root fetch - processPackages [aiohomekit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiohomekit-2.6.8.tar.gz tmp/aiohomekit-2.6.9.tar.gz --markdown 20230720/a/aiohomekit/2.6.8-2.6.9/diff.md --exclude *.pyd
+[2023-07-20 17:17:52] INFO root fetch - processPackages [cf-deploy]: Downloading https://files.pythonhosted.org/packages/e5/5f/c1080016400e67671af90cd9f789866f0ad8fb9d3464a30d3b7a9460b5f1/cf_deploy-0.1.9.tar.gz
+[2023-07-20 17:17:52] INFO root fetch - processPackages [sound-extraction]: executing diffoscope
+[2023-07-20 17:17:52] INFO root fetch - processPackages [sound-extraction]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sound-extraction-2.0.0.tar.gz tmp/sound-extraction-2.1.2.tar.gz --markdown 20230720/s/sound-extraction/2.0.0-2.1.2/diff.md --exclude *.pyd
+[2023-07-20 17:17:52] INFO root fetch - processPackages [signal-analog]: executing diffoscope
+[2023-07-20 17:17:52] INFO root fetch - processPackages [signal-analog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/signal_analog-2.9.2-py3.7.egg tmp/signal_analog-2.9.3-py2.py3-none-any.whl.zip --markdown 20230720/s/signal-analog/2.9.2-2.9.3/diff.md --exclude *.pyd
+[2023-07-20 17:17:52] INFO root fetch - processPackages [astrotitles]: executing diffoscope
+[2023-07-20 17:17:52] INFO root fetch - processPackages [astrotitles]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/astrotitles-0.1.2.tar.gz tmp/astrotitles-0.1.3.tar.gz --markdown 20230720/a/astrotitles/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-20 17:17:52] INFO root fetch - processPackages [hserv]: executing diffoscope
+[2023-07-20 17:17:52] INFO root fetch - processPackages [hserv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hserv-0.0.4.tar.gz tmp/hserv-0.0.5.tar.gz --markdown 20230720/h/hserv/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-20 17:17:53] INFO root fetch - processPackages [cf-deploy]: executing diffoscope
+[2023-07-20 17:17:53] INFO root fetch - processPackages [cf-deploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cf_deploy-0.1.8.tar.gz tmp/cf_deploy-0.1.9.tar.gz --markdown 20230720/c/cf-deploy/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-20 17:17:53] INFO root fetch - processPackages [py-astrolab]: Remove: archive file [/home/abi/fetcher/tmp/py_astrolab-0.4.2.tar.gz]
+[2023-07-20 17:17:53] INFO root fetch - processPackages [py-astrolab]: Remove: archive file [/home/abi/fetcher/tmp/py_astrolab-0.4.3.tar.gz]
+[2023-07-20 17:17:53] INFO root fetch - processPackages [py-astrolab]: Start processing: faraday-agent-dispatcher
+[2023-07-20 17:17:53] INFO root fetch - main [MainThread]: End processing [py-astrolab]: success
+[2023-07-20 17:17:53] INFO root fetch - processPackages [faraday-agent-dispatcher]: New version: [2.6.1] Old Version: [2.6.0]
+[2023-07-20 17:17:53] INFO root fetch - processPackages [openhexa.sdk]: Remove: archive file [/home/abi/fetcher/tmp/openhexa.sdk-0.1.8.tar.gz]
+[2023-07-20 17:17:53] INFO root fetch - processPackages [openhexa.sdk]: Remove: archive file [/home/abi/fetcher/tmp/openhexa.sdk-0.1.9.tar.gz]
+[2023-07-20 17:17:53] INFO root fetch - processPackages [openhexa.sdk]: Start processing: types-flake8-2020
+[2023-07-20 17:17:53] INFO root fetch - main [MainThread]: End processing [openhexa.sdk]: success
+[2023-07-20 17:17:53] INFO root fetch - processPackages [faraday-agent-dispatcher]: Downloading https://files.pythonhosted.org/packages/45/20/b6fa95b78e778742c7b7f306a010349e91f490882479cb6f30db3974ffa5/faraday_agent_dispatcher-2.6.0.tar.gz
+[2023-07-20 17:17:53] INFO root fetch - processPackages [types-flake8-2020]: New version: [1.8.0.1] Old Version: [1.8.0.0]
+[2023-07-20 17:17:54] INFO root fetch - processPackages [perspective-python]: Downloading https://files.pythonhosted.org/packages/e8/f4/a35f3a93d4e8d1d88c8b998dbdf02a0a94ae9c6eaf859bbee78c03137ef4/perspective_python-2.3.2-cp39-cp39-win_amd64.whl
+[2023-07-20 17:17:54] INFO root fetch - processPackages [types-flake8-2020]: Downloading https://files.pythonhosted.org/packages/8f/bc/ffa13132305de1957df32ec1188c05f5c7626744881e188e894faf9a58ef/types-flake8-2020-1.8.0.0.tar.gz
+[2023-07-20 17:17:54] WARNING root fetch - processPackages [perspective-python]: Skipping package: exceeds size limit 16576112>=10485760
+[2023-07-20 17:17:54] INFO root fetch - processPackages [perspective-python]: Start processing: types-invoke
+[2023-07-20 17:17:54] INFO root fetch - main [MainThread]: End processing [perspective-python] error
+[2023-07-20 17:17:54] INFO root fetch - processPackages [hserv]: Remove: archive file [/home/abi/fetcher/tmp/hserv-0.0.4.tar.gz]
+[2023-07-20 17:17:54] INFO root fetch - processPackages [hserv]: Remove: archive file [/home/abi/fetcher/tmp/hserv-0.0.5.tar.gz]
+[2023-07-20 17:17:54] INFO root fetch - processPackages [hserv]: Start processing: types-pika-ts
+[2023-07-20 17:17:54] INFO root fetch - main [MainThread]: End processing [hserv]: success
+[2023-07-20 17:17:54] INFO root fetch - processPackages [signal-analog]: Remove: archive file [/home/abi/fetcher/tmp/signal_analog-2.9.2-py3.7.egg]
+[2023-07-20 17:17:54] INFO root fetch - processPackages [astrotitles]: Remove: archive file [/home/abi/fetcher/tmp/astrotitles-0.1.2.tar.gz]
+[2023-07-20 17:17:54] INFO root fetch - processPackages [signal-analog]: Remove: archive file [/home/abi/fetcher/tmp/signal_analog-2.9.3-py2.py3-none-any.whl.zip]
+[2023-07-20 17:17:54] INFO root fetch - processPackages [astrotitles]: Remove: archive file [/home/abi/fetcher/tmp/astrotitles-0.1.3.tar.gz]
+[2023-07-20 17:17:54] INFO root fetch - processPackages [types-invoke]: New version: [2.0.0.9] Old Version: [2.0.0.8]
+[2023-07-20 17:17:54] INFO root fetch - processPackages [signal-analog]: Start processing: types-whatthepatch
+[2023-07-20 17:17:54] INFO root fetch - main [MainThread]: End processing [signal-analog]: success
+[2023-07-20 17:17:54] INFO root fetch - processPackages [astrotitles]: Start processing: types-tree-sitter
+[2023-07-20 17:17:54] INFO root fetch - processPackages [scanpydoc]: Remove: archive file [/home/abi/fetcher/tmp/scanpydoc-0.9.2.tar.gz]
+[2023-07-20 17:17:54] INFO root fetch - main [MainThread]: End processing [astrotitles]: success
+[2023-07-20 17:17:54] INFO root fetch - processPackages [scanpydoc]: Remove: archive file [/home/abi/fetcher/tmp/scanpydoc-0.9.3.tar.gz]
+[2023-07-20 17:17:54] INFO root fetch - processPackages [scanpydoc]: Start processing: types-simplejson
+[2023-07-20 17:17:54] INFO root fetch - main [MainThread]: End processing [scanpydoc]: success
+[2023-07-20 17:17:54] INFO root fetch - processPackages [cf-deploy]: Remove: archive file [/home/abi/fetcher/tmp/cf_deploy-0.1.8.tar.gz]
+[2023-07-20 17:17:54] INFO root fetch - processPackages [cf-deploy]: Remove: archive file [/home/abi/fetcher/tmp/cf_deploy-0.1.9.tar.gz]
+[2023-07-20 17:17:54] INFO root fetch - processPackages [cf-deploy]: Start processing: types-flake8-bugbear
+[2023-07-20 17:17:54] INFO root fetch - main [MainThread]: End processing [cf-deploy]: success
+[2023-07-20 17:17:54] INFO root fetch - processPackages [faraday-agent-dispatcher]: Downloading https://files.pythonhosted.org/packages/35/46/2d8c3e07a1c2cac10b9d6bb6f7f6a60a8bedd3ec152b4f6bc3021016687d/faraday_agent_dispatcher-2.6.1.tar.gz
+[2023-07-20 17:17:54] INFO root fetch - processPackages [sound-extraction]: Remove: archive file [/home/abi/fetcher/tmp/sound-extraction-2.0.0.tar.gz]
+[2023-07-20 17:17:54] INFO root fetch - processPackages [sound-extraction]: Remove: archive file [/home/abi/fetcher/tmp/sound-extraction-2.1.2.tar.gz]
+[2023-07-20 17:17:54] INFO root fetch - processPackages [sound-extraction]: Start processing: types-Pillow
+[2023-07-20 17:17:54] INFO root fetch - main [MainThread]: End processing [sound-extraction]: success
+[2023-07-20 17:17:54] INFO root fetch - processPackages [types-pika-ts]: New version: [1.3.0.9] Old Version: [1.3.0.8]
+[2023-07-20 17:17:54] INFO root fetch - processPackages [types-whatthepatch]: New version: [1.0.2.5] Old Version: [1.0.2.4]
+[2023-07-20 17:17:54] INFO root fetch - processPackages [types-tree-sitter]: New version: [0.20.1.4] Old Version: [0.20.1.3]
+[2023-07-20 17:17:54] INFO root fetch - processPackages [types-flake8-bugbear]: New version: [23.7.10.1] Old Version: [23.7.10.0]
+[2023-07-20 17:17:54] INFO root fetch - processPackages [aiohomekit]: Remove: archive file [/home/abi/fetcher/tmp/aiohomekit-2.6.8.tar.gz]
+[2023-07-20 17:17:54] INFO root fetch - processPackages [aiohomekit]: Remove: archive file [/home/abi/fetcher/tmp/aiohomekit-2.6.9.tar.gz]
+[2023-07-20 17:17:54] INFO root fetch - processPackages [aiohomekit]: Start processing: types-pywin32
+[2023-07-20 17:17:54] INFO root fetch - main [MainThread]: End processing [aiohomekit]: success
+[2023-07-20 17:17:54] INFO root fetch - processPackages [types-simplejson]: New version: [3.19.0.2] Old Version: [3.19.0.1]
+[2023-07-20 17:17:54] INFO root fetch - processPackages [types-Pillow]: New version: [9.5.0.6] Old Version: [9.5.0.5]
+[2023-07-20 17:17:54] INFO root fetch - processPackages [types-invoke]: Downloading https://files.pythonhosted.org/packages/f2/48/31d0b13ae00cce6f6a0cf409f2ec4cd2488c326ac222c239bc38809b68a4/types-invoke-2.0.0.8.tar.gz
+[2023-07-20 17:17:54] INFO root fetch - processPackages [types-pywin32]: New version: [306.0.0.3] Old Version: [306.0.0.2]
+[2023-07-20 17:17:54] INFO root fetch - processPackages [types-pika-ts]: Downloading https://files.pythonhosted.org/packages/85/59/f72cb501e0e1a002d3ca54479b2dbe4dc8c671455f263592d0ecc20cefd2/types-pika-ts-1.3.0.8.tar.gz
+[2023-07-20 17:17:54] INFO root fetch - processPackages [types-simplejson]: Downloading https://files.pythonhosted.org/packages/3c/29/b0f91528059cd51681e1f614b1f03f0785f8307e51c1a0907847d75af203/types-simplejson-3.19.0.1.tar.gz
+[2023-07-20 17:17:54] INFO root fetch - processPackages [types-whatthepatch]: Downloading https://files.pythonhosted.org/packages/38/48/72cbaaaee219b8b5ef2a2ae9355c8a9f7768f226241aafac51b80b79bcdb/types-whatthepatch-1.0.2.4.tar.gz
+[2023-07-20 17:17:54] INFO root fetch - processPackages [types-flake8-2020]: Downloading https://files.pythonhosted.org/packages/f9/4d/5c57d1757469fdf8f4837106c6a7638f5a9f3b43649eaef22a64ff1b89af/types-flake8-2020-1.8.0.1.tar.gz
+[2023-07-20 17:17:54] INFO root fetch - processPackages [types-Pillow]: Downloading https://files.pythonhosted.org/packages/fe/b4/ffa2908d4b69a4cb983289fdf30cb11ca33bee293012fc663529fcba7615/types-Pillow-9.5.0.5.tar.gz
+[2023-07-20 17:17:54] INFO root fetch - processPackages [faraday-agent-dispatcher]: executing diffoscope
+[2023-07-20 17:17:54] INFO root fetch - processPackages [faraday-agent-dispatcher]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/faraday_agent_dispatcher-2.6.0.tar.gz tmp/faraday_agent_dispatcher-2.6.1.tar.gz --markdown 20230720/f/faraday-agent-dispatcher/2.6.0-2.6.1/diff.md --exclude *.pyd
+[2023-07-20 17:17:54] INFO root fetch - processPackages [types-tree-sitter]: Downloading https://files.pythonhosted.org/packages/b8/19/31182fee76a6e1e05892d1f27c9d4b4dd82facdce3b92653ec9ed024355f/types-tree-sitter-0.20.1.3.tar.gz
+[2023-07-20 17:17:54] INFO root fetch - processPackages [types-flake8-bugbear]: Downloading https://files.pythonhosted.org/packages/66/da/bd7217b4525dd42133dad71b9bd13a5c82abc2e10437d351c45833ec349b/types-flake8-bugbear-23.7.10.0.tar.gz
+[2023-07-20 17:17:54] INFO root fetch - processPackages [types-pywin32]: Downloading https://files.pythonhosted.org/packages/a9/c8/81e370486dfa8aa057d0122ce3e49643befe631ebf3936ec5f03f4bc9711/types-pywin32-306.0.0.2.tar.gz
+[2023-07-20 17:17:54] INFO root fetch - processPackages [types-flake8-2020]: executing diffoscope
+[2023-07-20 17:17:54] INFO root fetch - processPackages [types-flake8-2020]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-flake8-2020-1.8.0.0.tar.gz tmp/types-flake8-2020-1.8.0.1.tar.gz --markdown 20230720/t/types-flake8-2020/1.8.0.0-1.8.0.1/diff.md --exclude *.pyd
+[2023-07-20 17:17:55] INFO root fetch - processPackages [types-invoke]: Downloading https://files.pythonhosted.org/packages/be/cb/b78ae93fd55eddb4a7bb8b19c686f38436a52ca3e50e5223361ac0ffae0a/types-invoke-2.0.0.9.tar.gz
+[2023-07-20 17:17:55] INFO root fetch - processPackages [types-simplejson]: Downloading https://files.pythonhosted.org/packages/1b/6e/e4843fcc0c590555599ddd93fb4a15810484eedf10b8184dfeb579e386e3/types-simplejson-3.19.0.2.tar.gz
+[2023-07-20 17:17:55] INFO root fetch - processPackages [types-invoke]: executing diffoscope
+[2023-07-20 17:17:55] INFO root fetch - processPackages [types-invoke]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-invoke-2.0.0.8.tar.gz tmp/types-invoke-2.0.0.9.tar.gz --markdown 20230720/t/types-invoke/2.0.0.8-2.0.0.9/diff.md --exclude *.pyd
+[2023-07-20 17:17:55] INFO root fetch - processPackages [types-tree-sitter]: Downloading https://files.pythonhosted.org/packages/37/24/821651de3187342c8ab3185b0e128f11cc8ef00b91bafaa42a88a152be66/types-tree-sitter-0.20.1.4.tar.gz
+[2023-07-20 17:17:55] INFO root fetch - processPackages [types-whatthepatch]: Downloading https://files.pythonhosted.org/packages/3b/72/8d62de4cd622a676875f52c35ccb4479ee6220bc6b10985ca35575f6568e/types-whatthepatch-1.0.2.5.tar.gz
+[2023-07-20 17:17:55] INFO root fetch - processPackages [types-Pillow]: Downloading https://files.pythonhosted.org/packages/2d/78/d71281c253ba82f7630f5fabef175ea2f19556f2d1004eecae276e71bc75/types-Pillow-9.5.0.6.tar.gz
+[2023-07-20 17:17:55] INFO root fetch - processPackages [types-simplejson]: executing diffoscope
+[2023-07-20 17:17:55] INFO root fetch - processPackages [types-simplejson]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-simplejson-3.19.0.1.tar.gz tmp/types-simplejson-3.19.0.2.tar.gz --markdown 20230720/t/types-simplejson/3.19.0.1-3.19.0.2/diff.md --exclude *.pyd
+[2023-07-20 17:17:55] INFO root fetch - processPackages [types-pywin32]: Downloading https://files.pythonhosted.org/packages/b6/12/87acba3679d2b66483eb2ee8ac324064fe0c09a54ef22cb668c5fa529927/types-pywin32-306.0.0.3.tar.gz
+[2023-07-20 17:17:55] INFO root fetch - processPackages [types-pika-ts]: Downloading https://files.pythonhosted.org/packages/19/ae/ff7637547ad0d201458a0ab6e788d741005aae8da9e638a0cbe30242dcf0/types-pika-ts-1.3.0.9.tar.gz
+[2023-07-20 17:17:55] INFO root fetch - processPackages [types-flake8-bugbear]: Downloading https://files.pythonhosted.org/packages/70/b3/21fdb6b3d8a1110e3d908b743702e4032c23f22abaa584f33dc97d415ef5/types-flake8-bugbear-23.7.10.1.tar.gz
+[2023-07-20 17:17:55] INFO root fetch - processPackages [types-tree-sitter]: executing diffoscope
+[2023-07-20 17:17:55] INFO root fetch - processPackages [types-tree-sitter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-tree-sitter-0.20.1.3.tar.gz tmp/types-tree-sitter-0.20.1.4.tar.gz --markdown 20230720/t/types-tree-sitter/0.20.1.3-0.20.1.4/diff.md --exclude *.pyd
+[2023-07-20 17:17:55] INFO root fetch - processPackages [types-whatthepatch]: executing diffoscope
+[2023-07-20 17:17:55] INFO root fetch - processPackages [types-whatthepatch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-whatthepatch-1.0.2.4.tar.gz tmp/types-whatthepatch-1.0.2.5.tar.gz --markdown 20230720/t/types-whatthepatch/1.0.2.4-1.0.2.5/diff.md --exclude *.pyd
+[2023-07-20 17:17:55] INFO root fetch - processPackages [types-Pillow]: executing diffoscope
+[2023-07-20 17:17:55] INFO root fetch - processPackages [types-Pillow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-Pillow-9.5.0.5.tar.gz tmp/types-Pillow-9.5.0.6.tar.gz --markdown 20230720/t/types-Pillow/9.5.0.5-9.5.0.6/diff.md --exclude *.pyd
+[2023-07-20 17:17:55] INFO root fetch - processPackages [types-pika-ts]: executing diffoscope
+[2023-07-20 17:17:55] INFO root fetch - processPackages [types-pika-ts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-pika-ts-1.3.0.8.tar.gz tmp/types-pika-ts-1.3.0.9.tar.gz --markdown 20230720/t/types-pika-ts/1.3.0.8-1.3.0.9/diff.md --exclude *.pyd
+[2023-07-20 17:17:55] INFO root fetch - processPackages [types-flake8-bugbear]: executing diffoscope
+[2023-07-20 17:17:55] INFO root fetch - processPackages [types-flake8-bugbear]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-flake8-bugbear-23.7.10.0.tar.gz tmp/types-flake8-bugbear-23.7.10.1.tar.gz --markdown 20230720/t/types-flake8-bugbear/23.7.10.0-23.7.10.1/diff.md --exclude *.pyd
+[2023-07-20 17:17:55] INFO root fetch - processPackages [types-pywin32]: executing diffoscope
+[2023-07-20 17:17:55] INFO root fetch - processPackages [types-pywin32]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-pywin32-306.0.0.2.tar.gz tmp/types-pywin32-306.0.0.3.tar.gz --markdown 20230720/t/types-pywin32/306.0.0.2-306.0.0.3/diff.md --exclude *.pyd
+[2023-07-20 17:17:56] INFO root fetch - processPackages [types-flake8-2020]: Remove: archive file [/home/abi/fetcher/tmp/types-flake8-2020-1.8.0.0.tar.gz]
+[2023-07-20 17:17:56] INFO root fetch - processPackages [types-flake8-2020]: Remove: archive file [/home/abi/fetcher/tmp/types-flake8-2020-1.8.0.1.tar.gz]
+[2023-07-20 17:17:56] INFO root fetch - processPackages [types-flake8-2020]: Start processing: prepper
+[2023-07-20 17:17:56] INFO root fetch - main [MainThread]: End processing [types-flake8-2020]: success
+[2023-07-20 17:17:56] INFO root fetch - processPackages [prepper]: New version: [1.2.3] Old Version: [1.2.2]
+[2023-07-20 17:17:56] INFO root fetch - processPackages [prepper]: Downloading https://files.pythonhosted.org/packages/a4/d6/43e1ed6beb84ab92983b8d8755330bb86d3181485416387a034b412c4f3d/prepper-1.2.2.tar.gz
+[2023-07-20 17:17:56] INFO root fetch - processPackages [types-simplejson]: Remove: archive file [/home/abi/fetcher/tmp/types-simplejson-3.19.0.1.tar.gz]
+[2023-07-20 17:17:56] INFO root fetch - processPackages [types-simplejson]: Remove: archive file [/home/abi/fetcher/tmp/types-simplejson-3.19.0.2.tar.gz]
+[2023-07-20 17:17:56] INFO root fetch - processPackages [types-simplejson]: Start processing: types-playsound
+[2023-07-20 17:17:56] INFO root fetch - main [MainThread]: End processing [types-simplejson]: success
+[2023-07-20 17:17:56] INFO root fetch - processPackages [types-playsound]: New version: [1.3.1.3] Old Version: [1.3.1.2]
+[2023-07-20 17:17:56] INFO root fetch - processPackages [types-invoke]: Remove: archive file [/home/abi/fetcher/tmp/types-invoke-2.0.0.8.tar.gz]
+[2023-07-20 17:17:56] INFO root fetch - processPackages [types-invoke]: Remove: archive file [/home/abi/fetcher/tmp/types-invoke-2.0.0.9.tar.gz]
+[2023-07-20 17:17:56] INFO root fetch - processPackages [types-invoke]: Start processing: astrotitles
+[2023-07-20 17:17:56] INFO root fetch - main [MainThread]: End processing [types-invoke]: success
+[2023-07-20 17:17:56] INFO root fetch - processPackages [types-tree-sitter]: Remove: archive file [/home/abi/fetcher/tmp/types-tree-sitter-0.20.1.3.tar.gz]
+[2023-07-20 17:17:56] INFO root fetch - processPackages [types-tree-sitter]: Remove: archive file [/home/abi/fetcher/tmp/types-tree-sitter-0.20.1.4.tar.gz]
+[2023-07-20 17:17:56] INFO root fetch - processPackages [types-tree-sitter]: Start processing: types-psycopg2
+[2023-07-20 17:17:56] INFO root fetch - main [MainThread]: End processing [types-tree-sitter]: success
+[2023-07-20 17:17:56] INFO root fetch - processPackages [types-whatthepatch]: Remove: archive file [/home/abi/fetcher/tmp/types-whatthepatch-1.0.2.4.tar.gz]
+[2023-07-20 17:17:56] INFO root fetch - processPackages [types-whatthepatch]: Remove: archive file [/home/abi/fetcher/tmp/types-whatthepatch-1.0.2.5.tar.gz]
+[2023-07-20 17:17:56] INFO root fetch - processPackages [types-whatthepatch]: Start processing: types-aiofiles
+[2023-07-20 17:17:56] INFO root fetch - main [MainThread]: End processing [types-whatthepatch]: success
+[2023-07-20 17:17:56] INFO root fetch - processPackages [astrotitles]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-20 17:17:56] INFO root fetch - processPackages [types-aiofiles]: New version: [23.1.0.5] Old Version: [23.1.0.4]
+[2023-07-20 17:17:57] INFO root fetch - processPackages [prepper]: Downloading https://files.pythonhosted.org/packages/e2/1a/82bcc76af91573f612bf87f2e5720b534b95d3b29518e645105eccaf0d9e/prepper-1.2.3.tar.gz
+[2023-07-20 17:17:57] INFO root fetch - processPackages [types-psycopg2]: New version: [2.9.9] Old Version: [2.9.8]
+[2023-07-20 17:17:57] INFO root fetch - processPackages [types-playsound]: Downloading https://files.pythonhosted.org/packages/f1/b2/443981fd1375f5d05feb7be00415e31d423243fdf654beaadfcec4b3e4ed/types-playsound-1.3.1.2.tar.gz
+[2023-07-20 17:17:57] INFO root fetch - processPackages [types-flake8-bugbear]: Remove: archive file [/home/abi/fetcher/tmp/types-flake8-bugbear-23.7.10.0.tar.gz]
+[2023-07-20 17:17:57] INFO root fetch - processPackages [types-flake8-bugbear]: Remove: archive file [/home/abi/fetcher/tmp/types-flake8-bugbear-23.7.10.1.tar.gz]
+[2023-07-20 17:17:57] INFO root fetch - processPackages [types-flake8-bugbear]: Start processing: types-pycocotools
+[2023-07-20 17:17:57] INFO root fetch - main [MainThread]: End processing [types-flake8-bugbear]: success
+[2023-07-20 17:17:57] INFO root fetch - processPackages [astrotitles]: Downloading https://files.pythonhosted.org/packages/31/f2/61865f92f77868ff5e2effc70ff0662890c8ccf469f51010bb9c20b13751/astrotitles-0.1.2.tar.gz
+[2023-07-20 17:17:57] INFO root fetch - processPackages [types-pycocotools]: New version: [2.0.0.4] Old Version: [2.0.0.3]
+[2023-07-20 17:17:57] INFO root fetch - processPackages [prepper]: executing diffoscope
+[2023-07-20 17:17:57] INFO root fetch - processPackages [prepper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prepper-1.2.2.tar.gz tmp/prepper-1.2.3.tar.gz --markdown 20230720/p/prepper/1.2.2-1.2.3/diff.md --exclude *.pyd
+[2023-07-20 17:17:57] INFO root fetch - processPackages [types-pika-ts]: Remove: archive file [/home/abi/fetcher/tmp/types-pika-ts-1.3.0.8.tar.gz]
+[2023-07-20 17:17:57] INFO root fetch - processPackages [types-pika-ts]: Remove: archive file [/home/abi/fetcher/tmp/types-pika-ts-1.3.0.9.tar.gz]
+[2023-07-20 17:17:57] INFO root fetch - processPackages [types-pika-ts]: Start processing: types-commonmark
+[2023-07-20 17:17:57] INFO root fetch - main [MainThread]: End processing [types-pika-ts]: success
+[2023-07-20 17:17:57] INFO root fetch - processPackages [types-aiofiles]: Downloading https://files.pythonhosted.org/packages/89/f8/9e5384d2bdebf5960565a2b2c7ceccdf7a63d1161e87acde4364453f1410/types-aiofiles-23.1.0.4.tar.gz
+[2023-07-20 17:17:57] INFO root fetch - processPackages [faraday-agent-dispatcher]: Remove: archive file [/home/abi/fetcher/tmp/faraday_agent_dispatcher-2.6.0.tar.gz]
+[2023-07-20 17:17:57] INFO root fetch - processPackages [faraday-agent-dispatcher]: Remove: archive file [/home/abi/fetcher/tmp/faraday_agent_dispatcher-2.6.1.tar.gz]
+[2023-07-20 17:17:57] INFO root fetch - processPackages [types-commonmark]: New version: [0.9.2.4] Old Version: [0.9.2.3]
+[2023-07-20 17:17:57] INFO root fetch - processPackages [faraday-agent-dispatcher]: Start processing: types-html5lib
+[2023-07-20 17:17:57] INFO root fetch - main [MainThread]: End processing [faraday-agent-dispatcher]: success
+[2023-07-20 17:17:57] INFO root fetch - processPackages [types-psycopg2]: Downloading https://files.pythonhosted.org/packages/5c/e6/4586fc0a909bc797f26ddfc245c18c9a6e6319f95ea971a8d3ce8fe3749e/types-psycopg2-2.9.8.tar.gz
+[2023-07-20 17:17:57] INFO root fetch - processPackages [types-html5lib]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-07-20 17:17:57] INFO root fetch - processPackages [astrotitles]: Downloading https://files.pythonhosted.org/packages/5e/64/94c6dd8d4817239ec4fac74c67acfe78bad2796c8c7d70edfa1f0fea860e/astrotitles-0.1.3.tar.gz
+[2023-07-20 17:17:57] INFO root fetch - processPackages [types-playsound]: Downloading https://files.pythonhosted.org/packages/28/da/cc8218c89322f61572471b409ea96d4a5da85f2cff57f32cff9b568a7c39/types-playsound-1.3.1.3.tar.gz
+[2023-07-20 17:17:57] INFO root fetch - processPackages [types-pycocotools]: Downloading https://files.pythonhosted.org/packages/23/92/c9664098ae415bf7316956b11888cf1c7498b21dcc08107bad1f88de1b9b/types-pycocotools-2.0.0.3.tar.gz
+[2023-07-20 17:17:57] INFO root fetch - processPackages [types-Pillow]: Remove: archive file [/home/abi/fetcher/tmp/types-Pillow-9.5.0.5.tar.gz]
+[2023-07-20 17:17:57] INFO root fetch - processPackages [types-Pillow]: Remove: archive file [/home/abi/fetcher/tmp/types-Pillow-9.5.0.6.tar.gz]
+[2023-07-20 17:17:57] INFO root fetch - processPackages [types-Pillow]: Start processing: seleniumbase
+[2023-07-20 17:17:57] INFO root fetch - main [MainThread]: End processing [types-Pillow]: success
+[2023-07-20 17:17:57] INFO root fetch - processPackages [seleniumbase]: New version: [4.9.9] Old Version: [4.9.8]
+[2023-07-20 17:17:57] INFO root fetch - processPackages [types-commonmark]: Downloading https://files.pythonhosted.org/packages/5a/4a/48c8c22f852f5d09c19653e6ee1c141df27105611fc71193230e5938ee6b/types-commonmark-0.9.2.3.tar.gz
+[2023-07-20 17:17:57] INFO root fetch - processPackages [types-playsound]: executing diffoscope
+[2023-07-20 17:17:57] INFO root fetch - processPackages [types-playsound]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-playsound-1.3.1.2.tar.gz tmp/types-playsound-1.3.1.3.tar.gz --markdown 20230720/t/types-playsound/1.3.1.2-1.3.1.3/diff.md --exclude *.pyd
+[2023-07-20 17:17:57] INFO root fetch - processPackages [astrotitles]: executing diffoscope
+[2023-07-20 17:17:57] INFO root fetch - processPackages [astrotitles]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/astrotitles-0.1.2.tar.gz tmp/astrotitles-0.1.3.tar.gz --markdown 20230720/a/astrotitles/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-20 17:17:57] INFO root fetch - processPackages [types-aiofiles]: Downloading https://files.pythonhosted.org/packages/4c/9c/c5972d8d207363bf3a4159a437a567d3551f838372ad7aec27d4e1b822b3/types-aiofiles-23.1.0.5.tar.gz
+[2023-07-20 17:17:57] INFO root fetch - processPackages [types-html5lib]: Downloading https://files.pythonhosted.org/packages/20/7b/b30d27a1ba7e22939b7fd7f225d3762cb9180132e86feec248a8df0e999d/types-html5lib-1.1.8.tar.gz
+[2023-07-20 17:17:57] INFO root fetch - processPackages [types-aiofiles]: executing diffoscope
+[2023-07-20 17:17:57] INFO root fetch - processPackages [types-aiofiles]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-aiofiles-23.1.0.4.tar.gz tmp/types-aiofiles-23.1.0.5.tar.gz --markdown 20230720/t/types-aiofiles/23.1.0.4-23.1.0.5/diff.md --exclude *.pyd
+[2023-07-20 17:17:57] INFO root fetch - processPackages [types-psycopg2]: Downloading https://files.pythonhosted.org/packages/82/cc/73c4880716866b239054839bf72b23c51c4d43ffe56c9ccbe4948e7a57b6/types-psycopg2-2.9.9.tar.gz
+[2023-07-20 17:17:57] INFO root fetch - processPackages [types-pycocotools]: Downloading https://files.pythonhosted.org/packages/29/e2/54d857746ab6f36525486f345ab3b3017436103217f8cf44ea1e55c45e0b/types-pycocotools-2.0.0.4.tar.gz
+[2023-07-20 17:17:57] INFO root fetch - processPackages [seleniumbase]: Downloading https://files.pythonhosted.org/packages/d5/06/b4c4aa69540cf3a9c497a53072da777eefd704403fc8f952a88c69208ad1/seleniumbase-4.9.8.tar.gz
+[2023-07-20 17:17:57] INFO root fetch - processPackages [types-commonmark]: Downloading https://files.pythonhosted.org/packages/6c/9d/e9fb9abfc4525d68d4a901647cde9596eff5bd4e0fa082fd260b8245f710/types-commonmark-0.9.2.4.tar.gz
+[2023-07-20 17:17:58] INFO root fetch - processPackages [types-pycocotools]: executing diffoscope
+[2023-07-20 17:17:58] INFO root fetch - processPackages [types-pycocotools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-pycocotools-2.0.0.3.tar.gz tmp/types-pycocotools-2.0.0.4.tar.gz --markdown 20230720/t/types-pycocotools/2.0.0.3-2.0.0.4/diff.md --exclude *.pyd
+[2023-07-20 17:17:58] INFO root fetch - processPackages [types-pywin32]: Remove: archive file [/home/abi/fetcher/tmp/types-pywin32-306.0.0.2.tar.gz]
+[2023-07-20 17:17:58] INFO root fetch - processPackages [types-pywin32]: Remove: archive file [/home/abi/fetcher/tmp/types-pywin32-306.0.0.3.tar.gz]
+[2023-07-20 17:17:58] INFO root fetch - processPackages [types-pywin32]: Start processing: types-stdlib-list
+[2023-07-20 17:17:58] INFO root fetch - main [MainThread]: End processing [types-pywin32]: success
+[2023-07-20 17:17:58] INFO root fetch - processPackages [types-commonmark]: executing diffoscope
+[2023-07-20 17:17:58] INFO root fetch - processPackages [types-commonmark]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-commonmark-0.9.2.3.tar.gz tmp/types-commonmark-0.9.2.4.tar.gz --markdown 20230720/t/types-commonmark/0.9.2.3-0.9.2.4/diff.md --exclude *.pyd
+[2023-07-20 17:17:58] INFO root fetch - processPackages [types-psycopg2]: executing diffoscope
+[2023-07-20 17:17:58] INFO root fetch - processPackages [types-psycopg2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-psycopg2-2.9.8.tar.gz tmp/types-psycopg2-2.9.9.tar.gz --markdown 20230720/t/types-psycopg2/2.9.8-2.9.9/diff.md --exclude *.pyd
+[2023-07-20 17:17:58] INFO root fetch - processPackages [types-stdlib-list]: New version: [0.8.3.4] Old Version: [0.8.3.3]
+[2023-07-20 17:17:58] INFO root fetch - processPackages [types-html5lib]: Downloading https://files.pythonhosted.org/packages/30/cc/ebca3551dc41585d0c824669a0f66d3b584f822a048753e74144ce9651bd/types-html5lib-1.1.9.tar.gz
+[2023-07-20 17:17:58] INFO root fetch - processPackages [prepper]: Remove: archive file [/home/abi/fetcher/tmp/prepper-1.2.2.tar.gz]
+[2023-07-20 17:17:58] INFO root fetch - processPackages [prepper]: Remove: archive file [/home/abi/fetcher/tmp/prepper-1.2.3.tar.gz]
+[2023-07-20 17:17:58] INFO root fetch - processPackages [prepper]: Start processing: types-bleach
+[2023-07-20 17:17:58] INFO root fetch - main [MainThread]: End processing [prepper]: success
+[2023-07-20 17:17:58] INFO root fetch - processPackages [types-stdlib-list]: Downloading https://files.pythonhosted.org/packages/50/ad/9f19318a7bb4f1f2ac9d97524edd52a1bd64007ea1e054a1402e2dcb6261/types-stdlib-list-0.8.3.3.tar.gz
+[2023-07-20 17:17:58] INFO root fetch - processPackages [types-bleach]: New version: [6.0.0.4] Old Version: [6.0.0.3]
+[2023-07-20 17:17:58] INFO root fetch - processPackages [types-html5lib]: executing diffoscope
+[2023-07-20 17:17:58] INFO root fetch - processPackages [types-html5lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-html5lib-1.1.8.tar.gz tmp/types-html5lib-1.1.9.tar.gz --markdown 20230720/t/types-html5lib/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-07-20 17:17:58] INFO root fetch - processPackages [seleniumbase]: Downloading https://files.pythonhosted.org/packages/9d/0f/462449b9921267bb9f0f0db257c72435e50ec2fcd4219764bb131be70686/seleniumbase-4.9.9.tar.gz
+[2023-07-20 17:17:58] INFO root fetch - processPackages [types-bleach]: Downloading https://files.pythonhosted.org/packages/51/9f/1396fa92f2e00f0052a06610e1d02a3aed0ac33c3e8a7079303c39a4d79b/types-bleach-6.0.0.3.tar.gz
+[2023-07-20 17:17:58] INFO root fetch - processPackages [types-stdlib-list]: Downloading https://files.pythonhosted.org/packages/79/05/bb92811dbafe9931156ea9350be8fdfb4df3a1b61688a9dd7d62442dc2a1/types-stdlib-list-0.8.3.4.tar.gz
+[2023-07-20 17:17:58] INFO root fetch - processPackages [seleniumbase]: executing diffoscope
+[2023-07-20 17:17:58] INFO root fetch - processPackages [seleniumbase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seleniumbase-4.9.8.tar.gz tmp/seleniumbase-4.9.9.tar.gz --markdown 20230720/s/seleniumbase/4.9.8-4.9.9/diff.md --exclude *.pyd
+[2023-07-20 17:17:58] INFO root fetch - processPackages [astrotitles]: Remove: archive file [/home/abi/fetcher/tmp/astrotitles-0.1.2.tar.gz]
+[2023-07-20 17:17:58] INFO root fetch - processPackages [astrotitles]: Remove: archive file [/home/abi/fetcher/tmp/astrotitles-0.1.3.tar.gz]
+[2023-07-20 17:17:58] INFO root fetch - processPackages [astrotitles]: Start processing: types-console-menu
+[2023-07-20 17:17:58] INFO root fetch - main [MainThread]: End processing [astrotitles]: success
+[2023-07-20 17:17:58] INFO root fetch - processPackages [types-stdlib-list]: executing diffoscope
+[2023-07-20 17:17:58] INFO root fetch - processPackages [types-stdlib-list]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-stdlib-list-0.8.3.3.tar.gz tmp/types-stdlib-list-0.8.3.4.tar.gz --markdown 20230720/t/types-stdlib-list/0.8.3.3-0.8.3.4/diff.md --exclude *.pyd
+[2023-07-20 17:17:58] INFO root fetch - processPackages [types-console-menu]: New version: [0.8.0.3] Old Version: [0.8.0.2]
+[2023-07-20 17:17:58] INFO root fetch - processPackages [types-bleach]: Downloading https://files.pythonhosted.org/packages/36/00/2ba0fbcf0dc5a948f2276fe66c4b64bc25626babe757622db8c2896b57fe/types-bleach-6.0.0.4.tar.gz
+[2023-07-20 17:17:59] INFO root fetch - processPackages [types-playsound]: Remove: archive file [/home/abi/fetcher/tmp/types-playsound-1.3.1.2.tar.gz]
+[2023-07-20 17:17:59] INFO root fetch - processPackages [types-playsound]: Remove: archive file [/home/abi/fetcher/tmp/types-playsound-1.3.1.3.tar.gz]
+[2023-07-20 17:17:59] INFO root fetch - processPackages [types-playsound]: Start processing: types-pyserial
+[2023-07-20 17:17:59] INFO root fetch - main [MainThread]: End processing [types-playsound]: success
+[2023-07-20 17:17:59] INFO root fetch - processPackages [types-bleach]: executing diffoscope
+[2023-07-20 17:17:59] INFO root fetch - processPackages [types-pyserial]: New version: [3.5.0.9] Old Version: [3.5.0.8]
+[2023-07-20 17:17:59] INFO root fetch - processPackages [types-bleach]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-bleach-6.0.0.3.tar.gz tmp/types-bleach-6.0.0.4.tar.gz --markdown 20230720/t/types-bleach/6.0.0.3-6.0.0.4/diff.md --exclude *.pyd
+[2023-07-20 17:17:59] INFO root fetch - processPackages [types-console-menu]: Downloading https://files.pythonhosted.org/packages/89/90/9ba5a1e2cbffca7c82371aefb16a2e08671bd6d1bdf60bf2a0085948d481/types-console-menu-0.8.0.2.tar.gz
+[2023-07-20 17:17:59] INFO root fetch - processPackages [types-aiofiles]: Remove: archive file [/home/abi/fetcher/tmp/types-aiofiles-23.1.0.4.tar.gz]
+[2023-07-20 17:17:59] INFO root fetch - processPackages [types-aiofiles]: Remove: archive file [/home/abi/fetcher/tmp/types-aiofiles-23.1.0.5.tar.gz]
+[2023-07-20 17:17:59] INFO root fetch - processPackages [types-aiofiles]: Start processing: types-flake8-rst-docstrings
+[2023-07-20 17:17:59] INFO root fetch - main [MainThread]: End processing [types-aiofiles]: success
+[2023-07-20 17:17:59] INFO root fetch - processPackages [types-pyserial]: Downloading https://files.pythonhosted.org/packages/b1/3b/add248b26a0fd7ef369888f884ba6102cc36d5a02c1022c5b1f79ff5aa24/types-pyserial-3.5.0.8.tar.gz
+[2023-07-20 17:17:59] INFO root fetch - processPackages [types-flake8-rst-docstrings]: New version: [0.3.0.3] Old Version: [0.3.0.2]
+[2023-07-20 17:17:59] INFO root fetch - processPackages [types-pycocotools]: Remove: archive file [/home/abi/fetcher/tmp/types-pycocotools-2.0.0.3.tar.gz]
+[2023-07-20 17:17:59] INFO root fetch - processPackages [types-pycocotools]: Remove: archive file [/home/abi/fetcher/tmp/types-pycocotools-2.0.0.4.tar.gz]
+[2023-07-20 17:17:59] INFO root fetch - processPackages [types-pycocotools]: Start processing: types-opentracing
+[2023-07-20 17:17:59] INFO root fetch - main [MainThread]: End processing [types-pycocotools]: success
+[2023-07-20 17:17:59] INFO root fetch - processPackages [types-commonmark]: Remove: archive file [/home/abi/fetcher/tmp/types-commonmark-0.9.2.3.tar.gz]
+[2023-07-20 17:17:59] INFO root fetch - processPackages [types-commonmark]: Remove: archive file [/home/abi/fetcher/tmp/types-commonmark-0.9.2.4.tar.gz]
+[2023-07-20 17:17:59] INFO root fetch - processPackages [types-commonmark]: Start processing: types-cachetools
+[2023-07-20 17:17:59] INFO root fetch - main [MainThread]: End processing [types-commonmark]: success
+[2023-07-20 17:17:59] INFO root fetch - processPackages [types-cachetools]: New version: [5.3.0.6] Old Version: [5.3.0.5]
+[2023-07-20 17:17:59] INFO root fetch - processPackages [types-opentracing]: New version: [2.4.9] Old Version: [2.4.8]
+[2023-07-20 17:17:59] INFO root fetch - processPackages [types-psycopg2]: Remove: archive file [/home/abi/fetcher/tmp/types-psycopg2-2.9.8.tar.gz]
+[2023-07-20 17:17:59] INFO root fetch - processPackages [types-psycopg2]: Remove: archive file [/home/abi/fetcher/tmp/types-psycopg2-2.9.9.tar.gz]
+[2023-07-20 17:17:59] INFO root fetch - processPackages [types-psycopg2]: Start processing: types-dockerfile-parse
+[2023-07-20 17:17:59] INFO root fetch - main [MainThread]: End processing [types-psycopg2]: success
+[2023-07-20 17:17:59] INFO root fetch - processPackages [types-console-menu]: Downloading https://files.pythonhosted.org/packages/05/3e/3f40d25bacf93e7ab444ccf93a57f5680e8d2ef2d66e17de930f51c34a17/types-console-menu-0.8.0.3.tar.gz
+[2023-07-20 17:17:59] INFO root fetch - processPackages [types-flake8-rst-docstrings]: Downloading https://files.pythonhosted.org/packages/80/52/083fe891064a2f686e84c4e6117e272ef992f217948476e3e9af899129a0/types-flake8-rst-docstrings-0.3.0.2.tar.gz
+[2023-07-20 17:17:59] INFO root fetch - processPackages [types-dockerfile-parse]: New version: [2.0.0.5] Old Version: [2.0.0.4]
+[2023-07-20 17:17:59] INFO root fetch - processPackages [types-html5lib]: Remove: archive file [/home/abi/fetcher/tmp/types-html5lib-1.1.8.tar.gz]
+[2023-07-20 17:17:59] INFO root fetch - processPackages [types-html5lib]: Remove: archive file [/home/abi/fetcher/tmp/types-html5lib-1.1.9.tar.gz]
+[2023-07-20 17:17:59] INFO root fetch - processPackages [types-html5lib]: Start processing: types-pep8-naming
+[2023-07-20 17:17:59] INFO root fetch - main [MainThread]: End processing [types-html5lib]: success
+[2023-07-20 17:17:59] INFO root fetch - processPackages [types-console-menu]: executing diffoscope
+[2023-07-20 17:17:59] INFO root fetch - processPackages [types-console-menu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-console-menu-0.8.0.2.tar.gz tmp/types-console-menu-0.8.0.3.tar.gz --markdown 20230720/t/types-console-menu/0.8.0.2-0.8.0.3/diff.md --exclude *.pyd
+[2023-07-20 17:17:59] INFO root fetch - processPackages [types-pep8-naming]: New version: [0.13.0.5] Old Version: [0.13.0.4]
+[2023-07-20 17:17:59] INFO root fetch - processPackages [types-cachetools]: Downloading https://files.pythonhosted.org/packages/7a/06/4c116d347c4848cc80b8f53560fa4ff86978f5f9565ac25e32e640db3ce5/types-cachetools-5.3.0.5.tar.gz
+[2023-07-20 17:17:59] INFO root fetch - processPackages [types-opentracing]: Downloading https://files.pythonhosted.org/packages/c6/89/74f377c7602f54c469c3b5c24cbd70a35525f4825387168747a03fcf5826/types-opentracing-2.4.8.tar.gz
+[2023-07-20 17:17:59] INFO root fetch - processPackages [types-pyserial]: Downloading https://files.pythonhosted.org/packages/1f/d7/2e9d10b2170932ca6bd723d640af2053977b99812a4ca0005ad0bd495393/types-pyserial-3.5.0.9.tar.gz
+[2023-07-20 17:17:59] INFO root fetch - processPackages [types-dockerfile-parse]: Downloading https://files.pythonhosted.org/packages/a9/bf/ebfca64af47ab85ff7c23b7e52ee5a74349a3e67f86ab240adfff77e257b/types-dockerfile-parse-2.0.0.4.tar.gz
+[2023-07-20 17:17:59] INFO root fetch - processPackages [types-stdlib-list]: Remove: archive file [/home/abi/fetcher/tmp/types-stdlib-list-0.8.3.3.tar.gz]
+[2023-07-20 17:17:59] INFO root fetch - processPackages [types-stdlib-list]: Remove: archive file [/home/abi/fetcher/tmp/types-stdlib-list-0.8.3.4.tar.gz]
+[2023-07-20 17:17:59] INFO root fetch - processPackages [types-stdlib-list]: Start processing: femto-admin
+[2023-07-20 17:17:59] INFO root fetch - main [MainThread]: End processing [types-stdlib-list]: success
+[2023-07-20 17:17:59] INFO root fetch - processPackages [types-pep8-naming]: Downloading https://files.pythonhosted.org/packages/c0/33/5ef6f5e6eeb6ab983df16680611abf4cbece78b5160ae952e5547eea310f/types-pep8-naming-0.13.0.4.tar.gz
+[2023-07-20 17:17:59] INFO root fetch - processPackages [types-pyserial]: executing diffoscope
+[2023-07-20 17:17:59] INFO root fetch - processPackages [types-pyserial]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-pyserial-3.5.0.8.tar.gz tmp/types-pyserial-3.5.0.9.tar.gz --markdown 20230720/t/types-pyserial/3.5.0.8-3.5.0.9/diff.md --exclude *.pyd
+[2023-07-20 17:18:00] WARNING root fetch - processPackages [femto-admin]: Skipping, unable to determine old version
+[2023-07-20 17:18:00] INFO root fetch - processPackages [femto-admin]: Start processing: mediumvers123
+[2023-07-20 17:18:00] INFO root fetch - main [MainThread]: End processing [femto-admin] error
+[2023-07-20 17:18:00] INFO root fetch - processPackages [types-flake8-rst-docstrings]: Downloading https://files.pythonhosted.org/packages/2d/ae/91c7d8bffc85a689e571b324f04efa0b58882df51c226c5c34943f55d496/types-flake8-rst-docstrings-0.3.0.3.tar.gz
+[2023-07-20 17:18:00] WARNING root fetch - processPackages [mediumvers123]: Skipping, unable to determine old version
+[2023-07-20 17:18:00] INFO root fetch - processPackages [mediumvers123]: Start processing: types-setuptools
+[2023-07-20 17:18:00] INFO root fetch - main [MainThread]: End processing [mediumvers123] error
+[2023-07-20 17:18:00] INFO root fetch - processPackages [types-cachetools]: Downloading https://files.pythonhosted.org/packages/cf/85/78e40815bd412b39216edff562abb0c5614b71e395bae97f8332c6de661d/types-cachetools-5.3.0.6.tar.gz
+[2023-07-20 17:18:00] INFO root fetch - processPackages [types-setuptools]: New version: [68.0.0.3] Old Version: [68.0.0.2]
+[2023-07-20 17:18:00] INFO root fetch - processPackages [types-bleach]: Remove: archive file [/home/abi/fetcher/tmp/types-bleach-6.0.0.3.tar.gz]
+[2023-07-20 17:18:00] INFO root fetch - processPackages [types-bleach]: Remove: archive file [/home/abi/fetcher/tmp/types-bleach-6.0.0.4.tar.gz]
+[2023-07-20 17:18:00] INFO root fetch - processPackages [types-bleach]: Start processing: types-Markdown
+[2023-07-20 17:18:00] INFO root fetch - main [MainThread]: End processing [types-bleach]: success
+[2023-07-20 17:18:00] INFO root fetch - processPackages [types-dockerfile-parse]: Downloading https://files.pythonhosted.org/packages/5c/5b/0b0dc3e6ef8e4927c23fe0005c8942b0d6cbd91ebbc2943abf9985b18685/types-dockerfile-parse-2.0.0.5.tar.gz
+[2023-07-20 17:18:00] INFO root fetch - processPackages [types-opentracing]: Downloading https://files.pythonhosted.org/packages/d2/0e/c2d62b22ab6b6cd2af73dd4e4adfb4b382e9703e35e991d28f0a3df875d8/types-opentracing-2.4.9.tar.gz
+[2023-07-20 17:18:00] INFO root fetch - processPackages [types-flake8-rst-docstrings]: executing diffoscope
+[2023-07-20 17:18:00] INFO root fetch - processPackages [types-flake8-rst-docstrings]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-flake8-rst-docstrings-0.3.0.2.tar.gz tmp/types-flake8-rst-docstrings-0.3.0.3.tar.gz --markdown 20230720/t/types-flake8-rst-docstrings/0.3.0.2-0.3.0.3/diff.md --exclude *.pyd
+[2023-07-20 17:18:00] INFO root fetch - processPackages [types-cachetools]: executing diffoscope
+[2023-07-20 17:18:00] INFO root fetch - processPackages [types-cachetools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-cachetools-5.3.0.5.tar.gz tmp/types-cachetools-5.3.0.6.tar.gz --markdown 20230720/t/types-cachetools/5.3.0.5-5.3.0.6/diff.md --exclude *.pyd
+[2023-07-20 17:18:00] INFO root fetch - processPackages [types-setuptools]: Downloading https://files.pythonhosted.org/packages/d9/40/b59923396db03ddeec56ec27cd2fceb2377947169f5e6419f4d6183322f6/types-setuptools-68.0.0.2.tar.gz
+[2023-07-20 17:18:00] INFO root fetch - processPackages [types-Markdown]: New version: [3.4.2.9] Old Version: [3.4.2.8]
+[2023-07-20 17:18:00] INFO root fetch - processPackages [types-pep8-naming]: Downloading https://files.pythonhosted.org/packages/81/c7/5e6b4dcade744cc98fd5d7aeca1e0710a4c736cfb81cad35fdcda460510d/types-pep8-naming-0.13.0.5.tar.gz
+[2023-07-20 17:18:00] INFO root fetch - processPackages [types-dockerfile-parse]: executing diffoscope
+[2023-07-20 17:18:00] INFO root fetch - processPackages [types-dockerfile-parse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-dockerfile-parse-2.0.0.4.tar.gz tmp/types-dockerfile-parse-2.0.0.5.tar.gz --markdown 20230720/t/types-dockerfile-parse/2.0.0.4-2.0.0.5/diff.md --exclude *.pyd
+[2023-07-20 17:18:00] INFO root fetch - processPackages [types-opentracing]: executing diffoscope
+[2023-07-20 17:18:00] INFO root fetch - processPackages [types-opentracing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-opentracing-2.4.8.tar.gz tmp/types-opentracing-2.4.9.tar.gz --markdown 20230720/t/types-opentracing/2.4.8-2.4.9/diff.md --exclude *.pyd
+[2023-07-20 17:18:00] INFO root fetch - processPackages [types-pep8-naming]: executing diffoscope
+[2023-07-20 17:18:00] INFO root fetch - processPackages [types-pep8-naming]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-pep8-naming-0.13.0.4.tar.gz tmp/types-pep8-naming-0.13.0.5.tar.gz --markdown 20230720/t/types-pep8-naming/0.13.0.4-0.13.0.5/diff.md --exclude *.pyd
+[2023-07-20 17:18:00] INFO root fetch - processPackages [types-Markdown]: Downloading https://files.pythonhosted.org/packages/e6/8d/99f9297d88f725c3532971a4925d63988b840bd041dc2d6e5bddfbe4a7c5/types-Markdown-3.4.2.8.tar.gz
+[2023-07-20 17:18:00] INFO root fetch - processPackages [types-setuptools]: Downloading https://files.pythonhosted.org/packages/b6/52/af336255375b438b6580af48d6a4f4a0638f6e9f3e210c3497281720298f/types-setuptools-68.0.0.3.tar.gz
+[2023-07-20 17:18:00] INFO root fetch - processPackages [types-console-menu]: Remove: archive file [/home/abi/fetcher/tmp/types-console-menu-0.8.0.2.tar.gz]
+[2023-07-20 17:18:00] INFO root fetch - processPackages [types-console-menu]: Remove: archive file [/home/abi/fetcher/tmp/types-console-menu-0.8.0.3.tar.gz]
+[2023-07-20 17:18:00] INFO root fetch - processPackages [types-console-menu]: Start processing: types-dateparser
+[2023-07-20 17:18:00] INFO root fetch - main [MainThread]: End processing [types-console-menu]: success
+[2023-07-20 17:18:00] INFO root fetch - processPackages [types-setuptools]: executing diffoscope
+[2023-07-20 17:18:00] INFO root fetch - processPackages [types-setuptools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-setuptools-68.0.0.2.tar.gz tmp/types-setuptools-68.0.0.3.tar.gz --markdown 20230720/t/types-setuptools/68.0.0.2-68.0.0.3/diff.md --exclude *.pyd
+[2023-07-20 17:18:00] INFO root fetch - processPackages [types-dateparser]: New version: [1.1.4.9] Old Version: [1.1.4.8]
+[2023-07-20 17:18:00] INFO root fetch - processPackages [types-Markdown]: Downloading https://files.pythonhosted.org/packages/5b/a3/db18c5de0cbe1afe69fe4f93d72f26cfbba995f4fa5e639a6634ad31e8fd/types-Markdown-3.4.2.9.tar.gz
+[2023-07-20 17:18:01] INFO root fetch - processPackages [seleniumbase]: Remove: archive file [/home/abi/fetcher/tmp/seleniumbase-4.9.8.tar.gz]
+[2023-07-20 17:18:01] INFO root fetch - processPackages [seleniumbase]: Remove: archive file [/home/abi/fetcher/tmp/seleniumbase-4.9.9.tar.gz]
+[2023-07-20 17:18:01] INFO root fetch - processPackages [seleniumbase]: Start processing: types-PyYAML
+[2023-07-20 17:18:01] INFO root fetch - main [MainThread]: End processing [seleniumbase]: success
+[2023-07-20 17:18:01] INFO root fetch - processPackages [types-Markdown]: executing diffoscope
+[2023-07-20 17:18:01] INFO root fetch - processPackages [types-Markdown]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-Markdown-3.4.2.8.tar.gz tmp/types-Markdown-3.4.2.9.tar.gz --markdown 20230720/t/types-Markdown/3.4.2.8-3.4.2.9/diff.md --exclude *.pyd
+[2023-07-20 17:18:01] INFO root fetch - processPackages [types-PyYAML]: New version: [6.0.9] Old Version: [6.0.8]
+[2023-07-20 17:18:01] INFO root fetch - processPackages [types-dateparser]: Downloading https://files.pythonhosted.org/packages/45/ba/e097c0bfead8ca681b410a5880a3d90167e91dac4e0f85f5a89123ee6722/types-dateparser-1.1.4.8.tar.gz
+[2023-07-20 17:18:01] INFO root fetch - processPackages [types-pyserial]: Remove: archive file [/home/abi/fetcher/tmp/types-pyserial-3.5.0.8.tar.gz]
+[2023-07-20 17:18:01] INFO root fetch - processPackages [types-pyserial]: Remove: archive file [/home/abi/fetcher/tmp/types-pyserial-3.5.0.9.tar.gz]
+[2023-07-20 17:18:01] INFO root fetch - processPackages [types-pyserial]: Start processing: types-flake8-simplify
+[2023-07-20 17:18:01] INFO root fetch - main [MainThread]: End processing [types-pyserial]: success
+[2023-07-20 17:18:01] INFO root fetch - processPackages [types-PyYAML]: Downloading https://files.pythonhosted.org/packages/1d/b5/bb2c2541056b26c419ed9ce8635e483257562433026a7174bddd078f665c/types-PyYAML-6.0.8.tar.gz
+[2023-07-20 17:18:01] INFO root fetch - processPackages [types-flake8-simplify]: New version: [0.20.0.2] Old Version: [0.20.0.1]
+[2023-07-20 17:18:01] INFO root fetch - processPackages [types-dateparser]: Downloading https://files.pythonhosted.org/packages/e5/f6/d662cd9b1f7e7a7f14d1d26e114118c728a6a7fee63fba9dc6ceb7a9c7b0/types-dateparser-1.1.4.9.tar.gz
+[2023-07-20 17:18:01] INFO root fetch - processPackages [types-flake8-simplify]: Downloading https://files.pythonhosted.org/packages/19/26/affea9dba380f529ee8c55ddc94d3febfdd594026f80f1010ded7478604b/types-flake8-simplify-0.20.0.1.tar.gz
+[2023-07-20 17:18:01] INFO root fetch - processPackages [types-dateparser]: executing diffoscope
+[2023-07-20 17:18:01] INFO root fetch - processPackages [types-dateparser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-dateparser-1.1.4.8.tar.gz tmp/types-dateparser-1.1.4.9.tar.gz --markdown 20230720/t/types-dateparser/1.1.4.8-1.1.4.9/diff.md --exclude *.pyd
+[2023-07-20 17:18:01] INFO root fetch - processPackages [types-flake8-rst-docstrings]: Remove: archive file [/home/abi/fetcher/tmp/types-flake8-rst-docstrings-0.3.0.2.tar.gz]
+[2023-07-20 17:18:01] INFO root fetch - processPackages [types-flake8-rst-docstrings]: Remove: archive file [/home/abi/fetcher/tmp/types-flake8-rst-docstrings-0.3.0.3.tar.gz]
+[2023-07-20 17:18:01] INFO root fetch - processPackages [types-flake8-rst-docstrings]: Start processing: types-boto
+[2023-07-20 17:18:01] INFO root fetch - main [MainThread]: End processing [types-flake8-rst-docstrings]: success
+[2023-07-20 17:18:01] INFO root fetch - processPackages [types-PyYAML]: Downloading https://files.pythonhosted.org/packages/2b/0d/882d0771996897df176521a93c2ce9d9b0da66d0f9c2bc441b9872a91297/types-PyYAML-6.0.9.tar.gz
+[2023-07-20 17:18:01] INFO root fetch - processPackages [types-dockerfile-parse]: Remove: archive file [/home/abi/fetcher/tmp/types-dockerfile-parse-2.0.0.4.tar.gz]
+[2023-07-20 17:18:01] INFO root fetch - processPackages [types-dockerfile-parse]: Remove: archive file [/home/abi/fetcher/tmp/types-dockerfile-parse-2.0.0.5.tar.gz]
+[2023-07-20 17:18:01] INFO root fetch - processPackages [types-dockerfile-parse]: Start processing: types-python-gflags
+[2023-07-20 17:18:01] INFO root fetch - main [MainThread]: End processing [types-dockerfile-parse]: success
+[2023-07-20 17:18:01] INFO root fetch - processPackages [types-boto]: New version: [2.49.9] Old Version: [2.49.8]
+[2023-07-20 17:18:01] INFO root fetch - processPackages [types-python-gflags]: New version: [3.1.7.3] Old Version: [3.1.7.2]
+[2023-07-20 17:18:01] INFO root fetch - processPackages [types-PyYAML]: executing diffoscope
+[2023-07-20 17:18:01] INFO root fetch - processPackages [types-PyYAML]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-PyYAML-6.0.8.tar.gz tmp/types-PyYAML-6.0.9.tar.gz --markdown 20230720/t/types-PyYAML/6.0.8-6.0.9/diff.md --exclude *.pyd
+[2023-07-20 17:18:01] INFO root fetch - processPackages [types-cachetools]: Remove: archive file [/home/abi/fetcher/tmp/types-cachetools-5.3.0.5.tar.gz]
+[2023-07-20 17:18:01] INFO root fetch - processPackages [types-cachetools]: Remove: archive file [/home/abi/fetcher/tmp/types-cachetools-5.3.0.6.tar.gz]
+[2023-07-20 17:18:01] INFO root fetch - processPackages [types-cachetools]: Start processing: types-passpy
+[2023-07-20 17:18:01] INFO root fetch - main [MainThread]: End processing [types-cachetools]: success
+[2023-07-20 17:18:02] INFO root fetch - processPackages [types-pep8-naming]: Remove: archive file [/home/abi/fetcher/tmp/types-pep8-naming-0.13.0.4.tar.gz]
+[2023-07-20 17:18:02] INFO root fetch - processPackages [types-pep8-naming]: Remove: archive file [/home/abi/fetcher/tmp/types-pep8-naming-0.13.0.5.tar.gz]
+[2023-07-20 17:18:02] INFO root fetch - processPackages [types-pep8-naming]: Start processing: types-entrypoints
+[2023-07-20 17:18:02] INFO root fetch - main [MainThread]: End processing [types-pep8-naming]: success
+[2023-07-20 17:18:02] INFO root fetch - processPackages [types-opentracing]: Remove: archive file [/home/abi/fetcher/tmp/types-opentracing-2.4.8.tar.gz]
+[2023-07-20 17:18:02] INFO root fetch - processPackages [types-opentracing]: Remove: archive file [/home/abi/fetcher/tmp/types-opentracing-2.4.9.tar.gz]
+[2023-07-20 17:18:02] INFO root fetch - processPackages [types-opentracing]: Start processing: types-translationstring
+[2023-07-20 17:18:02] INFO root fetch - main [MainThread]: End processing [types-opentracing]: success
+[2023-07-20 17:18:02] INFO root fetch - processPackages [types-flake8-simplify]: Downloading https://files.pythonhosted.org/packages/e8/98/97c4abc49e5fe16c71b66989d2dfc0cb5c51ec30408396a8d02cd3b0bdd3/types-flake8-simplify-0.20.0.2.tar.gz
+[2023-07-20 17:18:02] INFO root fetch - processPackages [types-boto]: Downloading https://files.pythonhosted.org/packages/e4/3b/3cc81816712770a4f55910dd9879428233632129c2e1526575800c062dc6/types-boto-2.49.8.tar.gz
+[2023-07-20 17:18:02] INFO root fetch - processPackages [types-passpy]: New version: [1.0.2.4] Old Version: [1.0.2.3]
+[2023-07-20 17:18:02] INFO root fetch - processPackages [types-entrypoints]: New version: [0.4.1.4] Old Version: [0.4.1.3]
+[2023-07-20 17:18:02] INFO root fetch - processPackages [types-python-gflags]: Downloading https://files.pythonhosted.org/packages/6b/63/1c3d843b9f225d0255cbe342cd2052576bb96fc0bfa30fcdcbd36829036b/types-python-gflags-3.1.7.2.tar.gz
+[2023-07-20 17:18:02] INFO root fetch - processPackages [types-flake8-simplify]: executing diffoscope
+[2023-07-20 17:18:02] INFO root fetch - processPackages [types-flake8-simplify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-flake8-simplify-0.20.0.1.tar.gz tmp/types-flake8-simplify-0.20.0.2.tar.gz --markdown 20230720/t/types-flake8-simplify/0.20.0.1-0.20.0.2/diff.md --exclude *.pyd
+[2023-07-20 17:18:02] INFO root fetch - processPackages [types-translationstring]: New version: [1.4.0.1] Old Version: [1.4.0.0]
+[2023-07-20 17:18:02] INFO root fetch - processPackages [types-passpy]: Downloading https://files.pythonhosted.org/packages/c4/35/5064cf67fe9f0d82cb1883f9ab226ebe0ca24bf92666ec0ffc40285ed74e/types-passpy-1.0.2.3.tar.gz
+[2023-07-20 17:18:02] INFO root fetch - processPackages [types-entrypoints]: Downloading https://files.pythonhosted.org/packages/88/ec/719d225d5be45c02d4578c6be18d6fcafb61d908edd7f90b64596bb96077/types-entrypoints-0.4.1.3.tar.gz
+[2023-07-20 17:18:02] INFO root fetch - processPackages [types-Markdown]: Remove: archive file [/home/abi/fetcher/tmp/types-Markdown-3.4.2.8.tar.gz]
+[2023-07-20 17:18:02] INFO root fetch - processPackages [types-Markdown]: Remove: archive file [/home/abi/fetcher/tmp/types-Markdown-3.4.2.9.tar.gz]
+[2023-07-20 17:18:02] INFO root fetch - processPackages [types-Markdown]: Start processing: types-waitress
+[2023-07-20 17:18:02] INFO root fetch - main [MainThread]: End processing [types-Markdown]: success
+[2023-07-20 17:18:02] INFO root fetch - processPackages [types-setuptools]: Remove: archive file [/home/abi/fetcher/tmp/types-setuptools-68.0.0.2.tar.gz]
+[2023-07-20 17:18:02] INFO root fetch - processPackages [types-setuptools]: Remove: archive file [/home/abi/fetcher/tmp/types-setuptools-68.0.0.3.tar.gz]
+[2023-07-20 17:18:02] INFO root fetch - processPackages [types-setuptools]: Start processing: types-pyasn1
+[2023-07-20 17:18:02] INFO root fetch - main [MainThread]: End processing [types-setuptools]: success
+[2023-07-20 17:18:02] INFO root fetch - processPackages [types-translationstring]: Downloading https://files.pythonhosted.org/packages/f5/27/9f24ae060d9604c25d1534544f39a463886d5d5e659c18c70b502dcff648/types-translationstring-1.4.0.0.tar.gz
+[2023-07-20 17:18:02] INFO root fetch - processPackages [types-boto]: Downloading https://files.pythonhosted.org/packages/0a/64/de62113f5aeb3d422922a416e95953d3fd8e82fa7ce1002894e28a204d50/types-boto-2.49.9.tar.gz
+[2023-07-20 17:18:02] INFO root fetch - processPackages [types-waitress]: New version: [2.1.4.9] Old Version: [2.1.4.8]
+[2023-07-20 17:18:02] INFO root fetch - processPackages [types-python-gflags]: Downloading https://files.pythonhosted.org/packages/0f/3c/1e9b15058918a7100a269ca962b6d20ae9197a16e79e7e3b4dfea990fcc2/types-python-gflags-3.1.7.3.tar.gz
+[2023-07-20 17:18:02] INFO root fetch - processPackages [types-pyasn1]: New version: [0.4.0.6] Old Version: [0.4.0.5]
+[2023-07-20 17:18:02] INFO root fetch - processPackages [types-passpy]: Downloading https://files.pythonhosted.org/packages/31/25/d7c6adff3ada928773647be48935039db857bd5d75be990fb48ccbf12ec8/types-passpy-1.0.2.4.tar.gz
+[2023-07-20 17:18:02] INFO root fetch - processPackages [types-python-gflags]: executing diffoscope
+[2023-07-20 17:18:02] INFO root fetch - processPackages [types-python-gflags]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-python-gflags-3.1.7.2.tar.gz tmp/types-python-gflags-3.1.7.3.tar.gz --markdown 20230720/t/types-python-gflags/3.1.7.2-3.1.7.3/diff.md --exclude *.pyd
+[2023-07-20 17:18:02] INFO root fetch - processPackages [types-boto]: executing diffoscope
+[2023-07-20 17:18:02] INFO root fetch - processPackages [types-boto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-boto-2.49.8.tar.gz tmp/types-boto-2.49.9.tar.gz --markdown 20230720/t/types-boto/2.49.8-2.49.9/diff.md --exclude *.pyd
+[2023-07-20 17:18:02] INFO root fetch - processPackages [types-translationstring]: Downloading https://files.pythonhosted.org/packages/24/be/a9e8a16b32978931413054efce30d767958dbc90939ce3405a2d6a7d62fb/types-translationstring-1.4.0.1.tar.gz
+[2023-07-20 17:18:02] INFO root fetch - processPackages [types-dateparser]: Remove: archive file [/home/abi/fetcher/tmp/types-dateparser-1.1.4.8.tar.gz]
+[2023-07-20 17:18:02] INFO root fetch - processPackages [types-dateparser]: Remove: archive file [/home/abi/fetcher/tmp/types-dateparser-1.1.4.9.tar.gz]
+[2023-07-20 17:18:02] INFO root fetch - processPackages [types-dateparser]: Start processing: types-flake8-typing-imports
+[2023-07-20 17:18:02] INFO root fetch - main [MainThread]: End processing [types-dateparser]: success
+[2023-07-20 17:18:02] INFO root fetch - processPackages [types-waitress]: Downloading https://files.pythonhosted.org/packages/49/e4/8b83b4d8cf0dc6c06487ac784fbfcd1c588ccc44abb89d94342717c2504d/types-waitress-2.1.4.8.tar.gz
+[2023-07-20 17:18:02] INFO root fetch - processPackages [types-pyasn1]: Downloading https://files.pythonhosted.org/packages/c1/1e/851e3846187ae80233c272258c98700725f39ae45db6bb30334da1414e73/types-pyasn1-0.4.0.5.tar.gz
+[2023-07-20 17:18:02] INFO root fetch - processPackages [types-entrypoints]: Downloading https://files.pythonhosted.org/packages/8a/b1/b36111bac2717a565565835d5d6dab238d6ba47b84b75beac23be4cd4517/types-entrypoints-0.4.1.4.tar.gz
+[2023-07-20 17:18:02] INFO root fetch - processPackages [types-passpy]: executing diffoscope
+[2023-07-20 17:18:02] INFO root fetch - processPackages [types-passpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-passpy-1.0.2.3.tar.gz tmp/types-passpy-1.0.2.4.tar.gz --markdown 20230720/t/types-passpy/1.0.2.3-1.0.2.4/diff.md --exclude *.pyd
+[2023-07-20 17:18:03] INFO root fetch - processPackages [types-translationstring]: executing diffoscope
+[2023-07-20 17:18:03] INFO root fetch - processPackages [types-translationstring]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-translationstring-1.4.0.0.tar.gz tmp/types-translationstring-1.4.0.1.tar.gz --markdown 20230720/t/types-translationstring/1.4.0.0-1.4.0.1/diff.md --exclude *.pyd
+[2023-07-20 17:18:03] INFO root fetch - processPackages [types-flake8-typing-imports]: New version: [1.14.0.3] Old Version: [1.14.0.2]
+[2023-07-20 17:18:03] INFO root fetch - processPackages [types-entrypoints]: executing diffoscope
+[2023-07-20 17:18:03] INFO root fetch - processPackages [types-entrypoints]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-entrypoints-0.4.1.3.tar.gz tmp/types-entrypoints-0.4.1.4.tar.gz --markdown 20230720/t/types-entrypoints/0.4.1.3-0.4.1.4/diff.md --exclude *.pyd
+[2023-07-20 17:18:03] INFO root fetch - processPackages [types-PyYAML]: Remove: archive file [/home/abi/fetcher/tmp/types-PyYAML-6.0.8.tar.gz]
+[2023-07-20 17:18:03] INFO root fetch - processPackages [types-PyYAML]: Remove: archive file [/home/abi/fetcher/tmp/types-PyYAML-6.0.9.tar.gz]
+[2023-07-20 17:18:03] INFO root fetch - processPackages [types-PyYAML]: Start processing: types-dj-database-url
+[2023-07-20 17:18:03] INFO root fetch - main [MainThread]: End processing [types-PyYAML]: success
+[2023-07-20 17:18:03] INFO root fetch - processPackages [types-flake8-typing-imports]: Downloading https://files.pythonhosted.org/packages/4a/e1/71d7000a21f6885c7669413517938bca957bd4244c9b551822bf364e36b2/types-flake8-typing-imports-1.14.0.2.tar.gz
+[2023-07-20 17:18:03] INFO root fetch - processPackages [types-waitress]: Downloading https://files.pythonhosted.org/packages/db/4c/824bd5736a98dcd6deaad34e0912e6b425ac39e63a06b03e662db091ffcf/types-waitress-2.1.4.9.tar.gz
+[2023-07-20 17:18:03] INFO root fetch - processPackages [types-dj-database-url]: New version: [1.3.0.4] Old Version: [1.3.0.3]
+[2023-07-20 17:18:03] INFO root fetch - processPackages [types-pyasn1]: Downloading https://files.pythonhosted.org/packages/f1/30/9481e16cbea374c90f1b4def0d3f1cd91f08a2cde3a2e2236f576e8cd77f/types-pyasn1-0.4.0.6.tar.gz
+[2023-07-20 17:18:03] INFO root fetch - processPackages [types-flake8-simplify]: Remove: archive file [/home/abi/fetcher/tmp/types-flake8-simplify-0.20.0.1.tar.gz]
+[2023-07-20 17:18:03] INFO root fetch - processPackages [types-flake8-simplify]: Remove: archive file [/home/abi/fetcher/tmp/types-flake8-simplify-0.20.0.2.tar.gz]
+[2023-07-20 17:18:03] INFO root fetch - processPackages [types-flake8-simplify]: Start processing: types-tqdm
+[2023-07-20 17:18:03] INFO root fetch - main [MainThread]: End processing [types-flake8-simplify]: success
+[2023-07-20 17:18:03] INFO root fetch - processPackages [types-waitress]: executing diffoscope
+[2023-07-20 17:18:03] INFO root fetch - processPackages [types-waitress]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-waitress-2.1.4.8.tar.gz tmp/types-waitress-2.1.4.9.tar.gz --markdown 20230720/t/types-waitress/2.1.4.8-2.1.4.9/diff.md --exclude *.pyd
+[2023-07-20 17:18:03] INFO root fetch - processPackages [types-pyasn1]: executing diffoscope
+[2023-07-20 17:18:03] INFO root fetch - processPackages [types-pyasn1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-pyasn1-0.4.0.5.tar.gz tmp/types-pyasn1-0.4.0.6.tar.gz --markdown 20230720/t/types-pyasn1/0.4.0.5-0.4.0.6/diff.md --exclude *.pyd
+[2023-07-20 17:18:03] INFO root fetch - processPackages [types-dj-database-url]: Downloading https://files.pythonhosted.org/packages/57/8a/0e57fb22b19497d77518672e1bd37bbfb2edcd25fd08509679c090ccf636/types-dj-database-url-1.3.0.3.tar.gz
+[2023-07-20 17:18:03] INFO root fetch - processPackages [types-tqdm]: New version: [4.65.0.2] Old Version: [4.65.0.1]
+[2023-07-20 17:18:03] INFO root fetch - processPackages [types-flake8-typing-imports]: Downloading https://files.pythonhosted.org/packages/2d/32/aa9df5cb9f15bf2636beeb85a33a6dd4772a2c656f30ba84cf4576458ece/types-flake8-typing-imports-1.14.0.3.tar.gz
+[2023-07-20 17:18:03] INFO root fetch - processPackages [types-tqdm]: Downloading https://files.pythonhosted.org/packages/52/03/69d62641581dce114c557588758da417a178c8cf08016ece1dcbd0904edd/types-tqdm-4.65.0.1.tar.gz
+[2023-07-20 17:18:03] INFO root fetch - processPackages [types-flake8-typing-imports]: executing diffoscope
+[2023-07-20 17:18:03] INFO root fetch - processPackages [types-flake8-typing-imports]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-flake8-typing-imports-1.14.0.2.tar.gz tmp/types-flake8-typing-imports-1.14.0.3.tar.gz --markdown 20230720/t/types-flake8-typing-imports/1.14.0.2-1.14.0.3/diff.md --exclude *.pyd
+[2023-07-20 17:18:03] INFO root fetch - processPackages [types-python-gflags]: Remove: archive file [/home/abi/fetcher/tmp/types-python-gflags-3.1.7.2.tar.gz]
+[2023-07-20 17:18:03] INFO root fetch - processPackages [types-python-gflags]: Remove: archive file [/home/abi/fetcher/tmp/types-python-gflags-3.1.7.3.tar.gz]
+[2023-07-20 17:18:03] INFO root fetch - processPackages [types-python-gflags]: Start processing: types-six
+[2023-07-20 17:18:03] INFO root fetch - main [MainThread]: End processing [types-python-gflags]: success
+[2023-07-20 17:18:04] INFO root fetch - processPackages [types-dj-database-url]: Downloading https://files.pythonhosted.org/packages/64/de/cc9c03a8f0edd30a314f117910861339bb25dc841a785157a2e8ef03f78b/types-dj-database-url-1.3.0.4.tar.gz
+[2023-07-20 17:18:04] INFO root fetch - processPackages [types-tqdm]: Downloading https://files.pythonhosted.org/packages/a6/a7/dec85aa8302dc47b3d834edfa6dcfc45161afc635b78326586f42f0eec4a/types-tqdm-4.65.0.2.tar.gz
+[2023-07-20 17:18:04] INFO root fetch - processPackages [types-six]: New version: [1.16.9] Old Version: [1.16.8]
+[2023-07-20 17:18:04] INFO root fetch - processPackages [types-boto]: Remove: archive file [/home/abi/fetcher/tmp/types-boto-2.49.8.tar.gz]
+[2023-07-20 17:18:04] INFO root fetch - processPackages [types-dj-database-url]: executing diffoscope
+[2023-07-20 17:18:04] INFO root fetch - processPackages [types-dj-database-url]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-dj-database-url-1.3.0.3.tar.gz tmp/types-dj-database-url-1.3.0.4.tar.gz --markdown 20230720/t/types-dj-database-url/1.3.0.3-1.3.0.4/diff.md --exclude *.pyd
+[2023-07-20 17:18:04] INFO root fetch - processPackages [types-boto]: Remove: archive file [/home/abi/fetcher/tmp/types-boto-2.49.9.tar.gz]
+[2023-07-20 17:18:04] INFO root fetch - main [MainThread]: End processing [types-boto]: success
+[2023-07-20 17:18:04] INFO root fetch - processPackages [types-tqdm]: executing diffoscope
+[2023-07-20 17:18:04] INFO root fetch - processPackages [types-tqdm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-tqdm-4.65.0.1.tar.gz tmp/types-tqdm-4.65.0.2.tar.gz --markdown 20230720/t/types-tqdm/4.65.0.1-4.65.0.2/diff.md --exclude *.pyd
+[2023-07-20 17:18:04] INFO root fetch - processPackages [types-translationstring]: Remove: archive file [/home/abi/fetcher/tmp/types-translationstring-1.4.0.0.tar.gz]
+[2023-07-20 17:18:04] INFO root fetch - processPackages [types-translationstring]: Remove: archive file [/home/abi/fetcher/tmp/types-translationstring-1.4.0.1.tar.gz]
+[2023-07-20 17:18:04] INFO root fetch - main [MainThread]: End processing [types-translationstring]: success
+[2023-07-20 17:18:04] INFO root fetch - processPackages [types-entrypoints]: Remove: archive file [/home/abi/fetcher/tmp/types-entrypoints-0.4.1.3.tar.gz]
+[2023-07-20 17:18:04] INFO root fetch - processPackages [types-entrypoints]: Remove: archive file [/home/abi/fetcher/tmp/types-entrypoints-0.4.1.4.tar.gz]
+[2023-07-20 17:18:04] INFO root fetch - main [MainThread]: End processing [types-entrypoints]: success
+[2023-07-20 17:18:04] INFO root fetch - processPackages [types-six]: Downloading https://files.pythonhosted.org/packages/ab/8b/b2c5573a02ca648d1ba0a11921a04d55eaecdb0e21b030d678ef4b4bef4d/types-six-1.16.8.tar.gz
+[2023-07-20 17:18:04] INFO root fetch - processPackages [types-passpy]: Remove: archive file [/home/abi/fetcher/tmp/types-passpy-1.0.2.3.tar.gz]
+[2023-07-20 17:18:04] INFO root fetch - processPackages [types-passpy]: Remove: archive file [/home/abi/fetcher/tmp/types-passpy-1.0.2.4.tar.gz]
+[2023-07-20 17:18:04] INFO root fetch - main [MainThread]: End processing [types-passpy]: success
+[2023-07-20 17:18:04] INFO root fetch - processPackages [types-waitress]: Remove: archive file [/home/abi/fetcher/tmp/types-waitress-2.1.4.8.tar.gz]
+[2023-07-20 17:18:04] INFO root fetch - processPackages [types-waitress]: Remove: archive file [/home/abi/fetcher/tmp/types-waitress-2.1.4.9.tar.gz]
+[2023-07-20 17:18:04] INFO root fetch - main [MainThread]: End processing [types-waitress]: success
+[2023-07-20 17:18:04] INFO root fetch - processPackages [types-pyasn1]: Remove: archive file [/home/abi/fetcher/tmp/types-pyasn1-0.4.0.5.tar.gz]
+[2023-07-20 17:18:04] INFO root fetch - processPackages [types-pyasn1]: Remove: archive file [/home/abi/fetcher/tmp/types-pyasn1-0.4.0.6.tar.gz]
+[2023-07-20 17:18:04] INFO root fetch - main [MainThread]: End processing [types-pyasn1]: success
+[2023-07-20 17:18:04] INFO root fetch - processPackages [types-six]: Downloading https://files.pythonhosted.org/packages/91/fb/5e27e5be75b26805676d55111e9bb23409bae2660943712c7ff2ecfa1286/types-six-1.16.9.tar.gz
+[2023-07-20 17:18:05] INFO root fetch - processPackages [types-six]: executing diffoscope
+[2023-07-20 17:18:05] INFO root fetch - processPackages [types-six]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-six-1.16.8.tar.gz tmp/types-six-1.16.9.tar.gz --markdown 20230720/t/types-six/1.16.8-1.16.9/diff.md --exclude *.pyd
+[2023-07-20 17:18:05] INFO root fetch - processPackages [types-flake8-typing-imports]: Remove: archive file [/home/abi/fetcher/tmp/types-flake8-typing-imports-1.14.0.2.tar.gz]
+[2023-07-20 17:18:05] INFO root fetch - processPackages [types-flake8-typing-imports]: Remove: archive file [/home/abi/fetcher/tmp/types-flake8-typing-imports-1.14.0.3.tar.gz]
+[2023-07-20 17:18:05] INFO root fetch - main [MainThread]: End processing [types-flake8-typing-imports]: success
+[2023-07-20 17:18:05] INFO root fetch - processPackages [types-dj-database-url]: Remove: archive file [/home/abi/fetcher/tmp/types-dj-database-url-1.3.0.3.tar.gz]
+[2023-07-20 17:18:05] INFO root fetch - processPackages [types-dj-database-url]: Remove: archive file [/home/abi/fetcher/tmp/types-dj-database-url-1.3.0.4.tar.gz]
+[2023-07-20 17:18:05] INFO root fetch - main [MainThread]: End processing [types-dj-database-url]: success
+[2023-07-20 17:18:05] INFO root fetch - processPackages [types-tqdm]: Remove: archive file [/home/abi/fetcher/tmp/types-tqdm-4.65.0.1.tar.gz]
+[2023-07-20 17:18:05] INFO root fetch - processPackages [types-tqdm]: Remove: archive file [/home/abi/fetcher/tmp/types-tqdm-4.65.0.2.tar.gz]
+[2023-07-20 17:18:05] INFO root fetch - main [MainThread]: End processing [types-tqdm]: success
+[2023-07-20 17:18:05] INFO root fetch - processPackages [types-six]: Remove: archive file [/home/abi/fetcher/tmp/types-six-1.16.8.tar.gz]
+[2023-07-20 17:18:05] INFO root fetch - processPackages [types-six]: Remove: archive file [/home/abi/fetcher/tmp/types-six-1.16.9.tar.gz]
+[2023-07-20 17:18:05] INFO root fetch - main [MainThread]: End processing [types-six]: success
+[2023-07-20 17:18:05] INFO root fetch - main [MainThread]: Store serial: [18968723]
