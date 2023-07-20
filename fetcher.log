@@ -8081,3 +8081,114 @@ AssertionError: tmp/verify4py-test-0.1.7.tar.gz does not exist
 [2023-07-20 14:25:53] INFO root fetch - processPackages [ChatGPT-Cloud]: Remove: archive file [/home/abi/fetcher/tmp/ChatGPT-Cloud-0.6.2.tar.gz]
 [2023-07-20 14:25:53] INFO root fetch - main [MainThread]: End processing [ChatGPT-Cloud]: success
 [2023-07-20 14:25:53] INFO root fetch - main [MainThread]: Store serial: [18966333]
+[2023-07-20 14:30:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18966333]
+[2023-07-20 14:31:03] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-07-20 14:31:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dataplicity
+[2023-07-20 14:31:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aws-secrets-cache
+[2023-07-20 14:31:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hmmer-tables
+[2023-07-20 14:31:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: DependiPy
+[2023-07-20 14:31:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nr29467-16-preprocessing
+[2023-07-20 14:31:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: IngeoDash
+[2023-07-20 14:31:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: Clone-ChatGPT
+[2023-07-20 14:31:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: splineplot
+[2023-07-20 14:31:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: french-cities
+[2023-07-20 14:31:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: hlrn-slurm
+[2023-07-20 14:31:03] INFO root fetch - processPackages [Clone-ChatGPT]: New version: [1.2.9] Old Version: [1.2.4]
+[2023-07-20 14:31:04] INFO root fetch - processPackages [IngeoDash]: New version: [0.1.0] Old Version: [0.0.25]
+[2023-07-20 14:31:04] WARNING root fetch - processPackages [hlrn-slurm]: Skipping, unable to determine old version
+[2023-07-20 14:31:04] INFO root fetch - processPackages [hlrn-slurm]: Start processing: fastlane-bot
+[2023-07-20 14:31:04] INFO root fetch - main [MainThread]: End processing [hlrn-slurm] error
+[2023-07-20 14:31:04] INFO root fetch - processPackages [aws-secrets-cache]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-07-20 14:31:04] WARNING root fetch - processPackages [nr29467-16-preprocessing]: Skipping, unable to determine old version
+[2023-07-20 14:31:04] INFO root fetch - processPackages [nr29467-16-preprocessing]: Start processing: pyinstaller-hooks-contrib
+[2023-07-20 14:31:04] INFO root fetch - main [MainThread]: End processing [nr29467-16-preprocessing] error
+[2023-07-20 14:31:04] INFO root fetch - processPackages [fastlane-bot]: New version: [0.1.0] Old Version: [0.0.1]
+[2023-07-20 14:31:04] WARNING root fetch - processPackages [DependiPy]: Skipping, unable to determine old version
+[2023-07-20 14:31:04] INFO root fetch - processPackages [DependiPy]: Start processing: jsm-transactional-ruler
+[2023-07-20 14:31:04] INFO root fetch - main [MainThread]: End processing [DependiPy] error
+[2023-07-20 14:31:04] INFO root fetch - processPackages [splineplot]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-07-20 14:31:04] INFO root fetch - processPackages [hmmer-tables]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-07-20 14:31:04] INFO root fetch - processPackages [french-cities]: New version: [0.1.0a2] Old Version: [0.1.0a1]
+[2023-07-20 14:31:04] INFO root fetch - processPackages [dataplicity]: New version: [0.5.9a5] Old Version: [0.5.9a4]
+[2023-07-20 14:31:04] INFO root fetch - processPackages [pyinstaller-hooks-contrib]: New version: [2023.6] Old Version: [2023.5]
+[2023-07-20 14:31:04] INFO root fetch - processPackages [jsm-transactional-ruler]: New version: [2.9.1] Old Version: [2.8.1]
+[2023-07-20 14:31:04] INFO root fetch - processPackages [splineplot]: Downloading https://files.pythonhosted.org/packages/c0/17/8850fc45d08308265f0f6bf5207e4efccaeaa2f07ed868062b68b3ba552e/splineplot-0.1.0.tar.gz
+[2023-07-20 14:31:04] INFO root fetch - processPackages [Clone-ChatGPT]: Downloading https://files.pythonhosted.org/packages/ca/41/50367495d4ceca5e0ed3b81f3197a2a61321b6e3249496b5b744940068dc/Clone-ChatGPT-1.2.4.tar.gz
+[2023-07-20 14:31:04] INFO root fetch - processPackages [fastlane-bot]: Downloading https://files.pythonhosted.org/packages/b6/d3/4ff75827aa256e34679b9bc9a508234e9330e95b9fe487dfa0b928efe135/fastlane_bot-0.0.1.tar.gz
+[2023-07-20 14:31:04] INFO root fetch - processPackages [IngeoDash]: Downloading https://files.pythonhosted.org/packages/ba/47/1512cde0bb06eb2014822bc14edcf7c66b8aeb6b436d5db934bf7e091e4d/IngeoDash-0.0.25.tar.gz
+[2023-07-20 14:31:04] INFO root fetch - processPackages [dataplicity]: Downloading https://files.pythonhosted.org/packages/ef/55/51d0f967e475001f99b73eb9ff910341b5f4e3c0a8b008f0651338bde6ae/dataplicity-0.5.9a4.tar.gz
+[2023-07-20 14:31:04] INFO root fetch - processPackages [hmmer-tables]: Downloading https://files.pythonhosted.org/packages/04/8e/014990f237a600fbbfb6725e3487aa7625dbb0a3847f0a2a91e7db6a3ee8/hmmer_tables-0.4.0.tar.gz
+[2023-07-20 14:31:04] INFO root fetch - processPackages [pyinstaller-hooks-contrib]: Downloading https://files.pythonhosted.org/packages/7b/8c/135fd27cae5ea0bd5061dac882049977198943cdbc06fcbb8c417c25fba5/pyinstaller-hooks-contrib-2023.5.tar.gz
+[2023-07-20 14:31:04] INFO root fetch - processPackages [french-cities]: Downloading https://files.pythonhosted.org/packages/56/9a/3c276a4f547b49990c66b989b9d9a4d13e939a0a38aaeccb758702403e7a/french_cities-0.1.0a1.tar.gz
+[2023-07-20 14:31:04] INFO root fetch - processPackages [aws-secrets-cache]: Downloading https://files.pythonhosted.org/packages/3f/e2/77422b989cff950944199d75f19630fb397837505d665d90981b4cca3d9b/aws_secrets_cache-0.2.0.tar.gz
+[2023-07-20 14:31:04] INFO root fetch - processPackages [jsm-transactional-ruler]: Downloading https://files.pythonhosted.org/packages/b9/76/6c978a8eea41b15939c9de5086a2ca88a4bf3faa6251b681a8937706a28e/jsm_transactional_ruler-2.8.1.tar.gz
+[2023-07-20 14:31:04] INFO root fetch - processPackages [splineplot]: Downloading https://files.pythonhosted.org/packages/2c/34/230db64e460d41115c0b69859bf3ba4a876de366fac3e911841e2d0d85f7/splineplot-0.2.0.tar.gz
+[2023-07-20 14:31:04] INFO root fetch - processPackages [IngeoDash]: Downloading https://files.pythonhosted.org/packages/a4/6d/06f56c80d4638caf40484114d325a6f9e2f9d21a30efabf435f587f08c5e/IngeoDash-0.1.0.tar.gz
+[2023-07-20 14:31:04] INFO root fetch - processPackages [aws-secrets-cache]: Downloading https://files.pythonhosted.org/packages/50/8b/4d58924a8d98eebbf489e502ffa461355a401aa06511061af54f85c28664/aws_secrets_cache-0.2.1.tar.gz
+[2023-07-20 14:31:04] INFO root fetch - processPackages [hmmer-tables]: Downloading https://files.pythonhosted.org/packages/4e/72/a8104184fba613825cc01bcb5a3c065ea3b997a0a2b27f911a6acf881aa6/hmmer_tables-0.5.0.tar.gz
+[2023-07-20 14:31:04] INFO root fetch - processPackages [Clone-ChatGPT]: Downloading https://files.pythonhosted.org/packages/a9/01/480472d01d235c720694241fe7c0d94d332263b74b9f458fdafce0cf7156/Clone-ChatGPT-1.2.9.tar.gz
+[2023-07-20 14:31:04] INFO root fetch - processPackages [splineplot]: executing diffoscope
+[2023-07-20 14:31:04] INFO root fetch - processPackages [splineplot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/splineplot-0.1.0.tar.gz tmp/splineplot-0.2.0.tar.gz --markdown 20230720/s/splineplot/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-07-20 14:31:05] INFO root fetch - processPackages [fastlane-bot]: Downloading https://files.pythonhosted.org/packages/1b/81/7339c9da677040112f710ac99dd41e53ebd72ff3b51cf6c7da8afa4cce3f/fastlane_bot-0.1.0.tar.gz
+[2023-07-20 14:31:05] INFO root fetch - processPackages [french-cities]: Downloading https://files.pythonhosted.org/packages/56/aa/1449d649f7f748c427dd106fab9e9d50b0c1dc5dd13f8ab1de612a743d42/french_cities-0.1.0a2.tar.gz
+[2023-07-20 14:31:05] INFO root fetch - processPackages [dataplicity]: Downloading https://files.pythonhosted.org/packages/90/33/51cf718679e72aa0262c29bc64715d7498269d5de2a09e211efe30644d63/dataplicity-0.5.9a5.tar.gz
+[2023-07-20 14:31:05] INFO root fetch - processPackages [pyinstaller-hooks-contrib]: Downloading https://files.pythonhosted.org/packages/c7/1e/d1884f4f59a89ac7c9c6eafb3fb454c6b92187805caa0847a7f4bcc87798/pyinstaller-hooks-contrib-2023.6.tar.gz
+[2023-07-20 14:31:05] INFO root fetch - processPackages [IngeoDash]: executing diffoscope
+[2023-07-20 14:31:05] INFO root fetch - processPackages [IngeoDash]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/IngeoDash-0.0.25.tar.gz tmp/IngeoDash-0.1.0.tar.gz --markdown 20230720/I/IngeoDash/0.0.25-0.1.0/diff.md --exclude *.pyd
+[2023-07-20 14:31:05] INFO root fetch - processPackages [jsm-transactional-ruler]: Downloading https://files.pythonhosted.org/packages/36/96/9933af4f964db9ecfe0c45d38a53d06a7b49bbc51393c0b3f101b85b31b5/jsm_transactional_ruler-2.9.1.tar.gz
+[2023-07-20 14:31:05] INFO root fetch - processPackages [aws-secrets-cache]: executing diffoscope
+[2023-07-20 14:31:05] INFO root fetch - processPackages [aws-secrets-cache]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_secrets_cache-0.2.0.tar.gz tmp/aws_secrets_cache-0.2.1.tar.gz --markdown 20230720/a/aws-secrets-cache/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-07-20 14:31:05] INFO root fetch - processPackages [hmmer-tables]: executing diffoscope
+[2023-07-20 14:31:05] INFO root fetch - processPackages [hmmer-tables]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hmmer_tables-0.4.0.tar.gz tmp/hmmer_tables-0.5.0.tar.gz --markdown 20230720/h/hmmer-tables/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-07-20 14:31:05] INFO root fetch - processPackages [Clone-ChatGPT]: executing diffoscope
+[2023-07-20 14:31:05] INFO root fetch - processPackages [Clone-ChatGPT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Clone-ChatGPT-1.2.4.tar.gz tmp/Clone-ChatGPT-1.2.9.tar.gz --markdown 20230720/C/Clone-ChatGPT/1.2.4-1.2.9/diff.md --exclude *.pyd
+[2023-07-20 14:31:05] INFO root fetch - processPackages [french-cities]: executing diffoscope
+[2023-07-20 14:31:05] INFO root fetch - processPackages [french-cities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/french_cities-0.1.0a1.tar.gz tmp/french_cities-0.1.0a2.tar.gz --markdown 20230720/f/french-cities/0.1.0a1-0.1.0a2/diff.md --exclude *.pyd
+[2023-07-20 14:31:05] INFO root fetch - processPackages [fastlane-bot]: executing diffoscope
+[2023-07-20 14:31:05] INFO root fetch - processPackages [fastlane-bot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastlane_bot-0.0.1.tar.gz tmp/fastlane_bot-0.1.0.tar.gz --markdown 20230720/f/fastlane-bot/0.0.1-0.1.0/diff.md --exclude *.pyd
+[2023-07-20 14:31:05] INFO root fetch - processPackages [jsm-transactional-ruler]: executing diffoscope
+[2023-07-20 14:31:05] INFO root fetch - processPackages [jsm-transactional-ruler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jsm_transactional_ruler-2.8.1.tar.gz tmp/jsm_transactional_ruler-2.9.1.tar.gz --markdown 20230720/j/jsm-transactional-ruler/2.8.1-2.9.1/diff.md --exclude *.pyd
+[2023-07-20 14:31:05] INFO root fetch - processPackages [dataplicity]: executing diffoscope
+[2023-07-20 14:31:05] INFO root fetch - processPackages [dataplicity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataplicity-0.5.9a4.tar.gz tmp/dataplicity-0.5.9a5.tar.gz --markdown 20230720/d/dataplicity/0.5.9a4-0.5.9a5/diff.md --exclude *.pyd
+[2023-07-20 14:31:05] INFO root fetch - processPackages [pyinstaller-hooks-contrib]: executing diffoscope
+[2023-07-20 14:31:05] INFO root fetch - processPackages [pyinstaller-hooks-contrib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyinstaller-hooks-contrib-2023.5.tar.gz tmp/pyinstaller-hooks-contrib-2023.6.tar.gz --markdown 20230720/p/pyinstaller-hooks-contrib/2023.5-2023.6/diff.md --exclude *.pyd
+[2023-07-20 14:31:06] INFO root fetch - processPackages [splineplot]: Remove: archive file [/home/abi/fetcher/tmp/splineplot-0.1.0.tar.gz]
+[2023-07-20 14:31:06] INFO root fetch - processPackages [splineplot]: Remove: archive file [/home/abi/fetcher/tmp/splineplot-0.2.0.tar.gz]
+[2023-07-20 14:31:06] INFO root fetch - processPackages [splineplot]: Start processing: pabutools
+[2023-07-20 14:31:06] INFO root fetch - main [MainThread]: End processing [splineplot]: success
+[2023-07-20 14:31:06] INFO root fetch - processPackages [pabutools]: New version: [0.9] Old Version: [0.8]
+[2023-07-20 14:31:06] INFO root fetch - processPackages [aws-secrets-cache]: Remove: archive file [/home/abi/fetcher/tmp/aws_secrets_cache-0.2.0.tar.gz]
+[2023-07-20 14:31:06] INFO root fetch - processPackages [aws-secrets-cache]: Remove: archive file [/home/abi/fetcher/tmp/aws_secrets_cache-0.2.1.tar.gz]
+[2023-07-20 14:31:06] INFO root fetch - main [MainThread]: End processing [aws-secrets-cache]: success
+[2023-07-20 14:31:06] INFO root fetch - processPackages [pabutools]: Downloading https://files.pythonhosted.org/packages/98/23/f3060d0073e679398d38cb25abcb8836b4b24d4de0769e3cb5ecd0f0e753/pabutools-0.8.tar.gz
+[2023-07-20 14:31:06] INFO root fetch - processPackages [IngeoDash]: Remove: archive file [/home/abi/fetcher/tmp/IngeoDash-0.0.25.tar.gz]
+[2023-07-20 14:31:06] INFO root fetch - processPackages [IngeoDash]: Remove: archive file [/home/abi/fetcher/tmp/IngeoDash-0.1.0.tar.gz]
+[2023-07-20 14:31:06] INFO root fetch - main [MainThread]: End processing [IngeoDash]: success
+[2023-07-20 14:31:06] INFO root fetch - processPackages [hmmer-tables]: Remove: archive file [/home/abi/fetcher/tmp/hmmer_tables-0.4.0.tar.gz]
+[2023-07-20 14:31:06] INFO root fetch - processPackages [hmmer-tables]: Remove: archive file [/home/abi/fetcher/tmp/hmmer_tables-0.5.0.tar.gz]
+[2023-07-20 14:31:06] INFO root fetch - main [MainThread]: End processing [hmmer-tables]: success
+[2023-07-20 14:31:06] INFO root fetch - processPackages [jsm-transactional-ruler]: Remove: archive file [/home/abi/fetcher/tmp/jsm_transactional_ruler-2.8.1.tar.gz]
+[2023-07-20 14:31:06] INFO root fetch - processPackages [french-cities]: Remove: archive file [/home/abi/fetcher/tmp/french_cities-0.1.0a1.tar.gz]
+[2023-07-20 14:31:06] INFO root fetch - processPackages [jsm-transactional-ruler]: Remove: archive file [/home/abi/fetcher/tmp/jsm_transactional_ruler-2.9.1.tar.gz]
+[2023-07-20 14:31:06] INFO root fetch - processPackages [french-cities]: Remove: archive file [/home/abi/fetcher/tmp/french_cities-0.1.0a2.tar.gz]
+[2023-07-20 14:31:06] INFO root fetch - main [MainThread]: End processing [jsm-transactional-ruler]: success
+[2023-07-20 14:31:06] INFO root fetch - main [MainThread]: End processing [french-cities]: success
+[2023-07-20 14:31:07] INFO root fetch - processPackages [pabutools]: Downloading https://files.pythonhosted.org/packages/56/b0/7ad6cfaf44d8343afae69329300536ab7b0acc5d1a24cc791137939c0807/pabutools-0.9.tar.gz
+[2023-07-20 14:31:07] INFO root fetch - processPackages [dataplicity]: Remove: archive file [/home/abi/fetcher/tmp/dataplicity-0.5.9a4.tar.gz]
+[2023-07-20 14:31:07] INFO root fetch - processPackages [dataplicity]: Remove: archive file [/home/abi/fetcher/tmp/dataplicity-0.5.9a5.tar.gz]
+[2023-07-20 14:31:07] INFO root fetch - main [MainThread]: End processing [dataplicity]: success
+[2023-07-20 14:31:07] INFO root fetch - processPackages [fastlane-bot]: Remove: archive file [/home/abi/fetcher/tmp/fastlane_bot-0.0.1.tar.gz]
+[2023-07-20 14:31:07] INFO root fetch - processPackages [fastlane-bot]: Remove: archive file [/home/abi/fetcher/tmp/fastlane_bot-0.1.0.tar.gz]
+[2023-07-20 14:31:07] INFO root fetch - main [MainThread]: End processing [fastlane-bot]: success
+[2023-07-20 14:31:07] INFO root fetch - processPackages [pabutools]: executing diffoscope
+[2023-07-20 14:31:07] INFO root fetch - processPackages [pabutools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pabutools-0.8.tar.gz tmp/pabutools-0.9.tar.gz --markdown 20230720/p/pabutools/0.8-0.9/diff.md --exclude *.pyd
+[2023-07-20 14:31:07] INFO root fetch - processPackages [Clone-ChatGPT]: Remove: archive file [/home/abi/fetcher/tmp/Clone-ChatGPT-1.2.4.tar.gz]
+[2023-07-20 14:31:07] INFO root fetch - processPackages [Clone-ChatGPT]: Remove: archive file [/home/abi/fetcher/tmp/Clone-ChatGPT-1.2.9.tar.gz]
+[2023-07-20 14:31:07] INFO root fetch - main [MainThread]: End processing [Clone-ChatGPT]: success
+[2023-07-20 14:31:07] INFO root fetch - processPackages [pabutools]: Remove: archive file [/home/abi/fetcher/tmp/pabutools-0.8.tar.gz]
+[2023-07-20 14:31:07] INFO root fetch - processPackages [pabutools]: Remove: archive file [/home/abi/fetcher/tmp/pabutools-0.9.tar.gz]
+[2023-07-20 14:31:07] INFO root fetch - main [MainThread]: End processing [pabutools]: success
+[2023-07-20 14:31:08] INFO root fetch - processPackages [pyinstaller-hooks-contrib]: Remove: archive file [/home/abi/fetcher/tmp/pyinstaller-hooks-contrib-2023.5.tar.gz]
+[2023-07-20 14:31:08] INFO root fetch - processPackages [pyinstaller-hooks-contrib]: Remove: archive file [/home/abi/fetcher/tmp/pyinstaller-hooks-contrib-2023.6.tar.gz]
+[2023-07-20 14:31:08] INFO root fetch - main [MainThread]: End processing [pyinstaller-hooks-contrib]: success
+[2023-07-20 14:31:08] INFO root fetch - main [MainThread]: Store serial: [18966378]
