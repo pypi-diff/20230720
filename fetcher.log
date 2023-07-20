@@ -21417,3 +21417,177 @@ AssertionError: tmp/threemystic_cloud_data_client-0.1.17.tar.gz does not exist
 [2023-07-20 21:30:24] INFO root fetch - processPackages [solara]: Remove: archive file [/home/abi/fetcher/tmp/solara-1.9.0.tar.gz]
 [2023-07-20 21:30:24] INFO root fetch - main [MainThread]: End processing [solara]: success
 [2023-07-20 21:30:24] INFO root fetch - main [MainThread]: Store serial: [18971886]
+[2023-07-20 21:35:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18971886]
+[2023-07-20 21:35:33] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2023-07-20 21:35:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gigagan-pytorch
+[2023-07-20 21:35:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: google-cloud-deploy
+[2023-07-20 21:35:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: google-cloud-netapp
+[2023-07-20 21:35:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: google-cloud-policy-troubleshooter
+[2023-07-20 21:35:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: roblox-pyc
+[2023-07-20 21:35:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: policyengine-us
+[2023-07-20 21:35:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyeasyfuse
+[2023-07-20 21:35:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: eugene-tools
+[2023-07-20 21:35:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: guardrails-ai
+[2023-07-20 21:35:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: gspot-django-auth
+[2023-07-20 21:35:33] INFO root fetch - processPackages [gigagan-pytorch]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-20 21:35:33] WARNING root fetch - processPackages [google-cloud-netapp]: Skipping, unable to determine old version
+[2023-07-20 21:35:33] INFO root fetch - processPackages [google-cloud-netapp]: Start processing: edgeimpulse-api
+[2023-07-20 21:35:33] INFO root fetch - main [MainThread]: End processing [google-cloud-netapp] error
+[2023-07-20 21:35:33] INFO root fetch - processPackages [google-cloud-deploy]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-07-20 21:35:33] INFO root fetch - processPackages [guardrails-ai]: New version: [0.2.0a1] Old Version: [0.1.8]
+[2023-07-20 21:35:33] INFO root fetch - processPackages [eugene-tools]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-20 21:35:33] INFO root fetch - processPackages [google-cloud-policy-troubleshooter]: New version: [1.9.0] Old Version: [1.8.2]
+[2023-07-20 21:35:33] INFO root fetch - processPackages [policyengine-us]: New version: [0.377.1] Old Version: [0.377.0]
+[2023-07-20 21:35:33] INFO root fetch - processPackages [pyeasyfuse]: New version: [2.0.3] Old Version: [2.0.0]
+[2023-07-20 21:35:33] INFO root fetch - processPackages [gspot-django-auth]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-07-20 21:35:33] INFO root fetch - processPackages [roblox-pyc]: New version: [1.6.6.5a0] Old Version: [1.6.6.5.4]
+[2023-07-20 21:35:33] INFO root fetch - processPackages [edgeimpulse-api]: New version: [1.25.31] Old Version: [1.25.16]
+[2023-07-20 21:35:33] INFO root fetch - processPackages [roblox-pyc]: Downloading https://files.pythonhosted.org/packages/44/ab/2c1167a2d328570fcff41305068766f10c181301f2cd7a1f64f72287fa27/roblox-pyc-1.6.6.5.4.tar.gz
+[2023-07-20 21:35:33] INFO root fetch - processPackages [eugene-tools]: Downloading https://files.pythonhosted.org/packages/ce/33/9bf55771cd1f1303b28e18a3cc6dbfc93751f4ba031d2de6e1d70c547bc8/eugene_tools-0.1.0.tar.gz
+[2023-07-20 21:35:33] INFO root fetch - processPackages [policyengine-us]: Downloading https://files.pythonhosted.org/packages/0f/15/5f442706fada7638cb91ec902db4c83e27106be807e99adda81efa7f9a9d/policyengine-us-0.377.0.tar.gz
+[2023-07-20 21:35:33] INFO root fetch - processPackages [google-cloud-deploy]: Downloading https://files.pythonhosted.org/packages/2e/62/ee095a3504cbdd15220d71e7d8d0c415e9bf874ede4386e378d6110c1442/google-cloud-deploy-1.8.0.tar.gz
+[2023-07-20 21:35:33] INFO root fetch - processPackages [gigagan-pytorch]: Downloading https://files.pythonhosted.org/packages/d9/e0/b2934610f827a6e16444d91655fb41306e808620e7da2b2472801cfe1cfc/gigagan-pytorch-0.1.8.tar.gz
+[2023-07-20 21:35:33] INFO root fetch - processPackages [google-cloud-policy-troubleshooter]: Downloading https://files.pythonhosted.org/packages/40/e9/82f48392bb31ea645ba494e570cf38029ca3fa297b643667e0495536de51/google-cloud-policy-troubleshooter-1.8.2.tar.gz
+[2023-07-20 21:35:33] INFO root fetch - processPackages [gspot-django-auth]: Downloading https://files.pythonhosted.org/packages/b2/a1/216fca25aea933652c2dc9047f5586136ab05302a6390f56090161ccff57/gspot_django_auth-0.1.3.tar.gz
+[2023-07-20 21:35:33] INFO root fetch - processPackages [guardrails-ai]: Downloading https://files.pythonhosted.org/packages/d5/2c/e24f088ea3876adb0cfa892d3d34a490b3a15f9824fd41e31303fe713060/guardrails-ai-0.1.8.tar.gz
+[2023-07-20 21:35:33] INFO root fetch - processPackages [edgeimpulse-api]: Downloading https://files.pythonhosted.org/packages/2b/73/adac1da8146c2c0e31ee4fcc446bed8a3c9276f9ca8fa4bb1ab3305ec1e7/edgeimpulse_api-1.25.16.tar.gz
+[2023-07-20 21:35:33] INFO root fetch - processPackages [pyeasyfuse]: Downloading https://files.pythonhosted.org/packages/82/ee/1187dc7f7fb9ddf4c2a398b58aa18a802e6ffb47638eb26e06785a804cf1/pyeasyfuse-2.0.0.tar.gz
+[2023-07-20 21:35:34] INFO root fetch - processPackages [roblox-pyc]: Downloading https://files.pythonhosted.org/packages/59/75/7884ffaab86bf051065880fd8aefdfc8e3f2c34e7c9d4a8d352321ec57f8/roblox-pyc-1.6.6.5a0.tar.gz
+[2023-07-20 21:35:34] INFO root fetch - processPackages [roblox-pyc]: executing diffoscope
+[2023-07-20 21:35:34] INFO root fetch - processPackages [roblox-pyc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/roblox-pyc-1.6.6.5.4.tar.gz tmp/roblox-pyc-1.6.6.5a0.tar.gz --markdown 20230720/r/roblox-pyc/1.6.6.5.4-1.6.6.5a0/diff.md --exclude *.pyd
+[2023-07-20 21:35:34] INFO root fetch - processPackages [policyengine-us]: Downloading https://files.pythonhosted.org/packages/12/64/594d2b107423f7afe4293438bf679236cce4351c647462cb4388391ef3db/policyengine-us-0.377.1.tar.gz
+[2023-07-20 21:35:34] INFO root fetch - processPackages [gigagan-pytorch]: Downloading https://files.pythonhosted.org/packages/be/b0/4d464405e8b805823829907ca5b9cc50aac0dca80644c3147d4146d45ecb/gigagan-pytorch-0.1.9.tar.gz
+[2023-07-20 21:35:34] INFO root fetch - processPackages [eugene-tools]: Downloading https://files.pythonhosted.org/packages/65/28/4404556335b1dc486a4e757d4d17f93f68b945fd4ff9d3b685af2de38859/eugene_tools-0.1.1.tar.gz
+[2023-07-20 21:35:34] INFO root fetch - processPackages [google-cloud-deploy]: Downloading https://files.pythonhosted.org/packages/2e/fd/de2f6bff87212d76e840950006f2bff3597aef791397fe799b1c50140a7c/google-cloud-deploy-1.9.0.tar.gz
+[2023-07-20 21:35:34] INFO root fetch - processPackages [guardrails-ai]: Downloading https://files.pythonhosted.org/packages/c2/bf/02e47b26ea800aec2fb97e1e38026fbf0ac13802079939b315d462974f7f/guardrails-ai-0.2.0a1.tar.gz
+[2023-07-20 21:35:34] INFO root fetch - processPackages [google-cloud-policy-troubleshooter]: Downloading https://files.pythonhosted.org/packages/ef/07/dcdbd5b3e9f93fc551df8ae88c7741a0541fb1a0b586edeff9da7219abaa/google-cloud-policy-troubleshooter-1.9.0.tar.gz
+[2023-07-20 21:35:34] INFO root fetch - processPackages [pyeasyfuse]: Downloading https://files.pythonhosted.org/packages/a1/2e/c056dbbb2e2cfee9ae830e3187a79f65c8ffb13ff2f57fbb05776d946241/pyeasyfuse-2.0.3.tar.gz
+[2023-07-20 21:35:34] INFO root fetch - processPackages [gspot-django-auth]: Downloading https://files.pythonhosted.org/packages/84/3c/6ca7825576acb40bfc8c4cae90fe945bca77634e0faaa5d92ab948a55eea/gspot_django_auth-0.1.4.tar.gz
+[2023-07-20 21:35:34] INFO root fetch - processPackages [gigagan-pytorch]: executing diffoscope
+[2023-07-20 21:35:34] INFO root fetch - processPackages [gigagan-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gigagan-pytorch-0.1.8.tar.gz tmp/gigagan-pytorch-0.1.9.tar.gz --markdown 20230720/g/gigagan-pytorch/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-20 21:35:34] INFO root fetch - processPackages [eugene-tools]: executing diffoscope
+[2023-07-20 21:35:34] INFO root fetch - processPackages [eugene-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eugene_tools-0.1.0.tar.gz tmp/eugene_tools-0.1.1.tar.gz --markdown 20230720/e/eugene-tools/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-20 21:35:34] INFO root fetch - processPackages [google-cloud-deploy]: executing diffoscope
+[2023-07-20 21:35:34] INFO root fetch - processPackages [google-cloud-deploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/google-cloud-deploy-1.8.0.tar.gz tmp/google-cloud-deploy-1.9.0.tar.gz --markdown 20230720/g/google-cloud-deploy/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-07-20 21:35:34] INFO root fetch - processPackages [google-cloud-policy-troubleshooter]: executing diffoscope
+[2023-07-20 21:35:34] INFO root fetch - processPackages [google-cloud-policy-troubleshooter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/google-cloud-policy-troubleshooter-1.8.2.tar.gz tmp/google-cloud-policy-troubleshooter-1.9.0.tar.gz --markdown 20230720/g/google-cloud-policy-troubleshooter/1.8.2-1.9.0/diff.md --exclude *.pyd
+[2023-07-20 21:35:34] INFO root fetch - processPackages [guardrails-ai]: executing diffoscope
+[2023-07-20 21:35:34] INFO root fetch - processPackages [guardrails-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/guardrails-ai-0.1.8.tar.gz tmp/guardrails-ai-0.2.0a1.tar.gz --markdown 20230720/g/guardrails-ai/0.1.8-0.2.0a1/diff.md --exclude *.pyd
+[2023-07-20 21:35:34] INFO root fetch - processPackages [edgeimpulse-api]: Downloading https://files.pythonhosted.org/packages/76/d7/d085cd3954e6bcc4eb56aa44f8b5d46f22976e1bfb1795ded10d61d15f77/edgeimpulse_api-1.25.31.tar.gz
+[2023-07-20 21:35:34] INFO root fetch - processPackages [policyengine-us]: executing diffoscope
+[2023-07-20 21:35:34] INFO root fetch - processPackages [policyengine-us]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/policyengine-us-0.377.0.tar.gz tmp/policyengine-us-0.377.1.tar.gz --markdown 20230720/p/policyengine-us/0.377.0-0.377.1/diff.md --exclude *.pyd
+[2023-07-20 21:35:34] INFO root fetch - processPackages [pyeasyfuse]: executing diffoscope
+[2023-07-20 21:35:34] INFO root fetch - processPackages [pyeasyfuse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyeasyfuse-2.0.0.tar.gz tmp/pyeasyfuse-2.0.3.tar.gz --markdown 20230720/p/pyeasyfuse/2.0.0-2.0.3/diff.md --exclude *.pyd
+[2023-07-20 21:35:34] INFO root fetch - processPackages [gspot-django-auth]: executing diffoscope
+[2023-07-20 21:35:34] INFO root fetch - processPackages [gspot-django-auth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gspot_django_auth-0.1.3.tar.gz tmp/gspot_django_auth-0.1.4.tar.gz --markdown 20230720/g/gspot-django-auth/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-07-20 21:35:34] INFO root fetch - processPackages [edgeimpulse-api]: executing diffoscope
+[2023-07-20 21:35:34] INFO root fetch - processPackages [edgeimpulse-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edgeimpulse_api-1.25.16.tar.gz tmp/edgeimpulse_api-1.25.31.tar.gz --markdown 20230720/e/edgeimpulse-api/1.25.16-1.25.31/diff.md --exclude *.pyd
+[2023-07-20 21:35:35] INFO root fetch - processPackages [roblox-pyc]: Remove: archive file [/home/abi/fetcher/tmp/roblox-pyc-1.6.6.5.4.tar.gz]
+[2023-07-20 21:35:35] INFO root fetch - processPackages [roblox-pyc]: Remove: archive file [/home/abi/fetcher/tmp/roblox-pyc-1.6.6.5a0.tar.gz]
+[2023-07-20 21:35:35] INFO root fetch - processPackages [roblox-pyc]: Start processing: ninjakiwi-api
+[2023-07-20 21:35:35] INFO root fetch - main [MainThread]: End processing [roblox-pyc]: success
+[2023-07-20 21:35:35] INFO root fetch - processPackages [ninjakiwi-api]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-07-20 21:35:35] INFO root fetch - processPackages [ninjakiwi-api]: Downloading https://files.pythonhosted.org/packages/7f/cd/2a93d0bc86bee2776a7541da9cfdb1bc8ba139eafa3f0b2c50e31f169930/ninjakiwi_api-0.0.6.tar.gz
+[2023-07-20 21:35:35] INFO root fetch - processPackages [ninjakiwi-api]: Downloading https://files.pythonhosted.org/packages/9f/fa/ba847ccfb710418c634d83ec0bce8b109ee10dc0175eedeefca7c8ba9efd/ninjakiwi_api-0.0.7.tar.gz
+[2023-07-20 21:35:35] INFO root fetch - processPackages [gigagan-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/gigagan-pytorch-0.1.8.tar.gz]
+[2023-07-20 21:35:35] INFO root fetch - processPackages [gigagan-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/gigagan-pytorch-0.1.9.tar.gz]
+[2023-07-20 21:35:35] INFO root fetch - processPackages [gigagan-pytorch]: Start processing: botocore
+[2023-07-20 21:35:35] INFO root fetch - main [MainThread]: End processing [gigagan-pytorch]: success
+[2023-07-20 21:35:36] INFO root fetch - processPackages [botocore]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-07-20 21:35:36] INFO root fetch - processPackages [ninjakiwi-api]: executing diffoscope
+[2023-07-20 21:35:36] INFO root fetch - processPackages [ninjakiwi-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ninjakiwi_api-0.0.6.tar.gz tmp/ninjakiwi_api-0.0.7.tar.gz --markdown 20230720/n/ninjakiwi-api/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-07-20 21:35:36] INFO root fetch - processPackages [gspot-django-auth]: Remove: archive file [/home/abi/fetcher/tmp/gspot_django_auth-0.1.3.tar.gz]
+[2023-07-20 21:35:36] INFO root fetch - processPackages [gspot-django-auth]: Remove: archive file [/home/abi/fetcher/tmp/gspot_django_auth-0.1.4.tar.gz]
+[2023-07-20 21:35:36] INFO root fetch - processPackages [gspot-django-auth]: Start processing: awscli
+[2023-07-20 21:35:36] INFO root fetch - main [MainThread]: End processing [gspot-django-auth]: success
+[2023-07-20 21:35:36] INFO root fetch - processPackages [awscli]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-07-20 21:35:36] INFO root fetch - processPackages [guardrails-ai]: Remove: archive file [/home/abi/fetcher/tmp/guardrails-ai-0.1.8.tar.gz]
+[2023-07-20 21:35:36] INFO root fetch - processPackages [guardrails-ai]: Remove: archive file [/home/abi/fetcher/tmp/guardrails-ai-0.2.0a1.tar.gz]
+[2023-07-20 21:35:36] INFO root fetch - processPackages [guardrails-ai]: Start processing: boto3
+[2023-07-20 21:35:36] INFO root fetch - main [MainThread]: End processing [guardrails-ai]: success
+[2023-07-20 21:35:36] INFO root fetch - processPackages [google-cloud-policy-troubleshooter]: Remove: archive file [/home/abi/fetcher/tmp/google-cloud-policy-troubleshooter-1.8.2.tar.gz]
+[2023-07-20 21:35:36] INFO root fetch - processPackages [google-cloud-policy-troubleshooter]: Remove: archive file [/home/abi/fetcher/tmp/google-cloud-policy-troubleshooter-1.9.0.tar.gz]
+[2023-07-20 21:35:36] INFO root fetch - processPackages [google-cloud-policy-troubleshooter]: Start processing: zebrazoom
+[2023-07-20 21:35:36] INFO root fetch - main [MainThread]: End processing [google-cloud-policy-troubleshooter]: success
+[2023-07-20 21:35:36] INFO root fetch - processPackages [zebrazoom]: New version: [1.9] Old Version: [1.8]
+[2023-07-20 21:35:36] INFO root fetch - processPackages [boto3]: New version: [1.9.99] Old Version: [1.9.98]
+[2023-07-20 21:35:36] INFO root fetch - processPackages [eugene-tools]: Remove: archive file [/home/abi/fetcher/tmp/eugene_tools-0.1.0.tar.gz]
+[2023-07-20 21:35:36] INFO root fetch - processPackages [eugene-tools]: Remove: archive file [/home/abi/fetcher/tmp/eugene_tools-0.1.1.tar.gz]
+[2023-07-20 21:35:36] INFO root fetch - processPackages [eugene-tools]: Start processing: advanced-ta
+[2023-07-20 21:35:36] INFO root fetch - main [MainThread]: End processing [eugene-tools]: success
+[2023-07-20 21:35:36] INFO root fetch - processPackages [botocore]: executing diffoscope
+[2023-07-20 21:35:36] INFO root fetch - processPackages [botocore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-1.9.8.tar.gz tmp/botocore-1.9.9.tar.gz --markdown 20230720/b/botocore/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-07-20 21:35:36] INFO root fetch - processPackages [advanced-ta]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-20 21:35:36] INFO root fetch - processPackages [pyeasyfuse]: Remove: archive file [/home/abi/fetcher/tmp/pyeasyfuse-2.0.0.tar.gz]
+[2023-07-20 21:35:36] INFO root fetch - processPackages [pyeasyfuse]: Remove: archive file [/home/abi/fetcher/tmp/pyeasyfuse-2.0.3.tar.gz]
+[2023-07-20 21:35:36] INFO root fetch - processPackages [pyeasyfuse]: Start processing: pyclowder
+[2023-07-20 21:35:36] INFO root fetch - main [MainThread]: End processing [pyeasyfuse]: success
+[2023-07-20 21:35:36] INFO root fetch - processPackages [zebrazoom]: Downloading https://files.pythonhosted.org/packages/f8/26/fb333d50056298ab69d02c7c0e0fdaeae2e51fca825888178df88926b372/zebrazoom-1.8.tar.gz
+[2023-07-20 21:35:36] INFO root fetch - processPackages [google-cloud-deploy]: Remove: archive file [/home/abi/fetcher/tmp/google-cloud-deploy-1.8.0.tar.gz]
+[2023-07-20 21:35:36] INFO root fetch - processPackages [google-cloud-deploy]: Remove: archive file [/home/abi/fetcher/tmp/google-cloud-deploy-1.9.0.tar.gz]
+[2023-07-20 21:35:36] INFO root fetch - processPackages [pyclowder]: New version: [3.0.2] Old Version: [3.0.1]
+[2023-07-20 21:35:36] INFO root fetch - processPackages [google-cloud-deploy]: Start processing: nwebclient
+[2023-07-20 21:35:36] INFO root fetch - main [MainThread]: End processing [google-cloud-deploy]: success
+[2023-07-20 21:35:36] INFO root fetch - processPackages [awscli]: executing diffoscope
+[2023-07-20 21:35:36] INFO root fetch - processPackages [awscli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/awscli-1.9.8.tar.gz tmp/awscli-1.9.9.tar.gz --markdown 20230720/a/awscli/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-07-20 21:35:36] INFO root fetch - processPackages [nwebclient]: New version: [1.0.94] Old Version: [1.0.47]
+[2023-07-20 21:35:36] INFO root fetch - processPackages [advanced-ta]: Downloading https://files.pythonhosted.org/packages/7f/eb/65e51a9ebede1f506851aa130672d03d7f2172dd5207f1cfd8123af465be/advanced-ta-0.1.0.tar.gz
+[2023-07-20 21:35:37] INFO root fetch - processPackages [boto3]: executing diffoscope
+[2023-07-20 21:35:37] INFO root fetch - processPackages [boto3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/boto3-1.9.98.tar.gz tmp/boto3-1.9.99.tar.gz --markdown 20230720/b/boto3/1.9.98-1.9.99/diff.md --exclude *.pyd
+[2023-07-20 21:35:37] INFO root fetch - processPackages [pyclowder]: Downloading https://files.pythonhosted.org/packages/f9/8c/635113a75f7e611fb5c43996f7cd564b9ad32a4b76c170e0047116c58a51/pyclowder-3.0.1.tar.gz
+[2023-07-20 21:35:37] INFO root fetch - processPackages [nwebclient]: Downloading https://files.pythonhosted.org/packages/f8/5a/617896767d6ed09371dcf4b5a8041793a603d156e939d0b03b5fba1552d8/nwebclient-1.0.47.tar.gz
+[2023-07-20 21:35:37] INFO root fetch - processPackages [advanced-ta]: Downloading https://files.pythonhosted.org/packages/4a/83/a1171ccd19df47257e86ea3599079ea1050bd0adeac3d42f01f75c93e8b1/advanced-ta-0.1.1.tar.gz
+[2023-07-20 21:35:37] INFO root fetch - processPackages [ninjakiwi-api]: Remove: archive file [/home/abi/fetcher/tmp/ninjakiwi_api-0.0.6.tar.gz]
+[2023-07-20 21:35:37] INFO root fetch - processPackages [ninjakiwi-api]: Remove: archive file [/home/abi/fetcher/tmp/ninjakiwi_api-0.0.7.tar.gz]
+[2023-07-20 21:35:37] INFO root fetch - processPackages [ninjakiwi-api]: Start processing: pyft
+[2023-07-20 21:35:37] INFO root fetch - main [MainThread]: End processing [ninjakiwi-api]: success
+[2023-07-20 21:35:37] INFO root fetch - processPackages [nwebclient]: Downloading https://files.pythonhosted.org/packages/12/6e/d067b316a4ac231633403551f2c003e4ea1de809ac114b82af80cd324ec1/nwebclient-1.0.94.tar.gz
+[2023-07-20 21:35:37] INFO root fetch - processPackages [pyclowder]: Downloading https://files.pythonhosted.org/packages/b5/05/d0b3f27fbae6b01f1bb537ea354747a60500d869d37aeb67f525d1b4b808/pyclowder-3.0.2.tar.gz
+[2023-07-20 21:35:37] INFO root fetch - processPackages [advanced-ta]: executing diffoscope
+[2023-07-20 21:35:37] INFO root fetch - processPackages [advanced-ta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/advanced-ta-0.1.0.tar.gz tmp/advanced-ta-0.1.1.tar.gz --markdown 20230720/a/advanced-ta/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-20 21:35:37] INFO root fetch - processPackages [nwebclient]: executing diffoscope
+[2023-07-20 21:35:37] INFO root fetch - processPackages [nwebclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nwebclient-1.0.47.tar.gz tmp/nwebclient-1.0.94.tar.gz --markdown 20230720/n/nwebclient/1.0.47-1.0.94/diff.md --exclude *.pyd
+[2023-07-20 21:35:37] WARNING root fetch - processPackages [pyft]: Skipping, unable to determine old version
+[2023-07-20 21:35:37] INFO root fetch - processPackages [pyft]: Start processing: easydock
+[2023-07-20 21:35:37] INFO root fetch - main [MainThread]: End processing [pyft] error
+[2023-07-20 21:35:37] INFO root fetch - processPackages [pyclowder]: executing diffoscope
+[2023-07-20 21:35:37] INFO root fetch - processPackages [pyclowder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyclowder-3.0.1.tar.gz tmp/pyclowder-3.0.2.tar.gz --markdown 20230720/p/pyclowder/3.0.1-3.0.2/diff.md --exclude *.pyd
+[2023-07-20 21:35:37] INFO root fetch - processPackages [botocore]: Remove: archive file [/home/abi/fetcher/tmp/botocore-1.9.8.tar.gz]
+[2023-07-20 21:35:37] INFO root fetch - processPackages [botocore]: Remove: archive file [/home/abi/fetcher/tmp/botocore-1.9.9.tar.gz]
+[2023-07-20 21:35:37] INFO root fetch - main [MainThread]: End processing [botocore]: success
+[2023-07-20 21:35:37] INFO root fetch - processPackages [easydock]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-07-20 21:35:37] INFO root fetch - processPackages [awscli]: Remove: archive file [/home/abi/fetcher/tmp/awscli-1.9.8.tar.gz]
+[2023-07-20 21:35:37] INFO root fetch - processPackages [awscli]: Remove: archive file [/home/abi/fetcher/tmp/awscli-1.9.9.tar.gz]
+[2023-07-20 21:35:37] INFO root fetch - main [MainThread]: End processing [awscli]: success
+[2023-07-20 21:35:37] INFO root fetch - processPackages [zebrazoom]: Downloading https://files.pythonhosted.org/packages/29/37/9f2aaa64707bbcd24502e836857b6c572452e441dc5bb3229137d00bfa9b/zebrazoom-1.9.tar.gz
+[2023-07-20 21:35:38] INFO root fetch - processPackages [easydock]: Downloading https://files.pythonhosted.org/packages/a2/21/a00e71b2d9fe46b7b6816aa6e8931f38312b2cd41f591fbe2c2188ad5c2c/easydock-0.2.3.tar.gz
+[2023-07-20 21:35:38] INFO root fetch - processPackages [boto3]: Remove: archive file [/home/abi/fetcher/tmp/boto3-1.9.98.tar.gz]
+[2023-07-20 21:35:38] INFO root fetch - processPackages [boto3]: Remove: archive file [/home/abi/fetcher/tmp/boto3-1.9.99.tar.gz]
+[2023-07-20 21:35:38] INFO root fetch - main [MainThread]: End processing [boto3]: success
+[2023-07-20 21:35:38] INFO root fetch - processPackages [easydock]: Downloading https://files.pythonhosted.org/packages/cb/19/71bd9d4da59b87a601bb27db6c90b4ec7d6834b8a042c7d6efeda4d22596/easydock-0.2.4.tar.gz
+[2023-07-20 21:35:38] INFO root fetch - processPackages [easydock]: executing diffoscope
+[2023-07-20 21:35:38] INFO root fetch - processPackages [easydock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easydock-0.2.3.tar.gz tmp/easydock-0.2.4.tar.gz --markdown 20230720/e/easydock/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-07-20 21:35:38] INFO root fetch - processPackages [advanced-ta]: Remove: archive file [/home/abi/fetcher/tmp/advanced-ta-0.1.0.tar.gz]
+[2023-07-20 21:35:38] INFO root fetch - processPackages [advanced-ta]: Remove: archive file [/home/abi/fetcher/tmp/advanced-ta-0.1.1.tar.gz]
+[2023-07-20 21:35:38] INFO root fetch - main [MainThread]: End processing [advanced-ta]: success
+[2023-07-20 21:35:38] INFO root fetch - processPackages [zebrazoom]: executing diffoscope
+[2023-07-20 21:35:38] INFO root fetch - processPackages [zebrazoom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zebrazoom-1.8.tar.gz tmp/zebrazoom-1.9.tar.gz --markdown 20230720/z/zebrazoom/1.8-1.9/diff.md --exclude *.pyd
+[2023-07-20 21:35:38] INFO root fetch - processPackages [pyclowder]: Remove: archive file [/home/abi/fetcher/tmp/pyclowder-3.0.1.tar.gz]
+[2023-07-20 21:35:38] INFO root fetch - processPackages [pyclowder]: Remove: archive file [/home/abi/fetcher/tmp/pyclowder-3.0.2.tar.gz]
+[2023-07-20 21:35:38] INFO root fetch - main [MainThread]: End processing [pyclowder]: success
+[2023-07-20 21:35:38] INFO root fetch - processPackages [nwebclient]: Remove: archive file [/home/abi/fetcher/tmp/nwebclient-1.0.47.tar.gz]
+[2023-07-20 21:35:38] INFO root fetch - processPackages [nwebclient]: Remove: archive file [/home/abi/fetcher/tmp/nwebclient-1.0.94.tar.gz]
+[2023-07-20 21:35:38] INFO root fetch - main [MainThread]: End processing [nwebclient]: success
+[2023-07-20 21:35:39] INFO root fetch - processPackages [easydock]: Remove: archive file [/home/abi/fetcher/tmp/easydock-0.2.3.tar.gz]
+[2023-07-20 21:35:39] INFO root fetch - processPackages [easydock]: Remove: archive file [/home/abi/fetcher/tmp/easydock-0.2.4.tar.gz]
+[2023-07-20 21:35:39] INFO root fetch - main [MainThread]: End processing [easydock]: success
+[2023-07-20 21:35:40] INFO root fetch - processPackages [zebrazoom]: Remove: archive file [/home/abi/fetcher/tmp/zebrazoom-1.8.tar.gz]
+[2023-07-20 21:35:40] INFO root fetch - processPackages [zebrazoom]: Remove: archive file [/home/abi/fetcher/tmp/zebrazoom-1.9.tar.gz]
+[2023-07-20 21:35:40] INFO root fetch - main [MainThread]: End processing [zebrazoom]: success
+[2023-07-20 21:35:41] INFO root fetch - processPackages [edgeimpulse-api]: Remove: archive file [/home/abi/fetcher/tmp/edgeimpulse_api-1.25.16.tar.gz]
+[2023-07-20 21:35:41] INFO root fetch - processPackages [edgeimpulse-api]: Remove: archive file [/home/abi/fetcher/tmp/edgeimpulse_api-1.25.31.tar.gz]
+[2023-07-20 21:35:41] INFO root fetch - main [MainThread]: End processing [edgeimpulse-api]: success
+[2023-07-20 21:36:05] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.377.0.tar.gz]
+[2023-07-20 21:36:05] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.377.1.tar.gz]
+[2023-07-20 21:36:05] INFO root fetch - main [MainThread]: End processing [policyengine-us]: success
+[2023-07-20 21:36:05] INFO root fetch - main [MainThread]: Store serial: [18971961]
