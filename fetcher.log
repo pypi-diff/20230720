@@ -12876,3 +12876,129 @@ AssertionError: tmp/verify4py-test-0.1.7.tar.gz does not exist
 [2023-07-20 16:56:08] INFO root fetch - processPackages [nucliadb-contributor-assets]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_contributor_assets-1.0.0.post898-py3-none-any.whl.zip]
 [2023-07-20 16:56:08] INFO root fetch - main [MainThread]: End processing [nucliadb-contributor-assets]: success
 [2023-07-20 16:56:08] INFO root fetch - main [MainThread]: Store serial: [18968287]
+[2023-07-20 17:01:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18968287]
+[2023-07-20 17:01:18] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-07-20 17:01:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: openhexa.sdk
+[2023-07-20 17:01:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tablate
+[2023-07-20 17:01:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: inscodegpt
+[2023-07-20 17:01:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: xxccode
+[2023-07-20 17:01:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tickit
+[2023-07-20 17:01:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pytaser
+[2023-07-20 17:01:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lnschema_bionty
+[2023-07-20 17:01:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: xxccode
+[2023-07-20 17:01:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: SDK-Laevitas
+[2023-07-20 17:01:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: piqp
+[2023-07-20 17:01:18] INFO root fetch - processPackages [openhexa.sdk]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-20 17:01:18] WARNING root fetch - processPackages [SDK-Laevitas]: Skipping, unable to determine old version
+[2023-07-20 17:01:18] INFO root fetch - processPackages [SDK-Laevitas]: Start processing: docblock
+[2023-07-20 17:01:18] INFO root fetch - main [MainThread]: End processing [SDK-Laevitas] error
+[2023-07-20 17:01:18] INFO root fetch - processPackages [piqp]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-07-20 17:01:18] INFO root fetch - processPackages [xxccode]: New version: [0.3.4] Old Version: [0.3.3]
+[2023-07-20 17:01:18] INFO root fetch - processPackages [pytaser]: New version: [2.0.1] Old Version: [2.0.0]
+[2023-07-20 17:01:18] INFO root fetch - processPackages [lnschema_bionty]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-07-20 17:01:18] INFO root fetch - processPackages [xxccode]: New version: [0.3.4] Old Version: [0.3.3]
+[2023-07-20 17:01:18] INFO root fetch - processPackages [tickit]: New version: [0.3.0] Old Version: [0.2.3]
+[2023-07-20 17:01:18] INFO root fetch - processPackages [tablate]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-20 17:01:18] INFO root fetch - processPackages [inscodegpt]: New version: [1.1] Old Version: [1.0]
+[2023-07-20 17:01:18] INFO root fetch - processPackages [docblock]: New version: [0.0.1a1] Old Version: [0.0.1a0]
+[2023-07-20 17:01:18] INFO root fetch - processPackages [xxccode]: Downloading https://files.pythonhosted.org/packages/3e/f4/31df3e553a67180a04f676130a931c57fee127ff9e66817f75adc50392ee/xxccode-0.3.3.tar.gz
+[2023-07-20 17:01:18] INFO root fetch - processPackages [lnschema_bionty]: Downloading https://files.pythonhosted.org/packages/12/bb/32a1cbaa73ee4f038a3540bbbf0b3d7e27f22edcdbd7d7c80667fef68afd/lnschema_bionty-0.8.1.tar.gz
+[2023-07-20 17:01:18] INFO root fetch - processPackages [xxccode]: Downloading https://files.pythonhosted.org/packages/3e/f4/31df3e553a67180a04f676130a931c57fee127ff9e66817f75adc50392ee/xxccode-0.3.3.tar.gz
+[2023-07-20 17:01:18] INFO root fetch - processPackages [tablate]: Downloading https://files.pythonhosted.org/packages/d4/92/c66074552a198619438991f49236a0db251b4f3aabf5da938254c5dadcc5/tablate-0.0.3.tar.gz
+[2023-07-20 17:01:18] INFO root fetch - processPackages [docblock]: Downloading https://files.pythonhosted.org/packages/e9/98/b5c8c0461275c7f52469af07dd365d7938c44efb3eb94e4fc9f2b4b098e7/docblock-0.0.1a0.tar.gz
+[2023-07-20 17:01:18] INFO root fetch - processPackages [openhexa.sdk]: Downloading https://files.pythonhosted.org/packages/2d/63/6cf8c3d8c690624bf5da3eccae426000fc384f6f2b1e46094f46a261b21e/openhexa.sdk-0.1.8.tar.gz
+[2023-07-20 17:01:18] INFO root fetch - processPackages [inscodegpt]: Downloading https://files.pythonhosted.org/packages/dd/33/80f4cf80ddb6808b2ea6d6f3b339121d9f1f42556234bba841613573f116/inscodegpt-1.0.tar.gz
+[2023-07-20 17:01:19] INFO root fetch - processPackages [tickit]: Downloading https://files.pythonhosted.org/packages/da/cd/8331cf663d333db36160240de5b73d84a5e6f34f5875281906384ba745c7/tickit-0.2.3.tar.gz
+[2023-07-20 17:01:19] INFO root fetch - processPackages [piqp]: Downloading https://files.pythonhosted.org/packages/97/d6/a351f25a816110024f4b928e38fd529c6106d5396875288c038e49930725/piqp-0.1.2.tar.gz
+[2023-07-20 17:01:19] INFO root fetch - processPackages [pytaser]: Downloading https://files.pythonhosted.org/packages/00/11/1b7447e966d308c193b95b23bfd43fc9d08cf93f8a96135c7203b74ef615/pytaser-2.0.0.tar.gz
+[2023-07-20 17:01:19] WARNING root fetch - processPackages [pytaser]: Skipping package: exceeds size limit 14962277>=10485760
+[2023-07-20 17:01:19] INFO root fetch - processPackages [pytaser]: Start processing: vfbLib
+[2023-07-20 17:01:19] INFO root fetch - main [MainThread]: End processing [pytaser] error
+[2023-07-20 17:01:19] INFO root fetch - processPackages [lnschema_bionty]: Downloading https://files.pythonhosted.org/packages/ed/64/d2babdba858b56f5825e7ac3e2d375cf42dcf278f3c6ad9daf179e40b556/lnschema_bionty-0.9.0.tar.gz
+[2023-07-20 17:01:19] INFO root fetch - processPackages [vfbLib]: New version: [0.5.2] Old Version: [0.5.1]
+[2023-07-20 17:01:19] INFO root fetch - processPackages [docblock]: Downloading https://files.pythonhosted.org/packages/50/1d/2c480d1c6c8a52dda29e8de475439adea0719a43959ab09d2644d344f112/docblock-0.0.1a1.tar.gz
+[2023-07-20 17:01:19] INFO root fetch - processPackages [tablate]: Downloading https://files.pythonhosted.org/packages/29/3f/07e225eb3e997768ac39916870f94a31cabb7ed02389a34be86c1715ecd5/tablate-0.0.4.tar.gz
+[2023-07-20 17:01:19] INFO root fetch - processPackages [xxccode]: Downloading https://files.pythonhosted.org/packages/fe/80/f26e045ff6e21c8123ba0c82496509f67b2586581236d27e8f1e4e7cf960/xxccode-0.3.4.tar.gz
+[2023-07-20 17:01:19] INFO root fetch - processPackages [xxccode]: Downloading https://files.pythonhosted.org/packages/fe/80/f26e045ff6e21c8123ba0c82496509f67b2586581236d27e8f1e4e7cf960/xxccode-0.3.4.tar.gz
+[2023-07-20 17:01:19] INFO root fetch - processPackages [vfbLib]: Downloading https://files.pythonhosted.org/packages/23/79/51b07e1d7e25b6d9b8fe5f9adf46fd7112a9460680f57782972e4e2829e0/vfbLib-0.5.1.tar.gz
+[2023-07-20 17:01:19] INFO root fetch - processPackages [lnschema_bionty]: executing diffoscope
+[2023-07-20 17:01:19] INFO root fetch - processPackages [lnschema_bionty]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lnschema_bionty-0.8.1.tar.gz tmp/lnschema_bionty-0.9.0.tar.gz --markdown 20230720/l/lnschema_bionty/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-07-20 17:01:19] INFO root fetch - processPackages [inscodegpt]: Downloading https://files.pythonhosted.org/packages/d7/79/38578cc3c0d24c91b41469f39d7ed6b5cc08f4ca47c8992fb94086ae8d69/inscodegpt-1.1.tar.gz
+[2023-07-20 17:01:19] INFO root fetch - processPackages [docblock]: executing diffoscope
+[2023-07-20 17:01:19] INFO root fetch - processPackages [docblock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docblock-0.0.1a0.tar.gz tmp/docblock-0.0.1a1.tar.gz --markdown 20230720/d/docblock/0.0.1a0-0.0.1a1/diff.md --exclude *.pyd
+[2023-07-20 17:01:19] INFO root fetch - processPackages [openhexa.sdk]: Downloading https://files.pythonhosted.org/packages/01/47/9a54270a3486c1a1712ca7717008e6748264c1125692b213adfd2f68b21c/openhexa.sdk-0.1.9.tar.gz
+[2023-07-20 17:01:19] INFO root fetch - processPackages [tickit]: Downloading https://files.pythonhosted.org/packages/cf/30/783ead1d7f538bbc380d6007c6bd2c1a0722cb770fe9958a97cb6edd0011/tickit-0.3.0.tar.gz
+[2023-07-20 17:01:19] INFO root fetch - processPackages [piqp]: Downloading https://files.pythonhosted.org/packages/73/3d/3a4f53c7be914915811df507ca601c65855bb8364218a10095fd50bf16fb/piqp-0.1.3.tar.gz
+[2023-07-20 17:01:19] INFO root fetch - processPackages [tablate]: executing diffoscope
+[2023-07-20 17:01:19] INFO root fetch - processPackages [tablate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tablate-0.0.3.tar.gz tmp/tablate-0.0.4.tar.gz --markdown 20230720/t/tablate/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-20 17:01:19] INFO root fetch - processPackages [xxccode]: executing diffoscope
+[2023-07-20 17:01:19] INFO root fetch - processPackages [xxccode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xxccode-0.3.3.tar.gz tmp/xxccode-0.3.4.tar.gz --markdown 20230720/x/xxccode/0.3.3-0.3.4/diff.md --exclude *.pyd
+[2023-07-20 17:01:19] INFO root fetch - processPackages [xxccode]: executing diffoscope
+[2023-07-20 17:01:19] INFO root fetch - processPackages [xxccode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xxccode-0.3.3.tar.gz tmp/xxccode-0.3.4.tar.gz --markdown 20230720/x/xxccode/0.3.3-0.3.4/diff.md --exclude *.pyd
+[2023-07-20 17:01:19] INFO root fetch - processPackages [inscodegpt]: executing diffoscope
+[2023-07-20 17:01:19] INFO root fetch - processPackages [inscodegpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inscodegpt-1.0.tar.gz tmp/inscodegpt-1.1.tar.gz --markdown 20230720/i/inscodegpt/1.0-1.1/diff.md --exclude *.pyd
+[2023-07-20 17:01:19] INFO root fetch - processPackages [tickit]: executing diffoscope
+[2023-07-20 17:01:19] INFO root fetch - processPackages [tickit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tickit-0.2.3.tar.gz tmp/tickit-0.3.0.tar.gz --markdown 20230720/t/tickit/0.2.3-0.3.0/diff.md --exclude *.pyd
+[2023-07-20 17:01:19] INFO root fetch - processPackages [openhexa.sdk]: executing diffoscope
+[2023-07-20 17:01:19] INFO root fetch - processPackages [openhexa.sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openhexa.sdk-0.1.8.tar.gz tmp/openhexa.sdk-0.1.9.tar.gz --markdown 20230720/o/openhexa.sdk/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-20 17:01:19] INFO root fetch - processPackages [piqp]: executing diffoscope
+[2023-07-20 17:01:19] INFO root fetch - processPackages [piqp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/piqp-0.1.2.tar.gz tmp/piqp-0.1.3.tar.gz --markdown 20230720/p/piqp/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-07-20 17:01:19] INFO root fetch - processPackages [vfbLib]: Downloading https://files.pythonhosted.org/packages/ea/e6/7dc0d380f0e31af913fd5de5c4a3a3a77aaa5bfa65d5033c56f73a3fbd40/vfbLib-0.5.2.tar.gz
+[2023-07-20 17:01:20] INFO root fetch - processPackages [vfbLib]: executing diffoscope
+[2023-07-20 17:01:20] INFO root fetch - processPackages [vfbLib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vfbLib-0.5.1.tar.gz tmp/vfbLib-0.5.2.tar.gz --markdown 20230720/v/vfbLib/0.5.1-0.5.2/diff.md --exclude *.pyd
+[2023-07-20 17:01:20] INFO root fetch - processPackages [docblock]: Remove: archive file [/home/abi/fetcher/tmp/docblock-0.0.1a0.tar.gz]
+[2023-07-20 17:01:20] INFO root fetch - processPackages [docblock]: Remove: archive file [/home/abi/fetcher/tmp/docblock-0.0.1a1.tar.gz]
+[2023-07-20 17:01:20] INFO root fetch - processPackages [docblock]: Start processing: domolibrary
+[2023-07-20 17:01:20] INFO root fetch - main [MainThread]: End processing [docblock]: success
+[2023-07-20 17:01:20] INFO root fetch - processPackages [domolibrary]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-07-20 17:01:21] INFO root fetch - processPackages [lnschema_bionty]: Remove: archive file [/home/abi/fetcher/tmp/lnschema_bionty-0.8.1.tar.gz]
+[2023-07-20 17:01:21] INFO root fetch - processPackages [lnschema_bionty]: Remove: archive file [/home/abi/fetcher/tmp/lnschema_bionty-0.9.0.tar.gz]
+[2023-07-20 17:01:21] INFO root fetch - processPackages [lnschema_bionty]: Start processing: motti
+[2023-07-20 17:01:21] INFO root fetch - main [MainThread]: End processing [lnschema_bionty]: success
+[2023-07-20 17:01:21] INFO root fetch - processPackages [xxccode]: Remove: archive file [/home/abi/fetcher/tmp/xxccode-0.3.3.tar.gz]
+[2023-07-20 17:01:21] INFO root fetch - processPackages [xxccode]: Remove: archive file [/home/abi/fetcher/tmp/xxccode-0.3.4.tar.gz]
+[2023-07-20 17:01:21] INFO root fetch - processPackages [xxccode]: Start processing: inscodegpt
+[2023-07-20 17:01:21] INFO root fetch - main [MainThread]: End processing [xxccode]: success
+[2023-07-20 17:01:21] INFO root fetch - processPackages [motti]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-20 17:01:21] INFO root fetch - processPackages [inscodegpt]: New version: [1.2] Old Version: [1.1]
+[2023-07-20 17:01:21] INFO root fetch - processPackages [domolibrary]: Downloading https://files.pythonhosted.org/packages/84/f8/ca22b28a893290f3f077d48d12f9bbfa0b351b8a23052c67d9d2df56c886/domolibrary-0.1.98.tar.gz
+[2023-07-20 17:01:21] INFO root fetch - processPackages [piqp]: Remove: archive file [/home/abi/fetcher/tmp/piqp-0.1.2.tar.gz]
+[2023-07-20 17:01:21] INFO root fetch - processPackages [piqp]: Remove: archive file [/home/abi/fetcher/tmp/piqp-0.1.3.tar.gz]
+[2023-07-20 17:01:21] INFO root fetch - main [MainThread]: End processing [piqp]: success
+[2023-07-20 17:01:21] INFO root fetch - processPackages [inscodegpt]: Remove: archive file [/home/abi/fetcher/tmp/inscodegpt-1.0.tar.gz]
+[2023-07-20 17:01:21] INFO root fetch - processPackages [inscodegpt]: Remove: archive file [/home/abi/fetcher/tmp/inscodegpt-1.1.tar.gz]
+[2023-07-20 17:01:21] INFO root fetch - main [MainThread]: End processing [inscodegpt]: success
+[2023-07-20 17:01:21] INFO root fetch - processPackages [motti]: Downloading https://files.pythonhosted.org/packages/4a/b3/37c75114c37c8e2a3dea97bceeafe8d68f4616ec26d552fc792b9c315b3c/motti-0.0.8.tar.gz
+[2023-07-20 17:01:21] INFO root fetch - processPackages [inscodegpt]: Downloading https://files.pythonhosted.org/packages/2e/a0/c9d8e5dae05bb71d1abf0410555e124216035074e0a818a3673afeda1d9c/inscodegpt-1.2.tar.gz
+[2023-07-20 17:01:21] INFO root fetch - main [MainThread]: End processing [xxccode]: success
+[2023-07-20 17:01:21] INFO root fetch - processPackages [openhexa.sdk]: Remove: archive file [/home/abi/fetcher/tmp/openhexa.sdk-0.1.8.tar.gz]
+[2023-07-20 17:01:21] INFO root fetch - processPackages [openhexa.sdk]: Remove: archive file [/home/abi/fetcher/tmp/openhexa.sdk-0.1.9.tar.gz]
+[2023-07-20 17:01:21] INFO root fetch - main [MainThread]: End processing [openhexa.sdk]: success
+[2023-07-20 17:01:21] INFO root fetch - processPackages [tablate]: Remove: archive file [/home/abi/fetcher/tmp/tablate-0.0.3.tar.gz]
+[2023-07-20 17:01:21] INFO root fetch - processPackages [tablate]: Remove: archive file [/home/abi/fetcher/tmp/tablate-0.0.4.tar.gz]
+[2023-07-20 17:01:21] INFO root fetch - main [MainThread]: End processing [tablate]: success
+[2023-07-20 17:01:21] INFO root fetch - processPackages [domolibrary]: Downloading https://files.pythonhosted.org/packages/ef/ec/fc9564bd79a2ddb4e26b61efd0fc792975bd04a769102587a579e3693e90/domolibrary-0.1.99.tar.gz
+[2023-07-20 17:01:21] INFO root fetch - processPackages [inscodegpt]: executing diffoscope
+[2023-07-20 17:01:21] INFO root fetch - processPackages [inscodegpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inscodegpt-1.1.tar.gz tmp/inscodegpt-1.2.tar.gz --markdown 20230720/i/inscodegpt/1.1-1.2/diff.md --exclude *.pyd
+[2023-07-20 17:01:21] INFO root fetch - processPackages [motti]: Downloading https://files.pythonhosted.org/packages/00/36/c3403cb65dd6d7e83783565cd9feaae8c3f1d8b6366810cfd38cc822d828/motti-0.0.9.tar.gz
+[2023-07-20 17:01:21] INFO root fetch - processPackages [domolibrary]: executing diffoscope
+[2023-07-20 17:01:21] INFO root fetch - processPackages [domolibrary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/domolibrary-0.1.98.tar.gz tmp/domolibrary-0.1.99.tar.gz --markdown 20230720/d/domolibrary/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-07-20 17:01:21] INFO root fetch - processPackages [motti]: executing diffoscope
+[2023-07-20 17:01:21] INFO root fetch - processPackages [motti]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/motti-0.0.8.tar.gz tmp/motti-0.0.9.tar.gz --markdown 20230720/m/motti/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-20 17:01:22] INFO root fetch - processPackages [vfbLib]: Remove: archive file [/home/abi/fetcher/tmp/vfbLib-0.5.1.tar.gz]
+[2023-07-20 17:01:22] INFO root fetch - processPackages [vfbLib]: Remove: archive file [/home/abi/fetcher/tmp/vfbLib-0.5.2.tar.gz]
+[2023-07-20 17:01:22] INFO root fetch - main [MainThread]: End processing [vfbLib]: success
+[2023-07-20 17:01:22] ERROR root fetch - processPackages [inscodegpt]: Diffoscope failed: time="2023-07-20T17:01:21+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+/srv/diffoscope/bin/diffoscope: tmp/inscodegpt-1.1.tar.gz: No such file or directory
+
+[2023-07-20 17:01:22] INFO root fetch - main [MainThread]: End processing [inscodegpt] error
+[2023-07-20 17:01:22] INFO root fetch - processPackages [tickit]: Remove: archive file [/home/abi/fetcher/tmp/tickit-0.2.3.tar.gz]
+[2023-07-20 17:01:22] INFO root fetch - processPackages [tickit]: Remove: archive file [/home/abi/fetcher/tmp/tickit-0.3.0.tar.gz]
+[2023-07-20 17:01:22] INFO root fetch - main [MainThread]: End processing [tickit]: success
+[2023-07-20 17:01:22] INFO root fetch - processPackages [motti]: Remove: archive file [/home/abi/fetcher/tmp/motti-0.0.8.tar.gz]
+[2023-07-20 17:01:22] INFO root fetch - processPackages [motti]: Remove: archive file [/home/abi/fetcher/tmp/motti-0.0.9.tar.gz]
+[2023-07-20 17:01:22] INFO root fetch - main [MainThread]: End processing [motti]: success
+[2023-07-20 17:01:23] INFO root fetch - processPackages [domolibrary]: Remove: archive file [/home/abi/fetcher/tmp/domolibrary-0.1.98.tar.gz]
+[2023-07-20 17:01:23] INFO root fetch - processPackages [domolibrary]: Remove: archive file [/home/abi/fetcher/tmp/domolibrary-0.1.99.tar.gz]
+[2023-07-20 17:01:23] INFO root fetch - main [MainThread]: End processing [domolibrary]: success
+[2023-07-20 17:01:23] INFO root fetch - main [MainThread]: Store serial: [18968420]
