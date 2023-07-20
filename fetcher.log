@@ -15555,3 +15555,115 @@ AssertionError: tmp/verify4py-test-0.1.7.tar.gz does not exist
 [2023-07-20 18:08:11] INFO root fetch - processPackages [ai-flow-nightly]: Remove: archive file [/home/abi/fetcher/tmp/ai_flow_nightly-2023.7.9.tar.gz]
 [2023-07-20 18:08:11] INFO root fetch - main [MainThread]: End processing [ai-flow-nightly]: success
 [2023-07-20 18:08:11] INFO root fetch - main [MainThread]: Store serial: [18969425]
+[2023-07-20 18:13:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18969425]
+[2023-07-20 18:13:20] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-07-20 18:13:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: roboflow
+[2023-07-20 18:13:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: excel-framework
+[2023-07-20 18:13:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: contact-magic
+[2023-07-20 18:13:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pymetastore
+[2023-07-20 18:13:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: elegans
+[2023-07-20 18:13:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: datamodel-code-generator
+[2023-07-20 18:13:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: reg-tables
+[2023-07-20 18:13:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: gncxml
+[2023-07-20 18:13:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: deciphon-snap
+[2023-07-20 18:13:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: crypto-screening
+[2023-07-20 18:13:21] INFO root fetch - processPackages [excel-framework]: New version: [0.2.0] Old Version: [0.1.1]
+[2023-07-20 18:13:21] INFO root fetch - processPackages [crypto-screening]: New version: [7.3.0] Old Version: [7.2.0]
+[2023-07-20 18:13:21] INFO root fetch - processPackages [deciphon-snap]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-07-20 18:13:21] INFO root fetch - processPackages [pymetastore]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-07-20 18:13:21] INFO root fetch - processPackages [contact-magic]: New version: [0.5.6] Old Version: [0.5.5]
+[2023-07-20 18:13:21] WARNING root fetch - processPackages [elegans]: Skipping, unable to determine old version
+[2023-07-20 18:13:21] INFO root fetch - processPackages [elegans]: Start processing: OptiFit
+[2023-07-20 18:13:21] INFO root fetch - main [MainThread]: End processing [elegans] error
+[2023-07-20 18:13:21] INFO root fetch - processPackages [roboflow]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-07-20 18:13:21] INFO root fetch - processPackages [reg-tables]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-20 18:13:21] INFO root fetch - processPackages [gncxml]: New version: [0.6.9] Old Version: [0.6.8]
+[2023-07-20 18:13:21] INFO root fetch - processPackages [datamodel-code-generator]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-07-20 18:13:21] INFO root fetch - processPackages [OptiFit]: New version: [1.1] Old Version: [1.0]
+[2023-07-20 18:13:21] INFO root fetch - processPackages [excel-framework]: Downloading https://files.pythonhosted.org/packages/c8/d2/966c374c977fa8852e7ff87236158681ef18b8c01c6f09afabc4beb7cbcf/excel_framework-0.1.1.tar.gz
+[2023-07-20 18:13:21] INFO root fetch - processPackages [crypto-screening]: Downloading https://files.pythonhosted.org/packages/6e/13/4040cca20195d079e7deb283f3bc7ee728b2448084667c968b89725674f3/crypto-screening-7.2.0.tar.gz
+[2023-07-20 18:13:21] INFO root fetch - processPackages [deciphon-snap]: Downloading https://files.pythonhosted.org/packages/d8/e9/934cbdd3414c96fe8072fd057c680c4469547277ea13161296a9e78e662b/deciphon_snap-0.4.0.tar.gz
+[2023-07-20 18:13:21] INFO root fetch - processPackages [reg-tables]: Downloading https://files.pythonhosted.org/packages/24/67/20f4cf2980a1748da87bb06403b79de86492142fdc2bd25d52a6262dba96/reg_tables-0.1.8.tar.gz
+[2023-07-20 18:13:21] INFO root fetch - processPackages [roboflow]: Downloading https://files.pythonhosted.org/packages/81/3b/9d2400ec649929e0d9d0dbdcc17605b23de4ad14f228d0d6b49e65190472/roboflow-1.1.1.tar.gz
+[2023-07-20 18:13:21] INFO root fetch - processPackages [contact-magic]: Downloading https://files.pythonhosted.org/packages/02/2d/3e8ae6612476a22f4fe93f6031f3171766e3e26dc74a5979de495c5eca61/contact_magic-0.5.5.tar.gz
+[2023-07-20 18:13:21] INFO root fetch - processPackages [pymetastore]: Downloading https://files.pythonhosted.org/packages/93/f6/adfde9497b2ab5a1420782dafdcbdb6e7c32ac351971d0b6c22b4e64d9ab/pymetastore-0.4.0.tar.gz
+[2023-07-20 18:13:21] INFO root fetch - processPackages [gncxml]: Downloading https://files.pythonhosted.org/packages/c3/24/908700bc03555d14d46e0a2d8fcc11aedb097582ffba7c6c5917bad5e479/gncxml-0.6.8.tar.gz
+[2023-07-20 18:13:21] INFO root fetch - processPackages [datamodel-code-generator]: Downloading https://files.pythonhosted.org/packages/4a/d9/15bc464ce307254a4d330683427526d5e0601c774b66371809d42cc26da1/datamodel-code-generator-0.9.3.tar.gz
+[2023-07-20 18:13:21] INFO root fetch - processPackages [OptiFit]: Downloading https://files.pythonhosted.org/packages/15/7f/0683ab7d81ebe0e4a9d5dd2c26e92b5a8830c1e3a275e233cbe01fe8089a/OptiFit-1.0.tar.gz
+[2023-07-20 18:13:21] INFO root fetch - processPackages [reg-tables]: Downloading https://files.pythonhosted.org/packages/60/cb/8303c5aa17a1545671283f1ee1f4bef8b73de1d8178d27afa612d9ed415c/reg_tables-0.1.9.tar.gz
+[2023-07-20 18:13:21] INFO root fetch - processPackages [deciphon-snap]: Downloading https://files.pythonhosted.org/packages/bd/09/8a6e311bf2cc6d2f8eebae20b4ae9cb650b41d9e5f56d881f54c1ea7c6ba/deciphon_snap-0.5.0.tar.gz
+[2023-07-20 18:13:21] INFO root fetch - processPackages [crypto-screening]: Downloading https://files.pythonhosted.org/packages/0b/6b/ed253a5e3d6508c023e8ee6b5acef0c78c408e17ad793acf4131f3077ce7/crypto-screening-7.3.0.tar.gz
+[2023-07-20 18:13:21] INFO root fetch - processPackages [excel-framework]: Downloading https://files.pythonhosted.org/packages/c6/b0/e0ee483e115042713ef1524a48b386747dae83966da9655c82328e82aea3/excel_framework-0.2.0.tar.gz
+[2023-07-20 18:13:21] INFO root fetch - processPackages [roboflow]: Downloading https://files.pythonhosted.org/packages/45/e8/7def2270a7341d4a8b42215e0ce71ce07760afbb91faa10a07b153327118/roboflow-1.1.2.tar.gz
+[2023-07-20 18:13:21] INFO root fetch - processPackages [reg-tables]: executing diffoscope
+[2023-07-20 18:13:21] INFO root fetch - processPackages [reg-tables]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reg_tables-0.1.8.tar.gz tmp/reg_tables-0.1.9.tar.gz --markdown 20230720/r/reg-tables/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-20 18:13:22] INFO root fetch - processPackages [contact-magic]: Downloading https://files.pythonhosted.org/packages/b4/d3/66185a71e354294405f12124ddbada7823e719057d1e44061b2873bd69d8/contact_magic-0.5.6.tar.gz
+[2023-07-20 18:13:22] INFO root fetch - processPackages [gncxml]: Downloading https://files.pythonhosted.org/packages/e9/60/5e0009b33343086f1fb496d519521fb1a13753bd9a0f663bb8ac24e7ed18/gncxml-0.6.9.tar.gz
+[2023-07-20 18:13:22] INFO root fetch - processPackages [pymetastore]: Downloading https://files.pythonhosted.org/packages/7a/55/4400aaff684747a4c73d583bbb463f61ba7170bdec681fa2ccd30c6f8df3/pymetastore-0.4.1.tar.gz
+[2023-07-20 18:13:22] INFO root fetch - processPackages [roboflow]: executing diffoscope
+[2023-07-20 18:13:22] INFO root fetch - processPackages [roboflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/roboflow-1.1.1.tar.gz tmp/roboflow-1.1.2.tar.gz --markdown 20230720/r/roboflow/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-07-20 18:13:22] INFO root fetch - processPackages [gncxml]: executing diffoscope
+[2023-07-20 18:13:22] INFO root fetch - processPackages [gncxml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gncxml-0.6.8.tar.gz tmp/gncxml-0.6.9.tar.gz --markdown 20230720/g/gncxml/0.6.8-0.6.9/diff.md --exclude *.pyd
+[2023-07-20 18:13:22] INFO root fetch - processPackages [contact-magic]: executing diffoscope
+[2023-07-20 18:13:22] INFO root fetch - processPackages [contact-magic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/contact_magic-0.5.5.tar.gz tmp/contact_magic-0.5.6.tar.gz --markdown 20230720/c/contact-magic/0.5.5-0.5.6/diff.md --exclude *.pyd
+[2023-07-20 18:13:22] INFO root fetch - processPackages [deciphon-snap]: executing diffoscope
+[2023-07-20 18:13:22] INFO root fetch - processPackages [deciphon-snap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deciphon_snap-0.4.0.tar.gz tmp/deciphon_snap-0.5.0.tar.gz --markdown 20230720/d/deciphon-snap/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-07-20 18:13:22] INFO root fetch - processPackages [excel-framework]: executing diffoscope
+[2023-07-20 18:13:22] INFO root fetch - processPackages [excel-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/excel_framework-0.1.1.tar.gz tmp/excel_framework-0.2.0.tar.gz --markdown 20230720/e/excel-framework/0.1.1-0.2.0/diff.md --exclude *.pyd
+[2023-07-20 18:13:22] INFO root fetch - processPackages [crypto-screening]: executing diffoscope
+[2023-07-20 18:13:22] INFO root fetch - processPackages [crypto-screening]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crypto-screening-7.2.0.tar.gz tmp/crypto-screening-7.3.0.tar.gz --markdown 20230720/c/crypto-screening/7.2.0-7.3.0/diff.md --exclude *.pyd
+[2023-07-20 18:13:22] INFO root fetch - processPackages [pymetastore]: executing diffoscope
+[2023-07-20 18:13:22] INFO root fetch - processPackages [pymetastore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymetastore-0.4.0.tar.gz tmp/pymetastore-0.4.1.tar.gz --markdown 20230720/p/pymetastore/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-07-20 18:13:22] INFO root fetch - processPackages [OptiFit]: Downloading https://files.pythonhosted.org/packages/9a/f5/19e5675d7bd617ea09271c04201d62838e537a6924ab59b8468f7948d441/OptiFit-1.1.tar.gz
+[2023-07-20 18:13:22] INFO root fetch - processPackages [datamodel-code-generator]: Downloading https://files.pythonhosted.org/packages/4b/a5/18901fbbea50ced634d0cd3b2a12aac3d0a1dbd732418657fc54983b6e59/datamodel-code-generator-0.9.4.tar.gz
+[2023-07-20 18:13:22] INFO root fetch - processPackages [OptiFit]: executing diffoscope
+[2023-07-20 18:13:22] INFO root fetch - processPackages [OptiFit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OptiFit-1.0.tar.gz tmp/OptiFit-1.1.tar.gz --markdown 20230720/O/OptiFit/1.0-1.1/diff.md --exclude *.pyd
+[2023-07-20 18:13:22] INFO root fetch - processPackages [datamodel-code-generator]: executing diffoscope
+[2023-07-20 18:13:22] INFO root fetch - processPackages [datamodel-code-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datamodel-code-generator-0.9.3.tar.gz tmp/datamodel-code-generator-0.9.4.tar.gz --markdown 20230720/d/datamodel-code-generator/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-07-20 18:13:23] INFO root fetch - processPackages [reg-tables]: Remove: archive file [/home/abi/fetcher/tmp/reg_tables-0.1.8.tar.gz]
+[2023-07-20 18:13:23] INFO root fetch - processPackages [reg-tables]: Remove: archive file [/home/abi/fetcher/tmp/reg_tables-0.1.9.tar.gz]
+[2023-07-20 18:13:23] INFO root fetch - processPackages [reg-tables]: Start processing: makim
+[2023-07-20 18:13:23] INFO root fetch - main [MainThread]: End processing [reg-tables]: success
+[2023-07-20 18:13:23] INFO root fetch - processPackages [makim]: New version: [1.8.2] Old Version: [1.8.1]
+[2023-07-20 18:13:23] INFO root fetch - processPackages [gncxml]: Remove: archive file [/home/abi/fetcher/tmp/gncxml-0.6.8.tar.gz]
+[2023-07-20 18:13:23] INFO root fetch - processPackages [gncxml]: Remove: archive file [/home/abi/fetcher/tmp/gncxml-0.6.9.tar.gz]
+[2023-07-20 18:13:23] INFO root fetch - processPackages [gncxml]: Start processing: ovos-gui
+[2023-07-20 18:13:23] INFO root fetch - main [MainThread]: End processing [gncxml]: success
+[2023-07-20 18:13:23] INFO root fetch - processPackages [ovos-gui]: New version: [0.0.3a9] Old Version: [0.0.3a8]
+[2023-07-20 18:13:23] INFO root fetch - processPackages [contact-magic]: Remove: archive file [/home/abi/fetcher/tmp/contact_magic-0.5.5.tar.gz]
+[2023-07-20 18:13:23] INFO root fetch - processPackages [contact-magic]: Remove: archive file [/home/abi/fetcher/tmp/contact_magic-0.5.6.tar.gz]
+[2023-07-20 18:13:23] INFO root fetch - main [MainThread]: End processing [contact-magic]: success
+[2023-07-20 18:13:23] INFO root fetch - processPackages [makim]: Downloading https://files.pythonhosted.org/packages/d3/80/79343793697068b0ee8e9f6da3c98bd49cfe4ddc2c59933750172ce9c967/makim-1.8.1.tar.gz
+[2023-07-20 18:13:23] INFO root fetch - processPackages [excel-framework]: Remove: archive file [/home/abi/fetcher/tmp/excel_framework-0.1.1.tar.gz]
+[2023-07-20 18:13:23] INFO root fetch - processPackages [excel-framework]: Remove: archive file [/home/abi/fetcher/tmp/excel_framework-0.2.0.tar.gz]
+[2023-07-20 18:13:23] INFO root fetch - main [MainThread]: End processing [excel-framework]: success
+[2023-07-20 18:13:23] INFO root fetch - processPackages [pymetastore]: Remove: archive file [/home/abi/fetcher/tmp/pymetastore-0.4.0.tar.gz]
+[2023-07-20 18:13:23] INFO root fetch - processPackages [pymetastore]: Remove: archive file [/home/abi/fetcher/tmp/pymetastore-0.4.1.tar.gz]
+[2023-07-20 18:13:23] INFO root fetch - main [MainThread]: End processing [pymetastore]: success
+[2023-07-20 18:13:24] INFO root fetch - processPackages [deciphon-snap]: Remove: archive file [/home/abi/fetcher/tmp/deciphon_snap-0.4.0.tar.gz]
+[2023-07-20 18:13:24] INFO root fetch - processPackages [deciphon-snap]: Remove: archive file [/home/abi/fetcher/tmp/deciphon_snap-0.5.0.tar.gz]
+[2023-07-20 18:13:24] INFO root fetch - main [MainThread]: End processing [deciphon-snap]: success
+[2023-07-20 18:13:24] INFO root fetch - processPackages [roboflow]: Remove: archive file [/home/abi/fetcher/tmp/roboflow-1.1.1.tar.gz]
+[2023-07-20 18:13:24] INFO root fetch - processPackages [roboflow]: Remove: archive file [/home/abi/fetcher/tmp/roboflow-1.1.2.tar.gz]
+[2023-07-20 18:13:24] INFO root fetch - main [MainThread]: End processing [roboflow]: success
+[2023-07-20 18:13:24] INFO root fetch - processPackages [makim]: Downloading https://files.pythonhosted.org/packages/c7/10/499e7894af46cb4fcdb12d99eb4b1d0fb3db112f3a1e1ee818db4ba6354b/makim-1.8.2.tar.gz
+[2023-07-20 18:13:24] INFO root fetch - processPackages [crypto-screening]: Remove: archive file [/home/abi/fetcher/tmp/crypto-screening-7.2.0.tar.gz]
+[2023-07-20 18:13:24] INFO root fetch - processPackages [crypto-screening]: Remove: archive file [/home/abi/fetcher/tmp/crypto-screening-7.3.0.tar.gz]
+[2023-07-20 18:13:24] INFO root fetch - main [MainThread]: End processing [crypto-screening]: success
+[2023-07-20 18:13:24] INFO root fetch - processPackages [ovos-gui]: executing diffoscope
+[2023-07-20 18:13:24] INFO root fetch - processPackages [ovos-gui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ovos_gui-0.0.3a8-py3-none-any.whl.zip tmp/ovos_gui-0.0.3a9-py3-none-any.whl.zip --markdown 20230720/o/ovos-gui/0.0.3a8-0.0.3a9/diff.md --exclude *.pyd
+[2023-07-20 18:13:24] INFO root fetch - processPackages [makim]: executing diffoscope
+[2023-07-20 18:13:24] INFO root fetch - processPackages [makim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/makim-1.8.1.tar.gz tmp/makim-1.8.2.tar.gz --markdown 20230720/m/makim/1.8.1-1.8.2/diff.md --exclude *.pyd
+[2023-07-20 18:13:24] INFO root fetch - processPackages [ovos-gui]: Remove: archive file [/home/abi/fetcher/tmp/ovos_gui-0.0.3a8-py3-none-any.whl.zip]
+[2023-07-20 18:13:24] INFO root fetch - processPackages [ovos-gui]: Remove: archive file [/home/abi/fetcher/tmp/ovos_gui-0.0.3a9-py3-none-any.whl.zip]
+[2023-07-20 18:13:24] INFO root fetch - main [MainThread]: End processing [ovos-gui]: success
+[2023-07-20 18:13:25] INFO root fetch - processPackages [datamodel-code-generator]: Remove: archive file [/home/abi/fetcher/tmp/datamodel-code-generator-0.9.3.tar.gz]
+[2023-07-20 18:13:25] INFO root fetch - processPackages [datamodel-code-generator]: Remove: archive file [/home/abi/fetcher/tmp/datamodel-code-generator-0.9.4.tar.gz]
+[2023-07-20 18:13:25] INFO root fetch - main [MainThread]: End processing [datamodel-code-generator]: success
+[2023-07-20 18:13:25] INFO root fetch - processPackages [OptiFit]: Remove: archive file [/home/abi/fetcher/tmp/OptiFit-1.0.tar.gz]
+[2023-07-20 18:13:25] INFO root fetch - processPackages [OptiFit]: Remove: archive file [/home/abi/fetcher/tmp/OptiFit-1.1.tar.gz]
+[2023-07-20 18:13:25] INFO root fetch - main [MainThread]: End processing [OptiFit]: success
+[2023-07-20 18:13:25] INFO root fetch - processPackages [makim]: Remove: archive file [/home/abi/fetcher/tmp/makim-1.8.1.tar.gz]
+[2023-07-20 18:13:25] INFO root fetch - processPackages [makim]: Remove: archive file [/home/abi/fetcher/tmp/makim-1.8.2.tar.gz]
+[2023-07-20 18:13:25] INFO root fetch - main [MainThread]: End processing [makim]: success
+[2023-07-20 18:13:25] INFO root fetch - main [MainThread]: Store serial: [18969464]
