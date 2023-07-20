@@ -10095,3 +10095,148 @@ AssertionError: tmp/verify4py-test-0.1.7.tar.gz does not exist
 [2023-07-20 15:35:56] INFO root fetch - processPackages [bigdl-friesian-spark3]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_friesian_spark3-2.4.0b20230720-py3-none-manylinux1_x86_64.whl.zip]
 [2023-07-20 15:35:56] INFO root fetch - main [MainThread]: End processing [bigdl-friesian-spark3]: success
 [2023-07-20 15:35:56] INFO root fetch - main [MainThread]: Store serial: [18967125]
+[2023-07-20 15:41:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18967125]
+[2023-07-20 15:41:05] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-07-20 15:41:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: appeal
+[2023-07-20 15:41:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: blueapps
+[2023-07-20 15:41:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: py-keycloak-utils
+[2023-07-20 15:41:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: secrets-vault
+[2023-07-20 15:41:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: enstat
+[2023-07-20 15:41:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fbgemm-gpu-nightly
+[2023-07-20 15:41:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: chassisml-protobuf
+[2023-07-20 15:41:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: fastlane-bot
+[2023-07-20 15:41:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: policyengine-us
+[2023-07-20 15:41:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: efel
+[2023-07-20 15:41:05] INFO root fetch - processPackages [appeal]: New version: [0.6] Old Version: [0.5.9]
+[2023-07-20 15:41:05] INFO root fetch - processPackages [blueapps]: New version: [4.7.1] Old Version: [4.7.0rc1]
+[2023-07-20 15:41:05] WARNING root fetch - processPackages [py-keycloak-utils]: Skipping, unable to determine old version
+[2023-07-20 15:41:05] INFO root fetch - processPackages [py-keycloak-utils]: Start processing: vbtex
+[2023-07-20 15:41:05] INFO root fetch - main [MainThread]: End processing [py-keycloak-utils] error
+[2023-07-20 15:41:05] WARNING root fetch - processPackages [chassisml-protobuf]: Skipping, unable to determine old version
+[2023-07-20 15:41:05] INFO root fetch - processPackages [chassisml-protobuf]: Start processing: cybrid-api-organization-python
+[2023-07-20 15:41:05] INFO root fetch - main [MainThread]: End processing [chassisml-protobuf] error
+[2023-07-20 15:41:05] INFO root fetch - processPackages [fastlane-bot]: New version: [0.7.0] Old Version: [0.1.0]
+[2023-07-20 15:41:05] INFO root fetch - processPackages [enstat]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-07-20 15:41:05] WARNING root fetch - processPackages [secrets-vault]: Skipping, unable to determine old version
+[2023-07-20 15:41:05] INFO root fetch - processPackages [secrets-vault]: Start processing: cybrid-api-id-python
+[2023-07-20 15:41:05] INFO root fetch - main [MainThread]: End processing [secrets-vault] error
+[2023-07-20 15:41:05] INFO root fetch - processPackages [fbgemm-gpu-nightly]: New version: [2023.7.19] Old Version: [2023.7.18]
+[2023-07-20 15:41:06] INFO root fetch - processPackages [efel]: New version: [5.0.1] Old Version: [4.3.6]
+[2023-07-20 15:41:06] INFO root fetch - processPackages [policyengine-us]: New version: [0.373.0] Old Version: [0.372.0]
+[2023-07-20 15:41:06] INFO root fetch - processPackages [vbtex]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-07-20 15:41:06] INFO root fetch - processPackages [cybrid-api-organization-python]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-20 15:41:06] INFO root fetch - processPackages [cybrid-api-id-python]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-20 15:41:06] INFO root fetch - processPackages [fastlane-bot]: Downloading https://files.pythonhosted.org/packages/1b/81/7339c9da677040112f710ac99dd41e53ebd72ff3b51cf6c7da8afa4cce3f/fastlane_bot-0.1.0.tar.gz
+[2023-07-20 15:41:06] INFO root fetch - processPackages [vbtex]: Downloading https://files.pythonhosted.org/packages/94/fc/4c3ab23c575b058879facf354b40b6e8075072ceca7a98fbff90e7b6a6f2/vbtex-0.1.6.tar.gz
+[2023-07-20 15:41:06] INFO root fetch - processPackages [cybrid-api-organization-python]: Downloading https://files.pythonhosted.org/packages/8c/f9/11b3397de980d7217c6b56728b693a302080844e78e135a12319c23d1e09/cybrid-api-organization-python-0.9.8.tar.gz
+[2023-07-20 15:41:06] INFO root fetch - processPackages [blueapps]: Downloading https://files.pythonhosted.org/packages/67/92/fd2e41921c1267668df8fd1291bef6af3d1f3576d652017a93179a9691d7/blueapps-4.7.0rc1.tar.gz
+[2023-07-20 15:41:06] INFO root fetch - processPackages [appeal]: Downloading https://files.pythonhosted.org/packages/68/81/6559669a4fec204c80eb543179caaafb60416717187675d286a35c7975e5/appeal-0.5.9.tar.gz
+[2023-07-20 15:41:06] INFO root fetch - processPackages [cybrid-api-id-python]: Downloading https://files.pythonhosted.org/packages/50/b7/b977148f4fc829a75a0b07e5a1a330568bf4060c71cf5e0e0a6449ffed87/cybrid-api-id-python-0.9.8.tar.gz
+[2023-07-20 15:41:06] INFO root fetch - processPackages [enstat]: Downloading https://files.pythonhosted.org/packages/5f/1a/653761bf5f5e5a42cd7d1e3b5bb611ed25fd65347f217d11f72571dbb7d6/enstat-0.9.5.tar.gz
+[2023-07-20 15:41:06] INFO root fetch - processPackages [efel]: Downloading https://files.pythonhosted.org/packages/b7/58/ed8dd9d538fe83af361e49371e08fe530903d91c18713a9ca300c1ba014b/efel-4.3.6.tar.gz
+[2023-07-20 15:41:06] INFO root fetch - processPackages [policyengine-us]: Downloading https://files.pythonhosted.org/packages/ec/b0/fbda63921874c82f0298fc16e999229eabd08ce4c08cd03e9949ad584d1c/policyengine-us-0.373.0.tar.gz
+[2023-07-20 15:41:06] INFO root fetch - processPackages [fbgemm-gpu-nightly]: Downloading https://files.pythonhosted.org/packages/28/1e/876375364a56e4c1a2644d933c109793e320a5912353f3daae62719f5a60/fbgemm_gpu_nightly-2023.7.18-cp39-cp39-manylinux2014_x86_64.whl
+[2023-07-20 15:41:06] INFO root fetch - processPackages [policyengine-us]: executing diffoscope
+[2023-07-20 15:41:06] INFO root fetch - processPackages [policyengine-us]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/policyengine-us-0.372.0.tar.gz tmp/policyengine-us-0.373.0.tar.gz --markdown 20230720/p/policyengine-us/0.372.0-0.373.0/diff.md --exclude *.pyd
+[2023-07-20 15:41:06] WARNING root fetch - processPackages [fbgemm-gpu-nightly]: Skipping package: exceeds size limit 218057362>=10485760
+[2023-07-20 15:41:06] INFO root fetch - processPackages [fbgemm-gpu-nightly]: Start processing: plone.app.multilingual
+[2023-07-20 15:41:06] INFO root fetch - main [MainThread]: End processing [fbgemm-gpu-nightly] error
+[2023-07-20 15:41:06] INFO root fetch - processPackages [cybrid-api-organization-python]: Downloading https://files.pythonhosted.org/packages/6e/9a/cba8516138af9b31af978d1cb5ac08501052b56ac24c59f876cc7432e4cd/cybrid-api-organization-python-0.9.9.tar.gz
+[2023-07-20 15:41:06] INFO root fetch - processPackages [vbtex]: Downloading https://files.pythonhosted.org/packages/38/e4/089e0352e47fb3a1155e6f6358e49d98175d2d5c852182334315345bd886/vbtex-0.1.7.tar.gz
+[2023-07-20 15:41:06] INFO root fetch - processPackages [fastlane-bot]: Downloading https://files.pythonhosted.org/packages/3e/7a/17839178802d17608a7b101c8e182272394d3a7b2032ec1e2fae433a49bd/fastlane_bot-0.7.0.tar.gz
+[2023-07-20 15:41:06] INFO root fetch - processPackages [cybrid-api-id-python]: Downloading https://files.pythonhosted.org/packages/df/0b/f41ef37cacb50f16ff72d759b9fe9a5fd7fe8bde214833a5c722ba07e136/cybrid-api-id-python-0.9.9.tar.gz
+[2023-07-20 15:41:06] INFO root fetch - processPackages [plone.app.multilingual]: New version: [8.0.0] Old Version: [7.0.2]
+[2023-07-20 15:41:06] INFO root fetch - processPackages [blueapps]: Downloading https://files.pythonhosted.org/packages/c3/1c/8f55b4f8e3eb8b8f11829a1908f89a632d0f981ac001239ad6ecc89f3167/blueapps-4.7.1.tar.gz
+[2023-07-20 15:41:06] INFO root fetch - processPackages [appeal]: Downloading https://files.pythonhosted.org/packages/79/a9/e0e0db3c96a1403cff21d731638c0b9aeb83af44cd57b812892a8ea92367/appeal-0.6.tar.gz
+[2023-07-20 15:41:06] INFO root fetch - processPackages [vbtex]: executing diffoscope
+[2023-07-20 15:41:06] INFO root fetch - processPackages [vbtex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vbtex-0.1.6.tar.gz tmp/vbtex-0.1.7.tar.gz --markdown 20230720/v/vbtex/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-07-20 15:41:06] INFO root fetch - processPackages [enstat]: Downloading https://files.pythonhosted.org/packages/0d/1d/34f3b793ba8739f5b7d516db276aeb34db7b81a7beedd7af26f87ae35d63/enstat-0.9.6.tar.gz
+[2023-07-20 15:41:06] INFO root fetch - processPackages [cybrid-api-organization-python]: executing diffoscope
+[2023-07-20 15:41:06] INFO root fetch - processPackages [cybrid-api-organization-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-organization-python-0.9.8.tar.gz tmp/cybrid-api-organization-python-0.9.9.tar.gz --markdown 20230720/c/cybrid-api-organization-python/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-20 15:41:06] INFO root fetch - processPackages [efel]: Downloading https://files.pythonhosted.org/packages/23/d0/6db40212976b992152a1c3cd671b2f832a6921a6ca08a8c313dd60764e53/efel-5.0.1.tar.gz
+[2023-07-20 15:41:06] INFO root fetch - processPackages [fastlane-bot]: executing diffoscope
+[2023-07-20 15:41:06] INFO root fetch - processPackages [fastlane-bot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastlane_bot-0.1.0.tar.gz tmp/fastlane_bot-0.7.0.tar.gz --markdown 20230720/f/fastlane-bot/0.1.0-0.7.0/diff.md --exclude *.pyd
+[2023-07-20 15:41:06] INFO root fetch - processPackages [cybrid-api-id-python]: executing diffoscope
+[2023-07-20 15:41:06] INFO root fetch - processPackages [cybrid-api-id-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-id-python-0.9.8.tar.gz tmp/cybrid-api-id-python-0.9.9.tar.gz --markdown 20230720/c/cybrid-api-id-python/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-20 15:41:07] INFO root fetch - processPackages [blueapps]: executing diffoscope
+[2023-07-20 15:41:07] INFO root fetch - processPackages [blueapps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blueapps-4.7.0rc1.tar.gz tmp/blueapps-4.7.1.tar.gz --markdown 20230720/b/blueapps/4.7.0rc1-4.7.1/diff.md --exclude *.pyd
+[2023-07-20 15:41:07] INFO root fetch - processPackages [appeal]: executing diffoscope
+[2023-07-20 15:41:07] INFO root fetch - processPackages [appeal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/appeal-0.5.9.tar.gz tmp/appeal-0.6.tar.gz --markdown 20230720/a/appeal/0.5.9-0.6/diff.md --exclude *.pyd
+[2023-07-20 15:41:07] INFO root fetch - processPackages [enstat]: executing diffoscope
+[2023-07-20 15:41:07] INFO root fetch - processPackages [enstat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/enstat-0.9.5.tar.gz tmp/enstat-0.9.6.tar.gz --markdown 20230720/e/enstat/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-07-20 15:41:07] INFO root fetch - processPackages [efel]: executing diffoscope
+[2023-07-20 15:41:07] INFO root fetch - processPackages [efel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/efel-4.3.6.tar.gz tmp/efel-5.0.1.tar.gz --markdown 20230720/e/efel/4.3.6-5.0.1/diff.md --exclude *.pyd
+[2023-07-20 15:41:07] INFO root fetch - processPackages [plone.app.multilingual]: Downloading https://files.pythonhosted.org/packages/13/f8/f27beffbfe0d3ecb686078267d647b635329e7cf06f8e9769dc765442850/plone.app.multilingual-7.0.2.tar.gz
+[2023-07-20 15:41:07] INFO root fetch - processPackages [plone.app.multilingual]: Downloading https://files.pythonhosted.org/packages/0f/ec/aeb4eab54ad3b12f634bdacb93a385f1777a18d6ba21875dec081f1eaada/plone.app.multilingual-8.0.0.tar.gz
+[2023-07-20 15:41:07] INFO root fetch - processPackages [plone.app.multilingual]: executing diffoscope
+[2023-07-20 15:41:07] INFO root fetch - processPackages [plone.app.multilingual]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plone.app.multilingual-7.0.2.tar.gz tmp/plone.app.multilingual-8.0.0.tar.gz --markdown 20230720/p/plone.app.multilingual/7.0.2-8.0.0/diff.md --exclude *.pyd
+[2023-07-20 15:41:08] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.372.0.tar.gz]
+[2023-07-20 15:41:08] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.373.0.tar.gz]
+[2023-07-20 15:41:08] INFO root fetch - processPackages [policyengine-us]: Start processing: cybrid-api-bank-python
+[2023-07-20 15:41:08] INFO root fetch - main [MainThread]: End processing [policyengine-us]: success
+[2023-07-20 15:41:08] INFO root fetch - processPackages [cybrid-api-bank-python]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-20 15:41:08] INFO root fetch - processPackages [cybrid-api-bank-python]: Downloading https://files.pythonhosted.org/packages/20/58/83595c25956605935aa08227f1f01b1c02743825aca19e267bc95d1b4928/cybrid-api-bank-python-0.9.8.tar.gz
+[2023-07-20 15:41:08] INFO root fetch - processPackages [vbtex]: Remove: archive file [/home/abi/fetcher/tmp/vbtex-0.1.6.tar.gz]
+[2023-07-20 15:41:08] INFO root fetch - processPackages [vbtex]: Remove: archive file [/home/abi/fetcher/tmp/vbtex-0.1.7.tar.gz]
+[2023-07-20 15:41:08] INFO root fetch - processPackages [vbtex]: Start processing: ml-confs
+[2023-07-20 15:41:08] INFO root fetch - main [MainThread]: End processing [vbtex]: success
+[2023-07-20 15:41:08] WARNING root fetch - processPackages [ml-confs]: Skipping, unable to determine old version
+[2023-07-20 15:41:08] INFO root fetch - processPackages [ml-confs]: Start processing: gmltools
+[2023-07-20 15:41:08] INFO root fetch - main [MainThread]: End processing [ml-confs] error
+[2023-07-20 15:41:08] INFO root fetch - processPackages [gmltools]: New version: [0.0.90] Old Version: [0.0.89]
+[2023-07-20 15:41:08] INFO root fetch - processPackages [cybrid-api-bank-python]: Downloading https://files.pythonhosted.org/packages/89/0b/5831e52f1895b5ffe4c5b8862788216f9cf6c8554dfffa92e8805799baaf/cybrid-api-bank-python-0.9.9.tar.gz
+[2023-07-20 15:41:08] INFO root fetch - processPackages [gmltools]: Downloading https://files.pythonhosted.org/packages/fb/46/aa1c7ac430c93d3ee7a9d1f47fcc83fb8259a062aabadf2dab0cc03ba876/gmltools-0.0.89.tar.gz
+[2023-07-20 15:41:08] INFO root fetch - processPackages [cybrid-api-bank-python]: executing diffoscope
+[2023-07-20 15:41:08] INFO root fetch - processPackages [cybrid-api-bank-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-bank-python-0.9.8.tar.gz tmp/cybrid-api-bank-python-0.9.9.tar.gz --markdown 20230720/c/cybrid-api-bank-python/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-20 15:41:08] INFO root fetch - processPackages [cybrid-api-organization-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-organization-python-0.9.8.tar.gz]
+[2023-07-20 15:41:08] INFO root fetch - processPackages [cybrid-api-organization-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-organization-python-0.9.9.tar.gz]
+[2023-07-20 15:41:08] INFO root fetch - processPackages [cybrid-api-organization-python]: Start processing: iron-toolbox
+[2023-07-20 15:41:08] INFO root fetch - main [MainThread]: End processing [cybrid-api-organization-python]: success
+[2023-07-20 15:41:08] INFO root fetch - processPackages [enstat]: Remove: archive file [/home/abi/fetcher/tmp/enstat-0.9.5.tar.gz]
+[2023-07-20 15:41:08] INFO root fetch - processPackages [enstat]: Remove: archive file [/home/abi/fetcher/tmp/enstat-0.9.6.tar.gz]
+[2023-07-20 15:41:08] INFO root fetch - processPackages [enstat]: Start processing: chassisml-protobuf
+[2023-07-20 15:41:08] INFO root fetch - main [MainThread]: End processing [enstat]: success
+[2023-07-20 15:41:08] INFO root fetch - processPackages [appeal]: Remove: archive file [/home/abi/fetcher/tmp/appeal-0.5.9.tar.gz]
+[2023-07-20 15:41:08] INFO root fetch - processPackages [appeal]: Remove: archive file [/home/abi/fetcher/tmp/appeal-0.6.tar.gz]
+[2023-07-20 15:41:08] INFO root fetch - main [MainThread]: End processing [appeal]: success
+[2023-07-20 15:41:08] INFO root fetch - processPackages [chassisml-protobuf]: New version: [4.0.0] Old Version: [3.0.0]
+[2023-07-20 15:41:08] INFO root fetch - processPackages [iron-toolbox]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-20 15:41:09] INFO root fetch - processPackages [efel]: Remove: archive file [/home/abi/fetcher/tmp/efel-4.3.6.tar.gz]
+[2023-07-20 15:41:09] INFO root fetch - processPackages [efel]: Remove: archive file [/home/abi/fetcher/tmp/efel-5.0.1.tar.gz]
+[2023-07-20 15:41:09] INFO root fetch - main [MainThread]: End processing [efel]: success
+[2023-07-20 15:41:09] INFO root fetch - processPackages [gmltools]: Downloading https://files.pythonhosted.org/packages/14/61/0006b037c1c3b767f81cac3fe5186d95d5b635be38a94fd35dcfce72ace9/gmltools-0.0.90.tar.gz
+[2023-07-20 15:41:09] INFO root fetch - processPackages [cybrid-api-id-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-id-python-0.9.8.tar.gz]
+[2023-07-20 15:41:09] INFO root fetch - processPackages [cybrid-api-id-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-id-python-0.9.9.tar.gz]
+[2023-07-20 15:41:09] INFO root fetch - main [MainThread]: End processing [cybrid-api-id-python]: success
+[2023-07-20 15:41:09] INFO root fetch - processPackages [fastlane-bot]: Remove: archive file [/home/abi/fetcher/tmp/fastlane_bot-0.1.0.tar.gz]
+[2023-07-20 15:41:09] INFO root fetch - processPackages [fastlane-bot]: Remove: archive file [/home/abi/fetcher/tmp/fastlane_bot-0.7.0.tar.gz]
+[2023-07-20 15:41:09] INFO root fetch - main [MainThread]: End processing [fastlane-bot]: success
+[2023-07-20 15:41:09] INFO root fetch - processPackages [chassisml-protobuf]: Downloading https://files.pythonhosted.org/packages/25/b5/0b7cc054bfe5430da7be41c08f179f89e53ce6e3a33dbbdb24e5b67d27a9/chassisml_protobuf-3.0.0-py3-none-any.whl
+[2023-07-20 15:41:09] INFO root fetch - processPackages [iron-toolbox]: Downloading https://files.pythonhosted.org/packages/14/56/607715d5f0a4a64f571ffe260dbd6c986eb107b6942e4a94bd250688ae9d/iron_toolbox-1.0.8.tar.gz
+[2023-07-20 15:41:09] INFO root fetch - processPackages [gmltools]: executing diffoscope
+[2023-07-20 15:41:09] INFO root fetch - processPackages [gmltools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gmltools-0.0.89.tar.gz tmp/gmltools-0.0.90.tar.gz --markdown 20230720/g/gmltools/0.0.89-0.0.90/diff.md --exclude *.pyd
+[2023-07-20 15:41:09] INFO root fetch - processPackages [blueapps]: Remove: archive file [/home/abi/fetcher/tmp/blueapps-4.7.0rc1.tar.gz]
+[2023-07-20 15:41:09] INFO root fetch - processPackages [blueapps]: Remove: archive file [/home/abi/fetcher/tmp/blueapps-4.7.1.tar.gz]
+[2023-07-20 15:41:09] INFO root fetch - main [MainThread]: End processing [blueapps]: success
+[2023-07-20 15:41:09] INFO root fetch - processPackages [iron-toolbox]: Downloading https://files.pythonhosted.org/packages/15/c9/6ddb477d6f0ec6bef2b9ab1904ced650193c203c83b26b8b7371a39bbe01/iron_toolbox-1.0.9.tar.gz
+[2023-07-20 15:41:09] INFO root fetch - processPackages [chassisml-protobuf]: Downloading https://files.pythonhosted.org/packages/89/b4/9cd500fbdc03adeb89819f9956186bbf30e3f259205dc25b3426914fbe08/chassisml_protobuf-4.0.0-py3-none-any.whl
+[2023-07-20 15:41:09] INFO root fetch - processPackages [chassisml-protobuf]: executing diffoscope
+[2023-07-20 15:41:09] INFO root fetch - processPackages [chassisml-protobuf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chassisml_protobuf-3.0.0-py3-none-any.whl.zip tmp/chassisml_protobuf-4.0.0-py3-none-any.whl.zip --markdown 20230720/c/chassisml-protobuf/3.0.0-4.0.0/diff.md --exclude *.pyd
+[2023-07-20 15:41:09] INFO root fetch - processPackages [plone.app.multilingual]: Remove: archive file [/home/abi/fetcher/tmp/plone.app.multilingual-7.0.2.tar.gz]
+[2023-07-20 15:41:09] INFO root fetch - processPackages [plone.app.multilingual]: Remove: archive file [/home/abi/fetcher/tmp/plone.app.multilingual-8.0.0.tar.gz]
+[2023-07-20 15:41:09] INFO root fetch - main [MainThread]: End processing [plone.app.multilingual]: success
+[2023-07-20 15:41:09] INFO root fetch - processPackages [iron-toolbox]: executing diffoscope
+[2023-07-20 15:41:09] INFO root fetch - processPackages [iron-toolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iron_toolbox-1.0.8.tar.gz tmp/iron_toolbox-1.0.9.tar.gz --markdown 20230720/i/iron-toolbox/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-20 15:41:10] INFO root fetch - processPackages [gmltools]: Remove: archive file [/home/abi/fetcher/tmp/gmltools-0.0.89.tar.gz]
+[2023-07-20 15:41:10] INFO root fetch - processPackages [gmltools]: Remove: archive file [/home/abi/fetcher/tmp/gmltools-0.0.90.tar.gz]
+[2023-07-20 15:41:10] INFO root fetch - main [MainThread]: End processing [gmltools]: success
+[2023-07-20 15:41:10] INFO root fetch - processPackages [chassisml-protobuf]: Remove: archive file [/home/abi/fetcher/tmp/chassisml_protobuf-3.0.0-py3-none-any.whl.zip]
+[2023-07-20 15:41:10] INFO root fetch - processPackages [chassisml-protobuf]: Remove: archive file [/home/abi/fetcher/tmp/chassisml_protobuf-4.0.0-py3-none-any.whl.zip]
+[2023-07-20 15:41:10] INFO root fetch - main [MainThread]: End processing [chassisml-protobuf]: success
+[2023-07-20 15:41:10] INFO root fetch - processPackages [iron-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/iron_toolbox-1.0.8.tar.gz]
+[2023-07-20 15:41:10] INFO root fetch - processPackages [iron-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/iron_toolbox-1.0.9.tar.gz]
+[2023-07-20 15:41:10] INFO root fetch - main [MainThread]: End processing [iron-toolbox]: success
+[2023-07-20 15:41:10] INFO root fetch - processPackages [cybrid-api-bank-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-bank-python-0.9.8.tar.gz]
+[2023-07-20 15:41:10] INFO root fetch - processPackages [cybrid-api-bank-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-bank-python-0.9.9.tar.gz]
+[2023-07-20 15:41:10] INFO root fetch - main [MainThread]: End processing [cybrid-api-bank-python]: success
+[2023-07-20 15:41:10] INFO root fetch - main [MainThread]: Store serial: [18967204]
