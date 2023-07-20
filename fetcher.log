@@ -8625,3 +8625,87 @@ AssertionError: tmp/verify4py-test-0.1.7.tar.gz does not exist
 [2023-07-20 14:47:06] INFO root fetch - processPackages [streamlink]: Remove: archive file [/home/abi/fetcher/tmp/streamlink-6.0.0.tar.gz]
 [2023-07-20 14:47:06] INFO root fetch - main [MainThread]: End processing [streamlink]: success
 [2023-07-20 14:47:06] INFO root fetch - main [MainThread]: Store serial: [18966549]
+[2023-07-20 14:52:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18966549]
+[2023-07-20 14:52:16] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-07-20 14:52:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: langful
+[2023-07-20 14:52:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: morch
+[2023-07-20 14:52:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: qwak-core
+[2023-07-20 14:52:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: roj-agrirouter-sdk-python
+[2023-07-20 14:52:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: manticore
+[2023-07-20 14:52:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pydantic-avro
+[2023-07-20 14:52:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ptlibs
+[2023-07-20 14:52:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: plann
+[2023-07-20 14:52:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ninjakiwi-api
+[2023-07-20 14:52:16] INFO root fetch - processPackages [pydantic-avro]: New version: [0.5.2] Old Version: [0.5.1]
+[2023-07-20 14:52:16] INFO root fetch - processPackages [langful]: New version: [0.37] Old Version: [0.36]
+[2023-07-20 14:52:16] INFO root fetch - processPackages [morch]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-07-20 14:52:16] INFO root fetch - processPackages [roj-agrirouter-sdk-python]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-07-20 14:52:16] INFO root fetch - processPackages [ptlibs]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-20 14:52:16] INFO root fetch - processPackages [plann]: New version: [0.15.1] Old Version: [0.15]
+[2023-07-20 14:52:16] INFO root fetch - processPackages [qwak-core]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-20 14:52:16] INFO root fetch - processPackages [manticore]: New version: [0.3.8.dev230720] Old Version: [0.3.8.dev230719]
+[2023-07-20 14:52:16] INFO root fetch - processPackages [ninjakiwi-api]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-20 14:52:16] INFO root fetch - processPackages [qwak-core]: Downloading https://files.pythonhosted.org/packages/5f/d0/45d94253bcdc4108ecf2f05cb74d19b34ae62ade127e415b792f382bd060/qwak_core-0.0.98.tar.gz
+[2023-07-20 14:52:16] INFO root fetch - processPackages [ninjakiwi-api]: Downloading https://files.pythonhosted.org/packages/13/40/7936e77c4e556a666f125c8a7992a72df3ec2eb781895b2e5c5e558aa11b/ninjakiwi_api-0.0.5.tar.gz
+[2023-07-20 14:52:17] INFO root fetch - processPackages [pydantic-avro]: Downloading https://files.pythonhosted.org/packages/8d/7b/090b609cd705d56910690ae4822fa3467ee934cdda9bb7ccd4ffb3fec131/pydantic_avro-0.5.1.tar.gz
+[2023-07-20 14:52:17] INFO root fetch - processPackages [roj-agrirouter-sdk-python]: Downloading https://files.pythonhosted.org/packages/79/ca/0e448707184a73c993d2bf1c0af67c7a4c97d36ad94c6ffeb837246f4c9f/roj-agrirouter-sdk-python-1.0.5.tar.gz
+[2023-07-20 14:52:17] INFO root fetch - processPackages [langful]: Downloading https://files.pythonhosted.org/packages/45/99/6f6496f00cec9a508c4072de861a9022eaa699cdc90395b955b49b2e373e/langful-0.36-py3-none-any.whl
+[2023-07-20 14:52:17] INFO root fetch - processPackages [morch]: Downloading https://files.pythonhosted.org/packages/dc/6e/e6707e9fa4de37935de1ee4e613ba85b5d9c792d1779e9346952311a48f7/morch-1.0.1.tar.gz
+[2023-07-20 14:52:17] INFO root fetch - processPackages [ptlibs]: Downloading https://files.pythonhosted.org/packages/9f/67/2480c1609dfa82b6d21dab4d6beea7e05a37ec5e912f225fe22f392c2092/ptlibs-1.0.0.tar.gz
+[2023-07-20 14:52:17] INFO root fetch - processPackages [plann]: Downloading https://files.pythonhosted.org/packages/be/ce/98ee21d741d8d9aabb339c58d1d33fe26a6998126d8e1f742570b810081a/plann-0.15.tar.gz
+[2023-07-20 14:52:17] INFO root fetch - processPackages [manticore]: Downloading https://files.pythonhosted.org/packages/c7/0c/96e01f1b59893f60fb95c553574ad73cd388eccb4b276fb4698675cdb717/manticore-0.3.8.dev230719.tar.gz
+[2023-07-20 14:52:17] INFO root fetch - processPackages [qwak-core]: Downloading https://files.pythonhosted.org/packages/f2/c0/4910ee16f1146c11278c0b18778d0552fdbed48c75db8c1145bb48ab13c4/qwak_core-0.0.99.tar.gz
+[2023-07-20 14:52:17] INFO root fetch - processPackages [ninjakiwi-api]: Downloading https://files.pythonhosted.org/packages/7f/cd/2a93d0bc86bee2776a7541da9cfdb1bc8ba139eafa3f0b2c50e31f169930/ninjakiwi_api-0.0.6.tar.gz
+[2023-07-20 14:52:17] INFO root fetch - processPackages [langful]: Downloading https://files.pythonhosted.org/packages/29/52/2ec894cb74a65b8aed8898b732738d2a6b8abf58c201e8f082722a2acde7/langful-0.37-py3-none-any.whl
+[2023-07-20 14:52:17] INFO root fetch - processPackages [pydantic-avro]: Downloading https://files.pythonhosted.org/packages/aa/65/f4f55cbdbb03065059561ed5af773306bc418374de376fde6862951bd176/pydantic_avro-0.5.2.tar.gz
+[2023-07-20 14:52:17] INFO root fetch - processPackages [morch]: Downloading https://files.pythonhosted.org/packages/15/23/35330acb1bc6398c3939ebd5a0b9e4a6749b8e34876347d069d2f48c3574/morch-1.0.2.tar.gz
+[2023-07-20 14:52:17] INFO root fetch - processPackages [qwak-core]: executing diffoscope
+[2023-07-20 14:52:17] INFO root fetch - processPackages [qwak-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qwak_core-0.0.98.tar.gz tmp/qwak_core-0.0.99.tar.gz --markdown 20230720/q/qwak-core/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-20 14:52:17] INFO root fetch - processPackages [roj-agrirouter-sdk-python]: Downloading https://files.pythonhosted.org/packages/52/e2/d44ffe74a352b5d7bb093e496ba3c603cda68c9058a581e455418f1b4dd9/roj-agrirouter-sdk-python-1.0.6.tar.gz
+[2023-07-20 14:52:17] INFO root fetch - processPackages [pydantic-avro]: executing diffoscope
+[2023-07-20 14:52:17] INFO root fetch - processPackages [pydantic-avro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydantic_avro-0.5.1.tar.gz tmp/pydantic_avro-0.5.2.tar.gz --markdown 20230720/p/pydantic-avro/0.5.1-0.5.2/diff.md --exclude *.pyd
+[2023-07-20 14:52:17] INFO root fetch - processPackages [ptlibs]: Downloading https://files.pythonhosted.org/packages/8c/80/0cc70b039dfc310a41f5fd100a1f0eddbee311b24dd71aa660107474b4e5/ptlibs-1.0.1.tar.gz
+[2023-07-20 14:52:17] INFO root fetch - processPackages [manticore]: Downloading https://files.pythonhosted.org/packages/ad/c0/3fd93ebb0335d2fa31889d5d649cc2dc5d90c99589c1a422e7eb9d8a4577/manticore-0.3.8.dev230720.tar.gz
+[2023-07-20 14:52:17] INFO root fetch - processPackages [ninjakiwi-api]: executing diffoscope
+[2023-07-20 14:52:17] INFO root fetch - processPackages [ninjakiwi-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ninjakiwi_api-0.0.5.tar.gz tmp/ninjakiwi_api-0.0.6.tar.gz --markdown 20230720/n/ninjakiwi-api/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-20 14:52:17] INFO root fetch - processPackages [langful]: executing diffoscope
+[2023-07-20 14:52:17] INFO root fetch - processPackages [langful]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langful-0.36-py3-none-any.whl.zip tmp/langful-0.37-py3-none-any.whl.zip --markdown 20230720/l/langful/0.36-0.37/diff.md --exclude *.pyd
+[2023-07-20 14:52:17] INFO root fetch - processPackages [plann]: Downloading https://files.pythonhosted.org/packages/92/ea/996cb8e3015c2a08989f6fc506412175b7b2df94066f36ec41693d378471/plann-0.15.1.tar.gz
+[2023-07-20 14:52:17] INFO root fetch - processPackages [morch]: executing diffoscope
+[2023-07-20 14:52:17] INFO root fetch - processPackages [morch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/morch-1.0.1.tar.gz tmp/morch-1.0.2.tar.gz --markdown 20230720/m/morch/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-07-20 14:52:17] INFO root fetch - processPackages [ptlibs]: executing diffoscope
+[2023-07-20 14:52:17] INFO root fetch - processPackages [ptlibs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ptlibs-1.0.0.tar.gz tmp/ptlibs-1.0.1.tar.gz --markdown 20230720/p/ptlibs/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-20 14:52:17] INFO root fetch - processPackages [roj-agrirouter-sdk-python]: executing diffoscope
+[2023-07-20 14:52:17] INFO root fetch - processPackages [roj-agrirouter-sdk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/roj-agrirouter-sdk-python-1.0.5.tar.gz tmp/roj-agrirouter-sdk-python-1.0.6.tar.gz --markdown 20230720/r/roj-agrirouter-sdk-python/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-07-20 14:52:17] INFO root fetch - processPackages [manticore]: executing diffoscope
+[2023-07-20 14:52:17] INFO root fetch - processPackages [manticore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/manticore-0.3.8.dev230719.tar.gz tmp/manticore-0.3.8.dev230720.tar.gz --markdown 20230720/m/manticore/0.3.8.dev230719-0.3.8.dev230720/diff.md --exclude *.pyd
+[2023-07-20 14:52:17] INFO root fetch - processPackages [plann]: executing diffoscope
+[2023-07-20 14:52:17] INFO root fetch - processPackages [plann]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plann-0.15.tar.gz tmp/plann-0.15.1.tar.gz --markdown 20230720/p/plann/0.15-0.15.1/diff.md --exclude *.pyd
+[2023-07-20 14:52:19] INFO root fetch - processPackages [ninjakiwi-api]: Remove: archive file [/home/abi/fetcher/tmp/ninjakiwi_api-0.0.5.tar.gz]
+[2023-07-20 14:52:19] INFO root fetch - processPackages [ninjakiwi-api]: Remove: archive file [/home/abi/fetcher/tmp/ninjakiwi_api-0.0.6.tar.gz]
+[2023-07-20 14:52:19] INFO root fetch - main [MainThread]: End processing [ninjakiwi-api]: success
+[2023-07-20 14:52:19] INFO root fetch - processPackages [pydantic-avro]: Remove: archive file [/home/abi/fetcher/tmp/pydantic_avro-0.5.1.tar.gz]
+[2023-07-20 14:52:19] INFO root fetch - processPackages [pydantic-avro]: Remove: archive file [/home/abi/fetcher/tmp/pydantic_avro-0.5.2.tar.gz]
+[2023-07-20 14:52:19] INFO root fetch - main [MainThread]: End processing [pydantic-avro]: success
+[2023-07-20 14:52:19] INFO root fetch - processPackages [morch]: Remove: archive file [/home/abi/fetcher/tmp/morch-1.0.1.tar.gz]
+[2023-07-20 14:52:19] INFO root fetch - processPackages [morch]: Remove: archive file [/home/abi/fetcher/tmp/morch-1.0.2.tar.gz]
+[2023-07-20 14:52:19] INFO root fetch - main [MainThread]: End processing [morch]: success
+[2023-07-20 14:52:19] INFO root fetch - processPackages [langful]: Remove: archive file [/home/abi/fetcher/tmp/langful-0.36-py3-none-any.whl.zip]
+[2023-07-20 14:52:19] INFO root fetch - processPackages [langful]: Remove: archive file [/home/abi/fetcher/tmp/langful-0.37-py3-none-any.whl.zip]
+[2023-07-20 14:52:19] INFO root fetch - main [MainThread]: End processing [langful]: success
+[2023-07-20 14:52:19] INFO root fetch - processPackages [ptlibs]: Remove: archive file [/home/abi/fetcher/tmp/ptlibs-1.0.0.tar.gz]
+[2023-07-20 14:52:19] INFO root fetch - processPackages [ptlibs]: Remove: archive file [/home/abi/fetcher/tmp/ptlibs-1.0.1.tar.gz]
+[2023-07-20 14:52:19] INFO root fetch - main [MainThread]: End processing [ptlibs]: success
+[2023-07-20 14:52:19] INFO root fetch - processPackages [plann]: Remove: archive file [/home/abi/fetcher/tmp/plann-0.15.tar.gz]
+[2023-07-20 14:52:19] INFO root fetch - processPackages [plann]: Remove: archive file [/home/abi/fetcher/tmp/plann-0.15.1.tar.gz]
+[2023-07-20 14:52:19] INFO root fetch - main [MainThread]: End processing [plann]: success
+[2023-07-20 14:52:19] INFO root fetch - processPackages [roj-agrirouter-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/roj-agrirouter-sdk-python-1.0.5.tar.gz]
+[2023-07-20 14:52:19] INFO root fetch - processPackages [roj-agrirouter-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/roj-agrirouter-sdk-python-1.0.6.tar.gz]
+[2023-07-20 14:52:19] INFO root fetch - main [MainThread]: End processing [roj-agrirouter-sdk-python]: success
+[2023-07-20 14:52:19] INFO root fetch - processPackages [manticore]: Remove: archive file [/home/abi/fetcher/tmp/manticore-0.3.8.dev230719.tar.gz]
+[2023-07-20 14:52:19] INFO root fetch - processPackages [manticore]: Remove: archive file [/home/abi/fetcher/tmp/manticore-0.3.8.dev230720.tar.gz]
+[2023-07-20 14:52:19] INFO root fetch - main [MainThread]: End processing [manticore]: success
+[2023-07-20 14:52:21] INFO root fetch - processPackages [qwak-core]: Remove: archive file [/home/abi/fetcher/tmp/qwak_core-0.0.98.tar.gz]
+[2023-07-20 14:52:21] INFO root fetch - processPackages [qwak-core]: Remove: archive file [/home/abi/fetcher/tmp/qwak_core-0.0.99.tar.gz]
+[2023-07-20 14:52:21] INFO root fetch - main [MainThread]: End processing [qwak-core]: success
+[2023-07-20 14:52:21] INFO root fetch - main [MainThread]: Store serial: [18966574]
