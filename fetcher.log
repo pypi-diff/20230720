@@ -9091,3 +9091,189 @@ AssertionError: tmp/verify4py-test-0.1.7.tar.gz does not exist
 [2023-07-20 15:08:08] INFO root fetch - processPackages [ou-container-builder]: Remove: archive file [/home/abi/fetcher/tmp/ou_container_builder-2.6.1.tar.gz]
 [2023-07-20 15:08:08] INFO root fetch - main [MainThread]: End processing [ou-container-builder]: success
 [2023-07-20 15:08:08] INFO root fetch - main [MainThread]: Store serial: [18966756]
+[2023-07-20 15:13:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18966756]
+[2023-07-20 15:13:20] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2023-07-20 15:13:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mkdocstrings-python
+[2023-07-20 15:13:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sound-extraction
+[2023-07-20 15:13:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nbdev-stdlib
+[2023-07-20 15:13:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pydantic-avro
+[2023-07-20 15:13:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: digimat.bac0
+[2023-07-20 15:13:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ape-polygon
+[2023-07-20 15:13:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: hitac
+[2023-07-20 15:13:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: napari-boxmanager
+[2023-07-20 15:13:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: muke
+[2023-07-20 15:13:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pandasai
+[2023-07-20 15:13:20] INFO root fetch - processPackages [sound-extraction]: New version: [2.1.2] Old Version: [1.1.2]
+[2023-07-20 15:13:20] INFO root fetch - processPackages [hitac]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-07-20 15:13:20] INFO root fetch - processPackages [pydantic-avro]: New version: [0.6.0] Old Version: [0.5.2]
+[2023-07-20 15:13:20] INFO root fetch - processPackages [mkdocstrings-python]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-07-20 15:13:20] INFO root fetch - processPackages [muke]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-07-20 15:13:20] INFO root fetch - processPackages [napari-boxmanager]: New version: [0.4.1] Old Version: [0.4.0b5]
+[2023-07-20 15:13:20] INFO root fetch - processPackages [digimat.bac0]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-20 15:13:20] INFO root fetch - processPackages [ape-polygon]: New version: [0.6.5] Old Version: [0.6.4]
+[2023-07-20 15:13:20] INFO root fetch - processPackages [pandasai]: New version: [0.7.0] Old Version: [0.6.9]
+[2023-07-20 15:13:20] INFO root fetch - processPackages [nbdev-stdlib]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-20 15:13:20] INFO root fetch - processPackages [sound-extraction]: Downloading https://files.pythonhosted.org/packages/36/d0/6fd952b4d6d0197310560d4daa2c2414499556285c54aa10f0b3deecb0cc/sound-extraction-1.1.2.tar.gz
+[2023-07-20 15:13:20] INFO root fetch - processPackages [digimat.bac0]: Downloading https://files.pythonhosted.org/packages/93/69/86e0838e726c0937c564256e80ef37aa475670fd71b17c0760827302f8e2/digimat.bac0-0.0.7.tar.gz
+[2023-07-20 15:13:20] INFO root fetch - processPackages [muke]: Downloading https://files.pythonhosted.org/packages/c0/f1/b45961224137f479f0cc6799746391d29e0efd6ffa9090651d163369a1c2/muke-0.2.2-py3-none-any.whl
+[2023-07-20 15:13:20] INFO root fetch - processPackages [mkdocstrings-python]: Downloading https://files.pythonhosted.org/packages/00/fc/9a0506150a6fca9c2f54b48f21472a147dcc69f4e67e2eeb4ae2168f1301/mkdocstrings_python-1.2.0.tar.gz
+[2023-07-20 15:13:20] INFO root fetch - processPackages [pydantic-avro]: Downloading https://files.pythonhosted.org/packages/aa/65/f4f55cbdbb03065059561ed5af773306bc418374de376fde6862951bd176/pydantic_avro-0.5.2.tar.gz
+[2023-07-20 15:13:20] INFO root fetch - processPackages [napari-boxmanager]: Downloading https://files.pythonhosted.org/packages/24/11/c6edc678de37eabbb3ab9598949a81529f02db28b585949d923a08faceb1/napari_boxmanager-0.4.0b5.tar.gz
+[2023-07-20 15:13:20] INFO root fetch - processPackages [ape-polygon]: Downloading https://files.pythonhosted.org/packages/18/05/78abe80576a26ed638d27a9ad93735cbb6050129cdce9d9e7a884611b65f/ape-polygon-0.6.4.tar.gz
+[2023-07-20 15:13:20] INFO root fetch - processPackages [hitac]: Downloading https://files.pythonhosted.org/packages/9b/8f/cbeba8b56c6baac43a01b52b5d05f6229a62d453a3b5fdeeadd5424e7785/hitac-2.0.8.tar.gz
+[2023-07-20 15:13:20] INFO root fetch - processPackages [pandasai]: Downloading https://files.pythonhosted.org/packages/f9/2a/12fe91158b2b1d2ea5e11fc3bc103067764f3befa7163b521f5c84af1e93/pandasai-0.6.9.tar.gz
+[2023-07-20 15:13:20] INFO root fetch - processPackages [nbdev-stdlib]: Downloading https://files.pythonhosted.org/packages/e8/48/ed43dbfa0bd5ca86a6a3f6ae0500b0cffb413b2c3f118e82da24ef3488f1/nbdev-stdlib-0.0.98.tar.gz
+[2023-07-20 15:13:21] INFO root fetch - processPackages [digimat.bac0]: Downloading https://files.pythonhosted.org/packages/78/69/c221dd8f83b0cf18b4d8071cc4f3e464fd1a4a46aedfcc6da331732122ce/digimat.bac0-0.0.8.tar.gz
+[2023-07-20 15:13:21] INFO root fetch - processPackages [sound-extraction]: Downloading https://files.pythonhosted.org/packages/22/5b/db6940d95cfa849d87f455c06cba13bfa4c2bdd72ee801118908ed2bff30/sound-extraction-2.1.2.tar.gz
+[2023-07-20 15:13:21] INFO root fetch - processPackages [digimat.bac0]: executing diffoscope
+[2023-07-20 15:13:21] INFO root fetch - processPackages [digimat.bac0]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/digimat.bac0-0.0.7.tar.gz tmp/digimat.bac0-0.0.8.tar.gz --markdown 20230720/d/digimat.bac0/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-20 15:13:21] INFO root fetch - processPackages [muke]: Downloading https://files.pythonhosted.org/packages/97/57/6d307ce94936388040f899bad80f78b2ea05f852b38dda2ebe28ac56eb52/muke-0.2.3-py3-none-any.whl
+[2023-07-20 15:13:21] INFO root fetch - processPackages [mkdocstrings-python]: Downloading https://files.pythonhosted.org/packages/68/7f/e6fa448cb3c228f521670cc83c9db9339bbe06ceaa3e4f442b4043640a2f/mkdocstrings_python-1.2.1.tar.gz
+[2023-07-20 15:13:21] INFO root fetch - processPackages [pydantic-avro]: Downloading https://files.pythonhosted.org/packages/c1/87/224c91a31083950398cc03b379e719bd554b069d2d4145cd113d198e35b1/pydantic_avro-0.6.0.tar.gz
+[2023-07-20 15:13:21] INFO root fetch - processPackages [ape-polygon]: Downloading https://files.pythonhosted.org/packages/4e/5f/3b5bd3852d68e1054e90ec2484fe2aa9a1dfb1b0b94126a3c653ab19b2a4/ape-polygon-0.6.5.tar.gz
+[2023-07-20 15:13:21] INFO root fetch - processPackages [sound-extraction]: executing diffoscope
+[2023-07-20 15:13:21] INFO root fetch - processPackages [sound-extraction]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sound-extraction-1.1.2.tar.gz tmp/sound-extraction-2.1.2.tar.gz --markdown 20230720/s/sound-extraction/1.1.2-2.1.2/diff.md --exclude *.pyd
+[2023-07-20 15:13:21] INFO root fetch - processPackages [nbdev-stdlib]: Downloading https://files.pythonhosted.org/packages/9b/0f/42944508859f820e43bf894814c5e9dbc7920a0caceef1828a31a9e5b599/nbdev-stdlib-0.0.99.tar.gz
+[2023-07-20 15:13:21] INFO root fetch - processPackages [pandasai]: Downloading https://files.pythonhosted.org/packages/d8/64/848d0cc7c2f844f35e8406155a089943b7f38a8b31b7ed7ab1c41e309733/pandasai-0.7.0.tar.gz
+[2023-07-20 15:13:21] INFO root fetch - processPackages [hitac]: Downloading https://files.pythonhosted.org/packages/af/34/484ae2f1f2a2697bc44623af38f7ee03bda8054ecc5097a125f0bb46f934/hitac-2.0.9.tar.gz
+[2023-07-20 15:13:21] INFO root fetch - processPackages [muke]: executing diffoscope
+[2023-07-20 15:13:21] INFO root fetch - processPackages [muke]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/muke-0.2.2-py3-none-any.whl.zip tmp/muke-0.2.3-py3-none-any.whl.zip --markdown 20230720/m/muke/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-07-20 15:13:21] INFO root fetch - processPackages [mkdocstrings-python]: executing diffoscope
+[2023-07-20 15:13:21] INFO root fetch - processPackages [mkdocstrings-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkdocstrings_python-1.2.0.tar.gz tmp/mkdocstrings_python-1.2.1.tar.gz --markdown 20230720/m/mkdocstrings-python/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-07-20 15:13:21] INFO root fetch - processPackages [pydantic-avro]: executing diffoscope
+[2023-07-20 15:13:21] INFO root fetch - processPackages [pydantic-avro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydantic_avro-0.5.2.tar.gz tmp/pydantic_avro-0.6.0.tar.gz --markdown 20230720/p/pydantic-avro/0.5.2-0.6.0/diff.md --exclude *.pyd
+[2023-07-20 15:13:21] INFO root fetch - processPackages [ape-polygon]: executing diffoscope
+[2023-07-20 15:13:21] INFO root fetch - processPackages [ape-polygon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ape-polygon-0.6.4.tar.gz tmp/ape-polygon-0.6.5.tar.gz --markdown 20230720/a/ape-polygon/0.6.4-0.6.5/diff.md --exclude *.pyd
+[2023-07-20 15:13:21] INFO root fetch - processPackages [nbdev-stdlib]: executing diffoscope
+[2023-07-20 15:13:21] INFO root fetch - processPackages [nbdev-stdlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-stdlib-0.0.98.tar.gz tmp/nbdev-stdlib-0.0.99.tar.gz --markdown 20230720/n/nbdev-stdlib/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-20 15:13:21] INFO root fetch - processPackages [hitac]: executing diffoscope
+[2023-07-20 15:13:21] INFO root fetch - processPackages [hitac]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hitac-2.0.8.tar.gz tmp/hitac-2.0.9.tar.gz --markdown 20230720/h/hitac/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-07-20 15:13:21] INFO root fetch - processPackages [pandasai]: executing diffoscope
+[2023-07-20 15:13:21] INFO root fetch - processPackages [pandasai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pandasai-0.6.9.tar.gz tmp/pandasai-0.7.0.tar.gz --markdown 20230720/p/pandasai/0.6.9-0.7.0/diff.md --exclude *.pyd
+[2023-07-20 15:13:22] INFO root fetch - processPackages [digimat.bac0]: Remove: archive file [/home/abi/fetcher/tmp/digimat.bac0-0.0.7.tar.gz]
+[2023-07-20 15:13:22] INFO root fetch - processPackages [digimat.bac0]: Remove: archive file [/home/abi/fetcher/tmp/digimat.bac0-0.0.8.tar.gz]
+[2023-07-20 15:13:22] INFO root fetch - processPackages [digimat.bac0]: Start processing: power-grid-model
+[2023-07-20 15:13:22] INFO root fetch - main [MainThread]: End processing [digimat.bac0]: success
+[2023-07-20 15:13:22] INFO root fetch - processPackages [sound-extraction]: Remove: archive file [/home/abi/fetcher/tmp/sound-extraction-1.1.2.tar.gz]
+[2023-07-20 15:13:22] INFO root fetch - processPackages [sound-extraction]: Remove: archive file [/home/abi/fetcher/tmp/sound-extraction-2.1.2.tar.gz]
+[2023-07-20 15:13:22] INFO root fetch - processPackages [sound-extraction]: Start processing: nbdev-numpy
+[2023-07-20 15:13:22] INFO root fetch - main [MainThread]: End processing [sound-extraction]: success
+[2023-07-20 15:13:22] INFO root fetch - processPackages [power-grid-model]: New version: [1.5.0rc9225710791626] Old Version: [1.5.0rc9224103679317]
+[2023-07-20 15:13:22] INFO root fetch - processPackages [nbdev-numpy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-20 15:13:22] INFO root fetch - processPackages [napari-boxmanager]: Downloading https://files.pythonhosted.org/packages/71/55/ab4d6c1541ca3b0072b0723068a8dfbcfb85cc6fdff68fb1c3550c2e656d/napari_boxmanager-0.4.1.tar.gz
+[2023-07-20 15:13:22] INFO root fetch - processPackages [power-grid-model]: Downloading https://files.pythonhosted.org/packages/bf/19/1031de9688a57a8114e2e26a254345caaa202f5b8b8c86d180e664909483/power-grid-model-1.5.0rc9224103679317.tar.gz
+[2023-07-20 15:13:22] INFO root fetch - processPackages [nbdev-numpy]: Downloading https://files.pythonhosted.org/packages/73/28/26429c7dd7dcf4c45025b55facc2688943de2ab2ec4851cc073f81f31e65/nbdev-numpy-0.0.98.tar.gz
+[2023-07-20 15:13:23] INFO root fetch - processPackages [pydantic-avro]: Remove: archive file [/home/abi/fetcher/tmp/pydantic_avro-0.5.2.tar.gz]
+[2023-07-20 15:13:23] INFO root fetch - processPackages [pydantic-avro]: Remove: archive file [/home/abi/fetcher/tmp/pydantic_avro-0.6.0.tar.gz]
+[2023-07-20 15:13:23] INFO root fetch - processPackages [pydantic-avro]: Start processing: ilcdlib
+[2023-07-20 15:13:23] INFO root fetch - main [MainThread]: End processing [pydantic-avro]: success
+[2023-07-20 15:13:23] INFO root fetch - processPackages [ilcdlib]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-07-20 15:13:23] INFO root fetch - processPackages [nbdev-stdlib]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-stdlib-0.0.98.tar.gz]
+[2023-07-20 15:13:23] INFO root fetch - processPackages [nbdev-stdlib]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-stdlib-0.0.99.tar.gz]
+[2023-07-20 15:13:23] INFO root fetch - processPackages [nbdev-stdlib]: Start processing: partition-networkx
+[2023-07-20 15:13:23] INFO root fetch - main [MainThread]: End processing [nbdev-stdlib]: success
+[2023-07-20 15:13:23] INFO root fetch - processPackages [napari-boxmanager]: executing diffoscope
+[2023-07-20 15:13:23] INFO root fetch - processPackages [napari-boxmanager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/napari_boxmanager-0.4.0b5.tar.gz tmp/napari_boxmanager-0.4.1.tar.gz --markdown 20230720/n/napari-boxmanager/0.4.0b5-0.4.1/diff.md --exclude *.pyd
+[2023-07-20 15:13:23] INFO root fetch - processPackages [muke]: Remove: archive file [/home/abi/fetcher/tmp/muke-0.2.2-py3-none-any.whl.zip]
+[2023-07-20 15:13:23] INFO root fetch - processPackages [muke]: Remove: archive file [/home/abi/fetcher/tmp/muke-0.2.3-py3-none-any.whl.zip]
+[2023-07-20 15:13:23] INFO root fetch - processPackages [muke]: Start processing: nbdev-pandas
+[2023-07-20 15:13:23] INFO root fetch - main [MainThread]: End processing [muke]: success
+[2023-07-20 15:13:23] INFO root fetch - processPackages [hitac]: Remove: archive file [/home/abi/fetcher/tmp/hitac-2.0.8.tar.gz]
+[2023-07-20 15:13:23] INFO root fetch - processPackages [hitac]: Remove: archive file [/home/abi/fetcher/tmp/hitac-2.0.9.tar.gz]
+[2023-07-20 15:13:23] INFO root fetch - processPackages [hitac]: Start processing: pai-easy-rec
+[2023-07-20 15:13:23] INFO root fetch - main [MainThread]: End processing [hitac]: success
+[2023-07-20 15:13:23] INFO root fetch - processPackages [ape-polygon]: Remove: archive file [/home/abi/fetcher/tmp/ape-polygon-0.6.4.tar.gz]
+[2023-07-20 15:13:23] INFO root fetch - processPackages [ape-polygon]: Remove: archive file [/home/abi/fetcher/tmp/ape-polygon-0.6.5.tar.gz]
+[2023-07-20 15:13:23] INFO root fetch - processPackages [ape-polygon]: Start processing: discohooker
+[2023-07-20 15:13:23] INFO root fetch - main [MainThread]: End processing [ape-polygon]: success
+[2023-07-20 15:13:23] INFO root fetch - processPackages [partition-networkx]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-20 15:13:23] INFO root fetch - processPackages [nbdev-pandas]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-20 15:13:23] INFO root fetch - processPackages [mkdocstrings-python]: Remove: archive file [/home/abi/fetcher/tmp/mkdocstrings_python-1.2.0.tar.gz]
+[2023-07-20 15:13:23] INFO root fetch - processPackages [mkdocstrings-python]: Remove: archive file [/home/abi/fetcher/tmp/mkdocstrings_python-1.2.1.tar.gz]
+[2023-07-20 15:13:23] INFO root fetch - processPackages [mkdocstrings-python]: Start processing: yet-another-wizz-cli
+[2023-07-20 15:13:23] INFO root fetch - main [MainThread]: End processing [mkdocstrings-python]: success
+[2023-07-20 15:13:23] INFO root fetch - processPackages [pai-easy-rec]: New version: [0.7.0] Old Version: [0.6.4]
+[2023-07-20 15:13:23] INFO root fetch - processPackages [discohooker]: New version: [0.0.1] Old Version: [0.0.0b9]
+[2023-07-20 15:13:23] INFO root fetch - processPackages [power-grid-model]: Downloading https://files.pythonhosted.org/packages/ed/26/670ad2d8b6e7549bc3b422f5bde5d37d25faae501dc3bb7c86ab4bc11680/power_grid_model-1.5.0rc9225710791626-py3-none-manylinux_2_24_aarch64.whl
+[2023-07-20 15:13:23] INFO root fetch - processPackages [ilcdlib]: Downloading https://files.pythonhosted.org/packages/e2/ee/b74382b9ce6422ccbb4d8ac146a58279bff8d48b7911c7e3a17780ea3e4b/ilcdlib-0.8.1.tar.gz
+[2023-07-20 15:13:23] INFO root fetch - processPackages [pandasai]: Remove: archive file [/home/abi/fetcher/tmp/pandasai-0.6.9.tar.gz]
+[2023-07-20 15:13:23] INFO root fetch - processPackages [pandasai]: Remove: archive file [/home/abi/fetcher/tmp/pandasai-0.7.0.tar.gz]
+[2023-07-20 15:13:23] INFO root fetch - processPackages [pandasai]: Start processing: calibrated-explanations
+[2023-07-20 15:13:23] INFO root fetch - main [MainThread]: End processing [pandasai]: success
+[2023-07-20 15:13:23] INFO root fetch - processPackages [yet-another-wizz-cli]: New version: [1.2.4] Old Version: [1.2.3]
+[2023-07-20 15:13:23] INFO root fetch - processPackages [calibrated-explanations]: New version: [0.0.6a0] Old Version: [0.0.4]
+[2023-07-20 15:13:23] INFO root fetch - processPackages [nbdev-numpy]: Downloading https://files.pythonhosted.org/packages/ea/78/0c0ef1d69ad517e7123dd810dda3cf8c0863af031c2cbb78ac3dae878b48/nbdev-numpy-0.0.99.tar.gz
+[2023-07-20 15:13:23] INFO root fetch - processPackages [discohooker]: Downloading https://files.pythonhosted.org/packages/8b/8b/5f1339db58f060781d94ad397b0849ddd19df8c2fa5ddc3ea53c4d467c5c/discohooker-0.0.0b9.tar.gz
+[2023-07-20 15:13:23] INFO root fetch - processPackages [partition-networkx]: Downloading https://files.pythonhosted.org/packages/38/0d/dcbc784850a17e5ab27863def05f106e16ff0e5e696e5a018995fe868b8f/partition_networkx-0.0.1.tar.gz
+[2023-07-20 15:13:23] INFO root fetch - processPackages [nbdev-pandas]: Downloading https://files.pythonhosted.org/packages/e4/e4/cd3df65f7d13a8e8dfa1592e08d78574793d38384b1c92993ce920dcd0df/nbdev-pandas-0.0.98.tar.gz
+[2023-07-20 15:13:23] INFO root fetch - processPackages [pai-easy-rec]: Downloading https://files.pythonhosted.org/packages/c5/b5/788e446e35ae59bf00fd3551961121af81324581515ee65ef3bc91c0f6c3/pai-easy-rec-0.6.4.tar.gz
+[2023-07-20 15:13:23] INFO root fetch - processPackages [power-grid-model]: executing diffoscope
+[2023-07-20 15:13:23] INFO root fetch - processPackages [power-grid-model]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/power-grid-model-1.5.0rc9224103679317.tar.gz tmp/power_grid_model-1.5.0rc9225710791626-py3-none-manylinux_2_24_aarch64.whl.zip --markdown 20230720/p/power-grid-model/1.5.0rc9224103679317-1.5.0rc9225710791626/diff.md --exclude *.pyd
+[2023-07-20 15:13:23] INFO root fetch - processPackages [nbdev-numpy]: executing diffoscope
+[2023-07-20 15:13:23] INFO root fetch - processPackages [nbdev-numpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-numpy-0.0.98.tar.gz tmp/nbdev-numpy-0.0.99.tar.gz --markdown 20230720/n/nbdev-numpy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-20 15:13:23] INFO root fetch - processPackages [calibrated-explanations]: Downloading https://files.pythonhosted.org/packages/31/60/a9e3bcd7932acd7ceee8342f71094e62dc4c7202e9db64ebed5e8ea5b316/calibrated-explanations-0.0.4.tar.gz
+[2023-07-20 15:13:23] WARNING root fetch - processPackages [pai-easy-rec]: Skipping package: exceeds size limit 16035030>=10485760
+[2023-07-20 15:13:23] INFO root fetch - processPackages [pai-easy-rec]: Start processing: fast-query-parsers
+[2023-07-20 15:13:23] INFO root fetch - main [MainThread]: End processing [pai-easy-rec] error
+[2023-07-20 15:13:23] INFO root fetch - processPackages [yet-another-wizz-cli]: Downloading https://files.pythonhosted.org/packages/5b/f7/ddfbf2c81e59ffdf72dffa05b7c6f283372d7437d5493044f19ef9c93d7f/yet_another_wizz_cli-1.2.3.tar.gz
+[2023-07-20 15:13:23] INFO root fetch - processPackages [fast-query-parsers]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-07-20 15:13:23] INFO root fetch - processPackages [discohooker]: Downloading https://files.pythonhosted.org/packages/0f/d2/6947042543396327dc52dd6660fcb3a4263d7a5110e3c523b1c1d8d05dde/discohooker-0.0.1.tar.gz
+[2023-07-20 15:13:23] INFO root fetch - processPackages [partition-networkx]: Downloading https://files.pythonhosted.org/packages/82/bc/c596b1c8dc7c04eb3b5747d5f7ee3c708ba6e7d1e6e43aa0b91eefb5f4df/partition_networkx-0.0.2.tar.gz
+[2023-07-20 15:13:23] INFO root fetch - processPackages [nbdev-pandas]: Downloading https://files.pythonhosted.org/packages/cf/b5/493c8e89c5cb4fcc7db248f99868f931ca6389f6e411e63c97bb22c6f1b0/nbdev-pandas-0.0.99.tar.gz
+[2023-07-20 15:13:23] INFO root fetch - processPackages [ilcdlib]: Downloading https://files.pythonhosted.org/packages/8d/64/c2ecb3e009df16e9fe21b9bf8325fce233d3448d1735b4e1a5bb4d62e6c0/ilcdlib-0.9.0.tar.gz
+[2023-07-20 15:13:24] INFO root fetch - processPackages [partition-networkx]: executing diffoscope
+[2023-07-20 15:13:24] INFO root fetch - processPackages [partition-networkx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/partition_networkx-0.0.1.tar.gz tmp/partition_networkx-0.0.2.tar.gz --markdown 20230720/p/partition-networkx/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-20 15:13:24] INFO root fetch - processPackages [fast-query-parsers]: executing diffoscope
+[2023-07-20 15:13:24] INFO root fetch - processPackages [fast-query-parsers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fast_query_parsers-1.0.0.tar.gz tmp/fast_query_parsers-1.0.1.tar.gz --markdown 20230720/f/fast-query-parsers/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-07-20 15:13:24] INFO root fetch - processPackages [discohooker]: executing diffoscope
+[2023-07-20 15:13:24] INFO root fetch - processPackages [discohooker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/discohooker-0.0.0b9.tar.gz tmp/discohooker-0.0.1.tar.gz --markdown 20230720/d/discohooker/0.0.0b9-0.0.1/diff.md --exclude *.pyd
+[2023-07-20 15:13:24] INFO root fetch - processPackages [nbdev-pandas]: executing diffoscope
+[2023-07-20 15:13:24] INFO root fetch - processPackages [nbdev-pandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-pandas-0.0.98.tar.gz tmp/nbdev-pandas-0.0.99.tar.gz --markdown 20230720/n/nbdev-pandas/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-20 15:13:24] INFO root fetch - processPackages [yet-another-wizz-cli]: Downloading https://files.pythonhosted.org/packages/24/bc/b1d0211d41451e97b822176a7a4e94219a04c643ea2bd2ed637e621e9760/yet_another_wizz_cli-1.2.4.tar.gz
+[2023-07-20 15:13:24] INFO root fetch - processPackages [ilcdlib]: executing diffoscope
+[2023-07-20 15:13:24] INFO root fetch - processPackages [ilcdlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ilcdlib-0.8.1.tar.gz tmp/ilcdlib-0.9.0.tar.gz --markdown 20230720/i/ilcdlib/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-07-20 15:13:24] INFO root fetch - processPackages [calibrated-explanations]: Downloading https://files.pythonhosted.org/packages/3a/2b/062c01e8fe968771b514c5ea4754bc5edadd0e5141f67f56b41e5958cd85/calibrated_explanations-0.0.6a0.tar.gz
+[2023-07-20 15:13:24] INFO root fetch - processPackages [yet-another-wizz-cli]: executing diffoscope
+[2023-07-20 15:13:24] INFO root fetch - processPackages [yet-another-wizz-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yet_another_wizz_cli-1.2.3.tar.gz tmp/yet_another_wizz_cli-1.2.4.tar.gz --markdown 20230720/y/yet-another-wizz-cli/1.2.3-1.2.4/diff.md --exclude *.pyd
+[2023-07-20 15:13:24] INFO root fetch - processPackages [calibrated-explanations]: executing diffoscope
+[2023-07-20 15:13:24] INFO root fetch - processPackages [calibrated-explanations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/calibrated-explanations-0.0.4.tar.gz tmp/calibrated_explanations-0.0.6a0.tar.gz --markdown 20230720/c/calibrated-explanations/0.0.4-0.0.6a0/diff.md --exclude *.pyd
+[2023-07-20 15:13:24] INFO root fetch - processPackages [power-grid-model]: Remove: archive file [/home/abi/fetcher/tmp/power-grid-model-1.5.0rc9224103679317.tar.gz]
+[2023-07-20 15:13:24] INFO root fetch - processPackages [power-grid-model]: Remove: archive file [/home/abi/fetcher/tmp/power_grid_model-1.5.0rc9225710791626-py3-none-manylinux_2_24_aarch64.whl.zip]
+[2023-07-20 15:13:24] INFO root fetch - processPackages [power-grid-model]: Start processing: nbdev-pytorch
+[2023-07-20 15:13:24] INFO root fetch - main [MainThread]: End processing [power-grid-model]: success
+[2023-07-20 15:13:24] INFO root fetch - processPackages [nbdev-pytorch]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-20 15:13:24] INFO root fetch - processPackages [nbdev-numpy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-numpy-0.0.98.tar.gz]
+[2023-07-20 15:13:24] INFO root fetch - processPackages [nbdev-numpy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-numpy-0.0.99.tar.gz]
+[2023-07-20 15:13:24] INFO root fetch - main [MainThread]: End processing [nbdev-numpy]: success
+[2023-07-20 15:13:25] INFO root fetch - processPackages [nbdev-pytorch]: Downloading https://files.pythonhosted.org/packages/f8/45/4613a0137d296a1960d76ded45b0af15a8fd578bf48df103c50675b49136/nbdev-pytorch-0.0.98.tar.gz
+[2023-07-20 15:13:25] INFO root fetch - processPackages [fast-query-parsers]: Remove: archive file [/home/abi/fetcher/tmp/fast_query_parsers-1.0.0.tar.gz]
+[2023-07-20 15:13:25] INFO root fetch - processPackages [fast-query-parsers]: Remove: archive file [/home/abi/fetcher/tmp/fast_query_parsers-1.0.1.tar.gz]
+[2023-07-20 15:13:25] INFO root fetch - main [MainThread]: End processing [fast-query-parsers]: success
+[2023-07-20 15:13:25] INFO root fetch - processPackages [napari-boxmanager]: Remove: archive file [/home/abi/fetcher/tmp/napari_boxmanager-0.4.0b5.tar.gz]
+[2023-07-20 15:13:25] INFO root fetch - processPackages [napari-boxmanager]: Remove: archive file [/home/abi/fetcher/tmp/napari_boxmanager-0.4.1.tar.gz]
+[2023-07-20 15:13:25] INFO root fetch - main [MainThread]: End processing [napari-boxmanager]: success
+[2023-07-20 15:13:25] INFO root fetch - processPackages [nbdev-pytorch]: Downloading https://files.pythonhosted.org/packages/b0/37/5921f26bef4d07ebb5599f7ccb4d57ab1a847950edaa615ebcf9ef228690/nbdev-pytorch-0.0.99.tar.gz
+[2023-07-20 15:13:25] INFO root fetch - processPackages [partition-networkx]: Remove: archive file [/home/abi/fetcher/tmp/partition_networkx-0.0.1.tar.gz]
+[2023-07-20 15:13:25] INFO root fetch - processPackages [partition-networkx]: Remove: archive file [/home/abi/fetcher/tmp/partition_networkx-0.0.2.tar.gz]
+[2023-07-20 15:13:25] INFO root fetch - main [MainThread]: End processing [partition-networkx]: success
+[2023-07-20 15:13:25] INFO root fetch - processPackages [discohooker]: Remove: archive file [/home/abi/fetcher/tmp/discohooker-0.0.0b9.tar.gz]
+[2023-07-20 15:13:25] INFO root fetch - processPackages [discohooker]: Remove: archive file [/home/abi/fetcher/tmp/discohooker-0.0.1.tar.gz]
+[2023-07-20 15:13:25] INFO root fetch - main [MainThread]: End processing [discohooker]: success
+[2023-07-20 15:13:25] INFO root fetch - processPackages [nbdev-pandas]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pandas-0.0.98.tar.gz]
+[2023-07-20 15:13:25] INFO root fetch - processPackages [nbdev-pandas]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pandas-0.0.99.tar.gz]
+[2023-07-20 15:13:25] INFO root fetch - main [MainThread]: End processing [nbdev-pandas]: success
+[2023-07-20 15:13:25] INFO root fetch - processPackages [nbdev-pytorch]: executing diffoscope
+[2023-07-20 15:13:25] INFO root fetch - processPackages [nbdev-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-pytorch-0.0.98.tar.gz tmp/nbdev-pytorch-0.0.99.tar.gz --markdown 20230720/n/nbdev-pytorch/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-20 15:13:25] INFO root fetch - processPackages [calibrated-explanations]: Remove: archive file [/home/abi/fetcher/tmp/calibrated-explanations-0.0.4.tar.gz]
+[2023-07-20 15:13:25] INFO root fetch - processPackages [calibrated-explanations]: Remove: archive file [/home/abi/fetcher/tmp/calibrated_explanations-0.0.6a0.tar.gz]
+[2023-07-20 15:13:25] INFO root fetch - main [MainThread]: End processing [calibrated-explanations]: success
+[2023-07-20 15:13:25] INFO root fetch - processPackages [yet-another-wizz-cli]: Remove: archive file [/home/abi/fetcher/tmp/yet_another_wizz_cli-1.2.3.tar.gz]
+[2023-07-20 15:13:25] INFO root fetch - processPackages [yet-another-wizz-cli]: Remove: archive file [/home/abi/fetcher/tmp/yet_another_wizz_cli-1.2.4.tar.gz]
+[2023-07-20 15:13:25] INFO root fetch - main [MainThread]: End processing [yet-another-wizz-cli]: success
+[2023-07-20 15:13:25] INFO root fetch - processPackages [ilcdlib]: Remove: archive file [/home/abi/fetcher/tmp/ilcdlib-0.8.1.tar.gz]
+[2023-07-20 15:13:25] INFO root fetch - processPackages [ilcdlib]: Remove: archive file [/home/abi/fetcher/tmp/ilcdlib-0.9.0.tar.gz]
+[2023-07-20 15:13:25] INFO root fetch - main [MainThread]: End processing [ilcdlib]: success
+[2023-07-20 15:13:26] INFO root fetch - processPackages [nbdev-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pytorch-0.0.98.tar.gz]
+[2023-07-20 15:13:26] INFO root fetch - processPackages [nbdev-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pytorch-0.0.99.tar.gz]
+[2023-07-20 15:13:26] INFO root fetch - main [MainThread]: End processing [nbdev-pytorch]: success
+[2023-07-20 15:13:26] INFO root fetch - main [MainThread]: Store serial: [18966838]
