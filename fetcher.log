@@ -5340,3 +5340,99 @@ AssertionError: tmp/verify4py-test-0.1.7.tar.gz does not exist
 [2023-07-20 12:23:00] INFO root fetch - processPackages [alibabacloud-sas20181203]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_sas20181203-2.1.9.tar.gz]
 [2023-07-20 12:23:00] INFO root fetch - main [MainThread]: End processing [alibabacloud-sas20181203]: success
 [2023-07-20 12:23:00] INFO root fetch - main [MainThread]: Store serial: [18965081]
+[2023-07-20 12:28:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18965081]
+[2023-07-20 12:28:19] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-20 12:28:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: avclass-malicialab
+[2023-07-20 12:28:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: string-grab
+[2023-07-20 12:28:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: chex
+[2023-07-20 12:28:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: infix-postfix
+[2023-07-20 12:28:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: radicalpy
+[2023-07-20 12:28:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: data-engineering-pulumi-components
+[2023-07-20 12:28:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sertit
+[2023-07-20 12:28:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dataset-tools
+[2023-07-20 12:28:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: idkwhttph
+[2023-07-20 12:28:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: shareddata
+[2023-07-20 12:28:20] INFO root fetch - processPackages [chex]: New version: [0.1.82] Old Version: [0.1.81]
+[2023-07-20 12:28:20] WARNING root fetch - processPackages [string-grab]: Skipping, unable to determine old version
+[2023-07-20 12:28:20] INFO root fetch - processPackages [string-grab]: Start processing: supervisely
+[2023-07-20 12:28:20] INFO root fetch - main [MainThread]: End processing [string-grab] error
+[2023-07-20 12:28:20] INFO root fetch - processPackages [avclass-malicialab]: New version: [2.8.5] Old Version: [2.8.4]
+[2023-07-20 12:28:20] INFO root fetch - processPackages [radicalpy]: New version: [0.6.3] Old Version: [0.6.2]
+[2023-07-20 12:28:20] INFO root fetch - processPackages [idkwhttph]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-07-20 12:28:20] INFO root fetch - processPackages [infix-postfix]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-07-20 12:28:20] INFO root fetch - processPackages [dataset-tools]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-20 12:28:20] INFO root fetch - processPackages [sertit]: New version: [1.9.0] Old Version: [1.8.1]
+[2023-07-20 12:28:20] INFO root fetch - processPackages [data-engineering-pulumi-components]: New version: [0.4.1.dev7] Old Version: [0.4.1.dev6]
+[2023-07-20 12:28:20] INFO root fetch - processPackages [shareddata]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-07-20 12:28:20] INFO root fetch - processPackages [supervisely]: New version: [6.9.2] Old Version: [6.9.1]
+[2023-07-20 12:28:20] INFO root fetch - processPackages [avclass-malicialab]: Downloading https://files.pythonhosted.org/packages/89/cb/e260f0c8d6b54d1cfc4e208fd2fa6bd3cc966aa14cd009467fae4f20456f/avclass-malicialab-2.8.4.tar.gz
+[2023-07-20 12:28:20] INFO root fetch - processPackages [data-engineering-pulumi-components]: Downloading https://files.pythonhosted.org/packages/14/06/305be1ee829edb9af712a657d8e45e51744e8c9027ea92116b31bcbf75a8/data-engineering-pulumi-components-0.4.1.dev6.tar.gz
+[2023-07-20 12:28:20] INFO root fetch - processPackages [chex]: Downloading https://files.pythonhosted.org/packages/90/64/cdfccc63a40b53b4896c0aaca04b31d0d6c0d6821e5ead90c8bdacc39b38/chex-0.1.81.tar.gz
+[2023-07-20 12:28:20] INFO root fetch - processPackages [idkwhttph]: Downloading https://files.pythonhosted.org/packages/aa/50/ab4e52f3347163ff1b4383723e6f9684038a91e4515a86455d277455bdf7/idkwhttph-0.2.0.tar.gz
+[2023-07-20 12:28:20] INFO root fetch - processPackages [radicalpy]: Downloading https://files.pythonhosted.org/packages/c0/a7/3bb320b3f767b864977aaa8ff99b838f1cf128ea338d4e046ac6483c4fc7/radicalpy-0.6.2.tar.gz
+[2023-07-20 12:28:20] INFO root fetch - processPackages [infix-postfix]: Downloading https://files.pythonhosted.org/packages/75/91/3071f60c7f8273dd4d5960f8baa0682bfb39dc9c7665035b5bc10aad3907/infix-postfix-1.1.0.tar.gz
+[2023-07-20 12:28:20] INFO root fetch - processPackages [dataset-tools]: Downloading https://files.pythonhosted.org/packages/45/97/f8cfcb2381e26631dc0de064078e7012c0e84fe2bc5eb59bb6846009f169/dataset-tools-0.0.8.tar.gz
+[2023-07-20 12:28:20] INFO root fetch - processPackages [shareddata]: Downloading https://files.pythonhosted.org/packages/a3/89/36663418cc430f191945f4554d0919f8804487b2ffe208a4b81eb15419ff/shareddata-2.0.8.tar.gz
+[2023-07-20 12:28:20] INFO root fetch - processPackages [sertit]: Downloading https://files.pythonhosted.org/packages/18/b5/8f8ae3243c9a8219ed4d021a73afa00c403efb3965526ea84b690569d3c7/sertit-1.8.1.tar.gz
+[2023-07-20 12:28:20] INFO root fetch - processPackages [supervisely]: Downloading https://files.pythonhosted.org/packages/bf/5a/d1c5e1830d747d899ac781f368bbd65eb9c02eaf0faf98d318a7dd8cce53/supervisely-6.9.1.tar.gz
+[2023-07-20 12:28:21] INFO root fetch - processPackages [avclass-malicialab]: Downloading https://files.pythonhosted.org/packages/61/49/d4dc4c50e2c7dbb1262bbc686d0b2c76c878043b96c18162020c09229817/avclass-malicialab-2.8.5.tar.gz
+[2023-07-20 12:28:21] INFO root fetch - processPackages [chex]: Downloading https://files.pythonhosted.org/packages/48/32/8986136bcda43de50b6189bd9c3b43ecbc3cd457831dfd06679ef21ca1a3/chex-0.1.82.tar.gz
+[2023-07-20 12:28:21] INFO root fetch - processPackages [idkwhttph]: Downloading https://files.pythonhosted.org/packages/a7/41/96d7cc8a42ebeb4d6f95d8607fed2199d6ced3161314ef3c5bd8a13e8140/idkwhttph-0.2.1.tar.gz
+[2023-07-20 12:28:21] INFO root fetch - processPackages [infix-postfix]: Downloading https://files.pythonhosted.org/packages/91/86/d3341263cc291476de5a3a1bb84c014cb515c7a822ccc7706b0db81a5a1a/infix-postfix-1.2.0.tar.gz
+[2023-07-20 12:28:21] INFO root fetch - processPackages [radicalpy]: Downloading https://files.pythonhosted.org/packages/90/96/4d8e74807cfb3bf33550dcd7af614e1de4ddd9906bdb172a047957ef7652/radicalpy-0.6.3.tar.gz
+[2023-07-20 12:28:21] INFO root fetch - processPackages [chex]: executing diffoscope
+[2023-07-20 12:28:21] INFO root fetch - processPackages [chex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chex-0.1.81.tar.gz tmp/chex-0.1.82.tar.gz --markdown 20230720/c/chex/0.1.81-0.1.82/diff.md --exclude *.pyd
+[2023-07-20 12:28:21] INFO root fetch - processPackages [avclass-malicialab]: executing diffoscope
+[2023-07-20 12:28:21] INFO root fetch - processPackages [avclass-malicialab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/avclass-malicialab-2.8.4.tar.gz tmp/avclass-malicialab-2.8.5.tar.gz --markdown 20230720/a/avclass-malicialab/2.8.4-2.8.5/diff.md --exclude *.pyd
+[2023-07-20 12:28:21] INFO root fetch - processPackages [dataset-tools]: Downloading https://files.pythonhosted.org/packages/b8/58/c030ec40cb92d73145fa4f9c8df9dc35360f48d85535390567bd984369b2/dataset-tools-0.0.9.tar.gz
+[2023-07-20 12:28:21] INFO root fetch - processPackages [supervisely]: Downloading https://files.pythonhosted.org/packages/bf/56/78987e56220fcb935013105de97143fb9371ba9732a7dcdcb9451350a28f/supervisely-6.9.2.tar.gz
+[2023-07-20 12:28:21] INFO root fetch - processPackages [idkwhttph]: executing diffoscope
+[2023-07-20 12:28:21] INFO root fetch - processPackages [idkwhttph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idkwhttph-0.2.0.tar.gz tmp/idkwhttph-0.2.1.tar.gz --markdown 20230720/i/idkwhttph/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-07-20 12:28:21] INFO root fetch - processPackages [sertit]: Downloading https://files.pythonhosted.org/packages/59/69/cbc0654faac948effc31798c883e666bf607b99951a584b7d5d192a3f2e4/sertit-1.9.0.tar.gz
+[2023-07-20 12:28:21] INFO root fetch - processPackages [radicalpy]: executing diffoscope
+[2023-07-20 12:28:21] INFO root fetch - processPackages [radicalpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/radicalpy-0.6.2.tar.gz tmp/radicalpy-0.6.3.tar.gz --markdown 20230720/r/radicalpy/0.6.2-0.6.3/diff.md --exclude *.pyd
+[2023-07-20 12:28:21] INFO root fetch - processPackages [shareddata]: Downloading https://files.pythonhosted.org/packages/c9/f9/61fa61a22abefea2b892306bbb73a62ed0a1a79371960e7ef36dd8fd83b5/shareddata-2.0.9.tar.gz
+[2023-07-20 12:28:21] INFO root fetch - processPackages [infix-postfix]: executing diffoscope
+[2023-07-20 12:28:21] INFO root fetch - processPackages [infix-postfix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/infix-postfix-1.1.0.tar.gz tmp/infix-postfix-1.2.0.tar.gz --markdown 20230720/i/infix-postfix/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-07-20 12:28:21] INFO root fetch - processPackages [supervisely]: executing diffoscope
+[2023-07-20 12:28:21] INFO root fetch - processPackages [supervisely]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/supervisely-6.9.1.tar.gz tmp/supervisely-6.9.2.tar.gz --markdown 20230720/s/supervisely/6.9.1-6.9.2/diff.md --exclude *.pyd
+[2023-07-20 12:28:21] INFO root fetch - processPackages [dataset-tools]: executing diffoscope
+[2023-07-20 12:28:21] INFO root fetch - processPackages [dataset-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataset-tools-0.0.8.tar.gz tmp/dataset-tools-0.0.9.tar.gz --markdown 20230720/d/dataset-tools/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-20 12:28:21] INFO root fetch - processPackages [sertit]: executing diffoscope
+[2023-07-20 12:28:21] INFO root fetch - processPackages [sertit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sertit-1.8.1.tar.gz tmp/sertit-1.9.0.tar.gz --markdown 20230720/s/sertit/1.8.1-1.9.0/diff.md --exclude *.pyd
+[2023-07-20 12:28:21] INFO root fetch - processPackages [shareddata]: executing diffoscope
+[2023-07-20 12:28:21] INFO root fetch - processPackages [shareddata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shareddata-2.0.8.tar.gz tmp/shareddata-2.0.9.tar.gz --markdown 20230720/s/shareddata/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-07-20 12:28:22] INFO root fetch - processPackages [data-engineering-pulumi-components]: Downloading https://files.pythonhosted.org/packages/e8/ee/a6dfcd17c8a1f4bed3781cf6f66ac1b46a52fee1c1505bb2365d662ae762/data-engineering-pulumi-components-0.4.1.dev7.tar.gz
+[2023-07-20 12:28:22] INFO root fetch - processPackages [idkwhttph]: Remove: archive file [/home/abi/fetcher/tmp/idkwhttph-0.2.0.tar.gz]
+[2023-07-20 12:28:22] INFO root fetch - processPackages [idkwhttph]: Remove: archive file [/home/abi/fetcher/tmp/idkwhttph-0.2.1.tar.gz]
+[2023-07-20 12:28:22] INFO root fetch - main [MainThread]: End processing [idkwhttph]: success
+[2023-07-20 12:28:22] INFO root fetch - processPackages [avclass-malicialab]: Remove: archive file [/home/abi/fetcher/tmp/avclass-malicialab-2.8.4.tar.gz]
+[2023-07-20 12:28:22] INFO root fetch - processPackages [avclass-malicialab]: Remove: archive file [/home/abi/fetcher/tmp/avclass-malicialab-2.8.5.tar.gz]
+[2023-07-20 12:28:22] INFO root fetch - main [MainThread]: End processing [avclass-malicialab]: success
+[2023-07-20 12:28:23] INFO root fetch - processPackages [chex]: Remove: archive file [/home/abi/fetcher/tmp/chex-0.1.81.tar.gz]
+[2023-07-20 12:28:23] INFO root fetch - processPackages [chex]: Remove: archive file [/home/abi/fetcher/tmp/chex-0.1.82.tar.gz]
+[2023-07-20 12:28:23] INFO root fetch - main [MainThread]: End processing [chex]: success
+[2023-07-20 12:28:23] INFO root fetch - processPackages [infix-postfix]: Remove: archive file [/home/abi/fetcher/tmp/infix-postfix-1.1.0.tar.gz]
+[2023-07-20 12:28:23] INFO root fetch - processPackages [infix-postfix]: Remove: archive file [/home/abi/fetcher/tmp/infix-postfix-1.2.0.tar.gz]
+[2023-07-20 12:28:23] INFO root fetch - main [MainThread]: End processing [infix-postfix]: success
+[2023-07-20 12:28:23] INFO root fetch - processPackages [data-engineering-pulumi-components]: executing diffoscope
+[2023-07-20 12:28:23] INFO root fetch - processPackages [data-engineering-pulumi-components]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/data-engineering-pulumi-components-0.4.1.dev6.tar.gz tmp/data-engineering-pulumi-components-0.4.1.dev7.tar.gz --markdown 20230720/d/data-engineering-pulumi-components/0.4.1.dev6-0.4.1.dev7/diff.md --exclude *.pyd
+[2023-07-20 12:28:23] INFO root fetch - processPackages [radicalpy]: Remove: archive file [/home/abi/fetcher/tmp/radicalpy-0.6.2.tar.gz]
+[2023-07-20 12:28:23] INFO root fetch - processPackages [radicalpy]: Remove: archive file [/home/abi/fetcher/tmp/radicalpy-0.6.3.tar.gz]
+[2023-07-20 12:28:23] INFO root fetch - main [MainThread]: End processing [radicalpy]: success
+[2023-07-20 12:28:23] INFO root fetch - processPackages [sertit]: Remove: archive file [/home/abi/fetcher/tmp/sertit-1.8.1.tar.gz]
+[2023-07-20 12:28:23] INFO root fetch - processPackages [sertit]: Remove: archive file [/home/abi/fetcher/tmp/sertit-1.9.0.tar.gz]
+[2023-07-20 12:28:23] INFO root fetch - main [MainThread]: End processing [sertit]: success
+[2023-07-20 12:28:23] INFO root fetch - processPackages [dataset-tools]: Remove: archive file [/home/abi/fetcher/tmp/dataset-tools-0.0.8.tar.gz]
+[2023-07-20 12:28:23] INFO root fetch - processPackages [dataset-tools]: Remove: archive file [/home/abi/fetcher/tmp/dataset-tools-0.0.9.tar.gz]
+[2023-07-20 12:28:23] INFO root fetch - main [MainThread]: End processing [dataset-tools]: success
+[2023-07-20 12:28:23] INFO root fetch - processPackages [shareddata]: Remove: archive file [/home/abi/fetcher/tmp/shareddata-2.0.8.tar.gz]
+[2023-07-20 12:28:23] INFO root fetch - processPackages [shareddata]: Remove: archive file [/home/abi/fetcher/tmp/shareddata-2.0.9.tar.gz]
+[2023-07-20 12:28:23] INFO root fetch - main [MainThread]: End processing [shareddata]: success
+[2023-07-20 12:28:23] INFO root fetch - processPackages [supervisely]: Remove: archive file [/home/abi/fetcher/tmp/supervisely-6.9.1.tar.gz]
+[2023-07-20 12:28:23] INFO root fetch - processPackages [supervisely]: Remove: archive file [/home/abi/fetcher/tmp/supervisely-6.9.2.tar.gz]
+[2023-07-20 12:28:23] INFO root fetch - main [MainThread]: End processing [supervisely]: success
+[2023-07-20 12:28:24] INFO root fetch - processPackages [data-engineering-pulumi-components]: Remove: archive file [/home/abi/fetcher/tmp/data-engineering-pulumi-components-0.4.1.dev6.tar.gz]
+[2023-07-20 12:28:24] INFO root fetch - processPackages [data-engineering-pulumi-components]: Remove: archive file [/home/abi/fetcher/tmp/data-engineering-pulumi-components-0.4.1.dev7.tar.gz]
+[2023-07-20 12:28:24] INFO root fetch - main [MainThread]: End processing [data-engineering-pulumi-components]: success
+[2023-07-20 12:28:24] INFO root fetch - main [MainThread]: Store serial: [18965116]
