@@ -7904,3 +7904,180 @@ AssertionError: tmp/verify4py-test-0.1.7.tar.gz does not exist
 [2023-07-20 14:20:11] INFO root fetch - processPackages [dash-express-components]: Remove: archive file [/home/abi/fetcher/tmp/dash_express_components-0.0.9.tar.gz]
 [2023-07-20 14:20:11] INFO root fetch - main [MainThread]: End processing [dash-express-components]: success
 [2023-07-20 14:20:11] INFO root fetch - main [MainThread]: Store serial: [18966266]
+[2023-07-20 14:25:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18966266]
+[2023-07-20 14:25:25] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2023-07-20 14:25:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dao-scripts
+[2023-07-20 14:25:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: meo
+[2023-07-20 14:25:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: herta-villa-sdk
+[2023-07-20 14:25:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lbt-recipes
+[2023-07-20 14:25:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: toucan-connectors
+[2023-07-20 14:25:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: svc-reg
+[2023-07-20 14:25:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tf-nightly-intel
+[2023-07-20 14:25:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: fusion-engine
+[2023-07-20 14:25:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: aasm
+[2023-07-20 14:25:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: digimat.bac0
+[2023-07-20 14:25:25] INFO root fetch - processPackages [dao-scripts]: New version: [1.1.9.post3.dev5] Old Version: [1.1.9.post3.dev4]
+[2023-07-20 14:25:25] INFO root fetch - processPackages [svc-reg]: New version: [23.3.0] Old Version: [23.2.0]
+[2023-07-20 14:25:25] INFO root fetch - processPackages [fusion-engine]: New version: [0.2.4] Old Version: [0.2.3.1]
+[2023-07-20 14:25:25] INFO root fetch - processPackages [meo]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-20 14:25:25] INFO root fetch - processPackages [aasm]: New version: [0.1.0] Old Version: [0.0.9]
+[2023-07-20 14:25:25] INFO root fetch - processPackages [digimat.bac0]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-20 14:25:25] INFO root fetch - processPackages [herta-villa-sdk]: New version: [0.8.0] Old Version: [0.7.0]
+[2023-07-20 14:25:25] INFO root fetch - processPackages [lbt-recipes]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-07-20 14:25:25] INFO root fetch - processPackages [tf-nightly-intel]: New version: [2.14.0.dev20230719] Old Version: [2.14.0.dev20230718]
+[2023-07-20 14:25:25] INFO root fetch - processPackages [toucan-connectors]: New version: [4.7.2] Old Version: [4.7.1]
+[2023-07-20 14:25:25] INFO root fetch - processPackages [aasm]: Downloading https://files.pythonhosted.org/packages/30/79/801a9e694640d9a9e5146fa85d9afc88c608824263f9fa77829a01f79e7c/aasm-0.0.9.tar.gz
+[2023-07-20 14:25:25] INFO root fetch - processPackages [digimat.bac0]: Downloading https://files.pythonhosted.org/packages/93/69/86e0838e726c0937c564256e80ef37aa475670fd71b17c0760827302f8e2/digimat.bac0-0.0.7.tar.gz
+[2023-07-20 14:25:25] INFO root fetch - processPackages [dao-scripts]: Downloading https://files.pythonhosted.org/packages/3f/71/418934cb7f68b4288380db631fed537ca7b5ca07af0499c9dd3d0e0cc1a2/dao-scripts-1.1.9.post3.dev4.tar.gz
+[2023-07-20 14:25:25] INFO root fetch - processPackages [svc-reg]: Downloading https://files.pythonhosted.org/packages/20/dc/c0866d57b30c01a6ed82f3e93d1763b77064bd0b80c543bb594c37f438d0/svc_reg-23.2.0.tar.gz
+[2023-07-20 14:25:25] INFO root fetch - processPackages [fusion-engine]: Downloading https://files.pythonhosted.org/packages/00/73/6571bfd9857f79d2978d12fee2d447361254c7c5a157a5ecdcf260825d3c/fusion-engine-0.2.3.1.tar.gz
+[2023-07-20 14:25:25] INFO root fetch - processPackages [meo]: Downloading https://files.pythonhosted.org/packages/cc/70/c81881033061d8284526abf624f552f755b3555b20fa27e2fd8c32d850a6/meo-0.1.8.tar.gz
+[2023-07-20 14:25:26] INFO root fetch - processPackages [herta-villa-sdk]: Downloading https://files.pythonhosted.org/packages/a8/35/a9ace09937c5dd7fcf77ef7196c6475c56f5d235edcc29cd9538bcf1ab2e/herta_villa_sdk-0.7.0.tar.gz
+[2023-07-20 14:25:26] INFO root fetch - processPackages [lbt-recipes]: Downloading https://files.pythonhosted.org/packages/69/f6/b4d9167d8390905370e4cb40cc23cf10ac640051293bc3158615d5b2a0cb/lbt-recipes-0.9.0.tar.gz
+[2023-07-20 14:25:26] INFO root fetch - processPackages [toucan-connectors]: Downloading https://files.pythonhosted.org/packages/45/5f/84d81227ad09c241ecf9095ae55a163f0daf5d8e3e3deb315e1c627a1803/toucan_connectors-4.7.1.tar.gz
+[2023-07-20 14:25:26] INFO root fetch - processPackages [tf-nightly-intel]: Downloading https://files.pythonhosted.org/packages/f5/fd/bc1fac54fe4838b85a8b448b8b33be9fbed21035472e09dae92fc886640f/tf_nightly_intel-2.14.0.dev20230718-cp39-cp39-win_amd64.whl
+[2023-07-20 14:25:26] WARNING root fetch - processPackages [tf-nightly-intel]: Skipping package: exceeds size limit 182427847>=10485760
+[2023-07-20 14:25:26] INFO root fetch - processPackages [tf-nightly-intel]: Start processing: fusion-engine
+[2023-07-20 14:25:26] INFO root fetch - main [MainThread]: End processing [tf-nightly-intel] error
+[2023-07-20 14:25:26] INFO root fetch - processPackages [digimat.bac0]: Downloading https://files.pythonhosted.org/packages/78/69/c221dd8f83b0cf18b4d8071cc4f3e464fd1a4a46aedfcc6da331732122ce/digimat.bac0-0.0.8.tar.gz
+[2023-07-20 14:25:26] INFO root fetch - processPackages [fusion-engine]: New version: [0.2.4] Old Version: [0.2.3.1]
+[2023-07-20 14:25:26] INFO root fetch - processPackages [aasm]: Downloading https://files.pythonhosted.org/packages/41/a8/3e55a885694cb95c4345f311c19fca908e0fafc314021137475d6d95081c/aasm-0.1.0.tar.gz
+[2023-07-20 14:25:26] INFO root fetch - processPackages [meo]: Downloading https://files.pythonhosted.org/packages/e3/3b/6040a4652c1d79259a41eb56789148c2eb2d06731f3d6363503a95eeddad/meo-0.1.9.tar.gz
+[2023-07-20 14:25:26] INFO root fetch - processPackages [dao-scripts]: Downloading https://files.pythonhosted.org/packages/ac/91/16d6264c14fbbbd6e620eb5d2ad885fe7c2fbf6a302453c8a4ed41eb54d0/dao-scripts-1.1.9.post3.dev5.tar.gz
+[2023-07-20 14:25:26] INFO root fetch - processPackages [fusion-engine]: Downloading https://files.pythonhosted.org/packages/8c/c5/20804aed516f30d90f9f7734ef07a77a34d8b3938b371236855174a9fdcb/fusion-engine-0.2.4.tar.gz
+[2023-07-20 14:25:26] INFO root fetch - processPackages [digimat.bac0]: executing diffoscope
+[2023-07-20 14:25:26] INFO root fetch - processPackages [digimat.bac0]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/digimat.bac0-0.0.7.tar.gz tmp/digimat.bac0-0.0.8.tar.gz --markdown 20230720/d/digimat.bac0/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-20 14:25:26] INFO root fetch - processPackages [herta-villa-sdk]: Downloading https://files.pythonhosted.org/packages/cc/aa/04f0a61753d7004f5935db593cf27df94a097c41e1e1683276c9bae9af21/herta_villa_sdk-0.8.0.tar.gz
+[2023-07-20 14:25:26] INFO root fetch - processPackages [svc-reg]: Downloading https://files.pythonhosted.org/packages/8a/75/fd0adfaf305144cc116aa2bdbf38a8842e654dc2c1b210ba54bc103d9162/svc_reg-23.3.0.tar.gz
+[2023-07-20 14:25:26] INFO root fetch - processPackages [fusion-engine]: Downloading https://files.pythonhosted.org/packages/8c/c5/20804aed516f30d90f9f7734ef07a77a34d8b3938b371236855174a9fdcb/fusion-engine-0.2.4.tar.gz
+[2023-07-20 14:25:26] INFO root fetch - processPackages [lbt-recipes]: Downloading https://files.pythonhosted.org/packages/35/60/e6ba2724f3fa325e0df5cfdb976d9de29cdbdc783aa4b490795b16c1228f/lbt-recipes-0.9.1.tar.gz
+[2023-07-20 14:25:26] INFO root fetch - processPackages [meo]: executing diffoscope
+[2023-07-20 14:25:26] INFO root fetch - processPackages [meo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meo-0.1.8.tar.gz tmp/meo-0.1.9.tar.gz --markdown 20230720/m/meo/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-20 14:25:26] INFO root fetch - processPackages [aasm]: executing diffoscope
+[2023-07-20 14:25:26] INFO root fetch - processPackages [aasm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aasm-0.0.9.tar.gz tmp/aasm-0.1.0.tar.gz --markdown 20230720/a/aasm/0.0.9-0.1.0/diff.md --exclude *.pyd
+[2023-07-20 14:25:26] INFO root fetch - processPackages [toucan-connectors]: Downloading https://files.pythonhosted.org/packages/74/fc/98404b9ea6e6ea97685ccb00abab95bf2e1d6adce9c72dbd992caa0740a5/toucan_connectors-4.7.2.tar.gz
+[2023-07-20 14:25:26] INFO root fetch - processPackages [dao-scripts]: executing diffoscope
+[2023-07-20 14:25:26] INFO root fetch - processPackages [dao-scripts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dao-scripts-1.1.9.post3.dev4.tar.gz tmp/dao-scripts-1.1.9.post3.dev5.tar.gz --markdown 20230720/d/dao-scripts/1.1.9.post3.dev4-1.1.9.post3.dev5/diff.md --exclude *.pyd
+[2023-07-20 14:25:26] INFO root fetch - processPackages [fusion-engine]: executing diffoscope
+[2023-07-20 14:25:26] INFO root fetch - processPackages [fusion-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fusion-engine-0.2.3.1.tar.gz tmp/fusion-engine-0.2.4.tar.gz --markdown 20230720/f/fusion-engine/0.2.3.1-0.2.4/diff.md --exclude *.pyd
+[2023-07-20 14:25:26] INFO root fetch - processPackages [svc-reg]: executing diffoscope
+[2023-07-20 14:25:26] INFO root fetch - processPackages [svc-reg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/svc_reg-23.2.0.tar.gz tmp/svc_reg-23.3.0.tar.gz --markdown 20230720/s/svc-reg/23.2.0-23.3.0/diff.md --exclude *.pyd
+[2023-07-20 14:25:26] INFO root fetch - processPackages [fusion-engine]: executing diffoscope
+[2023-07-20 14:25:26] INFO root fetch - processPackages [fusion-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fusion-engine-0.2.3.1.tar.gz tmp/fusion-engine-0.2.4.tar.gz --markdown 20230720/f/fusion-engine/0.2.3.1-0.2.4/diff.md --exclude *.pyd
+[2023-07-20 14:25:26] INFO root fetch - processPackages [lbt-recipes]: executing diffoscope
+[2023-07-20 14:25:26] INFO root fetch - processPackages [lbt-recipes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbt-recipes-0.9.0.tar.gz tmp/lbt-recipes-0.9.1.tar.gz --markdown 20230720/l/lbt-recipes/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-07-20 14:25:26] INFO root fetch - processPackages [herta-villa-sdk]: executing diffoscope
+[2023-07-20 14:25:26] INFO root fetch - processPackages [herta-villa-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/herta_villa_sdk-0.7.0.tar.gz tmp/herta_villa_sdk-0.8.0.tar.gz --markdown 20230720/h/herta-villa-sdk/0.7.0-0.8.0/diff.md --exclude *.pyd
+[2023-07-20 14:25:27] INFO root fetch - processPackages [toucan-connectors]: executing diffoscope
+[2023-07-20 14:25:27] INFO root fetch - processPackages [toucan-connectors]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/toucan_connectors-4.7.1.tar.gz tmp/toucan_connectors-4.7.2.tar.gz --markdown 20230720/t/toucan-connectors/4.7.1-4.7.2/diff.md --exclude *.pyd
+[2023-07-20 14:25:27] INFO root fetch - processPackages [digimat.bac0]: Remove: archive file [/home/abi/fetcher/tmp/digimat.bac0-0.0.7.tar.gz]
+[2023-07-20 14:25:27] INFO root fetch - processPackages [digimat.bac0]: Remove: archive file [/home/abi/fetcher/tmp/digimat.bac0-0.0.8.tar.gz]
+[2023-07-20 14:25:27] INFO root fetch - processPackages [digimat.bac0]: Start processing: th2-grpc-act-ssh
+[2023-07-20 14:25:27] INFO root fetch - main [MainThread]: End processing [digimat.bac0]: success
+[2023-07-20 14:25:27] INFO root fetch - processPackages [th2-grpc-act-ssh]: New version: [2.0.0.dev5610911783] Old Version: [2.0.0.dev5409734028]
+[2023-07-20 14:25:28] INFO root fetch - processPackages [th2-grpc-act-ssh]: Downloading https://files.pythonhosted.org/packages/e7/7e/762f6ae24fcee76429b921e9b69c708bb5dbdacf3e2494fd89fc857d2e5b/th2_grpc_act_ssh-2.0.0.dev5409734028.tar.gz
+[2023-07-20 14:25:28] INFO root fetch - processPackages [th2-grpc-act-ssh]: Downloading https://files.pythonhosted.org/packages/ad/eb/463555ff134491af517e2c04b7e292573a7b087c2437558c4a43727b2432/th2_grpc_act_ssh-2.0.0.dev5610911783.tar.gz
+[2023-07-20 14:25:28] INFO root fetch - processPackages [meo]: Remove: archive file [/home/abi/fetcher/tmp/meo-0.1.8.tar.gz]
+[2023-07-20 14:25:28] INFO root fetch - processPackages [meo]: Remove: archive file [/home/abi/fetcher/tmp/meo-0.1.9.tar.gz]
+[2023-07-20 14:25:28] INFO root fetch - processPackages [meo]: Start processing: ChatGPT-Cloud
+[2023-07-20 14:25:28] INFO root fetch - main [MainThread]: End processing [meo]: success
+[2023-07-20 14:25:28] INFO root fetch - processPackages [ChatGPT-Cloud]: New version: [0.6.2] Old Version: [0.6.1]
+[2023-07-20 14:25:28] INFO root fetch - processPackages [th2-grpc-act-ssh]: executing diffoscope
+[2023-07-20 14:25:28] INFO root fetch - processPackages [th2-grpc-act-ssh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/th2_grpc_act_ssh-2.0.0.dev5409734028.tar.gz tmp/th2_grpc_act_ssh-2.0.0.dev5610911783.tar.gz --markdown 20230720/t/th2-grpc-act-ssh/2.0.0.dev5409734028-2.0.0.dev5610911783/diff.md --exclude *.pyd
+[2023-07-20 14:25:28] INFO root fetch - processPackages [fusion-engine]: Remove: archive file [/home/abi/fetcher/tmp/fusion-engine-0.2.3.1.tar.gz]
+[2023-07-20 14:25:28] INFO root fetch - processPackages [fusion-engine]: Remove: archive file [/home/abi/fetcher/tmp/fusion-engine-0.2.4.tar.gz]
+[2023-07-20 14:25:28] INFO root fetch - processPackages [fusion-engine]: Start processing: cmsis-stream
+[2023-07-20 14:25:28] INFO root fetch - main [MainThread]: End processing [fusion-engine]: success
+[2023-07-20 14:25:28] INFO root fetch - processPackages [cmsis-stream]: New version: [1.6.0] Old Version: [1.5.1]
+[2023-07-20 14:25:28] INFO root fetch - processPackages [aasm]: Remove: archive file [/home/abi/fetcher/tmp/aasm-0.0.9.tar.gz]
+[2023-07-20 14:25:28] INFO root fetch - processPackages [aasm]: Remove: archive file [/home/abi/fetcher/tmp/aasm-0.1.0.tar.gz]
+[2023-07-20 14:25:28] INFO root fetch - processPackages [aasm]: Start processing: mindsdb-sql
+[2023-07-20 14:25:28] INFO root fetch - main [MainThread]: End processing [aasm]: success
+[2023-07-20 14:25:28] INFO root fetch - processPackages [ChatGPT-Cloud]: Downloading https://files.pythonhosted.org/packages/a4/ac/52f0476ea5eb199191e8a992221ff0f6c244c4a1b25f5e02449bafbb94a4/ChatGPT-Cloud-0.6.1.tar.gz
+[2023-07-20 14:25:28] INFO root fetch - processPackages [dao-scripts]: Remove: archive file [/home/abi/fetcher/tmp/dao-scripts-1.1.9.post3.dev4.tar.gz]
+[2023-07-20 14:25:28] INFO root fetch - processPackages [dao-scripts]: Remove: archive file [/home/abi/fetcher/tmp/dao-scripts-1.1.9.post3.dev5.tar.gz]
+[2023-07-20 14:25:28] INFO root fetch - processPackages [dao-scripts]: Start processing: resotodata
+[2023-07-20 14:25:28] INFO root fetch - main [MainThread]: End processing [dao-scripts]: success
+[2023-07-20 14:25:28] INFO root fetch - processPackages [resotodata]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-07-20 14:25:28] INFO root fetch - processPackages [mindsdb-sql]: New version: [0.6.6] Old Version: [0.6.5]
+[2023-07-20 14:25:28] INFO root fetch - processPackages [svc-reg]: Remove: archive file [/home/abi/fetcher/tmp/svc_reg-23.2.0.tar.gz]
+[2023-07-20 14:25:28] INFO root fetch - processPackages [svc-reg]: Remove: archive file [/home/abi/fetcher/tmp/svc_reg-23.3.0.tar.gz]
+[2023-07-20 14:25:28] INFO root fetch - processPackages [svc-reg]: Start processing: conjugate-models
+[2023-07-20 14:25:28] INFO root fetch - main [MainThread]: End processing [svc-reg]: success
+[2023-07-20 14:25:28] INFO root fetch - processPackages [fusion-engine]: Start processing: leadguru-jobs
+[2023-07-20 14:25:28] INFO root fetch - main [MainThread]: End processing [fusion-engine]: success
+[2023-07-20 14:25:28] INFO root fetch - processPackages [cmsis-stream]: Downloading https://files.pythonhosted.org/packages/b4/b8/6fce06e0152300a0ec3e0dc84955af32be59ea188862d2523456d08392ae/cmsis_stream-1.5.1-py3-none-any.whl
+[2023-07-20 14:25:28] INFO root fetch - processPackages [conjugate-models]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-20 14:25:28] INFO root fetch - processPackages [leadguru-jobs]: New version: [0.99.0] Old Version: [0.98.0]
+[2023-07-20 14:25:29] INFO root fetch - processPackages [lbt-recipes]: Remove: archive file [/home/abi/fetcher/tmp/lbt-recipes-0.9.0.tar.gz]
+[2023-07-20 14:25:29] INFO root fetch - processPackages [lbt-recipes]: Remove: archive file [/home/abi/fetcher/tmp/lbt-recipes-0.9.1.tar.gz]
+[2023-07-20 14:25:29] INFO root fetch - processPackages [lbt-recipes]: Start processing: text-block-local
+[2023-07-20 14:25:29] INFO root fetch - main [MainThread]: End processing [lbt-recipes]: success
+[2023-07-20 14:25:29] INFO root fetch - processPackages [herta-villa-sdk]: Remove: archive file [/home/abi/fetcher/tmp/herta_villa_sdk-0.7.0.tar.gz]
+[2023-07-20 14:25:29] INFO root fetch - processPackages [herta-villa-sdk]: Remove: archive file [/home/abi/fetcher/tmp/herta_villa_sdk-0.8.0.tar.gz]
+[2023-07-20 14:25:29] INFO root fetch - processPackages [herta-villa-sdk]: Start processing: splineplot
+[2023-07-20 14:25:29] INFO root fetch - main [MainThread]: End processing [herta-villa-sdk]: success
+[2023-07-20 14:25:29] INFO root fetch - processPackages [text-block-local]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-20 14:25:29] INFO root fetch - processPackages [resotodata]: Downloading https://files.pythonhosted.org/packages/2c/d2/6ccd402de374393ff382e58f9a5dfe7426405d266c0470077663ec05decf/resotodata-0.2.0.tar.gz
+[2023-07-20 14:25:29] INFO root fetch - processPackages [mindsdb-sql]: Downloading https://files.pythonhosted.org/packages/bd/40/8e01c20eee6a0103808e707bf0cbd447fad718572edd48f020f5f0f7378b/mindsdb_sql-0.6.5.tar.gz
+[2023-07-20 14:25:29] INFO root fetch - processPackages [conjugate-models]: Downloading https://files.pythonhosted.org/packages/07/87/eeb67765a79f1ecdb2cd1471f93e118b870a578aba7da8e7d68e2f15d32a/conjugate_models-0.1.1.tar.gz
+[2023-07-20 14:25:29] WARNING root fetch - processPackages [splineplot]: Skipping, unable to determine old version
+[2023-07-20 14:25:29] INFO root fetch - processPackages [splineplot]: Start processing: voici
+[2023-07-20 14:25:29] INFO root fetch - main [MainThread]: End processing [splineplot] error
+[2023-07-20 14:25:29] INFO root fetch - processPackages [leadguru-jobs]: executing diffoscope
+[2023-07-20 14:25:29] INFO root fetch - processPackages [leadguru-jobs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leadguru_jobs-0.98.0.tar.gz tmp/leadguru_jobs-0.99.0.tar.gz --markdown 20230720/l/leadguru-jobs/0.98.0-0.99.0/diff.md --exclude *.pyd
+[2023-07-20 14:25:29] INFO root fetch - processPackages [toucan-connectors]: Remove: archive file [/home/abi/fetcher/tmp/toucan_connectors-4.7.1.tar.gz]
+[2023-07-20 14:25:29] INFO root fetch - processPackages [toucan-connectors]: Remove: archive file [/home/abi/fetcher/tmp/toucan_connectors-4.7.2.tar.gz]
+[2023-07-20 14:25:29] INFO root fetch - main [MainThread]: End processing [toucan-connectors]: success
+[2023-07-20 14:25:29] INFO root fetch - processPackages [ChatGPT-Cloud]: Downloading https://files.pythonhosted.org/packages/74/68/f35a99d60e82f10ac4050ae19937c781033b79a1e9a752b5829da04af724/ChatGPT-Cloud-0.6.2.tar.gz
+[2023-07-20 14:25:29] INFO root fetch - processPackages [voici]: New version: [0.4.5] Old Version: [0.4.4]
+[2023-07-20 14:25:29] INFO root fetch - processPackages [cmsis-stream]: Downloading https://files.pythonhosted.org/packages/32/ab/9dee6544615ecec56941caff87a4e581654bcb4951c165b79ec5f592c09d/cmsis_stream-1.6.0-py3-none-any.whl
+[2023-07-20 14:25:29] INFO root fetch - processPackages [text-block-local]: Downloading https://files.pythonhosted.org/packages/d3/05/fbdcc1b71478d460a76952ac6a40351bd4c5b5612e0bd55faafb5fee4f61/text-block-local-0.0.1.tar.gz
+[2023-07-20 14:25:29] INFO root fetch - processPackages [th2-grpc-act-ssh]: Remove: archive file [/home/abi/fetcher/tmp/th2_grpc_act_ssh-2.0.0.dev5409734028.tar.gz]
+[2023-07-20 14:25:29] INFO root fetch - processPackages [th2-grpc-act-ssh]: Remove: archive file [/home/abi/fetcher/tmp/th2_grpc_act_ssh-2.0.0.dev5610911783.tar.gz]
+[2023-07-20 14:25:29] INFO root fetch - main [MainThread]: End processing [th2-grpc-act-ssh]: success
+[2023-07-20 14:25:29] INFO root fetch - processPackages [cmsis-stream]: executing diffoscope
+[2023-07-20 14:25:29] INFO root fetch - processPackages [cmsis-stream]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cmsis_stream-1.5.1-py3-none-any.whl.zip tmp/cmsis_stream-1.6.0-py3-none-any.whl.zip --markdown 20230720/c/cmsis-stream/1.5.1-1.6.0/diff.md --exclude *.pyd
+[2023-07-20 14:25:29] INFO root fetch - processPackages [resotodata]: Downloading https://files.pythonhosted.org/packages/41/87/a1263e2efc5ccd8d94457dbb1ee5131a2abc4ba1d81fb4c1762e0f4b316b/resotodata-0.2.1.tar.gz
+[2023-07-20 14:25:29] INFO root fetch - processPackages [voici]: Downloading https://files.pythonhosted.org/packages/fa/60/2e2b8f0e3c402d7ebc54508c26d98651a17363d717ace47481526a1d0168/voici-0.4.4.tar.gz
+[2023-07-20 14:25:29] INFO root fetch - processPackages [mindsdb-sql]: Downloading https://files.pythonhosted.org/packages/10/f2/829b53078c9d28c0bc635874c7a7a816072429dc3868e8b20ff0fb60a4ec/mindsdb_sql-0.6.6.tar.gz
+[2023-07-20 14:25:29] INFO root fetch - processPackages [conjugate-models]: Downloading https://files.pythonhosted.org/packages/e2/c2/f7b0a7e971220bf74d51bbfd3af1980d2af25234c0d4f0f13211fe16de36/conjugate_models-0.1.2.tar.gz
+[2023-07-20 14:25:29] INFO root fetch - processPackages [ChatGPT-Cloud]: executing diffoscope
+[2023-07-20 14:25:29] INFO root fetch - processPackages [ChatGPT-Cloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ChatGPT-Cloud-0.6.1.tar.gz tmp/ChatGPT-Cloud-0.6.2.tar.gz --markdown 20230720/C/ChatGPT-Cloud/0.6.1-0.6.2/diff.md --exclude *.pyd
+[2023-07-20 14:25:29] INFO root fetch - processPackages [text-block-local]: Downloading https://files.pythonhosted.org/packages/e4/9a/9744045529d08bcfb6b5a9bb400431a72d2ef92d2a72b0a7041c0c4f736d/text-block-local-0.0.2.tar.gz
+[2023-07-20 14:25:29] INFO root fetch - processPackages [mindsdb-sql]: executing diffoscope
+[2023-07-20 14:25:29] INFO root fetch - processPackages [mindsdb-sql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mindsdb_sql-0.6.5.tar.gz tmp/mindsdb_sql-0.6.6.tar.gz --markdown 20230720/m/mindsdb-sql/0.6.5-0.6.6/diff.md --exclude *.pyd
+[2023-07-20 14:25:29] INFO root fetch - processPackages [conjugate-models]: executing diffoscope
+[2023-07-20 14:25:29] INFO root fetch - processPackages [conjugate-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/conjugate_models-0.1.1.tar.gz tmp/conjugate_models-0.1.2.tar.gz --markdown 20230720/c/conjugate-models/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-20 14:25:29] INFO root fetch - processPackages [resotodata]: executing diffoscope
+[2023-07-20 14:25:29] INFO root fetch - processPackages [resotodata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/resotodata-0.2.0.tar.gz tmp/resotodata-0.2.1.tar.gz --markdown 20230720/r/resotodata/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-07-20 14:25:29] INFO root fetch - processPackages [text-block-local]: executing diffoscope
+[2023-07-20 14:25:29] INFO root fetch - processPackages [text-block-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/text-block-local-0.0.1.tar.gz tmp/text-block-local-0.0.2.tar.gz --markdown 20230720/t/text-block-local/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-20 14:25:30] INFO root fetch - processPackages [voici]: Downloading https://files.pythonhosted.org/packages/43/e0/1b6fb517ef6e5143855894220a82b72e472fdf71c51df4ad0cd034ff9bf9/voici-0.4.5.tar.gz
+[2023-07-20 14:25:30] INFO root fetch - processPackages [leadguru-jobs]: Remove: archive file [/home/abi/fetcher/tmp/leadguru_jobs-0.98.0.tar.gz]
+[2023-07-20 14:25:30] INFO root fetch - processPackages [leadguru-jobs]: Remove: archive file [/home/abi/fetcher/tmp/leadguru_jobs-0.99.0.tar.gz]
+[2023-07-20 14:25:30] INFO root fetch - main [MainThread]: End processing [leadguru-jobs]: success
+[2023-07-20 14:25:30] INFO root fetch - processPackages [voici]: executing diffoscope
+[2023-07-20 14:25:30] INFO root fetch - processPackages [voici]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/voici-0.4.4.tar.gz tmp/voici-0.4.5.tar.gz --markdown 20230720/v/voici/0.4.4-0.4.5/diff.md --exclude *.pyd
+[2023-07-20 14:25:30] INFO root fetch - processPackages [conjugate-models]: Remove: archive file [/home/abi/fetcher/tmp/conjugate_models-0.1.1.tar.gz]
+[2023-07-20 14:25:30] INFO root fetch - processPackages [conjugate-models]: Remove: archive file [/home/abi/fetcher/tmp/conjugate_models-0.1.2.tar.gz]
+[2023-07-20 14:25:30] INFO root fetch - main [MainThread]: End processing [conjugate-models]: success
+[2023-07-20 14:25:31] INFO root fetch - processPackages [text-block-local]: Remove: archive file [/home/abi/fetcher/tmp/text-block-local-0.0.1.tar.gz]
+[2023-07-20 14:25:31] INFO root fetch - processPackages [text-block-local]: Remove: archive file [/home/abi/fetcher/tmp/text-block-local-0.0.2.tar.gz]
+[2023-07-20 14:25:31] INFO root fetch - main [MainThread]: End processing [text-block-local]: success
+[2023-07-20 14:25:31] INFO root fetch - processPackages [cmsis-stream]: Remove: archive file [/home/abi/fetcher/tmp/cmsis_stream-1.5.1-py3-none-any.whl.zip]
+[2023-07-20 14:25:31] INFO root fetch - processPackages [cmsis-stream]: Remove: archive file [/home/abi/fetcher/tmp/cmsis_stream-1.6.0-py3-none-any.whl.zip]
+[2023-07-20 14:25:31] INFO root fetch - main [MainThread]: End processing [cmsis-stream]: success
+[2023-07-20 14:25:31] INFO root fetch - processPackages [mindsdb-sql]: Remove: archive file [/home/abi/fetcher/tmp/mindsdb_sql-0.6.5.tar.gz]
+[2023-07-20 14:25:31] INFO root fetch - processPackages [mindsdb-sql]: Remove: archive file [/home/abi/fetcher/tmp/mindsdb_sql-0.6.6.tar.gz]
+[2023-07-20 14:25:31] INFO root fetch - main [MainThread]: End processing [mindsdb-sql]: success
+[2023-07-20 14:25:35] INFO root fetch - processPackages [voici]: Remove: archive file [/home/abi/fetcher/tmp/voici-0.4.4.tar.gz]
+[2023-07-20 14:25:35] INFO root fetch - processPackages [voici]: Remove: archive file [/home/abi/fetcher/tmp/voici-0.4.5.tar.gz]
+[2023-07-20 14:25:35] INFO root fetch - main [MainThread]: End processing [voici]: success
+[2023-07-20 14:25:38] INFO root fetch - processPackages [resotodata]: Remove: archive file [/home/abi/fetcher/tmp/resotodata-0.2.0.tar.gz]
+[2023-07-20 14:25:38] INFO root fetch - processPackages [resotodata]: Remove: archive file [/home/abi/fetcher/tmp/resotodata-0.2.1.tar.gz]
+[2023-07-20 14:25:38] INFO root fetch - main [MainThread]: End processing [resotodata]: success
+[2023-07-20 14:25:53] INFO root fetch - processPackages [ChatGPT-Cloud]: Remove: archive file [/home/abi/fetcher/tmp/ChatGPT-Cloud-0.6.1.tar.gz]
+[2023-07-20 14:25:53] INFO root fetch - processPackages [ChatGPT-Cloud]: Remove: archive file [/home/abi/fetcher/tmp/ChatGPT-Cloud-0.6.2.tar.gz]
+[2023-07-20 14:25:53] INFO root fetch - main [MainThread]: End processing [ChatGPT-Cloud]: success
+[2023-07-20 14:25:53] INFO root fetch - main [MainThread]: Store serial: [18966333]
