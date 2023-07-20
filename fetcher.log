@@ -6827,3 +6827,74 @@ AssertionError: tmp/verify4py-test-0.1.7.tar.gz does not exist
 [2023-07-20 13:31:57] INFO root fetch - processPackages [dissect.etl]: Remove: archive file [/home/abi/fetcher/tmp/dissect.etl-3.7.dev1.tar.gz]
 [2023-07-20 13:31:57] INFO root fetch - main [MainThread]: End processing [dissect.etl]: success
 [2023-07-20 13:31:57] INFO root fetch - main [MainThread]: Store serial: [18965827]
+[2023-07-20 13:37:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18965827]
+[2023-07-20 13:37:06] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-07-20 13:37:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dxsp
+[2023-07-20 13:37:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dissect.target
+[2023-07-20 13:37:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: intecomm-form-validators
+[2023-07-20 13:37:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: CxAdmin
+[2023-07-20 13:37:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: edc-locator
+[2023-07-20 13:37:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: qwak-core
+[2023-07-20 13:37:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ou-container-content
+[2023-07-20 13:37:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: junifer
+[2023-07-20 13:37:06] INFO root fetch - processPackages [CxAdmin]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-20 13:37:06] INFO root fetch - processPackages [edc-locator]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-20 13:37:06] INFO root fetch - processPackages [qwak-core]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-20 13:37:06] INFO root fetch - processPackages [ou-container-content]: New version: [1.2.0] Old Version: [1.1.4]
+[2023-07-20 13:37:06] INFO root fetch - processPackages [intecomm-form-validators]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-20 13:37:06] INFO root fetch - processPackages [junifer]: New version: [0.0.3.dev89] Old Version: [0.0.3.dev75]
+[2023-07-20 13:37:06] INFO root fetch - processPackages [dissect.target]: New version: [3.9.dev9] Old Version: [3.9.dev8]
+[2023-07-20 13:37:06] INFO root fetch - processPackages [dxsp]: New version: [4.0.6] Old Version: [4.0.5]
+[2023-07-20 13:37:07] INFO root fetch - processPackages [CxAdmin]: Downloading https://files.pythonhosted.org/packages/72/2d/39137a2e73be34674809bf9eabf234a558344f4c60f8d348d9c9666872ce/CxAdmin-1.0.8.tar.gz
+[2023-07-20 13:37:07] INFO root fetch - processPackages [qwak-core]: Downloading https://files.pythonhosted.org/packages/5f/d0/45d94253bcdc4108ecf2f05cb74d19b34ae62ade127e415b792f382bd060/qwak_core-0.0.98.tar.gz
+[2023-07-20 13:37:07] INFO root fetch - processPackages [junifer]: Downloading https://files.pythonhosted.org/packages/d6/47/d74516e31bf550bd413557bf2fe84012ad1c21b2a4e390624ea24404d47d/junifer-0.0.3.dev75.tar.gz
+[2023-07-20 13:37:07] INFO root fetch - processPackages [ou-container-content]: Downloading https://files.pythonhosted.org/packages/14/c6/3801429a2ffbb516c2cfd6a17d85a895fb94c2aab72420270896bca07360/ou_container_content-1.1.4.tar.gz
+[2023-07-20 13:37:07] INFO root fetch - processPackages [dxsp]: Downloading https://files.pythonhosted.org/packages/05/1c/3f1a92a24af9f72979241479db39e20e136edae34a231250fda449a04e85/dxsp-4.0.5.tar.gz
+[2023-07-20 13:37:07] INFO root fetch - processPackages [edc-locator]: Downloading https://files.pythonhosted.org/packages/23/dc/5dfe8e311dc347218bf82960648dd9859311bda95f3734940080bbee8770/edc_locator-0.3.8-py3-none-any.whl
+[2023-07-20 13:37:07] INFO root fetch - processPackages [intecomm-form-validators]: Downloading https://files.pythonhosted.org/packages/19/e9/26d572e63c08a9513b13571870a97c28d2bf542993480376e37c828c564b/intecomm-form-validators-0.1.8.tar.gz
+[2023-07-20 13:37:07] INFO root fetch - processPackages [dissect.target]: Downloading https://files.pythonhosted.org/packages/b1/a4/24f9ce2eb6a1913b82598a01b68b634c9fe5535a9484bff3d7d56a0ae929/dissect.target-3.9.dev8.tar.gz
+[2023-07-20 13:37:07] WARNING root fetch - processPackages [dissect.target]: Skipping package: exceeds size limit 63555307>=10485760
+[2023-07-20 13:37:07] INFO root fetch - main [MainThread]: End processing [dissect.target] error
+[2023-07-20 13:37:07] INFO root fetch - processPackages [CxAdmin]: Downloading https://files.pythonhosted.org/packages/12/69/d90f882fe41226c22716f3133aa3d1fd7abd744d25527cd17a8e33f7487f/CxAdmin-1.0.9.tar.gz
+[2023-07-20 13:37:07] INFO root fetch - processPackages [qwak-core]: Downloading https://files.pythonhosted.org/packages/f2/c0/4910ee16f1146c11278c0b18778d0552fdbed48c75db8c1145bb48ab13c4/qwak_core-0.0.99.tar.gz
+[2023-07-20 13:37:07] INFO root fetch - processPackages [CxAdmin]: executing diffoscope
+[2023-07-20 13:37:07] INFO root fetch - processPackages [CxAdmin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CxAdmin-1.0.8.tar.gz tmp/CxAdmin-1.0.9.tar.gz --markdown 20230720/C/CxAdmin/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-20 13:37:07] INFO root fetch - processPackages [dxsp]: Downloading https://files.pythonhosted.org/packages/a8/df/a089d55104a624a8ab21b52c733c37a044a4d119c20154c6ace00e7aff64/dxsp-4.0.6.tar.gz
+[2023-07-20 13:37:07] INFO root fetch - processPackages [junifer]: Downloading https://files.pythonhosted.org/packages/c5/06/255ca570d014f3a3b61dbfd6930918954915fcbb78b788d99fd027969a15/junifer-0.0.3.dev89.tar.gz
+[2023-07-20 13:37:07] INFO root fetch - processPackages [qwak-core]: executing diffoscope
+[2023-07-20 13:37:07] INFO root fetch - processPackages [qwak-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qwak_core-0.0.98.tar.gz tmp/qwak_core-0.0.99.tar.gz --markdown 20230720/q/qwak-core/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-20 13:37:07] INFO root fetch - processPackages [intecomm-form-validators]: Downloading https://files.pythonhosted.org/packages/8d/9a/ba39b1b74dd7d50770da9d0b45563e555a5e19ba671fa21a047da9450cf3/intecomm-form-validators-0.1.9.tar.gz
+[2023-07-20 13:37:07] INFO root fetch - processPackages [ou-container-content]: Downloading https://files.pythonhosted.org/packages/b6/c4/f2942200adca2b9a2943227295aae5b039fb0c3d3adfc1b62c1968698ce1/ou_container_content-1.2.0.tar.gz
+[2023-07-20 13:37:07] INFO root fetch - processPackages [edc-locator]: Downloading https://files.pythonhosted.org/packages/8d/89/63cfcd98d138c00cbdb907bc1bf53adc8d3af73e2a79ce70d1e6deccd71a/edc_locator-0.3.9-py3-none-any.whl
+[2023-07-20 13:37:07] INFO root fetch - processPackages [dxsp]: executing diffoscope
+[2023-07-20 13:37:07] INFO root fetch - processPackages [dxsp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dxsp-4.0.5.tar.gz tmp/dxsp-4.0.6.tar.gz --markdown 20230720/d/dxsp/4.0.5-4.0.6/diff.md --exclude *.pyd
+[2023-07-20 13:37:07] INFO root fetch - processPackages [ou-container-content]: executing diffoscope
+[2023-07-20 13:37:07] INFO root fetch - processPackages [ou-container-content]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ou_container_content-1.1.4.tar.gz tmp/ou_container_content-1.2.0.tar.gz --markdown 20230720/o/ou-container-content/1.1.4-1.2.0/diff.md --exclude *.pyd
+[2023-07-20 13:37:07] INFO root fetch - processPackages [intecomm-form-validators]: executing diffoscope
+[2023-07-20 13:37:07] INFO root fetch - processPackages [intecomm-form-validators]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/intecomm-form-validators-0.1.8.tar.gz tmp/intecomm-form-validators-0.1.9.tar.gz --markdown 20230720/i/intecomm-form-validators/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-20 13:37:07] INFO root fetch - processPackages [junifer]: executing diffoscope
+[2023-07-20 13:37:07] INFO root fetch - processPackages [junifer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/junifer-0.0.3.dev75.tar.gz tmp/junifer-0.0.3.dev89.tar.gz --markdown 20230720/j/junifer/0.0.3.dev75-0.0.3.dev89/diff.md --exclude *.pyd
+[2023-07-20 13:37:07] INFO root fetch - processPackages [edc-locator]: executing diffoscope
+[2023-07-20 13:37:07] INFO root fetch - processPackages [edc-locator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edc_locator-0.3.8-py3-none-any.whl.zip tmp/edc_locator-0.3.9-py3-none-any.whl.zip --markdown 20230720/e/edc-locator/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-20 13:37:08] INFO root fetch - processPackages [CxAdmin]: Remove: archive file [/home/abi/fetcher/tmp/CxAdmin-1.0.8.tar.gz]
+[2023-07-20 13:37:08] INFO root fetch - processPackages [CxAdmin]: Remove: archive file [/home/abi/fetcher/tmp/CxAdmin-1.0.9.tar.gz]
+[2023-07-20 13:37:08] INFO root fetch - main [MainThread]: End processing [CxAdmin]: success
+[2023-07-20 13:37:08] INFO root fetch - processPackages [dxsp]: Remove: archive file [/home/abi/fetcher/tmp/dxsp-4.0.5.tar.gz]
+[2023-07-20 13:37:08] INFO root fetch - processPackages [dxsp]: Remove: archive file [/home/abi/fetcher/tmp/dxsp-4.0.6.tar.gz]
+[2023-07-20 13:37:08] INFO root fetch - main [MainThread]: End processing [dxsp]: success
+[2023-07-20 13:37:09] INFO root fetch - processPackages [edc-locator]: Remove: archive file [/home/abi/fetcher/tmp/edc_locator-0.3.8-py3-none-any.whl.zip]
+[2023-07-20 13:37:09] INFO root fetch - processPackages [edc-locator]: Remove: archive file [/home/abi/fetcher/tmp/edc_locator-0.3.9-py3-none-any.whl.zip]
+[2023-07-20 13:37:09] INFO root fetch - main [MainThread]: End processing [edc-locator]: success
+[2023-07-20 13:37:09] INFO root fetch - processPackages [ou-container-content]: Remove: archive file [/home/abi/fetcher/tmp/ou_container_content-1.1.4.tar.gz]
+[2023-07-20 13:37:09] INFO root fetch - processPackages [ou-container-content]: Remove: archive file [/home/abi/fetcher/tmp/ou_container_content-1.2.0.tar.gz]
+[2023-07-20 13:37:09] INFO root fetch - main [MainThread]: End processing [ou-container-content]: success
+[2023-07-20 13:37:09] INFO root fetch - processPackages [intecomm-form-validators]: Remove: archive file [/home/abi/fetcher/tmp/intecomm-form-validators-0.1.8.tar.gz]
+[2023-07-20 13:37:09] INFO root fetch - processPackages [intecomm-form-validators]: Remove: archive file [/home/abi/fetcher/tmp/intecomm-form-validators-0.1.9.tar.gz]
+[2023-07-20 13:37:09] INFO root fetch - main [MainThread]: End processing [intecomm-form-validators]: success
+[2023-07-20 13:37:10] INFO root fetch - processPackages [junifer]: Remove: archive file [/home/abi/fetcher/tmp/junifer-0.0.3.dev75.tar.gz]
+[2023-07-20 13:37:10] INFO root fetch - processPackages [junifer]: Remove: archive file [/home/abi/fetcher/tmp/junifer-0.0.3.dev89.tar.gz]
+[2023-07-20 13:37:10] INFO root fetch - main [MainThread]: End processing [junifer]: success
+[2023-07-20 13:37:10] INFO root fetch - processPackages [qwak-core]: Remove: archive file [/home/abi/fetcher/tmp/qwak_core-0.0.98.tar.gz]
+[2023-07-20 13:37:10] INFO root fetch - processPackages [qwak-core]: Remove: archive file [/home/abi/fetcher/tmp/qwak_core-0.0.99.tar.gz]
+[2023-07-20 13:37:10] INFO root fetch - main [MainThread]: End processing [qwak-core]: success
+[2023-07-20 13:37:10] INFO root fetch - main [MainThread]: Store serial: [18965853]
