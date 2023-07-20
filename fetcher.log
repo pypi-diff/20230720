@@ -10240,3 +10240,256 @@ AssertionError: tmp/verify4py-test-0.1.7.tar.gz does not exist
 [2023-07-20 15:41:10] INFO root fetch - processPackages [cybrid-api-bank-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-bank-python-0.9.9.tar.gz]
 [2023-07-20 15:41:10] INFO root fetch - main [MainThread]: End processing [cybrid-api-bank-python]: success
 [2023-07-20 15:41:10] INFO root fetch - main [MainThread]: Store serial: [18967204]
+[2023-07-20 15:46:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18967204]
+[2023-07-20 15:46:20] INFO root fetch - main [MainThread]: Found 33 changed packages
+[2023-07-20 15:46:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: logium
+[2023-07-20 15:46:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: biliarchiver
+[2023-07-20 15:46:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jolli
+[2023-07-20 15:46:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: buscador
+[2023-07-20 15:46:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kappe
+[2023-07-20 15:46:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cachetoolz
+[2023-07-20 15:46:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: Queue-Analyzer
+[2023-07-20 15:46:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: apix-core
+[2023-07-20 15:46:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mkdocs-swangallery
+[2023-07-20 15:46:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: unitee
+[2023-07-20 15:46:21] INFO root fetch - processPackages [kappe]: New version: [0.8.0] Old Version: [0.7.3]
+[2023-07-20 15:46:21] INFO root fetch - processPackages [logium]: New version: [1.2] Old Version: [1.1]
+[2023-07-20 15:46:21] INFO root fetch - processPackages [biliarchiver]: New version: [0.0.9] Old Version: [0.0.24]
+[2023-07-20 15:46:21] INFO root fetch - processPackages [jolli]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-20 15:46:21] INFO root fetch - processPackages [Queue-Analyzer]: New version: [0.9.1] Old Version: [0.9]
+[2023-07-20 15:46:21] INFO root fetch - processPackages [unitee]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-07-20 15:46:21] INFO root fetch - processPackages [buscador]: New version: [0.3] Old Version: [0.2]
+[2023-07-20 15:46:21] INFO root fetch - processPackages [mkdocs-swangallery]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-20 15:46:21] INFO root fetch - processPackages [cachetoolz]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-07-20 15:46:21] INFO root fetch - processPackages [apix-core]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-20 15:46:21] INFO root fetch - processPackages [buscador]: Downloading https://files.pythonhosted.org/packages/a5/39/5694fe84b862d5c6bcc78cd91b299e9a7adf4f112007d1cc4e96edcee92b/buscador-0.2.tar.gz
+[2023-07-20 15:46:21] INFO root fetch - processPackages [cachetoolz]: Downloading https://files.pythonhosted.org/packages/4e/43/23a02c059f90ee9b1733f6813ac3e61b2f003296cc0d6e8d3ca7abb06389/cachetoolz-0.2.0.tar.gz
+[2023-07-20 15:46:21] INFO root fetch - processPackages [biliarchiver]: Downloading https://files.pythonhosted.org/packages/c0/f0/13256a6522c35d02fe2203bbe10fe343e2d297203f0294a5a436b5bcc8ec/biliarchiver-0.0.24.tar.gz
+[2023-07-20 15:46:21] INFO root fetch - processPackages [logium]: Downloading https://files.pythonhosted.org/packages/60/6c/0244587c180fe0513ad54cc125443cee13d45af495b19d8ab623c7b74429/logium-1.1.tar.gz
+[2023-07-20 15:46:21] INFO root fetch - processPackages [kappe]: Downloading https://files.pythonhosted.org/packages/7f/7f/8319b39df0b07876d151f84fd9e84de86e88c3b61b7b4b792d544a67b599/kappe-0.7.3.tar.gz
+[2023-07-20 15:46:21] INFO root fetch - processPackages [apix-core]: Downloading https://files.pythonhosted.org/packages/36/74/8d2b4b0a8480cf663c9353f81228eb00a8e6dc76cbac058f3ced7cb96d58/apix_core-0.0.4.tar.gz
+[2023-07-20 15:46:21] INFO root fetch - processPackages [jolli]: Downloading https://files.pythonhosted.org/packages/00/5d/68748fa2cd1d61f77e82f8addf75f031e02b16f259bf728b2ce190cbe65a/jolli-0.0.8.tar.gz
+[2023-07-20 15:46:21] INFO root fetch - processPackages [unitee]: Downloading https://files.pythonhosted.org/packages/f3/36/791f86bb9fdc4cc4431c2bcd114695062298ba8422da9da659ef31b67775/unitee-0.1.5.tar.gz
+[2023-07-20 15:46:21] INFO root fetch - processPackages [mkdocs-swangallery]: Downloading https://files.pythonhosted.org/packages/53/e6/381a8e0ea8984bca8ed6e6e7b30a4ee1e189f11d6cd00a36d9854345156e/mkdocs-swangallery-0.0.5.tar.gz
+[2023-07-20 15:46:21] INFO root fetch - processPackages [Queue-Analyzer]: Downloading https://files.pythonhosted.org/packages/2c/fb/f06c411aa6d13e6071b22a151778cc4b73c2e20269edbff98e99df5b7456/Queue_Analyzer-0.9.tar.gz
+[2023-07-20 15:46:21] INFO root fetch - processPackages [biliarchiver]: Downloading https://files.pythonhosted.org/packages/75/6f/a07bee6d23ed240047e737c1e393aadca816e9e1cc7c1aaa81457a4885da/biliarchiver-0.0.9.tar.gz
+[2023-07-20 15:46:21] INFO root fetch - processPackages [buscador]: Downloading https://files.pythonhosted.org/packages/74/26/95dab7e8f8a390142a2d32dc50d057fc9f7f7a88ae0eb8b35f55fec77d40/buscador-0.3.tar.gz
+[2023-07-20 15:46:21] INFO root fetch - processPackages [cachetoolz]: Downloading https://files.pythonhosted.org/packages/cf/56/c57037d1d9cad7fe880858871fd0f0a0a2b5431ebb436823537f1bdc76f1/cachetoolz-0.3.0.tar.gz
+[2023-07-20 15:46:22] INFO root fetch - processPackages [logium]: Downloading https://files.pythonhosted.org/packages/a9/62/7f4bf70cc6a73721ff5c22d321a8a746f9a4b6dbd6505048efaf5c9953db/logium-1.2.tar.gz
+[2023-07-20 15:46:22] INFO root fetch - processPackages [kappe]: Downloading https://files.pythonhosted.org/packages/e6/b0/767377a61b7e42a04551dcd7d9acc5f78b367073f83f33eeef73b1303a84/kappe-0.8.0.tar.gz
+[2023-07-20 15:46:22] INFO root fetch - processPackages [biliarchiver]: executing diffoscope
+[2023-07-20 15:46:22] INFO root fetch - processPackages [biliarchiver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/biliarchiver-0.0.24.tar.gz tmp/biliarchiver-0.0.9.tar.gz --markdown 20230720/b/biliarchiver/0.0.24-0.0.9/diff.md --exclude *.pyd
+[2023-07-20 15:46:22] INFO root fetch - processPackages [apix-core]: Downloading https://files.pythonhosted.org/packages/f1/ef/6425a36d07cd937dc5c59a78ab21cd73b46f759831feecd9c3be19733339/apix_core-0.0.5.tar.gz
+[2023-07-20 15:46:22] INFO root fetch - processPackages [unitee]: Downloading https://files.pythonhosted.org/packages/1e/ae/2262eb8c172f8368f24e773a2483888401d0d10552325886e9cd0b0d5cc6/unitee-0.1.6.tar.gz
+[2023-07-20 15:46:22] INFO root fetch - processPackages [buscador]: executing diffoscope
+[2023-07-20 15:46:22] INFO root fetch - processPackages [buscador]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/buscador-0.2.tar.gz tmp/buscador-0.3.tar.gz --markdown 20230720/b/buscador/0.2-0.3/diff.md --exclude *.pyd
+[2023-07-20 15:46:22] INFO root fetch - processPackages [Queue-Analyzer]: Downloading https://files.pythonhosted.org/packages/21/a8/401b8188d362b5a566b801d465b7f6007fb260fd901f4eef09c003918953/Queue_Analyzer-0.9.1.tar.gz
+[2023-07-20 15:46:22] INFO root fetch - processPackages [mkdocs-swangallery]: Downloading https://files.pythonhosted.org/packages/a2/52/6a57e8e19ff9f4fed4c2db0cbdda4994b204a9603b004397de30d69e61a9/mkdocs-swangallery-0.0.6.tar.gz
+[2023-07-20 15:46:22] INFO root fetch - processPackages [cachetoolz]: executing diffoscope
+[2023-07-20 15:46:22] INFO root fetch - processPackages [cachetoolz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cachetoolz-0.2.0.tar.gz tmp/cachetoolz-0.3.0.tar.gz --markdown 20230720/c/cachetoolz/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-07-20 15:46:22] INFO root fetch - processPackages [kappe]: executing diffoscope
+[2023-07-20 15:46:22] INFO root fetch - processPackages [kappe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kappe-0.7.3.tar.gz tmp/kappe-0.8.0.tar.gz --markdown 20230720/k/kappe/0.7.3-0.8.0/diff.md --exclude *.pyd
+[2023-07-20 15:46:22] INFO root fetch - processPackages [logium]: executing diffoscope
+[2023-07-20 15:46:22] INFO root fetch - processPackages [logium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/logium-1.1.tar.gz tmp/logium-1.2.tar.gz --markdown 20230720/l/logium/1.1-1.2/diff.md --exclude *.pyd
+[2023-07-20 15:46:22] INFO root fetch - processPackages [jolli]: Downloading https://files.pythonhosted.org/packages/2c/a6/f2e72029edf30aad141804f56587f3121896abe4715cb2bfca240ce36e33/jolli-0.0.9.tar.gz
+[2023-07-20 15:46:22] INFO root fetch - processPackages [unitee]: executing diffoscope
+[2023-07-20 15:46:22] INFO root fetch - processPackages [unitee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unitee-0.1.5.tar.gz tmp/unitee-0.1.6.tar.gz --markdown 20230720/u/unitee/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-07-20 15:46:22] INFO root fetch - processPackages [apix-core]: executing diffoscope
+[2023-07-20 15:46:22] INFO root fetch - processPackages [apix-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apix_core-0.0.4.tar.gz tmp/apix_core-0.0.5.tar.gz --markdown 20230720/a/apix-core/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-20 15:46:22] INFO root fetch - processPackages [mkdocs-swangallery]: executing diffoscope
+[2023-07-20 15:46:22] INFO root fetch - processPackages [mkdocs-swangallery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkdocs-swangallery-0.0.5.tar.gz tmp/mkdocs-swangallery-0.0.6.tar.gz --markdown 20230720/m/mkdocs-swangallery/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-20 15:46:22] INFO root fetch - processPackages [Queue-Analyzer]: executing diffoscope
+[2023-07-20 15:46:22] INFO root fetch - processPackages [Queue-Analyzer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Queue_Analyzer-0.9.tar.gz tmp/Queue_Analyzer-0.9.1.tar.gz --markdown 20230720/Q/Queue-Analyzer/0.9-0.9.1/diff.md --exclude *.pyd
+[2023-07-20 15:46:22] INFO root fetch - processPackages [jolli]: executing diffoscope
+[2023-07-20 15:46:22] INFO root fetch - processPackages [jolli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jolli-0.0.8.tar.gz tmp/jolli-0.0.9.tar.gz --markdown 20230720/j/jolli/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-20 15:46:23] INFO root fetch - processPackages [biliarchiver]: Remove: archive file [/home/abi/fetcher/tmp/biliarchiver-0.0.24.tar.gz]
+[2023-07-20 15:46:23] INFO root fetch - processPackages [biliarchiver]: Remove: archive file [/home/abi/fetcher/tmp/biliarchiver-0.0.9.tar.gz]
+[2023-07-20 15:46:23] INFO root fetch - processPackages [biliarchiver]: Start processing: mango-framework
+[2023-07-20 15:46:23] INFO root fetch - main [MainThread]: End processing [biliarchiver]: success
+[2023-07-20 15:46:23] INFO root fetch - processPackages [buscador]: Remove: archive file [/home/abi/fetcher/tmp/buscador-0.2.tar.gz]
+[2023-07-20 15:46:23] INFO root fetch - processPackages [buscador]: Remove: archive file [/home/abi/fetcher/tmp/buscador-0.3.tar.gz]
+[2023-07-20 15:46:23] INFO root fetch - processPackages [buscador]: Start processing: torchanalyse
+[2023-07-20 15:46:23] INFO root fetch - main [MainThread]: End processing [buscador]: success
+[2023-07-20 15:46:23] INFO root fetch - processPackages [mango-framework]: New version: [0.7.9] Old Version: [0.7.8]
+[2023-07-20 15:46:23] INFO root fetch - processPackages [torchanalyse]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-20 15:46:23] INFO root fetch - processPackages [unitee]: Remove: archive file [/home/abi/fetcher/tmp/unitee-0.1.5.tar.gz]
+[2023-07-20 15:46:23] INFO root fetch - processPackages [unitee]: Remove: archive file [/home/abi/fetcher/tmp/unitee-0.1.6.tar.gz]
+[2023-07-20 15:46:23] INFO root fetch - processPackages [unitee]: Start processing: bigdl-dllib
+[2023-07-20 15:46:23] INFO root fetch - main [MainThread]: End processing [unitee]: success
+[2023-07-20 15:46:23] INFO root fetch - processPackages [logium]: Remove: archive file [/home/abi/fetcher/tmp/logium-1.1.tar.gz]
+[2023-07-20 15:46:23] INFO root fetch - processPackages [logium]: Remove: archive file [/home/abi/fetcher/tmp/logium-1.2.tar.gz]
+[2023-07-20 15:46:23] INFO root fetch - processPackages [logium]: Start processing: bigdl-orca
+[2023-07-20 15:46:23] INFO root fetch - main [MainThread]: End processing [logium]: success
+[2023-07-20 15:46:23] INFO root fetch - processPackages [bigdl-dllib]: New version: [2.4.0b20230720] Old Version: [2.4.0b20230718]
+[2023-07-20 15:46:23] INFO root fetch - processPackages [bigdl-orca]: New version: [2.4.0b20230720] Old Version: [2.4.0b20230718]
+[2023-07-20 15:46:24] INFO root fetch - processPackages [kappe]: Remove: archive file [/home/abi/fetcher/tmp/kappe-0.7.3.tar.gz]
+[2023-07-20 15:46:24] INFO root fetch - processPackages [kappe]: Remove: archive file [/home/abi/fetcher/tmp/kappe-0.8.0.tar.gz]
+[2023-07-20 15:46:24] INFO root fetch - processPackages [kappe]: Start processing: meliorator
+[2023-07-20 15:46:24] INFO root fetch - main [MainThread]: End processing [kappe]: success
+[2023-07-20 15:46:24] INFO root fetch - processPackages [apix-core]: Remove: archive file [/home/abi/fetcher/tmp/apix_core-0.0.4.tar.gz]
+[2023-07-20 15:46:24] INFO root fetch - processPackages [apix-core]: Remove: archive file [/home/abi/fetcher/tmp/apix_core-0.0.5.tar.gz]
+[2023-07-20 15:46:24] INFO root fetch - processPackages [apix-core]: Start processing: bigdl-friesian
+[2023-07-20 15:46:24] INFO root fetch - main [MainThread]: End processing [apix-core]: success
+[2023-07-20 15:46:24] INFO root fetch - processPackages [mkdocs-swangallery]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs-swangallery-0.0.5.tar.gz]
+[2023-07-20 15:46:24] INFO root fetch - processPackages [mkdocs-swangallery]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs-swangallery-0.0.6.tar.gz]
+[2023-07-20 15:46:24] INFO root fetch - processPackages [mkdocs-swangallery]: Start processing: discohooker
+[2023-07-20 15:46:24] INFO root fetch - main [MainThread]: End processing [mkdocs-swangallery]: success
+[2023-07-20 15:46:24] INFO root fetch - processPackages [meliorator]: New version: [0.9.19] Old Version: [0.9.18]
+[2023-07-20 15:46:24] INFO root fetch - processPackages [torchanalyse]: Downloading https://files.pythonhosted.org/packages/d9/09/4eda921fac32ee18f929e5c19cbbce7ec822b81bfa0b95a6b7e33ca5d0ad/torchanalyse-0.0.1.tar.gz
+[2023-07-20 15:46:24] INFO root fetch - processPackages [cachetoolz]: Remove: archive file [/home/abi/fetcher/tmp/cachetoolz-0.2.0.tar.gz]
+[2023-07-20 15:46:24] INFO root fetch - processPackages [cachetoolz]: Remove: archive file [/home/abi/fetcher/tmp/cachetoolz-0.3.0.tar.gz]
+[2023-07-20 15:46:24] INFO root fetch - processPackages [cachetoolz]: Start processing: bigdl
+[2023-07-20 15:46:24] INFO root fetch - main [MainThread]: End processing [cachetoolz]: success
+[2023-07-20 15:46:24] INFO root fetch - processPackages [mango-framework]: Downloading https://files.pythonhosted.org/packages/a4/5c/cc0dcbb30be2d329d83cdb0aeb330a046192415784d2300187a05902c4d3/mango-framework-0.7.9.tar.gz
+[2023-07-20 15:46:24] INFO root fetch - processPackages [discohooker]: New version: [1.0.0] Old Version: [0.0.1]
+[2023-07-20 15:46:24] INFO root fetch - processPackages [bigdl]: New version: [2.4.0b20230720] Old Version: [2.4.0b20230718]
+[2023-07-20 15:46:24] INFO root fetch - processPackages [meliorator]: Downloading https://files.pythonhosted.org/packages/f7/42/00349100e80a2296e2f63d85cc526f9fec8bd01de9a25dd2e3e909494ed9/meliorator-0.9.18.tar.gz
+[2023-07-20 15:46:24] INFO root fetch - processPackages [bigdl-friesian]: New version: [2.4.0b20230720] Old Version: [2.4.0b20230718]
+[2023-07-20 15:46:24] INFO root fetch - processPackages [bigdl-dllib]: Downloading https://files.pythonhosted.org/packages/ee/72/80f7841cda8a4b121fd8a6327a54c0012483e2a0fa5d68e90442c2b4d404/bigdl-dllib-2.4.0b20230718.tar.gz
+[2023-07-20 15:46:24] INFO root fetch - processPackages [jolli]: Remove: archive file [/home/abi/fetcher/tmp/jolli-0.0.8.tar.gz]
+[2023-07-20 15:46:24] INFO root fetch - processPackages [jolli]: Remove: archive file [/home/abi/fetcher/tmp/jolli-0.0.9.tar.gz]
+[2023-07-20 15:46:24] INFO root fetch - processPackages [jolli]: Start processing: bigdl-dllib-spark2
+[2023-07-20 15:46:24] INFO root fetch - main [MainThread]: End processing [jolli]: success
+[2023-07-20 15:46:24] INFO root fetch - processPackages [bigdl-orca]: Downloading https://files.pythonhosted.org/packages/b8/de/ad6b3badef721b4eda6b489b7f26c44312560583b1c1188bf773f25b6755/bigdl_orca-2.4.0b20230718-py3-none-manylinux1_x86_64.whl
+[2023-07-20 15:46:24] INFO root fetch - processPackages [discohooker]: Downloading https://files.pythonhosted.org/packages/0f/d2/6947042543396327dc52dd6660fcb3a4263d7a5110e3c523b1c1d8d05dde/discohooker-0.0.1.tar.gz
+[2023-07-20 15:46:24] WARNING root fetch - processPackages [bigdl-dllib]: Skipping package: exceeds size limit 53639128>=10485760
+[2023-07-20 15:46:24] INFO root fetch - processPackages [bigdl-dllib]: Start processing: capellambse
+[2023-07-20 15:46:24] INFO root fetch - main [MainThread]: End processing [bigdl-dllib] error
+[2023-07-20 15:46:24] INFO root fetch - processPackages [Queue-Analyzer]: Remove: archive file [/home/abi/fetcher/tmp/Queue_Analyzer-0.9.tar.gz]
+[2023-07-20 15:46:24] INFO root fetch - processPackages [Queue-Analyzer]: Remove: archive file [/home/abi/fetcher/tmp/Queue_Analyzer-0.9.1.tar.gz]
+[2023-07-20 15:46:24] INFO root fetch - processPackages [Queue-Analyzer]: Start processing: bigdl-orca-spark2
+[2023-07-20 15:46:24] INFO root fetch - main [MainThread]: End processing [Queue-Analyzer]: success
+[2023-07-20 15:46:24] INFO root fetch - processPackages [mango-framework]: executing diffoscope
+[2023-07-20 15:46:24] INFO root fetch - processPackages [mango-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mango-framework-0.7.8.tar.gz tmp/mango-framework-0.7.9.tar.gz --markdown 20230720/m/mango-framework/0.7.8-0.7.9/diff.md --exclude *.pyd
+[2023-07-20 15:46:24] WARNING root fetch - processPackages [bigdl-orca]: Skipping package: exceeds size limit 20373908>=10485760
+[2023-07-20 15:46:24] INFO root fetch - processPackages [bigdl-orca]: Start processing: bigdl-friesian-spark2
+[2023-07-20 15:46:24] INFO root fetch - main [MainThread]: End processing [bigdl-orca] error
+[2023-07-20 15:46:24] INFO root fetch - processPackages [bigdl-dllib-spark2]: New version: [2.4.0b20230720] Old Version: [2.4.0b20230718]
+[2023-07-20 15:46:24] INFO root fetch - processPackages [bigdl-orca-spark2]: New version: [2.4.0b20230720] Old Version: [2.4.0b20230718]
+[2023-07-20 15:46:24] INFO root fetch - processPackages [capellambse]: New version: [0.5.9.dev5] Old Version: [0.5.9]
+[2023-07-20 15:46:24] INFO root fetch - processPackages [bigdl-friesian-spark2]: New version: [2.4.0b20230720] Old Version: [2.4.0b20230718]
+[2023-07-20 15:46:24] INFO root fetch - processPackages [bigdl]: Downloading https://files.pythonhosted.org/packages/41/09/530f20166d937587aa5b799df643a4d8325cf939a742b7d72e2fe2689550/bigdl-2.4.0b20230718-py3-none-manylinux1_x86_64.whl
+[2023-07-20 15:46:24] INFO root fetch - processPackages [bigdl-friesian]: Downloading https://files.pythonhosted.org/packages/f3/47/45b48b9ea27ac3896b7c94cef6f8978443881a8ac938edf98719fa716578/bigdl_friesian-2.4.0b20230718-py3-none-manylinux1_x86_64.whl
+[2023-07-20 15:46:24] INFO root fetch - processPackages [torchanalyse]: Downloading https://files.pythonhosted.org/packages/e9/c7/dbb0be0e11e475af1122d05a6c02f8d2a50da752de76f77954d1bc169d19/torchanalyse-0.0.2.tar.gz
+[2023-07-20 15:46:24] INFO root fetch - processPackages [capellambse]: Downloading https://files.pythonhosted.org/packages/0a/bb/e7974d92c6a3d93dbf30730a6d9302f37f52093b4985246d97e22939147d/capellambse-0.5.9.tar.gz
+[2023-07-20 15:46:24] INFO root fetch - processPackages [bigdl-dllib-spark2]: Downloading https://files.pythonhosted.org/packages/0c/d6/db06fcb4389f2bf04f151de1727c902e87d98c073c03a3cdd5ab96ff2ca6/bigdl-dllib-spark2-2.4.0b20230718.tar.gz
+[2023-07-20 15:46:24] INFO root fetch - processPackages [torchanalyse]: executing diffoscope
+[2023-07-20 15:46:24] INFO root fetch - processPackages [torchanalyse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchanalyse-0.0.1.tar.gz tmp/torchanalyse-0.0.2.tar.gz --markdown 20230720/t/torchanalyse/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-20 15:46:24] INFO root fetch - processPackages [meliorator]: Downloading https://files.pythonhosted.org/packages/28/93/e39282739deef6335af30d80902f30766fe9178476041663fe35f8022331/meliorator-0.9.19.tar.gz
+[2023-07-20 15:46:24] WARNING root fetch - processPackages [bigdl-dllib-spark2]: Skipping package: exceeds size limit 53639142>=10485760
+[2023-07-20 15:46:24] INFO root fetch - processPackages [bigdl-orca-spark2]: Downloading https://files.pythonhosted.org/packages/11/b9/b47f3f923c6782154cfe4a9564640e3fd529cffaa71c957fd68a711d185e/bigdl_orca_spark2-2.4.0b20230718-py3-none-manylinux1_x86_64.whl
+[2023-07-20 15:46:24] INFO root fetch - processPackages [bigdl-dllib-spark2]: Start processing: bigdl-chronos-spark2
+[2023-07-20 15:46:24] INFO root fetch - main [MainThread]: End processing [bigdl-dllib-spark2] error
+[2023-07-20 15:46:24] INFO root fetch - processPackages [discohooker]: Downloading https://files.pythonhosted.org/packages/cd/1c/5041d363b22abe72bc268286e032e969b4a8c6e39d217741e188edf6e902/discohooker-1.0.0.tar.gz
+[2023-07-20 15:46:24] INFO root fetch - processPackages [bigdl-friesian-spark2]: Downloading https://files.pythonhosted.org/packages/dc/1b/48f64e894a77057d4bb8d30c4765ed3373a8346638b4830c3bef10f7476c/bigdl_friesian_spark2-2.4.0b20230718-py3-none-manylinux1_x86_64.whl
+[2023-07-20 15:46:24] INFO root fetch - processPackages [bigdl]: Downloading https://files.pythonhosted.org/packages/b0/77/82eadc447f1d2d8b527ca104e24ca7230daa85f366c3618ba76967e2e85b/bigdl-2.4.0b20230720-py3-none-manylinux1_x86_64.whl
+[2023-07-20 15:46:24] WARNING root fetch - processPackages [bigdl-orca-spark2]: Skipping package: exceeds size limit 20373989>=10485760
+[2023-07-20 15:46:24] INFO root fetch - processPackages [bigdl-orca-spark2]: Start processing: bigdl-spark2
+[2023-07-20 15:46:24] INFO root fetch - main [MainThread]: End processing [bigdl-orca-spark2] error
+[2023-07-20 15:46:24] INFO root fetch - processPackages [bigdl-friesian]: Downloading https://files.pythonhosted.org/packages/45/a7/ae5161cb50b7461910160a897ccdbea3bc52989848ac736e557fb406ea7a/bigdl_friesian-2.4.0b20230720-py3-none-manylinux1_x86_64.whl
+[2023-07-20 15:46:24] INFO root fetch - processPackages [bigdl-chronos-spark2]: New version: [2.4.0b20230720] Old Version: [2.4.0b20230718]
+[2023-07-20 15:46:24] INFO root fetch - processPackages [discohooker]: executing diffoscope
+[2023-07-20 15:46:24] INFO root fetch - processPackages [discohooker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/discohooker-0.0.1.tar.gz tmp/discohooker-1.0.0.tar.gz --markdown 20230720/d/discohooker/0.0.1-1.0.0/diff.md --exclude *.pyd
+[2023-07-20 15:46:25] INFO root fetch - processPackages [bigdl-spark2]: New version: [2.4.0b20230720] Old Version: [2.4.0b20230718]
+[2023-07-20 15:46:25] INFO root fetch - processPackages [mango-framework]: Remove: archive file [/home/abi/fetcher/tmp/mango-framework-0.7.8.tar.gz]
+[2023-07-20 15:46:25] INFO root fetch - processPackages [mango-framework]: Remove: archive file [/home/abi/fetcher/tmp/mango-framework-0.7.9.tar.gz]
+[2023-07-20 15:46:25] INFO root fetch - processPackages [mango-framework]: Start processing: ml-confs
+[2023-07-20 15:46:25] INFO root fetch - main [MainThread]: End processing [mango-framework]: success
+[2023-07-20 15:46:25] INFO root fetch - processPackages [meliorator]: executing diffoscope
+[2023-07-20 15:46:25] INFO root fetch - processPackages [meliorator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meliorator-0.9.18.tar.gz tmp/meliorator-0.9.19.tar.gz --markdown 20230720/m/meliorator/0.9.18-0.9.19/diff.md --exclude *.pyd
+[2023-07-20 15:46:25] INFO root fetch - processPackages [bigdl]: executing diffoscope
+[2023-07-20 15:46:25] INFO root fetch - processPackages [bigdl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl-2.4.0b20230718-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl-2.4.0b20230720-py3-none-manylinux1_x86_64.whl.zip --markdown 20230720/b/bigdl/2.4.0b20230718-2.4.0b20230720/diff.md --exclude *.pyd
+[2023-07-20 15:46:25] WARNING root fetch - processPackages [ml-confs]: Skipping, unable to determine old version
+[2023-07-20 15:46:25] INFO root fetch - processPackages [ml-confs]: Start processing: assemblyline-service-client
+[2023-07-20 15:46:25] INFO root fetch - main [MainThread]: End processing [ml-confs] error
+[2023-07-20 15:46:25] INFO root fetch - processPackages [bigdl-friesian]: executing diffoscope
+[2023-07-20 15:46:25] INFO root fetch - processPackages [bigdl-friesian]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_friesian-2.4.0b20230718-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_friesian-2.4.0b20230720-py3-none-manylinux1_x86_64.whl.zip --markdown 20230720/b/bigdl-friesian/2.4.0b20230718-2.4.0b20230720/diff.md --exclude *.pyd
+[2023-07-20 15:46:25] INFO root fetch - processPackages [assemblyline-service-client]: New version: [4.4.1.dev99] Old Version: [4.4.1.dev98]
+[2023-07-20 15:46:25] INFO root fetch - processPackages [bigdl-chronos-spark2]: Downloading https://files.pythonhosted.org/packages/99/00/f5c4f2e9d59d679dda9494bd523a51dbf95dbbe2a40ac3fc9aa02e0ae46b/bigdl_chronos_spark2-2.4.0b20230718-py3-none-manylinux1_x86_64.whl
+[2023-07-20 15:46:25] INFO root fetch - processPackages [bigdl-friesian-spark2]: Downloading https://files.pythonhosted.org/packages/0c/94/c32456d5d4aba8d5d8d7b98035ccacdc2862d223d684a37b558c793557d9/bigdl_friesian_spark2-2.4.0b20230720-py3-none-manylinux1_x86_64.whl
+[2023-07-20 15:46:25] INFO root fetch - processPackages [bigdl-spark2]: Downloading https://files.pythonhosted.org/packages/c7/84/375b1b82fb28a16394b36d52abac1bc268871eb2f1a7dfd7073818f9fd71/bigdl_spark2-2.4.0b20230718-py3-none-manylinux1_x86_64.whl
+[2023-07-20 15:46:25] INFO root fetch - processPackages [capellambse]: Downloading https://files.pythonhosted.org/packages/31/3c/3a68e2e4cc3165b37471f5302bc500647962d3db54edea8081d0ced76387/capellambse-0.5.9.dev5.tar.gz
+[2023-07-20 15:46:25] INFO root fetch - processPackages [bigdl-friesian-spark2]: executing diffoscope
+[2023-07-20 15:46:25] INFO root fetch - processPackages [bigdl-friesian-spark2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_friesian_spark2-2.4.0b20230718-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_friesian_spark2-2.4.0b20230720-py3-none-manylinux1_x86_64.whl.zip --markdown 20230720/b/bigdl-friesian-spark2/2.4.0b20230718-2.4.0b20230720/diff.md --exclude *.pyd
+[2023-07-20 15:46:25] INFO root fetch - processPackages [assemblyline-service-client]: executing diffoscope
+[2023-07-20 15:46:25] INFO root fetch - processPackages [assemblyline-service-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline_service_client-4.4.1.dev98-py3-none-any.whl.zip tmp/assemblyline_service_client-4.4.1.dev99-py3-none-any.whl.zip --markdown 20230720/a/assemblyline-service-client/4.4.1.dev98-4.4.1.dev99/diff.md --exclude *.pyd
+[2023-07-20 15:46:25] INFO root fetch - processPackages [bigdl-chronos-spark2]: Downloading https://files.pythonhosted.org/packages/5d/db/a8882a63ed579c8acc49fb06d6f5d8c77a12a44fdfb2795ff80ddac27b4d/bigdl_chronos_spark2-2.4.0b20230720-py3-none-manylinux1_x86_64.whl
+[2023-07-20 15:46:25] INFO root fetch - processPackages [bigdl-spark2]: Downloading https://files.pythonhosted.org/packages/32/48/8f85fd95145a90850dbd56cf766b85881b64a5b8112e4693afd60d4a33dd/bigdl_spark2-2.4.0b20230720-py3-none-manylinux1_x86_64.whl
+[2023-07-20 15:46:25] INFO root fetch - processPackages [bigdl-chronos-spark2]: executing diffoscope
+[2023-07-20 15:46:25] INFO root fetch - processPackages [bigdl-chronos-spark2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_chronos_spark2-2.4.0b20230718-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_chronos_spark2-2.4.0b20230720-py3-none-manylinux1_x86_64.whl.zip --markdown 20230720/b/bigdl-chronos-spark2/2.4.0b20230718-2.4.0b20230720/diff.md --exclude *.pyd
+[2023-07-20 15:46:25] INFO root fetch - processPackages [torchanalyse]: Remove: archive file [/home/abi/fetcher/tmp/torchanalyse-0.0.1.tar.gz]
+[2023-07-20 15:46:25] INFO root fetch - processPackages [torchanalyse]: Remove: archive file [/home/abi/fetcher/tmp/torchanalyse-0.0.2.tar.gz]
+[2023-07-20 15:46:25] INFO root fetch - processPackages [torchanalyse]: Start processing: hide-frames
+[2023-07-20 15:46:25] INFO root fetch - processPackages [capellambse]: executing diffoscope
+[2023-07-20 15:46:25] INFO root fetch - main [MainThread]: End processing [torchanalyse]: success
+[2023-07-20 15:46:25] INFO root fetch - processPackages [capellambse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/capellambse-0.5.9.tar.gz tmp/capellambse-0.5.9.dev5.tar.gz --markdown 20230720/c/capellambse/0.5.9-0.5.9.dev5/diff.md --exclude *.pyd
+[2023-07-20 15:46:25] INFO root fetch - processPackages [bigdl-spark2]: executing diffoscope
+[2023-07-20 15:46:25] INFO root fetch - processPackages [bigdl-spark2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_spark2-2.4.0b20230718-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_spark2-2.4.0b20230720-py3-none-manylinux1_x86_64.whl.zip --markdown 20230720/b/bigdl-spark2/2.4.0b20230718-2.4.0b20230720/diff.md --exclude *.pyd
+[2023-07-20 15:46:25] WARNING root fetch - processPackages [hide-frames]: Skipping, unable to determine old version
+[2023-07-20 15:46:25] INFO root fetch - processPackages [hide-frames]: Start processing: assemblyline-service-server
+[2023-07-20 15:46:25] INFO root fetch - main [MainThread]: End processing [hide-frames] error
+[2023-07-20 15:46:26] INFO root fetch - processPackages [assemblyline-service-server]: New version: [4.4.1.dev99] Old Version: [4.4.1.dev98]
+[2023-07-20 15:46:26] INFO root fetch - processPackages [bigdl]: Remove: archive file [/home/abi/fetcher/tmp/bigdl-2.4.0b20230718-py3-none-manylinux1_x86_64.whl.zip]
+[2023-07-20 15:46:26] INFO root fetch - processPackages [bigdl]: Remove: archive file [/home/abi/fetcher/tmp/bigdl-2.4.0b20230720-py3-none-manylinux1_x86_64.whl.zip]
+[2023-07-20 15:46:26] INFO root fetch - processPackages [bigdl]: Start processing: assemblyline-ui
+[2023-07-20 15:46:26] INFO root fetch - main [MainThread]: End processing [bigdl]: success
+[2023-07-20 15:46:26] INFO root fetch - processPackages [assemblyline-service-server]: executing diffoscope
+[2023-07-20 15:46:26] INFO root fetch - processPackages [assemblyline-service-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline_service_server-4.4.1.dev98-py3-none-any.whl.zip tmp/assemblyline_service_server-4.4.1.dev99-py3-none-any.whl.zip --markdown 20230720/a/assemblyline-service-server/4.4.1.dev98-4.4.1.dev99/diff.md --exclude *.pyd
+[2023-07-20 15:46:26] INFO root fetch - processPackages [discohooker]: Remove: archive file [/home/abi/fetcher/tmp/discohooker-0.0.1.tar.gz]
+[2023-07-20 15:46:26] INFO root fetch - processPackages [discohooker]: Remove: archive file [/home/abi/fetcher/tmp/discohooker-1.0.0.tar.gz]
+[2023-07-20 15:46:26] INFO root fetch - processPackages [discohooker]: Start processing: assemblyline-v4-service
+[2023-07-20 15:46:26] INFO root fetch - main [MainThread]: End processing [discohooker]: success
+[2023-07-20 15:46:26] INFO root fetch - processPackages [assemblyline-ui]: New version: [4.4.1.dev99] Old Version: [4.4.1.dev98]
+[2023-07-20 15:46:26] INFO root fetch - processPackages [assemblyline-v4-service]: New version: [4.4.1.dev99] Old Version: [4.4.1.dev98]
+[2023-07-20 15:46:26] INFO root fetch - processPackages [assemblyline-ui]: executing diffoscope
+[2023-07-20 15:46:26] INFO root fetch - processPackages [assemblyline-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline_ui-4.4.1.dev98-py3-none-any.whl.zip tmp/assemblyline_ui-4.4.1.dev99-py3-none-any.whl.zip --markdown 20230720/a/assemblyline-ui/4.4.1.dev98-4.4.1.dev99/diff.md --exclude *.pyd
+[2023-07-20 15:46:26] INFO root fetch - processPackages [assemblyline-service-client]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_service_client-4.4.1.dev98-py3-none-any.whl.zip]
+[2023-07-20 15:46:26] INFO root fetch - processPackages [assemblyline-service-client]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_service_client-4.4.1.dev99-py3-none-any.whl.zip]
+[2023-07-20 15:46:26] INFO root fetch - processPackages [assemblyline-service-client]: Start processing: assemblyline
+[2023-07-20 15:46:26] INFO root fetch - main [MainThread]: End processing [assemblyline-service-client]: success
+[2023-07-20 15:46:26] INFO root fetch - processPackages [assemblyline-v4-service]: executing diffoscope
+[2023-07-20 15:46:26] INFO root fetch - processPackages [assemblyline-v4-service]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline_v4_service-4.4.1.dev98-py3-none-any.whl.zip tmp/assemblyline_v4_service-4.4.1.dev99-py3-none-any.whl.zip --markdown 20230720/a/assemblyline-v4-service/4.4.1.dev98-4.4.1.dev99/diff.md --exclude *.pyd
+[2023-07-20 15:46:26] INFO root fetch - processPackages [assemblyline]: New version: [4.4.1.dev99] Old Version: [4.4.1.dev98]
+[2023-07-20 15:46:27] INFO root fetch - processPackages [bigdl-friesian]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_friesian-2.4.0b20230718-py3-none-manylinux1_x86_64.whl.zip]
+[2023-07-20 15:46:27] INFO root fetch - processPackages [bigdl-friesian]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_friesian-2.4.0b20230720-py3-none-manylinux1_x86_64.whl.zip]
+[2023-07-20 15:46:27] INFO root fetch - processPackages [bigdl-friesian]: Start processing: assemblyline-core
+[2023-07-20 15:46:27] INFO root fetch - main [MainThread]: End processing [bigdl-friesian]: success
+[2023-07-20 15:46:27] INFO root fetch - processPackages [assemblyline]: executing diffoscope
+[2023-07-20 15:46:27] INFO root fetch - processPackages [assemblyline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline-4.4.1.dev98.tar.gz tmp/assemblyline-4.4.1.dev99.tar.gz --markdown 20230720/a/assemblyline/4.4.1.dev98-4.4.1.dev99/diff.md --exclude *.pyd
+[2023-07-20 15:46:27] INFO root fetch - processPackages [assemblyline-core]: New version: [4.4.1.dev99] Old Version: [4.4.1.dev98]
+[2023-07-20 15:46:27] INFO root fetch - processPackages [meliorator]: Remove: archive file [/home/abi/fetcher/tmp/meliorator-0.9.18.tar.gz]
+[2023-07-20 15:46:27] INFO root fetch - processPackages [meliorator]: Remove: archive file [/home/abi/fetcher/tmp/meliorator-0.9.19.tar.gz]
+[2023-07-20 15:46:27] INFO root fetch - processPackages [meliorator]: Start processing: dvag-mon-shared
+[2023-07-20 15:46:27] INFO root fetch - main [MainThread]: End processing [meliorator]: success
+[2023-07-20 15:46:27] INFO root fetch - processPackages [bigdl-spark2]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_spark2-2.4.0b20230718-py3-none-manylinux1_x86_64.whl.zip]
+[2023-07-20 15:46:27] INFO root fetch - processPackages [bigdl-spark2]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_spark2-2.4.0b20230720-py3-none-manylinux1_x86_64.whl.zip]
+[2023-07-20 15:46:27] INFO root fetch - main [MainThread]: End processing [bigdl-spark2]: success
+[2023-07-20 15:46:27] INFO root fetch - processPackages [assemblyline-core]: executing diffoscope
+[2023-07-20 15:46:27] INFO root fetch - processPackages [assemblyline-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline-core-4.4.1.dev98.tar.gz tmp/assemblyline-core-4.4.1.dev99.tar.gz --markdown 20230720/a/assemblyline-core/4.4.1.dev98-4.4.1.dev99/diff.md --exclude *.pyd
+[2023-07-20 15:46:27] WARNING root fetch - processPackages [dvag-mon-shared]: Skipping, unable to determine old version
+[2023-07-20 15:46:27] INFO root fetch - main [MainThread]: End processing [dvag-mon-shared] error
+[2023-07-20 15:46:27] INFO root fetch - processPackages [bigdl-friesian-spark2]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_friesian_spark2-2.4.0b20230718-py3-none-manylinux1_x86_64.whl.zip]
+[2023-07-20 15:46:27] INFO root fetch - processPackages [bigdl-friesian-spark2]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_friesian_spark2-2.4.0b20230720-py3-none-manylinux1_x86_64.whl.zip]
+[2023-07-20 15:46:27] INFO root fetch - main [MainThread]: End processing [bigdl-friesian-spark2]: success
+[2023-07-20 15:46:27] INFO root fetch - processPackages [assemblyline-service-server]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_service_server-4.4.1.dev98-py3-none-any.whl.zip]
+[2023-07-20 15:46:27] INFO root fetch - processPackages [assemblyline-service-server]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_service_server-4.4.1.dev99-py3-none-any.whl.zip]
+[2023-07-20 15:46:27] INFO root fetch - main [MainThread]: End processing [assemblyline-service-server]: success
+[2023-07-20 15:46:27] INFO root fetch - processPackages [assemblyline-ui]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_ui-4.4.1.dev98-py3-none-any.whl.zip]
+[2023-07-20 15:46:27] INFO root fetch - processPackages [assemblyline-ui]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_ui-4.4.1.dev99-py3-none-any.whl.zip]
+[2023-07-20 15:46:27] INFO root fetch - main [MainThread]: End processing [assemblyline-ui]: success
+[2023-07-20 15:46:27] INFO root fetch - processPackages [assemblyline-v4-service]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_v4_service-4.4.1.dev98-py3-none-any.whl.zip]
+[2023-07-20 15:46:27] INFO root fetch - processPackages [assemblyline-v4-service]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline_v4_service-4.4.1.dev99-py3-none-any.whl.zip]
+[2023-07-20 15:46:27] INFO root fetch - main [MainThread]: End processing [assemblyline-v4-service]: success
+[2023-07-20 15:46:28] INFO root fetch - processPackages [assemblyline]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline-4.4.1.dev98.tar.gz]
+[2023-07-20 15:46:28] INFO root fetch - processPackages [assemblyline]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline-4.4.1.dev99.tar.gz]
+[2023-07-20 15:46:28] INFO root fetch - main [MainThread]: End processing [assemblyline]: success
+[2023-07-20 15:46:28] INFO root fetch - processPackages [bigdl-chronos-spark2]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_chronos_spark2-2.4.0b20230718-py3-none-manylinux1_x86_64.whl.zip]
+[2023-07-20 15:46:28] INFO root fetch - processPackages [bigdl-chronos-spark2]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_chronos_spark2-2.4.0b20230720-py3-none-manylinux1_x86_64.whl.zip]
+[2023-07-20 15:46:28] INFO root fetch - main [MainThread]: End processing [bigdl-chronos-spark2]: success
+[2023-07-20 15:46:28] INFO root fetch - processPackages [assemblyline-core]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline-core-4.4.1.dev98.tar.gz]
+[2023-07-20 15:46:28] INFO root fetch - processPackages [assemblyline-core]: Remove: archive file [/home/abi/fetcher/tmp/assemblyline-core-4.4.1.dev99.tar.gz]
+[2023-07-20 15:46:28] INFO root fetch - main [MainThread]: End processing [assemblyline-core]: success
+[2023-07-20 15:46:32] INFO root fetch - processPackages [capellambse]: Remove: archive file [/home/abi/fetcher/tmp/capellambse-0.5.9.tar.gz]
+[2023-07-20 15:46:32] INFO root fetch - processPackages [capellambse]: Remove: archive file [/home/abi/fetcher/tmp/capellambse-0.5.9.dev5.tar.gz]
+[2023-07-20 15:46:32] INFO root fetch - main [MainThread]: End processing [capellambse]: success
+[2023-07-20 15:46:32] INFO root fetch - main [MainThread]: Store serial: [18967296]
