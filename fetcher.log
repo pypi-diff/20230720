@@ -14769,3 +14769,125 @@ AssertionError: tmp/verify4py-test-0.1.7.tar.gz does not exist
 [2023-07-20 17:34:30] INFO root fetch - processPackages [sqlite-vss]: Remove: archive file [/home/abi/fetcher/tmp/sqlite_vss-0.1.1a9-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux1_x86_64.whl.zip]
 [2023-07-20 17:34:30] INFO root fetch - main [MainThread]: End processing [sqlite-vss]: success
 [2023-07-20 17:34:30] INFO root fetch - main [MainThread]: Store serial: [18969129]
+[2023-07-20 17:39:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18969129]
+[2023-07-20 17:39:39] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-07-20 17:39:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nucliadb-contributor-assets
+[2023-07-20 17:39:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyqrack
+[2023-07-20 17:39:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Aspose.Slides
+[2023-07-20 17:39:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: deciphon-snap
+[2023-07-20 17:39:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pephubclient
+[2023-07-20 17:39:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyworld
+[2023-07-20 17:39:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: quantum-serverless
+[2023-07-20 17:39:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sdss-clu
+[2023-07-20 17:39:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cLoops2
+[2023-07-20 17:39:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: EagleEyev3
+[2023-07-20 17:39:39] INFO root fetch - processPackages [Aspose.Slides]: New version: [23.7.0] Old Version: [23.6.0]
+[2023-07-20 17:39:39] INFO root fetch - processPackages [pephubclient]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-20 17:39:39] INFO root fetch - processPackages [sdss-clu]: New version: [2.1.2] Old Version: [2.1.1]
+[2023-07-20 17:39:39] WARNING root fetch - processPackages [EagleEyev3]: Skipping, unable to determine old version
+[2023-07-20 17:39:39] INFO root fetch - processPackages [EagleEyev3]: Start processing: mkdocs-traefiklabs
+[2023-07-20 17:39:39] INFO root fetch - main [MainThread]: End processing [EagleEyev3] error
+[2023-07-20 17:39:39] INFO root fetch - processPackages [deciphon-snap]: New version: [0.4.0] Old Version: [0.3.3]
+[2023-07-20 17:39:39] INFO root fetch - processPackages [quantum-serverless]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-07-20 17:39:39] INFO root fetch - processPackages [cLoops2]: New version: [0.0.5] Old Version: [0.0.3]
+[2023-07-20 17:39:39] INFO root fetch - processPackages [mkdocs-traefiklabs]: New version: [100.0.9] Old Version: [100.0.8]
+[2023-07-20 17:39:39] INFO root fetch - processPackages [pyworld]: New version: [0.3.4] Old Version: [0.3.3]
+[2023-07-20 17:39:39] INFO root fetch - processPackages [nucliadb-contributor-assets]: New version: [1.0.0.post899] Old Version: [1.0.0.post898]
+[2023-07-20 17:39:39] INFO root fetch - processPackages [pyqrack]: New version: [1.9.6] Old Version: [1.9.5]
+[2023-07-20 17:39:39] INFO root fetch - processPackages [deciphon-snap]: Downloading https://files.pythonhosted.org/packages/e2/2d/b133766b19d6543ae289d2006b46639470b823871d31cacea674196f6c00/deciphon_snap-0.3.3.tar.gz
+[2023-07-20 17:39:39] INFO root fetch - processPackages [sdss-clu]: Downloading https://files.pythonhosted.org/packages/71/45/e8fc2b16cf1acedb083026cfd473184c70f50a2e0bea0a07c30acdf1ff74/sdss_clu-2.1.1.tar.gz
+[2023-07-20 17:39:39] INFO root fetch - processPackages [pephubclient]: Downloading https://files.pythonhosted.org/packages/63/a9/0ae1608c4359e5b620fcd9339edc479a79a99c777a0b84463da826fe6700/pephubclient-0.1.0.tar.gz
+[2023-07-20 17:39:39] INFO root fetch - processPackages [nucliadb-contributor-assets]: Downloading https://files.pythonhosted.org/packages/91/ed/b7cebe72bce1d3be38f8b157e3ab609298b71c623530c0321a90600027dc/nucliadb_contributor_assets-1.0.0.post898-py3-none-any.whl
+[2023-07-20 17:39:39] INFO root fetch - processPackages [Aspose.Slides]: Downloading https://files.pythonhosted.org/packages/9d/eb/c00c1522e14fac2f91552b8355be6237bff39eb3890ce0e4feffa06b9252/Aspose.Slides-23.6.0-py3-none-win_amd64.whl
+[2023-07-20 17:39:39] INFO root fetch - processPackages [quantum-serverless]: Downloading https://files.pythonhosted.org/packages/41/8d/0436adc985eb75f2e4a467b6dfd892b1bf18008940b3e2307b9d440e35cc/quantum_serverless-0.3.1.tar.gz
+[2023-07-20 17:39:39] INFO root fetch - processPackages [mkdocs-traefiklabs]: Downloading https://files.pythonhosted.org/packages/ad/17/8bd14a394939cc4a03eda06a40097006500d6491111f67ba0e42fd9e4b49/mkdocs-traefiklabs-100.0.8.tar.gz
+[2023-07-20 17:39:39] INFO root fetch - processPackages [pyworld]: Downloading https://files.pythonhosted.org/packages/52/9e/055068edd29ebd220b5c3129a7d324384bc05459fcde6c29a866f6ac91ba/pyworld-0.3.3.tar.gz
+[2023-07-20 17:39:39] INFO root fetch - processPackages [pyqrack]: Downloading https://files.pythonhosted.org/packages/28/29/f16cb84b71504321dc06c36eb231f91bd576824fb0425d18edef846c9e14/pyqrack-1.9.5.tar.gz
+[2023-07-20 17:39:39] INFO root fetch - processPackages [cLoops2]: Downloading https://files.pythonhosted.org/packages/c9/b8/c2b14f9b2705787110ba85d8bd6a102457d7b20215047861a706d138b1b7/cLoops2-0.0.3.tar.gz
+[2023-07-20 17:39:40] WARNING root fetch - processPackages [Aspose.Slides]: Skipping package: exceeds size limit 64712793>=10485760
+[2023-07-20 17:39:40] INFO root fetch - processPackages [Aspose.Slides]: Start processing: flowtask
+[2023-07-20 17:39:40] INFO root fetch - main [MainThread]: End processing [Aspose.Slides] error
+[2023-07-20 17:39:40] INFO root fetch - processPackages [flowtask]: New version: [4.6.0] Old Version: [4.5.9]
+[2023-07-20 17:39:40] INFO root fetch - processPackages [deciphon-snap]: Downloading https://files.pythonhosted.org/packages/d8/e9/934cbdd3414c96fe8072fd057c680c4469547277ea13161296a9e78e662b/deciphon_snap-0.4.0.tar.gz
+[2023-07-20 17:39:40] INFO root fetch - processPackages [sdss-clu]: Downloading https://files.pythonhosted.org/packages/77/39/e8f595f7ac9620bf174c831ca7896fd7ef9bca395600d6ef7f1f7e77d2cc/sdss_clu-2.1.2.tar.gz
+[2023-07-20 17:39:40] INFO root fetch - processPackages [pephubclient]: Downloading https://files.pythonhosted.org/packages/59/75/acd31ea2ee171f8a16b68f8270b8ebb9416c90e3f333a34a7b959b571ddd/pephubclient-0.1.1.tar.gz
+[2023-07-20 17:39:40] INFO root fetch - processPackages [nucliadb-contributor-assets]: Downloading https://files.pythonhosted.org/packages/39/25/fd9941f84193f8444e26f42ba4e8dec5e498dc842a93d2786dccd09acca4/nucliadb_contributor_assets-1.0.0.post899-py3-none-any.whl
+[2023-07-20 17:39:40] INFO root fetch - processPackages [pyworld]: Downloading https://files.pythonhosted.org/packages/1f/a0/94bef26b6e270cf8a0c795c906fcb6dddf6095b48f390b4729185d7c1eeb/pyworld-0.3.4.tar.gz
+[2023-07-20 17:39:40] INFO root fetch - processPackages [deciphon-snap]: executing diffoscope
+[2023-07-20 17:39:40] INFO root fetch - processPackages [deciphon-snap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deciphon_snap-0.3.3.tar.gz tmp/deciphon_snap-0.4.0.tar.gz --markdown 20230720/d/deciphon-snap/0.3.3-0.4.0/diff.md --exclude *.pyd
+[2023-07-20 17:39:40] INFO root fetch - processPackages [quantum-serverless]: Downloading https://files.pythonhosted.org/packages/af/a8/f18ad2cf21d00600c00822b9587fb73532b10a413beea294e4f64434d830/quantum_serverless-0.3.2.tar.gz
+[2023-07-20 17:39:40] INFO root fetch - processPackages [flowtask]: executing diffoscope
+[2023-07-20 17:39:40] INFO root fetch - processPackages [flowtask]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flowtask-4.5.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/flowtask-4.6.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230720/f/flowtask/4.5.9-4.6.0/diff.md --exclude *.pyd
+[2023-07-20 17:39:40] INFO root fetch - processPackages [sdss-clu]: executing diffoscope
+[2023-07-20 17:39:40] INFO root fetch - processPackages [sdss-clu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sdss_clu-2.1.1.tar.gz tmp/sdss_clu-2.1.2.tar.gz --markdown 20230720/s/sdss-clu/2.1.1-2.1.2/diff.md --exclude *.pyd
+[2023-07-20 17:39:40] INFO root fetch - processPackages [pephubclient]: executing diffoscope
+[2023-07-20 17:39:40] INFO root fetch - processPackages [pephubclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pephubclient-0.1.0.tar.gz tmp/pephubclient-0.1.1.tar.gz --markdown 20230720/p/pephubclient/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-20 17:39:40] INFO root fetch - processPackages [nucliadb-contributor-assets]: executing diffoscope
+[2023-07-20 17:39:40] INFO root fetch - processPackages [nucliadb-contributor-assets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_contributor_assets-1.0.0.post898-py3-none-any.whl.zip tmp/nucliadb_contributor_assets-1.0.0.post899-py3-none-any.whl.zip --markdown 20230720/n/nucliadb-contributor-assets/1.0.0.post898-1.0.0.post899/diff.md --exclude *.pyd
+[2023-07-20 17:39:40] INFO root fetch - processPackages [pyqrack]: Downloading https://files.pythonhosted.org/packages/34/a1/c6968107745c3dcebdaf556a582d8f63f49943f43c90a7d33e04b0397f53/pyqrack-1.9.6.tar.gz
+[2023-07-20 17:39:40] INFO root fetch - processPackages [pyworld]: executing diffoscope
+[2023-07-20 17:39:40] INFO root fetch - processPackages [pyworld]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyworld-0.3.3.tar.gz tmp/pyworld-0.3.4.tar.gz --markdown 20230720/p/pyworld/0.3.3-0.3.4/diff.md --exclude *.pyd
+[2023-07-20 17:39:40] INFO root fetch - processPackages [quantum-serverless]: executing diffoscope
+[2023-07-20 17:39:40] INFO root fetch - processPackages [quantum-serverless]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quantum_serverless-0.3.1.tar.gz tmp/quantum_serverless-0.3.2.tar.gz --markdown 20230720/q/quantum-serverless/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-07-20 17:39:40] INFO root fetch - processPackages [cLoops2]: Downloading https://files.pythonhosted.org/packages/50/d3/8f00df2c414dc97c900a162c2075c28142e640ccbb36ab9600069a913f9b/cLoops2-0.0.5-py3.6.egg
+[2023-07-20 17:39:40] INFO root fetch - processPackages [cLoops2]: executing diffoscope
+[2023-07-20 17:39:40] INFO root fetch - processPackages [cLoops2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cLoops2-0.0.3.tar.gz tmp/cLoops2-0.0.5-py3.6.egg --markdown 20230720/c/cLoops2/0.0.3-0.0.5/diff.md --exclude *.pyd
+[2023-07-20 17:39:40] INFO root fetch - processPackages [pyqrack]: executing diffoscope
+[2023-07-20 17:39:40] INFO root fetch - processPackages [pyqrack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyqrack-1.9.5.tar.gz tmp/pyqrack-1.9.6.tar.gz --markdown 20230720/p/pyqrack/1.9.5-1.9.6/diff.md --exclude *.pyd
+[2023-07-20 17:39:41] INFO root fetch - processPackages [flowtask]: Remove: archive file [/home/abi/fetcher/tmp/flowtask-4.5.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-20 17:39:41] INFO root fetch - processPackages [flowtask]: Remove: archive file [/home/abi/fetcher/tmp/flowtask-4.6.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-07-20 17:39:41] INFO root fetch - processPackages [flowtask]: Start processing: alchql
+[2023-07-20 17:39:41] INFO root fetch - main [MainThread]: End processing [flowtask]: success
+[2023-07-20 17:39:41] INFO root fetch - processPackages [mkdocs-traefiklabs]: Downloading https://files.pythonhosted.org/packages/46/f4/43b7f9fe2039cd63f400a71969aca934f97e9f96829cd31e928f2718c2cd/mkdocs-traefiklabs-100.0.9.tar.gz
+[2023-07-20 17:39:41] INFO root fetch - processPackages [alchql]: New version: [3.4.0.29095318] Old Version: [3.4.0.29095311]
+[2023-07-20 17:39:41] INFO root fetch - processPackages [deciphon-snap]: Remove: archive file [/home/abi/fetcher/tmp/deciphon_snap-0.3.3.tar.gz]
+[2023-07-20 17:39:41] INFO root fetch - processPackages [deciphon-snap]: Remove: archive file [/home/abi/fetcher/tmp/deciphon_snap-0.4.0.tar.gz]
+[2023-07-20 17:39:41] INFO root fetch - processPackages [deciphon-snap]: Start processing: alchql
+[2023-07-20 17:39:41] INFO root fetch - main [MainThread]: End processing [deciphon-snap]: success
+[2023-07-20 17:39:41] INFO root fetch - processPackages [alchql]: New version: [3.4.0.29095318] Old Version: [3.4.0.29095311]
+[2023-07-20 17:39:41] INFO root fetch - processPackages [pephubclient]: Remove: archive file [/home/abi/fetcher/tmp/pephubclient-0.1.0.tar.gz]
+[2023-07-20 17:39:41] INFO root fetch - processPackages [pephubclient]: Remove: archive file [/home/abi/fetcher/tmp/pephubclient-0.1.1.tar.gz]
+[2023-07-20 17:39:42] INFO root fetch - processPackages [pephubclient]: Start processing: coiled
+[2023-07-20 17:39:42] INFO root fetch - main [MainThread]: End processing [pephubclient]: success
+[2023-07-20 17:39:42] INFO root fetch - processPackages [alchql]: Downloading https://files.pythonhosted.org/packages/b4/c7/2b8631139a3e871a165b5de57e2d178bc2bbbd269e4e8ecb1750741871d8/alchql-3.4.0.29095311.tar.gz
+[2023-07-20 17:39:42] INFO root fetch - processPackages [alchql]: Downloading https://files.pythonhosted.org/packages/b4/c7/2b8631139a3e871a165b5de57e2d178bc2bbbd269e4e8ecb1750741871d8/alchql-3.4.0.29095311.tar.gz
+[2023-07-20 17:39:42] INFO root fetch - processPackages [coiled]: New version: [0.8.9.dev9] Old Version: [0.8.9.dev6]
+[2023-07-20 17:39:42] INFO root fetch - processPackages [sdss-clu]: Remove: archive file [/home/abi/fetcher/tmp/sdss_clu-2.1.1.tar.gz]
+[2023-07-20 17:39:42] INFO root fetch - processPackages [sdss-clu]: Remove: archive file [/home/abi/fetcher/tmp/sdss_clu-2.1.2.tar.gz]
+[2023-07-20 17:39:42] INFO root fetch - main [MainThread]: End processing [sdss-clu]: success
+[2023-07-20 17:39:42] INFO root fetch - processPackages [quantum-serverless]: Remove: archive file [/home/abi/fetcher/tmp/quantum_serverless-0.3.1.tar.gz]
+[2023-07-20 17:39:42] INFO root fetch - processPackages [quantum-serverless]: Remove: archive file [/home/abi/fetcher/tmp/quantum_serverless-0.3.2.tar.gz]
+[2023-07-20 17:39:42] INFO root fetch - main [MainThread]: End processing [quantum-serverless]: success
+[2023-07-20 17:39:42] INFO root fetch - processPackages [cLoops2]: Remove: archive file [/home/abi/fetcher/tmp/cLoops2-0.0.3.tar.gz]
+[2023-07-20 17:39:42] INFO root fetch - processPackages [cLoops2]: Remove: archive file [/home/abi/fetcher/tmp/cLoops2-0.0.5-py3.6.egg]
+[2023-07-20 17:39:42] INFO root fetch - main [MainThread]: End processing [cLoops2]: success
+[2023-07-20 17:39:42] INFO root fetch - processPackages [nucliadb-contributor-assets]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_contributor_assets-1.0.0.post898-py3-none-any.whl.zip]
+[2023-07-20 17:39:42] INFO root fetch - processPackages [nucliadb-contributor-assets]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_contributor_assets-1.0.0.post899-py3-none-any.whl.zip]
+[2023-07-20 17:39:42] INFO root fetch - main [MainThread]: End processing [nucliadb-contributor-assets]: success
+[2023-07-20 17:39:42] INFO root fetch - processPackages [pyqrack]: Remove: archive file [/home/abi/fetcher/tmp/pyqrack-1.9.5.tar.gz]
+[2023-07-20 17:39:42] INFO root fetch - processPackages [pyqrack]: Remove: archive file [/home/abi/fetcher/tmp/pyqrack-1.9.6.tar.gz]
+[2023-07-20 17:39:42] INFO root fetch - main [MainThread]: End processing [pyqrack]: success
+[2023-07-20 17:39:42] INFO root fetch - processPackages [alchql]: Downloading https://files.pythonhosted.org/packages/69/e5/c95c1f362285fc8c265490511c5d5c02775d4c8f2901c38d5a2ce556096a/alchql-3.4.0.29095318-py2.py3-none-any.whl
+[2023-07-20 17:39:42] INFO root fetch - processPackages [alchql]: Downloading https://files.pythonhosted.org/packages/69/e5/c95c1f362285fc8c265490511c5d5c02775d4c8f2901c38d5a2ce556096a/alchql-3.4.0.29095318-py2.py3-none-any.whl
+[2023-07-20 17:39:42] INFO root fetch - processPackages [coiled]: executing diffoscope
+[2023-07-20 17:39:42] INFO root fetch - processPackages [coiled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coiled-0.8.9.dev6.tar.gz tmp/coiled-0.8.9.dev9.tar.gz --markdown 20230720/c/coiled/0.8.9.dev6-0.8.9.dev9/diff.md --exclude *.pyd
+[2023-07-20 17:39:42] INFO root fetch - processPackages [alchql]: executing diffoscope
+[2023-07-20 17:39:42] INFO root fetch - processPackages [alchql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alchql-3.4.0.29095311.tar.gz tmp/alchql-3.4.0.29095318-py2.py3-none-any.whl.zip --markdown 20230720/a/alchql/3.4.0.29095311-3.4.0.29095318/diff.md --exclude *.pyd
+[2023-07-20 17:39:42] INFO root fetch - processPackages [alchql]: executing diffoscope
+[2023-07-20 17:39:42] INFO root fetch - processPackages [alchql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alchql-3.4.0.29095311.tar.gz tmp/alchql-3.4.0.29095318-py2.py3-none-any.whl.zip --markdown 20230720/a/alchql/3.4.0.29095311-3.4.0.29095318/diff.md --exclude *.pyd
+[2023-07-20 17:39:42] INFO root fetch - processPackages [pyworld]: Remove: archive file [/home/abi/fetcher/tmp/pyworld-0.3.3.tar.gz]
+[2023-07-20 17:39:42] INFO root fetch - processPackages [pyworld]: Remove: archive file [/home/abi/fetcher/tmp/pyworld-0.3.4.tar.gz]
+[2023-07-20 17:39:42] INFO root fetch - main [MainThread]: End processing [pyworld]: success
+[2023-07-20 17:39:43] INFO root fetch - processPackages [mkdocs-traefiklabs]: executing diffoscope
+[2023-07-20 17:39:43] INFO root fetch - processPackages [mkdocs-traefiklabs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkdocs-traefiklabs-100.0.8.tar.gz tmp/mkdocs-traefiklabs-100.0.9.tar.gz --markdown 20230720/m/mkdocs-traefiklabs/100.0.8-100.0.9/diff.md --exclude *.pyd
+[2023-07-20 17:39:43] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-0.8.9.dev6.tar.gz]
+[2023-07-20 17:39:43] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-0.8.9.dev9.tar.gz]
+[2023-07-20 17:39:43] INFO root fetch - main [MainThread]: End processing [coiled]: success
+[2023-07-20 17:39:43] INFO root fetch - processPackages [alchql]: Remove: archive file [/home/abi/fetcher/tmp/alchql-3.4.0.29095311.tar.gz]
+[2023-07-20 17:39:43] INFO root fetch - processPackages [alchql]: Remove: archive file [/home/abi/fetcher/tmp/alchql-3.4.0.29095318-py2.py3-none-any.whl.zip]
+[2023-07-20 17:39:43] INFO root fetch - main [MainThread]: End processing [alchql]: success
+[2023-07-20 17:39:43] INFO root fetch - main [MainThread]: End processing [alchql]: success
+[2023-07-20 17:41:35] INFO root fetch - processPackages [mkdocs-traefiklabs]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs-traefiklabs-100.0.8.tar.gz]
+[2023-07-20 17:41:35] INFO root fetch - processPackages [mkdocs-traefiklabs]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs-traefiklabs-100.0.9.tar.gz]
+[2023-07-20 17:41:35] INFO root fetch - main [MainThread]: End processing [mkdocs-traefiklabs]: success
+[2023-07-20 17:41:35] INFO root fetch - main [MainThread]: Store serial: [18969190]
