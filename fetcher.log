@@ -16732,3 +16732,96 @@ AssertionError: tmp/verify4py-test-0.1.7.tar.gz does not exist
 [2023-07-20 18:52:01] INFO root fetch - processPackages [codeforlife-portal]: Remove: archive file [/home/abi/fetcher/tmp/codeforlife-portal-6.9.0.tar.gz]
 [2023-07-20 18:52:01] INFO root fetch - main [MainThread]: End processing [codeforlife-portal]: success
 [2023-07-20 18:52:01] INFO root fetch - main [MainThread]: Store serial: [18969878]
+[2023-07-20 18:57:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18969878]
+[2023-07-20 18:57:11] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-07-20 18:57:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-better-auth-oidc
+[2023-07-20 18:57:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: skale-contracts
+[2023-07-20 18:57:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ckanext-check-link
+[2023-07-20 18:57:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: neon-utils
+[2023-07-20 18:57:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: seaplane
+[2023-07-20 18:57:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: remote-log-analysis
+[2023-07-20 18:57:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: easyfrenchtax
+[2023-07-20 18:57:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: xformers
+[2023-07-20 18:57:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: reviser
+[2023-07-20 18:57:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: sequana-nanomerge
+[2023-07-20 18:57:11] INFO root fetch - processPackages [skale-contracts]: New version: [0.0.1.dev978114706300915430] Old Version: [0.0.1.dev9714958449586304]
+[2023-07-20 18:57:11] INFO root fetch - processPackages [remote-log-analysis]: New version: [0.1.2] Old Version: [0.1.0]
+[2023-07-20 18:57:11] INFO root fetch - processPackages [seaplane]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-20 18:57:12] INFO root fetch - processPackages [easyfrenchtax]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-07-20 18:57:12] INFO root fetch - processPackages [ckanext-check-link]: New version: [0.1.2] Old Version: [0.1.1.post1]
+[2023-07-20 18:57:12] INFO root fetch - processPackages [xformers]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-20 18:57:12] INFO root fetch - processPackages [django-better-auth-oidc]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-20 18:57:12] INFO root fetch - processPackages [neon-utils]: New version: [1.6.1a4] Old Version: [1.6.1a3]
+[2023-07-20 18:57:12] INFO root fetch - processPackages [reviser]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-07-20 18:57:12] INFO root fetch - processPackages [sequana-nanomerge]: New version: [1.4.0] Old Version: [1.3.0]
+[2023-07-20 18:57:12] INFO root fetch - processPackages [skale-contracts]: Downloading https://files.pythonhosted.org/packages/c8/b9/d04f09e9314c768a9e7566cbf97ac25f4abfcf0954a27f6b25c1dafa1afe/skale-contracts-0.0.1.dev9714958449586304.tar.gz
+[2023-07-20 18:57:12] INFO root fetch - processPackages [neon-utils]: Downloading https://files.pythonhosted.org/packages/df/0f/237a29147d32bc5b3adaae7e59cf4417ae44c25182c52fa087d1cefc39c3/neon-utils-1.6.1a3.tar.gz
+[2023-07-20 18:57:12] INFO root fetch - processPackages [remote-log-analysis]: Downloading https://files.pythonhosted.org/packages/6c/75/91b1aa6220c78f37bdcb59867e3db210535c90dedbcf05a970886eca8d7f/remote_log_analysis-0.1.0.tar.gz
+[2023-07-20 18:57:12] INFO root fetch - processPackages [django-better-auth-oidc]: Downloading https://files.pythonhosted.org/packages/9c/30/c38e93a6e4e9ca5a09a578be19e0e0961c8fac785ada6298c4fd0cbec49b/django_better_auth_oidc-0.1.0-py2.py3-none-any.whl
+[2023-07-20 18:57:12] INFO root fetch - processPackages [seaplane]: Downloading https://files.pythonhosted.org/packages/e7/61/c864ce95e15abf9ad2a76809ae1db8bd46564cb3bfcf2cf7b76a1221faf8/seaplane-0.3.8.tar.gz
+[2023-07-20 18:57:12] INFO root fetch - processPackages [easyfrenchtax]: Downloading https://files.pythonhosted.org/packages/e5/a8/26f18ad9bff18bc61f080b9526b03c40dfa9b3801fe2022ff2abd1826d5b/easyfrenchtax-0.0.7.tar.gz
+[2023-07-20 18:57:12] INFO root fetch - processPackages [ckanext-check-link]: Downloading https://files.pythonhosted.org/packages/18/fd/858ff1a67f9a8b73193ccd53ee033228ec0e34edee95956698175b8cacdf/ckanext-check-link-0.1.1.post1.tar.gz
+[2023-07-20 18:57:12] INFO root fetch - processPackages [xformers]: Downloading https://files.pythonhosted.org/packages/81/d6/709a1f765f8ecb6217ecd010e71f23c871a6cacdf837e1186c057eb0372f/xformers-0.0.8.tar.gz
+[2023-07-20 18:57:12] INFO root fetch - processPackages [sequana-nanomerge]: Downloading https://files.pythonhosted.org/packages/92/55/5ab83ab8495a493203c1eda08f33d81eb18c9aa3f736831a7f4c5bb436b8/sequana_nanomerge-1.3.0.tar.gz
+[2023-07-20 18:57:12] INFO root fetch - processPackages [skale-contracts]: Downloading https://files.pythonhosted.org/packages/66/0d/dc0adfaa5fdd6130f89cd1424b654098ff03a31b3b7faf85ee62a0a14322/skale-contracts-0.0.1.dev978114706300915430.tar.gz
+[2023-07-20 18:57:12] INFO root fetch - processPackages [reviser]: Downloading https://files.pythonhosted.org/packages/ea/75/babd3c910bffaad9d01e4f5a75a173267426bf5549a7a619561dd73d905b/reviser-0.3.0.tar.gz
+[2023-07-20 18:57:12] INFO root fetch - processPackages [neon-utils]: Downloading https://files.pythonhosted.org/packages/d1/2c/418f3697345b929489e4a63c27f528e8fa188c0ba07b367f70be662431da/neon-utils-1.6.1a4.tar.gz
+[2023-07-20 18:57:12] INFO root fetch - processPackages [skale-contracts]: executing diffoscope
+[2023-07-20 18:57:12] INFO root fetch - processPackages [skale-contracts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skale-contracts-0.0.1.dev9714958449586304.tar.gz tmp/skale-contracts-0.0.1.dev978114706300915430.tar.gz --markdown 20230720/s/skale-contracts/0.0.1.dev9714958449586304-0.0.1.dev978114706300915430/diff.md --exclude *.pyd
+[2023-07-20 18:57:12] INFO root fetch - processPackages [remote-log-analysis]: Downloading https://files.pythonhosted.org/packages/cf/bb/12fb8c3f42ee4ab6c6656b82fd7e12cefc28e35080db087cc99b676c6f99/remote_log_analysis-0.1.2.tar.gz
+[2023-07-20 18:57:12] INFO root fetch - processPackages [django-better-auth-oidc]: Downloading https://files.pythonhosted.org/packages/ec/7d/f12218c4af4cd4a0476defcefd12ca4f1341563e7a2ba3c369a5ec72ad82/django_better_auth_oidc-0.1.1-py2.py3-none-any.whl
+[2023-07-20 18:57:12] INFO root fetch - processPackages [easyfrenchtax]: Downloading https://files.pythonhosted.org/packages/40/64/494520ba0a77079ddb5e43e347f68fadbd21470b51f3c2330019ba219d8c/easyfrenchtax-0.0.8.tar.gz
+[2023-07-20 18:57:12] INFO root fetch - processPackages [ckanext-check-link]: Downloading https://files.pythonhosted.org/packages/69/e6/4abd23b71aa41d676193ff7790443c42393bd23331a0249daed687d00f0a/ckanext-check-link-0.1.2.tar.gz
+[2023-07-20 18:57:12] INFO root fetch - processPackages [neon-utils]: executing diffoscope
+[2023-07-20 18:57:12] INFO root fetch - processPackages [neon-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neon-utils-1.6.1a3.tar.gz tmp/neon-utils-1.6.1a4.tar.gz --markdown 20230720/n/neon-utils/1.6.1a3-1.6.1a4/diff.md --exclude *.pyd
+[2023-07-20 18:57:13] INFO root fetch - processPackages [xformers]: Downloading https://files.pythonhosted.org/packages/8f/c2/9cfed3bb83e46be252b4a2e9a75ebb4c8a0f9df6cbb228b3646048a7d3c4/xformers-0.0.9.tar.gz
+[2023-07-20 18:57:13] INFO root fetch - processPackages [reviser]: Downloading https://files.pythonhosted.org/packages/2d/a0/98f58bdedadaf47b8defcf099882fe83e46c9073ee6958e1725041ab2872/reviser-0.3.1.tar.gz
+[2023-07-20 18:57:13] INFO root fetch - processPackages [remote-log-analysis]: executing diffoscope
+[2023-07-20 18:57:13] INFO root fetch - processPackages [remote-log-analysis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/remote_log_analysis-0.1.0.tar.gz tmp/remote_log_analysis-0.1.2.tar.gz --markdown 20230720/r/remote-log-analysis/0.1.0-0.1.2/diff.md --exclude *.pyd
+[2023-07-20 18:57:13] INFO root fetch - processPackages [django-better-auth-oidc]: executing diffoscope
+[2023-07-20 18:57:13] INFO root fetch - processPackages [django-better-auth-oidc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_better_auth_oidc-0.1.0-py2.py3-none-any.whl.zip tmp/django_better_auth_oidc-0.1.1-py2.py3-none-any.whl.zip --markdown 20230720/d/django-better-auth-oidc/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-20 18:57:13] INFO root fetch - processPackages [sequana-nanomerge]: Downloading https://files.pythonhosted.org/packages/8a/e6/39626555ba60c791f752df9a678fd24bb2d70cc801728cf8edac65c669b7/sequana_nanomerge-1.4.0.tar.gz
+[2023-07-20 18:57:13] INFO root fetch - processPackages [easyfrenchtax]: executing diffoscope
+[2023-07-20 18:57:13] INFO root fetch - processPackages [easyfrenchtax]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easyfrenchtax-0.0.7.tar.gz tmp/easyfrenchtax-0.0.8.tar.gz --markdown 20230720/e/easyfrenchtax/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-07-20 18:57:13] INFO root fetch - processPackages [ckanext-check-link]: executing diffoscope
+[2023-07-20 18:57:13] INFO root fetch - processPackages [ckanext-check-link]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ckanext-check-link-0.1.1.post1.tar.gz tmp/ckanext-check-link-0.1.2.tar.gz --markdown 20230720/c/ckanext-check-link/0.1.1.post1-0.1.2/diff.md --exclude *.pyd
+[2023-07-20 18:57:13] INFO root fetch - processPackages [reviser]: executing diffoscope
+[2023-07-20 18:57:13] INFO root fetch - processPackages [reviser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reviser-0.3.0.tar.gz tmp/reviser-0.3.1.tar.gz --markdown 20230720/r/reviser/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-07-20 18:57:13] INFO root fetch - processPackages [xformers]: executing diffoscope
+[2023-07-20 18:57:13] INFO root fetch - processPackages [xformers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xformers-0.0.8.tar.gz tmp/xformers-0.0.9.tar.gz --markdown 20230720/x/xformers/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-20 18:57:13] INFO root fetch - processPackages [sequana-nanomerge]: executing diffoscope
+[2023-07-20 18:57:13] INFO root fetch - processPackages [sequana-nanomerge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sequana_nanomerge-1.3.0.tar.gz tmp/sequana_nanomerge-1.4.0.tar.gz --markdown 20230720/s/sequana-nanomerge/1.3.0-1.4.0/diff.md --exclude *.pyd
+[2023-07-20 18:57:13] INFO root fetch - processPackages [seaplane]: Downloading https://files.pythonhosted.org/packages/f7/af/2f29681bd0dce058b9d26f46481537dde0fcdbe0e5d6d80d9e4622dc52b8/seaplane-0.3.9.tar.gz
+[2023-07-20 18:57:13] INFO root fetch - processPackages [seaplane]: executing diffoscope
+[2023-07-20 18:57:13] INFO root fetch - processPackages [seaplane]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seaplane-0.3.8.tar.gz tmp/seaplane-0.3.9.tar.gz --markdown 20230720/s/seaplane/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-20 18:57:13] INFO root fetch - processPackages [skale-contracts]: Remove: archive file [/home/abi/fetcher/tmp/skale-contracts-0.0.1.dev9714958449586304.tar.gz]
+[2023-07-20 18:57:13] INFO root fetch - processPackages [skale-contracts]: Remove: archive file [/home/abi/fetcher/tmp/skale-contracts-0.0.1.dev978114706300915430.tar.gz]
+[2023-07-20 18:57:13] INFO root fetch - main [MainThread]: End processing [skale-contracts]: success
+[2023-07-20 18:57:14] INFO root fetch - processPackages [django-better-auth-oidc]: Remove: archive file [/home/abi/fetcher/tmp/django_better_auth_oidc-0.1.0-py2.py3-none-any.whl.zip]
+[2023-07-20 18:57:14] INFO root fetch - processPackages [django-better-auth-oidc]: Remove: archive file [/home/abi/fetcher/tmp/django_better_auth_oidc-0.1.1-py2.py3-none-any.whl.zip]
+[2023-07-20 18:57:14] INFO root fetch - main [MainThread]: End processing [django-better-auth-oidc]: success
+[2023-07-20 18:57:14] INFO root fetch - processPackages [remote-log-analysis]: Remove: archive file [/home/abi/fetcher/tmp/remote_log_analysis-0.1.0.tar.gz]
+[2023-07-20 18:57:14] INFO root fetch - processPackages [remote-log-analysis]: Remove: archive file [/home/abi/fetcher/tmp/remote_log_analysis-0.1.2.tar.gz]
+[2023-07-20 18:57:14] INFO root fetch - main [MainThread]: End processing [remote-log-analysis]: success
+[2023-07-20 18:57:14] INFO root fetch - processPackages [sequana-nanomerge]: Remove: archive file [/home/abi/fetcher/tmp/sequana_nanomerge-1.3.0.tar.gz]
+[2023-07-20 18:57:14] INFO root fetch - processPackages [sequana-nanomerge]: Remove: archive file [/home/abi/fetcher/tmp/sequana_nanomerge-1.4.0.tar.gz]
+[2023-07-20 18:57:14] INFO root fetch - main [MainThread]: End processing [sequana-nanomerge]: success
+[2023-07-20 18:57:14] INFO root fetch - processPackages [ckanext-check-link]: Remove: archive file [/home/abi/fetcher/tmp/ckanext-check-link-0.1.1.post1.tar.gz]
+[2023-07-20 18:57:14] INFO root fetch - processPackages [ckanext-check-link]: Remove: archive file [/home/abi/fetcher/tmp/ckanext-check-link-0.1.2.tar.gz]
+[2023-07-20 18:57:14] INFO root fetch - main [MainThread]: End processing [ckanext-check-link]: success
+[2023-07-20 18:57:14] INFO root fetch - processPackages [neon-utils]: Remove: archive file [/home/abi/fetcher/tmp/neon-utils-1.6.1a3.tar.gz]
+[2023-07-20 18:57:14] INFO root fetch - processPackages [neon-utils]: Remove: archive file [/home/abi/fetcher/tmp/neon-utils-1.6.1a4.tar.gz]
+[2023-07-20 18:57:14] INFO root fetch - main [MainThread]: End processing [neon-utils]: success
+[2023-07-20 18:57:14] INFO root fetch - processPackages [reviser]: Remove: archive file [/home/abi/fetcher/tmp/reviser-0.3.0.tar.gz]
+[2023-07-20 18:57:14] INFO root fetch - processPackages [reviser]: Remove: archive file [/home/abi/fetcher/tmp/reviser-0.3.1.tar.gz]
+[2023-07-20 18:57:14] INFO root fetch - main [MainThread]: End processing [reviser]: success
+[2023-07-20 18:57:14] INFO root fetch - processPackages [easyfrenchtax]: Remove: archive file [/home/abi/fetcher/tmp/easyfrenchtax-0.0.7.tar.gz]
+[2023-07-20 18:57:14] INFO root fetch - processPackages [easyfrenchtax]: Remove: archive file [/home/abi/fetcher/tmp/easyfrenchtax-0.0.8.tar.gz]
+[2023-07-20 18:57:14] INFO root fetch - main [MainThread]: End processing [easyfrenchtax]: success
+[2023-07-20 18:57:15] INFO root fetch - processPackages [xformers]: Remove: archive file [/home/abi/fetcher/tmp/xformers-0.0.8.tar.gz]
+[2023-07-20 18:57:15] INFO root fetch - processPackages [xformers]: Remove: archive file [/home/abi/fetcher/tmp/xformers-0.0.9.tar.gz]
+[2023-07-20 18:57:15] INFO root fetch - main [MainThread]: End processing [xformers]: success
+[2023-07-20 18:57:15] INFO root fetch - processPackages [seaplane]: Remove: archive file [/home/abi/fetcher/tmp/seaplane-0.3.8.tar.gz]
+[2023-07-20 18:57:15] INFO root fetch - processPackages [seaplane]: Remove: archive file [/home/abi/fetcher/tmp/seaplane-0.3.9.tar.gz]
+[2023-07-20 18:57:15] INFO root fetch - main [MainThread]: End processing [seaplane]: success
+[2023-07-20 18:57:15] INFO root fetch - main [MainThread]: Store serial: [18969905]
