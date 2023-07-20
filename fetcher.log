@@ -23493,3 +23493,273 @@ AssertionError: tmp/threemystic_cloud_data_client-0.1.17.tar.gz does not exist
 [2023-07-20 22:42:37] INFO root fetch - processPackages [dstk-x250]: Remove: archive file [/home/abi/fetcher/tmp/dstk_x250-3.8.9.tar.gz]
 [2023-07-20 22:42:37] INFO root fetch - main [MainThread]: End processing [dstk-x250]: success
 [2023-07-20 22:42:37] INFO root fetch - main [MainThread]: Store serial: [18972706]
+[2023-07-20 22:47:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18972706]
+[2023-07-20 22:47:46] INFO root fetch - main [MainThread]: Found 33 changed packages
+[2023-07-20 22:47:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-vendor-promo
+[2023-07-20 22:47:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aiomisc
+[2023-07-20 22:47:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: formic-opcua
+[2023-07-20 22:47:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: indico-plugin-citadel
+[2023-07-20 22:47:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: indico-plugin-cloud-captchas
+[2023-07-20 22:47:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: indico-plugin-livesync
+[2023-07-20 22:47:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: indico-plugin-livesync-debug
+[2023-07-20 22:47:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: indico-plugin-owncloud
+[2023-07-20 22:47:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: indico-plugin-payment-manual
+[2023-07-20 22:47:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: solarwinds-apm
+[2023-07-20 22:47:47] INFO root fetch - processPackages [django-vendor-promo]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-20 22:47:47] INFO root fetch - processPackages [formic-opcua]: New version: [1.5.3] Old Version: [1.5.2]
+[2023-07-20 22:47:47] INFO root fetch - processPackages [indico-plugin-livesync-debug]: New version: [3.2] Old Version: [3.0]
+[2023-07-20 22:47:47] INFO root fetch - processPackages [indico-plugin-livesync]: New version: [3.2.1] Old Version: [3.2]
+[2023-07-20 22:47:47] INFO root fetch - processPackages [solarwinds-apm]: New version: [0.9.0] Old Version: [0.8.3]
+[2023-07-20 22:47:47] INFO root fetch - processPackages [indico-plugin-cloud-captchas]: New version: [3.2.1] Old Version: [3.2]
+[2023-07-20 22:47:47] INFO root fetch - processPackages [aiomisc]: New version: [9.8.4] Old Version: [9.8.1]
+[2023-07-20 22:47:47] INFO root fetch - processPackages [indico-plugin-citadel]: New version: [3.2.2] Old Version: [3.2.1]
+[2023-07-20 22:47:47] INFO root fetch - processPackages [indico-plugin-owncloud]: New version: [3.2.2] Old Version: [3.2.1]
+[2023-07-20 22:47:47] INFO root fetch - processPackages [indico-plugin-payment-manual]: New version: [3.2.1] Old Version: [3.2]
+[2023-07-20 22:47:47] INFO root fetch - processPackages [indico-plugin-cloud-captchas]: Downloading https://files.pythonhosted.org/packages/88/30/3c9e68a8294d514aa3d7e65d13b0760aab6da8c5d42471c11089f70911a5/indico_plugin_cloud_captchas-3.2-py3-none-any.whl
+[2023-07-20 22:47:47] INFO root fetch - processPackages [aiomisc]: Downloading https://files.pythonhosted.org/packages/c2/5e/0147260c1e4e86e57f3580d773391c45e0148592e1be737a164b6956c434/aiomisc-9.8.1.tar.gz
+[2023-07-20 22:47:47] INFO root fetch - processPackages [django-vendor-promo]: Downloading https://files.pythonhosted.org/packages/ea/7b/fd09131f8751b4d4661fd97169dd6876c78bb5f40c6e1f114af3c0a4ac97/django-vendor-promo-0.2.8.tar.gz
+[2023-07-20 22:47:47] INFO root fetch - processPackages [formic-opcua]: Downloading https://files.pythonhosted.org/packages/bc/3e/b414e03300892d454f87bf367e7237e567440a7161d965821ef7001fc2fd/formic_opcua-1.5.2.tar.gz
+[2023-07-20 22:47:47] INFO root fetch - processPackages [indico-plugin-payment-manual]: Downloading https://files.pythonhosted.org/packages/e8/5a/b95aede66b61fe73ada04465f411da17ec7d9a5899a5d299e5d086c581c5/indico_plugin_payment_manual-3.2-py3-none-any.whl
+[2023-07-20 22:47:47] INFO root fetch - processPackages [indico-plugin-livesync]: Downloading https://files.pythonhosted.org/packages/df/e0/af043e25ef1909d9f16c311884db9ceb62bd34b87c00563739feeed5bee3/indico_plugin_livesync-3.2-py3-none-any.whl
+[2023-07-20 22:47:47] INFO root fetch - processPackages [indico-plugin-livesync-debug]: Downloading https://files.pythonhosted.org/packages/a1/a4/7241f8658bf36cbd3ae4002c172d62d66df367aa56826c52872f6ce66f75/indico_plugin_livesync_debug-3.0-py3-none-any.whl
+[2023-07-20 22:47:47] INFO root fetch - processPackages [indico-plugin-citadel]: Downloading https://files.pythonhosted.org/packages/a8/2c/404d90aa709723c3c4ab7fdf8d1e6a5318c7015b9792f5d822ca063c3dba/indico_plugin_citadel-3.2.1-py3-none-any.whl
+[2023-07-20 22:47:47] INFO root fetch - processPackages [indico-plugin-owncloud]: Downloading https://files.pythonhosted.org/packages/8e/43/630bc22e14864ec48a6866ef34b04fb76ac43c029a3682a41d1e2cc25d03/indico_plugin_owncloud-3.2.1-py3-none-any.whl
+[2023-07-20 22:47:47] INFO root fetch - processPackages [solarwinds-apm]: Downloading https://files.pythonhosted.org/packages/8b/f2/b9bd933a9c71f95af81d359b5e2dcbdb8a76b5539b69ac061eead49e67cd/solarwinds_apm-0.8.3.tar.gz
+[2023-07-20 22:47:47] WARNING root fetch - processPackages [solarwinds-apm]: Skipping package: exceeds size limit 25160000>=10485760
+[2023-07-20 22:47:47] INFO root fetch - processPackages [solarwinds-apm]: Start processing: duck-test-pkg
+[2023-07-20 22:47:47] INFO root fetch - main [MainThread]: End processing [solarwinds-apm] error
+[2023-07-20 22:47:47] INFO root fetch - processPackages [aiomisc]: Downloading https://files.pythonhosted.org/packages/93/ba/bd5f5955a4619763392f62584654683f73fc061715a99f405c324f3b51f9/aiomisc-9.8.4.tar.gz
+[2023-07-20 22:47:47] INFO root fetch - processPackages [indico-plugin-cloud-captchas]: Downloading https://files.pythonhosted.org/packages/03/e7/0827dc6849fa8948f042ce19e656dd9fcf70b012d2d0151bb233361b8b69/indico_plugin_cloud_captchas-3.2.1-py3-none-any.whl
+[2023-07-20 22:47:47] ERROR root fetch - processPackages [duck-test-pkg]: Unable to get metadata: No such project 'duck-test-pkg'
+[2023-07-20 22:47:47] INFO root fetch - processPackages [duck-test-pkg]: Start processing: indico-plugin-payment-paypal
+[2023-07-20 22:47:47] INFO root fetch - main [MainThread]: End processing [duck-test-pkg] error
+[2023-07-20 22:47:47] INFO root fetch - processPackages [formic-opcua]: Downloading https://files.pythonhosted.org/packages/17/85/a23ac57160a67b308f9fddc0de8a60dc7624ca5645a38b5239653630ac81/formic_opcua-1.5.3.tar.gz
+[2023-07-20 22:47:47] INFO root fetch - processPackages [indico-plugin-payment-paypal]: New version: [3.2.1] Old Version: [3.2]
+[2023-07-20 22:47:47] INFO root fetch - processPackages [indico-plugin-livesync-debug]: Downloading https://files.pythonhosted.org/packages/53/66/30d2c7fbedde84ad41f6e4bde1987592276b5c7394db2cb5c3c813d24394/indico_plugin_livesync_debug-3.2-py3-none-any.whl
+[2023-07-20 22:47:47] INFO root fetch - processPackages [django-vendor-promo]: Downloading https://files.pythonhosted.org/packages/fb/5f/55d6feb741df0ca3f8eb2239a45644f8649e270ea43e697eb6a24ba8f5da/django-vendor-promo-0.2.9.tar.gz
+[2023-07-20 22:47:47] INFO root fetch - processPackages [aiomisc]: executing diffoscope
+[2023-07-20 22:47:47] INFO root fetch - processPackages [aiomisc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiomisc-9.8.1.tar.gz tmp/aiomisc-9.8.4.tar.gz --markdown 20230720/a/aiomisc/9.8.1-9.8.4/diff.md --exclude *.pyd
+[2023-07-20 22:47:48] INFO root fetch - processPackages [indico-plugin-citadel]: Downloading https://files.pythonhosted.org/packages/59/99/66b1b5920e6ef8eef4cd0cf2c06aa162d0f5e664c8bca80958b252bda3fc/indico_plugin_citadel-3.2.2-py3-none-any.whl
+[2023-07-20 22:47:48] INFO root fetch - processPackages [indico-plugin-payment-manual]: Downloading https://files.pythonhosted.org/packages/a4/d2/09fd09073e73b3fd1adbed65c39508d62847237a200be8ff2dd5dc5a1c60/indico_plugin_payment_manual-3.2.1-py3-none-any.whl
+[2023-07-20 22:47:48] INFO root fetch - processPackages [indico-plugin-owncloud]: Downloading https://files.pythonhosted.org/packages/a0/45/6530148fa0c13cf76f4d56a1cb79380c720dc4f6f40c0074188a3c9af963/indico_plugin_owncloud-3.2.2-py3-none-any.whl
+[2023-07-20 22:47:48] INFO root fetch - processPackages [indico-plugin-livesync]: Downloading https://files.pythonhosted.org/packages/64/4f/dcddef732988139859e9874b0deb7469fc94b8094a1fd061f956279c6d3e/indico_plugin_livesync-3.2.1-py3-none-any.whl
+[2023-07-20 22:47:48] INFO root fetch - processPackages [formic-opcua]: executing diffoscope
+[2023-07-20 22:47:48] INFO root fetch - processPackages [formic-opcua]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/formic_opcua-1.5.2.tar.gz tmp/formic_opcua-1.5.3.tar.gz --markdown 20230720/f/formic-opcua/1.5.2-1.5.3/diff.md --exclude *.pyd
+[2023-07-20 22:47:48] INFO root fetch - processPackages [indico-plugin-cloud-captchas]: executing diffoscope
+[2023-07-20 22:47:48] INFO root fetch - processPackages [indico-plugin-cloud-captchas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/indico_plugin_cloud_captchas-3.2-py3-none-any.whl.zip tmp/indico_plugin_cloud_captchas-3.2.1-py3-none-any.whl.zip --markdown 20230720/i/indico-plugin-cloud-captchas/3.2-3.2.1/diff.md --exclude *.pyd
+[2023-07-20 22:47:48] INFO root fetch - processPackages [indico-plugin-livesync-debug]: executing diffoscope
+[2023-07-20 22:47:48] INFO root fetch - processPackages [indico-plugin-livesync-debug]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/indico_plugin_livesync_debug-3.0-py3-none-any.whl.zip tmp/indico_plugin_livesync_debug-3.2-py3-none-any.whl.zip --markdown 20230720/i/indico-plugin-livesync-debug/3.0-3.2/diff.md --exclude *.pyd
+[2023-07-20 22:47:48] INFO root fetch - processPackages [indico-plugin-payment-paypal]: Downloading https://files.pythonhosted.org/packages/dc/df/6c9acfd6f4c1847e48f13856dea209366c0aff6223874333d665f6bfd8b4/indico_plugin_payment_paypal-3.2-py3-none-any.whl
+[2023-07-20 22:47:48] INFO root fetch - processPackages [indico-plugin-payment-manual]: executing diffoscope
+[2023-07-20 22:47:48] INFO root fetch - processPackages [indico-plugin-payment-manual]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/indico_plugin_payment_manual-3.2-py3-none-any.whl.zip tmp/indico_plugin_payment_manual-3.2.1-py3-none-any.whl.zip --markdown 20230720/i/indico-plugin-payment-manual/3.2-3.2.1/diff.md --exclude *.pyd
+[2023-07-20 22:47:48] INFO root fetch - processPackages [indico-plugin-owncloud]: executing diffoscope
+[2023-07-20 22:47:48] INFO root fetch - processPackages [indico-plugin-owncloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/indico_plugin_owncloud-3.2.1-py3-none-any.whl.zip tmp/indico_plugin_owncloud-3.2.2-py3-none-any.whl.zip --markdown 20230720/i/indico-plugin-owncloud/3.2.1-3.2.2/diff.md --exclude *.pyd
+[2023-07-20 22:47:48] INFO root fetch - processPackages [django-vendor-promo]: executing diffoscope
+[2023-07-20 22:47:48] INFO root fetch - processPackages [django-vendor-promo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-vendor-promo-0.2.8.tar.gz tmp/django-vendor-promo-0.2.9.tar.gz --markdown 20230720/d/django-vendor-promo/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-20 22:47:48] INFO root fetch - processPackages [indico-plugin-livesync]: executing diffoscope
+[2023-07-20 22:47:48] INFO root fetch - processPackages [indico-plugin-livesync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/indico_plugin_livesync-3.2-py3-none-any.whl.zip tmp/indico_plugin_livesync-3.2.1-py3-none-any.whl.zip --markdown 20230720/i/indico-plugin-livesync/3.2-3.2.1/diff.md --exclude *.pyd
+[2023-07-20 22:47:48] INFO root fetch - processPackages [indico-plugin-citadel]: executing diffoscope
+[2023-07-20 22:47:48] INFO root fetch - processPackages [indico-plugin-citadel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/indico_plugin_citadel-3.2.1-py3-none-any.whl.zip tmp/indico_plugin_citadel-3.2.2-py3-none-any.whl.zip --markdown 20230720/i/indico-plugin-citadel/3.2.1-3.2.2/diff.md --exclude *.pyd
+[2023-07-20 22:47:48] INFO root fetch - processPackages [indico-plugin-payment-paypal]: Downloading https://files.pythonhosted.org/packages/fe/1f/3a49bc03903fc6cc22c213610796ae78d088f7983910689ee95c1851ebd6/indico_plugin_payment_paypal-3.2.1-py3-none-any.whl
+[2023-07-20 22:47:48] INFO root fetch - processPackages [indico-plugin-payment-paypal]: executing diffoscope
+[2023-07-20 22:47:48] INFO root fetch - processPackages [indico-plugin-payment-paypal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/indico_plugin_payment_paypal-3.2-py3-none-any.whl.zip tmp/indico_plugin_payment_paypal-3.2.1-py3-none-any.whl.zip --markdown 20230720/i/indico-plugin-payment-paypal/3.2-3.2.1/diff.md --exclude *.pyd
+[2023-07-20 22:47:49] INFO root fetch - processPackages [indico-plugin-livesync-debug]: Remove: archive file [/home/abi/fetcher/tmp/indico_plugin_livesync_debug-3.0-py3-none-any.whl.zip]
+[2023-07-20 22:47:49] INFO root fetch - processPackages [indico-plugin-livesync-debug]: Remove: archive file [/home/abi/fetcher/tmp/indico_plugin_livesync_debug-3.2-py3-none-any.whl.zip]
+[2023-07-20 22:47:49] INFO root fetch - processPackages [indico-plugin-livesync-debug]: Start processing: indico-plugin-payment-sixpay
+[2023-07-20 22:47:49] INFO root fetch - main [MainThread]: End processing [indico-plugin-livesync-debug]: success
+[2023-07-20 22:47:49] INFO root fetch - processPackages [aiomisc]: Remove: archive file [/home/abi/fetcher/tmp/aiomisc-9.8.1.tar.gz]
+[2023-07-20 22:47:49] INFO root fetch - processPackages [aiomisc]: Remove: archive file [/home/abi/fetcher/tmp/aiomisc-9.8.4.tar.gz]
+[2023-07-20 22:47:49] INFO root fetch - processPackages [aiomisc]: Start processing: indico-plugin-piwik
+[2023-07-20 22:47:49] INFO root fetch - main [MainThread]: End processing [aiomisc]: success
+[2023-07-20 22:47:49] INFO root fetch - processPackages [indico-plugin-payment-sixpay]: New version: [3.2.1] Old Version: [3.2]
+[2023-07-20 22:47:49] INFO root fetch - processPackages [indico-plugin-piwik]: New version: [3.2.1] Old Version: [3.2]
+[2023-07-20 22:47:49] INFO root fetch - processPackages [formic-opcua]: Remove: archive file [/home/abi/fetcher/tmp/formic_opcua-1.5.2.tar.gz]
+[2023-07-20 22:47:49] INFO root fetch - processPackages [formic-opcua]: Remove: archive file [/home/abi/fetcher/tmp/formic_opcua-1.5.3.tar.gz]
+[2023-07-20 22:47:49] INFO root fetch - processPackages [formic-opcua]: Start processing: indico-plugin-previewer-code
+[2023-07-20 22:47:49] INFO root fetch - main [MainThread]: End processing [formic-opcua]: success
+[2023-07-20 22:47:49] INFO root fetch - processPackages [indico-plugin-owncloud]: Remove: archive file [/home/abi/fetcher/tmp/indico_plugin_owncloud-3.2.1-py3-none-any.whl.zip]
+[2023-07-20 22:47:49] INFO root fetch - processPackages [indico-plugin-owncloud]: Remove: archive file [/home/abi/fetcher/tmp/indico_plugin_owncloud-3.2.2-py3-none-any.whl.zip]
+[2023-07-20 22:47:49] INFO root fetch - processPackages [indico-plugin-owncloud]: Start processing: Xplique
+[2023-07-20 22:47:49] INFO root fetch - main [MainThread]: End processing [indico-plugin-owncloud]: success
+[2023-07-20 22:47:49] INFO root fetch - processPackages [indico-plugin-previewer-code]: New version: [3.2.1] Old Version: [3.2]
+[2023-07-20 22:47:49] INFO root fetch - processPackages [Xplique]: New version: [1.0.2] Old Version: [1.0.0]
+[2023-07-20 22:47:49] INFO root fetch - processPackages [indico-plugin-payment-sixpay]: Downloading https://files.pythonhosted.org/packages/ff/e8/cf64087520fc6ab3dae4f89b4cc246a114ed20dd07d905c1be21449ad7ee/indico_plugin_payment_sixpay-3.2-py3-none-any.whl
+[2023-07-20 22:47:49] INFO root fetch - processPackages [indico-plugin-piwik]: Downloading https://files.pythonhosted.org/packages/da/85/1e892a90ea39fb0ad68e2826a279d6a0327bd73a91b0299c6ccb59d0e4e0/indico_plugin_piwik-3.2-py3-none-any.whl
+[2023-07-20 22:47:50] INFO root fetch - processPackages [indico-plugin-previewer-code]: Downloading https://files.pythonhosted.org/packages/16/6b/3efb5abd0aaa24969b2292d9e2958c450893945f396365e9b657055cb8c2/indico_plugin_previewer_code-3.2-py3-none-any.whl
+[2023-07-20 22:47:50] INFO root fetch - processPackages [django-vendor-promo]: Remove: archive file [/home/abi/fetcher/tmp/django-vendor-promo-0.2.8.tar.gz]
+[2023-07-20 22:47:50] INFO root fetch - processPackages [django-vendor-promo]: Remove: archive file [/home/abi/fetcher/tmp/django-vendor-promo-0.2.9.tar.gz]
+[2023-07-20 22:47:50] INFO root fetch - processPackages [django-vendor-promo]: Start processing: indico-plugin-previewer-jupyter
+[2023-07-20 22:47:50] INFO root fetch - main [MainThread]: End processing [django-vendor-promo]: success
+[2023-07-20 22:47:50] INFO root fetch - processPackages [Xplique]: Downloading https://files.pythonhosted.org/packages/dc/7e/4991b0c166b7dfbe76e110657cb26c4eb7a89d36397c300b740de133d017/Xplique-1.0.0.tar.gz
+[2023-07-20 22:47:50] INFO root fetch - processPackages [indico-plugin-previewer-jupyter]: New version: [3.2.1] Old Version: [3.2]
+[2023-07-20 22:47:50] INFO root fetch - processPackages [indico-plugin-citadel]: Remove: archive file [/home/abi/fetcher/tmp/indico_plugin_citadel-3.2.1-py3-none-any.whl.zip]
+[2023-07-20 22:47:50] INFO root fetch - processPackages [indico-plugin-citadel]: Remove: archive file [/home/abi/fetcher/tmp/indico_plugin_citadel-3.2.2-py3-none-any.whl.zip]
+[2023-07-20 22:47:50] INFO root fetch - processPackages [indico-plugin-citadel]: Start processing: indico-plugin-prometheus
+[2023-07-20 22:47:50] INFO root fetch - main [MainThread]: End processing [indico-plugin-citadel]: success
+[2023-07-20 22:47:50] INFO root fetch - processPackages [indico-plugin-prometheus]: New version: [3.2.1] Old Version: [3.2]
+[2023-07-20 22:47:50] INFO root fetch - processPackages [indico-plugin-payment-manual]: Remove: archive file [/home/abi/fetcher/tmp/indico_plugin_payment_manual-3.2-py3-none-any.whl.zip]
+[2023-07-20 22:47:50] INFO root fetch - processPackages [indico-plugin-payment-manual]: Remove: archive file [/home/abi/fetcher/tmp/indico_plugin_payment_manual-3.2.1-py3-none-any.whl.zip]
+[2023-07-20 22:47:50] INFO root fetch - processPackages [indico-plugin-payment-manual]: Start processing: indico-plugin-storage-s3
+[2023-07-20 22:47:50] INFO root fetch - main [MainThread]: End processing [indico-plugin-payment-manual]: success
+[2023-07-20 22:47:50] INFO root fetch - processPackages [indico-plugin-payment-sixpay]: Downloading https://files.pythonhosted.org/packages/e6/fb/1e203860da4fda5e5072fd6eba9b20bf57de586fd8921b89bb8eef8f2210/indico_plugin_payment_sixpay-3.2.1-py3-none-any.whl
+[2023-07-20 22:47:50] INFO root fetch - processPackages [indico-plugin-livesync]: Remove: archive file [/home/abi/fetcher/tmp/indico_plugin_livesync-3.2-py3-none-any.whl.zip]
+[2023-07-20 22:47:50] INFO root fetch - processPackages [indico-plugin-livesync]: Remove: archive file [/home/abi/fetcher/tmp/indico_plugin_livesync-3.2.1-py3-none-any.whl.zip]
+[2023-07-20 22:47:50] INFO root fetch - processPackages [indico-plugin-livesync]: Start processing: featureform-enterprise
+[2023-07-20 22:47:50] INFO root fetch - main [MainThread]: End processing [indico-plugin-livesync]: success
+[2023-07-20 22:47:50] INFO root fetch - processPackages [indico-plugin-piwik]: Downloading https://files.pythonhosted.org/packages/33/eb/396822681db31ed6325b0a606a2e4b45d1301dd02f1c71edd23bdb0c955d/indico_plugin_piwik-3.2.1-py3-none-any.whl
+[2023-07-20 22:47:50] INFO root fetch - processPackages [indico-plugin-storage-s3]: New version: [3.2.2] Old Version: [3.2.1]
+[2023-07-20 22:47:50] WARNING root fetch - processPackages [featureform-enterprise]: Skipping, unable to determine old version
+[2023-07-20 22:47:50] INFO root fetch - processPackages [featureform-enterprise]: Start processing: indico-plugin-themes-legacy
+[2023-07-20 22:47:50] INFO root fetch - main [MainThread]: End processing [featureform-enterprise] error
+[2023-07-20 22:47:50] INFO root fetch - processPackages [indico-plugin-payment-paypal]: Remove: archive file [/home/abi/fetcher/tmp/indico_plugin_payment_paypal-3.2-py3-none-any.whl.zip]
+[2023-07-20 22:47:50] INFO root fetch - processPackages [indico-plugin-payment-paypal]: Remove: archive file [/home/abi/fetcher/tmp/indico_plugin_payment_paypal-3.2.1-py3-none-any.whl.zip]
+[2023-07-20 22:47:50] INFO root fetch - processPackages [indico-plugin-payment-paypal]: Start processing: indico-plugin-ursh
+[2023-07-20 22:47:50] INFO root fetch - main [MainThread]: End processing [indico-plugin-payment-paypal]: success
+[2023-07-20 22:47:50] INFO root fetch - processPackages [indico-plugin-themes-legacy]: New version: [3.2.1] Old Version: [3.2]
+[2023-07-20 22:47:50] INFO root fetch - processPackages [indico-plugin-previewer-jupyter]: Downloading https://files.pythonhosted.org/packages/40/a2/6895abc6897d58311cff10d263ab32adf1284df0bad8323cb7135528ae8d/indico_plugin_previewer_jupyter-3.2-py3-none-any.whl
+[2023-07-20 22:47:50] INFO root fetch - processPackages [indico-plugin-payment-sixpay]: executing diffoscope
+[2023-07-20 22:47:50] INFO root fetch - processPackages [indico-plugin-payment-sixpay]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/indico_plugin_payment_sixpay-3.2-py3-none-any.whl.zip tmp/indico_plugin_payment_sixpay-3.2.1-py3-none-any.whl.zip --markdown 20230720/i/indico-plugin-payment-sixpay/3.2-3.2.1/diff.md --exclude *.pyd
+[2023-07-20 22:47:50] INFO root fetch - processPackages [indico-plugin-previewer-code]: Downloading https://files.pythonhosted.org/packages/94/d1/2b9d340885f3564872692785edf466d7574494c73f2f72e23def03fcfa79/indico_plugin_previewer_code-3.2.1-py3-none-any.whl
+[2023-07-20 22:47:50] INFO root fetch - processPackages [indico-plugin-ursh]: New version: [3.2.2] Old Version: [3.2.1]
+[2023-07-20 22:47:50] INFO root fetch - processPackages [indico-plugin-prometheus]: Downloading https://files.pythonhosted.org/packages/97/1b/622367cc25f9bbbea650a68b9c7236cb7464465deccf1666c69a5828245a/indico_plugin_prometheus-3.2-py3-none-any.whl
+[2023-07-20 22:47:50] INFO root fetch - processPackages [indico-plugin-piwik]: executing diffoscope
+[2023-07-20 22:47:50] INFO root fetch - processPackages [indico-plugin-piwik]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/indico_plugin_piwik-3.2-py3-none-any.whl.zip tmp/indico_plugin_piwik-3.2.1-py3-none-any.whl.zip --markdown 20230720/i/indico-plugin-piwik/3.2-3.2.1/diff.md --exclude *.pyd
+[2023-07-20 22:47:50] INFO root fetch - processPackages [Xplique]: Downloading https://files.pythonhosted.org/packages/6c/13/a84150c21c3295914b87f0f98870d7ed76c2d05b440f049bd91578b8a2ec/Xplique-1.0.2.tar.gz
+[2023-07-20 22:47:50] INFO root fetch - processPackages [indico-plugin-previewer-code]: executing diffoscope
+[2023-07-20 22:47:50] INFO root fetch - processPackages [indico-plugin-previewer-code]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/indico_plugin_previewer_code-3.2-py3-none-any.whl.zip tmp/indico_plugin_previewer_code-3.2.1-py3-none-any.whl.zip --markdown 20230720/i/indico-plugin-previewer-code/3.2-3.2.1/diff.md --exclude *.pyd
+[2023-07-20 22:47:50] INFO root fetch - processPackages [indico-plugin-storage-s3]: Downloading https://files.pythonhosted.org/packages/55/83/1d4453198a76eca62a5310f1be6cfb89711071e3035381178f05d2e0af20/indico_plugin_storage_s3-3.2.1-py3-none-any.whl
+[2023-07-20 22:47:50] INFO root fetch - processPackages [indico-plugin-themes-legacy]: Downloading https://files.pythonhosted.org/packages/37/58/d22513cc8a8df44d05115c16a016ac105ad85b3aa6ecb2819287a79c2f09/indico_plugin_themes_legacy-3.2-py3-none-any.whl
+[2023-07-20 22:47:50] INFO root fetch - processPackages [indico-plugin-ursh]: Downloading https://files.pythonhosted.org/packages/13/42/9d10f754a2c280f796a06028ea3b054aae64122739bb89d8bf16a055a176/indico_plugin_ursh-3.2.1-py3-none-any.whl
+[2023-07-20 22:47:50] INFO root fetch - processPackages [Xplique]: executing diffoscope
+[2023-07-20 22:47:50] INFO root fetch - processPackages [Xplique]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Xplique-1.0.0.tar.gz tmp/Xplique-1.0.2.tar.gz --markdown 20230720/X/Xplique/1.0.0-1.0.2/diff.md --exclude *.pyd
+[2023-07-20 22:47:50] INFO root fetch - processPackages [indico-plugin-prometheus]: Downloading https://files.pythonhosted.org/packages/20/5a/326a7d08c6c684284c3c3df069a2b45483b43359c5c0715201ae6dcb1eac/indico_plugin_prometheus-3.2.1-py3-none-any.whl
+[2023-07-20 22:47:51] INFO root fetch - processPackages [indico-plugin-storage-s3]: Downloading https://files.pythonhosted.org/packages/5f/b1/8ae8e1ac0f3cc8a172874f8efdd1ccd6062275487fa27f50cefdfbdbeeab/indico_plugin_storage_s3-3.2.2-py3-none-any.whl
+[2023-07-20 22:47:51] INFO root fetch - processPackages [indico-plugin-prometheus]: executing diffoscope
+[2023-07-20 22:47:51] INFO root fetch - processPackages [indico-plugin-prometheus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/indico_plugin_prometheus-3.2-py3-none-any.whl.zip tmp/indico_plugin_prometheus-3.2.1-py3-none-any.whl.zip --markdown 20230720/i/indico-plugin-prometheus/3.2-3.2.1/diff.md --exclude *.pyd
+[2023-07-20 22:47:51] INFO root fetch - processPackages [indico-plugin-previewer-jupyter]: Downloading https://files.pythonhosted.org/packages/3a/bc/8e6bd473c1e36511fd42dae6e3fadd1651f19ff8c7a80193bab9668cae07/indico_plugin_previewer_jupyter-3.2.1-py3-none-any.whl
+[2023-07-20 22:47:51] INFO root fetch - processPackages [indico-plugin-storage-s3]: executing diffoscope
+[2023-07-20 22:47:51] INFO root fetch - processPackages [indico-plugin-storage-s3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/indico_plugin_storage_s3-3.2.1-py3-none-any.whl.zip tmp/indico_plugin_storage_s3-3.2.2-py3-none-any.whl.zip --markdown 20230720/i/indico-plugin-storage-s3/3.2.1-3.2.2/diff.md --exclude *.pyd
+[2023-07-20 22:47:51] INFO root fetch - processPackages [indico-plugin-ursh]: Downloading https://files.pythonhosted.org/packages/d7/e6/f138bcd72321290652de3f544129179d0693d5a86d682cf146de436f42e0/indico_plugin_ursh-3.2.2-py3-none-any.whl
+[2023-07-20 22:47:51] INFO root fetch - processPackages [indico-plugin-themes-legacy]: Downloading https://files.pythonhosted.org/packages/58/55/36e6549a2b445ea50007d44ac22db6b7f5383d713de5051316b9addcd646/indico_plugin_themes_legacy-3.2.1-py3-none-any.whl
+[2023-07-20 22:47:51] INFO root fetch - processPackages [indico-plugin-themes-legacy]: executing diffoscope
+[2023-07-20 22:47:51] INFO root fetch - processPackages [indico-plugin-themes-legacy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/indico_plugin_themes_legacy-3.2-py3-none-any.whl.zip tmp/indico_plugin_themes_legacy-3.2.1-py3-none-any.whl.zip --markdown 20230720/i/indico-plugin-themes-legacy/3.2-3.2.1/diff.md --exclude *.pyd
+[2023-07-20 22:47:51] INFO root fetch - processPackages [indico-plugin-ursh]: executing diffoscope
+[2023-07-20 22:47:51] INFO root fetch - processPackages [indico-plugin-ursh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/indico_plugin_ursh-3.2.1-py3-none-any.whl.zip tmp/indico_plugin_ursh-3.2.2-py3-none-any.whl.zip --markdown 20230720/i/indico-plugin-ursh/3.2.1-3.2.2/diff.md --exclude *.pyd
+[2023-07-20 22:47:51] INFO root fetch - processPackages [indico-plugin-previewer-jupyter]: executing diffoscope
+[2023-07-20 22:47:51] INFO root fetch - processPackages [indico-plugin-previewer-jupyter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/indico_plugin_previewer_jupyter-3.2-py3-none-any.whl.zip tmp/indico_plugin_previewer_jupyter-3.2.1-py3-none-any.whl.zip --markdown 20230720/i/indico-plugin-previewer-jupyter/3.2-3.2.1/diff.md --exclude *.pyd
+[2023-07-20 22:47:51] INFO root fetch - processPackages [indico-plugin-previewer-code]: Remove: archive file [/home/abi/fetcher/tmp/indico_plugin_previewer_code-3.2-py3-none-any.whl.zip]
+[2023-07-20 22:47:51] INFO root fetch - processPackages [indico-plugin-previewer-code]: Remove: archive file [/home/abi/fetcher/tmp/indico_plugin_previewer_code-3.2.1-py3-none-any.whl.zip]
+[2023-07-20 22:47:51] INFO root fetch - processPackages [indico-plugin-previewer-code]: Start processing: indico-plugin-vc-dummy
+[2023-07-20 22:47:51] INFO root fetch - main [MainThread]: End processing [indico-plugin-previewer-code]: success
+[2023-07-20 22:47:51] INFO root fetch - processPackages [indico-plugin-payment-sixpay]: Remove: archive file [/home/abi/fetcher/tmp/indico_plugin_payment_sixpay-3.2-py3-none-any.whl.zip]
+[2023-07-20 22:47:51] INFO root fetch - processPackages [indico-plugin-payment-sixpay]: Remove: archive file [/home/abi/fetcher/tmp/indico_plugin_payment_sixpay-3.2.1-py3-none-any.whl.zip]
+[2023-07-20 22:47:51] INFO root fetch - processPackages [indico-plugin-payment-sixpay]: Start processing: indico-plugin-vc-zoom
+[2023-07-20 22:47:51] INFO root fetch - main [MainThread]: End processing [indico-plugin-payment-sixpay]: success
+[2023-07-20 22:47:51] INFO root fetch - processPackages [indico-plugin-vc-dummy]: New version: [3.2] Old Version: [1.0rc1]
+[2023-07-20 22:47:52] INFO root fetch - processPackages [indico-plugin-vc-zoom]: New version: [3.2.4] Old Version: [3.2.3]
+[2023-07-20 22:47:52] INFO root fetch - processPackages [indico-plugin-vc-dummy]: Downloading https://files.pythonhosted.org/packages/c8/47/497859c8f31da0fe66b6b8b73423ad0062d34751e00c413e04a4fce8e24f/indico_plugin_vc_dummy-1.0rc1-py2-none-any.whl
+[2023-07-20 22:47:52] INFO root fetch - processPackages [indico-plugin-vc-zoom]: Downloading https://files.pythonhosted.org/packages/b0/3f/ce303340419200adba700e6aaec89904ffcfd584f545f818ed30c818cca3/indico_plugin_vc_zoom-3.2.3-py3-none-any.whl
+[2023-07-20 22:47:52] INFO root fetch - processPackages [indico-plugin-prometheus]: Remove: archive file [/home/abi/fetcher/tmp/indico_plugin_prometheus-3.2-py3-none-any.whl.zip]
+[2023-07-20 22:47:52] INFO root fetch - processPackages [indico-plugin-prometheus]: Remove: archive file [/home/abi/fetcher/tmp/indico_plugin_prometheus-3.2.1-py3-none-any.whl.zip]
+[2023-07-20 22:47:52] INFO root fetch - processPackages [indico-plugin-prometheus]: Start processing: indico-plugins
+[2023-07-20 22:47:52] INFO root fetch - main [MainThread]: End processing [indico-plugin-prometheus]: success
+[2023-07-20 22:47:52] INFO root fetch - processPackages [indico-plugins]: New version: [3.2.2] Old Version: [3.2.1]
+[2023-07-20 22:47:52] INFO root fetch - processPackages [indico-plugin-storage-s3]: Remove: archive file [/home/abi/fetcher/tmp/indico_plugin_storage_s3-3.2.1-py3-none-any.whl.zip]
+[2023-07-20 22:47:52] INFO root fetch - processPackages [indico-plugin-storage-s3]: Remove: archive file [/home/abi/fetcher/tmp/indico_plugin_storage_s3-3.2.2-py3-none-any.whl.zip]
+[2023-07-20 22:47:52] INFO root fetch - processPackages [indico-plugin-storage-s3]: Start processing: pip-rating
+[2023-07-20 22:47:52] INFO root fetch - main [MainThread]: End processing [indico-plugin-storage-s3]: success
+[2023-07-20 22:47:52] INFO root fetch - processPackages [pip-rating]: New version: [0.1.0] Old Version: [0.0.1]
+[2023-07-20 22:47:52] INFO root fetch - processPackages [indico-plugin-vc-dummy]: Downloading https://files.pythonhosted.org/packages/96/3b/1beb00eaaafc82d928e9d1d977f772cc9ce976fa59acd976e87deb3ba9b5/indico_plugin_vc_dummy-3.2-py3-none-any.whl
+[2023-07-20 22:47:52] INFO root fetch - processPackages [indico-plugins]: Downloading https://files.pythonhosted.org/packages/e9/74/7a8ce98df139033c06e5756d85892bfa6bf092a5964c0bee6b5c0b135c01/indico_plugins-3.2.1-py3-none-any.whl
+[2023-07-20 22:47:52] INFO root fetch - processPackages [indico-plugin-themes-legacy]: Remove: archive file [/home/abi/fetcher/tmp/indico_plugin_themes_legacy-3.2-py3-none-any.whl.zip]
+[2023-07-20 22:47:52] INFO root fetch - processPackages [indico-plugin-themes-legacy]: Remove: archive file [/home/abi/fetcher/tmp/indico_plugin_themes_legacy-3.2.1-py3-none-any.whl.zip]
+[2023-07-20 22:47:52] INFO root fetch - processPackages [indico-plugin-themes-legacy]: Start processing: rubiran
+[2023-07-20 22:47:52] INFO root fetch - main [MainThread]: End processing [indico-plugin-themes-legacy]: success
+[2023-07-20 22:47:52] INFO root fetch - processPackages [Xplique]: Remove: archive file [/home/abi/fetcher/tmp/Xplique-1.0.0.tar.gz]
+[2023-07-20 22:47:52] INFO root fetch - processPackages [Xplique]: Remove: archive file [/home/abi/fetcher/tmp/Xplique-1.0.2.tar.gz]
+[2023-07-20 22:47:52] INFO root fetch - processPackages [Xplique]: Start processing: voxface
+[2023-07-20 22:47:52] INFO root fetch - main [MainThread]: End processing [Xplique]: success
+[2023-07-20 22:47:52] INFO root fetch - processPackages [indico-plugin-vc-dummy]: executing diffoscope
+[2023-07-20 22:47:52] INFO root fetch - processPackages [indico-plugin-vc-dummy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/indico_plugin_vc_dummy-1.0rc1-py2-none-any.whl.zip tmp/indico_plugin_vc_dummy-3.2-py3-none-any.whl.zip --markdown 20230720/i/indico-plugin-vc-dummy/1.0rc1-3.2/diff.md --exclude *.pyd
+[2023-07-20 22:47:52] INFO root fetch - processPackages [pip-rating]: Downloading https://files.pythonhosted.org/packages/03/ac/7d0bec5803cec71e029e014b001dd5c8a9505ffd275e60cb5af8f9cc4f46/pip-rating-0.0.1.tar.gz
+[2023-07-20 22:47:52] INFO root fetch - processPackages [rubiran]: New version: [2.0.4] Old Version: [2.0.3]
+[2023-07-20 22:47:52] INFO root fetch - processPackages [voxface]: New version: [2023.7.20] Old Version: [2023.7.13]
+[2023-07-20 22:47:52] INFO root fetch - processPackages [rubiran]: Downloading https://files.pythonhosted.org/packages/2c/d2/cd31d90d543ada4778a34b64d42d078df27ec923d552c079fe4f7e669547/rubiran-2.0.3.tar.gz
+[2023-07-20 22:47:53] INFO root fetch - processPackages [indico-plugin-ursh]: Remove: archive file [/home/abi/fetcher/tmp/indico_plugin_ursh-3.2.1-py3-none-any.whl.zip]
+[2023-07-20 22:47:53] INFO root fetch - processPackages [indico-plugin-ursh]: Remove: archive file [/home/abi/fetcher/tmp/indico_plugin_ursh-3.2.2-py3-none-any.whl.zip]
+[2023-07-20 22:47:53] INFO root fetch - processPackages [indico-plugin-ursh]: Start processing: selenium-simplification
+[2023-07-20 22:47:53] INFO root fetch - main [MainThread]: End processing [indico-plugin-ursh]: success
+[2023-07-20 22:47:53] INFO root fetch - processPackages [voxface]: Downloading https://files.pythonhosted.org/packages/b4/94/a2c7c62fa269053de62e186996f49ddf84b9ea67bcc1376b6a54c672e50b/voxface-2023.7.13.tar.gz
+[2023-07-20 22:47:53] INFO root fetch - processPackages [selenium-simplification]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-20 22:47:53] INFO root fetch - processPackages [indico-plugin-vc-zoom]: Downloading https://files.pythonhosted.org/packages/8d/6b/0550830ff15705075f72e161d41d12a1db3300971bd03fcbcd536880fa7a/indico_plugin_vc_zoom-3.2.4-py3-none-any.whl
+[2023-07-20 22:47:53] INFO root fetch - processPackages [indico-plugins]: Downloading https://files.pythonhosted.org/packages/7d/fc/1e01567884cb93e54ed9ed8b5ea373efb416176b9d48f2d03a9f36de49d6/indico_plugins-3.2.2-py3-none-any.whl
+[2023-07-20 22:47:53] INFO root fetch - processPackages [pip-rating]: Downloading https://files.pythonhosted.org/packages/fe/5f/ee4c7e609383386266a0bdffb16b1e176319bd01bcfd02117957a80ccce7/pip-rating-0.1.0.tar.gz
+[2023-07-20 22:47:53] INFO root fetch - processPackages [indico-plugin-vc-zoom]: executing diffoscope
+[2023-07-20 22:47:53] INFO root fetch - processPackages [indico-plugin-vc-zoom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/indico_plugin_vc_zoom-3.2.3-py3-none-any.whl.zip tmp/indico_plugin_vc_zoom-3.2.4-py3-none-any.whl.zip --markdown 20230720/i/indico-plugin-vc-zoom/3.2.3-3.2.4/diff.md --exclude *.pyd
+[2023-07-20 22:47:53] INFO root fetch - processPackages [selenium-simplification]: Downloading https://files.pythonhosted.org/packages/4c/3d/f06d7ee9a1f0b92c90072021f3cb0fbea16edaf08f3ce5e457fc8410804f/selenium_simplification-0.0.2.tar.gz
+[2023-07-20 22:47:53] INFO root fetch - processPackages [indico-plugins]: executing diffoscope
+[2023-07-20 22:47:53] INFO root fetch - processPackages [indico-plugins]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/indico_plugins-3.2.1-py3-none-any.whl.zip tmp/indico_plugins-3.2.2-py3-none-any.whl.zip --markdown 20230720/i/indico-plugins/3.2.1-3.2.2/diff.md --exclude *.pyd
+[2023-07-20 22:47:53] INFO root fetch - processPackages [rubiran]: Downloading https://files.pythonhosted.org/packages/75/81/38361c2cd200e0bcd8cf41305a412031500c439685cc52fcce04ac6e60da/rubiran-2.0.4.tar.gz
+[2023-07-20 22:47:53] INFO root fetch - processPackages [pip-rating]: executing diffoscope
+[2023-07-20 22:47:53] INFO root fetch - processPackages [pip-rating]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pip-rating-0.0.1.tar.gz tmp/pip-rating-0.1.0.tar.gz --markdown 20230720/p/pip-rating/0.0.1-0.1.0/diff.md --exclude *.pyd
+[2023-07-20 22:47:53] WARNING root fetch - processPackages [selenium-simplification]: Skipping package: exceeds size limit 15672316>=10485760
+[2023-07-20 22:47:53] INFO root fetch - processPackages [selenium-simplification]: Start processing: selenium-simplification
+[2023-07-20 22:47:53] INFO root fetch - main [MainThread]: End processing [selenium-simplification] error
+[2023-07-20 22:47:53] INFO root fetch - processPackages [selenium-simplification]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-07-20 22:47:53] INFO root fetch - processPackages [rubiran]: executing diffoscope
+[2023-07-20 22:47:53] INFO root fetch - processPackages [rubiran]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rubiran-2.0.3.tar.gz tmp/rubiran-2.0.4.tar.gz --markdown 20230720/r/rubiran/2.0.3-2.0.4/diff.md --exclude *.pyd
+[2023-07-20 22:47:53] INFO root fetch - processPackages [selenium-simplification]: Downloading https://files.pythonhosted.org/packages/4c/3d/f06d7ee9a1f0b92c90072021f3cb0fbea16edaf08f3ce5e457fc8410804f/selenium_simplification-0.0.2.tar.gz
+[2023-07-20 22:47:53] INFO root fetch - processPackages [voxface]: Downloading https://files.pythonhosted.org/packages/60/76/af2e11905dd831b29e0af3de32f2788941f08ea24a2684516df0a8da574e/voxface-2023.7.20.tar.gz
+[2023-07-20 22:47:53] WARNING root fetch - processPackages [selenium-simplification]: Skipping package: exceeds size limit 15672316>=10485760
+[2023-07-20 22:47:53] INFO root fetch - processPackages [selenium-simplification]: Start processing: ninjakiwi-api
+[2023-07-20 22:47:53] INFO root fetch - main [MainThread]: End processing [selenium-simplification] error
+[2023-07-20 22:47:53] INFO root fetch - processPackages [ninjakiwi-api]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-07-20 22:47:53] INFO root fetch - processPackages [indico-plugin-vc-dummy]: Remove: archive file [/home/abi/fetcher/tmp/indico_plugin_vc_dummy-1.0rc1-py2-none-any.whl.zip]
+[2023-07-20 22:47:53] INFO root fetch - processPackages [indico-plugin-vc-dummy]: Remove: archive file [/home/abi/fetcher/tmp/indico_plugin_vc_dummy-3.2-py3-none-any.whl.zip]
+[2023-07-20 22:47:53] INFO root fetch - processPackages [indico-plugin-vc-dummy]: Start processing: axe-playwright-python
+[2023-07-20 22:47:53] INFO root fetch - main [MainThread]: End processing [indico-plugin-vc-dummy]: success
+[2023-07-20 22:47:53] WARNING root fetch - processPackages [axe-playwright-python]: Skipping, unable to determine old version
+[2023-07-20 22:47:53] INFO root fetch - processPackages [axe-playwright-python]: Start processing: msgtools
+[2023-07-20 22:47:53] INFO root fetch - main [MainThread]: End processing [axe-playwright-python] error
+[2023-07-20 22:47:53] INFO root fetch - processPackages [ninjakiwi-api]: Downloading https://files.pythonhosted.org/packages/7f/cd/2a93d0bc86bee2776a7541da9cfdb1bc8ba139eafa3f0b2c50e31f169930/ninjakiwi_api-0.0.6.tar.gz
+[2023-07-20 22:47:53] INFO root fetch - processPackages [msgtools]: New version: [0.37.9] Old Version: [0.37.8]
+[2023-07-20 22:47:54] INFO root fetch - processPackages [msgtools]: Downloading https://files.pythonhosted.org/packages/7d/59/9696702004790478037795e29ddee31ec985188032bea29a55bd2b57a49f/msgtools-0.37.8.tar.gz
+[2023-07-20 22:47:54] INFO root fetch - processPackages [ninjakiwi-api]: Downloading https://files.pythonhosted.org/packages/9f/fa/ba847ccfb710418c634d83ec0bce8b109ee10dc0175eedeefca7c8ba9efd/ninjakiwi_api-0.0.7.tar.gz
+[2023-07-20 22:47:54] INFO root fetch - processPackages [ninjakiwi-api]: executing diffoscope
+[2023-07-20 22:47:54] INFO root fetch - processPackages [ninjakiwi-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ninjakiwi_api-0.0.6.tar.gz tmp/ninjakiwi_api-0.0.7.tar.gz --markdown 20230720/n/ninjakiwi-api/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-07-20 22:47:54] INFO root fetch - processPackages [indico-plugins]: Remove: archive file [/home/abi/fetcher/tmp/indico_plugins-3.2.1-py3-none-any.whl.zip]
+[2023-07-20 22:47:54] INFO root fetch - processPackages [indico-plugins]: Remove: archive file [/home/abi/fetcher/tmp/indico_plugins-3.2.2-py3-none-any.whl.zip]
+[2023-07-20 22:47:54] INFO root fetch - main [MainThread]: End processing [indico-plugins]: success
+[2023-07-20 22:47:54] INFO root fetch - processPackages [msgtools]: Downloading https://files.pythonhosted.org/packages/d3/70/2af7ea5f6cf914e873391bbc1a91d620ec0350535ff65d69e6bc6c108d4a/msgtools-0.37.9.tar.gz
+[2023-07-20 22:47:54] INFO root fetch - processPackages [msgtools]: executing diffoscope
+[2023-07-20 22:47:54] INFO root fetch - processPackages [msgtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/msgtools-0.37.8.tar.gz tmp/msgtools-0.37.9.tar.gz --markdown 20230720/m/msgtools/0.37.8-0.37.9/diff.md --exclude *.pyd
+[2023-07-20 22:47:54] INFO root fetch - processPackages [voxface]: executing diffoscope
+[2023-07-20 22:47:54] INFO root fetch - processPackages [voxface]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/voxface-2023.7.13.tar.gz tmp/voxface-2023.7.20.tar.gz --markdown 20230720/v/voxface/2023.7.13-2023.7.20/diff.md --exclude *.pyd
+[2023-07-20 22:47:54] INFO root fetch - processPackages [pip-rating]: Remove: archive file [/home/abi/fetcher/tmp/pip-rating-0.0.1.tar.gz]
+[2023-07-20 22:47:54] INFO root fetch - processPackages [pip-rating]: Remove: archive file [/home/abi/fetcher/tmp/pip-rating-0.1.0.tar.gz]
+[2023-07-20 22:47:54] INFO root fetch - main [MainThread]: End processing [pip-rating]: success
+[2023-07-20 22:47:54] INFO root fetch - processPackages [rubiran]: Remove: archive file [/home/abi/fetcher/tmp/rubiran-2.0.3.tar.gz]
+[2023-07-20 22:47:54] INFO root fetch - processPackages [rubiran]: Remove: archive file [/home/abi/fetcher/tmp/rubiran-2.0.4.tar.gz]
+[2023-07-20 22:47:54] INFO root fetch - main [MainThread]: End processing [rubiran]: success
+[2023-07-20 22:47:55] INFO root fetch - processPackages [indico-plugin-vc-zoom]: Remove: archive file [/home/abi/fetcher/tmp/indico_plugin_vc_zoom-3.2.3-py3-none-any.whl.zip]
+[2023-07-20 22:47:55] INFO root fetch - processPackages [indico-plugin-vc-zoom]: Remove: archive file [/home/abi/fetcher/tmp/indico_plugin_vc_zoom-3.2.4-py3-none-any.whl.zip]
+[2023-07-20 22:47:55] INFO root fetch - main [MainThread]: End processing [indico-plugin-vc-zoom]: success
+[2023-07-20 22:47:55] INFO root fetch - processPackages [ninjakiwi-api]: Remove: archive file [/home/abi/fetcher/tmp/ninjakiwi_api-0.0.6.tar.gz]
+[2023-07-20 22:47:55] INFO root fetch - processPackages [ninjakiwi-api]: Remove: archive file [/home/abi/fetcher/tmp/ninjakiwi_api-0.0.7.tar.gz]
+[2023-07-20 22:47:55] INFO root fetch - main [MainThread]: End processing [ninjakiwi-api]: success
+[2023-07-20 22:47:56] INFO root fetch - processPackages [voxface]: Remove: archive file [/home/abi/fetcher/tmp/voxface-2023.7.13.tar.gz]
+[2023-07-20 22:47:56] INFO root fetch - processPackages [voxface]: Remove: archive file [/home/abi/fetcher/tmp/voxface-2023.7.20.tar.gz]
+[2023-07-20 22:47:56] INFO root fetch - main [MainThread]: End processing [voxface]: success
+[2023-07-20 22:47:56] INFO root fetch - processPackages [msgtools]: Remove: archive file [/home/abi/fetcher/tmp/msgtools-0.37.8.tar.gz]
+[2023-07-20 22:47:56] INFO root fetch - processPackages [msgtools]: Remove: archive file [/home/abi/fetcher/tmp/msgtools-0.37.9.tar.gz]
+[2023-07-20 22:47:56] INFO root fetch - main [MainThread]: End processing [msgtools]: success
+[2023-07-20 22:47:56] INFO root fetch - processPackages [indico-plugin-cloud-captchas]: Remove: archive file [/home/abi/fetcher/tmp/indico_plugin_cloud_captchas-3.2-py3-none-any.whl.zip]
+[2023-07-20 22:47:56] INFO root fetch - processPackages [indico-plugin-cloud-captchas]: Remove: archive file [/home/abi/fetcher/tmp/indico_plugin_cloud_captchas-3.2.1-py3-none-any.whl.zip]
+[2023-07-20 22:47:56] INFO root fetch - main [MainThread]: End processing [indico-plugin-cloud-captchas]: success
+[2023-07-20 22:47:57] INFO root fetch - processPackages [indico-plugin-previewer-jupyter]: Remove: archive file [/home/abi/fetcher/tmp/indico_plugin_previewer_jupyter-3.2-py3-none-any.whl.zip]
+[2023-07-20 22:47:57] INFO root fetch - processPackages [indico-plugin-previewer-jupyter]: Remove: archive file [/home/abi/fetcher/tmp/indico_plugin_previewer_jupyter-3.2.1-py3-none-any.whl.zip]
+[2023-07-20 22:47:57] INFO root fetch - main [MainThread]: End processing [indico-plugin-previewer-jupyter]: success
+[2023-07-20 22:47:57] INFO root fetch - processPackages [indico-plugin-piwik]: Remove: archive file [/home/abi/fetcher/tmp/indico_plugin_piwik-3.2-py3-none-any.whl.zip]
+[2023-07-20 22:47:57] INFO root fetch - processPackages [indico-plugin-piwik]: Remove: archive file [/home/abi/fetcher/tmp/indico_plugin_piwik-3.2.1-py3-none-any.whl.zip]
+[2023-07-20 22:47:57] INFO root fetch - main [MainThread]: End processing [indico-plugin-piwik]: success
+[2023-07-20 22:47:57] INFO root fetch - main [MainThread]: Store serial: [18972800]
