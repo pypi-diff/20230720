@@ -4892,3 +4892,155 @@ AssertionError: tmp/verify4py-test-0.1.7.tar.gz does not exist
 [2023-07-20 12:06:26] INFO root fetch - processPackages [pnap-tag-api]: Remove: archive file [/home/abi/fetcher/tmp/pnap-tag-api-1.0.6.tar.gz]
 [2023-07-20 12:06:26] INFO root fetch - main [MainThread]: End processing [pnap-tag-api]: success
 [2023-07-20 12:06:26] INFO root fetch - main [MainThread]: Store serial: [18964873]
+[2023-07-20 12:11:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18964873]
+[2023-07-20 12:11:34] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-07-20 12:11:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: project-lighter
+[2023-07-20 12:11:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: benimang
+[2023-07-20 12:11:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Pandora-Cloud
+[2023-07-20 12:11:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: busrt-worker
+[2023-07-20 12:11:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pycore-utils
+[2023-07-20 12:11:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: auto-labeling-pipeline
+[2023-07-20 12:11:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: basic-type-operations
+[2023-07-20 12:11:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tkintertools
+[2023-07-20 12:11:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: report-dh
+[2023-07-20 12:11:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: openedx-events
+[2023-07-20 12:11:35] INFO root fetch - processPackages [basic-type-operations]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-20 12:11:35] INFO root fetch - processPackages [busrt-worker]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-20 12:11:35] INFO root fetch - processPackages [tkintertools]: New version: [2.6.8.dev0] Old Version: [2.6.7.dev1]
+[2023-07-20 12:11:35] INFO root fetch - processPackages [report-dh]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-07-20 12:11:35] INFO root fetch - processPackages [Pandora-Cloud]: New version: [0.5.0] Old Version: [0.4.9]
+[2023-07-20 12:11:35] INFO root fetch - processPackages [pycore-utils]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-20 12:11:35] INFO root fetch - processPackages [project-lighter]: New version: [0.0.2a8] Old Version: [0.0.2a7]
+[2023-07-20 12:11:35] INFO root fetch - processPackages [auto-labeling-pipeline]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-20 12:11:35] INFO root fetch - processPackages [openedx-events]: New version: [8.3.0] Old Version: [8.2.0]
+[2023-07-20 12:11:35] INFO root fetch - processPackages [benimang]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-07-20 12:11:35] INFO root fetch - processPackages [report-dh]: Downloading https://files.pythonhosted.org/packages/ca/61/310c98f28cdee4f9643eebd855676e5c7be6042e137573cdc28768e8f575/report-dh-0.9.1.tar.gz
+[2023-07-20 12:11:35] INFO root fetch - processPackages [busrt-worker]: Downloading https://files.pythonhosted.org/packages/fa/6a/e899afcfeacab61fc7df9c92294804587608a3e6a25091e055a004a98541/busrt_worker-0.1.1.tar.gz
+[2023-07-20 12:11:35] INFO root fetch - processPackages [basic-type-operations]: Downloading https://files.pythonhosted.org/packages/88/fe/47b2d99f16c02fcd0f6bdc605ef5e64369d09f4c0c394dbc6e8011670d8c/basic_type_operations-0.0.1-py3-none-any.whl
+[2023-07-20 12:11:35] INFO root fetch - processPackages [auto-labeling-pipeline]: Downloading https://files.pythonhosted.org/packages/d3/4b/3f7910265aff267fe0e8bafa42a41eb72e17f658c7fe19691eaba32b7041/auto-labeling-pipeline-0.1.8.tar.gz
+[2023-07-20 12:11:35] INFO root fetch - processPackages [tkintertools]: Downloading https://files.pythonhosted.org/packages/6f/4a/812fd7dc3c013c75a30b61cd0a367f7d180b77fe8418e6f293b0850e05f1/tkintertools-2.6.7.dev1.tar.gz
+[2023-07-20 12:11:35] INFO root fetch - processPackages [Pandora-Cloud]: Downloading https://files.pythonhosted.org/packages/c6/20/69a7147f7de9405f5a43ff2efa1042ed8464f9e0fbc21155c3df1c506081/Pandora-Cloud-0.4.9.tar.gz
+[2023-07-20 12:11:35] INFO root fetch - processPackages [benimang]: Downloading https://files.pythonhosted.org/packages/d9/10/ea0db5e826f441e8d24ca942792425e6472daf36f97d4b727fa0617c447a/benimang-0.4.0.tar.gz
+[2023-07-20 12:11:35] INFO root fetch - processPackages [pycore-utils]: Downloading https://files.pythonhosted.org/packages/4f/c1/f850c620edee44d6c56bbd59ac7e524c092a2eb8858a981a710635be4cb4/pycore-utils-0.0.8.tar.gz
+[2023-07-20 12:11:35] INFO root fetch - processPackages [openedx-events]: Downloading https://files.pythonhosted.org/packages/0d/84/024293255b53cb243f2c4e05bca9dadc8757baf0cf30cd5b5f11298f2e16/openedx-events-8.2.0.tar.gz
+[2023-07-20 12:11:35] INFO root fetch - processPackages [project-lighter]: Downloading https://files.pythonhosted.org/packages/dd/85/5b3a0f45ed79fc5c32aec6379498cea63d38f3fa30faa5da0b14dc0f5f31/project_lighter-0.0.2a7.tar.gz
+[2023-07-20 12:11:35] INFO root fetch - processPackages [report-dh]: Downloading https://files.pythonhosted.org/packages/46/6b/31920ea74c958ad93386f56bfb06760dfac1e7c2fbefd75115490c2ccf21/report-dh-0.9.2.tar.gz
+[2023-07-20 12:11:36] INFO root fetch - processPackages [busrt-worker]: Downloading https://files.pythonhosted.org/packages/53/9d/893a4c733cbd2b0b1109326927be6527cc94d4bc0cf7c52c27ee75f8652f/busrt_worker-0.1.2.tar.gz
+[2023-07-20 12:11:36] INFO root fetch - processPackages [basic-type-operations]: Downloading https://files.pythonhosted.org/packages/e1/79/3ed038262ce1d1c0cb5ff5a65a00fd0b2af5c6f6bab8a82d02639c59b541/basic_type_operations-0.0.2.tar.gz
+[2023-07-20 12:11:36] INFO root fetch - processPackages [auto-labeling-pipeline]: Downloading https://files.pythonhosted.org/packages/96/13/13a813c8725cf0ed9fe01cb06f23344cd53f295941b58f80f14806abc948/auto-labeling-pipeline-0.1.9.tar.gz
+[2023-07-20 12:11:36] INFO root fetch - processPackages [report-dh]: executing diffoscope
+[2023-07-20 12:11:36] INFO root fetch - processPackages [report-dh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/report-dh-0.9.1.tar.gz tmp/report-dh-0.9.2.tar.gz --markdown 20230720/r/report-dh/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-07-20 12:11:36] INFO root fetch - processPackages [tkintertools]: Downloading https://files.pythonhosted.org/packages/87/5d/cb6b387592d66d242d0dd20b6d9c08667d27b73db65d789b58d0a2416677/tkintertools-2.6.8.dev0.tar.gz
+[2023-07-20 12:11:36] INFO root fetch - processPackages [benimang]: Downloading https://files.pythonhosted.org/packages/01/11/8ecfa400ab1f3c601354b9c87919cee0a890790d2e531bf6f23895f19a72/benimang-0.4.1.tar.gz
+[2023-07-20 12:11:36] INFO root fetch - processPackages [busrt-worker]: executing diffoscope
+[2023-07-20 12:11:36] INFO root fetch - processPackages [busrt-worker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/busrt_worker-0.1.1.tar.gz tmp/busrt_worker-0.1.2.tar.gz --markdown 20230720/b/busrt-worker/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-20 12:11:36] INFO root fetch - processPackages [basic-type-operations]: executing diffoscope
+[2023-07-20 12:11:36] INFO root fetch - processPackages [basic-type-operations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/basic_type_operations-0.0.1-py3-none-any.whl.zip tmp/basic_type_operations-0.0.2.tar.gz --markdown 20230720/b/basic-type-operations/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-20 12:11:36] INFO root fetch - processPackages [pycore-utils]: Downloading https://files.pythonhosted.org/packages/58/8c/8a6f0bdecabc8c9c971961756d4332c60446006b2c749e55e6b6979e41bc/pycore-utils-0.0.9.tar.gz
+[2023-07-20 12:11:36] INFO root fetch - processPackages [benimang]: executing diffoscope
+[2023-07-20 12:11:36] INFO root fetch - processPackages [benimang]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/benimang-0.4.0.tar.gz tmp/benimang-0.4.1.tar.gz --markdown 20230720/b/benimang/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-07-20 12:11:36] INFO root fetch - processPackages [project-lighter]: Downloading https://files.pythonhosted.org/packages/17/d4/f5fc2d42da59218efc47a8c9dbebaad04ccca40db87150f9c963d0c06df8/project_lighter-0.0.2a8.tar.gz
+[2023-07-20 12:11:36] INFO root fetch - processPackages [auto-labeling-pipeline]: executing diffoscope
+[2023-07-20 12:11:36] INFO root fetch - processPackages [auto-labeling-pipeline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auto-labeling-pipeline-0.1.8.tar.gz tmp/auto-labeling-pipeline-0.1.9.tar.gz --markdown 20230720/a/auto-labeling-pipeline/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-20 12:11:36] INFO root fetch - processPackages [openedx-events]: Downloading https://files.pythonhosted.org/packages/34/06/070eaf7534192fbae02236c73cf46f01692bbe025da8e99f7bb91ebe21ff/openedx-events-8.3.0.tar.gz
+[2023-07-20 12:11:36] INFO root fetch - processPackages [pycore-utils]: executing diffoscope
+[2023-07-20 12:11:36] INFO root fetch - processPackages [pycore-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycore-utils-0.0.8.tar.gz tmp/pycore-utils-0.0.9.tar.gz --markdown 20230720/p/pycore-utils/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-20 12:11:36] INFO root fetch - processPackages [tkintertools]: executing diffoscope
+[2023-07-20 12:11:36] INFO root fetch - processPackages [tkintertools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tkintertools-2.6.7.dev1.tar.gz tmp/tkintertools-2.6.8.dev0.tar.gz --markdown 20230720/t/tkintertools/2.6.7.dev1-2.6.8.dev0/diff.md --exclude *.pyd
+[2023-07-20 12:11:36] INFO root fetch - processPackages [openedx-events]: executing diffoscope
+[2023-07-20 12:11:36] INFO root fetch - processPackages [openedx-events]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openedx-events-8.2.0.tar.gz tmp/openedx-events-8.3.0.tar.gz --markdown 20230720/o/openedx-events/8.2.0-8.3.0/diff.md --exclude *.pyd
+[2023-07-20 12:11:36] INFO root fetch - processPackages [project-lighter]: executing diffoscope
+[2023-07-20 12:11:36] INFO root fetch - processPackages [project-lighter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/project_lighter-0.0.2a7.tar.gz tmp/project_lighter-0.0.2a8.tar.gz --markdown 20230720/p/project-lighter/0.0.2a7-0.0.2a8/diff.md --exclude *.pyd
+[2023-07-20 12:11:37] INFO root fetch - processPackages [Pandora-Cloud]: Downloading https://files.pythonhosted.org/packages/72/7b/0e71664e17b4419378d33a8b363bf19c8d40f73c2c8fb7e0ab815da606c0/Pandora-Cloud-0.5.0.tar.gz
+[2023-07-20 12:11:37] INFO root fetch - processPackages [Pandora-Cloud]: executing diffoscope
+[2023-07-20 12:11:37] INFO root fetch - processPackages [Pandora-Cloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Pandora-Cloud-0.4.9.tar.gz tmp/Pandora-Cloud-0.5.0.tar.gz --markdown 20230720/P/Pandora-Cloud/0.4.9-0.5.0/diff.md --exclude *.pyd
+[2023-07-20 12:11:37] INFO root fetch - processPackages [report-dh]: Remove: archive file [/home/abi/fetcher/tmp/report-dh-0.9.1.tar.gz]
+[2023-07-20 12:11:37] INFO root fetch - processPackages [report-dh]: Remove: archive file [/home/abi/fetcher/tmp/report-dh-0.9.2.tar.gz]
+[2023-07-20 12:11:37] INFO root fetch - processPackages [report-dh]: Start processing: agentaction
+[2023-07-20 12:11:37] INFO root fetch - main [MainThread]: End processing [report-dh]: success
+[2023-07-20 12:11:37] INFO root fetch - processPackages [agentaction]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-20 12:11:37] INFO root fetch - processPackages [basic-type-operations]: Remove: archive file [/home/abi/fetcher/tmp/basic_type_operations-0.0.1-py3-none-any.whl.zip]
+[2023-07-20 12:11:37] INFO root fetch - processPackages [basic-type-operations]: Remove: archive file [/home/abi/fetcher/tmp/basic_type_operations-0.0.2.tar.gz]
+[2023-07-20 12:11:37] INFO root fetch - processPackages [basic-type-operations]: Start processing: pollination-annual-daylight
+[2023-07-20 12:11:37] INFO root fetch - main [MainThread]: End processing [basic-type-operations]: success
+[2023-07-20 12:11:37] INFO root fetch - processPackages [benimang]: Remove: archive file [/home/abi/fetcher/tmp/benimang-0.4.0.tar.gz]
+[2023-07-20 12:11:37] INFO root fetch - processPackages [benimang]: Remove: archive file [/home/abi/fetcher/tmp/benimang-0.4.1.tar.gz]
+[2023-07-20 12:11:37] INFO root fetch - processPackages [pollination-annual-daylight]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-07-20 12:11:37] INFO root fetch - processPackages [benimang]: Start processing: make-prg
+[2023-07-20 12:11:37] INFO root fetch - main [MainThread]: End processing [benimang]: success
+[2023-07-20 12:11:37] INFO root fetch - processPackages [agentaction]: Downloading https://files.pythonhosted.org/packages/fc/d0/1013dabc07c5ba15252729cc549dc3d0edfd2cc6e082fb6daf0828d7dc08/agentaction-0.1.0.tar.gz
+[2023-07-20 12:11:37] INFO root fetch - processPackages [make-prg]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-07-20 12:11:37] INFO root fetch - processPackages [busrt-worker]: Remove: archive file [/home/abi/fetcher/tmp/busrt_worker-0.1.1.tar.gz]
+[2023-07-20 12:11:37] INFO root fetch - processPackages [busrt-worker]: Remove: archive file [/home/abi/fetcher/tmp/busrt_worker-0.1.2.tar.gz]
+[2023-07-20 12:11:37] INFO root fetch - processPackages [busrt-worker]: Start processing: func2argparse
+[2023-07-20 12:11:37] INFO root fetch - main [MainThread]: End processing [busrt-worker]: success
+[2023-07-20 12:11:37] INFO root fetch - processPackages [pycore-utils]: Remove: archive file [/home/abi/fetcher/tmp/pycore-utils-0.0.8.tar.gz]
+[2023-07-20 12:11:37] INFO root fetch - processPackages [pycore-utils]: Remove: archive file [/home/abi/fetcher/tmp/pycore-utils-0.0.9.tar.gz]
+[2023-07-20 12:11:37] INFO root fetch - processPackages [pycore-utils]: Start processing: dm-reverb-nightly
+[2023-07-20 12:11:37] INFO root fetch - main [MainThread]: End processing [pycore-utils]: success
+[2023-07-20 12:11:38] INFO root fetch - processPackages [func2argparse]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-07-20 12:11:38] INFO root fetch - processPackages [dm-reverb-nightly]: New version: [0.9.0.dev20221207] Old Version: [0.9.0.dev20221206]
+[2023-07-20 12:11:38] INFO root fetch - processPackages [tkintertools]: Remove: archive file [/home/abi/fetcher/tmp/tkintertools-2.6.7.dev1.tar.gz]
+[2023-07-20 12:11:38] INFO root fetch - processPackages [tkintertools]: Remove: archive file [/home/abi/fetcher/tmp/tkintertools-2.6.8.dev0.tar.gz]
+[2023-07-20 12:11:38] INFO root fetch - processPackages [tkintertools]: Start processing: pollination-annual-daylight.full
+[2023-07-20 12:11:38] INFO root fetch - main [MainThread]: End processing [tkintertools]: success
+[2023-07-20 12:11:38] INFO root fetch - processPackages [pollination-annual-daylight]: Downloading https://files.pythonhosted.org/packages/84/2c/8efad4f9a84def4f540967d3f5d5a7b176697357ade3b81901f19f2f7d70/pollination-annual-daylight-0.9.8.tar.gz
+[2023-07-20 12:11:38] INFO root fetch - processPackages [auto-labeling-pipeline]: Remove: archive file [/home/abi/fetcher/tmp/auto-labeling-pipeline-0.1.8.tar.gz]
+[2023-07-20 12:11:38] INFO root fetch - processPackages [auto-labeling-pipeline]: Remove: archive file [/home/abi/fetcher/tmp/auto-labeling-pipeline-0.1.9.tar.gz]
+[2023-07-20 12:11:38] INFO root fetch - processPackages [auto-labeling-pipeline]: Start processing: bokeh
+[2023-07-20 12:11:38] INFO root fetch - main [MainThread]: End processing [auto-labeling-pipeline]: success
+[2023-07-20 12:11:38] INFO root fetch - processPackages [project-lighter]: Remove: archive file [/home/abi/fetcher/tmp/project_lighter-0.0.2a7.tar.gz]
+[2023-07-20 12:11:38] INFO root fetch - processPackages [project-lighter]: Remove: archive file [/home/abi/fetcher/tmp/project_lighter-0.0.2a8.tar.gz]
+[2023-07-20 12:11:38] INFO root fetch - main [MainThread]: End processing [project-lighter]: success
+[2023-07-20 12:11:38] INFO root fetch - processPackages [make-prg]: Downloading https://files.pythonhosted.org/packages/d2/89/6860b230df7ee13b388daa9e4378a91a406f7662b337d99bdb5c81f09256/make_prg-0.4.0.tar.gz
+[2023-07-20 12:11:38] INFO root fetch - processPackages [dm-reverb-nightly]: Downloading https://files.pythonhosted.org/packages/b4/60/e92fdb2c772dd865b56f7c50bfc1c4bffe5431b4007700cd760900e7aaf2/dm_reverb_nightly-0.9.0.dev20221206-cp39-cp39-manylinux2014_x86_64.whl
+[2023-07-20 12:11:38] INFO root fetch - processPackages [openedx-events]: Remove: archive file [/home/abi/fetcher/tmp/openedx-events-8.2.0.tar.gz]
+[2023-07-20 12:11:38] INFO root fetch - processPackages [openedx-events]: Remove: archive file [/home/abi/fetcher/tmp/openedx-events-8.3.0.tar.gz]
+[2023-07-20 12:11:38] INFO root fetch - main [MainThread]: End processing [openedx-events]: success
+[2023-07-20 12:11:38] INFO root fetch - processPackages [func2argparse]: Downloading https://files.pythonhosted.org/packages/2a/5d/08f68e77ca9f2e421d620e1123cf7600c2824fd1999124df8ab2d5451797/func2argparse-0.0.5.tar.gz
+[2023-07-20 12:11:38] INFO root fetch - processPackages [agentaction]: Downloading https://files.pythonhosted.org/packages/ad/5f/9bbab358bfd8f267f134d912e62ea39f065de7d559773d2a039e821397b2/agentaction-0.1.1.tar.gz
+[2023-07-20 12:11:38] INFO root fetch - processPackages [pollination-annual-daylight.full]: New version: [0.10.9] Old Version: [0.10.8]
+[2023-07-20 12:11:38] INFO root fetch - processPackages [bokeh]: New version: [3.3.0.dev1] Old Version: [3.2.1]
+[2023-07-20 12:11:38] WARNING root fetch - processPackages [make-prg]: Skipping package: exceeds size limit 15800303>=10485760
+[2023-07-20 12:11:38] INFO root fetch - main [MainThread]: End processing [make-prg] error
+[2023-07-20 12:11:38] INFO root fetch - processPackages [agentaction]: executing diffoscope
+[2023-07-20 12:11:38] INFO root fetch - processPackages [agentaction]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agentaction-0.1.0.tar.gz tmp/agentaction-0.1.1.tar.gz --markdown 20230720/a/agentaction/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-20 12:11:38] INFO root fetch - processPackages [pollination-annual-daylight.full]: Downloading https://files.pythonhosted.org/packages/ef/d5/8716000754bf19464b9fb583886db0bfb6af07ce7a01e73eb05346c2ac6e/pollination-annual-daylight.full-0.10.8.tar.gz
+[2023-07-20 12:11:38] INFO root fetch - processPackages [pollination-annual-daylight]: Downloading https://files.pythonhosted.org/packages/3f/e1/394fb4b8480edc7dea37f64330776b542e5453f9784b22f4e61e89bb4ecd/pollination-annual-daylight-0.9.9.tar.gz
+[2023-07-20 12:11:38] INFO root fetch - processPackages [bokeh]: Downloading https://files.pythonhosted.org/packages/cf/7f/ceb7f3949bd24b8df3ad1305f8a863ef4f862eb35fe8c83bd3b6415dbf00/bokeh-3.2.1.tar.gz
+[2023-07-20 12:11:38] INFO root fetch - processPackages [func2argparse]: Downloading https://files.pythonhosted.org/packages/3b/6e/3442e741130014732717dfa867f9cc1bc0d5e873b31b59abcafa56a76b1b/func2argparse-0.0.6.tar.gz
+[2023-07-20 12:11:38] INFO root fetch - processPackages [func2argparse]: executing diffoscope
+[2023-07-20 12:11:38] INFO root fetch - processPackages [func2argparse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/func2argparse-0.0.5.tar.gz tmp/func2argparse-0.0.6.tar.gz --markdown 20230720/f/func2argparse/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-07-20 12:11:38] INFO root fetch - processPackages [pollination-annual-daylight]: executing diffoscope
+[2023-07-20 12:11:38] INFO root fetch - processPackages [pollination-annual-daylight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pollination-annual-daylight-0.9.8.tar.gz tmp/pollination-annual-daylight-0.9.9.tar.gz --markdown 20230720/p/pollination-annual-daylight/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-07-20 12:11:38] INFO root fetch - processPackages [pollination-annual-daylight.full]: Downloading https://files.pythonhosted.org/packages/3d/de/97a382d989e44d75d2a677e4bbfc68ecc5f4c42240766d3be29e3db489e9/pollination-annual-daylight.full-0.10.9.tar.gz
+[2023-07-20 12:11:39] INFO root fetch - processPackages [pollination-annual-daylight.full]: executing diffoscope
+[2023-07-20 12:11:39] INFO root fetch - processPackages [pollination-annual-daylight.full]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pollination-annual-daylight.full-0.10.8.tar.gz tmp/pollination-annual-daylight.full-0.10.9.tar.gz --markdown 20230720/p/pollination-annual-daylight.full/0.10.8-0.10.9/diff.md --exclude *.pyd
+[2023-07-20 12:11:39] INFO root fetch - processPackages [agentaction]: Remove: archive file [/home/abi/fetcher/tmp/agentaction-0.1.0.tar.gz]
+[2023-07-20 12:11:39] INFO root fetch - processPackages [agentaction]: Remove: archive file [/home/abi/fetcher/tmp/agentaction-0.1.1.tar.gz]
+[2023-07-20 12:11:39] INFO root fetch - main [MainThread]: End processing [agentaction]: success
+[2023-07-20 12:11:39] INFO root fetch - processPackages [pollination-annual-daylight]: Remove: archive file [/home/abi/fetcher/tmp/pollination-annual-daylight-0.9.8.tar.gz]
+[2023-07-20 12:11:39] INFO root fetch - processPackages [pollination-annual-daylight]: Remove: archive file [/home/abi/fetcher/tmp/pollination-annual-daylight-0.9.9.tar.gz]
+[2023-07-20 12:11:39] INFO root fetch - main [MainThread]: End processing [pollination-annual-daylight]: success
+[2023-07-20 12:11:39] INFO root fetch - processPackages [func2argparse]: Remove: archive file [/home/abi/fetcher/tmp/func2argparse-0.0.5.tar.gz]
+[2023-07-20 12:11:39] INFO root fetch - processPackages [func2argparse]: Remove: archive file [/home/abi/fetcher/tmp/func2argparse-0.0.6.tar.gz]
+[2023-07-20 12:11:39] INFO root fetch - main [MainThread]: End processing [func2argparse]: success
+[2023-07-20 12:11:39] INFO root fetch - processPackages [bokeh]: Downloading https://files.pythonhosted.org/packages/96/a0/7f67e4032b1000fad41e820cecdc66ebccc3055cf39f47a13c266f150591/bokeh-3.3.0.dev1.tar.gz
+[2023-07-20 12:11:39] INFO root fetch - processPackages [pollination-annual-daylight.full]: Remove: archive file [/home/abi/fetcher/tmp/pollination-annual-daylight.full-0.10.8.tar.gz]
+[2023-07-20 12:11:39] INFO root fetch - processPackages [pollination-annual-daylight.full]: Remove: archive file [/home/abi/fetcher/tmp/pollination-annual-daylight.full-0.10.9.tar.gz]
+[2023-07-20 12:11:39] INFO root fetch - main [MainThread]: End processing [pollination-annual-daylight.full]: success
+[2023-07-20 12:11:40] INFO root fetch - processPackages [dm-reverb-nightly]: Downloading https://files.pythonhosted.org/packages/07/ba/e9ef4e61b606a17814023d4b0a99ebf04f48787449f89134eb770db70591/dm_reverb_nightly-0.9.0.dev20221207-cp39-cp39-manylinux2014_x86_64.whl
+[2023-07-20 12:11:40] INFO root fetch - processPackages [bokeh]: executing diffoscope
+[2023-07-20 12:11:40] INFO root fetch - processPackages [bokeh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bokeh-3.2.1.tar.gz tmp/bokeh-3.3.0.dev1.tar.gz --markdown 20230720/b/bokeh/3.2.1-3.3.0.dev1/diff.md --exclude *.pyd
+[2023-07-20 12:11:42] INFO root fetch - processPackages [dm-reverb-nightly]: executing diffoscope
+[2023-07-20 12:11:42] INFO root fetch - processPackages [dm-reverb-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dm_reverb_nightly-0.9.0.dev20221206-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/dm_reverb_nightly-0.9.0.dev20221207-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20230720/d/dm-reverb-nightly/0.9.0.dev20221206-0.9.0.dev20221207/diff.md --exclude *.pyd
+[2023-07-20 12:12:00] INFO root fetch - processPackages [Pandora-Cloud]: Remove: archive file [/home/abi/fetcher/tmp/Pandora-Cloud-0.4.9.tar.gz]
+[2023-07-20 12:12:00] INFO root fetch - processPackages [Pandora-Cloud]: Remove: archive file [/home/abi/fetcher/tmp/Pandora-Cloud-0.5.0.tar.gz]
+[2023-07-20 12:12:00] INFO root fetch - main [MainThread]: End processing [Pandora-Cloud]: success
+[2023-07-20 12:12:15] INFO root fetch - processPackages [dm-reverb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/dm_reverb_nightly-0.9.0.dev20221206-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2023-07-20 12:12:15] INFO root fetch - processPackages [dm-reverb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/dm_reverb_nightly-0.9.0.dev20221207-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2023-07-20 12:12:15] INFO root fetch - main [MainThread]: End processing [dm-reverb-nightly]: success
+[2023-07-20 12:12:31] INFO root fetch - processPackages [bokeh]: Remove: archive file [/home/abi/fetcher/tmp/bokeh-3.2.1.tar.gz]
+[2023-07-20 12:12:31] INFO root fetch - processPackages [bokeh]: Remove: archive file [/home/abi/fetcher/tmp/bokeh-3.3.0.dev1.tar.gz]
+[2023-07-20 12:12:31] INFO root fetch - main [MainThread]: End processing [bokeh]: success
+[2023-07-20 12:12:31] INFO root fetch - main [MainThread]: Store serial: [18964929]
