@@ -18085,3 +18085,111 @@ AssertionError: tmp/verify4py-test-0.1.7.tar.gz does not exist
 [2023-07-20 19:55:50] INFO root fetch - processPackages [moto]: Remove: archive file [/home/abi/fetcher/tmp/moto-4.1.9.dev9.tar.gz]
 [2023-07-20 19:55:50] INFO root fetch - main [MainThread]: End processing [moto]: success
 [2023-07-20 19:55:50] INFO root fetch - main [MainThread]: Store serial: [18970408]
+[2023-07-20 20:00:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18970408]
+[2023-07-20 20:00:59] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-07-20 20:00:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: deployfish
+[2023-07-20 20:00:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fixie-proto
+[2023-07-20 20:00:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: procastro
+[2023-07-20 20:00:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: PhyNetPy
+[2023-07-20 20:00:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: roblox-pyc
+[2023-07-20 20:00:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: python-on-whales
+[2023-07-20 20:00:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: music-assistant-frontend
+[2023-07-20 20:00:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: q2rad
+[2023-07-20 20:00:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pyblm
+[2023-07-20 20:00:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: acryl-datahub-airflow-plugin
+[2023-07-20 20:00:59] INFO root fetch - processPackages [PhyNetPy]: New version: [0.1.0] Old Version: [0.0.7]
+[2023-07-20 20:00:59] INFO root fetch - processPackages [procastro]: New version: [0.0.16] Old Version: [0.0.15]
+[2023-07-20 20:00:59] INFO root fetch - processPackages [pyblm]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-20 20:00:59] INFO root fetch - processPackages [music-assistant-frontend]: New version: [2.0.5] Old Version: [2.0.4]
+[2023-07-20 20:00:59] INFO root fetch - processPackages [fixie-proto]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-20 20:00:59] INFO root fetch - processPackages [roblox-pyc]: New version: [1.6.6.5a0] Old Version: [1.6.6.5.4]
+[2023-07-20 20:00:59] INFO root fetch - processPackages [deployfish]: New version: [1.9.6] Old Version: [1.9.5]
+[2023-07-20 20:00:59] INFO root fetch - processPackages [python-on-whales]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-07-20 20:00:59] INFO root fetch - processPackages [q2rad]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-07-20 20:00:59] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: New version: [0.9.6rc1] Old Version: [0.9.6rc0]
+[2023-07-20 20:00:59] INFO root fetch - processPackages [pyblm]: Downloading https://files.pythonhosted.org/packages/bb/21/e5aa35d6c0bdaff43a7d2bf27306c25a8d8f18323cad41637e283b6e9968/pyblm-0.1.1.tar.gz
+[2023-07-20 20:00:59] INFO root fetch - processPackages [music-assistant-frontend]: Downloading https://files.pythonhosted.org/packages/db/3d/395cff51c6c9d355e7c998b093f2090316975473a4abef5cc36cafb42180/music-assistant-frontend-2.0.4.tar.gz
+[2023-07-20 20:00:59] INFO root fetch - processPackages [roblox-pyc]: Downloading https://files.pythonhosted.org/packages/44/ab/2c1167a2d328570fcff41305068766f10c181301f2cd7a1f64f72287fa27/roblox-pyc-1.6.6.5.4.tar.gz
+[2023-07-20 20:00:59] INFO root fetch - processPackages [PhyNetPy]: Downloading https://files.pythonhosted.org/packages/12/5a/4771d05caf1f35a2bed8a225f0d0e5451d92ca18b69b5f38840265b5fd66/PhyNetPy-0.0.7.tar.gz
+[2023-07-20 20:00:59] INFO root fetch - processPackages [procastro]: Downloading https://files.pythonhosted.org/packages/17/8c/59b13730f092eb7710597f48b8205656ea68aec304d38d4c825a17e96a77/procastro-0.0.15.tar.gz
+[2023-07-20 20:00:59] INFO root fetch - processPackages [fixie-proto]: Downloading https://files.pythonhosted.org/packages/e7/31/17a95b086fbd7e279bc5c4f77b3d6ecbf319304da1093a9dc188225857bb/fixie-proto-0.1.0.tar.gz
+[2023-07-20 20:00:59] INFO root fetch - processPackages [deployfish]: Downloading https://files.pythonhosted.org/packages/9d/d7/c6216956d9be271f193368959212bc2df2a2991f5f538fc6949a9ffb5cf1/deployfish-1.9.5.tar.gz
+[2023-07-20 20:00:59] INFO root fetch - processPackages [python-on-whales]: Downloading https://files.pythonhosted.org/packages/0c/de/d0175a21add24a0aa116a24f4ad4a78b8304f3f520b6637d75dfbeccaf3c/python-on-whales-0.9.0.tar.gz
+[2023-07-20 20:00:59] INFO root fetch - processPackages [q2rad]: executing diffoscope
+[2023-07-20 20:00:59] INFO root fetch - processPackages [q2rad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/q2rad-0.1.98.tar.gz tmp/q2rad-0.1.99.tar.gz --markdown 20230720/q/q2rad/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-07-20 20:00:59] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: Downloading https://files.pythonhosted.org/packages/60/74/0b422dc91d4bd8d366dd7b7d0ec02d0dce8acb8fd091783a0270d02e5607/acryl-datahub-airflow-plugin-0.9.6rc0.tar.gz
+[2023-07-20 20:01:00] WARNING root fetch - processPackages [procastro]: Skipping package: exceeds size limit 11271519>=10485760
+[2023-07-20 20:01:00] INFO root fetch - processPackages [procastro]: Start processing: llamatune
+[2023-07-20 20:01:00] INFO root fetch - main [MainThread]: End processing [procastro] error
+[2023-07-20 20:01:00] INFO root fetch - processPackages [roblox-pyc]: Downloading https://files.pythonhosted.org/packages/59/75/7884ffaab86bf051065880fd8aefdfc8e3f2c34e7c9d4a8d352321ec57f8/roblox-pyc-1.6.6.5a0.tar.gz
+[2023-07-20 20:01:00] INFO root fetch - processPackages [llamatune]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-07-20 20:01:00] INFO root fetch - processPackages [pyblm]: Downloading https://files.pythonhosted.org/packages/25/df/a814f7f03b4ff70034d3b617a56163248ab390ac45ddbb6b9daebae42921/pyblm-0.1.2.tar.gz
+[2023-07-20 20:01:00] WARNING root fetch - processPackages [PhyNetPy]: fallback to get urls: [0.1.0]
+[2023-07-20 20:01:00] INFO root fetch - processPackages [roblox-pyc]: executing diffoscope
+[2023-07-20 20:01:00] INFO root fetch - processPackages [roblox-pyc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/roblox-pyc-1.6.6.5.4.tar.gz tmp/roblox-pyc-1.6.6.5a0.tar.gz --markdown 20230720/r/roblox-pyc/1.6.6.5.4-1.6.6.5a0/diff.md --exclude *.pyd
+[2023-07-20 20:01:00] INFO root fetch - processPackages [llamatune]: Downloading https://files.pythonhosted.org/packages/99/12/1750e050cec613f767b05becf7cd040f5206d5ffc0f3088bbec448f3a11e/llamatune-0.2.1.tar.gz
+[2023-07-20 20:01:00] INFO root fetch - processPackages [fixie-proto]: Downloading https://files.pythonhosted.org/packages/ea/b0/7da102c47a0f696c8b0c4dcafaac5aaa2dfdb28ac1932e70ff61c0f5ce5f/fixie-proto-0.1.1.tar.gz
+[2023-07-20 20:01:00] WARNING root fetch - processPackages [PhyNetPy]: None
+[2023-07-20 20:01:00] WARNING root fetch - processPackages [PhyNetPy]: None
+[2023-07-20 20:01:00] WARNING root fetch - processPackages [PhyNetPy]: unable to get url for both version [0.1.0]
+[2023-07-20 20:01:00] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: Downloading https://files.pythonhosted.org/packages/8c/ee/fa9c08b9f255db5385b46e09a7315f48f208b40d651a68bf9966b4745db4/acryl-datahub-airflow-plugin-0.9.6rc1.tar.gz
+[2023-07-20 20:01:00] INFO root fetch - processPackages [fixie-proto]: executing diffoscope
+[2023-07-20 20:01:00] INFO root fetch - processPackages [fixie-proto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fixie-proto-0.1.0.tar.gz tmp/fixie-proto-0.1.1.tar.gz --markdown 20230720/f/fixie-proto/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-20 20:01:00] INFO root fetch - processPackages [pyblm]: executing diffoscope
+[2023-07-20 20:01:00] INFO root fetch - processPackages [deployfish]: Downloading https://files.pythonhosted.org/packages/52/7d/9a175e9cf46a38849c3d62138417864d11754e457d39f248e23a1aa39c79/deployfish-1.9.6.tar.gz
+[2023-07-20 20:01:00] INFO root fetch - processPackages [pyblm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyblm-0.1.1.tar.gz tmp/pyblm-0.1.2.tar.gz --markdown 20230720/p/pyblm/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-20 20:01:00] INFO root fetch - processPackages [python-on-whales]: Downloading https://files.pythonhosted.org/packages/b9/5b/0086caaf50bcfe2ed377d292d379aa4c7b4cb19fda4fa69159452c73dccb/python-on-whales-0.9.1.tar.gz
+[2023-07-20 20:01:00] WARNING root fetch - processPackages [PhyNetPy]: None
+[2023-07-20 20:01:00] INFO root fetch - processPackages [PhyNetPy]: Start processing: acryl-datahub
+[2023-07-20 20:01:00] INFO root fetch - main [MainThread]: End processing [PhyNetPy] error
+[2023-07-20 20:01:00] INFO root fetch - processPackages [music-assistant-frontend]: Downloading https://files.pythonhosted.org/packages/9a/b8/c7cc56b49b54e07b8b31f95ffe338df2b6db9e302fc80dd9979d9bc5796f/music-assistant-frontend-2.0.5.tar.gz
+[2023-07-20 20:01:00] INFO root fetch - processPackages [llamatune]: Downloading https://files.pythonhosted.org/packages/63/06/2de577f4f45daaff34b3b7978855b14e1ee90afcb0d46dcaff75e6a40605/llamatune-0.2.2.tar.gz
+[2023-07-20 20:01:00] INFO root fetch - processPackages [acryl-datahub]: New version: [0.9.6rc1] Old Version: [0.9.6rc0]
+[2023-07-20 20:01:00] INFO root fetch - processPackages [q2rad]: Remove: archive file [/home/abi/fetcher/tmp/q2rad-0.1.98.tar.gz]
+[2023-07-20 20:01:00] INFO root fetch - processPackages [q2rad]: Remove: archive file [/home/abi/fetcher/tmp/q2rad-0.1.99.tar.gz]
+[2023-07-20 20:01:00] INFO root fetch - processPackages [q2rad]: Start processing: bitcoin-qrreader
+[2023-07-20 20:01:00] INFO root fetch - main [MainThread]: End processing [q2rad]: success
+[2023-07-20 20:01:00] INFO root fetch - processPackages [python-on-whales]: executing diffoscope
+[2023-07-20 20:01:00] INFO root fetch - processPackages [python-on-whales]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-on-whales-0.9.0.tar.gz tmp/python-on-whales-0.9.1.tar.gz --markdown 20230720/p/python-on-whales/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-07-20 20:01:00] WARNING root fetch - processPackages [bitcoin-qrreader]: Skipping, unable to determine old version
+[2023-07-20 20:01:00] INFO root fetch - processPackages [deployfish]: executing diffoscope
+[2023-07-20 20:01:00] INFO root fetch - processPackages [deployfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deployfish-1.9.5.tar.gz tmp/deployfish-1.9.6.tar.gz --markdown 20230720/d/deployfish/1.9.5-1.9.6/diff.md --exclude *.pyd
+[2023-07-20 20:01:00] INFO root fetch - main [MainThread]: End processing [bitcoin-qrreader] error
+[2023-07-20 20:01:00] INFO root fetch - processPackages [llamatune]: executing diffoscope
+[2023-07-20 20:01:00] INFO root fetch - processPackages [llamatune]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llamatune-0.2.1.tar.gz tmp/llamatune-0.2.2.tar.gz --markdown 20230720/l/llamatune/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-07-20 20:01:00] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: executing diffoscope
+[2023-07-20 20:01:00] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acryl-datahub-airflow-plugin-0.9.6rc0.tar.gz tmp/acryl-datahub-airflow-plugin-0.9.6rc1.tar.gz --markdown 20230720/a/acryl-datahub-airflow-plugin/0.9.6rc0-0.9.6rc1/diff.md --exclude *.pyd
+[2023-07-20 20:01:01] INFO root fetch - processPackages [roblox-pyc]: Remove: archive file [/home/abi/fetcher/tmp/roblox-pyc-1.6.6.5.4.tar.gz]
+[2023-07-20 20:01:01] INFO root fetch - processPackages [roblox-pyc]: Remove: archive file [/home/abi/fetcher/tmp/roblox-pyc-1.6.6.5a0.tar.gz]
+[2023-07-20 20:01:01] INFO root fetch - main [MainThread]: End processing [roblox-pyc]: success
+[2023-07-20 20:01:01] INFO root fetch - processPackages [acryl-datahub]: Downloading https://files.pythonhosted.org/packages/5c/93/a89204befbf5a41d498b9204bc4e597e57cf385fbbf058bd74b9e2cff691/acryl-datahub-0.9.6rc0.tar.gz
+[2023-07-20 20:01:01] INFO root fetch - processPackages [fixie-proto]: Remove: archive file [/home/abi/fetcher/tmp/fixie-proto-0.1.0.tar.gz]
+[2023-07-20 20:01:01] INFO root fetch - processPackages [fixie-proto]: Remove: archive file [/home/abi/fetcher/tmp/fixie-proto-0.1.1.tar.gz]
+[2023-07-20 20:01:01] INFO root fetch - main [MainThread]: End processing [fixie-proto]: success
+[2023-07-20 20:01:01] INFO root fetch - processPackages [music-assistant-frontend]: executing diffoscope
+[2023-07-20 20:01:01] INFO root fetch - processPackages [music-assistant-frontend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/music-assistant-frontend-2.0.4.tar.gz tmp/music-assistant-frontend-2.0.5.tar.gz --markdown 20230720/m/music-assistant-frontend/2.0.4-2.0.5/diff.md --exclude *.pyd
+[2023-07-20 20:01:01] INFO root fetch - processPackages [pyblm]: Remove: archive file [/home/abi/fetcher/tmp/pyblm-0.1.1.tar.gz]
+[2023-07-20 20:01:01] INFO root fetch - processPackages [pyblm]: Remove: archive file [/home/abi/fetcher/tmp/pyblm-0.1.2.tar.gz]
+[2023-07-20 20:01:01] INFO root fetch - main [MainThread]: End processing [pyblm]: success
+[2023-07-20 20:01:01] INFO root fetch - processPackages [llamatune]: Remove: archive file [/home/abi/fetcher/tmp/llamatune-0.2.1.tar.gz]
+[2023-07-20 20:01:01] INFO root fetch - processPackages [llamatune]: Remove: archive file [/home/abi/fetcher/tmp/llamatune-0.2.2.tar.gz]
+[2023-07-20 20:01:01] INFO root fetch - main [MainThread]: End processing [llamatune]: success
+[2023-07-20 20:01:01] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: Remove: archive file [/home/abi/fetcher/tmp/acryl-datahub-airflow-plugin-0.9.6rc0.tar.gz]
+[2023-07-20 20:01:01] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: Remove: archive file [/home/abi/fetcher/tmp/acryl-datahub-airflow-plugin-0.9.6rc1.tar.gz]
+[2023-07-20 20:01:01] INFO root fetch - main [MainThread]: End processing [acryl-datahub-airflow-plugin]: success
+[2023-07-20 20:01:02] INFO root fetch - processPackages [python-on-whales]: Remove: archive file [/home/abi/fetcher/tmp/python-on-whales-0.9.0.tar.gz]
+[2023-07-20 20:01:02] INFO root fetch - processPackages [python-on-whales]: Remove: archive file [/home/abi/fetcher/tmp/python-on-whales-0.9.1.tar.gz]
+[2023-07-20 20:01:02] INFO root fetch - main [MainThread]: End processing [python-on-whales]: success
+[2023-07-20 20:01:02] INFO root fetch - processPackages [deployfish]: Remove: archive file [/home/abi/fetcher/tmp/deployfish-1.9.5.tar.gz]
+[2023-07-20 20:01:02] INFO root fetch - processPackages [deployfish]: Remove: archive file [/home/abi/fetcher/tmp/deployfish-1.9.6.tar.gz]
+[2023-07-20 20:01:02] INFO root fetch - main [MainThread]: End processing [deployfish]: success
+[2023-07-20 20:01:02] INFO root fetch - processPackages [acryl-datahub]: Downloading https://files.pythonhosted.org/packages/ad/82/42882429f560fe5f9e20c6f3ee4d421b566a61c843e944997be820243708/acryl-datahub-0.9.6rc1.tar.gz
+[2023-07-20 20:01:02] INFO root fetch - processPackages [acryl-datahub]: executing diffoscope
+[2023-07-20 20:01:02] INFO root fetch - processPackages [acryl-datahub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acryl-datahub-0.9.6rc0.tar.gz tmp/acryl-datahub-0.9.6rc1.tar.gz --markdown 20230720/a/acryl-datahub/0.9.6rc0-0.9.6rc1/diff.md --exclude *.pyd
+[2023-07-20 20:01:05] INFO root fetch - processPackages [acryl-datahub]: Remove: archive file [/home/abi/fetcher/tmp/acryl-datahub-0.9.6rc0.tar.gz]
+[2023-07-20 20:01:05] INFO root fetch - processPackages [acryl-datahub]: Remove: archive file [/home/abi/fetcher/tmp/acryl-datahub-0.9.6rc1.tar.gz]
+[2023-07-20 20:01:05] INFO root fetch - main [MainThread]: End processing [acryl-datahub]: success
+[2023-07-20 20:01:16] INFO root fetch - processPackages [music-assistant-frontend]: Remove: archive file [/home/abi/fetcher/tmp/music-assistant-frontend-2.0.4.tar.gz]
+[2023-07-20 20:01:16] INFO root fetch - processPackages [music-assistant-frontend]: Remove: archive file [/home/abi/fetcher/tmp/music-assistant-frontend-2.0.5.tar.gz]
+[2023-07-20 20:01:16] INFO root fetch - main [MainThread]: End processing [music-assistant-frontend]: success
+[2023-07-20 20:01:16] INFO root fetch - main [MainThread]: Store serial: [18970455]
