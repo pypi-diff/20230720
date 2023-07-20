@@ -17034,3 +17034,98 @@ AssertionError: tmp/verify4py-test-0.1.7.tar.gz does not exist
 [2023-07-20 19:08:16] INFO root fetch - processPackages [keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras_nightly-2.9.0.dev2022033107-py2.py3-none-any.whl.zip]
 [2023-07-20 19:08:16] INFO root fetch - main [MainThread]: End processing [keras-nightly]: success
 [2023-07-20 19:08:16] INFO root fetch - main [MainThread]: Store serial: [18969988]
+[2023-07-20 19:13:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18969988]
+[2023-07-20 19:13:26] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-07-20 19:13:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nevergrad
+[2023-07-20 19:13:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dcicsnovault
+[2023-07-20 19:13:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sf-hamilton
+[2023-07-20 19:13:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: orbit-component-dbshell
+[2023-07-20 19:13:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: evm-trace
+[2023-07-20 19:13:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: petals
+[2023-07-20 19:13:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo14-addon-product-secondary-unit
+[2023-07-20 19:13:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: EnvisionRiskRaaS
+[2023-07-20 19:13:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: camtools
+[2023-07-20 19:13:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: llamaapi
+[2023-07-20 19:13:27] INFO root fetch - processPackages [evm-trace]: New version: [0.1.0a9] Old Version: [0.1.0a8]
+[2023-07-20 19:13:27] INFO root fetch - processPackages [orbit-component-dbshell]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-07-20 19:13:27] INFO root fetch - processPackages [petals]: New version: [2.0.0.post3] Old Version: [2.0.0.post2]
+[2023-07-20 19:13:27] INFO root fetch - processPackages [camtools]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-20 19:13:27] INFO root fetch - processPackages [EnvisionRiskRaaS]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-07-20 19:13:27] INFO root fetch - processPackages [sf-hamilton]: New version: [1.9.0rc0] Old Version: [1.9.0]
+[2023-07-20 19:13:27] WARNING root fetch - processPackages [llamaapi]: Skipping, unable to determine old version
+[2023-07-20 19:13:27] INFO root fetch - processPackages [llamaapi]: Start processing: tiledb-prompt-options
+[2023-07-20 19:13:27] INFO root fetch - main [MainThread]: End processing [llamaapi] error
+[2023-07-20 19:13:27] INFO root fetch - processPackages [dcicsnovault]: New version: [8.2.0.1b5] Old Version: [8.2.0.1b46]
+[2023-07-20 19:13:27] INFO root fetch - processPackages [nevergrad]: New version: [0.8.0] Old Version: [0.7.0]
+[2023-07-20 19:13:27] INFO root fetch - processPackages [odoo14-addon-product-secondary-unit]: New version: [14.0.1.0.4.dev9] Old Version: [14.0.1.0.4.dev7]
+[2023-07-20 19:13:27] INFO root fetch - processPackages [petals]: Downloading https://files.pythonhosted.org/packages/85/4d/4d3d4df41cf95c36d9fac4bcdf534eb29a77e9a979a4f4de96a48b4bd88f/petals-2.0.0.post2.tar.gz
+[2023-07-20 19:13:27] INFO root fetch - processPackages [evm-trace]: Downloading https://files.pythonhosted.org/packages/b2/71/a9e8de12dd7f80a240a35c7c0813dbbe17208b0bea253cefe25f9585e2fe/evm-trace-0.1.0a8.tar.gz
+[2023-07-20 19:13:27] INFO root fetch - processPackages [orbit-component-dbshell]: Downloading https://files.pythonhosted.org/packages/34/5a/e4fa7c68495024c8ab10b858fc6e02942d947b36566243791b66debd9215/orbit_component_dbshell-1.0.5.tar.gz
+[2023-07-20 19:13:27] INFO root fetch - processPackages [tiledb-prompt-options]: New version: [1.1.0a0] Old Version: [1.0.9]
+[2023-07-20 19:13:27] INFO root fetch - processPackages [EnvisionRiskRaaS]: Downloading https://files.pythonhosted.org/packages/47/9c/60351855c6f2877e28f5f4a8e45dc917bbe0528c058da1538baebeb71133/envisionriskraas-1.0.3.tar.gz
+[2023-07-20 19:13:27] INFO root fetch - processPackages [dcicsnovault]: Downloading https://files.pythonhosted.org/packages/ee/51/fddd991a41d8314185e79dba22f78242d43ea666af13f18cd961eef09c9b/dcicsnovault-8.2.0.1b46.tar.gz
+[2023-07-20 19:13:27] INFO root fetch - processPackages [camtools]: Downloading https://files.pythonhosted.org/packages/01/a3/f94b089a47a490904a05619529d69344a517493a1be28fff33e4a0ca6338/camtools-0.1.1.tar.gz
+[2023-07-20 19:13:27] INFO root fetch - processPackages [sf-hamilton]: Downloading https://files.pythonhosted.org/packages/d4/83/0202dcc740cf2448539aeb1ff959afb2dcb25e6b450e1ef9cca750253bda/sf-hamilton-1.9.0.tar.gz
+[2023-07-20 19:13:27] INFO root fetch - processPackages [nevergrad]: Downloading https://files.pythonhosted.org/packages/00/3d/48a9a458669a6fb094a3ef79e0e6d491bcef3ade425ffa8b6ccd3afeb1a9/nevergrad-0.7.0.tar.gz
+[2023-07-20 19:13:27] INFO root fetch - processPackages [odoo14-addon-product-secondary-unit]: Downloading https://files.pythonhosted.org/packages/2f/92/917dd54d8c77a22e37d3d22b0701bee5618303312f5f8df019cf47519e72/odoo14_addon_product_secondary_unit-14.0.1.0.4.dev7-py3-none-any.whl
+[2023-07-20 19:13:27] INFO root fetch - processPackages [tiledb-prompt-options]: Downloading https://files.pythonhosted.org/packages/f8/5f/602f99e72be1d992437d4844a28027ab4fcf344b7bead32ddef38db8a2cb/tiledb_prompt_options-1.0.9-py2.py3-none-any.whl
+[2023-07-20 19:13:27] INFO root fetch - processPackages [petals]: Downloading https://files.pythonhosted.org/packages/2a/57/f106d3d364590b3b75f847b124b016d66940872a3926e0b45772790cb1a5/petals-2.0.0.post3.tar.gz
+[2023-07-20 19:13:27] INFO root fetch - processPackages [EnvisionRiskRaaS]: Downloading https://files.pythonhosted.org/packages/00/8c/38643952a5d68541a5b07d9c9d8bd2a1f21717b28300a5499c8a2b8a41e4/envisionriskraas-1.0.4.tar.gz
+[2023-07-20 19:13:27] INFO root fetch - processPackages [petals]: executing diffoscope
+[2023-07-20 19:13:27] INFO root fetch - processPackages [petals]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/petals-2.0.0.post2.tar.gz tmp/petals-2.0.0.post3.tar.gz --markdown 20230720/p/petals/2.0.0.post2-2.0.0.post3/diff.md --exclude *.pyd
+[2023-07-20 19:13:27] INFO root fetch - processPackages [orbit-component-dbshell]: Downloading https://files.pythonhosted.org/packages/48/d6/958e423d645e31b6114c8db78504a82980545087a7df83c15768b5e56432/orbit_component_dbshell-1.0.6.tar.gz
+[2023-07-20 19:13:27] INFO root fetch - processPackages [camtools]: Downloading https://files.pythonhosted.org/packages/76/af/24c3dd7224f5687a7b02b21c8d41df8806fa0fedfb5d4df63994b52afa3e/camtools-0.1.2.tar.gz
+[2023-07-20 19:13:27] INFO root fetch - processPackages [evm-trace]: Downloading https://files.pythonhosted.org/packages/d9/bd/116463d0e738d5507236282d010bf49dd0b965498e0225c7d3ea87ec3a4c/evm-trace-0.1.0a9.tar.gz
+[2023-07-20 19:13:27] INFO root fetch - processPackages [EnvisionRiskRaaS]: executing diffoscope
+[2023-07-20 19:13:27] INFO root fetch - processPackages [EnvisionRiskRaaS]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/envisionriskraas-1.0.3.tar.gz tmp/envisionriskraas-1.0.4.tar.gz --markdown 20230720/E/EnvisionRiskRaaS/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-07-20 19:13:28] INFO root fetch - processPackages [dcicsnovault]: executing diffoscope
+[2023-07-20 19:13:28] INFO root fetch - processPackages [dcicsnovault]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dcicsnovault-8.2.0.1b46.tar.gz tmp/dcicsnovault-8.2.0.1b5.tar.gz --markdown 20230720/d/dcicsnovault/8.2.0.1b46-8.2.0.1b5/diff.md --exclude *.pyd
+[2023-07-20 19:13:28] INFO root fetch - processPackages [orbit-component-dbshell]: executing diffoscope
+[2023-07-20 19:13:28] INFO root fetch - processPackages [orbit-component-dbshell]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/orbit_component_dbshell-1.0.5.tar.gz tmp/orbit_component_dbshell-1.0.6.tar.gz --markdown 20230720/o/orbit-component-dbshell/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-07-20 19:13:28] INFO root fetch - processPackages [odoo14-addon-product-secondary-unit]: Downloading https://files.pythonhosted.org/packages/71/37/f9ea658bd8ee823ba8fb476707eb22946bd3bbfeb39c9504f7cd00088db4/odoo14_addon_product_secondary_unit-14.0.1.0.4.dev9-py3-none-any.whl
+[2023-07-20 19:13:28] INFO root fetch - processPackages [sf-hamilton]: Downloading https://files.pythonhosted.org/packages/0e/64/cbed9bd614006aa69c7944b12cf92ee3daa8c7cf116669988c00b6e00ce7/sf-hamilton-1.9.0rc0.tar.gz
+[2023-07-20 19:13:28] INFO root fetch - processPackages [camtools]: executing diffoscope
+[2023-07-20 19:13:28] INFO root fetch - processPackages [camtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/camtools-0.1.1.tar.gz tmp/camtools-0.1.2.tar.gz --markdown 20230720/c/camtools/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-20 19:13:28] INFO root fetch - processPackages [evm-trace]: executing diffoscope
+[2023-07-20 19:13:28] INFO root fetch - processPackages [evm-trace]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/evm-trace-0.1.0a8.tar.gz tmp/evm-trace-0.1.0a9.tar.gz --markdown 20230720/e/evm-trace/0.1.0a8-0.1.0a9/diff.md --exclude *.pyd
+[2023-07-20 19:13:28] INFO root fetch - processPackages [tiledb-prompt-options]: Downloading https://files.pythonhosted.org/packages/fb/f3/81861466fd7699e7d0434beae151311994e0d82a3e39a17eec8be606cfe4/tiledb_prompt_options-1.1.0a0-py2.py3-none-any.whl
+[2023-07-20 19:13:28] INFO root fetch - processPackages [odoo14-addon-product-secondary-unit]: executing diffoscope
+[2023-07-20 19:13:28] INFO root fetch - processPackages [odoo14-addon-product-secondary-unit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_product_secondary_unit-14.0.1.0.4.dev7-py3-none-any.whl.zip tmp/odoo14_addon_product_secondary_unit-14.0.1.0.4.dev9-py3-none-any.whl.zip --markdown 20230720/o/odoo14-addon-product-secondary-unit/14.0.1.0.4.dev7-14.0.1.0.4.dev9/diff.md --exclude *.pyd
+[2023-07-20 19:13:28] INFO root fetch - processPackages [sf-hamilton]: executing diffoscope
+[2023-07-20 19:13:28] INFO root fetch - processPackages [sf-hamilton]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sf-hamilton-1.9.0.tar.gz tmp/sf-hamilton-1.9.0rc0.tar.gz --markdown 20230720/s/sf-hamilton/1.9.0-1.9.0rc0/diff.md --exclude *.pyd
+[2023-07-20 19:13:28] INFO root fetch - processPackages [nevergrad]: Downloading https://files.pythonhosted.org/packages/8a/10/750b244276409077b47bc9a733ad6190a52b27a1119a21c6a08935418998/nevergrad-0.8.0.tar.gz
+[2023-07-20 19:13:28] INFO root fetch - processPackages [tiledb-prompt-options]: executing diffoscope
+[2023-07-20 19:13:28] INFO root fetch - processPackages [tiledb-prompt-options]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tiledb_prompt_options-1.0.9-py2.py3-none-any.whl.zip tmp/tiledb_prompt_options-1.1.0a0-py2.py3-none-any.whl.zip --markdown 20230720/t/tiledb-prompt-options/1.0.9-1.1.0a0/diff.md --exclude *.pyd
+[2023-07-20 19:13:28] INFO root fetch - processPackages [nevergrad]: executing diffoscope
+[2023-07-20 19:13:28] INFO root fetch - processPackages [nevergrad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nevergrad-0.7.0.tar.gz tmp/nevergrad-0.8.0.tar.gz --markdown 20230720/n/nevergrad/0.7.0-0.8.0/diff.md --exclude *.pyd
+[2023-07-20 19:13:29] INFO root fetch - processPackages [EnvisionRiskRaaS]: Remove: archive file [/home/abi/fetcher/tmp/envisionriskraas-1.0.3.tar.gz]
+[2023-07-20 19:13:29] INFO root fetch - processPackages [EnvisionRiskRaaS]: Remove: archive file [/home/abi/fetcher/tmp/envisionriskraas-1.0.4.tar.gz]
+[2023-07-20 19:13:29] INFO root fetch - main [MainThread]: End processing [EnvisionRiskRaaS]: success
+[2023-07-20 19:13:29] INFO root fetch - processPackages [dcicsnovault]: Remove: archive file [/home/abi/fetcher/tmp/dcicsnovault-8.2.0.1b46.tar.gz]
+[2023-07-20 19:13:29] INFO root fetch - processPackages [dcicsnovault]: Remove: archive file [/home/abi/fetcher/tmp/dcicsnovault-8.2.0.1b5.tar.gz]
+[2023-07-20 19:13:29] INFO root fetch - main [MainThread]: End processing [dcicsnovault]: success
+[2023-07-20 19:13:29] INFO root fetch - processPackages [orbit-component-dbshell]: Remove: archive file [/home/abi/fetcher/tmp/orbit_component_dbshell-1.0.5.tar.gz]
+[2023-07-20 19:13:29] INFO root fetch - processPackages [orbit-component-dbshell]: Remove: archive file [/home/abi/fetcher/tmp/orbit_component_dbshell-1.0.6.tar.gz]
+[2023-07-20 19:13:29] INFO root fetch - main [MainThread]: End processing [orbit-component-dbshell]: success
+[2023-07-20 19:13:29] INFO root fetch - processPackages [petals]: Remove: archive file [/home/abi/fetcher/tmp/petals-2.0.0.post2.tar.gz]
+[2023-07-20 19:13:29] INFO root fetch - processPackages [petals]: Remove: archive file [/home/abi/fetcher/tmp/petals-2.0.0.post3.tar.gz]
+[2023-07-20 19:13:29] INFO root fetch - main [MainThread]: End processing [petals]: success
+[2023-07-20 19:13:29] INFO root fetch - processPackages [odoo14-addon-product-secondary-unit]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_product_secondary_unit-14.0.1.0.4.dev7-py3-none-any.whl.zip]
+[2023-07-20 19:13:29] INFO root fetch - processPackages [odoo14-addon-product-secondary-unit]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_product_secondary_unit-14.0.1.0.4.dev9-py3-none-any.whl.zip]
+[2023-07-20 19:13:29] INFO root fetch - main [MainThread]: End processing [odoo14-addon-product-secondary-unit]: success
+[2023-07-20 19:13:29] INFO root fetch - processPackages [evm-trace]: Remove: archive file [/home/abi/fetcher/tmp/evm-trace-0.1.0a8.tar.gz]
+[2023-07-20 19:13:29] INFO root fetch - processPackages [evm-trace]: Remove: archive file [/home/abi/fetcher/tmp/evm-trace-0.1.0a9.tar.gz]
+[2023-07-20 19:13:29] INFO root fetch - main [MainThread]: End processing [evm-trace]: success
+[2023-07-20 19:13:29] INFO root fetch - processPackages [camtools]: Remove: archive file [/home/abi/fetcher/tmp/camtools-0.1.1.tar.gz]
+[2023-07-20 19:13:29] INFO root fetch - processPackages [camtools]: Remove: archive file [/home/abi/fetcher/tmp/camtools-0.1.2.tar.gz]
+[2023-07-20 19:13:29] INFO root fetch - main [MainThread]: End processing [camtools]: success
+[2023-07-20 19:13:30] INFO root fetch - processPackages [sf-hamilton]: Remove: archive file [/home/abi/fetcher/tmp/sf-hamilton-1.9.0.tar.gz]
+[2023-07-20 19:13:30] INFO root fetch - processPackages [sf-hamilton]: Remove: archive file [/home/abi/fetcher/tmp/sf-hamilton-1.9.0rc0.tar.gz]
+[2023-07-20 19:13:30] INFO root fetch - main [MainThread]: End processing [sf-hamilton]: success
+[2023-07-20 19:13:30] INFO root fetch - processPackages [tiledb-prompt-options]: Remove: archive file [/home/abi/fetcher/tmp/tiledb_prompt_options-1.0.9-py2.py3-none-any.whl.zip]
+[2023-07-20 19:13:30] INFO root fetch - processPackages [tiledb-prompt-options]: Remove: archive file [/home/abi/fetcher/tmp/tiledb_prompt_options-1.1.0a0-py2.py3-none-any.whl.zip]
+[2023-07-20 19:13:30] INFO root fetch - main [MainThread]: End processing [tiledb-prompt-options]: success
+[2023-07-20 19:13:30] INFO root fetch - processPackages [nevergrad]: Remove: archive file [/home/abi/fetcher/tmp/nevergrad-0.7.0.tar.gz]
+[2023-07-20 19:13:30] INFO root fetch - processPackages [nevergrad]: Remove: archive file [/home/abi/fetcher/tmp/nevergrad-0.8.0.tar.gz]
+[2023-07-20 19:13:30] INFO root fetch - main [MainThread]: End processing [nevergrad]: success
+[2023-07-20 19:13:30] INFO root fetch - main [MainThread]: Store serial: [18970021]
