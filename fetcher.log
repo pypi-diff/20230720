@@ -13759,3 +13759,791 @@ AssertionError: tmp/verify4py-test-0.1.7.tar.gz does not exist
 [2023-07-20 17:18:05] INFO root fetch - processPackages [types-six]: Remove: archive file [/home/abi/fetcher/tmp/types-six-1.16.9.tar.gz]
 [2023-07-20 17:18:05] INFO root fetch - main [MainThread]: End processing [types-six]: success
 [2023-07-20 17:18:05] INFO root fetch - main [MainThread]: Store serial: [18968723]
+[2023-07-20 17:23:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18968723]
+[2023-07-20 17:23:15] INFO root fetch - main [MainThread]: Found 89 changed packages
+[2023-07-20 17:23:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: types-six
+[2023-07-20 17:23:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: types-mypy-extensions
+[2023-07-20 17:23:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: types-zstd
+[2023-07-20 17:23:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: types-pyfarmhash
+[2023-07-20 17:23:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: types-retry
+[2023-07-20 17:23:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: types-pluggy
+[2023-07-20 17:23:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: types-parsimonious
+[2023-07-20 17:23:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: types-zxcvbn
+[2023-07-20 17:23:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: types-pyvmomi
+[2023-07-20 17:23:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: devvio-util
+[2023-07-20 17:23:15] INFO root fetch - processPackages [types-mypy-extensions]: New version: [1.0.0.4] Old Version: [1.0.0.3]
+[2023-07-20 17:23:15] INFO root fetch - processPackages [devvio-util]: New version: [1.6.1] Old Version: [1.6.0]
+[2023-07-20 17:23:15] INFO root fetch - processPackages [types-six]: New version: [1.16.9] Old Version: [1.16.8]
+[2023-07-20 17:23:15] INFO root fetch - processPackages [types-pyfarmhash]: New version: [0.3.1.2] Old Version: [0.3.1.1]
+[2023-07-20 17:23:15] INFO root fetch - processPackages [types-retry]: New version: [0.9.9.4] Old Version: [0.9.9.3]
+[2023-07-20 17:23:15] INFO root fetch - processPackages [types-pluggy]: New version: [1.2.0.1] Old Version: [1.2.0.0]
+[2023-07-20 17:23:15] INFO root fetch - processPackages [types-zstd]: New version: [1.5.0.3] Old Version: [1.5.0.2]
+[2023-07-20 17:23:15] INFO root fetch - processPackages [types-pyvmomi]: New version: [8.0.0.6] Old Version: [8.0.0.5]
+[2023-07-20 17:23:15] INFO root fetch - processPackages [types-zxcvbn]: New version: [4.4.1.6] Old Version: [4.4.1.5]
+[2023-07-20 17:23:15] INFO root fetch - processPackages [types-parsimonious]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-07-20 17:23:15] INFO root fetch - processPackages [types-pyfarmhash]: Downloading https://files.pythonhosted.org/packages/34/f1/4f801f3187248dfa6f4e7c2f017c6093c2fb6c58d8052bf7c4de31dc675a/types-pyfarmhash-0.3.1.1.tar.gz
+[2023-07-20 17:23:15] INFO root fetch - processPackages [types-six]: Downloading https://files.pythonhosted.org/packages/ab/8b/b2c5573a02ca648d1ba0a11921a04d55eaecdb0e21b030d678ef4b4bef4d/types-six-1.16.8.tar.gz
+[2023-07-20 17:23:15] INFO root fetch - processPackages [types-pluggy]: Downloading https://files.pythonhosted.org/packages/e6/30/cd6ce11f094ebe3548ca5d2e112e12203e0610491207e41a5b1248bbd5d3/types-pluggy-1.2.0.0.tar.gz
+[2023-07-20 17:23:15] INFO root fetch - processPackages [types-mypy-extensions]: Downloading https://files.pythonhosted.org/packages/aa/db/5fe5ded4cf3aaefca461432c97f17e25c9bde2bb866fee690635423023b2/types-mypy-extensions-1.0.0.3.tar.gz
+[2023-07-20 17:23:15] INFO root fetch - processPackages [devvio-util]: Downloading https://files.pythonhosted.org/packages/40/ca/af0ec67073d219b9dc2e5e2f3df7449655b1b34260ded3d7e0406dab2f99/devvio_util-1.6.0.tar.gz
+[2023-07-20 17:23:15] INFO root fetch - processPackages [types-retry]: Downloading https://files.pythonhosted.org/packages/87/59/9ed70532dccd7e3ca4a4e3679d8ccd3f12c3a7ed6845976c9316974fd526/types-retry-0.9.9.3.tar.gz
+[2023-07-20 17:23:15] INFO root fetch - processPackages [types-zxcvbn]: Downloading https://files.pythonhosted.org/packages/e8/c7/2a0c706ba16f4c0985ae4ccef5c2407d9de98112623f988f3d0b824fed3e/types-zxcvbn-4.4.1.5.tar.gz
+[2023-07-20 17:23:15] INFO root fetch - processPackages [types-pyvmomi]: Downloading https://files.pythonhosted.org/packages/c5/02/a65e9bf709d4db2fb505684fb4c6b97f344ca87eb9562816e03ccdbb53c4/types-pyvmomi-8.0.0.5.tar.gz
+[2023-07-20 17:23:16] INFO root fetch - processPackages [types-parsimonious]: Downloading https://files.pythonhosted.org/packages/59/ff/062b7a6f5651df04fc8d584234bd4b9d2edd7695e71189c439c414a13368/types-parsimonious-0.9.0.tar.gz
+[2023-07-20 17:23:16] INFO root fetch - processPackages [types-zstd]: Downloading https://files.pythonhosted.org/packages/95/17/261c731dad8981609869ee2782b3015f0045489e1f8501ebb116fba4f799/types-zstd-1.5.0.2.tar.gz
+[2023-07-20 17:23:16] INFO root fetch - processPackages [types-six]: Downloading https://files.pythonhosted.org/packages/91/fb/5e27e5be75b26805676d55111e9bb23409bae2660943712c7ff2ecfa1286/types-six-1.16.9.tar.gz
+[2023-07-20 17:23:16] INFO root fetch - processPackages [types-pluggy]: Downloading https://files.pythonhosted.org/packages/e4/f0/fdb21faa94c93fc335d5678357acfab47981a1d39b36d78f5f40ee461570/types-pluggy-1.2.0.1.tar.gz
+[2023-07-20 17:23:16] INFO root fetch - processPackages [types-pyfarmhash]: Downloading https://files.pythonhosted.org/packages/bd/f1/d143dcbc2eb5d5df1e359d10662150c053c97021e6894ffe08ebed18f4a5/types-pyfarmhash-0.3.1.2.tar.gz
+[2023-07-20 17:23:16] INFO root fetch - processPackages [types-six]: executing diffoscope
+[2023-07-20 17:23:16] INFO root fetch - processPackages [types-six]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-six-1.16.8.tar.gz tmp/types-six-1.16.9.tar.gz --markdown 20230720/t/types-six/1.16.8-1.16.9/diff.md --exclude *.pyd
+[2023-07-20 17:23:16] INFO root fetch - processPackages [types-zxcvbn]: Downloading https://files.pythonhosted.org/packages/9f/95/b78cb816a975ac9ccd317ff6ed74f71e63f2ead1e7ca56e3d6d121dc8bcf/types-zxcvbn-4.4.1.6.tar.gz
+[2023-07-20 17:23:16] INFO root fetch - processPackages [types-mypy-extensions]: Downloading https://files.pythonhosted.org/packages/05/c0/363113967a715f93024c8059fae17802395e5815896e716c18489a8a75ce/types-mypy-extensions-1.0.0.4.tar.gz
+[2023-07-20 17:23:16] INFO root fetch - processPackages [types-retry]: Downloading https://files.pythonhosted.org/packages/f3/c5/7f48799465df1b0bdada78e8c62d34ca8b2b9c9b89613ad8288e3c69e513/types-retry-0.9.9.4.tar.gz
+[2023-07-20 17:23:16] INFO root fetch - processPackages [types-pyvmomi]: Downloading https://files.pythonhosted.org/packages/d5/ea/d2c4205bee659972b54225f7ab631a542e5fe6944510eccebd0b45afcf30/types-pyvmomi-8.0.0.6.tar.gz
+[2023-07-20 17:23:16] INFO root fetch - processPackages [devvio-util]: Downloading https://files.pythonhosted.org/packages/6a/f2/6ad155b76be04867d0e71abaa84a07092b7fa8b5a8fc438ce47f66e639d6/devvio_util-1.6.1.tar.gz
+[2023-07-20 17:23:16] INFO root fetch - processPackages [types-zstd]: Downloading https://files.pythonhosted.org/packages/94/cd/0ab9df7914ab61c0d86b19a88173ea82149daed484431e3f54891306201b/types-zstd-1.5.0.3.tar.gz
+[2023-07-20 17:23:16] INFO root fetch - processPackages [types-pluggy]: executing diffoscope
+[2023-07-20 17:23:16] INFO root fetch - processPackages [types-pluggy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-pluggy-1.2.0.0.tar.gz tmp/types-pluggy-1.2.0.1.tar.gz --markdown 20230720/t/types-pluggy/1.2.0.0-1.2.0.1/diff.md --exclude *.pyd
+[2023-07-20 17:23:16] INFO root fetch - processPackages [types-pyfarmhash]: executing diffoscope
+[2023-07-20 17:23:16] INFO root fetch - processPackages [types-pyfarmhash]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-pyfarmhash-0.3.1.1.tar.gz tmp/types-pyfarmhash-0.3.1.2.tar.gz --markdown 20230720/t/types-pyfarmhash/0.3.1.1-0.3.1.2/diff.md --exclude *.pyd
+[2023-07-20 17:23:16] INFO root fetch - processPackages [types-zxcvbn]: executing diffoscope
+[2023-07-20 17:23:16] INFO root fetch - processPackages [types-zxcvbn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-zxcvbn-4.4.1.5.tar.gz tmp/types-zxcvbn-4.4.1.6.tar.gz --markdown 20230720/t/types-zxcvbn/4.4.1.5-4.4.1.6/diff.md --exclude *.pyd
+[2023-07-20 17:23:16] INFO root fetch - processPackages [types-parsimonious]: Downloading https://files.pythonhosted.org/packages/e8/f3/28e8463e41d5f6fbe6c3e5adfe58cecb5101ffdd84e5d76366b873c906b6/types-parsimonious-0.9.1.tar.gz
+[2023-07-20 17:23:16] INFO root fetch - processPackages [types-retry]: executing diffoscope
+[2023-07-20 17:23:16] INFO root fetch - processPackages [types-retry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-retry-0.9.9.3.tar.gz tmp/types-retry-0.9.9.4.tar.gz --markdown 20230720/t/types-retry/0.9.9.3-0.9.9.4/diff.md --exclude *.pyd
+[2023-07-20 17:23:16] INFO root fetch - processPackages [devvio-util]: executing diffoscope
+[2023-07-20 17:23:16] INFO root fetch - processPackages [devvio-util]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/devvio_util-1.6.0.tar.gz tmp/devvio_util-1.6.1.tar.gz --markdown 20230720/d/devvio-util/1.6.0-1.6.1/diff.md --exclude *.pyd
+[2023-07-20 17:23:16] INFO root fetch - processPackages [types-pyvmomi]: executing diffoscope
+[2023-07-20 17:23:16] INFO root fetch - processPackages [types-pyvmomi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-pyvmomi-8.0.0.5.tar.gz tmp/types-pyvmomi-8.0.0.6.tar.gz --markdown 20230720/t/types-pyvmomi/8.0.0.5-8.0.0.6/diff.md --exclude *.pyd
+[2023-07-20 17:23:16] INFO root fetch - processPackages [types-zstd]: executing diffoscope
+[2023-07-20 17:23:16] INFO root fetch - processPackages [types-zstd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-zstd-1.5.0.2.tar.gz tmp/types-zstd-1.5.0.3.tar.gz --markdown 20230720/t/types-zstd/1.5.0.2-1.5.0.3/diff.md --exclude *.pyd
+[2023-07-20 17:23:16] INFO root fetch - processPackages [types-mypy-extensions]: executing diffoscope
+[2023-07-20 17:23:16] INFO root fetch - processPackages [types-mypy-extensions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-mypy-extensions-1.0.0.3.tar.gz tmp/types-mypy-extensions-1.0.0.4.tar.gz --markdown 20230720/t/types-mypy-extensions/1.0.0.3-1.0.0.4/diff.md --exclude *.pyd
+[2023-07-20 17:23:16] INFO root fetch - processPackages [types-parsimonious]: executing diffoscope
+[2023-07-20 17:23:16] INFO root fetch - processPackages [types-parsimonious]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-parsimonious-0.9.0.tar.gz tmp/types-parsimonious-0.9.1.tar.gz --markdown 20230720/t/types-parsimonious/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-07-20 17:23:18] INFO root fetch - processPackages [types-pluggy]: Remove: archive file [/home/abi/fetcher/tmp/types-pluggy-1.2.0.0.tar.gz]
+[2023-07-20 17:23:18] INFO root fetch - processPackages [types-pluggy]: Remove: archive file [/home/abi/fetcher/tmp/types-pluggy-1.2.0.1.tar.gz]
+[2023-07-20 17:23:18] INFO root fetch - processPackages [types-pluggy]: Start processing: geoviews
+[2023-07-20 17:23:18] INFO root fetch - main [MainThread]: End processing [types-pluggy]: success
+[2023-07-20 17:23:18] INFO root fetch - processPackages [types-pyfarmhash]: Remove: archive file [/home/abi/fetcher/tmp/types-pyfarmhash-0.3.1.1.tar.gz]
+[2023-07-20 17:23:18] INFO root fetch - processPackages [types-pyfarmhash]: Remove: archive file [/home/abi/fetcher/tmp/types-pyfarmhash-0.3.1.2.tar.gz]
+[2023-07-20 17:23:18] INFO root fetch - processPackages [types-pyfarmhash]: Start processing: types-first
+[2023-07-20 17:23:18] INFO root fetch - main [MainThread]: End processing [types-pyfarmhash]: success
+[2023-07-20 17:23:18] INFO root fetch - processPackages [geoviews]: New version: [1.9.7a2] Old Version: [1.9.6a5]
+[2023-07-20 17:23:18] INFO root fetch - processPackages [types-six]: Remove: archive file [/home/abi/fetcher/tmp/types-six-1.16.8.tar.gz]
+[2023-07-20 17:23:18] INFO root fetch - processPackages [types-six]: Remove: archive file [/home/abi/fetcher/tmp/types-six-1.16.9.tar.gz]
+[2023-07-20 17:23:18] INFO root fetch - processPackages [types-six]: Start processing: types-keyboard
+[2023-07-20 17:23:18] INFO root fetch - main [MainThread]: End processing [types-six]: success
+[2023-07-20 17:23:18] INFO root fetch - processPackages [types-first]: New version: [2.0.5.2] Old Version: [2.0.5.1]
+[2023-07-20 17:23:18] INFO root fetch - processPackages [types-keyboard]: New version: [0.13.2.8] Old Version: [0.13.2.7]
+[2023-07-20 17:23:18] INFO root fetch - processPackages [geoviews]: Downloading https://files.pythonhosted.org/packages/49/e8/c097e9dc148c99b2e487c087056acb4128cc0eb82357368f1a69b4580632/geoviews-1.9.6a5.tar.gz
+[2023-07-20 17:23:18] INFO root fetch - processPackages [types-pyvmomi]: Remove: archive file [/home/abi/fetcher/tmp/types-pyvmomi-8.0.0.5.tar.gz]
+[2023-07-20 17:23:18] INFO root fetch - processPackages [types-pyvmomi]: Remove: archive file [/home/abi/fetcher/tmp/types-pyvmomi-8.0.0.6.tar.gz]
+[2023-07-20 17:23:18] INFO root fetch - processPackages [types-pyvmomi]: Start processing: docblock
+[2023-07-20 17:23:18] INFO root fetch - main [MainThread]: End processing [types-pyvmomi]: success
+[2023-07-20 17:23:18] INFO root fetch - processPackages [docblock]: New version: [0.0.2] Old Version: [0.0.1a1]
+[2023-07-20 17:23:18] INFO root fetch - processPackages [types-retry]: Remove: archive file [/home/abi/fetcher/tmp/types-retry-0.9.9.3.tar.gz]
+[2023-07-20 17:23:18] INFO root fetch - processPackages [types-retry]: Remove: archive file [/home/abi/fetcher/tmp/types-retry-0.9.9.4.tar.gz]
+[2023-07-20 17:23:18] INFO root fetch - processPackages [types-retry]: Start processing: types-boltons
+[2023-07-20 17:23:18] INFO root fetch - main [MainThread]: End processing [types-retry]: success
+[2023-07-20 17:23:18] INFO root fetch - processPackages [types-first]: Downloading https://files.pythonhosted.org/packages/70/28/93859b69bd334a5976d6b2fa74512834ca2534e208ccc4aaa8e7f22393a0/types-first-2.0.5.1.tar.gz
+[2023-07-20 17:23:18] INFO root fetch - processPackages [types-boltons]: New version: [23.0.0.1] Old Version: [23.0.0.0]
+[2023-07-20 17:23:18] INFO root fetch - processPackages [devvio-util]: Remove: archive file [/home/abi/fetcher/tmp/devvio_util-1.6.0.tar.gz]
+[2023-07-20 17:23:18] INFO root fetch - processPackages [devvio-util]: Remove: archive file [/home/abi/fetcher/tmp/devvio_util-1.6.1.tar.gz]
+[2023-07-20 17:23:18] INFO root fetch - processPackages [devvio-util]: Start processing: types-pyRFC3339
+[2023-07-20 17:23:18] INFO root fetch - main [MainThread]: End processing [devvio-util]: success
+[2023-07-20 17:23:18] INFO root fetch - processPackages [types-keyboard]: Downloading https://files.pythonhosted.org/packages/a7/8b/89a6c48263a164633e8982119235c8531a585ef759c80cd746bbf97ceaf8/types-keyboard-0.13.2.7.tar.gz
+[2023-07-20 17:23:18] INFO root fetch - processPackages [docblock]: Downloading https://files.pythonhosted.org/packages/50/1d/2c480d1c6c8a52dda29e8de475439adea0719a43959ab09d2644d344f112/docblock-0.0.1a1.tar.gz
+[2023-07-20 17:23:18] INFO root fetch - processPackages [types-pyRFC3339]: New version: [1.1.1.5] Old Version: [1.1.1.4]
+[2023-07-20 17:23:18] INFO root fetch - processPackages [types-mypy-extensions]: Remove: archive file [/home/abi/fetcher/tmp/types-mypy-extensions-1.0.0.3.tar.gz]
+[2023-07-20 17:23:18] INFO root fetch - processPackages [types-mypy-extensions]: Remove: archive file [/home/abi/fetcher/tmp/types-mypy-extensions-1.0.0.4.tar.gz]
+[2023-07-20 17:23:18] INFO root fetch - processPackages [types-mypy-extensions]: Start processing: types-regex
+[2023-07-20 17:23:18] INFO root fetch - main [MainThread]: End processing [types-mypy-extensions]: success
+[2023-07-20 17:23:18] INFO root fetch - processPackages [types-parsimonious]: Remove: archive file [/home/abi/fetcher/tmp/types-parsimonious-0.9.0.tar.gz]
+[2023-07-20 17:23:18] INFO root fetch - processPackages [types-parsimonious]: Remove: archive file [/home/abi/fetcher/tmp/types-parsimonious-0.9.1.tar.gz]
+[2023-07-20 17:23:18] INFO root fetch - processPackages [types-parsimonious]: Start processing: types-flake8-plugin-utils
+[2023-07-20 17:23:18] INFO root fetch - main [MainThread]: End processing [types-parsimonious]: success
+[2023-07-20 17:23:18] INFO root fetch - processPackages [types-regex]: New version: [2023.6.3.1] Old Version: [2023.6.3.0]
+[2023-07-20 17:23:18] INFO root fetch - processPackages [types-zxcvbn]: Remove: archive file [/home/abi/fetcher/tmp/types-zxcvbn-4.4.1.5.tar.gz]
+[2023-07-20 17:23:18] INFO root fetch - processPackages [types-zxcvbn]: Remove: archive file [/home/abi/fetcher/tmp/types-zxcvbn-4.4.1.6.tar.gz]
+[2023-07-20 17:23:18] INFO root fetch - processPackages [types-zxcvbn]: Start processing: ldimbenchmark
+[2023-07-20 17:23:18] INFO root fetch - main [MainThread]: End processing [types-zxcvbn]: success
+[2023-07-20 17:23:18] INFO root fetch - processPackages [types-flake8-plugin-utils]: New version: [1.3.7.5] Old Version: [1.3.7.4]
+[2023-07-20 17:23:18] INFO root fetch - processPackages [types-zstd]: Remove: archive file [/home/abi/fetcher/tmp/types-zstd-1.5.0.2.tar.gz]
+[2023-07-20 17:23:18] INFO root fetch - processPackages [types-zstd]: Remove: archive file [/home/abi/fetcher/tmp/types-zstd-1.5.0.3.tar.gz]
+[2023-07-20 17:23:18] INFO root fetch - processPackages [types-zstd]: Start processing: types-tabulate
+[2023-07-20 17:23:18] INFO root fetch - main [MainThread]: End processing [types-zstd]: success
+[2023-07-20 17:23:18] INFO root fetch - processPackages [ldimbenchmark]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-07-20 17:23:18] INFO root fetch - processPackages [types-boltons]: Downloading https://files.pythonhosted.org/packages/64/8d/42702bf4d95297c246e6fb147828193cffb38f0dc207e5028c208f74f65d/types-boltons-23.0.0.0.tar.gz
+[2023-07-20 17:23:18] INFO root fetch - processPackages [types-regex]: Downloading https://files.pythonhosted.org/packages/92/18/1e12a703951b29742d07155f2c1762d43a2d55af00e30e51457fc45afccf/types-regex-2023.6.3.0.tar.gz
+[2023-07-20 17:23:18] INFO root fetch - processPackages [types-tabulate]: New version: [0.9.0.3] Old Version: [0.9.0.2]
+[2023-07-20 17:23:18] INFO root fetch - processPackages [types-pyRFC3339]: Downloading https://files.pythonhosted.org/packages/e3/3a/6993937df80a015c9ac859f16061822d5a424731858fcfcd0211d2479bfe/types-pyRFC3339-1.1.1.4.tar.gz
+[2023-07-20 17:23:18] INFO root fetch - processPackages [types-first]: Downloading https://files.pythonhosted.org/packages/12/5c/53aa157523ed38a2ba46ed8802b19cc6f05600c79654700a14dcbebca749/types-first-2.0.5.2.tar.gz
+[2023-07-20 17:23:18] INFO root fetch - processPackages [docblock]: Downloading https://files.pythonhosted.org/packages/28/0b/54db91aec2569146402d7a1f6673384cb97291eb5f180e282b11237bae76/docblock-0.0.2.tar.gz
+[2023-07-20 17:23:18] INFO root fetch - processPackages [geoviews]: Downloading https://files.pythonhosted.org/packages/21/52/ed532b7720d007baaef44f3de206988e758a3384dc8984c0dff0f6bdb3d4/geoviews-1.9.7a2.tar.gz
+[2023-07-20 17:23:18] INFO root fetch - processPackages [types-flake8-plugin-utils]: Downloading https://files.pythonhosted.org/packages/b5/b0/c49fe242765b595e9140d1b41e8197c974c9cd7002ddc57982c6c604666a/types-flake8-plugin-utils-1.3.7.4.tar.gz
+[2023-07-20 17:23:18] INFO root fetch - processPackages [ldimbenchmark]: Downloading https://files.pythonhosted.org/packages/40/ad/2f487f62a551984a54e0a4dc768ff692f22874530d9695d257d30b206c65/ldimbenchmark-0.2.8.tar.gz
+[2023-07-20 17:23:18] INFO root fetch - processPackages [types-keyboard]: Downloading https://files.pythonhosted.org/packages/3c/b8/79b519e02b08ce4bb9d6b6105e2ed82e22b70444a4b64703b36cba0c9e7f/types-keyboard-0.13.2.8.tar.gz
+[2023-07-20 17:23:19] INFO root fetch - processPackages [types-tabulate]: Downloading https://files.pythonhosted.org/packages/51/43/b049d9f82cc6c76f9ffa25064a75cc8cb224fa24954d83382bea42675236/types-tabulate-0.9.0.2.tar.gz
+[2023-07-20 17:23:19] INFO root fetch - processPackages [types-first]: executing diffoscope
+[2023-07-20 17:23:19] INFO root fetch - processPackages [types-first]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-first-2.0.5.1.tar.gz tmp/types-first-2.0.5.2.tar.gz --markdown 20230720/t/types-first/2.0.5.1-2.0.5.2/diff.md --exclude *.pyd
+[2023-07-20 17:23:19] INFO root fetch - processPackages [docblock]: executing diffoscope
+[2023-07-20 17:23:19] INFO root fetch - processPackages [docblock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docblock-0.0.1a1.tar.gz tmp/docblock-0.0.2.tar.gz --markdown 20230720/d/docblock/0.0.1a1-0.0.2/diff.md --exclude *.pyd
+[2023-07-20 17:23:19] INFO root fetch - processPackages [types-regex]: Downloading https://files.pythonhosted.org/packages/af/52/30b8dc19183cb0b3d2787078291c82b42c67a466fb72cb99ae0706993304/types-regex-2023.6.3.1.tar.gz
+[2023-07-20 17:23:19] INFO root fetch - processPackages [types-boltons]: Downloading https://files.pythonhosted.org/packages/bf/cc/4462a7dd00801589bceb85b1e57c69b51c9f445fa8d1667ba5771fc423d8/types-boltons-23.0.0.1.tar.gz
+[2023-07-20 17:23:19] INFO root fetch - processPackages [geoviews]: executing diffoscope
+[2023-07-20 17:23:19] INFO root fetch - processPackages [geoviews]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geoviews-1.9.6a5.tar.gz tmp/geoviews-1.9.7a2.tar.gz --markdown 20230720/g/geoviews/1.9.6a5-1.9.7a2/diff.md --exclude *.pyd
+[2023-07-20 17:23:19] INFO root fetch - processPackages [types-keyboard]: executing diffoscope
+[2023-07-20 17:23:19] INFO root fetch - processPackages [types-keyboard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-keyboard-0.13.2.7.tar.gz tmp/types-keyboard-0.13.2.8.tar.gz --markdown 20230720/t/types-keyboard/0.13.2.7-0.13.2.8/diff.md --exclude *.pyd
+[2023-07-20 17:23:19] INFO root fetch - processPackages [types-pyRFC3339]: Downloading https://files.pythonhosted.org/packages/5c/db/c14e946671c08125bfc9a000732fb5645eb827ea6d0024a3934cda11c60d/types-pyRFC3339-1.1.1.5.tar.gz
+[2023-07-20 17:23:19] INFO root fetch - processPackages [types-regex]: executing diffoscope
+[2023-07-20 17:23:19] INFO root fetch - processPackages [types-regex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-regex-2023.6.3.0.tar.gz tmp/types-regex-2023.6.3.1.tar.gz --markdown 20230720/t/types-regex/2023.6.3.0-2023.6.3.1/diff.md --exclude *.pyd
+[2023-07-20 17:23:19] INFO root fetch - processPackages [ldimbenchmark]: Downloading https://files.pythonhosted.org/packages/1c/0e/d7ff04c87c7e7e468653d7cd9cbde0ab35f48885a880c1e2229267475009/ldimbenchmark-0.2.9.tar.gz
+[2023-07-20 17:23:19] INFO root fetch - processPackages [types-boltons]: executing diffoscope
+[2023-07-20 17:23:19] INFO root fetch - processPackages [types-boltons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-boltons-23.0.0.0.tar.gz tmp/types-boltons-23.0.0.1.tar.gz --markdown 20230720/t/types-boltons/23.0.0.0-23.0.0.1/diff.md --exclude *.pyd
+[2023-07-20 17:23:19] INFO root fetch - processPackages [types-pyRFC3339]: executing diffoscope
+[2023-07-20 17:23:19] INFO root fetch - processPackages [types-pyRFC3339]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-pyRFC3339-1.1.1.4.tar.gz tmp/types-pyRFC3339-1.1.1.5.tar.gz --markdown 20230720/t/types-pyRFC3339/1.1.1.4-1.1.1.5/diff.md --exclude *.pyd
+[2023-07-20 17:23:19] INFO root fetch - processPackages [types-flake8-plugin-utils]: Downloading https://files.pythonhosted.org/packages/4b/d7/7cd66c5d64bb0684541668ffba4578ddf81f24d995a75398dca2d39c63a1/types-flake8-plugin-utils-1.3.7.5.tar.gz
+[2023-07-20 17:23:19] INFO root fetch - processPackages [types-tabulate]: Downloading https://files.pythonhosted.org/packages/23/78/70a84863aad790a5d1cb03df6fee1b769674c18991b412041496564baeb4/types-tabulate-0.9.0.3.tar.gz
+[2023-07-20 17:23:19] INFO root fetch - processPackages [ldimbenchmark]: executing diffoscope
+[2023-07-20 17:23:19] INFO root fetch - processPackages [ldimbenchmark]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ldimbenchmark-0.2.8.tar.gz tmp/ldimbenchmark-0.2.9.tar.gz --markdown 20230720/l/ldimbenchmark/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-07-20 17:23:19] INFO root fetch - processPackages [types-flake8-plugin-utils]: executing diffoscope
+[2023-07-20 17:23:19] INFO root fetch - processPackages [types-flake8-plugin-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-flake8-plugin-utils-1.3.7.4.tar.gz tmp/types-flake8-plugin-utils-1.3.7.5.tar.gz --markdown 20230720/t/types-flake8-plugin-utils/1.3.7.4-1.3.7.5/diff.md --exclude *.pyd
+[2023-07-20 17:23:19] INFO root fetch - processPackages [types-tabulate]: executing diffoscope
+[2023-07-20 17:23:19] INFO root fetch - processPackages [types-tabulate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-tabulate-0.9.0.2.tar.gz tmp/types-tabulate-0.9.0.3.tar.gz --markdown 20230720/t/types-tabulate/0.9.0.2-0.9.0.3/diff.md --exclude *.pyd
+[2023-07-20 17:23:20] INFO root fetch - processPackages [types-first]: Remove: archive file [/home/abi/fetcher/tmp/types-first-2.0.5.1.tar.gz]
+[2023-07-20 17:23:20] INFO root fetch - processPackages [types-first]: Remove: archive file [/home/abi/fetcher/tmp/types-first-2.0.5.2.tar.gz]
+[2023-07-20 17:23:20] INFO root fetch - processPackages [types-first]: Start processing: types-jmespath
+[2023-07-20 17:23:20] INFO root fetch - main [MainThread]: End processing [types-first]: success
+[2023-07-20 17:23:20] INFO root fetch - processPackages [docblock]: Remove: archive file [/home/abi/fetcher/tmp/docblock-0.0.1a1.tar.gz]
+[2023-07-20 17:23:20] INFO root fetch - processPackages [docblock]: Remove: archive file [/home/abi/fetcher/tmp/docblock-0.0.2.tar.gz]
+[2023-07-20 17:23:20] INFO root fetch - processPackages [docblock]: Start processing: types-ExifRead
+[2023-07-20 17:23:20] INFO root fetch - main [MainThread]: End processing [docblock]: success
+[2023-07-20 17:23:20] INFO root fetch - processPackages [types-jmespath]: New version: [1.0.2.7] Old Version: [1.0.2.6]
+[2023-07-20 17:23:20] INFO root fetch - processPackages [types-ExifRead]: New version: [3.0.0.6] Old Version: [3.0.0.5]
+[2023-07-20 17:23:20] INFO root fetch - processPackages [types-keyboard]: Remove: archive file [/home/abi/fetcher/tmp/types-keyboard-0.13.2.7.tar.gz]
+[2023-07-20 17:23:20] INFO root fetch - processPackages [types-keyboard]: Remove: archive file [/home/abi/fetcher/tmp/types-keyboard-0.13.2.8.tar.gz]
+[2023-07-20 17:23:20] INFO root fetch - processPackages [types-keyboard]: Start processing: types-mock
+[2023-07-20 17:23:20] INFO root fetch - main [MainThread]: End processing [types-keyboard]: success
+[2023-07-20 17:23:20] INFO root fetch - processPackages [types-mock]: New version: [5.1.0.1] Old Version: [5.1.0.0]
+[2023-07-20 17:23:20] INFO root fetch - processPackages [types-jmespath]: Downloading https://files.pythonhosted.org/packages/f7/1f/324dadd190555f6d6b584b6a5fa6ee9e0ce15e099ffaced25b7808c2ba0c/types-jmespath-1.0.2.6.tar.gz
+[2023-07-20 17:23:20] INFO root fetch - processPackages [types-regex]: Remove: archive file [/home/abi/fetcher/tmp/types-regex-2023.6.3.0.tar.gz]
+[2023-07-20 17:23:20] INFO root fetch - processPackages [types-regex]: Remove: archive file [/home/abi/fetcher/tmp/types-regex-2023.6.3.1.tar.gz]
+[2023-07-20 17:23:20] INFO root fetch - processPackages [types-regex]: Start processing: CircuitCalculator
+[2023-07-20 17:23:20] INFO root fetch - main [MainThread]: End processing [types-regex]: success
+[2023-07-20 17:23:20] INFO root fetch - processPackages [types-ExifRead]: Downloading https://files.pythonhosted.org/packages/5a/c6/19a3d0e8a6e439f614e92a399faea7fdd22faf150c6f36279ecb5d0a8f03/types-ExifRead-3.0.0.5.tar.gz
+[2023-07-20 17:23:20] INFO root fetch - processPackages [types-pyRFC3339]: Remove: archive file [/home/abi/fetcher/tmp/types-pyRFC3339-1.1.1.4.tar.gz]
+[2023-07-20 17:23:20] INFO root fetch - processPackages [types-pyRFC3339]: Remove: archive file [/home/abi/fetcher/tmp/types-pyRFC3339-1.1.1.5.tar.gz]
+[2023-07-20 17:23:20] INFO root fetch - processPackages [types-pyRFC3339]: Start processing: types-qrcode
+[2023-07-20 17:23:20] INFO root fetch - main [MainThread]: End processing [types-pyRFC3339]: success
+[2023-07-20 17:23:20] INFO root fetch - processPackages [types-mock]: Downloading https://files.pythonhosted.org/packages/9d/bf/583db240974cc407b21036ef611248e685368a36802f58b77f84b6412177/types-mock-5.1.0.0.tar.gz
+[2023-07-20 17:23:20] WARNING root fetch - processPackages [types-qrcode]: Skipping, unable to determine old version
+[2023-07-20 17:23:20] INFO root fetch - processPackages [types-qrcode]: Start processing: types-pynput
+[2023-07-20 17:23:20] INFO root fetch - main [MainThread]: End processing [types-qrcode] error
+[2023-07-20 17:23:20] INFO root fetch - processPackages [CircuitCalculator]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-20 17:23:21] INFO root fetch - processPackages [types-pynput]: New version: [1.7.5.7] Old Version: [1.7.5.6]
+[2023-07-20 17:23:21] INFO root fetch - processPackages [types-boltons]: Remove: archive file [/home/abi/fetcher/tmp/types-boltons-23.0.0.0.tar.gz]
+[2023-07-20 17:23:21] INFO root fetch - processPackages [types-boltons]: Remove: archive file [/home/abi/fetcher/tmp/types-boltons-23.0.0.1.tar.gz]
+[2023-07-20 17:23:21] INFO root fetch - processPackages [types-boltons]: Start processing: types-peewee
+[2023-07-20 17:23:21] INFO root fetch - main [MainThread]: End processing [types-boltons]: success
+[2023-07-20 17:23:21] INFO root fetch - processPackages [types-tabulate]: Remove: archive file [/home/abi/fetcher/tmp/types-tabulate-0.9.0.2.tar.gz]
+[2023-07-20 17:23:21] INFO root fetch - processPackages [types-tabulate]: Remove: archive file [/home/abi/fetcher/tmp/types-tabulate-0.9.0.3.tar.gz]
+[2023-07-20 17:23:21] INFO root fetch - processPackages [types-tabulate]: Start processing: types-psutil
+[2023-07-20 17:23:21] INFO root fetch - main [MainThread]: End processing [types-tabulate]: success
+[2023-07-20 17:23:21] INFO root fetch - processPackages [types-peewee]: New version: [3.16.0.1] Old Version: [3.16.0.0]
+[2023-07-20 17:23:21] INFO root fetch - processPackages [types-psutil]: New version: [5.9.5.9] Old Version: [5.9.5.8]
+[2023-07-20 17:23:21] INFO root fetch - processPackages [types-jmespath]: Downloading https://files.pythonhosted.org/packages/0f/f9/006a7075ac3fc1aa8b675d60feca4254e817409a50e51c4bc5e66a6362fa/types-jmespath-1.0.2.7.tar.gz
+[2023-07-20 17:23:21] INFO root fetch - processPackages [types-flake8-plugin-utils]: Remove: archive file [/home/abi/fetcher/tmp/types-flake8-plugin-utils-1.3.7.4.tar.gz]
+[2023-07-20 17:23:21] INFO root fetch - processPackages [types-flake8-plugin-utils]: Remove: archive file [/home/abi/fetcher/tmp/types-flake8-plugin-utils-1.3.7.5.tar.gz]
+[2023-07-20 17:23:21] INFO root fetch - processPackages [types-flake8-plugin-utils]: Start processing: types-decorator
+[2023-07-20 17:23:21] INFO root fetch - main [MainThread]: End processing [types-flake8-plugin-utils]: success
+[2023-07-20 17:23:21] INFO root fetch - processPackages [ldimbenchmark]: Remove: archive file [/home/abi/fetcher/tmp/ldimbenchmark-0.2.8.tar.gz]
+[2023-07-20 17:23:21] INFO root fetch - processPackages [ldimbenchmark]: Remove: archive file [/home/abi/fetcher/tmp/ldimbenchmark-0.2.9.tar.gz]
+[2023-07-20 17:23:21] INFO root fetch - processPackages [ldimbenchmark]: Start processing: ethoscopy
+[2023-07-20 17:23:21] INFO root fetch - main [MainThread]: End processing [ldimbenchmark]: success
+[2023-07-20 17:23:21] INFO root fetch - processPackages [types-pynput]: Downloading https://files.pythonhosted.org/packages/cf/23/c26ac2c8ec49c18a51c32247c76c4e6f21e66bd03f33195b6f4c3bc35a84/types-pynput-1.7.5.6.tar.gz
+[2023-07-20 17:23:21] INFO root fetch - processPackages [types-decorator]: New version: [5.1.8.4] Old Version: [5.1.8.3]
+[2023-07-20 17:23:21] INFO root fetch - processPackages [CircuitCalculator]: Downloading https://files.pythonhosted.org/packages/bf/1f/61591bd6874775c2a603db5f2f5a8b3f266e9003b2a8738b62779b126602/CircuitCalculator-0.0.8.tar.gz
+[2023-07-20 17:23:21] INFO root fetch - processPackages [types-jmespath]: executing diffoscope
+[2023-07-20 17:23:21] INFO root fetch - processPackages [types-jmespath]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-jmespath-1.0.2.6.tar.gz tmp/types-jmespath-1.0.2.7.tar.gz --markdown 20230720/t/types-jmespath/1.0.2.6-1.0.2.7/diff.md --exclude *.pyd
+[2023-07-20 17:23:21] INFO root fetch - processPackages [ethoscopy]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-07-20 17:23:21] INFO root fetch - processPackages [types-ExifRead]: Downloading https://files.pythonhosted.org/packages/34/96/628ff09b047c8bc5ac718a2efdf4cf286b6a8c1fe6104e1f98f608d68d57/types-ExifRead-3.0.0.6.tar.gz
+[2023-07-20 17:23:21] INFO root fetch - processPackages [types-mock]: Downloading https://files.pythonhosted.org/packages/75/5b/1a8cd2f11cfc05a3b6270b8d8a75a9d5fb8035c6f98e7bd39dda050368d9/types-mock-5.1.0.1.tar.gz
+[2023-07-20 17:23:21] INFO root fetch - processPackages [types-peewee]: Downloading https://files.pythonhosted.org/packages/d3/58/39c1604703a71e099ccf35c4d79a9c174b5551da5c6972c24bb3d5b20810/types-peewee-3.16.0.0.tar.gz
+[2023-07-20 17:23:21] INFO root fetch - processPackages [types-psutil]: Downloading https://files.pythonhosted.org/packages/80/5a/9c74621dac0e8576522348dac6d61a43913103caff81521ffa70d1310482/types-psutil-5.9.5.8.tar.gz
+[2023-07-20 17:23:21] INFO root fetch - processPackages [geoviews]: Remove: archive file [/home/abi/fetcher/tmp/geoviews-1.9.6a5.tar.gz]
+[2023-07-20 17:23:21] INFO root fetch - processPackages [geoviews]: Remove: archive file [/home/abi/fetcher/tmp/geoviews-1.9.7a2.tar.gz]
+[2023-07-20 17:23:21] INFO root fetch - processPackages [geoviews]: Start processing: rust-dll-example
+[2023-07-20 17:23:21] INFO root fetch - main [MainThread]: End processing [geoviews]: success
+[2023-07-20 17:23:21] INFO root fetch - processPackages [types-ExifRead]: executing diffoscope
+[2023-07-20 17:23:21] INFO root fetch - processPackages [types-ExifRead]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-ExifRead-3.0.0.5.tar.gz tmp/types-ExifRead-3.0.0.6.tar.gz --markdown 20230720/t/types-ExifRead/3.0.0.5-3.0.0.6/diff.md --exclude *.pyd
+[2023-07-20 17:23:21] INFO root fetch - processPackages [types-decorator]: Downloading https://files.pythonhosted.org/packages/94/92/210380e99145be80044b8ef4922585ac639dd6a6574e73699156380cf44c/types-decorator-5.1.8.3.tar.gz
+[2023-07-20 17:23:21] ERROR root fetch - processPackages [rust-dll-example]: Unable to get metadata: No such project 'rust-dll-example'
+[2023-07-20 17:23:21] INFO root fetch - processPackages [rust-dll-example]: Start processing: types-netaddr
+[2023-07-20 17:23:21] INFO root fetch - main [MainThread]: End processing [rust-dll-example] error
+[2023-07-20 17:23:21] INFO root fetch - processPackages [types-mock]: executing diffoscope
+[2023-07-20 17:23:21] INFO root fetch - processPackages [types-mock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-mock-5.1.0.0.tar.gz tmp/types-mock-5.1.0.1.tar.gz --markdown 20230720/t/types-mock/5.1.0.0-5.1.0.1/diff.md --exclude *.pyd
+[2023-07-20 17:23:21] INFO root fetch - processPackages [types-netaddr]: New version: [0.8.0.9] Old Version: [0.8.0.8]
+[2023-07-20 17:23:21] INFO root fetch - processPackages [ethoscopy]: Downloading https://files.pythonhosted.org/packages/8d/ec/d288e809a8195ca8ebeae40e90cb22dfb979d62ac9fd0e5867fa8520ecfa/ethoscopy-1.2.8.tar.gz
+[2023-07-20 17:23:21] INFO root fetch - processPackages [types-peewee]: Downloading https://files.pythonhosted.org/packages/e6/42/785cb4628f1dfb4ecd8d10ae6c8e63cd6c20b8a04e456782e90d88f52063/types-peewee-3.16.0.1.tar.gz
+[2023-07-20 17:23:21] INFO root fetch - processPackages [CircuitCalculator]: Downloading https://files.pythonhosted.org/packages/e9/6b/012f1855b3854bed914cfc1577b7852d1bbf3b9d8ef65de04bf67ea35775/CircuitCalculator-0.0.9.tar.gz
+[2023-07-20 17:23:21] INFO root fetch - processPackages [types-pynput]: Downloading https://files.pythonhosted.org/packages/bf/89/8c560db211a16ebe992ed07e7c6148a2533a86f2685785243d5f7a6f1cac/types-pynput-1.7.5.7.tar.gz
+[2023-07-20 17:23:21] INFO root fetch - processPackages [types-psutil]: Downloading https://files.pythonhosted.org/packages/48/17/84ab868524425e5f0553f1916898b2a5ec0bf8d3c330d854eb5fabd35aec/types-psutil-5.9.5.9.tar.gz
+[2023-07-20 17:23:21] INFO root fetch - processPackages [types-netaddr]: Downloading https://files.pythonhosted.org/packages/a3/eb/f36f0830e833d1a6c6dcc425c7cc366e66f81685115dba93cdd445a6bf3f/types-netaddr-0.8.0.8.tar.gz
+[2023-07-20 17:23:21] INFO root fetch - processPackages [types-peewee]: executing diffoscope
+[2023-07-20 17:23:21] INFO root fetch - processPackages [types-peewee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-peewee-3.16.0.0.tar.gz tmp/types-peewee-3.16.0.1.tar.gz --markdown 20230720/t/types-peewee/3.16.0.0-3.16.0.1/diff.md --exclude *.pyd
+[2023-07-20 17:23:21] INFO root fetch - processPackages [CircuitCalculator]: executing diffoscope
+[2023-07-20 17:23:21] INFO root fetch - processPackages [CircuitCalculator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CircuitCalculator-0.0.8.tar.gz tmp/CircuitCalculator-0.0.9.tar.gz --markdown 20230720/C/CircuitCalculator/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-20 17:23:21] INFO root fetch - processPackages [types-pynput]: executing diffoscope
+[2023-07-20 17:23:21] INFO root fetch - processPackages [types-pynput]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-pynput-1.7.5.6.tar.gz tmp/types-pynput-1.7.5.7.tar.gz --markdown 20230720/t/types-pynput/1.7.5.6-1.7.5.7/diff.md --exclude *.pyd
+[2023-07-20 17:23:21] INFO root fetch - processPackages [types-psutil]: executing diffoscope
+[2023-07-20 17:23:21] INFO root fetch - processPackages [types-psutil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-psutil-5.9.5.8.tar.gz tmp/types-psutil-5.9.5.9.tar.gz --markdown 20230720/t/types-psutil/5.9.5.8-5.9.5.9/diff.md --exclude *.pyd
+[2023-07-20 17:23:22] INFO root fetch - processPackages [types-decorator]: Downloading https://files.pythonhosted.org/packages/2b/14/2791b0885ea55c5e8535e93fba3896316f9458813c561131c0ab8ef33ca7/types-decorator-5.1.8.4.tar.gz
+[2023-07-20 17:23:22] WARNING root fetch - processPackages [ethoscopy]: Skipping package: exceeds size limit 13474154>=10485760
+[2023-07-20 17:23:22] INFO root fetch - processPackages [ethoscopy]: Start processing: types-httplib2
+[2023-07-20 17:23:22] INFO root fetch - main [MainThread]: End processing [ethoscopy] error
+[2023-07-20 17:23:22] INFO root fetch - processPackages [types-httplib2]: New version: [0.22.0.2] Old Version: [0.22.0.1]
+[2023-07-20 17:23:22] INFO root fetch - processPackages [types-netaddr]: Downloading https://files.pythonhosted.org/packages/d1/65/06e5abafc3f52be49266862eaa1b6940ad402412b1453994445cb2835d7b/types-netaddr-0.8.0.9.tar.gz
+[2023-07-20 17:23:22] INFO root fetch - processPackages [types-decorator]: executing diffoscope
+[2023-07-20 17:23:22] INFO root fetch - processPackages [types-decorator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-decorator-5.1.8.3.tar.gz tmp/types-decorator-5.1.8.4.tar.gz --markdown 20230720/t/types-decorator/5.1.8.3-5.1.8.4/diff.md --exclude *.pyd
+[2023-07-20 17:23:22] INFO root fetch - processPackages [types-jmespath]: Remove: archive file [/home/abi/fetcher/tmp/types-jmespath-1.0.2.6.tar.gz]
+[2023-07-20 17:23:22] INFO root fetch - processPackages [types-jmespath]: Remove: archive file [/home/abi/fetcher/tmp/types-jmespath-1.0.2.7.tar.gz]
+[2023-07-20 17:23:22] INFO root fetch - processPackages [types-jmespath]: Start processing: types-jsonschema
+[2023-07-20 17:23:22] INFO root fetch - main [MainThread]: End processing [types-jmespath]: success
+[2023-07-20 17:23:22] INFO root fetch - processPackages [types-jsonschema]: New version: [4.9.0] Old Version: [4.7.0]
+[2023-07-20 17:23:22] INFO root fetch - processPackages [types-httplib2]: Downloading https://files.pythonhosted.org/packages/ff/eb/6d522d490670381bfd0d87d0a83b0b0a5d541ceac77d15511300a73b72f2/types-httplib2-0.22.0.1.tar.gz
+[2023-07-20 17:23:22] INFO root fetch - processPackages [types-netaddr]: executing diffoscope
+[2023-07-20 17:23:22] INFO root fetch - processPackages [types-netaddr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-netaddr-0.8.0.8.tar.gz tmp/types-netaddr-0.8.0.9.tar.gz --markdown 20230720/t/types-netaddr/0.8.0.8-0.8.0.9/diff.md --exclude *.pyd
+[2023-07-20 17:23:22] INFO root fetch - processPackages [types-jsonschema]: Downloading https://files.pythonhosted.org/packages/c6/e1/278379da0b28700f9f6cf017cf3fa5863afdfe70a724fe2b2ee18a4758ec/types-jsonschema-4.7.0.tar.gz
+[2023-07-20 17:23:22] INFO root fetch - processPackages [types-httplib2]: Downloading https://files.pythonhosted.org/packages/62/0a/4a23ebcce2b0b5e24e9bf2a4697af6d96655198ae509a41a0ed957c17d57/types-httplib2-0.22.0.2.tar.gz
+[2023-07-20 17:23:22] INFO root fetch - processPackages [types-mock]: Remove: archive file [/home/abi/fetcher/tmp/types-mock-5.1.0.0.tar.gz]
+[2023-07-20 17:23:22] INFO root fetch - processPackages [types-mock]: Remove: archive file [/home/abi/fetcher/tmp/types-mock-5.1.0.1.tar.gz]
+[2023-07-20 17:23:22] INFO root fetch - processPackages [types-mock]: Start processing: types-colorama
+[2023-07-20 17:23:22] INFO root fetch - main [MainThread]: End processing [types-mock]: success
+[2023-07-20 17:23:22] INFO root fetch - processPackages [types-ExifRead]: Remove: archive file [/home/abi/fetcher/tmp/types-ExifRead-3.0.0.5.tar.gz]
+[2023-07-20 17:23:22] INFO root fetch - processPackages [types-ExifRead]: Remove: archive file [/home/abi/fetcher/tmp/types-ExifRead-3.0.0.6.tar.gz]
+[2023-07-20 17:23:22] INFO root fetch - processPackages [types-ExifRead]: Start processing: types-pytest-lazy-fixture
+[2023-07-20 17:23:22] INFO root fetch - main [MainThread]: End processing [types-ExifRead]: success
+[2023-07-20 17:23:22] INFO root fetch - processPackages [types-colorama]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-07-20 17:23:22] INFO root fetch - processPackages [types-pytest-lazy-fixture]: New version: [0.6.3.4] Old Version: [0.6.3.3]
+[2023-07-20 17:23:22] INFO root fetch - processPackages [types-httplib2]: executing diffoscope
+[2023-07-20 17:23:22] INFO root fetch - processPackages [types-httplib2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-httplib2-0.22.0.1.tar.gz tmp/types-httplib2-0.22.0.2.tar.gz --markdown 20230720/t/types-httplib2/0.22.0.1-0.22.0.2/diff.md --exclude *.pyd
+[2023-07-20 17:23:22] INFO root fetch - processPackages [types-jsonschema]: Downloading https://files.pythonhosted.org/packages/e4/92/a22669e12621f1f6ecbe4a0df317ec38af90b5f4e5432685f9b6b44cb647/types-jsonschema-4.9.0.tar.gz
+[2023-07-20 17:23:23] INFO root fetch - processPackages [types-colorama]: Downloading https://files.pythonhosted.org/packages/fd/a0/95f67647628b5983ebdebd4cf855b71b290d0535c479567f3874879c845f/types-colorama-0.4.8.tar.gz
+[2023-07-20 17:23:23] INFO root fetch - processPackages [types-pytest-lazy-fixture]: Downloading https://files.pythonhosted.org/packages/20/20/812eed2e32fdc25313e45afb34dc4e704a3ba6984a857a13c15af7b6aa3d/types-pytest-lazy-fixture-0.6.3.3.tar.gz
+[2023-07-20 17:23:23] INFO root fetch - processPackages [types-peewee]: Remove: archive file [/home/abi/fetcher/tmp/types-peewee-3.16.0.0.tar.gz]
+[2023-07-20 17:23:23] INFO root fetch - processPackages [types-peewee]: Remove: archive file [/home/abi/fetcher/tmp/types-peewee-3.16.0.1.tar.gz]
+[2023-07-20 17:23:23] INFO root fetch - processPackages [types-peewee]: Start processing: types-ujson
+[2023-07-20 17:23:23] INFO root fetch - main [MainThread]: End processing [types-peewee]: success
+[2023-07-20 17:23:23] INFO root fetch - processPackages [types-ujson]: New version: [5.8.0.1] Old Version: [5.8.0.0]
+[2023-07-20 17:23:23] INFO root fetch - processPackages [types-jsonschema]: executing diffoscope
+[2023-07-20 17:23:23] INFO root fetch - processPackages [types-jsonschema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-jsonschema-4.7.0.tar.gz tmp/types-jsonschema-4.9.0.tar.gz --markdown 20230720/t/types-jsonschema/4.7.0-4.9.0/diff.md --exclude *.pyd
+[2023-07-20 17:23:23] INFO root fetch - processPackages [types-psutil]: Remove: archive file [/home/abi/fetcher/tmp/types-psutil-5.9.5.8.tar.gz]
+[2023-07-20 17:23:23] INFO root fetch - processPackages [types-psutil]: Remove: archive file [/home/abi/fetcher/tmp/types-psutil-5.9.5.9.tar.gz]
+[2023-07-20 17:23:23] INFO root fetch - processPackages [types-psutil]: Start processing: types-click-spinner
+[2023-07-20 17:23:23] INFO root fetch - main [MainThread]: End processing [types-psutil]: success
+[2023-07-20 17:23:23] INFO root fetch - processPackages [types-ujson]: Downloading https://files.pythonhosted.org/packages/67/58/1abfd7f4e74e298da69255d6584e05327071e4f50eb912859781e2083c62/types-ujson-5.8.0.0.tar.gz
+[2023-07-20 17:23:23] INFO root fetch - processPackages [types-pytest-lazy-fixture]: Downloading https://files.pythonhosted.org/packages/d8/65/0845515253a19684aa0e9e2fcd967162cdff3b6c2b30120beda548e30595/types-pytest-lazy-fixture-0.6.3.4.tar.gz
+[2023-07-20 17:23:23] INFO root fetch - processPackages [types-click-spinner]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-20 17:23:23] INFO root fetch - processPackages [types-pynput]: Remove: archive file [/home/abi/fetcher/tmp/types-pynput-1.7.5.6.tar.gz]
+[2023-07-20 17:23:23] INFO root fetch - processPackages [types-pynput]: Remove: archive file [/home/abi/fetcher/tmp/types-pynput-1.7.5.7.tar.gz]
+[2023-07-20 17:23:23] INFO root fetch - processPackages [types-pynput]: Start processing: types-urllib3
+[2023-07-20 17:23:23] INFO root fetch - main [MainThread]: End processing [types-pynput]: success
+[2023-07-20 17:23:23] INFO root fetch - processPackages [CircuitCalculator]: Remove: archive file [/home/abi/fetcher/tmp/CircuitCalculator-0.0.8.tar.gz]
+[2023-07-20 17:23:23] INFO root fetch - processPackages [CircuitCalculator]: Remove: archive file [/home/abi/fetcher/tmp/CircuitCalculator-0.0.9.tar.gz]
+[2023-07-20 17:23:23] INFO root fetch - processPackages [CircuitCalculator]: Start processing: types-ttkthemes
+[2023-07-20 17:23:23] INFO root fetch - main [MainThread]: End processing [CircuitCalculator]: success
+[2023-07-20 17:23:23] INFO root fetch - processPackages [types-colorama]: Downloading https://files.pythonhosted.org/packages/09/3e/8034353bc1593e3a66fcf029e32521777511496cf0301951f3c2080814d8/types-colorama-0.4.9.tar.gz
+[2023-07-20 17:23:23] INFO root fetch - processPackages [types-ttkthemes]: New version: [3.2.4.6] Old Version: [3.2.4.5]
+[2023-07-20 17:23:23] INFO root fetch - processPackages [types-pytest-lazy-fixture]: executing diffoscope
+[2023-07-20 17:23:23] INFO root fetch - processPackages [types-pytest-lazy-fixture]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-pytest-lazy-fixture-0.6.3.3.tar.gz tmp/types-pytest-lazy-fixture-0.6.3.4.tar.gz --markdown 20230720/t/types-pytest-lazy-fixture/0.6.3.3-0.6.3.4/diff.md --exclude *.pyd
+[2023-07-20 17:23:23] INFO root fetch - processPackages [types-decorator]: Remove: archive file [/home/abi/fetcher/tmp/types-decorator-5.1.8.3.tar.gz]
+[2023-07-20 17:23:23] INFO root fetch - processPackages [types-decorator]: Remove: archive file [/home/abi/fetcher/tmp/types-decorator-5.1.8.4.tar.gz]
+[2023-07-20 17:23:23] INFO root fetch - processPackages [types-decorator]: Start processing: types-flake8-docstrings
+[2023-07-20 17:23:23] INFO root fetch - main [MainThread]: End processing [types-decorator]: success
+[2023-07-20 17:23:23] INFO root fetch - processPackages [types-urllib3]: New version: [1.26.9] Old Version: [1.26.8]
+[2023-07-20 17:23:23] INFO root fetch - processPackages [types-flake8-docstrings]: New version: [1.7.0.3] Old Version: [1.7.0.2]
+[2023-07-20 17:23:23] INFO root fetch - processPackages [types-netaddr]: Remove: archive file [/home/abi/fetcher/tmp/types-netaddr-0.8.0.8.tar.gz]
+[2023-07-20 17:23:23] INFO root fetch - processPackages [types-netaddr]: Remove: archive file [/home/abi/fetcher/tmp/types-netaddr-0.8.0.9.tar.gz]
+[2023-07-20 17:23:23] INFO root fetch - processPackages [types-netaddr]: Start processing: pydal2sql
+[2023-07-20 17:23:23] INFO root fetch - main [MainThread]: End processing [types-netaddr]: success
+[2023-07-20 17:23:23] INFO root fetch - processPackages [types-click-spinner]: Downloading https://files.pythonhosted.org/packages/6d/9e/3a5eaab91acd7d40a67f2468b5c2caa6ee193b9fd0c8f7e2e7ad703c484f/types-click-spinner-0.1.8.tar.gz
+[2023-07-20 17:23:23] INFO root fetch - processPackages [types-colorama]: executing diffoscope
+[2023-07-20 17:23:23] INFO root fetch - processPackages [types-colorama]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-colorama-0.4.8.tar.gz tmp/types-colorama-0.4.9.tar.gz --markdown 20230720/t/types-colorama/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-07-20 17:23:23] INFO root fetch - processPackages [types-ttkthemes]: Downloading https://files.pythonhosted.org/packages/fb/be/08955b98fb6d1b6e637f4b6917ccef31c483d132f2f1657bb219b79c9a17/types-ttkthemes-3.2.4.5.tar.gz
+[2023-07-20 17:23:23] INFO root fetch - processPackages [types-ujson]: Downloading https://files.pythonhosted.org/packages/d3/3f/7ed90fc6fd2e419f525e9b9a707398b9c984b7a7ddf94133d8cf6d4c0703/types-ujson-5.8.0.1.tar.gz
+[2023-07-20 17:23:23] INFO root fetch - processPackages [pydal2sql]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-07-20 17:23:23] INFO root fetch - processPackages [types-urllib3]: Downloading https://files.pythonhosted.org/packages/f8/2f/184bfd8ada02f7d85af1462226264377880eb0e6921e77bf900478c6c510/types-urllib3-1.26.8.tar.gz
+[2023-07-20 17:23:23] INFO root fetch - processPackages [types-flake8-docstrings]: Downloading https://files.pythonhosted.org/packages/2c/d4/7d9e369308c2022bc6c35bfa67aacfb52fe5bae7955eab163aacc89eac00/types-flake8-docstrings-1.7.0.2.tar.gz
+[2023-07-20 17:23:23] INFO root fetch - processPackages [types-ujson]: executing diffoscope
+[2023-07-20 17:23:23] INFO root fetch - processPackages [types-ujson]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-ujson-5.8.0.0.tar.gz tmp/types-ujson-5.8.0.1.tar.gz --markdown 20230720/t/types-ujson/5.8.0.0-5.8.0.1/diff.md --exclude *.pyd
+[2023-07-20 17:23:23] INFO root fetch - processPackages [pydal2sql]: Downloading https://files.pythonhosted.org/packages/c0/eb/678cc2e3f85546f2de79848acd62a4db81d42a634421dd4fa8c1d2e736f5/pydal2sql-0.2.1.tar.gz
+[2023-07-20 17:23:24] INFO root fetch - processPackages [types-httplib2]: Remove: archive file [/home/abi/fetcher/tmp/types-httplib2-0.22.0.1.tar.gz]
+[2023-07-20 17:23:24] INFO root fetch - processPackages [types-httplib2]: Remove: archive file [/home/abi/fetcher/tmp/types-httplib2-0.22.0.2.tar.gz]
+[2023-07-20 17:23:24] INFO root fetch - processPackages [types-httplib2]: Start processing: types-oauthlib
+[2023-07-20 17:23:24] INFO root fetch - main [MainThread]: End processing [types-httplib2]: success
+[2023-07-20 17:23:24] INFO root fetch - processPackages [types-ttkthemes]: Downloading https://files.pythonhosted.org/packages/10/31/c0d2d1d7405e91c714bfb0a9483934e4f1f3f19bec647268e1cf6fee0c53/types-ttkthemes-3.2.4.6.tar.gz
+[2023-07-20 17:23:24] INFO root fetch - processPackages [types-oauthlib]: New version: [3.2.0.9] Old Version: [3.2.0.8]
+[2023-07-20 17:23:24] INFO root fetch - processPackages [types-click-spinner]: Downloading https://files.pythonhosted.org/packages/9e/df/143192b82335d934514fa1314e5b76266d93e7aa0a2aac080e5c4d96f7d2/types-click-spinner-0.1.9.tar.gz
+[2023-07-20 17:23:24] INFO root fetch - processPackages [types-flake8-docstrings]: Downloading https://files.pythonhosted.org/packages/f9/2b/26d0e06a25df7d64727e14b28d8cd62a2b2efdad4c0c7dd22bb9a1d4e82d/types-flake8-docstrings-1.7.0.3.tar.gz
+[2023-07-20 17:23:24] INFO root fetch - processPackages [types-urllib3]: Downloading https://files.pythonhosted.org/packages/64/af/22951f86e467ca603e7daa3a62cbc9999f24f5787ece51fd1930ed20eb12/types-urllib3-1.26.9.tar.gz
+[2023-07-20 17:23:24] INFO root fetch - processPackages [types-oauthlib]: Downloading https://files.pythonhosted.org/packages/48/8b/ef0cab20c3aba523bd536efff09d82dcac8465c15b25654aea4563429088/types-oauthlib-3.2.0.8.tar.gz
+[2023-07-20 17:23:24] INFO root fetch - processPackages [types-ttkthemes]: executing diffoscope
+[2023-07-20 17:23:24] INFO root fetch - processPackages [types-ttkthemes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-ttkthemes-3.2.4.5.tar.gz tmp/types-ttkthemes-3.2.4.6.tar.gz --markdown 20230720/t/types-ttkthemes/3.2.4.5-3.2.4.6/diff.md --exclude *.pyd
+[2023-07-20 17:23:24] INFO root fetch - processPackages [types-click-spinner]: executing diffoscope
+[2023-07-20 17:23:24] INFO root fetch - processPackages [types-flake8-docstrings]: executing diffoscope
+[2023-07-20 17:23:24] INFO root fetch - processPackages [types-click-spinner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-click-spinner-0.1.8.tar.gz tmp/types-click-spinner-0.1.9.tar.gz --markdown 20230720/t/types-click-spinner/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-20 17:23:24] INFO root fetch - processPackages [types-flake8-docstrings]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-flake8-docstrings-1.7.0.2.tar.gz tmp/types-flake8-docstrings-1.7.0.3.tar.gz --markdown 20230720/t/types-flake8-docstrings/1.7.0.2-1.7.0.3/diff.md --exclude *.pyd
+[2023-07-20 17:23:24] INFO root fetch - processPackages [types-urllib3]: executing diffoscope
+[2023-07-20 17:23:24] INFO root fetch - processPackages [types-urllib3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-urllib3-1.26.8.tar.gz tmp/types-urllib3-1.26.9.tar.gz --markdown 20230720/t/types-urllib3/1.26.8-1.26.9/diff.md --exclude *.pyd
+[2023-07-20 17:23:24] INFO root fetch - processPackages [pydal2sql]: Downloading https://files.pythonhosted.org/packages/a7/7f/3a9d8b28d56197f5ed34b75c81b27550134de55cfbf8c2c480d0cc066751/pydal2sql-0.2.2.tar.gz
+[2023-07-20 17:23:24] INFO root fetch - processPackages [types-jsonschema]: Remove: archive file [/home/abi/fetcher/tmp/types-jsonschema-4.7.0.tar.gz]
+[2023-07-20 17:23:24] INFO root fetch - processPackages [types-jsonschema]: Remove: archive file [/home/abi/fetcher/tmp/types-jsonschema-4.9.0.tar.gz]
+[2023-07-20 17:23:24] INFO root fetch - processPackages [types-jsonschema]: Start processing: types-toml
+[2023-07-20 17:23:24] INFO root fetch - main [MainThread]: End processing [types-jsonschema]: success
+[2023-07-20 17:23:24] INFO root fetch - processPackages [types-toml]: New version: [0.10.8.7] Old Version: [0.10.8.6]
+[2023-07-20 17:23:24] INFO root fetch - processPackages [types-pytest-lazy-fixture]: Remove: archive file [/home/abi/fetcher/tmp/types-pytest-lazy-fixture-0.6.3.3.tar.gz]
+[2023-07-20 17:23:24] INFO root fetch - processPackages [types-pytest-lazy-fixture]: Remove: archive file [/home/abi/fetcher/tmp/types-pytest-lazy-fixture-0.6.3.4.tar.gz]
+[2023-07-20 17:23:24] INFO root fetch - processPackages [types-pytest-lazy-fixture]: Start processing: types-stripe
+[2023-07-20 17:23:24] INFO root fetch - main [MainThread]: End processing [types-pytest-lazy-fixture]: success
+[2023-07-20 17:23:24] INFO root fetch - processPackages [types-stripe]: New version: [3.5.2.9] Old Version: [3.5.2.8]
+[2023-07-20 17:23:24] INFO root fetch - processPackages [types-oauthlib]: Downloading https://files.pythonhosted.org/packages/92/45/e7f9a19459e289033a12e97ad0e0ce45617eff45a803cc9b93774e79205c/types-oauthlib-3.2.0.9.tar.gz
+[2023-07-20 17:23:24] INFO root fetch - processPackages [pydal2sql]: executing diffoscope
+[2023-07-20 17:23:24] INFO root fetch - processPackages [pydal2sql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydal2sql-0.2.1.tar.gz tmp/pydal2sql-0.2.2.tar.gz --markdown 20230720/p/pydal2sql/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-07-20 17:23:24] INFO root fetch - processPackages [types-toml]: Downloading https://files.pythonhosted.org/packages/7a/cc/935b70ca52a18ef08dc77e0a622ac6b602bea52a794fe033e78b5c9e8e7e/types-toml-0.10.8.6.tar.gz
+[2023-07-20 17:23:24] INFO root fetch - processPackages [types-oauthlib]: executing diffoscope
+[2023-07-20 17:23:24] INFO root fetch - processPackages [types-oauthlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-oauthlib-3.2.0.8.tar.gz tmp/types-oauthlib-3.2.0.9.tar.gz --markdown 20230720/t/types-oauthlib/3.2.0.8-3.2.0.9/diff.md --exclude *.pyd
+[2023-07-20 17:23:24] INFO root fetch - processPackages [types-stripe]: Downloading https://files.pythonhosted.org/packages/13/f6/2882509b029b7f34ea99a380a5a3ed8cccaf5d92852bf1c7d525e2a771e1/types-stripe-3.5.2.8.tar.gz
+[2023-07-20 17:23:24] INFO root fetch - processPackages [types-colorama]: Remove: archive file [/home/abi/fetcher/tmp/types-colorama-0.4.8.tar.gz]
+[2023-07-20 17:23:24] INFO root fetch - processPackages [types-colorama]: Remove: archive file [/home/abi/fetcher/tmp/types-colorama-0.4.9.tar.gz]
+[2023-07-20 17:23:24] INFO root fetch - processPackages [types-colorama]: Start processing: types-python-dateutil
+[2023-07-20 17:23:24] INFO root fetch - main [MainThread]: End processing [types-colorama]: success
+[2023-07-20 17:23:25] INFO root fetch - processPackages [types-python-dateutil]: New version: [2.8.9] Old Version: [2.8.8]
+[2023-07-20 17:23:25] INFO root fetch - processPackages [types-toml]: Downloading https://files.pythonhosted.org/packages/0d/c3/290afb9e9263d6639fa60ac25d9c26fef86ea207fa9862a5a07afb6f2639/types-toml-0.10.8.7.tar.gz
+[2023-07-20 17:23:25] INFO root fetch - processPackages [types-ujson]: Remove: archive file [/home/abi/fetcher/tmp/types-ujson-5.8.0.0.tar.gz]
+[2023-07-20 17:23:25] INFO root fetch - processPackages [types-ujson]: Remove: archive file [/home/abi/fetcher/tmp/types-ujson-5.8.0.1.tar.gz]
+[2023-07-20 17:23:25] INFO root fetch - processPackages [types-ujson]: Start processing: types-Send2Trash
+[2023-07-20 17:23:25] INFO root fetch - main [MainThread]: End processing [types-ujson]: success
+[2023-07-20 17:23:25] INFO root fetch - processPackages [types-Send2Trash]: New version: [1.8.2.6] Old Version: [1.8.2.5]
+[2023-07-20 17:23:25] INFO root fetch - processPackages [types-python-dateutil]: Downloading https://files.pythonhosted.org/packages/96/f7/146ef0be1953b445412d8d67bedf51f39a706c57dde890b9a4f3e6f43fd8/types-python-dateutil-2.8.8.tar.gz
+[2023-07-20 17:23:25] INFO root fetch - processPackages [types-stripe]: Downloading https://files.pythonhosted.org/packages/a3/76/df0c21de3e24d10a569855514cb273d138248b30bddabfcb1e353106559c/types-stripe-3.5.2.9.tar.gz
+[2023-07-20 17:23:25] INFO root fetch - processPackages [types-toml]: executing diffoscope
+[2023-07-20 17:23:25] INFO root fetch - processPackages [types-toml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-toml-0.10.8.6.tar.gz tmp/types-toml-0.10.8.7.tar.gz --markdown 20230720/t/types-toml/0.10.8.6-0.10.8.7/diff.md --exclude *.pyd
+[2023-07-20 17:23:25] INFO root fetch - processPackages [types-ttkthemes]: Remove: archive file [/home/abi/fetcher/tmp/types-ttkthemes-3.2.4.5.tar.gz]
+[2023-07-20 17:23:25] INFO root fetch - processPackages [types-ttkthemes]: Remove: archive file [/home/abi/fetcher/tmp/types-ttkthemes-3.2.4.6.tar.gz]
+[2023-07-20 17:23:25] INFO root fetch - processPackages [types-ttkthemes]: Start processing: types-croniter
+[2023-07-20 17:23:25] INFO root fetch - main [MainThread]: End processing [types-ttkthemes]: success
+[2023-07-20 17:23:25] INFO root fetch - processPackages [types-Send2Trash]: Downloading https://files.pythonhosted.org/packages/0a/e2/945cc7ea08f9dea2dda4855a06dda45420d628b48777c32d3f76bd6a404b/types-Send2Trash-1.8.2.5.tar.gz
+[2023-07-20 17:23:25] INFO root fetch - processPackages [types-croniter]: New version: [1.4.0.1] Old Version: [1.4.0.0]
+[2023-07-20 17:23:25] INFO root fetch - processPackages [types-stripe]: executing diffoscope
+[2023-07-20 17:23:25] INFO root fetch - processPackages [types-stripe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-stripe-3.5.2.8.tar.gz tmp/types-stripe-3.5.2.9.tar.gz --markdown 20230720/t/types-stripe/3.5.2.8-3.5.2.9/diff.md --exclude *.pyd
+[2023-07-20 17:23:25] INFO root fetch - processPackages [types-flake8-docstrings]: Remove: archive file [/home/abi/fetcher/tmp/types-flake8-docstrings-1.7.0.2.tar.gz]
+[2023-07-20 17:23:25] INFO root fetch - processPackages [types-flake8-docstrings]: Remove: archive file [/home/abi/fetcher/tmp/types-flake8-docstrings-1.7.0.3.tar.gz]
+[2023-07-20 17:23:25] INFO root fetch - processPackages [types-flake8-docstrings]: Start processing: types-Deprecated
+[2023-07-20 17:23:25] INFO root fetch - main [MainThread]: End processing [types-flake8-docstrings]: success
+[2023-07-20 17:23:25] INFO root fetch - processPackages [types-croniter]: Downloading https://files.pythonhosted.org/packages/fc/40/b5783773f5b99bffd3e80f5bb78f5cff901ee75eab0a25f8d26aa6d812bd/types-croniter-1.4.0.0.tar.gz
+[2023-07-20 17:23:25] INFO root fetch - processPackages [types-Deprecated]: New version: [1.2.9.3] Old Version: [1.2.9.2]
+[2023-07-20 17:23:25] INFO root fetch - processPackages [types-urllib3]: Remove: archive file [/home/abi/fetcher/tmp/types-urllib3-1.26.8.tar.gz]
+[2023-07-20 17:23:25] INFO root fetch - processPackages [types-urllib3]: Remove: archive file [/home/abi/fetcher/tmp/types-urllib3-1.26.9.tar.gz]
+[2023-07-20 17:23:25] INFO root fetch - processPackages [types-urllib3]: Start processing: types-xmltodict
+[2023-07-20 17:23:25] INFO root fetch - main [MainThread]: End processing [types-urllib3]: success
+[2023-07-20 17:23:25] INFO root fetch - processPackages [types-click-spinner]: Remove: archive file [/home/abi/fetcher/tmp/types-click-spinner-0.1.8.tar.gz]
+[2023-07-20 17:23:25] INFO root fetch - processPackages [types-click-spinner]: Remove: archive file [/home/abi/fetcher/tmp/types-click-spinner-0.1.9.tar.gz]
+[2023-07-20 17:23:25] INFO root fetch - processPackages [types-click-spinner]: Start processing: types-PyMySQL
+[2023-07-20 17:23:25] INFO root fetch - main [MainThread]: End processing [types-click-spinner]: success
+[2023-07-20 17:23:25] INFO root fetch - processPackages [types-python-dateutil]: Downloading https://files.pythonhosted.org/packages/1d/92/6015fbb0d82e846012ba5000fee60552a36f6155bd10eb98925f55d5dd29/types-python-dateutil-2.8.9.tar.gz
+[2023-07-20 17:23:25] INFO root fetch - processPackages [types-Send2Trash]: Downloading https://files.pythonhosted.org/packages/d8/61/829eb8e7163a0f63f14cfacd92df51e7f70ff896fce6e5ba4a676a2df788/types-Send2Trash-1.8.2.6.tar.gz
+[2023-07-20 17:23:25] INFO root fetch - processPackages [types-PyMySQL]: New version: [1.1.0.1] Old Version: [1.1.0.0]
+[2023-07-20 17:23:25] INFO root fetch - processPackages [types-xmltodict]: New version: [0.13.0.3] Old Version: [0.13.0.2]
+[2023-07-20 17:23:26] INFO root fetch - processPackages [types-Deprecated]: Downloading https://files.pythonhosted.org/packages/61/3f/dc23218cd80cffdbcfc3e83c37679e726c3e6bf23c55d6d1a59a6295e7d6/types-Deprecated-1.2.9.2.tar.gz
+[2023-07-20 17:23:26] INFO root fetch - processPackages [types-Send2Trash]: executing diffoscope
+[2023-07-20 17:23:26] INFO root fetch - processPackages [types-Send2Trash]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-Send2Trash-1.8.2.5.tar.gz tmp/types-Send2Trash-1.8.2.6.tar.gz --markdown 20230720/t/types-Send2Trash/1.8.2.5-1.8.2.6/diff.md --exclude *.pyd
+[2023-07-20 17:23:26] INFO root fetch - processPackages [types-python-dateutil]: executing diffoscope
+[2023-07-20 17:23:26] INFO root fetch - processPackages [types-python-dateutil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-python-dateutil-2.8.8.tar.gz tmp/types-python-dateutil-2.8.9.tar.gz --markdown 20230720/t/types-python-dateutil/2.8.8-2.8.9/diff.md --exclude *.pyd
+[2023-07-20 17:23:26] INFO root fetch - processPackages [pydal2sql]: Remove: archive file [/home/abi/fetcher/tmp/pydal2sql-0.2.1.tar.gz]
+[2023-07-20 17:23:26] INFO root fetch - processPackages [pydal2sql]: Remove: archive file [/home/abi/fetcher/tmp/pydal2sql-0.2.2.tar.gz]
+[2023-07-20 17:23:26] INFO root fetch - processPackages [pydal2sql]: Start processing: types-chevron
+[2023-07-20 17:23:26] INFO root fetch - main [MainThread]: End processing [pydal2sql]: success
+[2023-07-20 17:23:26] INFO root fetch - processPackages [types-croniter]: Downloading https://files.pythonhosted.org/packages/51/fc/1a38f0e838c16b55c67a788c3db5bf04760a22b1e34a6fb7b4c1aade6f7d/types-croniter-1.4.0.1.tar.gz
+[2023-07-20 17:23:26] INFO root fetch - processPackages [types-chevron]: New version: [0.14.2.5] Old Version: [0.14.2.4]
+[2023-07-20 17:23:26] INFO root fetch - processPackages [types-xmltodict]: Downloading https://files.pythonhosted.org/packages/0e/3c/e478ade724ea201c6ad6203824fa5395b2302aaf0a2ed2348a247eb4ef6b/types-xmltodict-0.13.0.2.tar.gz
+[2023-07-20 17:23:26] INFO root fetch - processPackages [types-PyMySQL]: Downloading https://files.pythonhosted.org/packages/84/46/17becf7fa63093b392dbfb95037d49281a20e4dbe278682e941d6dcf411b/types-PyMySQL-1.1.0.0.tar.gz
+[2023-07-20 17:23:26] INFO root fetch - processPackages [types-oauthlib]: Remove: archive file [/home/abi/fetcher/tmp/types-oauthlib-3.2.0.8.tar.gz]
+[2023-07-20 17:23:26] INFO root fetch - processPackages [types-oauthlib]: Remove: archive file [/home/abi/fetcher/tmp/types-oauthlib-3.2.0.9.tar.gz]
+[2023-07-20 17:23:26] INFO root fetch - processPackages [types-oauthlib]: Start processing: types-singledispatch
+[2023-07-20 17:23:26] INFO root fetch - main [MainThread]: End processing [types-oauthlib]: success
+[2023-07-20 17:23:26] INFO root fetch - processPackages [types-singledispatch]: New version: [4.0.0.2] Old Version: [4.0.0.1]
+[2023-07-20 17:23:26] INFO root fetch - processPackages [types-croniter]: executing diffoscope
+[2023-07-20 17:23:26] INFO root fetch - processPackages [types-croniter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-croniter-1.4.0.0.tar.gz tmp/types-croniter-1.4.0.1.tar.gz --markdown 20230720/t/types-croniter/1.4.0.0-1.4.0.1/diff.md --exclude *.pyd
+[2023-07-20 17:23:26] INFO root fetch - processPackages [types-toml]: Remove: archive file [/home/abi/fetcher/tmp/types-toml-0.10.8.6.tar.gz]
+[2023-07-20 17:23:26] INFO root fetch - processPackages [types-toml]: Remove: archive file [/home/abi/fetcher/tmp/types-toml-0.10.8.7.tar.gz]
+[2023-07-20 17:23:26] INFO root fetch - processPackages [types-toml]: Start processing: types-polib
+[2023-07-20 17:23:26] INFO root fetch - main [MainThread]: End processing [types-toml]: success
+[2023-07-20 17:23:26] INFO root fetch - processPackages [types-Deprecated]: Downloading https://files.pythonhosted.org/packages/7f/43/6badee141c57e04c73d98cfee62a9b52aade5c4cacb87dbdcdb195ec6ff8/types-Deprecated-1.2.9.3.tar.gz
+[2023-07-20 17:23:26] INFO root fetch - processPackages [types-chevron]: Downloading https://files.pythonhosted.org/packages/dc/fa/8913e6c2d716fcded35990babd840174aac645efac93fe019d5913f748ee/types-chevron-0.14.2.4.tar.gz
+[2023-07-20 17:23:26] INFO root fetch - processPackages [types-polib]: New version: [1.2.0.1] Old Version: [1.2.0.0]
+[2023-07-20 17:23:26] INFO root fetch - processPackages [types-singledispatch]: Downloading https://files.pythonhosted.org/packages/ef/95/c31c9854886ac0693fda3753672e79cc95bcb6f82248d3c72fc02b38312e/types-singledispatch-4.0.0.1.tar.gz
+[2023-07-20 17:23:26] INFO root fetch - processPackages [types-PyMySQL]: Downloading https://files.pythonhosted.org/packages/b0/74/4da043ca80d8d8ff37c2284f7e7a8d8e37b4df8323ccabe404089c23aa03/types-PyMySQL-1.1.0.1.tar.gz
+[2023-07-20 17:23:26] INFO root fetch - processPackages [types-Deprecated]: executing diffoscope
+[2023-07-20 17:23:26] INFO root fetch - processPackages [types-Deprecated]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-Deprecated-1.2.9.2.tar.gz tmp/types-Deprecated-1.2.9.3.tar.gz --markdown 20230720/t/types-Deprecated/1.2.9.2-1.2.9.3/diff.md --exclude *.pyd
+[2023-07-20 17:23:26] INFO root fetch - processPackages [types-xmltodict]: Downloading https://files.pythonhosted.org/packages/4f/bc/191d95f4e18ee8ffe626046574805fad7734827146e6ad39d56149fb1f62/types-xmltodict-0.13.0.3.tar.gz
+[2023-07-20 17:23:26] INFO root fetch - processPackages [types-polib]: Downloading https://files.pythonhosted.org/packages/ab/f9/dbafcdcfdd3090f6e8b2cfb3c7ecef13563d9cf9066b733d20e1fad3e3ca/types-polib-1.2.0.0.tar.gz
+[2023-07-20 17:23:26] INFO root fetch - processPackages [types-PyMySQL]: executing diffoscope
+[2023-07-20 17:23:26] INFO root fetch - processPackages [types-PyMySQL]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-PyMySQL-1.1.0.0.tar.gz tmp/types-PyMySQL-1.1.0.1.tar.gz --markdown 20230720/t/types-PyMySQL/1.1.0.0-1.1.0.1/diff.md --exclude *.pyd
+[2023-07-20 17:23:26] INFO root fetch - processPackages [types-chevron]: Downloading https://files.pythonhosted.org/packages/34/a2/a9ad453c99541ef7abed5d4944eac070cdd081dc2dd3d67b191b13c6ec9b/types-chevron-0.14.2.5.tar.gz
+[2023-07-20 17:23:26] INFO root fetch - processPackages [types-xmltodict]: executing diffoscope
+[2023-07-20 17:23:26] INFO root fetch - processPackages [types-xmltodict]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-xmltodict-0.13.0.2.tar.gz tmp/types-xmltodict-0.13.0.3.tar.gz --markdown 20230720/t/types-xmltodict/0.13.0.2-0.13.0.3/diff.md --exclude *.pyd
+[2023-07-20 17:23:26] INFO root fetch - processPackages [types-singledispatch]: Downloading https://files.pythonhosted.org/packages/c7/ef/ff68202a549f266f15c6ead4198f7c7f04527664708d448dcf66c5e31f7e/types-singledispatch-4.0.0.2.tar.gz
+[2023-07-20 17:23:27] INFO root fetch - processPackages [types-stripe]: Remove: archive file [/home/abi/fetcher/tmp/types-stripe-3.5.2.8.tar.gz]
+[2023-07-20 17:23:27] INFO root fetch - processPackages [types-stripe]: Remove: archive file [/home/abi/fetcher/tmp/types-stripe-3.5.2.9.tar.gz]
+[2023-07-20 17:23:27] INFO root fetch - processPackages [types-stripe]: Start processing: types-python-slugify
+[2023-07-20 17:23:27] INFO root fetch - main [MainThread]: End processing [types-stripe]: success
+[2023-07-20 17:23:27] INFO root fetch - processPackages [types-chevron]: executing diffoscope
+[2023-07-20 17:23:27] INFO root fetch - processPackages [types-chevron]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-chevron-0.14.2.4.tar.gz tmp/types-chevron-0.14.2.5.tar.gz --markdown 20230720/t/types-chevron/0.14.2.4-0.14.2.5/diff.md --exclude *.pyd
+[2023-07-20 17:23:27] INFO root fetch - processPackages [types-python-slugify]: New version: [8.0.0.3] Old Version: [8.0.0.2]
+[2023-07-20 17:23:27] INFO root fetch - processPackages [types-singledispatch]: executing diffoscope
+[2023-07-20 17:23:27] INFO root fetch - processPackages [types-singledispatch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-singledispatch-4.0.0.1.tar.gz tmp/types-singledispatch-4.0.0.2.tar.gz --markdown 20230720/t/types-singledispatch/4.0.0.1-4.0.0.2/diff.md --exclude *.pyd
+[2023-07-20 17:23:27] INFO root fetch - processPackages [types-polib]: Downloading https://files.pythonhosted.org/packages/b3/87/1ee6672ed824b0a9decdfb78042b0fc1ac78aae1cbaed72db29c2b250f34/types-polib-1.2.0.1.tar.gz
+[2023-07-20 17:23:27] INFO root fetch - processPackages [types-python-dateutil]: Remove: archive file [/home/abi/fetcher/tmp/types-python-dateutil-2.8.8.tar.gz]
+[2023-07-20 17:23:27] INFO root fetch - processPackages [types-python-dateutil]: Remove: archive file [/home/abi/fetcher/tmp/types-python-dateutil-2.8.9.tar.gz]
+[2023-07-20 17:23:27] INFO root fetch - processPackages [types-python-dateutil]: Start processing: types-flake8-builtins
+[2023-07-20 17:23:27] INFO root fetch - main [MainThread]: End processing [types-python-dateutil]: success
+[2023-07-20 17:23:27] INFO root fetch - processPackages [types-Send2Trash]: Remove: archive file [/home/abi/fetcher/tmp/types-Send2Trash-1.8.2.5.tar.gz]
+[2023-07-20 17:23:27] INFO root fetch - processPackages [types-Send2Trash]: Remove: archive file [/home/abi/fetcher/tmp/types-Send2Trash-1.8.2.6.tar.gz]
+[2023-07-20 17:23:27] INFO root fetch - processPackages [types-Send2Trash]: Start processing: types-google-cloud-ndb
+[2023-07-20 17:23:27] INFO root fetch - main [MainThread]: End processing [types-Send2Trash]: success
+[2023-07-20 17:23:27] INFO root fetch - processPackages [types-flake8-builtins]: New version: [2.1.0.3] Old Version: [2.1.0.2]
+[2023-07-20 17:23:27] INFO root fetch - processPackages [types-python-slugify]: Downloading https://files.pythonhosted.org/packages/dc/88/b3bed4ae688d4ba01d3f014c181e69aaab9fcb01781a0ca0111564da4c29/types-python-slugify-8.0.0.2.tar.gz
+[2023-07-20 17:23:27] INFO root fetch - processPackages [types-google-cloud-ndb]: New version: [2.1.0.8] Old Version: [2.1.0.7]
+[2023-07-20 17:23:27] INFO root fetch - processPackages [types-polib]: executing diffoscope
+[2023-07-20 17:23:27] INFO root fetch - processPackages [types-polib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-polib-1.2.0.0.tar.gz tmp/types-polib-1.2.0.1.tar.gz --markdown 20230720/t/types-polib/1.2.0.0-1.2.0.1/diff.md --exclude *.pyd
+[2023-07-20 17:23:27] INFO root fetch - processPackages [types-google-cloud-ndb]: Downloading https://files.pythonhosted.org/packages/29/7c/b47fd209efd401152ee484e99b49ab9694a6017d4fe9e58c53f243387670/types-google-cloud-ndb-2.1.0.7.tar.gz
+[2023-07-20 17:23:27] INFO root fetch - processPackages [types-croniter]: Remove: archive file [/home/abi/fetcher/tmp/types-croniter-1.4.0.0.tar.gz]
+[2023-07-20 17:23:27] INFO root fetch - processPackages [types-croniter]: Remove: archive file [/home/abi/fetcher/tmp/types-croniter-1.4.0.1.tar.gz]
+[2023-07-20 17:23:27] INFO root fetch - processPackages [types-croniter]: Start processing: types-aws-xray-sdk
+[2023-07-20 17:23:27] INFO root fetch - main [MainThread]: End processing [types-croniter]: success
+[2023-07-20 17:23:27] INFO root fetch - processPackages [types-flake8-builtins]: Downloading https://files.pythonhosted.org/packages/7a/a1/2d28373657502e6e3a364a3f6e17ef1fb6103b6ad9a24afb115bf4ece6c1/types-flake8-builtins-2.1.0.2.tar.gz
+[2023-07-20 17:23:27] INFO root fetch - processPackages [types-aws-xray-sdk]: New version: [2.9.0] Old Version: [2.8.5]
+[2023-07-20 17:23:27] INFO root fetch - processPackages [types-python-slugify]: Downloading https://files.pythonhosted.org/packages/92/98/7331be5e660ad3847d62fc7626018063fbd928a08c4840bf6e2576855fe9/types-python-slugify-8.0.0.3.tar.gz
+[2023-07-20 17:23:27] INFO root fetch - processPackages [types-aws-xray-sdk]: Downloading https://files.pythonhosted.org/packages/f9/69/a16825f1f3b4da9031ae6f8f53fb6ffd8d50a22e2cdfe2abbbcd4f8bf85f/types-aws-xray-sdk-2.8.5.tar.gz
+[2023-07-20 17:23:27] INFO root fetch - processPackages [types-Deprecated]: Remove: archive file [/home/abi/fetcher/tmp/types-Deprecated-1.2.9.2.tar.gz]
+[2023-07-20 17:23:27] INFO root fetch - processPackages [types-Deprecated]: Remove: archive file [/home/abi/fetcher/tmp/types-Deprecated-1.2.9.3.tar.gz]
+[2023-07-20 17:23:27] INFO root fetch - processPackages [types-Deprecated]: Start processing: types-mysqlclient
+[2023-07-20 17:23:27] INFO root fetch - main [MainThread]: End processing [types-Deprecated]: success
+[2023-07-20 17:23:27] INFO root fetch - processPackages [types-google-cloud-ndb]: Downloading https://files.pythonhosted.org/packages/1b/ce/2bf1e3abf95922f9df1d73fd50bb812b79ee57aa6a20ad4c84eeffd40546/types-google-cloud-ndb-2.1.0.8.tar.gz
+[2023-07-20 17:23:27] INFO root fetch - processPackages [types-python-slugify]: executing diffoscope
+[2023-07-20 17:23:27] INFO root fetch - processPackages [types-python-slugify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-python-slugify-8.0.0.2.tar.gz tmp/types-python-slugify-8.0.0.3.tar.gz --markdown 20230720/t/types-python-slugify/8.0.0.2-8.0.0.3/diff.md --exclude *.pyd
+[2023-07-20 17:23:27] INFO root fetch - processPackages [types-mysqlclient]: New version: [2.2.0.1] Old Version: [2.2.0.0]
+[2023-07-20 17:23:27] INFO root fetch - processPackages [types-google-cloud-ndb]: executing diffoscope
+[2023-07-20 17:23:27] INFO root fetch - processPackages [types-google-cloud-ndb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-google-cloud-ndb-2.1.0.7.tar.gz tmp/types-google-cloud-ndb-2.1.0.8.tar.gz --markdown 20230720/t/types-google-cloud-ndb/2.1.0.7-2.1.0.8/diff.md --exclude *.pyd
+[2023-07-20 17:23:28] INFO root fetch - processPackages [types-flake8-builtins]: Downloading https://files.pythonhosted.org/packages/75/a9/b418cec62da033953946d70155f41ed797e16fce924c7aaf2a47cff2c064/types-flake8-builtins-2.1.0.3.tar.gz
+[2023-07-20 17:23:28] INFO root fetch - processPackages [types-mysqlclient]: Downloading https://files.pythonhosted.org/packages/92/1f/e4d257cbb51d0828cffde845d10c0b4cc83ba2e2ccfc5c077cfc6355e520/types-mysqlclient-2.2.0.0.tar.gz
+[2023-07-20 17:23:28] INFO root fetch - processPackages [types-PyMySQL]: Remove: archive file [/home/abi/fetcher/tmp/types-PyMySQL-1.1.0.0.tar.gz]
+[2023-07-20 17:23:28] INFO root fetch - processPackages [types-PyMySQL]: Remove: archive file [/home/abi/fetcher/tmp/types-PyMySQL-1.1.0.1.tar.gz]
+[2023-07-20 17:23:28] INFO root fetch - processPackages [types-PyMySQL]: Start processing: ima-predeployed
+[2023-07-20 17:23:28] INFO root fetch - main [MainThread]: End processing [types-PyMySQL]: success
+[2023-07-20 17:23:28] INFO root fetch - processPackages [types-flake8-builtins]: executing diffoscope
+[2023-07-20 17:23:28] INFO root fetch - processPackages [types-flake8-builtins]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-flake8-builtins-2.1.0.2.tar.gz tmp/types-flake8-builtins-2.1.0.3.tar.gz --markdown 20230720/t/types-flake8-builtins/2.1.0.2-2.1.0.3/diff.md --exclude *.pyd
+[2023-07-20 17:23:28] INFO root fetch - processPackages [types-aws-xray-sdk]: Downloading https://files.pythonhosted.org/packages/b5/bb/d501a17548e0cb4f158a834de693ca92f3e47048a1577c1f9422b8c974ee/types-aws-xray-sdk-2.9.0.tar.gz
+[2023-07-20 17:23:28] INFO root fetch - processPackages [ima-predeployed]: New version: [2.0.0b5] Old Version: [2.0.0b4]
+[2023-07-20 17:23:28] INFO root fetch - processPackages [types-xmltodict]: Remove: archive file [/home/abi/fetcher/tmp/types-xmltodict-0.13.0.2.tar.gz]
+[2023-07-20 17:23:28] INFO root fetch - processPackages [types-xmltodict]: Remove: archive file [/home/abi/fetcher/tmp/types-xmltodict-0.13.0.3.tar.gz]
+[2023-07-20 17:23:28] INFO root fetch - processPackages [types-xmltodict]: Start processing: types-pyflakes
+[2023-07-20 17:23:28] INFO root fetch - main [MainThread]: End processing [types-xmltodict]: success
+[2023-07-20 17:23:28] INFO root fetch - processPackages [types-chevron]: Remove: archive file [/home/abi/fetcher/tmp/types-chevron-0.14.2.4.tar.gz]
+[2023-07-20 17:23:28] INFO root fetch - processPackages [types-chevron]: Remove: archive file [/home/abi/fetcher/tmp/types-chevron-0.14.2.5.tar.gz]
+[2023-07-20 17:23:28] INFO root fetch - processPackages [types-chevron]: Start processing: TDCRPy
+[2023-07-20 17:23:28] INFO root fetch - main [MainThread]: End processing [types-chevron]: success
+[2023-07-20 17:23:28] INFO root fetch - processPackages [types-pyflakes]: New version: [3.0.0.5] Old Version: [3.0.0.4]
+[2023-07-20 17:23:28] INFO root fetch - processPackages [TDCRPy]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-20 17:23:28] INFO root fetch - processPackages [ima-predeployed]: Downloading https://files.pythonhosted.org/packages/08/b9/bdce816b8cdd4df27314d070da2c5ebbb63236e3a1b0cf211ba3f14907cf/ima-predeployed-2.0.0b4.tar.gz
+[2023-07-20 17:23:28] INFO root fetch - processPackages [types-singledispatch]: Remove: archive file [/home/abi/fetcher/tmp/types-singledispatch-4.0.0.1.tar.gz]
+[2023-07-20 17:23:28] INFO root fetch - processPackages [types-singledispatch]: Remove: archive file [/home/abi/fetcher/tmp/types-singledispatch-4.0.0.2.tar.gz]
+[2023-07-20 17:23:28] INFO root fetch - processPackages [types-singledispatch]: Start processing: types-pyOpenSSL
+[2023-07-20 17:23:28] INFO root fetch - main [MainThread]: End processing [types-singledispatch]: success
+[2023-07-20 17:23:28] INFO root fetch - processPackages [TDCRPy]: Downloading https://files.pythonhosted.org/packages/45/d1/26f2b4eb42e05416d7662d5fb8b6f31b59dee6421945806c7b7bfdfbfa94/TDCRPy-0.0.8.tar.gz
+[2023-07-20 17:23:28] INFO root fetch - processPackages [types-pyOpenSSL]: New version: [23.2.0.2] Old Version: [23.2.0.1]
+[2023-07-20 17:23:28] INFO root fetch - processPackages [types-mysqlclient]: Downloading https://files.pythonhosted.org/packages/83/45/fa209a258dc1a52c0cef151a6474d6f472851e87de4a0e831c0cd960d734/types-mysqlclient-2.2.0.1.tar.gz
+[2023-07-20 17:23:28] INFO root fetch - processPackages [types-aws-xray-sdk]: executing diffoscope
+[2023-07-20 17:23:28] INFO root fetch - processPackages [types-aws-xray-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-aws-xray-sdk-2.8.5.tar.gz tmp/types-aws-xray-sdk-2.9.0.tar.gz --markdown 20230720/t/types-aws-xray-sdk/2.8.5-2.9.0/diff.md --exclude *.pyd
+[2023-07-20 17:23:28] INFO root fetch - processPackages [types-pyflakes]: Downloading https://files.pythonhosted.org/packages/a4/a8/9f1fe406592101218d5b1023d3ae3e0c75627bc384b23b66d437457dfbdd/types-pyflakes-3.0.0.4.tar.gz
+[2023-07-20 17:23:28] INFO root fetch - processPackages [types-polib]: Remove: archive file [/home/abi/fetcher/tmp/types-polib-1.2.0.0.tar.gz]
+[2023-07-20 17:23:28] INFO root fetch - processPackages [types-polib]: Remove: archive file [/home/abi/fetcher/tmp/types-polib-1.2.0.1.tar.gz]
+[2023-07-20 17:23:28] INFO root fetch - processPackages [types-polib]: Start processing: types-paramiko
+[2023-07-20 17:23:28] INFO root fetch - main [MainThread]: End processing [types-polib]: success
+[2023-07-20 17:23:28] INFO root fetch - processPackages [types-mysqlclient]: executing diffoscope
+[2023-07-20 17:23:28] INFO root fetch - processPackages [types-mysqlclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-mysqlclient-2.2.0.0.tar.gz tmp/types-mysqlclient-2.2.0.1.tar.gz --markdown 20230720/t/types-mysqlclient/2.2.0.0-2.2.0.1/diff.md --exclude *.pyd
+[2023-07-20 17:23:28] INFO root fetch - processPackages [types-paramiko]: New version: [3.2.0.1] Old Version: [3.2.0.0]
+[2023-07-20 17:23:28] INFO root fetch - processPackages [TDCRPy]: Downloading https://files.pythonhosted.org/packages/58/f4/f09bcfbd9ef3b75b2932ba824304fc7e7bcee566e8570cb2d64f76eb9adc/TDCRPy-0.0.9.tar.gz
+[2023-07-20 17:23:28] INFO root fetch - processPackages [types-pyOpenSSL]: Downloading https://files.pythonhosted.org/packages/ab/2f/c2832fc4242240120e5e07bf071ec624453089191b8f78b69740e5f35873/types-pyOpenSSL-23.2.0.1.tar.gz
+[2023-07-20 17:23:28] INFO root fetch - processPackages [ima-predeployed]: Downloading https://files.pythonhosted.org/packages/a9/0e/ef5d7eb3448a991780c00717d55bcba8541e7daca8c87e3907ff012b3633/ima-predeployed-2.0.0b5.tar.gz
+[2023-07-20 17:23:28] INFO root fetch - processPackages [TDCRPy]: executing diffoscope
+[2023-07-20 17:23:28] INFO root fetch - processPackages [TDCRPy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TDCRPy-0.0.8.tar.gz tmp/TDCRPy-0.0.9.tar.gz --markdown 20230720/T/TDCRPy/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-20 17:23:28] INFO root fetch - processPackages [types-paramiko]: Downloading https://files.pythonhosted.org/packages/16/ce/e3ebc9103ddf777974562bd2d41eeb104d8e9681bb20f46d4cbf6652307d/types-paramiko-3.2.0.0.tar.gz
+[2023-07-20 17:23:29] INFO root fetch - processPackages [types-python-slugify]: Remove: archive file [/home/abi/fetcher/tmp/types-python-slugify-8.0.0.2.tar.gz]
+[2023-07-20 17:23:29] INFO root fetch - processPackages [types-python-slugify]: Remove: archive file [/home/abi/fetcher/tmp/types-python-slugify-8.0.0.3.tar.gz]
+[2023-07-20 17:23:29] INFO root fetch - processPackages [types-python-slugify]: Start processing: types-tree-sitter-languages
+[2023-07-20 17:23:29] INFO root fetch - main [MainThread]: End processing [types-python-slugify]: success
+[2023-07-20 17:23:29] INFO root fetch - processPackages [types-pyflakes]: Downloading https://files.pythonhosted.org/packages/27/f7/3c9c15f5afb3b79f8afae8a285686168f6a83d8f1a4463841b2abcff069a/types-pyflakes-3.0.0.5.tar.gz
+[2023-07-20 17:23:29] INFO root fetch - processPackages [types-tree-sitter-languages]: New version: [1.7.0.1] Old Version: [1.7.0.0]
+[2023-07-20 17:23:29] INFO root fetch - processPackages [ima-predeployed]: executing diffoscope
+[2023-07-20 17:23:29] INFO root fetch - processPackages [ima-predeployed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ima-predeployed-2.0.0b4.tar.gz tmp/ima-predeployed-2.0.0b5.tar.gz --markdown 20230720/i/ima-predeployed/2.0.0b4-2.0.0b5/diff.md --exclude *.pyd
+[2023-07-20 17:23:29] INFO root fetch - processPackages [types-pyOpenSSL]: Downloading https://files.pythonhosted.org/packages/b1/0a/e38bd743f91fe6b54a2686dfe504acd1d883cc6fc5c9116bdb737a0f2622/types-pyOpenSSL-23.2.0.2.tar.gz
+[2023-07-20 17:23:29] INFO root fetch - processPackages [types-pyflakes]: executing diffoscope
+[2023-07-20 17:23:29] INFO root fetch - processPackages [types-pyflakes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-pyflakes-3.0.0.4.tar.gz tmp/types-pyflakes-3.0.0.5.tar.gz --markdown 20230720/t/types-pyflakes/3.0.0.4-3.0.0.5/diff.md --exclude *.pyd
+[2023-07-20 17:23:29] INFO root fetch - processPackages [types-pyOpenSSL]: executing diffoscope
+[2023-07-20 17:23:29] INFO root fetch - processPackages [types-pyOpenSSL]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-pyOpenSSL-23.2.0.1.tar.gz tmp/types-pyOpenSSL-23.2.0.2.tar.gz --markdown 20230720/t/types-pyOpenSSL/23.2.0.1-23.2.0.2/diff.md --exclude *.pyd
+[2023-07-20 17:23:29] INFO root fetch - processPackages [types-tree-sitter-languages]: Downloading https://files.pythonhosted.org/packages/7e/a3/a3f984db3b51c529f8da94f7d0e76561f048143641c34dadc58f1654b19c/types-tree-sitter-languages-1.7.0.0.tar.gz
+[2023-07-20 17:23:29] INFO root fetch - processPackages [types-paramiko]: Downloading https://files.pythonhosted.org/packages/ab/68/3cf3d6ea8fd7eee9ea0a35e4e5982366a7868ee8e87e1f8b1e0bddd51359/types-paramiko-3.2.0.1.tar.gz
+[2023-07-20 17:23:29] INFO root fetch - processPackages [types-google-cloud-ndb]: Remove: archive file [/home/abi/fetcher/tmp/types-google-cloud-ndb-2.1.0.7.tar.gz]
+[2023-07-20 17:23:29] INFO root fetch - processPackages [types-google-cloud-ndb]: Remove: archive file [/home/abi/fetcher/tmp/types-google-cloud-ndb-2.1.0.8.tar.gz]
+[2023-07-20 17:23:29] INFO root fetch - processPackages [types-google-cloud-ndb]: Start processing: types-fpdf2
+[2023-07-20 17:23:29] INFO root fetch - main [MainThread]: End processing [types-google-cloud-ndb]: success
+[2023-07-20 17:23:29] INFO root fetch - processPackages [types-flake8-builtins]: Remove: archive file [/home/abi/fetcher/tmp/types-flake8-builtins-2.1.0.2.tar.gz]
+[2023-07-20 17:23:29] INFO root fetch - processPackages [types-flake8-builtins]: Remove: archive file [/home/abi/fetcher/tmp/types-flake8-builtins-2.1.0.3.tar.gz]
+[2023-07-20 17:23:29] INFO root fetch - processPackages [types-flake8-builtins]: Start processing: types-PyScreeze
+[2023-07-20 17:23:29] INFO root fetch - main [MainThread]: End processing [types-flake8-builtins]: success
+[2023-07-20 17:23:29] INFO root fetch - processPackages [types-fpdf2]: New version: [2.7.4.2] Old Version: [2.7.4.1]
+[2023-07-20 17:23:29] INFO root fetch - processPackages [types-PyScreeze]: New version: [0.1.0.9] Old Version: [0.1.0.8]
+[2023-07-20 17:23:29] INFO root fetch - processPackages [types-paramiko]: executing diffoscope
+[2023-07-20 17:23:29] INFO root fetch - processPackages [types-paramiko]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-paramiko-3.2.0.0.tar.gz tmp/types-paramiko-3.2.0.1.tar.gz --markdown 20230720/t/types-paramiko/3.2.0.0-3.2.0.1/diff.md --exclude *.pyd
+[2023-07-20 17:23:29] INFO root fetch - processPackages [types-fpdf2]: Downloading https://files.pythonhosted.org/packages/d8/b8/006277fe085af97c2f3629a8f24f4b7922997bd2ee2d525468a366272ef2/types-fpdf2-2.7.4.1.tar.gz
+[2023-07-20 17:23:29] INFO root fetch - processPackages [types-tree-sitter-languages]: Downloading https://files.pythonhosted.org/packages/a1/9f/6ca31509d1e1d9e4025c0fe62178e6496d7c33d95f112b39e6df9f20a12c/types-tree-sitter-languages-1.7.0.1.tar.gz
+[2023-07-20 17:23:29] INFO root fetch - processPackages [types-PyScreeze]: Downloading https://files.pythonhosted.org/packages/ba/94/041de7a4d6eef9b859f6c1d2c387083318b9933408099bb1920b0184d236/types-PyScreeze-0.1.0.8.tar.gz
+[2023-07-20 17:23:29] INFO root fetch - processPackages [types-tree-sitter-languages]: executing diffoscope
+[2023-07-20 17:23:29] INFO root fetch - processPackages [types-tree-sitter-languages]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-tree-sitter-languages-1.7.0.0.tar.gz tmp/types-tree-sitter-languages-1.7.0.1.tar.gz --markdown 20230720/t/types-tree-sitter-languages/1.7.0.0-1.7.0.1/diff.md --exclude *.pyd
+[2023-07-20 17:23:29] INFO root fetch - processPackages [types-mysqlclient]: Remove: archive file [/home/abi/fetcher/tmp/types-mysqlclient-2.2.0.0.tar.gz]
+[2023-07-20 17:23:29] INFO root fetch - processPackages [types-mysqlclient]: Remove: archive file [/home/abi/fetcher/tmp/types-mysqlclient-2.2.0.1.tar.gz]
+[2023-07-20 17:23:29] INFO root fetch - processPackages [types-mysqlclient]: Start processing: types-python-xlib
+[2023-07-20 17:23:29] INFO root fetch - main [MainThread]: End processing [types-mysqlclient]: success
+[2023-07-20 17:23:29] INFO root fetch - processPackages [types-python-xlib]: New version: [0.33.0.9] Old Version: [0.33.0.8]
+[2023-07-20 17:23:29] INFO root fetch - processPackages [types-fpdf2]: Downloading https://files.pythonhosted.org/packages/32/8a/aeb698b3d4a04f153f7a1a6fa192c3f4e40786a3d519eff9d9305a7d7c4a/types-fpdf2-2.7.4.2.tar.gz
+[2023-07-20 17:23:29] INFO root fetch - processPackages [types-aws-xray-sdk]: Remove: archive file [/home/abi/fetcher/tmp/types-aws-xray-sdk-2.8.5.tar.gz]
+[2023-07-20 17:23:29] INFO root fetch - processPackages [types-aws-xray-sdk]: Remove: archive file [/home/abi/fetcher/tmp/types-aws-xray-sdk-2.9.0.tar.gz]
+[2023-07-20 17:23:29] INFO root fetch - processPackages [types-aws-xray-sdk]: Start processing: types-tzlocal
+[2023-07-20 17:23:29] INFO root fetch - main [MainThread]: End processing [types-aws-xray-sdk]: success
+[2023-07-20 17:23:30] INFO root fetch - processPackages [types-tzlocal]: New version: [5.0.1.1] Old Version: [5.0.1.0]
+[2023-07-20 17:23:30] INFO root fetch - processPackages [types-PyScreeze]: Downloading https://files.pythonhosted.org/packages/d2/ae/bbb5f085db5437684d5f6bd92c837532da87e4c9f37a65546f18407469ba/types-PyScreeze-0.1.0.9.tar.gz
+[2023-07-20 17:23:30] INFO root fetch - processPackages [types-fpdf2]: executing diffoscope
+[2023-07-20 17:23:30] INFO root fetch - processPackages [types-fpdf2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-fpdf2-2.7.4.1.tar.gz tmp/types-fpdf2-2.7.4.2.tar.gz --markdown 20230720/t/types-fpdf2/2.7.4.1-2.7.4.2/diff.md --exclude *.pyd
+[2023-07-20 17:23:30] INFO root fetch - processPackages [types-python-xlib]: Downloading https://files.pythonhosted.org/packages/cd/73/4ff60477f78be027e6ae7f50ccc186a9d89ebb2c659f223bc991dade3dfc/types-python-xlib-0.33.0.8.tar.gz
+[2023-07-20 17:23:30] INFO root fetch - processPackages [TDCRPy]: Remove: archive file [/home/abi/fetcher/tmp/TDCRPy-0.0.8.tar.gz]
+[2023-07-20 17:23:30] INFO root fetch - processPackages [TDCRPy]: Remove: archive file [/home/abi/fetcher/tmp/TDCRPy-0.0.9.tar.gz]
+[2023-07-20 17:23:30] INFO root fetch - processPackages [TDCRPy]: Start processing: types-pyinstaller
+[2023-07-20 17:23:30] INFO root fetch - main [MainThread]: End processing [TDCRPy]: success
+[2023-07-20 17:23:30] INFO root fetch - processPackages [types-PyScreeze]: executing diffoscope
+[2023-07-20 17:23:30] INFO root fetch - processPackages [types-PyScreeze]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-PyScreeze-0.1.0.8.tar.gz tmp/types-PyScreeze-0.1.0.9.tar.gz --markdown 20230720/t/types-PyScreeze/0.1.0.8-0.1.0.9/diff.md --exclude *.pyd
+[2023-07-20 17:23:30] INFO root fetch - processPackages [types-pyinstaller]: New version: [5.9.0.1] Old Version: [5.9.0.0]
+[2023-07-20 17:23:30] INFO root fetch - processPackages [types-tzlocal]: Downloading https://files.pythonhosted.org/packages/b4/39/049d65730061cc1460241293744529777725cfe6183fdcd41ed17a1ac025/types-tzlocal-5.0.1.0.tar.gz
+[2023-07-20 17:23:30] INFO root fetch - processPackages [types-pyflakes]: Remove: archive file [/home/abi/fetcher/tmp/types-pyflakes-3.0.0.4.tar.gz]
+[2023-07-20 17:23:30] INFO root fetch - processPackages [types-pyflakes]: Remove: archive file [/home/abi/fetcher/tmp/types-pyflakes-3.0.0.5.tar.gz]
+[2023-07-20 17:23:30] INFO root fetch - processPackages [types-pyflakes]: Start processing: pydal2sql
+[2023-07-20 17:23:30] INFO root fetch - main [MainThread]: End processing [types-pyflakes]: success
+[2023-07-20 17:23:30] INFO root fetch - processPackages [pydal2sql]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-07-20 17:23:30] INFO root fetch - processPackages [types-pyinstaller]: Downloading https://files.pythonhosted.org/packages/c8/3b/bfa5022de4e182e0917aa29bd44a5c3931ebe084606f147210c1ff987e99/types-pyinstaller-5.9.0.0.tar.gz
+[2023-07-20 17:23:30] INFO root fetch - processPackages [types-pyOpenSSL]: Remove: archive file [/home/abi/fetcher/tmp/types-pyOpenSSL-23.2.0.1.tar.gz]
+[2023-07-20 17:23:30] INFO root fetch - processPackages [types-pyOpenSSL]: Remove: archive file [/home/abi/fetcher/tmp/types-pyOpenSSL-23.2.0.2.tar.gz]
+[2023-07-20 17:23:30] INFO root fetch - processPackages [types-pyOpenSSL]: Start processing: types-babel
+[2023-07-20 17:23:30] INFO root fetch - main [MainThread]: End processing [types-pyOpenSSL]: success
+[2023-07-20 17:23:30] INFO root fetch - processPackages [types-babel]: New version: [2.9.9] Old Version: [2.9.8]
+[2023-07-20 17:23:30] INFO root fetch - processPackages [types-python-xlib]: Downloading https://files.pythonhosted.org/packages/95/86/eb775af9c0557bbb4242c7a6f9b5a3ef5eb6d4cbfa5c9fd6611d9145186a/types-python-xlib-0.33.0.9.tar.gz
+[2023-07-20 17:23:30] INFO root fetch - processPackages [pydal2sql]: Downloading https://files.pythonhosted.org/packages/c0/eb/678cc2e3f85546f2de79848acd62a4db81d42a634421dd4fa8c1d2e736f5/pydal2sql-0.2.1.tar.gz
+[2023-07-20 17:23:30] INFO root fetch - processPackages [types-tzlocal]: Downloading https://files.pythonhosted.org/packages/0e/65/31b992b56b10eabafc0ed1fa1b70b53872eb981dd7a46f6ad212765249b7/types-tzlocal-5.0.1.1.tar.gz
+[2023-07-20 17:23:30] INFO root fetch - processPackages [types-python-xlib]: executing diffoscope
+[2023-07-20 17:23:30] INFO root fetch - processPackages [types-python-xlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-python-xlib-0.33.0.8.tar.gz tmp/types-python-xlib-0.33.0.9.tar.gz --markdown 20230720/t/types-python-xlib/0.33.0.8-0.33.0.9/diff.md --exclude *.pyd
+[2023-07-20 17:23:30] INFO root fetch - processPackages [types-babel]: Downloading https://files.pythonhosted.org/packages/f1/59/f4390ee7f2d0a70a8d7f3be75d993304a2de4baa140793564d953d0817bb/types-babel-2.9.8.tar.gz
+[2023-07-20 17:23:30] INFO root fetch - processPackages [types-paramiko]: Remove: archive file [/home/abi/fetcher/tmp/types-paramiko-3.2.0.0.tar.gz]
+[2023-07-20 17:23:30] INFO root fetch - processPackages [types-paramiko]: Remove: archive file [/home/abi/fetcher/tmp/types-paramiko-3.2.0.1.tar.gz]
+[2023-07-20 17:23:30] INFO root fetch - processPackages [types-paramiko]: Start processing: types-Flask-Cors
+[2023-07-20 17:23:30] INFO root fetch - main [MainThread]: End processing [types-paramiko]: success
+[2023-07-20 17:23:30] INFO root fetch - processPackages [types-tzlocal]: executing diffoscope
+[2023-07-20 17:23:30] INFO root fetch - processPackages [types-tzlocal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-tzlocal-5.0.1.0.tar.gz tmp/types-tzlocal-5.0.1.1.tar.gz --markdown 20230720/t/types-tzlocal/5.0.1.0-5.0.1.1/diff.md --exclude *.pyd
+[2023-07-20 17:23:30] INFO root fetch - processPackages [types-pyinstaller]: Downloading https://files.pythonhosted.org/packages/a2/9c/f0da807194c7f9dc7b5631b6df9c030de97d9cb351e1aa3c876be0a7d274/types-pyinstaller-5.9.0.1.tar.gz
+[2023-07-20 17:23:30] INFO root fetch - processPackages [pydal2sql]: Downloading https://files.pythonhosted.org/packages/a7/7f/3a9d8b28d56197f5ed34b75c81b27550134de55cfbf8c2c480d0cc066751/pydal2sql-0.2.2.tar.gz
+[2023-07-20 17:23:31] INFO root fetch - processPackages [types-Flask-Cors]: New version: [4.0.0.1] Old Version: [4.0.0.0]
+[2023-07-20 17:23:31] INFO root fetch - processPackages [types-tree-sitter-languages]: Remove: archive file [/home/abi/fetcher/tmp/types-tree-sitter-languages-1.7.0.0.tar.gz]
+[2023-07-20 17:23:31] INFO root fetch - processPackages [types-tree-sitter-languages]: Remove: archive file [/home/abi/fetcher/tmp/types-tree-sitter-languages-1.7.0.1.tar.gz]
+[2023-07-20 17:23:31] INFO root fetch - processPackages [types-tree-sitter-languages]: Start processing: types-Flask-Migrate
+[2023-07-20 17:23:31] INFO root fetch - main [MainThread]: End processing [types-tree-sitter-languages]: success
+[2023-07-20 17:23:31] INFO root fetch - processPackages [types-pyinstaller]: executing diffoscope
+[2023-07-20 17:23:31] INFO root fetch - processPackages [types-pyinstaller]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-pyinstaller-5.9.0.0.tar.gz tmp/types-pyinstaller-5.9.0.1.tar.gz --markdown 20230720/t/types-pyinstaller/5.9.0.0-5.9.0.1/diff.md --exclude *.pyd
+[2023-07-20 17:23:31] INFO root fetch - processPackages [pydal2sql]: executing diffoscope
+[2023-07-20 17:23:31] INFO root fetch - processPackages [pydal2sql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydal2sql-0.2.1.tar.gz tmp/pydal2sql-0.2.2.tar.gz --markdown 20230720/p/pydal2sql/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-07-20 17:23:31] INFO root fetch - processPackages [types-Flask-Migrate]: New version: [4.0.0.6] Old Version: [4.0.0.5]
+[2023-07-20 17:23:31] INFO root fetch - processPackages [types-Flask-Cors]: Downloading https://files.pythonhosted.org/packages/71/22/fbf19cd8a486358d723c1fa8f127365935a868ae126a3ad234a411b4c536/types-Flask-Cors-4.0.0.0.tar.gz
+[2023-07-20 17:23:31] INFO root fetch - processPackages [types-Flask-Migrate]: Downloading https://files.pythonhosted.org/packages/8f/72/e822322c4e4add490727e0a759da4b67e68c1c316ca383b2fe6107a39431/types-Flask-Migrate-4.0.0.5.tar.gz
+[2023-07-20 17:23:31] INFO root fetch - processPackages [types-babel]: Downloading https://files.pythonhosted.org/packages/c0/e5/cb1abaddf305a6d3de6c0b6760e5e8eb2ce8c9947d4f8adcb0bb4ab7b75b/types-babel-2.9.9.tar.gz
+[2023-07-20 17:23:31] INFO root fetch - processPackages [types-PyScreeze]: Remove: archive file [/home/abi/fetcher/tmp/types-PyScreeze-0.1.0.8.tar.gz]
+[2023-07-20 17:23:31] INFO root fetch - processPackages [types-PyScreeze]: Remove: archive file [/home/abi/fetcher/tmp/types-PyScreeze-0.1.0.9.tar.gz]
+[2023-07-20 17:23:31] INFO root fetch - processPackages [types-PyScreeze]: Start processing: types-ldap3
+[2023-07-20 17:23:31] INFO root fetch - main [MainThread]: End processing [types-PyScreeze]: success
+[2023-07-20 17:23:31] INFO root fetch - processPackages [types-ldap3]: New version: [2.9.9] Old Version: [2.9.8]
+[2023-07-20 17:23:31] INFO root fetch - processPackages [types-fpdf2]: Remove: archive file [/home/abi/fetcher/tmp/types-fpdf2-2.7.4.1.tar.gz]
+[2023-07-20 17:23:31] INFO root fetch - processPackages [types-fpdf2]: Remove: archive file [/home/abi/fetcher/tmp/types-fpdf2-2.7.4.2.tar.gz]
+[2023-07-20 17:23:31] INFO root fetch - processPackages [types-fpdf2]: Start processing: gigagan-pytorch
+[2023-07-20 17:23:31] INFO root fetch - main [MainThread]: End processing [types-fpdf2]: success
+[2023-07-20 17:23:31] INFO root fetch - processPackages [types-Flask-Cors]: Downloading https://files.pythonhosted.org/packages/52/66/e5fcbd37dd9dac531880579c354b310adfd0bc863ccc5dd000bac47f8ffb/types-Flask-Cors-4.0.0.1.tar.gz
+[2023-07-20 17:23:31] INFO root fetch - processPackages [gigagan-pytorch]: New version: [0.1.0] Old Version: [0.0.92]
+[2023-07-20 17:23:31] INFO root fetch - processPackages [ima-predeployed]: Remove: archive file [/home/abi/fetcher/tmp/ima-predeployed-2.0.0b4.tar.gz]
+[2023-07-20 17:23:31] INFO root fetch - processPackages [ima-predeployed]: Remove: archive file [/home/abi/fetcher/tmp/ima-predeployed-2.0.0b5.tar.gz]
+[2023-07-20 17:23:31] INFO root fetch - processPackages [ima-predeployed]: Start processing: types-python-jose
+[2023-07-20 17:23:31] INFO root fetch - main [MainThread]: End processing [ima-predeployed]: success
+[2023-07-20 17:23:31] INFO root fetch - processPackages [types-Flask-Cors]: executing diffoscope
+[2023-07-20 17:23:31] INFO root fetch - processPackages [types-python-jose]: New version: [3.3.4.8] Old Version: [3.3.4.7]
+[2023-07-20 17:23:31] INFO root fetch - processPackages [types-Flask-Cors]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-Flask-Cors-4.0.0.0.tar.gz tmp/types-Flask-Cors-4.0.0.1.tar.gz --markdown 20230720/t/types-Flask-Cors/4.0.0.0-4.0.0.1/diff.md --exclude *.pyd
+[2023-07-20 17:23:31] INFO root fetch - processPackages [types-Flask-Migrate]: Downloading https://files.pythonhosted.org/packages/b1/fe/d968f216fcc2cdc9cd96640cbcdea9e0d72d0c689b661e9605c41ff72078/types-Flask-Migrate-4.0.0.6.tar.gz
+[2023-07-20 17:23:31] INFO root fetch - processPackages [types-ldap3]: Downloading https://files.pythonhosted.org/packages/eb/7e/401d862f15252e07227b1e0132cfd73f6d99c07783b7d89c436650af789c/types-ldap3-2.9.8.tar.gz
+[2023-07-20 17:23:31] INFO root fetch - processPackages [types-babel]: executing diffoscope
+[2023-07-20 17:23:31] INFO root fetch - processPackages [types-babel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-babel-2.9.8.tar.gz tmp/types-babel-2.9.9.tar.gz --markdown 20230720/t/types-babel/2.9.8-2.9.9/diff.md --exclude *.pyd
+[2023-07-20 17:23:31] INFO root fetch - processPackages [gigagan-pytorch]: Downloading https://files.pythonhosted.org/packages/9a/f6/b8b5be27a7bc6ecf136802628ebb84533184f1b4667f2212c54f9f822246/gigagan-pytorch-0.0.92.tar.gz
+[2023-07-20 17:23:31] INFO root fetch - processPackages [types-Flask-Migrate]: executing diffoscope
+[2023-07-20 17:23:31] INFO root fetch - processPackages [types-Flask-Migrate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-Flask-Migrate-4.0.0.5.tar.gz tmp/types-Flask-Migrate-4.0.0.6.tar.gz --markdown 20230720/t/types-Flask-Migrate/4.0.0.5-4.0.0.6/diff.md --exclude *.pyd
+[2023-07-20 17:23:31] INFO root fetch - processPackages [types-python-jose]: Downloading https://files.pythonhosted.org/packages/47/2e/cfdea53d94ace096012651211d5564554ae2ab0bfea4ed6c8d290572c4b8/types-python-jose-3.3.4.7.tar.gz
+[2023-07-20 17:23:32] INFO root fetch - processPackages [gigagan-pytorch]: Downloading https://files.pythonhosted.org/packages/3c/ea/b02048ae325864d09510d9daf7cdaf16afbb190e8dd701f2d6af6982e7ff/gigagan-pytorch-0.1.0.tar.gz
+[2023-07-20 17:23:32] INFO root fetch - processPackages [types-tzlocal]: Remove: archive file [/home/abi/fetcher/tmp/types-tzlocal-5.0.1.0.tar.gz]
+[2023-07-20 17:23:32] INFO root fetch - processPackages [types-tzlocal]: Remove: archive file [/home/abi/fetcher/tmp/types-tzlocal-5.0.1.1.tar.gz]
+[2023-07-20 17:23:32] INFO root fetch - processPackages [types-tzlocal]: Start processing: types-Pygments
+[2023-07-20 17:23:32] INFO root fetch - main [MainThread]: End processing [types-tzlocal]: success
+[2023-07-20 17:23:32] INFO root fetch - processPackages [types-ldap3]: Downloading https://files.pythonhosted.org/packages/03/2c/1a1f1379b72049731b4ee7ba436b94fa9b55d5e92a5119c190ce99c9ea79/types-ldap3-2.9.9.tar.gz
+[2023-07-20 17:23:32] INFO root fetch - processPackages [types-Pygments]: New version: [2.9.9] Old Version: [2.9.8]
+[2023-07-20 17:23:32] INFO root fetch - processPackages [gigagan-pytorch]: executing diffoscope
+[2023-07-20 17:23:32] INFO root fetch - processPackages [gigagan-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gigagan-pytorch-0.0.92.tar.gz tmp/gigagan-pytorch-0.1.0.tar.gz --markdown 20230720/g/gigagan-pytorch/0.0.92-0.1.0/diff.md --exclude *.pyd
+[2023-07-20 17:23:32] INFO root fetch - processPackages [types-python-jose]: Downloading https://files.pythonhosted.org/packages/f8/db/f637deaf4e4564af8ecfb1b0330bb663ec6187d5d6dae89134fe80f23e31/types-python-jose-3.3.4.8.tar.gz
+[2023-07-20 17:23:32] INFO root fetch - processPackages [types-ldap3]: executing diffoscope
+[2023-07-20 17:23:32] INFO root fetch - processPackages [types-ldap3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-ldap3-2.9.8.tar.gz tmp/types-ldap3-2.9.9.tar.gz --markdown 20230720/t/types-ldap3/2.9.8-2.9.9/diff.md --exclude *.pyd
+[2023-07-20 17:23:32] INFO root fetch - processPackages [types-pyinstaller]: Remove: archive file [/home/abi/fetcher/tmp/types-pyinstaller-5.9.0.0.tar.gz]
+[2023-07-20 17:23:32] INFO root fetch - processPackages [types-pyinstaller]: Remove: archive file [/home/abi/fetcher/tmp/types-pyinstaller-5.9.0.1.tar.gz]
+[2023-07-20 17:23:32] INFO root fetch - processPackages [types-python-jose]: executing diffoscope
+[2023-07-20 17:23:32] INFO root fetch - processPackages [types-python-jose]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-python-jose-3.3.4.7.tar.gz tmp/types-python-jose-3.3.4.8.tar.gz --markdown 20230720/t/types-python-jose/3.3.4.7-3.3.4.8/diff.md --exclude *.pyd
+[2023-07-20 17:23:32] INFO root fetch - processPackages [types-pyinstaller]: Start processing: types-influxdb-client
+[2023-07-20 17:23:32] INFO root fetch - main [MainThread]: End processing [types-pyinstaller]: success
+[2023-07-20 17:23:32] INFO root fetch - processPackages [types-Pygments]: Downloading https://files.pythonhosted.org/packages/c9/56/b2ad30fcb1d8adc4eecfa5a32fa94dd044da60de58ab44120bd3503a3074/types-Pygments-2.9.8.tar.gz
+[2023-07-20 17:23:32] INFO root fetch - processPackages [types-influxdb-client]: New version: [1.36.0.9] Old Version: [1.36.0.8]
+[2023-07-20 17:23:32] INFO root fetch - processPackages [pydal2sql]: Remove: archive file [/home/abi/fetcher/tmp/pydal2sql-0.2.1.tar.gz]
+[2023-07-20 17:23:32] INFO root fetch - processPackages [pydal2sql]: Remove: archive file [/home/abi/fetcher/tmp/pydal2sql-0.2.2.tar.gz]
+[2023-07-20 17:23:32] INFO root fetch - processPackages [pydal2sql]: Start processing: types-requests
+[2023-07-20 17:23:32] INFO root fetch - main [MainThread]: End processing [pydal2sql]: success
+[2023-07-20 17:23:32] INFO root fetch - processPackages [types-python-xlib]: Remove: archive file [/home/abi/fetcher/tmp/types-python-xlib-0.33.0.8.tar.gz]
+[2023-07-20 17:23:32] INFO root fetch - processPackages [types-python-xlib]: Remove: archive file [/home/abi/fetcher/tmp/types-python-xlib-0.33.0.9.tar.gz]
+[2023-07-20 17:23:32] INFO root fetch - processPackages [types-python-xlib]: Start processing: types-DateTimeRange
+[2023-07-20 17:23:32] INFO root fetch - main [MainThread]: End processing [types-python-xlib]: success
+[2023-07-20 17:23:32] INFO root fetch - processPackages [types-requests]: New version: [2.31.0.2] Old Version: [2.31.0.1]
+[2023-07-20 17:23:32] INFO root fetch - processPackages [types-DateTimeRange]: New version: [2.0.0.6] Old Version: [2.0.0.5]
+[2023-07-20 17:23:32] INFO root fetch - processPackages [types-influxdb-client]: Downloading https://files.pythonhosted.org/packages/05/cc/8b82516bafd318d97ad47d66693d5d8265c62a6917cdd59f2fa484180e25/types-influxdb-client-1.36.0.8.tar.gz
+[2023-07-20 17:23:32] INFO root fetch - processPackages [types-Flask-Cors]: Remove: archive file [/home/abi/fetcher/tmp/types-Flask-Cors-4.0.0.0.tar.gz]
+[2023-07-20 17:23:32] INFO root fetch - processPackages [types-Flask-Cors]: Remove: archive file [/home/abi/fetcher/tmp/types-Flask-Cors-4.0.0.1.tar.gz]
+[2023-07-20 17:23:32] INFO root fetch - processPackages [types-Flask-Cors]: Start processing: types-python-datemath
+[2023-07-20 17:23:32] INFO root fetch - main [MainThread]: End processing [types-Flask-Cors]: success
+[2023-07-20 17:23:32] INFO root fetch - processPackages [types-requests]: Downloading https://files.pythonhosted.org/packages/20/8e/2f846f4295021703d4f12aebf504dd5e47b7750d104ee0a8fd253f601d02/types-requests-2.31.0.1.tar.gz
+[2023-07-20 17:23:32] INFO root fetch - processPackages [types-DateTimeRange]: Downloading https://files.pythonhosted.org/packages/18/0e/1c7ffb0130f8084e39ce7e7af674c77024aaa1e42eada66076bfdc1ec6d9/types-DateTimeRange-2.0.0.5.tar.gz
+[2023-07-20 17:23:32] INFO root fetch - processPackages [types-python-datemath]: New version: [1.5.0.4] Old Version: [1.5.0.3]
+[2023-07-20 17:23:32] INFO root fetch - processPackages [types-babel]: Remove: archive file [/home/abi/fetcher/tmp/types-babel-2.9.8.tar.gz]
+[2023-07-20 17:23:32] INFO root fetch - processPackages [types-babel]: Remove: archive file [/home/abi/fetcher/tmp/types-babel-2.9.9.tar.gz]
+[2023-07-20 17:23:32] INFO root fetch - processPackages [types-babel]: Start processing: types-redis
+[2023-07-20 17:23:32] INFO root fetch - main [MainThread]: End processing [types-babel]: success
+[2023-07-20 17:23:33] INFO root fetch - processPackages [types-Pygments]: Downloading https://files.pythonhosted.org/packages/a5/78/069a5801bd89176dcd3bafc8423c87aba8533725658bd19d7c34284a4e9d/types-Pygments-2.9.9.tar.gz
+[2023-07-20 17:23:33] INFO root fetch - processPackages [types-redis]: New version: [4.6.0.3] Old Version: [4.6.0.2]
+[2023-07-20 17:23:33] INFO root fetch - processPackages [types-python-datemath]: Downloading https://files.pythonhosted.org/packages/10/8d/6caa74652ec16719fbccf8cf0734ad8145f9644558e0217b1b96a6654a3a/types-python-datemath-1.5.0.3.tar.gz
+[2023-07-20 17:23:33] INFO root fetch - processPackages [types-requests]: Downloading https://files.pythonhosted.org/packages/44/70/60c1e24806a2cd1b64867a15a1100e5ad6423c8ce250ebc04dd519162487/types-requests-2.31.0.2.tar.gz
+[2023-07-20 17:23:33] INFO root fetch - processPackages [types-Flask-Migrate]: Remove: archive file [/home/abi/fetcher/tmp/types-Flask-Migrate-4.0.0.5.tar.gz]
+[2023-07-20 17:23:33] INFO root fetch - processPackages [types-Flask-Migrate]: Remove: archive file [/home/abi/fetcher/tmp/types-Flask-Migrate-4.0.0.6.tar.gz]
+[2023-07-20 17:23:33] INFO root fetch - processPackages [types-Flask-Migrate]: Start processing: types-PyAutoGUI
+[2023-07-20 17:23:33] INFO root fetch - main [MainThread]: End processing [types-Flask-Migrate]: success
+[2023-07-20 17:23:33] INFO root fetch - processPackages [types-redis]: Downloading https://files.pythonhosted.org/packages/eb/a3/07520fefbe92b37261138b6d30c9e713d73968018aa5f9421f4cf645ffef/types-redis-4.6.0.2.tar.gz
+[2023-07-20 17:23:33] INFO root fetch - processPackages [types-Pygments]: executing diffoscope
+[2023-07-20 17:23:33] INFO root fetch - processPackages [types-Pygments]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-Pygments-2.9.8.tar.gz tmp/types-Pygments-2.9.9.tar.gz --markdown 20230720/t/types-Pygments/2.9.8-2.9.9/diff.md --exclude *.pyd
+[2023-07-20 17:23:33] INFO root fetch - processPackages [types-PyAutoGUI]: New version: [0.9.3.7] Old Version: [0.9.3.6]
+[2023-07-20 17:23:33] INFO root fetch - processPackages [types-DateTimeRange]: Downloading https://files.pythonhosted.org/packages/b8/02/7a3ba54fe27bea4c41538d1ffe19da54e7bd9c5479931b61c3a5cf259196/types-DateTimeRange-2.0.0.6.tar.gz
+[2023-07-20 17:23:33] INFO root fetch - processPackages [types-influxdb-client]: Downloading https://files.pythonhosted.org/packages/c4/b3/dd3d17dfe372939ee6fbdf913c0825907228651942de49d5db1f14c05115/types-influxdb-client-1.36.0.9.tar.gz
+[2023-07-20 17:23:33] INFO root fetch - processPackages [types-requests]: executing diffoscope
+[2023-07-20 17:23:33] INFO root fetch - processPackages [types-requests]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-requests-2.31.0.1.tar.gz tmp/types-requests-2.31.0.2.tar.gz --markdown 20230720/t/types-requests/2.31.0.1-2.31.0.2/diff.md --exclude *.pyd
+[2023-07-20 17:23:33] INFO root fetch - processPackages [types-DateTimeRange]: executing diffoscope
+[2023-07-20 17:23:33] INFO root fetch - processPackages [types-DateTimeRange]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-DateTimeRange-2.0.0.5.tar.gz tmp/types-DateTimeRange-2.0.0.6.tar.gz --markdown 20230720/t/types-DateTimeRange/2.0.0.5-2.0.0.6/diff.md --exclude *.pyd
+[2023-07-20 17:23:33] INFO root fetch - processPackages [types-influxdb-client]: executing diffoscope
+[2023-07-20 17:23:33] INFO root fetch - processPackages [types-influxdb-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-influxdb-client-1.36.0.8.tar.gz tmp/types-influxdb-client-1.36.0.9.tar.gz --markdown 20230720/t/types-influxdb-client/1.36.0.8-1.36.0.9/diff.md --exclude *.pyd
+[2023-07-20 17:23:33] INFO root fetch - processPackages [types-python-datemath]: Downloading https://files.pythonhosted.org/packages/d7/13/27a86de1ab7b8d0d2215908d37368b4404e719f738e1b4be93ce6a9e4eff/types-python-datemath-1.5.0.4.tar.gz
+[2023-07-20 17:23:33] INFO root fetch - processPackages [types-PyAutoGUI]: Downloading https://files.pythonhosted.org/packages/0c/07/092ed24a0c36a6cd49c0d44f7feab31278fa6d17eb01c112cd57e97dd578/types-PyAutoGUI-0.9.3.6.tar.gz
+[2023-07-20 17:23:33] INFO root fetch - processPackages [types-python-datemath]: executing diffoscope
+[2023-07-20 17:23:33] INFO root fetch - processPackages [types-python-datemath]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-python-datemath-1.5.0.3.tar.gz tmp/types-python-datemath-1.5.0.4.tar.gz --markdown 20230720/t/types-python-datemath/1.5.0.3-1.5.0.4/diff.md --exclude *.pyd
+[2023-07-20 17:23:33] INFO root fetch - processPackages [types-redis]: Downloading https://files.pythonhosted.org/packages/a4/63/5a63b3fb670fa9f3328d20d00efe69cde6dc0576e5d1ab211978323a99cd/types-redis-4.6.0.3.tar.gz
+[2023-07-20 17:23:33] INFO root fetch - processPackages [types-python-jose]: Remove: archive file [/home/abi/fetcher/tmp/types-python-jose-3.3.4.7.tar.gz]
+[2023-07-20 17:23:33] INFO root fetch - processPackages [types-python-jose]: Remove: archive file [/home/abi/fetcher/tmp/types-python-jose-3.3.4.8.tar.gz]
+[2023-07-20 17:23:33] INFO root fetch - processPackages [types-python-jose]: Start processing: types-caldav
+[2023-07-20 17:23:33] INFO root fetch - main [MainThread]: End processing [types-python-jose]: success
+[2023-07-20 17:23:33] INFO root fetch - processPackages [gigagan-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/gigagan-pytorch-0.0.92.tar.gz]
+[2023-07-20 17:23:33] INFO root fetch - processPackages [gigagan-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/gigagan-pytorch-0.1.0.tar.gz]
+[2023-07-20 17:23:33] INFO root fetch - processPackages [gigagan-pytorch]: Start processing: types-slumber
+[2023-07-20 17:23:33] INFO root fetch - main [MainThread]: End processing [gigagan-pytorch]: success
+[2023-07-20 17:23:33] INFO root fetch - processPackages [types-redis]: executing diffoscope
+[2023-07-20 17:23:33] INFO root fetch - processPackages [types-redis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-redis-4.6.0.2.tar.gz tmp/types-redis-4.6.0.3.tar.gz --markdown 20230720/t/types-redis/4.6.0.2-4.6.0.3/diff.md --exclude *.pyd
+[2023-07-20 17:23:33] INFO root fetch - processPackages [types-caldav]: New version: [1.3.0.0] Old Version: [1.2.0.2]
+[2023-07-20 17:23:33] INFO root fetch - processPackages [types-slumber]: New version: [0.7.3.5] Old Version: [0.7.3.4]
+[2023-07-20 17:23:33] INFO root fetch - processPackages [types-PyAutoGUI]: Downloading https://files.pythonhosted.org/packages/43/83/9f416019606581d571deff3c83e81eaf8f8037e479a77ec87deee29e098d/types-PyAutoGUI-0.9.3.7.tar.gz
+[2023-07-20 17:23:34] INFO root fetch - processPackages [types-PyAutoGUI]: executing diffoscope
+[2023-07-20 17:23:34] INFO root fetch - processPackages [types-PyAutoGUI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-PyAutoGUI-0.9.3.6.tar.gz tmp/types-PyAutoGUI-0.9.3.7.tar.gz --markdown 20230720/t/types-PyAutoGUI/0.9.3.6-0.9.3.7/diff.md --exclude *.pyd
+[2023-07-20 17:23:34] INFO root fetch - processPackages [types-ldap3]: Remove: archive file [/home/abi/fetcher/tmp/types-ldap3-2.9.8.tar.gz]
+[2023-07-20 17:23:34] INFO root fetch - processPackages [types-ldap3]: Remove: archive file [/home/abi/fetcher/tmp/types-ldap3-2.9.9.tar.gz]
+[2023-07-20 17:23:34] INFO root fetch - processPackages [types-ldap3]: Start processing: selenium-base
+[2023-07-20 17:23:34] INFO root fetch - main [MainThread]: End processing [types-ldap3]: success
+[2023-07-20 17:23:34] INFO root fetch - processPackages [types-caldav]: Downloading https://files.pythonhosted.org/packages/c1/b1/f7e238efc3d33d748dea7eba63770ef24f7d8520b6a0ca608e4237c6786a/types-caldav-1.2.0.2.tar.gz
+[2023-07-20 17:23:34] INFO root fetch - processPackages [types-slumber]: Downloading https://files.pythonhosted.org/packages/8b/ae/3ec6196dc950727b0557c924c7753beb82522606614b2f0a1df9eea7f2f1/types-slumber-0.7.3.4.tar.gz
+[2023-07-20 17:23:34] INFO root fetch - processPackages [selenium-base]: New version: [4.9.9] Old Version: [4.9.8]
+[2023-07-20 17:23:34] INFO root fetch - processPackages [selenium-base]: Downloading https://files.pythonhosted.org/packages/49/eb/ad6c55d2af108681e38505aff036aef13544a2d1c09817221f499826a6f9/selenium-base-4.9.8.tar.gz
+[2023-07-20 17:23:34] INFO root fetch - processPackages [types-slumber]: Downloading https://files.pythonhosted.org/packages/a0/d7/3ebd6521f6bffab30273778ade589e40f02aeb25cd323708fe2a61cbb308/types-slumber-0.7.3.5.tar.gz
+[2023-07-20 17:23:34] INFO root fetch - processPackages [types-caldav]: Downloading https://files.pythonhosted.org/packages/0e/49/ed607f4ab122990ebd9a8350d96f1be14a6a9a28ebe11e1efb7fb04e6df9/types-caldav-1.3.0.0.tar.gz
+[2023-07-20 17:23:34] INFO root fetch - processPackages [types-slumber]: executing diffoscope
+[2023-07-20 17:23:34] INFO root fetch - processPackages [types-slumber]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-slumber-0.7.3.4.tar.gz tmp/types-slumber-0.7.3.5.tar.gz --markdown 20230720/t/types-slumber/0.7.3.4-0.7.3.5/diff.md --exclude *.pyd
+[2023-07-20 17:23:34] INFO root fetch - processPackages [types-Pygments]: Remove: archive file [/home/abi/fetcher/tmp/types-Pygments-2.9.8.tar.gz]
+[2023-07-20 17:23:34] INFO root fetch - processPackages [types-Pygments]: Remove: archive file [/home/abi/fetcher/tmp/types-Pygments-2.9.9.tar.gz]
+[2023-07-20 17:23:34] INFO root fetch - processPackages [types-Pygments]: Start processing: pydal2sql
+[2023-07-20 17:23:34] INFO root fetch - main [MainThread]: End processing [types-Pygments]: success
+[2023-07-20 17:23:34] INFO root fetch - processPackages [types-requests]: Remove: archive file [/home/abi/fetcher/tmp/types-requests-2.31.0.1.tar.gz]
+[2023-07-20 17:23:34] INFO root fetch - processPackages [types-requests]: Remove: archive file [/home/abi/fetcher/tmp/types-requests-2.31.0.2.tar.gz]
+[2023-07-20 17:23:34] INFO root fetch - processPackages [types-requests]: Start processing: pytest-sbase
+[2023-07-20 17:23:34] INFO root fetch - main [MainThread]: End processing [types-requests]: success
+[2023-07-20 17:23:34] INFO root fetch - processPackages [pydal2sql]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-07-20 17:23:34] INFO root fetch - processPackages [types-DateTimeRange]: Remove: archive file [/home/abi/fetcher/tmp/types-DateTimeRange-2.0.0.5.tar.gz]
+[2023-07-20 17:23:34] INFO root fetch - processPackages [types-DateTimeRange]: Remove: archive file [/home/abi/fetcher/tmp/types-DateTimeRange-2.0.0.6.tar.gz]
+[2023-07-20 17:23:34] INFO root fetch - main [MainThread]: End processing [types-DateTimeRange]: success
+[2023-07-20 17:23:34] INFO root fetch - processPackages [types-caldav]: executing diffoscope
+[2023-07-20 17:23:34] INFO root fetch - processPackages [types-caldav]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-caldav-1.2.0.2.tar.gz tmp/types-caldav-1.3.0.0.tar.gz --markdown 20230720/t/types-caldav/1.2.0.2-1.3.0.0/diff.md --exclude *.pyd
+[2023-07-20 17:23:34] INFO root fetch - processPackages [pytest-sbase]: New version: [4.9.9] Old Version: [4.9.8]
+[2023-07-20 17:23:34] INFO root fetch - processPackages [pydal2sql]: Downloading https://files.pythonhosted.org/packages/c0/eb/678cc2e3f85546f2de79848acd62a4db81d42a634421dd4fa8c1d2e736f5/pydal2sql-0.2.1.tar.gz
+[2023-07-20 17:23:34] INFO root fetch - processPackages [selenium-base]: Downloading https://files.pythonhosted.org/packages/0a/3b/8bdd54f85b1550af5050c8683212c3f88b854c0ef99e22fa6fe216094900/selenium-base-4.9.9.tar.gz
+[2023-07-20 17:23:34] INFO root fetch - processPackages [types-python-datemath]: Remove: archive file [/home/abi/fetcher/tmp/types-python-datemath-1.5.0.3.tar.gz]
+[2023-07-20 17:23:34] INFO root fetch - processPackages [types-python-datemath]: Remove: archive file [/home/abi/fetcher/tmp/types-python-datemath-1.5.0.4.tar.gz]
+[2023-07-20 17:23:34] INFO root fetch - main [MainThread]: End processing [types-python-datemath]: success
+[2023-07-20 17:23:35] INFO root fetch - processPackages [selenium-base]: executing diffoscope
+[2023-07-20 17:23:35] INFO root fetch - processPackages [selenium-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/selenium-base-4.9.8.tar.gz tmp/selenium-base-4.9.9.tar.gz --markdown 20230720/s/selenium-base/4.9.8-4.9.9/diff.md --exclude *.pyd
+[2023-07-20 17:23:35] INFO root fetch - processPackages [pydal2sql]: Downloading https://files.pythonhosted.org/packages/a7/7f/3a9d8b28d56197f5ed34b75c81b27550134de55cfbf8c2c480d0cc066751/pydal2sql-0.2.2.tar.gz
+[2023-07-20 17:23:35] INFO root fetch - processPackages [pytest-sbase]: Downloading https://files.pythonhosted.org/packages/91/87/a1223948d4bac31ab82915c4e7a930c22af874859aa805d6c3abd6b5bb3e/pytest-sbase-4.9.8.tar.gz
+[2023-07-20 17:23:35] INFO root fetch - processPackages [types-PyAutoGUI]: Remove: archive file [/home/abi/fetcher/tmp/types-PyAutoGUI-0.9.3.6.tar.gz]
+[2023-07-20 17:23:35] INFO root fetch - processPackages [types-PyAutoGUI]: Remove: archive file [/home/abi/fetcher/tmp/types-PyAutoGUI-0.9.3.7.tar.gz]
+[2023-07-20 17:23:35] INFO root fetch - main [MainThread]: End processing [types-PyAutoGUI]: success
+[2023-07-20 17:23:35] INFO root fetch - processPackages [pydal2sql]: executing diffoscope
+[2023-07-20 17:23:35] INFO root fetch - processPackages [pydal2sql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydal2sql-0.2.1.tar.gz tmp/pydal2sql-0.2.2.tar.gz --markdown 20230720/p/pydal2sql/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-07-20 17:23:35] INFO root fetch - processPackages [types-redis]: Remove: archive file [/home/abi/fetcher/tmp/types-redis-4.6.0.2.tar.gz]
+[2023-07-20 17:23:35] INFO root fetch - processPackages [types-redis]: Remove: archive file [/home/abi/fetcher/tmp/types-redis-4.6.0.3.tar.gz]
+[2023-07-20 17:23:35] INFO root fetch - main [MainThread]: End processing [types-redis]: success
+[2023-07-20 17:23:35] INFO root fetch - processPackages [pytest-sbase]: Downloading https://files.pythonhosted.org/packages/ea/6c/61da56c0f8d30ee6ecfbf486bd770ce073eba9a09e63981ae35863a37cb0/pytest-sbase-4.9.9.tar.gz
+[2023-07-20 17:23:35] INFO root fetch - processPackages [types-slumber]: Remove: archive file [/home/abi/fetcher/tmp/types-slumber-0.7.3.4.tar.gz]
+[2023-07-20 17:23:35] INFO root fetch - processPackages [types-slumber]: Remove: archive file [/home/abi/fetcher/tmp/types-slumber-0.7.3.5.tar.gz]
+[2023-07-20 17:23:35] INFO root fetch - main [MainThread]: End processing [types-slumber]: success
+[2023-07-20 17:23:35] INFO root fetch - processPackages [pytest-sbase]: executing diffoscope
+[2023-07-20 17:23:35] INFO root fetch - processPackages [pytest-sbase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-sbase-4.9.8.tar.gz tmp/pytest-sbase-4.9.9.tar.gz --markdown 20230720/p/pytest-sbase/4.9.8-4.9.9/diff.md --exclude *.pyd
+[2023-07-20 17:23:35] INFO root fetch - processPackages [types-caldav]: Remove: archive file [/home/abi/fetcher/tmp/types-caldav-1.2.0.2.tar.gz]
+[2023-07-20 17:23:35] INFO root fetch - processPackages [types-caldav]: Remove: archive file [/home/abi/fetcher/tmp/types-caldav-1.3.0.0.tar.gz]
+[2023-07-20 17:23:35] INFO root fetch - main [MainThread]: End processing [types-caldav]: success
+[2023-07-20 17:23:36] INFO root fetch - processPackages [selenium-base]: Remove: archive file [/home/abi/fetcher/tmp/selenium-base-4.9.8.tar.gz]
+[2023-07-20 17:23:36] INFO root fetch - processPackages [selenium-base]: Remove: archive file [/home/abi/fetcher/tmp/selenium-base-4.9.9.tar.gz]
+[2023-07-20 17:23:36] INFO root fetch - main [MainThread]: End processing [selenium-base]: success
+[2023-07-20 17:23:36] INFO root fetch - processPackages [pydal2sql]: Remove: archive file [/home/abi/fetcher/tmp/pydal2sql-0.2.1.tar.gz]
+[2023-07-20 17:23:36] INFO root fetch - processPackages [pydal2sql]: Remove: archive file [/home/abi/fetcher/tmp/pydal2sql-0.2.2.tar.gz]
+[2023-07-20 17:23:36] INFO root fetch - main [MainThread]: End processing [pydal2sql]: success
+[2023-07-20 17:23:36] INFO root fetch - processPackages [types-influxdb-client]: Remove: archive file [/home/abi/fetcher/tmp/types-influxdb-client-1.36.0.8.tar.gz]
+[2023-07-20 17:23:36] INFO root fetch - processPackages [types-influxdb-client]: Remove: archive file [/home/abi/fetcher/tmp/types-influxdb-client-1.36.0.9.tar.gz]
+[2023-07-20 17:23:36] INFO root fetch - main [MainThread]: End processing [types-influxdb-client]: success
+[2023-07-20 17:23:36] INFO root fetch - processPackages [pytest-sbase]: Remove: archive file [/home/abi/fetcher/tmp/pytest-sbase-4.9.8.tar.gz]
+[2023-07-20 17:23:36] INFO root fetch - processPackages [pytest-sbase]: Remove: archive file [/home/abi/fetcher/tmp/pytest-sbase-4.9.9.tar.gz]
+[2023-07-20 17:23:36] INFO root fetch - main [MainThread]: End processing [pytest-sbase]: success
+[2023-07-20 17:23:36] INFO root fetch - main [MainThread]: Store serial: [18969004]
