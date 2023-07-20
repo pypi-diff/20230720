@@ -9941,3 +9941,157 @@ AssertionError: tmp/verify4py-test-0.1.7.tar.gz does not exist
 [2023-07-20 15:29:48] INFO root fetch - processPackages [nm-transformers-nightly]: Remove: archive file [/home/abi/fetcher/tmp/nm_transformers_nightly-1.6.0.20230720-py3-none-any.whl.zip]
 [2023-07-20 15:29:48] INFO root fetch - main [MainThread]: End processing [nm-transformers-nightly]: success
 [2023-07-20 15:29:48] INFO root fetch - main [MainThread]: Store serial: [18967064]
+[2023-07-20 15:34:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18967064]
+[2023-07-20 15:34:57] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-07-20 15:34:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bigdl-orca-spark3
+[2023-07-20 15:34:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: easycompletion
+[2023-07-20 15:34:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bigdl-friesian-spark3
+[2023-07-20 15:34:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bigdl-chronos-spark3
+[2023-07-20 15:34:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bigdl-spark3
+[2023-07-20 15:34:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: TDCRPy
+[2023-07-20 15:34:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gdriveexplorer
+[2023-07-20 15:34:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: muxa1l-sentry-auth-oidc
+[2023-07-20 15:34:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: kfish
+[2023-07-20 15:34:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: moto
+[2023-07-20 15:34:58] INFO root fetch - processPackages [gdriveexplorer]: New version: [0.9] Old Version: [0.8]
+[2023-07-20 15:34:58] INFO root fetch - processPackages [easycompletion]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-07-20 15:34:58] INFO root fetch - processPackages [TDCRPy]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-20 15:34:58] INFO root fetch - processPackages [muxa1l-sentry-auth-oidc]: New version: [5.0.5] Old Version: [5.0.4]
+[2023-07-20 15:34:58] INFO root fetch - processPackages [bigdl-orca-spark3]: New version: [2.4.0b20230720] Old Version: [2.4.0b20230718]
+[2023-07-20 15:34:58] INFO root fetch - processPackages [bigdl-friesian-spark3]: New version: [2.4.0b20230720] Old Version: [2.4.0b20230718]
+[2023-07-20 15:34:58] INFO root fetch - processPackages [moto]: New version: [4.1.9.dev9] Old Version: [4.1.9.dev8]
+[2023-07-20 15:34:58] INFO root fetch - processPackages [bigdl-spark3]: New version: [2.4.0b20230720] Old Version: [2.4.0b20230718]
+[2023-07-20 15:34:58] INFO root fetch - processPackages [kfish]: New version: [99.0.202307201331] Old Version: [99.0.202307192342]
+[2023-07-20 15:34:58] INFO root fetch - processPackages [bigdl-chronos-spark3]: New version: [2.4.0b20230720] Old Version: [2.4.0b20230718]
+[2023-07-20 15:34:58] INFO root fetch - processPackages [bigdl-orca-spark3]: Downloading https://files.pythonhosted.org/packages/66/3a/11b7fc8815ec2fa38bc5583878d0a8a3239ddab20c36c18281458a52ce09/bigdl_orca_spark3-2.4.0b20230718-py3-none-manylinux1_x86_64.whl
+[2023-07-20 15:34:58] WARNING root fetch - processPackages [bigdl-orca-spark3]: Skipping package: exceeds size limit 20212066>=10485760
+[2023-07-20 15:34:58] INFO root fetch - processPackages [bigdl-orca-spark3]: Start processing: psytricks
+[2023-07-20 15:34:58] INFO root fetch - main [MainThread]: End processing [bigdl-orca-spark3] error
+[2023-07-20 15:34:58] INFO root fetch - processPackages [muxa1l-sentry-auth-oidc]: Downloading https://files.pythonhosted.org/packages/f7/63/31850319798dcebd480a7f66137958995b7d0c6f952185135f5ab1122575/muxa1l-sentry-auth-oidc-5.0.4.tar.gz
+[2023-07-20 15:34:58] INFO root fetch - processPackages [easycompletion]: Downloading https://files.pythonhosted.org/packages/d0/cd/b9c5c28cc29de5cd00c4221701c8878a4266b3acf15baa5b2e10f8b9c7dc/easycompletion-0.2.5.tar.gz
+[2023-07-20 15:34:58] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/68/9f/0ec9fd204fb6c1a41df61162427d4ce0515ef77c71c1ed9f173665e07ea1/kfish-99.0.202307192342-py3-none-any.whl
+[2023-07-20 15:34:58] INFO root fetch - processPackages [TDCRPy]: Downloading https://files.pythonhosted.org/packages/45/d1/26f2b4eb42e05416d7662d5fb8b6f31b59dee6421945806c7b7bfdfbfa94/TDCRPy-0.0.8.tar.gz
+[2023-07-20 15:34:58] INFO root fetch - processPackages [bigdl-chronos-spark3]: Downloading https://files.pythonhosted.org/packages/ae/c1/5d6dca8d709280d71c487abf63754c28c5c0cc87631d34eda224dbc33955/bigdl_chronos_spark3-2.4.0b20230718-py3-none-manylinux1_x86_64.whl
+[2023-07-20 15:34:58] INFO root fetch - processPackages [moto]: executing diffoscope
+[2023-07-20 15:34:58] INFO root fetch - processPackages [moto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moto-4.1.9.dev8.tar.gz tmp/moto-4.1.9.dev9.tar.gz --markdown 20230720/m/moto/4.1.9.dev8-4.1.9.dev9/diff.md --exclude *.pyd
+[2023-07-20 15:34:58] INFO root fetch - processPackages [bigdl-spark3]: Downloading https://files.pythonhosted.org/packages/23/78/c8977b379a66a0976c61ba49f358214f9ce7f515def8e12ee316344abbce/bigdl_spark3-2.4.0b20230718-py3-none-manylinux1_x86_64.whl
+[2023-07-20 15:34:58] INFO root fetch - processPackages [bigdl-friesian-spark3]: Downloading https://files.pythonhosted.org/packages/63/71/2d5520e495ead8ac9acc1a29657807754ef334338f4da8933f87708eb596/bigdl_friesian_spark3-2.4.0b20230718-py3-none-manylinux1_x86_64.whl
+[2023-07-20 15:34:58] INFO root fetch - processPackages [psytricks]: New version: [2.1.6] Old Version: [2.1.5]
+[2023-07-20 15:34:58] INFO root fetch - processPackages [gdriveexplorer]: executing diffoscope
+[2023-07-20 15:34:58] INFO root fetch - processPackages [gdriveexplorer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gdriveexplorer-0.8.tar.gz tmp/gdriveexplorer-0.9.tar.gz --markdown 20230720/g/gdriveexplorer/0.8-0.9/diff.md --exclude *.pyd
+[2023-07-20 15:34:58] INFO root fetch - processPackages [psytricks]: Downloading https://files.pythonhosted.org/packages/a6/9e/6a80b8f47c028269aa9ac01282b54ee8054808ee7fe64bd10cab2f4484ab/psytricks-2.1.5.tar.gz
+[2023-07-20 15:34:58] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/47/1c/7502b6a4bbe022edbb1e45d450def6e8a7a67582cd506dc58946ff77ff57/kfish-99.0.202307201331-py3-none-any.whl
+[2023-07-20 15:34:58] INFO root fetch - processPackages [easycompletion]: Downloading https://files.pythonhosted.org/packages/7f/c6/f3d675437375e32df5e875370e7a31092f10355af5bfb1e83e7d2137062b/easycompletion-0.2.6.tar.gz
+[2023-07-20 15:34:58] INFO root fetch - processPackages [bigdl-friesian-spark3]: Downloading https://files.pythonhosted.org/packages/09/66/5d7073f3953ca70fc0c80b36231ef5b30e9067c0cc54f3fb01fdbe125329/bigdl_friesian_spark3-2.4.0b20230720-py3-none-manylinux1_x86_64.whl
+[2023-07-20 15:34:58] INFO root fetch - processPackages [bigdl-chronos-spark3]: Downloading https://files.pythonhosted.org/packages/c3/df/c69f528011e65151a4cb6e4e9bd82d3c1d1c9dbfff75a557412b7445dc38/bigdl_chronos_spark3-2.4.0b20230720-py3-none-manylinux1_x86_64.whl
+[2023-07-20 15:34:59] INFO root fetch - processPackages [bigdl-spark3]: Downloading https://files.pythonhosted.org/packages/8f/d1/9fdac5e672394d27618cb7b4583a040b5361b3b7c15c022b4fa942faef4c/bigdl_spark3-2.4.0b20230720-py3-none-manylinux1_x86_64.whl
+[2023-07-20 15:34:59] INFO root fetch - processPackages [kfish]: executing diffoscope
+[2023-07-20 15:34:59] INFO root fetch - processPackages [kfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfish-99.0.202307192342-py3-none-any.whl.zip tmp/kfish-99.0.202307201331-py3-none-any.whl.zip --markdown 20230720/k/kfish/99.0.202307192342-99.0.202307201331/diff.md --exclude *.pyd
+[2023-07-20 15:34:59] INFO root fetch - processPackages [TDCRPy]: Downloading https://files.pythonhosted.org/packages/58/f4/f09bcfbd9ef3b75b2932ba824304fc7e7bcee566e8570cb2d64f76eb9adc/TDCRPy-0.0.9.tar.gz
+[2023-07-20 15:34:59] INFO root fetch - processPackages [muxa1l-sentry-auth-oidc]: Downloading https://files.pythonhosted.org/packages/b3/09/e65e5267853ce96e51370c36e1a2a570a13619d0882d93390a5f0e6c8830/muxa1l-sentry-auth-oidc-5.0.5.tar.gz
+[2023-07-20 15:34:59] INFO root fetch - processPackages [easycompletion]: executing diffoscope
+[2023-07-20 15:34:59] INFO root fetch - processPackages [easycompletion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easycompletion-0.2.5.tar.gz tmp/easycompletion-0.2.6.tar.gz --markdown 20230720/e/easycompletion/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-07-20 15:34:59] INFO root fetch - processPackages [bigdl-spark3]: executing diffoscope
+[2023-07-20 15:34:59] INFO root fetch - processPackages [bigdl-spark3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_spark3-2.4.0b20230718-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_spark3-2.4.0b20230720-py3-none-manylinux1_x86_64.whl.zip --markdown 20230720/b/bigdl-spark3/2.4.0b20230718-2.4.0b20230720/diff.md --exclude *.pyd
+[2023-07-20 15:34:59] INFO root fetch - processPackages [bigdl-friesian-spark3]: executing diffoscope
+[2023-07-20 15:34:59] INFO root fetch - processPackages [bigdl-friesian-spark3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_friesian_spark3-2.4.0b20230718-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_friesian_spark3-2.4.0b20230720-py3-none-manylinux1_x86_64.whl.zip --markdown 20230720/b/bigdl-friesian-spark3/2.4.0b20230718-2.4.0b20230720/diff.md --exclude *.pyd
+[2023-07-20 15:34:59] INFO root fetch - processPackages [bigdl-chronos-spark3]: executing diffoscope
+[2023-07-20 15:34:59] INFO root fetch - processPackages [bigdl-chronos-spark3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_chronos_spark3-2.4.0b20230718-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_chronos_spark3-2.4.0b20230720-py3-none-manylinux1_x86_64.whl.zip --markdown 20230720/b/bigdl-chronos-spark3/2.4.0b20230718-2.4.0b20230720/diff.md --exclude *.pyd
+[2023-07-20 15:34:59] INFO root fetch - processPackages [TDCRPy]: executing diffoscope
+[2023-07-20 15:34:59] INFO root fetch - processPackages [TDCRPy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TDCRPy-0.0.8.tar.gz tmp/TDCRPy-0.0.9.tar.gz --markdown 20230720/T/TDCRPy/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-20 15:34:59] INFO root fetch - processPackages [muxa1l-sentry-auth-oidc]: executing diffoscope
+[2023-07-20 15:34:59] INFO root fetch - processPackages [muxa1l-sentry-auth-oidc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/muxa1l-sentry-auth-oidc-5.0.4.tar.gz tmp/muxa1l-sentry-auth-oidc-5.0.5.tar.gz --markdown 20230720/m/muxa1l-sentry-auth-oidc/5.0.4-5.0.5/diff.md --exclude *.pyd
+[2023-07-20 15:34:59] INFO root fetch - processPackages [moto]: Remove: archive file [/home/abi/fetcher/tmp/moto-4.1.9.dev8.tar.gz]
+[2023-07-20 15:34:59] INFO root fetch - processPackages [moto]: Remove: archive file [/home/abi/fetcher/tmp/moto-4.1.9.dev9.tar.gz]
+[2023-07-20 15:34:59] INFO root fetch - processPackages [moto]: Start processing: gitlab-ci-generator
+[2023-07-20 15:34:59] INFO root fetch - main [MainThread]: End processing [moto]: success
+[2023-07-20 15:34:59] INFO root fetch - processPackages [psytricks]: Downloading https://files.pythonhosted.org/packages/75/c6/44de2a09cf4cbdfbbf373e7d66624dd11c7163d2a246fdf88b0b09b8d585/psytricks-2.1.6.tar.gz
+[2023-07-20 15:34:59] INFO root fetch - processPackages [gitlab-ci-generator]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-20 15:34:59] INFO root fetch - processPackages [psytricks]: executing diffoscope
+[2023-07-20 15:34:59] INFO root fetch - processPackages [psytricks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/psytricks-2.1.5.tar.gz tmp/psytricks-2.1.6.tar.gz --markdown 20230720/p/psytricks/2.1.5-2.1.6/diff.md --exclude *.pyd
+[2023-07-20 15:34:59] INFO root fetch - processPackages [gitlab-ci-generator]: Downloading https://files.pythonhosted.org/packages/57/f2/e42f7a1d0ad560d6d810adf6ca455812055caeed9a7aefc019a8d29d468d/gitlab-ci-generator-1.0.8.tar.gz
+[2023-07-20 15:34:59] INFO root fetch - processPackages [gdriveexplorer]: Remove: archive file [/home/abi/fetcher/tmp/gdriveexplorer-0.8.tar.gz]
+[2023-07-20 15:34:59] INFO root fetch - processPackages [gdriveexplorer]: Remove: archive file [/home/abi/fetcher/tmp/gdriveexplorer-0.9.tar.gz]
+[2023-07-20 15:34:59] INFO root fetch - processPackages [gdriveexplorer]: Start processing: kstreams
+[2023-07-20 15:34:59] INFO root fetch - main [MainThread]: End processing [gdriveexplorer]: success
+[2023-07-20 15:34:59] INFO root fetch - processPackages [kstreams]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-07-20 15:35:00] INFO root fetch - processPackages [kstreams]: Downloading https://files.pythonhosted.org/packages/9a/1d/ca3e2b8b740d2aa5987bc32e9793e218566beceff074a61554892e99e7b2/kstreams-0.9.0.tar.gz
+[2023-07-20 15:35:00] INFO root fetch - processPackages [gitlab-ci-generator]: Downloading https://files.pythonhosted.org/packages/72/78/f4117a64be88cb6ca8258058f0f80e6f66d37cc3edb18e7af312daced014/gitlab-ci-generator-1.0.9.tar.gz
+[2023-07-20 15:35:00] INFO root fetch - processPackages [gitlab-ci-generator]: executing diffoscope
+[2023-07-20 15:35:00] INFO root fetch - processPackages [gitlab-ci-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gitlab-ci-generator-1.0.8.tar.gz tmp/gitlab-ci-generator-1.0.9.tar.gz --markdown 20230720/g/gitlab-ci-generator/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-20 15:35:00] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202307192342-py3-none-any.whl.zip]
+[2023-07-20 15:35:00] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202307201331-py3-none-any.whl.zip]
+[2023-07-20 15:35:00] INFO root fetch - processPackages [kfish]: Start processing: robingrad
+[2023-07-20 15:35:00] INFO root fetch - main [MainThread]: End processing [kfish]: success
+[2023-07-20 15:35:00] INFO root fetch - processPackages [robingrad]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-07-20 15:35:00] INFO root fetch - processPackages [robingrad]: Downloading https://files.pythonhosted.org/packages/12/06/81a93e0e3a65cf13069832af5b6e9149d448ab63662ce83443932516ca5a/robingrad-0.0.4.tar.gz
+[2023-07-20 15:35:00] INFO root fetch - processPackages [kstreams]: Downloading https://files.pythonhosted.org/packages/62/9f/51bb919a10a681dae9c3fa7686fbdb1d017488a680b89797d87c871743e4/kstreams-0.9.1.tar.gz
+[2023-07-20 15:35:00] INFO root fetch - processPackages [bigdl-spark3]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_spark3-2.4.0b20230718-py3-none-manylinux1_x86_64.whl.zip]
+[2023-07-20 15:35:00] INFO root fetch - processPackages [bigdl-spark3]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_spark3-2.4.0b20230720-py3-none-manylinux1_x86_64.whl.zip]
+[2023-07-20 15:35:00] INFO root fetch - processPackages [bigdl-spark3]: Start processing: pydal2sql
+[2023-07-20 15:35:00] INFO root fetch - main [MainThread]: End processing [bigdl-spark3]: success
+[2023-07-20 15:35:00] INFO root fetch - processPackages [easycompletion]: Remove: archive file [/home/abi/fetcher/tmp/easycompletion-0.2.5.tar.gz]
+[2023-07-20 15:35:00] INFO root fetch - processPackages [easycompletion]: Remove: archive file [/home/abi/fetcher/tmp/easycompletion-0.2.6.tar.gz]
+[2023-07-20 15:35:00] INFO root fetch - processPackages [easycompletion]: Start processing: moto
+[2023-07-20 15:35:00] INFO root fetch - main [MainThread]: End processing [easycompletion]: success
+[2023-07-20 15:35:00] WARNING root fetch - processPackages [pydal2sql]: Skipping, unable to determine old version
+[2023-07-20 15:35:00] INFO root fetch - processPackages [pydal2sql]: Start processing: vbtex
+[2023-07-20 15:35:00] INFO root fetch - main [MainThread]: End processing [pydal2sql] error
+[2023-07-20 15:35:00] INFO root fetch - processPackages [muxa1l-sentry-auth-oidc]: Remove: archive file [/home/abi/fetcher/tmp/muxa1l-sentry-auth-oidc-5.0.4.tar.gz]
+[2023-07-20 15:35:00] INFO root fetch - processPackages [muxa1l-sentry-auth-oidc]: Remove: archive file [/home/abi/fetcher/tmp/muxa1l-sentry-auth-oidc-5.0.5.tar.gz]
+[2023-07-20 15:35:00] INFO root fetch - processPackages [muxa1l-sentry-auth-oidc]: Start processing: buscador
+[2023-07-20 15:35:00] INFO root fetch - main [MainThread]: End processing [muxa1l-sentry-auth-oidc]: success
+[2023-07-20 15:35:00] INFO root fetch - processPackages [moto]: New version: [4.1.9.dev9] Old Version: [4.1.9.dev8]
+[2023-07-20 15:35:00] INFO root fetch - processPackages [buscador]: New version: [0.2] Old Version: [0.1]
+[2023-07-20 15:35:00] INFO root fetch - processPackages [vbtex]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-07-20 15:35:00] INFO root fetch - processPackages [kstreams]: executing diffoscope
+[2023-07-20 15:35:00] INFO root fetch - processPackages [kstreams]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kstreams-0.9.0.tar.gz tmp/kstreams-0.9.1.tar.gz --markdown 20230720/k/kstreams/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-07-20 15:35:00] INFO root fetch - processPackages [moto]: Downloading https://files.pythonhosted.org/packages/2c/d4/8e03b33a9179ac2880d9ee7985f188927368b16081e05a142152e556685c/moto-4.1.9.dev8.tar.gz
+[2023-07-20 15:35:00] INFO root fetch - processPackages [vbtex]: Downloading https://files.pythonhosted.org/packages/24/0c/fa950820fb85e330604944fe3c000c7006845fafe2d7b4a524521918f2cc/vbtex-0.1.5.tar.gz
+[2023-07-20 15:35:00] INFO root fetch - processPackages [robingrad]: Downloading https://files.pythonhosted.org/packages/70/52/8b504f8f9b483a439f2f10472f2c98b8303e10d66fc89565ce7b99ed32f9/robingrad-0.0.5.tar.gz
+[2023-07-20 15:35:00] INFO root fetch - processPackages [TDCRPy]: Remove: archive file [/home/abi/fetcher/tmp/TDCRPy-0.0.8.tar.gz]
+[2023-07-20 15:35:00] INFO root fetch - processPackages [TDCRPy]: Remove: archive file [/home/abi/fetcher/tmp/TDCRPy-0.0.9.tar.gz]
+[2023-07-20 15:35:00] INFO root fetch - processPackages [TDCRPy]: Start processing: tic-tac-game
+[2023-07-20 15:35:00] INFO root fetch - main [MainThread]: End processing [TDCRPy]: success
+[2023-07-20 15:35:00] INFO root fetch - processPackages [psytricks]: Remove: archive file [/home/abi/fetcher/tmp/psytricks-2.1.5.tar.gz]
+[2023-07-20 15:35:00] INFO root fetch - processPackages [psytricks]: Remove: archive file [/home/abi/fetcher/tmp/psytricks-2.1.6.tar.gz]
+[2023-07-20 15:35:00] INFO root fetch - main [MainThread]: End processing [psytricks]: success
+[2023-07-20 15:35:00] WARNING root fetch - processPackages [tic-tac-game]: Skipping, unable to determine old version
+[2023-07-20 15:35:00] INFO root fetch - main [MainThread]: End processing [tic-tac-game] error
+[2023-07-20 15:35:01] INFO root fetch - processPackages [buscador]: Downloading https://files.pythonhosted.org/packages/37/b3/8f93e56e3d99bd396edf06e0f66ffe317c98b6b0a1c41e2762dce6028add/buscador-0.1.tar.gz
+[2023-07-20 15:35:01] INFO root fetch - processPackages [robingrad]: executing diffoscope
+[2023-07-20 15:35:01] INFO root fetch - processPackages [robingrad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robingrad-0.0.4.tar.gz tmp/robingrad-0.0.5.tar.gz --markdown 20230720/r/robingrad/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-07-20 15:35:01] INFO root fetch - processPackages [vbtex]: Downloading https://files.pythonhosted.org/packages/94/fc/4c3ab23c575b058879facf354b40b6e8075072ceca7a98fbff90e7b6a6f2/vbtex-0.1.6.tar.gz
+[2023-07-20 15:35:01] INFO root fetch - processPackages [moto]: Downloading https://files.pythonhosted.org/packages/4b/79/8731bdd68db60192dd81a418b0552fc817d87bba0726d6c4ff2dbd93f913/moto-4.1.9.dev9.tar.gz
+[2023-07-20 15:35:01] INFO root fetch - processPackages [buscador]: Downloading https://files.pythonhosted.org/packages/a5/39/5694fe84b862d5c6bcc78cd91b299e9a7adf4f112007d1cc4e96edcee92b/buscador-0.2.tar.gz
+[2023-07-20 15:35:01] INFO root fetch - processPackages [vbtex]: executing diffoscope
+[2023-07-20 15:35:01] INFO root fetch - processPackages [vbtex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vbtex-0.1.5.tar.gz tmp/vbtex-0.1.6.tar.gz --markdown 20230720/v/vbtex/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-07-20 15:35:01] INFO root fetch - processPackages [buscador]: executing diffoscope
+[2023-07-20 15:35:01] INFO root fetch - processPackages [buscador]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/buscador-0.1.tar.gz tmp/buscador-0.2.tar.gz --markdown 20230720/b/buscador/0.1-0.2/diff.md --exclude *.pyd
+[2023-07-20 15:35:01] INFO root fetch - processPackages [moto]: executing diffoscope
+[2023-07-20 15:35:01] INFO root fetch - processPackages [moto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moto-4.1.9.dev8.tar.gz tmp/moto-4.1.9.dev9.tar.gz --markdown 20230720/m/moto/4.1.9.dev8-4.1.9.dev9/diff.md --exclude *.pyd
+[2023-07-20 15:35:01] INFO root fetch - processPackages [gitlab-ci-generator]: Remove: archive file [/home/abi/fetcher/tmp/gitlab-ci-generator-1.0.8.tar.gz]
+[2023-07-20 15:35:01] INFO root fetch - processPackages [gitlab-ci-generator]: Remove: archive file [/home/abi/fetcher/tmp/gitlab-ci-generator-1.0.9.tar.gz]
+[2023-07-20 15:35:01] INFO root fetch - main [MainThread]: End processing [gitlab-ci-generator]: success
+[2023-07-20 15:35:02] INFO root fetch - processPackages [bigdl-chronos-spark3]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_chronos_spark3-2.4.0b20230718-py3-none-manylinux1_x86_64.whl.zip]
+[2023-07-20 15:35:02] INFO root fetch - processPackages [bigdl-chronos-spark3]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_chronos_spark3-2.4.0b20230720-py3-none-manylinux1_x86_64.whl.zip]
+[2023-07-20 15:35:02] INFO root fetch - main [MainThread]: End processing [bigdl-chronos-spark3]: success
+[2023-07-20 15:35:02] INFO root fetch - processPackages [kstreams]: Remove: archive file [/home/abi/fetcher/tmp/kstreams-0.9.0.tar.gz]
+[2023-07-20 15:35:02] INFO root fetch - processPackages [kstreams]: Remove: archive file [/home/abi/fetcher/tmp/kstreams-0.9.1.tar.gz]
+[2023-07-20 15:35:02] INFO root fetch - main [MainThread]: End processing [kstreams]: success
+[2023-07-20 15:35:02] INFO root fetch - processPackages [robingrad]: Remove: archive file [/home/abi/fetcher/tmp/robingrad-0.0.4.tar.gz]
+[2023-07-20 15:35:02] INFO root fetch - processPackages [robingrad]: Remove: archive file [/home/abi/fetcher/tmp/robingrad-0.0.5.tar.gz]
+[2023-07-20 15:35:02] INFO root fetch - main [MainThread]: End processing [robingrad]: success
+[2023-07-20 15:35:03] INFO root fetch - processPackages [vbtex]: Remove: archive file [/home/abi/fetcher/tmp/vbtex-0.1.5.tar.gz]
+[2023-07-20 15:35:03] INFO root fetch - processPackages [vbtex]: Remove: archive file [/home/abi/fetcher/tmp/vbtex-0.1.6.tar.gz]
+[2023-07-20 15:35:03] INFO root fetch - main [MainThread]: End processing [vbtex]: success
+[2023-07-20 15:35:03] INFO root fetch - processPackages [buscador]: Remove: archive file [/home/abi/fetcher/tmp/buscador-0.1.tar.gz]
+[2023-07-20 15:35:03] INFO root fetch - processPackages [buscador]: Remove: archive file [/home/abi/fetcher/tmp/buscador-0.2.tar.gz]
+[2023-07-20 15:35:03] INFO root fetch - main [MainThread]: End processing [buscador]: success
+[2023-07-20 15:35:21] INFO root fetch - processPackages [moto]: Remove: archive file [/home/abi/fetcher/tmp/moto-4.1.9.dev8.tar.gz]
+[2023-07-20 15:35:21] INFO root fetch - processPackages [moto]: Remove: archive file [/home/abi/fetcher/tmp/moto-4.1.9.dev9.tar.gz]
+[2023-07-20 15:35:21] INFO root fetch - main [MainThread]: End processing [moto]: success
+[2023-07-20 15:35:56] INFO root fetch - processPackages [bigdl-friesian-spark3]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_friesian_spark3-2.4.0b20230718-py3-none-manylinux1_x86_64.whl.zip]
+[2023-07-20 15:35:56] INFO root fetch - processPackages [bigdl-friesian-spark3]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_friesian_spark3-2.4.0b20230720-py3-none-manylinux1_x86_64.whl.zip]
+[2023-07-20 15:35:56] INFO root fetch - main [MainThread]: End processing [bigdl-friesian-spark3]: success
+[2023-07-20 15:35:56] INFO root fetch - main [MainThread]: Store serial: [18967125]
