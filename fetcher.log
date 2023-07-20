@@ -11274,3 +11274,186 @@ AssertionError: tmp/verify4py-test-0.1.7.tar.gz does not exist
 [2023-07-20 16:13:13] INFO root fetch - processPackages [cybrid-api-bank-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-bank-python-0.9.9.tar.gz]
 [2023-07-20 16:13:13] INFO root fetch - main [MainThread]: End processing [cybrid-api-bank-python]: success
 [2023-07-20 16:13:13] INFO root fetch - main [MainThread]: Store serial: [18967616]
+[2023-07-20 16:18:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18967616]
+[2023-07-20 16:18:22] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-07-20 16:18:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fabric-am-handlers
+[2023-07-20 16:18:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pytest-mongo
+[2023-07-20 16:18:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ansys-templates
+[2023-07-20 16:18:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tse-option
+[2023-07-20 16:18:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: drf-kit
+[2023-07-20 16:18:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tuxsuite
+[2023-07-20 16:18:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: djgraphql
+[2023-07-20 16:18:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cognite-power-ops
+[2023-07-20 16:18:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: database-without-orm-local
+[2023-07-20 16:18:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: efemarai
+[2023-07-20 16:18:23] INFO root fetch - processPackages [fabric-am-handlers]: New version: [1rc3] Old Version: [1.6.0b1]
+[2023-07-20 16:18:23] INFO root fetch - processPackages [cognite-power-ops]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-07-20 16:18:23] INFO root fetch - processPackages [ansys-templates]: New version: [1.2.0] Old Version: [1.1.1]
+[2023-07-20 16:18:23] INFO root fetch - processPackages [efemarai]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-07-20 16:18:23] INFO root fetch - processPackages [pytest-mongo]: New version: [3.0.0] Old Version: [2.1.1]
+[2023-07-20 16:18:23] INFO root fetch - processPackages [database-without-orm-local]: New version: [0.0.13] Old Version: [0.0.12]
+[2023-07-20 16:18:23] INFO root fetch - processPackages [tuxsuite]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-07-20 16:18:23] INFO root fetch - processPackages [tse-option]: New version: [0.1.2.1] Old Version: [0.1.2.0]
+[2023-07-20 16:18:23] INFO root fetch - processPackages [drf-kit]: New version: [1.9.0] Old Version: [1.8.7]
+[2023-07-20 16:18:23] INFO root fetch - processPackages [djgraphql]: New version: [1.0.1] Old Version: [0.0.5]
+[2023-07-20 16:18:23] INFO root fetch - processPackages [database-without-orm-local]: Downloading https://files.pythonhosted.org/packages/cc/ff/1c9be361686a26332969c7ac140ac9dd7bac0f7a981024fe3b60d122ddbe/database-without-orm-local-0.0.12.tar.gz
+[2023-07-20 16:18:23] INFO root fetch - processPackages [drf-kit]: Downloading https://files.pythonhosted.org/packages/08/ab/5faecc24d6c3ffea558698cedd2cfdd5915a0c1a9ea8fb5f6f31a1ba3c9e/drf-kit-1.8.7.tar.gz
+[2023-07-20 16:18:23] INFO root fetch - processPackages [tse-option]: Downloading https://files.pythonhosted.org/packages/54/7d/990202e6b92a2e072b860ef63d9002d501185e1cb94aaf49e58e2be57ab6/tse_option-0.1.2.0.tar.gz
+[2023-07-20 16:18:23] INFO root fetch - processPackages [ansys-templates]: Downloading https://files.pythonhosted.org/packages/e5/dd/3d444fe0245bdc68691874ef814cbacd9b71a3d0bc4b06b4451a4d360861/ansys_templates-1.1.1.tar.gz
+[2023-07-20 16:18:23] INFO root fetch - processPackages [cognite-power-ops]: Downloading https://files.pythonhosted.org/packages/2b/ea/c056f5562fa0bed4321b21572bba15a2f43f6f9795d20397ee822d00d6af/cognite_power_ops-0.9.1.tar.gz
+[2023-07-20 16:18:23] INFO root fetch - processPackages [fabric-am-handlers]: Downloading https://files.pythonhosted.org/packages/6e/5a/e2dc44ad89c83c00c4a9336c748624baaa62d2e847a80092901dae146174/fabric-am-handlers-1.6.0b1.tar.gz
+[2023-07-20 16:18:23] INFO root fetch - processPackages [pytest-mongo]: Downloading https://files.pythonhosted.org/packages/19/3e/4fc92a482aa0bf4598edea48098b7456bbfb6c323043b6913184638015ac/pytest-mongo-2.1.1.tar.gz
+[2023-07-20 16:18:23] INFO root fetch - processPackages [efemarai]: Downloading https://files.pythonhosted.org/packages/07/20/aaac812e6ff38808518976178409a5ca8dad44b2ecd43f7a1224dbee04fa/efemarai-0.4.0.tar.gz
+[2023-07-20 16:18:23] INFO root fetch - processPackages [tuxsuite]: Downloading https://files.pythonhosted.org/packages/27/14/f25c40bc531aff32551c08e4d9c8b6894d4749d5ad96f37b58cc307cfb29/tuxsuite-1.8.0.tar.gz
+[2023-07-20 16:18:23] INFO root fetch - processPackages [djgraphql]: Downloading https://files.pythonhosted.org/packages/fc/52/a8288bac2bda12362e68afa73c79a7cf4b2459c907ae074825365793c0cf/djgraphql-0.0.5.tar.gz
+[2023-07-20 16:18:23] INFO root fetch - processPackages [database-without-orm-local]: Downloading https://files.pythonhosted.org/packages/b8/7b/a8a16dd0115b381f21cc3eeb42373532b024c6962543d334a51d2102cde6/database-without-orm-local-0.0.13.tar.gz
+[2023-07-20 16:18:23] INFO root fetch - processPackages [drf-kit]: Downloading https://files.pythonhosted.org/packages/aa/e5/774e027488891430f34e9bf81096830a88e69d862f2d412723bae9896816/drf-kit-1.9.0.tar.gz
+[2023-07-20 16:18:23] INFO root fetch - processPackages [tse-option]: Downloading https://files.pythonhosted.org/packages/3c/15/a4c621087aee4d7f202a4cf5ad10864475b0ed1155f465786419b5f15cf9/tse_option-0.1.2.1.tar.gz
+[2023-07-20 16:18:23] INFO root fetch - processPackages [drf-kit]: executing diffoscope
+[2023-07-20 16:18:23] INFO root fetch - processPackages [drf-kit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drf-kit-1.8.7.tar.gz tmp/drf-kit-1.9.0.tar.gz --markdown 20230720/d/drf-kit/1.8.7-1.9.0/diff.md --exclude *.pyd
+[2023-07-20 16:18:24] INFO root fetch - processPackages [database-without-orm-local]: executing diffoscope
+[2023-07-20 16:18:24] INFO root fetch - processPackages [database-without-orm-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/database-without-orm-local-0.0.12.tar.gz tmp/database-without-orm-local-0.0.13.tar.gz --markdown 20230720/d/database-without-orm-local/0.0.12-0.0.13/diff.md --exclude *.pyd
+[2023-07-20 16:18:24] INFO root fetch - processPackages [pytest-mongo]: Downloading https://files.pythonhosted.org/packages/2e/9c/6fe77649ff9fc16164c2baec038673f03b699212e2b1da15f9eea4508dc4/pytest-mongo-3.0.0.tar.gz
+[2023-07-20 16:18:24] INFO root fetch - processPackages [efemarai]: Downloading https://files.pythonhosted.org/packages/dc/46/4af7dcc89d7a27a868808a0ed5ee4669243f0b0209e38cc0e2b3d7a543a0/efemarai-0.4.1-py3-none-any.whl
+[2023-07-20 16:18:24] INFO root fetch - processPackages [ansys-templates]: Downloading https://files.pythonhosted.org/packages/eb/53/6fe7d187279beaaa03c16a933239e06a7d1af87eef8fa6058cd468a346d4/ansys_templates-1.2.0.tar.gz
+[2023-07-20 16:18:24] INFO root fetch - processPackages [cognite-power-ops]: Downloading https://files.pythonhosted.org/packages/5a/e7/e66818fdcb4e952516e36c68513139d425136901b019cc2b7ae48bfa3c12/cognite_power_ops-0.9.2.tar.gz
+[2023-07-20 16:18:24] INFO root fetch - processPackages [fabric-am-handlers]: Downloading https://files.pythonhosted.org/packages/95/fd/5989a4e7b955374f83a339d5b7bb5b046031d451e13fa868379852606d79/fabric-am-handlers-1rc3.tar.gz
+[2023-07-20 16:18:24] INFO root fetch - processPackages [tse-option]: executing diffoscope
+[2023-07-20 16:18:24] INFO root fetch - processPackages [tse-option]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tse_option-0.1.2.0.tar.gz tmp/tse_option-0.1.2.1.tar.gz --markdown 20230720/t/tse-option/0.1.2.0-0.1.2.1/diff.md --exclude *.pyd
+[2023-07-20 16:18:24] INFO root fetch - processPackages [djgraphql]: Downloading https://files.pythonhosted.org/packages/e8/6e/62c6863740fa748f3eb32235f5b068a884cbb42eb1e2fc5f7fa0b3312709/djgraphql-1.0.1.tar.gz
+[2023-07-20 16:18:24] INFO root fetch - processPackages [tuxsuite]: Downloading https://files.pythonhosted.org/packages/4d/5e/8be806f24d5782026eef566b71100557104f363339b8917671132eadf1ea/tuxsuite-1.9.0.tar.gz
+[2023-07-20 16:18:24] INFO root fetch - processPackages [pytest-mongo]: executing diffoscope
+[2023-07-20 16:18:24] INFO root fetch - processPackages [pytest-mongo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-mongo-2.1.1.tar.gz tmp/pytest-mongo-3.0.0.tar.gz --markdown 20230720/p/pytest-mongo/2.1.1-3.0.0/diff.md --exclude *.pyd
+[2023-07-20 16:18:24] INFO root fetch - processPackages [cognite-power-ops]: executing diffoscope
+[2023-07-20 16:18:24] INFO root fetch - processPackages [cognite-power-ops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cognite_power_ops-0.9.1.tar.gz tmp/cognite_power_ops-0.9.2.tar.gz --markdown 20230720/c/cognite-power-ops/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-07-20 16:18:24] INFO root fetch - processPackages [efemarai]: executing diffoscope
+[2023-07-20 16:18:24] INFO root fetch - processPackages [efemarai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/efemarai-0.4.0.tar.gz tmp/efemarai-0.4.1-py3-none-any.whl.zip --markdown 20230720/e/efemarai/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-07-20 16:18:24] INFO root fetch - processPackages [djgraphql]: executing diffoscope
+[2023-07-20 16:18:24] INFO root fetch - processPackages [djgraphql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djgraphql-0.0.5.tar.gz tmp/djgraphql-1.0.1.tar.gz --markdown 20230720/d/djgraphql/0.0.5-1.0.1/diff.md --exclude *.pyd
+[2023-07-20 16:18:24] INFO root fetch - processPackages [fabric-am-handlers]: executing diffoscope
+[2023-07-20 16:18:24] INFO root fetch - processPackages [fabric-am-handlers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fabric-am-handlers-1.6.0b1.tar.gz tmp/fabric-am-handlers-1rc3.tar.gz --markdown 20230720/f/fabric-am-handlers/1.6.0b1-1rc3/diff.md --exclude *.pyd
+[2023-07-20 16:18:24] INFO root fetch - processPackages [tuxsuite]: executing diffoscope
+[2023-07-20 16:18:24] INFO root fetch - processPackages [tuxsuite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tuxsuite-1.8.0.tar.gz tmp/tuxsuite-1.9.0.tar.gz --markdown 20230720/t/tuxsuite/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-07-20 16:18:24] INFO root fetch - processPackages [ansys-templates]: executing diffoscope
+[2023-07-20 16:18:24] INFO root fetch - processPackages [ansys-templates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansys_templates-1.1.1.tar.gz tmp/ansys_templates-1.2.0.tar.gz --markdown 20230720/a/ansys-templates/1.1.1-1.2.0/diff.md --exclude *.pyd
+[2023-07-20 16:18:25] INFO root fetch - processPackages [drf-kit]: Remove: archive file [/home/abi/fetcher/tmp/drf-kit-1.8.7.tar.gz]
+[2023-07-20 16:18:25] INFO root fetch - processPackages [drf-kit]: Remove: archive file [/home/abi/fetcher/tmp/drf-kit-1.9.0.tar.gz]
+[2023-07-20 16:18:25] INFO root fetch - processPackages [drf-kit]: Start processing: idds-atlas
+[2023-07-20 16:18:25] INFO root fetch - main [MainThread]: End processing [drf-kit]: success
+[2023-07-20 16:18:25] INFO root fetch - processPackages [idds-atlas]: New version: [1.3.1] Old Version: [1.3.0]
+[2023-07-20 16:18:25] INFO root fetch - processPackages [database-without-orm-local]: Remove: archive file [/home/abi/fetcher/tmp/database-without-orm-local-0.0.12.tar.gz]
+[2023-07-20 16:18:25] INFO root fetch - processPackages [database-without-orm-local]: Remove: archive file [/home/abi/fetcher/tmp/database-without-orm-local-0.0.13.tar.gz]
+[2023-07-20 16:18:25] INFO root fetch - processPackages [database-without-orm-local]: Start processing: idds-client
+[2023-07-20 16:18:25] INFO root fetch - main [MainThread]: End processing [database-without-orm-local]: success
+[2023-07-20 16:18:25] INFO root fetch - processPackages [idds-client]: New version: [1.3.1] Old Version: [1.3.0]
+[2023-07-20 16:18:25] INFO root fetch - processPackages [idds-atlas]: Downloading https://files.pythonhosted.org/packages/81/77/f4620933740feb09c300315a84fb0d5a8fbe62dd1ee721f240c29f51f1eb/idds-atlas-1.3.0.tar.gz
+[2023-07-20 16:18:25] INFO root fetch - processPackages [pytest-mongo]: Remove: archive file [/home/abi/fetcher/tmp/pytest-mongo-2.1.1.tar.gz]
+[2023-07-20 16:18:25] INFO root fetch - processPackages [pytest-mongo]: Remove: archive file [/home/abi/fetcher/tmp/pytest-mongo-3.0.0.tar.gz]
+[2023-07-20 16:18:25] INFO root fetch - processPackages [pytest-mongo]: Start processing: idds-common
+[2023-07-20 16:18:25] INFO root fetch - main [MainThread]: End processing [pytest-mongo]: success
+[2023-07-20 16:18:25] INFO root fetch - processPackages [idds-client]: Downloading https://files.pythonhosted.org/packages/ce/04/0ecf158225b6fbf63a5c30531d7d2283c67e11ee974afb315ddc6f0aa8d4/idds-client-1.3.0.tar.gz
+[2023-07-20 16:18:25] INFO root fetch - processPackages [idds-common]: New version: [1.3.1] Old Version: [1.3.0]
+[2023-07-20 16:18:25] INFO root fetch - processPackages [tse-option]: Remove: archive file [/home/abi/fetcher/tmp/tse_option-0.1.2.0.tar.gz]
+[2023-07-20 16:18:25] INFO root fetch - processPackages [tse-option]: Remove: archive file [/home/abi/fetcher/tmp/tse_option-0.1.2.1.tar.gz]
+[2023-07-20 16:18:25] INFO root fetch - processPackages [tse-option]: Start processing: idds-doma
+[2023-07-20 16:18:25] INFO root fetch - main [MainThread]: End processing [tse-option]: success
+[2023-07-20 16:18:25] INFO root fetch - processPackages [idds-doma]: New version: [1.3.1] Old Version: [1.3.0]
+[2023-07-20 16:18:25] INFO root fetch - processPackages [efemarai]: Remove: archive file [/home/abi/fetcher/tmp/efemarai-0.4.0.tar.gz]
+[2023-07-20 16:18:25] INFO root fetch - processPackages [efemarai]: Remove: archive file [/home/abi/fetcher/tmp/efemarai-0.4.1-py3-none-any.whl.zip]
+[2023-07-20 16:18:25] INFO root fetch - processPackages [efemarai]: Start processing: idds-server
+[2023-07-20 16:18:25] INFO root fetch - main [MainThread]: End processing [efemarai]: success
+[2023-07-20 16:18:25] INFO root fetch - processPackages [djgraphql]: Remove: archive file [/home/abi/fetcher/tmp/djgraphql-0.0.5.tar.gz]
+[2023-07-20 16:18:25] INFO root fetch - processPackages [djgraphql]: Remove: archive file [/home/abi/fetcher/tmp/djgraphql-1.0.1.tar.gz]
+[2023-07-20 16:18:25] INFO root fetch - processPackages [djgraphql]: Start processing: idds-monitor
+[2023-07-20 16:18:25] INFO root fetch - main [MainThread]: End processing [djgraphql]: success
+[2023-07-20 16:18:25] INFO root fetch - processPackages [idds-server]: New version: [1.3.1] Old Version: [1.3.0]
+[2023-07-20 16:18:25] INFO root fetch - processPackages [idds-atlas]: Downloading https://files.pythonhosted.org/packages/84/f9/5c8eaebffac794762565024cb8e9809c5324f033897c1ab8ac63d52e69d1/idds-atlas-1.3.1.tar.gz
+[2023-07-20 16:18:25] INFO root fetch - processPackages [cognite-power-ops]: Remove: archive file [/home/abi/fetcher/tmp/cognite_power_ops-0.9.1.tar.gz]
+[2023-07-20 16:18:25] INFO root fetch - processPackages [cognite-power-ops]: Remove: archive file [/home/abi/fetcher/tmp/cognite_power_ops-0.9.2.tar.gz]
+[2023-07-20 16:18:25] INFO root fetch - processPackages [cognite-power-ops]: Start processing: idds-website
+[2023-07-20 16:18:25] INFO root fetch - main [MainThread]: End processing [cognite-power-ops]: success
+[2023-07-20 16:18:25] INFO root fetch - processPackages [idds-common]: Downloading https://files.pythonhosted.org/packages/3d/1d/e1aef1a8942fc634ee800be0fe202f2b8a2f7901ded9f88cd250d06285e0/idds-common-1.3.0.tar.gz
+[2023-07-20 16:18:26] INFO root fetch - processPackages [idds-monitor]: New version: [1.3.1] Old Version: [1.3.0]
+[2023-07-20 16:18:26] INFO root fetch - processPackages [idds-website]: New version: [1.3.1] Old Version: [1.3.0]
+[2023-07-20 16:18:26] INFO root fetch - processPackages [idds-atlas]: executing diffoscope
+[2023-07-20 16:18:26] INFO root fetch - processPackages [idds-atlas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idds-atlas-1.3.0.tar.gz tmp/idds-atlas-1.3.1.tar.gz --markdown 20230720/i/idds-atlas/1.3.0-1.3.1/diff.md --exclude *.pyd
+[2023-07-20 16:18:26] INFO root fetch - processPackages [idds-client]: Downloading https://files.pythonhosted.org/packages/53/91/1c646ad6ff080c9433afb2d346425775b8c0a21f562293ebc1d12b260b07/idds-client-1.3.1.tar.gz
+[2023-07-20 16:18:26] INFO root fetch - processPackages [idds-doma]: Downloading https://files.pythonhosted.org/packages/07/61/1921438102d8856de1be8cb53330bf814cb435725ebc8fc6c529d966b546/idds-doma-1.3.0.tar.gz
+[2023-07-20 16:18:26] INFO root fetch - processPackages [fabric-am-handlers]: Remove: archive file [/home/abi/fetcher/tmp/fabric-am-handlers-1.6.0b1.tar.gz]
+[2023-07-20 16:18:26] INFO root fetch - processPackages [fabric-am-handlers]: Remove: archive file [/home/abi/fetcher/tmp/fabric-am-handlers-1rc3.tar.gz]
+[2023-07-20 16:18:26] INFO root fetch - processPackages [fabric-am-handlers]: Start processing: idds-workflow
+[2023-07-20 16:18:26] INFO root fetch - main [MainThread]: End processing [fabric-am-handlers]: success
+[2023-07-20 16:18:26] INFO root fetch - processPackages [idds-server]: Downloading https://files.pythonhosted.org/packages/34/ba/0f64f7d2e506d4426c5573f6664a94f8b5de5d9243da096fcdf68152ff0b/idds-server-1.3.0.tar.gz
+[2023-07-20 16:18:26] INFO root fetch - processPackages [idds-monitor]: Downloading https://files.pythonhosted.org/packages/05/24/05bac985b829be30aeabeff19ba88be5e33fd2c447f3dffd761a97993955/idds-monitor-1.3.0.tar.gz
+[2023-07-20 16:18:26] INFO root fetch - processPackages [idds-workflow]: New version: [1.3.1] Old Version: [1.3.0]
+[2023-07-20 16:18:26] INFO root fetch - processPackages [idds-client]: executing diffoscope
+[2023-07-20 16:18:26] INFO root fetch - processPackages [idds-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idds-client-1.3.0.tar.gz tmp/idds-client-1.3.1.tar.gz --markdown 20230720/i/idds-client/1.3.0-1.3.1/diff.md --exclude *.pyd
+[2023-07-20 16:18:26] INFO root fetch - processPackages [idds-website]: Downloading https://files.pythonhosted.org/packages/28/e5/7c9d5b1fc9ccb02e759f093e782b62b11dc15cdb056a19622629f9548bf1/idds-website-1.3.0.tar.gz
+[2023-07-20 16:18:26] INFO root fetch - processPackages [idds-common]: Downloading https://files.pythonhosted.org/packages/03/04/c20db2cd0d3e410096f704bfe2887f47b2bbd7beaeade93b8811a79b0143/idds-common-1.3.1.tar.gz
+[2023-07-20 16:18:26] INFO root fetch - processPackages [idds-common]: executing diffoscope
+[2023-07-20 16:18:26] INFO root fetch - processPackages [idds-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idds-common-1.3.0.tar.gz tmp/idds-common-1.3.1.tar.gz --markdown 20230720/i/idds-common/1.3.0-1.3.1/diff.md --exclude *.pyd
+[2023-07-20 16:18:26] INFO root fetch - processPackages [tuxsuite]: Remove: archive file [/home/abi/fetcher/tmp/tuxsuite-1.8.0.tar.gz]
+[2023-07-20 16:18:26] INFO root fetch - processPackages [tuxsuite]: Remove: archive file [/home/abi/fetcher/tmp/tuxsuite-1.9.0.tar.gz]
+[2023-07-20 16:18:26] INFO root fetch - processPackages [tuxsuite]: Start processing: toypandas
+[2023-07-20 16:18:26] INFO root fetch - main [MainThread]: End processing [tuxsuite]: success
+[2023-07-20 16:18:26] INFO root fetch - processPackages [idds-workflow]: Downloading https://files.pythonhosted.org/packages/83/02/64e2aed80edf24279b3b5bbae7f455df0278d041cdca66034be89965bf32/idds-workflow-1.3.0.tar.gz
+[2023-07-20 16:18:26] INFO root fetch - processPackages [idds-doma]: Downloading https://files.pythonhosted.org/packages/ce/0a/571a37b13b4e3b57d78cb20fcdbdba4cbc5e341aa29b37e2fe9ffd80f649/idds-doma-1.3.1.tar.gz
+[2023-07-20 16:18:26] INFO root fetch - processPackages [idds-server]: Downloading https://files.pythonhosted.org/packages/d5/bb/89a183da4cf019cbe41ac330912ee2225df0cbf337aa25756eb581a0d901/idds-server-1.3.1.tar.gz
+[2023-07-20 16:18:26] INFO root fetch - processPackages [idds-doma]: executing diffoscope
+[2023-07-20 16:18:26] INFO root fetch - processPackages [idds-doma]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idds-doma-1.3.0.tar.gz tmp/idds-doma-1.3.1.tar.gz --markdown 20230720/i/idds-doma/1.3.0-1.3.1/diff.md --exclude *.pyd
+[2023-07-20 16:18:26] INFO root fetch - processPackages [toypandas]: New version: [0.2.0] Old Version: [0.1.1]
+[2023-07-20 16:18:26] INFO root fetch - processPackages [idds-server]: executing diffoscope
+[2023-07-20 16:18:26] INFO root fetch - processPackages [idds-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idds-server-1.3.0.tar.gz tmp/idds-server-1.3.1.tar.gz --markdown 20230720/i/idds-server/1.3.0-1.3.1/diff.md --exclude *.pyd
+[2023-07-20 16:18:26] INFO root fetch - processPackages [idds-workflow]: Downloading https://files.pythonhosted.org/packages/2f/a4/d22568715b5c6fd40490f0bbadba6131f7033fae22cf33472e7d02c57662/idds-workflow-1.3.1.tar.gz
+[2023-07-20 16:18:27] INFO root fetch - processPackages [toypandas]: Downloading https://files.pythonhosted.org/packages/14/9a/cf47b38a69645cd90a3074bec4eeb555f13eb64d5abd70ad28eb89ac219b/toypandas-0.1.1.tar.gz
+[2023-07-20 16:18:27] INFO root fetch - processPackages [idds-workflow]: executing diffoscope
+[2023-07-20 16:18:27] INFO root fetch - processPackages [idds-workflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idds-workflow-1.3.0.tar.gz tmp/idds-workflow-1.3.1.tar.gz --markdown 20230720/i/idds-workflow/1.3.0-1.3.1/diff.md --exclude *.pyd
+[2023-07-20 16:18:27] INFO root fetch - processPackages [ansys-templates]: Remove: archive file [/home/abi/fetcher/tmp/ansys_templates-1.1.1.tar.gz]
+[2023-07-20 16:18:27] INFO root fetch - processPackages [ansys-templates]: Remove: archive file [/home/abi/fetcher/tmp/ansys_templates-1.2.0.tar.gz]
+[2023-07-20 16:18:27] INFO root fetch - processPackages [ansys-templates]: Start processing: known
+[2023-07-20 16:18:27] INFO root fetch - main [MainThread]: End processing [ansys-templates]: success
+[2023-07-20 16:18:27] INFO root fetch - processPackages [idds-atlas]: Remove: archive file [/home/abi/fetcher/tmp/idds-atlas-1.3.0.tar.gz]
+[2023-07-20 16:18:27] INFO root fetch - processPackages [idds-atlas]: Remove: archive file [/home/abi/fetcher/tmp/idds-atlas-1.3.1.tar.gz]
+[2023-07-20 16:18:27] INFO root fetch - main [MainThread]: End processing [idds-atlas]: success
+[2023-07-20 16:18:27] INFO root fetch - processPackages [known]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-20 16:18:27] INFO root fetch - processPackages [toypandas]: Downloading https://files.pythonhosted.org/packages/d2/2c/5a2ff8f0a2b8d83fc032c5f53c3cbb12ada4c3fc060090619962a8e2181c/toypandas-0.2.0.tar.gz
+[2023-07-20 16:18:27] INFO root fetch - processPackages [idds-client]: Remove: archive file [/home/abi/fetcher/tmp/idds-client-1.3.0.tar.gz]
+[2023-07-20 16:18:27] INFO root fetch - processPackages [idds-client]: Remove: archive file [/home/abi/fetcher/tmp/idds-client-1.3.1.tar.gz]
+[2023-07-20 16:18:27] INFO root fetch - main [MainThread]: End processing [idds-client]: success
+[2023-07-20 16:18:27] INFO root fetch - processPackages [idds-common]: Remove: archive file [/home/abi/fetcher/tmp/idds-common-1.3.0.tar.gz]
+[2023-07-20 16:18:27] INFO root fetch - processPackages [idds-common]: Remove: archive file [/home/abi/fetcher/tmp/idds-common-1.3.1.tar.gz]
+[2023-07-20 16:18:27] INFO root fetch - main [MainThread]: End processing [idds-common]: success
+[2023-07-20 16:18:27] INFO root fetch - processPackages [idds-website]: Downloading https://files.pythonhosted.org/packages/69/9d/d0722854b1fdc671e5a9d5afd793a0f99abdbebd9d446e38c1bd061c638a/idds-website-1.3.1.tar.gz
+[2023-07-20 16:18:27] INFO root fetch - processPackages [known]: Downloading https://files.pythonhosted.org/packages/47/b4/bbcd534354caf86d4ab289ce9381368359e0380c37cf5ac8f7237407b92d/known-0.0.8.tar.gz
+[2023-07-20 16:18:27] INFO root fetch - processPackages [toypandas]: executing diffoscope
+[2023-07-20 16:18:27] INFO root fetch - processPackages [toypandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/toypandas-0.1.1.tar.gz tmp/toypandas-0.2.0.tar.gz --markdown 20230720/t/toypandas/0.1.1-0.2.0/diff.md --exclude *.pyd
+[2023-07-20 16:18:27] INFO root fetch - processPackages [idds-doma]: Remove: archive file [/home/abi/fetcher/tmp/idds-doma-1.3.0.tar.gz]
+[2023-07-20 16:18:27] INFO root fetch - processPackages [idds-doma]: Remove: archive file [/home/abi/fetcher/tmp/idds-doma-1.3.1.tar.gz]
+[2023-07-20 16:18:27] INFO root fetch - main [MainThread]: End processing [idds-doma]: success
+[2023-07-20 16:18:27] INFO root fetch - processPackages [idds-monitor]: Downloading https://files.pythonhosted.org/packages/99/be/1cf1eafc51d6df33efd319837a480848c14fad311b72748f89111674dd04/idds-monitor-1.3.1.tar.gz
+[2023-07-20 16:18:28] INFO root fetch - processPackages [idds-website]: executing diffoscope
+[2023-07-20 16:18:28] INFO root fetch - processPackages [idds-website]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idds-website-1.3.0.tar.gz tmp/idds-website-1.3.1.tar.gz --markdown 20230720/i/idds-website/1.3.0-1.3.1/diff.md --exclude *.pyd
+[2023-07-20 16:18:28] INFO root fetch - processPackages [known]: Downloading https://files.pythonhosted.org/packages/b8/1a/6e2fd1226b8b574a5fd82ec8db37c732dd80ec0704071e93009051012eaa/known-0.0.9.tar.gz
+[2023-07-20 16:18:28] INFO root fetch - processPackages [idds-workflow]: Remove: archive file [/home/abi/fetcher/tmp/idds-workflow-1.3.0.tar.gz]
+[2023-07-20 16:18:28] INFO root fetch - processPackages [idds-workflow]: Remove: archive file [/home/abi/fetcher/tmp/idds-workflow-1.3.1.tar.gz]
+[2023-07-20 16:18:28] INFO root fetch - main [MainThread]: End processing [idds-workflow]: success
+[2023-07-20 16:18:28] INFO root fetch - processPackages [known]: executing diffoscope
+[2023-07-20 16:18:28] INFO root fetch - processPackages [known]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/known-0.0.8.tar.gz tmp/known-0.0.9.tar.gz --markdown 20230720/k/known/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-20 16:18:28] INFO root fetch - processPackages [idds-monitor]: executing diffoscope
+[2023-07-20 16:18:28] INFO root fetch - processPackages [idds-monitor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idds-monitor-1.3.0.tar.gz tmp/idds-monitor-1.3.1.tar.gz --markdown 20230720/i/idds-monitor/1.3.0-1.3.1/diff.md --exclude *.pyd
+[2023-07-20 16:18:28] INFO root fetch - processPackages [toypandas]: Remove: archive file [/home/abi/fetcher/tmp/toypandas-0.1.1.tar.gz]
+[2023-07-20 16:18:28] INFO root fetch - processPackages [toypandas]: Remove: archive file [/home/abi/fetcher/tmp/toypandas-0.2.0.tar.gz]
+[2023-07-20 16:18:28] INFO root fetch - main [MainThread]: End processing [toypandas]: success
+[2023-07-20 16:18:28] INFO root fetch - processPackages [idds-server]: Remove: archive file [/home/abi/fetcher/tmp/idds-server-1.3.0.tar.gz]
+[2023-07-20 16:18:28] INFO root fetch - processPackages [idds-server]: Remove: archive file [/home/abi/fetcher/tmp/idds-server-1.3.1.tar.gz]
+[2023-07-20 16:18:28] INFO root fetch - main [MainThread]: End processing [idds-server]: success
+[2023-07-20 16:18:29] INFO root fetch - processPackages [known]: Remove: archive file [/home/abi/fetcher/tmp/known-0.0.8.tar.gz]
+[2023-07-20 16:18:29] INFO root fetch - processPackages [known]: Remove: archive file [/home/abi/fetcher/tmp/known-0.0.9.tar.gz]
+[2023-07-20 16:18:29] INFO root fetch - main [MainThread]: End processing [known]: success
+[2023-07-20 16:18:29] INFO root fetch - processPackages [idds-website]: Remove: archive file [/home/abi/fetcher/tmp/idds-website-1.3.0.tar.gz]
+[2023-07-20 16:18:29] INFO root fetch - processPackages [idds-website]: Remove: archive file [/home/abi/fetcher/tmp/idds-website-1.3.1.tar.gz]
+[2023-07-20 16:18:29] INFO root fetch - main [MainThread]: End processing [idds-website]: success
+[2023-07-20 16:18:32] INFO root fetch - processPackages [idds-monitor]: Remove: archive file [/home/abi/fetcher/tmp/idds-monitor-1.3.0.tar.gz]
+[2023-07-20 16:18:32] INFO root fetch - processPackages [idds-monitor]: Remove: archive file [/home/abi/fetcher/tmp/idds-monitor-1.3.1.tar.gz]
+[2023-07-20 16:18:32] INFO root fetch - main [MainThread]: End processing [idds-monitor]: success
+[2023-07-20 16:18:32] INFO root fetch - main [MainThread]: Store serial: [18967681]
