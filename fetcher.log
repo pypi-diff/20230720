@@ -9705,3 +9705,239 @@ AssertionError: tmp/verify4py-test-0.1.7.tar.gz does not exist
 [2023-07-20 15:24:25] INFO root fetch - processPackages [osxphotos]: Remove: archive file [/home/abi/fetcher/tmp/osxphotos-0.60.9.tar.gz]
 [2023-07-20 15:24:25] INFO root fetch - main [MainThread]: End processing [osxphotos]: success
 [2023-07-20 15:24:25] INFO root fetch - main [MainThread]: Store serial: [18966983]
+[2023-07-20 15:29:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18966983]
+[2023-07-20 15:29:34] INFO root fetch - main [MainThread]: Found 28 changed packages
+[2023-07-20 15:29:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: torchanalyse
+[2023-07-20 15:29:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fuzzy-search
+[2023-07-20 15:29:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sparsezoo-nightly
+[2023-07-20 15:29:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sparseml-nightly
+[2023-07-20 15:29:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: datazone-northstar
+[2023-07-20 15:29:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pydflow
+[2023-07-20 15:29:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: italy-geopop
+[2023-07-20 15:29:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: datadog-checks-dev
+[2023-07-20 15:29:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mkdocs-swan
+[2023-07-20 15:29:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: vbtex
+[2023-07-20 15:29:34] INFO root fetch - processPackages [datazone-northstar]: New version: [0.0.9] Old Version: [0.0.12]
+[2023-07-20 15:29:34] WARNING root fetch - processPackages [torchanalyse]: Skipping, unable to determine old version
+[2023-07-20 15:29:34] INFO root fetch - processPackages [torchanalyse]: Start processing: armonik
+[2023-07-20 15:29:34] INFO root fetch - main [MainThread]: End processing [torchanalyse] error
+[2023-07-20 15:29:34] INFO root fetch - processPackages [vbtex]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-07-20 15:29:34] INFO root fetch - processPackages [fuzzy-search]: New version: [2.0.1a0] Old Version: [2.0.0a0]
+[2023-07-20 15:29:34] INFO root fetch - processPackages [mkdocs-swan]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-07-20 15:29:34] INFO root fetch - processPackages [italy-geopop]: New version: [0.6.1] Old Version: [0.6.0]
+[2023-07-20 15:29:34] INFO root fetch - processPackages [pydflow]: New version: [1.7.9] Old Version: [1.7.8]
+[2023-07-20 15:29:34] INFO root fetch - processPackages [datadog-checks-dev]: New version: [9.4.1] Old Version: [9.4.0]
+[2023-07-20 15:29:34] INFO root fetch - processPackages [armonik]: New version: [3.9.3.dev630] Old Version: [3.9.3.dev627]
+[2023-07-20 15:29:34] INFO root fetch - processPackages [sparseml-nightly]: New version: [1.6.0.20230720] Old Version: [1.6.0.20230717]
+[2023-07-20 15:29:34] INFO root fetch - processPackages [sparsezoo-nightly]: New version: [1.6.0.20230720] Old Version: [1.6.0.20230717]
+[2023-07-20 15:29:34] INFO root fetch - processPackages [datazone-northstar]: Downloading https://files.pythonhosted.org/packages/75/7d/ef668df045ad15f18a8f892dba5f615e6105221507b395b7db57026314ef/datazone_northstar-0.0.12.tar.gz
+[2023-07-20 15:29:34] INFO root fetch - processPackages [fuzzy-search]: Downloading https://files.pythonhosted.org/packages/e2/be/adecb76308ad45784da4b60a041da43536be2f978eced3a2523149cfd354/fuzzy_search-2.0.0a0.tar.gz
+[2023-07-20 15:29:34] INFO root fetch - processPackages [armonik]: Downloading https://files.pythonhosted.org/packages/a3/db/468340c3e51513d2270b938c830901748ba3f03d05938557f70273672795/armonik-3.9.3.dev627.tar.gz
+[2023-07-20 15:29:34] INFO root fetch - processPackages [italy-geopop]: Downloading https://files.pythonhosted.org/packages/b3/c5/ef051966187cacd85ce04bbc1507cd296f8e563c8338bccce1cf55cb4825/italy_geopop-0.6.0.tar.gz
+[2023-07-20 15:29:34] INFO root fetch - processPackages [vbtex]: Downloading https://files.pythonhosted.org/packages/4d/c8/38d5708c8b28635d218f12b9a39b3b98b0c6a0328ecaebee4b8c320310a2/vbtex-0.1.4.tar.gz
+[2023-07-20 15:29:34] WARNING root fetch - processPackages [italy-geopop]: Skipping package: exceeds size limit 32024172>=10485760
+[2023-07-20 15:29:34] INFO root fetch - processPackages [italy-geopop]: Start processing: deepsparse-nightly
+[2023-07-20 15:29:34] INFO root fetch - main [MainThread]: End processing [italy-geopop] error
+[2023-07-20 15:29:34] INFO root fetch - processPackages [pydflow]: Downloading https://files.pythonhosted.org/packages/33/96/a989d9cfcdb5dcb43d60a72640c59e2efb7fd053182742205b332006f813/pydflow-1.7.8.tar.gz
+[2023-07-20 15:29:34] INFO root fetch - processPackages [datadog-checks-dev]: Downloading https://files.pythonhosted.org/packages/49/26/6bd1e17b0680c12cae52b0ff8ea392e8f7778df02dbb988c0eb5f2125734/datadog_checks_dev-9.4.0-py2.py3-none-any.whl
+[2023-07-20 15:29:34] INFO root fetch - processPackages [mkdocs-swan]: Downloading https://files.pythonhosted.org/packages/0b/d4/e64ac90ec81acbac06f820c5ea4f4790537212c6fee9c0a0e8b194bde5d4/mkdocs-swan-0.2.0.tar.gz
+[2023-07-20 15:29:34] INFO root fetch - processPackages [sparseml-nightly]: Downloading https://files.pythonhosted.org/packages/fc/8e/0d999e0e5834a46d5bc631c4fbd0a67adecb0c744d4a662374c763699747/sparseml_nightly-1.6.0.20230717-py3-none-any.whl
+[2023-07-20 15:29:34] INFO root fetch - processPackages [sparsezoo-nightly]: Downloading https://files.pythonhosted.org/packages/f2/6e/76ec096361f9ddb7fc885cc8a377b83b58576d2007a3370c6b867383f455/sparsezoo_nightly-1.6.0.20230717-py3-none-any.whl
+[2023-07-20 15:29:35] INFO root fetch - processPackages [deepsparse-nightly]: New version: [1.6.0.20230720] Old Version: [1.6.0.20230717]
+[2023-07-20 15:29:35] INFO root fetch - processPackages [armonik]: Downloading https://files.pythonhosted.org/packages/11/ad/4f1bc0423cfda7af28cb5dc84e1865bf90ef91df50054caabbc8de87872b/armonik-3.9.3.dev630.tar.gz
+[2023-07-20 15:29:35] INFO root fetch - processPackages [datazone-northstar]: executing diffoscope
+[2023-07-20 15:29:35] INFO root fetch - processPackages [datazone-northstar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datazone_northstar-0.0.12.tar.gz tmp/datazone_northstar-0.0.9.tar.gz --markdown 20230720/d/datazone-northstar/0.0.12-0.0.9/diff.md --exclude *.pyd
+[2023-07-20 15:29:35] INFO root fetch - processPackages [vbtex]: Downloading https://files.pythonhosted.org/packages/24/0c/fa950820fb85e330604944fe3c000c7006845fafe2d7b4a524521918f2cc/vbtex-0.1.5.tar.gz
+[2023-07-20 15:29:35] INFO root fetch - processPackages [fuzzy-search]: Downloading https://files.pythonhosted.org/packages/e9/6b/34c300b01f9a266cc604e1707860a253e68a71478b2054d0ee5123084504/fuzzy_search-2.0.1a0.tar.gz
+[2023-07-20 15:29:35] INFO root fetch - processPackages [deepsparse-nightly]: Downloading https://files.pythonhosted.org/packages/7a/ef/0afbe9631f86841f4dd83d94e67c135a752e2742d92bc9b2ca8b6b2526ba/deepsparse-nightly-1.6.0.20230717.tar.gz
+[2023-07-20 15:29:35] INFO root fetch - processPackages [armonik]: executing diffoscope
+[2023-07-20 15:29:35] INFO root fetch - processPackages [armonik]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/armonik-3.9.3.dev627.tar.gz tmp/armonik-3.9.3.dev630.tar.gz --markdown 20230720/a/armonik/3.9.3.dev627-3.9.3.dev630/diff.md --exclude *.pyd
+[2023-07-20 15:29:35] WARNING root fetch - processPackages [deepsparse-nightly]: Skipping package: exceeds size limit 43974581>=10485760
+[2023-07-20 15:29:35] INFO root fetch - processPackages [deepsparse-nightly]: Start processing: ansible-specdoc
+[2023-07-20 15:29:35] INFO root fetch - main [MainThread]: End processing [deepsparse-nightly] error
+[2023-07-20 15:29:35] INFO root fetch - processPackages [pydflow]: Downloading https://files.pythonhosted.org/packages/9c/41/6c9bc72fde943869899725f55fade9f850f62ecbc6fa31e53b8fa79ae5a3/pydflow-1.7.9.tar.gz
+[2023-07-20 15:29:35] INFO root fetch - processPackages [sparsezoo-nightly]: Downloading https://files.pythonhosted.org/packages/de/d0/b4c3bac41e229b76cd27e82deaae7bd3e58abec87916de4fd1ce0f1ad276/sparsezoo_nightly-1.6.0.20230720-py3-none-any.whl
+[2023-07-20 15:29:35] INFO root fetch - processPackages [mkdocs-swan]: Downloading https://files.pythonhosted.org/packages/c7/93/afcf6da304d7abb2e13392b9bd3875d062ea7d4322a09f43849c950713c4/mkdocs-swan-0.3.0.tar.gz
+[2023-07-20 15:29:35] INFO root fetch - processPackages [vbtex]: executing diffoscope
+[2023-07-20 15:29:35] INFO root fetch - processPackages [vbtex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vbtex-0.1.4.tar.gz tmp/vbtex-0.1.5.tar.gz --markdown 20230720/v/vbtex/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-07-20 15:29:35] INFO root fetch - processPackages [ansible-specdoc]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-20 15:29:35] INFO root fetch - processPackages [fuzzy-search]: executing diffoscope
+[2023-07-20 15:29:35] INFO root fetch - processPackages [fuzzy-search]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fuzzy_search-2.0.0a0.tar.gz tmp/fuzzy_search-2.0.1a0.tar.gz --markdown 20230720/f/fuzzy-search/2.0.0a0-2.0.1a0/diff.md --exclude *.pyd
+[2023-07-20 15:29:35] INFO root fetch - processPackages [sparseml-nightly]: Downloading https://files.pythonhosted.org/packages/62/b3/7c7c294b34ea3f24926e41c7a9fdd400dd4502ef33a99e38c21537bdd73e/sparseml_nightly-1.6.0.20230720-py3-none-any.whl
+[2023-07-20 15:29:35] INFO root fetch - processPackages [datadog-checks-dev]: Downloading https://files.pythonhosted.org/packages/67/9e/cf9e6904ffda90c88e214ca332598c1da496273af8dcee0e340655723cbd/datadog_checks_dev-9.4.1-py2.py3-none-any.whl
+[2023-07-20 15:29:35] INFO root fetch - processPackages [pydflow]: executing diffoscope
+[2023-07-20 15:29:35] INFO root fetch - processPackages [pydflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydflow-1.7.8.tar.gz tmp/pydflow-1.7.9.tar.gz --markdown 20230720/p/pydflow/1.7.8-1.7.9/diff.md --exclude *.pyd
+[2023-07-20 15:29:35] INFO root fetch - processPackages [sparsezoo-nightly]: executing diffoscope
+[2023-07-20 15:29:35] INFO root fetch - processPackages [sparsezoo-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sparsezoo_nightly-1.6.0.20230717-py3-none-any.whl.zip tmp/sparsezoo_nightly-1.6.0.20230720-py3-none-any.whl.zip --markdown 20230720/s/sparsezoo-nightly/1.6.0.20230717-1.6.0.20230720/diff.md --exclude *.pyd
+[2023-07-20 15:29:35] INFO root fetch - processPackages [mkdocs-swan]: executing diffoscope
+[2023-07-20 15:29:35] INFO root fetch - processPackages [mkdocs-swan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkdocs-swan-0.2.0.tar.gz tmp/mkdocs-swan-0.3.0.tar.gz --markdown 20230720/m/mkdocs-swan/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-07-20 15:29:35] INFO root fetch - processPackages [ansible-specdoc]: Downloading https://files.pythonhosted.org/packages/80/02/7b9c6a9eeaecc04c3b7108bb068d5f7912544536c8e73154c90797c4a7c4/ansible-specdoc-0.0.8.tar.gz
+[2023-07-20 15:29:35] INFO root fetch - processPackages [sparseml-nightly]: executing diffoscope
+[2023-07-20 15:29:35] INFO root fetch - processPackages [sparseml-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sparseml_nightly-1.6.0.20230717-py3-none-any.whl.zip tmp/sparseml_nightly-1.6.0.20230720-py3-none-any.whl.zip --markdown 20230720/s/sparseml-nightly/1.6.0.20230717-1.6.0.20230720/diff.md --exclude *.pyd
+[2023-07-20 15:29:35] INFO root fetch - processPackages [datadog-checks-dev]: executing diffoscope
+[2023-07-20 15:29:35] INFO root fetch - processPackages [datadog-checks-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datadog_checks_dev-9.4.0-py2.py3-none-any.whl.zip tmp/datadog_checks_dev-9.4.1-py2.py3-none-any.whl.zip --markdown 20230720/d/datadog-checks-dev/9.4.0-9.4.1/diff.md --exclude *.pyd
+[2023-07-20 15:29:36] INFO root fetch - processPackages [datazone-northstar]: Remove: archive file [/home/abi/fetcher/tmp/datazone_northstar-0.0.12.tar.gz]
+[2023-07-20 15:29:36] INFO root fetch - processPackages [datazone-northstar]: Remove: archive file [/home/abi/fetcher/tmp/datazone_northstar-0.0.9.tar.gz]
+[2023-07-20 15:29:36] INFO root fetch - processPackages [datazone-northstar]: Start processing: nm-transformers-nightly
+[2023-07-20 15:29:36] INFO root fetch - main [MainThread]: End processing [datazone-northstar]: success
+[2023-07-20 15:29:36] INFO root fetch - processPackages [ansible-specdoc]: Downloading https://files.pythonhosted.org/packages/df/ae/3b53dc08a3055e31d825c580391011439e253165bef0c1eb22e046db11cd/ansible-specdoc-0.0.9.tar.gz
+[2023-07-20 15:29:36] INFO root fetch - processPackages [ansible-specdoc]: executing diffoscope
+[2023-07-20 15:29:36] INFO root fetch - processPackages [ansible-specdoc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansible-specdoc-0.0.8.tar.gz tmp/ansible-specdoc-0.0.9.tar.gz --markdown 20230720/a/ansible-specdoc/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-20 15:29:36] INFO root fetch - processPackages [nm-transformers-nightly]: New version: [1.6.0.20230720] Old Version: [1.6.0.20230717]
+[2023-07-20 15:29:36] INFO root fetch - processPackages [nm-transformers-nightly]: Downloading https://files.pythonhosted.org/packages/11/d0/d882d464f0fb727999d658fc5f70438ba67fd50f388acdb01e269c1e995f/nm_transformers_nightly-1.6.0.20230717-py3-none-any.whl
+[2023-07-20 15:29:37] INFO root fetch - processPackages [armonik]: Remove: archive file [/home/abi/fetcher/tmp/armonik-3.9.3.dev627.tar.gz]
+[2023-07-20 15:29:37] INFO root fetch - processPackages [armonik]: Remove: archive file [/home/abi/fetcher/tmp/armonik-3.9.3.dev630.tar.gz]
+[2023-07-20 15:29:37] INFO root fetch - processPackages [armonik]: Start processing: Geode-Simplex
+[2023-07-20 15:29:37] INFO root fetch - main [MainThread]: End processing [armonik]: success
+[2023-07-20 15:29:37] INFO root fetch - processPackages [vbtex]: Remove: archive file [/home/abi/fetcher/tmp/vbtex-0.1.4.tar.gz]
+[2023-07-20 15:29:37] INFO root fetch - processPackages [vbtex]: Remove: archive file [/home/abi/fetcher/tmp/vbtex-0.1.5.tar.gz]
+[2023-07-20 15:29:37] INFO root fetch - processPackages [vbtex]: Start processing: nm-yolov5-nightly
+[2023-07-20 15:29:37] INFO root fetch - main [MainThread]: End processing [vbtex]: success
+[2023-07-20 15:29:37] INFO root fetch - processPackages [Geode-Simplex]: New version: [6.1.1rc1] Old Version: [6.1.0rc1]
+[2023-07-20 15:29:37] INFO root fetch - processPackages [nm-yolov5-nightly]: New version: [1.6.0.20230720] Old Version: [1.6.0.20230717]
+[2023-07-20 15:29:37] INFO root fetch - processPackages [fuzzy-search]: Remove: archive file [/home/abi/fetcher/tmp/fuzzy_search-2.0.0a0.tar.gz]
+[2023-07-20 15:29:37] INFO root fetch - processPackages [fuzzy-search]: Remove: archive file [/home/abi/fetcher/tmp/fuzzy_search-2.0.1a0.tar.gz]
+[2023-07-20 15:29:37] INFO root fetch - processPackages [fuzzy-search]: Start processing: gs2
+[2023-07-20 15:29:37] INFO root fetch - main [MainThread]: End processing [fuzzy-search]: success
+[2023-07-20 15:29:37] INFO root fetch - processPackages [gs2]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-07-20 15:29:37] INFO root fetch - processPackages [Geode-Simplex]: Downloading https://files.pythonhosted.org/packages/75/8a/2baa8b664d03bf77d04227e7de622c7f0ed28654cacd5afe427f0e4e8b55/Geode_Simplex-6.1.0rc1-cp39-cp39-win_amd64.whl
+[2023-07-20 15:29:37] INFO root fetch - processPackages [sparsezoo-nightly]: Remove: archive file [/home/abi/fetcher/tmp/sparsezoo_nightly-1.6.0.20230717-py3-none-any.whl.zip]
+[2023-07-20 15:29:37] INFO root fetch - processPackages [sparsezoo-nightly]: Remove: archive file [/home/abi/fetcher/tmp/sparsezoo_nightly-1.6.0.20230720-py3-none-any.whl.zip]
+[2023-07-20 15:29:37] INFO root fetch - processPackages [sparsezoo-nightly]: Start processing: fsrs4anki-optimizer
+[2023-07-20 15:29:37] INFO root fetch - main [MainThread]: End processing [sparsezoo-nightly]: success
+[2023-07-20 15:29:37] INFO root fetch - processPackages [pydflow]: Remove: archive file [/home/abi/fetcher/tmp/pydflow-1.7.8.tar.gz]
+[2023-07-20 15:29:37] INFO root fetch - processPackages [pydflow]: Remove: archive file [/home/abi/fetcher/tmp/pydflow-1.7.9.tar.gz]
+[2023-07-20 15:29:37] INFO root fetch - processPackages [pydflow]: Start processing: reseval
+[2023-07-20 15:29:37] INFO root fetch - main [MainThread]: End processing [pydflow]: success
+[2023-07-20 15:29:37] INFO root fetch - processPackages [mkdocs-swan]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs-swan-0.2.0.tar.gz]
+[2023-07-20 15:29:37] INFO root fetch - processPackages [mkdocs-swan]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs-swan-0.3.0.tar.gz]
+[2023-07-20 15:29:37] INFO root fetch - processPackages [mkdocs-swan]: Start processing: kcli
+[2023-07-20 15:29:37] INFO root fetch - main [MainThread]: End processing [mkdocs-swan]: success
+[2023-07-20 15:29:37] INFO root fetch - processPackages [nm-transformers-nightly]: Downloading https://files.pythonhosted.org/packages/b8/ed/819b209d753a46ccfb5e94f60aae28b5b49323694b1304fc036fc5c1ff89/nm_transformers_nightly-1.6.0.20230720-py3-none-any.whl
+[2023-07-20 15:29:37] INFO root fetch - processPackages [nm-yolov5-nightly]: Downloading https://files.pythonhosted.org/packages/dd/23/fdf286fa1d0ce351e3435a48f0cdf23bb79838328a4993af57606b9c8eac/nm_yolov5_nightly-1.6.0.20230717-py3-none-any.whl
+[2023-07-20 15:29:37] INFO root fetch - processPackages [fsrs4anki-optimizer]: New version: [4.2.0] Old Version: [4.1.3]
+[2023-07-20 15:29:37] INFO root fetch - processPackages [reseval]: New version: [0.1.0] Old Version: [0.0.3]
+[2023-07-20 15:29:37] INFO root fetch - processPackages [gs2]: Downloading https://files.pythonhosted.org/packages/f4/b1/13ed585befcfa8c69b52af73acb96e39e14f443b95942ebcb9c4e9c2db0e/gs2-1.1.8.tar.gz
+[2023-07-20 15:29:37] INFO root fetch - processPackages [kcli]: New version: [99.0.202307201328] Old Version: [99.0.202307192339]
+[2023-07-20 15:29:37] INFO root fetch - processPackages [ansible-specdoc]: Remove: archive file [/home/abi/fetcher/tmp/ansible-specdoc-0.0.8.tar.gz]
+[2023-07-20 15:29:37] INFO root fetch - processPackages [ansible-specdoc]: Remove: archive file [/home/abi/fetcher/tmp/ansible-specdoc-0.0.9.tar.gz]
+[2023-07-20 15:29:37] INFO root fetch - processPackages [ansible-specdoc]: Start processing: ninjakiwi-api
+[2023-07-20 15:29:37] INFO root fetch - main [MainThread]: End processing [ansible-specdoc]: success
+[2023-07-20 15:29:37] INFO root fetch - processPackages [fsrs4anki-optimizer]: Downloading https://files.pythonhosted.org/packages/8a/c5/5af85173f63ad4b3d6afec695e664d10f448eeeb3378b6ebc56e20fade7d/fsrs4anki_optimizer-4.1.3.tar.gz
+[2023-07-20 15:29:37] INFO root fetch - processPackages [reseval]: Downloading https://files.pythonhosted.org/packages/2d/d3/5428decad87388373caec882b6c433a6976b733ece4263cc10d86627a4eb/reseval-0.0.3.tar.gz
+[2023-07-20 15:29:37] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/25/e3/6fcac5edbbb4ca806001537ec2ccf6e6d4728ac5f984589c37863f70c84f/kcli-99.0.202307192339-py3-none-any.whl
+[2023-07-20 15:29:37] INFO root fetch - processPackages [ninjakiwi-api]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-07-20 15:29:37] INFO root fetch - processPackages [nm-yolov5-nightly]: Downloading https://files.pythonhosted.org/packages/7d/b5/279eef4156d1bba593b97ab5a0e6ff10df7de86d21ac8bfee136ce9274b6/nm_yolov5_nightly-1.6.0.20230720-py3-none-any.whl
+[2023-07-20 15:29:38] INFO root fetch - processPackages [nm-transformers-nightly]: executing diffoscope
+[2023-07-20 15:29:38] INFO root fetch - processPackages [nm-transformers-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nm_transformers_nightly-1.6.0.20230717-py3-none-any.whl.zip tmp/nm_transformers_nightly-1.6.0.20230720-py3-none-any.whl.zip --markdown 20230720/n/nm-transformers-nightly/1.6.0.20230717-1.6.0.20230720/diff.md --exclude *.pyd
+[2023-07-20 15:29:38] INFO root fetch - processPackages [Geode-Simplex]: Downloading https://files.pythonhosted.org/packages/08/c3/a2d4e2f2870c0911044426191dcd4efe644bbb9209fa82b6e0cafc736711/Geode_Simplex-6.1.1rc1-cp39-cp39-manylinux2014_x86_64.whl
+[2023-07-20 15:29:38] INFO root fetch - processPackages [gs2]: Downloading https://files.pythonhosted.org/packages/9e/ad/b84dd85efc1650d47b3308d729fd537f26fee338fdb19a43c7a243d07107/gs2-1.1.9.tar.gz
+[2023-07-20 15:29:38] INFO root fetch - processPackages [fsrs4anki-optimizer]: Downloading https://files.pythonhosted.org/packages/f2/71/08401c2c26e12a92b407518b2f45725a802f01aa95a4cb984a8d2ba95e5d/fsrs4anki_optimizer-4.2.0.tar.gz
+[2023-07-20 15:29:38] INFO root fetch - processPackages [ninjakiwi-api]: Downloading https://files.pythonhosted.org/packages/7f/cd/2a93d0bc86bee2776a7541da9cfdb1bc8ba139eafa3f0b2c50e31f169930/ninjakiwi_api-0.0.6.tar.gz
+[2023-07-20 15:29:38] INFO root fetch - processPackages [nm-yolov5-nightly]: executing diffoscope
+[2023-07-20 15:29:38] INFO root fetch - processPackages [nm-yolov5-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nm_yolov5_nightly-1.6.0.20230717-py3-none-any.whl.zip tmp/nm_yolov5_nightly-1.6.0.20230720-py3-none-any.whl.zip --markdown 20230720/n/nm-yolov5-nightly/1.6.0.20230717-1.6.0.20230720/diff.md --exclude *.pyd
+[2023-07-20 15:29:38] INFO root fetch - processPackages [gs2]: executing diffoscope
+[2023-07-20 15:29:38] INFO root fetch - processPackages [gs2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gs2-1.1.8.tar.gz tmp/gs2-1.1.9.tar.gz --markdown 20230720/g/gs2/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-07-20 15:29:38] INFO root fetch - processPackages [fsrs4anki-optimizer]: executing diffoscope
+[2023-07-20 15:29:38] INFO root fetch - processPackages [fsrs4anki-optimizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fsrs4anki_optimizer-4.1.3.tar.gz tmp/fsrs4anki_optimizer-4.2.0.tar.gz --markdown 20230720/f/fsrs4anki-optimizer/4.1.3-4.2.0/diff.md --exclude *.pyd
+[2023-07-20 15:29:38] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/7b/42/ed326c39853a415480991e72d3e7c4778663914b8c4fb9f649ef817541bc/kcli-99.0.202307201328-py3-none-any.whl
+[2023-07-20 15:29:38] INFO root fetch - processPackages [ninjakiwi-api]: Downloading https://files.pythonhosted.org/packages/9f/fa/ba847ccfb710418c634d83ec0bce8b109ee10dc0175eedeefca7c8ba9efd/ninjakiwi_api-0.0.7.tar.gz
+[2023-07-20 15:29:38] INFO root fetch - processPackages [ninjakiwi-api]: executing diffoscope
+[2023-07-20 15:29:38] INFO root fetch - processPackages [ninjakiwi-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ninjakiwi_api-0.0.6.tar.gz tmp/ninjakiwi_api-0.0.7.tar.gz --markdown 20230720/n/ninjakiwi-api/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-07-20 15:29:38] INFO root fetch - processPackages [reseval]: Downloading https://files.pythonhosted.org/packages/c0/46/c19e6f349b176c6e99e19d9433d2897c8305aef6c6c5a7a0861e3c723f3c/reseval-0.1.0.tar.gz
+[2023-07-20 15:29:38] INFO root fetch - processPackages [datadog-checks-dev]: Remove: archive file [/home/abi/fetcher/tmp/datadog_checks_dev-9.4.0-py2.py3-none-any.whl.zip]
+[2023-07-20 15:29:38] INFO root fetch - processPackages [datadog-checks-dev]: Remove: archive file [/home/abi/fetcher/tmp/datadog_checks_dev-9.4.1-py2.py3-none-any.whl.zip]
+[2023-07-20 15:29:38] INFO root fetch - processPackages [datadog-checks-dev]: Start processing: agoraiot
+[2023-07-20 15:29:38] INFO root fetch - main [MainThread]: End processing [datadog-checks-dev]: success
+[2023-07-20 15:29:38] INFO root fetch - processPackages [Geode-Simplex]: executing diffoscope
+[2023-07-20 15:29:38] INFO root fetch - processPackages [Geode-Simplex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Geode_Simplex-6.1.0rc1-cp39-cp39-win_amd64.whl.zip tmp/Geode_Simplex-6.1.1rc1-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20230720/G/Geode-Simplex/6.1.0rc1-6.1.1rc1/diff.md --exclude *.pyd
+[2023-07-20 15:29:38] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2023-07-20 15:29:38] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202307192339-py3-none-any.whl.zip tmp/kcli-99.0.202307201328-py3-none-any.whl.zip --markdown 20230720/k/kcli/99.0.202307192339-99.0.202307201328/diff.md --exclude *.pyd
+[2023-07-20 15:29:39] INFO root fetch - processPackages [agoraiot]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-20 15:29:39] INFO root fetch - processPackages [reseval]: executing diffoscope
+[2023-07-20 15:29:39] INFO root fetch - processPackages [reseval]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reseval-0.0.3.tar.gz tmp/reseval-0.1.0.tar.gz --markdown 20230720/r/reseval/0.0.3-0.1.0/diff.md --exclude *.pyd
+[2023-07-20 15:29:39] INFO root fetch - processPackages [agoraiot]: Downloading https://files.pythonhosted.org/packages/8a/e0/414fcdb4273e8b74d9c5a66d12df619ba9d6a30afa6bda0510a07a36c410/agoraiot-1.0.8-py2.py3-none-any.whl
+[2023-07-20 15:29:39] INFO root fetch - processPackages [fsrs4anki-optimizer]: Remove: archive file [/home/abi/fetcher/tmp/fsrs4anki_optimizer-4.1.3.tar.gz]
+[2023-07-20 15:29:39] INFO root fetch - processPackages [fsrs4anki-optimizer]: Remove: archive file [/home/abi/fetcher/tmp/fsrs4anki_optimizer-4.2.0.tar.gz]
+[2023-07-20 15:29:39] INFO root fetch - processPackages [fsrs4anki-optimizer]: Start processing: agora-busclient
+[2023-07-20 15:29:39] INFO root fetch - main [MainThread]: End processing [fsrs4anki-optimizer]: success
+[2023-07-20 15:29:39] INFO root fetch - processPackages [sparseml-nightly]: Remove: archive file [/home/abi/fetcher/tmp/sparseml_nightly-1.6.0.20230717-py3-none-any.whl.zip]
+[2023-07-20 15:29:39] INFO root fetch - processPackages [sparseml-nightly]: Remove: archive file [/home/abi/fetcher/tmp/sparseml_nightly-1.6.0.20230720-py3-none-any.whl.zip]
+[2023-07-20 15:29:39] INFO root fetch - processPackages [sparseml-nightly]: Start processing: agora-config
+[2023-07-20 15:29:39] INFO root fetch - main [MainThread]: End processing [sparseml-nightly]: success
+[2023-07-20 15:29:40] INFO root fetch - processPackages [agora-busclient]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-20 15:29:40] INFO root fetch - processPackages [agora-config]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-20 15:29:40] INFO root fetch - processPackages [ninjakiwi-api]: Remove: archive file [/home/abi/fetcher/tmp/ninjakiwi_api-0.0.6.tar.gz]
+[2023-07-20 15:29:40] INFO root fetch - processPackages [ninjakiwi-api]: Remove: archive file [/home/abi/fetcher/tmp/ninjakiwi_api-0.0.7.tar.gz]
+[2023-07-20 15:29:40] INFO root fetch - processPackages [ninjakiwi-api]: Start processing: agora-logging
+[2023-07-20 15:29:40] INFO root fetch - main [MainThread]: End processing [ninjakiwi-api]: success
+[2023-07-20 15:29:40] INFO root fetch - processPackages [agoraiot]: Downloading https://files.pythonhosted.org/packages/b4/0a/176dd13f5a497634b32c7d6ea11b16c2a383d3c61275449702720b00392e/agoraiot-1.0.9-py2.py3-none-any.whl
+[2023-07-20 15:29:40] INFO root fetch - processPackages [agora-busclient]: Downloading https://files.pythonhosted.org/packages/83/c6/8bf5d93c612541df610b5eb4aabe68ff70e3aecf862f3cde867c63308c62/agora_busclient-1.0.8-py2.py3-none-any.whl
+[2023-07-20 15:29:40] INFO root fetch - processPackages [agora-logging]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-20 15:29:40] INFO root fetch - processPackages [agora-config]: Downloading https://files.pythonhosted.org/packages/17/5f/cabc6be10e89630eafc28c9b209245714c46e34955c60cb38e94dde60b2f/agora_config-1.0.8-py2.py3-none-any.whl
+[2023-07-20 15:29:40] INFO root fetch - processPackages [agoraiot]: executing diffoscope
+[2023-07-20 15:29:40] INFO root fetch - processPackages [agoraiot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agoraiot-1.0.8-py2.py3-none-any.whl.zip tmp/agoraiot-1.0.9-py2.py3-none-any.whl.zip --markdown 20230720/a/agoraiot/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-20 15:29:40] INFO root fetch - processPackages [nm-yolov5-nightly]: Remove: archive file [/home/abi/fetcher/tmp/nm_yolov5_nightly-1.6.0.20230717-py3-none-any.whl.zip]
+[2023-07-20 15:29:40] INFO root fetch - processPackages [nm-yolov5-nightly]: Remove: archive file [/home/abi/fetcher/tmp/nm_yolov5_nightly-1.6.0.20230720-py3-none-any.whl.zip]
+[2023-07-20 15:29:40] INFO root fetch - processPackages [nm-yolov5-nightly]: Start processing: agora-redis-client
+[2023-07-20 15:29:40] INFO root fetch - main [MainThread]: End processing [nm-yolov5-nightly]: success
+[2023-07-20 15:29:40] INFO root fetch - processPackages [agora-logging]: Downloading https://files.pythonhosted.org/packages/d2/39/638a9e01a2e91b107882e0023519d858d9ea5c4cb253b30bc7cf4864c23b/agora_logging-1.0.8-py2.py3-none-any.whl
+[2023-07-20 15:29:40] INFO root fetch - processPackages [agora-redis-client]: New version: [1.0.28] Old Version: [1.0.27]
+[2023-07-20 15:29:40] INFO root fetch - processPackages [agora-busclient]: Downloading https://files.pythonhosted.org/packages/84/91/fdce585fbc9fe0ed208907c48c2e24f9812b7e2a159f422fed99764e7ab3/agora_busclient-1.0.9-py2.py3-none-any.whl
+[2023-07-20 15:29:40] INFO root fetch - processPackages [agora-config]: Downloading https://files.pythonhosted.org/packages/b4/be/4986503ea9eb1ff31ad854650d7bed4e8a12ddf712460e60480c0ee44114/agora_config-1.0.9-py2.py3-none-any.whl
+[2023-07-20 15:29:40] INFO root fetch - processPackages [Geode-Simplex]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Simplex-6.1.0rc1-cp39-cp39-win_amd64.whl.zip]
+[2023-07-20 15:29:40] INFO root fetch - processPackages [Geode-Simplex]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Simplex-6.1.1rc1-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2023-07-20 15:29:40] INFO root fetch - processPackages [Geode-Simplex]: Start processing: agora-utils
+[2023-07-20 15:29:40] INFO root fetch - main [MainThread]: End processing [Geode-Simplex]: success
+[2023-07-20 15:29:40] INFO root fetch - processPackages [agora-redis-client]: Downloading https://files.pythonhosted.org/packages/0d/23/beb7fd57b0f96d8806c596e71af303f90fda54b7b4b206cbc01eefac428f/agora_redis_client-1.0.27-py2.py3-none-any.whl
+[2023-07-20 15:29:41] INFO root fetch - processPackages [agora-config]: executing diffoscope
+[2023-07-20 15:29:41] INFO root fetch - processPackages [agora-config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agora_config-1.0.8-py2.py3-none-any.whl.zip tmp/agora_config-1.0.9-py2.py3-none-any.whl.zip --markdown 20230720/a/agora-config/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-20 15:29:41] INFO root fetch - processPackages [agora-logging]: Downloading https://files.pythonhosted.org/packages/4b/46/8e527f1076a1d8603244285bf7f9c4921df1a7ed7a6bb6e938f13bb72bf4/agora_logging-1.0.9-py2.py3-none-any.whl
+[2023-07-20 15:29:41] INFO root fetch - processPackages [agora-utils]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-20 15:29:41] INFO root fetch - processPackages [agora-logging]: executing diffoscope
+[2023-07-20 15:29:41] INFO root fetch - processPackages [agora-logging]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agora_logging-1.0.8-py2.py3-none-any.whl.zip tmp/agora_logging-1.0.9-py2.py3-none-any.whl.zip --markdown 20230720/a/agora-logging/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-20 15:29:41] INFO root fetch - processPackages [agora-redis-client]: Downloading https://files.pythonhosted.org/packages/56/7c/5bc63493fcb8152fe586911b7a71463093e74b26db4511cc6aebf3ccca8f/agora_redis_client-1.0.28-py2.py3-none-any.whl
+[2023-07-20 15:29:41] INFO root fetch - processPackages [agora-utils]: Downloading https://files.pythonhosted.org/packages/f7/a4/337cc9cbf8da50bdcc5550fbd4b3efada97b862628661f8d94aaaa172b63/agora_utils-1.0.8-py2.py3-none-any.whl
+[2023-07-20 15:29:41] INFO root fetch - processPackages [agora-busclient]: executing diffoscope
+[2023-07-20 15:29:41] INFO root fetch - processPackages [agora-busclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agora_busclient-1.0.8-py2.py3-none-any.whl.zip tmp/agora_busclient-1.0.9-py2.py3-none-any.whl.zip --markdown 20230720/a/agora-busclient/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-20 15:29:41] INFO root fetch - processPackages [agora-redis-client]: executing diffoscope
+[2023-07-20 15:29:41] INFO root fetch - processPackages [agora-redis-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agora_redis_client-1.0.27-py2.py3-none-any.whl.zip tmp/agora_redis_client-1.0.28-py2.py3-none-any.whl.zip --markdown 20230720/a/agora-redis-client/1.0.27-1.0.28/diff.md --exclude *.pyd
+[2023-07-20 15:29:41] INFO root fetch - processPackages [agoraiot]: Remove: archive file [/home/abi/fetcher/tmp/agoraiot-1.0.8-py2.py3-none-any.whl.zip]
+[2023-07-20 15:29:41] INFO root fetch - processPackages [agoraiot]: Remove: archive file [/home/abi/fetcher/tmp/agoraiot-1.0.9-py2.py3-none-any.whl.zip]
+[2023-07-20 15:29:41] INFO root fetch - processPackages [agoraiot]: Start processing: bigdl-dllib-spark3
+[2023-07-20 15:29:41] INFO root fetch - main [MainThread]: End processing [agoraiot]: success
+[2023-07-20 15:29:41] INFO root fetch - processPackages [bigdl-dllib-spark3]: New version: [2.4.0b20230720] Old Version: [2.4.0b20230718]
+[2023-07-20 15:29:41] INFO root fetch - processPackages [agora-utils]: Downloading https://files.pythonhosted.org/packages/bb/46/5bf6a1160cf2828e539b496682d85243fc627d93d680ae4ecceac1f0798e/agora_utils-1.0.9-py2.py3-none-any.whl
+[2023-07-20 15:29:41] INFO root fetch - processPackages [gs2]: Remove: archive file [/home/abi/fetcher/tmp/gs2-1.1.8.tar.gz]
+[2023-07-20 15:29:41] INFO root fetch - processPackages [gs2]: Remove: archive file [/home/abi/fetcher/tmp/gs2-1.1.9.tar.gz]
+[2023-07-20 15:29:41] INFO root fetch - main [MainThread]: End processing [gs2]: success
+[2023-07-20 15:29:41] INFO root fetch - processPackages [bigdl-dllib-spark3]: Downloading https://files.pythonhosted.org/packages/c4/46/3561594c76a8b5abc6238d88f9a92077665f0d945a498964705364f86077/bigdl-dllib-spark3-2.4.0b20230718.tar.gz
+[2023-07-20 15:29:42] WARNING root fetch - processPackages [bigdl-dllib-spark3]: Skipping package: exceeds size limit 61329366>=10485760
+[2023-07-20 15:29:42] INFO root fetch - main [MainThread]: End processing [bigdl-dllib-spark3] error
+[2023-07-20 15:29:42] INFO root fetch - processPackages [agora-utils]: executing diffoscope
+[2023-07-20 15:29:42] INFO root fetch - processPackages [agora-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agora_utils-1.0.8-py2.py3-none-any.whl.zip tmp/agora_utils-1.0.9-py2.py3-none-any.whl.zip --markdown 20230720/a/agora-utils/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-20 15:29:42] INFO root fetch - processPackages [agora-config]: Remove: archive file [/home/abi/fetcher/tmp/agora_config-1.0.8-py2.py3-none-any.whl.zip]
+[2023-07-20 15:29:42] INFO root fetch - processPackages [agora-config]: Remove: archive file [/home/abi/fetcher/tmp/agora_config-1.0.9-py2.py3-none-any.whl.zip]
+[2023-07-20 15:29:42] INFO root fetch - main [MainThread]: End processing [agora-config]: success
+[2023-07-20 15:29:42] INFO root fetch - processPackages [agora-logging]: Remove: archive file [/home/abi/fetcher/tmp/agora_logging-1.0.8-py2.py3-none-any.whl.zip]
+[2023-07-20 15:29:42] INFO root fetch - processPackages [agora-logging]: Remove: archive file [/home/abi/fetcher/tmp/agora_logging-1.0.9-py2.py3-none-any.whl.zip]
+[2023-07-20 15:29:42] INFO root fetch - main [MainThread]: End processing [agora-logging]: success
+[2023-07-20 15:29:42] INFO root fetch - processPackages [agora-busclient]: Remove: archive file [/home/abi/fetcher/tmp/agora_busclient-1.0.8-py2.py3-none-any.whl.zip]
+[2023-07-20 15:29:42] INFO root fetch - processPackages [agora-busclient]: Remove: archive file [/home/abi/fetcher/tmp/agora_busclient-1.0.9-py2.py3-none-any.whl.zip]
+[2023-07-20 15:29:42] INFO root fetch - main [MainThread]: End processing [agora-busclient]: success
+[2023-07-20 15:29:42] INFO root fetch - processPackages [agora-redis-client]: Remove: archive file [/home/abi/fetcher/tmp/agora_redis_client-1.0.27-py2.py3-none-any.whl.zip]
+[2023-07-20 15:29:42] INFO root fetch - processPackages [agora-redis-client]: Remove: archive file [/home/abi/fetcher/tmp/agora_redis_client-1.0.28-py2.py3-none-any.whl.zip]
+[2023-07-20 15:29:42] INFO root fetch - main [MainThread]: End processing [agora-redis-client]: success
+[2023-07-20 15:29:43] INFO root fetch - processPackages [agora-utils]: Remove: archive file [/home/abi/fetcher/tmp/agora_utils-1.0.8-py2.py3-none-any.whl.zip]
+[2023-07-20 15:29:43] INFO root fetch - processPackages [agora-utils]: Remove: archive file [/home/abi/fetcher/tmp/agora_utils-1.0.9-py2.py3-none-any.whl.zip]
+[2023-07-20 15:29:43] INFO root fetch - main [MainThread]: End processing [agora-utils]: success
+[2023-07-20 15:29:44] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202307192339-py3-none-any.whl.zip]
+[2023-07-20 15:29:44] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202307201328-py3-none-any.whl.zip]
+[2023-07-20 15:29:44] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2023-07-20 15:29:45] INFO root fetch - processPackages [reseval]: Remove: archive file [/home/abi/fetcher/tmp/reseval-0.0.3.tar.gz]
+[2023-07-20 15:29:45] INFO root fetch - processPackages [reseval]: Remove: archive file [/home/abi/fetcher/tmp/reseval-0.1.0.tar.gz]
+[2023-07-20 15:29:45] INFO root fetch - main [MainThread]: End processing [reseval]: success
+[2023-07-20 15:29:48] INFO root fetch - processPackages [nm-transformers-nightly]: Remove: archive file [/home/abi/fetcher/tmp/nm_transformers_nightly-1.6.0.20230717-py3-none-any.whl.zip]
+[2023-07-20 15:29:48] INFO root fetch - processPackages [nm-transformers-nightly]: Remove: archive file [/home/abi/fetcher/tmp/nm_transformers_nightly-1.6.0.20230720-py3-none-any.whl.zip]
+[2023-07-20 15:29:48] INFO root fetch - main [MainThread]: End processing [nm-transformers-nightly]: success
+[2023-07-20 15:29:48] INFO root fetch - main [MainThread]: Store serial: [18967064]
