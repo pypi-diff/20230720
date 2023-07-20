@@ -19100,3 +19100,180 @@ AssertionError: tmp/verify4py-test-0.1.7.tar.gz does not exist
 [2023-07-20 20:29:56] INFO root fetch - processPackages [odoo14-addon-community-maps]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_community_maps-14.0.0.1.9-py3-none-any.whl.zip]
 [2023-07-20 20:29:56] INFO root fetch - main [MainThread]: End processing [odoo14-addon-community-maps]: success
 [2023-07-20 20:29:56] INFO root fetch - main [MainThread]: Store serial: [18970893]
+[2023-07-20 20:35:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18970893]
+[2023-07-20 20:35:05] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-07-20 20:35:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gammarer.aws-secure-frontend-web-app-cloudfront-distribution
+[2023-07-20 20:35:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rpi-reactive-gpio
+[2023-07-20 20:35:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fpingwrppr
+[2023-07-20 20:35:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tortoise-api-model
+[2023-07-20 20:35:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: raspi-gpio
+[2023-07-20 20:35:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: plotagain
+[2023-07-20 20:35:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nobuco
+[2023-07-20 20:35:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: linux-tools
+[2023-07-20 20:35:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: simpleutilz
+[2023-07-20 20:35:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: klaviyo-for-django
+[2023-07-20 20:35:05] INFO root fetch - processPackages [linux-tools]: New version: [0.2.7] Old Version: [0.2.6]
+[2023-07-20 20:35:05] INFO root fetch - processPackages [rpi-reactive-gpio]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-07-20 20:35:05] INFO root fetch - processPackages [plotagain]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-07-20 20:35:05] INFO root fetch - processPackages [gammarer.aws-secure-frontend-web-app-cloudfront-distribution]: New version: [0.6.2] Old Version: [0.6.1]
+[2023-07-20 20:35:05] INFO root fetch - processPackages [raspi-gpio]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-20 20:35:05] INFO root fetch - processPackages [nobuco]: New version: [0.6.0] Old Version: [0.5.8]
+[2023-07-20 20:35:05] INFO root fetch - processPackages [fpingwrppr]: New version: [0.3] Old Version: [0.2]
+[2023-07-20 20:35:05] INFO root fetch - processPackages [tortoise-api-model]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-20 20:35:05] INFO root fetch - processPackages [simpleutilz]: New version: [1.0.7] Old Version: [1.0.5]
+[2023-07-20 20:35:05] INFO root fetch - processPackages [klaviyo-for-django]: New version: [0.0.3] Old Version: [0.0.1]
+[2023-07-20 20:35:06] INFO root fetch - processPackages [linux-tools]: Downloading https://files.pythonhosted.org/packages/3c/f0/897c34c809f940f2aaedc57f7c40cf58dfb4f604952c38948e3b23fc6ce9/linux-tools-0.2.6.tar.gz
+[2023-07-20 20:35:06] INFO root fetch - processPackages [fpingwrppr]: Downloading https://files.pythonhosted.org/packages/ee/0c/c6b9b396fc995c3e71dada41e4d27f9a9bc209ddafc27670e5fd01b50c8b/fpingwrppr-0.2.tar.gz
+[2023-07-20 20:35:06] INFO root fetch - processPackages [simpleutilz]: Downloading https://files.pythonhosted.org/packages/c2/7c/60ff0de1f49fb716fc4b245b9a2db2115c659767bed35bb8e6484e3dfc24/simpleutilz-1.0.5.tar.gz
+[2023-07-20 20:35:06] INFO root fetch - processPackages [plotagain]: Downloading https://files.pythonhosted.org/packages/99/12/7c4e51a1d8254bfb2fc022d98f48284d116aad566688f73ca195a4259b39/plotagain-1.0.2.tar.gz
+[2023-07-20 20:35:06] INFO root fetch - processPackages [rpi-reactive-gpio]: Downloading https://files.pythonhosted.org/packages/fb/69/da6687e90c4fbdd99af4e30abac2d71d95e18d526d00009302c81ec75e48/rpi_reactive_gpio-0.1.7.tar.gz
+[2023-07-20 20:35:06] INFO root fetch - processPackages [tortoise-api-model]: Downloading https://files.pythonhosted.org/packages/0a/1f/1c29f8cfc8774d7bad6d30ddd9335ab02545b09cdb9620d55c3b3c3ad9f4/tortoise_api_model-0.0.1.tar.gz
+[2023-07-20 20:35:06] INFO root fetch - processPackages [raspi-gpio]: Downloading https://files.pythonhosted.org/packages/b4/01/20f01b65d208a4342491214f4ff1c1598850896a54dbd843a0d8b71a6356/raspi_gpio-0.1.8.tar.gz
+[2023-07-20 20:35:06] INFO root fetch - processPackages [klaviyo-for-django]: Downloading https://files.pythonhosted.org/packages/54/08/1918b1abe15de017aaa278854e13f17c17b647898428d10fdc1f2e2ad0c5/klaviyo-for-django-0.0.1.tar.gz
+[2023-07-20 20:35:06] INFO root fetch - processPackages [nobuco]: Downloading https://files.pythonhosted.org/packages/39/9d/bb5c5b3d4f8cbe9a6c7fbbe7983eb721250a142fba365e127984ee7bd5ca/nobuco-0.5.8.tar.gz
+[2023-07-20 20:35:06] INFO root fetch - processPackages [gammarer.aws-secure-frontend-web-app-cloudfront-distribution]: Downloading https://files.pythonhosted.org/packages/43/15/851c98b02030bb631b1cdb010dc4821c84b9dd0ca7c14139d48b083466b1/gammarer.aws-secure-frontend-web-app-cloudfront-distribution-0.6.2.tar.gz
+[2023-07-20 20:35:06] INFO root fetch - processPackages [linux-tools]: Downloading https://files.pythonhosted.org/packages/77/19/30be3c19019e6f4c614a4ac719235bd22036fca79850a2d4750d77d57e83/linux-tools-0.2.7.tar.gz
+[2023-07-20 20:35:06] INFO root fetch - processPackages [fpingwrppr]: Downloading https://files.pythonhosted.org/packages/ab/96/ce88f237cfc0f608ac64f1b9ee764600b38201e42aa60ba64a12e4704dd5/fpingwrppr-0.3.tar.gz
+[2023-07-20 20:35:06] INFO root fetch - processPackages [simpleutilz]: Downloading https://files.pythonhosted.org/packages/45/1f/a365915977be50c52808fc5eccd863a3ac311019620689c61375b41e15f2/simpleutilz-1.0.7.tar.gz
+[2023-07-20 20:35:06] INFO root fetch - processPackages [gammarer.aws-secure-frontend-web-app-cloudfront-distribution]: executing diffoscope
+[2023-07-20 20:35:06] INFO root fetch - processPackages [gammarer.aws-secure-frontend-web-app-cloudfront-distribution]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gammarer.aws-secure-frontend-web-app-cloudfront-distribution-0.6.1.tar.gz tmp/gammarer.aws-secure-frontend-web-app-cloudfront-distribution-0.6.2.tar.gz --markdown 20230720/g/gammarer.aws-secure-frontend-web-app-cloudfront-distribution/0.6.1-0.6.2/diff.md --exclude *.pyd
+[2023-07-20 20:35:06] INFO root fetch - processPackages [tortoise-api-model]: Downloading https://files.pythonhosted.org/packages/41/99/720a7107908026a4857ceb9f43d4f5a9f5b933836be8c72f3664cf46ce38/tortoise_api_model-0.0.2.tar.gz
+[2023-07-20 20:35:06] INFO root fetch - processPackages [raspi-gpio]: Downloading https://files.pythonhosted.org/packages/2f/a9/006be5a1a0c0420e3bd3707e431c0ad7bc7b00623c3f715d384cca53fe6d/raspi_gpio-0.1.9.tar.gz
+[2023-07-20 20:35:06] INFO root fetch - processPackages [klaviyo-for-django]: Downloading https://files.pythonhosted.org/packages/09/42/01f6e0cda9720c9990265d2680c31706c87a9fc737c175247cd9556bfc2a/klaviyo-for-django-0.0.3.tar.gz
+[2023-07-20 20:35:06] INFO root fetch - processPackages [rpi-reactive-gpio]: Downloading https://files.pythonhosted.org/packages/ec/82/8e8a348c07e0525245291a8a13ec549dd54fb8e0938143d77664e8975e14/rpi_reactive_gpio-0.1.8.tar.gz
+[2023-07-20 20:35:06] INFO root fetch - processPackages [linux-tools]: executing diffoscope
+[2023-07-20 20:35:06] INFO root fetch - processPackages [linux-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/linux-tools-0.2.6.tar.gz tmp/linux-tools-0.2.7.tar.gz --markdown 20230720/l/linux-tools/0.2.6-0.2.7/diff.md --exclude *.pyd
+[2023-07-20 20:35:06] INFO root fetch - processPackages [plotagain]: Downloading https://files.pythonhosted.org/packages/95/00/ee38a9ee4a100548a7b7e1fddea4da00fd22136b11c45283e9b88991ba51/plotagain-1.0.3.tar.gz
+[2023-07-20 20:35:06] INFO root fetch - processPackages [tortoise-api-model]: executing diffoscope
+[2023-07-20 20:35:06] INFO root fetch - processPackages [tortoise-api-model]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tortoise_api_model-0.0.1.tar.gz tmp/tortoise_api_model-0.0.2.tar.gz --markdown 20230720/t/tortoise-api-model/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-20 20:35:06] INFO root fetch - processPackages [fpingwrppr]: executing diffoscope
+[2023-07-20 20:35:06] INFO root fetch - processPackages [fpingwrppr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fpingwrppr-0.2.tar.gz tmp/fpingwrppr-0.3.tar.gz --markdown 20230720/f/fpingwrppr/0.2-0.3/diff.md --exclude *.pyd
+[2023-07-20 20:35:06] INFO root fetch - processPackages [raspi-gpio]: executing diffoscope
+[2023-07-20 20:35:06] INFO root fetch - processPackages [raspi-gpio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/raspi_gpio-0.1.8.tar.gz tmp/raspi_gpio-0.1.9.tar.gz --markdown 20230720/r/raspi-gpio/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-20 20:35:06] INFO root fetch - processPackages [simpleutilz]: executing diffoscope
+[2023-07-20 20:35:06] INFO root fetch - processPackages [simpleutilz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simpleutilz-1.0.5.tar.gz tmp/simpleutilz-1.0.7.tar.gz --markdown 20230720/s/simpleutilz/1.0.5-1.0.7/diff.md --exclude *.pyd
+[2023-07-20 20:35:07] INFO root fetch - processPackages [rpi-reactive-gpio]: executing diffoscope
+[2023-07-20 20:35:07] INFO root fetch - processPackages [rpi-reactive-gpio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rpi_reactive_gpio-0.1.7.tar.gz tmp/rpi_reactive_gpio-0.1.8.tar.gz --markdown 20230720/r/rpi-reactive-gpio/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-07-20 20:35:07] INFO root fetch - processPackages [nobuco]: Downloading https://files.pythonhosted.org/packages/85/28/fbcb89277c18745bf163ff96113f806943415d8c76501b7d1c4c45f75df1/nobuco-0.6.0.tar.gz
+[2023-07-20 20:35:07] INFO root fetch - processPackages [klaviyo-for-django]: executing diffoscope
+[2023-07-20 20:35:07] INFO root fetch - processPackages [klaviyo-for-django]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/klaviyo-for-django-0.0.1.tar.gz tmp/klaviyo-for-django-0.0.3.tar.gz --markdown 20230720/k/klaviyo-for-django/0.0.1-0.0.3/diff.md --exclude *.pyd
+[2023-07-20 20:35:07] INFO root fetch - processPackages [plotagain]: executing diffoscope
+[2023-07-20 20:35:07] INFO root fetch - processPackages [plotagain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plotagain-1.0.2.tar.gz tmp/plotagain-1.0.3.tar.gz --markdown 20230720/p/plotagain/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-07-20 20:35:07] INFO root fetch - processPackages [nobuco]: executing diffoscope
+[2023-07-20 20:35:07] INFO root fetch - processPackages [nobuco]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nobuco-0.5.8.tar.gz tmp/nobuco-0.6.0.tar.gz --markdown 20230720/n/nobuco/0.5.8-0.6.0/diff.md --exclude *.pyd
+[2023-07-20 20:35:07] INFO root fetch - processPackages [gammarer.aws-secure-frontend-web-app-cloudfront-distribution]: Remove: archive file [/home/abi/fetcher/tmp/gammarer.aws-secure-frontend-web-app-cloudfront-distribution-0.6.1.tar.gz]
+[2023-07-20 20:35:07] INFO root fetch - processPackages [gammarer.aws-secure-frontend-web-app-cloudfront-distribution]: Remove: archive file [/home/abi/fetcher/tmp/gammarer.aws-secure-frontend-web-app-cloudfront-distribution-0.6.2.tar.gz]
+[2023-07-20 20:35:07] INFO root fetch - processPackages [gammarer.aws-secure-frontend-web-app-cloudfront-distribution]: Start processing: project-lighter
+[2023-07-20 20:35:07] INFO root fetch - main [MainThread]: End processing [gammarer.aws-secure-frontend-web-app-cloudfront-distribution]: success
+[2023-07-20 20:35:08] INFO root fetch - processPackages [project-lighter]: New version: [0.0.2a9] Old Version: [0.0.2a8]
+[2023-07-20 20:35:08] INFO root fetch - processPackages [project-lighter]: Downloading https://files.pythonhosted.org/packages/17/d4/f5fc2d42da59218efc47a8c9dbebaad04ccca40db87150f9c963d0c06df8/project_lighter-0.0.2a8.tar.gz
+[2023-07-20 20:35:08] INFO root fetch - processPackages [tortoise-api-model]: Remove: archive file [/home/abi/fetcher/tmp/tortoise_api_model-0.0.1.tar.gz]
+[2023-07-20 20:35:08] INFO root fetch - processPackages [tortoise-api-model]: Remove: archive file [/home/abi/fetcher/tmp/tortoise_api_model-0.0.2.tar.gz]
+[2023-07-20 20:35:08] INFO root fetch - processPackages [tortoise-api-model]: Start processing: threemystic-cloud-data-client
+[2023-07-20 20:35:08] INFO root fetch - main [MainThread]: End processing [tortoise-api-model]: success
+[2023-07-20 20:35:08] INFO root fetch - processPackages [threemystic-cloud-data-client]: New version: [0.1.17] Old Version: [0.1.16]
+[2023-07-20 20:35:08] INFO root fetch - processPackages [linux-tools]: Remove: archive file [/home/abi/fetcher/tmp/linux-tools-0.2.6.tar.gz]
+[2023-07-20 20:35:08] INFO root fetch - processPackages [linux-tools]: Remove: archive file [/home/abi/fetcher/tmp/linux-tools-0.2.7.tar.gz]
+[2023-07-20 20:35:08] INFO root fetch - processPackages [linux-tools]: Start processing: plotagain
+[2023-07-20 20:35:08] INFO root fetch - main [MainThread]: End processing [linux-tools]: success
+[2023-07-20 20:35:08] INFO root fetch - processPackages [project-lighter]: Downloading https://files.pythonhosted.org/packages/e0/2b/746de78a18ec324f26e84dcf1c08ce21cb7695637f689cde21c7524149d1/project_lighter-0.0.2a9.tar.gz
+[2023-07-20 20:35:08] INFO root fetch - processPackages [raspi-gpio]: Remove: archive file [/home/abi/fetcher/tmp/raspi_gpio-0.1.8.tar.gz]
+[2023-07-20 20:35:08] INFO root fetch - processPackages [raspi-gpio]: Remove: archive file [/home/abi/fetcher/tmp/raspi_gpio-0.1.9.tar.gz]
+[2023-07-20 20:35:08] INFO root fetch - processPackages [raspi-gpio]: Start processing: threemystic-cloud-client
+[2023-07-20 20:35:08] INFO root fetch - main [MainThread]: End processing [raspi-gpio]: success
+[2023-07-20 20:35:08] INFO root fetch - processPackages [threemystic-cloud-data-client]: Downloading https://files.pythonhosted.org/packages/83/9f/78a04409efafd1d8893c35674699ceb16b365392b1dc7f32a280f15dfc43/threemystic_cloud_data_client-0.1.16.tar.gz
+[2023-07-20 20:35:08] INFO root fetch - processPackages [rpi-reactive-gpio]: Remove: archive file [/home/abi/fetcher/tmp/rpi_reactive_gpio-0.1.7.tar.gz]
+[2023-07-20 20:35:08] INFO root fetch - processPackages [rpi-reactive-gpio]: Remove: archive file [/home/abi/fetcher/tmp/rpi_reactive_gpio-0.1.8.tar.gz]
+[2023-07-20 20:35:08] INFO root fetch - processPackages [rpi-reactive-gpio]: Start processing: nttblink
+[2023-07-20 20:35:08] INFO root fetch - main [MainThread]: End processing [rpi-reactive-gpio]: success
+[2023-07-20 20:35:08] INFO root fetch - processPackages [fpingwrppr]: Remove: archive file [/home/abi/fetcher/tmp/fpingwrppr-0.2.tar.gz]
+[2023-07-20 20:35:08] INFO root fetch - processPackages [fpingwrppr]: Remove: archive file [/home/abi/fetcher/tmp/fpingwrppr-0.3.tar.gz]
+[2023-07-20 20:35:08] INFO root fetch - processPackages [fpingwrppr]: Start processing: pyCapsid
+[2023-07-20 20:35:08] INFO root fetch - main [MainThread]: End processing [fpingwrppr]: success
+[2023-07-20 20:35:08] INFO root fetch - processPackages [plotagain]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-07-20 20:35:08] INFO root fetch - processPackages [simpleutilz]: Remove: archive file [/home/abi/fetcher/tmp/simpleutilz-1.0.5.tar.gz]
+[2023-07-20 20:35:08] INFO root fetch - processPackages [simpleutilz]: Remove: archive file [/home/abi/fetcher/tmp/simpleutilz-1.0.7.tar.gz]
+[2023-07-20 20:35:08] INFO root fetch - processPackages [simpleutilz]: Start processing: threemystic-cloud-data-client
+[2023-07-20 20:35:08] INFO root fetch - main [MainThread]: End processing [simpleutilz]: success
+[2023-07-20 20:35:08] INFO root fetch - processPackages [threemystic-cloud-client]: New version: [0.1.36] Old Version: [0.1.35]
+[2023-07-20 20:35:08] INFO root fetch - processPackages [plotagain]: Remove: archive file [/home/abi/fetcher/tmp/plotagain-1.0.2.tar.gz]
+[2023-07-20 20:35:08] INFO root fetch - processPackages [plotagain]: Remove: archive file [/home/abi/fetcher/tmp/plotagain-1.0.3.tar.gz]
+[2023-07-20 20:35:08] INFO root fetch - processPackages [plotagain]: Start processing: plotagain
+[2023-07-20 20:35:08] INFO root fetch - main [MainThread]: End processing [plotagain]: success
+[2023-07-20 20:35:08] INFO root fetch - processPackages [plotagain]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-07-20 20:35:08] INFO root fetch - processPackages [threemystic-cloud-data-client]: New version: [0.1.18] Old Version: [0.1.17]
+[2023-07-20 20:35:08] INFO root fetch - processPackages [nttblink]: New version: [0.1.0] Old Version: [0.0.3]
+[2023-07-20 20:35:08] INFO root fetch - processPackages [pyCapsid]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-07-20 20:35:08] INFO root fetch - processPackages [project-lighter]: executing diffoscope
+[2023-07-20 20:35:08] INFO root fetch - processPackages [project-lighter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/project_lighter-0.0.2a8.tar.gz tmp/project_lighter-0.0.2a9.tar.gz --markdown 20230720/p/project-lighter/0.0.2a8-0.0.2a9/diff.md --exclude *.pyd
+[2023-07-20 20:35:08] INFO root fetch - processPackages [plotagain]: Downloading https://files.pythonhosted.org/packages/95/00/ee38a9ee4a100548a7b7e1fddea4da00fd22136b11c45283e9b88991ba51/plotagain-1.0.3.tar.gz
+[2023-07-20 20:35:08] INFO root fetch - processPackages [nobuco]: Remove: archive file [/home/abi/fetcher/tmp/nobuco-0.5.8.tar.gz]
+[2023-07-20 20:35:08] INFO root fetch - processPackages [nobuco]: Remove: archive file [/home/abi/fetcher/tmp/nobuco-0.6.0.tar.gz]
+[2023-07-20 20:35:08] INFO root fetch - main [MainThread]: End processing [nobuco]: success
+[2023-07-20 20:35:08] INFO root fetch - processPackages [plotagain]: Downloading https://files.pythonhosted.org/packages/95/00/ee38a9ee4a100548a7b7e1fddea4da00fd22136b11c45283e9b88991ba51/plotagain-1.0.3.tar.gz
+[2023-07-20 20:35:08] INFO root fetch - processPackages [klaviyo-for-django]: Remove: archive file [/home/abi/fetcher/tmp/klaviyo-for-django-0.0.1.tar.gz]
+[2023-07-20 20:35:08] INFO root fetch - processPackages [klaviyo-for-django]: Remove: archive file [/home/abi/fetcher/tmp/klaviyo-for-django-0.0.3.tar.gz]
+[2023-07-20 20:35:08] INFO root fetch - main [MainThread]: End processing [klaviyo-for-django]: success
+[2023-07-20 20:35:08] INFO root fetch - processPackages [threemystic-cloud-client]: Downloading https://files.pythonhosted.org/packages/9a/51/14bc56e1ddc4d0258cf332cd80012bb85017b7ff14784daab621ffa5ed11/threemystic_cloud_client-0.1.35.tar.gz
+[2023-07-20 20:35:08] INFO root fetch - processPackages [threemystic-cloud-data-client]: Downloading https://files.pythonhosted.org/packages/3e/7a/bbe426d04b79583d373a4be4169d624df27dbe0a19da2fc945ff31cbfc0f/threemystic_cloud_data_client-0.1.17.tar.gz
+[2023-07-20 20:35:08] INFO root fetch - processPackages [threemystic-cloud-data-client]: Downloading https://files.pythonhosted.org/packages/3e/7a/bbe426d04b79583d373a4be4169d624df27dbe0a19da2fc945ff31cbfc0f/threemystic_cloud_data_client-0.1.17.tar.gz
+[2023-07-20 20:35:09] INFO root fetch - processPackages [pyCapsid]: Downloading https://files.pythonhosted.org/packages/bb/c4/f138740f10e4e5ad7cc5c7beb5ff75ae5f2877b68096adc7e2a83f2c2d78/pyCapsid-0.5.0.tar.gz
+[2023-07-20 20:35:09] INFO root fetch - processPackages [nttblink]: Downloading https://files.pythonhosted.org/packages/8d/2d/844e49978bb648b754d333f4c00e080962fcb65a115ea93108f46b045bae/nttblink-0.0.3.tar.gz
+[2023-07-20 20:35:09] WARNING root fetch - processPackages [pyCapsid]: Skipping package: exceeds size limit 59093946>=10485760
+[2023-07-20 20:35:09] INFO root fetch - main [MainThread]: End processing [pyCapsid] error
+[2023-07-20 20:35:09] INFO root fetch - processPackages [plotagain]: Downloading https://files.pythonhosted.org/packages/9a/5d/eb6eb532ba54dc400fda5a57f6964b0efbf2a40fb5362b2d68da61be5e86/plotagain-1.0.4.tar.gz
+[2023-07-20 20:35:09] INFO root fetch - processPackages [plotagain]: Downloading https://files.pythonhosted.org/packages/9a/5d/eb6eb532ba54dc400fda5a57f6964b0efbf2a40fb5362b2d68da61be5e86/plotagain-1.0.4.tar.gz
+[2023-07-20 20:35:09] INFO root fetch - processPackages [threemystic-cloud-data-client]: executing diffoscope
+[2023-07-20 20:35:09] INFO root fetch - processPackages [threemystic-cloud-data-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/threemystic_cloud_data_client-0.1.16.tar.gz tmp/threemystic_cloud_data_client-0.1.17.tar.gz --markdown 20230720/t/threemystic-cloud-data-client/0.1.16-0.1.17/diff.md --exclude *.pyd
+[2023-07-20 20:35:09] INFO root fetch - processPackages [threemystic-cloud-client]: Downloading https://files.pythonhosted.org/packages/d5/05/b93d5782b8d24b8ca8b5f0d15f79da2a3b1563c92b84eafd2a55f6a7d04f/threemystic_cloud_client-0.1.36.tar.gz
+[2023-07-20 20:35:09] INFO root fetch - processPackages [nttblink]: Downloading https://files.pythonhosted.org/packages/1c/25/d7149dae507d352fd4d85ecb2d17f036d6118fd4e7adbc824413df570ce2/nttblink-0.1.0.tar.gz
+[2023-07-20 20:35:09] INFO root fetch - processPackages [threemystic-cloud-data-client]: Downloading https://files.pythonhosted.org/packages/68/aa/a4fd3dec05cfa48c3fbe6c408ab716960924c9a22c0335fcee667cac2622/threemystic_cloud_data_client-0.1.18.tar.gz
+[2023-07-20 20:35:09] INFO root fetch - processPackages [plotagain]: executing diffoscope
+[2023-07-20 20:35:09] INFO root fetch - processPackages [plotagain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plotagain-1.0.3.tar.gz tmp/plotagain-1.0.4.tar.gz --markdown 20230720/p/plotagain/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-07-20 20:35:09] INFO root fetch - processPackages [threemystic-cloud-client]: executing diffoscope
+[2023-07-20 20:35:09] INFO root fetch - processPackages [threemystic-cloud-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/threemystic_cloud_client-0.1.35.tar.gz tmp/threemystic_cloud_client-0.1.36.tar.gz --markdown 20230720/t/threemystic-cloud-client/0.1.35-0.1.36/diff.md --exclude *.pyd
+[2023-07-20 20:35:09] INFO root fetch - processPackages [plotagain]: executing diffoscope
+[2023-07-20 20:35:09] INFO root fetch - processPackages [plotagain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plotagain-1.0.3.tar.gz tmp/plotagain-1.0.4.tar.gz --markdown 20230720/p/plotagain/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-07-20 20:35:09] INFO root fetch - processPackages [nttblink]: executing diffoscope
+[2023-07-20 20:35:09] INFO root fetch - processPackages [nttblink]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nttblink-0.0.3.tar.gz tmp/nttblink-0.1.0.tar.gz --markdown 20230720/n/nttblink/0.0.3-0.1.0/diff.md --exclude *.pyd
+[2023-07-20 20:35:09] INFO root fetch - processPackages [threemystic-cloud-data-client]: executing diffoscope
+[2023-07-20 20:35:09] INFO root fetch - processPackages [threemystic-cloud-data-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/threemystic_cloud_data_client-0.1.17.tar.gz tmp/threemystic_cloud_data_client-0.1.18.tar.gz --markdown 20230720/t/threemystic-cloud-data-client/0.1.17-0.1.18/diff.md --exclude *.pyd
+[2023-07-20 20:35:09] INFO root fetch - processPackages [project-lighter]: Remove: archive file [/home/abi/fetcher/tmp/project_lighter-0.0.2a8.tar.gz]
+[2023-07-20 20:35:09] INFO root fetch - processPackages [project-lighter]: Remove: archive file [/home/abi/fetcher/tmp/project_lighter-0.0.2a9.tar.gz]
+[2023-07-20 20:35:09] INFO root fetch - main [MainThread]: End processing [project-lighter]: success
+[2023-07-20 20:35:10] INFO root fetch - processPackages [threemystic-cloud-data-client]: Remove: archive file [/home/abi/fetcher/tmp/threemystic_cloud_data_client-0.1.16.tar.gz]
+[2023-07-20 20:35:10] INFO root fetch - processPackages [threemystic-cloud-data-client]: Remove: archive file [/home/abi/fetcher/tmp/threemystic_cloud_data_client-0.1.17.tar.gz]
+[2023-07-20 20:35:10] INFO root fetch - main [MainThread]: End processing [threemystic-cloud-data-client]: success
+[2023-07-20 20:35:10] ERROR root fetch - processPackages [threemystic-cloud-data-client]: Diffoscope failed: time="2023-07-20T20:35:09+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 66, in compare_root_paths
+    file1 = specialize(FilesystemFile(path1, container=container1))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/specialize.py", line 54, in specialize
+    if try_recognize(file, cls, cls.recognizes):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/specialize.py", line 37, in try_recognize
+    if not recognizes(file):
+           ^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/missing_file.py", line 43, in recognizes
+    assert Config().new_file, f"{file.name} does not exist"
+AssertionError: tmp/threemystic_cloud_data_client-0.1.17.tar.gz does not exist
+
+[2023-07-20 20:35:10] INFO root fetch - main [MainThread]: End processing [threemystic-cloud-data-client] error
+[2023-07-20 20:35:10] INFO root fetch - processPackages [nttblink]: Remove: archive file [/home/abi/fetcher/tmp/nttblink-0.0.3.tar.gz]
+[2023-07-20 20:35:10] INFO root fetch - processPackages [nttblink]: Remove: archive file [/home/abi/fetcher/tmp/nttblink-0.1.0.tar.gz]
+[2023-07-20 20:35:10] INFO root fetch - main [MainThread]: End processing [nttblink]: success
+[2023-07-20 20:35:10] INFO root fetch - processPackages [plotagain]: Remove: archive file [/home/abi/fetcher/tmp/plotagain-1.0.3.tar.gz]
+[2023-07-20 20:35:10] INFO root fetch - processPackages [plotagain]: Remove: archive file [/home/abi/fetcher/tmp/plotagain-1.0.4.tar.gz]
+[2023-07-20 20:35:10] INFO root fetch - main [MainThread]: End processing [plotagain]: success
+[2023-07-20 20:35:10] INFO root fetch - main [MainThread]: End processing [plotagain]: success
+[2023-07-20 20:35:10] INFO root fetch - processPackages [threemystic-cloud-client]: Remove: archive file [/home/abi/fetcher/tmp/threemystic_cloud_client-0.1.35.tar.gz]
+[2023-07-20 20:35:10] INFO root fetch - processPackages [threemystic-cloud-client]: Remove: archive file [/home/abi/fetcher/tmp/threemystic_cloud_client-0.1.36.tar.gz]
+[2023-07-20 20:35:10] INFO root fetch - main [MainThread]: End processing [threemystic-cloud-client]: success
+[2023-07-20 20:35:10] INFO root fetch - main [MainThread]: Store serial: [18970945]
