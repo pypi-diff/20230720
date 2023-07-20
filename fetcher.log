@@ -84,3 +84,168 @@
 [2023-07-20 10:04:23] INFO root fetch - main [MainThread]: End processing [armonik]: success
 [2023-07-20 10:04:23] INFO root fetch - main [MainThread]: End processing [armonik]: success
 [2023-07-20 10:04:23] INFO root fetch - main [MainThread]: Store serial: [18962993]
+[2023-07-20 10:09:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18962993]
+[2023-07-20 10:09:31] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-07-20 10:09:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bitsmiths-fura
+[2023-07-20 10:09:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: adafri
+[2023-07-20 10:09:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: piperider
+[2023-07-20 10:09:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: BuoyanText
+[2023-07-20 10:09:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aws-cdk.asset-node-proxy-agent-v5
+[2023-07-20 10:09:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: quao
+[2023-07-20 10:09:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: QuNet
+[2023-07-20 10:09:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cn-bing-translator
+[2023-07-20 10:09:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: hybridbackend-tf115-cu121
+[2023-07-20 10:09:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: nanoCEM
+[2023-07-20 10:09:32] INFO root fetch - processPackages [quao]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-07-20 10:09:32] INFO root fetch - processPackages [bitsmiths-fura]: New version: [2.2.3] Old Version: [2.2.2]
+[2023-07-20 10:09:32] WARNING root fetch - processPackages [BuoyanText]: Skipping, unable to determine old version
+[2023-07-20 10:09:32] INFO root fetch - processPackages [BuoyanText]: Start processing: reg-tables
+[2023-07-20 10:09:32] INFO root fetch - main [MainThread]: End processing [BuoyanText] error
+[2023-07-20 10:09:32] INFO root fetch - processPackages [adafri]: New version: [0.0.42] Old Version: [0.0.41]
+[2023-07-20 10:09:32] INFO root fetch - processPackages [piperider]: New version: [0.9.0rc1] Old Version: [0.9.0]
+[2023-07-20 10:09:32] WARNING root fetch - processPackages [hybridbackend-tf115-cu121]: Skipping, unable to determine old version
+[2023-07-20 10:09:32] INFO root fetch - processPackages [hybridbackend-tf115-cu121]: Start processing: nonebot-plugin-stable-diffusion-diao
+[2023-07-20 10:09:32] INFO root fetch - main [MainThread]: End processing [hybridbackend-tf115-cu121] error
+[2023-07-20 10:09:32] INFO root fetch - processPackages [nanoCEM]: New version: [0.0.2.3] Old Version: [0.0.2.2]
+[2023-07-20 10:09:32] WARNING root fetch - processPackages [cn-bing-translator]: Skipping, unable to determine old version
+[2023-07-20 10:09:32] INFO root fetch - processPackages [cn-bing-translator]: Start processing: pyglove
+[2023-07-20 10:09:32] INFO root fetch - main [MainThread]: End processing [cn-bing-translator] error
+[2023-07-20 10:09:32] INFO root fetch - processPackages [QuNet]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-07-20 10:09:32] INFO root fetch - processPackages [aws-cdk.asset-node-proxy-agent-v5]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-07-20 10:09:32] INFO root fetch - processPackages [reg-tables]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-20 10:09:32] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: New version: [0.3.9.5.2] Old Version: [0.3.9.5.1]
+[2023-07-20 10:09:32] INFO root fetch - processPackages [pyglove]: New version: [0.4.1.dev20230720] Old Version: [0.4.1.dev20230719]
+[2023-07-20 10:09:32] INFO root fetch - processPackages [piperider]: Downloading https://files.pythonhosted.org/packages/a4/50/e24b00f8c9eee6add2d234812268358dd31efb1c7692b89e4f2abcf53b3a/piperider-0.9.0.tar.gz
+[2023-07-20 10:09:32] INFO root fetch - processPackages [quao]: Downloading https://files.pythonhosted.org/packages/53/04/d819ae61d912cd518f07ed4fe988afc31cb80ed329759b5ef911477d9307/quao-0.3.8.tar.gz
+[2023-07-20 10:09:32] INFO root fetch - processPackages [bitsmiths-fura]: Downloading https://files.pythonhosted.org/packages/4d/fd/9252205b550166803ee483d2f6f5bd63fefb5bcd4755bbee24698cb5d73b/bitsmiths-fura-2.2.2.tar.gz
+[2023-07-20 10:09:32] INFO root fetch - processPackages [adafri]: Downloading https://files.pythonhosted.org/packages/92/d8/44a9ac6f88f8edfc0e1689416dce32544e222bfbb1f32f7dcc356839ff91/adafri-0.0.41.tar.gz
+[2023-07-20 10:09:32] INFO root fetch - processPackages [nanoCEM]: Downloading https://files.pythonhosted.org/packages/bc/47/78e4f5cc37b97a19977e727e8f68e157bbab9489a354e4cda4a89e3c45ae/nanoCEM-0.0.2.2.tar.gz
+[2023-07-20 10:09:32] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: Downloading https://files.pythonhosted.org/packages/8e/c6/72ecbb5ca8ba14da7f6c0fa008fffaa32ea671c610104961e55559f18777/nonebot_plugin_stable_diffusion_diao-0.3.9.5.1.tar.gz
+[2023-07-20 10:09:32] INFO root fetch - processPackages [QuNet]: Downloading https://files.pythonhosted.org/packages/d5/ed/08e3812ae99f48d271d226b77d4a7da9cf1105ce195a4687389eb1e2d646/QuNet-0.0.98-py3-none-any.whl
+[2023-07-20 10:09:32] INFO root fetch - processPackages [aws-cdk.asset-node-proxy-agent-v5]: Downloading https://files.pythonhosted.org/packages/80/eb/2f2fb2a6a52c8c6370c3b401c8bdd61a95b2f4f005406f5d742f9e230443/aws-cdk.asset-node-proxy-agent-v5-2.0.98.tar.gz
+[2023-07-20 10:09:32] INFO root fetch - processPackages [reg-tables]: Downloading https://files.pythonhosted.org/packages/24/67/20f4cf2980a1748da87bb06403b79de86492142fdc2bd25d52a6262dba96/reg_tables-0.1.8.tar.gz
+[2023-07-20 10:09:32] INFO root fetch - processPackages [pyglove]: Downloading https://files.pythonhosted.org/packages/3c/e2/075820d8284c8639878ab1056b3ac326a91eab2042d08d646763fcadf438/pyglove-0.4.1.dev20230719.tar.gz
+[2023-07-20 10:09:32] INFO root fetch - processPackages [piperider]: Downloading https://files.pythonhosted.org/packages/7a/f9/9cc8461c7b00069da016c58db04f6c975e2adf28d9cbd443a882dd7396de/piperider-0.9.0rc1.tar.gz
+[2023-07-20 10:09:32] INFO root fetch - processPackages [adafri]: Downloading https://files.pythonhosted.org/packages/07/56/27a85500a228af9553b79012fa058198fc7531f300a865026c3bfcfc8fa7/adafri-0.0.42.tar.gz
+[2023-07-20 10:09:32] INFO root fetch - processPackages [quao]: Downloading https://files.pythonhosted.org/packages/53/9f/0abd8df4984f2e14eb4aeabf0982e954c9b6858c1b06dd12cf64a30fa1e6/quao-0.3.9.tar.gz
+[2023-07-20 10:09:33] INFO root fetch - processPackages [nanoCEM]: Downloading https://files.pythonhosted.org/packages/21/25/983d4246f51fdf17a0ed19dcd24155ca7102de07d9ff0948569db2b91755/nanoCEM-0.0.2.3.tar.gz
+[2023-07-20 10:09:33] INFO root fetch - processPackages [bitsmiths-fura]: Downloading https://files.pythonhosted.org/packages/24/e7/507a93dd593d0ab6fca1b9d7730435b82386e2d6952a6fdefab6d9e3427b/bitsmiths-fura-2.2.3.tar.gz
+[2023-07-20 10:09:33] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: Downloading https://files.pythonhosted.org/packages/5f/05/ab4113b8c3ceb80675cc68e0a85f291d04bb50e762a4af20411b2f63f7c4/nonebot_plugin_stable_diffusion_diao-0.3.9.5.2.tar.gz
+[2023-07-20 10:09:33] INFO root fetch - processPackages [piperider]: executing diffoscope
+[2023-07-20 10:09:33] INFO root fetch - processPackages [piperider]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/piperider-0.9.0.tar.gz tmp/piperider-0.9.0rc1.tar.gz --markdown 20230720/p/piperider/0.9.0-0.9.0rc1/diff.md --exclude *.pyd
+[2023-07-20 10:09:33] INFO root fetch - processPackages [adafri]: executing diffoscope
+[2023-07-20 10:09:33] INFO root fetch - processPackages [adafri]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adafri-0.0.41.tar.gz tmp/adafri-0.0.42.tar.gz --markdown 20230720/a/adafri/0.0.41-0.0.42/diff.md --exclude *.pyd
+[2023-07-20 10:09:33] INFO root fetch - processPackages [QuNet]: Downloading https://files.pythonhosted.org/packages/e0/80/c34810051dcacd44f750dc59c5f982f9a679cbb6caaccd0aad3288430f3e/QuNet-0.0.99-py3-none-any.whl
+[2023-07-20 10:09:33] INFO root fetch - processPackages [quao]: executing diffoscope
+[2023-07-20 10:09:33] INFO root fetch - processPackages [quao]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quao-0.3.8.tar.gz tmp/quao-0.3.9.tar.gz --markdown 20230720/q/quao/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-07-20 10:09:33] INFO root fetch - processPackages [reg-tables]: Downloading https://files.pythonhosted.org/packages/60/cb/8303c5aa17a1545671283f1ee1f4bef8b73de1d8178d27afa612d9ed415c/reg_tables-0.1.9.tar.gz
+[2023-07-20 10:09:33] INFO root fetch - processPackages [nanoCEM]: executing diffoscope
+[2023-07-20 10:09:33] INFO root fetch - processPackages [nanoCEM]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nanoCEM-0.0.2.2.tar.gz tmp/nanoCEM-0.0.2.3.tar.gz --markdown 20230720/n/nanoCEM/0.0.2.2-0.0.2.3/diff.md --exclude *.pyd
+[2023-07-20 10:09:33] INFO root fetch - processPackages [bitsmiths-fura]: executing diffoscope
+[2023-07-20 10:09:33] INFO root fetch - processPackages [bitsmiths-fura]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bitsmiths-fura-2.2.2.tar.gz tmp/bitsmiths-fura-2.2.3.tar.gz --markdown 20230720/b/bitsmiths-fura/2.2.2-2.2.3/diff.md --exclude *.pyd
+[2023-07-20 10:09:33] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: executing diffoscope
+[2023-07-20 10:09:33] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_stable_diffusion_diao-0.3.9.5.1.tar.gz tmp/nonebot_plugin_stable_diffusion_diao-0.3.9.5.2.tar.gz --markdown 20230720/n/nonebot-plugin-stable-diffusion-diao/0.3.9.5.1-0.3.9.5.2/diff.md --exclude *.pyd
+[2023-07-20 10:09:33] INFO root fetch - processPackages [pyglove]: Downloading https://files.pythonhosted.org/packages/bb/21/594ecc59aeb890d31a476051eccbe37b4b6f1b946707e28c28ce38852f53/pyglove-0.4.1.dev20230720.tar.gz
+[2023-07-20 10:09:33] INFO root fetch - processPackages [QuNet]: executing diffoscope
+[2023-07-20 10:09:33] INFO root fetch - processPackages [QuNet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/QuNet-0.0.98-py3-none-any.whl.zip tmp/QuNet-0.0.99-py3-none-any.whl.zip --markdown 20230720/Q/QuNet/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-07-20 10:09:33] INFO root fetch - processPackages [aws-cdk.asset-node-proxy-agent-v5]: Downloading https://files.pythonhosted.org/packages/89/15/4e594a0513111cc2865b3e0a45fba3a3e7534c2885a492bfd388bdbb9b21/aws-cdk.asset-node-proxy-agent-v5-2.0.99.tar.gz
+[2023-07-20 10:09:33] INFO root fetch - processPackages [pyglove]: executing diffoscope
+[2023-07-20 10:09:33] INFO root fetch - processPackages [pyglove]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyglove-0.4.1.dev20230719.tar.gz tmp/pyglove-0.4.1.dev20230720.tar.gz --markdown 20230720/p/pyglove/0.4.1.dev20230719-0.4.1.dev20230720/diff.md --exclude *.pyd
+[2023-07-20 10:09:33] INFO root fetch - processPackages [aws-cdk.asset-node-proxy-agent-v5]: executing diffoscope
+[2023-07-20 10:09:33] INFO root fetch - processPackages [aws-cdk.asset-node-proxy-agent-v5]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws-cdk.asset-node-proxy-agent-v5-2.0.98.tar.gz tmp/aws-cdk.asset-node-proxy-agent-v5-2.0.99.tar.gz --markdown 20230720/a/aws-cdk.asset-node-proxy-agent-v5/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-07-20 10:09:33] INFO root fetch - processPackages [reg-tables]: executing diffoscope
+[2023-07-20 10:09:33] INFO root fetch - processPackages [reg-tables]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reg_tables-0.1.8.tar.gz tmp/reg_tables-0.1.9.tar.gz --markdown 20230720/r/reg-tables/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-20 10:09:34] INFO root fetch - processPackages [adafri]: Remove: archive file [/home/abi/fetcher/tmp/adafri-0.0.41.tar.gz]
+[2023-07-20 10:09:34] INFO root fetch - processPackages [adafri]: Remove: archive file [/home/abi/fetcher/tmp/adafri-0.0.42.tar.gz]
+[2023-07-20 10:09:34] INFO root fetch - processPackages [adafri]: Start processing: django-imgwidget
+[2023-07-20 10:09:34] INFO root fetch - main [MainThread]: End processing [adafri]: success
+[2023-07-20 10:09:34] INFO root fetch - processPackages [django-imgwidget]: New version: [0.0.2.5] Old Version: [0.0.2.4]
+[2023-07-20 10:09:34] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_stable_diffusion_diao-0.3.9.5.1.tar.gz]
+[2023-07-20 10:09:34] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_stable_diffusion_diao-0.3.9.5.2.tar.gz]
+[2023-07-20 10:09:34] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: Start processing: flasket
+[2023-07-20 10:09:34] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-stable-diffusion-diao]: success
+[2023-07-20 10:09:34] INFO root fetch - processPackages [nanoCEM]: Remove: archive file [/home/abi/fetcher/tmp/nanoCEM-0.0.2.2.tar.gz]
+[2023-07-20 10:09:34] INFO root fetch - processPackages [nanoCEM]: Remove: archive file [/home/abi/fetcher/tmp/nanoCEM-0.0.2.3.tar.gz]
+[2023-07-20 10:09:34] INFO root fetch - processPackages [nanoCEM]: Start processing: xfact
+[2023-07-20 10:09:34] INFO root fetch - main [MainThread]: End processing [nanoCEM]: success
+[2023-07-20 10:09:34] INFO root fetch - processPackages [quao]: Remove: archive file [/home/abi/fetcher/tmp/quao-0.3.8.tar.gz]
+[2023-07-20 10:09:34] INFO root fetch - processPackages [quao]: Remove: archive file [/home/abi/fetcher/tmp/quao-0.3.9.tar.gz]
+[2023-07-20 10:09:34] INFO root fetch - processPackages [quao]: Start processing: velait-api
+[2023-07-20 10:09:35] INFO root fetch - main [MainThread]: End processing [quao]: success
+[2023-07-20 10:09:35] INFO root fetch - processPackages [flasket]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-07-20 10:09:35] INFO root fetch - processPackages [django-imgwidget]: Downloading https://files.pythonhosted.org/packages/aa/82/d41d2602cc7d6ddd9f01ac102d903dafdab9fb26e9ead4e7fbf083ec9728/django-imgwidget-0.0.2.4.tar.gz
+[2023-07-20 10:09:35] INFO root fetch - processPackages [xfact]: New version: [0.4.74] Old Version: [0.4.71]
+[2023-07-20 10:09:35] INFO root fetch - processPackages [velait-api]: New version: [0.5.4] Old Version: [0.5.3]
+[2023-07-20 10:09:35] INFO root fetch - processPackages [QuNet]: Remove: archive file [/home/abi/fetcher/tmp/QuNet-0.0.98-py3-none-any.whl.zip]
+[2023-07-20 10:09:35] INFO root fetch - processPackages [QuNet]: Remove: archive file [/home/abi/fetcher/tmp/QuNet-0.0.99-py3-none-any.whl.zip]
+[2023-07-20 10:09:35] INFO root fetch - processPackages [QuNet]: Start processing: markdown-toc-creator
+[2023-07-20 10:09:35] INFO root fetch - main [MainThread]: End processing [QuNet]: success
+[2023-07-20 10:09:35] INFO root fetch - processPackages [markdown-toc-creator]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-20 10:09:35] INFO root fetch - processPackages [xfact]: Downloading https://files.pythonhosted.org/packages/49/f6/a34e0a4df83d55aafd0ee651946f0a02fefcf93cd5d944ce661fe2655356/xfact-0.4.71.tar.gz
+[2023-07-20 10:09:35] INFO root fetch - processPackages [reg-tables]: Remove: archive file [/home/abi/fetcher/tmp/reg_tables-0.1.8.tar.gz]
+[2023-07-20 10:09:35] INFO root fetch - processPackages [reg-tables]: Remove: archive file [/home/abi/fetcher/tmp/reg_tables-0.1.9.tar.gz]
+[2023-07-20 10:09:35] INFO root fetch - processPackages [reg-tables]: Start processing: aiosu
+[2023-07-20 10:09:35] INFO root fetch - main [MainThread]: End processing [reg-tables]: success
+[2023-07-20 10:09:35] INFO root fetch - processPackages [flasket]: Downloading https://files.pythonhosted.org/packages/22/56/6190e179e6d7df3f64955dba9e627b38eeb2a611669169aa670fe077eebe/flasket-0.9.2.tar.gz
+[2023-07-20 10:09:35] INFO root fetch - processPackages [velait-api]: Downloading https://files.pythonhosted.org/packages/63/93/22ca5e5e43df7bd4582271738e2eab83bf5960399f9f6be45b72326e026b/velait_api-0.5.3.tar.gz
+[2023-07-20 10:09:35] INFO root fetch - processPackages [aws-cdk.asset-node-proxy-agent-v5]: Remove: archive file [/home/abi/fetcher/tmp/aws-cdk.asset-node-proxy-agent-v5-2.0.98.tar.gz]
+[2023-07-20 10:09:35] INFO root fetch - processPackages [aws-cdk.asset-node-proxy-agent-v5]: Remove: archive file [/home/abi/fetcher/tmp/aws-cdk.asset-node-proxy-agent-v5-2.0.99.tar.gz]
+[2023-07-20 10:09:35] INFO root fetch - processPackages [aws-cdk.asset-node-proxy-agent-v5]: Start processing: artorias
+[2023-07-20 10:09:35] INFO root fetch - main [MainThread]: End processing [aws-cdk.asset-node-proxy-agent-v5]: success
+[2023-07-20 10:09:35] INFO root fetch - processPackages [aiosu]: New version: [2.0.2] Old Version: [2.0.1]
+[2023-07-20 10:09:35] INFO root fetch - processPackages [artorias]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-20 10:09:35] INFO root fetch - processPackages [markdown-toc-creator]: Downloading https://files.pythonhosted.org/packages/c0/19/1abfc948bd854866eda1e8fd929b6c0ed2087f660b25ab72798209c1e67b/markdown_toc_creator-0.0.3.tar.gz
+[2023-07-20 10:09:35] INFO root fetch - processPackages [django-imgwidget]: Downloading https://files.pythonhosted.org/packages/66/6a/9b3fa2ae2f773cc048be16b0dde0b018f703c08ad0fe59e5c1d22c9524e8/django-imgwidget-0.0.2.5.tar.gz
+[2023-07-20 10:09:35] INFO root fetch - processPackages [xfact]: Downloading https://files.pythonhosted.org/packages/3f/53/e3078396f3680cf46c387800edad2d1c87889b2e360623fc6671d9821c80/xfact-0.4.74.tar.gz
+[2023-07-20 10:09:35] INFO root fetch - processPackages [django-imgwidget]: executing diffoscope
+[2023-07-20 10:09:35] INFO root fetch - processPackages [django-imgwidget]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-imgwidget-0.0.2.4.tar.gz tmp/django-imgwidget-0.0.2.5.tar.gz --markdown 20230720/d/django-imgwidget/0.0.2.4-0.0.2.5/diff.md --exclude *.pyd
+[2023-07-20 10:09:35] INFO root fetch - processPackages [aiosu]: Downloading https://files.pythonhosted.org/packages/1b/0c/2534e7727531c7d63fb28f84b6cf4f8b92171dafa03fc69a5279916ab903/aiosu-2.0.1.tar.gz
+[2023-07-20 10:09:35] INFO root fetch - processPackages [artorias]: Downloading https://files.pythonhosted.org/packages/9e/39/82cad399fe7c521133da341107623ab5dee1c53bb61f84d8b0758c400a90/artorias-0.1.1.tar.gz
+[2023-07-20 10:09:35] INFO root fetch - processPackages [xfact]: executing diffoscope
+[2023-07-20 10:09:35] INFO root fetch - processPackages [xfact]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xfact-0.4.71.tar.gz tmp/xfact-0.4.74.tar.gz --markdown 20230720/x/xfact/0.4.71-0.4.74/diff.md --exclude *.pyd
+[2023-07-20 10:09:35] INFO root fetch - processPackages [velait-api]: Downloading https://files.pythonhosted.org/packages/05/6b/b1d66f4ef0a44a2dd35b5f8c22530b70f7ca9dbedd66aa9a23cdb74d85e0/velait_api-0.5.4.tar.gz
+[2023-07-20 10:09:35] INFO root fetch - processPackages [markdown-toc-creator]: Downloading https://files.pythonhosted.org/packages/75/ee/abc86e96f11e919457921db1f93a39e1b66a715f8975d4078e0c98b868c0/markdown_toc_creator-0.0.4.tar.gz
+[2023-07-20 10:09:35] INFO root fetch - processPackages [velait-api]: executing diffoscope
+[2023-07-20 10:09:35] INFO root fetch - processPackages [velait-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/velait_api-0.5.3.tar.gz tmp/velait_api-0.5.4.tar.gz --markdown 20230720/v/velait-api/0.5.3-0.5.4/diff.md --exclude *.pyd
+[2023-07-20 10:09:35] INFO root fetch - processPackages [aiosu]: Downloading https://files.pythonhosted.org/packages/11/a0/244386d40dc0048e0fd36e35b18739c11996ec5f87024e5747d514d8bbc2/aiosu-2.0.2.tar.gz
+[2023-07-20 10:09:35] INFO root fetch - processPackages [markdown-toc-creator]: executing diffoscope
+[2023-07-20 10:09:35] INFO root fetch - processPackages [markdown-toc-creator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/markdown_toc_creator-0.0.3.tar.gz tmp/markdown_toc_creator-0.0.4.tar.gz --markdown 20230720/m/markdown-toc-creator/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-20 10:09:36] INFO root fetch - processPackages [aiosu]: executing diffoscope
+[2023-07-20 10:09:36] INFO root fetch - processPackages [aiosu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiosu-2.0.1.tar.gz tmp/aiosu-2.0.2.tar.gz --markdown 20230720/a/aiosu/2.0.1-2.0.2/diff.md --exclude *.pyd
+[2023-07-20 10:09:36] INFO root fetch - processPackages [artorias]: Downloading https://files.pythonhosted.org/packages/c4/eb/f3cc7fddb538117e83f36169f998d7b36d3fd160ac8e97a7f7e03de33fc1/artorias-0.1.2.tar.gz
+[2023-07-20 10:09:36] INFO root fetch - processPackages [artorias]: executing diffoscope
+[2023-07-20 10:09:36] INFO root fetch - processPackages [artorias]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/artorias-0.1.1.tar.gz tmp/artorias-0.1.2.tar.gz --markdown 20230720/a/artorias/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-20 10:09:36] INFO root fetch - processPackages [piperider]: Remove: archive file [/home/abi/fetcher/tmp/piperider-0.9.0.tar.gz]
+[2023-07-20 10:09:36] INFO root fetch - processPackages [piperider]: Remove: archive file [/home/abi/fetcher/tmp/piperider-0.9.0rc1.tar.gz]
+[2023-07-20 10:09:36] INFO root fetch - main [MainThread]: End processing [piperider]: success
+[2023-07-20 10:09:36] INFO root fetch - processPackages [flasket]: Downloading https://files.pythonhosted.org/packages/63/e5/1be5bb024dd03bc819787d7bd7aa0f95acb765f78896d615e3529d8a6003/flasket-0.9.3.tar.gz
+[2023-07-20 10:09:36] INFO root fetch - processPackages [pyglove]: Remove: archive file [/home/abi/fetcher/tmp/pyglove-0.4.1.dev20230719.tar.gz]
+[2023-07-20 10:09:36] INFO root fetch - processPackages [pyglove]: Remove: archive file [/home/abi/fetcher/tmp/pyglove-0.4.1.dev20230720.tar.gz]
+[2023-07-20 10:09:36] INFO root fetch - main [MainThread]: End processing [pyglove]: success
+[2023-07-20 10:09:36] INFO root fetch - processPackages [flasket]: executing diffoscope
+[2023-07-20 10:09:36] INFO root fetch - processPackages [flasket]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flasket-0.9.2.tar.gz tmp/flasket-0.9.3.tar.gz --markdown 20230720/f/flasket/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-07-20 10:09:36] INFO root fetch - processPackages [django-imgwidget]: Remove: archive file [/home/abi/fetcher/tmp/django-imgwidget-0.0.2.4.tar.gz]
+[2023-07-20 10:09:36] INFO root fetch - processPackages [django-imgwidget]: Remove: archive file [/home/abi/fetcher/tmp/django-imgwidget-0.0.2.5.tar.gz]
+[2023-07-20 10:09:36] INFO root fetch - main [MainThread]: End processing [django-imgwidget]: success
+[2023-07-20 10:09:36] INFO root fetch - processPackages [xfact]: Remove: archive file [/home/abi/fetcher/tmp/xfact-0.4.71.tar.gz]
+[2023-07-20 10:09:36] INFO root fetch - processPackages [xfact]: Remove: archive file [/home/abi/fetcher/tmp/xfact-0.4.74.tar.gz]
+[2023-07-20 10:09:36] INFO root fetch - main [MainThread]: End processing [xfact]: success
+[2023-07-20 10:09:37] INFO root fetch - processPackages [velait-api]: Remove: archive file [/home/abi/fetcher/tmp/velait_api-0.5.3.tar.gz]
+[2023-07-20 10:09:37] INFO root fetch - processPackages [velait-api]: Remove: archive file [/home/abi/fetcher/tmp/velait_api-0.5.4.tar.gz]
+[2023-07-20 10:09:37] INFO root fetch - main [MainThread]: End processing [velait-api]: success
+[2023-07-20 10:09:37] INFO root fetch - processPackages [artorias]: Remove: archive file [/home/abi/fetcher/tmp/artorias-0.1.1.tar.gz]
+[2023-07-20 10:09:37] INFO root fetch - processPackages [artorias]: Remove: archive file [/home/abi/fetcher/tmp/artorias-0.1.2.tar.gz]
+[2023-07-20 10:09:37] INFO root fetch - main [MainThread]: End processing [artorias]: success
+[2023-07-20 10:09:37] INFO root fetch - processPackages [markdown-toc-creator]: Remove: archive file [/home/abi/fetcher/tmp/markdown_toc_creator-0.0.3.tar.gz]
+[2023-07-20 10:09:37] INFO root fetch - processPackages [markdown-toc-creator]: Remove: archive file [/home/abi/fetcher/tmp/markdown_toc_creator-0.0.4.tar.gz]
+[2023-07-20 10:09:37] INFO root fetch - main [MainThread]: End processing [markdown-toc-creator]: success
+[2023-07-20 10:09:37] INFO root fetch - processPackages [aiosu]: Remove: archive file [/home/abi/fetcher/tmp/aiosu-2.0.1.tar.gz]
+[2023-07-20 10:09:37] INFO root fetch - processPackages [aiosu]: Remove: archive file [/home/abi/fetcher/tmp/aiosu-2.0.2.tar.gz]
+[2023-07-20 10:09:37] INFO root fetch - main [MainThread]: End processing [aiosu]: success
+[2023-07-20 10:09:37] INFO root fetch - processPackages [flasket]: Remove: archive file [/home/abi/fetcher/tmp/flasket-0.9.2.tar.gz]
+[2023-07-20 10:09:37] INFO root fetch - processPackages [flasket]: Remove: archive file [/home/abi/fetcher/tmp/flasket-0.9.3.tar.gz]
+[2023-07-20 10:09:37] INFO root fetch - main [MainThread]: End processing [flasket]: success
+[2023-07-20 10:09:39] INFO root fetch - processPackages [bitsmiths-fura]: Remove: archive file [/home/abi/fetcher/tmp/bitsmiths-fura-2.2.2.tar.gz]
+[2023-07-20 10:09:39] INFO root fetch - processPackages [bitsmiths-fura]: Remove: archive file [/home/abi/fetcher/tmp/bitsmiths-fura-2.2.3.tar.gz]
+[2023-07-20 10:09:39] INFO root fetch - main [MainThread]: End processing [bitsmiths-fura]: success
+[2023-07-20 10:09:39] INFO root fetch - main [MainThread]: Store serial: [18963055]
