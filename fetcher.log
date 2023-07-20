@@ -17197,3 +17197,149 @@ AssertionError: tmp/verify4py-test-0.1.7.tar.gz does not exist
 [2023-07-20 19:18:55] INFO root fetch - processPackages [chainlit]: Remove: archive file [/home/abi/fetcher/tmp/chainlit-0.6.0.tar.gz]
 [2023-07-20 19:18:55] INFO root fetch - main [MainThread]: End processing [chainlit]: success
 [2023-07-20 19:18:55] INFO root fetch - main [MainThread]: Store serial: [18970050]
+[2023-07-20 19:24:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18970050]
+[2023-07-20 19:24:06] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-07-20 19:24:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: SMCC
+[2023-07-20 19:24:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gigagan-pytorch
+[2023-07-20 19:24:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pt-names
+[2023-07-20 19:24:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: irisml-tasks
+[2023-07-20 19:24:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyshake
+[2023-07-20 19:24:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tortoise-api
+[2023-07-20 19:24:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: iorclient
+[2023-07-20 19:24:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: selenium-simplification
+[2023-07-20 19:24:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: embykeeper
+[2023-07-20 19:24:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: runestone
+[2023-07-20 19:24:07] INFO root fetch - processPackages [SMCC]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-20 19:24:07] INFO root fetch - processPackages [tortoise-api]: New version: [0.0.7a0] Old Version: [0.0.7]
+[2023-07-20 19:24:07] WARNING root fetch - processPackages [pyshake]: Skipping, unable to determine old version
+[2023-07-20 19:24:07] INFO root fetch - processPackages [pyshake]: Start processing: spanishconjugator
+[2023-07-20 19:24:07] INFO root fetch - main [MainThread]: End processing [pyshake] error
+[2023-07-20 19:24:07] INFO root fetch - processPackages [embykeeper]: New version: [2.3.3] Old Version: [2.3.0]
+[2023-07-20 19:24:07] INFO root fetch - processPackages [gigagan-pytorch]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-07-20 19:24:07] INFO root fetch - processPackages [iorclient]: New version: [1.0.2] Old Version: [0.0.4]
+[2023-07-20 19:24:07] INFO root fetch - processPackages [irisml-tasks]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-07-20 19:24:07] INFO root fetch - processPackages [selenium-simplification]: New version: [0.0.1] Old Version: [0.0.0]
+[2023-07-20 19:24:07] INFO root fetch - processPackages [runestone]: New version: [7.0.6] Old Version: [7.0.5]
+[2023-07-20 19:24:07] INFO root fetch - processPackages [pt-names]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-07-20 19:24:07] INFO root fetch - processPackages [iorclient]: Downloading https://files.pythonhosted.org/packages/48/2b/92a9a5ecbdc7f68c5c5f322cc350560eacc6bbbce1fd8cf31b453323b5ee/iorclient-0.0.4.tar.gz
+[2023-07-20 19:24:07] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-07-20 19:24:07] INFO root fetch - processPackages [tortoise-api]: Downloading https://files.pythonhosted.org/packages/76/ee/ef78e1e89e6e842d343af61fd30b6bb1271ce8a1fdf5151d915c471dedb6/tortoise-api-0.0.7.tar.gz
+[2023-07-20 19:24:07] INFO root fetch - processPackages [embykeeper]: Downloading https://files.pythonhosted.org/packages/15/7d/c885b7046a186b3f386cfa44127c8721ef113f8cb39bad9c82cfea028248/embykeeper-2.3.0.tar.gz
+[2023-07-20 19:24:07] INFO root fetch - processPackages [SMCC]: Downloading https://files.pythonhosted.org/packages/c5/f6/36ab7a8daed70cc9c76a9e53b3935c9b5eebd453f88e83444658d39c3d8f/smcc-0.0.1.tar.gz
+[2023-07-20 19:24:07] INFO root fetch - processPackages [gigagan-pytorch]: Downloading https://files.pythonhosted.org/packages/73/5b/3ca728ff0a4f50e677cee4d8b1b884e994ffddbfe43f1e2a887989ee941d/gigagan-pytorch-0.1.1.tar.gz
+[2023-07-20 19:24:07] INFO root fetch - processPackages [irisml-tasks]: Downloading https://files.pythonhosted.org/packages/f9/c3/617dc10d3d86277422b1376712fbcae45013c1fe00a777e78eee45fb1f31/irisml-tasks-0.0.8.tar.gz
+[2023-07-20 19:24:07] INFO root fetch - processPackages [selenium-simplification]: Downloading https://files.pythonhosted.org/packages/74/76/ff4111b252a8be64af93238c99c0dac513c6a10d3dd1af44b2ef2019d352/selenium_simplification-0.0.0.tar.gz
+[2023-07-20 19:24:07] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2023-07-20 19:24:07] INFO root fetch - processPackages [pt-names]: Downloading https://files.pythonhosted.org/packages/c4/20/0ab8b9dc39b9eca0bdee4609328beedcb35b68d7e4f8f4102644cf58fff5/pt_names-0.1.3.tar.gz
+[2023-07-20 19:24:07] INFO root fetch - processPackages [runestone]: Downloading https://files.pythonhosted.org/packages/84/83/11644aac94416287801ef0f81d33430e926f8a18cb37283f6b164d2c01ea/runestone-7.0.5.tar.gz
+[2023-07-20 19:24:07] WARNING root fetch - processPackages [runestone]: Skipping package: exceeds size limit 29019530>=10485760
+[2023-07-20 19:24:07] INFO root fetch - processPackages [runestone]: Start processing: veetility
+[2023-07-20 19:24:07] INFO root fetch - main [MainThread]: End processing [runestone] error
+[2023-07-20 19:24:07] INFO root fetch - processPackages [iorclient]: Downloading https://files.pythonhosted.org/packages/1f/e8/ab202d30e96bb3b56b03d7a6070d4188877027c6065f5a8d0e57cf9053d6/iorclient-1.0.2.tar.gz
+[2023-07-20 19:24:07] INFO root fetch - processPackages [tortoise-api]: Downloading https://files.pythonhosted.org/packages/d2/19/40e6eb35fa956e86c51eddd55f7aead24eecf47917674afa52397d8c535e/tortoise-api-0.0.7a0.tar.gz
+[2023-07-20 19:24:08] INFO root fetch - processPackages [veetility]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-07-20 19:24:08] INFO root fetch - processPackages [embykeeper]: Downloading https://files.pythonhosted.org/packages/87/93/5aba65f4c06ae582219c9e15c1fc9fb6c2b09d57071c5bf2fee3b8a91395/embykeeper-2.3.3.tar.gz
+[2023-07-20 19:24:08] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2023-07-20 19:24:08] INFO root fetch - processPackages [gigagan-pytorch]: Downloading https://files.pythonhosted.org/packages/98/de/93cc3551daa853bc697e06894266086cd47a24757333db2b5319cff853da/gigagan-pytorch-0.1.2.tar.gz
+[2023-07-20 19:24:08] INFO root fetch - processPackages [SMCC]: Downloading https://files.pythonhosted.org/packages/60/7a/30b8d6eb80b25d11a5896ccbf451923f1ac23fca0ef5fc2f2f585525fa90/smcc-0.0.2.tar.gz
+[2023-07-20 19:24:08] INFO root fetch - processPackages [veetility]: Downloading https://files.pythonhosted.org/packages/b4/6c/d6775912e1f4b22333ed3a4fee91721e0069b8797ba5c31097f91a3135d6/veetility-0.1.98.tar.gz
+[2023-07-20 19:24:08] INFO root fetch - processPackages [iorclient]: executing diffoscope
+[2023-07-20 19:24:08] INFO root fetch - processPackages [iorclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iorclient-0.0.4.tar.gz tmp/iorclient-1.0.2.tar.gz --markdown 20230720/i/iorclient/0.0.4-1.0.2/diff.md --exclude *.pyd
+[2023-07-20 19:24:08] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-07-20 19:24:08] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230720/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-07-20 19:24:08] INFO root fetch - processPackages [tortoise-api]: executing diffoscope
+[2023-07-20 19:24:08] INFO root fetch - processPackages [tortoise-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tortoise-api-0.0.7.tar.gz tmp/tortoise-api-0.0.7a0.tar.gz --markdown 20230720/t/tortoise-api/0.0.7-0.0.7a0/diff.md --exclude *.pyd
+[2023-07-20 19:24:08] INFO root fetch - processPackages [irisml-tasks]: Downloading https://files.pythonhosted.org/packages/75/98/971cdf4f2e7e1a8cbd90c669ad60ca4117884f745d742a5d9911b79bef87/irisml-tasks-0.0.9.tar.gz
+[2023-07-20 19:24:08] INFO root fetch - processPackages [pt-names]: Downloading https://files.pythonhosted.org/packages/97/1e/c31dbf0076f99871cef4e78458c9bf2fe544e96ebe088f4eb55d755cf0f7/pt_names-0.1.4.tar.gz
+[2023-07-20 19:24:08] INFO root fetch - processPackages [gigagan-pytorch]: executing diffoscope
+[2023-07-20 19:24:08] INFO root fetch - processPackages [gigagan-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gigagan-pytorch-0.1.1.tar.gz tmp/gigagan-pytorch-0.1.2.tar.gz --markdown 20230720/g/gigagan-pytorch/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-07-20 19:24:08] INFO root fetch - processPackages [SMCC]: executing diffoscope
+[2023-07-20 19:24:08] INFO root fetch - processPackages [SMCC]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smcc-0.0.1.tar.gz tmp/smcc-0.0.2.tar.gz --markdown 20230720/S/SMCC/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-20 19:24:08] INFO root fetch - processPackages [embykeeper]: executing diffoscope
+[2023-07-20 19:24:08] INFO root fetch - processPackages [embykeeper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/embykeeper-2.3.0.tar.gz tmp/embykeeper-2.3.3.tar.gz --markdown 20230720/e/embykeeper/2.3.0-2.3.3/diff.md --exclude *.pyd
+[2023-07-20 19:24:08] INFO root fetch - processPackages [irisml-tasks]: executing diffoscope
+[2023-07-20 19:24:08] INFO root fetch - processPackages [irisml-tasks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/irisml-tasks-0.0.8.tar.gz tmp/irisml-tasks-0.0.9.tar.gz --markdown 20230720/i/irisml-tasks/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-07-20 19:24:08] INFO root fetch - processPackages [pt-names]: executing diffoscope
+[2023-07-20 19:24:08] INFO root fetch - processPackages [pt-names]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pt_names-0.1.3.tar.gz tmp/pt_names-0.1.4.tar.gz --markdown 20230720/p/pt-names/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-07-20 19:24:08] INFO root fetch - processPackages [veetility]: Downloading https://files.pythonhosted.org/packages/a0/4f/eb1359196e4e216d1ccfde231e462db3887b8a191ac90d104f3b45fa4169/veetility-0.1.99.tar.gz
+[2023-07-20 19:24:08] INFO root fetch - processPackages [veetility]: executing diffoscope
+[2023-07-20 19:24:08] INFO root fetch - processPackages [veetility]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/veetility-0.1.98.tar.gz tmp/veetility-0.1.99.tar.gz --markdown 20230720/v/veetility/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-07-20 19:24:08] INFO root fetch - processPackages [selenium-simplification]: Downloading https://files.pythonhosted.org/packages/20/27/09e85d25b38123ace56dea332be62bc1fc61d086c4000d51a9c036802a85/selenium_simplification-0.0.1.tar.gz
+[2023-07-20 19:24:09] WARNING root fetch - processPackages [selenium-simplification]: Skipping package: exceeds size limit 15671886>=10485760
+[2023-07-20 19:24:09] INFO root fetch - processPackages [selenium-simplification]: Start processing: spanishconjugator
+[2023-07-20 19:24:09] INFO root fetch - main [MainThread]: End processing [selenium-simplification] error
+[2023-07-20 19:24:09] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-07-20 19:24:09] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-07-20 19:24:09] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230720/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-07-20 19:24:09] INFO root fetch - processPackages [tortoise-api]: Remove: archive file [/home/abi/fetcher/tmp/tortoise-api-0.0.7.tar.gz]
+[2023-07-20 19:24:09] INFO root fetch - processPackages [tortoise-api]: Remove: archive file [/home/abi/fetcher/tmp/tortoise-api-0.0.7a0.tar.gz]
+[2023-07-20 19:24:09] INFO root fetch - processPackages [tortoise-api]: Start processing: cantaloupe
+[2023-07-20 19:24:09] INFO root fetch - main [MainThread]: End processing [tortoise-api]: success
+[2023-07-20 19:24:09] INFO root fetch - processPackages [gigagan-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/gigagan-pytorch-0.1.1.tar.gz]
+[2023-07-20 19:24:09] INFO root fetch - processPackages [gigagan-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/gigagan-pytorch-0.1.2.tar.gz]
+[2023-07-20 19:24:09] INFO root fetch - processPackages [gigagan-pytorch]: Start processing: pephubclient
+[2023-07-20 19:24:09] INFO root fetch - main [MainThread]: End processing [gigagan-pytorch]: success
+[2023-07-20 19:24:09] INFO root fetch - processPackages [pephubclient]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-07-20 19:24:09] INFO root fetch - processPackages [cantaloupe]: New version: [0.1.4] Old Version: [0.1.2]
+[2023-07-20 19:24:09] INFO root fetch - processPackages [pephubclient]: Downloading https://files.pythonhosted.org/packages/63/a9/0ae1608c4359e5b620fcd9339edc479a79a99c777a0b84463da826fe6700/pephubclient-0.1.0.tar.gz
+[2023-07-20 19:24:09] INFO root fetch - processPackages [SMCC]: Remove: archive file [/home/abi/fetcher/tmp/smcc-0.0.1.tar.gz]
+[2023-07-20 19:24:09] INFO root fetch - processPackages [SMCC]: Remove: archive file [/home/abi/fetcher/tmp/smcc-0.0.2.tar.gz]
+[2023-07-20 19:24:09] INFO root fetch - processPackages [SMCC]: Start processing: know-the-time
+[2023-07-20 19:24:09] INFO root fetch - main [MainThread]: End processing [SMCC]: success
+[2023-07-20 19:24:09] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.998.tar.gz]
+[2023-07-20 19:24:09] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.999.tar.gz]
+[2023-07-20 19:24:09] INFO root fetch - processPackages [spanishconjugator]: Start processing: naas
+[2023-07-20 19:24:09] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-07-20 19:24:10] INFO root fetch - processPackages [know-the-time]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-07-20 19:24:10] INFO root fetch - processPackages [iorclient]: Remove: archive file [/home/abi/fetcher/tmp/iorclient-0.0.4.tar.gz]
+[2023-07-20 19:24:10] INFO root fetch - processPackages [iorclient]: Remove: archive file [/home/abi/fetcher/tmp/iorclient-1.0.2.tar.gz]
+[2023-07-20 19:24:10] INFO root fetch - processPackages [iorclient]: Start processing: mailcat-ict
+[2023-07-20 19:24:10] INFO root fetch - main [MainThread]: End processing [iorclient]: success
+[2023-07-20 19:24:10] INFO root fetch - processPackages [veetility]: Remove: archive file [/home/abi/fetcher/tmp/veetility-0.1.98.tar.gz]
+[2023-07-20 19:24:10] INFO root fetch - processPackages [veetility]: Remove: archive file [/home/abi/fetcher/tmp/veetility-0.1.99.tar.gz]
+[2023-07-20 19:24:10] INFO root fetch - main [MainThread]: End processing [veetility]: success
+[2023-07-20 19:24:10] INFO root fetch - processPackages [pephubclient]: Downloading https://files.pythonhosted.org/packages/59/75/acd31ea2ee171f8a16b68f8270b8ebb9416c90e3f333a34a7b959b571ddd/pephubclient-0.1.1.tar.gz
+[2023-07-20 19:24:10] INFO root fetch - processPackages [irisml-tasks]: Remove: archive file [/home/abi/fetcher/tmp/irisml-tasks-0.0.8.tar.gz]
+[2023-07-20 19:24:10] INFO root fetch - processPackages [irisml-tasks]: Remove: archive file [/home/abi/fetcher/tmp/irisml-tasks-0.0.9.tar.gz]
+[2023-07-20 19:24:10] INFO root fetch - processPackages [cantaloupe]: Downloading https://files.pythonhosted.org/packages/c9/a0/42b9eb5eaa4fd5f9f3b760f34334376b720ab28b345b23d85bf7a9857413/cantaloupe-0.1.2.tar.gz
+[2023-07-20 19:24:10] INFO root fetch - main [MainThread]: End processing [irisml-tasks]: success
+[2023-07-20 19:24:10] INFO root fetch - processPackages [naas]: New version: [2.9.3] Old Version: [2.9.1]
+[2023-07-20 19:24:10] INFO root fetch - processPackages [embykeeper]: Remove: archive file [/home/abi/fetcher/tmp/embykeeper-2.3.0.tar.gz]
+[2023-07-20 19:24:10] INFO root fetch - processPackages [embykeeper]: Remove: archive file [/home/abi/fetcher/tmp/embykeeper-2.3.3.tar.gz]
+[2023-07-20 19:24:10] INFO root fetch - main [MainThread]: End processing [embykeeper]: success
+[2023-07-20 19:24:10] INFO root fetch - processPackages [pephubclient]: executing diffoscope
+[2023-07-20 19:24:10] INFO root fetch - processPackages [pephubclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pephubclient-0.1.0.tar.gz tmp/pephubclient-0.1.1.tar.gz --markdown 20230720/p/pephubclient/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-07-20 19:24:10] WARNING root fetch - processPackages [mailcat-ict]: Skipping, unable to determine old version
+[2023-07-20 19:24:10] INFO root fetch - main [MainThread]: End processing [mailcat-ict] error
+[2023-07-20 19:24:10] INFO root fetch - processPackages [pt-names]: Remove: archive file [/home/abi/fetcher/tmp/pt_names-0.1.3.tar.gz]
+[2023-07-20 19:24:10] INFO root fetch - processPackages [pt-names]: Remove: archive file [/home/abi/fetcher/tmp/pt_names-0.1.4.tar.gz]
+[2023-07-20 19:24:10] INFO root fetch - main [MainThread]: End processing [pt-names]: success
+[2023-07-20 19:24:10] INFO root fetch - processPackages [know-the-time]: Downloading https://files.pythonhosted.org/packages/2d/34/03dc2bd6cb22450767cfbc1858767c729b50845aee50a6145739960f44a9/know_the_time-0.0.1.tar.gz
+[2023-07-20 19:24:10] ERROR root fetch - processPackages [spanishconjugator]: Diffoscope failed: time="2023-07-20T19:24:09+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+/srv/diffoscope/bin/diffoscope: tmp/spanishconjugator-2.3.998.tar.gz: No such file or directory
+/srv/diffoscope/bin/diffoscope: tmp/spanishconjugator-2.3.999.tar.gz: No such file or directory
+
+[2023-07-20 19:24:10] INFO root fetch - main [MainThread]: End processing [spanishconjugator] error
+[2023-07-20 19:24:10] INFO root fetch - processPackages [naas]: Downloading https://files.pythonhosted.org/packages/0e/4c/dbdc0bf7e2eaee174b740c551b20d67cb0506f434d93cbe45ca0d19b1a97/naas-2.9.1.tar.gz
+[2023-07-20 19:24:10] INFO root fetch - processPackages [cantaloupe]: Downloading https://files.pythonhosted.org/packages/4f/ef/935cb8007cd63d9259555140df06a675738bd60ba5009abee52b1a3c6804/cantaloupe-0.1.4.tar.gz
+[2023-07-20 19:24:10] INFO root fetch - processPackages [know-the-time]: Downloading https://files.pythonhosted.org/packages/b1/18/875a2f3b2cf0a10d4f9ec19799d77573339ccf23f200cf9dfcaf1604e344/know_the_time-0.0.2.tar.gz
+[2023-07-20 19:24:10] INFO root fetch - processPackages [cantaloupe]: executing diffoscope
+[2023-07-20 19:24:10] INFO root fetch - processPackages [cantaloupe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cantaloupe-0.1.2.tar.gz tmp/cantaloupe-0.1.4.tar.gz --markdown 20230720/c/cantaloupe/0.1.2-0.1.4/diff.md --exclude *.pyd
+[2023-07-20 19:24:10] INFO root fetch - processPackages [naas]: Downloading https://files.pythonhosted.org/packages/a7/8d/3b9c38a078b48b7c43694d4a7dc0cd1554c6c937a82ac7e3a2980ca8fed7/naas-2.9.3.tar.gz
+[2023-07-20 19:24:10] INFO root fetch - processPackages [know-the-time]: executing diffoscope
+[2023-07-20 19:24:10] INFO root fetch - processPackages [know-the-time]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/know_the_time-0.0.1.tar.gz tmp/know_the_time-0.0.2.tar.gz --markdown 20230720/k/know-the-time/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-07-20 19:24:11] INFO root fetch - processPackages [naas]: executing diffoscope
+[2023-07-20 19:24:11] INFO root fetch - processPackages [naas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/naas-2.9.1.tar.gz tmp/naas-2.9.3.tar.gz --markdown 20230720/n/naas/2.9.1-2.9.3/diff.md --exclude *.pyd
+[2023-07-20 19:24:11] INFO root fetch - processPackages [pephubclient]: Remove: archive file [/home/abi/fetcher/tmp/pephubclient-0.1.0.tar.gz]
+[2023-07-20 19:24:11] INFO root fetch - processPackages [pephubclient]: Remove: archive file [/home/abi/fetcher/tmp/pephubclient-0.1.1.tar.gz]
+[2023-07-20 19:24:11] INFO root fetch - main [MainThread]: End processing [pephubclient]: success
+[2023-07-20 19:24:11] INFO root fetch - processPackages [cantaloupe]: Remove: archive file [/home/abi/fetcher/tmp/cantaloupe-0.1.2.tar.gz]
+[2023-07-20 19:24:11] INFO root fetch - processPackages [cantaloupe]: Remove: archive file [/home/abi/fetcher/tmp/cantaloupe-0.1.4.tar.gz]
+[2023-07-20 19:24:11] INFO root fetch - main [MainThread]: End processing [cantaloupe]: success
+[2023-07-20 19:24:11] INFO root fetch - processPackages [know-the-time]: Remove: archive file [/home/abi/fetcher/tmp/know_the_time-0.0.1.tar.gz]
+[2023-07-20 19:24:11] INFO root fetch - processPackages [know-the-time]: Remove: archive file [/home/abi/fetcher/tmp/know_the_time-0.0.2.tar.gz]
+[2023-07-20 19:24:11] INFO root fetch - main [MainThread]: End processing [know-the-time]: success
+[2023-07-20 19:24:12] INFO root fetch - processPackages [naas]: Remove: archive file [/home/abi/fetcher/tmp/naas-2.9.1.tar.gz]
+[2023-07-20 19:24:12] INFO root fetch - processPackages [naas]: Remove: archive file [/home/abi/fetcher/tmp/naas-2.9.3.tar.gz]
+[2023-07-20 19:24:12] INFO root fetch - main [MainThread]: End processing [naas]: success
+[2023-07-20 19:24:12] INFO root fetch - main [MainThread]: Store serial: [18970106]
