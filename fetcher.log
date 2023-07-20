@@ -22658,3 +22658,135 @@ AssertionError: tmp/threemystic_cloud_data_client-0.1.17.tar.gz does not exist
 [2023-07-20 22:09:15] INFO root fetch - processPackages [dcicsnovault]: Remove: archive file [/home/abi/fetcher/tmp/dcicsnovault-8.2.0.1b5.tar.gz]
 [2023-07-20 22:09:15] INFO root fetch - main [MainThread]: End processing [dcicsnovault]: success
 [2023-07-20 22:09:15] INFO root fetch - main [MainThread]: Store serial: [18972329]
+[2023-07-20 22:14:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18972329]
+[2023-07-20 22:14:25] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-07-20 22:14:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lancedb
+[2023-07-20 22:14:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: PlexLabExchange
+[2023-07-20 22:14:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: olympix-test-generator
+[2023-07-20 22:14:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: survey
+[2023-07-20 22:14:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: antifragility-schema
+[2023-07-20 22:14:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bentoml
+[2023-07-20 22:14:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nwebclient
+[2023-07-20 22:14:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: python-coiote
+[2023-07-20 22:14:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: aim-ui
+[2023-07-20 22:14:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: magik
+[2023-07-20 22:14:25] INFO root fetch - processPackages [olympix-test-generator]: New version: [0.5] Old Version: [0.4]
+[2023-07-20 22:14:25] INFO root fetch - processPackages [lancedb]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-20 22:14:25] INFO root fetch - processPackages [PlexLabExchange]: New version: [0.8.9] Old Version: [0.8.8]
+[2023-07-20 22:14:25] INFO root fetch - processPackages [antifragility-schema]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-07-20 22:14:25] INFO root fetch - processPackages [magik]: New version: [0.2.0] Old Version: [0.1.9]
+[2023-07-20 22:14:25] INFO root fetch - processPackages [aim-ui]: New version: [4.0.0a9] Old Version: [4.0.0a8]
+[2023-07-20 22:14:25] INFO root fetch - processPackages [nwebclient]: New version: [1.0.94] Old Version: [1.0.47]
+[2023-07-20 22:14:25] INFO root fetch - processPackages [survey]: New version: [4.5.3] Old Version: [4.5.2]
+[2023-07-20 22:14:25] INFO root fetch - processPackages [python-coiote]: New version: [2.5.0] Old Version: [2.4.0]
+[2023-07-20 22:14:25] INFO root fetch - processPackages [bentoml]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-20 22:14:25] INFO root fetch - processPackages [olympix-test-generator]: Downloading https://files.pythonhosted.org/packages/e3/26/755c75ae673d7e50ad5c56ca7455db0501f60ec37af29bd7baf69b7cf1ff/olympix-test-generator-0.4.tar.gz
+[2023-07-20 22:14:25] INFO root fetch - processPackages [aim-ui]: Downloading https://files.pythonhosted.org/packages/1b/27/ec8ff042712fc8f1ee017399fe7207ef06baaecaee7d6b1738df5c3467c0/aim-ui-4.0.0a8.tar.gz
+[2023-07-20 22:14:25] INFO root fetch - processPackages [nwebclient]: Downloading https://files.pythonhosted.org/packages/f8/5a/617896767d6ed09371dcf4b5a8041793a603d156e939d0b03b5fba1552d8/nwebclient-1.0.47.tar.gz
+[2023-07-20 22:14:25] INFO root fetch - processPackages [antifragility-schema]: Downloading https://files.pythonhosted.org/packages/b6/8d/63d58434cad1f3dbc1a1719e186ce787d3e38f95e210b4a8248d059f5da5/antifragility-schema-0.0.6.tar.gz
+[2023-07-20 22:14:26] WARNING root fetch - processPackages [aim-ui]: Skipping package: exceeds size limit 19414824>=10485760
+[2023-07-20 22:14:26] INFO root fetch - processPackages [aim-ui]: Start processing: lyrics-client
+[2023-07-20 22:14:26] INFO root fetch - main [MainThread]: End processing [aim-ui] error
+[2023-07-20 22:14:26] INFO root fetch - processPackages [lancedb]: Downloading https://files.pythonhosted.org/packages/3c/d6/efb0ca55e0b3cd024e23b27597b1f248bb3e6e960c96ae5d4ba4b1dbda1c/lancedb-0.1.8.tar.gz
+[2023-07-20 22:14:26] INFO root fetch - processPackages [magik]: Downloading https://files.pythonhosted.org/packages/da/36/b8f0d9a9085a840057b64d8aeb90373290711112e56d8e1f16181102a69e/magik-0.1.9.tar.gz
+[2023-07-20 22:14:26] INFO root fetch - processPackages [PlexLabExchange]: Downloading https://files.pythonhosted.org/packages/fd/4a/ef105f46511fe9edc2db04e7c07e2864a85f61dec342d0d0201c2af7381a/PlexLabExchange-0.8.8-py3-none-manylinux2014_x86_64.whl
+[2023-07-20 22:14:26] INFO root fetch - processPackages [lyrics-client]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-07-20 22:14:26] INFO root fetch - processPackages [survey]: Downloading https://files.pythonhosted.org/packages/94/5b/b3429928b766e38c155a8f01cae3ebec3c56760ed9dc73f172f04e28a926/survey-4.5.2.tar.gz
+[2023-07-20 22:14:26] INFO root fetch - processPackages [python-coiote]: Downloading https://files.pythonhosted.org/packages/d0/ba/eb24a37cb513ff391a560479ffa842db475bee27e826c961dceb6a337e95/python-coiote-2.4.0.tar.gz
+[2023-07-20 22:14:26] INFO root fetch - processPackages [bentoml]: Downloading https://files.pythonhosted.org/packages/03/dd/fcdee2ea476e419e1baa92d9614d8de2d843cd53fc82c4ccb1b5a86d7b46/bentoml-1.0.8.tar.gz
+[2023-07-20 22:14:26] WARNING root fetch - processPackages [PlexLabExchange]: Skipping package: exceeds size limit 26884039>=10485760
+[2023-07-20 22:14:26] INFO root fetch - processPackages [PlexLabExchange]: Start processing: dvag-mon-shared
+[2023-07-20 22:14:26] INFO root fetch - main [MainThread]: End processing [PlexLabExchange] error
+[2023-07-20 22:14:26] WARNING root fetch - processPackages [bentoml]: Skipping package: exceeds size limit 14352845>=10485760
+[2023-07-20 22:14:26] INFO root fetch - processPackages [bentoml]: Start processing: aim
+[2023-07-20 22:14:26] INFO root fetch - main [MainThread]: End processing [bentoml] error
+[2023-07-20 22:14:26] WARNING root fetch - processPackages [dvag-mon-shared]: Skipping, unable to determine old version
+[2023-07-20 22:14:26] INFO root fetch - processPackages [dvag-mon-shared]: Start processing: botocore-stubs
+[2023-07-20 22:14:26] INFO root fetch - main [MainThread]: End processing [dvag-mon-shared] error
+[2023-07-20 22:14:26] INFO root fetch - processPackages [nwebclient]: Downloading https://files.pythonhosted.org/packages/12/6e/d067b316a4ac231633403551f2c003e4ea1de809ac114b82af80cd324ec1/nwebclient-1.0.94.tar.gz
+[2023-07-20 22:14:26] INFO root fetch - processPackages [olympix-test-generator]: Downloading https://files.pythonhosted.org/packages/63/98/6d2a2e3c5f90592a9d7e3f621930a5e8cc28fb85142a836ae43aeb767f1a/olympix-test-generator-0.5.tar.gz
+[2023-07-20 22:14:26] INFO root fetch - processPackages [aim]: New version: [4.0.0a9] Old Version: [4.0.0a7]
+[2023-07-20 22:14:26] INFO root fetch - processPackages [lyrics-client]: Downloading https://files.pythonhosted.org/packages/24/69/289fa0567b42e3e5cda712b5915b49c5360b05fcf6de33e6152a25e7c3f8/lyrics_client-0.0.3.tar.gz
+[2023-07-20 22:14:26] INFO root fetch - processPackages [magik]: Downloading https://files.pythonhosted.org/packages/42/97/a4617a94d882b0e7993c442e6d21b499948534fdcafe218f91b147059462/magik-0.2.0.tar.gz
+[2023-07-20 22:14:26] INFO root fetch - processPackages [antifragility-schema]: Downloading https://files.pythonhosted.org/packages/a6/f4/26066e56536b962c3d6106d6b3b71c5950c3b60bcc495f79c28bc45f8e27/antifragility-schema-0.0.7.tar.gz
+[2023-07-20 22:14:26] INFO root fetch - processPackages [nwebclient]: executing diffoscope
+[2023-07-20 22:14:26] INFO root fetch - processPackages [nwebclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nwebclient-1.0.47.tar.gz tmp/nwebclient-1.0.94.tar.gz --markdown 20230720/n/nwebclient/1.0.47-1.0.94/diff.md --exclude *.pyd
+[2023-07-20 22:14:26] INFO root fetch - processPackages [botocore-stubs]: New version: [1.31.8] Old Version: [1.31.7]
+[2023-07-20 22:14:26] INFO root fetch - processPackages [olympix-test-generator]: executing diffoscope
+[2023-07-20 22:14:26] INFO root fetch - processPackages [olympix-test-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/olympix-test-generator-0.4.tar.gz tmp/olympix-test-generator-0.5.tar.gz --markdown 20230720/o/olympix-test-generator/0.4-0.5/diff.md --exclude *.pyd
+[2023-07-20 22:14:26] INFO root fetch - processPackages [lancedb]: Downloading https://files.pythonhosted.org/packages/c7/28/57475fd76b4d2e319857bcb2776a299b06694faf92c20d385c6b027e3567/lancedb-0.1.9.tar.gz
+[2023-07-20 22:14:26] INFO root fetch - processPackages [python-coiote]: Downloading https://files.pythonhosted.org/packages/f8/99/c7307ad93f3ade1a6bd330a3ef7490ad6dd2d2e77034e943b0dd52b480f5/python-coiote-2.5.0.tar.gz
+[2023-07-20 22:14:26] INFO root fetch - processPackages [antifragility-schema]: executing diffoscope
+[2023-07-20 22:14:26] INFO root fetch - processPackages [antifragility-schema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/antifragility-schema-0.0.6.tar.gz tmp/antifragility-schema-0.0.7.tar.gz --markdown 20230720/a/antifragility-schema/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-07-20 22:14:26] INFO root fetch - processPackages [botocore-stubs]: Downloading https://files.pythonhosted.org/packages/fb/43/5efbe265e8eecdd1ced435960094c507fd2d1872c95558c1bbe9e8619883/botocore_stubs-1.31.7.tar.gz
+[2023-07-20 22:14:26] INFO root fetch - processPackages [magik]: executing diffoscope
+[2023-07-20 22:14:26] INFO root fetch - processPackages [magik]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/magik-0.1.9.tar.gz tmp/magik-0.2.0.tar.gz --markdown 20230720/m/magik/0.1.9-0.2.0/diff.md --exclude *.pyd
+[2023-07-20 22:14:26] INFO root fetch - processPackages [survey]: Downloading https://files.pythonhosted.org/packages/5d/5d/d669db2d16b6c6129910b11eaa66440208f08a7f7e6976f9743376ef56d6/survey-4.5.3.tar.gz
+[2023-07-20 22:14:26] INFO root fetch - processPackages [lancedb]: executing diffoscope
+[2023-07-20 22:14:26] INFO root fetch - processPackages [lancedb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lancedb-0.1.8.tar.gz tmp/lancedb-0.1.9.tar.gz --markdown 20230720/l/lancedb/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-20 22:14:26] INFO root fetch - processPackages [aim]: executing diffoscope
+[2023-07-20 22:14:26] INFO root fetch - processPackages [aim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aim-4.0.0a7.tar.gz tmp/aim-4.0.0a9.tar.gz --markdown 20230720/a/aim/4.0.0a7-4.0.0a9/diff.md --exclude *.pyd
+[2023-07-20 22:14:26] INFO root fetch - processPackages [python-coiote]: executing diffoscope
+[2023-07-20 22:14:26] INFO root fetch - processPackages [python-coiote]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-coiote-2.4.0.tar.gz tmp/python-coiote-2.5.0.tar.gz --markdown 20230720/p/python-coiote/2.4.0-2.5.0/diff.md --exclude *.pyd
+[2023-07-20 22:14:26] INFO root fetch - processPackages [lyrics-client]: Downloading https://files.pythonhosted.org/packages/ff/ef/ad7ddda378a020d949cadde3ebe137547107ba09a25edbce054e177f75f5/lyrics_client-0.0.4.tar.gz
+[2023-07-20 22:14:27] INFO root fetch - processPackages [survey]: executing diffoscope
+[2023-07-20 22:14:27] INFO root fetch - processPackages [survey]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/survey-4.5.2.tar.gz tmp/survey-4.5.3.tar.gz --markdown 20230720/s/survey/4.5.2-4.5.3/diff.md --exclude *.pyd
+[2023-07-20 22:14:27] INFO root fetch - processPackages [lyrics-client]: executing diffoscope
+[2023-07-20 22:14:27] INFO root fetch - processPackages [lyrics-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lyrics_client-0.0.3.tar.gz tmp/lyrics_client-0.0.4.tar.gz --markdown 20230720/l/lyrics-client/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-07-20 22:14:27] INFO root fetch - processPackages [botocore-stubs]: Downloading https://files.pythonhosted.org/packages/ac/16/62380730e36f433fda5373027da18d6340712312b79b81e6a22a5220385e/botocore_stubs-1.31.8.tar.gz
+[2023-07-20 22:14:27] INFO root fetch - processPackages [botocore-stubs]: executing diffoscope
+[2023-07-20 22:14:27] INFO root fetch - processPackages [botocore-stubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore_stubs-1.31.7.tar.gz tmp/botocore_stubs-1.31.8.tar.gz --markdown 20230720/b/botocore-stubs/1.31.7-1.31.8/diff.md --exclude *.pyd
+[2023-07-20 22:14:27] INFO root fetch - processPackages [nwebclient]: Remove: archive file [/home/abi/fetcher/tmp/nwebclient-1.0.47.tar.gz]
+[2023-07-20 22:14:27] INFO root fetch - processPackages [nwebclient]: Remove: archive file [/home/abi/fetcher/tmp/nwebclient-1.0.94.tar.gz]
+[2023-07-20 22:14:27] INFO root fetch - processPackages [nwebclient]: Start processing: nwebclient
+[2023-07-20 22:14:27] INFO root fetch - main [MainThread]: End processing [nwebclient]: success
+[2023-07-20 22:14:27] INFO root fetch - processPackages [nwebclient]: New version: [1.0.94] Old Version: [1.0.47]
+[2023-07-20 22:14:27] INFO root fetch - processPackages [olympix-test-generator]: Remove: archive file [/home/abi/fetcher/tmp/olympix-test-generator-0.4.tar.gz]
+[2023-07-20 22:14:27] INFO root fetch - processPackages [olympix-test-generator]: Remove: archive file [/home/abi/fetcher/tmp/olympix-test-generator-0.5.tar.gz]
+[2023-07-20 22:14:27] INFO root fetch - processPackages [olympix-test-generator]: Start processing: dissect.target
+[2023-07-20 22:14:27] INFO root fetch - main [MainThread]: End processing [olympix-test-generator]: success
+[2023-07-20 22:14:28] INFO root fetch - processPackages [dissect.target]: New version: [3.9.dev9] Old Version: [3.9.dev8]
+[2023-07-20 22:14:28] INFO root fetch - processPackages [nwebclient]: Downloading https://files.pythonhosted.org/packages/f8/5a/617896767d6ed09371dcf4b5a8041793a603d156e939d0b03b5fba1552d8/nwebclient-1.0.47.tar.gz
+[2023-07-20 22:14:28] INFO root fetch - processPackages [dissect.target]: Downloading https://files.pythonhosted.org/packages/b1/a4/24f9ce2eb6a1913b82598a01b68b634c9fe5535a9484bff3d7d56a0ae929/dissect.target-3.9.dev8.tar.gz
+[2023-07-20 22:14:28] WARNING root fetch - processPackages [dissect.target]: Skipping package: exceeds size limit 63555307>=10485760
+[2023-07-20 22:14:28] INFO root fetch - processPackages [dissect.target]: Start processing: hidden-py
+[2023-07-20 22:14:28] INFO root fetch - main [MainThread]: End processing [dissect.target] error
+[2023-07-20 22:14:28] INFO root fetch - processPackages [antifragility-schema]: Remove: archive file [/home/abi/fetcher/tmp/antifragility-schema-0.0.6.tar.gz]
+[2023-07-20 22:14:28] INFO root fetch - processPackages [antifragility-schema]: Remove: archive file [/home/abi/fetcher/tmp/antifragility-schema-0.0.7.tar.gz]
+[2023-07-20 22:14:28] INFO root fetch - main [MainThread]: End processing [antifragility-schema]: success
+[2023-07-20 22:14:28] INFO root fetch - processPackages [aim]: Remove: archive file [/home/abi/fetcher/tmp/aim-4.0.0a7.tar.gz]
+[2023-07-20 22:14:28] INFO root fetch - processPackages [aim]: Remove: archive file [/home/abi/fetcher/tmp/aim-4.0.0a9.tar.gz]
+[2023-07-20 22:14:28] INFO root fetch - main [MainThread]: End processing [aim]: success
+[2023-07-20 22:14:28] INFO root fetch - processPackages [hidden-py]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-07-20 22:14:28] INFO root fetch - processPackages [nwebclient]: Downloading https://files.pythonhosted.org/packages/12/6e/d067b316a4ac231633403551f2c003e4ea1de809ac114b82af80cd324ec1/nwebclient-1.0.94.tar.gz
+[2023-07-20 22:14:28] INFO root fetch - processPackages [magik]: Remove: archive file [/home/abi/fetcher/tmp/magik-0.1.9.tar.gz]
+[2023-07-20 22:14:28] INFO root fetch - processPackages [magik]: Remove: archive file [/home/abi/fetcher/tmp/magik-0.2.0.tar.gz]
+[2023-07-20 22:14:28] INFO root fetch - main [MainThread]: End processing [magik]: success
+[2023-07-20 22:14:28] INFO root fetch - processPackages [nwebclient]: executing diffoscope
+[2023-07-20 22:14:28] INFO root fetch - processPackages [nwebclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nwebclient-1.0.47.tar.gz tmp/nwebclient-1.0.94.tar.gz --markdown 20230720/n/nwebclient/1.0.47-1.0.94/diff.md --exclude *.pyd
+[2023-07-20 22:14:28] INFO root fetch - processPackages [python-coiote]: Remove: archive file [/home/abi/fetcher/tmp/python-coiote-2.4.0.tar.gz]
+[2023-07-20 22:14:28] INFO root fetch - processPackages [python-coiote]: Remove: archive file [/home/abi/fetcher/tmp/python-coiote-2.5.0.tar.gz]
+[2023-07-20 22:14:28] INFO root fetch - main [MainThread]: End processing [python-coiote]: success
+[2023-07-20 22:14:28] INFO root fetch - processPackages [hidden-py]: Downloading https://files.pythonhosted.org/packages/6a/de/2b4e8bcff07e63be0d2d5acf0871d8134a13092bed8068018c24f5244558/hidden-py-1.0.8.tar.gz
+[2023-07-20 22:14:28] INFO root fetch - processPackages [lancedb]: Remove: archive file [/home/abi/fetcher/tmp/lancedb-0.1.8.tar.gz]
+[2023-07-20 22:14:28] INFO root fetch - processPackages [lancedb]: Remove: archive file [/home/abi/fetcher/tmp/lancedb-0.1.9.tar.gz]
+[2023-07-20 22:14:28] INFO root fetch - main [MainThread]: End processing [lancedb]: success
+[2023-07-20 22:14:28] INFO root fetch - processPackages [lyrics-client]: Remove: archive file [/home/abi/fetcher/tmp/lyrics_client-0.0.3.tar.gz]
+[2023-07-20 22:14:28] INFO root fetch - processPackages [lyrics-client]: Remove: archive file [/home/abi/fetcher/tmp/lyrics_client-0.0.4.tar.gz]
+[2023-07-20 22:14:28] INFO root fetch - main [MainThread]: End processing [lyrics-client]: success
+[2023-07-20 22:14:28] INFO root fetch - processPackages [hidden-py]: Downloading https://files.pythonhosted.org/packages/0f/e4/e1b1d3f30c3654230bb45d2820cd565cbb0951456870623841c5acf574a8/hidden-py-1.0.9.tar.gz
+[2023-07-20 22:14:28] INFO root fetch - processPackages [botocore-stubs]: Remove: archive file [/home/abi/fetcher/tmp/botocore_stubs-1.31.7.tar.gz]
+[2023-07-20 22:14:28] INFO root fetch - processPackages [botocore-stubs]: Remove: archive file [/home/abi/fetcher/tmp/botocore_stubs-1.31.8.tar.gz]
+[2023-07-20 22:14:28] INFO root fetch - main [MainThread]: End processing [botocore-stubs]: success
+[2023-07-20 22:14:28] INFO root fetch - processPackages [survey]: Remove: archive file [/home/abi/fetcher/tmp/survey-4.5.2.tar.gz]
+[2023-07-20 22:14:28] INFO root fetch - processPackages [survey]: Remove: archive file [/home/abi/fetcher/tmp/survey-4.5.3.tar.gz]
+[2023-07-20 22:14:28] INFO root fetch - main [MainThread]: End processing [survey]: success
+[2023-07-20 22:14:28] INFO root fetch - processPackages [hidden-py]: executing diffoscope
+[2023-07-20 22:14:28] INFO root fetch - processPackages [hidden-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hidden-py-1.0.8.tar.gz tmp/hidden-py-1.0.9.tar.gz --markdown 20230720/h/hidden-py/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-07-20 22:14:29] INFO root fetch - processPackages [nwebclient]: Remove: archive file [/home/abi/fetcher/tmp/nwebclient-1.0.47.tar.gz]
+[2023-07-20 22:14:29] INFO root fetch - processPackages [nwebclient]: Remove: archive file [/home/abi/fetcher/tmp/nwebclient-1.0.94.tar.gz]
+[2023-07-20 22:14:29] INFO root fetch - main [MainThread]: End processing [nwebclient]: success
+[2023-07-20 22:14:29] INFO root fetch - processPackages [hidden-py]: Remove: archive file [/home/abi/fetcher/tmp/hidden-py-1.0.8.tar.gz]
+[2023-07-20 22:14:29] INFO root fetch - processPackages [hidden-py]: Remove: archive file [/home/abi/fetcher/tmp/hidden-py-1.0.9.tar.gz]
+[2023-07-20 22:14:29] INFO root fetch - main [MainThread]: End processing [hidden-py]: success
+[2023-07-20 22:14:29] INFO root fetch - main [MainThread]: Store serial: [18972388]
