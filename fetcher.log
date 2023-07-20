@@ -4302,3 +4302,106 @@ AssertionError: tmp/verify4py-test-0.1.7.tar.gz does not exist
 [2023-07-20 11:45:15] INFO root fetch - processPackages [odoo14-addon-shopfloor-mobile-base]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_shopfloor_mobile_base-14.0.3.9.1-py3-none-any.whl.zip]
 [2023-07-20 11:45:15] INFO root fetch - main [MainThread]: End processing [odoo14-addon-shopfloor-mobile-base]: success
 [2023-07-20 11:45:15] INFO root fetch - main [MainThread]: Store serial: [18964523]
+[2023-07-20 11:50:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18964523]
+[2023-07-20 11:50:24] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-07-20 11:50:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aicoder
+[2023-07-20 11:50:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: coderfastapi
+[2023-07-20 11:50:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tensorflow-serving-api
+[2023-07-20 11:50:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tensorflow-serving-api-gpu
+[2023-07-20 11:50:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: frykit
+[2023-07-20 11:50:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lbt-recipes
+[2023-07-20 11:50:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: unicef-power-query
+[2023-07-20 11:50:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: kiara-plugin.streamlit
+[2023-07-20 11:50:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: XenAPI
+[2023-07-20 11:50:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: aisee
+[2023-07-20 11:50:24] INFO root fetch - processPackages [XenAPI]: New version: [23.8.0] Old Version: [23.17.0]
+[2023-07-20 11:50:24] INFO root fetch - processPackages [frykit]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-07-20 11:50:24] INFO root fetch - processPackages [tensorflow-serving-api-gpu]: New version: [2.9.3] Old Version: [2.9.2]
+[2023-07-20 11:50:24] INFO root fetch - processPackages [unicef-power-query]: New version: [0.3.1] Old Version: [0.3]
+[2023-07-20 11:50:25] INFO root fetch - processPackages [aicoder]: New version: [0.4.0] Old Version: [0.3.9]
+[2023-07-20 11:50:25] INFO root fetch - processPackages [aisee]: New version: [0.1.0] Old Version: [0.0.2]
+[2023-07-20 11:50:25] INFO root fetch - processPackages [kiara-plugin.streamlit]: New version: [0.4.6] Old Version: [0.4.4]
+[2023-07-20 11:50:25] INFO root fetch - processPackages [coderfastapi]: New version: [2.1.0] Old Version: [2.0.0]
+[2023-07-20 11:50:25] INFO root fetch - processPackages [tensorflow-serving-api]: New version: [2.9.3] Old Version: [2.9.2]
+[2023-07-20 11:50:25] INFO root fetch - processPackages [lbt-recipes]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-07-20 11:50:25] INFO root fetch - processPackages [XenAPI]: Downloading https://files.pythonhosted.org/packages/3a/bb/5e054e4bd2d896bd89b626c473f34a30e162997f6be563e0ac6b3976d0c4/XenAPI-23.17.0.tar.gz
+[2023-07-20 11:50:25] INFO root fetch - processPackages [aicoder]: Downloading https://files.pythonhosted.org/packages/ea/08/4a2976c118906b021e6ccf502f9e4632f028a9bd653358c313258fa582b4/aicoder-0.3.9-py3-none-any.whl
+[2023-07-20 11:50:25] INFO root fetch - processPackages [tensorflow-serving-api-gpu]: Downloading https://files.pythonhosted.org/packages/a5/30/c16fbe62d84fb57f812c99ff027cd7e184d9f4c7a3c5635f4f867975f357/tensorflow_serving_api_gpu-2.9.2-py2.py3-none-any.whl
+[2023-07-20 11:50:25] INFO root fetch - processPackages [unicef-power-query]: Downloading https://files.pythonhosted.org/packages/8d/2f/87d3e661562a541fc60ae10d35ac97ccbd5a10e0a97e740100e9042f086f/unicef-power-query-0.3.tar.gz
+[2023-07-20 11:50:25] INFO root fetch - processPackages [lbt-recipes]: executing diffoscope
+[2023-07-20 11:50:25] INFO root fetch - processPackages [lbt-recipes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbt-recipes-0.9.0.tar.gz tmp/lbt-recipes-0.9.1.tar.gz --markdown 20230720/l/lbt-recipes/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-07-20 11:50:25] INFO root fetch - processPackages [frykit]: Downloading https://files.pythonhosted.org/packages/8c/52/dee1b228e8168ba00b353166f5d0e4fa5ed6928e6d49c6d5d42b0c914504/frykit-0.2.1.tar.gz
+[2023-07-20 11:50:25] INFO root fetch - processPackages [aisee]: Downloading https://files.pythonhosted.org/packages/c4/bc/1e3635f00cf414b5a8a3d83ff96fddb9af43a59a9312cbbf13e92c6237f3/aisee-0.0.2.tar.gz
+[2023-07-20 11:50:25] INFO root fetch - processPackages [tensorflow-serving-api]: Downloading https://files.pythonhosted.org/packages/dd/4f/419cb1e87abd0220c270fee4c493dd910acdb511ecb3533e0c280c8d36c1/tensorflow_serving_api-2.9.2-py2.py3-none-any.whl
+[2023-07-20 11:50:25] INFO root fetch - processPackages [coderfastapi]: Downloading https://files.pythonhosted.org/packages/83/e9/64beb2e55b8a37de08bb1ae76e4829701335684ea0246a70e9ad515aed4d/coderfastapi-2.0.0.tar.gz
+[2023-07-20 11:50:25] INFO root fetch - processPackages [kiara-plugin.streamlit]: Downloading https://files.pythonhosted.org/packages/88/23/af987b6b0506714a61c71b9a46df276f58b5697347e85eb08aa046e42a40/kiara_plugin.streamlit-0.4.4.tar.gz
+[2023-07-20 11:50:25] WARNING root fetch - processPackages [frykit]: Skipping package: exceeds size limit 40260134>=10485760
+[2023-07-20 11:50:25] INFO root fetch - processPackages [frykit]: Start processing: irene-pro
+[2023-07-20 11:50:25] INFO root fetch - main [MainThread]: End processing [frykit] error
+[2023-07-20 11:50:25] INFO root fetch - processPackages [irene-pro]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-07-20 11:50:25] INFO root fetch - processPackages [XenAPI]: Downloading https://files.pythonhosted.org/packages/4c/4d/34f52619eda4ac966e9481a6a312f5235f5c58584f270e41503cc1237352/XenAPI-23.8.0.tar.gz
+[2023-07-20 11:50:25] INFO root fetch - processPackages [irene-pro]: Downloading https://files.pythonhosted.org/packages/46/8e/6e730d1043dbdc8f6c7827c01bb663f8fb6221931b2e45076f60fdc18f79/irene_pro-0.1.8.tar.gz
+[2023-07-20 11:50:25] INFO root fetch - processPackages [tensorflow-serving-api-gpu]: Downloading https://files.pythonhosted.org/packages/72/a1/1d985b70c9460b850e2b20b7f9c7400e932a127ef16173c63971c3f4736a/tensorflow_serving_api_gpu-2.9.3-py2.py3-none-any.whl
+[2023-07-20 11:50:25] INFO root fetch - processPackages [aicoder]: Downloading https://files.pythonhosted.org/packages/46/6f/f5c7a769e357b14d9b0906b0f0f1522157660870fc20c391ab294f1db7c6/aicoder-0.4.0-py3-none-any.whl
+[2023-07-20 11:50:25] INFO root fetch - processPackages [coderfastapi]: Downloading https://files.pythonhosted.org/packages/8a/21/67b0bcb12f2e188631d3029bf444b454f0e23616165d27eb74d77967aea6/coderfastapi-2.1.0.tar.gz
+[2023-07-20 11:50:25] INFO root fetch - processPackages [aisee]: Downloading https://files.pythonhosted.org/packages/dd/1f/c8dbe72b588306c5f4d36f7a53e8f709f7fff552e615af7b2f91740038c6/aisee-0.1.0.tar.gz
+[2023-07-20 11:50:25] INFO root fetch - processPackages [unicef-power-query]: Downloading https://files.pythonhosted.org/packages/e7/a3/26b4c1f54df6d90c9b68497dc338e46c9dfe67d0ddea06b9d907bbbe6901/unicef-power-query-0.3.1.tar.gz
+[2023-07-20 11:50:25] INFO root fetch - processPackages [tensorflow-serving-api]: Downloading https://files.pythonhosted.org/packages/e2/3d/f692757268766c25b643541fa0991d646c3660c5b55d17054d9bfd390bf4/tensorflow_serving_api-2.9.3-py2.py3-none-any.whl
+[2023-07-20 11:50:25] INFO root fetch - processPackages [XenAPI]: executing diffoscope
+[2023-07-20 11:50:25] INFO root fetch - processPackages [XenAPI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/XenAPI-23.17.0.tar.gz tmp/XenAPI-23.8.0.tar.gz --markdown 20230720/X/XenAPI/23.17.0-23.8.0/diff.md --exclude *.pyd
+[2023-07-20 11:50:26] INFO root fetch - processPackages [kiara-plugin.streamlit]: Downloading https://files.pythonhosted.org/packages/34/14/ebe555ee472c6dbe3b23dcc195ff81b1e09781c1a47d39ed313abc6ea79e/kiara_plugin.streamlit-0.4.6.tar.gz
+[2023-07-20 11:50:26] INFO root fetch - processPackages [lbt-recipes]: Remove: archive file [/home/abi/fetcher/tmp/lbt-recipes-0.9.0.tar.gz]
+[2023-07-20 11:50:26] INFO root fetch - processPackages [lbt-recipes]: Remove: archive file [/home/abi/fetcher/tmp/lbt-recipes-0.9.1.tar.gz]
+[2023-07-20 11:50:26] INFO root fetch - processPackages [lbt-recipes]: Start processing: kodexa
+[2023-07-20 11:50:26] INFO root fetch - main [MainThread]: End processing [lbt-recipes]: success
+[2023-07-20 11:50:26] INFO root fetch - processPackages [aicoder]: executing diffoscope
+[2023-07-20 11:50:26] INFO root fetch - processPackages [aicoder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aicoder-0.3.9-py3-none-any.whl.zip tmp/aicoder-0.4.0-py3-none-any.whl.zip --markdown 20230720/a/aicoder/0.3.9-0.4.0/diff.md --exclude *.pyd
+[2023-07-20 11:50:26] INFO root fetch - processPackages [tensorflow-serving-api-gpu]: executing diffoscope
+[2023-07-20 11:50:26] INFO root fetch - processPackages [tensorflow-serving-api-gpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensorflow_serving_api_gpu-2.9.2-py2.py3-none-any.whl.zip tmp/tensorflow_serving_api_gpu-2.9.3-py2.py3-none-any.whl.zip --markdown 20230720/t/tensorflow-serving-api-gpu/2.9.2-2.9.3/diff.md --exclude *.pyd
+[2023-07-20 11:50:26] INFO root fetch - processPackages [aisee]: executing diffoscope
+[2023-07-20 11:50:26] INFO root fetch - processPackages [coderfastapi]: executing diffoscope
+[2023-07-20 11:50:26] INFO root fetch - processPackages [aisee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aisee-0.0.2.tar.gz tmp/aisee-0.1.0.tar.gz --markdown 20230720/a/aisee/0.0.2-0.1.0/diff.md --exclude *.pyd
+[2023-07-20 11:50:26] INFO root fetch - processPackages [coderfastapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coderfastapi-2.0.0.tar.gz tmp/coderfastapi-2.1.0.tar.gz --markdown 20230720/c/coderfastapi/2.0.0-2.1.0/diff.md --exclude *.pyd
+[2023-07-20 11:50:26] INFO root fetch - processPackages [kodexa]: New version: [6.3.35602636176] Old Version: [6.3.35602496840]
+[2023-07-20 11:50:26] INFO root fetch - processPackages [tensorflow-serving-api]: executing diffoscope
+[2023-07-20 11:50:26] INFO root fetch - processPackages [tensorflow-serving-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensorflow_serving_api-2.9.2-py2.py3-none-any.whl.zip tmp/tensorflow_serving_api-2.9.3-py2.py3-none-any.whl.zip --markdown 20230720/t/tensorflow-serving-api/2.9.2-2.9.3/diff.md --exclude *.pyd
+[2023-07-20 11:50:26] INFO root fetch - processPackages [irene-pro]: Downloading https://files.pythonhosted.org/packages/f8/06/483ee1c1417771faaa0b5e6987ea6181d55523b74640d4bac8c5fe47cd49/irene_pro-0.1.9.tar.gz
+[2023-07-20 11:50:26] INFO root fetch - processPackages [unicef-power-query]: executing diffoscope
+[2023-07-20 11:50:26] INFO root fetch - processPackages [unicef-power-query]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unicef-power-query-0.3.tar.gz tmp/unicef-power-query-0.3.1.tar.gz --markdown 20230720/u/unicef-power-query/0.3-0.3.1/diff.md --exclude *.pyd
+[2023-07-20 11:50:26] INFO root fetch - processPackages [kiara-plugin.streamlit]: executing diffoscope
+[2023-07-20 11:50:26] INFO root fetch - processPackages [kiara-plugin.streamlit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kiara_plugin.streamlit-0.4.4.tar.gz tmp/kiara_plugin.streamlit-0.4.6.tar.gz --markdown 20230720/k/kiara-plugin.streamlit/0.4.4-0.4.6/diff.md --exclude *.pyd
+[2023-07-20 11:50:26] INFO root fetch - processPackages [irene-pro]: executing diffoscope
+[2023-07-20 11:50:26] INFO root fetch - processPackages [irene-pro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/irene_pro-0.1.8.tar.gz tmp/irene_pro-0.1.9.tar.gz --markdown 20230720/i/irene-pro/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-07-20 11:50:26] INFO root fetch - processPackages [kodexa]: executing diffoscope
+[2023-07-20 11:50:26] INFO root fetch - processPackages [kodexa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230720:/home/abi/fetcher/20230720:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kodexa-6.3.35602496840.tar.gz tmp/kodexa-6.3.35602636176.tar.gz --markdown 20230720/k/kodexa/6.3.35602496840-6.3.35602636176/diff.md --exclude *.pyd
+[2023-07-20 11:50:27] INFO root fetch - processPackages [tensorflow-serving-api-gpu]: Remove: archive file [/home/abi/fetcher/tmp/tensorflow_serving_api_gpu-2.9.2-py2.py3-none-any.whl.zip]
+[2023-07-20 11:50:27] INFO root fetch - processPackages [tensorflow-serving-api-gpu]: Remove: archive file [/home/abi/fetcher/tmp/tensorflow_serving_api_gpu-2.9.3-py2.py3-none-any.whl.zip]
+[2023-07-20 11:50:27] INFO root fetch - main [MainThread]: End processing [tensorflow-serving-api-gpu]: success
+[2023-07-20 11:50:27] INFO root fetch - processPackages [aicoder]: Remove: archive file [/home/abi/fetcher/tmp/aicoder-0.3.9-py3-none-any.whl.zip]
+[2023-07-20 11:50:27] INFO root fetch - processPackages [aicoder]: Remove: archive file [/home/abi/fetcher/tmp/aicoder-0.4.0-py3-none-any.whl.zip]
+[2023-07-20 11:50:27] INFO root fetch - main [MainThread]: End processing [aicoder]: success
+[2023-07-20 11:50:27] INFO root fetch - processPackages [XenAPI]: Remove: archive file [/home/abi/fetcher/tmp/XenAPI-23.17.0.tar.gz]
+[2023-07-20 11:50:27] INFO root fetch - processPackages [XenAPI]: Remove: archive file [/home/abi/fetcher/tmp/XenAPI-23.8.0.tar.gz]
+[2023-07-20 11:50:27] INFO root fetch - main [MainThread]: End processing [XenAPI]: success
+[2023-07-20 11:50:27] INFO root fetch - processPackages [aisee]: Remove: archive file [/home/abi/fetcher/tmp/aisee-0.0.2.tar.gz]
+[2023-07-20 11:50:27] INFO root fetch - processPackages [aisee]: Remove: archive file [/home/abi/fetcher/tmp/aisee-0.1.0.tar.gz]
+[2023-07-20 11:50:27] INFO root fetch - main [MainThread]: End processing [aisee]: success
+[2023-07-20 11:50:27] INFO root fetch - processPackages [tensorflow-serving-api]: Remove: archive file [/home/abi/fetcher/tmp/tensorflow_serving_api-2.9.2-py2.py3-none-any.whl.zip]
+[2023-07-20 11:50:27] INFO root fetch - processPackages [tensorflow-serving-api]: Remove: archive file [/home/abi/fetcher/tmp/tensorflow_serving_api-2.9.3-py2.py3-none-any.whl.zip]
+[2023-07-20 11:50:27] INFO root fetch - main [MainThread]: End processing [tensorflow-serving-api]: success
+[2023-07-20 11:50:27] INFO root fetch - processPackages [coderfastapi]: Remove: archive file [/home/abi/fetcher/tmp/coderfastapi-2.0.0.tar.gz]
+[2023-07-20 11:50:27] INFO root fetch - processPackages [coderfastapi]: Remove: archive file [/home/abi/fetcher/tmp/coderfastapi-2.1.0.tar.gz]
+[2023-07-20 11:50:27] INFO root fetch - main [MainThread]: End processing [coderfastapi]: success
+[2023-07-20 11:50:27] INFO root fetch - processPackages [irene-pro]: Remove: archive file [/home/abi/fetcher/tmp/irene_pro-0.1.8.tar.gz]
+[2023-07-20 11:50:27] INFO root fetch - processPackages [irene-pro]: Remove: archive file [/home/abi/fetcher/tmp/irene_pro-0.1.9.tar.gz]
+[2023-07-20 11:50:27] INFO root fetch - main [MainThread]: End processing [irene-pro]: success
+[2023-07-20 11:50:27] INFO root fetch - processPackages [kodexa]: Remove: archive file [/home/abi/fetcher/tmp/kodexa-6.3.35602496840.tar.gz]
+[2023-07-20 11:50:27] INFO root fetch - processPackages [kodexa]: Remove: archive file [/home/abi/fetcher/tmp/kodexa-6.3.35602636176.tar.gz]
+[2023-07-20 11:50:27] INFO root fetch - main [MainThread]: End processing [kodexa]: success
+[2023-07-20 11:50:28] INFO root fetch - processPackages [kiara-plugin.streamlit]: Remove: archive file [/home/abi/fetcher/tmp/kiara_plugin.streamlit-0.4.4.tar.gz]
+[2023-07-20 11:50:28] INFO root fetch - processPackages [kiara-plugin.streamlit]: Remove: archive file [/home/abi/fetcher/tmp/kiara_plugin.streamlit-0.4.6.tar.gz]
+[2023-07-20 11:50:28] INFO root fetch - main [MainThread]: End processing [kiara-plugin.streamlit]: success
+[2023-07-20 11:50:28] INFO root fetch - processPackages [unicef-power-query]: Remove: archive file [/home/abi/fetcher/tmp/unicef-power-query-0.3.tar.gz]
+[2023-07-20 11:50:28] INFO root fetch - processPackages [unicef-power-query]: Remove: archive file [/home/abi/fetcher/tmp/unicef-power-query-0.3.1.tar.gz]
+[2023-07-20 11:50:28] INFO root fetch - main [MainThread]: End processing [unicef-power-query]: success
+[2023-07-20 11:50:28] INFO root fetch - main [MainThread]: Store serial: [18964562]
